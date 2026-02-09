@@ -1,0 +1,85 @@
+{
+  "ville": "",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "candidats": [],
+  "categories": [
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "tramway",
+          "nom": "Tramway & Métro",
+          "propositions": {}
+        },
+        {
+          "id": "velo",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {}
+        },
+        {
+          "id": "tarifs",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {}
+        },
+        {
+          "id": "parking",
+          "nom": "Parkings & Stationnement",
+          "propositions": {}
+        },
+        {
+          "id": "pietonisation",
+          "nom": "Piétonisation & Espaces publics",
+          "propositions": {}
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {}
+        },
+        {
+          "id": "dechets",
+          "nom": "Déchets & Compostage",
+          "propositions": {}
+        },
+        {
+          "id": "energie-renouvelable",
+          "nom": "Énergie renouvelable",
+          "propositions": {}
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {}
+        },
+        {
+          "id": "agriculture-urbaine",
+          "nom": "Agriculture urbaine",
+          "propositions": {}
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "propositions": []
+    },
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "propositions": []
+    },
+    {
+      "id": "economie",
+      "nom": "Économie locale & Emploi",
+      "propositions": []
+    }
+  ]
+}

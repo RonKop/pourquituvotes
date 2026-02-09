@@ -1,0 +1,944 @@
+{
+  "ville": "Tours",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "denis",
+      "nom": "Emmanuel Denis",
+      "liste": "Tours Inspire 2026 (EELV/PS/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "quinton",
+      "nom": "Marie Quinton",
+      "liste": "Faire mieux pour Tours (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bouchet",
+      "nom": "Christophe Bouchet",
+      "liste": "Tours pour tous (Centre-droit/LR)",
+      "programmeUrl": "https://tourspourtous.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "alfandari",
+      "nom": "Henri Alfandari",
+      "liste": "Naturellement Tours (Horizons)",
+      "programmeUrl": "https://www.naturellement-tours.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "pierre",
+      "nom": "Benoist Pierre",
+      "liste": "Je m'engage pour Tours (Divers centre)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "nikolic",
+      "nom": "Aleksandar Nikolic",
+      "liste": "Rassemblement National",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rouzier",
+      "nom": "Bertrand Rouzier",
+      "liste": "Tours, vivante ! (PRG)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "jouhannaud",
+      "nom": "Thomas Jouhannaud",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "denis": {
+              "texte": "Maintien de la ligne actuelle avec accent sur la prévention plutôt que l'augmentation massive des effectifs",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/municipales-a-tours-surenchere-de-campagne-autour-de-la-police-municipale/"
+            },
+            "quinton": null,
+            "bouchet": {
+              "texte": "Porter les effectifs de la police municipale à 130 agents (contre 93 actuellement)",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/municipales-a-tours-surenchere-de-campagne-autour-de-la-police-municipale/"
+            },
+            "alfandari": {
+              "texte": "Augmenter immédiatement les effectifs à 120 agents avec recrutement plus attractif",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/municipales-a-tours-surenchere-de-campagne-autour-de-la-police-municipale/"
+            },
+            "pierre": {
+              "texte": "Porter les effectifs à 140 agents d'ici 2033, soit 50 recrutements par paliers (coût 2 M€/an)",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/municipales-a-tours-surenchere-de-campagne-autour-de-la-police-municipale/"
+            },
+            "nikolic": {
+              "texte": "Ratio d'un policier pour 600 habitants soit 225 agents (coût 5,2 M€ supplémentaires/an)",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/municipales-a-tours-surenchere-de-campagne-autour-de-la-police-municipale/"
+            },
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": {
+              "texte": "Généralisation de la vidéosurveillance avec infrarouge et éclairages LED à détecteurs de mouvement",
+              "source": "France Bleu Touraine, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-touraine/l-invite-d-ici-matin-8950200"
+            },
+            "pierre": null,
+            "nikolic": {
+              "texte": "Doublement des caméras et renforcement des patrouilles dans les secteurs commerciaux",
+              "source": "France Bleu Touraine, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/tours-un-porte-parole-national-du-r-n-candidat-aux-municipales-2026-7247415"
+            },
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": {
+              "texte": "Retour de l'éclairage public toute la nuit avec conversion intégrale en LED pour lutter contre l'insécurité",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/municipales-a-tours-christophe-bouchet-se-voit-en-haut-de-laffiche/"
+            },
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "denis": {
+              "texte": "Mener à bien la 2e ligne de tramway et accélérer le RER métropolitain pour les trajets quotidiens",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": {
+              "texte": "Arrêt des travaux de la ligne B du tramway pour réviser le tracé et réduire les coûts",
+              "source": "Info Tours, 2025",
+              "sourceUrl": "https://info-tours.fr/tours/2025/10/06/municipales-2026-a-tours-arena-de-20-000-places-referendums-tram-les-premieres-propositions-dhenri-alfandari/"
+            },
+            "pierre": {
+              "texte": "Réduire la ligne B du tramway : arrêt à l'Hôpital Trousseau, économie de 150-200 M€ réinvestie dans 3 lignes supplémentaires",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
+            },
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": {
+              "texte": "Remaniement du plan vélo avec 40 km d'infrastructures cyclables repensées",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/municipales-a-tours-christophe-bouchet-se-voit-en-haut-de-laffiche/"
+            },
+            "alfandari": null,
+            "pierre": {
+              "texte": "Moratoire immédiat sur les aménagements cyclables VéliVal pour évaluer l'existant",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
+            },
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "denis": {
+              "texte": "Plan piéton pour la marchabilité, pensé pour les enfants, les seniors et les personnes handicapées",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
+            "quinton": null,
+            "bouchet": {
+              "texte": "Réouverture du pont Wilson à la circulation automobile dans le sens nord-sud",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/municipales-a-tours-christophe-bouchet-se-voit-en-haut-de-laffiche/"
+            },
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": {
+              "texte": "Référendum sur la réouverture du pont Wilson aux voitures et optimisation des feux de circulation",
+              "source": "France Bleu Touraine, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/elections/municipales-a-tours-le-candidat-rn-aleksandar-nikolic-rallie-trois-anciens-adjoints-de-serge-barbary-7669790"
+            },
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": {
+              "texte": "Demi-heure gratuite de stationnement le samedi en centre-ville pour soutenir le commerce local",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
+            },
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "denis": {
+              "texte": "Gratuité progressive des transports le samedi pour soutenir le commerce et tester le réseau",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
+            "quinton": {
+              "texte": "Réduction des tarifs vers la gratuité, en commençant par les moins de 25 ans et les revenus modestes",
+              "source": "LFI, 2026",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "denis": {
+              "texte": "Maintien de l'effort de construction de logements sociaux malgré la crise du secteur",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
+            "quinton": {
+              "texte": "Augmenter le parc de logements publics et développer la propriété non spéculative via les offices fonciers solidaires",
+              "source": "LFI, 2026",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": {
+              "texte": "Valoriser les 8 000-10 000 logements vacants via le bail solidaire",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
+            },
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "denis": null,
+            "quinton": {
+              "texte": "Réquisitionner les logements vacants et mettre en place l'encadrement des loyers",
+              "source": "La France Insoumise, 2026",
+              "sourceUrl": "https://linsoumission.fr/2025/12/01/baisse-loyers-tribune-lfi/"
+            },
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": {
+              "texte": "Utiliser l'EPFL pour préempter des terrains et construire des logements neufs",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
+            },
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "denis": null,
+            "quinton": {
+              "texte": "Cantines scolaires bio et locales avec option végétarienne quotidienne, gratuité progressive",
+              "source": "LFI, 2026",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": {
+              "texte": "Activités pédagogiques, culturelles et sportives proposées aux élèves hors temps scolaire",
+              "source": "France Bleu Touraine, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-tours-christophe-bouchet-lance-sa-campagne-mais-croit-toujours-en-une-union-de-la-droite-3848920"
+            },
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "denis": {
+              "texte": "Plantation de 40 000 arbres supplémentaires et création de nouveaux parcs et jardins",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": {
+              "texte": "Végétalisation de chaque quartier avec création d'îlots de fraîcheur",
+              "source": "France Bleu Touraine, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-touraine/l-invite-d-ici-matin-8950200"
+            },
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "denis": {
+              "texte": "Accélérer l'énergie solaire et la réhabilitation thermique des écoles, crèches et équipements publics",
+              "source": "Info Tours, 2025",
+              "sourceUrl": "https://info-tours.fr/tours/2025/12/12/municipales-2026-le-maire-de-tours-emmanuel-denis-officiellement-candidat-a-sa-succession/"
+            },
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "denis": {
+              "texte": "Création de nouveaux centres de santé municipaux pour compenser 40% de départs de médecins prévus",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "denis": {
+              "texte": "Doublement de l'enveloppe du budget participatif jusqu'à 1 million d'euros par an",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "denis": {
+              "texte": "Mise en place du Référendum d'Initiative Citoyenne pour permettre aux Tourangeaux de peser sur les grands projets",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
+            "quinton": null,
+            "bouchet": {
+              "texte": "Zéro hausse des impôts locaux pendant tout le mandat",
+              "source": "France Bleu Touraine, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-christophe-bouchet-annonce-sa-candidature-a-la-mairie-de-tours-3373653"
+            },
+            "alfandari": {
+              "texte": "Consultations publiques et référendums locaux sur les grands projets (tram, vidéoprotection)",
+              "source": "Info Tours, 2025",
+              "sourceUrl": "https://info-tours.fr/tours/2025/10/06/municipales-2026-a-tours-arena-de-20-000-places-referendums-tram-les-premieres-propositions-dhenri-alfandari/"
+            },
+            "pierre": {
+              "texte": "Instaurer des référendums numériques sur tous les grands projets municipaux",
+              "source": "Info Tours, 2025",
+              "sourceUrl": "https://info-tours.fr/tours/2025/11/20/municipales-2026-a-tours-revision-de-la-2e-ligne-de-tramway-augmentation-du-nombre-de-policiers-municipaux-referendum-numerique-les-propositions-de-benoist-pierre/"
+            },
+            "nikolic": null,
+            "rouzier": {
+              "texte": "Demande d'engagement du maire sortant à ne pas s'allier avec LFI entre les deux tours",
+              "source": "Info Tours, 2026",
+              "sourceUrl": "https://info-tours.fr/tours/2026/02/05/storiemunicipales2026-j-38-olivier-lebreton-va-mieux-le-rn-en-reunion-publique-a-tours-benoist-pierre-interpelle-sur-le-tram/"
+            },
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": {
+              "texte": "Soutien aux commerces : la mairie partenaire du développement local avec aide à la rénovation des devantures",
+              "source": "Naturellement Tours, 2026",
+              "sourceUrl": "https://www.naturellement-tours.fr/"
+            },
+            "pierre": {
+              "texte": "Mise aux normes des Halles de Tours et relance du plan de rénovation des façades du centre-ville",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
+            },
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "denis": {
+              "texte": "Nouvelles actions pour l'emploi et accélération des dispositifs d'insertion",
+              "source": "France Bleu Touraine, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-touraine/emmanuel-denis-officiellement-candidat-a-un-second-mandat-la-ville-a-change-9855228"
+            },
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": {
+              "texte": "Municipalité au service des travailleurs : les yeux et les oreilles du monde du travail face aux patrons",
+              "source": "Lutte Ouvrière, 2026",
+              "sourceUrl": "https://www.lutte-ouvriere.org/portail/revue-de-presse/municipales-2026-tours-thomas-jouhannaud-candidat-lutte-ouvriere-veut-porter-voix-travailleurs-190974.html"
+            }
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "denis": {
+              "texte": "Plan massif d'investissement pour les infrastructures sportives et réflexion sur une future Arena",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
+            "quinton": null,
+            "bouchet": {
+              "texte": "Plan d'urgence : rénovation du stade Tonnellé avec extension à 5 500 places (coût 15 M€)",
+              "source": "Info Tours, 2025",
+              "sourceUrl": "https://info-tours.fr/tours/2025/05/07/municipales-2026-a-tours-les-premieres-propositions-du-candidat-christophe-bouchet/"
+            },
+            "alfandari": {
+              "texte": "Construction d'une aréna de 20 000 places pour football, concerts et événements sportifs",
+              "source": "Info Tours, 2025",
+              "sourceUrl": "https://info-tours.fr/tours/2025/10/06/municipales-2026-a-tours-arena-de-20-000-places-referendums-tram-les-premieres-propositions-dhenri-alfandari/"
+            },
+            "pierre": {
+              "texte": "Opposition au projet Arena ; investissement de 40-50 M€ pour rénover le Parc des Expositions",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
+            },
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": {
+              "texte": "Triplement du budget voirie pour rénover les routes et trottoirs de la ville",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/municipales-a-tours-christophe-bouchet-se-voit-en-haut-de-laffiche/"
+            },
+            "alfandari": {
+              "texte": "Grand plan d'embellissement : verdissement, rénovation façades et devantures de commerces",
+              "source": "France Bleu Touraine, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/le-depute-horizons-henri-alfandari-candidat-aux-municipales-a-tours-7885848"
+            },
+            "pierre": {
+              "texte": "Rénover la ville sans augmenter les impôts en réduisant les dépenses sur les projets surdimensionnés",
+              "source": "Info Tours, 2025",
+              "sourceUrl": "https://info-tours.fr/tours/2025/11/20/municipales-2026-a-tours-revision-de-la-2e-ligne-de-tramway-augmentation-du-nombre-de-policiers-municipaux-referendum-numerique-les-propositions-de-benoist-pierre/"
+            },
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "denis": null,
+            "quinton": null,
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "denis": null,
+            "quinton": {
+              "texte": "Lutte contre la vie chère avec renforcement des services publics locaux gratuits",
+              "source": "Anadolu Agency, 2026",
+              "sourceUrl": "https://www.aa.com.tr/fr/politique/-france-municipales-2026-lfi-lance-sa-campagne-et-promet-une-rupture-sociale-/3751846"
+            },
+            "bouchet": null,
+            "alfandari": null,
+            "pierre": null,
+            "nikolic": null,
+            "rouzier": null,
+            "jouhannaud": {
+              "texte": "Revalorisation du SMIC à 2 000 euros nets et indexation des salaires sur la hausse des prix",
+              "source": "Lutte Ouvrière, 2026",
+              "sourceUrl": "https://www.lutte-ouvriere.org/portail/revue-de-presse/municipales-2026-tours-thomas-jouhannaud-candidat-lutte-ouvriere-veut-porter-voix-travailleurs-190974.html"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "ville": "Nancy",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "klein",
+      "nom": "Mathieu Klein",
+      "liste": "Nancy Grandit (PS/EELV/PCF/Place publique/PRG)",
+      "programmeUrl": "https://mathieuklein.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "henart",
+      "nom": "Laurent Hénart",
+      "liste": "Nancy avec vous ! (LR/Horizons/Renaissance)",
+      "programmeUrl": "https://www.laurenthenart2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "farghaly",
+      "nom": "Sarah Farghaly",
+      "liste": "Nancy Insoumise (LFI)",
+      "programmeUrl": "https://nancy-insoumise.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lacresse",
+      "nom": "Emmanuel Lacresse",
+      "liste": "Nancy en avant (SE)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "nimsgern",
+      "nom": "Christiane Nimsgern",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "klein": {
+              "texte": "Augmentation de 50 % des effectifs dédiés à la sécurité en un mandat, seul poste de hausse des RH",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+            },
+            "henart": {
+              "texte": "Police municipale de proximité dans tous les quartiers : îlotage, patrouilles à pied, brigade canine et effectifs renforcés",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-nancy-laurent-henart-candidat-avec-un-choc-de-securite-et-le-retour-de-la-douceur-de-vivre-9914215"
+            },
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "klein": null,
+            "henart": {
+              "texte": "Déploiement de 500 caméras de vidéosurveillance, vidéo-verbalisation et caméras mobiles",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/des-chantiers-mis-en-pause-et-500-cameras-de-video-surveillance-laurent-henart-candidat-a-la-mairie-de-nancy-1618947"
+            },
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "klein": {
+              "texte": "Nouveau réseau de transport : ligne 1 en trolleybus 100 % électrique, lignes 2 à 5 en Bus à Haut Niveau de Service",
+              "source": "France 3 Grand Est, janvier 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/municipales-2026-mathieu-klein-brigue-un-second-mandat-a-nancy-3283448.html"
+            },
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "klein": {
+              "texte": "200 km de pistes cyclables sécurisées et plan vélo express",
+              "source": "France 3 Grand Est, janvier 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/municipales-2026-mathieu-klein-brigue-un-second-mandat-a-nancy-3283448.html"
+            },
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "klein": {
+              "texte": "Plus d'espace pour les piétons, ville plus apaisée avec meilleure combinaison des modes de déplacement",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+            },
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "klein": {
+              "texte": "Gratuité des transports pour les moins de 18 ans, étendue aux plus de 65 ans dès août 2026",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+            },
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "klein": {
+              "texte": "Création d'une brigade spécialisée contre les 9 000 logements vacants : aller vers les propriétaires pour accélérer les démarches",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+            },
+            "henart": {
+              "texte": "Pause sur les grands chantiers pour repenser l'urbanisme et le logement",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/des-chantiers-mis-en-pause-et-500-cameras-de-video-surveillance-laurent-henart-candidat-a-la-mairie-de-nancy-1618947"
+            },
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "klein": {
+              "texte": "17 cours d'école végétalisées et plantations de 300 arbres le long de la ligne 1",
+              "source": "France 3 Grand Est, janvier 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/municipales-2026-mathieu-klein-brigue-un-second-mandat-a-nancy-3283448.html"
+            },
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "klein": {
+              "texte": "Végétalisation de la ville : arbres le long des lignes de transport et cours d'école vertes",
+              "source": "France 3 Grand Est, janvier 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/municipales-2026-mathieu-klein-brigue-un-second-mandat-a-nancy-3283448.html"
+            },
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": {
+              "texte": "Plus d'ambition en écologie et justice sociale pour Nancy",
+              "source": "France Bleu Lorraine, décembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-lfi-devoile-sa-tete-de-liste-a-nancy-1297462"
+            },
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "klein": {
+              "texte": "Développement de maisons de santé pluridisciplinaires",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+            },
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": {
+              "texte": "Plus de démocratie locale et de transparence dans la gestion municipale",
+              "source": "France Bleu Lorraine, décembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-lfi-devoile-sa-tete-de-liste-a-nancy-1297462"
+            },
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "klein": {
+              "texte": "Retour du commerce en centre-ville, revitalisation commerciale",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+            },
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "klein": {
+              "texte": "Ouverture de la Maison des femmes en novembre, lutte contre les violences et les discriminations",
+              "source": "France Bleu Lorraine, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+            },
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "klein": null,
+            "henart": null,
+            "farghaly": null,
+            "lacresse": null,
+            "nimsgern": null
+          }
+        }
+      ]
+    }
+  ]
+}

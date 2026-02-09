@@ -1,0 +1,792 @@
+{
+  "ville": "Clermont-Ferrand",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "candidats": [
+    {
+      "id": "bianchi",
+      "nom": "Olivier Bianchi",
+      "liste": "Vivre Clermont-Ferrand",
+      "programmeUrl": "https://bianchi2026.fr/"
+    },
+    {
+      "id": "bony",
+      "nom": "Julien Bony",
+      "liste": "LR / Centre",
+      "programmeUrl": "#"
+    },
+    {
+      "id": "maximi",
+      "nom": "Marianne Maximi",
+      "liste": "LFI",
+      "programmeUrl": "#"
+    },
+    {
+      "id": "darbois",
+      "nom": "Antoine Darbois",
+      "liste": "RN",
+      "programmeUrl": "#"
+    },
+    {
+      "id": "cartailler",
+      "nom": "Yannick Cartailler",
+      "liste": "Le Réveil clermontois",
+      "programmeUrl": "#"
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "bianchi": {
+              "texte": "Renforcement de la police municipale avec +5 policiers par an, poursuite du déploiement de la vidéoprotection et ouverture d'un 2e commissariat de police municipale à Saint-Jacques",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "police-transports",
+          "nom": "Police des transports",
+          "propositions": {
+            "bianchi": {
+              "texte": "Renforcement de la police des transports pour sécuriser le réseau de transport en commun",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "narcotrafic",
+          "nom": "Lutte contre le narcotrafic",
+          "propositions": {
+            "bianchi": {
+              "texte": "Lutte contre le narcotrafic en coopération avec l'État et les forces de sécurité nationales",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "prevention",
+          "nom": "Prévention & Insertion",
+          "propositions": {
+            "bianchi": {
+              "texte": "Déploiement d'éducateurs de rue, programme de réussite éducative et utilisation du sport comme outil d'insertion sociale",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement & Urbanisme",
+      "sousThemes": [
+        {
+          "id": "logement-abordable",
+          "nom": "Logement abordable",
+          "propositions": {
+            "bianchi": {
+              "texte": "Développement des baux réels solidaires, lutte contre la vacance des logements, encadrement des meublés touristiques et accès au logement pour les jeunes via une Agence immobilière à vocation sociale",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "construction-logements",
+          "nom": "Construction & Objectifs logement",
+          "propositions": {
+            "bianchi": {
+              "texte": "Construction de 2 000 logements par an dont 30 % de logements sociaux et 20 % en accession à la propriété, avec un développement sobre et la préservation des espaces naturels et agricoles",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "renouvellement-urbain",
+          "nom": "Renouvellement urbain & Friches",
+          "propositions": {
+            "bianchi": {
+              "texte": "Renouvellement urbain des quartiers Vergnes, Gauthière et Saint-Jacques ; réhabilitation des friches et lutte contre la vacance ; réaménagement de la place Delille",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Bien-être",
+      "sousThemes": [
+        {
+          "id": "acces-soins",
+          "nom": "Accès aux soins",
+          "propositions": {
+            "bianchi": {
+              "texte": "Encourager l'installation de médecins, ouverture de centres de santé et gratuité du stationnement pour les professionnels de santé à domicile",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "sante-scolaire",
+          "nom": "Santé scolaire & Prévention",
+          "propositions": {
+            "bianchi": {
+              "texte": "Recrutement de 5 infirmières scolaires formées à la prévention et à la santé mentale ; organisation d'une Semaine de la santé",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "sante-metropolitaine",
+          "nom": "Santé métropolitaine",
+          "propositions": {
+            "bianchi": {
+              "texte": "Signature d'un contrat local de santé métropolitain avec les 21 communes du territoire",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "sport-sante",
+          "nom": "Sport-santé",
+          "propositions": {
+            "bianchi": {
+              "texte": "Lancement de « Clermont bouge », manifestation sport-santé ; gymnase ouvert chaque dimanche en automne-hiver ; nouveau gymnase au complexe Montpied aux Vergnes et pumptrack à Croix-Neyrat",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "gratuite-transports",
+          "nom": "Gratuité des transports",
+          "propositions": {
+            "bianchi": {
+              "texte": "Gratuité des transports en commun pour les plus de 60 ans et les moins de 26 ans",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "velo",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "bianchi": {
+              "texte": "Nouvelle phase du réseau cyclable, création d'une école municipale du vélo, développement de vélos reconditionnés, stationnements vélos sécurisés et location longue durée de vélos électriques",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "plan-pieton",
+          "nom": "Plan piéton",
+          "propositions": {
+            "bianchi": {
+              "texte": "Plan piéton sécurisé et ombragé : installation de bancs, fauteuils, points d'accès à l'eau et toilettes accessibles dans l'espace public",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "circulation",
+          "nom": "Circulation & RER métropolitain",
+          "propositions": {
+            "bianchi": {
+              "texte": "Évaluation du schéma de circulation et mise en place d'un RER métropolitain pour relier les communes du territoire",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "parcs-vegetalisation",
+          "nom": "Parcs & Végétalisation",
+          "propositions": {
+            "bianchi": {
+              "texte": "Ouverture du parc de la Muraille, 2e phase du parc Saint-Jean ; végétalisation des places Delille, Rodade et Bughes ; finalisation de la végétalisation des cours d'école",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "plan-fraicheur",
+          "nom": "Plan fraîcheur & Îlots de chaleur",
+          "propositions": {
+            "bianchi": {
+              "texte": "Plan fraîcheur avec création de cheminements ombragés et installation de points d'eau dans les espaces publics",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "bianchi": {
+              "texte": "Rénovation énergétique prioritaire des bâtiments publics et rénovation énergétique des EHPAD publics",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "bianchi": {
+              "texte": "Alimentation bio et locale pour les publics vulnérables dans la restauration collective",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "economie-circulaire",
+          "nom": "Économie circulaire & Biosourcé",
+          "propositions": {
+            "bianchi": {
+              "texte": "Développement des filières de réemploi et des matériaux biosourcés ; création d'une coopérative carbone territoriale",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "foncier-naturel",
+          "nom": "Préservation espaces naturels",
+          "propositions": {
+            "bianchi": {
+              "texte": "Développement sobre du territoire avec préservation des espaces naturels et agricoles",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation, Jeunesse & Familles",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance & Crèches",
+          "propositions": {
+            "bianchi": {
+              "texte": "Ouverture de 2 nouvelles crèches et d'1 école maternelle pour répondre aux besoins des familles",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "restauration-loisirs",
+          "nom": "Restauration scolaire & Loisirs",
+          "propositions": {
+            "bianchi": {
+              "texte": "Goûter quotidien gratuit pour tous les écoliers ; augmentation des places en centres de loisirs ; grand village loisirs estival accessible",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "guichet-jeunes",
+          "nom": "Guichet jeunes",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création d'un guichet jeunes regroupant l'accès aux droits sociaux, la santé mentale, l'emploi et la prévention",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "familles",
+          "nom": "Familles & Monoparentalité",
+          "propositions": {
+            "bianchi": {
+              "texte": "Prise en compte de la monoparentalité dans le calcul des tarifs des services municipaux pour les familles",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "seniors",
+      "nom": "Seniors & Accessibilité",
+      "sousThemes": [
+        {
+          "id": "plan-seniors",
+          "nom": "Plan seniors",
+          "propositions": {
+            "bianchi": {
+              "texte": "Plan seniors : accompagnement du vieillissement, soutien aux aidants et création d'un Conseil des aînés",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Ville accessible & inclusive",
+          "propositions": {
+            "bianchi": {
+              "texte": "Ville accessible et inclusive : voiries adaptées aux personnes à mobilité réduite et création d'aires de jeux inclusives",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Vie nocturne",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "bianchi": {
+              "texte": "Rénovation des façades de l'Opéra, modernisation de la Coopérative de Mai, ouverture de la Cité du court et rénovation du Lieu-dit",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "pratiques-culturelles",
+          "nom": "Pratiques culturelles & Démocratisation",
+          "propositions": {
+            "bianchi": {
+              "texte": "Soutien aux équipes artistiques et associations culturelles ; développement des pratiques culturelles amateures et de la démocratisation culturelle ; déploiement du réseau « mille formes » (art 0-6 ans) dans les équipements de proximité",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "animations-plein-air",
+          "nom": "Animations & Plein air",
+          "propositions": {
+            "bianchi": {
+              "texte": "Programmation culturelle en plein air, journée de solidarité internationale et grand village loisirs estival accessible",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "vie-nocturne",
+          "nom": "Vie nocturne",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création d'un Conseil de la nuit et d'une charte de la vie nocturne ; lutte contre les épiceries de nuit hors réglementation",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "bianchi": {
+              "texte": "Rénovation de la patinoire Papadakis-Cizeron ; gymnase au complexe Montpied aux Vergnes ; pumptrack à Croix-Neyrat",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "acces-sport",
+          "nom": "Accès au sport",
+          "propositions": {
+            "bianchi": {
+              "texte": "Doublement du chèque première licence à 50 € ; gymnase ouvert chaque dimanche en automne-hiver",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "commerce",
+      "nom": "Commerce & Artisanat",
+      "sousThemes": [
+        {
+          "id": "soutien-commerce",
+          "nom": "Soutien au commerce local",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création d'un Office municipal du commerce et de l'artisanat ; recrutement de managers de commerce supplémentaires ; soutien aux porteurs de projets via boutiques à l'essai et baux sociaux commerciaux",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "marches-alimentaires",
+          "nom": "Marchés & Producteurs locaux",
+          "propositions": {
+            "bianchi": {
+              "texte": "Animations autour des commerces et producteurs locaux ; améliorations des marchés alimentaires et de la Halle Saint-Pierre",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie, Emploi & Insertion",
+      "sousThemes": [
+        {
+          "id": "soutien-entreprises",
+          "nom": "Soutien aux entreprises",
+          "propositions": {
+            "bianchi": {
+              "texte": "Coup de pouce TPE-PME, dispositifs « ouvre-boîtes » et « recrut'seniors » ; mobilisation de 150 hectares de foncier économique et industriel",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "ess",
+          "nom": "Économie sociale et solidaire",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création d'un fonds métropolitain dédié à l'économie sociale et solidaire (ESS)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "insertion",
+          "nom": "Insertion & Emploi",
+          "propositions": {
+            "bianchi": {
+              "texte": "Ouverture d'une Maison de l'insertion et de l'emploi à Saint-Jacques ; création d'un Observatoire métropolitain des inégalités",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "participation-citoyenne",
+          "nom": "Participation citoyenne",
+          "propositions": {
+            "bianchi": {
+              "texte": "Droit de proposition citoyenne assoupli, observatoire citoyen avec auto-saisine, états généraux des quartiers et de la jeunesse, 2 budgets participatifs supplémentaires et budget participatif enfants",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "convention-ia",
+          "nom": "Convention citoyenne IA & Numérique",
+          "propositions": {
+            "bianchi": {
+              "texte": "Organisation d'une convention citoyenne sur l'intelligence artificielle ; numérique inclusif et charte IA publique",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "engagement-laicite",
+          "nom": "Engagement citoyen & Laïcité",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création du statut « Clermontois engagé » et d'une instance de dialogue sur la laïcité",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "dispositifs-metropolitains",
+          "nom": "Dispositifs participatifs métropolitains",
+          "propositions": {
+            "bianchi": {
+              "texte": "Renforcement des dispositifs participatifs à l'échelle métropolitaine et coopération avec les territoires voisins",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "vie-associative",
+      "nom": "Vie associative & Équipements de quartier",
+      "sousThemes": [
+        {
+          "id": "associations",
+          "nom": "Soutien aux associations",
+          "propositions": {
+            "bianchi": {
+              "texte": "Ouverture d'une nouvelle Maison des associations ; rénovation du site Abbé-Prévost ; organisation d'Assises de la vie associative",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "equipements-quartier",
+          "nom": "Équipements de quartier",
+          "propositions": {
+            "bianchi": {
+              "texte": "Reconstruction de la maison de quartier de Croix-de-Neyrat ; création d'un lieu municipal dans le quartier de la Gare",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        },
+        {
+          "id": "acces-droits",
+          "nom": "Accès aux droits & Services publics",
+          "propositions": {
+            "bianchi": {
+              "texte": "Accueil centralisé « toutes démarches » ; permanences d'accès aux droits dans les quartiers",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://bianchi2026.fr/"
+            },
+            "bony": null,
+            "maximi": null,
+            "darbois": null,
+            "cartailler": null
+          }
+        }
+      ]
+    }
+  ]
+}

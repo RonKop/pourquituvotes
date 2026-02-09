@@ -1,0 +1,561 @@
+{
+  "ville": "Bordeaux",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "hurmic",
+      "nom": "Pierre Hurmic",
+      "liste": "Bordeaux Respire (Écologistes)",
+      "programmeUrl": "https://pierrehurmic2026.fr/notre-programme/",
+      "programmeComplet": true,
+      "programmePdfPath": null
+    },
+    {
+      "id": "cazenave",
+      "nom": "Thomas Cazenave",
+      "liste": "Renaissance",
+      "programmeUrl": "https://fairegagnerbordeaux.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "poutou",
+      "nom": "Philippe Poutou",
+      "liste": "Rouge Bordeaux Anticapitaliste",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "hurmic": {
+              "texte": "Augmenter les effectifs de policiers municipaux et de médiateurs urbains",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": {
+              "texte": "Doublement des effectifs de police municipale avec création d’une caserne dédiée. Rétablissement de l’éclairage public la nuit",
+              "source": "Rue89 Bordeaux, novembre 2025",
+              "sourceUrl": "https://fairegagnerbordeaux.fr/"
+            },
+            "poutou": {
+              "texte": "Désarmement de la police municipale. Renforcement des services publics municipaux",
+              "source": "France Bleu Gironde, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            }
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "hurmic": {
+              "texte": "Sécuriser les itinéraires piétons végétalisés, créer 7 nouveaux parcs et réaménager 6 grandes places arborées",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "hurmic": {
+              "texte": "Soutien au pouvoir d’achat via la tarification solidaire et l’étude de la gratuité des transports pour les moins de 10 ans",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": {
+              "texte": "Gratuité du stationnement le week-end dans les parkings publics",
+              "source": "Rue89 Bordeaux, novembre 2025",
+              "sourceUrl": "https://fairegagnerbordeaux.fr/"
+            },
+            "poutou": {
+              "texte": "Gratuité des transports en commun",
+              "source": "France Bleu Gironde, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "hurmic": {
+              "texte": "Amplifier la production de logements sociaux, développer l’accession sociale à la propriété et poursuivre l’encadrement des loyers",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "hurmic": {
+              "texte": "Créer plus de 200 places en crèches et poursuivre le développement de l’offre d’accueil périscolaire",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "hurmic": {
+              "texte": "Rénover massivement les écoles pour répondre aux enjeux de rafraîchissement l’été et de confort l’hiver",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": {
+              "texte": "Remunicipalisation de la compétence propreté (fin de la délégation au privé). Création de bataillons de propreté déployés dans tous les quartiers",
+              "source": "Rue89 Bordeaux, novembre 2025",
+              "sourceUrl": "https://fairegagnerbordeaux.fr/"
+            },
+            "poutou": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "hurmic": {
+              "texte": "Développer des structures médicales locales, dont un centre municipal de santé aux Aubiers dès 2027",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "hurmic": {
+              "texte": "Dynamiser et protéger les commerces avec l’Office du commerce et l’expérimentation de l’encadrement des loyers commerciaux",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "hurmic": {
+              "texte": "Garantir la liberté de création artistique et ouvrir la Bourse du travail aux pratiques amateurs",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "hurmic": {
+              "texte": "Créer 30 quartiers de vie pour plus de proximité et d’efficacité dans les services municipaux. Grand projet urbain autour du lac, l’un des premiers quartiers bas carbone de France, avec un pôle numérique souverain",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "hurmic": {
+              "texte": "Porter un plan d’action commun avec l’État pour zéro enfant sans abri à Bordeaux",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://pierrehurmic2026.fr/"
+            },
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": null,
+            "poutou": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d’achat",
+          "propositions": {
+            "hurmic": null,
+            "cazenave": {
+              "texte": "Gel de l’ensemble des tarifs municipaux durant tout le mandat (cantine, taxe foncière...)",
+              "source": "Rue89 Bordeaux, novembre 2025",
+              "sourceUrl": "https://fairegagnerbordeaux.fr/"
+            },
+            "poutou": null
+          }
+        }
+      ]
+    }
+  ]
+}

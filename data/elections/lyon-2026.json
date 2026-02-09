@@ -1,0 +1,870 @@
+{
+  "ville": "Lyon",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "doucet",
+      "nom": "Grégory Doucet",
+      "liste": "Pour Vivre Lyon",
+      "programmeUrl": "https://www.pourvivrelyonmunicipales2026.fr/programme",
+      "programmeComplet": true,
+      "programmePdfPath": null
+    },
+    {
+      "id": "aulas",
+      "nom": "Jean-Michel Aulas",
+      "liste": "Cœur Lyonnais",
+      "programmeUrl": "https://coeurlyonnais.fr/pacte-lyonnais/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "perrin-gilbert",
+      "nom": "Nathalie Perrin-Gilbert",
+      "liste": "Lyon en commun",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "kepenekian",
+      "nom": "Georges Képénékian",
+      "liste": "Lyon Modérément",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "belouassa",
+      "nom": "Anaïs Belouassa Cherifi",
+      "liste": "Lyon Fière et Populaire (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "dupalais",
+      "nom": "Alexandre Dupalais",
+      "liste": "Rassemblement National",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "doucet": {
+              "texte": "Renforcement de la police municipale avec objectif de 400 agents d’ici 2032 et déploiement de postes de police mobiles pour des permanences dans l’espace public. Création d’une brigade anti-incivilités de 50 agents pour prévenir, signaler et sanctionner",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "texte": "Police municipale portée à 500 agents (contre 311 actuellement)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
+            "perrin-gilbert": null,
+            "kepenekian": {
+              "texte": "Consolidation de l’objectif de 365 policiers municipaux. Police de proximité et caméras de surveillance",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "belouassa": null,
+            "dupalais": {
+              "texte": "1000 postes de policiers municipaux, 30 mini-postes de police d’ultra-proximité et drones dans les quartiers difficiles",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            }
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": {
+              "texte": "5000 caméras de vidéosurveillance (multiplication par 10), centre de supervision urbaine à la Guillotière et reconnaissance algorithmique",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            }
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": {
+              "texte": "Remise à plat des relations avec la préfecture. Vidéosurveillance au cas par cas, refus d’en faire une solution miracle",
+              "source": "Tribune de Lyon, février 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "doucet": {
+              "texte": "Fonds de solidarité pour la mise en sécurité des femmes victimes de violences (changement de serrure, garde d’enfants, frais de téléphonie) et espace égalité à la bibliothèque de la Part-Dieu",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "texte": "Centre d’hébergement d’urgence pour femmes victimes de violences, réseau de logements-relais, brigade municipale femmes/familles, arrêt de bus à la demande dès 21h et éclairage intelligent dans les zones anxiogènes",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "doucet": {
+              "texte": "Transports en commun gratuits pour les moins de 18 ans si un parent est abonné (250€ économisés par enfant et par an) et ouverture du métro toute la nuit les week-ends",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "texte": "Gratuité des transports en commun pour les Lyonnais gagnant moins de 2 500€ par mois",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
+            "perrin-gilbert": {
+              "texte": "Gratuité des transports en commun pour les seniors de plus de 60 ans. Navettes fluviales avec arrêts réguliers (Vaise) et intermodalité renforcée",
+              "source": "Tribune de Lyon, février 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
+            "kepenekian": null,
+            "belouassa": {
+              "texte": "Gratuité totale des transports en commun (réseau TCL). Dans un premier temps, gratuité pour les moins de 26 ans",
+              "source": "Page LFI 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
+            "dupalais": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "doucet": {
+              "texte": "10 journées de stationnement offertes par an pour toutes les Lyonnaises et Lyonnais",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "tunnel-circulation",
+          "nom": "Tunnel & Circulation",
+          "propositions": {
+            "doucet": null,
+            "aulas": {
+              "texte": "Création d’un nouveau tunnel de 8 km entre Tassin et Saint-Fons (1,6 à 2 milliards d’euros) pour désengorger le tunnel de Fourvière, libérant 45 hectares d’espaces",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "doucet": {
+              "texte": "Service public du logement avec garantie municipale (la Ville devient garante des locataires sans garantie), assurance habitation municipale à tarifs accessibles et objectif de 30% de logements sociaux d’ici 2040",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "texte": "Charte de modération des loyers obligatoire, locale et ciblée, et plan massif de construction/rénovation public-privé",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
+            "perrin-gilbert": {
+              "texte": "Modèle 1/3 social, 1/3 libre, 1/3 accession à la propriété et contrôle strict des loyers",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "kepenekian": {
+              "texte": "10 000 logements pour étudiants et jeunes actifs sur le mandat. Logements de fonction pour les policiers municipaux",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "belouassa": {
+              "texte": "Réquisition des logements vacants, interdiction des suppléments de loyer et création d’un observatoire de la spéculation immobilière",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "dupalais": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": {
+              "texte": "Droit opposable à une place en crèche avant 2030. Opposition à la marchandisation de la petite enfance. Grand plan de formation pour les métiers de la petite enfance et du grand âge",
+              "source": "Lyon Capitale, février 2026 | Tribune de Lyon, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "kepenekian": {
+              "texte": "Retour à un rythme scolaire de 5 matinées et 4 après-midi allégées en primaire",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "belouassa": {
+              "texte": "Plus de 1 000 places de crèche supplémentaires d’ici 2032",
+              "source": "Page LFI 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
+            "dupalais": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "doucet": {
+              "texte": "Gratuité des fournitures scolaires pour les écoliers du primaire",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "texte": "Gratuité des cantines scolaires (coût estimé : 13 millions d’euros)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": {
+              "texte": "Gratuité totale des cantines scolaires et petit-déjeuner gratuit pour tous les enfants",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "dupalais": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "doucet": {
+              "texte": "Ouverture de l’accueil de loisirs municipal le mercredi toute la journée avec activités pédagogiques, culturelles et sorties en plein air",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts",
+          "propositions": {
+            "doucet": {
+              "texte": "Création de 6 nouveaux parcs pour rafraîchir et végétaliser les quartiers, poursuite du projet Rive Droite (végétalisation de 3 hectares) et ouverture de 2 baignades naturelles",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "texte": "Végétalisation de la place Bellecour avec 4000 m² d’arbustes et 5500 m² de diversité végétale",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
+            "perrin-gilbert": null,
+            "kepenekian": {
+              "texte": "Déploiement massif de pompes à chaleur réversibles dans les écoles et équipements publics",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "doucet": {
+              "texte": "Plan d’adaptation à la canicule, réserve citoyenne solidaire avec volontaires formés pour alerter et protéger lors de canicules et grands froids",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "doucet": {
+              "texte": "Ouverture de 10 cantines de quartier avec épiceries sociales et solidaires où faire ses courses à prix juste et cuisiner ensemble",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": {
+              "texte": "Cantines scolaires gratuites avec petit-déjeuner. Restauration scolaire en régie municipale. Restaurants municipaux (repas à 5€, 3,50€ étudiants). Colonies de vacances municipales",
+              "source": "Page LFI 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
+            "dupalais": null
+          }
+        },
+        {
+          "id": "protection-animale",
+          "nom": "Protection animale",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": {
+              "texte": "Fermeture définitive du zoo du Parc de la Tête d’Or. Arrêt reproduction et acquisitions, placement des animaux en sanctuaires",
+              "source": "Page LFI 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "doucet": {
+              "texte": "Ouverture de 10 centres de santé en zones carencées et création d’une mutuelle municipale accessible à tous sans critères discriminants",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": {
+              "texte": "Contrat lyonnais de la médecine générale pour améliorer l’accès aux généralistes. Programme de prévention majeur",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "belouassa": {
+              "texte": "Ouverture de 9 centres de santé municipaux",
+              "source": "Page LFI 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
+            "dupalais": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "doucet": null,
+            "aulas": {
+              "texte": "Référendum annuel sur les grands projets de la ville, gestion responsable sans emballement de la dette",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://coeurlyonnais.fr/lyon-de-demain/"
+            },
+            "perrin-gilbert": {
+              "texte": "Réduction de l’exécutif à 16 adjoints et 4 conseillers délégués (contre 20 + 3)",
+              "source": "Tribune de Lyon, février 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
+            "kepenekian": {
+              "texte": "Site collaboratif pour la construction participative du programme",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "belouassa": {
+              "texte": "Instauration du Référendum d’Initiative Citoyenne (RIC) local. Observatoire contre les discriminations",
+              "source": "Page LFI 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
+            "dupalais": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": {
+              "texte": "Plateforme Lyon-Chrono pour les familles avec horaires de travail atypiques",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "belouassa": null,
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "doucet": {
+              "texte": "Rénovation et agrandissement de la bibliothèque de la Part-Dieu (140 millions d’euros, 4000 m² supplémentaires minimum)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": null,
+            "perrin-gilbert": {
+              "texte": "Musée des sciences dans l’ancien muséum Guimet, Fête des Lumières révisée avec festival indoor à la halle Tony Garnier",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "doucet": null,
+            "aulas": {
+              "texte": "Achèvement du grand aménagement de Fourvière et projet Lumière pour faire de Lyon la capitale du cinéma",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://coeurlyonnais.fr/lyon-de-demain/"
+            },
+            "perrin-gilbert": {
+              "texte": "Réouverture du musée Guimet en Exploratorium dédié aux sciences (inspiré San Francisco). Festival des Lumières révisé avec festival intérieur à la Halle Tony Garnier. Médiathèque à la Guillotière",
+              "source": "Tribune de Lyon, février 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
+            "kepenekian": {
+              "texte": "Création d’une Maison des Cultures du Monde",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "belouassa": {
+              "texte": "Création d’un musée national de l’histoire coloniale. Biennale sportive",
+              "source": "Page LFI 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": {
+              "texte": "Accueil de la cérémonie d’ouverture des JO d’hiver 2030 au Parc de Gerland et grande fan zone à la halle Tony Garnier",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "doucet": null,
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d’achat",
+          "propositions": {
+            "doucet": {
+              "texte": "Achats groupés via la centrale métropolitaine du pouvoir d’achat, pass’sport municipal et fonds pour petits travaux d’économie d’énergie (jusqu’à 500€ d’économies par an par foyer)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": null,
+            "perrin-gilbert": null,
+            "kepenekian": null,
+            "belouassa": null,
+            "dupalais": {
+              "texte": "Annulation de la hausse de 9% de la taxe foncière de 2023, soit 350€ par an par ménage propriétaire",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,856 @@
+{
+  "ville": "Nice",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "estrosi",
+      "nom": "Christian Estrosi",
+      "liste": "Nice au coeur (Horizons)",
+      "programmeUrl": "https://estrosi2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ciotti",
+      "nom": "Éric Ciotti",
+      "liste": "Ciotti 2026 (UDR/RN)",
+      "programmeUrl": "https://www.ciotti2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chesnel",
+      "nom": "Juliette Chesnel-Le Roux",
+      "liste": "Unis pour Nice (Écologistes/PS/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "damiano",
+      "nom": "Mireille Damiano",
+      "liste": "Nice Front Populaire (LFI/ViVA!)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "governatori",
+      "nom": "Jean-Marc Governatori",
+      "liste": "L'écologie au centre",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "granouillac",
+      "nom": "Hélène Granouillac",
+      "liste": "Vivre Nice",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "dloussky",
+      "nom": "Nathalie Dloussky",
+      "liste": "Ensemble pour la grandeur de la France",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "vella",
+      "nom": "Cédric Vella",
+      "liste": "Reconquête",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": {
+              "texte": "100 policiers municipaux supplémentaires déployés dans tous les quartiers de Nice",
+              "source": "France Bleu Azur, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": {
+              "texte": "Renforcement de la police de proximité et sécurité repensée au service des habitants",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "damiano": {
+              "texte": "Sécurité publique basée sur la prévention et le travail social, refus de la sécurité privée",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": {
+              "texte": "Doubler les places d'hébergement d'urgence pour les femmes victimes de violences (de 80 à 160 places)",
+              "source": "France Bleu Azur, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": {
+              "texte": "Gratuité des transports en commun pour tous les Niçois",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "damiano": {
+              "texte": "Gratuité progressive des transports : d'abord les week-ends, puis généralisation, financée par la taxe mobilité et la taxe de séjour",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": {
+              "texte": "Vente des logements sociaux de Côte d'Azur Habitat hors métropole (400 M€) pour construire et rénover du logement à Nice",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "chesnel": {
+              "texte": "Application de la loi SRU : atteindre 25% de logements sociaux (contre 14% aujourd'hui), préemption de bâtiments vacants",
+              "source": "France Bleu Azur, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": {
+              "texte": "Transformer les bureaux vacants en logements et réguler strictement les locations saisonnières de type Airbnb",
+              "source": "Nice Premium, janvier 2026",
+              "sourceUrl": "https://www.nicepremium.fr/"
+            },
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": {
+              "texte": "Mise en place de l'encadrement des loyers à Nice",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "damiano": {
+              "texte": "Encadrement des loyers et réquisition de logements vacants",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "estrosi": {
+              "texte": "Poursuite de la rénovation des écoles : 150 établissements rénovés depuis 2008, objectif de continuer sur le mandat",
+              "source": "Nice Premium, février 2026",
+              "sourceUrl": "https://www.nicepremium.fr/"
+            },
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": {
+              "texte": "Création de jardins partagés et d'un réseau vert urbain pour la biodiversité et le rafraîchissement de la ville",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": {
+              "texte": "Hausse de la taxe mobilité de 2% à 3,2% (60 M€ d'investissement) et hausse de la taxe de séjour au plafond légal pour financer la transition",
+              "source": "France Bleu Azur, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "damiano": null,
+            "governatori": null,
+            "granouillac": {
+              "texte": "Transition climatique prioritaire : gestion durable de l'eau face au stress hydrique",
+              "source": "Nice Premium, janvier 2026",
+              "sourceUrl": "https://www.nicepremium.fr/"
+            },
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": {
+              "texte": "Autonomie énergétique solaire : bornes solaires dans chaque quartier, impliquer les ultra-riches dans le financement",
+              "source": "Nice Premium, janvier 2026",
+              "sourceUrl": "https://www.nicepremium.fr/"
+            },
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "estrosi": {
+              "texte": "Création de 8 maisons de santé d'ici 2030 (Ariane, Nice Nord...) et d'une maison médicale mobile à domicile",
+              "source": "France Bleu Azur, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "estrosi": {
+              "texte": "Chaque adjoint rencontre les Niçois 2 fois par an. Journée annuelle de référendums locaux",
+              "source": "Nice Premium, février 2026",
+              "sourceUrl": "https://www.nicepremium.fr/"
+            },
+            "ciotti": null,
+            "chesnel": {
+              "texte": "Code éthique de 12 pages : réduction de 50% des indemnités des élus municipaux",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": {
+              "texte": "Commission d'observation de l'emploi public : audit des 8 500 employés municipaux avec experts indépendants et citoyens tirés au sort",
+              "source": "Nice Premium, janvier 2026",
+              "sourceUrl": "https://www.nicepremium.fr/"
+            },
+            "vella": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": {
+              "texte": "Nouveau centre des congrès et des expositions, projet économique majeur sur le site du Marché d'Intérêt National",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "chesnel": null,
+            "damiano": {
+              "texte": "Réguler le tourisme polluant (jets privés, yachts, croisières) et développer un tourisme écoresponsable",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "estrosi": {
+              "texte": "100 M€ investis dans la culture sur le mandat. Palais des Arts et de la Culture : salle de théâtre de 850 places sous la voûte du palais des expositions",
+              "source": "France Bleu Azur, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "ciotti": {
+              "texte": "Nouveau théâtre sur le site de la Gare du Sud",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": {
+              "texte": "Grand plan d'investissement pour les quartiers périphériques : une ville à deux vitesses n'est pas acceptable",
+              "source": "Nice Presse, février 2026",
+              "sourceUrl": "https://nicepresse.com/"
+            },
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": {
+              "texte": "Doubler les places d'hébergement d'urgence et renforcer les dispositifs d'aide aux plus précaires",
+              "source": "France Bleu Azur, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": null,
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "estrosi": null,
+            "ciotti": {
+              "texte": "Annulation de la hausse de la taxe foncière votée l'année précédente",
+              "source": "France Bleu Azur, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "chesnel": null,
+            "damiano": null,
+            "governatori": null,
+            "granouillac": null,
+            "dloussky": null,
+            "vella": null
+          }
+        }
+      ]
+    }
+  ]
+}

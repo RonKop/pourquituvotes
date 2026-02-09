@@ -1,0 +1,963 @@
+{
+  "ville": "Grenoble",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "ruffin",
+      "nom": "Laurence Ruffin",
+      "liste": "Oui Grenoble (EELV/PS/PCF/Génération.s)",
+      "programmeUrl": "https://oui-grenoble.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "carignon",
+      "nom": "Alain Carignon",
+      "liste": "Réconcilier Grenoble (LR/Renaissance)",
+      "programmeUrl": "https://reconciliergrenoble.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "gerbi",
+      "nom": "Hervé Gerbi",
+      "liste": "Nous Grenoble (Horizons)",
+      "programmeUrl": "https://www.hervegerbi.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "brunon",
+      "nom": "Allan Brunon",
+      "liste": "Faire mieux pour Grenoble (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "gentil",
+      "nom": "Romain Gentil",
+      "liste": "Grenoble Capitale Citoyenne (PRG/Place Publique)",
+      "programmeUrl": "https://grenoble-capitale-citoyenne.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "gabriac",
+      "nom": "Valentin Gabriac",
+      "liste": "Grenoble Capitale des Alpes (RN/UDR)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "belaid",
+      "nom": "Nadia Belaïd",
+      "liste": "Grenoble Alpes Collectif (citoyenne)",
+      "programmeUrl": "https://www.grenoblealpescollectif.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "anglade",
+      "nom": "Baptiste Anglade",
+      "liste": "NPA-Révolutionnaires",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "brun",
+      "nom": "Catherine Brun",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "ruffin": {
+              "texte": "Création d'une police municipale de quartier renforcée par 50 agents supplémentaires, axée sur la proximité et la prévention",
+              "source": "Place Gre'net, janvier 2026",
+              "sourceUrl": "https://www.placegrenet.fr/2026/01/19/cameras-policiers-municipaux-rsa-jeune-ce-que-revele-la-fuite-du-projet-de-laurence-ruffin-pour-grenoble/669616"
+            },
+            "carignon": {
+              "texte": "Recrutement, formation et armement de 150 policiers municipaux supplémentaires, avec redéploiement dans les quartiers sud après 19h",
+              "source": "France Bleu Isère, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-grenoble-alain-carignon-devoile-ses-principales-mesures-pour-lutter-contre-l-insecurite-6904960"
+            },
+            "gerbi": {
+              "texte": "Plan sécurité chiffré à 10,8 millions d'euros : 176 policiers municipaux armés et commissariat ouvert 24h/24",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-de-6h30-et-8h30-ici-isere/municipales-2026-a-grenoble-qui-sont-les-candidats-et-que-proposent-ils-4413956"
+            },
+            "brunon": null,
+            "gentil": {
+              "texte": "Renforcement de la police municipale et création de 80 postes supplémentaires de médiateurs et d'agents",
+              "source": "CNews, janvier 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
+            },
+            "gabriac": {
+              "texte": "Recrutement de 150 agents supplémentaires pour la police municipale, armés, présence 24h/24. Objectif : 250 policiers municipaux",
+              "source": "Grenoble Mag, 2026",
+              "sourceUrl": "https://www.grenoblemag.com/article/2520/municipales-valentin-gabriac-rn-devoile-son-plan-grenoble-en-ordre-axe-sur-la-securite"
+            },
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "ruffin": null,
+            "carignon": {
+              "texte": "Déploiement de 300 caméras de vidéoprotection connectées à un centre de supervision 24h/24, assisté par intelligence artificielle",
+              "source": "France Bleu Isère, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-grenoble-alain-carignon-devoile-ses-principales-mesures-pour-lutter-contre-l-insecurite-6904960"
+            },
+            "gerbi": {
+              "texte": "Multiplication par cinq du nombre de caméras intelligentes, avec un centre de vidéoprotection opérationnel en continu",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-de-6h30-et-8h30-ici-isere/municipales-2026-a-grenoble-qui-sont-les-candidats-et-que-proposent-ils-4413956"
+            },
+            "brunon": null,
+            "gentil": null,
+            "gabriac": {
+              "texte": "Renforcement massif de la vidéosurveillance sur l'ensemble du territoire communal",
+              "source": "Place Gre'net, octobre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/10/13/municipales-le-rn-valentin-gabriac-veut-refaire-de-grenoble-la-capitale-des-alpes/661799"
+            },
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "ruffin": {
+              "texte": "Approche axée sur la prévention et la médiation de proximité dans tous les quartiers de la ville",
+              "source": "Place Gre'net, septembre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/09/25/cooperation-protection-et-sante-les-priorites-de-laurence-ruffin-candidate-aux-municipales-a-grenoble/660653"
+            },
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": {
+              "texte": "Refus de la Zone à faibles émissions (ZFE) jugée pénalisante pour les travailleurs",
+              "source": "France Bleu Isère, 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/elections-municipales-a-grenoble-lfi-fait-cavalier-seul-et-presente-une-liste-menee-par-allan-brunon-2636975"
+            },
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "ruffin": {
+              "texte": "Gratuité des transports en commun le week-end pour accéder au centre-ville et à la montagne",
+              "source": "TéléGrenoble, février 2026",
+              "sourceUrl": "https://tgplus.fr/article/au-palais-des-sports-laurence-ruffin-presente-sa-liste-et-son-projet-pour-grenoble/"
+            },
+            "carignon": null,
+            "gerbi": null,
+            "brunon": {
+              "texte": "Gratuité progressive des transports en commun : d'abord le week-end, puis pour les moins de 26 ans, puis gratuité totale",
+              "source": "TéléGrenoble, février 2026",
+              "sourceUrl": "https://tgplus.fr/article/manuel-bompard-en-visite-a-grenoble-pour-le-meeting-lfi-brunon-annonce-cantine-gratuite-et-transports-gratuits/"
+            },
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": {
+              "texte": "Gratuité totale des transports en commun",
+              "source": "CNews, janvier 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
+            },
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "ruffin": {
+              "texte": "Création d'une brigade municipale contre la vacance de logements",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+            },
+            "carignon": null,
+            "gerbi": null,
+            "brunon": {
+              "texte": "Réquisition effective des logements vacants pour loger les sans-abri",
+              "source": "France Bleu Isère, 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/elections-municipales-a-grenoble-lfi-fait-cavalier-seul-et-presente-une-liste-menee-par-allan-brunon-2636975"
+            },
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": {
+              "texte": "Réquisition des logements vacants et baisse des loyers",
+              "source": "Place Gre'net, octobre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/10/29/municipales-le-npa-revolutionnaires-entre-en-lice-avec-baptiste-anglade-pour-faire-entendre-la-voix-des-travailleurs/663261"
+            },
+            "brun": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "ruffin": {
+              "texte": "Tarif parent solo pour la cantine et le périscolaire",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+            },
+            "carignon": null,
+            "gerbi": {
+              "texte": "Gratuité de la cantine scolaire pour rendre l'école accessible au plus grand nombre",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-de-6h30-et-8h30-ici-isere/municipales-2026-a-grenoble-qui-sont-les-candidats-et-que-proposent-ils-4413956"
+            },
+            "brunon": {
+              "texte": "Gratuité totale de la cantine scolaire",
+              "source": "TéléGrenoble, février 2026",
+              "sourceUrl": "https://tgplus.fr/article/manuel-bompard-en-visite-a-grenoble-pour-le-meeting-lfi-brunon-annonce-cantine-gratuite-et-transports-gratuits/"
+            },
+            "gentil": {
+              "texte": "Gratuité réelle de l'école incluant la cantine scolaire",
+              "source": "CNews, janvier 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
+            },
+            "gabriac": null,
+            "belaid": null,
+            "anglade": {
+              "texte": "Gratuité des cantines scolaires",
+              "source": "CNews, janvier 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
+            },
+            "brun": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "ruffin": {
+              "texte": "Création d'un revenu de solidarité jeunes",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+            },
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "ruffin": {
+              "texte": "Création d'une forêt urbaine et ouverture de la baignade dans l'Isère",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+            },
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": {
+              "texte": "Lutte contre les tags et les incivilités, renforcement de la propreté urbaine",
+              "source": "Place Gre'net, octobre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/10/13/municipales-le-rn-valentin-gabriac-veut-refaire-de-grenoble-la-capitale-des-alpes/661799"
+            },
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "ruffin": {
+              "texte": "Développement d'une épargne citoyenne pour accompagner la transition écologique, inspirée de Bologne et Fribourg",
+              "source": "Place Gre'net, septembre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/09/25/cooperation-protection-et-sante-les-priorites-de-laurence-ruffin-candidate-aux-municipales-a-grenoble/660653"
+            },
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "ruffin": {
+              "texte": "Création d'une sécurité sociale de l'alimentation et d'un marché convivial en centre-ville",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+            },
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "ruffin": {
+              "texte": "Création de deux centres de santé municipaux, un centre de santé dans chaque secteur de la ville",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+            },
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": {
+              "texte": "Création de centres de santé par secteur de la ville",
+              "source": "CNews, janvier 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
+            },
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": {
+              "texte": "Chèque restaurant pour les plus de 70 ans",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-de-6h30-et-8h30-ici-isere/municipales-2026-a-grenoble-qui-sont-les-candidats-et-que-proposent-ils-4413956"
+            },
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": {
+              "texte": "Gratuité des maisons de retraite",
+              "source": "CNews, janvier 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
+            },
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": {
+              "texte": "Budget 100% citoyen : budget municipal entièrement décidé par une assemblée de citoyens tirés au sort, soumis à référendum",
+              "source": "Place Gre'net, novembre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/11/07/le-grenoble-alpes-collectif-presente-son-projet-de-budget-100-citoyen-soutenu-par-lex-adjoint-hakim-sabri/663882"
+            },
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "ruffin": {
+              "texte": "Votes ouverts dès 16 ans sur les questions municipales, y compris aux résidents étrangers",
+              "source": "TéléGrenoble, février 2026",
+              "sourceUrl": "https://tgplus.fr/article/au-palais-des-sports-laurence-ruffin-presente-sa-liste-et-son-projet-pour-grenoble/"
+            },
+            "carignon": null,
+            "gerbi": null,
+            "brunon": {
+              "texte": "Mise en place de référendums locaux et d'un mécanisme de révocation des élus",
+              "source": "France Bleu Isère, 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/elections-municipales-a-grenoble-lfi-fait-cavalier-seul-et-presente-une-liste-menee-par-allan-brunon-2636975"
+            },
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": {
+              "texte": "Renforcement des services publics de proximité dans chaque quartier",
+              "source": "CNews, janvier 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
+            },
+            "gabriac": null,
+            "belaid": {
+              "texte": "Création de binômes de co-maires de quartier chargés d'organiser la démocratie locale",
+              "source": "Place Gre'net, décembre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/12/11/municipales-de-grenoble-nadia-belaid-et-thomas-simon-binome-tete-de-liste-du-grenoble-alpes-collectif/666845"
+            },
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": {
+              "texte": "Soutien aux commerçants locaux par une baisse de la fiscalité et une politique incitative",
+              "source": "Place Gre'net, octobre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/10/13/municipales-le-rn-valentin-gabriac-veut-refaire-de-grenoble-la-capitale-des-alpes/661799"
+            },
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": {
+              "texte": "Interdiction des licenciements, augmentation générale des salaires d'au moins 400 €/mois, aucun salaire inférieur à 2 000 €",
+              "source": "Le Travailleur alpin, novembre 2025",
+              "sourceUrl": "https://travailleur-alpin.fr/2025/11/05/grenoble-le-npa-revolutionnaires-en-campagne-avec-baptiste-anglade/"
+            },
+            "brun": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": {
+              "texte": "Urbanisme équilibré garantissant le droit au logement et la proximité avec les habitants",
+              "source": "France Bleu Isère, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-de-6h30-et-8h30-ici-isere/municipales-2026-a-grenoble-qui-sont-les-candidats-et-que-proposent-ils-4413956"
+            },
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "ruffin": null,
+            "carignon": null,
+            "gerbi": null,
+            "brunon": null,
+            "gentil": null,
+            "gabriac": null,
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "ruffin": null,
+            "carignon": {
+              "texte": "Engagement d'un mandat sans hausse d'impôts : blocage des taux d'imposition et mutualisation ville/métropole pour 80 M€ d'économies",
+              "source": "Grenoble Mag, 2025",
+              "sourceUrl": "https://www.grenoblemag.com/article/2156/municipales-a-grenoble-alain-carignon-s-engage-a-stopper-la-hausse-d-impots"
+            },
+            "gerbi": {
+              "texte": "Baisse de 10% de la taxe foncière, restitution du trop-perçu aux contribuables grenoblois",
+              "source": "Place Gre'net, novembre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/11/03/municipales-a-grenoble-le-candidat-herve-gerbi-veut-rendre-le-trop-percu-de-la-taxe-fonciere/663544"
+            },
+            "brunon": null,
+            "gentil": null,
+            "gabriac": {
+              "texte": "Baisse de la fiscalité locale pour redonner du pouvoir d'achat aux Grenoblois",
+              "source": "Place Gre'net, octobre 2025",
+              "sourceUrl": "https://www.placegrenet.fr/2025/10/13/municipales-le-rn-valentin-gabriac-veut-refaire-de-grenoble-la-capitale-des-alpes/661799"
+            },
+            "belaid": null,
+            "anglade": null,
+            "brun": null
+          }
+        }
+      ]
+    }
+  ]
+}

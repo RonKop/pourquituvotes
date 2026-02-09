@@ -1,0 +1,1085 @@
+{
+  "ville": "Dijon",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "koenders",
+      "nom": "Nathalie Koenders",
+      "liste": "Dijon Écologique, Sociale, Attractive (PS/MoDem/EELV)",
+      "programmeUrl": "https://koenders2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bichot",
+      "nom": "Emmanuel Bichot",
+      "liste": "Agir pour Dijon (LR/UDI/Horizons)",
+      "programmeUrl": "https://www.bichot2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "coudert",
+      "nom": "Thierry Coudert",
+      "liste": "Rassemblement Dijonnais (UDR-RN)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "minard",
+      "nom": "Olivier Minard",
+      "liste": "Dijon Populaire (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "haberstrau",
+      "nom": "Michel Haberstrau",
+      "liste": "Dijon Change d'ère (EELV/PCF)",
+      "programmeUrl": "https://dijonchangedere.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "goguel",
+      "nom": "Rémi Goguel",
+      "liste": "Dijon Avenir (citoyenne écologiste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rocher",
+      "nom": "Claire Rocher",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "koenders": {
+              "texte": "Renforcer la police municipale à 104 agents mieux équipés et armés, avec présence place de la République jusqu'à 5h du matin",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-nathalie-koenders-entre-en-campagne-avec-un-projet-et-une-liste.html"
+            },
+            "bichot": {
+              "texte": "Doubler les effectifs de la police municipale à 200 agents avec brigade canine et anti-stupéfiants",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "Doubler les effectifs de la police municipale active 24h/24 avec équipes cynophiles",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2025/08/18/thierry-coudert-a-loffensive-sur-la-securite-que-valent-vraiment-ses-6-propositions/"
+            },
+            "minard": {
+              "texte": "Police municipale désarmée, modèle de proximité et de lien social",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-la-france-insoumise-entre-en-campagne-a-dijon-et-presente-son-programme-4414470"
+            },
+            "haberstrau": {
+              "texte": "Police municipale de proximité sans démagogie sécuritaire",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-les-propositions-de-michel-haberstrau-pour-les-municipales.html"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "koenders": {
+              "texte": "Installer des caméras de surveillance devant chaque école et chaque crèche",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/06/nathalie-koenders-un-meeting-a-plus-de-700-participants-dans-une-ambiance-de-campagne/"
+            },
+            "bichot": {
+              "texte": "Renforcer la vidéoprotection avec intelligence artificielle",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "Multiplier par cinq le nombre de caméras de vidéoprotection",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2025/08/18/thierry-coudert-a-loffensive-sur-la-securite-que-valent-vraiment-ses-6-propositions/"
+            },
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "koenders": {
+              "texte": "Renforcer la prévention comme pilier complémentaire de la politique de sécurité",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-nathalie-koenders-entre-en-campagne-avec-un-projet-et-une-liste.html"
+            },
+            "bichot": {
+              "texte": "Mener des opérations régulières contre le narcotrafic et les rodéos urbains",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": {
+              "texte": "Augmenter les effectifs d'éducateurs dans les quartiers plutôt que la répression policière",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-ici-bourgogne/municipales-a-dijon-la-france-insoumise-et-sa-tete-de-liste-olivier-minard-proposent-la-gratuite-des-transports-5116616"
+            },
+            "haberstrau": {
+              "texte": "Dispositif permanent de médiation avec éducateurs spécialisés et médiateurs professionnels",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "koenders": {
+              "texte": "Construire une troisième ligne de tramway métropolitain (T3) et augmenter la flotte de bus électriques",
+              "source": "Info Beaune, 2026",
+              "sourceUrl": "https://www.info-beaune.com/articles/2026/02/05/14211/municipales-2026-a-dijon-nathalie-koenders-entre-en-campagne-devant-plus-de-700-dijonnais/"
+            },
+            "bichot": {
+              "texte": "Suspendre la 3ème ligne de tramway et étendre les navettes électriques dans les quartiers",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "S'opposer à la 3ème ligne de tramway et refondre les lignes de bus avec services nocturnes",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/30/municipales-a-dijon-thierry-coudert-devoile-ses-premiers-colistiers/"
+            },
+            "minard": {
+              "texte": "Modifier le tracé de la troisième ligne de tramway",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-la-france-insoumise-entre-en-campagne-a-dijon-et-presente-son-programme-4414470"
+            },
+            "haberstrau": {
+              "texte": "Remettre à plat le tracé de la 3e ligne de tramway avec une nouvelle concertation citoyenne",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "koenders": {
+              "texte": "Assurer la continuité des pistes cyclables sur l'ensemble de la ville",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-nathalie-koenders-entre-en-campagne-avec-un-projet-et-une-liste.html"
+            },
+            "bichot": {
+              "texte": "Élargir les itinéraires cyclables sur l'ensemble de la métropole",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Déployer un réseau piéton-vélo continu, sécurisé et confortable sur toute la ville",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "koenders": {
+              "texte": "Étendre les zones 30 dans tous les quartiers résidentiels",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/06/nathalie-koenders-un-meeting-a-plus-de-700-participants-dans-une-ambiance-de-campagne/"
+            },
+            "bichot": {
+              "texte": "Améliorer l'accessibilité piétons et rénover les trottoirs (programme Ma rue, ma ville)",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "koenders": null,
+            "bichot": {
+              "texte": "Gratuité de la première demi-heure de stationnement et réduction du forfait post-stationnement à 15€",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "Une heure gratuite de stationnement en surface, deux heures en parking souterrain",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/30/municipales-a-dijon-thierry-coudert-devoile-ses-premiers-colistiers/"
+            },
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "koenders": {
+              "texte": "Baisser l'abonnement Divia pour les 18-25 ans",
+              "source": "Info Beaune, 2026",
+              "sourceUrl": "https://www.info-beaune.com/articles/2026/02/05/14211/municipales-2026-a-dijon-nathalie-koenders-entre-en-campagne-devant-plus-de-700-dijonnais/"
+            },
+            "bichot": {
+              "texte": "Gratuité des transports en commun pour les personnes handicapées",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": {
+              "texte": "Gratuité progressive des transports en commençant par les jeunes et les personnes précaires",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-ici-bourgogne/municipales-a-dijon-la-france-insoumise-et-sa-tete-de-liste-olivier-minard-proposent-la-gratuite-des-transports-5116616"
+            },
+            "haberstrau": {
+              "texte": "Transports gratuits pour les moins de 26 ans, les personnes handicapées et les bénéficiaires de minima sociaux",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": {
+              "texte": "Geler les loyers des logements sociaux comme première mesure",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-la-france-insoumise-entre-en-campagne-a-dijon-et-presente-son-programme-4414470"
+            },
+            "haberstrau": {
+              "texte": "Porter la part de logements sociaux à 25% via réhabilitation de logements vacants",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": {
+              "texte": "Obliger les bailleurs sociaux à réparer et entretenir les logements des quartiers populaires",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/municipales-a-dijon-si-on-avait-une-mairie-avec-des-ouvriers-revolutionnaires-a-sa-tete-ca-changerait-la-donne-indique-claire-rocher.html"
+            }
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": {
+              "texte": "Mettre en place l'encadrement des loyers à Dijon",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-la-france-insoumise-entre-en-campagne-a-dijon-et-presente-son-programme-4414470"
+            },
+            "haberstrau": {
+              "texte": "Demander le classement en zone tendue pour encadrer les loyers et réguler Airbnb",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "koenders": {
+              "texte": "Réguler les locations de courte durée type Airbnb pour préserver le parc résidentiel",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/06/nathalie-koenders-un-meeting-a-plus-de-700-participants-dans-une-ambiance-de-campagne/"
+            },
+            "bichot": null,
+            "coudert": null,
+            "minard": {
+              "texte": "Encadrer strictement les locations touristiques de courte durée (Airbnb)",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-la-france-insoumise-entre-en-campagne-a-dijon-et-presente-son-programme-4414470"
+            },
+            "haberstrau": null,
+            "goguel": {
+              "texte": "Garantir un logement digne pour tous les Dijonnais",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/02/remi-goguel-et-mathilde-mouchet-conduisent-la-liste-citoyenne-dijon-avenir/"
+            },
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "koenders": {
+              "texte": "Plan ambitieux en faveur de l'enfance et de la petite enfance",
+              "source": "Info Beaune, 2026",
+              "sourceUrl": "https://www.info-beaune.com/articles/2026/02/05/14211/municipales-2026-a-dijon-nathalie-koenders-entre-en-campagne-devant-plus-de-700-dijonnais/"
+            },
+            "bichot": {
+              "texte": "Faciliter l'accès aux crèches municipales",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Renforcer les ATSEM en maternelle pour atteindre une ATSEM par classe",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "koenders": {
+              "texte": "Créer des rues aux écoles sécurisées et piétonnisées",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/06/nathalie-koenders-un-meeting-a-plus-de-700-participants-dans-une-ambiance-de-campagne/"
+            },
+            "bichot": {
+              "texte": "Rénover les écoles et éliminer les préfabriqués",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Plan accéléré Rénov'École avec végétalisation, adaptation aux chaleurs et piétonnisation des abords",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "koenders": {
+              "texte": "Atteindre 75% de produits bio et locaux dans la restauration scolaire et fournir un kit de fournitures à chaque élève",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/06/nathalie-koenders-un-meeting-a-plus-de-700-participants-dans-une-ambiance-de-campagne/"
+            },
+            "bichot": null,
+            "coudert": null,
+            "minard": {
+              "texte": "Cantine gratuite et biologique pour tous les élèves et élimination des emballages à la cuisine centrale",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-ici-bourgogne/municipales-a-dijon-la-france-insoumise-et-sa-tete-de-liste-olivier-minard-proposent-la-gratuite-des-transports-5116616"
+            },
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "koenders": {
+              "texte": "Lancer un plan ambitieux contre le harcèlement scolaire",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/06/nathalie-koenders-un-meeting-a-plus-de-700-participants-dans-une-ambiance-de-campagne/"
+            },
+            "bichot": {
+              "texte": "Consulter les parents sur le retour à la semaine de 4 jours",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "koenders": {
+              "texte": "Accompagner les jeunes vers l'autonomie",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-nathalie-koenders-entre-en-campagne-avec-un-projet-et-une-liste.html"
+            },
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "koenders": {
+              "texte": "Planter au minimum 50 000 arbres et arbustes durant le mandat et désimpermeabiliser le centre-ville",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-nathalie-koenders-entre-en-campagne-avec-un-projet-et-une-liste.html"
+            },
+            "bichot": {
+              "texte": "Sauver le lac Kir et créer de nouveaux parcs canins et espaces verts",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "Réfléchir au retour de l'eau en surface, notamment pour le Suzon",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/30/municipales-a-dijon-thierry-coudert-devoile-ses-premiers-colistiers/"
+            },
+            "minard": null,
+            "haberstrau": {
+              "texte": "Désimpermeabilisation massive, plantations d'arbres et micro-forêts, espace nature à moins de 5 minutes et réouverture du Suzon",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "koenders": {
+              "texte": "Transformer la Grande Orangerie de l'Arquebuse en lieu de référence dédié à la transition écologique",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-nathalie-koenders-entre-en-campagne-avec-un-projet-et-une-liste.html"
+            },
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Révision du PLUi-HD avec objectif zéro artificialisation brute et arrêt de la phase 2 de l'écoquartier des Maraîchers",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": {
+              "texte": "Transition vers un modèle de post-croissance fondé sur la sobriété énergétique et matérielle, protection contre les vagues de chaleur",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/02/remi-goguel-et-mathilde-mouchet-conduisent-la-liste-citoyenne-dijon-avenir/"
+            },
+            "rocher": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "koenders": null,
+            "bichot": {
+              "texte": "Exonération de taxe foncière pendant 3 ans pour les propriétaires réalisant une rénovation énergétique",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Rénovation thermique massive avec exonération de taxe foncière pour les propriétaires engagés",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Créer une sécurité sociale de l'alimentation locale à l'échelle dijonnaise",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": {
+              "texte": "Accès de tous à une alimentation de qualité",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/02/remi-goguel-et-mathilde-mouchet-conduisent-la-liste-citoyenne-dijon-avenir/"
+            },
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "koenders": {
+              "texte": "Créer une mutuelle santé municipale pour les Dijonnais",
+              "source": "Info Beaune, 2026",
+              "sourceUrl": "https://www.info-beaune.com/articles/2026/02/05/14211/municipales-2026-a-dijon-nathalie-koenders-entre-en-campagne-devant-plus-de-700-dijonnais/"
+            },
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Implanter des structures médicales de proximité dans les quartiers déficitaires",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Créer un tiers-lieu santé associant professionnels et habitants",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "koenders": null,
+            "bichot": {
+              "texte": "Renforcer le rôle des conseils de quartier",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": {
+              "texte": "Instaurer un référendum d'initiative citoyenne (RIC) local",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-la-france-insoumise-entre-en-campagne-a-dijon-et-presente-son-programme-4414470"
+            },
+            "haberstrau": {
+              "texte": "Assemblées citoyennes trimestrielles codécisionnaires et convention citoyenne Dijon cap 2050",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-les-propositions-de-michel-haberstrau-pour-les-municipales.html"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "koenders": null,
+            "bichot": {
+              "texte": "Réduire le nombre d'adjoints de 22 à 15, diviser les dépenses de communication par 2 et auditer la gestion sortante",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "Réduire les indemnités d'élus",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/30/municipales-a-dijon-thierry-coudert-devoile-ses-premiers-colistiers/"
+            },
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": {
+              "texte": "Redonner un vrai rôle aux comités de quartier",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2025/08/04/municipales-2026-entretien-avec-thierry-coudert-tete-de-liste-udr-rn-a-dijon/"
+            },
+            "minard": null,
+            "haberstrau": {
+              "texte": "Porter à 10% du budget municipal la part dédiée aux associations culturelles, sportives et solidaires",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Reprendre en gestion publique l'eau, les déchets, les transports et la petite enfance",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": {
+              "texte": "Mettre la mairie au service des travailleurs et des quartiers populaires",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/municipales-a-dijon-si-on-avait-une-mairie-avec-des-ouvriers-revolutionnaires-a-sa-tete-ca-changerait-la-donne-indique-claire-rocher.html"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "koenders": null,
+            "bichot": {
+              "texte": "Réviser les redevances terrasses et enseignes pour soutenir les commerçants",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "Créer une task force municipale pour l'attractivité et une SEM contre la vacance commerciale",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/30/municipales-a-dijon-thierry-coudert-devoile-ses-premiers-colistiers/"
+            },
+            "minard": null,
+            "haberstrau": {
+              "texte": "Contrôle des baux commerciaux et plafonnement des loyers pour favoriser la diversité commerciale",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-les-propositions-de-michel-haberstrau-pour-les-municipales.html"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "koenders": null,
+            "bichot": {
+              "texte": "Faciliter l'accès des PME à la commande publique municipale",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": {
+              "texte": "Système de points favorisant les entreprises d'insertion et écologiques dans les marchés publics",
+              "source": "France Bleu Bourgogne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-la-france-insoumise-entre-en-campagne-a-dijon-et-presente-son-programme-4414470"
+            },
+            "haberstrau": {
+              "texte": "Soutenir les SCOP et SCIC, aides aux entreprises conditionnées à des critères sociaux et environnementaux",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-les-propositions-de-michel-haberstrau-pour-les-municipales.html"
+            },
+            "goguel": {
+              "texte": "Relocalisation de l'économie et création d'emplois locaux via l'économie circulaire et régénérative",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/02/remi-goguel-et-mathilde-mouchet-conduisent-la-liste-citoyenne-dijon-avenir/"
+            },
+            "rocher": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "koenders": null,
+            "bichot": {
+              "texte": "Soutenir les filières santé et agroalimentaire et défendre la zone franche de Fontaine-d'Ouche",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "koenders": {
+              "texte": "Rénover les Halles centrales et le patrimoine (Saint-Philibert, Notre-Dame, Cellier de Clairvaux)",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/06/nathalie-koenders-un-meeting-a-plus-de-700-participants-dans-une-ambiance-de-campagne/"
+            },
+            "bichot": {
+              "texte": "Réhabiliter les Halles centrales, transformer la Cité de la Gastronomie et valoriser la Chartreuse de Champmol",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "Créer un fonds municipal pour rénover le patrimoine et arrêter les dépenses pour la Cité de la gastronomie",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/30/municipales-a-dijon-thierry-coudert-devoile-ses-premiers-colistiers/"
+            },
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "koenders": {
+              "texte": "Créer une fête populaire européenne autour de l'histoire des ducs de Bourgogne",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-nathalie-koenders-entre-en-campagne-avec-un-projet-et-une-liste.html"
+            },
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "koenders": null,
+            "bichot": {
+              "texte": "Reconstruire la patinoire, créer un parc aquatique et rénover les salles sportives",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "koenders": {
+              "texte": "Rétablir la Nuit du Sport",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-nathalie-koenders-entre-en-campagne-avec-un-projet-et-une-liste.html"
+            },
+            "bichot": {
+              "texte": "Accueillir des événements sportifs d'envergure nationale",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "koenders": {
+              "texte": "Piétonniser la cour d'honneur du Palais des Ducs de Bourgogne",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/06/nathalie-koenders-un-meeting-a-plus-de-700-participants-dans-une-ambiance-de-campagne/"
+            },
+            "bichot": {
+              "texte": "Réduire les objectifs de constructions nouvelles et lutter contre la bétonisation",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "Mettre fin à la bétonisation et renforcer la végétalisation de la ville",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2025/08/04/municipales-2026-entretien-avec-thierry-coudert-tete-de-liste-udr-rn-a-dijon/"
+            },
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "koenders": {
+              "texte": "Plan ambitieux en faveur de l'accessibilité pour les personnes handicapées",
+              "source": "Info Beaune, 2026",
+              "sourceUrl": "https://www.info-beaune.com/articles/2026/02/05/14211/municipales-2026-a-dijon-nathalie-koenders-entre-en-campagne-devant-plus-de-700-dijonnais/"
+            },
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Zéro rue non accessible aux personnes à mobilité réduite",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-les-propositions-de-michel-haberstrau-pour-les-municipales.html"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": {
+              "texte": "Meilleure desserte des quartiers enclavés comme Fontaine-d'Ouche",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/16/municipales-2026-a-dijon-la-liste-dijon-change-dere-devoile-un-programme-axe-sur-la-justice-sociale-et-la-transition-ecologique/"
+            },
+            "goguel": null,
+            "rocher": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "koenders": {
+              "texte": "Accompagner les familles monoparentales",
+              "source": "Infos Dijon, 2026",
+              "sourceUrl": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-nathalie-koenders-entre-en-campagne-avec-un-projet-et-une-liste.html"
+            },
+            "bichot": null,
+            "coudert": {
+              "texte": "Supprimer les aides sociales municipales pour les personnes condamnées",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2025/08/18/thierry-coudert-a-loffensive-sur-la-securite-que-valent-vraiment-ses-6-propositions/"
+            },
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "koenders": null,
+            "bichot": null,
+            "coudert": null,
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "koenders": {
+              "texte": "Pas d'augmentation des taux d'impôts municipaux",
+              "source": "Info Beaune, 2026",
+              "sourceUrl": "https://www.info-beaune.com/articles/2026/02/05/14211/municipales-2026-a-dijon-nathalie-koenders-entre-en-campagne-devant-plus-de-700-dijonnais/"
+            },
+            "bichot": {
+              "texte": "Baisser la taxe foncière de 5% dès 2026",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/02/03/municipales-2026-a-dijon-emmanuel-bichot-devoile-un-programme-axe-sur-lordre-la-securite-et-le-pouvoir-dachat/"
+            },
+            "coudert": {
+              "texte": "Baisser la taxe foncière de 5%",
+              "source": "Dijon Actualités, 2026",
+              "sourceUrl": "https://dijon-actualites.fr/2026/01/30/municipales-a-dijon-thierry-coudert-devoile-ses-premiers-colistiers/"
+            },
+            "minard": null,
+            "haberstrau": null,
+            "goguel": null,
+            "rocher": {
+              "texte": "Augmenter les salaires, interdire les licenciements et répartir le travail entre tous",
+              "source": "Lutte Ouvrière, 2026",
+              "sourceUrl": "https://www.lutte-ouvriere.org/portail/municipales-2026/candidats.html"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+{
+  "ville": "Le Havre",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "philippe",
+      "nom": "Édouard Philippe",
+      "liste": "Le Havre! (Horizons)",
+      "programmeUrl": "https://ep2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lecoq",
+      "nom": "Jean-Paul Lecoq",
+      "liste": "Mieux vivre ensemble au Havre (Front populaire havrais/PCF)",
+      "programmeUrl": "https://jplecoq2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "keller",
+      "nom": "Franck Keller",
+      "liste": "Alliance UDR-RN",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "boulogne",
+      "nom": "Charlotte Boulogne",
+      "liste": "Le Havre Insoumis! (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "zarifian",
+      "nom": "Sophie Zarifian",
+      "liste": "Le Havre en débat (citoyen)",
+      "programmeUrl": "https://lhendebat.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "cauchois",
+      "nom": "Magali Cauchois",
+      "liste": "Lutte ouvrière – le camp des travailleurs",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": {
+              "texte": "Faire de la sécurité un axe prioritaire : renforcement de la sécurité publique et de la propreté",
+              "source": "Tendance Ouest, 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435434-le-havre-qui-est-franck-keller-candidat-de-l-alliance-udr-rn-aux-municipales"
+            },
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "philippe": {
+              "texte": "Créer une nouvelle ligne C de tramway de 14 km et 17 stations entre Vallée Béreult et Montivilliers",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/normandie/seine-maritime-76/le-havre/municipales-2026-au-havre-edouard-philippe-presente-son-programme-de-continuite-4763415"
+            },
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "philippe": {
+              "texte": "Étendre la gratuité du transport scolaire aux lieux culturels, créer un abonnement famille et gratuité jusqu'à 6 ans",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/normandie/seine-maritime-76/le-havre/municipales-2026-au-havre-edouard-philippe-presente-son-programme-de-continuite-4763415"
+            },
+            "lecoq": {
+              "texte": "Gratuité des transports en commun les mercredis, samedis et pour les scolaires, vers la gratuité totale progressive",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186"
+            },
+            "keller": {
+              "texte": "Gratuité des transports en commun",
+              "source": "CNews, 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-31/municipales-2026-qui-sont-les-candidats-la-mairie-du-havre-1809627"
+            },
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "philippe": null,
+            "lecoq": {
+              "texte": "Garantir un logement digne pour tous, lutte contre les logements insalubres et les marchands de sommeil",
+              "source": "Tendance Ouest, 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435542-municipales-2026-jean-paul-lecoq-sera-le-candidat-du-front-populaire-havrais"
+            },
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "philippe": null,
+            "lecoq": {
+              "texte": "Plan de rénovation des bâtiments municipaux avec effort particulier sur les écoles et gymnases",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186"
+            },
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "philippe": null,
+            "lecoq": {
+              "texte": "Baisser les tarifs de cantine (parmi les plus élevés du département) pour des tarifs plus justes",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186"
+            },
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "philippe": {
+              "texte": "Adapter la ville aux transformations climatiques, accompagner la décarbonation des activités industrielles et portuaires",
+              "source": "vert.eco, 2026",
+              "sourceUrl": "https://vert.eco/articles/municipales-2026-dans-les-bastions-industriels-du-havre-et-de-rouen-les-candidats-promettent-de-mettre-lecologie-au-centre"
+            },
+            "lecoq": {
+              "texte": "Mesurer l'impact environnemental de chaque décision municipale, réviser le PLU pour la transition écologique",
+              "source": "vert.eco, 2026",
+              "sourceUrl": "https://vert.eco/articles/municipales-2026-dans-les-bastions-industriels-du-havre-et-de-rouen-les-candidats-promettent-de-mettre-lecologie-au-centre"
+            },
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "philippe": {
+              "texte": "Créer une pépinière de médecins généralistes juniors avec logements accessibles pour leur année de stage",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/normandie/seine-maritime-76/le-havre/municipales-2026-au-havre-edouard-philippe-presente-son-programme-de-continuite-4763415"
+            },
+            "lecoq": {
+              "texte": "Ouvrir un centre de santé municipal avec médecins salariés et antennes décentralisées ou mobiles dans les quartiers",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186"
+            },
+            "keller": {
+              "texte": "Création de centres de santé soutenus par la municipalité",
+              "source": "Tendance Ouest, 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435434-le-havre-qui-est-franck-keller-candidat-de-l-alliance-udr-rn-aux-municipales"
+            },
+            "boulogne": null,
+            "zarifian": {
+              "texte": "Répondre au problème de l'accès aux médecins, enjeu santé au cœur du programme",
+              "source": "Tendance Ouest, 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-436022-municipales-2026-avec-le-havre-en-debat-sophie-zarifian-entend-redonner-du-pouvoir-aux-citoyens"
+            },
+            "cauchois": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "philippe": {
+              "texte": "Lancer un plan majeur de prévention santé (nutrition, activité physique, vaccination) avec tous les acteurs de santé",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/normandie/seine-maritime-76/le-havre/municipales-2026-au-havre-edouard-philippe-presente-son-programme-de-continuite-4763415"
+            },
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": {
+              "texte": "Créer un conseil municipal citoyen tiré au sort pour proposer et contrôler la politique municipale",
+              "source": "Tendance Ouest, 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-436022-municipales-2026-avec-le-havre-en-debat-sophie-zarifian-entend-redonner-du-pouvoir-aux-citoyens"
+            },
+            "cauchois": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "philippe": null,
+            "lecoq": {
+              "texte": "Changement d'approche : les propositions viennent des citoyens, fin de la gouvernance descendante du maire",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186"
+            },
+            "keller": null,
+            "boulogne": null,
+            "zarifian": {
+              "texte": "Renforcer les conseils de quartier pour que les projets ne soient plus présentés déjà ficellés, redonner du pouvoir aux citoyens",
+              "source": "Tendance Ouest, 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-436022-municipales-2026-avec-le-havre-en-debat-sophie-zarifian-entend-redonner-du-pouvoir-aux-citoyens"
+            },
+            "cauchois": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "philippe": {
+              "texte": "Soutien financier aux associations de commerçants, pas d'augmentation de la taxe foncière",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/normandie/seine-maritime-76/le-havre/municipales-2026-au-havre-edouard-philippe-presente-son-programme-de-continuite-4763415"
+            },
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": {
+              "texte": "Lutter contre le taux de chômage élevé, amélioration globale des conditions de vie",
+              "source": "Tendance Ouest, 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435434-le-havre-qui-est-franck-keller-candidat-de-l-alliance-udr-rn-aux-municipales"
+            },
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "philippe": {
+              "texte": "Atteindre 5 millions de conteneurs au port d'ici 2030 (création de 10 000 emplois), accompagner la décarbonation industrielle et portuaire",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/normandie/seine-maritime-76/le-havre/municipales-2026-au-havre-edouard-philippe-presente-son-programme-de-continuite-4763415"
+            },
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "philippe": {
+              "texte": "Installer une seconde scène du Volcan à Mare Rouge, créer le centre d'exposition Antoine Rufenacht en partenariat avec le musée Guimet",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/normandie/seine-maritime-76/le-havre/municipales-2026-au-havre-edouard-philippe-presente-son-programme-de-continuite-4763415"
+            },
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "philippe": {
+              "texte": "Rénovation lourde du centre ancien est, transformation du secteur des Magasins Généraux avec parc et logements neufs",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/normandie/seine-maritime-76/le-havre/municipales-2026-au-havre-edouard-philippe-presente-son-programme-de-continuite-4763415"
+            },
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "philippe": null,
+            "lecoq": null,
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "philippe": null,
+            "lecoq": {
+              "texte": "Nouvelle tarification progressive de l'eau avec gratuité des premiers mètres cubes",
+              "source": "France Bleu Normandie, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186"
+            },
+            "keller": null,
+            "boulogne": null,
+            "zarifian": null,
+            "cauchois": {
+              "texte": "Être les yeux et les oreilles des travailleurs au conseil municipal, défendre la condition ouvrière",
+              "source": "Tendance Ouest, 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-436029-municipales-2026-au-havre-magali-cauchois-place-la-condition-des-travailleurs-au-coeur-de-la-campagne"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "ville": "Clermont-Ferrand",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "bianchi",
+      "nom": "Olivier Bianchi",
+      "liste": "Vivre Clermont !",
+      "programmeUrl": "https://bianchi2026.fr",
+      "programmeComplet": true,
+      "programmePdfPath": "clermont-bianchi.pdf"
+    },
+    {
+      "id": "bony",
+      "nom": "Julien Bony",
+      "liste": "Union Citoyenne de la Droite et du Centre",
+      "programmeUrl": "https://bony2026.fr",
+      "programmeComplet": false,
+      "programmePdfPath": "clermont-bony.pdf"
+    },
+    {
+      "id": "darbois",
+      "nom": "Antoine Darbois",
+      "liste": "Rassemblement National",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": "clermont-darbois.pdf"
+    },
+    {
+      "id": "maximi",
+      "nom": "Marianne Maximi",
+      "liste": "Clermont fier et solidaire (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": "clermont-maximi.pdf"
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "bianchi": {
+              "texte": "Renforcement de la police municipale en poursuivant l’augmentation progressive et réaliste des effectifs (5 policiers par an). Un deuxième commissariat de police municipale sera créé, à Saint-Jacques. Une police des transports renforcera la sécurité dans les tramways et les bus. Sécurisation des abords des écoles, avec une présence régulière de la police municipale et le dispositif « les enfants d’abord ». Renforcement de la lutte contre les décharges sauvages grâce à une brigade verte",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2 | Programme officiel « Vivre Clermont ! », p. 2 et p. 4",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Faire de la tranquillité publique et de la lutte contre la délinquance une priorité absolue. Renforcement des moyens humains et techniques tant pour la prévention que pour la répression. Création de 100 postes de policiers municipaux pour atteindre 150 agents au total. Sécurité dans tous les quartiers, lutte contre les trafics. Renforcement de la brigade canine de police municipale",
+              "source": "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026 | Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "texte": "Augmentation du nombre de policiers municipaux jusqu’à 150 agents armés d’ici la fin du mandat. Armement de la police municipale. Mettre en place des brigades 24h/24 et 7j/7 pour lutter contre le narcotrafic. Lutter contre le narcotrafic et les conséquences d’une immigration incontrôlée. Patrouilles nocturnes renforcées",
+              "source": "France Bleu Pays d’Auvergne, 12/12/2025 | RCF Puy de Dôme, 05/12/2025 | Déclaration de campagne rapportée par La Montagne, 11/12/2025 | France Bleu Auvergne, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-ici-matin-pays-d-auvergne/antoine-darbois-candidat-rn-a-la-mairie-de-clermont-ferrand-1692334"
+            },
+            "maximi": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "bianchi": {
+              "texte": "Poursuite du déploiement de la vidéoprotection, utile à la prévention, à l’élucidation et aux poursuites judiciaires",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Centre de supervision urbain avec vidéoprotection complète",
+              "source": "France Bleu Auvergne, février 2026",
+              "sourceUrl": "https://bony2026.fr/"
+            },
+            "darbois": {
+              "texte": "Renforcement de la vidéosurveillance. Déploiement de la vidéoprotection",
+              "source": "RCF Puy de Dôme, 05/12/2025",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a"
+            },
+            "maximi": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "bianchi": {
+              "texte": "Renforcement de la lutte contre le harcèlement de rue (dispositif Angela, commerces refuges) et contre le harcèlement scolaire. Augmentation du nombre d’éducateurs spécialisés pour une présence renforcée sur le terrain. Chantiers éducatifs municipaux et Travail Alternatif Payé à la Journée (TAPAJ) pour les jeunes de 16 à 25 ans en précarité",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Expulsion des logements sociaux des auteurs de troubles. Rallumage de l’éclairage public la nuit pour renforcer la sécurité",
+              "source": "France 3 Auvergne-Rhône-Alpes, 11/01/2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-la-ville-est-prete-pour-l-alternance-promet-julien-bony-candidat-de-la-droite-et-du-centre-3244909.html"
+            },
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "bianchi": null,
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "bianchi": null,
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "bianchi": {
+              "texte": "Plan piéton pour sécuriser les cheminements et faciliter la marche à tous les âges. Nouvelle phase du réseau cyclable et création d’une école municipale du vélo. Accès à des vélos reconditionnés, renforcement des stationnements vélos (arceaux, vélo-box) et location longue durée de vélos électriques",
+              "source": "Programme officiel « Vivre Clermont ! », p. 4",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "bianchi": {
+              "texte": "Mise en œuvre d’un Plan de sécurité routière : adaptation des voiries, baisse de la vitesse, actions pédagogiques. Évaluation du schéma de circulation après la mise en service du nouveau réseau T2C",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2 | Programme officiel « Vivre Clermont ! », p. 4",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Améliorer significativement la mobilité pour tous les usagers sans les opposer. Fin de la Zone à Trafic Limité (ZTL) pour fluidifier la circulation : « Assouplir pour fluidifier »",
+              "source": "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "texte": "Assouplir les règles de la ZTL (Zone à Trafic Limité). Corriger les excès du projet InspiRe en matière de déplacements",
+              "source": "Déclaration de campagne rapportée par La Montagne, 11/12/2025",
+              "sourceUrl": "#"
+            },
+            "maximi": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "bianchi": {
+              "texte": "Gratuité du stationnement pour les professionnels de santé en déplacement à domicile",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "bianchi": {
+              "texte": "Gratuité des transports en commun pour les Clermontois de moins de 26 ans et de plus de 60 ans. Maintien de la gratuité des transports pour toutes et tous les week-ends",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": {
+              "texte": "Gratuité totale des transports en commun, au-delà de la seule gratuité du week-end",
+              "source": "Déclaration de campagne (réunion publique, 15/11/2025)",
+              "sourceUrl": "#"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "bianchi": {
+              "texte": "Production de 2 000 logements par an dont 30 % de sociaux et 20 % en accession à la propriété. Développement sobre, préservant les espaces naturels et agricoles en réhabilitant en priorité les friches",
+              "source": "Programme officiel « Vivre Clermont ! », p. 7",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": {
+              "texte": "Reconsidération des critères d’attribution des logements sociaux",
+              "source": "RCF Puy de Dôme, 05/12/2025",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a"
+            },
+            "maximi": {
+              "texte": "Développement du logement social. Fin des politiques de démolition de logements. Cesser les politiques de casse du logement social telle que la métropole l’a mise en place depuis plusieurs années avec l’ANRU",
+              "source": "France 3 Auvergne, février 2026 | Déclaration de campagne (réunion publique, 15/11/2025)",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/"
+            }
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "bianchi": {
+              "texte": "Lutte contre la vacance et encadrement des meublés touristiques",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "bianchi": null,
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "bianchi": {
+              "texte": "Lutte contre l’inflation de l’immobilier neuf grâce aux baux réels solidaires. Facilitation de l’accès au logement des jeunes, en lien avec l’Agence immobilière à vocation sociale",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": {
+              "texte": "Préférence nationale pour l’accès au logement : « Il faut que les nationaux qui cotisent aient la priorité »",
+              "source": "Déclaration de campagne rapportée par La Montagne, 11/12/2025",
+              "sourceUrl": "#"
+            },
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "bianchi": {
+              "texte": "Deux nouvelles crèches municipales à Regensburg et Pélissier",
+              "source": "Programme officiel « Vivre Clermont ! », p. 3",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Services publics efficaces et de qualité pour les familles, accès aux services petite enfance",
+              "source": "Lettre aux Clermontois, bony2026.fr",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "bianchi": {
+              "texte": "Garantie d’une ATSEM par classe maternelle. Nouvelle école maternelle à Regensburg pour renforcer l’offre éducative. Finalisation de la végétalisation des cours d’école, certaines ouvertes au public en cas de canicule",
+              "source": "Programme officiel « Vivre Clermont ! », p. 3",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "bianchi": {
+              "texte": "Prise en charge d’un kit de fournitures scolaires pour tous les élèves de primaire. Alternative végétarienne chaque jour dans la restauration scolaire. Fourniture d’un goûter sain et équilibré aux écoliers après la classe sans coût supplémentaire pour les familles",
+              "source": "Programme officiel « Vivre Clermont ! », p. 3",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": {
+              "texte": "Gratuité totale des cantines scolaires pour tous les élèves. Cantines bio et gratuites dans toutes les écoles municipales",
+              "source": "France 3 Auvergne-Rhône-Alpes, 15/11/2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html"
+            }
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "bianchi": {
+              "texte": "Augmentation du nombre de places en centres de loisirs pour mieux répondre aux besoins des familles",
+              "source": "Programme officiel « Vivre Clermont ! », p. 3",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création d’un guichet jeunes pour informer en matière de droits sociaux, santé mentale, emploi et prévention",
+              "source": "Programme officiel « Vivre Clermont ! », p. 3",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts",
+          "propositions": {
+            "bianchi": {
+              "texte": "Ouverture du parc de la Muraille et 2e phase du parc Saint-Jean. Végétalisation des places (Delille, Rodade, Bughes) et renaturation des cimetières",
+              "source": "Programme officiel « Vivre Clermont ! », p. 4",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Moins de béton et plus de vert, mieux entretenir nos espaces publics et en garantir la propreté",
+              "source": "Lettre aux Clermontois, bony2026.fr",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "bianchi": null,
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "bianchi": {
+              "texte": "Plan fraîcheur avec des cheminements ombragés, des points d’eau et des espaces de repos. Protection de l’eau potable, développement de la récupération de l’eau et étude d’une usine de recyclage des eaux usées. Prévention des risques naturels : zones inondables, création de bassins d’orage, réunions d’information annuelles par quartier",
+              "source": "Programme officiel « Vivre Clermont ! », p. 4",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Préférer une politique pragmatique et inclusive à la promotion d’une écologie punitive",
+              "source": "Lettre aux Clermontois, bony2026.fr",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "bianchi": {
+              "texte": "Achèvement de l’éclairage public 100 % LED (50 % réalisé à ce jour). Rénovation énergétique des bâtiments pour les publics les plus vulnérables : crèches, écoles et EHPAD. Développement des énergies renouvelables, du photovoltaïque et de l’autoconsommation collective. Soutien aux propriétaires privés via une centrale d’achats groupés pour la rénovation énergétique",
+              "source": "Programme officiel « Vivre Clermont ! », p. 4",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "bianchi": {
+              "texte": "Développement de la ceinture maraîchère métropolitaine. Expérimentation d’une caisse alimentaire locale pour publics précaires et parcours d’accompagnement alimentaire pour femmes enceintes (ordonnance verte)",
+              "source": "Programme officiel « Vivre Clermont ! », p. 4",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "bianchi": {
+              "texte": "Ouverture de centres de santé (libéraux ou municipaux, selon ce que la situation exige) pour renforcer l’accès aux soins. Organisation d’une semaine de la santé pour valoriser les initiatives locales. Élaboration d’un contrat local de santé métropolitain en collaboration avec les 21 communes",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Mener des politiques de santé ambitieuses et favoriser les infrastructures qui permettent d’améliorer la prise en charge médicale. Engagement contre les déserts médicaux et pour l’accès aux soins",
+              "source": "Lettre aux Clermontois, bony2026.fr",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "texte": "Lutte contre les déserts médicaux et amélioration de l’accès aux soins. Préférence nationale pour l’accès aux soins médicaux",
+              "source": "RCF Puy de Dôme, 05/12/2025 | Déclaration de campagne rapportée par La Montagne, 11/12/2025",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a"
+            },
+            "maximi": {
+              "texte": "Développement de centres de santé municipaux",
+              "source": "France 3 Auvergne-Rhône-Alpes, 15/11/2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html"
+            }
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "bianchi": {
+              "texte": "Développement du pôle d’infirmières scolaires municipales (5 recrutements), formées à la prévention et à la santé mentale",
+              "source": "Programme officiel « Vivre Clermont ! », p. 2",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "bianchi": {
+              "texte": "Plan seniors : accompagnement du vieillissement, soutien aux aidants, accès aux droits. Rénovation énergétique des EHPAD publics face aux épisodes de forte chaleur. Création d’un Conseil des aînés, espace d’expression, de dialogue et de propositions pour les seniors",
+              "source": "Programme officiel « Vivre Clermont ! », p. 3",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": {
+              "texte": "Attention aux EHPAD. Amélioration de l’accès aux soins pour les seniors",
+              "source": "France Bleu Auvergne, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création d’un Conseil des aînés et assouplissement du droit de proposition citoyenne. États généraux des quartiers et de la jeunesse et Assises de la vie associative. 2 nouvelles éditions du budget participatif et budget participatif dédié pour le Conseil municipal des enfants",
+              "source": "Programme officiel « Vivre Clermont ! », p. 6",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Mise en place de consultations populaires, pas de décisions imposées d’en haut",
+              "source": "Lettre aux Clermontois, bony2026.fr",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "bianchi": {
+              "texte": "Convention citoyenne sur l’Intelligence Artificielle et charte de l’IA publique et éthique",
+              "source": "Programme officiel « Vivre Clermont ! », p. 6",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Réduction du train de vie de la municipalité, chasse aux gaspillages et transparence dans les attributions de marchés. « Tourner le dos aux grands projets et revenir à l’essentiel » en matière d’urbanisme et de budget",
+              "source": "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "texte": "Remettre de l’ordre dans les finances de la ville et de la Métropole face au surendettement",
+              "source": "RCF Puy de Dôme, 05/12/2025",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a"
+            },
+            "maximi": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création d’un statut du « Clermontois engagé » pour valoriser les engagements personnels et initiatives. Nouvelle Maison des associations et rénovation du site associatif Abbé-Prévost. Création d’un Conseil de la nuit et renforcement de la charte de la vie nocturne",
+              "source": "Programme officiel « Vivre Clermont ! », p. 6 | Programme officiel « Vivre Clermont ! », p. 5",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "bianchi": {
+              "texte": "Accueil centralisé « toutes démarches » et permanences d’accès aux droits dans les équipements municipaux",
+              "source": "Programme officiel « Vivre Clermont ! », p. 6",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création d’un office municipal du commerce et de l’artisanat et managers de commerce supplémentaires. Soutien aux porteurs de projets : boutiques à l’essai, baux sociaux commerciaux. Améliorations des marchés alimentaires et de la Halle Saint-Pierre",
+              "source": "Programme officiel « Vivre Clermont ! », p. 5",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Recréer un environnement économique propice à de nouvelles installations avec une vigilance particulière pour le commerce de centre-ville. Création d’un office municipal du commerce avec moyens propres et moyens juridiques pour fédérer et servir de moteur au commerce clermontois. Création d’une application dédiée aux commerces de Clermont-Ferrand",
+              "source": "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "bianchi": {
+              "texte": "Création d’un fonds métropolitain ESS pour soutenir les projets à fort impact social et environnemental. Implantation d’une Maison de l’insertion et de l’emploi dans le quartier Saint-Jacques. Soutien aux filières locales de réemploi et de matériaux biosourcés avec un fonds métropolitain dédié",
+              "source": "Programme officiel « Vivre Clermont ! », p. 7",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": {
+              "texte": "Réorienter les financements publics vers les TPE et PME en difficulté plutôt que vers les grandes entreprises",
+              "source": "France 3 Auvergne-Rhône-Alpes, 15/11/2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html"
+            }
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "bianchi": {
+              "texte": "Réservation de 150 hectares de foncier économique et industriel pour l’implantation d’entreprises",
+              "source": "Programme officiel « Vivre Clermont ! », p. 7",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Politique de relance de l’attractivité, toujours aux côtés des commerces, entreprises et établissements universitaires",
+              "source": "Lettre aux Clermontois, bony2026.fr",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "texte": "Création de technocentres à Charade ou à l’aéroport d’Aulnat pour mettre en avant les savoir-faire locaux sur les nouvelles mobilités",
+              "source": "Déclaration de campagne rapportée par La Montagne, 11/12/2025",
+              "sourceUrl": "#"
+            },
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "bianchi": {
+              "texte": "Rénovation des façades de l’Opéra et modernisation de la Coopérative de Mai. Ouverture de la Cité du court et rénovation du Lieu-dit",
+              "source": "Programme officiel « Vivre Clermont ! », p. 5",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": {
+              "texte": "Création d’un musée autour du génie de Blaise Pascal pour faire rayonner la ville",
+              "source": "Déclaration de campagne rapportée par La Montagne, 11/12/2025",
+              "sourceUrl": "#"
+            },
+            "maximi": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "bianchi": {
+              "texte": "Soutien renforcé aux équipes artistiques et aux associations culturelles. Déploiement d’un réseau « mille formes » d’initiation à l’art pour les 0-6 ans dans des équipements de proximité. Programmation culturelle ouverte dans l’espace public : concerts, bals et spectacles dans les parcs et places",
+              "source": "Programme officiel « Vivre Clermont ! », p. 5",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Valorisation de l’identité territoriale et du patrimoine pour attirer des commerces et talents",
+              "source": "Lettre aux Clermontois, bony2026.fr",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": null,
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "bianchi": {
+              "texte": "Ouverture d’un gymnase chaque dimanche en automne et en hiver pour la pratique libre. Construction d’un gymnase au complexe Montpied aux Vergnes et pumptrack à Croix-Neyrat. Rénovation de la patinoire Papadakis-Cizeron",
+              "source": "Programme officiel « Vivre Clermont ! », p. 5",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "bianchi": {
+              "texte": "Développement de « Clermont bouge », manifestation sport-santé ouverte à toutes et tous. Doublement du chèque première licence à 50 € pour les plus jeunes. Grand village de loisirs gratuit et accessible pour l’été, ouvert à toutes et tous",
+              "source": "Programme officiel « Vivre Clermont ! », p. 5",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "bianchi": {
+              "texte": "Plan d’actions pour Montferrand (place de la Rodade, sauvegarde du patrimoine, soutien aux commerces). Réaménagement de la place Delille avec un meilleur partage des déplacements et mise en valeur des commerces",
+              "source": "Programme officiel « Vivre Clermont ! », p. 4",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Moderniser nos espaces publics qui souffrent d’une forme d’abandon, de la propreté à l’accessibilité",
+              "source": "Lettre aux Clermontois, bony2026.fr",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "texte": "Renommer l’Avenue de l’Union Soviétique : « désoviétiser Clermont »",
+              "source": "France Bleu Pays d’Auvergne, 10/09/2024",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/arnaud-dabois-candidat-rn-a-la-mairie-de-clermont-ferrand-je-veux-desovietiser-la-ville-9456202"
+            },
+            "maximi": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "bianchi": {
+              "texte": "Adaptation de l’espace public pour les personnes en situation de handicap, les enfants et les seniors : voiries adaptées, aires de jeux inclusives",
+              "source": "Programme officiel « Vivre Clermont ! », p. 3",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": {
+              "texte": "Améliorer le quotidien des personnes à mobilité réduite grâce à des aménagements parfaitement adaptés",
+              "source": "Lettre aux Clermontois, bony2026.fr",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "bianchi": {
+              "texte": "Achèvement du renouvellement urbain des Vergnes, de la Gauthière et de Saint-Jacques. Reconstruction de la Maison de quartier de Croix-Neyrat et identification d’un lieu municipal dans le quartier de la Gare",
+              "source": "Programme officiel « Vivre Clermont ! », p. 4 | Programme officiel « Vivre Clermont ! », p. 6",
+              "sourceUrl": "https://bianchi2026.fr"
+            },
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "bianchi": null,
+            "bony": null,
+            "darbois": null,
+            "maximi": {
+              "texte": "Plan « zéro enfant à la rue » : une trentaine d’enfants dorment dans la rue depuis septembre à Clermont-Ferrand",
+              "source": "France 3 Auvergne-Rhône-Alpes, 15/11/2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html"
+            }
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "bianchi": null,
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d’achat",
+          "propositions": {
+            "bianchi": null,
+            "bony": null,
+            "darbois": null,
+            "maximi": null
+          }
+        }
+      ]
+    }
+  ]
+}

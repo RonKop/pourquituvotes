@@ -1,0 +1,841 @@
+{
+  "ville": "Toulouse",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "moudenc",
+      "nom": "Jean-Luc Moudenc",
+      "liste": "Protégeons l'avenir (DVD)",
+      "programmeUrl": "https://moudenc2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "briancon",
+      "nom": "François Briançon",
+      "liste": "La gauche unie pour Toulouse (PS/EELV/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "piquemal",
+      "nom": "François Piquemal",
+      "liste": "Demain Toulouse (LFI)",
+      "programmeUrl": "https://piquemal2026.fr/le-programme/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "leonardelli",
+      "nom": "Julien Leonardelli",
+      "liste": "Le bon sens toulousain (RN)",
+      "programmeUrl": "https://www.lebonsenstoulousain.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "cottrel",
+      "nom": "Arthur Cottrel",
+      "liste": "J'aime Toulouse (Reconquête)",
+      "programmeUrl": "https://reconquete-toulouse.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "adrada",
+      "nom": "Malena Adrada",
+      "liste": "Le camp des travailleurs (LO)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "meilhac",
+      "nom": "Lambert Meilhac & Domitille Allorant",
+      "liste": "Nouvel Air (Équinoxe)",
+      "programmeUrl": "https://www.toulouse-nouvel-air.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": {
+              "texte": "Police de proximité renforcée, priorité à la prévention et au lien social plutôt qu'aux dispositifs répressifs",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "leonardelli": {
+              "texte": "Présence policière renforcée aux abords des écoles",
+              "source": "France Bleu Occitanie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": {
+              "texte": "Réorienter le budget vidéosurveillance vers le recrutement de policiers municipaux",
+              "source": "Le Journal Toulousain, octobre 2025",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            }
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "moudenc": {
+              "texte": "Installer une caméra de vidéosurveillance dans chaque rue de Toulouse",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": {
+              "texte": "Création d'un office municipal de médiation pour résoudre les conflits de voisinage et les incivilités",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "moudenc": {
+              "texte": "Prolongement du téléphérique Téléo vers Malepère pour desservir un nouveau quartier de 15 000 habitants",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "briancon": {
+              "texte": "Soutien au Service Express Régional Métropolitain (SERM) et abandon du projet Jonction Est",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "piquemal": {
+              "texte": "Création d'un RER métropolitain comme colonne vertébrale pour désengorger la métropole",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": {
+              "texte": "Convertir les routes pénétrantes en sens unique pour créer des voies bus et pistes cyclables",
+              "source": "Le Journal Toulousain, octobre 2025",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            }
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": {
+              "texte": "Réduire de 100 000 voitures dans l'aire urbaine d'ici 2032",
+              "source": "Le Journal Toulousain, octobre 2025",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            }
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "moudenc": null,
+            "briancon": {
+              "texte": "Tarification sociale des transports en commun",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "piquemal": {
+              "texte": "Gratuité des transports pour les moins de 26 ans d'ici 2030, avec réduction mensuelle dès septembre 2026",
+              "source": "Mediacités Toulouse, janvier 2026",
+              "sourceUrl": "https://www.mediacites.fr/"
+            },
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "moudenc": null,
+            "briancon": {
+              "texte": "15 000 nouveaux logements abordables sur le mandat, dont 7 500 via le Bail Réel Solidaire (BRS)",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "moudenc": {
+              "texte": "Refus de l'encadrement des loyers : privilégier la construction pour faire baisser les prix",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "briancon": {
+              "texte": "Candidature auprès de l'État pour expérimenter l'encadrement des loyers à Toulouse avant fin 2026",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "piquemal": {
+              "texte": "Mise en place de l'encadrement des loyers à Toulouse",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "moudenc": {
+              "texte": "Création d'une assurance logement municipale pour les familles",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "briancon": {
+              "texte": "Rénovation massive de 30 000 logements sur le mandat",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": {
+              "texte": "Priorité à la réhabilitation du parc existant plutôt qu'à la construction neuve",
+              "source": "Le Journal Toulousain, octobre 2025",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": {
+              "texte": "Instaurer l'uniforme dans les écoles de Toulouse",
+              "source": "France Bleu Occitanie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": {
+              "texte": "Gratuité des cantines scolaires et des fournitures pour toutes les familles",
+              "source": "Mediacités Toulouse, janvier 2026",
+              "sourceUrl": "https://www.mediacites.fr/"
+            },
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "moudenc": null,
+            "briancon": {
+              "texte": "Toulouse ville-jardin : 3 arbres visibles depuis chaque logement, 30% de couverture végétale par quartier, espace vert à moins de 300m de chaque habitant",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": {
+              "texte": "Végétalisation intensive : toits, rues et espaces publics, inspirée d'expériences d'autres villes européennes",
+              "source": "Le Journal Toulousain, octobre 2025",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            }
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": {
+              "texte": "Réduction de 55% des émissions de gaz à effet de serre de la métropole d'ici 2030",
+              "source": "Mediacités Toulouse, janvier 2026",
+              "sourceUrl": "https://www.mediacites.fr/"
+            },
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": {
+              "texte": "Création de centres de santé municipaux dans les quartiers",
+              "source": "Mediacités Toulouse, janvier 2026",
+              "sourceUrl": "https://www.mediacites.fr/"
+            },
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "moudenc": {
+              "texte": "Extension de la mutuelle municipale au-delà des seniors",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": {
+              "texte": "Création de 60 coopératives de quartier avec pouvoir de décision sur l'urbanisme et la mobilité",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "moudenc": null,
+            "briancon": {
+              "texte": "Retour en régie municipale de la gestion de l'eau et de l'assainissement",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "moudenc": {
+              "texte": "Soutien à l'aéronautique (Airbus, Safran) et à l'industrie locale, seule liste pro-entreprise et pro-emploi",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "moudenc": null,
+            "briancon": {
+              "texte": "Augmentation des dépenses culturelles et gratuité totale des bibliothèques municipales",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "moudenc": {
+              "texte": "Agrandissement du Stadium de Toulouse",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://moudenc2026.fr/"
+            },
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": {
+              "texte": "Création d'arrondissements à Toulouse, troisième ville de France, pour plus de proximité et de vie de quartier",
+              "source": "France Bleu Occitanie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "cottrel": {
+              "texte": "Création de districts sur le modèle de Paris, Lyon et Marseille pour favoriser la vie de quartier",
+              "source": "Le Journal Toulousain, septembre 2025",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "moudenc": null,
+            "briancon": null,
+            "piquemal": null,
+            "leonardelli": null,
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "moudenc": {
+              "texte": "Aucune hausse des impôts locaux sur le mandat",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://moudenc2026.fr/"
+            },
+            "briancon": {
+              "texte": "Suppression de la tarification saisonnière de l'eau pour protéger le pouvoir d'achat",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+            },
+            "piquemal": null,
+            "leonardelli": {
+              "texte": "Priorité au pouvoir d'achat des familles toulousaines",
+              "source": "France Bleu Occitanie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "cottrel": null,
+            "adrada": null,
+            "meilhac": null
+          }
+        }
+      ]
+    }
+  ]
+}

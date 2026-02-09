@@ -1,0 +1,5665 @@
+(function () {
+  "use strict";
+
+  // === Données embarquées (fonctionne sans serveur) ===
+  var VILLES = [
+    {
+      id: "bordeaux",
+      nom: "Bordeaux",
+      codePostal: "33000",
+      elections: ["bordeaux-2026"]
+    },
+    {
+      id: "clermont",
+      nom: "Clermont-Ferrand",
+      codePostal: "63000",
+      elections: ["clermont-2026"]
+    },
+    {
+      id: "paris",
+      nom: "Paris",
+      codePostal: "75000",
+      elections: ["paris-2026"]
+    },
+    {
+      id: "lyon",
+      nom: "Lyon",
+      codePostal: "69000",
+      elections: ["lyon-2026"]
+    },
+    {
+      id: "marseille",
+      nom: "Marseille",
+      codePostal: "13000",
+      elections: ["marseille-2026"]
+    }
+  ];
+
+    var ELECTIONS = {
+    "bordeaux-2026": {
+      ville: "Bordeaux",
+      annee: 2026,
+      type: "\u00C9lections municipales",
+      dateVote: "2026-03-15T08:00:00",
+      candidats: [
+        { id: "hurmic", nom: "Pierre Hurmic", liste: "Bordeaux Respire (\u00C9cologistes)", programmeUrl: "https://pierrehurmic2026.fr/notre-programme/", programmeComplet: true, programmePdfPath: null },
+        { id: "cazenave", nom: "Thomas Cazenave", liste: "Renaissance", programmeUrl: "https://fairegagnerbordeaux.fr/", programmeComplet: false, programmePdfPath: null },
+        { id: "poutou", nom: "Philippe Poutou", liste: "Rouge Bordeaux Anticapitaliste", programmeUrl: "#", programmeComplet: false, programmePdfPath: null }
+      ],
+      categories: [
+        {
+          id: "securite",
+          nom: "S\u00E9curit\u00E9 & Pr\u00E9vention",
+          sousThemes: [
+            {
+              id: "police-municipale",
+              nom: "Police municipale",
+              propositions: {
+                hurmic: {
+                  texte: "Augmenter les effectifs de policiers municipaux et de m\u00E9diateurs urbains",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: {
+                  texte: "Doublement des effectifs de police municipale avec cr\u00E9ation d\u2019une caserne d\u00E9di\u00E9e. R\u00E9tablissement de l\u2019\u00E9clairage public la nuit",
+                  source: "Rue89 Bordeaux, novembre 2025",
+                  sourceUrl: "https://fairegagnerbordeaux.fr/"
+                },
+                poutou: {
+                  texte: "D\u00E9sarmement de la police municipale. Renforcement des services publics municipaux",
+                  source: "France Bleu Gironde, janvier 2026",
+                  sourceUrl: "https://www.francebleu.fr/"
+                }
+              }
+            },
+            {
+              id: "videoprotection",
+              nom: "Vid\u00E9oprotection",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "prevention-mediation",
+              nom: "Pr\u00E9vention & M\u00E9diation",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "violences-femmes",
+              nom: "Violences faites aux femmes",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "transports",
+          nom: "Transports & Mobilit\u00E9",
+          sousThemes: [
+            {
+              id: "transports-en-commun",
+              nom: "Transports en commun",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "velo-mobilites-douces",
+              nom: "V\u00E9lo & Mobilit\u00E9s douces",
+              propositions: {
+                hurmic: {
+                  texte: "S\u00E9curiser les itin\u00E9raires pi\u00E9tons v\u00E9g\u00E9talis\u00E9s, cr\u00E9er 7 nouveaux parcs et r\u00E9am\u00E9nager 6 grandes places arbor\u00E9es",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "pietons-circulation",
+              nom: "Pi\u00E9tons & Circulation",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "stationnement",
+              nom: "Stationnement",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "tarifs-gratuite",
+              nom: "Tarifs & Gratuit\u00E9",
+              propositions: {
+                hurmic: {
+                  texte: "Soutien au pouvoir d\u2019achat via la tarification solidaire et l\u2019\u00E9tude de la gratuit\u00E9 des transports pour les moins de 10 ans",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: {
+                  texte: "Gratuit\u00E9 du stationnement le week-end dans les parkings publics",
+                  source: "Rue89 Bordeaux, novembre 2025",
+                  sourceUrl: "https://fairegagnerbordeaux.fr/"
+                },
+                poutou: {
+                  texte: "Gratuit\u00E9 des transports en commun",
+                  source: "France Bleu Gironde, janvier 2026",
+                  sourceUrl: "https://www.francebleu.fr/"
+                }
+              }
+            }
+          ]
+        },
+        {
+          id: "logement",
+          nom: "Logement",
+          sousThemes: [
+            {
+              id: "logement-social",
+              nom: "Logement social",
+              propositions: {
+                hurmic: {
+                  texte: "Amplifier la production de logements sociaux, d\u00E9velopper l\u2019accession sociale \u00E0 la propri\u00E9t\u00E9 et poursuivre l\u2019encadrement des loyers",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "logements-vacants",
+              nom: "Logements vacants",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "encadrement-loyers",
+              nom: "Encadrement des loyers",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "acces-logement",
+              nom: "Acc\u00E8s au logement",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "education",
+          nom: "\u00C9ducation & Jeunesse",
+          sousThemes: [
+            {
+              id: "petite-enfance",
+              nom: "Petite enfance",
+              propositions: {
+                hurmic: {
+                  texte: "Cr\u00E9er plus de 200 places en cr\u00E8ches et poursuivre le d\u00E9veloppement de l\u2019offre d\u2019accueil p\u00E9riscolaire",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "ecoles-renovation",
+              nom: "\u00C9coles & R\u00E9novation",
+              propositions: {
+                hurmic: {
+                  texte: "R\u00E9nover massivement les \u00E9coles pour r\u00E9pondre aux enjeux de rafra\u00EEchissement l\u2019\u00E9t\u00E9 et de confort l\u2019hiver",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "cantines-fournitures",
+              nom: "Cantines & Fournitures",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "periscolaire-loisirs",
+              nom: "P\u00E9riscolaire & Loisirs",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "jeunesse",
+              nom: "Jeunesse",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "environnement",
+          nom: "Environnement & Transition \u00E9cologique",
+          sousThemes: [
+            {
+              id: "espaces-verts",
+              nom: "Espaces verts",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "proprete-dechets",
+              nom: "Propret\u00E9 & D\u00E9chets",
+              propositions: {
+                hurmic: null,
+                cazenave: {
+                  texte: "Remunicipalisation de la comp\u00E9tence propret\u00E9 (fin de la d\u00E9l\u00E9gation au priv\u00E9). Cr\u00E9ation de bataillons de propret\u00E9 d\u00E9ploy\u00E9s dans tous les quartiers",
+                  source: "Rue89 Bordeaux, novembre 2025",
+                  sourceUrl: "https://fairegagnerbordeaux.fr/"
+                },
+                poutou: null
+              }
+            },
+            {
+              id: "climat-adaptation",
+              nom: "Climat & Adaptation",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "renovation-energetique",
+              nom: "R\u00E9novation \u00E9nerg\u00E9tique",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "alimentation-durable",
+              nom: "Alimentation durable",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sante",
+          nom: "Sant\u00E9 & Acc\u00E8s aux soins",
+          sousThemes: [
+            {
+              id: "centres-sante",
+              nom: "Centres de sant\u00E9",
+              propositions: {
+                hurmic: {
+                  texte: "D\u00E9velopper des structures m\u00E9dicales locales, dont un centre municipal de sant\u00E9 aux Aubiers d\u00E8s 2027",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "prevention-sante",
+              nom: "Pr\u00E9vention sant\u00E9",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "seniors",
+              nom: "Seniors",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "democratie",
+          nom: "D\u00E9mocratie & Vie citoyenne",
+          sousThemes: [
+            {
+              id: "budget-participatif",
+              nom: "Budget participatif",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "transparence",
+              nom: "Transparence",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "vie-associative",
+              nom: "Vie associative",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "services-publics",
+              nom: "Services publics",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "economie",
+          nom: "\u00C9conomie & Emploi",
+          sousThemes: [
+            {
+              id: "commerce-local",
+              nom: "Commerce local",
+              propositions: {
+                hurmic: {
+                  texte: "Dynamiser et prot\u00E9ger les commerces avec l\u2019Office du commerce et l\u2019exp\u00E9rimentation de l\u2019encadrement des loyers commerciaux",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "emploi-insertion",
+              nom: "Emploi & Insertion",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "attractivite",
+              nom: "Attractivit\u00E9",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "culture",
+          nom: "Culture & Patrimoine",
+          sousThemes: [
+            {
+              id: "equipements-culturels",
+              nom: "\u00C9quipements culturels",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "evenements-creation",
+              nom: "\u00C9v\u00E9nements & Cr\u00E9ation",
+              propositions: {
+                hurmic: {
+                  texte: "Garantir la libert\u00E9 de cr\u00E9ation artistique et ouvrir la Bourse du travail aux pratiques amateurs",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sport",
+          nom: "Sport & Loisirs",
+          sousThemes: [
+            {
+              id: "equipements-sportifs",
+              nom: "\u00C9quipements sportifs",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "sport-pour-tous",
+              nom: "Sport pour tous",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "urbanisme",
+          nom: "Urbanisme & Cadre de vie",
+          sousThemes: [
+            {
+              id: "amenagement-urbain",
+              nom: "Am\u00E9nagement urbain",
+              propositions: {
+                hurmic: {
+                  texte: "Cr\u00E9er 30 quartiers de vie pour plus de proximit\u00E9 et d\u2019efficacit\u00E9 dans les services municipaux. Grand projet urbain autour du lac, l\u2019un des premiers quartiers bas carbone de France, avec un p\u00F4le num\u00E9rique souverain",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "accessibilite",
+              nom: "Accessibilit\u00E9",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "quartiers-prioritaires",
+              nom: "Quartiers prioritaires",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            }
+          ]
+        },
+        {
+          id: "solidarite",
+          nom: "Solidarit\u00E9 & \u00C9galit\u00E9",
+          sousThemes: [
+            {
+              id: "aide-sociale",
+              nom: "Aide sociale",
+              propositions: {
+                hurmic: {
+                  texte: "Porter un plan d\u2019action commun avec l\u2019\u00C9tat pour z\u00E9ro enfant sans abri \u00E0 Bordeaux",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://pierrehurmic2026.fr/"
+                },
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "egalite-discriminations",
+              nom: "\u00C9galit\u00E9 & Discriminations",
+              propositions: {
+                hurmic: null,
+                cazenave: null,
+                poutou: null
+              }
+            },
+            {
+              id: "pouvoir-achat",
+              nom: "Pouvoir d\u2019achat",
+              propositions: {
+                hurmic: null,
+                cazenave: {
+                  texte: "Gel de l\u2019ensemble des tarifs municipaux durant tout le mandat (cantine, taxe fonci\u00E8re...)",
+                  source: "Rue89 Bordeaux, novembre 2025",
+                  sourceUrl: "https://fairegagnerbordeaux.fr/"
+                },
+                poutou: null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "clermont-2026": {
+      ville: "Clermont-Ferrand",
+      annee: 2026,
+      type: "\u00C9lections municipales",
+      dateVote: "2026-03-15T08:00:00",
+      candidats: [
+        { id: "bianchi", nom: "Olivier Bianchi", liste: "Vivre Clermont !", programmeUrl: "https://bianchi2026.fr", programmeComplet: true, programmePdfPath: "Programme2026_OlivierBianchi.pdf" },
+        { id: "bony", nom: "Julien Bony", liste: "Union Citoyenne de la Droite et du Centre", programmeUrl: "https://bony2026.fr", programmeComplet: false, programmePdfPath: "Programme2026_JulienBony.pdf" },
+        { id: "darbois", nom: "Antoine Darbois", liste: "Rassemblement National", programmeUrl: "#", programmeComplet: false, programmePdfPath: "Programme_AntoineDarbois.pdf" },
+        { id: "maximi", nom: "Marianne Maximi", liste: "Clermont fier et solidaire (LFI)", programmeUrl: "#", programmeComplet: false, programmePdfPath: "Programme_Marianne Maximi.pdf" }
+      ],
+      categories: [
+        {
+          id: "securite",
+          nom: "S\u00E9curit\u00E9 & Pr\u00E9vention",
+          sousThemes: [
+            {
+              id: "police-municipale",
+              nom: "Police municipale",
+              propositions: {
+                bianchi: {
+                  texte: "Renforcement de la police municipale en poursuivant l\u2019augmentation progressive et r\u00E9aliste des effectifs (5 policiers par an). Un deuxi\u00E8me commissariat de police municipale sera cr\u00E9\u00E9, \u00E0 Saint-Jacques. Une police des transports renforcera la s\u00E9curit\u00E9 dans les tramways et les bus. S\u00E9curisation des abords des \u00E9coles, avec une pr\u00E9sence r\u00E9guli\u00E8re de la police municipale et le dispositif \u00AB les enfants d\u2019abord \u00BB. Renforcement de la lutte contre les d\u00E9charges sauvages gr\u00E2ce \u00E0 une brigade verte",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2 | Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2 et p. 4",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Faire de la tranquillit\u00E9 publique et de la lutte contre la d\u00E9linquance une priorit\u00E9 absolue. Renforcement des moyens humains et techniques tant pour la pr\u00E9vention que pour la r\u00E9pression. Cr\u00E9ation de 100 postes de policiers municipaux pour atteindre 150 agents au total. S\u00E9curit\u00E9 dans tous les quartiers, lutte contre les trafics. Renforcement de la brigade canine de police municipale",
+                  source: "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rh\u00F4ne-Alpes, 11/01/2026 | Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rh\u00F4ne-Alpes, 11/01/2026",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: {
+                  texte: "Augmentation du nombre de policiers municipaux jusqu\u2019\u00E0 150 agents arm\u00E9s d\u2019ici la fin du mandat. Armement de la police municipale. Mettre en place des brigades 24h/24 et 7j/7 pour lutter contre le narcotrafic. Lutter contre le narcotrafic et les cons\u00E9quences d\u2019une immigration incontr\u00F4l\u00E9e. Patrouilles nocturnes renforc\u00E9es",
+                  source: "France Bleu Pays d\u2019Auvergne, 12/12/2025 | RCF Puy de D\u00F4me, 05/12/2025 | D\u00E9claration de campagne rapport\u00E9e par La Montagne, 11/12/2025 | France Bleu Auvergne, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.francebleu.fr/emissions/l-invite-de-ici-matin-pays-d-auvergne/antoine-darbois-candidat-rn-a-la-mairie-de-clermont-ferrand-1692334"
+                },
+                maximi: null
+              }
+            },
+            {
+              id: "videoprotection",
+              nom: "Vid\u00E9oprotection",
+              propositions: {
+                bianchi: {
+                  texte: "Poursuite du d\u00E9ploiement de la vid\u00E9oprotection, utile \u00E0 la pr\u00E9vention, \u00E0 l\u2019\u00E9lucidation et aux poursuites judiciaires",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Centre de supervision urbain avec vid\u00E9oprotection compl\u00E8te",
+                  source: "France Bleu Auvergne, f\u00E9vrier 2026",
+                  sourceUrl: "https://bony2026.fr/"
+                },
+                darbois: {
+                  texte: "Renforcement de la vid\u00E9osurveillance. D\u00E9ploiement de la vid\u00E9oprotection",
+                  source: "RCF Puy de D\u00F4me, 05/12/2025",
+                  sourceUrl: "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a"
+                },
+                maximi: null
+              }
+            },
+            {
+              id: "prevention-mediation",
+              nom: "Pr\u00E9vention & M\u00E9diation",
+              propositions: {
+                bianchi: {
+                  texte: "Renforcement de la lutte contre le harc\u00E8lement de rue (dispositif Angela, commerces refuges) et contre le harc\u00E8lement scolaire. Augmentation du nombre d\u2019\u00E9ducateurs sp\u00E9cialis\u00E9s pour une pr\u00E9sence renforc\u00E9e sur le terrain. Chantiers \u00E9ducatifs municipaux et Travail Alternatif Pay\u00E9 \u00E0 la Journ\u00E9e (TAPAJ) pour les jeunes de 16 \u00E0 25 ans en pr\u00E9carit\u00E9",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Expulsion des logements sociaux des auteurs de troubles. Rallumage de l\u2019\u00E9clairage public la nuit pour renforcer la s\u00E9curit\u00E9",
+                  source: "France 3 Auvergne-Rh\u00F4ne-Alpes, 11/01/2026",
+                  sourceUrl: "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-la-ville-est-prete-pour-l-alternance-promet-julien-bony-candidat-de-la-droite-et-du-centre-3244909.html"
+                },
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "violences-femmes",
+              nom: "Violences faites aux femmes",
+              propositions: {
+                bianchi: null,
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "transports",
+          nom: "Transports & Mobilit\u00E9",
+          sousThemes: [
+            {
+              id: "transports-en-commun",
+              nom: "Transports en commun",
+              propositions: {
+                bianchi: null,
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "velo-mobilites-douces",
+              nom: "V\u00E9lo & Mobilit\u00E9s douces",
+              propositions: {
+                bianchi: {
+                  texte: "Plan pi\u00E9ton pour s\u00E9curiser les cheminements et faciliter la marche \u00E0 tous les \u00E2ges. Nouvelle phase du r\u00E9seau cyclable et cr\u00E9ation d\u2019une \u00E9cole municipale du v\u00E9lo. Acc\u00E8s \u00E0 des v\u00E9los reconditionn\u00E9s, renforcement des stationnements v\u00E9los (arceaux, v\u00E9lo-box) et location longue dur\u00E9e de v\u00E9los \u00E9lectriques",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 4",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "pietons-circulation",
+              nom: "Pi\u00E9tons & Circulation",
+              propositions: {
+                bianchi: {
+                  texte: "Mise en \u0153uvre d\u2019un Plan de s\u00E9curit\u00E9 routi\u00E8re : adaptation des voiries, baisse de la vitesse, actions p\u00E9dagogiques. \u00C9valuation du sch\u00E9ma de circulation apr\u00E8s la mise en service du nouveau r\u00E9seau T2C",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2 | Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 4",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Am\u00E9liorer significativement la mobilit\u00E9 pour tous les usagers sans les opposer. Fin de la Zone \u00E0 Trafic Limit\u00E9 (ZTL) pour fluidifier la circulation : \u00AB Assouplir pour fluidifier \u00BB",
+                  source: "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rh\u00F4ne-Alpes, 11/01/2026",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: {
+                  texte: "Assouplir les r\u00E8gles de la ZTL (Zone \u00E0 Trafic Limit\u00E9). Corriger les exc\u00E8s du projet InspiRe en mati\u00E8re de d\u00E9placements",
+                  source: "D\u00E9claration de campagne rapport\u00E9e par La Montagne, 11/12/2025",
+                  sourceUrl: "#"
+                },
+                maximi: null
+              }
+            },
+            {
+              id: "stationnement",
+              nom: "Stationnement",
+              propositions: {
+                bianchi: {
+                  texte: "Gratuit\u00E9 du stationnement pour les professionnels de sant\u00E9 en d\u00E9placement \u00E0 domicile",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "tarifs-gratuite",
+              nom: "Tarifs & Gratuit\u00E9",
+              propositions: {
+                bianchi: {
+                  texte: "Gratuit\u00E9 des transports en commun pour les Clermontois de moins de 26 ans et de plus de 60 ans. Maintien de la gratuit\u00E9 des transports pour toutes et tous les week-ends",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: {
+                  texte: "Gratuit\u00E9 totale des transports en commun, au-del\u00E0 de la seule gratuit\u00E9 du week-end",
+                  source: "D\u00E9claration de campagne (r\u00E9union publique, 15/11/2025)",
+                  sourceUrl: "#"
+                }
+              }
+            }
+          ]
+        },
+        {
+          id: "logement",
+          nom: "Logement",
+          sousThemes: [
+            {
+              id: "logement-social",
+              nom: "Logement social",
+              propositions: {
+                bianchi: {
+                  texte: "Production de 2 000 logements par an dont 30 % de sociaux et 20 % en accession \u00E0 la propri\u00E9t\u00E9. D\u00E9veloppement sobre, pr\u00E9servant les espaces naturels et agricoles en r\u00E9habilitant en priorit\u00E9 les friches",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 7",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: {
+                  texte: "Reconsid\u00E9ration des crit\u00E8res d\u2019attribution des logements sociaux",
+                  source: "RCF Puy de D\u00F4me, 05/12/2025",
+                  sourceUrl: "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a"
+                },
+                maximi: {
+                  texte: "D\u00E9veloppement du logement social. Fin des politiques de d\u00E9molition de logements. Cesser les politiques de casse du logement social telle que la m\u00E9tropole l\u2019a mise en place depuis plusieurs ann\u00E9es avec l\u2019ANRU",
+                  source: "France 3 Auvergne, f\u00E9vrier 2026 | D\u00E9claration de campagne (r\u00E9union publique, 15/11/2025)",
+                  sourceUrl: "https://france3-regions.franceinfo.fr/"
+                }
+              }
+            },
+            {
+              id: "logements-vacants",
+              nom: "Logements vacants",
+              propositions: {
+                bianchi: {
+                  texte: "Lutte contre la vacance et encadrement des meubl\u00E9s touristiques",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "encadrement-loyers",
+              nom: "Encadrement des loyers",
+              propositions: {
+                bianchi: null,
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "acces-logement",
+              nom: "Acc\u00E8s au logement",
+              propositions: {
+                bianchi: {
+                  texte: "Lutte contre l\u2019inflation de l\u2019immobilier neuf gr\u00E2ce aux baux r\u00E9els solidaires. Facilitation de l\u2019acc\u00E8s au logement des jeunes, en lien avec l\u2019Agence immobili\u00E8re \u00E0 vocation sociale",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: {
+                  texte: "Pr\u00E9f\u00E9rence nationale pour l\u2019acc\u00E8s au logement : \u00AB Il faut que les nationaux qui cotisent aient la priorit\u00E9 \u00BB",
+                  source: "D\u00E9claration de campagne rapport\u00E9e par La Montagne, 11/12/2025",
+                  sourceUrl: "#"
+                },
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "education",
+          nom: "\u00C9ducation & Jeunesse",
+          sousThemes: [
+            {
+              id: "petite-enfance",
+              nom: "Petite enfance",
+              propositions: {
+                bianchi: {
+                  texte: "Deux nouvelles cr\u00E8ches municipales \u00E0 Regensburg et P\u00E9lissier",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 3",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Services publics efficaces et de qualit\u00E9 pour les familles, acc\u00E8s aux services petite enfance",
+                  source: "Lettre aux Clermontois, bony2026.fr",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "ecoles-renovation",
+              nom: "\u00C9coles & R\u00E9novation",
+              propositions: {
+                bianchi: {
+                  texte: "Garantie d\u2019une ATSEM par classe maternelle. Nouvelle \u00E9cole maternelle \u00E0 Regensburg pour renforcer l\u2019offre \u00E9ducative. Finalisation de la v\u00E9g\u00E9talisation des cours d\u2019\u00E9cole, certaines ouvertes au public en cas de canicule",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 3",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "cantines-fournitures",
+              nom: "Cantines & Fournitures",
+              propositions: {
+                bianchi: {
+                  texte: "Prise en charge d\u2019un kit de fournitures scolaires pour tous les \u00E9l\u00E8ves de primaire. Alternative v\u00E9g\u00E9tarienne chaque jour dans la restauration scolaire. Fourniture d\u2019un go\u00FBter sain et \u00E9quilibr\u00E9 aux \u00E9coliers apr\u00E8s la classe sans co\u00FBt suppl\u00E9mentaire pour les familles",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 3",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: {
+                  texte: "Gratuit\u00E9 totale des cantines scolaires pour tous les \u00E9l\u00E8ves. Cantines bio et gratuites dans toutes les \u00E9coles municipales",
+                  source: "France 3 Auvergne-Rh\u00F4ne-Alpes, 15/11/2025",
+                  sourceUrl: "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html"
+                }
+              }
+            },
+            {
+              id: "periscolaire-loisirs",
+              nom: "P\u00E9riscolaire & Loisirs",
+              propositions: {
+                bianchi: {
+                  texte: "Augmentation du nombre de places en centres de loisirs pour mieux r\u00E9pondre aux besoins des familles",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 3",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "jeunesse",
+              nom: "Jeunesse",
+              propositions: {
+                bianchi: {
+                  texte: "Cr\u00E9ation d\u2019un guichet jeunes pour informer en mati\u00E8re de droits sociaux, sant\u00E9 mentale, emploi et pr\u00E9vention",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 3",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "environnement",
+          nom: "Environnement & Transition \u00E9cologique",
+          sousThemes: [
+            {
+              id: "espaces-verts",
+              nom: "Espaces verts",
+              propositions: {
+                bianchi: {
+                  texte: "Ouverture du parc de la Muraille et 2e phase du parc Saint-Jean. V\u00E9g\u00E9talisation des places (Delille, Rodade, Bughes) et renaturation des cimeti\u00E8res",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 4",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Moins de b\u00E9ton et plus de vert, mieux entretenir nos espaces publics et en garantir la propret\u00E9",
+                  source: "Lettre aux Clermontois, bony2026.fr",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "proprete-dechets",
+              nom: "Propret\u00E9 & D\u00E9chets",
+              propositions: {
+                bianchi: null,
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "climat-adaptation",
+              nom: "Climat & Adaptation",
+              propositions: {
+                bianchi: {
+                  texte: "Plan fra\u00EEcheur avec des cheminements ombrag\u00E9s, des points d\u2019eau et des espaces de repos. Protection de l\u2019eau potable, d\u00E9veloppement de la r\u00E9cup\u00E9ration de l\u2019eau et \u00E9tude d\u2019une usine de recyclage des eaux us\u00E9es. Pr\u00E9vention des risques naturels : zones inondables, cr\u00E9ation de bassins d\u2019orage, r\u00E9unions d\u2019information annuelles par quartier",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 4",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Pr\u00E9f\u00E9rer une politique pragmatique et inclusive \u00E0 la promotion d\u2019une \u00E9cologie punitive",
+                  source: "Lettre aux Clermontois, bony2026.fr",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "renovation-energetique",
+              nom: "R\u00E9novation \u00E9nerg\u00E9tique",
+              propositions: {
+                bianchi: {
+                  texte: "Ach\u00E8vement de l\u2019\u00E9clairage public 100 % LED (50 % r\u00E9alis\u00E9 \u00E0 ce jour). R\u00E9novation \u00E9nerg\u00E9tique des b\u00E2timents pour les publics les plus vuln\u00E9rables : cr\u00E8ches, \u00E9coles et EHPAD. D\u00E9veloppement des \u00E9nergies renouvelables, du photovolta\u00EFque et de l\u2019autoconsommation collective. Soutien aux propri\u00E9taires priv\u00E9s via une centrale d\u2019achats group\u00E9s pour la r\u00E9novation \u00E9nerg\u00E9tique",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 4",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "alimentation-durable",
+              nom: "Alimentation durable",
+              propositions: {
+                bianchi: {
+                  texte: "D\u00E9veloppement de la ceinture mara\u00EEch\u00E8re m\u00E9tropolitaine. Exp\u00E9rimentation d\u2019une caisse alimentaire locale pour publics pr\u00E9caires et parcours d\u2019accompagnement alimentaire pour femmes enceintes (ordonnance verte)",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 4",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sante",
+          nom: "Sant\u00E9 & Acc\u00E8s aux soins",
+          sousThemes: [
+            {
+              id: "centres-sante",
+              nom: "Centres de sant\u00E9",
+              propositions: {
+                bianchi: {
+                  texte: "Ouverture de centres de sant\u00E9 (lib\u00E9raux ou municipaux, selon ce que la situation exige) pour renforcer l\u2019acc\u00E8s aux soins. Organisation d\u2019une semaine de la sant\u00E9 pour valoriser les initiatives locales. \u00C9laboration d\u2019un contrat local de sant\u00E9 m\u00E9tropolitain en collaboration avec les 21 communes",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Mener des politiques de sant\u00E9 ambitieuses et favoriser les infrastructures qui permettent d\u2019am\u00E9liorer la prise en charge m\u00E9dicale. Engagement contre les d\u00E9serts m\u00E9dicaux et pour l\u2019acc\u00E8s aux soins",
+                  source: "Lettre aux Clermontois, bony2026.fr",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: {
+                  texte: "Lutte contre les d\u00E9serts m\u00E9dicaux et am\u00E9lioration de l\u2019acc\u00E8s aux soins. Pr\u00E9f\u00E9rence nationale pour l\u2019acc\u00E8s aux soins m\u00E9dicaux",
+                  source: "RCF Puy de D\u00F4me, 05/12/2025 | D\u00E9claration de campagne rapport\u00E9e par La Montagne, 11/12/2025",
+                  sourceUrl: "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a"
+                },
+                maximi: {
+                  texte: "D\u00E9veloppement de centres de sant\u00E9 municipaux",
+                  source: "France 3 Auvergne-Rh\u00F4ne-Alpes, 15/11/2025",
+                  sourceUrl: "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html"
+                }
+              }
+            },
+            {
+              id: "prevention-sante",
+              nom: "Pr\u00E9vention sant\u00E9",
+              propositions: {
+                bianchi: {
+                  texte: "D\u00E9veloppement du p\u00F4le d\u2019infirmi\u00E8res scolaires municipales (5 recrutements), form\u00E9es \u00E0 la pr\u00E9vention et \u00E0 la sant\u00E9 mentale",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 2",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "seniors",
+              nom: "Seniors",
+              propositions: {
+                bianchi: {
+                  texte: "Plan seniors : accompagnement du vieillissement, soutien aux aidants, acc\u00E8s aux droits. R\u00E9novation \u00E9nerg\u00E9tique des EHPAD publics face aux \u00E9pisodes de forte chaleur. Cr\u00E9ation d\u2019un Conseil des a\u00EEn\u00E9s, espace d\u2019expression, de dialogue et de propositions pour les seniors",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 3",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: {
+                  texte: "Attention aux EHPAD. Am\u00E9lioration de l\u2019acc\u00E8s aux soins pour les seniors",
+                  source: "France Bleu Auvergne, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.francebleu.fr/"
+                },
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "democratie",
+          nom: "D\u00E9mocratie & Vie citoyenne",
+          sousThemes: [
+            {
+              id: "budget-participatif",
+              nom: "Budget participatif",
+              propositions: {
+                bianchi: {
+                  texte: "Cr\u00E9ation d\u2019un Conseil des a\u00EEn\u00E9s et assouplissement du droit de proposition citoyenne. \u00C9tats g\u00E9n\u00E9raux des quartiers et de la jeunesse et Assises de la vie associative. 2 nouvelles \u00E9ditions du budget participatif et budget participatif d\u00E9di\u00E9 pour le Conseil municipal des enfants",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 6",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Mise en place de consultations populaires, pas de d\u00E9cisions impos\u00E9es d\u2019en haut",
+                  source: "Lettre aux Clermontois, bony2026.fr",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "transparence",
+              nom: "Transparence",
+              propositions: {
+                bianchi: {
+                  texte: "Convention citoyenne sur l\u2019Intelligence Artificielle et charte de l\u2019IA publique et \u00E9thique",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 6",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "R\u00E9duction du train de vie de la municipalit\u00E9, chasse aux gaspillages et transparence dans les attributions de march\u00E9s. \u00AB Tourner le dos aux grands projets et revenir \u00E0 l\u2019essentiel \u00BB en mati\u00E8re d\u2019urbanisme et de budget",
+                  source: "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rh\u00F4ne-Alpes, 11/01/2026",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: {
+                  texte: "Remettre de l\u2019ordre dans les finances de la ville et de la M\u00E9tropole face au surendettement",
+                  source: "RCF Puy de D\u00F4me, 05/12/2025",
+                  sourceUrl: "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a"
+                },
+                maximi: null
+              }
+            },
+            {
+              id: "vie-associative",
+              nom: "Vie associative",
+              propositions: {
+                bianchi: {
+                  texte: "Cr\u00E9ation d\u2019un statut du \u00AB Clermontois engag\u00E9 \u00BB pour valoriser les engagements personnels et initiatives. Nouvelle Maison des associations et r\u00E9novation du site associatif Abb\u00E9-Pr\u00E9vost. Cr\u00E9ation d\u2019un Conseil de la nuit et renforcement de la charte de la vie nocturne",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 6 | Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 5",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "services-publics",
+              nom: "Services publics",
+              propositions: {
+                bianchi: {
+                  texte: "Accueil centralis\u00E9 \u00AB toutes d\u00E9marches \u00BB et permanences d\u2019acc\u00E8s aux droits dans les \u00E9quipements municipaux",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 6",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "economie",
+          nom: "\u00C9conomie & Emploi",
+          sousThemes: [
+            {
+              id: "commerce-local",
+              nom: "Commerce local",
+              propositions: {
+                bianchi: {
+                  texte: "Cr\u00E9ation d\u2019un office municipal du commerce et de l\u2019artisanat et managers de commerce suppl\u00E9mentaires. Soutien aux porteurs de projets : boutiques \u00E0 l\u2019essai, baux sociaux commerciaux. Am\u00E9liorations des march\u00E9s alimentaires et de la Halle Saint-Pierre",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 5",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Recr\u00E9er un environnement \u00E9conomique propice \u00E0 de nouvelles installations avec une vigilance particuli\u00E8re pour le commerce de centre-ville. Cr\u00E9ation d\u2019un office municipal du commerce avec moyens propres et moyens juridiques pour f\u00E9d\u00E9rer et servir de moteur au commerce clermontois. Cr\u00E9ation d\u2019une application d\u00E9di\u00E9e aux commerces de Clermont-Ferrand",
+                  source: "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rh\u00F4ne-Alpes, 11/01/2026",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "emploi-insertion",
+              nom: "Emploi & Insertion",
+              propositions: {
+                bianchi: {
+                  texte: "Cr\u00E9ation d\u2019un fonds m\u00E9tropolitain ESS pour soutenir les projets \u00E0 fort impact social et environnemental. Implantation d\u2019une Maison de l\u2019insertion et de l\u2019emploi dans le quartier Saint-Jacques. Soutien aux fili\u00E8res locales de r\u00E9emploi et de mat\u00E9riaux biosourc\u00E9s avec un fonds m\u00E9tropolitain d\u00E9di\u00E9",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 7",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: {
+                  texte: "R\u00E9orienter les financements publics vers les TPE et PME en difficult\u00E9 plut\u00F4t que vers les grandes entreprises",
+                  source: "France 3 Auvergne-Rh\u00F4ne-Alpes, 15/11/2025",
+                  sourceUrl: "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html"
+                }
+              }
+            },
+            {
+              id: "attractivite",
+              nom: "Attractivit\u00E9",
+              propositions: {
+                bianchi: {
+                  texte: "R\u00E9servation de 150 hectares de foncier \u00E9conomique et industriel pour l\u2019implantation d\u2019entreprises",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 7",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Politique de relance de l\u2019attractivit\u00E9, toujours aux c\u00F4t\u00E9s des commerces, entreprises et \u00E9tablissements universitaires",
+                  source: "Lettre aux Clermontois, bony2026.fr",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: {
+                  texte: "Cr\u00E9ation de technocentres \u00E0 Charade ou \u00E0 l\u2019a\u00E9roport d\u2019Aulnat pour mettre en avant les savoir-faire locaux sur les nouvelles mobilit\u00E9s",
+                  source: "D\u00E9claration de campagne rapport\u00E9e par La Montagne, 11/12/2025",
+                  sourceUrl: "#"
+                },
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "culture",
+          nom: "Culture & Patrimoine",
+          sousThemes: [
+            {
+              id: "equipements-culturels",
+              nom: "\u00C9quipements culturels",
+              propositions: {
+                bianchi: {
+                  texte: "R\u00E9novation des fa\u00E7ades de l\u2019Op\u00E9ra et modernisation de la Coop\u00E9rative de Mai. Ouverture de la Cit\u00E9 du court et r\u00E9novation du Lieu-dit",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 5",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: {
+                  texte: "Cr\u00E9ation d\u2019un mus\u00E9e autour du g\u00E9nie de Blaise Pascal pour faire rayonner la ville",
+                  source: "D\u00E9claration de campagne rapport\u00E9e par La Montagne, 11/12/2025",
+                  sourceUrl: "#"
+                },
+                maximi: null
+              }
+            },
+            {
+              id: "evenements-creation",
+              nom: "\u00C9v\u00E9nements & Cr\u00E9ation",
+              propositions: {
+                bianchi: {
+                  texte: "Soutien renforc\u00E9 aux \u00E9quipes artistiques et aux associations culturelles. D\u00E9ploiement d\u2019un r\u00E9seau \u00AB mille formes \u00BB d\u2019initiation \u00E0 l\u2019art pour les 0-6 ans dans des \u00E9quipements de proximit\u00E9. Programmation culturelle ouverte dans l\u2019espace public : concerts, bals et spectacles dans les parcs et places",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 5",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Valorisation de l\u2019identit\u00E9 territoriale et du patrimoine pour attirer des commerces et talents",
+                  source: "Lettre aux Clermontois, bony2026.fr",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: null,
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sport",
+          nom: "Sport & Loisirs",
+          sousThemes: [
+            {
+              id: "equipements-sportifs",
+              nom: "\u00C9quipements sportifs",
+              propositions: {
+                bianchi: {
+                  texte: "Ouverture d\u2019un gymnase chaque dimanche en automne et en hiver pour la pratique libre. Construction d\u2019un gymnase au complexe Montpied aux Vergnes et pumptrack \u00E0 Croix-Neyrat. R\u00E9novation de la patinoire Papadakis-Cizeron",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 5",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "sport-pour-tous",
+              nom: "Sport pour tous",
+              propositions: {
+                bianchi: {
+                  texte: "D\u00E9veloppement de \u00AB Clermont bouge \u00BB, manifestation sport-sant\u00E9 ouverte \u00E0 toutes et tous. Doublement du ch\u00E8que premi\u00E8re licence \u00E0 50 \u20AC pour les plus jeunes. Grand village de loisirs gratuit et accessible pour l\u2019\u00E9t\u00E9, ouvert \u00E0 toutes et tous",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 5",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "urbanisme",
+          nom: "Urbanisme & Cadre de vie",
+          sousThemes: [
+            {
+              id: "amenagement-urbain",
+              nom: "Am\u00E9nagement urbain",
+              propositions: {
+                bianchi: {
+                  texte: "Plan d\u2019actions pour Montferrand (place de la Rodade, sauvegarde du patrimoine, soutien aux commerces). R\u00E9am\u00E9nagement de la place Delille avec un meilleur partage des d\u00E9placements et mise en valeur des commerces",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 4",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Moderniser nos espaces publics qui souffrent d\u2019une forme d\u2019abandon, de la propret\u00E9 \u00E0 l\u2019accessibilit\u00E9",
+                  source: "Lettre aux Clermontois, bony2026.fr",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: {
+                  texte: "Renommer l\u2019Avenue de l\u2019Union Sovi\u00E9tique : \u00AB d\u00E9sovi\u00E9tiser Clermont \u00BB",
+                  source: "France Bleu Pays d\u2019Auvergne, 10/09/2024",
+                  sourceUrl: "https://www.francebleu.fr/infos/politique/arnaud-dabois-candidat-rn-a-la-mairie-de-clermont-ferrand-je-veux-desovietiser-la-ville-9456202"
+                },
+                maximi: null
+              }
+            },
+            {
+              id: "accessibilite",
+              nom: "Accessibilit\u00E9",
+              propositions: {
+                bianchi: {
+                  texte: "Adaptation de l\u2019espace public pour les personnes en situation de handicap, les enfants et les seniors : voiries adapt\u00E9es, aires de jeux inclusives",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 3",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: {
+                  texte: "Am\u00E9liorer le quotidien des personnes \u00E0 mobilit\u00E9 r\u00E9duite gr\u00E2ce \u00E0 des am\u00E9nagements parfaitement adapt\u00E9s",
+                  source: "Lettre aux Clermontois, bony2026.fr",
+                  sourceUrl: "https://bony2026.fr"
+                },
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "quartiers-prioritaires",
+              nom: "Quartiers prioritaires",
+              propositions: {
+                bianchi: {
+                  texte: "Ach\u00E8vement du renouvellement urbain des Vergnes, de la Gauthi\u00E8re et de Saint-Jacques. Reconstruction de la Maison de quartier de Croix-Neyrat et identification d\u2019un lieu municipal dans le quartier de la Gare",
+                  source: "Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 4 | Programme officiel \u00AB Vivre Clermont ! \u00BB, p. 6",
+                  sourceUrl: "https://bianchi2026.fr"
+                },
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            }
+          ]
+        },
+        {
+          id: "solidarite",
+          nom: "Solidarit\u00E9 & \u00C9galit\u00E9",
+          sousThemes: [
+            {
+              id: "aide-sociale",
+              nom: "Aide sociale",
+              propositions: {
+                bianchi: null,
+                bony: null,
+                darbois: null,
+                maximi: {
+                  texte: "Plan \u00AB z\u00E9ro enfant \u00E0 la rue \u00BB : une trentaine d\u2019enfants dorment dans la rue depuis septembre \u00E0 Clermont-Ferrand",
+                  source: "France 3 Auvergne-Rh\u00F4ne-Alpes, 15/11/2025",
+                  sourceUrl: "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html"
+                }
+              }
+            },
+            {
+              id: "egalite-discriminations",
+              nom: "\u00C9galit\u00E9 & Discriminations",
+              propositions: {
+                bianchi: null,
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            },
+            {
+              id: "pouvoir-achat",
+              nom: "Pouvoir d\u2019achat",
+              propositions: {
+                bianchi: null,
+                bony: null,
+                darbois: null,
+                maximi: null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "paris-2026": {
+      ville: "Paris",
+      annee: 2026,
+      type: "\u00C9lections municipales",
+      dateVote: "2026-03-15T08:00:00",
+      candidats: [
+        { id: "gregoire", nom: "Emmanuel Gr\u00E9goire", liste: "Gauche unie PS/\u00C9colos", programmeUrl: "https://emmanuel-gregoire-2026.fr/", programmeComplet: true, programmePdfPath: "programme-emmanuel-gregoire.pdf" },
+        { id: "dati", nom: "Rachida Dati", liste: "LR", programmeUrl: "https://rachidadati2026.com/kit-militant/", programmeComplet: false, programmePdfPath: null },
+        { id: "chikirou", nom: "Sophia Chikirou", liste: "LFI", programmeUrl: "https://sophiapourparis.fr/", programmeComplet: false, programmePdfPath: null },
+        { id: "bournazel", nom: "Pierre-Yves Bournazel", liste: "Renaissance/Horizons", programmeUrl: "https://bournazel.paris/", programmeComplet: false, programmePdfPath: null },
+        { id: "knafo", nom: "Sarah Knafo", liste: "Reconqu\u00EAte", programmeUrl: "https://unevilleheureuse.fr/", programmeComplet: true, programmePdfPath: "Programme-Sarah-Knafo-Paris-2026.pdf" },
+        { id: "mariani", nom: "Thierry Mariani", liste: "RN", programmeUrl: "https://www.mariani-2026.fr/", programmeComplet: false, programmePdfPath: null }
+      ],
+      categories: [
+        {
+          id: "securite",
+          nom: "S\u00E9curit\u00E9 & Pr\u00E9vention",
+          sousThemes: [
+            {
+              id: "police-municipale",
+              nom: "Police municipale",
+              propositions: {
+                gregoire: {
+                  texte: "Effectif complet de la police municipale, pr\u00E9sence 7j/7, \u00E9quipes de nuit. Vid\u00E9oprotection intelligente dans les zones sensibles",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "5 000 policiers municipaux arm\u00E9s, pr\u00E9sence jour et nuit dans tous les quartiers. \u00C9largissement des comp\u00E9tences (contr\u00F4le des papiers, acc\u00E8s aux fichiers nationaux). Convention avec IDF Mobilit\u00E9s pour acc\u00E8s aux transports en commun. 8 000 cam\u00E9ras de vid\u00E9oprotection reli\u00E9es \u00E0 un Centre de Supervision Urbain (CSU)",
+                  source: "Tract S\u00E9curit\u00E9 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: null,
+                bournazel: {
+                  texte: "6 000 policiers municipaux arm\u00E9s, op\u00E9rationnels 24h/24 et 7j/7. Brigades sp\u00E9cialis\u00E9es par quartier (bruit, incivilit\u00E9s, petite d\u00E9linquance)",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://bournazel.paris/"
+                },
+                knafo: {
+                  texte: "8 000 policiers municipaux arm\u00E9s (contre 3 000). Interpellations syst\u00E9matiques des d\u00E9linquants. Vid\u00E9osurveillance IA g\u00E9n\u00E9ralis\u00E9e. Cr\u00E9ation d'une brigade mont\u00E9e \u00E0 cheval (40 chevaux) et d'une brigade canine (30 chiens) pour parcs et zones sensibles",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: {
+                  texte: "Police municipale arm\u00E9e de 8 350 agents. 14 000 cam\u00E9ras de vid\u00E9osurveillance. Moyens align\u00E9s sur les grandes m\u00E9tropoles europ\u00E9ennes et New York",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://www.mariani-2026.fr/"
+                }
+              }
+            },
+            {
+              id: "videoprotection",
+              nom: "Vid\u00E9oprotection",
+              propositions: {
+                gregoire: {
+                  texte: "Plan d\u2019\u00E9clairage public s\u00E9curitaire",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "S\u00E9curisation des immeubles sociaux : \u00E9quipes de s\u00E9curit\u00E9 rattach\u00E9es aux bailleurs, cam\u00E9ras dans les communs. Bouclier de S\u00E9curit\u00E9 pour commerces et cabinets m\u00E9dicaux (aide au financement vid\u00E9oprotection et alarmes)",
+                  source: "Tract S\u00E9curit\u00E9 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "R\u00E9verb\u00E8res intelligents anti-agression pilot\u00E9s par IA (d\u00E9tection de cris, bris de verre, coups de feu). \u00C9clairage LED maintenu toute la nuit. Droit des commerces d'\u00E9clairer leurs vitrines",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "prevention-mediation",
+              nom: "Pr\u00E9vention & M\u00E9diation",
+              propositions: {
+                gregoire: {
+                  texte: "Pr\u00E9vention sp\u00E9cialis\u00E9e renforc\u00E9e pour les jeunes. M\u00E9diation urbaine dans tous les quartiers",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "Brigades de S\u00E9curit\u00E9 dans les Coll\u00E8ges (m\u00E9diateurs et \u00E9ducateurs contre harc\u00E8lement et rixes). S\u00E9curisation des bois de Vincennes et Boulogne : antennes de police, brigades \u00E9questres, cam\u00E9ras et \u00E9clairage. Plan Champ de Mars : cl\u00F4ture du site et antenne d\u00E9di\u00E9e. Lutte anti-crack : centres de soins hors zones peupl\u00E9es, transformation des CAARUD/CSAPA en p\u00F4les de soins int\u00E9gr\u00E9s",
+                  source: "Tract S\u00E9curit\u00E9 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Reconqu\u00EAte des quartiers sensibles (Stalingrad, Porte de la Chapelle, Goutte d'Or) : d\u00E9ploiement massif de forces de l'ordre 24h/24, d\u00E9mant\u00E8lement des campements ill\u00E9gaux",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "violences-femmes",
+              nom: "Violences faites aux femmes",
+              propositions: {
+                gregoire: {
+                  texte: "Observatoire des violences faites aux femmes, marches exploratoires. Plan anti-harc\u00E8lement de rue : formation, signalement",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: {
+                  texte: "Cr\u00E9ation de r\u00E9sidences s\u00E9curis\u00E9es pour les victimes de violences conjugales",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://www.mariani-2026.fr/"
+                }
+              }
+            }
+          ]
+        },
+        {
+          id: "transports",
+          nom: "Transports & Mobilit\u00E9",
+          sousThemes: [
+            {
+              id: "transports-en-commun",
+              nom: "Transports en commun",
+              propositions: {
+                gregoire: {
+                  texte: "15 lignes de bus express sur les grandes avenues parisiennes. M\u00E9tro ouvert 24h/24 les vendredis et samedis. Navettes fluviales sur la Seine pour le transport quotidien et touristique",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "Investissement pour la mise en accessibilit\u00E9 du m\u00E9tro pour les personnes handicap\u00E9es, en commen\u00E7ant par la Ligne 6",
+                  source: "Tract Ville apais\u00E9e 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: null,
+                bournazel: {
+                  texte: "Priorit\u00E9 aux bus : modernisation des feux de signalisation par solutions num\u00E9riques et automatis\u00E9es",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://bournazel.paris/"
+                },
+                knafo: {
+                  texte: "D\u00E9veloppement de la livraison de marchandises par voie fluviale (appel \u00E0 manifestation d\u2019int\u00E9r\u00EAt pour navettes fluviales, dernier km en v\u00E9lo ou camion)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "velo-mobilites-douces",
+              nom: "V\u00E9lo & Mobilit\u00E9s douces",
+              propositions: {
+                gregoire: {
+                  texte: "Coop\u00E9rative v\u00E9lo municipale : les adh\u00E9rents disposent d\u2019un v\u00E9lo en longue dur\u00E9e avec assurance et possibilit\u00E9 de changement selon les besoins. Doublement des pistes cyclables, 100 000 places de stationnement v\u00E9lo, aide \u00E0 l\u2019acquisition et \u00E0 la r\u00E9paration. Coop\u00E9rative v\u00E9lo municipale",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "Pr\u00E9servation de la place du v\u00E9lo \u00E0 Paris. Renforcement des pistes cyclables sur les axes sous-dot\u00E9s (axe nord-sud). V\u00E9lib r\u00E9gional en partenariat avec la R\u00E9gion, sur r\u00E9seau en site propre",
+                  source: "Tract Ville apais\u00E9e 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Nouveau contrat V\u00E9lib int\u00E9grant la publicit\u00E9 (\u00E9conomie de 22 M\u20AC/an, clause de reprise du personnel). Piste cyclable bidirectionnelle maintenue sur la rue de Rivoli",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "pietons-circulation",
+              nom: "Pi\u00E9tons & Circulation",
+              propositions: {
+                gregoire: {
+                  texte: "Quartiers apais\u00E9s avec zones 20 km/h, suppression de places de stationnement au profit de la v\u00E9g\u00E9talisation. Plan de circulation concert\u00E9 prenant en compte les besoins des professionnels et des personnes \u00E0 mobilit\u00E9 r\u00E9duite. Extension des zones pi\u00E9tonnes dans chaque arrondissement. Logistique urbaine propre : points relais de proximit\u00E9, v\u00E9hicules de livraison d\u00E9carbon\u00E9s",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "Protection des pi\u00E9tons prioritaire : grandes travers\u00E9es urbaines pi\u00E9tonnes, trottoirs \u00E9largis et sanctuaris\u00E9s, quais bas r\u00E9serv\u00E9s aux pi\u00E9tons. Reconqu\u00EAte esth\u00E9tique et patrimoniale de Paris. Plan Rivoli : trottoirs \u00E9largis, piste cyclable, voie bus. Voies sur berges transform\u00E9es en parc urbain v\u00E9g\u00E9talis\u00E9",
+                  source: "Tract Ville apais\u00E9e 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "R\u00E9ouverture des voies sur berge rive droite \u00E0 la circulation automobile. Construction d'un tablier au-dessus pour cr\u00E9er une promenade pi\u00E9tonne (co\u00FBt estim\u00E9 : 60 M\u20AC, soumis \u00E0 r\u00E9f\u00E9rendum). R\u00E9ouverture des voies sur berge + promenade pi\u00E9tonne et cycliste au-dessus (60 M\u20AC, r\u00E9f\u00E9rendum). R\u00E9am\u00E9nagement de Rivoli (voie auto + piste cyclable + trottoir \u00E9largi, 6 M\u20AC). Feux tricolores pilot\u00E9s par IA (-11% temps de trajet). Tarif unique stationnement 3\u20AC/h, 1\u00E8re heure gratuite, gratuit 12h-14h. 15 000 places de stationnement cr\u00E9\u00E9es. Places disponibles en temps r\u00E9el via IA",
+                  source: "Site de campagne 2026 | Programme officiel 2026",
+                  sourceUrl: "https://sarahpourparis.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "stationnement",
+              nom: "Stationnement",
+              propositions: {
+                gregoire: null,
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Tarif unique 3\u20AC/h dans tous les arrondissements. Stationnement r\u00E9sident \u00E9tendu \u00E0 tout l'arrondissement. Gratuit\u00E9 12h-14h pour aider les restaurateurs. 1\u00E8re heure gratuite pour les professionnels. Places disponibles en temps r\u00E9el via GPS et IA",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "tarifs-gratuite",
+              nom: "Tarifs & Gratuit\u00E9",
+              propositions: {
+                gregoire: {
+                  texte: "Tarification unique des transports sur la zone m\u00E9tropolitaine. Solidarit\u00E9 financi\u00E8re entre territoires riches et pauvres",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "logement",
+          nom: "Logement",
+          sousThemes: [
+            {
+              id: "logement-social",
+              nom: "Logement social",
+              propositions: {
+                gregoire: {
+                  texte: "60 000 nouveaux logements publics, r\u00E9\u00E9quilibrage entre arrondissements, reconversion de bureaux en logements. Cr\u00E9ation d\u2019une \u00E9quipe inter-bailleurs d\u2019intervention rapide pour les r\u00E9parations dans le parc social",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: {
+                  texte: "\u00C9tat d'urgence sur le logement. Relance de la production de logements sociaux dans tous les arrondissements (achat, conventionnement, reconversion, r\u00E9quisition de logements vacants)",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://sophiapourparis.fr/"
+                },
+                bournazel: {
+                  texte: "Pacte de confiance pour r\u00E9cup\u00E9rer 60 000 logements. Fin de la pr\u00E9emption g\u00E9n\u00E9ralis\u00E9e. Transformation de bureaux vacants en logements. Priorit\u00E9 aux actifs travaillant \u00E0 Paris pour le logement social",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://bournazel.paris/"
+                },
+                knafo: {
+                  texte: "Moratoire total sur la construction de logements sociaux (273 M\u20AC/an d'\u00E9conomies). Grand plan d'accession \u00E0 la propri\u00E9t\u00E9 : vente de logements sociaux aux locataires. Stopper les financements de ZAC et \u00E9coquartiers (129 M\u20AC/an d'\u00E9conomies). Attribution des logements sociaux via une appli transparente sans passe-droit. Favoriser la rotation en privil\u00E9giant les familles modestes. Expulsion syst\u00E9matique des fauteurs de troubles et trafiquants du parc social",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: {
+                  texte: "Priorit\u00E9 nationale dans l'acc\u00E8s au logement social. Priorit\u00E9 aux travailleurs et r\u00E9sidents parisiens de longue date. Garantie de l'ordre dans les HLM",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://www.mariani-2026.fr/"
+                }
+              }
+            },
+            {
+              id: "logements-vacants",
+              nom: "Logements vacants",
+              propositions: {
+                gregoire: {
+                  texte: "Taxation et r\u00E9quisition des logements vacants depuis plus de 5 ans. Interdiction des nouvelles r\u00E9sidences secondaires et des meubl\u00E9s touristiques type Airbnb",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: {
+                  texte: "R\u00E9gulation des locations meubl\u00E9es touristiques type Airbnb. Moratoire imm\u00E9diat sur les hausses de loyers et de charges pour les familles",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://sophiapourparis.fr/"
+                },
+                bournazel: null,
+                knafo: {
+                  texte: "Remettre 50 000 logements vacants sur le march\u00E9 locatif parisien en supprimant l'encadrement des loyers qui dissuade les propri\u00E9taires de louer",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "encadrement-loyers",
+              nom: "Encadrement des loyers",
+              propositions: {
+                gregoire: {
+                  texte: "Brigade de protection du logement pour le respect de l\u2019encadrement des loyers, la lutte contre les discriminations et le contr\u00F4le de la salubrit\u00E9. Garantie Municipale des Loyers (extension du dispositif Visale)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: {
+                  texte: "Contr\u00F4le strict du respect de l'encadrement des loyers (renouvellement de l'exp\u00E9rimentation). Cr\u00E9ation d'une agence publique de location (loyers garantis, prix r\u00E9gul\u00E9s)",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://sophiapourparis.fr/"
+                },
+                bournazel: null,
+                knafo: {
+                  texte: "Suppression de l'encadrement des loyers, mesure aux effets d\u00E9sastreux : frein aux constructions, entretien r\u00E9duit, p\u00E9nurie aggrav\u00E9e",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "acces-logement",
+              nom: "Acc\u00E8s au logement",
+              propositions: {
+                gregoire: {
+                  texte: "Assurance habitation municipale accessible (incluant la couverture punaises de lit). Logements adapt\u00E9s \u00E0 chaque \u00E2ge de la vie : \u00E9tudiants, jeunes actifs, familles monoparentales, personnes en situation de handicap, seniors",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "Pr\u00EAt \u00E0 taux z\u00E9ro en cas de d\u00E9m\u00E9nagement pour accueillir un nouvel enfant. Tarif de stationnement r\u00E9sident valable dans tout Paris pour faciliter la vie des familles",
+                  source: "Tract Familles 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "education",
+          nom: "\u00C9ducation & Jeunesse",
+          sousThemes: [
+            {
+              id: "petite-enfance",
+              nom: "Petite enfance",
+              propositions: {
+                gregoire: null,
+                dati: {
+                  texte: "100 % des places en cr\u00E8che pourvues (personnel prioritaire pour le logement social). Horaires d'accueil \u00E9largis dans les cr\u00E8ches et \u00E9coles pour les parents en horaires d\u00E9cal\u00E9s. Cr\u00E9ation de Maisons de la Parentalit\u00E9 (extension des comp\u00E9tences des PMI au-del\u00E0 de 6 ans)",
+                  source: "Tract Familles 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: null,
+                bournazel: {
+                  texte: "10 000 nouvelles solutions de garde d'enfants",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://bournazel.paris/"
+                },
+                knafo: {
+                  texte: "Cr\u00E9ation de 7 000 places en cr\u00E8che : priorit\u00E9 d'acc\u00E8s au logement social pour les professionnels de la petite enfance, salaire \u00E0 l'embauche +10% en cr\u00E8che municipale, gestion centralis\u00E9e des effectifs, attribution des places via une appli transparente sans passe-droit, achat de 1 000 places aux cr\u00E8ches priv\u00E9es",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "ecoles-renovation",
+              nom: "\u00C9coles & R\u00E9novation",
+              propositions: {
+                gregoire: {
+                  texte: "D\u00E9fense de l\u2019\u00E9cole publique et lutte contre les fermetures de classes. Modulation des dotations aux \u00E9tablissements priv\u00E9s selon leur effort de mixit\u00E9 sociale. Exiger un saut qualitatif pour les AESH avec continuit\u00E9 p\u00E9riscolaire. 50 nouvelles unit\u00E9s d\u2019enseignement adapt\u00E9 pour le handicap. Grand plan de r\u00E9novation et v\u00E9g\u00E9talisation des \u00E9coles et coll\u00E8ges (cours Oasis). Protection des enfants : jamais un adulte seul avec un enfant, formations \u00E0 la bientraitance",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "Formation d'animateurs de la Ville \u00E0 la mission AESH pour soulager les familles et \u00E9tablissements. Guichet unique MDPH pour simplifier les d\u00E9marches des parents d'enfants handicap\u00E9s. Grand plan de r\u00E9novation des \u00E9coles parisiennes (le budget d'investissement scolaire est pass\u00E9 de 152 \u00E0 77 M\u20AC entre 2014 et 2025)",
+                  source: "Tract Familles 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: {
+                  texte: "Cr\u00E9ation d'un service municipal d'\u00E9ducation communautaire au m\u00EAme niveau que l'\u00C9ducation nationale",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://sophiapourparis.fr/"
+                },
+                bournazel: {
+                  texte: "Plan de r\u00E9novation massif des \u00E9coles",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://bournazel.paris/"
+                },
+                knafo: {
+                  texte: "Fin de la guerre contre l'\u00E9cole priv\u00E9e : \u00E9quit\u00E9 de traitement public/priv\u00E9. Bras de fer avec l'\u00C9tat pour supprimer les crit\u00E8res id\u00E9ologiques de mixit\u00E9 sociale dans l'algorithme Affelnet",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "cantines-fournitures",
+              nom: "Cantines & Fournitures",
+              propositions: {
+                gregoire: {
+                  texte: "Gel des tarifs de cantine, extension de la gratuit\u00E9 des fournitures scolaires",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "100% de produits issus de l'agriculture fran\u00E7aise dans les cantines scolaires parisiennes (30 millions de repas/an, +7 M\u20AC/an)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "periscolaire-loisirs",
+              nom: "P\u00E9riscolaire & Loisirs",
+              propositions: {
+                gregoire: {
+                  texte: "Convention citoyenne sur les temps scolaires et p\u00E9riscolaires. Activit\u00E9s p\u00E9riscolaires de qualit\u00E9 : culture, sport, langues, sciences. Classe d\u00E9couverte pour chaque enfant. Fili\u00E8re animation : fin des vacations, 100 % de contrats continus. Offre \u00AB p\u00E9ricoll\u00E8ge \u00BB y compris pendant les vacances",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "Semaine de 4 jours (lundi, mardi, jeudi, vendredi 8h30-16h30). \u00C9tudes dirig\u00E9es apr\u00E8s l'\u00E9cole (16h30-18h). Recrutement exclusif d'animateurs dipl\u00F4m\u00E9s (BAFA obligatoire, voire BPJEPS). Contr\u00F4le strict des candidatures (casier judiciaire, FIJAIVS). Diminution de l'intervention des associations non qualifi\u00E9es. Formations continues obligatoires",
+                  source: "Tracts P\u00E9riscolaire et Familles 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: {
+                  texte: "Investissement massif dans le personnel p\u00E9riscolaire",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://sophiapourparis.fr/"
+                },
+                bournazel: {
+                  texte: "Restructuration du p\u00E9riscolaire, contr\u00F4les syst\u00E9matiques du personnel, inspections surprises. Extension des horaires jusqu'\u00E0 19h. 8 millions d'euros dans la formation",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://bournazel.paris/"
+                },
+                knafo: {
+                  texte: "V\u00E9rifications strictes (casier judiciaire, Fijais) pour tous les intervenants p\u00E9riscolaires avec contr\u00F4les p\u00E9riodiques continus et principe de pr\u00E9caution imm\u00E9diat",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "jeunesse",
+              nom: "Jeunesse",
+              propositions: {
+                gregoire: {
+                  texte: "Quartier Jeunes dans chaque arrondissement. Offre de stages et formations d\u2019insertion. Logements sociaux \u00E9tudiants et Foyers de Jeunes Travailleurs. Droit aux vacances pour chaque jeune, s\u00E9jours adapt\u00E9s au handicap",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Villa des talents : r\u00E9sidence \u00E9tudiante de prestige en plein Paris pour les meilleurs \u00E9tudiants fran\u00E7ais (Sorbonne, Sciences Po, ENS, \u00C9cole Boulle, Conservatoire...), financ\u00E9e par les grandes \u00E9coles partenaires, co\u00FBt z\u00E9ro pour la collectivit\u00E9",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "environnement",
+          nom: "Environnement & Transition \u00E9cologique",
+          sousThemes: [
+            {
+              id: "espaces-verts",
+              nom: "Espaces verts",
+              propositions: {
+                gregoire: {
+                  texte: "170 000 arbres plant\u00E9s (10 par habitant). V\u00E9g\u00E9talisation des toitures, fa\u00E7ades et cours d\u2019immeubles. Fermes urbaines dans chaque arrondissement. Parc m\u00E9tropolitain reliant les bois de Boulogne et de Vincennes. Plan biodiversit\u00E9 : corridors \u00E9cologiques, nichoirs, prairies",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Sublimer les parcs et jardins : remettre l\u2019art du jardinage au c\u0153ur des missions des agents. Ouvrir tous les squares aux chiens tenus en laisse (sauf aires de jeux enfants)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "proprete-dechets",
+              nom: "Propret\u00E9 & D\u00E9chets",
+              propositions: {
+                gregoire: {
+                  texte: "Ressourcerie solidaire et ateliers de r\u00E9paration dans chaque quartier pour r\u00E9duire les d\u00E9chets. Fr\u00E9quence accrue de nettoyage, brigades propret\u00E9 de quartier",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: {
+                  texte: "R\u00E9organisation de la direction de la propret\u00E9, gestion d\u00E9centralis\u00E9e aux maires d'arrondissement. Brigades de la propret\u00E9 d'intervention d'urgence. Verbalisation renforc\u00E9e. IA pour identifier les zones \u00E0 nettoyer en priorit\u00E9. Collecte des d\u00E9chets confi\u00E9e \u00E0 des op\u00E9rateurs priv\u00E9s. Grand plan anti-rats (glace carbonique, pi\u00E8ges \u00E9cologiques connect\u00E9s)",
+                  source: "Tract Propret\u00E9 2026",
+                  sourceUrl: "https://rachidadati2026.com/"
+                },
+                chikirou: null,
+                bournazel: {
+                  texte: "Privatisation int\u00E9grale de la collecte des ordures m\u00E9nag\u00E8res. Doublement des \u00E9quipes de balayage. IA pour optimiser nettoyage et collecte. Brigade municipale anti-incivilit\u00E9s",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://bournazel.paris/"
+                },
+                knafo: {
+                  texte: "Privatisation totale du ramassage des ordures m\u00E9nag\u00E8res et du nettoyage de la voirie (27% moins cher selon la CRC). Plan anti-rats : suppression des sources de nourriture en surface, poubelles \u00E0 QR codes pour signalement en temps r\u00E9el",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: {
+                  texte: "Externalisation totale de la collecte des d\u00E9chets. Red\u00E9ploiement des agents municipaux sur le terrain pour la propret\u00E9 24h/24. Possibilit\u00E9 pour chaque arrondissement de choisir son prestataire",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://www.mariani-2026.fr/"
+                }
+              }
+            },
+            {
+              id: "climat-adaptation",
+              nom: "Climat & Adaptation",
+              propositions: {
+                gregoire: {
+                  texte: "Lutte contre la pollution de l\u2019eau et de l\u2019air (PFAS, pesticides, particules fines) et les perturbateurs endocriniens. Installation de capteurs et radars sonores, plans de r\u00E9duction du bruit par quartier",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            },
+            {
+              id: "renovation-energetique",
+              nom: "R\u00E9novation \u00E9nerg\u00E9tique",
+              propositions: {
+                gregoire: {
+                  texte: "R\u00E9novation et isolation de 35 000 logements sociaux. Soutien \u00E0 la r\u00E9novation de 200 000 logements priv\u00E9s avec avance \u00E0 taux z\u00E9ro \u00AB prime climat \u00BB. Achats group\u00E9s d\u2019\u00E9nergie renouvelable pour les Parisiens. D\u00E9veloppement de r\u00E9seaux publics de chaleur et de froid",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            },
+            {
+              id: "alimentation-durable",
+              nom: "Alimentation durable",
+              propositions: {
+                gregoire: {
+                  texte: "100 % alimentation bio, locale et durable dans les cantines et cr\u00E8ches, avec go\u00FBter gratuit. S\u00E9curit\u00E9 sociale de l\u2019alimentation : coop\u00E9ratives alimentaires, \u00E9piceries solidaires, restaurants municipaux \u00E0 prix accessible",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            },
+            {
+              id: "baignades-seine",
+              nom: "Baignades & Eau",
+              propositions: {
+                gregoire: {
+                  texte: "Ouverture de nouvelles baignades dans la Seine et les canaux. 1 000 nouvelles fontaines et brumisateurs contre la canicule",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Suppression du programme de baignade dans la Seine (47 M\u20AC sur le mandat d\u2019\u00E9conomies)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sante",
+          nom: "Sant\u00E9 & Acc\u00E8s aux soins",
+          sousThemes: [
+            {
+              id: "centres-sante",
+              nom: "Centres de sant\u00E9",
+              propositions: {
+                gregoire: {
+                  texte: "Mutuelle municipale parisienne. 100 nouveaux lieux de soin en secteur 1, 7 centres de sant\u00E9 municipaux. Parcours des 1 000 premiers jours de l\u2019enfant (60 PMI), diagnostic pr\u00E9coce des troubles cognitifs et de l\u2019autisme. Sant\u00E9 scolaire renforc\u00E9e, plan sant\u00E9 mentale jeunes",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: {
+                  texte: "Cr\u00E9ation de centres de sant\u00E9 communautaires dans chaque arrondissement",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://sophiapourparis.fr/"
+                },
+                bournazel: null,
+                knafo: {
+                  texte: "Doubler la contribution au d\u00E9pistage des cancers (1 M\u20AC/an). Financer la recherche m\u00E9dicale via l\u2019Institut Pasteur (5 M\u20AC/an). R\u00E9nover les EHPAD municipaux (12 M\u20AC sur le mandat). 1\u00E8re heure de stationnement gratuite pour les infirmi\u00E8res lib\u00E9rales",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "prevention-sante",
+              nom: "Pr\u00E9vention sant\u00E9",
+              propositions: {
+                gregoire: {
+                  texte: "Plan sant\u00E9 sexuelle avec objectif z\u00E9ro VIH d\u2019ici 2030. \u00C9quipes de r\u00E9duction des risques (errance, drogue, troubles psychiques). Accompagnement de l\u2019endom\u00E9triose",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            },
+            {
+              id: "seniors",
+              nom: "Seniors",
+              propositions: {
+                gregoire: null,
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "democratie",
+          nom: "D\u00E9mocratie & Vie citoyenne",
+          sousThemes: [
+            {
+              id: "budget-participatif",
+              nom: "Budget participatif",
+              propositions: {
+                gregoire: {
+                  texte: "Budget participatif renforc\u00E9 : 10 % du budget d\u2019investissement. Conseils citoyens avec pouvoir de co-d\u00E9cision. Application num\u00E9rique de signalement et suivi",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: {
+                  texte: "Renforcement des conseils de quartier avec plus de pouvoir aux habitants. Pouvoir accru aux associations locales. D\u00E9mocratie participative renforc\u00E9e",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://sophiapourparis.fr/"
+                },
+                bournazel: null,
+                knafo: {
+                  texte: "Au moins 2 r\u00E9f\u00E9rendums locaux par an sur les grands projets de la ville",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: {
+                  texte: "R\u00E9f\u00E9rendum d'Initiative Populaire d\u00E8s que 5 % de l'\u00E9lectorat le demande. Renforcement de la e-d\u00E9mocratie avec outils num\u00E9riques. Contr\u00F4le de la bonne gestion confi\u00E9 \u00E0 une association de d\u00E9fense des contribuables",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://www.mariani-2026.fr/"
+                }
+              }
+            },
+            {
+              id: "transparence",
+              nom: "Transparence",
+              propositions: {
+                gregoire: {
+                  texte: "Gouvernance m\u00E9tropolitaine renforc\u00E9e. Mutualisation des services avec les communes limitrophes",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: {
+                  texte: "Coop\u00E9ration m\u00E9tropolitaine renforc\u00E9e, r\u00E9forme de la gouvernance. Plan de 4 milliards d'euros d'\u00E9conomies sur 6 ans",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://bournazel.paris/"
+                },
+                knafo: {
+                  texte: "R\u00E9duire les adjoints \u00E0 10 (contre 37). Diviser par 2 les conseillers de Paris (163\u219281). Diviser par 5 les voitures de fonction (500\u2192100) et les collaborateurs de cabinet (145\u219230). Supprimer frais de repr\u00E9sentation et jetons de pr\u00E9sence. \u00C9conomie : 18 M\u20AC/an",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "vie-associative",
+              nom: "Vie associative",
+              propositions: {
+                gregoire: {
+                  texte: "Soutien \u00E0 la vie associative : doublement des subventions, locaux gratuits. Nuits parisiennes : charte de la nuit, m\u00E9diateurs, lieux culturels ouverts",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "R\u00E9duction de 100 M\u20AC/an des subventions aux associations politis\u00E9es, recentrage sur les associations d'int\u00E9r\u00EAt g\u00E9n\u00E9ral",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "services-publics",
+              nom: "Services publics",
+              propositions: {
+                gregoire: {
+                  texte: "100 % de recours aux droits avec permanences mobiles par quartier. Permanences MDPH dans tous les arrondissements. Accompagnement personnalis\u00E9 des allocataires du RSA. Transformer les mairies d\u2019arrondissement en maisons de service public de proximit\u00E9",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Non-remplacement d'un d\u00E9part sur deux (objectif : -15 000 postes en 6 ans). Mobilit\u00E9 interne et reconversion vers police municipale et petite enfance. Plan de d\u00E9parts volontaires. Rationalisation du temps de travail (50 jours d'absence \u2192 33 jours pour les nouveaux contrats)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "economie",
+          nom: "\u00C9conomie & Emploi",
+          sousThemes: [
+            {
+              id: "commerce-local",
+              nom: "Commerce local",
+              propositions: {
+                gregoire: null,
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Abroger le PLU bioclimatique (PLUb) et diviser par 3 les dur\u00E9es d'instruction des permis de construire pour lib\u00E9rer les entrepreneurs",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "emploi-insertion",
+              nom: "Emploi & Insertion",
+              propositions: {
+                gregoire: null,
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            },
+            {
+              id: "attractivite",
+              nom: "Attractivit\u00E9",
+              propositions: {
+                gregoire: null,
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Commande publique r\u00E9serv\u00E9e aux entreprises fran\u00E7aises du num\u00E9rique. Donn\u00E9es des Parisiens stock\u00E9es exclusivement sur serveurs fran\u00E7ais. Maquette num\u00E9rique (jumeau num\u00E9rique) de Paris. Vente de b\u00E2timents municipaux devenus obsol\u00E8tes, de foncier non b\u00E2ti (880 ha plaine d'Ach\u00E8res), de logements et commerces municipaux. Plan d'accession \u00E0 la propri\u00E9t\u00E9 avec exon\u00E9ration de frais de notaire pour les primo-acc\u00E9dants",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "culture",
+          nom: "Culture & Patrimoine",
+          sousThemes: [
+            {
+              id: "equipements-culturels",
+              nom: "\u00C9quipements culturels",
+              propositions: {
+                gregoire: {
+                  texte: "Gratuit\u00E9 des mus\u00E9es municipaux. 1 lieu culturel municipal de proximit\u00E9 par quartier. Grand plan lecture publique avec horaires \u00E9largis et m\u00E9diath\u00E8ques renforc\u00E9es. Soutien \u00E0 la cr\u00E9ation artistique et r\u00E9sidences d\u2019artistes",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            },
+            {
+              id: "evenements-creation",
+              nom: "\u00C9v\u00E9nements & Cr\u00E9ation",
+              propositions: {
+                gregoire: null,
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sport",
+          nom: "Sport & Loisirs",
+          sousThemes: [
+            {
+              id: "equipements-sportifs",
+              nom: "\u00C9quipements sportifs",
+              propositions: {
+                gregoire: {
+                  texte: "50 nouveaux \u00E9quipements sportifs de proximit\u00E9. Sport sur ordonnance \u00E9largi. Paris capitale des grands \u00E9v\u00E9nements sportifs et culturels",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "\u00C9quipements sportifs municipaux ouverts de 7h \u00E0 23h avec partenariats entreprises. Terrains de sport sous le m\u00E9tro a\u00E9rien (football, basketball, padel)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "sport-pour-tous",
+              nom: "Sport pour tous",
+              propositions: {
+                gregoire: null,
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "urbanisme",
+          nom: "Urbanisme & Cadre de vie",
+          sousThemes: [
+            {
+              id: "amenagement-urbain",
+              nom: "Am\u00E9nagement urbain",
+              propositions: {
+                gregoire: {
+                  texte: "Requalification du P\u00E9riph\u00E9rique en boulevard urbain v\u00E9g\u00E9talis\u00E9",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: {
+                  texte: "Transformation du p\u00E9riph\u00E9rique en boulevard urbain (engagement envers les alli\u00E9s \u00E9cologistes)",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://sophiapourparis.fr/"
+                },
+                bournazel: null,
+                knafo: {
+                  texte: "Relever la vitesse \u00E0 80 km/h sur le p\u00E9riph\u00E9rique (infrastructure con\u00E7ue pour 90 km/h, la limitation \u00E0 50 km/h n\u2019a r\u00E9duit ni pollution ni bruit)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "accessibilite",
+              nom: "Accessibilit\u00E9",
+              propositions: {
+                gregoire: {
+                  texte: "Accessibilit\u00E9 universelle de tous les services et lieux publics. Plan m\u00E9moire et transmission",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            },
+            {
+              id: "quartiers-prioritaires",
+              nom: "Quartiers prioritaires",
+              propositions: {
+                gregoire: null,
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            }
+          ]
+        },
+        {
+          id: "solidarite",
+          nom: "Solidarit\u00E9 & \u00C9galit\u00E9",
+          sousThemes: [
+            {
+              id: "aide-sociale",
+              nom: "Aide sociale",
+              propositions: {
+                gregoire: {
+                  texte: "4 000 places d\u2019h\u00E9bergement d\u2019urgence, r\u00E9quisition des logements vides depuis plus de 5 ans. Objectif z\u00E9ro enfant \u00E0 la rue, pr\u00E9somption de minorit\u00E9 pour les mineurs \u00E9trangers non accompagn\u00E9s. Revenu Solidarit\u00E9 Jeunesse sous conditions pour les jeunes sortant de l\u2019Aide Sociale \u00E0 l\u2019Enfance (ASE). Paris ville refuge : accueil des migrants, h\u00E9bergement et accompagnement",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: {
+                  texte: "Fermeture des 99 centres d'h\u00E9bergement pour migrants en situation irr\u00E9guli\u00E8re \u00E0 Paris",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://unevilleheureuse.fr/"
+                },
+                mariani: null
+              }
+            },
+            {
+              id: "egalite-discriminations",
+              nom: "\u00C9galit\u00E9 & Discriminations",
+              propositions: {
+                gregoire: {
+                  texte: "Plan contre le racisme, l\u2019antis\u00E9mitisme et les LGBTphobies. Budget genr\u00E9 de la ville",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://emmanuel-gregoire-2026.fr/"
+                },
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            },
+            {
+              id: "pouvoir-achat",
+              nom: "Pouvoir d\u2019achat",
+              propositions: {
+                gregoire: null,
+                dati: null,
+                chikirou: null,
+                bournazel: null,
+                knafo: null,
+                mariani: null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "lyon-2026": {
+      ville: "Lyon",
+      annee: 2026,
+      type: "\u00C9lections municipales",
+      dateVote: "2026-03-15T08:00:00",
+      candidats: [
+        { id: "doucet", nom: "Gr\u00E9gory Doucet", liste: "Pour Vivre Lyon", programmeUrl: "https://www.pourvivrelyonmunicipales2026.fr/programme", programmeComplet: true, programmePdfPath: null },
+        { id: "aulas", nom: "Jean-Michel Aulas", liste: "C\u0153ur Lyonnais", programmeUrl: "https://coeurlyonnais.fr/pacte-lyonnais/", programmeComplet: false, programmePdfPath: null },
+        { id: "perrin-gilbert", nom: "Nathalie Perrin-Gilbert", liste: "Lyon en commun", programmeUrl: "#", programmeComplet: false, programmePdfPath: null },
+        { id: "kepenekian", nom: "Georges K\u00E9p\u00E9n\u00E9kian", liste: "Lyon Mod\u00E9r\u00E9ment", programmeUrl: "#", programmeComplet: false, programmePdfPath: null },
+        { id: "belouassa", nom: "Ana\u00EFs Belouassa Cherifi", liste: "Lyon Fi\u00E8re et Populaire (LFI)", programmeUrl: "#", programmeComplet: false, programmePdfPath: null },
+        { id: "dupalais", nom: "Alexandre Dupalais", liste: "Rassemblement National", programmeUrl: "#", programmeComplet: false, programmePdfPath: null }
+      ],
+      categories: [
+        {
+          id: "securite",
+          nom: "S\u00E9curit\u00E9 & Pr\u00E9vention",
+          sousThemes: [
+            {
+              id: "police-municipale",
+              nom: "Police municipale",
+              propositions: {
+                doucet: {
+                  texte: "Renforcement de la police municipale avec objectif de 400 agents d\u2019ici 2032 et d\u00E9ploiement de postes de police mobiles pour des permanences dans l\u2019espace public. Cr\u00E9ation d\u2019une brigade anti-incivilit\u00E9s de 50 agents pour pr\u00E9venir, signaler et sanctionner",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: {
+                  texte: "Police municipale port\u00E9e \u00E0 500 agents (contre 311 actuellement)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://coeurlyonnais.fr/"
+                },
+                "perrin-gilbert": null,
+                kepenekian: {
+                  texte: "Consolidation de l\u2019objectif de 365 policiers municipaux. Police de proximit\u00E9 et cam\u00E9ras de surveillance",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                belouassa: null,
+                dupalais: {
+                  texte: "1000 postes de policiers municipaux, 30 mini-postes de police d\u2019ultra-proximit\u00E9 et drones dans les quartiers difficiles",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                }
+              }
+            },
+            {
+              id: "videoprotection",
+              nom: "Vid\u00E9oprotection",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: {
+                  texte: "5000 cam\u00E9ras de vid\u00E9osurveillance (multiplication par 10), centre de supervision urbaine \u00E0 la Guilloti\u00E8re et reconnaissance algorithmique",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                }
+              }
+            },
+            {
+              id: "prevention-mediation",
+              nom: "Pr\u00E9vention & M\u00E9diation",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": {
+                  texte: "Remise \u00E0 plat des relations avec la pr\u00E9fecture. Vid\u00E9osurveillance au cas par cas, refus d\u2019en faire une solution miracle",
+                  source: "Tribune de Lyon, f\u00E9vrier 2026",
+                  sourceUrl: "https://tribunedelyon.fr/"
+                },
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "violences-femmes",
+              nom: "Violences faites aux femmes",
+              propositions: {
+                doucet: {
+                  texte: "Fonds de solidarit\u00E9 pour la mise en s\u00E9curit\u00E9 des femmes victimes de violences (changement de serrure, garde d\u2019enfants, frais de t\u00E9l\u00E9phonie) et espace \u00E9galit\u00E9 \u00E0 la biblioth\u00E8que de la Part-Dieu",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: {
+                  texte: "Centre d\u2019h\u00E9bergement d\u2019urgence pour femmes victimes de violences, r\u00E9seau de logements-relais, brigade municipale femmes/familles, arr\u00EAt de bus \u00E0 la demande d\u00E8s 21h et \u00E9clairage intelligent dans les zones anxiog\u00E8nes",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://coeurlyonnais.fr/"
+                },
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "transports",
+          nom: "Transports & Mobilit\u00E9",
+          sousThemes: [
+            {
+              id: "transports-en-commun",
+              nom: "Transports en commun",
+              propositions: {
+                doucet: {
+                  texte: "Transports en commun gratuits pour les moins de 18 ans si un parent est abonn\u00E9 (250\u20AC \u00E9conomis\u00E9s par enfant et par an) et ouverture du m\u00E9tro toute la nuit les week-ends",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: {
+                  texte: "Gratuit\u00E9 des transports en commun pour les Lyonnais gagnant moins de 2 500\u20AC par mois",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://coeurlyonnais.fr/"
+                },
+                "perrin-gilbert": {
+                  texte: "Gratuit\u00E9 des transports en commun pour les seniors de plus de 60 ans. Navettes fluviales avec arr\u00EAts r\u00E9guliers (Vaise) et intermodalit\u00E9 renforc\u00E9e",
+                  source: "Tribune de Lyon, f\u00E9vrier 2026",
+                  sourceUrl: "https://tribunedelyon.fr/"
+                },
+                kepenekian: null,
+                belouassa: {
+                  texte: "Gratuit\u00E9 totale des transports en commun (r\u00E9seau TCL). Dans un premier temps, gratuit\u00E9 pour les moins de 26 ans",
+                  source: "Page LFI 2026",
+                  sourceUrl: "https://lafranceinsoumise.fr/"
+                },
+                dupalais: null
+              }
+            },
+            {
+              id: "velo-mobilites-douces",
+              nom: "V\u00E9lo & Mobilit\u00E9s douces",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "pietons-circulation",
+              nom: "Pi\u00E9tons & Circulation",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "stationnement",
+              nom: "Stationnement",
+              propositions: {
+                doucet: {
+                  texte: "10 journ\u00E9es de stationnement offertes par an pour toutes les Lyonnaises et Lyonnais",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "tarifs-gratuite",
+              nom: "Tarifs & Gratuit\u00E9",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "tunnel-circulation",
+              nom: "Tunnel & Circulation",
+              propositions: {
+                doucet: null,
+                aulas: {
+                  texte: "Cr\u00E9ation d\u2019un nouveau tunnel de 8 km entre Tassin et Saint-Fons (1,6 \u00E0 2 milliards d\u2019euros) pour d\u00E9sengorger le tunnel de Fourvi\u00E8re, lib\u00E9rant 45 hectares d\u2019espaces",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://coeurlyonnais.fr/"
+                },
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "logement",
+          nom: "Logement",
+          sousThemes: [
+            {
+              id: "logement-social",
+              nom: "Logement social",
+              propositions: {
+                doucet: {
+                  texte: "Service public du logement avec garantie municipale (la Ville devient garante des locataires sans garantie), assurance habitation municipale \u00E0 tarifs accessibles et objectif de 30% de logements sociaux d\u2019ici 2040",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: {
+                  texte: "Charte de mod\u00E9ration des loyers obligatoire, locale et cibl\u00E9e, et plan massif de construction/r\u00E9novation public-priv\u00E9",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://coeurlyonnais.fr/"
+                },
+                "perrin-gilbert": {
+                  texte: "Mod\u00E8le 1/3 social, 1/3 libre, 1/3 accession \u00E0 la propri\u00E9t\u00E9 et contr\u00F4le strict des loyers",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                kepenekian: {
+                  texte: "10 000 logements pour \u00E9tudiants et jeunes actifs sur le mandat. Logements de fonction pour les policiers municipaux",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                belouassa: {
+                  texte: "R\u00E9quisition des logements vacants, interdiction des suppl\u00E9ments de loyer et cr\u00E9ation d\u2019un observatoire de la sp\u00E9culation immobili\u00E8re",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                dupalais: null
+              }
+            },
+            {
+              id: "logements-vacants",
+              nom: "Logements vacants",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "encadrement-loyers",
+              nom: "Encadrement des loyers",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "acces-logement",
+              nom: "Acc\u00E8s au logement",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "education",
+          nom: "\u00C9ducation & Jeunesse",
+          sousThemes: [
+            {
+              id: "petite-enfance",
+              nom: "Petite enfance",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": {
+                  texte: "Droit opposable \u00E0 une place en cr\u00E8che avant 2030. Opposition \u00E0 la marchandisation de la petite enfance. Grand plan de formation pour les m\u00E9tiers de la petite enfance et du grand \u00E2ge",
+                  source: "Lyon Capitale, f\u00E9vrier 2026 | Tribune de Lyon, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                kepenekian: {
+                  texte: "Retour \u00E0 un rythme scolaire de 5 matin\u00E9es et 4 apr\u00E8s-midi all\u00E9g\u00E9es en primaire",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                belouassa: {
+                  texte: "Plus de 1 000 places de cr\u00E8che suppl\u00E9mentaires d\u2019ici 2032",
+                  source: "Page LFI 2026",
+                  sourceUrl: "https://lafranceinsoumise.fr/"
+                },
+                dupalais: null
+              }
+            },
+            {
+              id: "ecoles-renovation",
+              nom: "\u00C9coles & R\u00E9novation",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "cantines-fournitures",
+              nom: "Cantines & Fournitures",
+              propositions: {
+                doucet: {
+                  texte: "Gratuit\u00E9 des fournitures scolaires pour les \u00E9coliers du primaire",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: {
+                  texte: "Gratuit\u00E9 des cantines scolaires (co\u00FBt estim\u00E9 : 13 millions d\u2019euros)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://coeurlyonnais.fr/"
+                },
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: {
+                  texte: "Gratuit\u00E9 totale des cantines scolaires et petit-d\u00E9jeuner gratuit pour tous les enfants",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                dupalais: null
+              }
+            },
+            {
+              id: "periscolaire-loisirs",
+              nom: "P\u00E9riscolaire & Loisirs",
+              propositions: {
+                doucet: {
+                  texte: "Ouverture de l\u2019accueil de loisirs municipal le mercredi toute la journ\u00E9e avec activit\u00E9s p\u00E9dagogiques, culturelles et sorties en plein air",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "jeunesse",
+              nom: "Jeunesse",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "environnement",
+          nom: "Environnement & Transition \u00E9cologique",
+          sousThemes: [
+            {
+              id: "espaces-verts",
+              nom: "Espaces verts",
+              propositions: {
+                doucet: {
+                  texte: "Cr\u00E9ation de 6 nouveaux parcs pour rafra\u00EEchir et v\u00E9g\u00E9taliser les quartiers, poursuite du projet Rive Droite (v\u00E9g\u00E9talisation de 3 hectares) et ouverture de 2 baignades naturelles",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: {
+                  texte: "V\u00E9g\u00E9talisation de la place Bellecour avec 4000 m\u00B2 d\u2019arbustes et 5500 m\u00B2 de diversit\u00E9 v\u00E9g\u00E9tale",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://coeurlyonnais.fr/"
+                },
+                "perrin-gilbert": null,
+                kepenekian: {
+                  texte: "D\u00E9ploiement massif de pompes \u00E0 chaleur r\u00E9versibles dans les \u00E9coles et \u00E9quipements publics",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "proprete-dechets",
+              nom: "Propret\u00E9 & D\u00E9chets",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "climat-adaptation",
+              nom: "Climat & Adaptation",
+              propositions: {
+                doucet: {
+                  texte: "Plan d\u2019adaptation \u00E0 la canicule, r\u00E9serve citoyenne solidaire avec volontaires form\u00E9s pour alerter et prot\u00E9ger lors de canicules et grands froids",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "renovation-energetique",
+              nom: "R\u00E9novation \u00E9nerg\u00E9tique",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "alimentation-durable",
+              nom: "Alimentation durable",
+              propositions: {
+                doucet: {
+                  texte: "Ouverture de 10 cantines de quartier avec \u00E9piceries sociales et solidaires o\u00F9 faire ses courses \u00E0 prix juste et cuisiner ensemble",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: {
+                  texte: "Cantines scolaires gratuites avec petit-d\u00E9jeuner. Restauration scolaire en r\u00E9gie municipale. Restaurants municipaux (repas \u00E0 5\u20AC, 3,50\u20AC \u00E9tudiants). Colonies de vacances municipales",
+                  source: "Page LFI 2026",
+                  sourceUrl: "https://lafranceinsoumise.fr/"
+                },
+                dupalais: null
+              }
+            },
+            {
+              id: "protection-animale",
+              nom: "Protection animale",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: {
+                  texte: "Fermeture d\u00E9finitive du zoo du Parc de la T\u00EAte d\u2019Or. Arr\u00EAt reproduction et acquisitions, placement des animaux en sanctuaires",
+                  source: "Page LFI 2026",
+                  sourceUrl: "https://lafranceinsoumise.fr/"
+                },
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sante",
+          nom: "Sant\u00E9 & Acc\u00E8s aux soins",
+          sousThemes: [
+            {
+              id: "centres-sante",
+              nom: "Centres de sant\u00E9",
+              propositions: {
+                doucet: {
+                  texte: "Ouverture de 10 centres de sant\u00E9 en zones carenc\u00E9es et cr\u00E9ation d\u2019une mutuelle municipale accessible \u00E0 tous sans crit\u00E8res discriminants",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: {
+                  texte: "Contrat lyonnais de la m\u00E9decine g\u00E9n\u00E9rale pour am\u00E9liorer l\u2019acc\u00E8s aux g\u00E9n\u00E9ralistes. Programme de pr\u00E9vention majeur",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                belouassa: {
+                  texte: "Ouverture de 9 centres de sant\u00E9 municipaux",
+                  source: "Page LFI 2026",
+                  sourceUrl: "https://lafranceinsoumise.fr/"
+                },
+                dupalais: null
+              }
+            },
+            {
+              id: "prevention-sante",
+              nom: "Pr\u00E9vention sant\u00E9",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "seniors",
+              nom: "Seniors",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "democratie",
+          nom: "D\u00E9mocratie & Vie citoyenne",
+          sousThemes: [
+            {
+              id: "budget-participatif",
+              nom: "Budget participatif",
+              propositions: {
+                doucet: null,
+                aulas: {
+                  texte: "R\u00E9f\u00E9rendum annuel sur les grands projets de la ville, gestion responsable sans emballement de la dette",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://coeurlyonnais.fr/lyon-de-demain/"
+                },
+                "perrin-gilbert": {
+                  texte: "R\u00E9duction de l\u2019ex\u00E9cutif \u00E0 16 adjoints et 4 conseillers d\u00E9l\u00E9gu\u00E9s (contre 20 + 3)",
+                  source: "Tribune de Lyon, f\u00E9vrier 2026",
+                  sourceUrl: "https://tribunedelyon.fr/"
+                },
+                kepenekian: {
+                  texte: "Site collaboratif pour la construction participative du programme",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                belouassa: {
+                  texte: "Instauration du R\u00E9f\u00E9rendum d\u2019Initiative Citoyenne (RIC) local. Observatoire contre les discriminations",
+                  source: "Page LFI 2026",
+                  sourceUrl: "https://lafranceinsoumise.fr/"
+                },
+                dupalais: null
+              }
+            },
+            {
+              id: "transparence",
+              nom: "Transparence",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "vie-associative",
+              nom: "Vie associative",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "services-publics",
+              nom: "Services publics",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: {
+                  texte: "Plateforme Lyon-Chrono pour les familles avec horaires de travail atypiques",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                belouassa: null,
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "economie",
+          nom: "\u00C9conomie & Emploi",
+          sousThemes: [
+            {
+              id: "commerce-local",
+              nom: "Commerce local",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "emploi-insertion",
+              nom: "Emploi & Insertion",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "attractivite",
+              nom: "Attractivit\u00E9",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "culture",
+          nom: "Culture & Patrimoine",
+          sousThemes: [
+            {
+              id: "equipements-culturels",
+              nom: "\u00C9quipements culturels",
+              propositions: {
+                doucet: {
+                  texte: "R\u00E9novation et agrandissement de la biblioth\u00E8que de la Part-Dieu (140 millions d\u2019euros, 4000 m\u00B2 suppl\u00E9mentaires minimum)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: null,
+                "perrin-gilbert": {
+                  texte: "Mus\u00E9e des sciences dans l\u2019ancien mus\u00E9um Guimet, F\u00EAte des Lumi\u00E8res r\u00E9vis\u00E9e avec festival indoor \u00E0 la halle Tony Garnier",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "evenements-creation",
+              nom: "\u00C9v\u00E9nements & Cr\u00E9ation",
+              propositions: {
+                doucet: null,
+                aulas: {
+                  texte: "Ach\u00E8vement du grand am\u00E9nagement de Fourvi\u00E8re et projet Lumi\u00E8re pour faire de Lyon la capitale du cin\u00E9ma",
+                  source: "Site de campagne 2026",
+                  sourceUrl: "https://coeurlyonnais.fr/lyon-de-demain/"
+                },
+                "perrin-gilbert": {
+                  texte: "R\u00E9ouverture du mus\u00E9e Guimet en Exploratorium d\u00E9di\u00E9 aux sciences (inspir\u00E9 San Francisco). Festival des Lumi\u00E8res r\u00E9vis\u00E9 avec festival int\u00E9rieur \u00E0 la Halle Tony Garnier. M\u00E9diath\u00E8que \u00E0 la Guilloti\u00E8re",
+                  source: "Tribune de Lyon, f\u00E9vrier 2026",
+                  sourceUrl: "https://tribunedelyon.fr/"
+                },
+                kepenekian: {
+                  texte: "Cr\u00E9ation d\u2019une Maison des Cultures du Monde",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                belouassa: {
+                  texte: "Cr\u00E9ation d\u2019un mus\u00E9e national de l\u2019histoire coloniale. Biennale sportive",
+                  source: "Page LFI 2026",
+                  sourceUrl: "https://lafranceinsoumise.fr/"
+                },
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sport",
+          nom: "Sport & Loisirs",
+          sousThemes: [
+            {
+              id: "equipements-sportifs",
+              nom: "\u00C9quipements sportifs",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "sport-pour-tous",
+              nom: "Sport pour tous",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: {
+                  texte: "Accueil de la c\u00E9r\u00E9monie d\u2019ouverture des JO d\u2019hiver 2030 au Parc de Gerland et grande fan zone \u00E0 la halle Tony Garnier",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                },
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "urbanisme",
+          nom: "Urbanisme & Cadre de vie",
+          sousThemes: [
+            {
+              id: "amenagement-urbain",
+              nom: "Am\u00E9nagement urbain",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "accessibilite",
+              nom: "Accessibilit\u00E9",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "quartiers-prioritaires",
+              nom: "Quartiers prioritaires",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            }
+          ]
+        },
+        {
+          id: "solidarite",
+          nom: "Solidarit\u00E9 & \u00C9galit\u00E9",
+          sousThemes: [
+            {
+              id: "aide-sociale",
+              nom: "Aide sociale",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "egalite-discriminations",
+              nom: "\u00C9galit\u00E9 & Discriminations",
+              propositions: {
+                doucet: null,
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: null
+              }
+            },
+            {
+              id: "pouvoir-achat",
+              nom: "Pouvoir d\u2019achat",
+              propositions: {
+                doucet: {
+                  texte: "Achats group\u00E9s via la centrale m\u00E9tropolitaine du pouvoir d\u2019achat, pass\u2019sport municipal et fonds pour petits travaux d\u2019\u00E9conomie d\u2019\u00E9nergie (jusqu\u2019\u00E0 500\u20AC d\u2019\u00E9conomies par an par foyer)",
+                  source: "Programme officiel 2026",
+                  sourceUrl: "https://www.pourvivrelyonmunicipales2026.fr/"
+                },
+                aulas: null,
+                "perrin-gilbert": null,
+                kepenekian: null,
+                belouassa: null,
+                dupalais: {
+                  texte: "Annulation de la hausse de 9% de la taxe fonci\u00E8re de 2023, soit 350\u20AC par an par m\u00E9nage propri\u00E9taire",
+                  source: "Lyon Capitale, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.lyoncapitale.fr/"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "marseille-2026": {
+      ville: "Marseille",
+      annee: 2026,
+      type: "\u00C9lections municipales",
+      dateVote: "2026-03-15T08:00:00",
+      candidats: [
+        { id: "delogu", nom: "S\u00E9bastien Delogu", liste: "Marseille Fi\u00E8re et Populaire (LFI)", programmeUrl: "https://sebastiendelogu2026.fr/programme/sommaire/", programmeComplet: true, programmePdfPath: null },
+        { id: "payan", nom: "Beno\u00EEt Payan", liste: "Printemps Marseillais (PS)", programmeUrl: "https://www.pourmarseille.fr/", programmeComplet: false, programmePdfPath: null },
+        { id: "vassal", nom: "Martine Vassal", liste: "LR / Centre", programmeUrl: "#", programmeComplet: false, programmePdfPath: null },
+        { id: "allisio", nom: "Franck Allisio", liste: "Rassemblement National", programmeUrl: "#", programmeComplet: false, programmePdfPath: null },
+        { id: "davoux", nom: "Erwan Davoux", liste: "Marseille Pour Tous", programmeUrl: "#", programmeComplet: false, programmePdfPath: null }
+      ],
+      categories: [
+        {
+          id: "securite",
+          nom: "S\u00E9curit\u00E9 & Pr\u00E9vention",
+          sousThemes: [
+            {
+              id: "police-municipale",
+              nom: "Police municipale",
+              propositions: {
+                delogu: null,
+                payan: {
+                  texte: "Doublement de la police municipale (~1 600 agents). Commissariat de police municipale dans chaque arrondissement. Police de la propret\u00E9 de 80 agents habilit\u00E9e \u00E0 dresser des PV",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.pourmarseille.fr/"
+                },
+                vassal: {
+                  texte: "Recrutement de 1 500 policiers municipaux. Relance massive de la vid\u00E9oprotection",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.francebleu.fr/"
+                },
+                allisio: {
+                  texte: "Recrutement de 1 000 policiers municipaux. Demande d\u2019\u00E9tat d\u2019urgence pour Marseille",
+                  source: "France Bleu / Maritima, f\u00E9vrier 2026",
+                  sourceUrl: "https://franckallisio2026.fr/"
+                },
+                davoux: null
+              }
+            },
+            {
+              id: "videoprotection",
+              nom: "Vid\u00E9oprotection",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "prevention-mediation",
+              nom: "Pr\u00E9vention & M\u00E9diation",
+              propositions: {
+                delogu: {
+                  texte: "Approche globale de la tranquillit\u00E9 publique combinant pr\u00E9vention, m\u00E9diation et pr\u00E9sence humaine dans les quartiers",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "violences-femmes",
+              nom: "Violences faites aux femmes",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "transports",
+          nom: "Transports & Mobilit\u00E9",
+          sousThemes: [
+            {
+              id: "transports-en-commun",
+              nom: "Transports en commun",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "velo-mobilites-douces",
+              nom: "V\u00E9lo & Mobilit\u00E9s douces",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "pietons-circulation",
+              nom: "Pi\u00E9tons & Circulation",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "stationnement",
+              nom: "Stationnement",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "tarifs-gratuite",
+              nom: "Tarifs & Gratuit\u00E9",
+              propositions: {
+                delogu: {
+                  texte: "Extension de la gratuit\u00E9 des transports en commun aux moins de 26 ans",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: {
+                  texte: "Gratuit\u00E9 des transports en commun pour les moins de 26 ans",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.pourmarseille.fr/"
+                },
+                vassal: {
+                  texte: "Gratuit\u00E9 des transports pour les moins de 26 ans. Extension horaires m\u00E9tro et tramway les vendredis et samedis soir (m\u00E9tro jusqu\u2019\u00E0 1h)",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.francebleu.fr/"
+                },
+                allisio: null,
+                davoux: {
+                  texte: "Remunicipalisation du tunnel Prado-Car\u00E9nage. \u00C9tude de la gratuit\u00E9 totale des transports. R\u00E9f\u00E9rendum sur la fin des trottinettes en libre-service",
+                  source: "Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://madeinmarseille.net/"
+                }
+              }
+            }
+          ]
+        },
+        {
+          id: "logement",
+          nom: "Logement",
+          sousThemes: [
+            {
+              id: "logement-social",
+              nom: "Logement social",
+              propositions: {
+                delogu: {
+                  texte: "Cr\u00E9ation de 30 000 logements dont 70% sociaux (1/3 PLAI), en combinant construction neuve, r\u00E9novation et transformation de friches et bureaux vacants",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "logements-vacants",
+              nom: "Logements vacants",
+              propositions: {
+                delogu: {
+                  texte: "Registre public des biens vacants, m\u00E9diation renforc\u00E9e et r\u00E9quisitions cibl\u00E9es pour lutter contre la vacance des logements",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "encadrement-loyers",
+              nom: "Encadrement des loyers",
+              propositions: {
+                delogu: {
+                  texte: "Extension du permis de louer \u00E0 toute la ville et instauration de l\u2019encadrement des loyers",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "acces-logement",
+              nom: "Acc\u00E8s au logement",
+              propositions: {
+                delogu: {
+                  texte: "Soutien aux projets d\u2019habitat participatif, coop\u00E9ratif et bail r\u00E9el solidaire avec appui technique, juridique et financier",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "education",
+          nom: "\u00C9ducation & Jeunesse",
+          sousThemes: [
+            {
+              id: "petite-enfance",
+              nom: "Petite enfance",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "ecoles-renovation",
+              nom: "\u00C9coles & R\u00E9novation",
+              propositions: {
+                delogu: {
+                  texte: "R\u00E9novation massive des \u00E9coles publiques et droit \u00E0 la natation pour tous les enfants marseillais",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "cantines-fournitures",
+              nom: "Cantines & Fournitures",
+              propositions: {
+                delogu: {
+                  texte: "Retour \u00E0 la gestion publique des cantines scolaires, avec alimentation locale et biologique",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "periscolaire-loisirs",
+              nom: "P\u00E9riscolaire & Loisirs",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "jeunesse",
+              nom: "Jeunesse",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "environnement",
+          nom: "Environnement & Transition \u00E9cologique",
+          sousThemes: [
+            {
+              id: "espaces-verts",
+              nom: "Espaces verts",
+              propositions: {
+                delogu: {
+                  texte: "R\u00E9introduction massive de la nature dans les quartiers populaires, \u00E9largissement des horaires d\u2019ouverture des parcs, plages et jardins",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "proprete-dechets",
+              nom: "Propret\u00E9 & D\u00E9chets",
+              propositions: {
+                delogu: null,
+                payan: {
+                  texte: "Plan propret\u00E9 global \u2018Marseille propre, c\u2019est possible !\u2019. Brigade environnementale contre les d\u00E9p\u00F4ts sauvages",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.pourmarseille.fr/"
+                },
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "climat-adaptation",
+              nom: "Climat & Adaptation",
+              propositions: {
+                delogu: {
+                  texte: "Comit\u00E9 populaire de planification \u00E9cologique pilot\u00E9 par les associations et collectifs d\u2019habitants pour co-construire les priorit\u00E9s municipales. Plan canicule renforc\u00E9 avec multiplication des lieux d\u2019accueil frais, plan d\u2019ombrage des rues avec voiles et pergolas v\u00E9g\u00E9talis\u00E9es, et micro-for\u00EAts urbaines",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "renovation-energetique",
+              nom: "R\u00E9novation \u00E9nerg\u00E9tique",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "alimentation-durable",
+              nom: "Alimentation durable",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sante",
+          nom: "Sant\u00E9 & Acc\u00E8s aux soins",
+          sousThemes: [
+            {
+              id: "centres-sante",
+              nom: "Centres de sant\u00E9",
+              propositions: {
+                delogu: {
+                  texte: "D\u00E9veloppement de centres de sant\u00E9 municipaux dans les quartiers sous-dot\u00E9s en m\u00E9decins",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: {
+                  texte: "Mutuelle municipale compl\u00E9mentaire pour tous les Marseillais, sans conditions de ressources",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.pourmarseille.fr/"
+                },
+                vassal: {
+                  texte: "Centre de sant\u00E9 d\u00E9di\u00E9 aux \u00E9tudiants. Doublement des places en cr\u00E8che",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.francebleu.fr/"
+                },
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "prevention-sante",
+              nom: "Pr\u00E9vention sant\u00E9",
+              propositions: {
+                delogu: {
+                  texte: "Cr\u00E9ation d\u2019un Observatoire Sant\u00E9-Environnement public pour surveiller qualit\u00E9 de l\u2019air, de l\u2019eau, bruit, temp\u00E9ratures et polluants (PFAS), en commen\u00E7ant par les \u00E9coles",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "seniors",
+              nom: "Seniors",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "democratie",
+          nom: "D\u00E9mocratie & Vie citoyenne",
+          sousThemes: [
+            {
+              id: "budget-participatif",
+              nom: "Budget participatif",
+              propositions: {
+                delogu: {
+                  texte: "Mise en place de comit\u00E9s de quartier ouverts \u00E0 tous, dot\u00E9s de budgets participatifs, avec possibilit\u00E9 d\u2019inscrire des sujets \u00E0 l\u2019ordre du jour du conseil municipal. Renforcement de l\u2019Assembl\u00E9e citoyenne du futur compos\u00E9e de 111 habitants tir\u00E9s au sort avec droit d\u2019initiative pour soumettre des d\u00E9lib\u00E9rations au Conseil municipal. Application pleine du droit aux r\u00E9f\u00E9rendums locaux : lorsqu\u2019une p\u00E9tition atteint 10% des \u00E9lecteurs, organisation d\u2019un r\u00E9f\u00E9rendum dont le r\u00E9sultat est appliqu\u00E9 si la participation d\u00E9passe 50%",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "transparence",
+              nom: "Transparence",
+              propositions: {
+                delogu: {
+                  texte: "Publication de tous les rendez-vous des \u00E9lus avec des repr\u00E9sentants d\u2019int\u00E9r\u00EAts priv\u00E9s, interdiction des cadeaux et avantages, et dispositif de d\u00E9tection des conflits d\u2019int\u00E9r\u00EAts avant chaque conseil municipal",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "vie-associative",
+              nom: "Vie associative",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "services-publics",
+              nom: "Services publics",
+              propositions: {
+                delogu: {
+                  texte: "Fin de la gestion priv\u00E9e des services publics : retour en r\u00E9gie municipale des cantines, de l\u2019eau, des parkings et du tunnel Prado-Car\u00E9nage",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: {
+                  texte: "R\u00E9gie publique de l\u2019eau (retour en gestion municipale)",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.pourmarseille.fr/"
+                },
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "economie",
+          nom: "\u00C9conomie & Emploi",
+          sousThemes: [
+            {
+              id: "commerce-local",
+              nom: "Commerce local",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "emploi-insertion",
+              nom: "Emploi & Insertion",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "attractivite",
+              nom: "Attractivit\u00E9",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: {
+                  texte: "Cr\u00E9ation d\u2019un conseil de d\u00E9veloppement \u00E9conomique. Faire de Marseille une station baln\u00E9aire : r\u00E9am\u00E9nagement des plages, cheminement doux Estaque-Goudes",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.francebleu.fr/"
+                },
+                allisio: {
+                  texte: "Trois secteurs prioritaires : sant\u00E9/biotech, logistique/port, \u00E9nergie/environnement. Clusters d\u2019entreprises et quartier start-up \u00E0 la Joliette. Simplification des permis de construire. Tourisme lent autour de Marcel Pagnol. Tourisme sportif et d\u2019affaires. Marina et port pour navettes maritimes",
+                  source: "France Bleu / Maritima, f\u00E9vrier 2026",
+                  sourceUrl: "https://franckallisio2026.fr/"
+                },
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "culture",
+          nom: "Culture & Patrimoine",
+          sousThemes: [
+            {
+              id: "equipements-culturels",
+              nom: "\u00C9quipements culturels",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "evenements-creation",
+              nom: "\u00C9v\u00E9nements & Cr\u00E9ation",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "sport",
+          nom: "Sport & Loisirs",
+          sousThemes: [
+            {
+              id: "equipements-sportifs",
+              nom: "\u00C9quipements sportifs",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "sport-pour-tous",
+              nom: "Sport pour tous",
+              propositions: {
+                delogu: {
+                  texte: "Droit \u00E0 la natation pour tous les enfants et d\u00E9veloppement d\u2019\u00E9quipements sportifs de proximit\u00E9",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: null,
+                allisio: {
+                  texte: "V\u00E9lodrome en socios : moiti\u00E9 des parts d\u00E9tenues par des actionnaires-citoyens marseillais, ville gardant la majorit\u00E9",
+                  source: "France Bleu / Maritima, f\u00E9vrier 2026",
+                  sourceUrl: "https://franckallisio2026.fr/"
+                },
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "urbanisme",
+          nom: "Urbanisme & Cadre de vie",
+          sousThemes: [
+            {
+              id: "amenagement-urbain",
+              nom: "Am\u00E9nagement urbain",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "accessibilite",
+              nom: "Accessibilit\u00E9",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "quartiers-prioritaires",
+              nom: "Quartiers prioritaires",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            }
+          ]
+        },
+        {
+          id: "solidarite",
+          nom: "Solidarit\u00E9 & \u00C9galit\u00E9",
+          sousThemes: [
+            {
+              id: "aide-sociale",
+              nom: "Aide sociale",
+              propositions: {
+                delogu: null,
+                payan: {
+                  texte: "1 000 places d\u2019h\u00E9bergement d\u2019urgence suppl\u00E9mentaires. 15 000 enfants b\u00E9n\u00E9ficiaires de repas gratuits \u00E0 la cantine. 200 000 repas offerts par an aux \u00E9tudiants",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.pourmarseille.fr/"
+                },
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "egalite-discriminations",
+              nom: "\u00C9galit\u00E9 & Discriminations",
+              propositions: {
+                delogu: {
+                  texte: "Cr\u00E9ation d\u2019un Observatoire municipal des discriminations avec quatre p\u00F4les sp\u00E9cialis\u00E9s (handicap, sexisme, racisme, LGBTI), accueil, permanence juridique gratuite et num\u00E9ro vert. Budget sensible au genre, centre f\u00E9ministe, protections menstruelles gratuites, cong\u00E9 menstruel pour les agentes municipales et guichet unique pour les victimes de violences sexistes. Anonymisation partielle des dossiers de logement social, grille d\u2019\u00E9valuation publique et tra\u00E7abilit\u00E9 des d\u00E9cisions d\u2019attribution pour garantir l\u2019\u00E9galit\u00E9 d\u2019acc\u00E8s",
+                  source: "Programme officiel 2026 - 379 mesures",
+                  sourceUrl: "https://sebastiendelogu2026.fr/"
+                },
+                payan: null,
+                vassal: {
+                  texte: "Plan municipal de lutte contre l\u2019antis\u00E9mitisme : charte agents municipaux, cellule de veille, r\u00E9f\u00E9rent dans chaque \u00E9cole",
+                  source: "France Bleu / Made in Marseille, f\u00E9vrier 2026",
+                  sourceUrl: "https://www.francebleu.fr/"
+                },
+                allisio: null,
+                davoux: null
+              }
+            },
+            {
+              id: "pouvoir-achat",
+              nom: "Pouvoir d\u2019achat",
+              propositions: {
+                delogu: null,
+                payan: null,
+                vassal: null,
+                allisio: null,
+                davoux: null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  };
+
+
+  // === Éléments DOM ===
+  var villeSearchInput = document.getElementById("ville-search");
+  var villeSuggestionsContainer = document.getElementById("ville-suggestions");
+  var rechercheInput = document.getElementById("recherche-input");
+  var electionInfo = document.getElementById("election-info");
+  var electionTitre = document.getElementById("election-titre");
+  var electionStats = document.getElementById("election-stats");
+  var statistiquesSection = document.getElementById("statistiques");
+  var repartitionSection = document.getElementById("repartition");
+  var repartitionContenu = document.getElementById("repartition-contenu");
+  var filtresContainer = document.getElementById("filtres-categories");
+  var comparaisonContainer = document.getElementById("comparaison");
+  var etatVide = document.getElementById("etat-vide");
+  var countdownElement = document.getElementById("countdown");
+  var countdownDate = document.getElementById("countdown-date");
+  var countdownJours = document.getElementById("countdown-jours");
+  var countdownHeures = document.getElementById("countdown-heures");
+  var countdownMinutes = document.getElementById("countdown-minutes");
+  var countdownSecondes = document.getElementById("countdown-secondes");
+  var btnPartager = document.getElementById("btn-partager");
+  var partageReseaux = document.getElementById("partage-reseaux");
+  var selectionCandidatsSection = document.getElementById("selection-candidats");
+  var candidatsCheckboxesContainer = document.getElementById("candidats-checkboxes");
+  var btnTop = document.getElementById("btn-top");
+  var sommaire = document.getElementById("sommaire");
+  var sommaireNav = document.getElementById("sommaire-nav");
+  var sommaireToggle = document.getElementById("sommaire-toggle");
+  var themeToggle = document.getElementById("theme-toggle");
+  var alertesSection = document.getElementById("alertes-section");
+  var alerteEmailInput = document.getElementById("alerte-email");
+  var btnAlerte = document.getElementById("btn-alerte");
+  var alerteMessage = document.getElementById("alerte-message");
+
+  // === État ===
+  var donneesElection = null;
+  var categorieActive = "toutes";
+  var rechercheTexte = "";
+  var countdownInterval = null;
+  var suggestionActive = -1;
+  var villeSelectionnee = null;
+  var candidatsSelectionnes = [];
+  var chartsInstances = {};
+
+  // === Recherche de ville ===
+  function rechercherVilles(terme) {
+    if (!terme || terme.length < 1) {
+      return VILLES;
+    }
+
+    var termeMin = terme.toLowerCase().trim();
+    return VILLES.filter(function (ville) {
+      var nomMatch = ville.nom.toLowerCase().indexOf(termeMin) !== -1;
+      var codeMatch = ville.codePostal.indexOf(termeMin) !== -1;
+      return nomMatch || codeMatch;
+    });
+  }
+
+  function surligner(texte, terme) {
+    if (!terme) return texte;
+    var regex = new RegExp("(" + termeRegexSafe(terme) + ")", "gi");
+    return texte.replace(regex, '<span class="ville-suggestion__highlight">$1</span>');
+  }
+
+  function afficherSuggestions(villes, terme) {
+    villeSuggestionsContainer.innerHTML = "";
+    suggestionActive = -1;
+
+    if (villes.length === 0) {
+      var empty = document.createElement("div");
+      empty.className = "ville-suggestions-empty";
+      empty.textContent = "Aucune ville trouvée";
+      villeSuggestionsContainer.appendChild(empty);
+      villeSuggestionsContainer.hidden = false;
+      return;
+    }
+
+    villes.forEach(function (ville, index) {
+      var div = document.createElement("div");
+      div.className = "ville-suggestion";
+      div.dataset.index = index;
+      div.dataset.electionId = ville.elections[0];
+
+      var nomHTML = surligner(echapper(ville.nom), terme);
+      var codeHTML = surligner(echapper(ville.codePostal), terme);
+
+      div.innerHTML =
+        '<span class="ville-suggestion__nom">' + nomHTML + '</span>' +
+        '<span class="ville-suggestion__code">' + codeHTML + '</span>';
+
+      div.addEventListener("click", function () {
+        selectionnerVille(ville);
+      });
+
+      villeSuggestionsContainer.appendChild(div);
+    });
+
+    villeSuggestionsContainer.hidden = false;
+  }
+
+  function masquerSuggestions() {
+    villeSuggestionsContainer.hidden = true;
+    suggestionActive = -1;
+  }
+
+  function selectionnerVille(ville) {
+    villeSelectionnee = ville;
+    villeSearchInput.value = ville.nom + " (" + ville.codePostal + ")";
+    masquerSuggestions();
+    chargerElection(ville.elections[0]);
+  }
+
+  function naviguerSuggestions(direction) {
+    var suggestions = villeSuggestionsContainer.querySelectorAll(".ville-suggestion");
+    if (suggestions.length === 0) return;
+
+    if (suggestionActive !== -1) {
+      suggestions[suggestionActive].classList.remove("ville-suggestion--active");
+    }
+
+    suggestionActive += direction;
+
+    if (suggestionActive < 0) {
+      suggestionActive = suggestions.length - 1;
+    } else if (suggestionActive >= suggestions.length) {
+      suggestionActive = 0;
+    }
+
+    suggestions[suggestionActive].classList.add("ville-suggestion--active");
+    suggestions[suggestionActive].scrollIntoView({ block: "nearest" });
+  }
+
+  function validerSuggestion() {
+    if (suggestionActive === -1) return;
+    var suggestions = villeSuggestionsContainer.querySelectorAll(".ville-suggestion");
+    if (suggestions[suggestionActive]) {
+      var electionId = suggestions[suggestionActive].dataset.electionId;
+      var ville = VILLES.find(function (v) { return v.elections[0] === electionId; });
+      if (ville) {
+        selectionnerVille(ville);
+      }
+    }
+  }
+
+  // === Compte à rebours ===
+  function demarrerCountdown(dateVote) {
+    if (countdownInterval) {
+      clearInterval(countdownInterval);
+    }
+
+    var dateVoteParsed = new Date(dateVote);
+
+    // Afficher la date du vote
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' };
+    var dateFormatee = dateVoteParsed.toLocaleDateString('fr-FR', options);
+    countdownDate.textContent = dateFormatee.charAt(0).toUpperCase() + dateFormatee.slice(1);
+
+    function mettreAJourCountdown() {
+      var maintenant = new Date().getTime();
+      var tempsRestant = dateVoteParsed.getTime() - maintenant;
+
+      if (tempsRestant < 0) {
+        countdownElement.hidden = true;
+        if (countdownInterval) clearInterval(countdownInterval);
+        return;
+      }
+
+      var jours = Math.floor(tempsRestant / (1000 * 60 * 60 * 24));
+      var heures = Math.floor((tempsRestant % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((tempsRestant % (1000 * 60 * 60)) / (1000 * 60));
+      var secondes = Math.floor((tempsRestant % (1000 * 60)) / 1000);
+
+      countdownJours.textContent = jours;
+      countdownHeures.textContent = heures;
+      countdownMinutes.textContent = minutes;
+      countdownSecondes.textContent = secondes;
+
+      countdownElement.hidden = false;
+    }
+
+    mettreAJourCountdown();
+    countdownInterval = setInterval(mettreAJourCountdown, 1000);
+  }
+
+  function arreterCountdown() {
+    if (countdownInterval) {
+      clearInterval(countdownInterval);
+      countdownInterval = null;
+    }
+    countdownElement.hidden = true;
+  }
+
+  // === Chargement d'une élection ===
+  function chargerElection(fichier) {
+    donneesElection = ELECTIONS[fichier] || null;
+    if (!donneesElection) return;
+    rechercheInput.disabled = false;
+    rechercheInput.value = "";
+    rechercheTexte = "";
+    categorieActive = "toutes";
+
+    if (donneesElection.dateVote) {
+      demarrerCountdown(donneesElection.dateVote);
+    } else {
+      arreterCountdown();
+    }
+
+    mettreAJourMetadonnees();
+    afficherElection();
+  }
+
+  // === Helper pour compter les propositions ===
+  function compterPropositionsCategorie(categorie) {
+    // Ancien format : propositions directes
+    if (categorie.propositions) {
+      return categorie.propositions.length;
+    }
+    // Nouveau format : sous-thèmes
+    if (categorie.sousThemes) {
+      var total = 0;
+      categorie.sousThemes.forEach(function(st) {
+        Object.keys(st.propositions).forEach(function(candidatId) {
+          if (st.propositions[candidatId] && st.propositions[candidatId].texte) {
+            total++;
+          }
+        });
+      });
+      return total;
+    }
+    return 0;
+  }
+
+  function compterPropositionsCandidat(categorie, candidatId) {
+    // Ancien format : propositions directes
+    if (categorie.propositions) {
+      return categorie.propositions.filter(function (p) {
+        return p.candidatId === candidatId;
+      }).length;
+    }
+    // Nouveau format : sous-thèmes
+    if (categorie.sousThemes) {
+      var count = 0;
+      categorie.sousThemes.forEach(function(st) {
+        if (st.propositions[candidatId] && st.propositions[candidatId].texte) {
+          count++;
+        }
+      });
+      return count;
+    }
+    return 0;
+  }
+
+  // === Métadonnées dynamiques (SEO) ===
+  function mettreAJourMetadonnees() {
+    if (!donneesElection) return;
+
+    var ville = donneesElection.ville;
+    var annee = donneesElection.annee;
+    var nbCandidats = donneesElection.candidats.length;
+    var nbPropositions = 0;
+    donneesElection.categories.forEach(function (cat) {
+      nbPropositions += compterPropositionsCategorie(cat);
+    });
+
+    // Titre de la page
+    var titre = ville + " " + annee + " — Comparateur Municipal";
+    document.title = titre;
+
+    // Description
+    var description = "Comparez les programmes de " + nbCandidats + " candidats aux élections municipales de " + ville + " " + annee + ". " + nbPropositions + " propositions détaillées et sourcées.";
+
+    // URL canonique
+    var urlBase = window.location.origin + window.location.pathname;
+    var urlCanonique = urlBase + "?ville=" + ville.toLowerCase().replace(/\s+/g, '-');
+
+    // Mettre à jour les balises meta
+    mettreAJourMeta("description", description);
+    mettreAJourMeta("og:title", titre);
+    mettreAJourMeta("og:description", description);
+    mettreAJourMeta("og:url", urlCanonique);
+    mettreAJourMeta("twitter:title", titre);
+    mettreAJourMeta("twitter:description", description);
+
+    // Mettre à jour le canonical
+    var linkCanonical = document.querySelector('link[rel="canonical"]');
+    if (linkCanonical) {
+      linkCanonical.href = urlCanonique;
+    }
+
+    // Mettre à jour les données structurées
+    mettreAJourDonneesStructurees(ville, annee, nbCandidats, nbPropositions);
+  }
+
+  function mettreAJourMeta(propriete, contenu) {
+    var selector = propriete.indexOf(':') > -1
+      ? 'meta[property="' + propriete + '"]'
+      : 'meta[name="' + propriete + '"]';
+
+    var meta = document.querySelector(selector);
+    if (meta) {
+      meta.content = contenu;
+    }
+  }
+
+  function mettreAJourDonneesStructurees(ville, annee, nbCandidats, nbPropositions) {
+    var scriptExistant = document.querySelector('script[type="application/ld+json"]');
+    if (!scriptExistant) return;
+
+    var donnees = {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Comparateur Municipal — " + ville + " " + annee,
+      "description": "Comparaison des programmes de " + nbCandidats + " candidats aux élections municipales de " + ville + " " + annee,
+      "url": window.location.href,
+      "applicationCategory": "GovernmentApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "Comparateur Municipal"
+      },
+      "inLanguage": "fr-FR",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Citizens, Voters"
+      },
+      "about": {
+        "@type": "Event",
+        "name": "Élections municipales " + ville + " " + annee,
+        "location": {
+          "@type": "Place",
+          "name": ville,
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": ville,
+            "addressCountry": "FR"
+          }
+        }
+      }
+    };
+
+    scriptExistant.textContent = JSON.stringify(donnees, null, 2);
+  }
+
+  // === Sélection de candidats ===
+  function afficherSelectionCandidats(candidats) {
+    candidatsCheckboxesContainer.innerHTML = "";
+
+    // Initialiser tous les candidats comme sélectionnés si aucun n'est sélectionné
+    if (candidatsSelectionnes.length === 0) {
+      candidatsSelectionnes = candidats.map(function (c) { return c.id; });
+    }
+
+    candidats.forEach(function (candidat) {
+      var label = document.createElement("label");
+      label.className = "candidat-checkbox";
+      if (candidatsSelectionnes.indexOf(candidat.id) !== -1) {
+        label.classList.add("candidat-checkbox--selected");
+      }
+
+      var checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.value = candidat.id;
+      checkbox.checked = candidatsSelectionnes.indexOf(candidat.id) !== -1;
+      checkbox.addEventListener("change", function () {
+        toggleCandidatSelection(candidat.id);
+      });
+
+      var span = document.createElement("span");
+      span.className = "candidat-checkbox__label";
+      span.textContent = candidat.nom;
+
+      label.appendChild(checkbox);
+      label.appendChild(span);
+      candidatsCheckboxesContainer.appendChild(label);
+    });
+
+    selectionCandidatsSection.hidden = false;
+  }
+
+  function toggleCandidatSelection(candidatId) {
+    var index = candidatsSelectionnes.indexOf(candidatId);
+
+    if (index === -1) {
+      candidatsSelectionnes.push(candidatId);
+    } else {
+      // Empêcher de tout désélectionner
+      if (candidatsSelectionnes.length > 1) {
+        candidatsSelectionnes.splice(index, 1);
+      } else {
+        afficherToast("Au moins un candidat doit être sélectionné");
+        return;
+      }
+    }
+
+    var candidats = donneesElection.candidats.slice().sort(function (a, b) {
+      return a.nom.localeCompare(b.nom, "fr");
+    });
+
+    afficherSelectionCandidats(candidats);
+    afficherRepartition(candidats);
+    afficherGrille(candidats);
+    mettreAJourURL();
+  }
+
+  function getCandidatsActifs() {
+    if (!donneesElection) return [];
+    return donneesElection.candidats.filter(function (c) {
+      return candidatsSelectionnes.indexOf(c.id) !== -1;
+    }).sort(function (a, b) {
+      return a.nom.localeCompare(b.nom, "fr");
+    });
+  }
+
+  // === Partage et permaliens ===
+  function mettreAJourURL() {
+    if (!donneesElection || !villeSelectionnee) return;
+
+    var params = new URLSearchParams();
+    params.set("ville", villeSelectionnee.id);
+
+    if (categorieActive && categorieActive !== "toutes") {
+      params.set("categorie", categorieActive);
+    }
+
+    if (candidatsSelectionnes.length < donneesElection.candidats.length) {
+      params.set("candidats", candidatsSelectionnes.join(","));
+    }
+
+    var newUrl = window.location.pathname + "?" + params.toString();
+    window.history.replaceState({}, "", newUrl);
+  }
+
+  function genererURLAvecUTM(medium) {
+    mettreAJourURL();
+    var baseUrl = window.location.origin + window.location.pathname + window.location.search;
+
+    var params = new URLSearchParams(window.location.search);
+    params.set("utm_source", "partage");
+    params.set("utm_medium", medium);
+    params.set("utm_campaign", "comparateur_municipal");
+
+    return window.location.origin + window.location.pathname + "?" + params.toString();
+  }
+
+  function obtenirTextePartage() {
+    if (!donneesElection) return "";
+
+    var candidatsNoms = getCandidatsActifs().map(function(c) { return c.nom; }).join(", ");
+    var texte = "Comparez les programmes de " + candidatsNoms +
+                " pour " + donneesElection.ville + " " + donneesElection.annee;
+
+    return texte;
+  }
+
+  function chargerDepuisURL() {
+    var params = new URLSearchParams(window.location.search);
+    var villeId = params.get("ville");
+
+    if (villeId) {
+      var ville = VILLES.find(function (v) { return v.id === villeId; });
+      if (ville) {
+        var candidatsParam = params.get("candidats");
+        if (candidatsParam) {
+          candidatsSelectionnes = candidatsParam.split(",");
+        }
+
+        villeSearchInput.value = ville.nom + " (" + ville.codePostal + ")";
+        selectionnerVille(ville);
+
+        var categorieParam = params.get("categorie");
+        if (categorieParam) {
+          categorieActive = categorieParam;
+        }
+      }
+    }
+  }
+
+  function partagerComparaison() {
+    // Toggle l'affichage des boutons réseaux sociaux
+    partageReseaux.hidden = !partageReseaux.hidden;
+
+    if (!partageReseaux.hidden) {
+      btnPartager.textContent = "✕ Fermer";
+    } else {
+      btnPartager.textContent = "🔗 Copier le lien";
+    }
+  }
+
+  function copierLien() {
+    mettreAJourURL();
+    var url = genererURLAvecUTM("copie_directe");
+
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(url).then(function () {
+        afficherToast("✓ Lien copié ! Partagez-le avec vos proches");
+        setTimeout(function() {
+          partageReseaux.hidden = true;
+          btnPartager.textContent = "🔗 Copier le lien";
+        }, 1500);
+      }).catch(function () {
+        afficherToast("Erreur lors de la copie du lien");
+      });
+    } else {
+      // Fallback
+      var textarea = document.createElement("textarea");
+      textarea.value = url;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand("copy");
+        afficherToast("✓ Lien copié !");
+        setTimeout(function() {
+          partageReseaux.hidden = true;
+          btnPartager.textContent = "🔗 Copier le lien";
+        }, 1500);
+      } catch (err) {
+        afficherToast("Impossible de copier le lien");
+      }
+      document.body.removeChild(textarea);
+    }
+  }
+
+  function partagerSurReseau(reseau) {
+    var url = genererURLAvecUTM(reseau);
+    var texte = obtenirTextePartage();
+    var urlPartage = "";
+
+    switch(reseau) {
+      case "facebook":
+        urlPartage = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+        break;
+      case "twitter":
+        urlPartage = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(texte) + "&url=" + encodeURIComponent(url);
+        break;
+      case "linkedin":
+        urlPartage = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(url);
+        break;
+      case "whatsapp":
+        urlPartage = "https://wa.me/?text=" + encodeURIComponent(texte + " " + url);
+        break;
+      case "email":
+        urlPartage = "mailto:?subject=" + encodeURIComponent(texte) + "&body=" + encodeURIComponent(texte + "\n\n" + url);
+        break;
+    }
+
+    if (urlPartage) {
+      window.open(urlPartage, "_blank", "width=600,height=400");
+      afficherToast("✓ Fenêtre de partage ouverte");
+    }
+  }
+
+  function afficherToast(message) {
+    var toast = document.createElement("div");
+    toast.className = "toast";
+    toast.textContent = message;
+    document.body.appendChild(toast);
+
+    setTimeout(function () {
+      toast.style.animation = "slideInUp 0.3s ease-out reverse";
+      setTimeout(function () {
+        document.body.removeChild(toast);
+      }, 300);
+    }, 3000);
+  }
+
+  // === Sommaire et navigation ===
+  function genererSommaire() {
+    if (!donneesElection) {
+      sommaire.hidden = true;
+      return;
+    }
+
+    sommaireNav.innerHTML = "";
+
+    // Ajouter "Toutes les catégories"
+    var itemToutes = creerItemSommaire("toutes", "📋", "Toutes les catégories", null);
+    sommaireNav.appendChild(itemToutes);
+
+    // Ajouter chaque catégorie
+    donneesElection.categories.forEach(function (cat) {
+      var icone = getIconeCategorie(cat.id);
+      var count = compterPropositionsCategorie(cat);
+      var item = creerItemSommaire(cat.id, icone, cat.nom, count);
+      sommaireNav.appendChild(item);
+    });
+
+    sommaire.hidden = false;
+    mettreAJourSommaireActif();
+  }
+
+  function creerItemSommaire(categorieId, icone, nom, count) {
+    var item = document.createElement("div");
+    item.className = "sommaire__item";
+    item.dataset.categorie = categorieId;
+
+    var iconeSpan = document.createElement("span");
+    iconeSpan.className = "sommaire__item-icone";
+    iconeSpan.textContent = icone;
+
+    var texteSpan = document.createElement("span");
+    texteSpan.className = "sommaire__item-texte";
+    texteSpan.textContent = nom;
+
+    item.appendChild(iconeSpan);
+    item.appendChild(texteSpan);
+
+    if (count !== null) {
+      var countSpan = document.createElement("span");
+      countSpan.className = "sommaire__item-count";
+      countSpan.textContent = count;
+      item.appendChild(countSpan);
+    }
+
+    item.addEventListener("click", function () {
+      categorieActive = categorieId;
+      var candidats = donneesElection.candidats.slice().sort(function (a, b) {
+        return a.nom.localeCompare(b.nom, "fr");
+      });
+
+      filtresContainer.querySelectorAll(".filtre-btn").forEach(function (btn) {
+        btn.classList.toggle("filtre-btn--active", btn.dataset.categorie === categorieId);
+      });
+
+      afficherGrille(candidats);
+      mettreAJourSommaireActif();
+      mettreAJourURL();
+
+      // Scroll vers la première catégorie affichée
+      var premiereCategorie = comparaisonContainer.querySelector(".categorie");
+      if (premiereCategorie) {
+        premiereCategorie.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+
+    return item;
+  }
+
+  function mettreAJourSommaireActif() {
+    sommaireNav.querySelectorAll(".sommaire__item").forEach(function (item) {
+      var estActif = item.dataset.categorie === categorieActive;
+      item.classList.toggle("sommaire__item--actif", estActif);
+    });
+  }
+
+  // === Bouton retour en haut ===
+  function gererScrollTop() {
+    if (window.pageYOffset > 300) {
+      btnTop.hidden = false;
+    } else {
+      btnTop.hidden = true;
+    }
+  }
+
+  function scrollVersHaut() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
+  // === Mode sombre ===
+  function chargerTheme() {
+    var theme = localStorage.getItem("theme") || "light";
+    appliquerTheme(theme);
+  }
+
+  function appliquerTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+    var icone = themeToggle.querySelector(".theme-toggle__icon");
+
+    if (theme === "dark") {
+      icone.textContent = "☀️";
+      themeToggle.title = "Activer le mode clair";
+    } else {
+      icone.textContent = "🌙";
+      themeToggle.title = "Activer le mode sombre";
+    }
+
+    localStorage.setItem("theme", theme);
+
+    // Régénérer les statistiques si elles existent
+    if (donneesElection && !statistiquesSection.hidden) {
+      var candidats = donneesElection.candidats.slice().sort(function (a, b) {
+        return a.nom.localeCompare(b.nom, "fr");
+      });
+      genererStatistiques(candidats);
+    }
+  }
+
+  function togglerTheme() {
+    var themeActuel = document.documentElement.getAttribute("data-theme") || "light";
+    var nouveauTheme = themeActuel === "light" ? "dark" : "light";
+    appliquerTheme(nouveauTheme);
+  }
+
+  // === Alertes programmes ===
+  function afficherAlertes() {
+    if (!donneesElection) {
+      alertesSection.hidden = true;
+      return;
+    }
+
+    // Vérifier s'il y a des programmes incomplets
+    var programmesIncomplets = donneesElection.candidats.some(function(c) {
+      return !c.programmeComplet;
+    });
+
+    alertesSection.hidden = !programmesIncomplets;
+  }
+
+  function validerEmail(email) {
+    var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  }
+
+  function afficherMessageAlerte(message, type) {
+    alerteMessage.textContent = message;
+    alerteMessage.className = "alerte-message alerte-message--" + type;
+    alerteMessage.hidden = false;
+
+    setTimeout(function() {
+      alerteMessage.hidden = true;
+    }, 5000);
+  }
+
+  function inscrireAlerte() {
+    var email = alerteEmailInput.value.trim();
+
+    if (!email) {
+      afficherMessageAlerte("Veuillez entrer une adresse email.", "error");
+      return;
+    }
+
+    if (!validerEmail(email)) {
+      afficherMessageAlerte("Veuillez entrer une adresse email valide.", "error");
+      return;
+    }
+
+    if (!villeSelectionnee) {
+      afficherMessageAlerte("Veuillez d'abord sélectionner une ville.", "error");
+      return;
+    }
+
+    // Récupérer les alertes existantes
+    var alertes = JSON.parse(localStorage.getItem("alertes-programmes") || "{}");
+
+    // Créer la clé pour cette ville
+    var villeId = villeSelectionnee.id;
+    if (!alertes[villeId]) {
+      alertes[villeId] = [];
+    }
+
+    // Vérifier si l'email est déjà inscrit pour cette ville
+    if (alertes[villeId].indexOf(email) !== -1) {
+      afficherMessageAlerte("Vous êtes déjà inscrit aux alertes pour " + villeSelectionnee.nom + ".", "error");
+      return;
+    }
+
+    // Ajouter l'email
+    alertes[villeId].push(email);
+    localStorage.setItem("alertes-programmes", JSON.stringify(alertes));
+
+    afficherMessageAlerte("✓ Inscription confirmée ! Vous serez notifié par email.", "success");
+    alerteEmailInput.value = "";
+  }
+
+  // === Affichage complet ===
+  function afficherElection() {
+    if (!donneesElection) return;
+
+    var candidats = donneesElection.candidats.slice().sort(function (a, b) {
+      return a.nom.localeCompare(b.nom, "fr");
+    });
+
+    afficherSelectionCandidats(candidats);
+    genererStatistiques(candidats);
+
+    var totalPropositions = 0;
+    donneesElection.categories.forEach(function (cat) {
+      totalPropositions += compterPropositionsCategorie(cat);
+    });
+
+    electionTitre.textContent =
+      donneesElection.type + " \u2014 " + donneesElection.ville + " " + donneesElection.annee;
+    electionStats.textContent =
+      candidats.length + " candidats \u00B7 " +
+      donneesElection.categories.length + " cat\u00E9gories \u00B7 " +
+      totalPropositions + " propositions";
+    electionInfo.hidden = false;
+
+    afficherAlertes();
+    afficherRepartition(candidats);
+    afficherFiltres();
+    afficherGrille(candidats);
+
+    etatVide.hidden = true;
+    comparaisonContainer.hidden = false;
+  }
+
+  // === Statistiques visuelles ===
+  function genererStatistiques(tousLesCandidats) {
+    if (!donneesElection) return;
+
+    var candidats = getCandidatsActifs();
+
+    // Détruire les anciens graphiques
+    // if (chartsInstances.total) {
+    //   chartsInstances.total.destroy();
+    // }
+    if (chartsInstances.radar) {
+      chartsInstances.radar.destroy();
+    }
+
+    // Compter les propositions par candidat
+    var data = [];
+    var labels = [];
+    var couleurs = [
+      "rgba(52, 152, 219, 0.8)",
+      "rgba(46, 204, 113, 0.8)",
+      "rgba(155, 89, 182, 0.8)",
+      "rgba(241, 196, 15, 0.8)",
+      "rgba(231, 76, 60, 0.8)",
+      "rgba(26, 188, 156, 0.8)"
+    ];
+
+    candidats.forEach(function (candidat) {
+      var count = 0;
+      donneesElection.categories.forEach(function (cat) {
+        count += compterPropositionsCandidat(cat, candidat.id);
+      });
+      labels.push(candidat.nom);
+      data.push(count);
+    });
+
+    // Obtenir la couleur de texte selon le thème
+    var theme = document.documentElement.getAttribute("data-theme") || "light";
+    var couleurTexte = theme === "dark" ? "#e8edf5" : "#1a1a2e";
+    var couleurGrille = theme === "dark" ? "rgba(255, 255, 255, 0.1)" : "rgba(0, 0, 0, 0.1)";
+
+    // Graphique en barres désactivé (gardé uniquement le radar)
+    // var ctx = document.getElementById("chart-total");
+    // if (ctx) {
+    //   chartsInstances.total = new Chart(ctx, {
+    //     type: "bar",
+    //     data: {
+    //       labels: labels,
+    //       datasets: [{
+    //         label: "Nombre de propositions",
+    //         data: data,
+    //         backgroundColor: couleurs.slice(0, candidats.length),
+    //         borderColor: couleurs.slice(0, candidats.length).map(function(c) {
+    //           return c.replace("0.8", "1");
+    //         }),
+    //         borderWidth: 1
+    //       }]
+    //     },
+    //     options: {
+    //       responsive: true,
+    //       maintainAspectRatio: true,
+    //       plugins: {
+    //         legend: {
+    //           display: false
+    //         },
+    //         tooltip: {
+    //           backgroundColor: theme === "dark" ? "#252538" : "#ffffff",
+    //           titleColor: couleurTexte,
+    //           bodyColor: couleurTexte,
+    //           borderColor: couleurGrille,
+    //           borderWidth: 1
+    //         }
+    //       },
+    //       scales: {
+    //         y: {
+    //           beginAtZero: true,
+    //           ticks: {
+    //             color: couleurTexte,
+    //             stepSize: 1
+    //           },
+    //           grid: {
+    //             color: couleurGrille
+    //           }
+    //         },
+    //         x: {
+    //           ticks: {
+    //             color: couleurTexte
+    //           },
+    //           grid: {
+    //             color: couleurGrille
+    //           }
+    //         }
+    //       }
+    //     }
+    //   });
+    // }
+
+    // Créer le radar chart comparatif par catégorie
+    var ctxRadar = document.getElementById("chart-radar");
+    if (ctxRadar && donneesElection) {
+      // Récupérer toutes les catégories
+      var categories = donneesElection.categories;
+      var categoriesLabels = categories.map(function(cat) {
+        return cat.nom;
+      });
+
+      // Fonction pour générer les datasets selon le mode
+      function genererDatasetsRadar(mode) {
+        return candidats.map(function(candidat, idx) {
+          var propositionsParCategorie = categories.map(function(categorie) {
+            return compterPropositionsCandidat(categorie, candidat.id);
+          });
+
+          var data;
+          if (mode === "priorites") {
+            // Mode priorités : calculer les pourcentages
+            var total = propositionsParCategorie.reduce(function(sum, val) { return sum + val; }, 0);
+            data = propositionsParCategorie.map(function(val) {
+              return total > 0 ? Math.round((val / total) * 100) : 0;
+            });
+          } else {
+            // Mode volume : valeurs absolues
+            data = propositionsParCategorie;
+          }
+
+          return {
+            label: candidat.nom,
+            data: data,
+            backgroundColor: couleurs[idx].replace("0.8", "0.2"),
+            borderColor: couleurs[idx].replace("0.8", "1"),
+            borderWidth: 2,
+            pointBackgroundColor: couleurs[idx].replace("0.8", "1"),
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
+            pointHoverBorderColor: couleurs[idx].replace("0.8", "1")
+          };
+        });
+      }
+
+      // Créer le graphique avec le mode priorités par défaut
+      var radarMode = "priorites";
+      var datasets = genererDatasetsRadar(radarMode);
+
+      // Calculer min et max pour une meilleure échelle
+      function calculerMinMax(datasets, mode) {
+        if (mode !== "priorites") return { min: 0, max: undefined };
+
+        var allValues = [];
+        datasets.forEach(function(ds) {
+          allValues = allValues.concat(ds.data);
+        });
+
+        var maxVal = Math.max.apply(null, allValues);
+        var minVal = Math.min.apply(null, allValues.filter(function(v) { return v > 0; }));
+
+        // Arrondir pour une échelle propre
+        var max = Math.ceil(maxVal / 10) * 10 + 10; // Ajouter 10% de marge
+        return { min: 0, max: max };
+      }
+
+      var scaleConfig = calculerMinMax(datasets, radarMode);
+
+      chartsInstances.radar = new Chart(ctxRadar, {
+        type: "radar",
+        data: {
+          labels: categoriesLabels,
+          datasets: datasets
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          plugins: {
+            legend: {
+              display: true,
+              position: "bottom",
+              labels: {
+                color: couleurTexte,
+                padding: 15,
+                font: {
+                  size: 11
+                }
+              }
+            },
+            tooltip: {
+              backgroundColor: theme === "dark" ? "#252538" : "#ffffff",
+              titleColor: couleurTexte,
+              bodyColor: couleurTexte,
+              borderColor: couleurGrille,
+              borderWidth: 1,
+              callbacks: {
+                label: function(context) {
+                  var label = context.dataset.label || '';
+                  if (label) {
+                    label += ': ';
+                  }
+                  if (radarMode === "priorites") {
+                    label += context.parsed.r + '%';
+                  } else {
+                    label += context.parsed.r + ' proposition' + (context.parsed.r > 1 ? 's' : '');
+                  }
+                  return label;
+                }
+              }
+            }
+          },
+          scales: {
+            r: {
+              min: scaleConfig.min,
+              max: scaleConfig.max,
+              ticks: {
+                color: couleurTexte,
+                stepSize: radarMode === "priorites" ? 10 : 1,
+                backdropColor: "transparent",
+                callback: function(value) {
+                  return radarMode === "priorites" ? value + '%' : value;
+                }
+              },
+              grid: {
+                color: couleurGrille
+              },
+              pointLabels: {
+                color: couleurTexte,
+                font: {
+                  size: 11
+                }
+              }
+            }
+          }
+        }
+      });
+
+      // Gestion du toggle entre modes
+      var radarBtns = document.querySelectorAll(".radar-mode-btn");
+      var radarDescription = document.getElementById("radar-description");
+
+      radarBtns.forEach(function(btn) {
+        btn.addEventListener("click", function() {
+          var newMode = btn.dataset.radarMode;
+          if (newMode === radarMode) return; // Déjà actif
+
+          radarMode = newMode;
+
+          // Mettre à jour les boutons
+          radarBtns.forEach(function(b) { b.classList.remove("radar-mode-btn--active"); });
+          btn.classList.add("radar-mode-btn--active");
+
+          // Mettre à jour la description
+          if (radarMode === "priorites") {
+            radarDescription.textContent = "Pourcentage de propositions par thème (montre les priorités de chaque candidat)";
+          } else {
+            radarDescription.textContent = "Nombre de propositions par thème (montre le volume de propositions)";
+          }
+
+          // Régénérer les données
+          var newDatasets = genererDatasetsRadar(radarMode);
+          chartsInstances.radar.data.datasets = newDatasets;
+
+          // Recalculer l'échelle
+          var newScaleConfig = calculerMinMax(newDatasets, radarMode);
+          chartsInstances.radar.options.scales.r.min = newScaleConfig.min;
+          chartsInstances.radar.options.scales.r.max = newScaleConfig.max;
+          chartsInstances.radar.options.scales.r.ticks.stepSize = radarMode === "priorites" ? 10 : 1;
+
+          // Redessiner
+          chartsInstances.radar.update();
+        });
+      });
+    }
+
+    // Afficher l'encart méthodologique sous le radar
+    var methodoDiv = document.getElementById("radar-methodologie");
+    if (methodoDiv && donneesElection) {
+      var candidatsActifs = getCandidatsActifs();
+      var complets = candidatsActifs.filter(function(c) { return c.programmeComplet; });
+      var partiels = candidatsActifs.filter(function(c) { return !c.programmeComplet; });
+
+      var html = '<strong>\u2139\uFE0F M\u00E9thodologie :</strong> ';
+      if (complets.length > 0 && partiels.length > 0) {
+        html += 'Ce graphique compare les propositions des candidats, mais <strong>tous n\u2019ont pas publi\u00E9 un programme complet</strong>. ';
+        html += 'Un radar plus petit ne signifie pas forc\u00E9ment moins d\u2019ambition, mais parfois simplement moins de propositions rendues publiques \u00E0 ce jour.';
+        html += '<div class="methodo-legend">';
+        complets.forEach(function(c) {
+          html += '<span class="methodo-item">\u2705 <strong>' + c.nom + '</strong> \u2014 programme complet</span>';
+        });
+        partiels.forEach(function(c) {
+          html += '<span class="methodo-item">\uD83D\uDCCB <strong>' + c.nom + '</strong> \u2014 sources partielles (site de campagne, tracts, presse, interviews)</span>';
+        });
+        html += '</div>';
+      } else if (complets.length === candidatsActifs.length) {
+        html += 'Tous les candidats affich\u00E9s ont publi\u00E9 un programme complet. Les donn\u00E9es sont exhaustives.';
+      } else {
+        html += 'Aucun candidat n\u2019a encore publi\u00E9 de programme complet. Les donn\u00E9es sont bas\u00E9es sur des sources partielles : sites de campagne, tracts th\u00E9matiques, interviews, articles de presse, d\u00E9clarations de campagne.';
+      }
+
+      methodoDiv.innerHTML = html;
+    }
+
+    // Afficher la section
+    statistiquesSection.hidden = false;
+  }
+
+  // === Répartition thématique ===
+  function afficherRepartition(tousLesCandidats) {
+    repartitionContenu.innerHTML = "";
+
+    var candidats = getCandidatsActifs();
+
+    candidats.forEach(function (candidat) {
+      // Compter les propositions par catégorie pour ce candidat
+      var totalCandidat = 0;
+      var parCategorie = [];
+
+      donneesElection.categories.forEach(function (cat) {
+        var nb = compterPropositionsCandidat(cat, candidat.id);
+        totalCandidat += nb;
+        parCategorie.push({ nom: cat.nom, nb: nb });
+      });
+
+      // Construire le bloc candidat
+      var bloc = document.createElement("div");
+      bloc.className = "repartition-candidat";
+
+      var noteHTML = '';
+      if (candidat.programmeComplet) {
+        noteHTML = '<div class="repartition-note repartition-note--complet">Programme complet analys\u00E9</div>';
+      } else {
+        noteHTML = '<div class="repartition-note">Propositions extraites de sources publiques (site de campagne, tracts, presse, interviews)</div>';
+      }
+
+      var headerHTML =
+        '<div class="repartition-candidat__header">' +
+          '<div class="repartition-candidat__nom">' + echapper(candidat.nom) + '</div>' +
+          '<div class="repartition-candidat__total">' + totalCandidat + ' proposition' + (totalCandidat > 1 ? 's' : '') + ' au total</div>' +
+          noteHTML +
+        '</div>';
+
+      var barresHTML = '<div class="repartition-candidat__barres">';
+
+      parCategorie.forEach(function (item) {
+        var pct = totalCandidat > 0 ? Math.round((item.nb / totalCandidat) * 100) : 0;
+        barresHTML +=
+          '<div class="repartition-barre">' +
+            '<span class="repartition-barre__label" title="' + echapper(item.nom) + '">' + echapper(item.nom) + '</span>' +
+            '<div class="repartition-barre__track">' +
+              '<div class="repartition-barre__fill" style="width:' + pct + '%"></div>' +
+            '</div>' +
+            '<span class="repartition-barre__valeur">' + pct + '% (' + item.nb + ')</span>' +
+          '</div>';
+      });
+
+      barresHTML += '</div>';
+
+      bloc.innerHTML = headerHTML + barresHTML;
+      repartitionContenu.appendChild(bloc);
+    });
+
+    repartitionSection.hidden = false;
+  }
+
+  // === Filtres catégories ===
+  function afficherFiltres() {
+    filtresContainer.innerHTML = "";
+    filtresContainer.appendChild(creerBoutonFiltre("Toutes", "toutes"));
+    donneesElection.categories.forEach(function (cat) {
+      filtresContainer.appendChild(creerBoutonFiltre(cat.nom, cat.id));
+    });
+    filtresContainer.hidden = false;
+  }
+
+  function creerBoutonFiltre(label, valeur) {
+    var btn = document.createElement("button");
+    btn.className = "filtre-btn" + (valeur === categorieActive ? " filtre-btn--active" : "");
+    btn.textContent = label;
+    btn.dataset.categorie = valeur;
+    btn.addEventListener("click", function () {
+      categorieActive = valeur;
+      var candidats = donneesElection.candidats.slice().sort(function (a, b) {
+        return a.nom.localeCompare(b.nom, "fr");
+      });
+      filtresContainer.querySelectorAll(".filtre-btn").forEach(function (b) {
+        b.classList.toggle("filtre-btn--active", b.dataset.categorie === valeur);
+      });
+      afficherGrille(candidats);
+      mettreAJourURL();
+    });
+    return btn;
+  }
+
+  // === Grille de comparaison ===
+  function afficherGrille(tousLesCandidats) {
+    comparaisonContainer.innerHTML = "";
+
+    var candidats = getCandidatsActifs();
+
+    var categoriesFiltrees = donneesElection.categories.filter(function (cat) {
+      return categorieActive === "toutes" || cat.id === categorieActive;
+    });
+
+    categoriesFiltrees.forEach(function (categorie, index) {
+      var section;
+      var estPremiere = index === 0;
+      // Détecter le format : sous-thèmes ou propositions plates
+      if (categorie.sousThemes) {
+        section = creerSectionAvecSousThemes(categorie, candidats, estPremiere);
+      } else {
+        section = creerSectionCategorie(categorie, candidats, estPremiere);
+      }
+      if (section) {
+        comparaisonContainer.appendChild(section);
+      }
+    });
+
+    if (comparaisonContainer.children.length === 0 && rechercheTexte) {
+      var msg = document.createElement("p");
+      msg.className = "etat-vide";
+      msg.textContent = "Aucune proposition ne correspond \u00E0 \u00AB " + rechercheTexte + " \u00BB.";
+      comparaisonContainer.appendChild(msg);
+    }
+  }
+
+  // Nouvelle fonction pour les catégories avec sous-thèmes (format matriciel)
+  function creerSectionAvecSousThemes(categorie, candidats, estPremiere) {
+    // Compter le nombre total de propositions
+    var totalPropositions = 0;
+    categorie.sousThemes.forEach(function(st) {
+      candidats.forEach(function(cand) {
+        if (st.propositions[cand.id]) {
+          totalPropositions++;
+        }
+      });
+    });
+
+    var div = document.createElement("div");
+    div.className = "categorie categorie--matricielle" + (estPremiere ? " categorie--ouverte" : "");
+
+    var header = document.createElement("div");
+    header.className = "categorie__header";
+    header.style.position = "relative";
+    header.innerHTML =
+      '<div>' +
+        '<span class="categorie__nom">' +
+          '<span class="categorie__icone">' + getIconeCategorie(categorie.id) + '</span>' +
+          echapper(categorie.nom) +
+        '</span> ' +
+        '<span class="categorie__count">' + totalPropositions + ' proposition' +
+        (totalPropositions > 1 ? 's' : '') + ' • ' + categorie.sousThemes.length + ' sous-thèmes</span>' +
+      '</div>' +
+      '<div class="mode-affichage-toggle">' +
+        '<button class="mode-btn mode-btn--active" data-mode="normal" title="Vue normale">Normal</button>' +
+        '<button class="mode-btn" data-mode="compact" title="Vue compacte avec bouton \'Voir plus\'">Compact</button>' +
+        '<button class="mode-btn" data-mode="tooltip" title="Vue avec tooltip au survol">Tooltip</button>' +
+      '</div>' +
+      '<span class="categorie__toggle">\u25BC</span>';
+
+    header.addEventListener("click", function (e) {
+      // Ne pas toggler si on clique sur les boutons de mode
+      if (!e.target.closest(".mode-affichage-toggle")) {
+        div.classList.toggle("categorie--ouverte");
+      }
+    });
+
+    // Gestion des modes d'affichage
+    var modeBtns = header.querySelectorAll(".mode-btn");
+    modeBtns.forEach(function(btn) {
+      btn.addEventListener("click", function(e) {
+        e.stopPropagation();
+        var mode = btn.dataset.mode;
+
+        // Retirer les classes de mode existantes
+        div.classList.remove("categorie--mode-compact", "categorie--mode-tooltip");
+
+        // Ajouter la nouvelle classe de mode
+        if (mode === "compact") {
+          div.classList.add("categorie--mode-compact");
+        } else if (mode === "tooltip") {
+          div.classList.add("categorie--mode-tooltip");
+        }
+
+        // Mettre à jour les boutons actifs
+        modeBtns.forEach(function(b) { b.classList.remove("mode-btn--active"); });
+        btn.classList.add("mode-btn--active");
+      });
+    });
+
+    div.appendChild(header);
+
+    var contenu = document.createElement("div");
+    contenu.className = "categorie__contenu";
+
+    // Créer le tableau matriciel
+    var tableau = document.createElement("div");
+    tableau.className = "tableau-matriciel tableau-matriciel--mobile-accordion";
+    tableau.style.setProperty("--nb-candidats", candidats.length);
+
+    // En-tête avec les noms des candidats
+    var entete = document.createElement("div");
+    entete.className = "tableau-matriciel__entete";
+
+    var celleSousTheme = document.createElement("div");
+    celleSousTheme.className = "tableau-matriciel__cell tableau-matriciel__cell--header";
+    celleSousTheme.textContent = "Sous-thème";
+    entete.appendChild(celleSousTheme);
+
+    candidats.forEach(function(candidat) {
+      var celleCand = document.createElement("div");
+      celleCand.className = "tableau-matriciel__cell tableau-matriciel__cell--candidat";
+
+      var badgeHTML = '';
+      if (candidat.programmeComplet) {
+        badgeHTML = '<span class="badge badge--complet mini">✓</span>';
+      } else {
+        badgeHTML = '<span class="badge badge--partiel mini">📊</span>';
+      }
+
+      celleCand.innerHTML = '<strong>' + echapper(candidat.nom) + '</strong> ' + badgeHTML;
+      entete.appendChild(celleCand);
+    });
+    tableau.appendChild(entete);
+
+    // Lignes pour chaque sous-thème
+    categorie.sousThemes.forEach(function(sousTheme) {
+      var ligne = document.createElement("div");
+      ligne.className = "tableau-matriciel__ligne";
+
+      // Colonne du sous-thème
+      var celleST = document.createElement("div");
+      celleST.className = "tableau-matriciel__cell tableau-matriciel__cell--sous-theme";
+      celleST.innerHTML = '<strong>' + echapper(sousTheme.nom) + '</strong>';
+      ligne.appendChild(celleST);
+
+      // Gestion de l'accordéon mobile sur le sous-thème
+      celleST.addEventListener("click", function() {
+        if (tableau.classList.contains("tableau-matriciel--mobile-accordion")) {
+          ligne.classList.toggle("tableau-matriciel__ligne--collapsed");
+        }
+      });
+
+      // Colonnes pour chaque candidat
+      candidats.forEach(function(candidat) {
+        var celleProps = document.createElement("div");
+        celleProps.className = "tableau-matriciel__cell tableau-matriciel__cell--proposition";
+        celleProps.dataset.candidatId = candidat.id;
+        celleProps.dataset.candidatNom = candidat.nom;
+
+        var prop = sousTheme.propositions[candidat.id];
+
+        if (prop && prop.texte) {
+          var texteDiv = document.createElement("div");
+          texteDiv.className = "proposition__texte";
+          texteDiv.textContent = prop.texte;
+
+          var sourceDiv = document.createElement("div");
+          sourceDiv.className = "proposition__source";
+          sourceDiv.innerHTML = '<a href="' + echapper(prop.sourceUrl || '#') + '" target="_blank" rel="noopener">' +
+            echapper(prop.source) + '</a>';
+
+          var voirPlusBtn = document.createElement("button");
+          voirPlusBtn.className = "voir-plus-btn";
+          voirPlusBtn.textContent = "Voir plus";
+
+          voirPlusBtn.addEventListener("click", function(e) {
+            e.stopPropagation();
+            if (texteDiv.classList.contains("proposition__texte--expanded")) {
+              texteDiv.classList.remove("proposition__texte--expanded");
+              voirPlusBtn.textContent = "Voir plus";
+            } else {
+              texteDiv.classList.add("proposition__texte--expanded");
+              voirPlusBtn.textContent = "Voir moins";
+            }
+          });
+
+          // Tooltip pour mode tooltip
+          var tooltipDiv = document.createElement("div");
+          tooltipDiv.className = "proposition-tooltip";
+          tooltipDiv.textContent = prop.texte;
+
+          celleProps.appendChild(texteDiv);
+          celleProps.appendChild(voirPlusBtn);
+          celleProps.appendChild(tooltipDiv);
+          celleProps.appendChild(sourceDiv);
+          celleProps.classList.add('tableau-matriciel__cell--remplie');
+
+          // Gestion du tooltip au hover (mode tooltip)
+          celleProps.addEventListener("mouseenter", function() {
+            if (div.classList.contains("categorie--mode-tooltip")) {
+              tooltipDiv.style.display = "block";
+            }
+          });
+          celleProps.addEventListener("mouseleave", function() {
+            tooltipDiv.style.display = "none";
+          });
+        } else {
+          celleProps.innerHTML = '<div class="proposition__absence">—</div>';
+          celleProps.classList.add('tableau-matriciel__cell--vide');
+        }
+
+        ligne.appendChild(celleProps);
+      });
+
+      tableau.appendChild(ligne);
+    });
+
+    // Initialiser toutes les lignes comme repliées par défaut (mode accordéon)
+    tableau.querySelectorAll(".tableau-matriciel__ligne").forEach(function(ligne) {
+      ligne.classList.add("tableau-matriciel__ligne--collapsed");
+    });
+
+    contenu.appendChild(tableau);
+    div.appendChild(contenu);
+
+    return div;
+  }
+
+  function creerSectionCategorie(categorie, candidats, estPremiere) {
+    var propositionsFiltrees = categorie.propositions;
+    if (rechercheTexte) {
+      var termeMin = rechercheTexte.toLowerCase();
+      propositionsFiltrees = propositionsFiltrees.filter(function (p) {
+        return p.texte.toLowerCase().indexOf(termeMin) !== -1;
+      });
+      if (propositionsFiltrees.length === 0) return null;
+    }
+
+    var div = document.createElement("div");
+    div.className = "categorie" + (estPremiere ? " categorie--ouverte" : "");
+
+    var header = document.createElement("div");
+    header.className = "categorie__header";
+    header.innerHTML =
+      '<div>' +
+        '<span class="categorie__nom">' +
+          '<span class="categorie__icone">' + getIconeCategorie(categorie.id) + '</span>' +
+          echapper(categorie.nom) +
+        '</span> ' +
+        '<span class="categorie__count">' + propositionsFiltrees.length + ' proposition' +
+        (propositionsFiltrees.length > 1 ? 's' : '') + '</span>' +
+      '</div>' +
+      '<span class="categorie__toggle">\u25BC</span>';
+
+    header.addEventListener("click", function () {
+      div.classList.toggle("categorie--ouverte");
+    });
+    div.appendChild(header);
+
+    var contenu = document.createElement("div");
+    contenu.className = "categorie__contenu";
+
+    var grille = document.createElement("div");
+    grille.className = "grille-candidats";
+    grille.style.setProperty("--nb-candidats", candidats.length);
+
+    candidats.forEach(function (candidat) {
+      var colonne = document.createElement("div");
+      colonne.className = "colonne-candidat";
+
+      var headerCand = document.createElement("div");
+      headerCand.className = "candidat-header";
+
+      var badgeHTML = '';
+      if (candidat.programmeComplet) {
+        badgeHTML = '<span class="badge badge--complet">✓ Programme complet</span>';
+      } else {
+        badgeHTML = '<span class="badge badge--partiel">📊 Propositions extraites</span>';
+      }
+
+      var actionsHTML = '';
+      if (candidat.programmeComplet && candidat.programmePdfPath) {
+        actionsHTML = '<div class="candidat-header__actions">' +
+          '<a href="' + echapper(candidat.programmePdfPath) + '" target="_blank" class="btn-pdf">👁️ Voir</a>' +
+          '<a href="' + echapper(candidat.programmePdfPath) + '" download class="btn-pdf btn-pdf--download">⬇️ T\u00E9l\u00E9charger</a>' +
+        '</div>';
+      } else if (candidat.programmeComplet && candidat.programmeUrl && candidat.programmeUrl !== '#') {
+        actionsHTML = '<div class="candidat-header__actions">' +
+          '<a href="' + echapper(candidat.programmeUrl) + '" target="_blank" class="btn-pdf">🌐 Voir le programme</a>' +
+        '</div>';
+      }
+
+      headerCand.innerHTML =
+        '<div class="candidat-header__nom">' + echapper(candidat.nom) + '</div>' +
+        '<div class="candidat-header__liste">' + echapper(candidat.liste) + '</div>' +
+        '<div class="candidat-header__badges">' + badgeHTML + '</div>' +
+        actionsHTML;
+      colonne.appendChild(headerCand);
+
+      var propsCand = propositionsFiltrees.filter(function (p) {
+        return p.candidatId === candidat.id;
+      });
+
+      if (propsCand.length === 0) {
+        var absenceDiv = document.createElement("div");
+        absenceDiv.className = "proposition proposition--absence";
+        absenceDiv.innerHTML =
+          '<p class="proposition__texte">Aucune proposition identifi\u00E9e sur ce sujet</p>';
+        colonne.appendChild(absenceDiv);
+      } else {
+        propsCand.forEach(function (prop) {
+          var propDiv = document.createElement("div");
+          propDiv.className = "proposition";
+
+          var texteAffiche = echapper(prop.texte);
+          if (rechercheTexte) {
+            texteAffiche = surlignerPropositions(texteAffiche, rechercheTexte);
+          }
+
+          propDiv.innerHTML =
+            '<p class="proposition__texte">' + texteAffiche + '</p>' +
+            '<p class="proposition__source">' + echapper(prop.source) +
+            (prop.sourceUrl && prop.sourceUrl !== "#"
+              ? ' &mdash; <a href="' + echapper(prop.sourceUrl) + '" target="_blank" rel="noopener">Voir le document</a>'
+              : '') +
+            '</p>';
+          colonne.appendChild(propDiv);
+        });
+      }
+
+      grille.appendChild(colonne);
+    });
+
+    contenu.appendChild(grille);
+    div.appendChild(contenu);
+    return div;
+  }
+
+  // === Utilitaires ===
+  function echapper(str) {
+    var el = document.createElement("div");
+    el.appendChild(document.createTextNode(str));
+    return el.innerHTML;
+  }
+
+  function getIconeCategorie(categorieId) {
+    var icones = {
+      "transports": "🚇",
+      "environnement": "🌱",
+      "education": "🎓",
+      "securite": "🛡️",
+      "economie": "💼",
+      "logement": "🏠",
+      "sante": "⚕️",
+      "culture": "🎭",
+      "sport": "⚽",
+      "urbanisme": "🏗️",
+      "democratie": "🗳️"
+    };
+    return icones[categorieId] || "📋";
+  }
+
+  function surlignerPropositions(texte, terme) {
+    if (!terme) return texte;
+    var regex = new RegExp("(" + termeRegexSafe(terme) + ")", "gi");
+    return texte.replace(regex, "<mark>$1</mark>");
+  }
+
+  function termeRegexSafe(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  // === Événements ===
+  villeSearchInput.addEventListener("input", function () {
+    var terme = villeSearchInput.value.trim();
+    if (terme.length === 0) {
+      masquerSuggestions();
+      villeSelectionnee = null;
+      donneesElection = null;
+      electionInfo.hidden = true;
+      repartitionSection.hidden = true;
+      filtresContainer.hidden = true;
+      comparaisonContainer.hidden = true;
+      etatVide.hidden = false;
+      rechercheInput.disabled = true;
+      rechercheInput.value = "";
+      arreterCountdown();
+      return;
+    }
+
+    var villesTrouvees = rechercherVilles(terme);
+    afficherSuggestions(villesTrouvees, terme);
+  });
+
+  villeSearchInput.addEventListener("keydown", function (e) {
+    if (villeSuggestionsContainer.hidden) return;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      naviguerSuggestions(1);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      naviguerSuggestions(-1);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      validerSuggestion();
+    } else if (e.key === "Escape") {
+      masquerSuggestions();
+    }
+  });
+
+  villeSearchInput.addEventListener("focus", function () {
+    var terme = villeSearchInput.value.trim();
+    if (terme.length > 0 && !villeSelectionnee) {
+      var villesTrouvees = rechercherVilles(terme);
+      afficherSuggestions(villesTrouvees, terme);
+    }
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!villeSearchInput.contains(e.target) && !villeSuggestionsContainer.contains(e.target)) {
+      masquerSuggestions();
+    }
+  });
+
+  var rechercheTimeout = null;
+  rechercheInput.addEventListener("input", function () {
+    clearTimeout(rechercheTimeout);
+    rechercheTimeout = setTimeout(function () {
+      rechercheTexte = rechercheInput.value.trim();
+      if (donneesElection) {
+        var candidats = donneesElection.candidats.slice().sort(function (a, b) {
+          return a.nom.localeCompare(b.nom, "fr");
+        });
+        afficherGrille(candidats);
+      }
+    }, 250);
+  });
+
+  // === Événements partage ===
+  btnPartager.addEventListener("click", function(e) {
+    e.stopPropagation();
+    partagerComparaison();
+  });
+
+  // Copier le lien au double-clic sur le bouton principal
+  btnPartager.addEventListener("dblclick", function(e) {
+    e.stopPropagation();
+    copierLien();
+  });
+
+  // Gestionnaires pour les boutons de réseaux sociaux
+  document.addEventListener("click", function(e) {
+    if (e.target.closest(".btn-reseau--facebook")) {
+      partagerSurReseau("facebook");
+    } else if (e.target.closest(".btn-reseau--twitter")) {
+      partagerSurReseau("twitter");
+    } else if (e.target.closest(".btn-reseau--linkedin")) {
+      partagerSurReseau("linkedin");
+    } else if (e.target.closest(".btn-reseau--whatsapp")) {
+      partagerSurReseau("whatsapp");
+    } else if (e.target.closest(".btn-reseau--email")) {
+      partagerSurReseau("email");
+    } else if (!e.target.closest(".partage-container")) {
+      // Fermer les boutons si on clique ailleurs
+      if (!partageReseaux.hidden) {
+        partageReseaux.hidden = true;
+        btnPartager.textContent = "🔗 Copier le lien";
+      }
+    }
+  });
+
+  // === Événements scroll et navigation ===
+  window.addEventListener("scroll", gererScrollTop);
+
+  btnTop.addEventListener("click", scrollVersHaut);
+
+  sommaireToggle.addEventListener("click", function () {
+    sommaire.classList.toggle("sommaire--masque");
+  });
+
+  themeToggle.addEventListener("click", togglerTheme);
+
+  // Gestion des alertes
+  btnAlerte.addEventListener("click", inscrireAlerte);
+  alerteEmailInput.addEventListener("keypress", function(e) {
+    if (e.key === "Enter") {
+      inscrireAlerte();
+    }
+  });
+
+  // === Gestion des modales ===
+  function ouvrirModal(modalId) {
+    var modal = document.getElementById("modal-" + modalId);
+    if (modal) {
+      modal.hidden = false;
+      document.body.style.overflow = "hidden"; // Bloquer le scroll
+    }
+  }
+
+  function fermerModal(modal) {
+    modal.hidden = true;
+    document.body.style.overflow = ""; // Restaurer le scroll
+  }
+
+  // Événements pour ouvrir les modales
+  document.addEventListener("click", function(e) {
+    var lienModal = e.target.closest("[data-modal]");
+    if (lienModal) {
+      e.preventDefault();
+      var modalId = lienModal.getAttribute("data-modal");
+      ouvrirModal(modalId);
+    }
+  });
+
+  // Événements pour fermer les modales
+  document.addEventListener("click", function(e) {
+    // Fermer via le bouton X
+    if (e.target.classList.contains("modal__fermer")) {
+      var modal = e.target.closest(".modal");
+      if (modal) fermerModal(modal);
+    }
+
+    // Fermer via l'overlay
+    if (e.target.classList.contains("modal__overlay")) {
+      var modal = e.target.closest(".modal");
+      if (modal) fermerModal(modal);
+    }
+  });
+
+  // Fermer avec Échap
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") {
+      var modalOuverte = document.querySelector(".modal:not([hidden])");
+      if (modalOuverte) {
+        fermerModal(modalOuverte);
+      }
+    }
+  });
+
+  // === Gestion du formulaire de signalement ===
+  var formSignalement = document.getElementById("form-signalement");
+  if (formSignalement) {
+    formSignalement.addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      // Récupérer les valeurs du formulaire
+      var ville = document.getElementById("signalement-ville").value;
+      var candidat = document.getElementById("signalement-candidat").value;
+      var categorie = document.getElementById("signalement-categorie").value;
+      var erreur = document.getElementById("signalement-erreur").value;
+      var source = document.getElementById("signalement-source").value;
+      var email = document.getElementById("signalement-email").value;
+
+      // Construire le corps de l'email
+      var sujet = "Signalement d'erreur - " + ville + " - " + candidat;
+      var corps = "SIGNALEMENT D'ERREUR\n\n";
+      corps += "Ville : " + ville + "\n";
+      corps += "Candidat : " + candidat + "\n";
+      if (categorie) {
+        corps += "Catégorie : " + categorie + "\n";
+      }
+      corps += "\nDescription de l'erreur :\n" + erreur + "\n";
+      if (source) {
+        corps += "\nSource correcte : " + source + "\n";
+      }
+      if (email) {
+        corps += "\nEmail de contact : " + email + "\n";
+      }
+
+      // Créer le lien mailto
+      var mailtoLink = "mailto:erreurs@comparateur-municipal.fr" +
+        "?subject=" + encodeURIComponent(sujet) +
+        "&body=" + encodeURIComponent(corps);
+
+      // Ouvrir le client email
+      window.location.href = mailtoLink;
+
+      // Réinitialiser le formulaire
+      formSignalement.reset();
+
+      // Fermer la modale après un court délai
+      setTimeout(function() {
+        var modal = document.getElementById("modal-signaler");
+        if (modal) fermerModal(modal);
+      }, 500);
+    });
+  }
+
+  // === Initialisation ===
+  // Charger le thème sauvegardé
+  chargerTheme();
+
+  // Charger depuis l'URL si des paramètres sont présents
+  chargerDepuisURL();
+
+  // Initialiser l'état du bouton scroll
+  gererScrollTop();
+})();

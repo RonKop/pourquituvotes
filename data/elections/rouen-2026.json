@@ -1,0 +1,860 @@
+{
+  "ville": "Rouen",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "mayer-rossignol",
+      "nom": "Nicolas Mayer-Rossignol",
+      "liste": "Fiers de Rouen (PS/EELV/PCF/PP)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "caron",
+      "nom": "Marine Caron",
+      "liste": "Horizons / LR",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "da-silva",
+      "nom": "Maxime Da Silva",
+      "liste": "Faire mieux à Rouen (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "houdan",
+      "nom": "Grégoire Houdan",
+      "liste": "RN/UDR",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mazier",
+      "nom": "Frédéric Mazier",
+      "liste": "Reconquête",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "moisan",
+      "nom": "Éric Moisan",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "vitard",
+      "nom": "Céline Vitard",
+      "liste": "Parti des travailleurs (POID)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "renauld",
+      "nom": "Amaury Renauld",
+      "liste": "NPA-Révolutionnaires",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Police municipale 24h/24, 7j/7, avec développement des brigades de nuit",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-rouen-nicolas-mayer-rossignol-candidat-pour-un-second-mandat-a-rouen-9664633"
+            },
+            "caron": {
+              "texte": "Augmentation des effectifs de police municipale de 72 à 100 agents d'ici 2030, équipement avec des armes modernes et dissuasives",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/securite-sante-impots-la-candidate-a-la-mairie-de-rouen-marine-caron-devoile-son-programme-4692010"
+            },
+            "da-silva": null,
+            "houdan": {
+              "texte": "Faire de Rouen la ville la plus sûre de France d'ici 2032 : renforcement massif de la sécurité",
+              "source": "Le JDD, novembre 2025",
+              "sourceUrl": "https://www.lejdd.fr/politique/gregoire-houdan-candidat-rn-aux-municipales-je-veux-faire-de-rouen-la-ville-la-plus-sure-de-france-164483"
+            },
+            "mazier": {
+              "texte": "Régler les problèmes d'insécurité à Rouen, priorité absolue du programme",
+              "source": "Tendance Ouest, février 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-434691-municipales-2026-frederic-mazier-tete-de-liste-reconquete-a-rouen-veut-regler-les-problemes-d-insecurite"
+            },
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": {
+              "texte": "Quadruplement des caméras de vidéosurveillance : de 125 à 480 caméras d'ici la fin du mandat",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/securite-sante-impots-la-candidate-a-la-mairie-de-rouen-marine-caron-devoile-son-programme-4692010"
+            },
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": {
+              "texte": "Rétablissement de l'éclairage public la nuit et police de proximité axée sur la prévention",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/securite-sante-impots-la-candidate-a-la-mairie-de-rouen-marine-caron-devoile-son-programme-4692010"
+            },
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Nouveau métro-tramway pour la métropole rouennaise",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-rouen-nicolas-mayer-rossignol-candidat-pour-un-second-mandat-a-rouen-9664633"
+            },
+            "caron": {
+              "texte": "Création de navettes écologiques de proximité à la demande en centre-ville pour les personnes âgées et les travailleurs de nuit",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/securite-sante-impots-la-candidate-a-la-mairie-de-rouen-marine-caron-devoile-son-programme-4692010"
+            },
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": {
+              "texte": "Gratuité du stationnement pendant la pause déjeuner",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/securite-sante-impots-la-candidate-a-la-mairie-de-rouen-marine-caron-devoile-son-programme-4692010"
+            },
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Extension de la gratuité des transports aux moins de 25 ans et aux plus de 65 ans (déjà gratuit pour les moins de 18 ans)",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-rouen-nicolas-mayer-rossignol-candidat-pour-un-second-mandat-a-rouen-9664633"
+            },
+            "caron": null,
+            "da-silva": {
+              "texte": "Gratuité des transports en commun pour les moins de 26 ans",
+              "source": "France Bleu Normandie, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/emissions/ici-matin-l-invite-ici-normandie/nous-portons-un-projet-de-rupture-affirme-maxime-da-silva-candidat-lfi-aux-municipales-a-rouen-7041783"
+            },
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": {
+              "texte": "Réquisition des logements vacants pour les sans-abri et les migrants privés de logement",
+              "source": "Tendance Ouest, février 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435585-municipales-2026-ce-qui-transformera-la-societe-ce-sera-la-lutte-amaury-renauld-est-tete-de-liste-npa-r-a-rouen"
+            }
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": {
+              "texte": "Encadrement des loyers à Rouen pour lutter contre l'explosion des prix",
+              "source": "France Bleu Normandie, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/emissions/ici-matin-l-invite-ici-normandie/nous-portons-un-projet-de-rupture-affirme-maxime-da-silva-candidat-lfi-aux-municipales-a-rouen-7041783"
+            },
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Mesures d'aide à la garde d'enfants pour les familles monoparentales",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-rouen-nicolas-mayer-rossignol-candidat-pour-un-second-mandat-a-rouen-9664633"
+            },
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": {
+              "texte": "Cantines scolaires gratuites, bio et locales pour tous ; gratuité complète de l'école (fournitures, sorties)",
+              "source": "France Bleu Normandie, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/emissions/ici-matin-l-invite-ici-normandie/nous-portons-un-projet-de-rupture-affirme-maxime-da-silva-candidat-lfi-aux-municipales-a-rouen-7041783"
+            },
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Programme de végétalisation urbaine pour la transition écologique ; réduction des NOx (Rouen passée de 3e à 14e ville la plus polluée)",
+              "source": "Tendance Ouest, janvier 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435238-municipales-2026-a-rouen-le-maire-sortant-nicolas-mayer-rossignol-officialise-sa-candidature"
+            },
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Développement du bio sur ordonnance et alimentation saine dans les cantines municipales",
+              "source": "Tendance Ouest, février 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-436133-municipales-2026-mutuelle-communale-consultations-psychologiques-pour-les-jeunes-nicolas-mayer-rossignol-devoile-ses-propositions-pour-la-sante-a-rouen"
+            },
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Création d'un centre municipal de santé avec médecins salariés, deux nouvelles Maisons France Santé (Sapins et Saint-Éloi), mutuelle communale pour faciliter l'accès aux soins",
+              "source": "Tendance Ouest, février 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-436133-municipales-2026-mutuelle-communale-consultations-psychologiques-pour-les-jeunes-nicolas-mayer-rossignol-devoile-ses-propositions-pour-la-sante-a-rouen"
+            },
+            "caron": {
+              "texte": "Création de centres de santé dans tous les quartiers pour lutter contre les déserts médicaux",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/securite-sante-impots-la-candidate-a-la-mairie-de-rouen-marine-caron-devoile-son-programme-4692010"
+            },
+            "da-silva": {
+              "texte": "Création de deux centres municipaux de santé (rive gauche et rive droite) avec médecins salariés sans dépassement d'honoraires, espace santé jeunes et consultations gratuites",
+              "source": "France Bleu Normandie, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/emissions/ici-matin-l-invite-ici-normandie/nous-portons-un-projet-de-rupture-affirme-maxime-da-silva-candidat-lfi-aux-municipales-a-rouen-7041783"
+            },
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Consultations psychologiques gratuites pour les jeunes, parkings gratuits aux centres hospitaliers, sport sur ordonnance",
+              "source": "Tendance Ouest, février 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-436133-municipales-2026-mutuelle-communale-consultations-psychologiques-pour-les-jeunes-nicolas-mayer-rossignol-devoile-ses-propositions-pour-la-sante-a-rouen"
+            },
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": {
+              "texte": "Instauration d'un RIC municipal (référendum d'initiative citoyenne) pour les Rouennais",
+              "source": "France Bleu Normandie, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/emissions/ici-matin-l-invite-ici-normandie/nous-portons-un-projet-de-rupture-affirme-maxime-da-silva-candidat-lfi-aux-municipales-a-rouen-7041783"
+            },
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": {
+              "texte": "Relancer l'activité économique des commerçants rouennais et restaurer la propreté de la ville",
+              "source": "Tendance Ouest, février 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-434691-municipales-2026-frederic-mazier-tete-de-liste-reconquete-a-rouen-veut-regler-les-problemes-d-insecurite"
+            },
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": {
+              "texte": "Restaurer l'ordre dans les finances de la ville et relancer l'attractivité économique",
+              "source": "France Bleu Normandie, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/gregoire-houdan-sera-le-candidat-rn-a-rouen-pour-les-elections-municipales-2026-6495973"
+            },
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Sanctuarisation et augmentation du budget culture de la ville et de la métropole",
+              "source": "Tendance Ouest, juin 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-430651-municipales-2026-le-maire-de-rouen-nicolas-mayer-rossignol-appelle-les-candidats-de-gauche-a-sanctuariser-les-budgets-pour-la-culture"
+            },
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "mayer-rossignol": {
+              "texte": "Faire de Rouen la capitale du sport féminin",
+              "source": "Tendance Ouest, janvier 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435238-municipales-2026-a-rouen-le-maire-sortant-nicolas-mayer-rossignol-officialise-sa-candidature"
+            },
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": null,
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "mayer-rossignol": null,
+            "caron": null,
+            "da-silva": {
+              "texte": "Gratuité des 15 premiers mètres cubes d'eau pour alléger les factures des Rouennais",
+              "source": "France Bleu Normandie, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/emissions/ici-matin-l-invite-ici-normandie/nous-portons-un-projet-de-rupture-affirme-maxime-da-silva-candidat-lfi-aux-municipales-a-rouen-7041783"
+            },
+            "houdan": null,
+            "mazier": null,
+            "moisan": null,
+            "vitard": null,
+            "renauld": {
+              "texte": "Défense des intérêts des travailleurs et des jeunes face aux actionnaires ; prise de pouvoir par les travailleurs",
+              "source": "NPA-Révolutionnaires, février 2026",
+              "sourceUrl": "https://npa-revolutionnaires.org/a-rouen-aux-elections-municipales-de-2026-le-npa-revolutionnaires-presentera-une-liste-conduite-par-amaury-renauld-23-ans-etudiant/"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

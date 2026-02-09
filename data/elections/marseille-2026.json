@@ -1,0 +1,723 @@
+{
+  "ville": "Marseille",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "delogu",
+      "nom": "Sébastien Delogu",
+      "liste": "Marseille Fière et Populaire (LFI)",
+      "programmeUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
+      "programmeComplet": true,
+      "programmePdfPath": null
+    },
+    {
+      "id": "payan",
+      "nom": "Benoît Payan",
+      "liste": "Printemps Marseillais (PS)",
+      "programmeUrl": "https://www.pourmarseille.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "vassal",
+      "nom": "Martine Vassal",
+      "liste": "LR / Centre",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "allisio",
+      "nom": "Franck Allisio",
+      "liste": "Rassemblement National",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "davoux",
+      "nom": "Erwan Davoux",
+      "liste": "Marseille Pour Tous",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "delogu": null,
+            "payan": {
+              "texte": "Doublement de la police municipale (~1 600 agents). Commissariat de police municipale dans chaque arrondissement. Police de la propreté de 80 agents habilitée à dresser des PV",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Recrutement de 1 500 policiers municipaux. Relance massive de la vidéoprotection",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "allisio": {
+              "texte": "Recrutement de 1 000 policiers municipaux. Demande d’état d’urgence pour Marseille",
+              "source": "France Bleu / Maritima, février 2026",
+              "sourceUrl": "https://franckallisio2026.fr/"
+            },
+            "davoux": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "delogu": {
+              "texte": "Approche globale de la tranquillité publique combinant prévention, médiation et présence humaine dans les quartiers",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "delogu": {
+              "texte": "Extension de la gratuité des transports en commun aux moins de 26 ans",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": {
+              "texte": "Gratuité des transports en commun pour les moins de 26 ans",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Gratuité des transports pour les moins de 26 ans. Extension horaires métro et tramway les vendredis et samedis soir (métro jusqu’à 1h)",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "allisio": null,
+            "davoux": {
+              "texte": "Remunicipalisation du tunnel Prado-Carénage. Étude de la gratuité totale des transports. Référendum sur la fin des trottinettes en libre-service",
+              "source": "Made in Marseille, février 2026",
+              "sourceUrl": "https://madeinmarseille.net/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "delogu": {
+              "texte": "Création de 30 000 logements dont 70% sociaux (1/3 PLAI), en combinant construction neuve, rénovation et transformation de friches et bureaux vacants",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "delogu": {
+              "texte": "Registre public des biens vacants, médiation renforcée et réquisitions ciblées pour lutter contre la vacance des logements",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "delogu": {
+              "texte": "Extension du permis de louer à toute la ville et instauration de l’encadrement des loyers",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "delogu": {
+              "texte": "Soutien aux projets d’habitat participatif, coopératif et bail réel solidaire avec appui technique, juridique et financier",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "delogu": {
+              "texte": "Rénovation massive des écoles publiques et droit à la natation pour tous les enfants marseillais",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "delogu": {
+              "texte": "Retour à la gestion publique des cantines scolaires, avec alimentation locale et biologique",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts",
+          "propositions": {
+            "delogu": {
+              "texte": "Réintroduction massive de la nature dans les quartiers populaires, élargissement des horaires d’ouverture des parcs, plages et jardins",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "delogu": null,
+            "payan": {
+              "texte": "Plan propreté global ‘Marseille propre, c’est possible !’. Brigade environnementale contre les dépôts sauvages",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "delogu": {
+              "texte": "Comité populaire de planification écologique piloté par les associations et collectifs d’habitants pour co-construire les priorités municipales. Plan canicule renforcé avec multiplication des lieux d’accueil frais, plan d’ombrage des rues avec voiles et pergolas végétalisées, et micro-forêts urbaines",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "delogu": {
+              "texte": "Développement de centres de santé municipaux dans les quartiers sous-dotés en médecins",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": {
+              "texte": "Mutuelle municipale complémentaire pour tous les Marseillais, sans conditions de ressources",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Centre de santé dédié aux étudiants. Doublement des places en crèche",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "delogu": {
+              "texte": "Création d’un Observatoire Santé-Environnement public pour surveiller qualité de l’air, de l’eau, bruit, températures et polluants (PFAS), en commençant par les écoles",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "delogu": {
+              "texte": "Mise en place de comités de quartier ouverts à tous, dotés de budgets participatifs, avec possibilité d’inscrire des sujets à l’ordre du jour du conseil municipal. Renforcement de l’Assemblée citoyenne du futur composée de 111 habitants tirés au sort avec droit d’initiative pour soumettre des délibérations au Conseil municipal. Application pleine du droit aux référendums locaux : lorsqu’une pétition atteint 10% des électeurs, organisation d’un référendum dont le résultat est appliqué si la participation dépasse 50%",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "delogu": {
+              "texte": "Publication de tous les rendez-vous des élus avec des représentants d’intérêts privés, interdiction des cadeaux et avantages, et dispositif de détection des conflits d’intérêts avant chaque conseil municipal",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "delogu": {
+              "texte": "Fin de la gestion privée des services publics : retour en régie municipale des cantines, de l’eau, des parkings et du tunnel Prado-Carénage",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": {
+              "texte": "Régie publique de l’eau (retour en gestion municipale)",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": {
+              "texte": "Création d’un conseil de développement économique. Faire de Marseille une station balnéaire : réaménagement des plages, cheminement doux Estaque-Goudes",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "allisio": {
+              "texte": "Trois secteurs prioritaires : santé/biotech, logistique/port, énergie/environnement. Clusters d’entreprises et quartier start-up à la Joliette. Simplification des permis de construire. Tourisme lent autour de Marcel Pagnol. Tourisme sportif et d’affaires. Marina et port pour navettes maritimes",
+              "source": "France Bleu / Maritima, février 2026",
+              "sourceUrl": "https://franckallisio2026.fr/"
+            },
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "delogu": {
+              "texte": "Droit à la natation pour tous les enfants et développement d’équipements sportifs de proximité",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": null,
+            "allisio": {
+              "texte": "Vélodrome en socios : moitié des parts détenues par des actionnaires-citoyens marseillais, ville gardant la majorité",
+              "source": "France Bleu / Maritima, février 2026",
+              "sourceUrl": "https://franckallisio2026.fr/"
+            },
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "delogu": null,
+            "payan": {
+              "texte": "1 000 places d’hébergement d’urgence supplémentaires. 15 000 enfants bénéficiaires de repas gratuits à la cantine. 200 000 repas offerts par an aux étudiants",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "delogu": {
+              "texte": "Création d’un Observatoire municipal des discriminations avec quatre pôles spécialisés (handicap, sexisme, racisme, LGBTI), accueil, permanence juridique gratuite et numéro vert. Budget sensible au genre, centre féministe, protections menstruelles gratuites, congé menstruel pour les agentes municipales et guichet unique pour les victimes de violences sexistes. Anonymisation partielle des dossiers de logement social, grille d’évaluation publique et traçabilité des décisions d’attribution pour garantir l’égalité d’accès",
+              "source": "Programme officiel 2026 - 379 mesures",
+              "sourceUrl": "https://sebastiendelogu2026.fr/"
+            },
+            "payan": null,
+            "vassal": {
+              "texte": "Plan municipal de lutte contre l’antisémitisme : charte agents municipaux, cellule de veille, référent dans chaque école",
+              "source": "France Bleu / Made in Marseille, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "allisio": null,
+            "davoux": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d’achat",
+          "propositions": {
+            "delogu": null,
+            "payan": null,
+            "vassal": null,
+            "allisio": null,
+            "davoux": null
+          }
+        }
+      ]
+    }
+  ]
+}

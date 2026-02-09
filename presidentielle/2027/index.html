@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Pr&eacute;sidentielle 2027 - Comparateur de programmes | #POURQUITUVOTES</title>
+  <meta name="description" content="Comparez les programmes des candidats &agrave; la Pr&eacute;sidentielle 2027. Parce que les enjeux nationaux se pr&eacute;parent aujourd'hui. Inscrivez-vous pour &ecirc;tre alert&eacute;.">
+  <meta name="keywords" content="pr&eacute;sidentielle 2027, comparateur programmes, candidats, propositions, France, &eacute;lection pr&eacute;sidentielle">
+  <meta name="author" content="#POURQUITUVOTES">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pourquituvotes.fr/presidentielle/2027/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="#POURQUITUVOTES">
+  <meta property="og:title" content="Pr&eacute;sidentielle 2027 - Comparateur de programmes">
+  <meta property="og:description" content="Comparez les programmes des candidats &agrave; la Pr&eacute;sidentielle 2027. Inscrivez-vous pour &ecirc;tre alert&eacute; d&egrave;s que le comparateur sera disponible.">
+  <meta property="og:url" content="https://pourquituvotes.fr/presidentielle/2027/">
+  <meta property="og:image" content="https://pourquituvotes.fr/og/presidentielle-2027.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pr&eacute;sidentielle 2027 - Comparateur de programmes">
+  <meta name="twitter:description" content="Comparez les programmes des candidats &agrave; la Pr&eacute;sidentielle 2027. Inscrivez-vous pour &ecirc;tre alert&eacute;.">
+  <meta name="twitter:image" content="https://pourquituvotes.fr/og/presidentielle-2027.png">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Pr\u00e9sidentielle 2027 - Comparateur de programmes",
+    "description": "Comparez les programmes des candidats \u00e0 l'\u00e9lection pr\u00e9sidentielle fran\u00e7aise de 2027",
+    "url": "https://pourquituvotes.fr/presidentielle/2027/",
+    "isPartOf": { "@type": "WebApplication", "name": "#POURQUITUVOTES", "url": "https://pourquituvotes.fr" },
+    "inLanguage": "fr-FR"
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web/src/regular/style.css">
+
+  <link rel="stylesheet" href="../../css/home.css">
+  <style>
+    /* --- Page-specific styles --- */
+    .pres-hero {
+      background: linear-gradient(135deg, #002395 0%, #001a6e 60%, #0d1b2a 100%);
+      padding: 80px 20px 70px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .pres-hero__flag {
+      margin: 0 auto 24px;
+    }
+    .pres-hero__flag svg {
+      width: 72px;
+      height: 50px;
+      border-radius: 6px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    .pres-hero__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(245,158,11,0.2);
+      border: 1px solid rgba(245,158,11,0.4);
+      color: #FDE68A;
+      padding: 8px 18px;
+      border-radius: 25px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .pres-hero__title {
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 2.6rem;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    .pres-hero__desc {
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.8);
+      line-height: 1.7;
+      max-width: 680px;
+      margin: 0 auto 40px;
+    }
+
+    /* Alertes card in hero */
+    .pres-hero .home-alertes {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* Dates section */
+    .pres-dates {
+      background: var(--slate-800);
+      padding: 50px 20px;
+    }
+    .pres-dates__inner {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .pres-dates__title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .pres-dates__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .pres-date-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+    }
+    .pres-date-card__icon {
+      font-size: 1.6rem;
+      color: var(--jaune);
+      margin-bottom: 10px;
+    }
+    .pres-date-card__date {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1rem;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .pres-date-card__label {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.4;
+    }
+
+    /* Ce qu'on prépare */
+    .pres-prepare {
+      background: var(--blanc);
+      padding: 70px 20px;
+    }
+    .pres-prepare__inner {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .pres-prepare__title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: var(--slate-800);
+      margin-bottom: 40px;
+    }
+    .pres-prepare__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      text-align: left;
+    }
+    .pres-prepare__card {
+      background: var(--slate-50);
+      border: 1px solid var(--slate-200);
+      border-radius: 12px;
+      padding: 28px 24px;
+    }
+    .pres-prepare__card-icon {
+      font-size: 1.5rem;
+      color: var(--bleu);
+      margin-bottom: 12px;
+    }
+    .pres-prepare__card-title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--slate-800);
+      margin-bottom: 8px;
+    }
+    .pres-prepare__card-text {
+      font-size: 0.85rem;
+      color: var(--slate-500);
+      line-height: 1.5;
+    }
+
+    /* En attendant (CTA municipales) */
+    .pres-meanwhile {
+      background: var(--slate-50);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .pres-meanwhile__inner {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .pres-meanwhile__title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: var(--slate-800);
+      margin-bottom: 12px;
+    }
+    .pres-meanwhile__text {
+      font-size: 0.95rem;
+      color: var(--slate-500);
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+    .pres-meanwhile__cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--bleu);
+      color: var(--blanc);
+      font-family: var(--font-heading);
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 14px 28px;
+      border-radius: 12px;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .pres-meanwhile__cta:hover {
+      background: var(--bleu-fonce);
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      .pres-hero {
+        padding: 50px 20px;
+      }
+      .pres-hero__title {
+        font-size: 1.8rem;
+      }
+      .pres-dates__grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+      .pres-prepare__grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Skip link -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <!-- Header (identique aux autres pages) -->
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a href="../../home.html" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
+      <nav class="header-nav">
+        <ul class="header-nav__links">
+          <li><a href="../../home.html#comment-ca-marche">M&eacute;thodologie</a></li>
+          <li><a href="../../home.html#faq">FAQ</a></li>
+          <li><a href="../../home.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-countdown" id="topbar-countdown">
+        <span class="countdown__timer">
+          <span class="countdown__bloc">
+            <span id="countdown-jours" class="countdown__valeur">--</span>
+            <span class="countdown__unite">j</span>
+          </span>
+          <span class="countdown__bloc">
+            <span id="countdown-heures" class="countdown__valeur">--</span>
+            <span class="countdown__unite">h</span>
+          </span>
+          <span class="countdown__bloc">
+            <span id="countdown-minutes" class="countdown__valeur">--</span>
+            <span class="countdown__unite">min</span>
+          </span>
+          <span class="countdown__bloc">
+            <span id="countdown-secondes" class="countdown__valeur">--</span>
+            <span class="countdown__unite">s</span>
+          </span>
+        </span>
+        <span class="countdown__label">avant les municipales</span>
+      </div>
+      <button class="header__burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="header__mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Menu mobile">
+        <ul>
+          <li><a href="../../home.html#comment-ca-marche">M&eacute;thodologie</a></li>
+          <li><a href="../../home.html#faq">FAQ</a></li>
+          <li><a href="../../home.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="pres-hero" aria-labelledby="pres-title">
+      <div class="pres-hero__flag" aria-hidden="true">
+        <svg viewBox="0 0 3 2">
+          <rect width="1" height="2" fill="#002395"/>
+          <rect x="1" width="1" height="2" fill="#fff"/>
+          <rect x="2" width="1" height="2" fill="#ED2939"/>
+        </svg>
+      </div>
+
+      <span class="pres-hero__badge"><i class="ph ph-hourglass" aria-hidden="true"></i> Bient&ocirc;t disponible</span>
+
+      <h1 id="pres-title" class="pres-hero__title">Pr&eacute;sidentielle 2027</h1>
+
+      <p class="pres-hero__desc">Parce que les enjeux nationaux se pr&eacute;parent aujourd&rsquo;hui, nous commen&ccedil;ons d&eacute;j&agrave; &agrave; scanner les premi&egrave;res d&eacute;clarations pour la Pr&eacute;sidentielle 2027. Retrouvez prochainement le comparateur int&eacute;gral pour d&eacute;crypter l&rsquo;avenir de la France.</p>
+
+      <!-- Alertes (m&ecirc;me design que la page comparaison) -->
+      <div class="home-alertes" role="form" aria-label="Inscription alerte Pr&eacute;sidentielle 2027">
+        <div class="home-alertes__icon"><i class="ph ph-bell-ringing" aria-hidden="true"></i></div>
+        <div class="home-alertes__texte">
+          <strong>Soyez parmi les premiers inform&eacute;s</strong>
+          <p>Recevez une alerte d&egrave;s que le comparateur pr&eacute;sidentiel sera en ligne</p>
+        </div>
+        <div class="home-alertes__form">
+          <input type="email" id="alerte-email" class="home-alertes__input" placeholder="votre@email.fr" aria-label="Adresse email pour alerte">
+          <button id="btn-alerte" class="home-alertes__btn">M&rsquo;alerter</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- DATES CLES -->
+    <section class="pres-dates" aria-labelledby="dates-title">
+      <div class="pres-dates__inner">
+        <h2 id="dates-title" class="pres-dates__title">Calendrier pr&eacute;visionnel</h2>
+        <div class="pres-dates__grid">
+          <div class="pres-date-card">
+            <div class="pres-date-card__icon"><i class="ph ph-magnifying-glass" aria-hidden="true"></i></div>
+            <div class="pres-date-card__date">2026 &ndash; 2027</div>
+            <div class="pres-date-card__label">Scan des d&eacute;clarations et pr&eacute;-programmes</div>
+          </div>
+          <div class="pres-date-card">
+            <div class="pres-date-card__icon"><i class="ph ph-chart-bar" aria-hidden="true"></i></div>
+            <div class="pres-date-card__date">D&eacute;but 2027</div>
+            <div class="pres-date-card__label">Ouverture du comparateur avec les premiers programmes</div>
+          </div>
+          <div class="pres-date-card">
+            <div class="pres-date-card__icon"><i class="ph ph-flag-checkered" aria-hidden="true"></i></div>
+            <div class="pres-date-card__date">Avril 2027</div>
+            <div class="pres-date-card__label">&Eacute;lection pr&eacute;sidentielle (1er &amp; 2nd tours)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CE QU'ON PREPARE -->
+    <section class="pres-prepare" aria-labelledby="prepare-title">
+      <div class="pres-prepare__inner">
+        <h2 id="prepare-title" class="pres-prepare__title">Ce que nous pr&eacute;parons</h2>
+        <div class="pres-prepare__grid">
+          <article class="pres-prepare__card">
+            <div class="pres-prepare__card-icon"><i class="ph ph-file-text" aria-hidden="true"></i></div>
+            <h3 class="pres-prepare__card-title">Analyse des programmes</h3>
+            <p class="pres-prepare__card-text">Chaque programme sera d&eacute;crypt&eacute; proposition par proposition, class&eacute; par th&egrave;me, sans interpr&eacute;tation.</p>
+          </article>
+          <article class="pres-prepare__card">
+            <div class="pres-prepare__card-icon"><i class="ph ph-scales" aria-hidden="true"></i></div>
+            <h3 class="pres-prepare__card-title">Comparaison neutre</h3>
+            <p class="pres-prepare__card-text">Visualisez les diff&eacute;rences et convergences entre candidats avec les m&ecirc;mes outils que pour les municipales.</p>
+          </article>
+          <article class="pres-prepare__card">
+            <div class="pres-prepare__card-icon"><i class="ph ph-users" aria-hidden="true"></i></div>
+            <h3 class="pres-prepare__card-title">Tous les candidats</h3>
+            <p class="pres-prepare__card-text">D&egrave;s qu&rsquo;un candidat publie son programme ou ses grandes orientations, il sera int&eacute;gr&eacute; au comparateur.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EN ATTENDANT -->
+    <section class="pres-meanwhile" aria-labelledby="meanwhile-title">
+      <div class="pres-meanwhile__inner">
+        <h2 id="meanwhile-title" class="pres-meanwhile__title">En attendant, comparez les municipales 2026</h2>
+        <p class="pres-meanwhile__text">Le comparateur est d&eacute;j&agrave; disponible pour les &eacute;lections municipales avec plus de 1&nbsp;000 propositions analys&eacute;es dans 31 villes.</p>
+        <a href="../../index.html" class="pres-meanwhile__cta">Voir les municipales <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../home.html" class="footer__logo" aria-label="Accueil">
+            <span class="logo__hash">#</span><span class="logo__pourquitu">POURQUITU</span><span class="logo__votes">VOTES</span><span class="logo__question">?</span>
+          </a>
+          <p class="footer__tagline">Comparez les programmes des candidats. Projet citoyen, ind&eacute;pendant et non-partisan.</p>
+          <div class="footer__socials" aria-label="R&eacute;seaux sociaux">
+            <a href="#" aria-label="X (Twitter)" class="footer__social"><i class="ph ph-x-logo" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook" class="footer__social"><i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+            <a href="#" aria-label="LinkedIn" class="footer__social"><i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Municipales 2026</h3>
+          <ul class="footer__list">
+            <li><a href="../../index.html?ville=paris">Paris</a></li>
+            <li><a href="../../index.html?ville=lyon">Lyon</a></li>
+            <li><a href="../../index.html?ville=marseille">Marseille</a></li>
+            <li><a href="../../index.html" class="footer__link--all">Toutes les villes <i class="ph ph-arrow-right" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Autres &eacute;lections</h3>
+          <ul class="footer__list">
+            <li><a href="#">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--new">NEW</span></a></li>
+            <li><span class="footer__item-soon">L&eacute;gislatives 2027</span></li>
+            <li><span class="footer__item-soon">R&eacute;gionales</span></li>
+            <li><span class="footer__item-soon">Europ&eacute;ennes 2029</span></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Le projet</h3>
+          <ul class="footer__list">
+            <li><a href="../../home.html#comment-ca-marche">M&eacute;thodologie</a></li>
+            <li><a href="../../home.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 #POURQUITUVOTES &mdash; Projet citoyen ind&eacute;pendant</p>
+        <div class="footer__legal">
+          <a href="#">Mentions l&eacute;gales</a>
+          <a href="#">Confidentialit&eacute;</a>
+          <a href="#">Accessibilit&eacute;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    "use strict";
+
+    // Countdown municipales
+    var DATE_SCRUTIN = new Date("2026-03-15T08:00:00");
+
+    function updateCountdown() {
+      var now = new Date();
+      var diff = DATE_SCRUTIN.getTime() - now.getTime();
+      var j = document.getElementById("countdown-jours");
+      var h = document.getElementById("countdown-heures");
+      var m = document.getElementById("countdown-minutes");
+      var s = document.getElementById("countdown-secondes");
+      if (diff <= 0) {
+        if (j) j.textContent = "0";
+        if (h) h.textContent = "0";
+        if (m) m.textContent = "0";
+        if (s) s.textContent = "0";
+        return;
+      }
+      if (j) j.textContent = Math.floor(diff / 86400000);
+      if (h) h.textContent = Math.floor((diff % 86400000) / 3600000);
+      if (m) m.textContent = Math.floor((diff % 3600000) / 60000);
+      if (s) s.textContent = Math.floor((diff % 60000) / 1000);
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // Burger menu
+    var btn = document.getElementById("burger-btn");
+    var menu = document.getElementById("mobile-menu");
+    if (btn && menu) {
+      btn.addEventListener("click", function () {
+        var expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", !expanded);
+        menu.hidden = expanded;
+      });
+    }
+
+    // Alerte email (localStorage)
+    var emailInput = document.getElementById("alerte-email");
+    var alerteBtn = document.getElementById("btn-alerte");
+    if (alerteBtn && emailInput) {
+      alerteBtn.addEventListener("click", function () {
+        var email = emailInput.value.trim();
+        if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          emailInput.style.borderColor = "#ef4444";
+          return;
+        }
+        var alertes = JSON.parse(localStorage.getItem("alertes-presidentielle") || "[]");
+        if (alertes.indexOf(email) !== -1) {
+          alerteBtn.textContent = "D\u00e9j\u00e0 inscrit";
+          alerteBtn.disabled = true;
+          return;
+        }
+        alertes.push(email);
+        localStorage.setItem("alertes-presidentielle", JSON.stringify(alertes));
+        emailInput.value = "";
+        emailInput.style.borderColor = "#10b981";
+        alerteBtn.textContent = "\u2713 Inscrit !";
+        alerteBtn.disabled = true;
+      });
+      emailInput.addEventListener("keypress", function (e) {
+        if (e.key === "Enter") alerteBtn.click();
+      });
+    }
+  })();
+  </script>
+</body>
+</html>

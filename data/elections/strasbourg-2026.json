@@ -1,0 +1,1118 @@
+{
+  "ville": "Strasbourg",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "barseghian",
+      "nom": "Jeanne Barseghian",
+      "liste": "Strasbourg juste et vivante (EELV)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "trautmann",
+      "nom": "Catherine Trautmann",
+      "liste": "PS",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "vetter",
+      "nom": "Jean-Philippe Vetter",
+      "liste": "Aimer Strasbourg (LR)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "joron",
+      "nom": "Virginie Joron",
+      "liste": "Sauver Strasbourg (RN)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "kobryn",
+      "nom": "Florian Kobryn",
+      "liste": "Strasbourg fière et solidaire (LFI)",
+      "programmeUrl": "http://kobryn2026.eu/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "jakubowicz",
+      "nom": "Pierre Jakubowicz",
+      "liste": "Strasbourg on y croit ! (Horizons)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ibiem",
+      "nom": "Linda Ibiem",
+      "liste": "Strasbourg vivant (PS/Convergence)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "vinci",
+      "nom": "Thibaut Vinci",
+      "liste": "PRG",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "becherirat",
+      "nom": "Ismaïl Becherirat",
+      "liste": "Unis pour Strasbourg",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "sylla",
+      "nom": "Mohamed Sylla",
+      "liste": "Utiles Bas-Rhin",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "muhammad",
+      "nom": "Fahad Raja Muhammad",
+      "liste": "Strasbourg sans frontières (MPI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "feve",
+      "nom": "Louise Fève",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "yoldas",
+      "nom": "Cem Yoldas",
+      "liste": "Strasbourg c'est nous (NPA)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "soubise",
+      "nom": "Clément Soubise",
+      "liste": "NPA-Révolutionnaires",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": {
+              "texte": "Renforcement de la présence de la police municipale et rétablissement de l'éclairage public dans toutes les rues à toute heure",
+              "source": "Pokaa, décembre 2025",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "vetter": null,
+            "joron": {
+              "texte": "Rétablissement d'un arrêté anti-mendicité et renforcement de la sécurité dans les quartiers sensibles",
+              "source": "Pokaa, janvier 2026",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": {
+              "texte": "Installation de pièges photo (photo traps) dans les zones de dépôts sauvages et d'incivilités",
+              "source": "Pokaa, décembre 2025",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "barseghian": {
+              "texte": "Poursuite de l'extension du tramway vers le nord de Strasbourg et transformation de la gare",
+              "source": "Rue89 Strasbourg, janvier 2026",
+              "sourceUrl": "https://www.rue89strasbourg.com/"
+            },
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "barseghian": {
+              "texte": "Tarification solidaire du stationnement résident : de 5€ à 40€ par mois selon les revenus",
+              "source": "Pokaa, janvier 2026",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": {
+              "texte": "Gratuité des transports en commun pour les moins de 25 ans",
+              "source": "France Bleu Alsace, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "barseghian": {
+              "texte": "Encadrement des loyers pour garantir des logements et commerces abordables et préserver leur diversité",
+              "source": "Pokaa, janvier 2026",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": {
+              "texte": "Mise en place de l'encadrement des loyers à Strasbourg",
+              "source": "Rue89 Strasbourg, janvier 2026",
+              "sourceUrl": "https://www.rue89strasbourg.com/"
+            },
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "barseghian": {
+              "texte": "Cantines de quartier accessibles à tous : manger bien et pas cher. Objectif 75% de bio dans les cantines scolaires (contre 53% actuellement)",
+              "source": "Pokaa, janvier 2026",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "barseghian": {
+              "texte": "Accélérer la végétalisation : nouveaux parcs et rues plus vertes dans tous les quartiers",
+              "source": "Pokaa, janvier 2026",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "barseghian": {
+              "texte": "Développer l'alimentation saine et locale pour tous les Strasbourgeois via des cantines de quartier",
+              "source": "Pokaa, janvier 2026",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": {
+              "texte": "Audit financier complet de la gestion municipale",
+              "source": "Pokaa, janvier 2026",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "barseghian": {
+              "texte": "Sport encadré en accès libre dans les parcs avec des coachs sportifs municipaux",
+              "source": "Pokaa, janvier 2026",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "barseghian": {
+              "texte": "Garantir le droit aux vacances pour toutes et tous : séjours accessibles pour les familles modestes",
+              "source": "Pokaa, janvier 2026",
+              "sourceUrl": "https://pokaa.fr/"
+            },
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": null,
+            "vetter": null,
+            "joron": null,
+            "kobryn": null,
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "barseghian": null,
+            "trautmann": {
+              "texte": "Lutte contre la paupérisation : modifier les politiques tarifaires et le coût de la mobilité sans alourdir la fiscalité",
+              "source": "France 3 Grand Est, octobre 2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/"
+            },
+            "vetter": null,
+            "joron": null,
+            "kobryn": {
+              "texte": "Gratuité de l'eau pour les 30 premiers mètres cubes de chaque foyer",
+              "source": "Rue89 Strasbourg, janvier 2026",
+              "sourceUrl": "https://www.rue89strasbourg.com/"
+            },
+            "jakubowicz": null,
+            "ibiem": null,
+            "vinci": null,
+            "becherirat": null,
+            "sylla": null,
+            "muhammad": null,
+            "feve": null,
+            "yoldas": null,
+            "soubise": null
+          }
+        }
+      ]
+    }
+  ]
+}

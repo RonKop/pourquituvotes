@@ -1,0 +1,509 @@
+{
+  "ville": "Le Chesnay-Rocquencourt",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "delepierre",
+      "nom": "Richard Delepierre",
+      "liste": "Une énergie nouvelle (LDVC)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "uplcr",
+      "nom": "UPLCR",
+      "liste": "Unis pour Le Chesnay-Rocquencourt (DVD)",
+      "programmeUrl": "https://www.uplcr.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "democratie-courtoise",
+      "nom": "Démocratie Courtoise",
+      "liste": "Démocratie Courtoise (Citoyens)",
+      "programmeUrl": "https://democratiecourtoise.org/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": {
+              "texte": "Développement de circuits courts alimentaires et jardins partagés",
+              "source": "Démocratie Courtoise, 2025",
+              "sourceUrl": "https://democratiecourtoise.org/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": {
+              "texte": "Mise en place d'une démocratie participative avec conseils de quartier et jugement majoritaire",
+              "source": "Démocratie Courtoise, 2025",
+              "sourceUrl": "https://democratiecourtoise.org/"
+            }
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": {
+              "texte": "Transparence totale sur les décisions municipales et ouverture des données publiques",
+              "source": "Démocratie Courtoise, 2025",
+              "sourceUrl": "https://democratiecourtoise.org/"
+            }
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": {
+              "texte": "Création de cuisines solidaires et circuits alimentaires locaux",
+              "source": "Démocratie Courtoise, 2025",
+              "sourceUrl": "https://democratiecourtoise.org/"
+            }
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "delepierre": null,
+            "uplcr": null,
+            "democratie-courtoise": null
+          }
+        }
+      ]
+    }
+  ]
+}

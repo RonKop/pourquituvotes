@@ -1,0 +1,714 @@
+{
+  "ville": "Brest",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "cuillandre",
+      "nom": "François Cuillandre",
+      "liste": "La gauche unie pour Brest (PS/EELV/PRG/PCF)",
+      "programmeUrl": "https://www.brest-ensemble.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "roudaut",
+      "nom": "Stéphane Roudaut",
+      "liste": "Une nouvelle histoire pour Brest (DVD/UDI/Horizons/LR)",
+      "programmeUrl": "https://www.stephaneroudaut2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "beaudouin",
+      "nom": "Cécile Beaudouin",
+      "liste": "Brest Insoumise (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "muscat",
+      "nom": "Sébastien Muscat",
+      "liste": "Brest Nouvelle Vague (citoyen gauche)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "pages",
+      "nom": "Yves Pagès",
+      "liste": "Rassemblement National",
+      "programmeUrl": "https://yvespages2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "yenier",
+      "nom": "Nazim Yenier",
+      "liste": "La Vague citoyenne (sans étiquette)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "cuillandre": {
+              "texte": "Création d'une police municipale de proximité de 50 agents, équipés d'armes non létales et de caméras-piétons, coût 3 M€/an",
+              "source": "France 3 Bretagne, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/bretagne/finistere/brest/elections-municipales-2026-le-maire-de-brest-et-candidat-francois-cuillandre-veut-creer-une-police-municipale-de-50-agents-3277367.html"
+            },
+            "roudaut": {
+              "texte": "Création d'une Police Territoriale unifiée (police municipale + ASVP + brigade transport) avec patrouilles 24h/24 le week-end et armement des agents",
+              "source": "stephaneroudaut2026.fr, 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/post/s%C3%A9curit%C3%A9-%C3%A0-brest-les-5-engagements-de-st%C3%A9phane-roudaut-pour-une-ville-plus-s%C3%BBre"
+            },
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": {
+              "texte": "Création d'une police municipale armée de 100 agents, avec un commissariat central au port et deux antennes à Bellevue et Pontanézen",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-nazim-yenier-l-electron-libre-qui-veut-faire-chuter-francois-cuillandre-3435072"
+            }
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "cuillandre": {
+              "texte": "Renforcement de la brigade de tranquillité urbaine à 25 agents et installation de nouvelles caméras de vidéoprotection",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-breizh-izel/municipales-2026-a-brest-francois-cuillandre-promet-une-police-municipale-2030517"
+            },
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": {
+              "texte": "Prévention, médiation et éducation coordonnées entre tous les acteurs sociaux pour une ville plus sûre",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-brest-la-liste-lfi-de-cecile-beaudouin-promet-une-revolution-citoyenne-1075453"
+            },
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "cuillandre": {
+              "texte": "Deuxième ligne de tramway et bus à haut niveau de service (BHNS) pour transformer les déplacements",
+              "source": "UESR29, 2025",
+              "sourceUrl": "https://uesr29.fr/entre-grands-projets-et-enjeux-politiques-francois-cuillandre-trace-la-voie-pour-brest/"
+            },
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": {
+              "texte": "Gratuité totale des transports en commun avec garantie de qualité de service et de conditions de travail",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-brest-la-liste-lfi-de-cecile-beaudouin-promet-une-revolution-citoyenne-1075453"
+            },
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": {
+              "texte": "Réhabilitation des logements sociaux dans les quartiers populaires",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-nazim-yenier-l-electron-libre-qui-veut-faire-chuter-francois-cuillandre-3435072"
+            }
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": {
+              "texte": "Politique du logement garantissant un logement digne pour tous et lutte contre la spéculation immobilière",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-brest-la-liste-lfi-de-cecile-beaudouin-promet-une-revolution-citoyenne-1075453"
+            },
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": {
+              "texte": "Cantines scolaires 100% bio et entièrement gratuites",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-brest-la-liste-lfi-de-cecile-beaudouin-promet-une-revolution-citoyenne-1075453"
+            },
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "cuillandre": {
+              "texte": "Transition écologique renforcée et développement de la mobilité durable, base programmatique commune PS-EELV",
+              "source": "PS29, 2025",
+              "sourceUrl": "https://www.ps29.org/actualite/la-gauche-unie-pour-brest-socialistes-et-ecologistes-scellent-un-accord-pour-2026/"
+            },
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": {
+              "texte": "Séparer les fonctions de maire de Brest et président de la métropole, limiter à deux mandats maximum",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-brest-la-liste-lfi-de-cecile-beaudouin-promet-une-revolution-citoyenne-1075453"
+            },
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": {
+              "texte": "Liste citoyenne de gauche portée par la société civile, soutenue par Génération.s et les Radicaux de Gauche",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-isabelle-montanari-rejoint-la-liste-citoyenne-de-gauche-4884570"
+            },
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": {
+              "texte": "Enrayer le déclin démographique et relancer l'attractivité économique de Brest",
+              "source": "yvespages2026.fr, 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "cuillandre": {
+              "texte": "Construction du nouveau stade Arkéa Park pour remplacer le stade Francis-Le Blé",
+              "source": "UESR29, 2025",
+              "sourceUrl": "https://uesr29.fr/entre-grands-projets-et-enjeux-politiques-francois-cuillandre-trace-la-voie-pour-brest/"
+            },
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": {
+              "texte": "Faire de l'inclusion et du handicap la grande cause du mandat",
+              "source": "stephaneroudaut2026.fr, 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": {
+              "texte": "Plan ambitieux pour faire de Brest une ville pionnière en matière d'égalité femmes-hommes",
+              "source": "stephaneroudaut2026.fr, 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "cuillandre": null,
+            "roudaut": null,
+            "beaudouin": null,
+            "muscat": null,
+            "pages": null,
+            "yenier": null
+          }
+        }
+      ]
+    }
+  ]
+}

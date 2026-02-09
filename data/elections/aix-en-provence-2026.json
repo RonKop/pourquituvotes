@@ -1,0 +1,722 @@
+{
+  "ville": "Aix-en-Provence",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "joissains",
+      "nom": "Sophie Joissains",
+      "liste": "UDI (Union de la droite et du centre)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "pena",
+      "nom": "Marc Péna",
+      "liste": "Aix en Partage (PS-PCF-EELV)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "klein",
+      "nom": "Philippe Klein",
+      "liste": "Horizons",
+      "programmeUrl": "https://www.philippe-klein.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "boronad",
+      "nom": "Julie Boronad",
+      "liste": "Aix en commun (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "geiger",
+      "nom": "Jean-Louis Geiger",
+      "liste": "RN-UDR",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ben-ammar",
+      "nom": "Mounir Ben Ammar",
+      "liste": "Aix-en-Provence ville vivante (REV)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "joissains": {
+              "texte": "Renforcement de la police municipale avec 10 recrutements supplémentaires par an (138 agents actuellement) et déploiement de 500 caméras de vidéoprotection",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-qui-sont-les-candidats-declares-a-aix-en-provence-3346519"
+            },
+            "pena": {
+              "texte": "Renforcement de la police municipale et lutte contre le narcotrafic",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497"
+            },
+            "klein": null,
+            "boronad": null,
+            "geiger": {
+              "texte": "Obtenir 140 policiers nationaux supplémentaires pour Aix et créer une brigade anti-stupéfiants municipale sur le modèle de Béziers",
+              "source": "L'Affranchi Mag, 2026",
+              "sourceUrl": "https://www.laffranchimag.fr/Municipales-2026-a-Aix-Jean-Louis-Geiger-l-union-des-droites-a-hauts-risques_a516.html"
+            },
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "joissains": {
+              "texte": "Équiper toutes les écoles primaires et maternelles de vidéosurveillance",
+              "source": "Marsactu, 2026",
+              "sourceUrl": "https://marsactu.fr/breve_de_campagne/a-aix-la-maire-sortante-sophie-joissains-lance-sa-campagne-sur-le-theme-de-la-securite/"
+            },
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": {
+              "texte": "Créer une police de proximité dans chaque quartier, formée à la médiation, pour recréer le lien avec les habitants",
+              "source": "L'Affranchi Mag, 2026",
+              "sourceUrl": "https://www.laffranchimag.fr/Municipales-2026-a-Aix-en-Provence-LFI-mise-sur-la-jeunesse-et-creuse-la-fracture-a-gauche_a571.html"
+            },
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "joissains": {
+              "texte": "Poursuite du développement des transports en commun avec la ligne Aixpress (bus 100% électriques) et construction de parkings-relais",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741"
+            },
+            "pena": {
+              "texte": "Développer un réseau de transports en commun couvrant intégralement la zone urbaine, à toute heure",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497"
+            },
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "joissains": {
+              "texte": "Plan vélo ambitieux : 170 km d'infrastructures cyclables, 5 millions d'euros par an dédiés et piétonnisation du centre historique",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741"
+            },
+            "pena": {
+              "texte": "Plan vélo ambitieux en concertation avec les usagers, pistes cyclables de qualité entre quartiers, généralisation du 30 km/h",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497"
+            },
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "joissains": null,
+            "pena": {
+              "texte": "Politique de stationnement incitative pour réduire la dépendance automobile et transférer les déplacements vers les modes doux",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497"
+            },
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "joissains": {
+              "texte": "Construction de 900 logements par an, notamment dans le quartier Constance, avec proximité des équipements à 15 minutes à pied ou vélo",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741"
+            },
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "joissains": null,
+            "pena": {
+              "texte": "Réguler les locations touristiques : réduire la durée maximale de location à 90 jours et imposer la diversité sociale dans chaque opération de construction",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497"
+            },
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": {
+              "texte": "Créer une régie du logement : face aux 40 000 étudiants pour seulement 8 000 places en résidences, construire des logements gérés par le CROUS",
+              "source": "L'Affranchi Mag, 2026",
+              "sourceUrl": "https://www.laffranchimag.fr/Municipales-2026-a-Aix-en-Provence-LFI-mise-sur-la-jeunesse-et-creuse-la-fracture-a-gauche_a571.html"
+            },
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "joissains": {
+              "texte": "Végétalisation des places publiques avec plantation d'arbres pour réduire les températures de 2 à 4 degrés",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741"
+            },
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": {
+              "texte": "Faire d'Aix-en-Provence une ville-refuge climatique : fin de la minéralisation excessive, ombrage, eau, arbres et espaces publics de qualité",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/philippe-klein-candidat-horizon-a-la-mairie-d-aix-en-provence-5268735"
+            },
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "joissains": null,
+            "pena": {
+              "texte": "Programme ambitieux de réduction de la consommation énergétique des logements et bâtiments publics, promotion des énergies renouvelables",
+              "source": "Destimed, 2026",
+              "sourceUrl": "https://www.destimed.fr/Tribune-Municipales-a-Aix-en-Provence-Ecologistes-avec-Marc-Pena-et-Aix-en/"
+            },
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "joissains": {
+              "texte": "Pas d'augmentation des impôts : engagement de stabilité fiscale pour maintenir l'attractivité d'Aix-en-Provence",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741"
+            },
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "joissains": {
+              "texte": "Poursuite de la transformation de la place Romée de Villeneuve et de la requalification du Cours Sextius",
+              "source": "Marsactu, 2026",
+              "sourceUrl": "https://marsactu.fr/breve_de_campagne/a-aix-la-maire-sortante-sophie-joissains-lance-sa-campagne-sur-le-theme-de-la-securite/"
+            },
+            "pena": null,
+            "klein": {
+              "texte": "Proposer un cap exigeant conciliant qualité de vie, attractivité économique, transition écologique et cohésion intergénérationnelle",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/philippe-klein-candidat-horizon-a-la-mairie-d-aix-en-provence-5268735"
+            },
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "joissains": null,
+            "pena": null,
+            "klein": null,
+            "boronad": null,
+            "geiger": null,
+            "ben-ammar": null
+          }
+        }
+      ]
+    }
+  ]
+}

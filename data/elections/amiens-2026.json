@@ -1,0 +1,994 @@
+{
+  "ville": "Amiens",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "dejenlis",
+      "nom": "Hubert de Jenlis",
+      "liste": "Majorité présidentielle (sortant)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fauvet",
+      "nom": "Frédéric Fauvet",
+      "liste": "Pour Amiens en Mieux (PS-PCF-EELV-PP)",
+      "programmeUrl": "https://www.pouramiens.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "caron",
+      "nom": "Aurélien Caron",
+      "liste": "Amiens Ville d'Avenir (LR)",
+      "programmeUrl": "https://amiensvilledavenir.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mercuzot",
+      "nom": "Benoît Mercuzot",
+      "liste": "Amiens en Mouvement",
+      "programmeUrl": "https://www.amiensenmouvement.com/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "toumi",
+      "nom": "Damien Toumi",
+      "liste": "Amiens Pour Vous (RN)",
+      "programmeUrl": "https://www.amienspourvous.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "olivier",
+      "nom": "Samy Olivier",
+      "liste": "Amiens en Commun (LFI-G.s)",
+      "programmeUrl": "https://amiensencommun.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "decle",
+      "nom": "Paul-Éric Dècle",
+      "liste": "Les Centristes",
+      "programmeUrl": "https://www.paulericdecle2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bellina",
+      "nom": "Julia Bellina",
+      "liste": "Amiens au Cœur (sans étiquette)",
+      "programmeUrl": "https://amiensaucoeur.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "farhat",
+      "nom": "Ridha Farhat",
+      "liste": "Les Enfants de la République - Amiens pour tous",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "baudry",
+      "nom": "Jean-Jacques Baudry",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "dejenlis": {
+              "texte": "Armement de la police municipale avec des armes létales, création d'une brigade canine et d'une brigade équestre",
+              "source": "Mairie d'Amiens, 2025",
+              "sourceUrl": "https://www.amiens.fr/"
+            },
+            "fauvet": {
+              "texte": "Revoir le fonctionnement de la police municipale avec des postes dans les quartiers qui en ont besoin",
+              "source": "France Bleu Picardie, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "caron": {
+              "texte": "Doubler la présence de la police municipale 7 jours sur 7 dans les rues, créer des brigades canine et équestre spécialisées",
+              "source": "France Bleu Picardie, septembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "mercuzot": null,
+            "toumi": {
+              "texte": "Priorité absolue à la sécurité : renforcer la police municipale pour une ville plus sûre",
+              "source": "France Bleu Picardie, mars 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "olivier": null,
+            "decle": {
+              "texte": "Augmenter les effectifs de la police municipale et leur présence sur le terrain",
+              "source": "France Bleu Picardie, mai 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": {
+              "texte": "Doubler le nombre de caméras de vidéosurveillance dans la ville",
+              "source": "France Bleu Picardie, septembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": {
+              "texte": "Renforcer les liens entre jeunes et police via des associations sportives à visée préventive",
+              "source": "Paul-Éric Dècle 2026, 2026",
+              "sourceUrl": "https://www.paulericdecle2026.fr/"
+            },
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "dejenlis": {
+              "texte": "Refonte du réseau de bus amélien pour améliorer la régularité et la couverture des quartiers",
+              "source": "France Bleu Picardie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "fauvet": {
+              "texte": "Améliorer la régularité et l'efficacité des transports en commun, vécu au quotidien comme un problème majeur",
+              "source": "Pour Amiens, 2026",
+              "sourceUrl": "https://www.pouramiens.fr/"
+            },
+            "caron": null,
+            "mercuzot": {
+              "texte": "Améliorer les mobilités et la fluidité des déplacements, renforcer l'accessibilité à Amiens notamment via la liaison ferroviaire Roissy-Picardie",
+              "source": "Amiens en Mouvement, 2025",
+              "sourceUrl": "https://www.amiensenmouvement.com/"
+            },
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "dejenlis": {
+              "texte": "Création de places de stationnement pour vélos et trottinettes en centre-ville",
+              "source": "Mairie d'Amiens, 2025",
+              "sourceUrl": "https://www.amiens.fr/"
+            },
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "dejenlis": {
+              "texte": "Obligation de descendre de vélo et trottinette en zone piétonne entre la tour Perret et la mairie, de 10h à 19h",
+              "source": "Mairie d'Amiens, 2025",
+              "sourceUrl": "https://www.amiens.fr/"
+            },
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": {
+              "texte": "Étendre la gratuité du bus les mercredis et dimanches, gratuité totale pour les moins de 25 ans",
+              "source": "Amiens en Commun, 2026",
+              "sourceUrl": "https://amiensencommun.fr/"
+            },
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": {
+              "texte": "Faciliter l'accès au logement social pour les ménages actifs",
+              "source": "Paul-Éric Dècle 2026, 2026",
+              "sourceUrl": "https://www.paulericdecle2026.fr/"
+            },
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": {
+              "texte": "Reconquête du parc de logements anciens pour offrir du travail aux entreprises locales et du pouvoir d'achat aux habitants",
+              "source": "Amiens en Mouvement, 2025",
+              "sourceUrl": "https://www.amiensenmouvement.com/"
+            },
+            "toumi": null,
+            "olivier": {
+              "texte": "Réquisitionner les logements vacants pour qu'aucun enfant ne dorme à la rue",
+              "source": "Amiens en Commun, 2026",
+              "sourceUrl": "https://amiensencommun.fr/"
+            },
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": {
+              "texte": "Augmenter massivement l'investissement pour l'entretien des écoles (1,14% du budget actuellement jugé insuffisant)",
+              "source": "Pour Amiens, 2026",
+              "sourceUrl": "https://www.pouramiens.fr/"
+            },
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": {
+              "texte": "Rendre l'école vraiment gratuite : cantine et fournitures scolaires prises en charge",
+              "source": "Amiens en Commun, 2026",
+              "sourceUrl": "https://amiensencommun.fr/"
+            },
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": {
+              "texte": "Créer des maisons de la jeunesse et de la citoyenneté et assurer la protection municipale de la jeunesse",
+              "source": "France Bleu Picardie, novembre 2024",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": {
+              "texte": "Lancer une opération massive de végétalisation de la ville et de ses toitures pour accélérer la transition écologique",
+              "source": "Paul-Éric Dècle 2026, 2026",
+              "sourceUrl": "https://www.paulericdecle2026.fr/"
+            },
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "dejenlis": {
+              "texte": "Opérations de nettoyage renforcées dans les quartiers pour améliorer la propreté urbaine",
+              "source": "Mairie d'Amiens, 2025",
+              "sourceUrl": "https://www.amiens.fr/"
+            },
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": {
+              "texte": "Faire de la propreté une priorité : une ville plus propre et plus accessible",
+              "source": "France Bleu Picardie, mars 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": {
+              "texte": "Politique énergétique ambitieuse et développement du patrimoine naturel et architectural",
+              "source": "Amiens en Mouvement, 2025",
+              "sourceUrl": "https://www.amiensenmouvement.com/"
+            },
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": {
+              "texte": "Instaurer des référendums locaux sur les grands projets structurants et renforcer la consultation citoyenne",
+              "source": "Amiens Ville d'Avenir, 2025",
+              "sourceUrl": "https://amiensvilledavenir.fr/"
+            },
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": {
+              "texte": "Décisions prises en concertation avec les comités de quartier, chaque euro investi selon les besoins réels du terrain",
+              "source": "Amiens au Cœur, 2025",
+              "sourceUrl": "https://amiensaucoeur.fr/"
+            },
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": {
+              "texte": "Mettre fin à la mise en concurrence des associations et à la baisse systématique de leurs subventions",
+              "source": "Amiens en Commun, 2026",
+              "sourceUrl": "https://amiensencommun.fr/"
+            },
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": {
+              "texte": "Construire une ville qui protège avec des services publics locaux répondant aux besoins essentiels",
+              "source": "Pour Amiens, 2026",
+              "sourceUrl": "https://www.pouramiens.fr/"
+            },
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": {
+              "texte": "Créer un pôle créatif, numérique et cybercurité à la Halle Freyssinet pour dynamiser l'économie locale",
+              "source": "France Bleu Picardie, septembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": {
+              "texte": "Garantir une qualité de ville unique en développant le patrimoine naturel et architectural, revitaliser le centre-ville",
+              "source": "Amiens en Mouvement, 2025",
+              "sourceUrl": "https://www.amiensenmouvement.com/"
+            },
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": {
+              "texte": "Embellir les espaces publics et créer une ville plus sûre et plus apaisée",
+              "source": "Amiens en Mouvement, 2025",
+              "sourceUrl": "https://www.amiensenmouvement.com/"
+            },
+            "toumi": null,
+            "olivier": null,
+            "decle": {
+              "texte": "Simplifier les règles d'urbanisme en accordant des dérogations mineures pour faciliter les projets",
+              "source": "Paul-Éric Dècle 2026, 2026",
+              "sourceUrl": "https://www.paulericdecle2026.fr/"
+            },
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": {
+              "texte": "Promouvoir et faciliter le quotidien des personnes en situation de handicap par des actions de sensibilisation et d'accessibilité",
+              "source": "Paul-Éric Dècle 2026, 2026",
+              "sourceUrl": "https://www.paulericdecle2026.fr/"
+            },
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": {
+              "texte": "Pacte de solidarité majeur pour les quartiers prioritaires de la ville",
+              "source": "Amiens Ville d'Avenir, 2025",
+              "sourceUrl": "https://amiensvilledavenir.fr/"
+            },
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": {
+              "texte": "Créer un système de sécurité alimentaire : alimentation locale à prix fixés",
+              "source": "Amiens en Commun, 2026",
+              "sourceUrl": "https://amiensencommun.fr/"
+            },
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": null,
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": null,
+            "baudry": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "dejenlis": null,
+            "fauvet": {
+              "texte": "Lutter contre la baisse du pouvoir d'achat, la hausse des prix du logement et l'insalubrité",
+              "source": "Pour Amiens, 2026",
+              "sourceUrl": "https://www.pouramiens.fr/"
+            },
+            "caron": null,
+            "mercuzot": null,
+            "toumi": null,
+            "olivier": null,
+            "decle": null,
+            "bellina": null,
+            "farhat": {
+              "texte": "Augmenter le niveau de vie des Aménois, priorité aux habitants des quartiers populaires",
+              "source": "France Bleu Picardie, novembre 2024",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "baudry": null
+          }
+        }
+      ]
+    }
+  ]
+}

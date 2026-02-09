@@ -1,0 +1,734 @@
+{
+  "ville": "Toulon",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "massi",
+      "nom": "Josée Massi",
+      "liste": "Toulon mon parti (sortante)",
+      "programmeUrl": "https://joseemassi.com/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lavalette",
+      "nom": "Laure Lavalette",
+      "liste": "Un avenir pour Toulon (soutenue par le RN)",
+      "programmeUrl": "https://www.unavenirpourtoulon.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bonnus",
+      "nom": "Michel Bonnus",
+      "liste": "Toulon en Grand (LR)",
+      "programmeUrl": "https://toulonengrand.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "brunel",
+      "nom": "Magali Brunel",
+      "liste": "Toulon en Commun (PS-PCF-Écologistes)",
+      "programmeUrl": "https://toulonencommun2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "cornil",
+      "nom": "Isaline Cornil",
+      "liste": "La France Insoumise",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "le-lostec",
+      "nom": "Emmanuel Le Lostec",
+      "liste": "En Avant Toulon-Isso Touloun",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "massi": {
+              "texte": "Passer de 152 à 200 policiers municipaux et créer des commissariats de quartier",
+              "source": "France Bleu / Info83, 2026",
+              "sourceUrl": "https://www.info83.fr/municipales-2026-a-toulon-josee-massi-presente-un-programme-axe-sur-la-securite-la-proximite-et-lattractivite/"
+            },
+            "lavalette": {
+              "texte": "Réarmer moralement la police municipale et recruter une soixantaine de policiers municipaux supplémentaires pour atteindre 200 agents",
+              "source": "CNews / France Bleu, 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-06/municipales-2026-la-securite-sera-le-fil-rouge-annonce-laure-lavalette-deputee-rn"
+            },
+            "bonnus": {
+              "texte": "Recruter une dizaine de policiers municipaux par an, créer des îlotiers, police municipale opérationnelle jusqu'à 2h du matin",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-michel-bonnus-devoile-son-projet-pour-toulon-3077171"
+            },
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "massi": {
+              "texte": "Créer un bus à haut niveau de service (BHNS) rapide avec un bus toutes les 10 minutes, et connecter 70 km de pistes cyclables entre elles",
+              "source": "RCF / Info83, 2026",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/municipales-2026-a-toulon-la-maire-josee-massi-devoile-ses-priorites"
+            },
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": {
+              "texte": "Oui au tramway et aux transports gratuits, non au BHNS ; les Toulonnais perdent 72h par an dans les embouteillages",
+              "source": "RCF / France 3, 2026",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/municipales-2026-a-toulon-magali-brunel-presente-son-programme-et-ses-soutiens"
+            },
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": {
+              "texte": "Transports en commun gratuits et création d'un tramway à Toulon",
+              "source": "Info83 / RCF, 2026",
+              "sourceUrl": "https://www.info83.fr/municipales-2026-toulon-lfi-lance-sa-liste/"
+            },
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": {
+              "texte": "Développement du logement abordable et lutte contre la pauvreté : 22% des Toulonnais vivent sous le seuil de pauvreté",
+              "source": "Info83 / RCF, 2026",
+              "sourceUrl": "https://www.info83.fr/municipales-toulon-2026-lfi-toulon-cornil-denis/"
+            },
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": {
+              "texte": "Encadrer les loyers à Toulon pour protéger les locataires et les salariés face à la hausse du coût de la vie",
+              "source": "RCF / Info83, 2026",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/municipales-2026-a-toulon-magali-brunel-presente-son-programme-et-ses-soutiens"
+            },
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "massi": null,
+            "lavalette": {
+              "texte": "Climatiser toutes les écoles de Toulon",
+              "source": "RCF, 2026",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/municipales-2026-a-toulon-laure-lavalette-lance-officiellement-sa-campagne"
+            },
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": {
+              "texte": "Priorité à la jeunesse : plus de maisons de quartier faites pour et par les jeunes, sport pour tous",
+              "source": "France 3 / RCF, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/var/toulon/il-est-temps-de-tourner-la-page-d-une-gestion-figee-la-candidate-de-gauche-magali-brunel-en-meeting-a-toulon-3285693.html"
+            },
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": {
+              "texte": "Écologie non-punitive : électrification des quais et des ferries, ville bas carbone",
+              "source": "Info83, 2026",
+              "sourceUrl": "https://www.info83.fr/emmanuel-le-lostec-elections-municipales/"
+            }
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": {
+              "texte": "Lutter contre la désertification médicale : créer une maison des internes et un bus médical pour pallier le manque de généralistes",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-michel-bonnus-devoile-son-projet-pour-toulon-3077171"
+            },
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": {
+              "texte": "Créer des structures d'accompagnement des addictions dans les quartiers populaires",
+              "source": "Info83, 2026",
+              "sourceUrl": "https://www.info83.fr/municipales-toulon-2026-lfi-toulon-cornil-denis/"
+            },
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "massi": null,
+            "lavalette": {
+              "texte": "Donner la parole aux Toulonnais par des consultations et des référendums locaux",
+              "source": "RCF, 2026",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/municipales-2026-a-toulon-laure-lavalette-lance-officiellement-sa-campagne"
+            },
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "massi": {
+              "texte": "Lancer l'outil Toulon et vous pour maintenir le lien entre habitants et mairie sur les questions administratives et les services du quotidien",
+              "source": "RCF / Info83, 2026",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/municipales-2026-a-toulon-la-maire-josee-massi-devoile-ses-priorites"
+            },
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": {
+              "texte": "Soutien au commerce de proximité et dynamisation de tous les quartiers de Toulon",
+              "source": "Info83, 2026",
+              "sourceUrl": "https://www.info83.fr/meeting-michel-bonnus-toulon-2026/"
+            },
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": {
+              "texte": "Créer un guichet unique municipal pour accompagner les jeunes entrepreneurs vers les financements",
+              "source": "Info83, 2026",
+              "sourceUrl": "https://www.info83.fr/emmanuel-le-lostec-elections-municipales/"
+            }
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "massi": {
+              "texte": "Dynamiser l'économie avec la création de nouveaux secteurs, construction d'une résidence étudiante, et verdissement des écoles",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-la-maire-de-toulon-josee-massi-candidate-9577017"
+            },
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "massi": null,
+            "lavalette": {
+              "texte": "Création d'un centre de la mer à Toulon",
+              "source": "RCF, 2026",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/municipales-2026-a-toulon-laure-lavalette-lance-officiellement-sa-campagne"
+            },
+            "bonnus": {
+              "texte": "Créer une cité des sciences et de la mer pour reconquérir le littoral et faire connaître l'histoire de Toulon",
+              "source": "France Bleu / Info83, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-michel-bonnus-devoile-son-projet-pour-toulon-3077171"
+            },
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "massi": null,
+            "lavalette": {
+              "texte": "Plan de réfection des routes et trottoirs, égalité de traitement entre tous les quartiers",
+              "source": "RCF, 2026",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/municipales-2026-a-toulon-laure-lavalette-lance-officiellement-sa-campagne"
+            },
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": null,
+            "cornil": null,
+            "le-lostec": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "massi": null,
+            "lavalette": null,
+            "bonnus": null,
+            "brunel": {
+              "texte": "Redonner du pouvoir d'achat, du pouvoir d'agir et de mieux vivre — lutte contre la pauvreté (22% de la population sous le seuil)",
+              "source": "Toulon en Commun, 2026",
+              "sourceUrl": "https://toulonencommun2026.fr/"
+            },
+            "cornil": null,
+            "le-lostec": null
+          }
+        }
+      ]
+    }
+  ]
+}

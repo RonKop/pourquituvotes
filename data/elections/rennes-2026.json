@@ -1,0 +1,945 @@
+{
+  "ville": "Rennes",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "appere",
+      "nom": "Nathalie Appéré",
+      "liste": "Rennes solidaire (PS/EELV/PCF/UDB)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mesmeur",
+      "nom": "Marie Mesmeur",
+      "liste": "LFI",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "compagnon",
+      "nom": "Charles Compagnon",
+      "liste": "Vivre Rennes ! (Horizons)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "trousseau",
+      "nom": "Thomas Rousseau",
+      "liste": "L'espoir rennais (LR)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "masson",
+      "nom": "Julien Masson",
+      "liste": "RN/UDR",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rabate",
+      "nom": "Ulysse Rabaté",
+      "liste": "Rennes commune (ex-LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chirazi",
+      "nom": "Sandra Chirazi",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "darcissac",
+      "nom": "Victor Darcissac",
+      "liste": "NPA-Révolutionnaires",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "duclos",
+      "nom": "Erell Duclos",
+      "liste": "Révolution permanente",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "pernot",
+      "nom": "Morgane Pernot-Goarvot",
+      "liste": "Parti des travailleurs",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "melan",
+      "nom": "Yan Mélan",
+      "liste": "Équinoxe",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "appere": {
+              "texte": "Recrutement de 60 policiers municipaux supplémentaires et création d'une police métropolitaine des transports",
+              "source": "Unidivers, février 2026",
+              "sourceUrl": "https://unidivers.fr/"
+            },
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "appere": {
+              "texte": "Déploiement de 80 nouvelles caméras de vidéosurveillance",
+              "source": "Unidivers, février 2026",
+              "sourceUrl": "https://unidivers.fr/"
+            },
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "appere": {
+              "texte": "Gratuité des transports en commun pour les étudiants boursiers",
+              "source": "Rennes Infos Autrement, février 2026",
+              "sourceUrl": "https://www.rennes-infos-autrement.fr/"
+            },
+            "mesmeur": {
+              "texte": "Gratuité des transports en commun pour les moins de 26 ans",
+              "source": "France Bleu Armorique, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "appere": {
+              "texte": "500 logements sociaux par an, 300 logements à loyers modérés et 600 en accession solidaire",
+              "source": "Rennes Infos Autrement, février 2026",
+              "sourceUrl": "https://www.rennes-infos-autrement.fr/"
+            },
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "appere": {
+              "texte": "Réquisition des bâtiments durablement vacants pour créer du logement",
+              "source": "Unidivers, février 2026",
+              "sourceUrl": "https://unidivers.fr/"
+            },
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "appere": {
+              "texte": "Plafonnement des loyers du parc privé et instauration d'un permis de louer pour garantir des logements dignes",
+              "source": "Unidivers, février 2026",
+              "sourceUrl": "https://unidivers.fr/"
+            },
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "appere": null,
+            "mesmeur": {
+              "texte": "Création d'une brigade municipale anti-problèmes de logement",
+              "source": "TVR, janvier 2026",
+              "sourceUrl": "https://www.tvr.bzh/"
+            },
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "appere": {
+              "texte": "Plan anti-gaspillage dans les cantines, augmentation du bio, réduction progressive du plastique site par site",
+              "source": "Rennes Infos Autrement, février 2026",
+              "sourceUrl": "https://www.rennes-infos-autrement.fr/"
+            },
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "appere": {
+              "texte": "Création de centres de santé de quartier et d'une mutuelle municipale. Maintien des activités de soins sur le site de l'hôpital Sud",
+              "source": "Unidivers, février 2026",
+              "sourceUrl": "https://unidivers.fr/"
+            },
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "appere": {
+              "texte": "Création de restaurants seniors dans les quartiers et d'un guichet unique pour les jeunes",
+              "source": "Rennes Infos Autrement, février 2026",
+              "sourceUrl": "https://www.rennes-infos-autrement.fr/"
+            },
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "appere": null,
+            "mesmeur": null,
+            "compagnon": null,
+            "trousseau": null,
+            "masson": null,
+            "rabate": null,
+            "chirazi": null,
+            "darcissac": null,
+            "duclos": null,
+            "pernot": null,
+            "melan": null
+          }
+        }
+      ]
+    }
+  ]
+}

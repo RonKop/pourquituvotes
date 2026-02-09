@@ -1,0 +1,871 @@
+{
+  "ville": "Caen",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "olivier",
+      "nom": "Aristide Olivier",
+      "liste": "Caen ensemble (DVD)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lorphelin",
+      "nom": "Rudy L'Orphelin",
+      "liste": "Caen nous rassemble (EELV/PS/PCF/Place publique)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "guidi",
+      "nom": "Aurélien Guidi",
+      "liste": "Faire mieux pour Caen (LFI/Génération.s)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lecoutour",
+      "nom": "Xavier Le Coutour",
+      "liste": "Citoyens à Caen (DVG)",
+      "programmeUrl": "https://xavierlecoutour2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "casini",
+      "nom": "Antoine Casini",
+      "liste": "Le Caen de l'engagement (PRG/L'Engagement)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "henry",
+      "nom": "Chantal Henry",
+      "liste": "RN",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chevalier",
+      "nom": "Thomas Chevalier",
+      "liste": "Caen dynamique ! (centre indépendant)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lareynie",
+      "nom": "Bérangère Lareynie",
+      "liste": "Caen ouvrière et révolutionnaires (NPA-R)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "casevitz",
+      "nom": "Pierre Casevitz",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "olivier": {
+              "texte": "Augmentation des effectifs de police municipale de 70 à 100 agents",
+              "source": "Tendance Ouest, décembre 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-434343-municipales-2026-doublement-des-cameras-retour-du-week-end-maritime-aristide-olivier-candidat-a-caen"
+            },
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "olivier": {
+              "texte": "Doublement des caméras de vidéosurveillance, de 100 à 200",
+              "source": "Tendance Ouest, décembre 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-434343-municipales-2026-doublement-des-cameras-retour-du-week-end-maritime-aristide-olivier-candidat-a-caen"
+            },
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": {
+              "texte": "Bus en site propre plutôt qu'un nouveau tramway, pour un coût moindre et une desserte plus large",
+              "source": "Tendance Ouest, 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-425946-municipales-2026-a-caen-rudy-l-orphelin-veut-mettre-le-climat-a-l-agenda-et-rassembler-la-gauche"
+            },
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "olivier": {
+              "texte": "Gratuité des transports en commun chaque samedi pendant la durée des travaux du tramway",
+              "source": "Tendance Ouest, décembre 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-434343-municipales-2026-doublement-des-cameras-retour-du-week-end-maritime-aristide-olivier-candidat-a-caen"
+            },
+            "lorphelin": {
+              "texte": "Gratuité des transports en commun pour les moins de 26 ans",
+              "source": "France Bleu Normandie, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/ici-matin-info-ici-normandie/municipales-a-caen-rudy-l-orphelin-promet-la-gratuite-des-transports-pour-les-etudiants-3419951"
+            },
+            "guidi": {
+              "texte": "Gratuité totale des transports en commun à Caen",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-aurelien-guidi-lfi-annonce-sa-candidature-a-caen-trois-listes-de-gauches-desormais-en-competition-8411799"
+            },
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": {
+              "texte": "Rénovation énergétique du parc social : lutter contre les passoires thermiques, priorité mal traitée",
+              "source": "Tendance Ouest, novembre 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-433509-politique-antoine-casini-se-lance-dans-la-course-des-municipales-a-caen"
+            },
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": {
+              "texte": "Expérimentation de l'encadrement des loyers à Caen",
+              "source": "Tendance Ouest, 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-425946-municipales-2026-a-caen-rudy-l-orphelin-veut-mettre-le-climat-a-l-agenda-et-rassembler-la-gauche"
+            },
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": {
+              "texte": "Révision du plan local d'urbanisme pour répondre à la crise du logement en zone tendue depuis 2023",
+              "source": "Tendance Ouest, novembre 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-433509-politique-antoine-casini-se-lance-dans-la-course-des-municipales-a-caen"
+            },
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "olivier": {
+              "texte": "Développement de l'offre de places en crèche et structures petite enfance",
+              "source": "Tendance Ouest, décembre 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-434343-municipales-2026-doublement-des-cameras-retour-du-week-end-maritime-aristide-olivier-candidat-a-caen"
+            },
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "olivier": {
+              "texte": "Reconstruction des écoles Millepertuis et Venoix",
+              "source": "Tendance Ouest, décembre 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-434343-municipales-2026-doublement-des-cameras-retour-du-week-end-maritime-aristide-olivier-candidat-a-caen"
+            },
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": {
+              "texte": "Politique jeunesse ambitieuse et lutte contre le sans-abrisme",
+              "source": "France Bleu Normandie, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-aurelien-guidi-lfi-annonce-sa-candidature-a-caen-trois-listes-de-gauches-desormais-en-competition-8411799"
+            },
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": {
+              "texte": "Ouverture de nouveaux parcs pour une ville toujours plus verte",
+              "source": "Tendance Ouest, 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-425946-municipales-2026-a-caen-rudy-l-orphelin-veut-mettre-le-climat-a-l-agenda-et-rassembler-la-gauche"
+            },
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": {
+              "texte": "Mettre le climat à l'agenda : transformation écologique et justice sociale comme priorités du mandat",
+              "source": "Tendance Ouest, 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-425946-municipales-2026-a-caen-rudy-l-orphelin-veut-mettre-le-climat-a-l-agenda-et-rassembler-la-gauche"
+            },
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "olivier": {
+              "texte": "Ouverture d'une Maison des seniors dans l'ancien centre de jeunesse de la Prairie",
+              "source": "Tendance Ouest, décembre 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-434343-municipales-2026-doublement-des-cameras-retour-du-week-end-maritime-aristide-olivier-candidat-a-caen"
+            },
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "olivier": {
+              "texte": "Retour du Week-end Maritime, grand rassemblement de bateaux à Caen",
+              "source": "Tendance Ouest, décembre 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-434343-municipales-2026-doublement-des-cameras-retour-du-week-end-maritime-aristide-olivier-candidat-a-caen"
+            },
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": {
+              "texte": "Création d'un parc animalier sur la Presqu'île de Caen avec centre de soins pour animaux sauvages, mini-ferme et restaurant",
+              "source": "Tendance Ouest, janvier 2026",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435534-municipales-2026-a-caen-evince-par-son-parti-thomas-chevalier-se-retrouve-deja-un-nouveau-soutien-ecologiste"
+            },
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": {
+              "texte": "Plus de solidarité alors qu'un Caennais sur 5 vit sous le seuil de pauvreté",
+              "source": "Tendance Ouest, 2025",
+              "sourceUrl": "https://www.tendanceouest.com/actualite-425946-municipales-2026-a-caen-rudy-l-orphelin-veut-mettre-le-climat-a-l-agenda-et-rassembler-la-gauche"
+            },
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "olivier": null,
+            "lorphelin": null,
+            "guidi": null,
+            "lecoutour": null,
+            "casini": null,
+            "henry": null,
+            "chevalier": null,
+            "lareynie": null,
+            "casevitz": null
+          }
+        }
+      ]
+    }
+  ]
+}

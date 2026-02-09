@@ -1,0 +1,863 @@
+{
+  "ville": "Paris",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "candidats": [
+    {
+      "id": "gregoire",
+      "nom": "Emmanuel Grégoire",
+      "liste": "Gauche unie PS/Écolos",
+      "programmeUrl": "https://emmanuel-gregoire-2026.fr/"
+    },
+    {
+      "id": "dati",
+      "nom": "Rachida Dati",
+      "liste": "LR",
+      "programmeUrl": "https://rachidadati2026.com/"
+    },
+    {
+      "id": "chikirou",
+      "nom": "Sophia Chikirou",
+      "liste": "LFI",
+      "programmeUrl": "#"
+    },
+    {
+      "id": "bournazel",
+      "nom": "Pierre-Yves Bournazel",
+      "liste": "Renaissance/Horizons",
+      "programmeUrl": "#"
+    },
+    {
+      "id": "knafo",
+      "nom": "Sarah Knafo",
+      "liste": "Reconquête",
+      "programmeUrl": "#"
+    },
+    {
+      "id": "mariani",
+      "nom": "Thierry Mariani",
+      "liste": "RN",
+      "programmeUrl": "#"
+    }
+  ],
+  "categories": [
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-public",
+          "nom": "Logement public & Construction",
+          "propositions": {
+            "gregoire": {
+              "texte": "60 000 nouveaux logements publics, rééquilibrage entre arrondissements, reconversion de bureaux en logements",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants & Meublés touristiques",
+          "propositions": {
+            "gregoire": {
+              "texte": "Taxation et réquisition des logements vacants depuis plus de 5 ans. Interdiction des nouvelles résidences secondaires et des meublés touristiques type Airbnb",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers & Protection",
+          "propositions": {
+            "gregoire": {
+              "texte": "Brigade de protection du logement pour le respect de l'encadrement des loyers, la lutte contre les discriminations et le contrôle de la salubrité. Garantie Municipale des Loyers (extension du dispositif Visale)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "assurance-habitation",
+          "nom": "Assurance & Aide au logement",
+          "propositions": {
+            "gregoire": {
+              "texte": "Assurance habitation municipale accessible (incluant la couverture punaises de lit). Logements adaptés à chaque âge de la vie : étudiants, jeunes actifs, familles monoparentales, personnes en situation de handicap, seniors",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "parc-social",
+          "nom": "Entretien du parc social",
+          "propositions": {
+            "gregoire": {
+              "texte": "Création d'une équipe inter-bailleurs d'intervention rapide pour les réparations dans le parc social",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "ecologie-pouvoir-achat",
+      "nom": "Écologie populaire & Pouvoir d'achat",
+      "sousThemes": [
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "gregoire": {
+              "texte": "Rénovation et isolation de 35 000 logements sociaux. Soutien à la rénovation de 200 000 logements privés avec avance à taux zéro « prime climat »",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "energie-renouvelable",
+          "nom": "Énergie renouvelable",
+          "propositions": {
+            "gregoire": {
+              "texte": "Achats groupés d'énergie renouvelable pour les Parisiens. Développement de réseaux publics de chaleur et de froid",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "pollution-bruit",
+          "nom": "Lutte contre la pollution & le bruit",
+          "propositions": {
+            "gregoire": {
+              "texte": "Lutte contre la pollution de l'eau et de l'air (PFAS, pesticides, particules fines) et les perturbateurs endocriniens. Installation de capteurs et radars sonores, plans de réduction du bruit par quartier",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "alimentation",
+          "nom": "Alimentation durable & Solidaire",
+          "propositions": {
+            "gregoire": {
+              "texte": "100 % alimentation bio, locale et durable dans les cantines et crèches, avec goûter gratuit. Sécurité sociale de l'alimentation : coopératives alimentaires, épiceries solidaires, restaurants municipaux à prix accessible",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "dechets-reparation",
+          "nom": "Réduction des déchets & Réparation",
+          "propositions": {
+            "gregoire": {
+              "texte": "Ressourcerie solidaire et ateliers de réparation dans chaque quartier pour réduire les déchets",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "cooperative-velo",
+          "nom": "Coopérative vélo municipale",
+          "propositions": {
+            "gregoire": {
+              "texte": "Coopérative vélo municipale : les adhérents disposent d'un vélo en longue durée avec assurance et possibilité de changement selon les besoins",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "bouclier-social",
+      "nom": "Bouclier social & Solidarité",
+      "sousThemes": [
+        {
+          "id": "hebergement-urgence",
+          "nom": "Hébergement d'urgence & Sans-abri",
+          "propositions": {
+            "gregoire": {
+              "texte": "4 000 places d'hébergement d'urgence, réquisition des logements vides depuis plus de 5 ans. Objectif zéro enfant à la rue, présomption de minorité pour les mineurs étrangers non accompagnés",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "jeunesse-solidarite",
+          "nom": "Solidarité jeunesse",
+          "propositions": {
+            "gregoire": {
+              "texte": "Revenu Solidarité Jeunesse sous conditions pour les jeunes sortant de l'Aide Sociale à l'Enfance (ASE)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "acces-droits",
+          "nom": "Accès aux droits & Accompagnement",
+          "propositions": {
+            "gregoire": {
+              "texte": "100 % de recours aux droits avec permanences mobiles par quartier. Permanences MDPH dans tous les arrondissements. Accompagnement personnalisé des allocataires du RSA",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "sante",
+          "nom": "Santé & Accès aux soins",
+          "propositions": {
+            "gregoire": {
+              "texte": "Mutuelle municipale parisienne. 100 nouveaux lieux de soin en secteur 1, 7 centres de santé municipaux. Parcours des 1 000 premiers jours de l'enfant (60 PMI), diagnostic précoce des troubles cognitifs et de l'autisme. Santé scolaire renforcée, plan santé mentale jeunes",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "sante-sexuelle-specifique",
+          "nom": "Santé sexuelle & Spécifique",
+          "propositions": {
+            "gregoire": {
+              "texte": "Plan santé sexuelle avec objectif zéro VIH d'ici 2030. Équipes de réduction des risques (errance, drogue, troubles psychiques). Accompagnement de l'endométriose",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education-jeunesse",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "ecole-publique",
+          "nom": "École publique & Mixité",
+          "propositions": {
+            "gregoire": {
+              "texte": "Défense de l'école publique et lutte contre les fermetures de classes. Modulation des dotations aux établissements privés selon leur effort de mixité sociale",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "handicap-scolaire",
+          "nom": "Handicap & Inclusion scolaire",
+          "propositions": {
+            "gregoire": {
+              "texte": "Exiger un saut qualitatif pour les AESH avec continuité périscolaire. 50 nouvelles unités d'enseignement adapté pour le handicap",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "cantine-fournitures",
+          "nom": "Cantine & Fournitures",
+          "propositions": {
+            "gregoire": {
+              "texte": "Gel des tarifs de cantine, extension de la gratuité des fournitures scolaires",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "renovation-ecoles",
+          "nom": "Rénovation & Végétalisation des écoles",
+          "propositions": {
+            "gregoire": {
+              "texte": "Grand plan de rénovation et végétalisation des écoles et collèges (cours Oasis). Protection des enfants : jamais un adulte seul avec un enfant, formations à la bientraitance",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "periscolaire",
+          "nom": "Périscolaire & Activités",
+          "propositions": {
+            "gregoire": {
+              "texte": "Convention citoyenne sur les temps scolaires et périscolaires. Activités périscolaires de qualité : culture, sport, langues, sciences. Classe découverte pour chaque enfant. Filière animation : fin des vacations, 100 % de contrats continus. Offre « péricollège » y compris pendant les vacances",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse & Insertion",
+          "propositions": {
+            "gregoire": {
+              "texte": "Quartier Jeunes dans chaque arrondissement. Offre de stages et formations d'insertion. Logements sociaux étudiants et Foyers de Jeunes Travailleurs. Droit aux vacances pour chaque jeune, séjours adaptés au handicap",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "bus-express",
+          "nom": "Bus express",
+          "propositions": {
+            "gregoire": {
+              "texte": "15 lignes de bus express sur les grandes avenues parisiennes",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "metro",
+          "nom": "Métro",
+          "propositions": {
+            "gregoire": {
+              "texte": "Métro ouvert 24h/24 les vendredis et samedis",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "navettes-fluviales",
+          "nom": "Navettes fluviales",
+          "propositions": {
+            "gregoire": {
+              "texte": "Navettes fluviales sur la Seine pour le transport quotidien et touristique",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "velo",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "gregoire": {
+              "texte": "Doublement des pistes cyclables, 100 000 places de stationnement vélo, aide à l'acquisition et à la réparation. Coopérative vélo municipale",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "gregoire": {
+              "texte": "Quartiers apaisés avec zones 20 km/h, suppression de places de stationnement au profit de la végétalisation. Plan de circulation concerté prenant en compte les besoins des professionnels et des personnes à mobilité réduite. Extension des zones piétonnes dans chaque arrondissement",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "logistique-urbaine",
+          "nom": "Logistique urbaine",
+          "propositions": {
+            "gregoire": {
+              "texte": "Logistique urbaine propre : points relais de proximité, véhicules de livraison décarbonés",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Espaces publics & Environnement",
+      "sousThemes": [
+        {
+          "id": "arbres-vegetation",
+          "nom": "Arbres & Végétalisation",
+          "propositions": {
+            "gregoire": {
+              "texte": "170 000 arbres plantés (10 par habitant). Végétalisation des toitures, façades et cours d'immeubles. Fermes urbaines dans chaque arrondissement",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "baignades-seine",
+          "nom": "Baignades & Eau",
+          "propositions": {
+            "gregoire": {
+              "texte": "Ouverture de nouvelles baignades dans la Seine et les canaux. 1 000 nouvelles fontaines et brumisateurs contre la canicule",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "biodiversite",
+          "nom": "Biodiversité & Espaces verts",
+          "propositions": {
+            "gregoire": {
+              "texte": "Parc métropolitain reliant les bois de Boulogne et de Vincennes. Plan biodiversité : corridors écologiques, nichoirs, prairies",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "peripherique",
+          "nom": "Périphérique",
+          "propositions": {
+            "gregoire": {
+              "texte": "Requalification du Périphérique en boulevard urbain végétalisé",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "proprete",
+          "nom": "Propreté",
+          "propositions": {
+            "gregoire": {
+              "texte": "Fréquence accrue de nettoyage, brigades propreté de quartier",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "securite",
+      "nom": "Sécurité & Tranquillité",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "gregoire": {
+              "texte": "Effectif complet de la police municipale, présence 7j/7, équipes de nuit. Vidéoprotection intelligente dans les zones sensibles",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "eclairage-securite",
+          "nom": "Éclairage & Sécurité publique",
+          "propositions": {
+            "gregoire": {
+              "texte": "Plan d'éclairage public sécuritaire",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes & Harcèlement",
+          "propositions": {
+            "gregoire": {
+              "texte": "Observatoire des violences faites aux femmes, marches exploratoires. Plan anti-harcèlement de rue : formation, signalement",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "gregoire": {
+              "texte": "Prévention spécialisée renforcée pour les jeunes. Médiation urbaine dans tous les quartiers",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie de quartier",
+      "sousThemes": [
+        {
+          "id": "mairies-arrondissement",
+          "nom": "Mairies d'arrondissement",
+          "propositions": {
+            "gregoire": {
+              "texte": "Transformer les mairies d'arrondissement en maisons de service public de proximité",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif & Co-décision",
+          "propositions": {
+            "gregoire": {
+              "texte": "Budget participatif renforcé : 10 % du budget d'investissement. Conseils citoyens avec pouvoir de co-décision. Application numérique de signalement et suivi",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative & Nuits",
+          "propositions": {
+            "gregoire": {
+              "texte": "Soutien à la vie associative : doublement des subventions, locaux gratuits. Nuits parisiennes : charte de la nuit, médiateurs, lieux culturels ouverts",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture-sport",
+      "nom": "Culture & Sport",
+      "sousThemes": [
+        {
+          "id": "musees-culture",
+          "nom": "Musées & Culture de proximité",
+          "propositions": {
+            "gregoire": {
+              "texte": "Gratuité des musées municipaux. 1 lieu culturel municipal de proximité par quartier. Grand plan lecture publique avec horaires élargis et médiathèques renforcées. Soutien à la création artistique et résidences d'artistes",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "sport",
+          "nom": "Sport & Équipements",
+          "propositions": {
+            "gregoire": {
+              "texte": "50 nouveaux équipements sportifs de proximité. Sport sur ordonnance élargi. Paris capitale des grands événements sportifs et culturels",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "egalite-droits",
+      "nom": "Égalité & Droits",
+      "sousThemes": [
+        {
+          "id": "ville-refuge",
+          "nom": "Paris ville refuge",
+          "propositions": {
+            "gregoire": {
+              "texte": "Paris ville refuge : accueil des migrants, hébergement et accompagnement",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "lutte-discriminations",
+          "nom": "Lutte contre les discriminations",
+          "propositions": {
+            "gregoire": {
+              "texte": "Plan contre le racisme, l'antisémitisme et les LGBTphobies. Budget genré de la ville",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité universelle",
+          "propositions": {
+            "gregoire": {
+              "texte": "Accessibilité universelle de tous les services et lieux publics. Plan mémoire et transmission",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "grand-paris",
+      "nom": "Grand Paris & Métropole",
+      "sousThemes": [
+        {
+          "id": "gouvernance-metropolitaine",
+          "nom": "Gouvernance métropolitaine",
+          "propositions": {
+            "gregoire": {
+              "texte": "Gouvernance métropolitaine renforcée. Mutualisation des services avec les communes limitrophes",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        },
+        {
+          "id": "tarification-solidarite",
+          "nom": "Tarification & Solidarité",
+          "propositions": {
+            "gregoire": {
+              "texte": "Tarification unique des transports sur la zone métropolitaine. Solidarité financière entre territoires riches et pauvres",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+            },
+            "dati": null,
+            "chikirou": null,
+            "bournazel": null,
+            "knafo": null,
+            "mariani": null
+          }
+        }
+      ]
+    }
+  ]
+}

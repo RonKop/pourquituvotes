@@ -1,0 +1,828 @@
+{
+  "ville": "Nantes",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "rolland",
+      "nom": "Johanna Rolland",
+      "liste": "La gauche unie pour Nantes (PS/EELV/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chombart",
+      "nom": "Foulques Chombart de Lauwe",
+      "liste": "Un nouveau souffle pour Nantes (LR/MoDem/Horizons)",
+      "programmeUrl": "https://www.foulqueschombartdelauwe.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "aucant",
+      "nom": "William Aucant",
+      "liste": "Nouvelle Nantes (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "medkour",
+      "nom": "Margot Medkour",
+      "liste": "Nantes populaire",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "belhamiti",
+      "nom": "Mounir Belhamiti",
+      "liste": "Nantes mérite mieux (Renaissance)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "hulot",
+      "nom": "Jean-Claude Hulot",
+      "liste": "Pour une Nantes sûre (RN)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bazille",
+      "nom": "Nicolas Bazille",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "gauvin",
+      "nom": "Alexandre Gauvin",
+      "liste": "Nantes ouvrière et révolutionnaire (NPA)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "rolland": {
+              "texte": "Nouveau commissariat dans un quartier prioritaire et poste de police fixe nocturne au Bouffay et vers le Hangar à bananes",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "chombart": {
+              "texte": "Renforcement et armement de la police municipale",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.foulqueschombartdelauwe.fr/"
+            },
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": {
+              "texte": "Espace de police permanent au cœur de la ville et armement des policiers municipaux",
+              "source": "Hello Gazette Nantes, janvier 2026",
+              "sourceUrl": "https://hellogazettenantes.fr/"
+            },
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "rolland": null,
+            "chombart": {
+              "texte": "Développement de la vidéosurveillance dans l'ensemble de la ville",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.foulqueschombartdelauwe.fr/"
+            },
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "rolland": null,
+            "chombart": {
+              "texte": "Lutte contre la consommation de drogue dans l'espace public",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.foulqueschombartdelauwe.fr/"
+            },
+            "aucant": {
+              "texte": "Doubler le nombre de médiateurs dans les rues, priorité à la prévention plutôt qu'à la répression",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "rolland": null,
+            "chombart": {
+              "texte": "Développement des transports en commun et projet de tunnel sous la Loire",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "rolland": {
+              "texte": "150 kilomètres supplémentaires de pistes cyclables sur le mandat",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "chombart": {
+              "texte": "Sécuriser la pratique du vélo dans toute la ville",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.foulqueschombartdelauwe.fr/"
+            },
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "rolland": {
+              "texte": "Étendre la gratuité des transports en commun à 15 000 personnes supplémentaires",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "chombart": null,
+            "aucant": {
+              "texte": "Gratuité progressive des transports : d'abord pour les moins de 26 ans, les chômeurs et les bas revenus",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "rolland": {
+              "texte": "Atteindre 40% de logements sociaux à Nantes",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": {
+              "texte": "Mise en place de l'encadrement des loyers à Nantes",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "rolland": {
+              "texte": "Service de garde d'urgence pour les familles monoparentales et développement des places en crèche",
+              "source": "Infos Média Nantes, février 2026",
+              "sourceUrl": "https://infos-media-nantes.fr/"
+            },
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "rolland": {
+              "texte": "Moins de bitume en ville et plus de végétalisation des espaces publics",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "chombart": {
+              "texte": "Végétalisation des espaces publics dans une écologie de bon sens",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.foulqueschombartdelauwe.fr/"
+            },
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "rolland": {
+              "texte": "Accélérer la rénovation des passoires énergétiques",
+              "source": "France Bleu Loire Océan, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "rolland": null,
+            "chombart": {
+              "texte": "Faire de Nantes une ville économiquement rayonnante, on ne peut pas vivre que d'aides sociales",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.foulqueschombartdelauwe.fr/"
+            },
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": {
+              "texte": "Création d'un centre d'arts et des savoirs communal au marché de Feltre (quartier Bretagne)",
+              "source": "Hello Gazette Nantes, février 2026",
+              "sourceUrl": "https://hellogazettenantes.fr/"
+            },
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "rolland": {
+              "texte": "Plateforme d'accompagnement dédiée aux familles monoparentales : aide quotidienne et garde d'urgence",
+              "source": "Infos Média Nantes, février 2026",
+              "sourceUrl": "https://infos-media-nantes.fr/"
+            },
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "rolland": null,
+            "chombart": null,
+            "aucant": null,
+            "medkour": null,
+            "belhamiti": null,
+            "hulot": null,
+            "bazille": null,
+            "gauvin": null
+          }
+        }
+      ]
+    }
+  ]
+}

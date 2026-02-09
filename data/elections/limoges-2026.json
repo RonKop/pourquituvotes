@@ -1,0 +1,844 @@
+{
+  "ville": "Limoges",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "lombertie",
+      "nom": "Émile-Roger Lombertie",
+      "liste": "LR (Droite sortante)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "guerin",
+      "nom": "Guillaume Guérin",
+      "liste": "LR dissident (Limoges Métropole)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "maudet",
+      "nom": "Damien Maudet",
+      "liste": "Limoges Front Populaire (LFI-EELV)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "miguel",
+      "nom": "Thierry Miguel",
+      "liste": "Pour Limoges (PS-PCF-Place publique)",
+      "programmeUrl": "https://www.pourlimoges.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "leonie",
+      "nom": "Vincent Léonie",
+      "liste": "Réunir (Centre)",
+      "programmeUrl": "https://www.reunir-limoges.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "freychet",
+      "nom": "Albin Freychet",
+      "liste": "Limoges en Grand (RN)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "benzoni",
+      "nom": "Julie Benzoni",
+      "liste": "Rêvons Limoges (citoyen)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "faucon",
+      "nom": "Élisabeth Faucon",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "lombertie": null,
+            "guerin": {
+              "texte": "Renforcer les effectifs de la police municipale et créer un centre de supervision métropolitain pour mutualiser la vidéoprotection",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-limousin/municipales-a-limoges-guillaume-guerin-assez-meurtri-par-la-candidature-de-lombertie-veut-creer-une-dynamique-2492960"
+            },
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": {
+              "texte": "Faire de la sécurité la priorité n°1 : la délinquance s'est dégradée et est devenue le point noir pour l'image de la ville",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-limousin/albin-freychet-candidat-rn-aux-municipales-2026-a-limoges-veut-creer-un-grand-rassemblement-de-patriotes-8376068"
+            },
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": {
+              "texte": "Lutte contre le narcotrafic par une meilleure coordination entre police nationale, police municipale et services fiscaux",
+              "source": "Pour Limoges, 2026",
+              "sourceUrl": "https://www.pourlimoges.fr/"
+            },
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": {
+              "texte": "Améliorer les liaisons ferroviaires pour désenclaver Limoges et réduire son isolement",
+              "source": "Pour Limoges, 2026",
+              "sourceUrl": "https://www.pourlimoges.fr/"
+            },
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": {
+              "texte": "Développement massif des pistes cyclables et piétonnisation du centre-ville",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-limoges-front-populaire-un-debut-de-programme-mais-pas-encore-de-tete-de-liste-5996749"
+            },
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": {
+              "texte": "Gratuité des transports en commun pour tous les Limougeauds",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-limoges-front-populaire-un-debut-de-programme-mais-pas-encore-de-tete-de-liste-5996749"
+            },
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": {
+              "texte": "Rénover l'intégralité des écoles de Limoges d'ici 2030 : plan ambitieux de remise aux normes",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/limoges-la-renovation-des-ecoles-au-coeur-de-l-election-municipale-2146396"
+            },
+            "freychet": {
+              "texte": "Auditer chaque école avant d'estimer le coût des réparations nécessaires",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/limoges-la-renovation-des-ecoles-au-coeur-de-l-election-municipale-2146396"
+            },
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": {
+              "texte": "Augmenter la part de bio et de produits locaux dans les cantines scolaires et lutter contre le gaspillage alimentaire",
+              "source": "Pour Limoges, 2026",
+              "sourceUrl": "https://www.pourlimoges.fr/"
+            },
+            "leonie": {
+              "texte": "Gratuité des fournitures scolaires pour tous les élèves (coût estimé : 600 000 à 700 000 €) et baisse du tarif cantine à 4,40 € maximum",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/limoges-la-renovation-des-ecoles-au-coeur-de-l-election-municipale-2146396"
+            },
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": {
+              "texte": "Reconnecter Limoges à la rivière, créer des fontaines et jeux d'eau pour lutter contre les îlots de chaleur urbains",
+              "source": "Pour Limoges, 2026",
+              "sourceUrl": "https://www.pourlimoges.fr/"
+            },
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": {
+              "texte": "Création de centres de santé municipaux pour lutter contre la désertification médicale",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-2026-salle-comble-pour-le-premier-meeting-de-damien-maudet-et-sa-liste-limoges-front-populaire-6347710"
+            },
+            "miguel": null,
+            "leonie": null,
+            "freychet": {
+              "texte": "Garantir l'accès aux soins et renforcer la présence des services publics de santé face à la désertification médicale",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-limousin/albin-freychet-candidat-rn-aux-municipales-2026-a-limoges-veut-creer-un-grand-rassemblement-de-patriotes-8376068"
+            },
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": {
+              "texte": "Référendum d'initiative locale sur les sujets engageant les finances de la Ville, comme le projet du nouveau Beaublanc",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-limousin/albin-freychet-candidat-rn-aux-municipales-2026-a-limoges-veut-creer-un-grand-rassemblement-de-patriotes-8376068"
+            },
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": {
+              "texte": "Plafonner les indemnités en cas de cumul de mandats à 2 800 € maximum",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-2026-candidat-a-limoges-damien-maudet-s-explique-sur-les-indemnites-et-le-cumul-des-mandats-7694759"
+            },
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": {
+              "texte": "Concertations sur les baux commerciaux pour résoudre la vacance commerciale en centre-ville",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-2026-salle-comble-pour-le-premier-meeting-de-damien-maudet-et-sa-liste-limoges-front-populaire-6347710"
+            },
+            "miguel": {
+              "texte": "Créer une société publique locale pour lutter contre la vacance commerciale en centre-ville",
+              "source": "Pour Limoges, 2026",
+              "sourceUrl": "https://www.pourlimoges.fr/"
+            },
+            "leonie": null,
+            "freychet": {
+              "texte": "Redynamiser le commerce de centre-ville et faire de Limoges un point d'attraction touristique estival",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-limousin/albin-freychet-candidat-rn-aux-municipales-2026-a-limoges-veut-creer-un-grand-rassemblement-de-patriotes-8376068"
+            },
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "lombertie": {
+              "texte": "Continuer la dynamique économique avec +4,4% d'emplois privés et un solde positif de 4 400 entreprises sur le mandat",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/je-n-ai-pas-transforme-limoges-pendant-2-mandatures-pour-abandonner-emile-roger-lombertie-determine-et-en-campagne-6978880"
+            },
+            "guerin": {
+              "texte": "Attirer les entreprises : implantation d'Hermès et du groupe IMA en centre-ville, soit environ 800 emplois",
+              "source": "Flash FM, 2026",
+              "sourceUrl": "https://www.flashfm.fr/municipales-guillaume-guerin-veut-creer-une-dynamique"
+            },
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": {
+              "texte": "Réviser les budgets pour restaurer l'accès à la culture pour tous les Limougeauds",
+              "source": "Pour Limoges, 2026",
+              "sourceUrl": "https://www.pourlimoges.fr/"
+            },
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": {
+              "texte": "Réhabiliter les friches urbaines : friche des Ponts et ancienne clinique du Colombier comme priorités d'aménagement",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-limousin/albin-freychet-candidat-rn-aux-municipales-2026-a-limoges-veut-creer-un-grand-rassemblement-de-patriotes-8376068"
+            },
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "lombertie": {
+              "texte": "Poursuite de la rénovation urbaine avec l'ANRU dans les quartiers Val de l'Aurence Sud et Beaubreuil",
+              "source": "France 3 Nouvelle-Aquitaine, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/haute-vienne/limoges/emile-roger-lombertie-se-declare-candidat-a-la-mairie-de-limoges-pour-les-prochaines-elections-municipales-3277712.html"
+            },
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": {
+              "texte": "Mettre à disposition des bâtiments municipaux pour héberger en urgence les parents d'enfants sans domicile",
+              "source": "France Bleu Limousin, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-2026-salle-comble-pour-le-premier-meeting-de-damien-maudet-et-sa-liste-limoges-front-populaire-6347710"
+            },
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "lombertie": null,
+            "guerin": null,
+            "maudet": null,
+            "miguel": null,
+            "leonie": null,
+            "freychet": null,
+            "benzoni": null,
+            "faucon": null
+          }
+        }
+      ]
+    }
+  ]
+}

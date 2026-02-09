@@ -1,0 +1,757 @@
+{
+  "ville": "Reims",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "robinet",
+      "nom": "Arnaud Robinet",
+      "liste": "Horizons (soutenu par LR)",
+      "programmeUrl": "https://www.arnaudrobinet2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "frigout",
+      "nom": "Anne-Sophie Frigout",
+      "liste": "Rassemblement National",
+      "programmeUrl": "https://frigout2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "quenard",
+      "nom": "Éric Quénard",
+      "liste": "PS-Écologistes-PCF-Place Publique",
+      "programmeUrl": "https://ericquenard.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "coradel",
+      "nom": "Patricia Coradel",
+      "liste": "La France Insoumise",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lang",
+      "nom": "Stéphane Lang",
+      "liste": "Les Rémois au cœur (LR dissident)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mura",
+      "nom": "Sébastien Mura",
+      "liste": "Nous c'est Reims",
+      "programmeUrl": "https://www.reims-2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rose",
+      "nom": "Thomas Rose",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "robinet": {
+              "texte": "Renforcement de la police municipale (de 30 à 130 agents depuis 2014) et de la vidéoprotection (de 30 à 250 caméras) sans augmentation d'impôts locaux",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-le-maire-de-reims-arnaud-robinet-officiellement-candidat-a-sa-reelection-6025232"
+            },
+            "frigout": {
+              "texte": "Passer les effectifs de police municipale de 130 à 200 agents, avec création de deux commissariats de police municipale à Wilson et Châtillons",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-couvre-feu-brigade-anti-incivilites-a-reims-la-candidate-rn-promet-un-choc-securitaire-1742754"
+            },
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "robinet": {
+              "texte": "Poursuite du développement massif de la vidéoprotection et équipement de la police municipale, investissements de 7 millions d'euros prévus",
+              "source": "France Bleu, 2025",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-sur-france-bleu-champagne-ardenne/arnaud-robinet-maire-horizons-de-reims-8596574"
+            },
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "robinet": null,
+            "frigout": {
+              "texte": "Instaurer un couvre-feu pour les mineurs (amende de 35€ en cas de non-respect) et créer des travaux éducatifs d'intérêt général pour les mineurs délinquants",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-reims-anne-sophie-frigout-candidate-du-rn-veut-imposer-un-couvre-feu-pour-les-mineurs-4876523"
+            },
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": {
+              "texte": "Expérimenter la gratuité des transports en commun pendant un an, d'abord pour les moins de 25 ans et le week-end pour tous",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-reims-les-ecologistes-rejoignent-les-socialistes-sur-une-liste-commune-portee-par-eric-quenard-8869238"
+            },
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": {
+              "texte": "Créer un réseau cyclable structurant, continu et sécurisé, avec l'objectif de passer de 3% à 10% de déplacements à vélo d'ici la fin du mandat",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-reims-les-ecologistes-rejoignent-les-socialistes-sur-une-liste-commune-portee-par-eric-quenard-8869238"
+            },
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": {
+              "texte": "Restaurer la fluidité du trafic automobile, contre la politique de réduction de la place de la voiture menée par Robinet",
+              "source": "France 3, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/marne/reims/municipales-2026-lr-soutient-arnaud-robinet-pas-stephane-lang-a-reims-3286110.html"
+            },
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": {
+              "texte": "Gratuité des transports pour les moins de 26 ans et les bénéficiaires des minima sociaux, puis convention citoyenne pour une nouvelle tarification",
+              "source": "Orange Actu, 2026",
+              "sourceUrl": "https://actu.orange.fr/videos/actu-locale/municipales-2026-a-reims-patricia-coradel-candidate-lfi-presente-ses-3-priorites-CNT000002n487e.html"
+            },
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": {
+              "texte": "Le logement comme priorité n°1 : améliorer l'accès au logement pour tous les Rémois",
+              "source": "Orange Actu, 2026",
+              "sourceUrl": "https://actu.orange.fr/videos/actu-locale/municipales-2026-a-reims-patricia-coradel-candidate-lfi-presente-ses-3-priorites-CNT000002n487e.html"
+            },
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": {
+              "texte": "Priorité aux enfants : cantines gratuites et développement des services périscolaires",
+              "source": "Orange Actu, 2026",
+              "sourceUrl": "https://actu.orange.fr/videos/actu-locale/municipales-2026-a-reims-patricia-coradel-candidate-lfi-presente-ses-3-priorites-CNT000002n487e.html"
+            },
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "robinet": null,
+            "frigout": {
+              "texte": "Création d'une brigade anti-incivilités contre les dépôts sauvages, le vandalisme, les nuisances de voisinage, les déjections canines et les tags",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-couvre-feu-brigade-anti-incivilites-a-reims-la-candidate-rn-promet-un-choc-securitaire-1742754"
+            },
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": {
+              "texte": "Programme d'investissement thermique dans les bâtiments publics, notamment les écoles",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-reims-les-ecologistes-rejoignent-les-socialistes-sur-une-liste-commune-portee-par-eric-quenard-8869238"
+            },
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": {
+              "texte": "Création d'une mutuelle municipale de santé pour protéger près de 20 000 Rémois sans couverture",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-reims-les-ecologistes-rejoignent-les-socialistes-sur-une-liste-commune-portee-par-eric-quenard-8869238"
+            },
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "robinet": {
+              "texte": "Faire de Reims une ville bienveillante : protéger, accompagner et soigner les habitants à chaque étape de leur vie",
+              "source": "France 3, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/champagne-ardenne/arnaud-robinet-candidat-pour-un-troisieme-mandat-de-maire-a-reims-3279113.html"
+            },
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": {
+              "texte": "Défense des quartiers populaires, de la justice sociale, de la dignité et des droits humains ; politique de coopération et jumelages internationaux",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipale-2026-a-reims-sebastien-mura-ex-lfi-se-declare-candidat-avec-une-nouvelle-liste-a-gauche-9974988"
+            },
+            "rose": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "robinet": null,
+            "frigout": null,
+            "quenard": null,
+            "coradel": null,
+            "lang": null,
+            "mura": null,
+            "rose": null
+          }
+        }
+      ]
+    }
+  ]
+}

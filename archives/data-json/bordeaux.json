@@ -1,0 +1,269 @@
+{
+  "ville": "Bordeaux",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "candidats": [
+    {
+      "id": "dupont",
+      "nom": "Anne Dupont",
+      "liste": "Bordeaux Ensemble",
+      "programmeUrl": "#"
+    },
+    {
+      "id": "martin",
+      "nom": "Bernard Martin",
+      "liste": "Bordeaux en Mouvement",
+      "programmeUrl": "#"
+    },
+    {
+      "id": "leroy",
+      "nom": "Claire Leroy",
+      "liste": "Bordeaux Écologique et Solidaire",
+      "programmeUrl": "#"
+    }
+  ],
+  "categories": [
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "tramway",
+          "nom": "Tramway & Métro",
+          "propositions": {
+            "dupont": {
+              "texte": "Extension du tramway ligne C vers Mérignac avec 4 nouvelles stations d'ici 2030",
+              "source": "Programme officiel, p. 22",
+              "sourceUrl": "#"
+            },
+            "martin": null,
+            "leroy": null
+          }
+        },
+        {
+          "id": "velo",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "dupont": null,
+            "martin": null,
+            "leroy": {
+              "texte": "Doublement du réseau de pistes cyclables sécurisées d'ici 2030, passant de 200 à 400 km + mise en place d'un service de vélos cargo en libre-service dans les 8 quartiers principaux",
+              "source": "Programme officiel, p. 9-10",
+              "sourceUrl": "#"
+            }
+          }
+        },
+        {
+          "id": "tarifs",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "dupont": null,
+            "martin": {
+              "texte": "Gratuité des transports en commun pour les moins de 25 ans et les plus de 65 ans",
+              "source": "Programme officiel, p. 15",
+              "sourceUrl": "#"
+            },
+            "leroy": null
+          }
+        },
+        {
+          "id": "parking",
+          "nom": "Parkings & Stationnement",
+          "propositions": {
+            "dupont": {
+              "texte": "Création de 3 parkings-relais aux entrées de ville (1 500 places au total)",
+              "source": "Programme officiel, p. 23",
+              "sourceUrl": "#"
+            },
+            "martin": null,
+            "leroy": null
+          }
+        },
+        {
+          "id": "pietonisation",
+          "nom": "Piétonisation & Espaces publics",
+          "propositions": {
+            "dupont": null,
+            "martin": {
+              "texte": "Piétonisation complète du centre-ville les week-ends et jours fériés",
+              "source": "Programme officiel, p. 16",
+              "sourceUrl": "#"
+            },
+            "leroy": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "dupont": {
+              "texte": "Plantation de 10 000 arbres sur le mandat dans les quartiers les plus minéralisés",
+              "source": "Programme officiel, p. 30",
+              "sourceUrl": "#"
+            },
+            "martin": null,
+            "leroy": null
+          }
+        },
+        {
+          "id": "dechets",
+          "nom": "Déchets & Compostage",
+          "propositions": {
+            "dupont": {
+              "texte": "Installation de 500 points de collecte pour le compostage de quartier",
+              "source": "Programme officiel, p. 31",
+              "sourceUrl": "#"
+            },
+            "martin": null,
+            "leroy": {
+              "texte": "Objectif zéro déchet en décharge d'ici 2032 avec tri à la source obligatoire",
+              "source": "Programme officiel, p. 15",
+              "sourceUrl": "#"
+            }
+          }
+        },
+        {
+          "id": "energie-renouvelable",
+          "nom": "Énergie renouvelable",
+          "propositions": {
+            "dupont": null,
+            "martin": null,
+            "leroy": {
+              "texte": "Installation de panneaux solaires sur tous les toits des équipements publics",
+              "source": "Programme officiel, p. 16",
+              "sourceUrl": "#"
+            }
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "dupont": null,
+            "martin": {
+              "texte": "Rénovation énergétique de l'ensemble des bâtiments municipaux d'ici 2032",
+              "source": "Programme officiel, p. 20",
+              "sourceUrl": "#"
+            },
+            "leroy": null
+          }
+        },
+        {
+          "id": "agriculture-urbaine",
+          "nom": "Agriculture urbaine",
+          "propositions": {
+            "dupont": null,
+            "martin": null,
+            "leroy": {
+              "texte": "Création de 5 fermes urbaines sur des friches municipales avec gestion associative",
+              "source": "Programme officiel, p. 14",
+              "sourceUrl": "#"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "propositions": [
+        {
+          "candidatId": "dupont",
+          "texte": "Création de 200 places supplémentaires en crèche municipale d'ici 2028",
+          "source": "Programme officiel, p. 12",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "dupont",
+          "texte": "Rénovation de 15 écoles primaires vétustes sur le mandat",
+          "source": "Programme officiel, p. 13",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "martin",
+          "texte": "Généralisation du soutien scolaire gratuit dans les 8 maisons de quartier",
+          "source": "Programme officiel, p. 25",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "martin",
+          "texte": "Passage à 100 % bio et local dans les cantines scolaires d'ici 2028",
+          "source": "Programme officiel, p. 26",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "leroy",
+          "texte": "Ouverture de 3 tiers-lieux éducatifs dédiés aux 12-18 ans dans les quartiers prioritaires",
+          "source": "Programme officiel, p. 22",
+          "sourceUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "propositions": [
+        {
+          "candidatId": "dupont",
+          "texte": "Recrutement de 50 agents de police municipale supplémentaires",
+          "source": "Programme officiel, p. 8",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "dupont",
+          "texte": "Extension du réseau de vidéoprotection à 200 caméras supplémentaires",
+          "source": "Programme officiel, p. 9",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "martin",
+          "texte": "Création d'une brigade de médiateurs de nuit (20 postes) dans les quartiers sensibles",
+          "source": "Programme officiel, p. 10",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "leroy",
+          "texte": "Amélioration de l'éclairage public dans les 30 zones identifiées comme peu sûres",
+          "source": "Programme officiel, p. 28",
+          "sourceUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie locale & Emploi",
+      "propositions": [
+        {
+          "candidatId": "dupont",
+          "texte": "Création d'un fonds municipal de 2 millions d'euros pour les commerces de proximité",
+          "source": "Programme officiel, p. 35",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "martin",
+          "texte": "Mise en place d'un marché couvert permanent dans le quartier Bastide",
+          "source": "Programme officiel, p. 32",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "martin",
+          "texte": "Lancement d'un programme d'insertion par l'emploi pour 500 jeunes par an",
+          "source": "Programme officiel, p. 33",
+          "sourceUrl": "#"
+        },
+        {
+          "candidatId": "leroy",
+          "texte": "Création d'une monnaie locale complémentaire pour soutenir le commerce bordelais",
+          "source": "Programme officiel, p. 30",
+          "sourceUrl": "#"
+        }
+      ]
+    }
+  ]
+}

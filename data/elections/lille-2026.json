@@ -1,0 +1,839 @@
+{
+  "ville": "Lille",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "deslandes",
+      "nom": "Arnaud Deslandes",
+      "liste": "PS",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "baly",
+      "nom": "Stéphane Baly",
+      "liste": "Lille demain (EELV)",
+      "programmeUrl": "https://lilledemain.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "spillebout",
+      "nom": "Violette Spillebout",
+      "liste": "Renaissance",
+      "programmeUrl": "https://vspillebout.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "addouche",
+      "nom": "Lahouaria Addouche",
+      "liste": "LFI",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "delemer",
+      "nom": "Louis Delemer",
+      "liste": "LR",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "valet",
+      "nom": "Matthieu Valet",
+      "liste": "RN",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "madelain",
+      "nom": "Pierre Madelain",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "metschies",
+      "nom": "David Metschies",
+      "liste": "Lille Prospère",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "roussel",
+      "nom": "Baptiste Roussel",
+      "liste": "Au-delà des partis",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "deslandes": {
+              "texte": "Porter à 230 policiers municipaux (1 pour 1 000 habitants) pour Lille, Lomme et Hellemmes",
+              "source": "France 3 Hauts-de-France, février 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/"
+            },
+            "baly": null,
+            "spillebout": {
+              "texte": "100 policiers municipaux supplémentaires",
+              "source": "France 3 Hauts-de-France, février 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/"
+            },
+            "addouche": null,
+            "delemer": null,
+            "valet": {
+              "texte": "Armement de la police municipale et priorité absolue à la sécurité",
+              "source": "France Bleu Nord, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": {
+              "texte": "Déploiement de 2 000 caméras de vidéosurveillance sur le territoire",
+              "source": "France 3 Hauts-de-France, février 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/"
+            },
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "deslandes": null,
+            "baly": {
+              "texte": "Création de postes de prévention dans tous les quartiers de la ville",
+              "source": "France 3 Hauts-de-France, février 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/"
+            },
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "deslandes": {
+              "texte": "Requalifier 2 000 logements vacants sur les 7 000 recensés",
+              "source": "France Info, février 2026",
+              "sourceUrl": "https://www.franceinfo.fr/"
+            },
+            "baly": {
+              "texte": "Remettre 3 000 logements vacants sur le marché locatif",
+              "source": "Vert, février 2026",
+              "sourceUrl": "https://vert.eco/"
+            },
+            "spillebout": {
+              "texte": "Remettre 8 000 logements vacants sur le marché",
+              "source": "France 3 Hauts-de-France, février 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/"
+            },
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": {
+              "texte": "Couverture du périphérique pour créer de nouveaux espaces urbains",
+              "source": "France Bleu Nord, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": {
+              "texte": "Plan d'urgence contre la pauvreté : 50 000 personnes vivent sous le seuil à Lille (27% de la population), priorité aux quartiers populaires",
+              "source": "L'Insoumission, janvier 2026",
+              "sourceUrl": "https://linsoumission.fr/"
+            },
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "deslandes": null,
+            "baly": null,
+            "spillebout": null,
+            "addouche": null,
+            "delemer": null,
+            "valet": null,
+            "madelain": null,
+            "metschies": null,
+            "roussel": null
+          }
+        }
+      ]
+    }
+  ]
+}

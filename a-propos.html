@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos — Pour qui tu votes</title>
+  <meta name="description" content="Découvrez la mission de Pour qui tu votes : un outil citoyen indépendant pour comparer les programmes des candidats aux élections municipales.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pourquituvotes.fr/a-propos">
+  <meta property="og:title" content="À propos — Pour qui tu votes">
+  <meta property="og:description" content="Un vote éclairé est un vote libre. Découvrez notre mission.">
+  <meta property="og:url" content="https://pourquituvotes.fr/a-propos">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Top bar -->
+  <nav class="topbar">
+    <div class="topbar__inner">
+      <a href="/" class="topbar__brand">
+        <span class="topbar__logo">🗳️</span>
+        <span class="topbar__name">Pour qui tu votes</span>
+      </a>
+      <ul class="topbar__nav">
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/a-propos.html" class="topbar__nav--active">À propos</a></li>
+      </ul>
+      <div class="topbar__actions">
+        <button id="theme-toggle" class="theme-toggle" title="Activer le mode sombre">
+          <span class="theme-toggle__icon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page">
+    <article class="page__content">
+
+      <h1>À propos</h1>
+
+      <section class="page__section">
+        <h2>Pourquoi ce site ?</h2>
+        <p>Les élections municipales façonnent notre quotidien. Pourtant, il n'est pas toujours facile de s'y retrouver parmi les candidats, les programmes et les enjeux locaux.</p>
+        <p>Ce site est né d'une conviction simple : <strong>un vote éclairé est un vote libre.</strong></p>
+      </section>
+
+      <section class="page__section">
+        <h2>Aux candidats</h2>
+        <p><strong>Merci pour votre engagement.</strong></p>
+        <p>Se présenter à une élection, c'est accepter de porter la voix de ses concitoyens, de défendre des idées, de consacrer du temps et de l'énergie au service du collectif. Quelle que soit votre étiquette politique, cet engagement mérite d'être salué.</p>
+      </section>
+
+      <section class="page__section">
+        <h2>Aux électeurs</h2>
+        <p>Voter est un droit. Certains diront un devoir. Dans tous les cas, c'est un acte qui compte.</p>
+        <p>Ce site vous propose des outils pour comparer les candidats et leurs propositions. Mais gardez à l'esprit que les mesures ne font pas tout.</p>
+        <p><strong>Un bon élu, c'est aussi :</strong></p>
+        <ul>
+          <li>Une capacité à écouter et à rassembler</li>
+          <li>Une cohérence entre les paroles et les actes</li>
+          <li>Une présence sur le terrain</li>
+          <li>Une vision pour l'avenir de votre commune</li>
+        </ul>
+        <p>Renseignez-vous, posez des questions, allez à la rencontre des candidats. Et surtout : <strong>votez.</strong></p>
+      </section>
+
+      <section class="page__section">
+        <h2>Notre engagement</h2>
+        <p>Ce site est <strong>indépendant</strong> et n'est affilié à aucun parti politique. Notre seul objectif : vous donner les clés pour faire votre choix en toute connaissance de cause.</p>
+      </section>
+
+      <div class="page__cta">
+        <a href="/" class="btn-inscription">Comparer les programmes</a>
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>Outil citoyen — Présentation factuelle des programmes officiels, sans interprétation ni commentaire.</p>
+    <nav class="footer__links">
+      <a href="/">Accueil</a>
+      <a href="/a-propos.html">À propos</a>
+    </nav>
+  </footer>
+
+  <script>
+    // Dark mode
+    var themeToggle = document.getElementById("theme-toggle");
+    function appliquerTheme(theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      var icone = themeToggle.querySelector(".theme-toggle__icon");
+      if (theme === "dark") {
+        icone.textContent = "\u2600\uFE0F";
+        themeToggle.title = "Activer le mode clair";
+      } else {
+        icone.textContent = "\uD83C\uDF19";
+        themeToggle.title = "Activer le mode sombre";
+      }
+    }
+    var themeSauve = localStorage.getItem("theme-pqtv");
+    if (themeSauve) appliquerTheme(themeSauve);
+    themeToggle.addEventListener("click", function() {
+      var actuel = document.documentElement.getAttribute("data-theme");
+      var nouveau = actuel === "dark" ? "light" : "dark";
+      appliquerTheme(nouveau);
+      localStorage.setItem("theme-pqtv", nouveau);
+    });
+
+    // Police
+    var policeStockee = localStorage.getItem("police-pqtv");
+    if (policeStockee) {
+      var COMBOS = {
+        "source": { titres: "'Source Sans 3'", texte: "'Source Sans 3'" },
+        "source+baskerville": { titres: "'Source Sans 3'", texte: "'Libre Baskerville'" }
+      };
+      var cfg = COMBOS[policeStockee];
+      if (cfg) {
+        document.documentElement.style.setProperty("--police-titres", cfg.titres);
+        document.documentElement.style.setProperty("--police-texte", cfg.texte);
+      }
+    }
+  </script>
+</body>
+</html>

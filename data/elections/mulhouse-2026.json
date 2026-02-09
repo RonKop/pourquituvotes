@@ -1,0 +1,1044 @@
+{
+  "ville": "Mulhouse",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "lutz",
+      "nom": "Michèle Lutz",
+      "liste": "Fiers de Mulhouse ! (LR)",
+      "programmeUrl": "https://www.michelelutz.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "million",
+      "nom": "Lara Million",
+      "liste": "Mulhouse ensemble (Centriste et Territoires)",
+      "programmeUrl": "https://laramillion2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "minery",
+      "nom": "Loïc Minery",
+      "liste": "Mulhouse en Commun (EELV/PS/PCF/Génération.s/Place publique)",
+      "programmeUrl": "https://loic-minery2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ritz",
+      "nom": "Christelle Ritz",
+      "liste": "Rassemblement pour Mulhouse (RN)",
+      "programmeUrl": "https://www.rassemblementpourmulhouse.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "taffarelli",
+      "nom": "Emmanuel Taffarelli",
+      "liste": "Restaurer Mulhouse (Reconquête !)",
+      "programmeUrl": "https://www.restaurermulhouse.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "gafanesch",
+      "nom": "Eliot Gafanesch",
+      "liste": "LFI",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "sassi",
+      "nom": "Annouar Sassi",
+      "liste": "Nous sommes Mulhouse (DVG)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "sornin",
+      "nom": "Cécile Sornin",
+      "liste": "Mulhouse au cœur (DVD)",
+      "programmeUrl": "https://www.mulhouseaucoeur.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fuchs",
+      "nom": "Bruno Fuchs",
+      "liste": "MoDem",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "marquet",
+      "nom": "Frédéric Marquet",
+      "liste": "Mulhouse j'y crois (SE)",
+      "programmeUrl": "https://marquet2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "keltoumi",
+      "nom": "Salah Keltoumi",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "djehaf",
+      "nom": "Kadhafi Djehaf",
+      "liste": "Kadhafi pour Mulhouse (SE)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "lutz": {
+              "texte": "Police municipale de 75 agents opérationnelle 24h/24, réarmement progressif avec pistolets semi-automatiques 9 mm",
+              "source": "M+, 2025",
+              "sourceUrl": "https://www.mplusinfo.fr/la-securite-premiere-priorite-de-la-ville-8bc42430-64e6-4cad-aa89-c10942ab06f8"
+            },
+            "million": null,
+            "minery": null,
+            "ritz": {
+              "texte": "Doubler les effectifs de police municipale et créer un centre d'éloignement pour mineurs délinquants récidivistes",
+              "source": "France Bleu Alsace, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "lutz": {
+              "texte": "330 caméras de vidéoprotection opérationnelles, 39 nouvelles déployées en 2025",
+              "source": "M+, 2025",
+              "sourceUrl": "https://www.mplusinfo.fr/la-securite-premiere-priorite-de-la-ville-8bc42430-64e6-4cad-aa89-c10942ab06f8"
+            },
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": {
+              "texte": "Priorité à la sécurité, aux libertés et à l'identité",
+              "source": "France Bleu Alsace, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "lutz": {
+              "texte": "Création de 15 km de pistes cyclables et 10 itinéraires continus pour le vélo",
+              "source": "France 3 Grand Est, décembre 2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/mulhouse/municipales-2026-a-mulhouse-michele-lutz-annonce-sa-candidature-pour-un-nouveau-mandat-3258649.html"
+            },
+            "million": null,
+            "minery": null,
+            "ritz": {
+              "texte": "Développement des pistes cyclables et création de parkings relais aux entrées de Mulhouse",
+              "source": "France Bleu Alsace, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": {
+              "texte": "Préservation des places de stationnement en centre-ville",
+              "source": "France Bleu Alsace, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": {
+              "texte": "Gratuité des transports en commun à Mulhouse",
+              "source": "France Bleu Alsace, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "lutz": null,
+            "million": {
+              "texte": "Priorité à l'éducation et à la jeunesse",
+              "source": "France Bleu Alsace, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "lutz": {
+              "texte": "Projet Mulhouse Diagonales : vaste démarche de renaturation urbaine et végétalisation du centre-ville (9 000 m² piétonnisés)",
+              "source": "France 3 Grand Est, décembre 2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/mulhouse/municipales-2026-a-mulhouse-michele-lutz-annonce-sa-candidature-pour-un-nouveau-mandat-3258649.html"
+            },
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "lutz": null,
+            "million": {
+              "texte": "Collecte des déchets à domicile dans tout Mulhouse et création d'une brigade anti-incivilités",
+              "source": "France Bleu Alsace, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": {
+              "texte": "Urgence propreté : nettoyage et entretien renforcés de la ville",
+              "source": "France Bleu Alsace, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "lutz": {
+              "texte": "Défis climatique, social et patrimonial : reconversion des friches industrielles (DMC) en « laboratoires de ville durable »",
+              "source": "France 3 Grand Est, décembre 2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/mulhouse/municipales-2026-a-mulhouse-michele-lutz-annonce-sa-candidature-pour-un-nouveau-mandat-3258649.html"
+            },
+            "million": {
+              "texte": "Transition climatique et intégration de l'intelligence artificielle au service de la ville",
+              "source": "France Bleu Alsace, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "lutz": null,
+            "million": {
+              "texte": "Priorité santé et bien vieillir",
+              "source": "France Bleu Alsace, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": {
+              "texte": "Urgence santé : améliorer l'accès aux soins à Mulhouse",
+              "source": "France Bleu Alsace, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "lutz": null,
+            "million": {
+              "texte": "Politique dédiée au bien vieillir à Mulhouse",
+              "source": "France Bleu Alsace, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": {
+              "texte": "L'humain d'abord, la ville autrement : transparence et gouvernance ouverte après avoir quitté la majorité",
+              "source": "L'Alterpresse68, décembre 2025",
+              "sourceUrl": "https://www.alterpresse68.info/2025/12/15/cecile-sornin-candidate-aux-elections-municipales-de-mulhouse-les-promesses-nengagent-que-ceux-qui-les-ecoutent-est-une-phrase-qui-me-donne-la-nausee/"
+            },
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "lutz": null,
+            "million": {
+              "texte": "Mairie mobile, élus référents de quartier avec permanences régulières, mairies annexes de quartier",
+              "source": "France Bleu Alsace, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "lutz": null,
+            "million": {
+              "texte": "Faire de Mulhouse une capitale trinationale",
+              "source": "France Bleu Alsace, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "lutz": {
+              "texte": "Extension des zones piétonnes (9 000 m²), plantations d'arbres et création d'espaces verts en centre-ville",
+              "source": "France 3 Grand Est, décembre 2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/mulhouse/municipales-2026-a-mulhouse-michele-lutz-annonce-sa-candidature-pour-un-nouveau-mandat-3258649.html"
+            },
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": {
+              "texte": "Lutte contre la pauvreté (36 % de taux de pauvreté), priorité absolue du mandat",
+              "source": "France Bleu Alsace, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": {
+              "texte": "Candidat des classes populaires : fierté, dignité et justice pour les quartiers",
+              "source": "France Bleu Alsace, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+            },
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "lutz": null,
+            "million": null,
+            "minery": null,
+            "ritz": null,
+            "taffarelli": null,
+            "gafanesch": null,
+            "sassi": null,
+            "sornin": null,
+            "fuchs": null,
+            "marquet": null,
+            "keltoumi": null,
+            "djehaf": null
+          }
+        }
+      ]
+    }
+  ]
+}

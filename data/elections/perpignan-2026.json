@@ -1,0 +1,802 @@
+{
+  "ville": "Perpignan",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "aliot",
+      "nom": "Louis Aliot",
+      "liste": "Continuons ensemble (RN, sortant)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "nougayrede",
+      "nom": "Bruno Nougayrède",
+      "liste": "100% Perpignan (LR-UDI-Horizons-MoDem-Renaissance)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "langevine",
+      "nom": "Agnès Langevine",
+      "liste": "Perpignan la Catalane (Place Publique-Centre)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "blanc",
+      "nom": "Mathias Blanc",
+      "liste": "Perpignan Autrement (PS-PCF-PRG)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "idrac",
+      "nom": "Mickaël Idrac",
+      "liste": "Perpignan, Changez d'air ! (LFI-EELV-G.s)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ripoull",
+      "nom": "Clotilde Ripoull",
+      "liste": "Libres (sans étiquette)",
+      "programmeUrl": "https://www.clotilderipoull.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "aliot": {
+              "texte": "Porter à 250 policiers municipaux d'ici la fin du prochain mandat (50 de plus qu'aujourd'hui), présence 24h/24",
+              "source": "France Bleu Roussillon, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "nougayrede": {
+              "texte": "Créer des postes mobiles de police municipale dans les quartiers pour lutter contre le harcèlement de rue et le trafic de drogue",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "langevine": null,
+            "blanc": {
+              "texte": "Redéployer la police municipale vers une véritable police de proximité au cœur des quartiers",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": {
+              "texte": "Retour d'une véritable police de proximité, renforcement des éducateurs de rue et politique de prévention transparente",
+              "source": "France Bleu Roussillon, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "ripoull": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "aliot": {
+              "texte": "Installer 200 caméras de vidéosurveillance supplémentaires dans les quartiers",
+              "source": "France Bleu Roussillon, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": {
+              "texte": "Mettre en place un programme éducatif de prévention des drogues et incivilités, de l'école primaire au lycée",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "aliot": {
+              "texte": "Créer une nouvelle entrée nord de la ville et un parking relais pour désengorger le centre",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": {
+              "texte": "Développer des lignes de bus à haut niveau de service avec fréquences renforcées (70% des habitants dépendent de la voiture)",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": {
+              "texte": "Gratuité de la première demi-heure de stationnement en centre-ville pour relancer le commerce",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": {
+              "texte": "Politique de retour des propriétaires occupants en centre-ville pour recréer de la mixité sociale",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": {
+              "texte": "Création de places de crèche supplémentaires pour répondre à la demande des familles",
+              "source": "France Bleu Roussillon, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "ripoull": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": {
+              "texte": "Rénover les écoles pour les adapter aux hausses de températures, créer des « oasis » végétalisées autour et dans les écoles",
+              "source": "Made in Perpignan, janvier 2026",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "blanc": {
+              "texte": "Rénover massivement les écoles pour les rendre vivables en été comme en hiver",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": {
+              "texte": "Petit-déjeuner gratuit pour chaque élève, kit de fournitures offert à l'entrée en CP dès 2027",
+              "source": "Made in Perpignan, janvier 2026",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "blanc": null,
+            "idrac": {
+              "texte": "Cantines scolaires gratuites et bio, école ouverte dès 7h",
+              "source": "France Bleu Roussillon, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "ripoull": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": {
+              "texte": "Ouverture des écoles dès 7h, propositions ciblées pour la jeunesse (mobilité, emploi, loisirs)",
+              "source": "Made in Perpignan, janvier 2026",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": {
+              "texte": "Planter massivement des arbres dans toute la ville pour lutter contre les îlots de chaleur",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": {
+              "texte": "Plan ombre inspiré de l'Andalousie pour faire face aux pics de chaleur",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "langevine": {
+              "texte": "Créer des « oasis » de fraîcheur pour rafraîchir la ville lors des canicules, désimperhéabiliser les cours d'école et les espaces urbains",
+              "source": "France Bleu Roussillon, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "blanc": {
+              "texte": "Créer une cellule municipale « climat » réunissant urbanistes, hydrologues, botanistes, citoyens et agents municipaux",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "aliot": {
+              "texte": "Projet d'usine de dessalement de l'eau de mer estimé à 40 millions d'euros pour sécuriser l'approvisionnement en eau",
+              "source": "France 3 Occitanie, 2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/"
+            },
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": {
+              "texte": "Fin du foie gras et 50% de végétalisation des buffets municipaux, campagne massive de stérilisation des chats errants",
+              "source": "Made in Perpignan, septembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "aliot": {
+              "texte": "Lutter contre la pénurie de médecins, priorité du prochain mandat",
+              "source": "France 3 Occitanie, 2025",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/"
+            },
+            "nougayrede": {
+              "texte": "Récupérer une faculté de médecine à Perpignan pour former et fixer les médecins localement",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "langevine": null,
+            "blanc": {
+              "texte": "Recruter 15 médecins pour garantir un suivi médical à chacun (15 000 Perpignanais sans médecin traitant)",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": {
+              "texte": "Créer des assemblées citoyennes et populaires dans les quartiers avec pouvoir décisionnel et budget dédié de 4 millions d'euros/an (5% du budget municipal)",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": {
+              "texte": "Démocratie participative et politique de prévention transparente dans tous les quartiers",
+              "source": "France Bleu Roussillon, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "ripoull": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": {
+              "texte": "Redonner toute leur place aux maisons de quartier comme espaces de services publics, de solidarité et de citoyenneté",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "aliot": {
+              "texte": "Créer une zone franche en centre-ville pour attirer les commerces et entreprises",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "nougayrede": {
+              "texte": "Revitaliser le centre-ville historique : redonner vie et fierté au cœur de ville, tant sur le plan patrimonial que commercial",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": {
+              "texte": "Relance économique par la consommation populaire, création d'un poste d'adjoint « ville productive » interlocuteur direct des artisans",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "ripoull": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": {
+              "texte": "Améliorer les conditions d'accueil des entreprises : ressources humaines, foncier, accès au capital et coût de l'énergie",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "langevine": {
+              "texte": "Mobiliser 1 000 places de stationnement en période commerciale et relancer les grands événements urbains pour l'attractivité",
+              "source": "Made in Perpignan, janvier 2026",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": {
+              "texte": "Redonner une place importante aux fêtes catalanes, publier des manuels scolaires en catalan, personnel scolaire catalanophone dans les écoles immersives",
+              "source": "France Bleu Roussillon, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": {
+              "texte": "Première licence sportive gratuite pour les enfants",
+              "source": "France Bleu Roussillon, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": {
+              "texte": "Changer radicalement l'urbanisme : stopper la bétonisation et privilégier un développement durable",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "ripoull": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": {
+              "texte": "Réinvestir les quartiers : redonner vie aux maisons de quartier comme lieux de proximité et d'animation",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": null,
+            "ripoull": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": {
+              "texte": "Plan de lutte contre la précarité, ne pas augmenter les impôts et envisager une baisse si les bases fiscales progressent",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": null,
+            "ripoull": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "aliot": null,
+            "nougayrede": null,
+            "langevine": null,
+            "blanc": null,
+            "idrac": {
+              "texte": "Améliorer le pouvoir d'achat des Perpignanais en priorité, via la consommation locale",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
+            "ripoull": null
+          }
+        }
+      ]
+    }
+  ]
+}

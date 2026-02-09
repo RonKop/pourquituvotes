@@ -1,0 +1,943 @@
+{
+  "ville": "Orléans",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "grouard",
+      "nom": "Serge Grouard",
+      "liste": "Ici, c'est Orléans (DVD)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "janvier",
+      "nom": "Caroline Janvier",
+      "liste": "Vivons Orléans (centre)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chapuis",
+      "nom": "Baptiste Chapuis",
+      "liste": "Rassembler Orléans (PS/PCF/Génération.s/Place publique/PRG)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "grand",
+      "nom": "Jean-Philippe Grand",
+      "liste": "OSE - Orléans Solidaire et Écologique (EELV)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "pele",
+      "nom": "Valentin Pelé",
+      "liste": "Orléans en commun (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rabault",
+      "nom": "Tiffanie Rabault",
+      "liste": "Orléans, nouvel élan (RN)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "meyer",
+      "nom": "Grégory Meyer",
+      "liste": "Notre ville plus que jamais vivante (Horizons)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lamarque",
+      "nom": "Isabelle Lamarque",
+      "liste": "À la reconquête d'Orléans (Reconquête !)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "megdoud",
+      "nom": "Farida Megdoud",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": {
+              "texte": "Désarmement de la police municipale pour les armes létales",
+              "source": "Mag'Centre, janvier 2026",
+              "sourceUrl": "https://www.magcentre.fr/349158-valentin-pele-tete-de-liste-lfi-aux-municipales-a-orleans-nous-serons-en-tete-a-lissue-du-1er-tour/"
+            },
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "grouard": {
+              "texte": "Poursuite de la politique de proximité : propreté, sécurité et restauration du patrimoine",
+              "source": "France Bleu Orléans, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-le-maire-d-orleans-serge-grouard-brigue-bien-un-nouveau-mandat-3755390"
+            },
+            "janvier": null,
+            "chapuis": {
+              "texte": "Création d'un réseau de « safe spaces » dans les bars, commerces et écoles pour lutter contre le harcèlement de rue",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": null,
+            "pele": null,
+            "rabault": {
+              "texte": "Renforcement de la sécurité dans les rues d'Orléans, priorité à la tranquillité publique",
+              "source": "France Bleu Orléans, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/orleans-le-rn-choisit-tiffanie-rabault-ex-candidate-aux-legislatives-pour-mener-la-liste-des-municipales-en-2026-3264954"
+            },
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "grouard": null,
+            "janvier": {
+              "texte": "Amélioration de la mobilité au quotidien, avec un réseau de transports plus performant",
+              "source": "France Bleu Orléans, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/je-suis-la-seule-a-avoir-battu-serge-grouard-caroline-janvier-officialise-sa-candidature-aux-municipales-a-orleans-6202892"
+            },
+            "chapuis": null,
+            "grand": null,
+            "pele": {
+              "texte": "Construction d'une troisième ligne de tramway",
+              "source": "Mag'Centre, janvier 2026",
+              "sourceUrl": "https://www.magcentre.fr/349158-valentin-pele-tete-de-liste-lfi-aux-municipales-a-orleans-nous-serons-en-tete-a-lissue-du-1er-tour/"
+            },
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": {
+              "texte": "Création de vraies vélo-routes sécurisées dans toute la ville",
+              "source": "France Bleu Orléans, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/elections-municipales-a-orleans-ose-presente-son-programme-2923431"
+            },
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": {
+              "texte": "Gratuité progressive des transports en commun : d'abord les week-ends, puis en semaine pour les jeunes et les seniors",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Tram gratuit le samedi et deux heures de stationnement gratuit pour les clients des commerces le samedi",
+              "source": "France Bleu Orléans, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/elections-municipales-a-orleans-ose-presente-son-programme-2923431"
+            },
+            "pele": {
+              "texte": "Gratuité totale des transports en commun et création d'une régie publique des transports",
+              "source": "Mag'Centre, janvier 2026",
+              "sourceUrl": "https://www.magcentre.fr/349158-valentin-pele-tete-de-liste-lfi-aux-municipales-a-orleans-nous-serons-en-tete-a-lissue-du-1er-tour/"
+            },
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": {
+              "texte": "Augmentation du parc de logements sociaux dans la ville",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": {
+              "texte": "Priorité à l'enfance : création de places supplémentaires en crèche et démarchandisation du secteur",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": {
+              "texte": "Végétalisation de toutes les cours d'école et sécurisation des rues scolaires pour le vélo",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Végétalisation de toutes les cours d'école",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": {
+              "texte": "Fournitures scolaires gratuites (crayons, cahiers, gommes) pour environ 5 000 élèves, coût estimé 200 000 à 300 000 €",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Remunicipalisation des cantines scolaires et passage à 40 puis 50 % de produits bio et locaux",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
+            "pele": {
+              "texte": "Gratuité des cantines scolaires",
+              "source": "Mag'Centre, janvier 2026",
+              "sourceUrl": "https://www.magcentre.fr/349158-valentin-pele-tete-de-liste-lfi-aux-municipales-a-orleans-nous-serons-en-tete-a-lissue-du-1er-tour/"
+            },
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "grouard": null,
+            "janvier": {
+              "texte": "Transition écologique et lutte contre le dérèglement climatique et ses effets sur la ville",
+              "source": "France Bleu Orléans, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/je-suis-la-seule-a-avoir-battu-serge-grouard-caroline-janvier-officialise-sa-candidature-aux-municipales-a-orleans-6202892"
+            },
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "grouard": null,
+            "janvier": {
+              "texte": "Amélioration de l'accès aux soins pour tous les Orléanais",
+              "source": "France Bleu Orléans, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/je-suis-la-seule-a-avoir-battu-serge-grouard-caroline-janvier-officialise-sa-candidature-aux-municipales-a-orleans-6202892"
+            },
+            "chapuis": null,
+            "grand": null,
+            "pele": {
+              "texte": "Création d'un réseau de centres de santé municipaux",
+              "source": "Mag'Centre, janvier 2026",
+              "sourceUrl": "https://www.magcentre.fr/349158-valentin-pele-tete-de-liste-lfi-aux-municipales-a-orleans-nous-serons-en-tete-a-lissue-du-1er-tour/"
+            },
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": {
+              "texte": "Audit des projets existants dès la prise de fonction",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": null,
+            "pele": {
+              "texte": "Organisation de votations citoyennes et transparence des dépenses publiques",
+              "source": "Mag'Centre, janvier 2026",
+              "sourceUrl": "https://www.magcentre.fr/349158-valentin-pele-tete-de-liste-lfi-aux-municipales-a-orleans-nous-serons-en-tete-a-lissue-du-1er-tour/"
+            },
+            "rabault": null,
+            "meyer": {
+              "texte": "Changement de gouvernance : projets construits avec élus, habitants et services municipaux, et non imposés d'en haut",
+              "source": "France Bleu Orléans, septembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/oui-je-suis-pret-a-devenir-le-prochain-maire-d-orleans-l-avocat-gregory-meyer-candidat-pour-mars-2026-6599583"
+            },
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": {
+              "texte": "Pactes financiers de 3 à 4 ans avec les associations pour leur donner stabilité et visibilité",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": {
+              "texte": "Création d'un service public municipal des pompes funèbres",
+              "source": "Mag'Centre, janvier 2026",
+              "sourceUrl": "https://www.magcentre.fr/349158-valentin-pele-tete-de-liste-lfi-aux-municipales-a-orleans-nous-serons-en-tete-a-lissue-du-1er-tour/"
+            },
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": {
+              "texte": "Nouvelles Halles Châtelet pour valoriser la gastronomie locale et l'artisanat",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Remplacement du projet Halles Châtelet par des « marchés populaires » et révision complète du projet de requalification des Mails",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "grouard": {
+              "texte": "Grands projets : restructuration de la place d'Arc, Cité Jeanne d'Arc à Charbonnière, musée des Beaux-Arts rénové",
+              "source": "France 3 Centre, janvier 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/centre-val-de-loire/loiret/orleans/municipales-2026-sans-surprise-serge-grouard-candidat-a-sa-reelection-a-orleans-3278198.html"
+            },
+            "janvier": {
+              "texte": "Réindustrialisation de la métropole et développement du tourisme",
+              "source": "France Bleu Orléans, janvier 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/je-suis-la-seule-a-avoir-battu-serge-grouard-caroline-janvier-officialise-sa-candidature-aux-municipales-a-orleans-6202892"
+            },
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": {
+              "texte": "Développement économique d'Orléans et politique inclusive",
+              "source": "France Bleu Orléans, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/orleans-le-rn-choisit-tiffanie-rabault-ex-candidate-aux-legislatives-pour-mener-la-liste-des-municipales-en-2026-3264954"
+            },
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "grouard": {
+              "texte": "Cité Jeanne d'Arc à Charbonnière et rénovation du musée des Beaux-Arts",
+              "source": "France 3 Centre, janvier 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/centre-val-de-loire/loiret/orleans/municipales-2026-sans-surprise-serge-grouard-candidat-a-sa-reelection-a-orleans-3278198.html"
+            },
+            "janvier": null,
+            "chapuis": {
+              "texte": "Création d'un centre international Jeanne d'Arc et d'une Cité du numérique dans l'ancien collège Jean Rostand",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": {
+              "texte": "Rénovation du stade de La Source pour l'USO et le RCO",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "grouard": {
+              "texte": "La « beauté comme projet politique » : rénovation des façades, restauration des édifices historiques et des églises",
+              "source": "France 3 Centre, janvier 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/centre-val-de-loire/loiret/orleans/municipales-2026-sans-surprise-serge-grouard-candidat-a-sa-reelection-a-orleans-3278198.html"
+            },
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": {
+              "texte": "Création d'une régie maraîchère municipale pour l'accès à une alimentation de qualité",
+              "source": "Mag'Centre, janvier 2026",
+              "sourceUrl": "https://www.magcentre.fr/349158-valentin-pele-tete-de-liste-lfi-aux-municipales-a-orleans-nous-serons-en-tete-a-lissue-du-1er-tour/"
+            },
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": null,
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "grouard": null,
+            "janvier": null,
+            "chapuis": null,
+            "grand": null,
+            "pele": {
+              "texte": "Gratuité des premiers mètres cubes d'eau pour tous les ménages",
+              "source": "Mag'Centre, janvier 2026",
+              "sourceUrl": "https://www.magcentre.fr/349158-valentin-pele-tete-de-liste-lfi-aux-municipales-a-orleans-nous-serons-en-tete-a-lissue-du-1er-tour/"
+            },
+            "rabault": null,
+            "meyer": null,
+            "lamarque": null,
+            "megdoud": null
+          }
+        }
+      ]
+    }
+  ]
+}

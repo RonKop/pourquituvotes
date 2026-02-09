@@ -1,0 +1,832 @@
+{
+  "ville": "Saint-Étienne",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "cinieri",
+      "nom": "Dino Cinieri",
+      "liste": "Saint-Étienne Ensemble 2026 (LR/UDI/Horizons/Renaissance/MoDem)",
+      "programmeUrl": "https://www.cinieri2026.com/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "juanico",
+      "nom": "Régis Juanico",
+      "liste": "Rassembler Saint-Étienne (PS/EELV/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "le-jaouen",
+      "nom": "Éric Le Jaouen",
+      "liste": "Relevons Saint-Étienne (Horizons dissident)",
+      "programmeUrl": "https://www.lejaouen2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chassaubene",
+      "nom": "Marc Chassaubéné",
+      "liste": "Majorité sortante (1er adjoint)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "labich",
+      "nom": "Siham Labich",
+      "liste": "Liste citoyenne (2e adjointe sortante)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mercier",
+      "nom": "Valentine Mercier",
+      "liste": "La France Insoumise",
+      "programmeUrl": "https://mercier2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "jousserand",
+      "nom": "Corentin Jousserand",
+      "liste": "Rassemblement National",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "brossard",
+      "nom": "Romain Brossard",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "cinieri": {
+              "texte": "Renforcement de la sécurité en priorité avec des moyens accrus pour la police municipale",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-saint-etienne-loire/municipales-a-saint-etienne-dino-cinieri-presente-sa-liste-8246239"
+            },
+            "juanico": {
+              "texte": "Création d'une police municipale communautaire de proximité",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-saint-etienne-loire/municipales-2026-la-gauche-stephanoise-unie-derriere-le-socialiste-regis-juanico-8849511"
+            },
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": {
+              "texte": "Recentrer la police municipale sur ses missions de proximité et de prévention",
+              "source": "TL7, 2026",
+              "sourceUrl": "https://www.tl7.fr/replay/7-mn-chrono_8/saint-etienne-municipales-2026-valentine-mercier-lfi-devoile-son-programme-7-minutes-chrono_x9x4knu.html"
+            },
+            "jousserand": {
+              "texte": "Lutte contre l'insécurité comme priorité absolue",
+              "source": "France Bleu, 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-saint-etienne-corentin-jousserand-28-ans-est-la-tete-de-liste-du-rassemblement-national-5554400"
+            },
+            "brossard": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "cinieri": null,
+            "juanico": {
+              "texte": "Gratuité des transports en commun le week-end",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-saint-etienne-loire/l-invite-d-ici-matin-regis-juanico-chef-de-file-de-la-liste-rassembler-saint-etienne-3268244"
+            },
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": {
+              "texte": "Piétonnisation massive du centre-ville et intensification des transports en commun",
+              "source": "IF Saint-Étienne, 2025",
+              "sourceUrl": "https://www.if-saint-etienne.fr/politique-societe/municipales-2026-a-saint-etienne-lfi-a-presente-ses-axes-programmatiques"
+            },
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": {
+              "texte": "Programme articulé autour de grandir, vivre, transmettre avec le logement, la mobilité et la sécurité comme fil rouge",
+              "source": "Radio Scoop, 2025",
+              "sourceUrl": "https://www.radioscoop.com/infos/municipales-2026-a-saint-etienne-marc-chassaubene-officialise-sa-candidature_344977"
+            },
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": {
+              "texte": "Cantines bio et gratuites dans les écoles",
+              "source": "IF Saint-Étienne, 2025",
+              "sourceUrl": "https://www.if-saint-etienne.fr/politique-societe/municipales-2026-a-saint-etienne-lfi-a-presente-ses-axes-programmatiques"
+            },
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "cinieri": {
+              "texte": "Améliorer la propreté de la ville, axe prioritaire du programme",
+              "source": "Activ Radio, 2025",
+              "sourceUrl": "https://www.activradio.com/municipales-2026-dino-cinieri-va-faire-campagne-pour-le-collectif-saint-etienne-ensemble-2026"
+            },
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "cinieri": null,
+            "juanico": {
+              "texte": "Déployer des médicobus pour rapprocher les soins des habitants éloignés des services médicaux",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-saint-etienne-loire/l-invite-d-ici-matin-regis-juanico-chef-de-file-de-la-liste-rassembler-saint-etienne-3268244"
+            },
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": {
+              "texte": "Ouverture d'un centre de santé municipal à Côte Chaude",
+              "source": "IF Saint-Étienne, 2025",
+              "sourceUrl": "https://www.if-saint-etienne.fr/politique-societe/municipales-2026-a-saint-etienne-lfi-a-presente-ses-axes-programmatiques"
+            },
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": {
+              "texte": "Instaurer des budgets participatifs dans les conseils de quartier et un référendum d'initiative citoyenne local",
+              "source": "TL7, 2026",
+              "sourceUrl": "https://www.tl7.fr/replay/7-mn-chrono_8/saint-etienne-municipales-2026-valentine-mercier-lfi-devoile-son-programme-7-minutes-chrono_x9x4knu.html"
+            },
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "cinieri": null,
+            "juanico": {
+              "texte": "Réduire de 15% l'indemnité du maire (de 4 000 à 3 500 € nets) pour restaurer la confiance après l'affaire Perdriau",
+              "source": "France 3, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/loire/saint-etienne/reduire-de-15-de-l-indemnite-du-maire-une-mesure-annoncee-par-regis-juanico-candidat-aux-municipales-de-saint-etienne-3290505.html"
+            },
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": {
+              "texte": "Plafonner les indemnités des élus, instaurer la révocabilité des élus et limiter le cumul des mandats",
+              "source": "IF Saint-Étienne, 2025",
+              "sourceUrl": "https://www.if-saint-etienne.fr/politique-societe/municipales-2026-a-saint-etienne-lfi-a-presente-ses-axes-programmatiques"
+            },
+            "jousserand": {
+              "texte": "Création d'un comité d'éthique pour contrôler la moralité des élus",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-saint-etienne-loire/le-candidat-rassemblement-national-a-la-mairie-de-saint-etienne-propose-un-comite-d-ethique-pour-la-moralite-des-elus-9039906"
+            },
+            "brossard": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": {
+              "texte": "Mener une liste citoyenne sans étiquette politique, issue de la société civile, soutenue par 12 élus sortants",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-siham-labich-officiellement-candidate-deuxieme-liste-issue-de-la-majorite-a-saint-etienne-3748819"
+            },
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "cinieri": {
+              "texte": "Relancer le commerce local et l'attractivité économique de Saint-Étienne",
+              "source": "France Bleu, 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-saint-etienne-dino-cinieri-designe-tete-de-liste-de-la-droite-et-du-centre-par-un-sondage-9876142"
+            },
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": {
+              "texte": "Redonner un élan économique à Saint-Étienne, liste du renouveau de la droite et du centre",
+              "source": "France Bleu, 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/eric-le-jaouen-candidat-aux-municipales-a-saint-etienne-pour-redonner-un-elan-a-la-ville-6315268"
+            },
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": {
+              "texte": "Attirer l'activité économique à Saint-Étienne et améliorer l'image de la ville",
+              "source": "France Bleu, 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-saint-etienne-corentin-jousserand-28-ans-est-la-tete-de-liste-du-rassemblement-national-5554400"
+            },
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "cinieri": null,
+            "juanico": {
+              "texte": "Développement de zones piétonnes en centre-ville",
+              "source": "France Bleu, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-saint-etienne-loire/l-invite-d-ici-matin-regis-juanico-chef-de-file-de-la-liste-rassembler-saint-etienne-3268244"
+            },
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "cinieri": null,
+            "juanico": null,
+            "le-jaouen": null,
+            "chassaubene": null,
+            "labich": null,
+            "mercier": null,
+            "jousserand": null,
+            "brossard": {
+              "texte": "Défendre le pouvoir d'achat des salariés, chômeurs et retraités face à la hausse des prix et la stagnation des salaires",
+              "source": "Lutte Ouvrière, 2025",
+              "sourceUrl": "https://www.lutte-ouvriere.org/portail/revue-de-presse/municipales-2026-solutions-luttes-romain-brossard-repart-combat-saint-etienne-188071.html"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

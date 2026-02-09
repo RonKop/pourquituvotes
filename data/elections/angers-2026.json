@@ -1,0 +1,723 @@
+{
+  "ville": "Angers",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "bechu",
+      "nom": "Christophe Béchu",
+      "liste": "Angers pour vous (Horizons/Renaissance/MoDem)",
+      "programmeUrl": "https://www.angersbechu.fr/",
+      "programmeComplet": true,
+      "programmePdfPath": null
+    },
+    {
+      "id": "laveau",
+      "nom": "Romain Laveau",
+      "liste": "Demain Angers (gauche unie/Écologistes)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "saeidi",
+      "nom": "Arash Saeidi",
+      "liste": "Angers populaire (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lahondes",
+      "nom": "Aurore Lahondès",
+      "liste": "Rassemblement National",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "leandri",
+      "nom": "Noam Leandri",
+      "liste": "Angers Coopérative (citoyen)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "bechu": {
+              "texte": "Augmenter les effectifs de la police municipale de 40 à 75 agents, créer des équipes de nuit et une brigade cynophile",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-christophe-bechu-presente-ses-deux-nouveaux-colistiers/"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": {
+              "texte": "Doubler les effectifs de la police municipale et armer les agents d'armes létales dès 2026",
+              "source": "my-angers.info, 2025",
+              "sourceUrl": "https://my-angers.info/11/21/le-rassemblement-national-devoile-sa-candidate-pour-les-elections-municipales-dangers/173970"
+            },
+            "leandri": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "bechu": {
+              "texte": "Porter le réseau de vidéoprotection à 300 caméras avec un centre de supervision opérationnel",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-christophe-bechu-presente-ses-deux-nouveaux-colistiers/"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "bechu": {
+              "texte": "Adopter un plan de lutte contre les incivilités et armer progressivement les policiers municipaux",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-christophe-bechu-presente-lensemble-de-ses-propositions/"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "bechu": null,
+            "laveau": {
+              "texte": "Faire de la lutte contre les violences faites aux femmes une priorité municipale",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-demain-angers-devoile-ses-premiers-colistiers-et-ses-priorites/"
+            },
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "bechu": {
+              "texte": "Mettre en place la gratuité des transports en commun",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-christophe-bechu-presente-lensemble-de-ses-propositions/"
+            },
+            "laveau": {
+              "texte": "Créer des voies réservées bus/covoiturage sur les bords de Maine et une ligne de bus circulaire reliant les quartiers périphériques",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-demain-angers-propose-de-repenser-la-ville-autour-du-pieton/"
+            },
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "bechu": {
+              "texte": "Ouvrir une maison du vélo et des mobilités près de la gare, atteindre 160 km de voies cyclables sécurisées d'ici 2030",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-christophe-bechu-presente-lensemble-de-ses-propositions/"
+            },
+            "laveau": {
+              "texte": "Renforcer les continuités cyclables et sécuriser les ronds-points dangereux pour les vélos",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-demain-angers-propose-de-repenser-la-ville-autour-du-pieton/"
+            },
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "bechu": null,
+            "laveau": {
+              "texte": "Multiplier les rues aux écoles où la circulation est restreinte aux heures d'entrée et sortie",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-demain-angers-propose-de-repenser-la-ville-autour-du-pieton/"
+            },
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "bechu": null,
+            "laveau": {
+              "texte": "Baisser les tarifs des transports en commun, notamment pour les étudiants ; navettes gratuites depuis les parkings relais du tramway",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-demain-angers-propose-de-repenser-la-ville-autour-du-pieton/"
+            },
+            "saeidi": {
+              "texte": "Gratuité progressive des transports en commun, des premiers mètres cubes d'eau et de la cantine scolaire",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-la-liste-angers-populaire-lance-sa-campagne-avec-le-soutien-de-deputees-lfi/"
+            },
+            "lahondes": null,
+            "leandri": {
+              "texte": "Gratuité totale ou partielle des transports en commun (95% des citoyens consultés favorables)",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-2026-angers-cooperative-passe-a-la-vitesse-superieure/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "bechu": null,
+            "laveau": {
+              "texte": "Faire reconnaître Angers en zone tendue pour plafonner les loyers",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-demain-angers-fait-du-logement-lune-de-ses-priorites/"
+            },
+            "saeidi": {
+              "texte": "Placer Angers en zone tendue pour encadrer les loyers, augmenter la part de logements sociaux",
+              "source": "Angers Infos, 2026",
+              "sourceUrl": "https://angers-infos.fr/angers-populaire-devoile-son-binome-et-lance-sa-campagne-municipale/"
+            },
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "bechu": {
+              "texte": "Faire de l'enfance et la jeunesse la grande cause du mandat : petite enfance, soutien à la parentalité, lutte contre la surexposition aux écrans",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-christophe-bechu-devoile-lensemble-de-sa-liste/"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "bechu": {
+              "texte": "Recruter 35 ATSEM supplémentaires pour garantir un agent par classe, investir massivement dans la rénovation des écoles des quartiers prioritaires",
+              "source": "my-angers.info, 2026",
+              "sourceUrl": "https://my-angers.info/01/16/municipales-a-angers-christophe-bechu-devoile-ses-deux-premiers-colistiers-securite-et-education-en-tete/176626"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "bechu": {
+              "texte": "Poursuivre la montée en gamme de la restauration scolaire Papillote & Compagnie (42% de bio atteint)",
+              "source": "my-angers.info, 2026",
+              "sourceUrl": "https://my-angers.info/01/16/municipales-a-angers-christophe-bechu-devoile-ses-deux-premiers-colistiers-securite-et-education-en-tete/176626"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "bechu": {
+              "texte": "Maintenir la gratuité des activités périscolaires",
+              "source": "my-angers.info, 2026",
+              "sourceUrl": "https://my-angers.info/01/16/municipales-a-angers-christophe-bechu-devoile-ses-deux-premiers-colistiers-securite-et-education-en-tete/176626"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": {
+              "texte": "Plan ambitieux de végétalisation de la ville",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-la-liste-angers-populaire-lance-sa-campagne-avec-le-soutien-de-deputees-lfi/"
+            },
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "bechu": {
+              "texte": "Organiser des assises de la transition écologique, poursuivre la création de nature en ville (68 ha créés)",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-christophe-bechu-presente-deux-nouvelles-colistieres-pour-la-citoyennete-et-lecologie/"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "bechu": null,
+            "laveau": {
+              "texte": "Soutenir les fermes urbaines et expérimenter des caisses mutualisées pour une alimentation durable",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-la-liste-de-gauche-demain-angers-veut-renforcer-les-solidarites/"
+            },
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": {
+              "texte": "Créer des centres de santé municipaux avec médecins salariés, sans dépassements d'honoraires et avec tiers payant intégral",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-la-france-insoumise-decline-ses-propositions-sur-le-theme-de-la-sante-a-angers/"
+            },
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": {
+              "texte": "Créer une mutuelle municipale avec tarifs préférentiels et renforcer les centres de planification familiale",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-la-france-insoumise-decline-ses-propositions-sur-le-theme-de-la-sante-a-angers/"
+            },
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "bechu": {
+              "texte": "Renforcer les moyens pour le commerce local avec une responsabilité confiée à Aldev (agence de développement économique)",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-christophe-bechu-devoile-lensemble-de-sa-liste/"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "bechu": {
+              "texte": "Transformer l'hôtel de la Godeline en salle de bal et de danse",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-christophe-bechu-presente-lensemble-de-ses-propositions/"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "bechu": {
+              "texte": "Organiser des états généraux du football pour soutenir les clubs et reconnaître leur rôle éducatif",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-christophe-bechu-presente-lensemble-de-ses-propositions/"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "bechu": {
+              "texte": "Renouvellement urbain majeur des quartiers Belle-Beille et Monplaisir",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-christophe-bechu-presente-lensemble-de-ses-propositions/"
+            },
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "bechu": null,
+            "laveau": {
+              "texte": "Soutenir les familles monoparentales, expérimenter une sécurité sociale de l'alimentation, créer une épicerie sociale par quartier",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-la-liste-de-gauche-demain-angers-veut-renforcer-les-solidarites/"
+            },
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": {
+              "texte": "Créer un bureau mobile pour accompagner les habitants dans les démarches numériques, lutter contre la grande pauvreté",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-2026-angers-cooperative-passe-a-la-vitesse-superieure/"
+            }
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": null,
+            "lahondes": null,
+            "leandri": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "bechu": null,
+            "laveau": null,
+            "saeidi": {
+              "texte": "Rendre la ville moins chère : gratuité des transports, de l'eau potable vitale, de la cantine et des fournitures scolaires",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-la-liste-angers-populaire-lance-sa-campagne-avec-le-soutien-de-deputees-lfi/"
+            },
+            "lahondes": {
+              "texte": "Améliorer le pouvoir d'achat des Angevins et baisser les impôts locaux",
+              "source": "Angers Villactu, 2026",
+              "sourceUrl": "https://www.angers.villactu.fr/municipales-le-rassemblement-national-veut-ameliorer-la-securite-des-angevins-et-baisser-les-impots/"
+            },
+            "leandri": null
+          }
+        }
+      ]
+    }
+  ]
+}

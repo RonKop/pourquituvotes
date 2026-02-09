@@ -1,0 +1,872 @@
+{
+  "ville": "Metz",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "grosdidier",
+      "nom": "François Grosdidier",
+      "liste": "J'aime Metz (DVD)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "leduc",
+      "nom": "Charlotte Leduc",
+      "liste": "Metz en commun (LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "roques",
+      "nom": "Jérémy Roques",
+      "liste": "Maintenant pour Metz (EELV/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mertz",
+      "nom": "Bertrand Mertz",
+      "liste": "PS / Place publique",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mendes",
+      "nom": "Ludovic Mendes",
+      "liste": "Metz Ensemble (Renaissance)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "anstett",
+      "nom": "Étienne Anstett",
+      "liste": "RN/UDR",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rinaldi",
+      "nom": "Mario Rinaldi",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "diaferia",
+      "nom": "Gaël Diaferia",
+      "liste": "NPA-Révolutionnaires",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "grosdidier": {
+              "texte": "Augmentation de 25 % des effectifs de police municipale et création de brigades spécialisées (canine, cycliste, sécurité routière) ; création d'une police métropolitaine dédiée aux transports et à l'environnement",
+              "source": "Le Courrier Messin, février 2026",
+              "sourceUrl": "https://courriermessin.fr/francois-grosdidier-metz-2026/"
+            },
+            "leduc": null,
+            "roques": null,
+            "mertz": {
+              "texte": "Coordination renforcée entre police municipale et police nationale, actions de sécurité dans chaque quartier",
+              "source": "France Bleu Lorraine, décembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-lorraine-moselle-et-pays-haut/municipales-2026-avec-la-candidature-de-bertrand-mertz-la-gauche-part-pour-l-instant-divisee-4761222"
+            },
+            "mendes": null,
+            "anstett": {
+              "texte": "Renforcement massif de la sécurité et lutte contre l'insécurité au-delà du centre-ville",
+              "source": "Tout-Metz, janvier 2026",
+              "sourceUrl": "https://tout-metz.com/municipales-2026-metz-etienne-anstett-rn-presente-premieres-mesures-programme-254563"
+            },
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "grosdidier": {
+              "texte": "Objectif 1 000 caméras de vidéosurveillance sur la ville d'ici 2026, réflexion sur la reconnaissance faciale encadrée par la loi",
+              "source": "Le Courrier Messin, février 2026",
+              "sourceUrl": "https://courriermessin.fr/francois-grosdidier-metz-2026/"
+            },
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": {
+              "texte": "Pacte sécurité : renforcement de la prévention et de la médiation dans tous les quartiers",
+              "source": "Moselle.tv, octobre 2025",
+              "sourceUrl": "https://moselle.tv/le-groupe-fabert-devient-metz-ensemble-avec-ludovic-mendes/"
+            },
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "grosdidier": {
+              "texte": "Poursuite du développement du réseau Mettis et des pistes cyclables, notamment le long des berges de la Seille de Magny à Ranconval",
+              "source": "Le Courrier Messin, février 2026",
+              "sourceUrl": "https://courriermessin.fr/francois-grosdidier-metz-2026/"
+            },
+            "leduc": null,
+            "roques": null,
+            "mertz": {
+              "texte": "Extension de la ligne Mettis pour améliorer la desserte des quartiers",
+              "source": "Tout-Metz, décembre 2025",
+              "sourceUrl": "https://tout-metz.com/municipales-2026-metz-bertrand-mertz-detaille-projets-metropole-2025-846298"
+            },
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "grosdidier": {
+              "texte": "Plan vélo 2030 revu à la hausse avec de nouveaux itinéraires cyclables structurants dans la ville",
+              "source": "Moselle.tv, février 2026",
+              "sourceUrl": "https://moselle.tv/securite-transports-quartiers-grosdidier-dessine-le-metz-de-demain/"
+            },
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": {
+              "texte": "Gratuité progressive des transports en commun sur le mandat, en commençant par les jeunes et les ménages modestes",
+              "source": "Tout-Metz, janvier 2026",
+              "sourceUrl": "https://tout-metz.com/municipales-2026-metz-charlotte-leduc-lfi-veut-faire-voter-messins-avant-heure-2026-842695"
+            },
+            "roques": {
+              "texte": "Gratuité progressive des transports en commun à partir de 2026",
+              "source": "Moselle.tv, septembre 2025",
+              "sourceUrl": "https://moselle.tv/jeremy-roques-lance-sa-campagne-avec-maintenant-pour-metz/"
+            },
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": {
+              "texte": "Plan d'urgence pour le logement social face aux 8 300 demandes en attente à Metz",
+              "source": "L'insoumission, janvier 2026",
+              "sourceUrl": "https://linsoumission.fr/2026/01/17/municipales-metz-bompard-leduc/"
+            },
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": {
+              "texte": "Utiliser le pouvoir de réquisition du maire pour les bâtiments vides et mettre à disposition les bâtiments publics inutilisés, objectif zéro sans-abri",
+              "source": "L'insoumission, janvier 2026",
+              "sourceUrl": "https://linsoumission.fr/2026/01/17/municipales-metz-bompard-leduc/"
+            },
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": {
+              "texte": "Cantines 100 % bio et locales gratuites pour tous les écoliers dès la rentrée 2026",
+              "source": "L'insoumission, janvier 2026",
+              "sourceUrl": "https://linsoumission.fr/2026/01/17/municipales-metz-bompard-leduc/"
+            },
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": {
+              "texte": "Politique ambitieuse pour la jeunesse : faire de la jeunesse la priorité transversale du mandat",
+              "source": "Tout-Metz, décembre 2025",
+              "sourceUrl": "https://tout-metz.com/municipales-2026-metz-bertrand-mertz-detaille-projets-metropole-2025-846298"
+            },
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": {
+              "texte": "Ouverture de la baignade dans la Moselle en centre-ville dès 2027 ; création d'une ferme urbaine d'ici 2029",
+              "source": "Moselle.tv, septembre 2025",
+              "sourceUrl": "https://moselle.tv/jeremy-roques-lance-sa-campagne-avec-maintenant-pour-metz/"
+            },
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": {
+              "texte": "Amélioration de la propreté dans tous les quartiers de Metz",
+              "source": "Tout-Metz, janvier 2026",
+              "sourceUrl": "https://tout-metz.com/municipales-2026-metz-etienne-anstett-rn-presente-premieres-mesures-programme-254563"
+            },
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": {
+              "texte": "Pacte écologique : écologie positive et non punitive, intégrée dans tous les projets de la ville",
+              "source": "Moselle.tv, octobre 2025",
+              "sourceUrl": "https://moselle.tv/le-groupe-fabert-devient-metz-ensemble-avec-ludovic-mendes/"
+            },
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "grosdidier": {
+              "texte": "Réinvestir les hôpitaux pour ramener des activités de soins en centre-ville ; centre de bien-être près de la piscine Lothaire",
+              "source": "Le Courrier Messin, février 2026",
+              "sourceUrl": "https://courriermessin.fr/francois-grosdidier-metz-2026/"
+            },
+            "leduc": null,
+            "roques": {
+              "texte": "Création d'un campus santé à Bridoux pour former des médecins localement d'ici 2031",
+              "source": "Moselle.tv, septembre 2025",
+              "sourceUrl": "https://moselle.tv/jeremy-roques-lance-sa-campagne-avec-maintenant-pour-metz/"
+            },
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": {
+              "texte": "Instauration d'un RIC municipal (référendum d'initiative citoyenne) et budget participatif avec vote des habitants",
+              "source": "Tout-Metz, janvier 2026",
+              "sourceUrl": "https://tout-metz.com/municipales-2026-metz-charlotte-leduc-lfi-veut-faire-voter-messins-avant-heure-2026-842695"
+            },
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": {
+              "texte": "Gouvernance participative et transparente : association des citoyens à chaque étape des décisions municipales",
+              "source": "Tout-Metz, décembre 2025",
+              "sourceUrl": "https://tout-metz.com/municipales-2026-metz-bertrand-mertz-detaille-projets-metropole-2025-846298"
+            },
+            "mendes": {
+              "texte": "Pacte démocratique : liste citoyenne transpartisane, 90 % des co-listiers sans étiquette politique",
+              "source": "Moselle.tv, octobre 2025",
+              "sourceUrl": "https://moselle.tv/le-groupe-fabert-devient-metz-ensemble-avec-ludovic-mendes/"
+            },
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": {
+              "texte": "Conversion de l'ancienne caserne de Ranconval en site associatif central d'ici 2028 ; ouverture des écoles aux associations hors temps scolaire dès 2030",
+              "source": "Moselle.tv, septembre 2025",
+              "sourceUrl": "https://moselle.tv/jeremy-roques-lance-sa-campagne-avec-maintenant-pour-metz/"
+            },
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": {
+              "texte": "Lutte contre la désertification commerciale et relance de l'attractivité des commerces de proximité",
+              "source": "Tout-Metz, janvier 2026",
+              "sourceUrl": "https://tout-metz.com/municipales-2026-metz-etienne-anstett-rn-presente-premieres-mesures-programme-254563"
+            },
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": {
+              "texte": "Création d'un hub numérique à la basilique Saint-Vincent avant 2032",
+              "source": "Moselle.tv, septembre 2025",
+              "sourceUrl": "https://moselle.tv/jeremy-roques-lance-sa-campagne-avec-maintenant-pour-metz/"
+            },
+            "mertz": null,
+            "mendes": {
+              "texte": "Redonner à Metz une place de premier plan au niveau national et européen, en s'appuyant sur son histoire particulière",
+              "source": "France Bleu Lorraine, octobre 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/ludovic-mendes-se-lance-dans-la-course-aux-municipales-a-metz-4204092"
+            },
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "grosdidier": {
+              "texte": "Ouverture de l'Espace Gymnique au printemps 2026 et nouveau centre de bien-être aquatique",
+              "source": "Le Courrier Messin, février 2026",
+              "sourceUrl": "https://courriermessin.fr/francois-grosdidier-metz-2026/"
+            },
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "grosdidier": {
+              "texte": "Piétonnisation de l'axe Cathédrale-Porte des Allemands avec création d'une nouvelle place des Paraiges",
+              "source": "Le Courrier Messin, février 2026",
+              "sourceUrl": "https://courriermessin.fr/francois-grosdidier-metz-2026/"
+            },
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": {
+              "texte": "Faire de Metz une municipalité antiraciste, inclusive et féministe",
+              "source": "Moselle.tv, décembre 2025",
+              "sourceUrl": "https://moselle.tv/metz-en-commun-charlotte-leduc-veut-agir-sur-le-terrain/"
+            },
+            "roques": null,
+            "mertz": null,
+            "mendes": null,
+            "anstett": null,
+            "rinaldi": null,
+            "diaferia": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "grosdidier": null,
+            "leduc": null,
+            "roques": null,
+            "mertz": {
+              "texte": "Zéro augmentation d'impôts locaux sur le mandat",
+              "source": "France Bleu Lorraine, décembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-lorraine-moselle-et-pays-haut/municipales-2026-avec-la-candidature-de-bertrand-mertz-la-gauche-part-pour-l-instant-divisee-4761222"
+            },
+            "mendes": null,
+            "anstett": {
+              "texte": "Défense du pouvoir d'achat des ménages messins, priorité du programme",
+              "source": "France Bleu Lorraine, octobre 2025",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/etienne-anstett-candidat-rn-aux-municipales-2026-a-metz-mon-ambition-est-d-arriver-premier-au-premier-tour-4508130"
+            },
+            "rinaldi": null,
+            "diaferia": null
+          }
+        }
+      ]
+    }
+  ]
+}

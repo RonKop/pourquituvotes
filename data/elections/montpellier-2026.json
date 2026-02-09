@@ -1,0 +1,1091 @@
+{
+  "ville": "Montpellier",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "delafosse",
+      "nom": "Michaël Delafosse",
+      "liste": "PS (maire sortant)",
+      "programmeUrl": "https://www.michaeldelafosse.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "altrad",
+      "nom": "Mohed Altrad",
+      "liste": "Divers droite",
+      "programmeUrl": "https://altrad2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "jamet",
+      "nom": "France Jamet",
+      "liste": "RN-UDR",
+      "programmeUrl": "https://francejamet.com/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "oziol",
+      "nom": "Nathalie Oziol",
+      "liste": "L'union de la gauche de rupture (LFI)",
+      "programmeUrl": "https://www.nathalieoziol.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "roumegas",
+      "nom": "Jean-Louis Roumegas",
+      "liste": "Le Printemps montpelliérain (EELV)",
+      "programmeUrl": "https://printemps-montpellierain.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "perrein",
+      "nom": "Isabelle Perrein",
+      "liste": "Aimer Montpellier (LR-UDI-MoDem)",
+      "programmeUrl": "https://www.isabelleperrein2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "gaillard",
+      "nom": "Rémi Gaillard",
+      "liste": "Sans étiquette",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "tsagalos",
+      "nom": "Thierry Tsagalos",
+      "liste": "Ex-RN (sans investiture)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "muller",
+      "nom": "Max Muller",
+      "liste": "Révolution permanente",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "delafosse": {
+              "texte": "Recruter 100 agents de sécurité supplémentaires sous responsabilité municipale et métropolitaine, budget de 4 millions d'euros par an",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/montpelliermunicipales-2026-candidat-a-sa-reelection-le-socialiste-michael-delafosse-veut-poursuivre-sa-politique-securitaire"
+            },
+            "altrad": {
+              "texte": "Doubler les effectifs de la police municipale",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-premieres-propositions-du-candidat-mohed-altrad/"
+            },
+            "jamet": {
+              "texte": "Doubler les effectifs de la police municipale",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-l-eurodeputee-rn-france-jamet-annonce-sa-candidature-a-montpellier-3891487"
+            },
+            "oziol": null,
+            "roumegas": {
+              "texte": "Créer une police municipale de proximité avec des bureaux locaux et recruter 100 agents supplémentaires",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": {
+              "texte": "Doubler les effectifs de la police municipale et rétablir une présence policière nocturne (absente entre 4h30 et 8h)",
+              "source": "isabelleperrein2026.fr, 2026",
+              "sourceUrl": "https://www.isabelleperrein2026.fr/notre-projet"
+            },
+            "gaillard": null,
+            "tsagalos": {
+              "texte": "Tripler les effectifs de la police municipale de 192 à 650 agents",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-je-suis-candidat-aux-municipales-thierry-tsagalos/"
+            },
+            "muller": {
+              "texte": "Désarmer la police municipale, dissoudre la BAC, la police des transports et la brigade du logement",
+              "source": "Révolution permanente, 2026",
+              "sourceUrl": "https://www.revolutionpermanente.fr/Avec-Max-Muller-Revolution-Permanente-se-presente-pour-la-premiere-fois-aux-municipales-a"
+            }
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "delafosse": {
+              "texte": "Doubler le réseau de caméras de vidéoprotection, de 500 à 1 000 caméras, budget de 3 millions d'euros sur le mandat",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/montpelliermunicipales-2026-candidat-a-sa-reelection-le-socialiste-michael-delafosse-veut-poursuivre-sa-politique-securitaire"
+            },
+            "altrad": null,
+            "jamet": {
+              "texte": "Doubler le nombre de caméras de vidéoprotection dans la ville",
+              "source": "France 3 Occitanie, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/montpellier-est-une-capitale-dechue-sclerosee-et-fermee-france-jamet-se-declare-candidate-aux-elections-municipales-pour-le-rn-et-l-udr-3283358.html"
+            },
+            "oziol": null,
+            "roumegas": null,
+            "perrein": {
+              "texte": "Renforcer le Centre de Supervision Urbain avec plus d'écrans et de caméras fonctionnelles",
+              "source": "isabelleperrein2026.fr, 2026",
+              "sourceUrl": "https://www.isabelleperrein2026.fr/notre-projet"
+            },
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "delafosse": {
+              "texte": "Passer de 12 à 30 médiateurs de quartier pour la résolution des conflits de voisinage",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/montpelliermunicipales-2026-candidat-a-sa-reelection-le-socialiste-michael-delafosse-veut-poursuivre-sa-politique-securitaire"
+            },
+            "altrad": {
+              "texte": "Instaurer un couvre-feu pour les mineurs de moins de 16 ans non accompagnés à partir de 22h",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-cette-ville-a-besoin-qu-on-la-releve-mohed-altrad-retente-sa-chance-a-montpellier-1699900"
+            },
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "delafosse": {
+              "texte": "Maintenir la gratuité totale des transports en commun et faire sortir le tramway hors de la Métropole d'ici la fin du mandat",
+              "source": "France 3 Occitanie, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/tant-que-je-serai-maire-la-gratuite-des-transports-sera-defendue-ce-qu-il-faut-retenir-de-l-interview-de-michael-delafosse-candidat-a-sa-reelection-a-la-mairie-de-montpellier-3284739.html"
+            },
+            "altrad": {
+              "texte": "Maintenir la gratuité totale des transports en commun pour tous les résidents",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-premieres-propositions-du-candidat-mohed-altrad/"
+            },
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": {
+              "texte": "Créer un schéma cyclable cohérent avec un réseau continu privilégiant la sécurité",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": {
+              "texte": "Créer une piste cyclable dédiée sur l'esplanade Charles-de-Gaulle pour une cohabitation sécurisée",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-je-suis-candidat-aux-municipales-thierry-tsagalos/"
+            },
+            "muller": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "delafosse": null,
+            "altrad": {
+              "texte": "Mettre en place un plan anti-bouchons complet pour réviser le plan de circulation",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-premieres-propositions-du-candidat-mohed-altrad/"
+            },
+            "jamet": {
+              "texte": "Réouvrir le tunnel de la Comédie à la circulation automobile et rétablir l'intermodalité en centre-ville",
+              "source": "France 3 Occitanie, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/montpellier-est-une-capitale-dechue-sclerosee-et-fermee-france-jamet-se-declare-candidate-aux-elections-municipales-pour-le-rn-et-l-udr-3283358.html"
+            },
+            "oziol": null,
+            "roumegas": {
+              "texte": "Réouvrir l'avenue Albert-Dubout et mettre en place des circulations en pétales sur les quatre boulevards",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": {
+              "texte": "Réviser la Zone à Faibles Émissions jugée dogmatique et rendre la ville accessible à tous",
+              "source": "isabelleperrein2026.fr, 2026",
+              "sourceUrl": "https://www.isabelleperrein2026.fr/notre-projet"
+            },
+            "gaillard": null,
+            "tsagalos": {
+              "texte": "Réouvrir le tunnel de la Comédie, rétablir l'accès bidirectionnel au parking Gambetta et réouvrir l'avenue Albert-Dubout",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-je-suis-candidat-aux-municipales-thierry-tsagalos/"
+            },
+            "muller": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": {
+              "texte": "Maintenir la gratuité des transports en commun, mesure proposée dès 2014",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-herault/municipales-2026-montpellier-la-securite-theme-prioritaire-de-campagne-y-compris-a-gauche-8772577"
+            },
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": {
+              "texte": "Mettre fin à la gratuité totale des transports, remplacée par un modèle plus équitable et soutenable",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-je-suis-candidat-aux-municipales-thierry-tsagalos/"
+            },
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "delafosse": null,
+            "altrad": {
+              "texte": "Doubler le parc de logements sociaux et permettre aux locataires en HLM depuis 15 ans d'accéder à la propriété",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-premieres-propositions-du-candidat-mohed-altrad/"
+            },
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": {
+              "texte": "Lancer un plan de construction de logements sociaux écologiques et rénover massivement les résidences universitaires",
+              "source": "Révolution permanente, 2026",
+              "sourceUrl": "https://www.revolutionpermanente.fr/Avec-Max-Muller-Revolution-Permanente-se-presente-pour-la-premiere-fois-aux-municipales-a"
+            }
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": {
+              "texte": "Créer un guichet municipal du droit au logement pour recenser les 12 000 à 18 000 logements vacants et les mobiliser",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-sept-premieres-mesures-de-la-liste-de-linsoumise-nathalie-oziol/"
+            },
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": {
+              "texte": "Réquisitionner les 13 160 logements vides pour loger les sans-abri, victimes de violences et étudiants",
+              "source": "Révolution permanente, 2026",
+              "sourceUrl": "https://www.revolutionpermanente.fr/Avec-Max-Muller-Revolution-Permanente-se-presente-pour-la-premiere-fois-aux-municipales-a"
+            }
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": {
+              "texte": "Mettre en place l'encadrement des loyers à Montpellier",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-sept-premieres-mesures-de-la-liste-de-linsoumise-nathalie-oziol/"
+            },
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": {
+              "texte": "Permettre à 4 000 locataires du parc social d'accéder à la propriété sur un mandat",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": {
+              "texte": "Créer 500 places de crèches supplémentaires",
+              "source": "isabelleperrein2026.fr, 2026",
+              "sourceUrl": "https://www.isabelleperrein2026.fr/notre-projet"
+            },
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": {
+              "texte": "Créer des crèches, laveries et cantines populaires pour réduire le travail domestique",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/max-muller-candidat-a-montpellier-nous-voulons-porter-la-voix-des-travailleurs-de-la-jeunesse-et-des-quartiers-populaires"
+            }
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": {
+              "texte": "Rénover les écoles : améliorer la climatisation, les équipements sportifs et les bibliothèques",
+              "source": "isabelleperrein2026.fr, 2026",
+              "sourceUrl": "https://www.isabelleperrein2026.fr/notre-projet"
+            },
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "delafosse": null,
+            "altrad": {
+              "texte": "Rendre gratuite la cantine scolaire pour tous les enfants de Montpellier sans conditions de ressources",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-premieres-propositions-du-candidat-mohed-altrad/"
+            },
+            "jamet": null,
+            "oziol": {
+              "texte": "Créer un restaurant municipal bio à prix réduit et ouvrir les cantines scolaires en dehors du temps scolaire",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-sept-premieres-mesures-de-la-liste-de-linsoumise-nathalie-oziol/"
+            },
+            "roumegas": {
+              "texte": "Rendre gratuites les cantines scolaires et l'accueil périscolaire de 7h à 19h",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": {
+              "texte": "Créer des centres de loisirs pour adolescents et un parcours citoyen incluant le financement gratuit du BAFA",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/ne-pas-investir-pour-les-jeunes-cest-creer-les-conditions-de-la-delinquance-le-printemps-montpellierain-devoile-son-pacte-pour-la-jeunesse"
+            },
+            "perrein": {
+              "texte": "Créer un passeport jeunesse 16-25 ans combinant sport et accompagnement vers l'emploi",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-herault/municipales-2026-la-candidate-isabelle-perrein-devoile-son-programme-pour-montpellier-6013218"
+            },
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": {
+              "texte": "Transformer le Verdanson en parc inondable végétalisé servant d'îlot de fraîcheur en centre-ville",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-musee-a-ciel-ouvert-et-parc-inondable-remi-gaillard-veut-transformer-le-verdanson/"
+            },
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "delafosse": null,
+            "altrad": {
+              "texte": "Abandonner le projet de chaudière CSR et créer une brigade municipale de propreté et de végétalisation",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-premieres-propositions-du-candidat-mohed-altrad/"
+            },
+            "jamet": {
+              "texte": "Faire de la salubrité et du ramassage des ordures une priorité municipale",
+              "source": "France 3 Occitanie, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/montpellier-est-une-capitale-dechue-sclerosee-et-fermee-france-jamet-se-declare-candidate-aux-elections-municipales-pour-le-rn-et-l-udr-3283358.html"
+            },
+            "oziol": {
+              "texte": "Organiser une grande consultation publique sur la gestion des déchets à Montpellier",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-montpellier-la-deputee-lfi-nathalie-oziol-menera-une-liste-d-union-de-la-gauche-de-rupture-7171992"
+            },
+            "roumegas": null,
+            "perrein": {
+              "texte": "Rendre Montpellier autonome en traitement des déchets et adapter les horaires de nettoyage à chaque quartier",
+              "source": "isabelleperrein2026.fr, 2026",
+              "sourceUrl": "https://www.isabelleperrein2026.fr/notre-projet"
+            },
+            "gaillard": null,
+            "tsagalos": {
+              "texte": "Construire une nouvelle usine de traitement des déchets à bilan carbone neutre, ouverte à l'actionnariat des habitants",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-je-suis-candidat-aux-municipales-thierry-tsagalos/"
+            },
+            "muller": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": {
+              "texte": "S'opposer aux mégaprojets écocides : Contournement Ouest de Montpellier, LIEN, et stopper le bétonnage",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-montpellier-la-deputee-lfi-nathalie-oziol-menera-une-liste-d-union-de-la-gauche-de-rupture-7171992"
+            },
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": {
+              "texte": "Aménager le Verdanson en sections inondables avec végétation pour améliorer le drainage lors des épisodes cévenols",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-musee-a-ciel-ouvert-et-parc-inondable-remi-gaillard-veut-transformer-le-verdanson/"
+            },
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": {
+              "texte": "Créer une foncière agricole municipale pour acquérir des terres et favoriser l'installation de nouveaux agriculteurs",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-sept-premieres-mesures-de-la-liste-de-linsoumise-nathalie-oziol/"
+            },
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "delafosse": {
+              "texte": "Installer une antenne du CHU dans le quartier de la Mosson et créer des centres de santé avec médecins salariés dans les quartiers prioritaires",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/occitanie/herault-34/montpellier/municipales-2026-a-montpellier-michael-delafosse-promet-des-mesures-pour-le-pouvoir-d-achat-et-les-seniors-4159680"
+            },
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": {
+              "texte": "Déployer des maisons de santé dans les quartiers confrontés à des déserts médicaux",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": {
+              "texte": "Plan d'investissement en santé avec recrutement massif de personnel, financé par la taxation des grandes fortunes",
+              "source": "Révolution permanente, 2026",
+              "sourceUrl": "https://www.revolutionpermanente.fr/Avec-Max-Muller-Revolution-Permanente-se-presente-pour-la-premiere-fois-aux-municipales-a"
+            }
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "delafosse": {
+              "texte": "Développer une stratégie d'aller-vers pour lutter contre le non-recours aux soins, notamment en santé mentale",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/occitanie/herault-34/montpellier/municipales-2026-a-montpellier-michael-delafosse-promet-des-mesures-pour-le-pouvoir-d-achat-et-les-seniors-4159680"
+            },
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": {
+              "texte": "Mettre en place une ordonnance verte : paniers alimentaires bio pour les femmes enceintes issus de l'agriculture locale",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "delafosse": {
+              "texte": "Créer 400 à 500 places dans quatre résidences sociales seniors municipales et installer 1 000 bancs supplémentaires dans l'espace public",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/occitanie/herault-34/montpellier/municipales-2026-a-montpellier-michael-delafosse-promet-des-mesures-pour-le-pouvoir-d-achat-et-les-seniors-4159680"
+            },
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": {
+              "texte": "Instituer un référendum d'initiative citoyenne municipal et un référendum révocatoire",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-sept-premieres-mesures-de-la-liste-de-linsoumise-nathalie-oziol/"
+            },
+            "roumegas": {
+              "texte": "Élire sept parlements de quartier dotés d'un pouvoir décisionnel et instaurer un référendum d'initiative citoyenne municipal",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "delafosse": null,
+            "altrad": {
+              "texte": "Reverser intégralement les indemnités de maire aux associations locales et zéro hausse d'impôts locaux",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-cette-ville-a-besoin-qu-on-la-releve-mohed-altrad-retente-sa-chance-a-montpellier-1699900"
+            },
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": {
+              "texte": "Réduire les impôts locaux de 15% en ciblant la TEOM, auditer les finances et publier toutes les dépenses en ligne",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-isabelle-perrein-defend-une-baisse-des-impots-fondee-sur-la-rigueur-budgetaire"
+            },
+            "gaillard": {
+              "texte": "Campagne à budget zéro financée sans argent public, transparence totale comme base du projet politique",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/montpellier-nappartient-pas-au-parti-socialiste-lhumoriste-remi-gaillard-candidat-a-la-mairie"
+            },
+            "tsagalos": null,
+            "muller": {
+              "texte": "Élus payés au salaire médian avec possibilité de révocation, assemblée unique élue à partir de 16 ans",
+              "source": "Révolution permanente, 2026",
+              "sourceUrl": "https://www.revolutionpermanente.fr/Avec-Max-Muller-Revolution-Permanente-se-presente-pour-la-premiere-fois-aux-municipales-a"
+            }
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "delafosse": null,
+            "altrad": {
+              "texte": "Créer des centres de services municipaux dans chaque quartier",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-cette-ville-a-besoin-qu-on-la-releve-mohed-altrad-retente-sa-chance-a-montpellier-1699900"
+            },
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "delafosse": null,
+            "altrad": {
+              "texte": "Créer 30 000 emplois et 10 000 contrats d'apprentissage en 5 ans pour l'objectif zéro chômeur",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-premieres-propositions-du-candidat-mohed-altrad/"
+            },
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": {
+              "texte": "Réduire le chômage (19%, double du taux départemental) en facilitant l'accueil de PME en croissance",
+              "source": "isabelleperrein2026.fr, 2026",
+              "sourceUrl": "https://www.isabelleperrein2026.fr/notre-projet"
+            },
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": {
+              "texte": "Titulariser tous les travailleurs municipaux, indexer les salaires sur l'inflation, embaucher ATSEM et AESH",
+              "source": "Révolution permanente, 2026",
+              "sourceUrl": "https://www.revolutionpermanente.fr/Avec-Max-Muller-Revolution-Permanente-se-presente-pour-la-premiere-fois-aux-municipales-a"
+            }
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "delafosse": {
+              "texte": "Rendre gratuit l'accès aux 15 médiathèques de Montpellier et de la Métropole",
+              "source": "France Bleu Hérault, 2026",
+              "sourceUrl": "https://www.francebleu.fr/occitanie/herault-34/montpellier/municipales-2026-a-montpellier-michael-delafosse-promet-des-mesures-pour-le-pouvoir-d-achat-et-les-seniors-4159680"
+            },
+            "altrad": null,
+            "jamet": null,
+            "oziol": {
+              "texte": "Transformer le MOCO en espace dédié aux cultures populaires et renforcer les Maisons pour tous comme lieux de vie culturelle",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-sept-premieres-mesures-de-la-liste-de-linsoumise-nathalie-oziol/"
+            },
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": {
+              "texte": "Créer un musée de street-art à ciel ouvert le long du Verdanson avec promenade haute et ombragée",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-musee-a-ciel-ouvert-et-parc-inondable-remi-gaillard-veut-transformer-le-verdanson/"
+            },
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": {
+              "texte": "Zéro artificialisation nette : arrêt des extensions urbaines sur les espaces naturels et agricoles",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": {
+              "texte": "Recréer des quartiers verdoyants, améliorer les trottoirs et augmenter les zones d'ombre et de végétation",
+              "source": "isabelleperrein2026.fr, 2026",
+              "sourceUrl": "https://www.isabelleperrein2026.fr/notre-projet"
+            },
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": {
+              "texte": "Mettre en conformité tous les locaux municipaux et former les agents aux accueils accessibles (loi du 11 février 2005)",
+              "source": "InfocOccitanie, 2026",
+              "sourceUrl": "https://infoccitanie.fr/montpellier-les-sept-premieres-mesures-de-la-liste-de-linsoumise-nathalie-oziol/"
+            },
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "delafosse": {
+              "texte": "Rénover les quartiers Mosson et Montasinos, restructurer les espaces publics et installer 50 concierges dans le parc social",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/gratuite-sante-solidarite-pour-la-bataille-des-urnes-michael-delafosse-ajuste-son-bouclier-social"
+            },
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "delafosse": {
+              "texte": "Maintenir la tarification sociale pour l'eau, les musées, piscines et cantines, et exclure les produits issus du Mercosur des cantines scolaires",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/gratuite-sante-solidarite-pour-la-bataille-des-urnes-michael-delafosse-ajuste-son-bouclier-social"
+            },
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "delafosse": null,
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": null,
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": {
+              "texte": "Supprimer la charte municipale de laïcité, autoriser la nourriture halal dans les programmes jeunesse",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/max-muller-candidat-a-montpellier-nous-voulons-porter-la-voix-des-travailleurs-de-la-jeunesse-et-des-quartiers-populaires"
+            }
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "delafosse": {
+              "texte": "Créer un Office municipal du pouvoir d'achat fonctionnant comme centrale de négociation pour des achats groupés",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/gratuite-sante-solidarite-pour-la-bataille-des-urnes-michael-delafosse-ajuste-son-bouclier-social"
+            },
+            "altrad": null,
+            "jamet": null,
+            "oziol": null,
+            "roumegas": {
+              "texte": "Créer une dizaine d'épiceries municipales à prix coûtant dans tous les quartiers",
+              "source": "Hérault Tribune, 2026",
+              "sourceUrl": "https://echo-des-tribunes.com/herault-tribune/articles/municipales-2026-a-montpellier-le-printemps-montpellierain-devoile-son-pacte-de-rupture-et-ses-12-mesures-phares"
+            },
+            "perrein": null,
+            "gaillard": null,
+            "tsagalos": null,
+            "muller": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -10,16 +10,27 @@
   var DATA_VERSION = '2026021001';
 
   function chargerVilles() {
-    return fetch(DATA_BASE_URL + 'villes.json?v=' + DATA_VERSION)
+    var prefetch = window.__prefetch && window.__prefetch.villes;
+    var promise = prefetch || fetch(DATA_BASE_URL + 'villes.json?v=' + DATA_VERSION)
       .then(function(r) {
         if (!r.ok) throw new Error('Erreur chargement villes: ' + r.status);
         return r.json();
-      })
-      .then(function(data) { VILLES = data; return data; });
+      });
+    return promise.then(function(data) { VILLES = data; return data; });
   }
 
   function chargerDonneesElection(id) {
     if (ELECTIONS_CACHE[id]) return Promise.resolve(ELECTIONS_CACHE[id]);
+    var prefetch = window.__prefetch && window.__prefetch.election;
+    if (prefetch) {
+      window.__prefetch.election = null; // Utiliser une seule fois
+      return prefetch.then(function(data) {
+        if (data) { ELECTIONS_CACHE[id] = data; ELECTIONS[id] = data; }
+        return data || fetch(DATA_BASE_URL + 'elections/' + id + '.json?v=' + DATA_VERSION)
+          .then(function(r) { if (!r.ok) throw new Error('Erreur chargement election: ' + r.status); return r.json(); })
+          .then(function(d) { ELECTIONS_CACHE[id] = d; ELECTIONS[id] = d; return d; });
+      });
+    }
     return fetch(DATA_BASE_URL + 'elections/' + id + '.json?v=' + DATA_VERSION)
       .then(function(r) {
         if (!r.ok) throw new Error('Erreur chargement election: ' + r.status);

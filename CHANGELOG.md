@@ -8,6 +8,10 @@
 - `defer` ajouté sur tous les scripts (`home.js`, `app.js`, `chart.js`)
 - `min-height` sur grilles JS (elections, tendances) pour réduire le CLS
 - Suppression du design panel de production (~140 lignes HTML en moins)
+- **Prefetch données** : script inline dans le `<head>` du comparateur lance les fetches `villes.json` + `election.json` en parallèle avec le chargement JS (élimine la cascade séquentielle)
+
+### Analytics
+- Google Tag Manager (GTM-T4CCTF6V) ajouté sur les 4 pages (home, comparateur, présidentielle, à propos)
 
 ### SEO
 - Title home optimisé : "Municipales 2026 — Comparez les programmes des candidats"

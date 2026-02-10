@@ -6,8 +6,8 @@
   var VILLES = [];
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
-  var DATA_BASE_URL = 'data/';
-  var DATA_VERSION = '2026020901';
+  var DATA_BASE_URL = '/data/';
+  var DATA_VERSION = '2026021001';
 
   function chargerVilles() {
     return fetch(DATA_BASE_URL + 'villes.json?v=' + DATA_VERSION)
@@ -468,6 +468,17 @@
       linkCanonical.href = urlCanonique;
     }
 
+    // Meta last-modified (fraîcheur SEO)
+    if (villeSelectionnee && villeSelectionnee.derniereMaj) {
+      var metaLastMod = document.querySelector('meta[name="last-modified"]');
+      if (!metaLastMod) {
+        metaLastMod = document.createElement("meta");
+        metaLastMod.name = "last-modified";
+        document.head.appendChild(metaLastMod);
+      }
+      metaLastMod.content = villeSelectionnee.derniereMaj;
+    }
+
     // Mettre à jour les données structurées
     mettreAJourDonneesStructurees(ville, annee, nbCandidats, nbPropositions);
   }
@@ -549,6 +560,57 @@
     };
 
     scriptExistant.textContent = JSON.stringify(donnees, null, 2);
+
+    // Générer le FAQPage Schema.org
+    genererSchemaFAQ();
+  }
+
+  function genererSchemaFAQ() {
+    if (!donneesElection || !donneesElection.candidats || donneesElection.candidats.length === 0) return;
+
+    // Supprimer l'ancien FAQ schema s'il existe
+    var ancien = document.getElementById("schema-faq");
+    if (ancien) ancien.remove();
+
+    var faqEntries = [];
+
+    donneesElection.candidats.forEach(function (candidat) {
+      // Collecter les propositions par catégorie pour ce candidat
+      donneesElection.categories.forEach(function (cat) {
+        if (!cat.sousThemes) return;
+        var textes = [];
+        cat.sousThemes.forEach(function (st) {
+          var prop = st.propositions[candidat.id];
+          if (prop && prop.texte) {
+            textes.push(prop.texte);
+          }
+        });
+        if (textes.length === 0) return;
+
+        faqEntries.push({
+          "@type": "Question",
+          "name": "Que propose " + candidat.nom + " sur le thème « " + cat.nom + " » à " + donneesElection.ville + " ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": textes.join(" | ")
+          }
+        });
+      });
+    });
+
+    if (faqEntries.length === 0) return;
+
+    var faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqEntries
+    };
+
+    var script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "schema-faq";
+    script.textContent = JSON.stringify(faqSchema);
+    document.head.appendChild(script);
   }
 
   // === Filtres candidats inline ===
@@ -769,7 +831,7 @@
     params.set("ville", villeSelectionnee.id);
 
     if (categorieActive && categorieActive !== "toutes") {
-      params.set("categorie", categorieActive);
+      params.set("theme", categorieActive);
     }
 
     if (candidatsSelectionnes.length < donneesElection.candidats.length) {
@@ -817,7 +879,7 @@
         villeSearchInput.value = ville.nom + " (" + ville.codePostal + ")";
         selectionnerVille(ville);
 
-        var categorieParam = params.get("categorie");
+        var categorieParam = params.get("theme") || params.get("categorie");
         if (categorieParam) {
           var aliasCategories = {
             "amenagement": "urbanisme",
@@ -831,7 +893,10 @@
             "services-familles": "democratie",
             "services-publics": "democratie",
             "tourisme-loisirs": "economie",
-            "egalite": "solidarite"
+            "egalite": "solidarite",
+            "ecologie": "environnement",
+            "transport": "transports",
+            "emploi": "economie"
           };
           categorieActive = aliasCategories[categorieParam] || categorieParam;
         }

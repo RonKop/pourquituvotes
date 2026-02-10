@@ -311,6 +311,10 @@ input { font-family: inherit; border: none; outline: none; }
 .hero__search-input::placeholder {
   color: var(--slate-500);
 }
+.hero__search-input:focus,
+.hero__search-input:focus-visible {
+  outline: none;
+}
 
 .hero__search-btn {
   background: var(--bleu);

@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO de base -->
+  <title>Pour qui tu votes — Comparez les programmes des candidats</title>
+  <meta name="description" content="Comparez facilement les programmes des candidats aux élections municipales. Outil citoyen neutre et factuel pour faire votre choix en toute connaissance de cause.">
+  <meta name="keywords" content="élections municipales, comparateur, programmes électoraux, candidats, propositions, démocratie locale">
+  <meta name="author" content="Pour qui tu votes">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pourquituvotes.fr">
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pour qui tu votes">
+  <meta property="og:title" content="Pour qui tu votes — Comparez les programmes des candidats">
+  <meta property="og:description" content="Comparez facilement les programmes des candidats aux élections municipales. Outil citoyen neutre et factuel.">
+  <meta property="og:url" content="https://pourquituvotes.fr">
+  <meta property="og:image" content="https://pourquituvotes.fr/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pour qui tu votes - Comparez les programmes électoraux">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pour qui tu votes — Comparez les programmes des candidats">
+  <meta name="twitter:description" content="Comparez facilement les programmes des candidats aux élections municipales. Outil citoyen neutre et factuel.">
+  <meta name="twitter:image" content="https://pourquituvotes.fr/assets/og-image.jpg">
+  <meta name="twitter:image:alt" content="Pour qui tu votes - Comparez les programmes électoraux">
+
+  <!-- Données structurées Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Pour qui tu votes",
+    "description": "Outil de comparaison des programmes électoraux pour les élections municipales françaises",
+    "url": "https://pourquituvotes.fr",
+    "applicationCategory": "GovernmentApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "creator": {
+      "@type": "Organization",
+      "name": "Pour qui tu votes"
+    },
+    "inLanguage": "fr-FR",
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Citizens, Voters"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- Header unifié -->
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <!-- Gauche : logo -->
+      <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
+      <!-- Centre : navigation -->
+      <nav class="header-nav">
+        <ul class="header-nav__links">
+          <li><a href="#" data-modal="a-propos">À propos</a></li>
+          <li><a href="#" data-modal="methodologie">Méthodologie</a></li>
+          <li><a href="#" data-modal="faq">FAQ</a></li>
+          <li><a href="#" data-modal="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Droite : compte à rebours -->
+      <div class="header-countdown" id="topbar-countdown">
+        <span class="countdown__timer">
+          <span class="countdown__bloc">
+            <span id="countdown-jours" class="countdown__valeur">--</span>
+            <span class="countdown__unite">j</span>
+          </span>
+          <span class="countdown__bloc">
+            <span id="countdown-heures" class="countdown__valeur">--</span>
+            <span class="countdown__unite">h</span>
+          </span>
+          <span class="countdown__bloc">
+            <span id="countdown-minutes" class="countdown__valeur">--</span>
+            <span class="countdown__unite">min</span>
+          </span>
+          <span class="countdown__bloc">
+            <span id="countdown-secondes" class="countdown__valeur">--</span>
+            <span class="countdown__unite">s</span>
+          </span>
+        </span>
+        <span class="countdown__label">avant le scrutin</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <p class="hero__subtitle">Comparez les programmes des candidats aux municipales 2026</p>
+    <div class="hero__cta" id="hero-cta-inscription">
+      <a href="https://www.service-public.fr/particuliers/vosdroits/R16396" target="_blank" rel="noopener" class="btn-inscription">
+        Inscrivez-vous sur les listes électorales
+      </a>
+    </div>
+  </header>
+
+  <!-- Loader overlay -->
+  <div id="loader-overlay" class="loader-overlay">
+    <div class="loader-spinner"></div>
+    <p class="loader-text">Chargement...</p>
+  </div>
+
+  <main class="main">
+    <!-- Sélection de ville -->
+    <section class="controls">
+      <div class="controls__ville">
+        <label for="ville-search">Ville :</label>
+        <div class="ville-search-wrapper">
+          <input type="text" id="ville-search" placeholder="Rechercher par nom ou code postal…" autocomplete="off">
+          <div id="ville-suggestions" class="ville-suggestions" hidden></div>
+        </div>
+      </div>
+
+      <div class="controls__candidat">
+        <label for="candidat-search">Rechercher un candidat :</label>
+        <div class="candidat-search-wrapper">
+          <input type="text" id="candidat-search" placeholder="Nom d'un candidat…" autocomplete="off">
+          <div id="candidat-suggestions" class="candidat-suggestions" hidden></div>
+        </div>
+      </div>
+
+      <div class="controls__recherche">
+        <label for="recherche-input">Rechercher dans les propositions :</label>
+        <input type="text" id="recherche-input" placeholder="Ex : tramway, crèche, vélo…" disabled>
+      </div>
+    </section>
+
+    <!-- Info élection -->
+    <section id="election-info" class="election-info" hidden>
+      <div class="election-info__header">
+        <div>
+          <h2 id="election-titre"></h2>
+          <p id="election-stats"></p>
+        </div>
+        <div class="partage-container">
+          <button id="btn-partager" class="btn-partager" title="Copier le lien">
+            🔗 Copier le lien
+          </button>
+          <div id="partage-reseaux" class="partage-reseaux" hidden>
+            <button class="btn-reseau btn-reseau--facebook" title="Partager sur Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </button>
+            <button class="btn-reseau btn-reseau--twitter" title="Partager sur X/Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </button>
+            <button class="btn-reseau btn-reseau--linkedin" title="Partager sur LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </button>
+            <button class="btn-reseau btn-reseau--whatsapp" title="Partager sur WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            </button>
+            <button class="btn-reseau btn-reseau--email" title="Partager par email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Message aucun candidat -->
+    <section id="aucun-candidat" class="aucun-candidat" hidden>
+      <div class="aucun-candidat__contenu">
+        <p class="aucun-candidat__icone">🗓️</p>
+        <h3>Aucun candidat officiel pour le moment</h3>
+        <p>La date limite de dépôt des candidatures est fixée au <strong>26 février 2026</strong>. Les candidats seront affichés dès leur déclaration officielle.</p>
+      </div>
+    </section>
+
+    <!-- Alertes programmes -->
+    <!-- Espace réservé (ancien emplacement alertes, déplacées après radar) -->
+
+    <!-- Filtres candidats inline -->
+    <section id="selection-candidats" class="filtres-candidats" hidden>
+      <div class="filtres-candidats__header">
+        <span class="filtres-candidats__titre">Candidats</span>
+        <div class="filtres-candidats__actions">
+          <button class="filtres-candidats__btn" id="filtre-btn-tous">&check; Tous</button>
+          <button class="filtres-candidats__btn filtres-candidats__btn--danger" id="filtre-btn-aucun">&times; Aucun</button>
+        </div>
+      </div>
+      <div class="filtres-candidats__liste" id="filtres-candidats-liste"></div>
+    </section>
+
+    <!-- Répartition thématique -->
+    <section id="repartition" class="repartition" hidden>
+      <div class="repartition__header">
+        <h3 class="repartition__titre">Répartition des propositions par thème</h3>
+        <div id="repartition-toggle" class="repartition-toggle"></div>
+      </div>
+      <div id="repartition-contenu" class="repartition__contenu"></div>
+    </section>
+
+    <!-- Statistiques visuelles — Radar chart -->
+    <section id="statistiques" class="statistiques" hidden>
+      <h3 class="statistiques__titre">Comparaison des candidats par thème</h3>
+      <!-- Toggle entre les deux vues -->
+      <div class="radar-vue-toggle">
+        <button class="radar-vue-btn radar-vue-btn--active" data-radar-vue="individuelle">Vue individuelle</button>
+        <button class="radar-vue-btn" data-radar-vue="comparer">Vue compar&eacute;e</button>
+      </div>
+      <!-- Vue 1 : grille de radars individuels -->
+      <div id="radar-vue-individuelle" class="radar-grille"></div>
+      <!-- Vue 2 : radar combiné avec sélection -->
+      <div id="radar-vue-comparer" class="radar-comparer" hidden>
+        <div class="radar-comparer__layout">
+          <div class="radar-comparer__chart">
+            <canvas id="chart-radar-comparer"></canvas>
+          </div>
+          <div class="radar-comparer__selection" id="radar-selection-candidats"></div>
+        </div>
+        <p class="radar-comparer__conseil">Sélectionnez 2 à 4 candidats pour une comparaison optimale</p>
+      </div>
+      <div class="radar-methodologie" id="radar-methodologie"></div>
+    </section>
+
+    <!-- Alerte programmes compacte -->
+    <div class="alertes-section" id="alertes-section" hidden>
+      <span class="alertes-icon">&#128276;</span>
+      <div class="alertes-texte">
+        <strong id="alertes-titre-count">0 programmes sur 0 officiels</strong>
+        <p>Recevez une alerte quand tous les candidats ont publi&eacute; leur programme officiel</p>
+      </div>
+      <div class="alertes-formulaire">
+        <input type="email" id="alerte-email" class="alertes-input" placeholder="votre@email.fr" aria-label="Adresse email">
+        <button id="btn-alerte" class="btn-alerte">M'alerter</button>
+      </div>
+      <div id="alerte-message" class="alerte-message" hidden></div>
+    </div>
+
+    <!-- Filtres catégories -->
+    <nav id="filtres-categories" class="filtres" hidden>
+      <button class="filtre-btn filtre-btn--active" data-categorie="toutes">Toutes</button>
+    </nav>
+
+    <!-- Grille de comparaison -->
+    <section id="comparaison" class="comparaison" hidden>
+      <h2 class="comparaison__titre" id="comparaison-titre">Comparaison des propositions par th&egrave;me</h2>
+    </section>
+
+    <!-- État vide -->
+    <section id="etat-vide" class="etat-vide">
+      <p>Sélectionnez une ville pour afficher la comparaison des programmes.</p>
+
+      <div class="dates-cles">
+        <h3>Dates clés des municipales 2026</h3>
+        <ul class="dates-cles__liste">
+          <li><strong>6 fév.</strong> — Date limite d'inscription sur les listes électorales</li>
+          <li><strong>26 fév.</strong> — Date limite de dépôt des candidatures (1er tour)</li>
+          <li><strong>2 mars</strong> — Ouverture de la campagne électorale officielle</li>
+          <li class="dates-cles__item--scrutin"><strong>15 mars</strong> — Premier tour</li>
+          <li><strong>17 mars</strong> — Date limite de dépôt des candidatures (2nd tour)</li>
+          <li class="dates-cles__item--scrutin"><strong>22 mars</strong> — Second tour</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <p>Outil citoyen — Présentation factuelle des programmes officiels, sans interprétation ni commentaire.</p>
+    <nav class="footer__links">
+      <a href="#" data-modal="a-propos">À propos</a>
+      <a href="#" data-modal="methodologie">Méthodologie</a>
+      <a href="#" data-modal="faq">FAQ</a>
+      <a href="#" data-modal="signaler">Signaler une erreur</a>
+      <a href="#" data-modal="contact">Contact</a>
+      <a href="#" data-modal="mentions">Mentions légales</a>
+      <a href="#" data-modal="confidentialite">Politique de confidentialité</a>
+    </nav>
+  </footer>
+
+  <!-- Bottom sheet mobile : filtrage candidats -->
+  <button id="mobile-filtre-btn" class="mobile-filtre-btn" hidden>
+    Filtrer candidats <span id="mobile-filtre-badge" class="mobile-filtre-badge">0</span>
+  </button>
+  <div id="mobile-filtre-overlay" class="mobile-filtre-overlay" hidden></div>
+  <div id="mobile-filtre-sheet" class="mobile-filtre-sheet" hidden>
+    <div class="mobile-filtre-sheet__header">
+      <h3>Filtrer les candidats</h3>
+      <button id="mobile-filtre-close" class="mobile-filtre-sheet__close">&times;</button>
+    </div>
+    <div id="mobile-filtre-liste" class="mobile-filtre-sheet__liste"></div>
+    <button id="mobile-filtre-appliquer" class="mobile-filtre-sheet__appliquer">Appliquer</button>
+  </div>
+
+  <!-- Modales -->
+  <!-- À propos -->
+  <div id="modal-a-propos" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">&times;</button>
+      <h2>Le projet</h2>
+      <p><strong>#PourquiTuVotes</strong> est un outil citoyen, gratuit et non partisan, qui permet de comparer les programmes des candidats aux élections municipales françaises de 2026.</p>
+      <h3>Notre mission</h3>
+      <p>Rendre l'information électorale accessible et lisible pour tous les citoyens. Nous ne commentons pas, ne jugeons pas, ne classons pas : nous présentons les propositions telles qu'elles ont été formulées par les candidats.</p>
+      <h3>Comment ça marche</h3>
+      <ul>
+        <li>Nous collectons les programmes officiels des candidats (PDF, sites web, presse)</li>
+        <li>Chaque proposition est classée dans une grille thématique commune à toutes les villes</li>
+        <li>Les sources sont systématiquement citées et vérifiables</li>
+      </ul>
+      <h3>Qui sommes-nous</h3>
+      <p>Une équipe de citoyens bénévoles convaincus que la démocratie locale mérite des outils à la hauteur de ses enjeux.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div id="modal-faq" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">&times;</button>
+      <h2>Questions fréquentes</h2>
+      <h3>Comment sont sélectionnées les propositions ?</h3>
+      <p>Nous reprenons les mesures telles qu'elles figurent dans les programmes officiels, les sites de campagne ou les déclarations publiques des candidats. Aucune interprétation n'est ajoutée.</p>
+      <h3>Pourquoi certains candidats ont moins de propositions ?</h3>
+      <p>Tous les candidats n'ont pas encore publié leur programme complet. Nous mettons à jour les données au fur et à mesure des publications. Un badge indique si le programme est complet ou partiel.</p>
+      <h3>Comment signaler une erreur ?</h3>
+      <p>Utilisez le <a href="#" data-modal="signaler">formulaire de signalement</a> ou écrivez-nous à <a href="mailto:contact@pourquituvotes.fr">contact@pourquituvotes.fr</a>.</p>
+      <h3>Le site est-il affilié à un parti politique ?</h3>
+      <p>Non. #PourquiTuVotes est un projet citoyen indépendant, sans affiliation politique ni financement partisan.</p>
+      <h3>Comment est financé le site ?</h3>
+      <p>Le projet est entièrement bénévole. L'hébergement est assuré par des services gratuits. Aucune publicité, aucun cookie de tracking.</p>
+    </div>
+  </div>
+
+  <!-- Méthodologie -->
+  <div id="modal-methodologie" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">×</button>
+      <h2>📋 Notre méthodologie</h2>
+
+      <h3>Sources des données</h3>
+      <p>Les propositions présentées sur ce site proviennent exclusivement de sources officielles et vérifiables :</p>
+      <ul>
+        <li><strong>Programmes officiels</strong> : documents PDF publiés par les candidats ou leurs équipes</li>
+        <li><strong>Déclarations publiques</strong> : interviews dans la presse locale et nationale</li>
+        <li><strong>Sites de campagne</strong> : contenus publiés sur les sites officiels des candidats</li>
+        <li><strong>Conférences de presse</strong> : annonces faites lors d'événements publics</li>
+      </ul>
+
+      <h3>Collecte et vérification</h3>
+      <p>Pour chaque proposition :</p>
+      <ul>
+        <li>Nous citons systématiquement la source (page du programme, article, etc.)</li>
+        <li>Nous retranscrivons fidèlement sans interprétation ni commentaire</li>
+        <li>Nous indiquons clairement si un programme n'est pas encore complet</li>
+      </ul>
+
+      <h3>Neutralité</h3>
+      <p>Ce site est un <strong>outil citoyen non partisan</strong>. Nous ne :</p>
+      <ul>
+        <li>❌ Commentons pas les propositions</li>
+        <li>❌ Vérifions pas leur faisabilité</li>
+        <li>❌ Émettons aucun jugement de valeur</li>
+        <li>✅ Présentons uniquement les faits tels que déclarés</li>
+      </ul>
+
+      <h3>Mise à jour</h3>
+      <p>Les données sont mises à jour régulièrement au fur et à mesure de la publication des programmes complets.</p>
+    </div>
+  </div>
+
+  <!-- Signaler une erreur -->
+  <div id="modal-signaler" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">×</button>
+      <h2>🚨 Signaler une erreur</h2>
+
+      <p>Vous avez repéré une erreur ? Aidez-nous à améliorer la qualité des données !</p>
+
+      <form id="form-signalement" class="formulaire-signalement">
+        <div class="form-groupe">
+          <label for="signalement-ville">🏙️ Ville concernée *</label>
+          <input type="text" id="signalement-ville" name="ville" required placeholder="Ex: Bordeaux">
+        </div>
+
+        <div class="form-groupe">
+          <label for="signalement-candidat">👤 Candidat concerné *</label>
+          <input type="text" id="signalement-candidat" name="candidat" required placeholder="Ex: Anne Dupont">
+        </div>
+
+        <div class="form-groupe">
+          <label for="signalement-categorie">📂 Catégorie</label>
+          <select id="signalement-categorie" name="categorie">
+            <option value="">-- Sélectionner --</option>
+            <option value="transports">Transports & Mobilité</option>
+            <option value="environnement">Environnement</option>
+            <option value="education">Éducation & Jeunesse</option>
+            <option value="securite">Sécurité</option>
+            <option value="economie">Économie locale</option>
+            <option value="autre">Autre</option>
+          </select>
+        </div>
+
+        <div class="form-groupe">
+          <label for="signalement-erreur">⚠️ Description de l'erreur *</label>
+          <textarea id="signalement-erreur" name="erreur" required rows="4" placeholder="Décrivez l'erreur (texte incorrect, source manquante, etc.)"></textarea>
+        </div>
+
+        <div class="form-groupe">
+          <label for="signalement-source">🔗 Source correcte (optionnel)</label>
+          <input type="url" id="signalement-source" name="source" placeholder="https://...">
+        </div>
+
+        <div class="form-groupe">
+          <label for="signalement-email">📧 Votre email *</label>
+          <input type="email" id="signalement-email" name="email" required placeholder="Pour un suivi de votre signalement">
+        </div>
+
+        <button type="submit" class="btn-submit">Envoyer le signalement</button>
+      </form>
+
+      <p class="note">⏱️ Nous traitons chaque signalement sous 48h ouvrées.</p>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div id="modal-contact" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">×</button>
+      <h2>📬 Nous contacter</h2>
+
+      <h3>Questions générales</h3>
+      <p>Pour toute question sur le fonctionnement du site, des suggestions d'amélioration ou des partenariats :</p>
+      <p class="contact-email">📧 <a href="mailto:contact@pourquituvotes.fr">contact@pourquituvotes.fr</a></p>
+
+      <h3>Signaler une erreur</h3>
+      <p>Pour signaler une erreur dans les données, utilisez plutôt notre <a href="#" data-modal="signaler">formulaire de signalement</a>.</p>
+
+      <h3>Candidats et équipes de campagne</h3>
+      <p>Vous êtes candidat ou membre d'une équipe de campagne et souhaitez :</p>
+      <ul>
+        <li>✅ Vérifier les propositions de votre candidat</li>
+        <li>✅ Fournir votre programme complet</li>
+        <li>✅ Corriger des informations</li>
+      </ul>
+      <p class="contact-email">📧 <a href="mailto:candidats@pourquituvotes.fr">candidats@pourquituvotes.fr</a></p>
+
+      <h3>Presse</h3>
+      <p>Demandes presse et interviews :</p>
+      <p class="contact-email">📧 <a href="mailto:presse@pourquituvotes.fr">presse@pourquituvotes.fr</a></p>
+
+      <div class="reseaux-sociaux">
+        <h3>Suivez-nous</h3>
+        <p>🐦 <a href="https://twitter.com/pourquituvotes" target="_blank" rel="noopener">Twitter</a></p>
+        <p>👥 <a href="https://facebook.com/pourquituvotes" target="_blank" rel="noopener">Facebook</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mentions légales -->
+  <div id="modal-mentions" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">×</button>
+      <h2>⚖️ Mentions légales</h2>
+
+      <h3>Éditeur du site</h3>
+      <p><strong>Pour qui tu votes</strong><br>
+      Association loi 1901<br>
+      [Adresse à compléter]<br>
+      SIRET : [À compléter]</p>
+
+      <h3>Directeur de publication</h3>
+      <p>[Nom à compléter]</p>
+
+      <h3>Hébergement</h3>
+      <p>[Nom hébergeur]<br>
+      [Adresse hébergeur]</p>
+
+      <h3>Propriété intellectuelle</h3>
+      <p>Le contenu de ce site (structure, textes, programmes) est mis à disposition sous licence <strong>Creative Commons CC-BY 4.0</strong>. Vous êtes libre de :</p>
+      <ul>
+        <li>✅ Partager et reproduire le contenu</li>
+        <li>✅ Adapter et transformer le contenu</li>
+      </ul>
+      <p>À condition de :</p>
+      <ul>
+        <li>📝 Créditer l'auteur (Pour qui tu votes)</li>
+        <li>🔗 Fournir un lien vers la source</li>
+      </ul>
+
+      <h3>Données personnelles</h3>
+      <p>Conformément au RGPD, les données collectées via le formulaire d'alerte (adresse email) sont :</p>
+      <ul>
+        <li>🔒 Stockées de manière sécurisée</li>
+        <li>🎯 Utilisées uniquement pour l'envoi de notifications</li>
+        <li>🚫 Jamais partagées avec des tiers</li>
+        <li>🗑️ Supprimables sur simple demande</li>
+      </ul>
+      <p>Pour exercer vos droits (accès, rectification, suppression) :</p>
+      <p class="contact-email">📧 <a href="mailto:rgpd@pourquituvotes.fr">rgpd@pourquituvotes.fr</a></p>
+
+      <h3>Cookies</h3>
+      <p>Ce site utilise uniquement des cookies techniques nécessaires au fonctionnement (préférence de thème). Aucun cookie de tracking ou publicitaire.</p>
+
+      <h3>Responsabilité</h3>
+      <p>Nous faisons notre maximum pour garantir l'exactitude des informations, mais ne pouvons être tenus responsables d'erreurs ou d'omissions. Les programmes électoraux sont la propriété des candidats.</p>
+    </div>
+  </div>
+
+  <!-- Politique de confidentialité -->
+  <div id="modal-confidentialite" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">×</button>
+      <h2>🔒 Politique de confidentialité</h2>
+
+      <p><em>Dernière mise à jour : Février 2026</em></p>
+
+      <h3>1. Responsable du traitement</h3>
+      <p><strong>Pour qui tu votes</strong><br>
+      [Adresse à compléter]<br>
+      Email : <a href="mailto:rgpd@pourquituvotes.fr">rgpd@pourquituvotes.fr</a></p>
+
+      <h3>2. Données collectées</h3>
+      <p>Ce site collecte un minimum de données personnelles :</p>
+
+      <h4>📧 Formulaire de signalement d'erreur</h4>
+      <ul>
+        <li><strong>Données collectées</strong> : Ville, candidat, catégorie, description de l'erreur, email (optionnel)</li>
+        <li><strong>Base légale</strong> : Consentement (article 6.1.a du RGPD)</li>
+        <li><strong>Finalité</strong> : Traitement des signalements et amélioration de la qualité des données</li>
+        <li><strong>Durée de conservation</strong> : 6 mois après traitement</li>
+      </ul>
+
+      <h4>🍪 Cookies techniques</h4>
+      <ul>
+        <li><strong>Cookies utilisés</strong> : Préférence de thème (clair/sombre)</li>
+        <li><strong>Base légale</strong> : Cookies strictement nécessaires (exemptés de consentement)</li>
+        <li><strong>Durée</strong> : 1 an</li>
+      </ul>
+
+      <h3>3. Données non collectées</h3>
+      <p>Ce site <strong>ne collecte PAS</strong> :</p>
+      <ul>
+        <li>❌ Cookies publicitaires ou de tracking</li>
+        <li>❌ Données de navigation à des fins commerciales</li>
+        <li>❌ Adresse IP (sauf logs serveur anonymisés)</li>
+        <li>❌ Données de géolocalisation</li>
+      </ul>
+
+      <h3>4. Partage des données</h3>
+      <p>Vos données personnelles <strong>ne sont jamais</strong> :</p>
+      <ul>
+        <li>🚫 Vendues à des tiers</li>
+        <li>🚫 Partagées avec des partenaires commerciaux</li>
+        <li>🚫 Utilisées à des fins publicitaires</li>
+      </ul>
+
+      <h3>5. Vos droits (RGPD)</h3>
+      <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+      <ul>
+        <li>✅ <strong>Droit d'accès</strong> : Obtenir une copie de vos données</li>
+        <li>✅ <strong>Droit de rectification</strong> : Corriger des données inexactes</li>
+        <li>✅ <strong>Droit à l'effacement</strong> : Supprimer vos données</li>
+        <li>✅ <strong>Droit d'opposition</strong> : Vous opposer au traitement</li>
+        <li>✅ <strong>Droit à la portabilité</strong> : Recevoir vos données dans un format structuré</li>
+        <li>✅ <strong>Droit de limitation</strong> : Limiter le traitement dans certains cas</li>
+      </ul>
+
+      <p><strong>Pour exercer vos droits :</strong><br>
+      📧 <a href="mailto:rgpd@pourquituvotes.fr">rgpd@pourquituvotes.fr</a><br>
+      ⏱️ Délai de réponse : 1 mois maximum</p>
+
+      <h3>6. Sécurité</h3>
+      <p>Nous mettons en œuvre des mesures techniques et organisationnelles pour protéger vos données :</p>
+      <ul>
+        <li>🔒 Chiffrement HTTPS sur tout le site</li>
+        <li>🛡️ Stockage sécurisé des données</li>
+        <li>👥 Accès limité aux seules personnes autorisées</li>
+      </ul>
+
+      <h3>7. Réclamation</h3>
+      <p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la CNIL :</p>
+      <p>🏛️ <a href="https://www.cnil.fr" target="_blank" rel="noopener">Commission Nationale de l'Informatique et des Libertés (CNIL)</a><br>
+      3 Place de Fontenoy - TSA 80715 - 75334 PARIS CEDEX 07<br>
+      Tél : 01 53 73 22 22</p>
+
+      <h3>8. Modifications</h3>
+      <p>Nous nous réservons le droit de modifier cette politique de confidentialité. Toute modification sera publiée sur cette page avec une nouvelle date de mise à jour.</p>
+    </div>
+  </div>
+
+  <!-- Bouton retour en haut -->
+  <button id="btn-top" class="btn-top" title="Retour en haut" hidden>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Sommaire sticky -->
+  <aside id="sommaire" class="sommaire" hidden>
+    <div class="sommaire__header">
+      <h3 class="sommaire__titre">Catégories</h3>
+      <button id="sommaire-toggle" class="sommaire__toggle" title="Masquer le sommaire">×</button>
+    </div>
+    <nav id="sommaire-nav" class="sommaire__nav"></nav>
+  </aside>
+
+  <!-- Panneau de contrôles design -->
+  <aside id="design-panel" class="design-panel design-panel--collapsed">
+    <button id="design-panel-toggle" class="design-panel__toggle" title="Panneau design">
+      <span class="design-panel__toggle-icon">🎨</span>
+    </button>
+    <div class="design-panel__body">
+      <h3 class="design-panel__titre">Design</h3>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Vue de page</label>
+        <select id="dp-vue-page" class="design-panel__select">
+          <option value="vue1">Vue 1 — Classique</option>
+          <option value="vue2">Vue 2 — Radar + Th&egrave;mes</option>
+        </select>
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Police titres</label>
+        <select id="dp-font-titres" class="design-panel__select">
+          <option value="'Source Sans 3'">Source Sans 3</option>
+          <option value="'Libre Baskerville'">Libre Baskerville</option>
+          <option value="'Montserrat'">Montserrat</option>
+          <option value="'DM Sans'">DM Sans</option>
+          <option value="'Georgia'">Georgia</option>
+          <option value="'Palatino Linotype', Palatino">Palatino</option>
+          <option value="'Times New Roman', Times">Times New Roman</option>
+        </select>
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Police texte</label>
+        <select id="dp-font-texte" class="design-panel__select">
+          <option value="'Source Sans 3'">Source Sans 3</option>
+          <option value="'DM Sans'">DM Sans</option>
+          <option value="'Montserrat'">Montserrat</option>
+          <option value="system-ui, -apple-system, sans-serif">System UI</option>
+          <option value="'Segoe UI', Roboto, sans-serif">Segoe UI</option>
+        </select>
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Couleur primaire</label>
+        <input type="color" id="dp-couleur-accent" class="design-panel__color" value="#2c3e6b">
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Couleur accent</label>
+        <input type="color" id="dp-couleur-accent-light" class="design-panel__color" value="#4a5f94">
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Mode</label>
+        <div class="design-panel__toggle-row">
+          <span class="design-panel__toggle-label">☀️ Clair</span>
+          <button id="dp-theme-toggle" class="design-panel__switch" data-active="false">
+            <span class="design-panel__switch-knob"></span>
+          </button>
+          <span class="design-panel__toggle-label">🌙 Sombre</span>
+        </div>
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Style hero</label>
+        <select id="dp-hero-style" class="design-panel__select">
+          <option value="">Classique (blanc)</option>
+          <option value="ruban">Ruban tricolore</option>
+          <option value="confettis">Confettis</option>
+          <option value="mesh">Mesh moderne</option>
+          <option value="topo">Topo / Carte</option>
+        </select>
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Liseré</label>
+        <select id="dp-lisere-style" class="design-panel__select">
+          <option value="">Sans liseré</option>
+          <option value="rouge-blanc">Hero — Rouge / Blanc</option>
+          <option value="bleu-blanc-rouge">Hero — Bleu / Blanc / Rouge</option>
+          <option value="header-full-tricolore">Header — Tricolore</option>
+        </select>
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Épaisseur liseré</label>
+        <input type="range" id="dp-lisere-epaisseur" class="design-panel__range" min="1" max="10" value="2" step="1">
+        <span id="dp-lisere-epaisseur-val" class="design-panel__range-val">2px</span>
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Palette barres</label>
+        <select id="dp-palette-barres" class="design-panel__select">
+          <option value="officielle">Couleurs officielles</option>
+          <option value="flat">Flat Minimal</option>
+          <option value="moderne">Mix Moderne</option>
+        </select>
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Style pictos</label>
+        <select id="dp-picto-style" class="design-panel__select">
+          <optgroup label="Emoji">
+            <option value="standard">&emsp;🚇 Standard</option>
+            <option value="moderne">&emsp;🚌 Moderne</option>
+            <option value="sobre">&emsp;🚊 Sobre</option>
+            <option value="nature">&emsp;🌳 Nature</option>
+          </optgroup>
+          <optgroup label="Font Awesome">
+            <option value="fa-solid">&emsp;&#xf207; Solid</option>
+          </optgroup>
+          <optgroup label="Bootstrap Icons">
+            <option value="bootstrap">&emsp;&#x25A0; Bootstrap</option>
+          </optgroup>
+          <optgroup label="Material Symbols">
+            <option value="material">&emsp;&#x25CB; Outlined</option>
+          </optgroup>
+          <optgroup label="Phosphor Icons">
+            <option value="phosphor">&emsp;&#x25BD; Regular</option>
+            <option value="phosphor-fill">&emsp;&#x25BC; Fill</option>
+            <option value="phosphor-duotone">&emsp;&#x25D1; Duotone</option>
+          </optgroup>
+          <optgroup label="Tabler Icons">
+            <option value="tabler">&emsp;&#x2606; Tabler</option>
+          </optgroup>
+          <optgroup label="Autre">
+            <option value="aucun">&emsp;&mdash; Aucun picto</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <div class="design-panel__group">
+        <label class="design-panel__label">Densité espacements</label>
+        <div class="design-panel__density-row">
+          <button class="design-panel__density-btn design-panel__density-btn--active" data-density="normal">Normal</button>
+          <button class="design-panel__density-btn" data-density="compact">Compact</button>
+          <button class="design-panel__density-btn" data-density="spacieux">Spacieux</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

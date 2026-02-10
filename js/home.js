@@ -3,8 +3,8 @@
 
   // === Data (chargé depuis JSON) ===
   var VILLES = [];
-  var DATA_BASE_URL = 'data/';
-  var DATA_VERSION = '2026020901';
+  var DATA_BASE_URL = '/data/';
+  var DATA_VERSION = '2026021001';
 
   var DATE_SCRUTIN = new Date("2026-03-15T08:00:00");
 
@@ -119,7 +119,7 @@
 
   function createFeaturedCard(ville) {
     var s = ville.stats || {};
-    return '<a href="index.html?ville=' + ville.id + '" class="election-card election-card--featured">' +
+    return '<a href="/municipales/2026/?ville=' + ville.id + '" class="election-card election-card--featured">' +
       '<span class="election-card__badge election-card__badge--available"><i class="ph ph-check-circle" aria-hidden="true"></i> Disponible</span>' +
       '<div class="election-card__icon"><i class="ph ph-bank" aria-hidden="true"></i></div>' +
       '<div class="election-card__type">MUNICIPALES 2026</div>' +
@@ -157,7 +157,7 @@
 
     grid.innerHTML = TENDANCES_FRANCE.map(function (t, idx) {
       var cls = (idx === 0 || idx === TENDANCES_FRANCE.length - 1) ? " tendance-card--wide" : "";
-      return '<a href="index.html?categorie=' + t.slug + '" class="tendance-card' + cls + '">' +
+      return '<a href="/municipales/2026/?categorie=' + t.slug + '" class="tendance-card' + cls + '">' +
         '<i class="ph ' + t.icon + ' tendance-card__icon" aria-hidden="true"></i>' +
         '<div class="tendance-card__name">' + esc(t.nom) + '</div>' +
         '<div class="tendance-card__count">' + t.count + ' propositions</div>' +
@@ -215,7 +215,7 @@
     }
 
     function navigateTo(villeId) {
-      window.location.href = "index.html?ville=" + villeId;
+      window.location.href = "/municipales/2026/?ville=" + villeId;
     }
 
     function highlightItem(idx) {

@@ -97,6 +97,10 @@
   --ombre-forte: 0 4px 16px rgba(0, 0, 0, 0.5);
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--couleur-fond);
@@ -105,6 +109,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 /* === Typographie === */

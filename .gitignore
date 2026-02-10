@@ -1,0 +1,9 @@
+# PDFs programmes (outils de travail, pas déployés)
+data/programmes/*.pdf
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Backups
+*.backup-*

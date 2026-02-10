@@ -1,0 +1,7 @@
+# Redirection après restructuration URLs (2026-02-10)
+# Ancien home.html → nouvelle racine
+/home /  301
+/home.html /  301
+
+# Ancien comparateur racine → nouveau chemin
+/index.html?ville=:ville /municipales/2026/?ville=:ville 301

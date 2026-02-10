@@ -123,4 +123,4 @@ Puis ouvrir http://localhost:8000 dans le navigateur.
 
 ## Cache busting
 
-Les fichiers JSON sont charges avec `?v=DATA_VERSION`. Cette version est incrementee automatiquement par `generateur_commun.py` a chaque mise a jour de donnees. Cela force les navigateurs a re-telecharger les fichiers modifies.
+Les fichiers JSON sont charges avec `?v=DATA_VERSION`. Cette version est incrementee automatiquement par `generateur_commun.py` a chaque mise a jour de donnees. Cela force les navigateurs a re-telecharger les fichiers modifies. 

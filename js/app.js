@@ -452,7 +452,7 @@
 
     // URL canonique
     var urlBase = window.location.origin + window.location.pathname;
-    var urlCanonique = urlBase + "?ville=" + ville.toLowerCase().replace(/\s+/g, '-');
+    var urlCanonique = urlBase + "?ville=" + (villeSelectionnee ? villeSelectionnee.id : ville.toLowerCase().replace(/\s+/g, '-'));
 
     // Mettre à jour les balises meta
     mettreAJourMeta("description", description);
@@ -3276,6 +3276,18 @@
       }, 500);
     });
   }
+
+  // === Burger menu mobile ===
+  (function() {
+    var btn = document.getElementById("burger-btn");
+    var menu = document.getElementById("mobile-menu");
+    if (!btn || !menu) return;
+    btn.addEventListener("click", function() {
+      var expanded = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", !expanded);
+      menu.hidden = expanded;
+    });
+  })();
 
   // === Initialisation ===
   // Charger le thème sauvegardé

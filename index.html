@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
   <!-- Redirect legacy URLs -->
   <script>
@@ -17,7 +18,7 @@
   </script>
 
   <!-- SEO -->
-  <title>#POURQUITUVOTES - Comparez les programmes \u00e9lectoraux</title>
+  <title>Municipales 2026 — Comparez les programmes des candidats | #POURQUITUVOTES</title>
   <meta name="description" content="Comparez les propositions des candidats aux municipales 2026 et pr\u00e9sidentielle 2027 sur les sujets qui comptent pour vous. Projet citoyen, ind\u00e9pendant et non-partisan.">
   <meta name="keywords" content="\u00e9lections municipales 2026, pr\u00e9sidentielle 2027, comparateur programmes, candidats, propositions, d\u00e9mocratie">
   <meta name="author" content="#POURQUITUVOTES">
@@ -27,17 +28,18 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="#POURQUITUVOTES">
-  <meta property="og:title" content="#POURQUITUVOTES - Comparez les programmes \u00e9lectoraux">
+  <meta property="og:title" content="Municipales 2026 — Comparez les programmes des candidats | #POURQUITUVOTES">
   <meta property="og:description" content="Comparez les propositions des candidats aux municipales 2026 et pr\u00e9sidentielle 2027 sur les sujets qui comptent pour vous.">
   <meta property="og:url" content="https://pourquituvotes.fr/">
   <meta property="og:image" content="https://pourquituvotes.fr/og/home.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Municipales 2026 — Comparez les programmes des candidats sur #POURQUITUVOTES">
   <meta property="og:locale" content="fr_FR">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="#POURQUITUVOTES - Comparez les programmes \u00e9lectoraux">
+  <meta name="twitter:title" content="Municipales 2026 — Comparez les programmes des candidats | #POURQUITUVOTES">
   <meta name="twitter:description" content="Comparez les propositions des candidats aux municipales 2026 et pr\u00e9sidentielle 2027 sur les sujets qui comptent pour vous.">
   <meta name="twitter:image" content="https://pourquituvotes.fr/og/home.png">
 
@@ -57,13 +59,14 @@
   }
   </script>
 
-  <!-- Fonts -->
+  <!-- Fonts (non-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 
-  <!-- Phosphor Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web/src/regular/style.css">
+  <!-- Phosphor Icons (non-blocking) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web/src/regular/style.css" media="print" onload="this.media='all'">
 
   <link rel="stylesheet" href="css/home.css">
 </head>
@@ -396,6 +399,6 @@
     </div>
   </footer>
 
-  <script src="js/home.js"></script>
+  <script defer src="js/home.js"></script>
 </body>
 </html>

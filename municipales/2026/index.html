@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
   <!-- SEO de base -->
   <title>Pour qui tu votes — Comparez les programmes des candidats</title>
@@ -60,10 +61,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+  <!-- Skip link -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
   <!-- Header unifié -->
   <header class="site-header" id="site-header">
     <div class="site-header__inner">
@@ -78,6 +83,10 @@
           <li><a href="#" data-modal="contact">Contact</a></li>
         </ul>
       </nav>
+      <!-- Burger mobile -->
+      <button class="header__burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
       <!-- Droite : compte à rebours -->
       <div class="header-countdown" id="topbar-countdown">
         <span class="countdown__timer">
@@ -101,17 +110,28 @@
         <span class="countdown__label">avant le scrutin</span>
       </div>
     </div>
+    <!-- Mobile menu -->
+    <div class="header__mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Menu mobile">
+        <ul>
+          <li><a href="#" data-modal="a-propos">À propos</a></li>
+          <li><a href="#" data-modal="methodologie">Méthodologie</a></li>
+          <li><a href="#" data-modal="faq">FAQ</a></li>
+          <li><a href="#" data-modal="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <!-- Hero -->
-  <header class="hero" id="hero">
-    <p class="hero__subtitle">Comparez les programmes des candidats aux municipales 2026</p>
+  <section class="hero" id="hero">
+    <h1 class="hero__subtitle">Comparez les programmes des candidats aux municipales 2026</h1>
     <div class="hero__cta" id="hero-cta-inscription">
       <a href="https://www.service-public.fr/particuliers/vosdroits/R16396" target="_blank" rel="noopener" class="btn-inscription">
         Inscrivez-vous sur les listes électorales
       </a>
     </div>
-  </header>
+  </section>
 
   <!-- Loader overlay -->
   <div id="loader-overlay" class="loader-overlay">
@@ -119,7 +139,7 @@
     <p class="loader-text">Chargement...</p>
   </div>
 
-  <main class="main">
+  <main class="main" id="main-content">
     <!-- Sélection de ville -->
     <section class="controls">
       <div class="controls__ville">
@@ -620,147 +640,7 @@
     <nav id="sommaire-nav" class="sommaire__nav"></nav>
   </aside>
 
-  <!-- Panneau de contrôles design -->
-  <aside id="design-panel" class="design-panel design-panel--collapsed">
-    <button id="design-panel-toggle" class="design-panel__toggle" title="Panneau design">
-      <span class="design-panel__toggle-icon">🎨</span>
-    </button>
-    <div class="design-panel__body">
-      <h3 class="design-panel__titre">Design</h3>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Vue de page</label>
-        <select id="dp-vue-page" class="design-panel__select">
-          <option value="vue1">Vue 1 — Classique</option>
-          <option value="vue2">Vue 2 — Radar + Th&egrave;mes</option>
-        </select>
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Police titres</label>
-        <select id="dp-font-titres" class="design-panel__select">
-          <option value="'Source Sans 3'">Source Sans 3</option>
-          <option value="'Libre Baskerville'">Libre Baskerville</option>
-          <option value="'Montserrat'">Montserrat</option>
-          <option value="'DM Sans'">DM Sans</option>
-          <option value="'Georgia'">Georgia</option>
-          <option value="'Palatino Linotype', Palatino">Palatino</option>
-          <option value="'Times New Roman', Times">Times New Roman</option>
-        </select>
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Police texte</label>
-        <select id="dp-font-texte" class="design-panel__select">
-          <option value="'Source Sans 3'">Source Sans 3</option>
-          <option value="'DM Sans'">DM Sans</option>
-          <option value="'Montserrat'">Montserrat</option>
-          <option value="system-ui, -apple-system, sans-serif">System UI</option>
-          <option value="'Segoe UI', Roboto, sans-serif">Segoe UI</option>
-        </select>
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Couleur primaire</label>
-        <input type="color" id="dp-couleur-accent" class="design-panel__color" value="#2c3e6b">
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Couleur accent</label>
-        <input type="color" id="dp-couleur-accent-light" class="design-panel__color" value="#4a5f94">
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Mode</label>
-        <div class="design-panel__toggle-row">
-          <span class="design-panel__toggle-label">☀️ Clair</span>
-          <button id="dp-theme-toggle" class="design-panel__switch" data-active="false">
-            <span class="design-panel__switch-knob"></span>
-          </button>
-          <span class="design-panel__toggle-label">🌙 Sombre</span>
-        </div>
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Style hero</label>
-        <select id="dp-hero-style" class="design-panel__select">
-          <option value="">Classique (blanc)</option>
-          <option value="ruban">Ruban tricolore</option>
-          <option value="confettis">Confettis</option>
-          <option value="mesh">Mesh moderne</option>
-          <option value="topo">Topo / Carte</option>
-        </select>
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Liseré</label>
-        <select id="dp-lisere-style" class="design-panel__select">
-          <option value="">Sans liseré</option>
-          <option value="rouge-blanc">Hero — Rouge / Blanc</option>
-          <option value="bleu-blanc-rouge">Hero — Bleu / Blanc / Rouge</option>
-          <option value="header-full-tricolore">Header — Tricolore</option>
-        </select>
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Épaisseur liseré</label>
-        <input type="range" id="dp-lisere-epaisseur" class="design-panel__range" min="1" max="10" value="2" step="1">
-        <span id="dp-lisere-epaisseur-val" class="design-panel__range-val">2px</span>
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Palette barres</label>
-        <select id="dp-palette-barres" class="design-panel__select">
-          <option value="officielle">Couleurs officielles</option>
-          <option value="flat">Flat Minimal</option>
-          <option value="moderne">Mix Moderne</option>
-        </select>
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Style pictos</label>
-        <select id="dp-picto-style" class="design-panel__select">
-          <optgroup label="Emoji">
-            <option value="standard">&emsp;🚇 Standard</option>
-            <option value="moderne">&emsp;🚌 Moderne</option>
-            <option value="sobre">&emsp;🚊 Sobre</option>
-            <option value="nature">&emsp;🌳 Nature</option>
-          </optgroup>
-          <optgroup label="Font Awesome">
-            <option value="fa-solid">&emsp;&#xf207; Solid</option>
-          </optgroup>
-          <optgroup label="Bootstrap Icons">
-            <option value="bootstrap">&emsp;&#x25A0; Bootstrap</option>
-          </optgroup>
-          <optgroup label="Material Symbols">
-            <option value="material">&emsp;&#x25CB; Outlined</option>
-          </optgroup>
-          <optgroup label="Phosphor Icons">
-            <option value="phosphor">&emsp;&#x25BD; Regular</option>
-            <option value="phosphor-fill">&emsp;&#x25BC; Fill</option>
-            <option value="phosphor-duotone">&emsp;&#x25D1; Duotone</option>
-          </optgroup>
-          <optgroup label="Tabler Icons">
-            <option value="tabler">&emsp;&#x2606; Tabler</option>
-          </optgroup>
-          <optgroup label="Autre">
-            <option value="aucun">&emsp;&mdash; Aucun picto</option>
-          </optgroup>
-        </select>
-      </div>
-
-      <div class="design-panel__group">
-        <label class="design-panel__label">Densité espacements</label>
-        <div class="design-panel__density-row">
-          <button class="design-panel__density-btn design-panel__density-btn--active" data-density="normal">Normal</button>
-          <button class="design-panel__density-btn" data-density="compact">Compact</button>
-          <button class="design-panel__density-btn" data-density="spacieux">Spacieux</button>
-        </div>
-      </div>
-    </div>
-  </aside>
-
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script src="/js/app.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script defer src="/js/app.js"></script>
 </body>
 </html>

@@ -501,6 +501,7 @@ input { font-family: inherit; border: none; outline: none; }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
+  min-height: 280px;
 }
 
 /* Election card - featured */
@@ -863,6 +864,7 @@ input { font-family: inherit; border: none; outline: none; }
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
+  min-height: 180px;
 }
 
 .tendance-card--wide {

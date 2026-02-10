@@ -42,6 +42,22 @@
   src: url('../fonts/LibreBaskerville-Bold.ttf') format('truetype');
 }
 
+/* === Accessibility === */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #002395;
+  color: #fff;
+  padding: 12px 20px;
+  z-index: 1000;
+  font-weight: 600;
+  border-radius: 0 0 8px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 /* === Reset & Base === */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -228,6 +244,48 @@ li {
 .header-countdown .countdown__label {
   font-size: 0.78rem;
   color: rgba(255,255,255,0.75);
+}
+
+/* Burger menu */
+.header__burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.header__burger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: 0.2s ease;
+}
+
+/* Mobile menu */
+.header__mobile-menu {
+  background: #002395;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 16px 24px;
+}
+.header__mobile-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+.header__mobile-menu a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 8px 0;
+  display: block;
 }
 
 /* Dark mode */
@@ -3660,22 +3718,16 @@ mark {
   }
   .site-header__inner {
     padding: 0.5rem 0.75rem;
-    flex-wrap: wrap;
     gap: 0.5rem;
   }
   .header-brand {
     font-size: 1.15rem;
   }
   .header-nav {
-    order: 3;
-    flex-basis: 100%;
-    justify-content: center;
+    display: none;
   }
-  .header-nav__links {
-    gap: 1rem;
-  }
-  .header-nav__links a {
-    font-size: 0.72rem;
+  .header__burger {
+    display: flex;
   }
   .header-countdown {
     font-size: 0.72rem;

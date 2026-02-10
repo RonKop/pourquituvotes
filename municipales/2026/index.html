@@ -66,11 +66,34 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-T4CCTF6V');</script>
 
+  <!-- CSS critique inline (first paint instantané) -->
+  <style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Source Sans 3',system-ui,-apple-system,sans-serif;background:#f8fafc;color:#1e293b;min-height:100vh}
+  .skip-link{position:absolute;left:-9999px;top:0;z-index:1000}
+  .site-header{position:sticky;top:0;z-index:100;background:#002395;color:#fff;height:72px}
+  .site-header__inner{max-width:1200px;margin:0 auto;padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:100%;gap:1.5rem}
+  .header-brand{text-decoration:none;font-family:'Montserrat',sans-serif;font-weight:900;font-style:italic;font-size:1.5rem;letter-spacing:-0.01em;white-space:nowrap;text-transform:uppercase;line-height:1;flex-shrink:0}
+  .brand-blanc{color:#fff}.brand-rouge{color:#ED2939}
+  .header-nav,.header-countdown,.header__mobile-menu,.header__burger{display:none}
+  .hero{background:linear-gradient(135deg,#002395 0%,#001a6e 60%,#0d1b2a 100%);padding:48px 20px 40px;text-align:center}
+  .hero__subtitle{font-family:'Montserrat',sans-serif;font-size:clamp(1.1rem,2.5vw,1.5rem);font-weight:700;color:#fff;max-width:700px;margin:0 auto}
+  .loader-overlay{position:fixed;inset:0;z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(255,255,255,0.92);backdrop-filter:blur(4px)}
+  .loader-overlay[hidden]{display:none}
+  .loader-spinner{width:40px;height:40px;border:4px solid #e2e8f0;border-top-color:#2c3e6b;border-radius:50%;animation:loader-spin .8s linear infinite}
+  .loader-text{margin-top:1rem;font-size:.95rem;color:#64748b}
+  @keyframes loader-spin{to{transform:rotate(360deg)}}
+  </style>
+
+  <!-- CSS complet (non-bloquant) -->
+  <link rel="preload" as="style" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
+
+  <!-- Fonts (non-bloquant) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/css/style.css">
 
   <!-- Prefetch données (élimine la cascade séquentielle) -->
   <script>

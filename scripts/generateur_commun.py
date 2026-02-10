@@ -172,11 +172,14 @@ def insert_city(ville_id, ville_nom, ville_cp, candidats, props, categories=None
 
     # Trouver ou créer l'entrée ville
     ville_entry = next((v for v in villes if v["id"] == ville_id), None)
+    today = datetime.now().strftime("%Y-%m-%d")
+
     if ville_entry:
         # Mettre à jour
         ville_entry["stats"] = stats
         ville_entry["candidats"] = candidats_leger
-        print(f"  Ville {ville_id} mise à jour dans villes.json")
+        ville_entry["derniereMaj"] = today
+        print(f"  Ville {ville_id} mise à jour dans villes.json (derniereMaj: {today})")
     else:
         # Créer
         ville_entry = {
@@ -186,10 +189,11 @@ def insert_city(ville_id, ville_nom, ville_cp, candidats, props, categories=None
             "departement": get_departement(ville_cp),
             "elections": [election_id],
             "stats": stats,
-            "candidats": candidats_leger
+            "candidats": candidats_leger,
+            "derniereMaj": today
         }
         villes.append(ville_entry)
-        print(f"  Ville {ville_id} ajoutée dans villes.json")
+        print(f"  Ville {ville_id} ajoutée dans villes.json (derniereMaj: {today})")
 
     with open(VILLES_JSON, "w", encoding="utf-8") as f:
         json.dump(villes, f, ensure_ascii=False, indent=2)

@@ -16,15 +16,15 @@
       "id": "christophle",
       "nom": "Paul Christophle",
       "liste": "PS-PCF-Les Écologistes, L'Appel pour Valence 2026",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://reunirvalence.fr/",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
       "id": "boyadjian",
       "nom": "Jules Boyadjian",
       "liste": "Divers gauche, Réunir Valence",
-      "programmeUrl": "https://reunirvalence.fr/",
+      "programmeUrl": "#",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -63,7 +63,7 @@
           "nom": "Police municipale",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Unité de proximité de la Police Municipale hors du centre-ville et création d'une brigade anti-incivilités", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -87,7 +87,7 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Redéployer médiateurs et éducateurs dans les quartiers pour la prévention des conflits, la médiation et l'accès au droit", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -99,7 +99,7 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Ouvrir une Maison des Femmes et un lieu d'accompagnement des victimes de violences avec guichet unique, soignants et juristes", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -117,7 +117,7 @@
           "nom": "Transports en commun",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Développer les transports publics de nuit avec descente à la demande pour sécuriser les déplacements", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -141,7 +141,7 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Créer des « rues des enfants » devant les écoles pour sécuriser les abords et encourager les mobilités douces", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -237,7 +237,7 @@
           "nom": "Petite enfance",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Organiser des assises de l'éducation pour un Projet Éducatif de Territoire (PEDT) et créer une école des parents", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -249,7 +249,7 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Végétaliser 100% des cours d'école, rénover les bâtiments scolaires et créer un service factotum d'intervention rapide", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -261,7 +261,7 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Menus flexitariens bio et locaux dans les cantines et distribution gratuite de petits-déjeuners dans les écoles", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -273,7 +273,7 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Revaloriser les animateurs périscolaires, activités éducatives gratuites et développer l'École dehors", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -285,7 +285,7 @@
           "nom": "Jeunesse",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Activités durant les vacances dans les quartiers, chantiers d'été et jobs saisonniers pour les jeunes", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -303,7 +303,7 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Jardins pédagogiques et poulaillers dans les écoles volontaires, en lien avec les jardins collectifs de la ville", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -327,7 +327,7 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Réunir une convention citoyenne municipale sur la transition écologique dès avril 2026", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -339,7 +339,7 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Intégrer la sobriété énergétique dans les projets de construction et engager la rénovation thermique des bâtiments scolaires", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -351,7 +351,7 @@
           "nom": "Alimentation durable",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Expérimenter la sécurité sociale de l'alimentation : accès universel à une alimentation saine, bio et locale", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -411,7 +411,7 @@
           "nom": "Budget participatif",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Grande concertation citoyenne sur l'insécurité avec ateliers, enquête de population et observatoire de la tranquillité", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -447,7 +447,7 @@
           "nom": "Services publics",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Créer une Maison de la Justice et du Droit pour renforcer l'accès aux droits des habitants", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -477,7 +477,7 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Politique d'accueil des travaux d'intérêt général et convention Mairie-Justice pour les rappels à la loi avec orientation", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -507,7 +507,7 @@
           "nom": "Équipements culturels",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Plan lecture : mini-bibliothèques dans les écoles et lien renforcé avec les médiathèques municipales", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -549,7 +549,7 @@
           "nom": "Sport pour tous",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Favoriser les pratiques sportives mixtes filles-garçons avec critères de mixité dans les financements", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -591,7 +591,7 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Créer des postes de médiateurs et éducateurs dans les écoles de quartiers prioritaires contre le décrochage", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,
@@ -621,7 +621,7 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "daragon": null,
-            "christophle": null,
+            "christophle": {"texte": "Former 100% des agents à l'égalité, créer un Conseil pour l'égalité femme-homme et protections périodiques gratuites", "source": "reunirvalence.fr", "sourceUrl": "https://reunirvalence.fr/nos-propositions/"},
             "boyadjian": null,
             "magnin": null,
             "reis": null,

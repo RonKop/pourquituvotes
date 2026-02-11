@@ -1,0 +1,646 @@
+{
+  "ville": "Annecy",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "armand",
+      "nom": "Antoine Armand",
+      "liste": "Renaissance-Horizons-MoDem-LR-UDI, Les Acteurs d'Annecy",
+      "programmeUrl": "https://acteursannecy.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mulatier-gachet",
+      "nom": "Alexandre Mulatier-Gachet",
+      "liste": "Union de la gauche (Écologistes/PS/Place publique/PCF), Vivre Annecy 2026",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rigaut",
+      "nom": "Jean-Luc Rigaut",
+      "liste": "Divers droite, Pour Annecy 2026",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "roit-leveque",
+      "nom": "Guillaume Roit-Levêque",
+      "liste": "RN, Retrouvons Annecy",
+      "programmeUrl": "https://retrouvons-annecy.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "dreme",
+      "nom": "Vincent Drême",
+      "liste": "LFI, L'avenir en commune",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chiad",
+      "nom": "Daniel-Salem Chiad",
+      "liste": "Sans étiquette, Vivre tous ensemble à Annecy",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "armand": null,
+            "mulatier-gachet": null,
+            "rigaut": null,
+            "roit-leveque": null,
+            "dreme": null,
+            "chiad": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "ville": "Neuilly-sur-Seine",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "fromantin",
+      "nom": "Jean-Christophe Fromantin",
+      "liste": "Divers droite",
+      "programmeUrl": "https://www.fromantin2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "fromantin": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "fromantin": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "ville": "Saint-Pierre (La Réunion)",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "lorion",
+      "nom": "David Lorion",
+      "liste": "Divers droite / sans étiquette",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "kbidi",
+      "nom": "Émeline K/Bidi",
+      "liste": "Divers gauche (soutenue par LFI/NFP)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "dijoux",
+      "nom": "Ruth Dijoux",
+      "liste": "Ekilibre, L'Union des Saint-Pierrois (PS/Écologistes)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "gobalou",
+      "nom": "Virginie Gobalou",
+      "liste": "Convictions Réunion",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "von-pine",
+      "nom": "Bernard Von-Pine",
+      "liste": "Divers",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "riani",
+      "nom": "Richard Riani",
+      "liste": "Divers / liste citoyenne",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "lorion": null,
+            "kbidi": null,
+            "dijoux": null,
+            "gobalou": null,
+            "von-pine": null,
+            "riani": null
+          }
+        }
+      ]
+    }
+  ]
+}

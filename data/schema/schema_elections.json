@@ -1,0 +1,119 @@
+{
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {"id": "police-municipale", "nom": "Police municipale"},
+        {"id": "videoprotection", "nom": "Vidéoprotection"},
+        {"id": "prevention-mediation", "nom": "Prévention & Médiation"},
+        {"id": "violences-femmes", "nom": "Violences faites aux femmes"}
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {"id": "transports-en-commun", "nom": "Transports en commun"},
+        {"id": "velo-mobilites-douces", "nom": "Vélo & Mobilités douces"},
+        {"id": "pietons-circulation", "nom": "Piétons & Circulation"},
+        {"id": "stationnement", "nom": "Stationnement"},
+        {"id": "tarifs-gratuite", "nom": "Tarifs & Gratuité"}
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {"id": "logement-social", "nom": "Logement social"},
+        {"id": "logements-vacants", "nom": "Logements vacants"},
+        {"id": "encadrement-loyers", "nom": "Encadrement des loyers"},
+        {"id": "acces-logement", "nom": "Accès au logement"}
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {"id": "petite-enfance", "nom": "Petite enfance"},
+        {"id": "ecoles-renovation", "nom": "Écoles & Rénovation"},
+        {"id": "cantines-fournitures", "nom": "Cantines & Fournitures"},
+        {"id": "periscolaire-loisirs", "nom": "Périscolaire & Loisirs"},
+        {"id": "jeunesse", "nom": "Jeunesse"}
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {"id": "espaces-verts", "nom": "Espaces verts & Biodiversité"},
+        {"id": "proprete-dechets", "nom": "Propreté & Déchets"},
+        {"id": "climat-adaptation", "nom": "Climat & Adaptation"},
+        {"id": "renovation-energetique", "nom": "Rénovation énergétique"},
+        {"id": "alimentation-durable", "nom": "Alimentation durable"}
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {"id": "centres-sante", "nom": "Centres de santé"},
+        {"id": "prevention-sante", "nom": "Prévention santé"},
+        {"id": "seniors", "nom": "Seniors"}
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {"id": "budget-participatif", "nom": "Budget participatif"},
+        {"id": "transparence", "nom": "Transparence"},
+        {"id": "vie-associative", "nom": "Vie associative"},
+        {"id": "services-publics", "nom": "Services publics"}
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {"id": "commerce-local", "nom": "Commerce local"},
+        {"id": "emploi-insertion", "nom": "Emploi & Insertion"},
+        {"id": "attractivite", "nom": "Attractivité"}
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {"id": "equipements-culturels", "nom": "Équipements culturels"},
+        {"id": "evenements-creation", "nom": "Événements & Création"}
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {"id": "equipements-sportifs", "nom": "Équipements sportifs"},
+        {"id": "sport-pour-tous", "nom": "Sport pour tous"}
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {"id": "amenagement-urbain", "nom": "Aménagement urbain"},
+        {"id": "accessibilite", "nom": "Accessibilité"},
+        {"id": "quartiers-prioritaires", "nom": "Quartiers prioritaires"}
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {"id": "aide-sociale", "nom": "Aide sociale"},
+        {"id": "egalite-discriminations", "nom": "Égalité & Discriminations"},
+        {"id": "pouvoir-achat", "nom": "Pouvoir d'achat"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "ville": "Vénissieux",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "picard",
+      "nom": "Michèle Picard",
+      "liste": "PCF",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "boumertit",
+      "nom": "Idir Boumertit",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "dureau",
+      "nom": "Pascal Dureau",
+      "liste": "Divers droite-centre, Vénissieux Plurielle",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "taieb",
+      "nom": "Quentin Taieb",
+      "liste": "RN / UDR, Retrouver Vénissieux",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "petit",
+      "nom": "Barbara Petit",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "omeir",
+      "nom": "Farid Omeir",
+      "liste": "UDMF (Union des démocrates musulmans français)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "picard": null,
+            "boumertit": null,
+            "dureau": null,
+            "taieb": null,
+            "petit": null,
+            "omeir": null
+          }
+        }
+      ]
+    }
+  ]
+}

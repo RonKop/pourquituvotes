@@ -1,0 +1,595 @@
+{
+  "ville": "Pantin",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "kern",
+      "nom": "Bertrand Kern",
+      "liste": "PS dissident, Pantin au cœur",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "monot",
+      "nom": "Mathieu Monot",
+      "liste": "PS officiel, Osez Pantin",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bardoux",
+      "nom": "Thomas Bardoux",
+      "liste": "LFI, Faire mieux pour Pantin",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "carvalhinho",
+      "nom": "Geoffrey Carvalhinho",
+      "liste": "LR, Pantin en confiance",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "arthaud",
+      "nom": "Nathalie Arthaud",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "kern": null,
+            "monot": null,
+            "bardoux": null,
+            "carvalhinho": null,
+            "arthaud": null
+          }
+        }
+      ]
+    }
+  ]
+}

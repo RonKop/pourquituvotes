@@ -1,0 +1,595 @@
+{
+  "ville": "Besançon",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "vignot",
+      "nom": "Anne Vignot",
+      "liste": "Les Écologistes-PCF-Génération.s",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fagaut",
+      "nom": "Ludovic Fagaut",
+      "liste": "LR-MoDem, Ensemble Besançon avance",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "delabrousse",
+      "nom": "Éric Delabrousse",
+      "liste": "Horizons-Renaissance-Parti radical",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "vezies",
+      "nom": "Séverine Véziès",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ricciardetti",
+      "nom": "Jacques Ricciardetti",
+      "liste": "RN-UDR-DLF-Identité Libertés",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "vignot": null,
+            "fagaut": null,
+            "delabrousse": null,
+            "vezies": null,
+            "ricciardetti": null
+          }
+        }
+      ]
+    }
+  ]
+}

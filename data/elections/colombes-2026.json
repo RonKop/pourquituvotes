@@ -1,0 +1,544 @@
+{
+  "ville": "Colombes",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "chaimovitch",
+      "nom": "Patrick Chaimovitch",
+      "liste": "Les Écologistes (EELV)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chassaniol",
+      "nom": "Nicole Chassaniol",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "narbonnais",
+      "nom": "Valentin Narbonnais",
+      "liste": "DVG (PS/Génération Écologie/Place Publique/PRG), Colombes en mieux",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "giacomoni",
+      "nom": "Joakim Giacomoni",
+      "liste": "LR",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "chaimovitch": null,
+            "chassaniol": null,
+            "narbonnais": null,
+            "giacomoni": null
+          }
+        }
+      ]
+    }
+  ]
+}

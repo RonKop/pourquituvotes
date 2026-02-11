@@ -1,0 +1,595 @@
+{
+  "ville": "Tourcoing",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "becue",
+      "nom": "Doriane Becue",
+      "liste": "Horizons (majorité présidentielle)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "vuylsteker",
+      "nom": "Katy Vuylsteker",
+      "liste": "Les Écologistes-PS-PCF",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "talpaert",
+      "nom": "Franck Talpaert",
+      "liste": "Citoyen-ne-s pour Tourcoing (sans étiquette)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "croes",
+      "nom": "Émilie Croes",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "verbrugghe",
+      "nom": "Bastien Verbrugghe",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "becue": null,
+            "vuylsteker": null,
+            "talpaert": null,
+            "croes": null,
+            "verbrugghe": null
+          }
+        }
+      ]
+    }
+  ]
+}

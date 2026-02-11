@@ -1,0 +1,544 @@
+{
+  "ville": "Cherbourg-en-Cotentin",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "arrive",
+      "nom": "Benoît Arrivé",
+      "liste": "PS (Parti Socialiste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "margueritte",
+      "nom": "Camille Margueritte",
+      "liste": "Nouveau Centre / droite et centre",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lejeune",
+      "nom": "Jean-Marie Lejeune",
+      "liste": "Sans étiquette",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "briegel",
+      "nom": "Quentin Briegel",
+      "liste": "LFI, Cherbourg Populaire !",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "arrive": null,
+            "margueritte": null,
+            "lejeune": null,
+            "briegel": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "ville": "Cayenne",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "phinera-horth",
+      "nom": "Marie-Laure Phinera-Horth",
+      "liste": "NFG (Nouvelle Force de Guyane)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "trochimara",
+      "nom": "Sandra Trochimara",
+      "liste": "Divers (maire sortante)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "taoumi",
+      "nom": "Olivier Taoumi",
+      "liste": "La Guyane à droite",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "constant",
+      "nom": "Bernadette Duclona Constant",
+      "liste": "Nous Guyane",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "phinera-horth": null,
+            "trochimara": null,
+            "taoumi": null,
+            "constant": null
+          }
+        }
+      ]
+    }
+  ]
+}

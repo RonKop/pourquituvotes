@@ -1,0 +1,1457 @@
+/* === Simulateur de Convictions — Styles === */
+
+/* --- Hero Section --- */
+.sim-hero {
+  background: linear-gradient(135deg, #002395 0%, #000d3a 100%);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 1.5rem 2.5rem;
+  text-align: center;
+}
+
+.sim-hero__circles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.sim-hero__circle {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+}
+
+.sim-hero__circle--1 {
+  width: 500px; height: 500px;
+  top: -200px; right: -100px;
+}
+
+.sim-hero__circle--2 {
+  width: 350px; height: 350px;
+  bottom: -150px; left: -80px;
+}
+
+/* Cityscape silhouette */
+.sim-hero__cityscape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 60' preserveAspectRatio='none'%3E%3Cpath d='M0 60V40h30V25h15V40h20V30h10V40h40V15h10V40h30V35h20V40h25V20h15V40h35V28h10V40h20V32h15V40h40V10h10V40h25V38h30V40h20V22h10V40h50V30h15V40h20V25h10V40h30V35h20V40h35V18h10V40h25V40h20V28h15V40h40V12h10V40h30V40h20V35h25V40h15V20h10V40h35V30h20V40h25V40h30V25h15V40h40V40h60V60z' fill='rgba(255,255,255,0.03)'/%3E%3C/svg%3E") repeat-x bottom;
+  background-size: 1200px 60px;
+  pointer-events: none;
+}
+
+.sim-hero__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Breadcrumb dans le hero */
+.sim-hero__breadcrumb {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: rgba(255,255,255,0.6);
+}
+
+.sim-hero__breadcrumb a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+}
+
+.sim-hero__breadcrumb a:hover {
+  color: #fff;
+}
+
+.sim-hero__sep {
+  margin: 0 0.3rem;
+}
+
+/* Badge élection */
+.sim-hero__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 0.75rem;
+}
+
+/* Titre H1 */
+.sim-hero__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.2rem;
+  line-height: 1.15;
+  color: #fff;
+  margin-bottom: 0.6rem;
+}
+
+/* Sous-titre */
+.sim-hero__subtitle {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Recherche ville dans le hero */
+.sim-hero__search {
+  position: relative;
+  z-index: 20;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.sim-hero__search-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 14px;
+  padding: 10px 10px 10px 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+}
+
+.sim-hero__search-box i {
+  color: #64748b;
+  font-size: 1.15rem;
+  flex-shrink: 0;
+  margin-right: 12px;
+}
+
+.sim-hero__search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  color: #1e293b;
+  padding: 10px 0;
+  outline: none;
+  min-width: 0;
+}
+
+.sim-hero__search-input::placeholder {
+  color: #94a3b8;
+}
+
+/* Suggestions dropdown (réutilise la classe) */
+.sim-selection__suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  margin-top: 6px;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  z-index: 50;
+}
+
+.sim-selection__suggestion {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.15s;
+}
+
+.sim-selection__suggestion:hover,
+.sim-selection__suggestion--active {
+  background: #f1f5f9;
+}
+
+.sim-selection__suggestion-ville {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.sim-selection__suggestion-count {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+/* --- Stepper flottant --- */
+.sim-stepper {
+  position: sticky;
+  top: 72px;
+  z-index: 50;
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.sim-stepper__inner {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0.6rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.sim-stepper__step {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #cbd5e1;
+  background: #f1f5f9;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.sim-stepper__step--active {
+  background: #002395;
+  color: #fff;
+  border-color: #002395;
+  transform: scale(1.15);
+}
+
+.sim-stepper__step--done {
+  background: #10b981;
+  color: #fff;
+  border-color: #10b981;
+}
+
+.sim-stepper__line {
+  width: 20px;
+  height: 2px;
+  background: #e2e8f0;
+  flex-shrink: 0;
+}
+
+.sim-stepper__line--done {
+  background: #10b981;
+}
+
+/* --- SEO Footer --- */
+.sim-seo-footer {
+  background: #f1f5f9;
+  border-top: 1px solid #e2e8f0;
+}
+
+.sim-seo-footer__inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.sim-seo-footer__inner p {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* --- Layout général --- */
+.sim-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  min-height: 60vh;
+}
+
+/* --- Phase 2 : Choix du mode --- */
+.sim-mode {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.sim-mode__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.sim-mode__ville {
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+.sim-mode__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sim-mode__card {
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.sim-mode__card:hover {
+  border-color: #002395;
+  box-shadow: 0 4px 16px rgba(0, 35, 149, 0.12);
+  transform: translateY(-2px);
+}
+
+.sim-mode__card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.sim-mode__card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.sim-mode__card-desc {
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.sim-mode__card-badge {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.sim-mode__card--express .sim-mode__card-badge {
+  background: #ecfdf5;
+  color: #059669;
+}
+
+.sim-mode__card--expert .sim-mode__card-badge {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.sim-mode__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  color: #64748b;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.sim-mode__back:hover {
+  color: #1e293b;
+}
+
+/* Bloc Beta Info */
+.sim-beta-info {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #fffbeb;
+  border: 1px solid #fbbf24;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  text-align: left;
+}
+
+.sim-beta-info__header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #92400e;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sim-beta-info__header i {
+  font-size: 1.2rem;
+}
+
+.sim-beta-info__intro {
+  font-size: 0.9rem;
+  color: #78350f;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.sim-beta-info__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem;
+}
+
+.sim-beta-info__list li {
+  font-size: 0.88rem;
+  color: #451a03;
+  line-height: 1.5;
+  padding: 0.4rem 0 0.4rem 1.5rem;
+  position: relative;
+}
+
+.sim-beta-info__list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: #d97706;
+  font-weight: 700;
+}
+
+.sim-beta-info__list li strong {
+  color: #92400e;
+}
+
+.sim-beta-info__conseil {
+  font-size: 0.88rem;
+  color: #78350f;
+  line-height: 1.5;
+  background: rgba(251, 191, 36, 0.15);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.sim-beta-info__conseil i {
+  font-size: 1.1rem;
+  color: #d97706;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+/* --- Phase 3 : Questions --- */
+.sim-questions {
+  padding: 1.5rem 0;
+}
+
+/* Barre de progression */
+.sim-progress {
+  height: 4px;
+  background: #e5e7eb;
+  border-radius: 2px;
+  margin-bottom: 0.75rem;
+}
+
+.sim-progress__bar {
+  height: 100%;
+  background: #002395;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.sim-progress__text {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 2rem;
+}
+
+/* Carte question */
+.sim-question {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  animation: sim-slide-in 0.3s ease;
+}
+
+@keyframes sim-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sim-question__badge {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #f1f5f9;
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+.sim-question__texte {
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #1e293b;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.sim-question__hint {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  font-style: normal;
+  margin-bottom: 1.5rem;
+}
+
+/* Boutons réponse */
+.sim-question__actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.sim-question__btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s;
+  min-width: 140px;
+}
+
+.sim-question__btn:hover {
+  transform: scale(1.04);
+}
+
+.sim-question__btn--accord {
+  background: #10b981;
+  color: #fff;
+}
+
+.sim-question__btn--accord:hover {
+  background: #059669;
+}
+
+.sim-question__btn--neutre {
+  background: #94a3b8;
+  color: #fff;
+}
+
+.sim-question__btn--neutre:hover {
+  background: #64748b;
+}
+
+.sim-question__btn--contre {
+  background: #ef4444;
+  color: #fff;
+}
+
+.sim-question__btn--contre:hover {
+  background: #dc2626;
+}
+
+/* Navigation question */
+.sim-question__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sim-question__nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  color: #64748b;
+  font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.sim-question__nav-btn:hover {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.sim-question__nav-btn--escape {
+  border-color: #fbbf24;
+  color: #b45309;
+}
+
+.sim-question__nav-btn--escape:hover {
+  background: #fffbeb;
+}
+
+/* --- Phase 3b : Pondération (Expert) --- */
+.sim-priorites {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.sim-priorites__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.sim-priorites__subtitle {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+.sim-priorites__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.sim-priorites__item {
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.sim-priorites__item:hover {
+  border-color: #cbd5e1;
+}
+
+.sim-priorites__item--selected {
+  border-color: #002395;
+  background: #eff6ff;
+}
+
+.sim-priorites__item-icon {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.sim-priorites__item-name {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #475569;
+}
+
+.sim-priorites__counter {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+.sim-priorites__counter strong {
+  color: #002395;
+}
+
+.sim-priorites__btn {
+  padding: 0.75rem 2rem;
+  background: #002395;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.sim-priorites__btn:hover {
+  background: #001a6e;
+}
+
+.sim-priorites__btn:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+/* --- Phase 4 : Résultats --- */
+.sim-resultats {
+  padding: 2rem 0;
+}
+
+.sim-resultats__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #1e293b;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.sim-resultats__subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 2.5rem;
+}
+
+/* Podium */
+.sim-podium {
+  margin-bottom: 3rem;
+}
+
+.sim-podium__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 0.75rem;
+  border-left: 4px solid var(--couleur-candidat, #94a3b8);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.sim-podium__item--1 {
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sim-podium__rank {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #cbd5e1;
+  min-width: 32px;
+}
+
+.sim-podium__item--1 .sim-podium__rank {
+  font-size: 2rem;
+  color: #fbbf24;
+}
+
+.sim-podium__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.sim-podium__nom {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1e293b;
+}
+
+.sim-podium__liste {
+  font-size: 0.82rem;
+  color: #94a3b8;
+}
+
+.sim-podium__bar-wrap {
+  flex: 1;
+  max-width: 200px;
+  height: 8px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.sim-podium__bar {
+  height: 100%;
+  background: var(--couleur-candidat, #94a3b8);
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+
+.sim-podium__pct {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--couleur-candidat, #1e293b);
+  min-width: 60px;
+  text-align: right;
+}
+
+.sim-podium__item--1 .sim-podium__pct {
+  font-size: 2rem;
+}
+
+/* Radar */
+.sim-radar {
+  max-width: 500px;
+  margin: 0 auto 3rem;
+}
+
+.sim-radar__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1e293b;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sim-radar__canvas-wrap {
+  position: relative;
+  aspect-ratio: 1;
+}
+
+.sim-radar__legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.sim-radar__legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.sim-radar__legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Détails par catégorie */
+.sim-details {
+  margin-bottom: 3rem;
+}
+
+.sim-details__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.sim-details__item {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.sim-details__icon {
+  font-size: 1.3rem;
+  min-width: 28px;
+  text-align: center;
+}
+
+.sim-details__cat-name {
+  flex: 1;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1e293b;
+}
+
+.sim-details__match {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #002395;
+  min-width: 40px;
+  text-align: right;
+}
+
+.sim-details__link {
+  font-size: 0.82rem;
+  color: #2563eb;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sim-details__link:hover {
+  text-decoration: underline;
+}
+
+/* Partage social */
+.sim-share {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid #e2e8f0;
+  margin-top: 1rem;
+}
+
+.sim-share__title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.sim-share__text {
+  font-size: 0.95rem;
+  color: #475569;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  border-left: 3px solid #002395;
+}
+
+.sim-share__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.sim-share__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s;
+  color: #fff;
+}
+
+.sim-share__btn--twitter { background: #1da1f2; }
+.sim-share__btn--twitter:hover { background: #0c8de4; }
+.sim-share__btn--facebook { background: #1877f2; }
+.sim-share__btn--facebook:hover { background: #0d6eeb; }
+.sim-share__btn--whatsapp { background: #25d366; }
+.sim-share__btn--whatsapp:hover { background: #1fb855; }
+.sim-share__btn--copy { background: #475569; }
+.sim-share__btn--copy:hover { background: #334155; }
+
+/* CTA refaire / comparateur */
+.sim-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.sim-cta__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: none;
+}
+
+.sim-cta__btn--primary {
+  background: #002395;
+  color: #fff;
+}
+
+.sim-cta__btn--primary:hover {
+  background: #001a6e;
+}
+
+.sim-cta__btn--secondary {
+  background: #f1f5f9;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+}
+
+.sim-cta__btn--secondary:hover {
+  background: #e2e8f0;
+}
+
+/* Accordéon "Lire la suite" */
+.sim-lire-suite {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.sim-lire-suite:hover {
+  color: #1d4ed8;
+}
+
+/* Duel de propositions */
+.sim-duel {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+  margin-bottom: 2rem;
+}
+
+.sim-duel__card {
+  flex: 1;
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.sim-duel__card:hover {
+  border-color: #002395;
+  box-shadow: 0 4px 16px rgba(0, 35, 149, 0.12);
+  transform: translateY(-2px);
+}
+
+.sim-duel__label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.sim-duel__texte {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #1e293b;
+  line-height: 1.5;
+}
+
+.sim-duel__vs {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #cbd5e1;
+  flex-shrink: 0;
+}
+
+/* Récapitulatif détaillé */
+.sim-recap {
+  margin-bottom: 3rem;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 2rem;
+}
+
+.sim-recap__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1e293b;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sim-recap__subtitle {
+  font-size: 0.88rem;
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.sim-recap__item {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.sim-recap__item--duel {
+  border-left: 3px solid #fbbf24;
+}
+
+.sim-recap__item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.sim-recap__cat {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #475569;
+}
+
+.sim-recap__badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.sim-recap__badge--accord {
+  background: #ecfdf5;
+  color: #059669;
+}
+
+.sim-recap__badge--neutre {
+  background: #f1f5f9;
+  color: #64748b;
+}
+
+.sim-recap__badge--contre {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+.sim-recap__badge--duel {
+  background: #fffbeb;
+  color: #b45309;
+}
+
+.sim-recap__proposition {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #1e293b;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.sim-recap__auteur {
+  font-size: 0.85rem;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.sim-recap__auteur-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.sim-recap__auteur-liste {
+  color: #94a3b8;
+  font-weight: 400;
+}
+
+.sim-recap__source {
+  font-size: 0.8rem;
+  color: #2563eb;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sim-recap__source:hover {
+  text-decoration: underline;
+}
+
+.sim-recap__verify {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  color: #64748b;
+  text-decoration: none;
+}
+
+.sim-recap__verify:hover {
+  color: #2563eb;
+}
+
+/* Duel recap pair */
+.sim-recap__duel-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.sim-recap__duel-card {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.sim-recap__duel-card--chosen {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+.sim-recap__duel-card--rejected {
+  background: #fef2f2;
+  border-color: #fecaca;
+  opacity: 0.75;
+}
+
+.sim-recap__duel-status {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Indice de fiabilité */
+.sim-podium__fiabilite {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  margin-top: 0.2rem;
+  background: #ecfdf5;
+  color: #059669;
+}
+
+.sim-podium__fiabilite--low {
+  background: #fffbeb;
+  color: #b45309;
+}
+
+/* Podium nom cliquable */
+a.sim-podium__nom {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1e293b;
+  text-decoration: none;
+}
+
+a.sim-podium__nom:hover {
+  color: #002395;
+  text-decoration: underline;
+}
+
+/* Message aucun candidat */
+.sim-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #64748b;
+}
+
+.sim-empty__icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sim-empty__text {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Hero CTA quiz (dans comparateur) --- */
+.hero__quiz-cta {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.hero__quiz-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: inherit;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+.hero__quiz-btn--express {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero__quiz-btn--express:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.hero__quiz-btn--expert {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.hero__quiz-btn--expert:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .sim-hero {
+    padding: 0.75rem 1rem 2rem;
+  }
+
+  .sim-hero__title {
+    font-size: 1.6rem;
+  }
+
+  .sim-hero__subtitle {
+    font-size: 0.92rem;
+  }
+
+  .sim-hero__search {
+    max-width: 100%;
+  }
+
+  .sim-stepper__step {
+    width: 26px;
+    height: 26px;
+    font-size: 0.65rem;
+  }
+
+  .sim-stepper__line {
+    width: 10px;
+  }
+
+  .sim-main {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .sim-selection__title {
+    font-size: 1.5rem;
+  }
+
+  .sim-mode__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sim-beta-info {
+    padding: 1.25rem 1rem;
+  }
+
+  .sim-question__actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sim-question__btn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .sim-priorites__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sim-podium__item {
+    flex-wrap: wrap;
+  }
+
+  .sim-podium__bar-wrap {
+    order: 5;
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .sim-resultats__title {
+    font-size: 1.4rem;
+  }
+
+  .sim-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sim-cta__btn {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+
+  .hero__quiz-cta {
+    flex-direction: column;
+  }
+
+  .hero__quiz-btn {
+    justify-content: center;
+  }
+
+  /* Duel : empiler verticalement */
+  .sim-duel {
+    flex-direction: column;
+  }
+
+  .sim-duel__vs {
+    justify-content: center;
+    padding: 0.25rem 0;
+  }
+
+  .sim-duel__card {
+    width: 100%;
+  }
+
+  /* Recap duel pair : single column */
+  .sim-recap__duel-pair {
+    grid-template-columns: 1fr;
+  }
+
+  /* Recap items : padding réduit */
+  .sim-recap__item {
+    padding: 0.75rem 1rem;
+  }
+
+  .sim-recap__item-header {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sim-priorites__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

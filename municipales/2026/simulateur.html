@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- SEO -->
+  <title>Simulateur de convictions — Municipales 2026 | #POURQUITUVOTES</title>
+  <meta name="description" content="Découvrez quel candidat correspond le mieux à vos convictions grâce à notre quiz basé sur les programmes réels des municipales 2026. 100% anonyme.">
+  <meta name="keywords" content="quiz municipal, simulateur convictions, élections municipales, candidats, programmes, comparateur">
+  <meta name="author" content="Pour qui tu votes">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pourquituvotes.fr/municipales/2026/simulateur.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pour qui tu votes">
+  <meta property="og:title" content="Simulateur de convictions — Municipales 2026 | #POURQUITUVOTES">
+  <meta property="og:description" content="Découvrez quel candidat correspond le mieux à vos convictions grâce à notre quiz basé sur les programmes réels.">
+  <meta property="og:url" content="https://pourquituvotes.fr/municipales/2026/simulateur.html">
+  <meta property="og:image" content="https://pourquituvotes.fr/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Simulateur de convictions — Municipales 2026 | #POURQUITUVOTES">
+  <meta name="twitter:description" content="Découvrez quel candidat correspond le mieux à vos convictions grâce à notre quiz basé sur les programmes réels.">
+  <meta name="twitter:image" content="https://pourquituvotes.fr/assets/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Simulateur de convictions #POURQUITUVOTES",
+    "alternateName": "Quiz Municipal 2026",
+    "description": "Quiz interactif et gratuit : comparez vos convictions aux programmes réels des candidats aux municipales 2026 dans votre ville. 100% anonyme, neutre et non-partisan.",
+    "url": "https://pourquituvotes.fr/municipales/2026/simulateur.html",
+    "applicationCategory": "UtilitiesApplication",
+    "applicationSubCategory": "Quiz",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "inLanguage": "fr-FR",
+    "creator": {
+      "@type": "Organization",
+      "name": "#POURQUITUVOTES",
+      "url": "https://pourquituvotes.fr"
+    }
+  }
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T4CCTF6V');</script>
+
+  <!-- CSS critique inline -->
+  <style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{overflow-x:hidden}
+  body{font-family:'DM Sans',system-ui,sans-serif;background:#f8fafc;color:#1e293b;min-height:100vh;overflow-x:hidden;max-width:100vw}
+  .skip-link{position:absolute;left:-9999px;top:0;z-index:1000}
+  .site-header{position:sticky;top:0;z-index:100;background:#002395;color:#fff;height:72px}
+  .site-header__inner{max-width:1200px;margin:0 auto;padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:100%;gap:1rem}
+  .header-brand{text-decoration:none;font-family:'Montserrat',sans-serif;font-weight:900;font-style:italic;font-size:1.5rem;letter-spacing:-0.01em;white-space:nowrap;text-transform:uppercase;line-height:1;flex-shrink:0}
+  .brand-blanc{color:#fff}.brand-rouge{color:#ED2939}
+  .header-nav{display:none}
+  </style>
+
+  <!-- CSS -->
+  <link rel="preload" as="style" href="/css/style.css?v=2026021002">
+  <link rel="stylesheet" href="/css/style.css?v=2026021002" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/css/style.css?v=2026021002"></noscript>
+  <link rel="preload" as="style" href="/css/simulateur.css?v=2026021002">
+  <link rel="stylesheet" href="/css/simulateur.css?v=2026021002" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/css/simulateur.css?v=2026021002"></noscript>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web/src/regular/style.css" media="print" onload="this.media='all'">
+
+  <!-- Prefetch données -->
+  <script>
+  (function() {
+    var V = '2026021002';
+    var base = '/data/';
+    var p = window.__prefetch = {};
+    p.villes = fetch(base + 'villes.json?v=' + V).then(function(r) { return r.json(); });
+    var params = new URLSearchParams(location.search);
+    var ville = params.get('ville');
+    if (ville) {
+      p.election = fetch(base + 'elections/' + ville + '-2026.json?v=' + V).then(function(r) {
+        if (!r.ok) return null;
+        return r.json();
+      }).catch(function() { return null; });
+    }
+  })();
+  </script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4CCTF6V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- Skip link -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
+      <nav class="header-nav">
+        <ul class="header-nav__links">
+          <li><a href="/municipales/2026/">Comparateur</a></li>
+          <li><a href="#" data-modal="a-propos">À propos</a></li>
+          <li><a href="#" data-modal="methodologie">Méthodologie</a></li>
+        </ul>
+      </nav>
+      <button class="header__burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu overlay -->
+  <div class="mobile-menu-overlay" id="mobile-menu" hidden>
+    <div class="mobile-menu-overlay__header">
+      <a href="/" class="header-brand">
+        <span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span>
+      </a>
+      <button class="mobile-menu-overlay__close" id="mobile-menu-close" aria-label="Fermer le menu">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <nav class="mobile-menu-overlay__nav">
+      <ul>
+        <li><a href="/municipales/2026/"><i class="ph ph-chart-bar"></i> Comparateur</a></li>
+        <li><a href="#" data-modal="a-propos"><i class="ph ph-info"></i> À propos</a></li>
+        <li><a href="#" data-modal="methodologie"><i class="ph ph-book-open"></i> Méthodologie</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="sim-hero" id="sim-hero">
+    <!-- Cercles décoratifs -->
+    <div class="sim-hero__circles">
+      <div class="sim-hero__circle sim-hero__circle--1"></div>
+      <div class="sim-hero__circle sim-hero__circle--2"></div>
+    </div>
+    <!-- Silhouette ville (cityscape) -->
+    <div class="sim-hero__cityscape"></div>
+
+    <div class="sim-hero__inner">
+      <!-- Fil d'Ariane -->
+      <nav class="sim-hero__breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Accueil</a> <span class="sim-hero__sep">&rsaquo;</span>
+        <a href="/municipales/2026/">Municipales 2026</a> <span class="sim-hero__sep">&rsaquo;</span>
+        <span>Simulateur</span>
+      </nav>
+
+      <!-- Badge -->
+      <span class="sim-hero__badge"><i class="ph ph-flag-banner"></i> Municipales 2026</span>
+
+      <!-- Titre H1 dynamique -->
+      <h1 class="sim-hero__title" id="sim-hero-title">Simulateur de convictions&nbsp;: pour qui voter&nbsp;?</h1>
+
+      <!-- Sous-titre dynamique -->
+      <p class="sim-hero__subtitle" id="sim-hero-subtitle">Comparez vos id&eacute;es aux programmes r&eacute;els des candidats en moins de 5 minutes.</p>
+
+      <!-- Recherche ville (mise en valeur) -->
+      <div class="sim-hero__search" id="sim-hero-search">
+        <div class="sim-hero__search-box">
+          <i class="ph ph-magnifying-glass"></i>
+          <input type="text" id="sim-ville-search" class="sim-hero__search-input" placeholder="Rechercher votre ville..." autocomplete="off">
+        </div>
+        <div class="sim-selection__suggestions" id="sim-ville-suggestions" hidden></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Stepper flottant (visible pendant les questions) -->
+  <div class="sim-stepper" id="sim-stepper" hidden>
+    <div class="sim-stepper__inner" id="sim-stepper-inner">
+      <!-- Rempli dynamiquement par JS -->
+    </div>
+  </div>
+
+  <main class="sim-main" id="main-content">
+
+    <!-- Phase 1 : Sélection ville -->
+    <section id="sim-selection" class="sim-selection" hidden>
+      <div class="sim-beta-info">
+        <div class="sim-beta-info__header"><i class="ph ph-flask"></i> Pourquoi une version &laquo;&nbsp;B&ecirc;ta&nbsp;&raquo;&nbsp;?</div>
+        <p class="sim-beta-info__intro">Ce simulateur est un outil 100% neutre bas&eacute; sur les faits. Nous sommes en version B&ecirc;ta pour vous garantir la meilleure pr&eacute;cision&nbsp;:</p>
+        <ul class="sim-beta-info__list">
+          <li><strong>Donn&eacute;es r&eacute;elles&nbsp;:</strong> Nous int&eacute;grons les programmes au fur et &agrave; mesure de leur publication officielle par les candidats.</li>
+          <li><strong>Scores &eacute;volutifs&nbsp;:</strong> Si un candidat n&rsquo;a pas encore trait&eacute; un sujet (ex&nbsp;: la Sant&eacute;), son score peut para&icirc;tre bas. Le match s&rsquo;affinera avec ses prochaines annonces.</li>
+          <li><strong>Transparence totale&nbsp;:</strong> Chaque r&eacute;ponse est sourc&eacute;e. Vous ne votez pas sur une impression, mais sur des propositions concr&egrave;tes.</li>
+        </ul>
+        <p class="sim-beta-info__conseil"><i class="ph ph-lightbulb"></i><span><strong>Le conseil&nbsp;:</strong> Les programmes officiels seront tous disponibles d&rsquo;ici d&eacute;but mars 2026. Plus l&rsquo;&eacute;lection approche, plus votre r&eacute;sultat sera pr&eacute;cis. N&rsquo;h&eacute;sitez pas &agrave; refaire le test&nbsp;!</span></p>
+      </div>
+    </section>
+
+    <!-- Phase 2 : Choix du mode -->
+    <section id="sim-mode" class="sim-mode" hidden>
+    </section>
+
+    <!-- Phase 3 : Questions -->
+    <section id="sim-questions" class="sim-questions" hidden>
+    </section>
+
+    <!-- Phase 3b : Pondération (Expert) -->
+    <section id="sim-priorites" class="sim-priorites" hidden>
+    </section>
+
+    <!-- Phase 4 : Résultats -->
+    <section id="sim-resultats" class="sim-resultats" hidden>
+    </section>
+
+  </main>
+
+  <!-- Footer SEO -->
+  <aside class="sim-seo-footer" aria-label="Informations contextuelles">
+    <div class="sim-seo-footer__inner">
+      <p>Ce simulateur analyse les programmes officiels des candidats aux &eacute;lections municipales 2026 &agrave; Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Strasbourg, Lille, Rennes, Bordeaux et partout en France. Un outil citoyen, neutre et gratuit pour aider chaque &eacute;lecteur &agrave; d&eacute;crypter les propositions politiques et trouver le candidat qui correspond &agrave; ses convictions.</p>
+    </div>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="/" class="footer__logo" aria-label="Accueil">
+            <span class="logo__hash">#</span><span class="logo__pourquitu">POURQUITU</span><span class="logo__votes">VOTES</span><span class="logo__question">?</span>
+          </a>
+          <p class="footer__tagline">Comparez les programmes des candidats. Projet citoyen, ind&eacute;pendant et non-partisan.</p>
+          <div class="footer__socials" aria-label="R&eacute;seaux sociaux">
+            <a href="#" aria-label="X (Twitter)" class="footer__social"><i class="ph ph-x-logo" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook" class="footer__social"><i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+            <a href="#" aria-label="LinkedIn" class="footer__social"><i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Municipales 2026</h3>
+          <ul class="footer__list">
+            <li><a href="/municipales/2026/?ville=paris">Paris</a></li>
+            <li><a href="/municipales/2026/?ville=lyon">Lyon</a></li>
+            <li><a href="/municipales/2026/?ville=marseille">Marseille</a></li>
+            <li><a href="/municipales/2026/?ville=toulouse">Toulouse</a></li>
+            <li><a href="/municipales/2026/" class="footer__link--all">Toutes les villes <i class="ph ph-arrow-right" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Outils</h3>
+          <ul class="footer__list">
+            <li><a href="/municipales/2026/">Comparateur</a></li>
+            <li><a href="/municipales/2026/simulateur.html"><strong>Simulateur de convictions</strong></a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Le projet</h3>
+          <ul class="footer__list">
+            <li><a href="#" data-modal="a-propos">&Agrave; propos</a></li>
+            <li><a href="#" data-modal="methodologie">M&eacute;thodologie</a></li>
+            <li><a href="#" data-modal="faq">FAQ</a></li>
+            <li><a href="#" data-modal="contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 #POURQUITUVOTES &mdash; Projet citoyen ind&eacute;pendant</p>
+        <div class="footer__legal">
+          <a href="#" data-modal="mentions">Mentions l&eacute;gales</a>
+          <a href="#" data-modal="confidentialite">Confidentialit&eacute;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modales (À propos, Méthodologie) -->
+  <div id="modal-a-propos" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">&times;</button>
+      <h2>Le projet</h2>
+      <p><strong>#PourquiTuVotes</strong> est un outil citoyen, gratuit et non partisan, qui permet de comparer les programmes des candidats aux élections municipales françaises de 2026.</p>
+      <h3>Notre mission</h3>
+      <p>Rendre l'information électorale accessible et lisible pour tous les citoyens.</p>
+    </div>
+  </div>
+  <div id="modal-methodologie" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">&times;</button>
+      <h2>Notre méthodologie</h2>
+      <p>Les propositions proviennent exclusivement de sources officielles et vérifiables : programmes PDF, sites de campagne, déclarations publiques.</p>
+      <h3>Le simulateur</h3>
+      <p>Les questions sont générées automatiquement à partir des propositions réelles des candidats. L'algorithme sélectionne les sujets les plus clivants (où les candidats divergent le plus). Votre profil est comparé aux positions de chaque candidat de manière neutre et anonyme.</p>
+    </div>
+  </div>
+  <div id="modal-faq" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">&times;</button>
+      <h2>FAQ</h2>
+      <h3>Comment fonctionne le simulateur ?</h3>
+      <p>Le simulateur vous présente des mesures tirées des programmes réels des candidats (sans révéler leur auteur). Vos réponses sont comparées aux positions de chaque candidat pour calculer un pourcentage de compatibilité.</p>
+      <h3>Mes réponses sont-elles enregistrées ?</h3>
+      <p>Non. Vos réponses restent dans votre navigateur et ne sont jamais envoyées à un serveur. Le quiz est 100% anonyme.</p>
+    </div>
+  </div>
+  <div id="modal-contact" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">&times;</button>
+      <h2>Nous contacter</h2>
+      <p class="contact-email">📧 <a href="mailto:contact@pourquituvotes.fr">contact@pourquituvotes.fr</a></p>
+    </div>
+  </div>
+  <div id="modal-mentions" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">&times;</button>
+      <h2>Mentions légales</h2>
+      <p><strong>Pour qui tu votes</strong> — Projet citoyen indépendant</p>
+      <p>Contenu sous licence Creative Commons CC-BY 4.0.</p>
+    </div>
+  </div>
+  <div id="modal-confidentialite" class="modal" hidden>
+    <div class="modal__overlay"></div>
+    <div class="modal__contenu">
+      <button class="modal__fermer" aria-label="Fermer">&times;</button>
+      <h2>Politique de confidentialité</h2>
+      <p>Le simulateur ne collecte aucune donnée personnelle. Vos réponses restent dans votre navigateur.</p>
+      <p>Aucun cookie de tracking. Aucune donnée envoyée à un serveur.</p>
+    </div>
+  </div>
+
+  <!-- Scripts pour modales et burger menu -->
+  <script>
+  (function() {
+    // Burger menu
+    var burger = document.getElementById('burger-btn');
+    var mobileMenu = document.getElementById('mobile-menu');
+    var mobileClose = document.getElementById('mobile-menu-close');
+    if (burger && mobileMenu) {
+      burger.addEventListener('click', function() {
+        mobileMenu.hidden = false;
+        burger.setAttribute('aria-expanded', 'true');
+      });
+      if (mobileClose) {
+        mobileClose.addEventListener('click', function() {
+          mobileMenu.hidden = true;
+          burger.setAttribute('aria-expanded', 'false');
+        });
+      }
+    }
+
+    // Modales
+    document.addEventListener('click', function(e) {
+      var trigger = e.target.closest('[data-modal]');
+      if (trigger) {
+        e.preventDefault();
+        var id = 'modal-' + trigger.getAttribute('data-modal');
+        var modal = document.getElementById(id);
+        if (modal) {
+          modal.hidden = false;
+          // Fermer le mobile menu si ouvert
+          if (mobileMenu) mobileMenu.hidden = true;
+        }
+      }
+      if (e.target.classList.contains('modal__fermer') || e.target.classList.contains('modal__overlay')) {
+        var modal2 = e.target.closest('.modal');
+        if (modal2) modal2.hidden = true;
+      }
+    });
+  })();
+  </script>
+
+  <script defer src="/js/simulateur.js?v=2026021002"></script>
+</body>
+</html>

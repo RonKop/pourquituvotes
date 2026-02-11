@@ -1,0 +1,697 @@
+{
+  "ville": "Saint-Denis (La Réunion)",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "bareigts",
+      "nom": "Éricka Bareigts",
+      "liste": "PS (Parti Socialiste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "victoria",
+      "nom": "René-Paul Victoria",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "nativel",
+      "nom": "Jean-Max Nativel",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lebon",
+      "nom": "Gaëlle Lebon",
+      "liste": "Rassemblement Réunion (ex-RN/Reconquête)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "payet",
+      "nom": "Giovanni Payet",
+      "liste": "Divers, collectif La Voix Citoyenne",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mangrolia",
+      "nom": "Farid Mangrolia",
+      "liste": "Divers centre, Tous Dionysiens",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "sautron",
+      "nom": "Ludovic Sautron",
+      "liste": "Écologiste / divers gauche",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "bareigts": null,
+            "victoria": null,
+            "nativel": null,
+            "lebon": null,
+            "payet": null,
+            "mangrolia": null,
+            "sautron": null
+          }
+        }
+      ]
+    }
+  ]
+}

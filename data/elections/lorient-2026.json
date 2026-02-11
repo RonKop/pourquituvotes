@@ -1,0 +1,595 @@
+{
+  "ville": "Lorient",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "loher",
+      "nom": "Fabrice Loher",
+      "liste": "Divers droite / Horizons, Nous Lorientais",
+      "programmeUrl": "https://www.nous-lorientais.bzh/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "girard",
+      "nom": "Damien Girard",
+      "liste": "EELV, Lorient en commun",
+      "programmeUrl": "https://lorientencommun.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "stradic",
+      "nom": "Gaëlle Le Stradic",
+      "liste": "PS (Parti Socialiste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "tertre",
+      "nom": "Vincent Le Tertre",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "thomas",
+      "nom": "Théo Thomas",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "loher": null,
+            "girard": null,
+            "stradic": null,
+            "tertre": null,
+            "thomas": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "ville": "Courbevoie",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "kossowski",
+      "nom": "Jacques Kossowski",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "taquillain",
+      "nom": "Aurélie Taquillain",
+      "liste": "Divers centre",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ronze-spilliaert",
+      "nom": "Cyprien Ronze-Spilliaert",
+      "liste": "Gauche (Place Publique)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "kossowski": null,
+            "taquillain": null,
+            "ronze-spilliaert": null
+          }
+        }
+      ]
+    }
+  ]
+}

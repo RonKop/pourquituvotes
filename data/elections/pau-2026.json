@@ -1,0 +1,748 @@
+{
+  "ville": "Pau",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "bayrou",
+      "nom": "François Bayrou",
+      "liste": "MoDem",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "marbot",
+      "nom": "Jérôme Marbot",
+      "liste": "Union de la gauche et écologistes (PS/EELV/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "blanco",
+      "nom": "Jean-François Blanco",
+      "liste": "LFI / Écologiste, Pau Insoumise écologique et citoyenne",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "taillefer",
+      "nom": "Margaux Taillefer",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "arraou",
+      "nom": "Philippe Arraou",
+      "liste": "Liste citoyenne, Arraou avec vous",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "boniface",
+      "nom": "Pascal Boniface",
+      "liste": "Liste citoyenne",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "marconi",
+      "nom": "Cyrille Marconi",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "cronier",
+      "nom": "Reynald Cronier",
+      "liste": "Debout La France",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "bayrou": null,
+            "marbot": null,
+            "blanco": null,
+            "taillefer": null,
+            "arraou": null,
+            "boniface": null,
+            "marconi": null,
+            "cronier": null
+          }
+        }
+      ]
+    }
+  ]
+}

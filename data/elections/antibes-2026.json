@@ -1,0 +1,595 @@
+{
+  "ville": "Antibes",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "leonetti",
+      "nom": "Jean Léonetti",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "muriel",
+      "nom": "Hugo Muriel",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "muratore",
+      "nom": "Michèle Muratore",
+      "liste": "PS-PCF-Place publique",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "nouet",
+      "nom": "Adrien Nouet",
+      "liste": "LFI-Écologistes",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ducatel",
+      "nom": "Éric Ducatel",
+      "liste": "Sans étiquette",
+      "programmeUrl": "https://ericducatel.wordpress.com/elections-municipales-2026-a-antibes-juan-les-pins/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "leonetti": null,
+            "muriel": null,
+            "muratore": null,
+            "nouet": null,
+            "ducatel": null
+          }
+        }
+      ]
+    }
+  ]
+}

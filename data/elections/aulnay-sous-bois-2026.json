@@ -1,0 +1,544 @@
+{
+  "ville": "Aulnay-sous-Bois",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "beschizza",
+      "nom": "Bruno Beschizza",
+      "liste": "LR, Vivre Aulnay / Protéger Aulnay notre fierté",
+      "programmeUrl": "https://brunobeschizza.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "malandra",
+      "nom": "Elena Malandra",
+      "liste": "LFI-PCF, La force de changer à Aulnay-sous-Bois",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "siby",
+      "nom": "Oussouf Siby",
+      "liste": "PS-EELV",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "nguette",
+      "nom": "Cheickh Nguette",
+      "liste": "Démocratie Représentative, Aulnay Humaniste",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "beschizza": null,
+            "malandra": null,
+            "siby": null,
+            "nguette": null
+          }
+        }
+      ]
+    }
+  ]
+}

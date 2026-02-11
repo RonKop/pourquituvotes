@@ -1,0 +1,544 @@
+{
+  "ville": "Saint-Nazaire",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "samzun",
+      "nom": "David Samzun",
+      "liste": "Divers gauche (sortant)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lucas",
+      "nom": "Violaine Lucas",
+      "liste": "Union de la gauche et de l'écologie (EELV/LFI/PCF)",
+      "programmeUrl": "https://sn26.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chereau",
+      "nom": "Denis Chéreau",
+      "liste": "Horizons / Union droite et centre (LR/Renaissance/MoDem)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "pichon",
+      "nom": "Julio Pichon",
+      "liste": "RN, Renouvelle-toi Saint-Nazaire !",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "samzun": null,
+            "lucas": null,
+            "chereau": null,
+            "pichon": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "ville": "Dunkerque",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "vergriete",
+      "nom": "Patrice Vergriete",
+      "liste": "Divers gauche (soutenu par PS/PCF/LR)",
+      "programmeUrl": "https://www.patricevergriete.dk/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lacroix",
+      "nom": "Damien Lacroix",
+      "liste": "LFI, Dunkerque populaire",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "nave",
+      "nom": "Adrien Navé",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fournier",
+      "nom": "Nicolas Fournier",
+      "liste": "Les Écologistes / liste citoyenne, Dunkerque citoyenne",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "vergriete": null,
+            "lacroix": null,
+            "nave": null,
+            "fournier": null
+          }
+        }
+      ]
+    }
+  ]
+}

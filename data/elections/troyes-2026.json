@@ -1,0 +1,595 @@
+{
+  "ville": "Troyes",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "baroin",
+      "nom": "François Baroin",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "beury",
+      "nom": "Loëtitia Beury",
+      "liste": "Sans étiquette, Il est temps",
+      "programmeUrl": "https://municipalestroyes.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fraincart",
+      "nom": "Sarah Fraincart",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "brochet",
+      "nom": "Pierre Brochet",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "philippe",
+      "nom": "Pierre Philippe",
+      "liste": "Sans étiquette",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "baroin": null,
+            "beury": null,
+            "fraincart": null,
+            "brochet": null,
+            "philippe": null
+          }
+        }
+      ]
+    }
+  ]
+}

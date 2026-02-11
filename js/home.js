@@ -4,7 +4,7 @@
   // === Data (chargé depuis JSON) ===
   var VILLES = [];
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026021001';
+  var DATA_VERSION = '2026021002';
 
   var DATE_SCRUTIN = new Date("2026-03-15T08:00:00");
 
@@ -285,17 +285,88 @@
     });
   }
 
-  // === Burger Menu ===
+  // === Burger Menu (full-screen overlay) ===
   function initBurger() {
     var btn = document.getElementById("burger-btn");
-    var menu = document.getElementById("mobile-menu");
-    if (!btn || !menu) return;
+    var overlay = document.getElementById("mobile-menu");
+    var closeBtn = document.getElementById("mobile-menu-close");
+    var searchInput = document.getElementById("mobile-menu-search");
+    var suggestionsEl = document.getElementById("mobile-menu-suggestions");
+    if (!btn || !overlay) return;
 
-    btn.addEventListener("click", function () {
-      var expanded = btn.getAttribute("aria-expanded") === "true";
-      btn.setAttribute("aria-expanded", !expanded);
-      menu.hidden = expanded;
+    var debounceTimer = null;
+
+    function openMenu() {
+      overlay.hidden = false;
+      document.body.style.overflow = "hidden";
+      btn.setAttribute("aria-expanded", "true");
+      // Update countdown in footer
+      var diff = DATE_SCRUTIN.getTime() - Date.now();
+      var jours = Math.max(0, Math.floor(diff / 86400000));
+      var joursEl = document.getElementById("mobile-menu-jours");
+      if (joursEl) joursEl.textContent = jours;
+    }
+
+    function closeMenu() {
+      overlay.hidden = true;
+      document.body.style.overflow = "";
+      btn.setAttribute("aria-expanded", "false");
+      if (searchInput) searchInput.value = "";
+      if (suggestionsEl) { suggestionsEl.innerHTML = ""; suggestionsEl.hidden = true; }
+    }
+
+    btn.addEventListener("click", openMenu);
+    if (closeBtn) closeBtn.addEventListener("click", closeMenu);
+
+    // Close on nav link click
+    overlay.querySelectorAll(".mobile-menu-overlay__nav a").forEach(function(a) {
+      a.addEventListener("click", closeMenu);
     });
+
+    // Close on Escape
+    document.addEventListener("keydown", function(e) {
+      if (e.key === "Escape" && !overlay.hidden) closeMenu();
+    });
+
+    // Search in overlay
+    if (searchInput && suggestionsEl) {
+      searchInput.addEventListener("input", function() {
+        clearTimeout(debounceTimer);
+        var val = searchInput.value.trim();
+        debounceTimer = setTimeout(function() {
+          if (!val || val.length < 2) {
+            suggestionsEl.innerHTML = "";
+            suggestionsEl.hidden = true;
+            return;
+          }
+          var termeMin = val.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+          var results = VILLES.filter(function(v) {
+            var nomNorm = v.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            return nomNorm.indexOf(termeMin) !== -1 || v.codePostal.indexOf(termeMin) !== -1;
+          }).slice(0, 8);
+
+          if (results.length === 0) {
+            suggestionsEl.innerHTML = "";
+            suggestionsEl.hidden = true;
+            return;
+          }
+          suggestionsEl.innerHTML = results.map(function(v) {
+            return '<div class="mobile-menu-suggestion-item" data-ville="' + v.id + '">' +
+              '<i class="ph ph-map-pin"></i>' +
+              '<span>' + esc(v.nom) + '</span>' +
+              '<span class="mobile-menu-suggestion-cp">' + v.codePostal + '</span>' +
+              '</div>';
+          }).join("");
+          suggestionsEl.hidden = false;
+
+          suggestionsEl.querySelectorAll(".mobile-menu-suggestion-item").forEach(function(item) {
+            item.addEventListener("click", function() {
+              window.location.href = "/municipales/2026/?ville=" + item.dataset.ville;
+            });
+          });
+        }, 200);
+      });
+    }
   }
 
   // === Apercu Radar Chart ===
@@ -320,9 +391,9 @@
     var labels = ["\u00c9ducation", "Environnement", "Transports", "Logement", "\u00c9conomie", "S\u00e9curit\u00e9"];
     var n = labels.length;
 
-    // Gr\u00e9goire data (blue)
+    // Candidat A (blue)
     var data1 = [0.7, 0.85, 0.6, 0.9, 0.5, 0.65];
-    // Knafo data (yellow)
+    // Candidat B (yellow)
     var data2 = [0.5, 0.4, 0.75, 0.55, 0.8, 0.9];
 
     function angleFor(i) {
@@ -401,6 +472,77 @@
     drawDataset(data2, "rgba(245, 158, 11, 1)", 0.12);
   }
 
+  // === Mobile Search Overlay (home only) ===
+  function initMobileSearchOverlay() {
+    var heroInput = document.getElementById("search-input");
+    var overlay = document.getElementById("mobile-search-overlay");
+    var backBtn = document.getElementById("mobile-search-back");
+    var overlayInput = document.getElementById("mobile-search-input");
+    var resultsEl = document.getElementById("mobile-search-results");
+    if (!heroInput || !overlay || !overlayInput || !resultsEl) return;
+
+    var debounceTimer = null;
+
+    function openOverlay() {
+      if (window.innerWidth > 768) return;
+      overlay.hidden = false;
+      document.body.style.overflow = "hidden";
+      overlayInput.value = heroInput.value;
+      setTimeout(function() { overlayInput.focus(); }, 50);
+    }
+
+    function closeOverlay() {
+      overlay.hidden = true;
+      document.body.style.overflow = "";
+      overlayInput.value = "";
+      resultsEl.innerHTML = "";
+    }
+
+    function doSearch(val) {
+      if (!val || val.length < 2) {
+        resultsEl.innerHTML = "";
+        return;
+      }
+      var termeMin = val.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      var results = VILLES.filter(function(v) {
+        var nomNorm = v.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        return nomNorm.indexOf(termeMin) !== -1 || v.codePostal.indexOf(termeMin) !== -1;
+      }).slice(0, 15);
+
+      if (results.length === 0) {
+        resultsEl.innerHTML = '<div style="padding:20px;text-align:center;color:#64748b">Aucune ville trouv\u00e9e</div>';
+        return;
+      }
+
+      resultsEl.innerHTML = results.map(function(v) {
+        var s = v.stats || {};
+        return '<div class="mobile-search-result-item" data-ville="' + v.id + '">' +
+          '<i class="ph ph-map-pin"></i>' +
+          '<span>' + esc(v.nom) + '</span>' +
+          '<span class="mobile-search-result-stats">' + (s.candidats || 0) + ' candidats</span>' +
+          '<span class="mobile-search-result-cp">' + v.codePostal + '</span>' +
+          '</div>';
+      }).join("");
+
+      resultsEl.querySelectorAll(".mobile-search-result-item").forEach(function(item) {
+        item.addEventListener("click", function() {
+          window.location.href = "/municipales/2026/?ville=" + item.dataset.ville;
+        });
+      });
+    }
+
+    heroInput.addEventListener("focus", openOverlay);
+    heroInput.addEventListener("click", openOverlay);
+
+    if (backBtn) backBtn.addEventListener("click", closeOverlay);
+
+    overlayInput.addEventListener("input", function() {
+      clearTimeout(debounceTimer);
+      var val = overlayInput.value.trim();
+      debounceTimer = setTimeout(function() { doSearch(val); }, 200);
+    });
+  }
+
   // === Init ===
   function initHome() {
     updateCountdown();
@@ -410,6 +552,7 @@
     renderTendances();
     drawApercuRadar();
     initSearch();
+    initMobileSearchOverlay();
     initBurger();
   }
 

@@ -1,0 +1,697 @@
+{
+  "ville": "Villeurbanne",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "styvendael",
+      "nom": "Cédric Van Styvendael",
+      "liste": "PS (soutenu par Écologistes/PCF/Place publique)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bret",
+      "nom": "Jean-Paul Bret",
+      "liste": "Divers gauche (ex-maire, liste autonome)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "garabedian",
+      "nom": "Mathieu Garabédian",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "cruz",
+      "nom": "Sophie Cruz",
+      "liste": "Droite et centre (union LR-centre)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fraysse",
+      "nom": "Marc Fraysse",
+      "liste": "Sans étiquette (ex-LR)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "canon",
+      "nom": "Gérald Canon",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bouhami",
+      "nom": "Nadia Bouhami",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "styvendael": null,
+            "bret": null,
+            "garabedian": null,
+            "cruz": null,
+            "fraysse": null,
+            "canon": null,
+            "bouhami": null
+          }
+        }
+      ]
+    }
+  ]
+}

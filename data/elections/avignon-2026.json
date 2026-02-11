@@ -1,0 +1,646 @@
+{
+  "ville": "Avignon",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "fournier",
+      "nom": "David Fournier",
+      "liste": "PS (Parti Socialiste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rigault",
+      "nom": "Anne-Sophie Rigault",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "louvain",
+      "nom": "Mathilde Louvain",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "galzi",
+      "nom": "Olivier Galzi",
+      "liste": "Sans étiquette (droite), Galzi pour Avignon 2026",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fiori",
+      "nom": "Stéphan Fiori",
+      "liste": "Divers droite, Entreprendre pour Avignon",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "jacob",
+      "nom": "François Jacob",
+      "liste": "Sans étiquette",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "fournier": null,
+            "rigault": null,
+            "louvain": null,
+            "galzi": null,
+            "fiori": null,
+            "jacob": null
+          }
+        }
+      ]
+    }
+  ]
+}

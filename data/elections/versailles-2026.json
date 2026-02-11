@@ -1,0 +1,595 @@
+{
+  "ville": "Versailles",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "mazieres",
+      "nom": "François de Mazières",
+      "liste": "DVD / LR",
+      "programmeUrl": "https://demazieres2026.fr/site/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "faire",
+      "nom": "Olivier de La Faire",
+      "liste": "UDR / soutenu par le RN, Union des droites pour Versailles",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "clement",
+      "nom": "Sabine Clément",
+      "liste": "Reconquête, À la Reconquête de Versailles",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "filleur",
+      "nom": "Carole Filleur",
+      "liste": "Sans étiquette, Ensemble Vivons Versailles 2026",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "landrain",
+      "nom": "Geoffrey Landrain",
+      "liste": "DVG",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "mazieres": null,
+            "faire": null,
+            "clement": null,
+            "filleur": null,
+            "landrain": null
+          }
+        }
+      ]
+    }
+  ]
+}

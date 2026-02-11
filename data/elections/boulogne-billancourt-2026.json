@@ -1,0 +1,493 @@
+{
+  "ville": "Boulogne-Billancourt",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "baguet",
+      "nom": "Pierre-Christophe Baguet",
+      "liste": "LR-UDI-MoDem-Renaissance-Horizons",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "jerphanion",
+      "nom": "Antoine de Jerphanion",
+      "liste": "Divers droite",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rapilly-ferniot",
+      "nom": "Pauline Rapilly-Ferniot",
+      "liste": "Union de la gauche (Écologistes/PCF/LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "baguet": null,
+            "jerphanion": null,
+            "rapilly-ferniot": null
+          }
+        }
+      ]
+    }
+  ]
+}

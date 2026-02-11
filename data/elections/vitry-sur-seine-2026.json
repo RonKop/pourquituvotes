@@ -1,0 +1,493 @@
+{
+  "ville": "Vitry-sur-Seine",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "bell-lloch",
+      "nom": "Pierre Bell-Lloch",
+      "liste": "PCF",
+      "programmeUrl": "https://pbl2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "tmimi",
+      "nom": "Hocine Tmimi",
+      "liste": "LFI, Vitry Unie et Populaire",
+      "programmeUrl": "https://vitry2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "afflatet",
+      "nom": "Alain Afflatet",
+      "liste": "DVD (droite et centre unis), Vitry À Venir",
+      "programmeUrl": "https://vitryavenir.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "bell-lloch": null,
+            "tmimi": null,
+            "afflatet": null
+          }
+        }
+      ]
+    }
+  ]
+}

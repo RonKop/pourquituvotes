@@ -1,0 +1,646 @@
+{
+  "ville": "Le Mans",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "foll",
+      "nom": "Stéphane Le Foll",
+      "liste": "PS (Parti Socialiste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "karamanli",
+      "nom": "Marietta Karamanli",
+      "liste": "Union de la gauche écologique et citoyenne (EELV/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "sasso",
+      "nom": "Olivier Sasso",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "vigneral",
+      "nom": "Victoria de Vigneral",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "sainty",
+      "nom": "Benjamin Sainty",
+      "liste": "Révolution Permanente",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fontenel-personne",
+      "nom": "Pascale Fontenel-Personne",
+      "liste": "Renaissance (Ensemble)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "foll": null,
+            "karamanli": null,
+            "sasso": null,
+            "vigneral": null,
+            "sainty": null,
+            "fontenel-personne": null
+          }
+        }
+      ]
+    }
+  ]
+}

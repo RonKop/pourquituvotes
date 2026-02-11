@@ -1,0 +1,595 @@
+{
+  "ville": "La Seyne-sur-Mer",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "minniti",
+      "nom": "Joseph Minniti",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "https://josephminniti2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mansour",
+      "nom": "Cheikh Mansour",
+      "liste": "Horizons",
+      "programmeUrl": "https://cheikhmansourmunicipales2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "colin",
+      "nom": "Jean-Pierre Colin",
+      "liste": "Centre, Un cap pour la Seyne",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "sacco",
+      "nom": "Stéphane Sacco",
+      "liste": "Gauche (GRS-PCF-APRÈS), Uni.e.s à gauche pour La Seyne",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "andrau",
+      "nom": "Olivier Andrau",
+      "liste": "PS, La Seyne Ville des Possibles",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "minniti": null,
+            "mansour": null,
+            "colin": null,
+            "sacco": null,
+            "andrau": null
+          }
+        }
+      ]
+    }
+  ]
+}

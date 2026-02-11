@@ -1,0 +1,544 @@
+{
+  "ville": "Créteil",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "cathala",
+      "nom": "Laurent Cathala",
+      "liste": "PS-PCF, Bien ensemble",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ceylan",
+      "nom": "Mehmet Ceylan",
+      "liste": "UDI (investi par LR)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "thezard",
+      "nom": "Sylvain Thézard",
+      "liste": "DVD (droite dissident, ex-LR)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "hebbrecht",
+      "nom": "Thierry Hebbrecht",
+      "liste": "Sans étiquette (ex-LR)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "cathala": null,
+            "ceylan": null,
+            "thezard": null,
+            "hebbrecht": null
+          }
+        }
+      ]
+    }
+  ]
+}

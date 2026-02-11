@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026021001';
+  var DATA_VERSION = '2026021002';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -67,24 +67,32 @@
   var countdownMinutes = document.getElementById("countdown-minutes");
   var countdownSecondes = document.getElementById("countdown-secondes");
   var repartitionToggleContainer = document.getElementById("repartition-toggle");
-  var radarVueActuelle = "individuelle";
-  var radarToggleInitialise = false;
   var radarChartComparerGlobal = null;
   var btnPartager = document.getElementById("btn-partager");
   var partageReseaux = document.getElementById("partage-reseaux");
   var selectionCandidatsSection = document.getElementById("selection-candidats");
   var candidatsCheckboxesContainer = document.getElementById("candidats-checkboxes");
   var btnTop = document.getElementById("btn-top");
-  var sommaire = document.getElementById("sommaire");
-  var sommaireNav = document.getElementById("sommaire-nav");
-  var sommaireToggle = document.getElementById("sommaire-toggle");
+  var progressPills = document.getElementById("progress-pills");
+  var progressPillsList = document.getElementById("progress-pills-list");
+  var progressPillsCounter = document.getElementById("progress-pills-counter");
   var themeToggle = document.getElementById("dp-theme-toggle");
   var fontSelect = null; // Moved to design panel
   var alertesSection = document.getElementById("alertes-section");
   var aucunCandidatSection = document.getElementById("aucun-candidat");
+  var filAriane = document.getElementById("fil-ariane");
   var alerteEmailInput = document.getElementById("alerte-email");
   var btnAlerte = document.getElementById("btn-alerte");
   var alerteMessage = document.getElementById("alerte-message");
+
+  // === Hero dynamique ===
+  var heroSection = document.getElementById("hero");
+  var heroBadgeVille = document.getElementById("hero-badge-ville");
+  var heroStats = document.getElementById("hero-stats");
+  var heroStatCandidats = document.getElementById("hero-stat-candidats");
+  var heroStatThemes = document.getElementById("hero-stat-themes");
+  var heroStatProps = document.getElementById("hero-stat-props");
+  // heroStatJours, heroChampCandidat, heroChampRecherche — supprimés du HTML (Phase 5)
 
   // === Ordre consensuel des catégories ===
   var ORDRE_CATEGORIES = [
@@ -333,6 +341,8 @@
 
       if (tempsRestant < 0) {
         countdownElement.hidden = true;
+        var mobileTopbarElapsed = document.getElementById("countdown-topbar-mobile");
+        if (mobileTopbarElapsed) mobileTopbarElapsed.hidden = true;
         if (countdownInterval) clearInterval(countdownInterval);
         return;
       }
@@ -347,7 +357,19 @@
       countdownMinutes.textContent = minutes;
       countdownSecondes.textContent = secondes;
 
+      // hero-stat-jours supprimé du HTML (Phase 5)
+
       countdownElement.hidden = false;
+
+      // Sync mobile topbar countdown
+      var mobileTopbar = document.getElementById("countdown-topbar-mobile");
+      var mobileTimer = document.getElementById("countdown-mobile-timer");
+      if (mobileTimer) {
+        mobileTimer.textContent = jours + "j " + heures + "h " + minutes + "min " + secondes + "s";
+      }
+      if (mobileTopbar) {
+        mobileTopbar.hidden = false;
+      }
     }
 
     mettreAJourCountdown();
@@ -360,6 +382,8 @@
       countdownInterval = null;
     }
     countdownElement.hidden = true;
+    var mobileTopbar = document.getElementById("countdown-topbar-mobile");
+    if (mobileTopbar) mobileTopbar.hidden = true;
   }
 
   // === Chargement d'une élection ===
@@ -385,6 +409,9 @@
       rechercheInput.value = "";
       rechercheTexte = "";
       categorieActive = "toutes";
+      treemapModeDuel = false;
+      treemapCandidatPrincipal = null;
+      treemapCandidatAdversaire = null;
 
       if (donneesElection.dateVote) {
         demarrerCountdown(donneesElection.dateVote);
@@ -393,8 +420,15 @@
       }
 
       mettreAJourMetadonnees();
+      mettreAJourFilAriane(donneesElection.ville);
       afficherElection();
       afficherChargement(false);
+
+      // Scroll vers la catégorie si un hash est présent dans l'URL (ex: #securite)
+      var hashCat = window.location.hash ? window.location.hash.substring(1) : "";
+      if (hashCat) {
+        setTimeout(function() { scrollVersCategorie(hashCat); }, 300);
+      }
     }).catch(function(err) {
       console.error('Erreur chargement:', err);
       afficherChargement(false);
@@ -440,6 +474,20 @@
       return count;
     }
     return 0;
+  }
+
+  function calculerCouverture(categorie, candidatId) {
+    if (!categorie.sousThemes || categorie.sousThemes.length === 0) {
+      return { couverts: 0, total: 0, pct: 0 };
+    }
+    var total = categorie.sousThemes.length;
+    var couverts = 0;
+    categorie.sousThemes.forEach(function(st) {
+      if (st.propositions[candidatId] && st.propositions[candidatId].texte) {
+        couverts++;
+      }
+    });
+    return { couverts: couverts, total: total, pct: Math.round(couverts / total * 100) };
   }
 
   // === Métadonnées dynamiques (SEO) ===
@@ -574,6 +622,78 @@
 
     // Générer le FAQPage Schema.org
     genererSchemaFAQ();
+  }
+
+  function mettreAJourFilAriane(ville) {
+    if (!filAriane) return;
+    if (!ville) {
+      filAriane.hidden = true;
+      return;
+    }
+    var villeId = villeSelectionnee ? villeSelectionnee.id : ville.toLowerCase().replace(/\s+/g, '-');
+    var urlVille = '/municipales/2026/?ville=' + villeId;
+
+    filAriane.innerHTML = '<ol class="fil-ariane__liste" itemscope itemtype="https://schema.org/BreadcrumbList">' +
+      '<li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">' +
+        '<a href="/" itemprop="item"><i class="ph ph-house" aria-hidden="true"></i> <span itemprop="name">Accueil</span></a>' +
+        '<meta itemprop="position" content="1">' +
+      '</li>' +
+      '<li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">' +
+        '<a href="/municipales/2026/" itemprop="item"><span itemprop="name">Municipales 2026</span></a>' +
+        '<meta itemprop="position" content="2">' +
+      '</li>' +
+      '<li class="fil-ariane__item fil-ariane__item--actif" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">' +
+        '<a href="' + urlVille + '" itemprop="item"><span itemprop="name">' + echapper(ville) + '</span></a>' +
+        '<meta itemprop="position" content="3">' +
+      '</li>' +
+    '</ol>';
+    filAriane.hidden = false;
+  }
+
+  // === Hero dynamique ===
+  function mettreAJourHeroStats() {
+    if (!donneesElection || !heroStats) return;
+    var nbCandidats = donneesElection.candidats.length;
+    var nbThemes = donneesElection.categories.length;
+    var totalProps = 0;
+    donneesElection.categories.forEach(function(cat) {
+      totalProps += compterPropositionsCategorie(cat);
+    });
+    if (heroStatCandidats) heroStatCandidats.textContent = nbCandidats;
+    if (heroStatThemes) heroStatThemes.textContent = nbThemes;
+    if (heroStatProps) heroStatProps.textContent = totalProps;
+    heroStats.hidden = false;
+
+    // Sous-titre statique, ne pas écraser
+  }
+
+  function mettreAJourHeroEtat(ville) {
+    if (!heroSection) return;
+    var quizCta = document.getElementById("hero-quiz-cta");
+    if (ville) {
+      heroSection.classList.add("hero--ville");
+      if (heroBadgeVille) {
+        heroBadgeVille.textContent = ville;
+        heroBadgeVille.hidden = false;
+      }
+      // heroChampCandidat/Recherche supprimés (Phase 5 — search-float unifié)
+      mettreAJourHeroStats();
+      // Quiz CTA : afficher et mettre à jour les liens
+      if (quizCta && villeSelectionnee) {
+        var villeId = villeSelectionnee.id;
+        var expressLink = document.getElementById("hero-quiz-express");
+        var expertLink = document.getElementById("hero-quiz-expert");
+        if (expressLink) expressLink.href = "simulateur.html?ville=" + encodeURIComponent(villeId);
+        if (expertLink) expertLink.href = "simulateur.html?ville=" + encodeURIComponent(villeId) + "&mode=expert";
+        quizCta.hidden = false;
+      }
+    } else {
+      heroSection.classList.remove("hero--ville");
+      if (heroBadgeVille) heroBadgeVille.hidden = true;
+      if (heroStats) heroStats.hidden = true;
+      if (quizCta) quizCta.hidden = true;
+      // heroChampCandidat/Recherche supprimés (Phase 5 — search-float unifié)
+    }
   }
 
   function genererSchemaFAQ() {
@@ -822,6 +942,7 @@
     afficherRepartition(candidats);
     afficherGrille(candidats);
     genererStatistiques(candidats);
+    afficherTreemap();
     mettreAJourURL();
   }
 
@@ -915,33 +1036,21 @@
     }
   }
 
-  function partagerComparaison() {
-    // Toggle l'affichage des boutons réseaux sociaux
-    partageReseaux.hidden = !partageReseaux.hidden;
-
-    if (!partageReseaux.hidden) {
-      btnPartager.textContent = "✕ Fermer";
-    } else {
-      btnPartager.textContent = "🔗 Copier le lien";
-    }
-  }
-
   function copierLien() {
     mettreAJourURL();
     var url = genererURLAvecUTM("copie_directe");
 
     if (navigator.clipboard && window.isSecureContext) {
       navigator.clipboard.writeText(url).then(function () {
-        afficherToast("✓ Lien copié ! Partagez-le avec vos proches");
+        afficherToast("\u2713 Lien copi\u00e9 ! Partagez-le avec vos proches");
+        if (btnPartager) btnPartager.innerHTML = '<i class="ph ph-check"></i>';
         setTimeout(function() {
-          partageReseaux.hidden = true;
-          btnPartager.textContent = "🔗 Copier le lien";
+          if (btnPartager) btnPartager.innerHTML = '<i class="ph ph-link"></i>';
         }, 1500);
       }).catch(function () {
         afficherToast("Erreur lors de la copie du lien");
       });
     } else {
-      // Fallback
       var textarea = document.createElement("textarea");
       textarea.value = url;
       textarea.style.position = "fixed";
@@ -950,10 +1059,10 @@
       textarea.select();
       try {
         document.execCommand("copy");
-        afficherToast("✓ Lien copié !");
+        afficherToast("\u2713 Lien copi\u00e9 !");
+        if (btnPartager) btnPartager.innerHTML = '<i class="ph ph-check"></i>';
         setTimeout(function() {
-          partageReseaux.hidden = true;
-          btnPartager.textContent = "🔗 Copier le lien";
+          if (btnPartager) btnPartager.innerHTML = '<i class="ph ph-link"></i>';
         }, 1500);
       } catch (err) {
         afficherToast("Impossible de copier le lien");
@@ -1005,83 +1114,102 @@
     }, 3000);
   }
 
-  // === Sommaire et navigation ===
+  // === Progress Pills Navigation ===
   function genererSommaire() {
-    if (!donneesElection) {
-      sommaire.hidden = true;
+    if (!donneesElection || !progressPills || !progressPillsList) {
+      if (progressPills) progressPills.hidden = true;
       return;
     }
 
-    sommaireNav.innerHTML = "";
+    progressPillsList.innerHTML = "";
+    var totalCats = donneesElection.categories.length;
 
-    // Ajouter "Toutes les catégories"
-    var itemToutes = creerItemSommaire("toutes", getIconeCategorie("_toutes"), "Toutes les cat\u00E9gories", null);
-    sommaireNav.appendChild(itemToutes);
-
-    // Ajouter chaque catégorie
     donneesElection.categories.forEach(function (cat) {
       var icone = getIconeCategorie(cat.id);
-      var count = compterPropositionsCategorie(cat);
-      var item = creerItemSommaire(cat.id, icone, cat.nom, count);
-      sommaireNav.appendChild(item);
+
+      var pill = document.createElement("div");
+      pill.className = "progress-pill";
+      pill.dataset.categorie = cat.id;
+
+      var tooltip = document.createElement("span");
+      tooltip.className = "progress-pill__tooltip";
+      var nomCourt = cat.nom.split(" & ")[0].split(" et ")[0];
+      tooltip.textContent = nomCourt;
+      pill.appendChild(tooltip);
+
+      pill.addEventListener("click", function () {
+        var el = comparaisonContainer.querySelector("[data-categorie-id='" + cat.id + "']");
+        if (el) {
+          if (!el.classList.contains("categorie--ouverte")) {
+            el.classList.add("categorie--ouverte");
+          }
+          el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+
+      progressPillsList.appendChild(pill);
     });
 
-    sommaire.hidden = false;
-    mettreAJourSommaireActif();
-  }
-
-  function creerItemSommaire(categorieId, icone, nom, count) {
-    var item = document.createElement("div");
-    item.className = "sommaire__item";
-    item.dataset.categorie = categorieId;
-
-    var iconeSpan = document.createElement("span");
-    iconeSpan.className = "sommaire__item-icone";
-    iconeSpan.innerHTML = icone;
-
-    var texteSpan = document.createElement("span");
-    texteSpan.className = "sommaire__item-texte";
-    texteSpan.textContent = nom;
-
-    item.appendChild(iconeSpan);
-    item.appendChild(texteSpan);
-
-    if (count !== null) {
-      var countSpan = document.createElement("span");
-      countSpan.className = "sommaire__item-count";
-      countSpan.textContent = count;
-      item.appendChild(countSpan);
+    if (progressPillsCounter) {
+      progressPillsCounter.textContent = "0/" + totalCats;
     }
 
-    item.addEventListener("click", function () {
-      categorieActive = categorieId;
-      var candidats = donneesElection.candidats.slice().sort(function (a, b) {
-        return a.nom.localeCompare(b.nom, "fr");
-      });
+    progressPills.hidden = false;
+    progressPills.classList.add("progress-pills--hidden");
+    initPillsScrollSpy();
+  }
 
-      filtresContainer.querySelectorAll(".filtre-btn").forEach(function (btn) {
-        btn.classList.toggle("filtre-btn--active", btn.dataset.categorie === categorieId);
-      });
+  var pillsScrollSpyInit = false;
+  function initPillsScrollSpy() {
+    if (pillsScrollSpyInit) return;
+    pillsScrollSpyInit = true;
 
-      afficherGrille(candidats);
-      mettreAJourSommaireActif();
-      mettreAJourURL();
+    window.addEventListener("scroll", function () {
+      if (progressPills.hidden) return;
 
-      // Scroll vers la première catégorie affichée
-      var premiereCategorie = comparaisonContainer.querySelector(".categorie");
-      if (premiereCategorie) {
-        premiereCategorie.scrollIntoView({ behavior: "smooth", block: "start" });
+      // Visibility: show only when category sections are in view
+      var premiereCat = comparaisonContainer.querySelector("[data-categorie-id]");
+      var derniereCat = comparaisonContainer.querySelector("[data-categorie-id]:last-of-type");
+      if (!premiereCat) { progressPills.classList.add("progress-pills--hidden"); return; }
+      var topRect = premiereCat.getBoundingClientRect();
+      var bottomRect = derniereCat ? derniereCat.getBoundingClientRect() : topRect;
+      var dansSection = topRect.top < window.innerHeight && bottomRect.bottom > 0;
+      progressPills.classList.toggle("progress-pills--hidden", !dansSection);
+
+      // Find visible section
+      var sections = comparaisonContainer.querySelectorAll("[data-categorie-id]");
+      if (sections.length === 0) return;
+
+      var activeIdx = -1;
+      var viewMid = window.innerHeight * 0.35;
+      for (var i = 0; i < sections.length; i++) {
+        var rect = sections[i].getBoundingClientRect();
+        if (rect.top <= viewMid) {
+          activeIdx = i;
+        }
       }
-    });
 
-    return item;
+      // Update pills
+      var pills = progressPillsList.querySelectorAll(".progress-pill");
+      pills.forEach(function (pill, idx) {
+        pill.classList.remove("progress-pill--active", "progress-pill--past");
+        if (idx === activeIdx) {
+          pill.classList.add("progress-pill--active");
+        } else if (idx < activeIdx) {
+          pill.classList.add("progress-pill--past");
+        }
+      });
+
+      // Update counter
+      if (progressPillsCounter) {
+        var current = activeIdx >= 0 ? activeIdx + 1 : 0;
+        progressPillsCounter.textContent = current + "/" + sections.length;
+      }
+    }, { passive: true });
   }
 
   function mettreAJourSommaireActif() {
-    sommaireNav.querySelectorAll(".sommaire__item").forEach(function (item) {
-      var estActif = item.dataset.categorie === categorieActive;
-      item.classList.toggle("sommaire__item--actif", estActif);
-    });
+    // Compatibility stub — scroll spy handles active state
   }
 
   // === Bouton retour en haut ===
@@ -1254,6 +1382,13 @@
       donneesElection.type + " \u2014 " + donneesElection.ville + " " + donneesElection.annee;
     electionInfo.hidden = false;
 
+    // Afficher la toolbar partage
+    var toolbar = document.getElementById("toolbar");
+    if (toolbar) toolbar.hidden = false;
+
+    // Mettre à jour hero dynamique
+    mettreAJourHeroEtat(donneesElection.ville);
+
     // Afficher la prochaine date clé
     afficherProchaineDateCle();
 
@@ -1265,6 +1400,8 @@
       alertesSection.hidden = true;
       repartitionSection.hidden = true;
       statistiquesSection.hidden = true;
+      var treemapSec = document.getElementById("treemap-section");
+      if (treemapSec) treemapSec.hidden = true;
       filtresContainer.hidden = true;
       comparaisonContainer.hidden = true;
       etatVide.hidden = true;
@@ -1280,10 +1417,12 @@
 
     afficherSelectionCandidats(candidats);
     genererStatistiques(candidats);
+    afficherTreemap();
     afficherAlertes();
     afficherRepartition(candidats);
     afficherFiltres();
     afficherGrille(candidats);
+    genererSommaire();
 
     etatVide.hidden = true;
     comparaisonContainer.hidden = false;
@@ -1292,6 +1431,16 @@
   // === Statistiques visuelles ===
   function genererStatistiques(tousLesCandidats) {
     if (!donneesElection) return;
+
+    // Masquer le radar s'il y a moins de 10 propositions au total
+    var totalPropsRadar = 0;
+    donneesElection.categories.forEach(function(cat) {
+      totalPropsRadar += compterPropositionsCategorie(cat);
+    });
+    if (totalPropsRadar < 10) {
+      statistiquesSection.hidden = true;
+      return;
+    }
 
     var candidats = getCandidatsActifs();
 
@@ -1393,18 +1542,17 @@
     //   });
     // }
 
-    // === Radar chart — système à deux vues ===
-    var radarGrille = document.getElementById("radar-vue-individuelle");
+    // === Radar chart — Radar de Puissance (Volume Brut) ===
     var radarComparer = document.getElementById("radar-vue-comparer");
-    var radarVueBtns = document.querySelectorAll(".radar-vue-btn");
-    var radarChartsIndividuels = [];
     var radarCandidatsSelectionnes = [];
 
-    if (donneesElection && radarGrille) {
+    if (donneesElection && radarComparer) {
       var categories = donneesElection.categories;
       var categoriesLabels = categories.map(function(cat) { return cat.nom; });
       var couleurGrilleRadar = theme === "dark" ? "rgba(255,255,255,0.1)" : "#e5e5e5";
       var couleurTexteRadar = theme === "dark" ? "#ccc" : "#555";
+      var couleurMoyenne = theme === "dark" ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.05)";
+      var couleurMoyenneBord = theme === "dark" ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.1)";
 
       function hexToRgba(hex, alpha) {
         if (!hex || hex.charAt(0) !== "#") return "rgba(128,128,128," + alpha + ")";
@@ -1414,47 +1562,20 @@
         return "rgba(" + r + "," + g + "," + b + "," + alpha + ")";
       }
 
+      // Données brutes directes (nombre de propositions par catégorie)
       function getDataCandidat(candidat) {
-        var counts = categories.map(function(cat) { return compterPropositionsCandidat(cat, candidat.id); });
-        var total = counts.reduce(function(s, v) { return s + v; }, 0);
-        return counts.map(function(v) { return total > 0 ? Math.round(v / total * 100) : 0; });
+        return categories.map(function(cat) {
+          return compterPropositionsCandidat(cat, candidat.id);
+        });
       }
 
-      function getRadarOptions(showLegend) {
-        return {
-          responsive: true,
-          maintainAspectRatio: true,
-          plugins: {
-            legend: { display: !!showLegend, position: "bottom", labels: { color: couleurTexteRadar, font: { family: "'DM Sans', sans-serif", size: 11 }, padding: 12 } },
-            tooltip: {
-              backgroundColor: theme === "dark" ? "#252538" : "#fff",
-              titleColor: couleurTexteRadar,
-              bodyColor: couleurTexteRadar,
-              borderColor: couleurGrilleRadar,
-              borderWidth: 1,
-              callbacks: { label: function(ctx) { return (ctx.dataset.label || "") + ": " + ctx.parsed.r + "%"; } }
-            }
-          },
-          scales: {
-            r: {
-              min: 0,
-              ticks: { color: couleurTexteRadar, backdropColor: "transparent", stepSize: 10, callback: function(v) { return v + "%"; } },
-              grid: { color: couleurGrilleRadar },
-              pointLabels: { color: couleurTexteRadar, font: { family: "'DM Sans', sans-serif", size: 11, weight: 600 } }
-            }
-          }
-        };
-      }
-
-      // --- Top 6 catégories (pour radars individuels, plus lisible) ---
-      var totalParCategorie = categories.map(function(cat) {
+      // Moyenne brute par catégorie (tous candidats)
+      var moyenneParCategorie = categories.map(function(cat) {
         var total = 0;
         candidats.forEach(function(c) { total += compterPropositionsCandidat(cat, c.id); });
-        return { nom: cat.nom, idx: categories.indexOf(cat), total: total };
+        return candidats.length > 0 ? Math.round(total / candidats.length * 10) / 10 : 0;
       });
-      totalParCategorie.sort(function(a, b) { return b.total - a.total; });
-      var top6 = totalParCategorie.slice(0, 6);
-      var top6Indices = top6.map(function(t) { return t.idx; });
+
       var LABELS_COURTS = {
         "S\u00E9curit\u00E9 & Pr\u00E9vention": "S\u00E9curit\u00E9",
         "Transports & Mobilit\u00E9": "Transports",
@@ -1469,77 +1590,64 @@
         "Urbanisme & Cadre de vie": "Urbanisme",
         "Solidarit\u00E9 & \u00C9galit\u00E9": "Solidarit\u00E9"
       };
-      var top6Labels = top6.map(function(t) { return LABELS_COURTS[t.nom] || t.nom; });
+      var labelsRadar = categories.map(function(cat) { return LABELS_COURTS[cat.nom] || cat.nom; });
 
-      function getDataCandidatTop6(candidat) {
-        var allData = getDataCandidat(candidat);
-        return top6Indices.map(function(i) { return allData[i]; });
+      // Options radar — données brutes, suggestedMax 10, grille circulaire
+      function getRadarOptions() {
+        return {
+          responsive: true,
+          maintainAspectRatio: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: theme === "dark" ? "#252538" : "#fff",
+              titleColor: couleurTexteRadar,
+              bodyColor: couleurTexteRadar,
+              borderColor: couleurGrilleRadar,
+              borderWidth: 1,
+              filter: function(item) { return item.dataset.label !== "Moyenne"; },
+              callbacks: {
+                label: function(ctx) {
+                  var candidatNom = ctx.dataset.label || "";
+                  var themeNom = ctx.chart.data.labels[ctx.dataIndex] || "";
+                  var nb = ctx.parsed.r;
+                  return candidatNom + " \u2014 " + nb + " proposition" + (nb > 1 ? "s" : "") + " en " + themeNom;
+                }
+              }
+            }
+          },
+          scales: {
+            r: {
+              min: 0,
+              suggestedMax: 10,
+              ticks: {
+                color: couleurTexteRadar,
+                backdropColor: "transparent",
+                stepSize: 2,
+                callback: function(v) { return v === 0 ? "" : v; }
+              },
+              grid: { color: couleurGrilleRadar, circular: true },
+              angleLines: { color: couleurGrilleRadar },
+              pointLabels: { color: couleurTexteRadar, padding: 15, font: { family: "'DM Sans', sans-serif", size: 11, weight: 600 } }
+            }
+          }
+        };
       }
 
-      function getRadarOptionsIndiv() {
-        var opts = getRadarOptions(false);
-        opts.scales.r.pointLabels.font.size = 11;
-        return opts;
-      }
-
-      // --- Vue 1 : grille individuelle ---
-      function rendreVueIndividuelle() {
-        radarGrille.innerHTML = "";
-        radarChartsIndividuels.forEach(function(c) { c.destroy(); });
-        radarChartsIndividuels = [];
-
-        var candidatsActifs = getCandidatsActifs();
-
-        candidatsActifs.forEach(function(candidat, idx) {
-          var idxGlobal = candidats.indexOf(candidat);
-          var couleur = getCouleurParti(candidat, idxGlobal >= 0 ? idxGlobal : idx);
-          var carte = document.createElement("div");
-          carte.className = "radar-carte";
-          carte.dataset.candidatId = candidat.id;
-
-          var headerDiv = document.createElement("div");
-          headerDiv.className = "radar-carte__header";
-          headerDiv.innerHTML =
-            '<span class="radar-carte__pastille" style="background:' + couleur + '"></span>' +
-            '<div class="radar-carte__infos">' +
-              '<span class="radar-carte__nom">' + echapper(candidat.nom) + '</span>' +
-              '<span class="radar-carte__parti">' + echapper(candidat.liste) + '</span>' +
-            '</div>';
-
-          var btnMasquer = document.createElement("button");
-          btnMasquer.className = "radar-carte__masquer";
-          btnMasquer.textContent = "\u00D7";
-          btnMasquer.title = "Masquer " + candidat.nom;
-          btnMasquer.addEventListener("click", function(e) {
-            e.stopPropagation();
-            toggleCandidatSelection(candidat.id);
-          });
-          headerDiv.appendChild(btnMasquer);
-
-          var canvas = document.createElement("canvas");
-          carte.appendChild(headerDiv);
-          carte.appendChild(canvas);
-          radarGrille.appendChild(carte);
-
-          var chart = new Chart(canvas, {
-            type: "radar",
-            data: {
-              labels: top6Labels,
-              datasets: [{
-                label: candidat.nom,
-                data: getDataCandidatTop6(candidat),
-                backgroundColor: hexToRgba(couleur, 0.25),
-                borderColor: couleur,
-                borderWidth: 2,
-                pointBackgroundColor: couleur,
-                pointBorderColor: "#fff",
-                pointRadius: 3
-              }]
-            },
-            options: getRadarOptionsIndiv()
-          });
-          radarChartsIndividuels.push(chart);
-        });
+      // Dataset de la moyenne (zone grise de repère)
+      function getMoyenneDataset(moyData) {
+        return {
+          label: "Moyenne",
+          data: moyData,
+          backgroundColor: couleurMoyenne,
+          borderColor: couleurMoyenneBord,
+          borderWidth: 1,
+          borderDash: [4, 4],
+          pointRadius: 0,
+          pointHoverRadius: 0,
+          fill: true,
+          order: 100 // derrière tout
+        };
       }
 
       // --- Vue 2 : radar combiné avec checkboxes ---
@@ -1548,43 +1656,93 @@
         selDiv.innerHTML = "";
         radarCandidatsSelectionnes = [];
 
+        var header = document.createElement("div");
+        header.className = "filtres-candidats__header";
+        header.innerHTML = '<span class="filtres-candidats__titre">Candidats \u00e0 comparer</span>';
+        selDiv.appendChild(header);
+
+        var liste = document.createElement("div");
+        liste.className = "filtres-candidats__liste";
+
         candidats.forEach(function(candidat, idx) {
           var couleur = getCouleurParti(candidat, idx);
-          var item = document.createElement("label");
-          item.className = "radar-comparer__candidat";
+          var estPreselectionne = (idx < 2);
 
-          var cb = document.createElement("input");
-          cb.type = "checkbox";
-          cb.className = "radar-comparer__checkbox";
-          cb.value = candidat.id;
-          cb.style.accentColor = couleur;
+          var chip = document.createElement("span");
+          chip.className = "filtres-candidats__chip" + (estPreselectionne ? " filtres-candidats__chip--active" : "");
+          chip.style.setProperty("--chip-couleur", couleur);
+          if (estPreselectionne) {
+            var r = parseInt(couleur.slice(1, 3), 16) || 44;
+            var g = parseInt(couleur.slice(3, 5), 16) || 62;
+            var b = parseInt(couleur.slice(5, 7), 16) || 107;
+            chip.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
+          }
+          chip.dataset.candidatId = candidat.id;
 
-          var pastille = document.createElement("span");
-          pastille.className = "radar-comparer__pastille";
-          pastille.style.background = couleur;
+          var cb = document.createElement("span");
+          cb.className = "filtres-candidats__chip-cb";
+          cb.textContent = "\u2713";
 
-          var infos = document.createElement("span");
-          infos.className = "radar-comparer__infos";
-          infos.innerHTML = '<span class="radar-comparer__nom">' + echapper(candidat.nom) + '</span>' +
-            '<span class="radar-comparer__parti">' + echapper(candidat.liste) + '</span>';
+          chip.appendChild(cb);
+          chip.appendChild(document.createTextNode(echapper(candidat.nom)));
 
-          item.appendChild(cb);
-          item.appendChild(pastille);
-          item.appendChild(infos);
+          // Ajouter l'initiale du parti
+          var initSpan = document.createElement("span");
+          initSpan.className = "filtres-candidats__chip-parti";
+          initSpan.textContent = getInitialeParti(candidat);
+          initSpan.style.color = couleur;
+          chip.appendChild(initSpan);
 
-          cb.addEventListener("change", function() {
+          chip.addEventListener("click", function() {
             var id = candidat.id;
-            if (cb.checked) {
-              radarCandidatsSelectionnes.push(id);
-              item.classList.add("radar-comparer__candidat--active");
+            var pos = radarCandidatsSelectionnes.indexOf(id);
+            if (pos >= 0) {
+              radarCandidatsSelectionnes.splice(pos, 1);
+              chip.classList.remove("filtres-candidats__chip--active");
+              chip.style.removeProperty("--chip-bg");
             } else {
-              var pos = radarCandidatsSelectionnes.indexOf(id);
-              if (pos >= 0) radarCandidatsSelectionnes.splice(pos, 1);
-              item.classList.remove("radar-comparer__candidat--active");
+              radarCandidatsSelectionnes.push(id);
+              chip.classList.add("filtres-candidats__chip--active");
+              var r2 = parseInt(couleur.slice(1, 3), 16) || 44;
+              var g2 = parseInt(couleur.slice(3, 5), 16) || 62;
+              var b2 = parseInt(couleur.slice(5, 7), 16) || 107;
+              chip.style.setProperty("--chip-bg", "rgba(" + r2 + "," + g2 + "," + b2 + ",0.08)");
             }
             mettreAJourRadarComparer();
           });
-          selDiv.appendChild(item);
+
+          liste.appendChild(chip);
+          if (estPreselectionne) {
+            radarCandidatsSelectionnes.push(candidat.id);
+          }
+        });
+
+        selDiv.appendChild(liste);
+
+        // Bouton "Aucun" en bas du panel
+        var btnAucun = document.createElement("button");
+        btnAucun.className = "filtres-candidats__btn filtres-candidats__btn--danger filtres-candidats__btn--bottom";
+        btnAucun.innerHTML = "\u2717 Tout d\u00e9cocher";
+        selDiv.appendChild(btnAucun);
+
+        btnAucun.addEventListener("click", function() {
+          if (candidats.length > 0) {
+            radarCandidatsSelectionnes = [candidats[0].id];
+            liste.querySelectorAll(".filtres-candidats__chip").forEach(function(chip, idx) {
+              if (idx === 0) {
+                chip.classList.add("filtres-candidats__chip--active");
+                var couleur = getCouleurParti(candidats[0], 0);
+                var r = parseInt(couleur.slice(1, 3), 16) || 44;
+                var g = parseInt(couleur.slice(3, 5), 16) || 62;
+                var b = parseInt(couleur.slice(5, 7), 16) || 107;
+                chip.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
+              } else {
+                chip.classList.remove("filtres-candidats__chip--active");
+                chip.style.removeProperty("--chip-bg");
+              }
+            });
+            mettreAJourRadarComparer();
+          }
         });
 
         var canvasComparer = document.getElementById("chart-radar-comparer");
@@ -1592,14 +1750,18 @@
 
         radarChartComparerGlobal = new Chart(canvasComparer, {
           type: "radar",
-          data: { labels: categoriesLabels, datasets: [] },
-          options: getRadarOptions(true)
+          data: { labels: labelsRadar, datasets: [getMoyenneDataset(moyenneParCategorie)] },
+          options: getRadarOptions()
         });
+
+        if (radarCandidatsSelectionnes.length > 0) {
+          mettreAJourRadarComparer();
+        }
       }
 
       function mettreAJourRadarComparer() {
         if (!radarChartComparerGlobal) return;
-        var datasets = [];
+        var datasets = [getMoyenneDataset(moyenneParCategorie)];
         radarCandidatsSelectionnes.forEach(function(id) {
           var candidat = null;
           var idx = 0;
@@ -1613,56 +1775,18 @@
             data: getDataCandidat(candidat),
             backgroundColor: hexToRgba(couleur, 0.15),
             borderColor: couleur,
-            borderWidth: 2,
+            borderWidth: 2.5,
             pointBackgroundColor: couleur,
             pointBorderColor: "#fff",
-            pointRadius: 3
+            pointRadius: 4,
+            pointHoverRadius: 6
           });
         });
         radarChartComparerGlobal.data.datasets = datasets;
         radarChartComparerGlobal.update();
       }
 
-      // Toggle entre vues — une seule visible à la fois
-      if (!radarToggleInitialise) {
-        radarVueBtns.forEach(function(btn) {
-          btn.addEventListener("click", function() {
-            var vue = btn.dataset.radarVue;
-            if (vue === radarVueActuelle) return;
-            radarVueActuelle = vue;
-            document.querySelectorAll(".radar-vue-btn").forEach(function(b) { b.classList.remove("radar-vue-btn--active"); });
-            btn.classList.add("radar-vue-btn--active");
-            var rg = document.getElementById("radar-vue-individuelle");
-            var rc = document.getElementById("radar-vue-comparer");
-            if (vue === "individuelle") {
-              rg.hidden = false;
-              rc.hidden = true;
-            } else {
-              rg.hidden = true;
-              rc.hidden = false;
-              if (radarChartComparerGlobal) {
-                setTimeout(function() { radarChartComparerGlobal.resize(); }, 50);
-              }
-            }
-          });
-        });
-        radarToggleInitialise = true;
-      }
-
-      // Synchroniser l'état visible avec radarVueActuelle
-      if (radarVueActuelle === "individuelle") {
-        radarGrille.hidden = false;
-        radarComparer.hidden = true;
-      } else {
-        radarGrille.hidden = true;
-        radarComparer.hidden = false;
-      }
-      radarVueBtns.forEach(function(b) {
-        b.classList.toggle("radar-vue-btn--active", b.dataset.radarVue === radarVueActuelle);
-      });
-
-      // Rendre les deux vues
-      rendreVueIndividuelle();
+      radarComparer.hidden = false;
       rendreVueComparer();
     }
 
@@ -1673,16 +1797,16 @@
       var complets = tousCandidats.filter(function(c) { return c.programmeComplet; });
       var partiels = tousCandidats.filter(function(c) { return !c.programmeComplet; });
 
-      var html = '<strong>\u26A0\uFE0F \u00C9quit\u00E9 de comparaison :</strong> ';
+      var html = '<strong><i class="ph ph-scales"></i> \u00C9quit\u00E9 de comparaison :</strong> ';
       if (complets.length > 0 && partiels.length > 0) {
         html += 'Tous les candidats n\u2019ont pas encore publi\u00E9 leur programme officiel. ';
         html += 'Un radar plus petit ne signifie pas forc\u00E9ment moins d\u2019ambition, mais parfois simplement moins de propositions rendues publiques \u00E0 ce jour.';
         html += '<div class="methodo-legend">';
         complets.forEach(function(c) {
-          html += '<span class="methodo-item">\u2705 <strong>' + c.nom + '</strong> \u2014 programme officiel</span>';
+          html += '<span class="methodo-item"><strong class="methodo-item__nom">' + c.nom + '</strong><span class="methodo-item__statut methodo-item__statut--complet">programme officiel <i class="ph ph-check-circle"></i></span></span>';
         });
         partiels.forEach(function(c) {
-          html += '<span class="methodo-item">\uD83D\uDCCB <strong>' + c.nom + '</strong> \u2014 sources publiques - programme \u00E0 venir</span>';
+          html += '<span class="methodo-item"><strong class="methodo-item__nom">' + c.nom + '</strong><span class="methodo-item__statut methodo-item__statut--partiel">programme \u00E0 venir <i class="ph ph-clock"></i></span></span>';
         });
         html += '</div>';
       } else if (complets.length === tousCandidats.length) {
@@ -1696,6 +1820,325 @@
 
     // Afficher la section
     statistiquesSection.hidden = false;
+  }
+
+  // === Treemap — ADN Politique ===
+  var LABELS_TREEMAP = {
+    "securite": "S\u00e9curit\u00e9",
+    "transports": "Transports",
+    "logement": "Logement",
+    "education": "\u00c9ducation",
+    "environnement": "Environnement",
+    "sante": "Sant\u00e9",
+    "democratie": "D\u00e9mocratie",
+    "economie": "\u00c9conomie",
+    "culture": "Culture",
+    "sport": "Sport",
+    "urbanisme": "Urbanisme",
+    "solidarite": "Solidarit\u00e9"
+  };
+
+  var ICONES_PHOSPHOR_CATEGORIES = {
+    "securite": "shield-check",
+    "transports": "bus",
+    "logement": "house-line",
+    "education": "graduation-cap",
+    "environnement": "leaf",
+    "sante": "heart-half",
+    "democratie": "megaphone",
+    "economie": "storefront",
+    "culture": "mask-happy",
+    "sport": "soccer-ball",
+    "urbanisme": "buildings",
+    "solidarite": "handshake"
+  };
+  function getIconePhosphorCategorie(id) {
+    return ICONES_PHOSPHOR_CATEGORIES[id] || "clipboard-text";
+  }
+
+  var treemapModeDuel = false;
+  var treemapCandidatPrincipal = null;
+  var treemapCandidatAdversaire = null;
+
+  function afficherTreemap() {
+    var treemapSection = document.getElementById("treemap-section");
+    var treemapGrille = document.getElementById("treemap-grille");
+    var treemapChips = document.getElementById("treemap-chips");
+    var btnComparer = document.getElementById("treemap-btn-comparer");
+    if (!treemapSection || !treemapGrille) return;
+
+    var candidatsActifs = getCandidatsActifs();
+
+    if (candidatsActifs.length === 0) {
+      treemapSection.hidden = true;
+      return;
+    }
+
+    // Sélectionner le principal s'il n'est pas encore choisi ou invalide
+    if (!treemapCandidatPrincipal || !candidatsActifs.some(function(c) { return c.id === treemapCandidatPrincipal; })) {
+      treemapCandidatPrincipal = candidatsActifs[0].id;
+    }
+
+    // Vérifier l'adversaire en mode duel
+    if (treemapModeDuel && treemapCandidatAdversaire) {
+      if (!candidatsActifs.some(function(c) { return c.id === treemapCandidatAdversaire; }) || treemapCandidatAdversaire === treemapCandidatPrincipal) {
+        treemapCandidatAdversaire = null;
+      }
+    }
+
+    // Chips candidats
+    treemapChips.innerHTML = "";
+    candidatsActifs.forEach(function(candidat, idx) {
+      var couleur = getCouleurParti(candidat, idx);
+      var chip = document.createElement("button");
+      chip.className = "treemap__chip" + (candidat.id === treemapCandidatPrincipal ? " treemap__chip--active" : "");
+      chip.style.setProperty("--chip-couleur", couleur);
+      if (candidat.id === treemapCandidatPrincipal) {
+        var r = parseInt(couleur.slice(1, 3), 16) || 44;
+        var g = parseInt(couleur.slice(3, 5), 16) || 62;
+        var b = parseInt(couleur.slice(5, 7), 16) || 107;
+        chip.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
+      }
+      chip.innerHTML =
+        '<span class="treemap__chip-pastille" style="background:' + couleur + '"></span>' +
+        echapper(candidat.nom);
+      chip.addEventListener("click", function() {
+        treemapCandidatPrincipal = candidat.id;
+        if (treemapCandidatAdversaire === candidat.id) treemapCandidatAdversaire = null;
+        rendreTreemap();
+      });
+      treemapChips.appendChild(chip);
+    });
+
+    // Bouton comparer
+    if (btnComparer) {
+      btnComparer.textContent = treemapModeDuel ? "Fermer" : "Comparer l'ADN";
+      btnComparer.className = "treemap__btn-comparer" + (treemapModeDuel ? " treemap__btn-comparer--active" : "");
+      btnComparer.onclick = function() {
+        treemapModeDuel = !treemapModeDuel;
+        if (!treemapModeDuel) treemapCandidatAdversaire = null;
+        rendreTreemap();
+      };
+      // Masquer le bouton si un seul candidat actif
+      btnComparer.hidden = (candidatsActifs.length < 2);
+    }
+
+    rendreTreemap();
+    treemapSection.hidden = false;
+  }
+
+  function rendreTreemap() {
+    var treemapGrille = document.getElementById("treemap-grille");
+    var treemapChips = document.getElementById("treemap-chips");
+    var btnComparer = document.getElementById("treemap-btn-comparer");
+    if (!treemapGrille) return;
+
+    var candidatsActifs = getCandidatsActifs();
+    treemapGrille.innerHTML = "";
+
+    // MAJ chips (état actif)
+    if (treemapChips) {
+      var chips = treemapChips.querySelectorAll(".treemap__chip");
+      chips.forEach(function(chip, idx) {
+        var candidat = candidatsActifs[idx];
+        if (!candidat) return;
+        var couleur = getCouleurParti(candidat, idx);
+        if (candidat.id === treemapCandidatPrincipal) {
+          chip.classList.add("treemap__chip--active");
+          var r = parseInt(couleur.slice(1, 3), 16) || 44;
+          var g = parseInt(couleur.slice(3, 5), 16) || 62;
+          var b = parseInt(couleur.slice(5, 7), 16) || 107;
+          chip.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
+        } else {
+          chip.classList.remove("treemap__chip--active");
+          chip.style.removeProperty("--chip-bg");
+        }
+      });
+    }
+
+    // MAJ bouton comparer
+    if (btnComparer) {
+      btnComparer.textContent = treemapModeDuel ? "Fermer" : "Comparer l'ADN";
+      btnComparer.className = "treemap__btn-comparer" + (treemapModeDuel ? " treemap__btn-comparer--active" : "");
+    }
+
+    if (treemapModeDuel) {
+      treemapGrille.className = "treemap__grille treemap__grille--duel";
+
+      // Slot 1 : principal
+      var principal = candidatsActifs.filter(function(c) { return c.id === treemapCandidatPrincipal; })[0];
+      if (principal) {
+        var idxP = candidatsActifs.indexOf(principal);
+        treemapGrille.appendChild(creerTreemapCarte(principal, idxP));
+      }
+
+      // Slot 2 : adversaire ou placeholder
+      if (treemapCandidatAdversaire) {
+        var adversaire = candidatsActifs.filter(function(c) { return c.id === treemapCandidatAdversaire; })[0];
+        if (adversaire) {
+          var idxA = candidatsActifs.indexOf(adversaire);
+          treemapGrille.appendChild(creerTreemapCarte(adversaire, idxA));
+        }
+      } else {
+        treemapGrille.appendChild(creerTreemapPlaceholder(candidatsActifs));
+      }
+    } else {
+      treemapGrille.className = "treemap__grille treemap__grille--solo";
+
+      // Mode solo : 1 seul treemap
+      var candidat = candidatsActifs.filter(function(c) { return c.id === treemapCandidatPrincipal; })[0];
+      if (candidat) {
+        var idxC = candidatsActifs.indexOf(candidat);
+        treemapGrille.appendChild(creerTreemapCarte(candidat, idxC));
+      }
+    }
+  }
+
+  function creerTreemapPlaceholder(candidatsActifs) {
+    var carte = document.createElement("div");
+    carte.className = "treemap-carte treemap-carte--placeholder";
+
+    var label = document.createElement("span");
+    label.className = "treemap-placeholder__label";
+    label.textContent = "Choisissez un adversaire";
+    carte.appendChild(label);
+
+    var select = document.createElement("select");
+    select.className = "treemap-placeholder__select";
+
+    var optDefault = document.createElement("option");
+    optDefault.value = "";
+    optDefault.textContent = "— S\u00e9lectionner —";
+    select.appendChild(optDefault);
+
+    candidatsActifs.forEach(function(c) {
+      if (c.id === treemapCandidatPrincipal) return;
+      var opt = document.createElement("option");
+      opt.value = c.id;
+      opt.textContent = c.nom;
+      select.appendChild(opt);
+    });
+
+    select.addEventListener("change", function() {
+      if (select.value) {
+        treemapCandidatAdversaire = select.value;
+        rendreTreemap();
+      }
+    });
+
+    carte.appendChild(select);
+    return carte;
+  }
+
+  function creerTreemapCarte(candidat, idx) {
+    var couleur = getCouleurParti(candidat, idx);
+    var carte = document.createElement("div");
+    carte.className = "treemap-carte";
+
+    // Header
+    var header = document.createElement("div");
+    header.className = "treemap-carte__header";
+
+    var distribution = calculerDistribution(candidat.id);
+
+    header.innerHTML =
+      '<span class="treemap-carte__pastille" style="background:' + couleur + '"></span>' +
+      '<div><div class="treemap-carte__nom">' + echapper(candidat.nom) + '</div>' +
+      '<div class="treemap-carte__parti">' + echapper(candidat.liste || "") + '</div></div>' +
+      '<span class="treemap-carte__total">' + distribution.total + ' prop.</span>';
+    carte.appendChild(header);
+
+    // Container bento treemap
+    var container = document.createElement("div");
+    container.className = "treemap-container";
+
+    // Trier par count décroissant, filtrer les vides
+    var cats = distribution.categories
+      .filter(function(c) { return c.count > 0; })
+      .sort(function(a, b) { return b.count - a.count; });
+
+    // Limiter à 5 blocs visibles (1 principal + 4 secondaires), regrouper le reste dans "Autres"
+    var blocsVisibles = cats.slice(0, 5);
+    var reste = cats.slice(5);
+    var autresCount = 0;
+    var autresPercent = 0;
+    reste.forEach(function(c) { autresCount += c.count; autresPercent += c.percent; });
+
+    blocsVisibles.forEach(function(cat, i) {
+      var block = document.createElement("div");
+      var isMain = (i === 0);
+      var isSmall = (i >= 3);
+      block.className = "treemap-block" + (isMain ? " treemap-block--main" : "") + (isSmall ? " treemap-block--small" : "");
+
+      // Nuances du parti : opacité décroissante
+      var opacity = 1 - (i * 0.15);
+      block.style.backgroundColor = hexToRgbaTreemap(couleur, Math.max(opacity, 0.4));
+
+      var labelCourt = LABELS_TREEMAP[cat.id] || cat.nom;
+      block.title = labelCourt + " \u2014 " + cat.count + " (" + Math.round(cat.percent) + "%)";
+      block.innerHTML =
+        '<span class="treemap-block__icone"><i class="ph ph-' + getIconePhosphorCategorie(cat.id) + '"></i></span>' +
+        '<span class="treemap-block__label">' + echapper(labelCourt) + '</span>' +
+        '<span class="treemap-block__value">' + cat.count + '</span>' +
+        '<span class="treemap-block__percent">' + Math.round(cat.percent) + '%</span>';
+
+      block.addEventListener("click", function() {
+        scrollVersCategorie(cat.id);
+      });
+
+      container.appendChild(block);
+    });
+
+    // Bloc "Autres" si nécessaire
+    if (autresCount > 0) {
+      var autresBlock = document.createElement("div");
+      autresBlock.className = "treemap-block treemap-block--small";
+      autresBlock.style.backgroundColor = hexToRgbaTreemap(couleur, 0.25);
+      autresBlock.title = "Autres \u2014 " + autresCount + " (" + Math.round(autresPercent) + "%)";
+      autresBlock.innerHTML =
+        '<span class="treemap-block__icone"><i class="ph ph-dots-three"></i></span>' +
+        '<span class="treemap-block__label">Autres</span>' +
+        '<span class="treemap-block__value">' + autresCount + '</span>' +
+        '<span class="treemap-block__percent">' + Math.round(autresPercent) + '%</span>';
+      container.appendChild(autresBlock);
+    }
+
+    carte.appendChild(container);
+    return carte;
+  }
+
+  function hexToRgbaTreemap(hex, alpha) {
+    if (!hex || hex.charAt(0) !== "#") return "rgba(128,128,128," + alpha + ")";
+    var r = parseInt(hex.slice(1, 3), 16);
+    var g = parseInt(hex.slice(3, 5), 16);
+    var b = parseInt(hex.slice(5, 7), 16);
+    return "rgba(" + r + "," + g + "," + b + "," + alpha + ")";
+  }
+
+  function calculerDistribution(candidatId) {
+    var total = 0;
+    var cats = donneesElection.categories.map(function(cat) {
+      var count = compterPropositionsCandidat(cat, candidatId);
+      total += count;
+      return { id: cat.id, nom: cat.nom, count: count, percent: 0 };
+    });
+    cats.forEach(function(c) {
+      c.percent = total > 0 ? (c.count / total) * 100 : 0;
+    });
+    return { total: total, categories: cats };
+  }
+
+  function scrollVersCategorie(categorieId) {
+    var el = document.querySelector("[data-categorie-id='" + categorieId + "']");
+    if (el) {
+      // Ouvrir l'accordéon si fermé
+      if (!el.classList.contains("categorie--ouverte")) {
+        el.classList.add("categorie--ouverte");
+      }
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      el.classList.add("categorie--highlight");
+      setTimeout(function() { el.classList.remove("categorie--highlight"); }, 2000);
+    }
   }
 
   // === Répartition thématique ===
@@ -1741,9 +2184,8 @@
     if (avertissement) {
       repartitionContenu.appendChild(avertissement);
     }
-    if (vuePageActuelle !== "vue2") {
-      repartitionSection.hidden = false;
-    }
+    // Répartition masquée : barres intégrées dans les en-têtes de catégories
+    repartitionSection.hidden = true;
   }
 
   function preparerDonneesRepartition(candidats) {
@@ -1786,22 +2228,51 @@
 
   // Couleurs officielles des partis politiques fran\u00E7ais
   var COULEURS_PARTIS = {
-    "lfi": "#BB1840", "la france insoumise": "#BB1840", "fi\u00E8re et populaire": "#BB1840", "front populaire": "#BB1840",
-    "pcf": "#FF0000", "communiste": "#FF0000",
-    "ps": "#E63946", "parti socialiste": "#E63946", "gauche unie": "#E63946", "printemps marseillais": "#E63946",
-    "eelv": "#00A86B", "\u00E9cologistes": "#00A86B", "respire": "#00A86B", "pour vivre": "#00A86B",
-    "modem": "#FF9500", "centriste": "#FF9500",
-    "renaissance": "#FFCC00", "ensemble": "#FFCC00",
-    "horizons": "#0082C4",
-    "lr": "#0066CC", "les r\u00E9publicains": "#0066CC", "union citoyenne de la droite": "#0066CC",
-    "rn": "#0D1B4C", "rassemblement national": "#0D1B4C",
-    "reconqu\u00EAte": "#1A1A1A", "reconquete": "#1A1A1A",
-    "lo": "#B91C1C", "lutte ouvri\u00E8re": "#B91C1C", "anticapitaliste": "#B91C1C",
-    "udr": "#003399", "ciotti": "#003399",
-    "dvd": "#4488CC", "divers droite": "#4488CC",
-    "dvg": "#FFB0B0", "divers gauche": "#FFB0B0",
-    "se": "#6C757D", "sans \u00E9tiquette": "#6C757D"
+    "lfi": "#A855F7", "la france insoumise": "#A855F7", "fi\u00E8re et populaire": "#A855F7", "front populaire": "#A855F7",
+    "pcf": "#FF2D9A", "communiste": "#FF2D9A",
+    "ps": "#FF2D9A", "parti socialiste": "#FF2D9A", "gauche unie": "#FF2D9A", "printemps marseillais": "#FF2D9A", "union de la gauche": "#FF2D9A",
+    "eelv": "#22C55E", "\u00E9cologistes": "#22C55E", "respire": "#22C55E", "pour vivre": "#22C55E",
+    "modem": "#FFBF00", "centriste": "#FFBF00",
+    "renaissance": "#FFBF00", "ensemble": "#FFBF00",
+    "horizons": "#FFBF00",
+    "lr": "#2D6EFF", "les r\u00E9publicains": "#2D6EFF", "union citoyenne de la droite": "#2D6EFF",
+    "rn": "#1447E6", "rassemblement national": "#1447E6",
+    "reconqu\u00EAte": "#FF6B00", "reconquete": "#FF6B00",
+    "lo": "#A855F7", "lutte ouvri\u00E8re": "#A855F7", "anticapitaliste": "#A855F7",
+    "udr": "#2D6EFF", "ciotti": "#2D6EFF",
+    "dvd": "#14B8A6", "divers droite": "#14B8A6",
+    "dvg": "#FF2D9A", "divers gauche": "#FF2D9A",
+    "se": "#14B8A6", "sans \u00E9tiquette": "#14B8A6"
   };
+
+  var INITIALES_PARTIS = {
+    "lfi": "LFI", "la france insoumise": "LFI", "fi\u00E8re et populaire": "LFI", "front populaire": "LFI",
+    "pcf": "UG", "communiste": "UG",
+    "ps": "UG", "parti socialiste": "UG", "gauche unie": "UG", "printemps marseillais": "UG", "union de la gauche": "UG",
+    "eelv": "ECO", "\u00E9cologistes": "ECO", "respire": "ECO", "pour vivre": "ECO",
+    "modem": "REN", "centriste": "REN",
+    "renaissance": "REN", "ensemble": "REN",
+    "horizons": "REN",
+    "lr": "LR", "les r\u00E9publicains": "LR", "union citoyenne de la droite": "LR",
+    "rn": "RN", "rassemblement national": "RN",
+    "reconqu\u00EAte": "REC", "reconquete": "REC",
+    "lo": "LFI", "lutte ouvri\u00E8re": "LFI", "anticapitaliste": "LFI",
+    "udr": "LR", "ciotti": "LR",
+    "dvd": "DIV", "divers droite": "DIV",
+    "dvg": "UG", "divers gauche": "UG",
+    "se": "DIV", "sans \u00E9tiquette": "DIV"
+  };
+
+  function getInitialeParti(candidat) {
+    var liste = (candidat.liste || "").toLowerCase();
+    var keys = Object.keys(INITIALES_PARTIS);
+    for (var i = 0; i < keys.length; i++) {
+      if (liste.indexOf(keys[i]) !== -1) {
+        return INITIALES_PARTIS[keys[i]];
+      }
+    }
+    return "DIV";
+  }
 
   function getCouleurParti(candidat, indexFallback) {
     var liste = (candidat.liste || "").toLowerCase();
@@ -1886,11 +2357,12 @@
         var nb = cat.parCandidat[c.id];
         var pct = maxTheme > 0 ? Math.round((nb / maxTheme) * 100) : 0;
         var couleur = getCouleurParti(c, idx);
+        var initiale = getInitialeParti(c);
         if (nb > 0) {
           barresHTML += '<div class="rep-barres__ligne">' +
             '<span class="rep-barres__nom" style="color:' + couleur + '">' + echapper(c.nom) + '</span>' +
             '<div class="rep-barres__bar-track">' +
-              '<div class="rep-barres__fill" style="width:' + pct + '%;background:' + couleur + '" title="' + echapper(c.nom) + ' : ' + nb + '"></div>' +
+              '<div class="rep-barres__fill" style="width:' + pct + '%;background:' + couleur + '" title="' + echapper(c.nom) + ' : ' + nb + '"><span class="rep-barres__initiale">' + initiale + '</span></div>' +
             '</div>' +
             '<span class="rep-barres__nb">' + nb + '</span>' +
           '</div>';
@@ -2035,15 +2507,15 @@
     // Avertissement si mix complets/partiels
     if (complets.length > 0 && partiels.length > 0) {
       html += '<div class="repartition-avertissement__bloc repartition-avertissement__bloc--equite">';
-      html += '<strong>\u26A0\uFE0F \u00C9quit\u00E9 de comparaison</strong>';
+      html += '<strong><i class="ph ph-scales"></i> \u00C9quit\u00E9 de comparaison</strong>';
       html += '<p>Tous les candidats n\u2019ont pas encore publi\u00E9 leur programme officiel. ';
       html += 'Un nombre inf\u00E9rieur de propositions ne refl\u00E8te pas n\u00E9cessairement un projet moins ambitieux.</p>';
       html += '<div class="repartition-avertissement__liste">';
       complets.forEach(function (c) {
-        html += '<span class="repartition-avertissement__tag repartition-avertissement__tag--complet">\u2705 ' + echapper(c.nom) + ' \u2014 ' + donnees.totaux[c.id] + ' propositions (programme officiel)</span>';
+        html += '<span class="repartition-avertissement__tag repartition-avertissement__tag--complet"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--complet">' + donnees.totaux[c.id] + ' propositions, programme officiel <i class="ph ph-check-circle"></i></span></span>';
       });
       partiels.forEach(function (c) {
-        html += '<span class="repartition-avertissement__tag repartition-avertissement__tag--partiel">\uD83D\uDCCB ' + echapper(c.nom) + ' \u2014 ' + donnees.totaux[c.id] + ' propositions (sources publiques - programme \u00E0 venir)</span>';
+        html += '<span class="repartition-avertissement__tag repartition-avertissement__tag--partiel"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--partiel">' + donnees.totaux[c.id] + ' propositions, programme \u00E0 venir <i class="ph ph-clock"></i></span></span>';
       });
       html += '</div>';
       html += '</div>';
@@ -2051,7 +2523,7 @@
 
     // Date de disponibilité des programmes
     html += '<div class="repartition-avertissement__bloc repartition-avertissement__bloc--date">';
-    html += '<strong>\uD83D\uDCC5 Calendrier</strong>';
+    html += '<strong><i class="ph ph-calendar-dots"></i> Calendrier</strong>';
     html += '<p>Date limite de d\u00E9p\u00F4t des candidatures : <strong>26 f\u00E9vrier 2026</strong>. ';
     html += 'Les programmes complets sont g\u00E9n\u00E9ralement publi\u00E9s entre fin f\u00E9vrier et d\u00E9but mars. ';
     html += 'Cette page est mise \u00E0 jour au fur et \u00E0 mesure des publications.</p>';
@@ -2068,9 +2540,8 @@
     donneesElection.categories.forEach(function (cat) {
       filtresContainer.appendChild(creerBoutonFiltre(cat.nom, cat.id));
     });
-    if (vuePageActuelle !== "vue2") {
-      filtresContainer.hidden = false;
-    }
+    // Filtres masqués (supprimés de l'UI)
+    filtresContainer.hidden = true;
   }
 
   function creerBoutonFiltre(label, valeur) {
@@ -2170,8 +2641,45 @@
       comparaisonContainer.appendChild(titreH2);
     }
 
+    // Guide de lecture (affiché une seule fois, masquable)
+    var guideDejaVu = localStorage.getItem("guide-lecture-vu");
+    if (!guideDejaVu) {
+      var guide = document.createElement("div");
+      guide.className = "guide-lecture";
+      guide.innerHTML = '<div class="guide-lecture__contenu">' +
+        '<span class="guide-lecture__icone"><i class="ph ph-book-open-text"></i></span>' +
+        '<div class="guide-lecture__texte">' +
+        '<div class="guide-lecture__titre-bloc">Comment lire cette section ?</div>' +
+        '<p>Chaque th\u00E8me regroupe les propositions de tous les candidats c\u00F4te \u00E0 c\u00F4te. ' +
+        'Utilisez les <b>points de navigation</b> sur la droite (sur grand \u00E9cran) pour naviguer directement vers un th\u00E8me. ' +
+        'Les cases grises indiquent qu\u2019un candidat ne s\u2019est pas encore prononc\u00E9 sur le sujet.</p>' +
+        '</div>' +
+        '<button class="guide-lecture__fermer" title="Fermer">\u00D7</button>' +
+        '</div>';
+      guide.querySelector(".guide-lecture__fermer").addEventListener("click", function () {
+        guide.remove();
+        localStorage.setItem("guide-lecture-vu", "1");
+      });
+      comparaisonContainer.appendChild(guide);
+    }
+
     var candidats = getCandidatsActifs();
     var nbTotal = donneesElection ? donneesElection.candidats.length : candidats.length;
+
+    // Pré-replier les colonnes des candidats avec 0 propositions
+    candidats.forEach(function (c) {
+      var total = 0;
+      donneesElection.categories.forEach(function (cat) {
+        if (cat.sousThemes) {
+          cat.sousThemes.forEach(function (st) {
+            if (st.propositions[c.id] && st.propositions[c.id].texte) total++;
+          });
+        }
+      });
+      if (total === 0) {
+        tableauColonnesMasquees[c.id] = true;
+      }
+    });
 
     // Déplacer les filtres candidats ici (desktop), juste sous le titre
     if (filtresSec) {
@@ -2232,6 +2740,8 @@
       msg.textContent = "Aucune proposition ne correspond \u00E0 \u00AB " + rechercheTexte + " \u00BB.";
       comparaisonContainer.appendChild(msg);
     }
+
+    mettreAJourCompteurTableau();
   }
 
   // Nouvelle fonction pour les catégories avec sous-thèmes (format matriciel)
@@ -2248,20 +2758,65 @@
 
     var div = document.createElement("div");
     div.className = "categorie categorie--matricielle" + (estPremiere ? " categorie--ouverte" : "");
+    div.dataset.categorieId = categorie.id;
 
     var header = document.createElement("div");
     header.className = "categorie__header";
     header.style.position = "relative";
-    header.innerHTML =
-      '<div>' +
-        '<span class="categorie__nom">' +
-          '<span class="categorie__icone">' + getIconeCategorie(categorie.id) + '</span>' +
-          echapper(categorie.nom) +
-        '</span> ' +
-        '<span class="categorie__count">' + totalPropositions + ' proposition' +
-        (totalPropositions > 1 ? 's' : '') + ' \u2022 ' + categorie.sousThemes.length + ' sous-th\u00E8mes</span>' +
-      '</div>' +
-      '<span class="categorie__toggle">\u25BC</span>';
+
+    // Titre + count
+    var titreDiv = document.createElement("div");
+    titreDiv.innerHTML =
+      '<span class="categorie__nom">' +
+        '<span class="categorie__icone">' + getIconeCategorie(categorie.id) + '</span>' +
+        echapper(categorie.nom) +
+      '</span>';
+    header.appendChild(titreDiv);
+
+    // Mini-barres de répartition par candidat
+    var maxThemeBar = 0;
+    candidats.forEach(function(c) {
+      var nb = compterPropositionsCandidat(categorie, c.id);
+      if (nb > maxThemeBar) maxThemeBar = nb;
+    });
+    var barsContainer = document.createElement("div");
+    barsContainer.className = "categorie__header-bars";
+    candidats.forEach(function(c, idx) {
+      var nb = compterPropositionsCandidat(categorie, c.id);
+      var pct = maxThemeBar > 0 ? Math.round(nb / maxThemeBar * 100) : 0;
+      var couleur = getCouleurParti(c, idx);
+      var line = document.createElement("div");
+      line.className = "categorie__header-bar-line";
+      var nameSpan = document.createElement("span");
+      nameSpan.className = "categorie__header-bar-name";
+      nameSpan.style.color = couleur;
+      var parties = c.nom.split(" ");
+      var nomCourt = parties.length > 1
+        ? parties.slice(0, -1).join(" ") + " " + parties[parties.length - 1].charAt(0) + "."
+        : c.nom;
+      nameSpan.textContent = nomCourt;
+      var track = document.createElement("div");
+      track.className = "categorie__header-bar-track";
+      var fill = document.createElement("div");
+      fill.className = "categorie__header-bar-fill";
+      fill.style.width = pct + "%";
+      fill.style.background = couleur;
+      track.appendChild(fill);
+      var nbSpan = document.createElement("span");
+      nbSpan.className = "categorie__header-bar-nb";
+      nbSpan.textContent = nb;
+      line.appendChild(nameSpan);
+      line.appendChild(track);
+      line.appendChild(nbSpan);
+      barsContainer.appendChild(line);
+    });
+    header.appendChild(barsContainer);
+
+    // Toggle ▼
+    var toggleSpan = document.createElement("span");
+    toggleSpan.className = "categorie__toggle";
+    toggleSpan.textContent = "\u25BC";
+    header.appendChild(toggleSpan);
 
     header.addEventListener("click", function () {
       div.classList.toggle("categorie--ouverte");
@@ -2338,9 +2893,17 @@
         badgeHTML = '<span class="badge badge--partiel mini">\u00C0 venir</span>';
       }
 
+      var couv = calculerCouverture(categorie, candidat.id);
+      var couvertureHTML = '<div class="couverture-bar">' +
+        '<div class="couverture-bar__label">' + couv.couverts + '/' + couv.total + ' thèmes abordés</div>' +
+        '<div class="couverture-bar__track">' +
+          '<div class="couverture-bar__fill" style="width:' + couv.pct + '%;background:' + couleurParti + '"></div>' +
+        '</div>' +
+        '</div>';
+
       var fullContent = document.createElement("span");
       fullContent.className = "tableau-col__content-full";
-      fullContent.innerHTML = '<strong>' + echapper(candidat.nom) + '</strong><span class="candidat-parti-label">' + echapper(candidat.liste) + '</span> ' + badgeHTML;
+      fullContent.innerHTML = '<strong>' + echapper(candidat.nom) + '</strong><span class="candidat-parti-label">' + echapper(candidat.liste) + '</span> ' + badgeHTML + couvertureHTML;
 
       var verticalName = document.createElement("span");
       verticalName.className = "tableau-col__nom-vertical";
@@ -2463,11 +3026,12 @@
         var nb = compterPropositionsCandidat(categorie, c.id);
         var pct = maxTheme > 0 ? Math.round(nb / maxTheme * 100) : 0;
         var couleur = getCouleurParti(c, idx);
+        var initiale = getInitialeParti(c);
         if (nb > 0) {
           barresHTML += '<div class="rep-barres__ligne">' +
             '<span class="rep-barres__nom" style="color:' + couleur + '">' + echapper(c.nom) + '</span>' +
             '<div class="rep-barres__bar-track">' +
-              '<div class="rep-barres__fill" style="width:' + pct + '%;background:' + couleur + '" title="' + echapper(c.nom) + ' : ' + nb + '"></div>' +
+              '<div class="rep-barres__fill" style="width:' + pct + '%;background:' + couleur + '" title="' + echapper(c.nom) + ' : ' + nb + '"><span class="rep-barres__initiale">' + initiale + '</span></div>' +
             '</div>' +
             '<span class="rep-barres__nb">' + nb + '</span>' +
           '</div>';
@@ -2764,6 +3328,8 @@
     return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
+  // Badge ville : plus de clic (texte normal dans le H1)
+
   // === Événements ===
   villeSearchInput.addEventListener("input", function () {
     var terme = villeSearchInput.value.trim();
@@ -2772,6 +3338,8 @@
       villeSelectionnee = null;
       donneesElection = null;
       electionInfo.hidden = true;
+      var toolbarEl = document.getElementById("toolbar");
+      if (toolbarEl) toolbarEl.hidden = true;
       repartitionSection.hidden = true;
       filtresContainer.hidden = true;
       comparaisonContainer.hidden = true;
@@ -2784,11 +3352,32 @@
       if (mobileFilterBtn) mobileFilterBtn.hidden = true;
       rechercheInput.value = "";
       arreterCountdown();
+      mettreAJourHeroEtat(null);
+      mettreAJourFilAriane(null);
       return;
     }
 
     var villesTrouvees = rechercherVilles(terme);
     afficherSuggestions(villesTrouvees, terme);
+
+    // Aussi chercher des candidats et les afficher en dessous des villes
+    if (terme.length >= 2) {
+      var candidatsTrouves = rechercherCandidats(terme);
+      if (candidatsTrouves.length > 0) {
+        candidatsTrouves.slice(0, 5).forEach(function(r) {
+          var div = document.createElement("div");
+          div.className = "ville-suggestion ville-suggestion--candidat";
+          div.innerHTML =
+            '<span class="ville-suggestion__nom"><i class="ph ph-user"></i> ' + surligner(echapper(r.candidatNom), terme) + '</span>' +
+            '<span class="ville-suggestion__code">' + echapper(r.villeNom) + ' \u2014 ' + echapper(r.liste) + '</span>';
+          div.addEventListener("click", function() {
+            selectionnerCandidatRecherche(r);
+          });
+          villeSuggestionsContainer.appendChild(div);
+        });
+        villeSuggestionsContainer.hidden = false;
+      }
+    }
   });
 
   villeSearchInput.addEventListener("keydown", function (e) {
@@ -2872,19 +3461,38 @@
     }, 250);
   });
 
+  // === Bouton Rechercher (search-float) ===
+  var searchFloatBtn = document.getElementById("search-float-btn");
+  if (searchFloatBtn) {
+    searchFloatBtn.addEventListener("click", function() {
+      var terme = villeSearchInput.value.trim();
+      if (!terme) return;
+      // Sélectionner la première suggestion visible
+      var premiereSuggestion = villeSuggestionsContainer.querySelector(".ville-suggestion");
+      if (premiereSuggestion) {
+        premiereSuggestion.click();
+      } else {
+        // Tenter une recherche directe
+        var villesTrouvees = rechercherVilles(terme);
+        if (villesTrouvees.length > 0) {
+          selectionnerVille(villesTrouvees[0]);
+        } else {
+          var candidatsTrouves = rechercherCandidats(terme);
+          if (candidatsTrouves.length > 0) {
+            selectionnerCandidatRecherche(candidatsTrouves[0]);
+          }
+        }
+      }
+    });
+  }
+
   // === Événements partage ===
   btnPartager.addEventListener("click", function(e) {
-    e.stopPropagation();
-    partagerComparaison();
-  });
-
-  // Copier le lien au double-clic sur le bouton principal
-  btnPartager.addEventListener("dblclick", function(e) {
     e.stopPropagation();
     copierLien();
   });
 
-  // Gestionnaires pour les boutons de réseaux sociaux
+  // Gestionnaires pour les boutons de réseaux sociaux (toolbar)
   document.addEventListener("click", function(e) {
     if (e.target.closest(".btn-reseau--facebook")) {
       partagerSurReseau("facebook");
@@ -2896,12 +3504,6 @@
       partagerSurReseau("whatsapp");
     } else if (e.target.closest(".btn-reseau--email")) {
       partagerSurReseau("email");
-    } else if (!e.target.closest(".partage-container")) {
-      // Fermer les boutons si on clique ailleurs
-      if (!partageReseaux.hidden) {
-        partageReseaux.hidden = true;
-        btnPartager.textContent = "🔗 Copier le lien";
-      }
     }
   });
 
@@ -2910,9 +3512,7 @@
 
   btnTop.addEventListener("click", scrollVersHaut);
 
-  sommaireToggle.addEventListener("click", function () {
-    sommaire.classList.toggle("sommaire--masque");
-  });
+  // Progress dots visibility is handled by scroll spy in genererSommaire()
 
 
   // Palette de couleurs pour barres groupées
@@ -3037,9 +3637,7 @@
     if (donneesElection) {
       var cands = donneesElection.candidats.slice().sort(function (a, b) { return a.nom.localeCompare(b.nom, "fr"); });
       if (vue === "vue1") {
-        repartitionSection.hidden = false;
-        filtresContainer.hidden = false;
-        afficherRepartition(cands);
+        repartitionSection.hidden = true;
       }
       afficherGrille(cands);
       genererStatistiques(cands);
@@ -3053,15 +3651,6 @@
     });
   }
   document.body.setAttribute("data-vue", vuePageActuelle);
-
-  // Masquer le bouton d'inscription si la date limite est dépassée
-  var heroCta = document.getElementById("hero-cta-inscription");
-  if (heroCta) {
-    var dateLimiteInscription = new Date("2026-02-06T23:59:59");
-    if (new Date() > dateLimiteInscription) {
-      heroCta.hidden = true;
-    }
-  }
 
   // Gestion des alertes
   btnAlerte.addEventListener("click", inscrireAlerte);
@@ -3169,16 +3758,88 @@
     });
   }
 
-  // === Burger menu mobile ===
+  // === Burger menu mobile (full-screen overlay) ===
   (function() {
     var btn = document.getElementById("burger-btn");
-    var menu = document.getElementById("mobile-menu");
-    if (!btn || !menu) return;
-    btn.addEventListener("click", function() {
-      var expanded = btn.getAttribute("aria-expanded") === "true";
-      btn.setAttribute("aria-expanded", !expanded);
-      menu.hidden = expanded;
+    var overlay = document.getElementById("mobile-menu");
+    var closeBtn = document.getElementById("mobile-menu-close");
+    var searchInput = document.getElementById("mobile-menu-search");
+    var suggestionsEl = document.getElementById("mobile-menu-suggestions");
+    if (!btn || !overlay) return;
+
+    var debounceTimer = null;
+
+    function openMenu() {
+      overlay.hidden = false;
+      document.body.style.overflow = "hidden";
+      btn.setAttribute("aria-expanded", "true");
+      var diff = new Date("2026-03-15T08:00:00").getTime() - Date.now();
+      var jours = Math.max(0, Math.floor(diff / 86400000));
+      var joursEl = document.getElementById("mobile-menu-jours");
+      if (joursEl) joursEl.textContent = jours;
+    }
+
+    function closeMenu() {
+      overlay.hidden = true;
+      document.body.style.overflow = "";
+      btn.setAttribute("aria-expanded", "false");
+      if (searchInput) searchInput.value = "";
+      if (suggestionsEl) { suggestionsEl.innerHTML = ""; suggestionsEl.hidden = true; }
+    }
+
+    btn.addEventListener("click", openMenu);
+    if (closeBtn) closeBtn.addEventListener("click", closeMenu);
+
+    // Close on nav link click
+    overlay.querySelectorAll(".mobile-menu-overlay__nav a").forEach(function(a) {
+      a.addEventListener("click", function() {
+        closeMenu();
+      });
     });
+
+    // Close on Escape
+    document.addEventListener("keydown", function(e) {
+      if (e.key === "Escape" && !overlay.hidden) closeMenu();
+    });
+
+    // Search in overlay
+    if (searchInput && suggestionsEl) {
+      searchInput.addEventListener("input", function() {
+        clearTimeout(debounceTimer);
+        var val = searchInput.value.trim();
+        debounceTimer = setTimeout(function() {
+          if (!val || val.length < 2) {
+            suggestionsEl.innerHTML = "";
+            suggestionsEl.hidden = true;
+            return;
+          }
+          var results = rechercherVilles(val).slice(0, 8);
+          if (results.length === 0) {
+            suggestionsEl.innerHTML = "";
+            suggestionsEl.hidden = true;
+            return;
+          }
+          suggestionsEl.innerHTML = results.map(function(v) {
+            return '<div class="mobile-menu-suggestion-item" data-id="' + v.id + '">' +
+              '<i class="ph ph-map-pin"></i>' +
+              '<span>' + echapper(v.nom) + '</span>' +
+              '<span class="mobile-menu-suggestion-cp">' + v.codePostal + '</span>' +
+              '</div>';
+          }).join("");
+          suggestionsEl.hidden = false;
+
+          suggestionsEl.querySelectorAll(".mobile-menu-suggestion-item").forEach(function(item) {
+            item.addEventListener("click", function() {
+              var ville = VILLES.find(function(v) { return v.id === item.dataset.id; });
+              if (ville) {
+                closeMenu();
+                selectionnerVille(ville);
+              }
+            });
+          });
+        }, 200);
+      });
+    }
   })();
 
   // === Initialisation ===

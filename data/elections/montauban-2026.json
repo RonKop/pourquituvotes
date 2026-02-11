@@ -1,0 +1,697 @@
+{
+  "ville": "Montauban",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "deville",
+      "nom": "Thierry Deville",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "hilion",
+      "nom": "Arnaud Hilion",
+      "liste": "PS-EELV, Vivre Montauban",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lallemand",
+      "nom": "Didier Lallemand",
+      "liste": "UDR-RN",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "chikhi",
+      "nom": "Samir Chikhi",
+      "liste": "LFI-PCF-NPA-Génération.s",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "levi",
+      "nom": "Jean-Lou Lévi",
+      "liste": "Sans étiquette, centre-droit",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "labarre",
+      "nom": "Jean-Philippe Labarre",
+      "liste": "Sans étiquette, Nouveau Montauban",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "blanco",
+      "nom": "Richard Blanco",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "deville": null,
+            "hilion": null,
+            "lallemand": null,
+            "chikhi": null,
+            "levi": null,
+            "labarre": null,
+            "blanco": null
+          }
+        }
+      ]
+    }
+  ]
+}

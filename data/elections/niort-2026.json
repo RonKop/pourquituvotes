@@ -1,0 +1,493 @@
+{
+  "ville": "Niort",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "baloge",
+      "nom": "Jérôme Baloge",
+      "liste": "Parti Radical / Ensemble, Niort tous ensemble",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mathieu",
+      "nom": "Sébastien Mathieu",
+      "liste": "Union de la gauche (LFI/PCF/PS/EELV)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bonnet-derisbourg",
+      "nom": "Céline Bonnet-Derisbourg",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "baloge": null,
+            "mathieu": null,
+            "bonnet-derisbourg": null
+          }
+        }
+      ]
+    }
+  ]
+}

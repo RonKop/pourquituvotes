@@ -12,21 +12,21 @@ ELECTIONS_DIR = os.path.join(DATA_DIR, "elections")
 VILLES_JSON = os.path.join(DATA_DIR, "villes.json")
 APP_JS_PATH = os.path.join(ROOT_DIR, "js", "app.js")
 HOME_JS_PATH = os.path.join(ROOT_DIR, "js", "home.js")
+COMPARATEUR_HTML = os.path.join(ROOT_DIR, "municipales", "2026", "index.html")
+SCHEMA_JSON = os.path.join(DATA_DIR, "schema", "schema_elections.json")
 
-CATEGORIES = [
-    ("securite", "Sécurité & Prévention", [("police-municipale", "Police municipale"), ("videoprotection", "Vidéoprotection"), ("prevention-mediation", "Prévention & Médiation"), ("violences-femmes", "Violences faites aux femmes")]),
-    ("transports", "Transports & Mobilité", [("transports-en-commun", "Transports en commun"), ("velo-mobilites-douces", "Vélo & Mobilités douces"), ("pietons-circulation", "Piétons & Circulation"), ("stationnement", "Stationnement"), ("tarifs-gratuite", "Tarifs & Gratuité")]),
-    ("logement", "Logement", [("logement-social", "Logement social"), ("logements-vacants", "Logements vacants"), ("encadrement-loyers", "Encadrement des loyers"), ("acces-logement", "Accès au logement")]),
-    ("education", "Éducation & Jeunesse", [("petite-enfance", "Petite enfance"), ("ecoles-renovation", "Écoles & Rénovation"), ("cantines-fournitures", "Cantines & Fournitures"), ("periscolaire-loisirs", "Périscolaire & Loisirs"), ("jeunesse", "Jeunesse")]),
-    ("environnement", "Environnement & Transition écologique", [("espaces-verts", "Espaces verts & Biodiversité"), ("proprete-dechets", "Propreté & Déchets"), ("climat-adaptation", "Climat & Adaptation"), ("renovation-energetique", "Rénovation énergétique"), ("alimentation-durable", "Alimentation durable")]),
-    ("sante", "Santé & Accès aux soins", [("centres-sante", "Centres de santé"), ("prevention-sante", "Prévention santé"), ("seniors", "Seniors")]),
-    ("democratie", "Démocratie & Vie citoyenne", [("budget-participatif", "Budget participatif"), ("transparence", "Transparence"), ("vie-associative", "Vie associative"), ("services-publics", "Services publics")]),
-    ("economie", "Économie & Emploi", [("commerce-local", "Commerce local"), ("emploi-insertion", "Emploi & Insertion"), ("attractivite", "Attractivité")]),
-    ("culture", "Culture & Patrimoine", [("equipements-culturels", "Équipements culturels"), ("evenements-creation", "Événements & Création")]),
-    ("sport", "Sport & Loisirs", [("equipements-sportifs", "Équipements sportifs"), ("sport-pour-tous", "Sport pour tous")]),
-    ("urbanisme", "Urbanisme & Cadre de vie", [("amenagement-urbain", "Aménagement urbain"), ("accessibilite", "Accessibilité"), ("quartiers-prioritaires", "Quartiers prioritaires")]),
-    ("solidarite", "Solidarité & Égalité", [("aide-sociale", "Aide sociale"), ("egalite-discriminations", "Égalité & Discriminations"), ("pouvoir-achat", "Pouvoir d'achat")]),
-]
+
+def _charger_categories():
+    """Charge les catégories depuis le schéma JSON."""
+    with open(SCHEMA_JSON, "r", encoding="utf-8") as f:
+        schema = json.load(f)
+    return [
+        (cat["id"], cat["nom"], [(st["id"], st["nom"]) for st in cat["sousThemes"]])
+        for cat in schema["categories"]
+    ]
+
+
+CATEGORIES = _charger_categories()
 
 
 def get_departement(cp):
@@ -138,6 +138,18 @@ def increment_data_version():
             with open(js_path, "w", encoding="utf-8") as f:
                 f.write(content)
             print(f"  DATA_VERSION -> {new_version} dans {os.path.basename(js_path)}")
+
+    # Mettre à jour les ?v= dans le HTML du comparateur
+    for html_path in [COMPARATEUR_HTML]:
+        if not os.path.exists(html_path):
+            continue
+        with open(html_path, "r", encoding="utf-8") as f:
+            html = f.read()
+        html_updated = re.sub(r"\?v=\d+", f"?v={new_version}", html)
+        if html_updated != html:
+            with open(html_path, "w", encoding="utf-8") as f:
+                f.write(html_updated)
+            print(f"  ?v={new_version} dans {os.path.basename(html_path)}")
 
     return new_version
 

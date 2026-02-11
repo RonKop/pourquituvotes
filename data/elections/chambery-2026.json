@@ -1,0 +1,697 @@
+{
+  "ville": "Chambéry",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "repentin",
+      "nom": "Thierry Repentin",
+      "liste": "DVG-PS-PCF-Les Écologistes, Chambéry avance",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "patey",
+      "nom": "Vincent Patey",
+      "liste": "Divers droite, Le Pacte",
+      "programmeUrl": "https://chambery2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bernard",
+      "nom": "Brice Bernard",
+      "liste": "RN, Rassemblement pour Chambéry",
+      "programmeUrl": "https://brice-bernard.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "saint-andre",
+      "nom": "Christian Saint-André",
+      "liste": "Renaissance",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "favetta-sieyes",
+      "nom": "Christelle Favetta-Sieyès",
+      "liste": "UDI dissidente, Chambéry pour de vrai",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "desreumaux",
+      "nom": "Gaël Desreumaux",
+      "liste": "Sans étiquette, Avenir Populaire",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ducruet",
+      "nom": "Marie Ducruet",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "repentin": null,
+            "patey": null,
+            "bernard": null,
+            "saint-andre": null,
+            "favetta-sieyes": null,
+            "desreumaux": null,
+            "ducruet": null
+          }
+        }
+      ]
+    }
+  ]
+}

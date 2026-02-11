@@ -1,0 +1,544 @@
+{
+  "ville": "Quimper",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "assih",
+      "nom": "Isabelle Assih",
+      "liste": "Divers gauche / PS, Quimper Ensemble",
+      "programmeUrl": "https://www.assih2026.bzh/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "menguy",
+      "nom": "Guillaume Menguy",
+      "liste": "Droite et centre",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "henaff",
+      "nom": "Chrystel Hénaff",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lauwers",
+      "nom": "Marie Lauwers",
+      "liste": "LFI / NPA / Gauche bretonne",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "assih": null,
+            "menguy": null,
+            "henaff": null,
+            "lauwers": null
+          }
+        }
+      ]
+    }
+  ]
+}

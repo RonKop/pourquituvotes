@@ -1,0 +1,697 @@
+{
+  "ville": "Calais",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "bouchart",
+      "nom": "Natacha Bouchart",
+      "liste": "Divers droite",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fleurian",
+      "nom": "Marc de Fleurian",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lannoy",
+      "nom": "Jean-Philippe Lannoy",
+      "liste": "LFI-EELV, À gauche toute !",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lavigne",
+      "nom": "Marion Lavigne",
+      "liste": "PCF-PS-Génération.s, Agissons pour Calais",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "nicolas",
+      "nom": "Lucille Nicolas",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "delplanque",
+      "nom": "Guy Delplanque",
+      "liste": "Sans étiquette",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "debaisieux",
+      "nom": "Romain Debaisieux",
+      "liste": "Sans étiquette",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "bouchart": null,
+            "fleurian": null,
+            "lannoy": null,
+            "lavigne": null,
+            "nicolas": null,
+            "delplanque": null,
+            "debaisieux": null
+          }
+        }
+      ]
+    }
+  ]
+}

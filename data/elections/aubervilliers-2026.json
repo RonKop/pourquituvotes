@@ -1,0 +1,697 @@
+{
+  "ville": "Aubervilliers",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "franclet",
+      "nom": "Karine Franclet",
+      "liste": "UDI",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "karroumi",
+      "nom": "Sofienne Karroumi",
+      "liste": "DVG, Union de la gauche (PS/Place publique/Génération.s)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lescaut",
+      "nom": "Guillaume Lescaut",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "https://www.guillaumelescaut2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "daguet",
+      "nom": "Anthony Daguet",
+      "liste": "PCF",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "djebbari",
+      "nom": "Nabila Djebbari",
+      "liste": "DVG",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "guerrien",
+      "nom": "Marc Guerrien",
+      "liste": "DVG",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "lavazec",
+      "nom": "Jean-Louis Lavazec",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "franclet": null,
+            "karroumi": null,
+            "lescaut": null,
+            "daguet": null,
+            "djebbari": null,
+            "guerrien": null,
+            "lavazec": null
+          }
+        }
+      ]
+    }
+  ]
+}

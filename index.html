@@ -120,17 +120,37 @@
         <span></span><span></span><span></span>
       </button>
     </div>
-    <!-- Mobile menu -->
-    <div class="header__mobile-menu" id="mobile-menu" hidden>
-      <nav aria-label="Menu mobile">
-        <ul>
-          <li><a href="#comment-ca-marche">M&eacute;thodologie</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
   </header>
+
+  <!-- Mobile menu overlay (full-screen) -->
+  <div class="mobile-menu-overlay" id="mobile-menu" hidden>
+    <div class="mobile-menu-overlay__header">
+      <a href="/" class="header-brand">
+        <span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span>
+      </a>
+      <button class="mobile-menu-overlay__close" id="mobile-menu-close" aria-label="Fermer le menu">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <div class="mobile-menu-overlay__search">
+      <div class="mobile-menu-search-box">
+        <i class="ph ph-magnifying-glass"></i>
+        <input type="text" id="mobile-menu-search" placeholder="Rechercher une ville..." autocomplete="off">
+      </div>
+      <div class="mobile-menu-suggestions" id="mobile-menu-suggestions" hidden></div>
+    </div>
+    <nav class="mobile-menu-overlay__nav">
+      <ul>
+        <li><a href="#comment-ca-marche"><i class="ph ph-book-open"></i> M&eacute;thodologie</a></li>
+        <li><a href="#faq"><i class="ph ph-question"></i> FAQ</a></li>
+        <li><a href="#contact"><i class="ph ph-envelope"></i> Contact</a></li>
+        <li><a href="#"><i class="ph ph-info"></i> &Agrave; propos</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-overlay__footer">
+      <span>J-<span id="mobile-menu-jours">--</span> avant le scrutin</span>
+    </div>
+  </div>
 
   <main id="main-content">
 
@@ -201,7 +221,6 @@
             <li><i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> Barres pour comparer le volume de propositions</li>
             <li><i class="ph ph-table" aria-hidden="true"></i> Tableau pour lire les d&eacute;tails c&ocirc;te &agrave; c&ocirc;te</li>
           </ul>
-          <a href="/municipales/2026/" class="apercu__cta">Voir les &eacute;lections disponibles <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
         </div>
         <div class="apercu__mockup">
           <div class="mockup-browser">
@@ -218,12 +237,13 @@
               </div>
               <canvas id="apercu-radar" width="320" height="260" aria-label="Aper&ccedil;u radar chart comparant 2 candidats sur 6 th&egrave;mes"></canvas>
               <div class="mockup-legend">
-                <span class="mockup-legend__item"><span class="mockup-legend__dot" style="background:#3B82F6"></span>E. Gr&eacute;goire</span>
-                <span class="mockup-legend__item"><span class="mockup-legend__dot" style="background:#F59E0B"></span>S. Knafo</span>
+                <span class="mockup-legend__item"><span class="mockup-legend__dot" style="background:#3B82F6"></span>Candidat A</span>
+                <span class="mockup-legend__item"><span class="mockup-legend__dot" style="background:#F59E0B"></span>Candidat B</span>
               </div>
             </div>
           </div>
         </div>
+        <a href="/municipales/2026/" class="apercu__cta">Voir les &eacute;lections disponibles <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
       </div>
     </section>
 
@@ -332,7 +352,7 @@
         <span class="quiz__badge">&#x1F3AF; Le Quiz Rapide</span>
         <h2 id="quiz-title" class="quiz__title">Quel candidat parisien vous correspond le plus ?</h2>
         <p class="quiz__text">En 5 questions, d&eacute;couvrez quel programme se rapproche de vos convictions. Sans inscription. 100% anonyme. Partageable.</p>
-        <a href="#" class="quiz__cta">Faire le quiz <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
+        <a href="/municipales/2026/simulateur.html" class="quiz__cta">Faire le quiz <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
       </div>
     </section>
 
@@ -408,6 +428,17 @@
       </div>
     </div>
   </footer>
+
+  <!-- Mobile search overlay (home only) -->
+  <div class="mobile-search-overlay" id="mobile-search-overlay" hidden>
+    <div class="mobile-search-overlay__header">
+      <button class="mobile-search-overlay__back" id="mobile-search-back" aria-label="Retour">
+        <i class="ph ph-arrow-left"></i>
+      </button>
+      <input type="text" id="mobile-search-input" placeholder="Ville ou code postal..." autocomplete="off">
+    </div>
+    <div class="mobile-search-overlay__results" id="mobile-search-results"></div>
+  </div>
 
   <script defer src="js/home.js"></script>
 </body>

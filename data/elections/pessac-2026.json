@@ -1,0 +1,697 @@
+{
+  "ville": "Pessac",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "raynal",
+      "nom": "Franck Raynal",
+      "liste": "Divers droite / Horizons",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "saint-pasteur",
+      "nom": "Sébastien Saint-Pasteur",
+      "liste": "PS (soutenu par PC/Écologistes/Place publique)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "curvale",
+      "nom": "Laure Curvale",
+      "liste": "EELV (soutenue par LFI/PC/Génération.s)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "couillard",
+      "nom": "Bérangère Couillard",
+      "liste": "Divers centre (ex-Renaissance, liste citoyenne)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "jaouen",
+      "nom": "Philippe Jaouen",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ufferte",
+      "nom": "Isabelle Ufferte",
+      "liste": "NPA (Nouveau Parti Anticapitaliste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rybak",
+      "nom": "David Rybak",
+      "liste": "Sans étiquette (liste citoyenne)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "raynal": null,
+            "saint-pasteur": null,
+            "curvale": null,
+            "couillard": null,
+            "jaouen": null,
+            "ufferte": null,
+            "rybak": null
+          }
+        }
+      ]
+    }
+  ]
+}

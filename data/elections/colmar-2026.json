@@ -1,0 +1,697 @@
+{
+  "ville": "Colmar",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "straumann",
+      "nom": "Éric Straumann",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "aubert",
+      "nom": "Nathalie Aubert",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "roussel",
+      "nom": "Christophe Roussel",
+      "liste": "PS (Parti Socialiste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "ney",
+      "nom": "Cécile Ney",
+      "liste": "Les Écologistes, Colmar Citoyenne Verte et Solidaire",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "hilbert",
+      "nom": "Frédéric Hilbert",
+      "liste": "Les Écologistes-Place publique",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "deltour",
+      "nom": "Bruno Deltour",
+      "liste": "Sans étiquette (liste citoyenne)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "hemedinger",
+      "nom": "Yves Hémedinger",
+      "liste": "Sans étiquette / ex-LR, Fiers d'être colmariens",
+      "programmeUrl": "https://yhcolmar2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "straumann": null,
+            "aubert": null,
+            "roussel": null,
+            "ney": null,
+            "hilbert": null,
+            "deltour": null,
+            "hemedinger": null
+          }
+        }
+      ]
+    }
+  ]
+}

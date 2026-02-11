@@ -1,0 +1,595 @@
+{
+  "ville": "Saint-Paul (La Réunion)",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "seraphin",
+      "nom": "Emmanuel Séraphin",
+      "liste": "PLR / Union des Forces Progressistes (PS/Écologistes/LFI)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "morel",
+      "nom": "Jean-Yves Morel",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "charolais",
+      "nom": "Jean-Jacques Charolais",
+      "liste": "Divers",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "mera",
+      "nom": "Alix Jean Méra",
+      "liste": "Debout la France",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "moussa",
+      "nom": "Hassam Moussa",
+      "liste": "Force Citoyenne",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "seraphin": null,
+            "morel": null,
+            "charolais": null,
+            "mera": null,
+            "moussa": null
+          }
+        }
+      ]
+    }
+  ]
+}

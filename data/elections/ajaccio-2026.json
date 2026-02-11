@@ -1,0 +1,646 @@
+{
+  "ville": "Ajaccio",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "sbraggia",
+      "nom": "Stéphane Sbraggia",
+      "liste": "Divers droite, Forza Aiacciu",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "filoni",
+      "nom": "François Filoni",
+      "liste": "RN-UDR-Mossa Palatina, Gagner pour Ajaccio",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "zagnoli",
+      "nom": "Pascal Zagnoli",
+      "liste": "PNC (Partitu di a Nazione Corsa), Stintu Aiaccinu",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "carrolaggi",
+      "nom": "Jean-Paul Carrolaggi",
+      "liste": "Nationaliste, Aiacciu Vivu",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "cesari",
+      "nom": "Charlotte Cesari",
+      "liste": "Union de la gauche (PS-PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "foata",
+      "nom": "Philippe de la Foata",
+      "liste": "Sans étiquette",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "sbraggia": null,
+            "filoni": null,
+            "zagnoli": null,
+            "carrolaggi": null,
+            "cesari": null,
+            "foata": null
+          }
+        }
+      ]
+    }
+  ]
+}

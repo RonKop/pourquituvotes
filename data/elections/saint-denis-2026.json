@@ -1,0 +1,544 @@
+{
+  "ville": "Saint-Denis",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "hanotin",
+      "nom": "Mathieu Hanotin",
+      "liste": "PS-Écologistes-Parti animaliste-Génération.s-GRS-Place publique",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bagayoko",
+      "nom": "Bally Bagayoko",
+      "liste": "LFI-PCF, Seine-Saint-Denis au cœur",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "gutierrez",
+      "nom": "Quentin Gutierrez",
+      "liste": "Horizons / Droite-Centre unis",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "marcel",
+      "nom": "Elsa Marcel",
+      "liste": "Révolution Permanente",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "hanotin": null,
+            "bagayoko": null,
+            "gutierrez": null,
+            "marcel": null
+          }
+        }
+      ]
+    }
+  ]
+}

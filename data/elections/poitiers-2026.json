@@ -1,0 +1,799 @@
+{
+  "ville": "Poitiers",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "moncond-huy",
+      "nom": "Léonore Moncond'huy",
+      "liste": "EELV (Écologistes)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "brottier",
+      "nom": "Anthony Brottier",
+      "liste": "Sans étiquette, Notre priorité c'est vous",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "blanchard",
+      "nom": "François Blanchard",
+      "liste": "PS (Parti Socialiste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "amzil",
+      "nom": "Abdelmajid Amzil",
+      "liste": "Sans étiquette, J'aime Poitiers",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "geay",
+      "nom": "Bertrand Geay",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "gaillard",
+      "nom": "Ludovic Gaillard",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "parnaudeau",
+      "nom": "Lucile Parnaudeau",
+      "liste": "MoDem / centre-droit",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "prost",
+      "nom": "Marie-Dolores Prost",
+      "liste": "Divers droite",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "rangheard",
+      "nom": "Charles Rangheard",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "moncond-huy": null,
+            "brottier": null,
+            "blanchard": null,
+            "amzil": null,
+            "geay": null,
+            "gaillard": null,
+            "parnaudeau": null,
+            "prost": null,
+            "rangheard": null
+          }
+        }
+      ]
+    }
+  ]
+}

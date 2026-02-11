@@ -1,0 +1,646 @@
+{
+  "ville": "Valence",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "daragon",
+      "nom": "Nicolas Daragon",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "christophle",
+      "nom": "Paul Christophle",
+      "liste": "PS-PCF-Les Écologistes, L'Appel pour Valence 2026",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "boyadjian",
+      "nom": "Jules Boyadjian",
+      "liste": "Divers gauche, Réunir Valence",
+      "programmeUrl": "https://reunirvalence.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "magnin",
+      "nom": "Stéphane Magnin",
+      "liste": "LFI, Gauche Écologiste et Populaire",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "reis",
+      "nom": "Philippe Dos Reis",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "kopff",
+      "nom": "Adèle Kopff",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "daragon": null,
+            "christophle": null,
+            "boyadjian": null,
+            "magnin": null,
+            "reis": null,
+            "kopff": null
+          }
+        }
+      ]
+    }
+  ]
+}

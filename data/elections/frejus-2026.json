@@ -1,0 +1,646 @@
+{
+  "ville": "Fréjus",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "rachline",
+      "nom": "David Rachline",
+      "liste": "Sans étiquette (ex-RN)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "bonnemain",
+      "nom": "Emmanuel Bonnemain",
+      "liste": "Centre-droit, Notre parti c'est Fréjus",
+      "programmeUrl": "https://www.notreparticestfrejus.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "cerrutti",
+      "nom": "Martial Cerrutti",
+      "liste": "LR, Soyons fiers de Fréjus",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "fassi",
+      "nom": "Paula Fassi",
+      "liste": "Liste citoyenne, Fréjus notre territoire durablement",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "poussin",
+      "nom": "Julien Poussin",
+      "liste": "Opposition de gauche",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "romano",
+      "nom": "Christine Romano",
+      "liste": "Union de la gauche (PCF-PS-LFI-EELV), Fréjus Riposte",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "rachline": null,
+            "bonnemain": null,
+            "cerrutti": null,
+            "fassi": null,
+            "poussin": null,
+            "romano": null
+          }
+        }
+      ]
+    }
+  ]
+}

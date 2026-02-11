@@ -1,0 +1,748 @@
+{
+  "ville": "La Rochelle",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "guiraud",
+      "nom": "Thibaut Guiraud",
+      "liste": "Générations La Rochelle (centre-gauche)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "simone",
+      "nom": "Maryline Simoné",
+      "liste": "Union de la gauche (PS/EELV/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "falorni",
+      "nom": "Olivier Falorni",
+      "liste": "PRG / Place Publique / La Convention",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "salaun",
+      "nom": "Nino Salaün",
+      "liste": "LFI (La France Insoumise)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "batcabe",
+      "nom": "Christophe Batcabé",
+      "liste": "Sans étiquette / centre-droit",
+      "programmeUrl": "https://christophe-batcabe-larochelle2026.fr/",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "marbouh",
+      "nom": "Jaouad El Marbouh",
+      "liste": "Sans étiquette, Ensemble pour La Rochelle",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "werbrouck",
+      "nom": "Séverine Werbrouck",
+      "liste": "RN (Rassemblement National)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "colin",
+      "nom": "Antoine Colin",
+      "liste": "Lutte Ouvrière",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "guiraud": null,
+            "simone": null,
+            "falorni": null,
+            "salaun": null,
+            "batcabe": null,
+            "marbouh": null,
+            "werbrouck": null,
+            "colin": null
+          }
+        }
+      ]
+    }
+  ]
+}

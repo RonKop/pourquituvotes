@@ -1,0 +1,493 @@
+{
+  "ville": "Levallois-Perret",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "pottier-dumas",
+      "nom": "Agnès Pottier-Dumas",
+      "liste": "LR (Les Républicains)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "messatfa",
+      "nom": "Liès Messatfa",
+      "liste": "Renaissance, Levallois d'Avenir",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "nouguier",
+      "nom": "Baptiste Nouguier",
+      "liste": "DVG, Levallois en commun (PS/Écologistes/Place Publique/PCF)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "pottier-dumas": null,
+            "messatfa": null,
+            "nouguier": null
+          }
+        }
+      ]
+    }
+  ]
+}

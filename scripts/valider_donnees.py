@@ -13,37 +13,34 @@ Détecte :
 - Grille universelle : 12 catégories identiques dans le même ordre pour chaque ville
 - Sous-thèmes communs présents dans chaque ville
 - Cohérence villes.json / elections/*.json
+- Fichiers référencés (PDF, images) existent sur le disque
+- IDs en kebab-case valide (a-z, 0-9, tirets)
 """
 
 import json
 import os
+import re
 import sys
 
 ROOT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 DATA_DIR = os.path.join(ROOT_DIR, "data")
 ELECTIONS_DIR = os.path.join(DATA_DIR, "elections")
 VILLES_JSON = os.path.join(DATA_DIR, "villes.json")
+SCHEMA_JSON = os.path.join(DATA_DIR, "schema", "schema_elections.json")
+PROGRAMMES_DIR = os.path.join(DATA_DIR, "programmes")
 
-# Grille universelle attendue (ordre fixe)
-CATEGORIES_ATTENDUES = [
-    "securite", "transports", "logement", "education", "environnement",
-    "sante", "democratie", "economie", "culture", "sport", "urbanisme", "solidarite"
-]
+KEBAB_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
-SOUS_THEMES_COMMUNS = {
-    "securite": ["police-municipale", "videoprotection", "prevention-mediation", "violences-femmes"],
-    "transports": ["transports-en-commun", "velo-mobilites-douces", "pietons-circulation", "stationnement", "tarifs-gratuite"],
-    "logement": ["logement-social", "logements-vacants", "encadrement-loyers", "acces-logement"],
-    "education": ["petite-enfance", "ecoles-renovation", "cantines-fournitures", "periscolaire-loisirs", "jeunesse"],
-    "environnement": ["espaces-verts", "proprete-dechets", "climat-adaptation", "renovation-energetique", "alimentation-durable"],
-    "sante": ["centres-sante", "prevention-sante", "seniors"],
-    "democratie": ["budget-participatif", "transparence", "vie-associative", "services-publics"],
-    "economie": ["commerce-local", "emploi-insertion", "attractivite"],
-    "culture": ["equipements-culturels", "evenements-creation"],
-    "sport": ["equipements-sportifs", "sport-pour-tous"],
-    "urbanisme": ["amenagement-urbain", "accessibilite", "quartiers-prioritaires"],
-    "solidarite": ["aide-sociale", "egalite-discriminations", "pouvoir-achat"],
-}
+
+def charger_schema():
+    """Charge le schéma et retourne (categories_attendues, sous_themes_communs)."""
+    with open(SCHEMA_JSON, "r", encoding="utf-8") as f:
+        schema = json.load(f)
+    categories_attendues = [cat["id"] for cat in schema["categories"]]
+    sous_themes_communs = {}
+    for cat in schema["categories"]:
+        sous_themes_communs[cat["id"]] = [st["id"] for st in cat["sousThemes"]]
+    return categories_attendues, sous_themes_communs
 
 
 def charger_villes():
@@ -110,7 +107,7 @@ def verifier_doublons_sous_themes(ville, election):
     return erreurs
 
 
-def verifier_grille_universelle(ville, election):
+def verifier_grille_universelle(ville, election, categories_attendues, sous_themes_communs):
     """Vérifie que la ville a les 12 catégories dans le même ordre."""
     erreurs = []
     avertissements = []
@@ -123,19 +120,19 @@ def verifier_grille_universelle(ville, election):
             f" -> {categories_trouvees}"
         )
 
-    if categories_trouvees != CATEGORIES_ATTENDUES:
+    if categories_trouvees != categories_attendues:
         erreurs.append(
             f"  [{ville}] Ordre des catégories incorrect :"
             f"\n    Trouvé  : {categories_trouvees}"
-            f"\n    Attendu : {CATEGORIES_ATTENDUES}"
+            f"\n    Attendu : {categories_attendues}"
         )
 
     # Vérifier les sous-thèmes communs
     for cat in election.get("categories", []):
         cat_id = cat["id"]
         st_ids = [st["id"] for st in cat.get("sousThemes", [])]
-        if cat_id in SOUS_THEMES_COMMUNS:
-            for st_commun in SOUS_THEMES_COMMUNS[cat_id]:
+        if cat_id in sous_themes_communs:
+            for st_commun in sous_themes_communs[cat_id]:
                 if st_commun not in st_ids:
                     avertissements.append(
                         f"  [{ville}] catégorie \"{cat_id}\" : sous-thème commun \"{st_commun}\" absent"
@@ -186,6 +183,49 @@ def verifier_coherence_villes(villes, elections):
     return erreurs
 
 
+def verifier_fichiers_references(ville, election):
+    """Vérifie que les fichiers référencés (PDF, images) existent."""
+    erreurs = []
+    for c in election["candidats"]:
+        pdf = c.get("programmePdfPath")
+        if pdf:
+            pdf_path = os.path.join(PROGRAMMES_DIR, pdf)
+            if not os.path.exists(pdf_path):
+                erreurs.append(
+                    f"  [{ville}] {c['id']} : programmePdfPath \"{pdf}\" — fichier introuvable"
+                )
+
+        img = c.get("image_url")
+        if img:
+            img_path = os.path.join(ROOT_DIR, img)
+            if not os.path.exists(img_path):
+                erreurs.append(
+                    f"  [{ville}] {c['id']} : image_url \"{img}\" — fichier introuvable"
+                )
+    return erreurs
+
+
+def verifier_kebab_case(ville, election):
+    """Vérifie que tous les IDs sont en kebab-case valide."""
+    erreurs = []
+    for c in election["candidats"]:
+        if not KEBAB_RE.match(c["id"]):
+            erreurs.append(
+                f"  [{ville}] candidat ID \"{c['id']}\" n'est pas en kebab-case"
+            )
+    for cat in election.get("categories", []):
+        if not KEBAB_RE.match(cat["id"]):
+            erreurs.append(
+                f"  [{ville}] catégorie ID \"{cat['id']}\" n'est pas en kebab-case"
+            )
+        for st in cat.get("sousThemes", []):
+            if not KEBAB_RE.match(st["id"]):
+                erreurs.append(
+                    f"  [{ville}] sous-thème ID \"{st['id']}\" n'est pas en kebab-case"
+                )
+    return erreurs
+
+
 def main():
     print("=" * 60)
     print("  VALIDATION DES DONNÉES — Comparateur Municipal")
@@ -197,6 +237,11 @@ def main():
 
     # 1. Charger les données
     print("1. Chargement des données JSON")
+    if not os.path.exists(SCHEMA_JSON):
+        print(f"  ERREUR : {SCHEMA_JSON} introuvable !")
+        return 1
+    categories_attendues, sous_themes_communs = charger_schema()
+
     if not os.path.exists(VILLES_JSON):
         print(f"  ERREUR : {VILLES_JSON} introuvable !")
         return 1
@@ -275,7 +320,7 @@ def main():
     all_err_grille = []
     all_avert_grille = []
     for eid, election in sorted(elections.items()):
-        err, avert = verifier_grille_universelle(election["ville"], election)
+        err, avert = verifier_grille_universelle(election["ville"], election, categories_attendues, sous_themes_communs)
         all_err_grille.extend(err)
         all_avert_grille.extend(avert)
 
@@ -322,6 +367,36 @@ def main():
         for a in all_avert_count:
             print(a)
         total_avert += len(all_avert_count)
+    print()
+
+    # 8. Fichiers référencés
+    print("8. Fichiers référencés (PDF, images)")
+    all_err_fichiers = []
+    for eid, election in sorted(elections.items()):
+        all_err_fichiers.extend(verifier_fichiers_references(election["ville"], election))
+
+    if all_err_fichiers:
+        print(f"  ERREURS ({len(all_err_fichiers)}) :")
+        for e in all_err_fichiers:
+            print(e)
+        total_erreurs += len(all_err_fichiers)
+    else:
+        print("  OK — Tous les fichiers référencés existent")
+    print()
+
+    # 9. Validation kebab-case des IDs
+    print("9. Validation kebab-case des IDs")
+    all_err_kebab = []
+    for eid, election in sorted(elections.items()):
+        all_err_kebab.extend(verifier_kebab_case(election["ville"], election))
+
+    if all_err_kebab:
+        print(f"  ERREURS ({len(all_err_kebab)}) :")
+        for e in all_err_kebab:
+            print(e)
+        total_erreurs += len(all_err_kebab)
+    else:
+        print("  OK — Tous les IDs sont en kebab-case valide")
     print()
 
     # Résumé

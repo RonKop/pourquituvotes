@@ -1,0 +1,544 @@
+{
+  "ville": "Asnières-sur-Seine",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "aeschlimann",
+      "nom": "Manuel Aeschlimann",
+      "liste": "LR, 100% Asnières",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "dautelle",
+      "nom": "Clément Mathieu Dautelle",
+      "liste": "Divers, Citoyens d'Asnières",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "jehanin",
+      "nom": "Romain Jehanin",
+      "liste": "Divers, Changeons notre ville !",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "delpech",
+      "nom": "Dimitri Delpech",
+      "liste": "PS (Parti Socialiste)",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "aeschlimann": null,
+            "dautelle": null,
+            "jehanin": null,
+            "delpech": null
+          }
+        }
+      ]
+    }
+  ]
+}

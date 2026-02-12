@@ -195,7 +195,6 @@ input { font-family: inherit; border: none; outline: none; }
   background: linear-gradient(135deg, var(--bleu) 0%, var(--bleu-fonce) 100%);
   padding: 55px 40px 65px;
   position: relative;
-  overflow: hidden;
   text-align: center;
 }
 
@@ -203,6 +202,7 @@ input { font-family: inherit; border: none; outline: none; }
   position: absolute;
   inset: 0;
   pointer-events: none;
+  overflow: hidden;
 }
 .hero__circle {
   position: absolute;
@@ -346,6 +346,13 @@ input { font-family: inherit; border: none; outline: none; }
   transition: background var(--transition);
   font-size: 0.92rem;
   color: var(--slate-800);
+  white-space: nowrap;
+}
+.hero__suggestion-item > span:first-of-type {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .hero__suggestion-item:first-child {
   border-radius: 12px 12px 0 0;
@@ -1631,15 +1638,13 @@ input { font-family: inherit; border: none; outline: none; }
   /* Apercu */
   .apercu__inner {
     grid-template-columns: 1fr;
-    gap: 30px;
-  }
-  .apercu__text {
-    order: 0;
+    gap: 24px;
   }
   .apercu__mockup {
+    order: 0;
+  }
+  .apercu__text {
     order: 1;
-    max-width: 100%;
-    overflow: hidden;
   }
   .apercu__cta {
     order: 2;
@@ -1647,16 +1652,8 @@ input { font-family: inherit; border: none; outline: none; }
   .apercu {
     padding: 50px 20px;
   }
-  .mockup-browser {
-    max-width: 100%;
-  }
   .mockup-browser__content {
     padding: 12px;
-  }
-  #apercu-radar {
-    max-width: 100%;
-    height: auto !important;
-    width: 100% !important;
   }
 
   /* Top comparaisons */

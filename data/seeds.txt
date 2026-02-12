@@ -1,0 +1,19 @@
+# Seeds pour discovery_step0.py
+# 1 URL par ligne, les lignes commençant par # sont ignorées
+#
+# Le mode --auto extrait automatiquement les programmeUrl
+# depuis data/elections/*.json, donc ce fichier est optionnel.
+#
+# Ajoute ici des URLs supplémentaires (presse locale, partis, annuaires) :
+#
+# --- Presse locale ---
+# https://actu.fr/politique/municipales-2026/
+# https://www.francebleu.fr/infos/politique/elections-municipales
+#
+# --- Partis nationaux ---
+# https://www.parti-socialiste.fr/municipales
+# https://www.lesrepublicains.fr/municipales
+# https://www.renaissance.fr/municipales
+#
+# --- Annuaires candidats ---
+# https://www.candidator.fr/

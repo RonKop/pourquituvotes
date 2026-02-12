@@ -478,24 +478,12 @@
 
     var debounceTimer = null;
 
-    // Sur mobile, rendre le hero input readonly pour emp\u00eacher le zoom/clavier natif
-    function setupMobileReadonly() {
-      if (window.innerWidth <= 768) {
-        heroInput.setAttribute("readonly", "");
-        heroInput.style.cursor = "pointer";
-      } else {
-        heroInput.removeAttribute("readonly");
-        heroInput.style.cursor = "";
-      }
-    }
-    setupMobileReadonly();
-    window.addEventListener("resize", setupMobileReadonly);
+    var mobileTrigger = document.getElementById("mobile-search-trigger");
 
     function openOverlay() {
-      if (window.innerWidth > 768) return;
       overlay.hidden = false;
       document.body.style.overflow = "hidden";
-      overlayInput.value = heroInput.value;
+      overlayInput.value = "";
       setTimeout(function() { overlayInput.focus(); }, 100);
     }
 
@@ -546,18 +534,10 @@
       overlayOpen = true;
       openOverlay();
     }
-    heroInput.addEventListener("click", function(e) {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-        safeOpenOverlay();
-      }
-    });
-    heroInput.addEventListener("focus", function() {
-      if (window.innerWidth <= 768) {
-        heroInput.blur();
-        safeOpenOverlay();
-      }
-    });
+    // Le bouton mobile d\u00e9di\u00e9 ouvre l'overlay — aucun input touch\u00e9 = aucun zoom
+    if (mobileTrigger) {
+      mobileTrigger.addEventListener("click", safeOpenOverlay);
+    }
 
     if (backBtn) backBtn.addEventListener("click", closeOverlay);
 

@@ -171,11 +171,17 @@
 
         <div class="hero__search" role="search">
           <label for="search-input" class="sr-only">Rechercher une ville ou un code postal</label>
-          <div class="hero__search-box">
+          <!-- Desktop : vrai input -->
+          <div class="hero__search-box hero__search-box--desktop">
             <i class="ph ph-magnifying-glass hero__search-icon" aria-hidden="true"></i>
             <input type="text" id="search-input" class="hero__search-input" placeholder="Entrez votre ville ou code postal..." autocomplete="off" aria-describedby="search-hint">
             <button type="button" id="search-btn" class="hero__search-btn">Comparer</button>
           </div>
+          <!-- Mobile : faux input (bouton) qui ouvre l'overlay -->
+          <button type="button" id="mobile-search-trigger" class="hero__search-box hero__search-trigger">
+            <i class="ph ph-magnifying-glass hero__search-icon" aria-hidden="true"></i>
+            <span class="hero__search-placeholder">Entrez votre ville ou code postal...</span>
+          </button>
           <span id="search-hint" class="sr-only">Les suggestions apparaissent apr&egrave;s 2 caract&egrave;res</span>
           <div class="hero__suggestions-dropdown" id="suggestions-dropdown" role="listbox" hidden></div>
         </div>

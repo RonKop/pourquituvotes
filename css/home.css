@@ -310,6 +310,20 @@ input { font-family: inherit; border: none; outline: none; }
   background: var(--bleu-fonce);
 }
 
+/* Mobile search trigger (faux input = bouton) */
+.hero__search-trigger {
+  display: none;
+  cursor: pointer;
+  border: none;
+  font-family: var(--font-body);
+}
+.hero__search-placeholder {
+  flex: 1;
+  text-align: left;
+  font-size: 0.95rem;
+  color: var(--slate-500);
+}
+
 /* Suggestions dropdown */
 .hero__suggestions-dropdown {
   position: absolute;
@@ -939,6 +953,7 @@ input { font-family: inherit; border: none; outline: none; }
 .apercu__cta {
   grid-column: 1;
   grid-row: 2;
+  justify-self: start;
 }
 
 .apercu__title {
@@ -1484,19 +1499,19 @@ input { font-family: inherit; border: none; outline: none; }
     margin-bottom: 25px;
   }
 
-  .hero__search-box {
-    flex-direction: column;
-    border-radius: var(--radius-pill);
+  /* Cacher le vrai input, montrer le faux bouton */
+  .hero__search-box--desktop {
+    display: none !important;
+  }
+  .hero__search-trigger {
+    display: flex !important;
     padding: 16px 20px;
-    gap: 8px;
+    border-radius: var(--radius-pill);
+    gap: 10px;
   }
-  .hero__search-icon {
-    display: none;
-  }
-  .hero__search-input {
-    width: 100%;
-    padding: 10px 14px;
-    font-size: 16px;
+  .hero__search-trigger .hero__search-icon {
+    display: block;
+    margin-right: 0;
   }
   .hero__search-btn {
     width: 100%;

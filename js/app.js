@@ -3024,13 +3024,8 @@
       tableau.appendChild(ligne);
     });
 
-    // Initialiser toutes les lignes comme repliées par défaut (mode accordéon)
-    var lignesMobile = tableau.querySelectorAll(".tableau-matriciel__ligne");
-    lignesMobile.forEach(function(ligne, idx) {
-      if (idx > 0) {
-        ligne.classList.add("tableau-matriciel__ligne--collapsed");
-      }
-    });
+    // Mode accordéon mobile : toutes les lignes ouvertes par défaut
+    // L'utilisateur peut replier/déplier manuellement en cliquant le sous-thème
 
     // Vue 2 : ajouter les barres horizontales au-dessus du tableau
     if (vuePageActuelle === "vue2") {

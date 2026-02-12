@@ -1,0 +1,210 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-02-12 00:00:00",
+  "containerVersion": {
+    "tag": [
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "tagId": "1",
+        "name": "GA4 - Configuration",
+        "type": "gaawc",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "measurementId",
+            "value": "G-XXXXXXXXXX"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "sendPageView",
+            "value": "true"
+          }
+        ],
+        "firingTriggerId": ["1"],
+        "consentSettings": {
+          "consentStatus": "needed",
+          "consentType": {
+            "ad_storage": false,
+            "analytics_storage": true
+          }
+        },
+        "tagFiringOption": "ONCE_PER_EVENT"
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "tagId": "2",
+        "name": "GA4 - Event consent_update",
+        "type": "gaawe",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "eventName",
+            "value": "consent_update"
+          },
+          {
+            "type": "TAG_REFERENCE",
+            "key": "measurementId",
+            "value": "GA4 - Configuration"
+          },
+          {
+            "type": "LIST",
+            "key": "eventParameters",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "name", "value": "consent_analytics" },
+                  { "type": "TEMPLATE", "key": "value", "value": "{{DLV - consent_analytics}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "name", "value": "consent_marketing" },
+                  { "type": "TEMPLATE", "key": "value", "value": "{{DLV - consent_marketing}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "name", "value": "consent_functional" },
+                  { "type": "TEMPLATE", "key": "value", "value": "{{DLV - consent_functional}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["2"],
+        "consentSettings": {
+          "consentStatus": "notNeeded"
+        },
+        "tagFiringOption": "ONCE_PER_EVENT"
+      }
+    ],
+    "trigger": [
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "triggerId": "1",
+        "name": "Consent - Analytics Granted (Initialization)",
+        "type": "INIT_CONSENT",
+        "filter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{Consent - analytics_storage}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "granted" }
+            ]
+          }
+        ]
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "triggerId": "2",
+        "name": "CE - consent_update",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "consent_update" }
+            ]
+          }
+        ]
+      }
+    ],
+    "variable": [
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "variableId": "1",
+        "name": "DLV - consent_analytics",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "true"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "defaultValue",
+            "value": "denied"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "consent_analytics"
+          }
+        ]
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "variableId": "2",
+        "name": "DLV - consent_marketing",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "true"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "defaultValue",
+            "value": "denied"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "consent_marketing"
+          }
+        ]
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "variableId": "3",
+        "name": "DLV - consent_functional",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "true"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "defaultValue",
+            "value": "granted"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "consent_functional"
+          }
+        ]
+      }
+    ]
+  }
+}

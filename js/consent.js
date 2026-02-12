@@ -58,37 +58,35 @@
   }
 
   // === UI Elements ===
-  var bannerEl = null;
+  var bannerOverlayEl = null;
   var overlayEl = null;
 
   function createBanner() {
-    var div = document.createElement("div");
-    div.className = "consent-banner";
-    div.setAttribute("role", "dialog");
-    div.setAttribute("aria-label", "Gestion des cookies");
-    div.innerHTML =
-      '<div class="consent-banner__inner">' +
+    var wrapper = document.createElement("div");
+    wrapper.className = "consent-banner-overlay";
+    wrapper.setAttribute("role", "dialog");
+    wrapper.setAttribute("aria-label", "Gestion des cookies");
+    wrapper.innerHTML =
+      '<div class="consent-banner">' +
         '<div class="consent-banner__icon" aria-hidden="true">\uD83D\uDD12</div>' +
-        '<div class="consent-banner__text">' +
-          '<div class="consent-banner__title">Respect de votre vie priv\u00e9e</div>' +
-          '<div class="consent-banner__desc">Nous utilisons des cookies pour mesurer l\u2019audience du site et am\u00e9liorer votre exp\u00e9rience. Aucune donn\u00e9e personnelle n\u2019est vendue. <a href="/confidentialite.html">En savoir plus</a></div>' +
-        '</div>' +
+        '<div class="consent-banner__title">Respect de votre vie priv\u00e9e</div>' +
+        '<div class="consent-banner__desc">Nous utilisons des cookies pour mesurer l\u2019audience du site et am\u00e9liorer votre exp\u00e9rience. Aucune donn\u00e9e personnelle n\u2019est vendue. <a href="/confidentialite.html">En savoir plus</a></div>' +
         '<div class="consent-banner__actions">' +
           '<button type="button" class="consent-btn consent-btn--refuse" data-consent="refuse">Tout refuser</button>' +
           '<button type="button" class="consent-btn consent-btn--customize" data-consent="customize">Personnaliser</button>' +
           '<button type="button" class="consent-btn consent-btn--accept" data-consent="accept">Tout accepter</button>' +
         '</div>' +
       '</div>';
-    document.body.appendChild(div);
-    bannerEl = div;
+    document.body.appendChild(wrapper);
+    bannerOverlayEl = wrapper;
 
     // Event listeners
-    div.querySelector('[data-consent="refuse"]').addEventListener("click", refuseAll);
-    div.querySelector('[data-consent="customize"]').addEventListener("click", function() {
+    wrapper.querySelector('[data-consent="refuse"]').addEventListener("click", refuseAll);
+    wrapper.querySelector('[data-consent="customize"]').addEventListener("click", function() {
       hideBanner();
       showModal();
     });
-    div.querySelector('[data-consent="accept"]').addEventListener("click", acceptAll);
+    wrapper.querySelector('[data-consent="accept"]').addEventListener("click", acceptAll);
   }
 
   function createModal() {
@@ -162,16 +160,17 @@
 
   // === Show / Hide ===
   function showBanner() {
-    if (!bannerEl) createBanner();
-    // Force reflow then animate
-    void bannerEl.offsetHeight;
-    bannerEl.classList.add("consent-banner--visible");
+    if (!bannerOverlayEl) createBanner();
+    void bannerOverlayEl.offsetHeight;
+    bannerOverlayEl.classList.add("consent-banner-overlay--visible");
+    document.body.style.overflow = "hidden";
   }
 
   function hideBanner() {
-    if (bannerEl) {
-      bannerEl.classList.remove("consent-banner--visible");
+    if (bannerOverlayEl) {
+      bannerOverlayEl.classList.remove("consent-banner-overlay--visible");
     }
+    document.body.style.overflow = "";
   }
 
   function showModal() {
@@ -226,7 +225,6 @@
   function init() {
     var existing = getConsent();
     if (!existing) {
-      // Petit délai pour laisser la page se charger
       setTimeout(showBanner, 800);
     }
 

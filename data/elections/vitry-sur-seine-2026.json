@@ -8,7 +8,7 @@
       "id": "bell-lloch",
       "nom": "Pierre Bell-Lloch",
       "liste": "PCF",
-      "programmeUrl": "https://pbl2026.fr/",
+      "programmeUrl": "https://pbl2026.fr/programme.html",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -56,7 +56,11 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Création d'une équipe de médiateurs de proximité urbaine et développement concerté de la vidéoverbalisation",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
             "tmimi": null,
             "afflatet": null
           }
@@ -81,7 +85,11 @@
           "nom": "Transports en commun",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Interdire la circulation des poids lourds en ville, création d'une navette interquartier gratuite",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -90,7 +98,11 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Plan vélo ambitieux, promotion de la marche, partage de l'espace public",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -99,7 +111,11 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Créer des lieux de rencontre, placettes, rues piétonnes, espaces publics vivants",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -131,8 +147,16 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "bell-lloch": null,
-            "tmimi": null,
+            "bell-lloch": {
+              "texte": "Construction de 2 000 logements tout en préservant les zones pavillonnaires, avec des logements sociaux rénovés",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
+            "tmimi": {
+              "texte": "Maintenir un taux minimum de 40% de logements sociaux, investir dans la rénovation du parc existant",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -150,7 +174,11 @@
           "nom": "Encadrement des loyers",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Encadrer les loyers, soutenir l'habitat coopératif et social",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -174,7 +202,11 @@
           "nom": "Petite enfance",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Ville à hauteur d'enfant : crèches accessibles, cantines bio et locales progressivement gratuites",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -192,7 +224,11 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Cantines de plus en plus bio et locales, avec options végétariennes",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -200,7 +236,11 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Étude de la possibilité de rendre gratuite l'heure d'étude scolaire après la classe",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
             "tmimi": null,
             "afflatet": null
           }
@@ -210,7 +250,11 @@
           "nom": "Jeunesse",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Appui réel aux adolescents : orientation, stages, apprentissage, emploi, logement, mobilité",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         }
@@ -224,8 +268,16 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "bell-lloch": null,
-            "tmimi": null,
+            "bell-lloch": {
+              "texte": "Création d'un grand parc en bord de Seine d'au moins 50 000 m² pour réconcilier la ville avec son fleuve",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
+            "tmimi": {
+              "texte": "Planter des milliers d'arbres, créer des îlots de fraîcheur, jardins partagés et vergers urbains",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -233,8 +285,16 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "bell-lloch": null,
-            "tmimi": null,
+            "bell-lloch": {
+              "texte": "Création d'une déchetterie-ressourcerie, vidéoverbalisation et mobilisation citoyenne pour une ville plus propre",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
+            "tmimi": {
+              "texte": "Campagne pour la réduction des déchets, développer recycleries, circuits courts, ateliers de réparation",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -243,7 +303,11 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Déminéraliser les sols, isoler le bâti et blanchir les surfaces pour Vitry zéro carbone en 2050",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -251,8 +315,16 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "bell-lloch": null,
-            "tmimi": null,
+            "bell-lloch": {
+              "texte": "Ouverture d'un site de géothermie pour chauffer les habitations et faire baisser les factures d'énergie",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
+            "tmimi": {
+              "texte": "Rénovation énergétique prioritaire, améliorer la performance du parc de logements",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -261,7 +333,11 @@
           "nom": "Alimentation durable",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Jardins partagés, vergers urbains, agriculture urbaine, circuits courts",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         }
@@ -276,7 +352,11 @@
           "nom": "Centres de santé",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Renforcer le Centre municipal de santé et ouvrir des antennes de proximité",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -285,7 +365,11 @@
           "nom": "Prévention santé",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Ouverture d'un deuxième CMPP pour la santé mentale des jeunes",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -293,8 +377,16 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "bell-lloch": null,
-            "tmimi": null,
+            "bell-lloch": {
+              "texte": "Construction d'une nouvelle résidence sénior adaptée aux besoins et au confort des aînés",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
+            "tmimi": {
+              "texte": "Maintien à domicile, solutions intergénérationnelles, ouverture d'un deuxième EHPAD",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         }
@@ -309,7 +401,11 @@
           "nom": "Budget participatif",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Budgets participatifs, référendums locaux, conseils de quartier indépendants dotés de pouvoir",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -318,7 +414,11 @@
           "nom": "Transparence",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Charte éthique pour chaque élu, combattre le clientélisme, supprimer les avantages indus des élus",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -326,8 +426,16 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "bell-lloch": null,
-            "tmimi": null,
+            "bell-lloch": {
+              "texte": "Réouverture de la maison sociale du Moulin Vert et ouverture de deux nouvelles salles municipales associatives",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
+            "tmimi": {
+              "texte": "Égalité de traitement et transparence dans l'attribution des salles et subventions aux associations",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -336,7 +444,11 @@
           "nom": "Services publics",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Service public communal en régies publiques : eau, énergie, santé, propreté, transport, restauration scolaire",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         }
@@ -350,7 +462,11 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Création d'un nouveau marché au quartier Jean Jaurès avec produits issus de circuits courts à tarifs abordables",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
             "tmimi": null,
             "afflatet": null
           }
@@ -359,7 +475,11 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Création d'une régie publique de quartier pour l'insertion professionnelle et préparation de 1 000 emplois",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
             "tmimi": null,
             "afflatet": null
           }
@@ -383,7 +503,11 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Construction d'un complexe festif moderne pour les familles, mariages, anniversaires et rencontres citoyennes",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
             "tmimi": null,
             "afflatet": null
           }
@@ -392,7 +516,11 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Rendre l'accès à la culture totalement gratuit pour tous les jeunes Vitriots de moins de 26 ans",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
             "tmimi": null,
             "afflatet": null
           }
@@ -431,8 +559,16 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "bell-lloch": null,
-            "tmimi": null,
+            "bell-lloch": {
+              "texte": "Nouveau cœur de ville : 5 600 m² d'espaces verts, nouveaux commerces, terrasses, cinés Robespierre revisités et parking souterrain rénové",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
+            "tmimi": {
+              "texte": "Quartier des Ardoines : quartier écologique au service des habitants, outil foncier solidaire",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },
@@ -474,7 +610,11 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Observatoire local des discriminations et violences sexistes, lutte contre racisme, sexisme, LGBTQIphobies",
+              "source": "vitry2026.fr",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         },

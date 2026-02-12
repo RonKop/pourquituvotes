@@ -8,8 +8,8 @@
       "id": "armand",
       "nom": "Antoine Armand",
       "liste": "Renaissance-Horizons-MoDem-LR-UDI, Les Acteurs d'Annecy",
-      "programmeUrl": "https://acteursannecy.fr/",
-      "programmeComplet": false,
+      "programmeUrl": "https://acteursannecy.fr/programme",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -32,8 +32,8 @@
       "id": "roit-leveque",
       "nom": "Guillaume Roit-Levêque",
       "liste": "RN, Retrouvons Annecy",
-      "programmeUrl": "https://retrouvons-annecy.fr/",
-      "programmeComplet": false,
+      "programmeUrl": "https://retrouvons-annecy.fr/le-programme/",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -62,10 +62,18 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Police municipale présente jusqu'à 4h du matin en été, renforcement zones sensibles, présence dans les bus après 22h",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Recruter 20 policiers municipaux supplémentaires (80 à 100 agents), patrouilles de soirée et couverture élargie",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -74,10 +82,18 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Installation de 100 nouvelles caméras d'ici la fin du mandat, conservation des images portée à 30 jours",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "100 caméras supplémentaires sur zones sensibles, abords d'écoles et parkings, modernisation du CSU avec IA",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -86,10 +102,18 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Nettoyage quotidien centre-ville et 3x/semaine dans les quartiers, intervention sous 24h pour tags et dépôts sauvages",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Brigade de tranquillité nocturne (8 agents, 18h-2h), cellule anti-incivilités (bruit, dégradations, squats)",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -128,10 +152,18 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "50 km de pistes cyclables sécurisées d'ici la fin du mandat, priorité aux axes domicile-travail",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Plan pluriannuel de 10 km de pistes cyclables interconnectées (1,5M€), parkings vélos",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -143,7 +175,11 @@
             "armand": null,
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Refonte du plan de circulation, réautoriser les traversées, deux parkings souterrains en cœur de ville",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -152,10 +188,18 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Durée maximale portée à 3h en zone rouge, création de parkings relais aux entrées de ville",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Création de deux parkings souterrains en cœur de ville pour augmenter la capacité de stationnement",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -182,10 +226,18 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Construction de 500 logements sociaux par an avec mixité sociale dans tous les quartiers",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "20 logements sociaux réservés aux agents essentiels (policiers, enseignants, soignants), habitat intergénérationnel",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -197,7 +249,11 @@
             "armand": null,
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Maintien et durcissement du plafond Airbnb (120 jours/an), contrôles renforcés et amendes systématiques",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -221,7 +277,11 @@
             "armand": null,
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Aide accession à la propriété jusqu'à 10 000 € pour primo-accédants, priorité jeunes couples annéciens",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -236,7 +296,11 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Augmentation des places en crèche, soutien aux assistantes maternelles et tarification solidaire",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -248,10 +312,18 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "10 écoles rénovées d'ici la fin du mandat, isolation thermique et végétalisation des cours",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Rénovation thermique de 20 écoles et crèches prioritaires (isolation, fenêtres, ventilation - 2M€)",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -272,10 +344,18 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Activités périscolaires gratuites pour tous avec éducation artistique et culturelle garantie",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Prise en charge jusqu'à 50% des frais d'inscription extrascolaires pour familles modestes (150 000 €/an)",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -284,7 +364,11 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Espaces dédiés, soutien aux initiatives jeunesse, partenariats avec entreprises locales pour l'insertion",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -302,7 +386,11 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Zones de biodiversité préservées, plan de végétalisation urbaine et protection renforcée du lac d'Annecy",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -314,7 +402,11 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Renfort de 10-15% des équipes en été, doublement collecte en zones touristiques, compostage et recyclage",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -326,10 +418,18 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Transition énergétique des bâtiments publics et développement des mobilités douces",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Plan 'fraîcheur urbaine' : désimperméabilisation cours d'école, zones d'ombre, brumisateurs (700 000 €/an)",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -338,7 +438,11 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Aide majorée pour la rénovation énergétique des logements, accompagnement technique et financier des propriétaires",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -395,7 +499,11 @@
             "armand": null,
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Programme intergénérationnel écoles-seniors, visites de convivialité, plan tranquillité senior avec boutons d'alerte",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -410,10 +518,18 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "100% de réponses aux avis Agate, budgets participatifs et concertation systématique sur les grands projets",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Budget annuel de 300 000 € pour les projets de participation citoyenne",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -422,10 +538,18 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Tableau de bord public, bilans réguliers et gel de toute augmentation d'impôt pendant le mandat",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Charte de transparence : absences publiées, subventions accessibles, conflits d'intérêts déclarés",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -434,7 +558,11 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Subventions augmentées de 20% sur le mandat, guichet unique pour les associations et simplification des démarches",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -446,10 +574,18 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Carte citoyen unique pour tous les services municipaux (piscines, médiathèques, sport) avec tarification solidaire",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Guichet unique 'Mon Annecy' physique et en ligne pour toutes les démarches municipales (120 000 €)",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -464,10 +600,18 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Stationnement facilité, animations commerciales, lutte contre la vacance commerciale et accompagnement artisans locaux",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Plan 'Achetons Savoyard' (relocalisation 30% achats), Maison de l'Artisanat Savoyard, marchés '100% locaux'",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -476,7 +620,11 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Attractivité économique, soutien aux entreprises innovantes, stratégie 'Territoire intelligent' et soutien aux startups",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -491,7 +639,11 @@
             "armand": null,
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Prix de l'innovation annécienne (35 000 €/an) pour startups, TPE et artisans innovants",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -506,10 +658,18 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Culture accessible à tous, soutien aux associations culturelles et programmation diversifiée",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Label 'Culture Savoyarde', subventions majorées pour associations culturelles, priorité aux artistes locaux",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -521,7 +681,11 @@
             "armand": null,
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Refonte du Marché de Noël (70% stands locaux), Fête de l'identité annécienne et savoyarde",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -536,7 +700,11 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Plan de rénovation des équipements sportifs, priorité aux vestiaires et installations vieillissantes",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -548,7 +716,11 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Accès facilité aux équipements, créneaux horaires élargis et soutien renforcé aux associations sportives",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -569,7 +741,11 @@
             "armand": null,
             "mulatier-gachet": null,
             "rigaut": null,
-            "roit-leveque": null,
+            "roit-leveque": {
+              "texte": "Maîtrise de la croissance urbaine : opposition aux projets de bétonisation qui bouleversent l'équilibre des quartiers",
+              "source": "retrouvons-annecy.fr",
+              "sourceUrl": "https://retrouvons-annecy.fr/le-programme/"
+            },
             "dreme": null,
             "chiad": null
           }
@@ -578,7 +754,11 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Mise aux normes progressive de tous les équipements publics et accessibilité numérique des services",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -608,7 +788,11 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "texte": "Plan d'action dès les 100 premiers jours pour les personnes à la rue, maraudes renforcées et hébergement d'urgence",
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme"
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,

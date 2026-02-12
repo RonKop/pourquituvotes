@@ -429,6 +429,14 @@
         PQTV_Analytics.trackCitySelected(donneesElection.ville, fichier, donneesElection.candidats ? donneesElection.candidats.length : 0);
       }
 
+      // Scroll vers la section élection si chargé depuis URL (ex: burger menu home)
+      if (new URLSearchParams(window.location.search).get("ville")) {
+        setTimeout(function() {
+          var cible = document.getElementById("election-info") || document.getElementById("comparaison");
+          if (cible) cible.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 200);
+      }
+
       // Scroll vers la catégorie si un hash est présent dans l'URL (ex: #securite)
       var hashCat = window.location.hash ? window.location.hash.substring(1) : "";
       if (hashCat) {

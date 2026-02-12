@@ -1642,12 +1642,18 @@ input { font-family: inherit; border: none; outline: none; }
   }
   .apercu__mockup {
     order: 0;
+    grid-column: auto;
+    grid-row: auto;
   }
   .apercu__text {
     order: 1;
+    grid-column: auto;
+    grid-row: auto;
   }
   .apercu__cta {
     order: 2;
+    grid-column: auto;
+    grid-row: auto;
   }
   .apercu {
     padding: 50px 20px;

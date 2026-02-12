@@ -1,0 +1,282 @@
+/* ============================================================
+   #POURQUITUVOTES — Page Candidat
+   ============================================================ */
+
+/* --- Hero candidat --- */
+.candidat-hero {
+  background: linear-gradient(135deg, #002395 0%, #001a6e 100%);
+  padding: 2rem 1.5rem 2.5rem;
+  color: #fff;
+}
+.candidat-hero__inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.candidat-hero__breadcrumb {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 1.25rem;
+}
+.candidat-hero__breadcrumb a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.candidat-hero__breadcrumb a:hover { color: #fff; }
+.candidat-hero__breadcrumb span { margin: 0 0.4rem; }
+
+.candidat-hero__card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.candidat-hero__avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  flex-shrink: 0;
+  border: 3px solid rgba(255,255,255,0.3);
+}
+.candidat-hero__info { flex: 1; }
+.candidat-hero__nom {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+.candidat-hero__liste {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 0.5rem;
+}
+.candidat-hero__tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.candidat-hero__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.9);
+}
+.candidat-hero__tag--complet {
+  background: rgba(16,185,129,0.25);
+  color: #6ee7b7;
+}
+.candidat-hero__tag--partiel {
+  background: rgba(245,158,11,0.25);
+  color: #fcd34d;
+}
+
+/* --- Stats bar --- */
+.candidat-stats {
+  background: #1e293b;
+  padding: 1rem 1.5rem;
+}
+.candidat-stats__inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.candidat-stats__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255,255,255,0.75);
+  font-size: 0.85rem;
+}
+.candidat-stats__value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* --- Content --- */
+.candidat-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+/* --- Liens programme --- */
+.candidat-links {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.candidat-links__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+}
+.candidat-links__btn:hover { transform: translateY(-1px); }
+.candidat-links__btn--primary {
+  background: #002395;
+  color: #fff;
+}
+.candidat-links__btn--primary:hover { background: #001a6e; }
+.candidat-links__btn--secondary {
+  background: #f1f5f9;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+}
+.candidat-links__btn--secondary:hover { background: #e2e8f0; }
+
+/* --- Radar --- */
+.candidat-radar {
+  margin-bottom: 2.5rem;
+}
+.candidat-radar__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+.candidat-radar__canvas-wrap {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* --- Propositions par categorie --- */
+.candidat-cat {
+  margin-bottom: 2rem;
+}
+.candidat-cat__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.candidat-cat__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+.candidat-cat__nom {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1e293b;
+  flex: 1;
+}
+.candidat-cat__count {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #64748b;
+  background: #f1f5f9;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+.candidat-cat__chevron {
+  color: #94a3b8;
+  font-size: 1rem;
+  transition: transform 0.2s;
+}
+.candidat-cat--open .candidat-cat__chevron {
+  transform: rotate(180deg);
+}
+
+.candidat-cat__body {
+  display: none;
+}
+.candidat-cat--open .candidat-cat__body {
+  display: block;
+}
+
+.candidat-prop {
+  padding: 0.75rem 0 0.75rem 0.75rem;
+  border-left: 3px solid var(--cat-color, #002395);
+  margin-bottom: 0.75rem;
+}
+.candidat-prop__theme {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748b;
+  margin-bottom: 0.3rem;
+}
+.candidat-prop__texte {
+  font-size: 0.9rem;
+  color: #1e293b;
+  line-height: 1.6;
+}
+.candidat-prop__source {
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+.candidat-prop__source a {
+  color: #002395;
+  text-decoration: none;
+}
+.candidat-prop__source a:hover { text-decoration: underline; }
+
+/* --- CTA retour comparateur --- */
+.candidat-cta {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid #e2e8f0;
+  margin-top: 1rem;
+}
+.candidat-cta__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #002395;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.88rem;
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.candidat-cta__btn:hover { background: #001a6e; }
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .candidat-hero { padding: 1.5rem 1rem 2rem; }
+  .candidat-hero__card { flex-direction: column; text-align: center; }
+  .candidat-hero__tags { justify-content: center; }
+  .candidat-hero__nom { font-size: 1.3rem; }
+  .candidat-stats__inner { flex-wrap: wrap; gap: 1rem; justify-content: center; }
+  .candidat-content { padding: 1.5rem 1rem 2rem; }
+  .candidat-links { flex-direction: column; }
+  .candidat-links__btn { justify-content: center; }
+}

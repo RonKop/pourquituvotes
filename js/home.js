@@ -405,17 +405,12 @@
       return { x: cx + Math.cos(a) * radius * val, y: cy + Math.sin(a) * radius * val };
     }
 
-    // Grid circles
+    // Grid circles (circular)
     ctx.strokeStyle = "#e2e8f0";
     ctx.lineWidth = 0.7;
     [0.25, 0.5, 0.75, 1.0].forEach(function (s) {
       ctx.beginPath();
-      for (var i = 0; i <= n; i++) {
-        var p = pointAt(i % n, s);
-        if (i === 0) ctx.moveTo(p.x, p.y);
-        else ctx.lineTo(p.x, p.y);
-      }
-      ctx.closePath();
+      ctx.arc(cx, cy, radius * s, 0, Math.PI * 2);
       ctx.stroke();
     });
 
@@ -483,13 +478,25 @@
 
     var debounceTimer = null;
 
+    // Sur mobile, rendre le hero input readonly pour emp\u00eacher le zoom/clavier natif
+    function setupMobileReadonly() {
+      if (window.innerWidth <= 768) {
+        heroInput.setAttribute("readonly", "");
+        heroInput.style.cursor = "pointer";
+      } else {
+        heroInput.removeAttribute("readonly");
+        heroInput.style.cursor = "";
+      }
+    }
+    setupMobileReadonly();
+    window.addEventListener("resize", setupMobileReadonly);
+
     function openOverlay() {
       if (window.innerWidth > 768) return;
-      heroInput.blur();
       overlay.hidden = false;
       document.body.style.overflow = "hidden";
       overlayInput.value = heroInput.value;
-      setTimeout(function() { overlayInput.focus(); }, 150);
+      setTimeout(function() { overlayInput.focus(); }, 100);
     }
 
     function closeOverlay() {
@@ -539,8 +546,18 @@
       overlayOpen = true;
       openOverlay();
     }
-    heroInput.addEventListener("focus", safeOpenOverlay);
-    heroInput.addEventListener("click", safeOpenOverlay);
+    heroInput.addEventListener("click", function(e) {
+      if (window.innerWidth <= 768) {
+        e.preventDefault();
+        safeOpenOverlay();
+      }
+    });
+    heroInput.addEventListener("focus", function() {
+      if (window.innerWidth <= 768) {
+        heroInput.blur();
+        safeOpenOverlay();
+      }
+    });
 
     if (backBtn) backBtn.addEventListener("click", closeOverlay);
 

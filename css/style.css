@@ -260,20 +260,17 @@ li {
 /* Burger menu */
 .header__burger {
   display: none;
-  flex-direction: column;
-  gap: 5px;
+  align-items: center;
+  justify-content: center;
   padding: 8px;
   cursor: pointer;
   border: none;
   background: none;
+  color: #fff;
 }
-.header__burger span {
-  display: block;
-  width: 22px;
-  height: 2px;
-  background: #fff;
-  border-radius: 2px;
-  transition: 0.2s ease;
+.header__burger svg {
+  width: 24px;
+  height: 24px;
 }
 
 /* Mobile menu overlay (full-screen) */
@@ -593,7 +590,7 @@ li {
   }
   .hero--comparateur .hero__stat-card { padding: 0.5rem 1rem; min-width: 85px; flex: 1; }
   .hero--comparateur .hero__stat-valeur { font-size: 1.2rem; }
-  .hero__search { max-width: 100%; }
+  .hero__search { display: none; }
   .search-float__btn { padding: 10px 16px; font-size: 0.82rem; }
   .hero__toolbar { justify-content: flex-start; }
 }
@@ -3202,6 +3199,16 @@ li {
   font-size: 0.95rem;
   font-weight: 600;
   margin-bottom: 0.25rem;
+}
+.candidat-header__nom--link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: color 0.2s;
+}
+.candidat-header__nom--link:hover {
+  color: #002395;
+  text-decoration: underline;
 }
 
 .candidat-header__liste {

@@ -1006,7 +1006,12 @@
     var villeId = params.get("ville");
 
     if (villeId) {
-      var ville = VILLES.find(function (v) { return v.id === villeId; });
+      var villeIdNorm = villeId.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      var ville = VILLES.find(function (v) { return v.id === villeId; }) ||
+        VILLES.find(function (v) {
+          var nomNorm = v.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-");
+          return nomNorm === villeIdNorm || nomNorm.indexOf(villeIdNorm) === 0 || villeIdNorm.indexOf(v.id) === 0;
+        });
       if (ville) {
         var candidatsParam = params.get("candidats");
         if (candidatsParam) {
@@ -3135,8 +3140,12 @@
         '</div>';
       }
 
+      var profilUrl = villeSelectionnee
+        ? 'candidat.html?ville=' + encodeURIComponent(villeSelectionnee.id) + '&candidat=' + encodeURIComponent(candidat.id)
+        : '#';
+
       headerCand.innerHTML =
-        '<div class="candidat-header__nom">' + echapper(candidat.nom) + '</div>' +
+        '<a href="' + profilUrl + '" class="candidat-header__nom candidat-header__nom--link">' + echapper(candidat.nom) + '</a>' +
         '<div class="candidat-header__liste" style="color:' + getCouleurParti(candidat, 0) + '">' + echapper(candidat.liste) + '</div>' +
         '<div class="candidat-header__badges">' + badgeHTML + '</div>' +
         actionsHTML;

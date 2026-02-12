@@ -480,16 +480,33 @@
 
     var mobileTrigger = document.getElementById("mobile-search-trigger");
 
-    function openOverlay() {
-      overlay.hidden = false;
+    // Bloquer compl\u00e8tement le scroll/zoom du body quand l'overlay est ouvert
+    function lockBody() {
       document.body.style.overflow = "hidden";
+      document.body.style.position = "fixed";
+      document.body.style.width = "100%";
+      document.body.style.top = "-" + window.scrollY + "px";
+    }
+    function unlockBody() {
+      var scrollY = Math.abs(parseInt(document.body.style.top || "0", 10));
+      document.body.style.overflow = "";
+      document.body.style.position = "";
+      document.body.style.width = "";
+      document.body.style.top = "";
+      window.scrollTo(0, scrollY);
+    }
+
+    function openOverlay() {
+      lockBody();
+      overlay.hidden = false;
       overlayInput.value = "";
       setTimeout(function() { overlayInput.focus(); }, 100);
     }
 
     function closeOverlay() {
+      overlayInput.blur();
       overlay.hidden = true;
-      document.body.style.overflow = "";
+      unlockBody();
       overlayInput.value = "";
       resultsEl.innerHTML = "";
       overlayOpen = false;

@@ -11,15 +11,22 @@
   // SVG drapeau fran\u00e7ais (compatible tous OS)
   var FLAG_FR_SVG = '<svg width="28" height="20" viewBox="0 0 3 2" style="border-radius:3px;vertical-align:middle" aria-label="Drapeau fran\u00e7ais"><rect width="1" height="2" fill="#002395"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ED2939"/></svg>';
 
-  // Tendances : totaux France enti\u00e8re (toutes villes confondues)
-  var TENDANCES_FRANCE = [
-    { icon: "ph-house", nom: "Logement", slug: "logement", count: 142 },
-    { icon: "ph-shield-check", nom: "S\u00e9curit\u00e9", slug: "securite", count: 118 },
-    { icon: "ph-bus", nom: "Transports", slug: "transports", count: 105 },
-    { icon: "ph-leaf", nom: "Environnement", slug: "environnement", count: 98 },
-    { icon: "ph-graduation-cap", nom: "\u00c9ducation", slug: "education", count: 87 },
-    { icon: "ph-briefcase", nom: "\u00c9conomie", slug: "economie", count: 76 }
-  ];
+  // Tendances : chargées dynamiquement depuis stats-global.json
+  var TENDANCES_FRANCE = [];
+  var CATEGORIE_META = {
+    "securite": { icon: "ph-shield-check", nom: "S\u00e9curit\u00e9" },
+    "transports": { icon: "ph-bus", nom: "Transports" },
+    "environnement": { icon: "ph-leaf", nom: "Environnement" },
+    "education": { icon: "ph-graduation-cap", nom: "\u00c9ducation" },
+    "democratie": { icon: "ph-handshake", nom: "D\u00e9mocratie" },
+    "logement": { icon: "ph-house", nom: "Logement" },
+    "economie": { icon: "ph-briefcase", nom: "\u00c9conomie" },
+    "sante": { icon: "ph-first-aid", nom: "Sant\u00e9" },
+    "solidarite": { icon: "ph-heart", nom: "Solidarit\u00e9" },
+    "urbanisme": { icon: "ph-buildings", nom: "Urbanisme" },
+    "culture": { icon: "ph-paint-brush", nom: "Culture" },
+    "sport": { icon: "ph-soccer-ball", nom: "Sport" }
+  };
 
   // === Utility ===
   function esc(str) {
@@ -184,38 +191,73 @@
       }
 
       var termeMin = terme.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      var results = VILLES.filter(function (v) {
+
+      // Recherche villes
+      var villeResults = VILLES.filter(function (v) {
         var nomNorm = v.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
         return nomNorm.indexOf(termeMin) !== -1 || v.codePostal.indexOf(termeMin) !== -1;
-      }).slice(0, 8);
+      }).slice(0, 5);
 
-      if (results.length === 0) {
+      // Recherche candidats
+      var candidatResults = [];
+      VILLES.forEach(function (v) {
+        if (!v.candidats) return;
+        v.candidats.forEach(function (c) {
+          var nomNorm = c.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+          if (nomNorm.indexOf(termeMin) !== -1) {
+            candidatResults.push({ candidat: c, ville: v });
+          }
+        });
+      });
+      candidatResults = candidatResults.slice(0, 5);
+
+      if (villeResults.length === 0 && candidatResults.length === 0) {
         dropdown.hidden = true;
         dropdown.innerHTML = "";
         return;
       }
 
-      dropdown.innerHTML = results.map(function (v, idx) {
-        return '<div class="hero__suggestion-item" role="option" data-ville="' + v.id + '" data-index="' + idx + '">' +
+      var html = "";
+      villeResults.forEach(function (v, idx) {
+        html += '<div class="hero__suggestion-item" role="option" data-ville="' + v.id + '" data-index="' + idx + '">' +
           '<i class="ph ph-map-pin" aria-hidden="true"></i>' +
           '<span>' + esc(v.nom) + '</span>' +
           '<span class="hero__suggestion-cp">' + v.codePostal + '</span>' +
           '<span class="hero__suggestion-stats">' + (v.stats ? v.stats.candidats : 0) + ' candidats</span>' +
           '</div>';
-      }).join("");
+      });
 
+      if (candidatResults.length > 0) {
+        if (villeResults.length > 0) {
+          html += '<div style="padding:6px 20px;font-size:0.72rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:0.05em;background:#f8fafc;border-top:1px solid #e2e8f0">Candidats</div>';
+        }
+        candidatResults.forEach(function (r, idx) {
+          var totalIdx = villeResults.length + idx;
+          html += '<div class="hero__suggestion-item" role="option" data-ville="' + r.ville.id + '" data-candidat="' + r.candidat.id + '" data-index="' + totalIdx + '">' +
+            '<i class="ph ph-user" aria-hidden="true"></i>' +
+            '<span>' + esc(r.candidat.nom) + '</span>' +
+            '<span class="hero__suggestion-cp">' + esc(r.ville.nom) + '</span>' +
+            '</div>';
+        });
+      }
+
+      dropdown.innerHTML = html;
       dropdown.hidden = false;
       activeIndex = -1;
 
       dropdown.querySelectorAll(".hero__suggestion-item").forEach(function (item) {
         item.addEventListener("click", function () {
-          navigateTo(item.dataset.ville);
+          navigateTo(item.dataset.ville, item.dataset.candidat);
         });
       });
     }
 
-    function navigateTo(villeId) {
-      window.location.href = "/municipales/2026/?ville=" + villeId;
+    function navigateTo(villeId, candidatId) {
+      var url = "/municipales/2026/?ville=" + villeId;
+      if (candidatId) {
+        url = "/municipales/2026/candidat.html?ville=" + villeId + "&candidat=" + candidatId;
+      }
+      window.location.href = url;
     }
 
     function highlightItem(idx) {
@@ -248,9 +290,9 @@
       } else if (e.key === "Enter") {
         e.preventDefault();
         if (activeIndex >= 0 && items[activeIndex]) {
-          navigateTo(items[activeIndex].dataset.ville);
+          navigateTo(items[activeIndex].dataset.ville, items[activeIndex].dataset.candidat);
         } else if (items.length > 0) {
-          navigateTo(items[0].dataset.ville);
+          navigateTo(items[0].dataset.ville, items[0].dataset.candidat);
         }
       } else if (e.key === "Escape") {
         dropdown.hidden = true;
@@ -262,15 +304,15 @@
       btn.addEventListener("click", function () {
         var items = dropdown.querySelectorAll(".hero__suggestion-item");
         if (activeIndex >= 0 && items[activeIndex]) {
-          navigateTo(items[activeIndex].dataset.ville);
+          navigateTo(items[activeIndex].dataset.ville, items[activeIndex].dataset.candidat);
         } else if (items.length > 0) {
-          navigateTo(items[0].dataset.ville);
+          navigateTo(items[0].dataset.ville, items[0].dataset.candidat);
         } else {
           search(input.value.trim());
           setTimeout(function () {
             var newItems = dropdown.querySelectorAll(".hero__suggestion-item");
             if (newItems.length > 0) {
-              navigateTo(newItems[0].dataset.ville);
+              navigateTo(newItems[0].dataset.ville, newItems[0].dataset.candidat);
             }
           }, 350);
         }
@@ -350,18 +392,45 @@
             suggestionsEl.hidden = true;
             return;
           }
-          suggestionsEl.innerHTML = results.map(function(v) {
+          // Candidats dans le burger
+          var burgerCandidats = [];
+          VILLES.forEach(function(v2) {
+            if (!v2.candidats) return;
+            v2.candidats.forEach(function(c) {
+              var nomNorm = c.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+              if (nomNorm.indexOf(termeMin) !== -1) {
+                burgerCandidats.push({ candidat: c, ville: v2 });
+              }
+            });
+          });
+          burgerCandidats = burgerCandidats.slice(0, 5);
+
+          var burgerHtml = results.map(function(v) {
             return '<div class="mobile-menu-suggestion-item" data-ville="' + v.id + '">' +
               '<i class="ph ph-map-pin"></i>' +
               '<span>' + esc(v.nom) + '</span>' +
               '<span class="mobile-menu-suggestion-cp">' + v.codePostal + '</span>' +
               '</div>';
           }).join("");
+
+          burgerCandidats.forEach(function(r) {
+            burgerHtml += '<div class="mobile-menu-suggestion-item" data-ville="' + r.ville.id + '" data-candidat="' + r.candidat.id + '">' +
+              '<i class="ph ph-user"></i>' +
+              '<span>' + esc(r.candidat.nom) + '</span>' +
+              '<span class="mobile-menu-suggestion-cp">' + esc(r.ville.nom) + '</span>' +
+              '</div>';
+          });
+
+          suggestionsEl.innerHTML = burgerHtml;
           suggestionsEl.hidden = false;
 
           suggestionsEl.querySelectorAll(".mobile-menu-suggestion-item").forEach(function(item) {
             item.addEventListener("click", function() {
-              window.location.href = "/municipales/2026/?ville=" + item.dataset.ville;
+              var url = "/municipales/2026/?ville=" + item.dataset.ville;
+              if (item.dataset.candidat) {
+                url = "/municipales/2026/candidat.html?ville=" + item.dataset.ville + "&candidat=" + item.dataset.candidat;
+              }
+              window.location.href = url;
             });
           });
         }, 200);
@@ -518,29 +587,64 @@
         return;
       }
       var termeMin = val.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      var results = VILLES.filter(function(v) {
+
+      // Villes
+      var villeResults = VILLES.filter(function(v) {
         var nomNorm = v.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
         return nomNorm.indexOf(termeMin) !== -1 || v.codePostal.indexOf(termeMin) !== -1;
-      }).slice(0, 15);
+      }).slice(0, 10);
 
-      if (results.length === 0) {
-        resultsEl.innerHTML = '<div style="padding:20px;text-align:center;color:#64748b">Aucune ville trouv\u00e9e</div>';
+      // Candidats
+      var candidatResults = [];
+      VILLES.forEach(function(v) {
+        if (!v.candidats) return;
+        v.candidats.forEach(function(c) {
+          var nomNorm = c.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+          if (nomNorm.indexOf(termeMin) !== -1) {
+            candidatResults.push({ candidat: c, ville: v });
+          }
+        });
+      });
+      candidatResults = candidatResults.slice(0, 8);
+
+      if (villeResults.length === 0 && candidatResults.length === 0) {
+        resultsEl.innerHTML = '<div style="padding:20px;text-align:center;color:#64748b">Aucun r\u00e9sultat</div>';
         return;
       }
 
-      resultsEl.innerHTML = results.map(function(v) {
+      var html = "";
+      villeResults.forEach(function(v) {
         var s = v.stats || {};
-        return '<div class="mobile-search-result-item" data-ville="' + v.id + '">' +
+        html += '<div class="mobile-search-result-item" data-ville="' + v.id + '">' +
           '<i class="ph ph-map-pin"></i>' +
           '<span>' + esc(v.nom) + '</span>' +
           '<span class="mobile-search-result-stats">' + (s.candidats || 0) + ' candidats</span>' +
           '<span class="mobile-search-result-cp">' + v.codePostal + '</span>' +
           '</div>';
-      }).join("");
+      });
+
+      if (candidatResults.length > 0) {
+        if (villeResults.length > 0) {
+          html += '<div style="padding:10px 20px;font-size:0.72rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:0.05em;background:#f8fafc;border-top:1px solid #f1f5f9">Candidats</div>';
+        }
+        candidatResults.forEach(function(r) {
+          html += '<div class="mobile-search-result-item" data-ville="' + r.ville.id + '" data-candidat="' + r.candidat.id + '">' +
+            '<i class="ph ph-user"></i>' +
+            '<span>' + esc(r.candidat.nom) + '</span>' +
+            '<span class="mobile-search-result-cp">' + esc(r.ville.nom) + '</span>' +
+            '</div>';
+        });
+      }
+
+      resultsEl.innerHTML = html;
 
       resultsEl.querySelectorAll(".mobile-search-result-item").forEach(function(item) {
         item.addEventListener("click", function() {
-          window.location.href = "/municipales/2026/?ville=" + item.dataset.ville;
+          var url = "/municipales/2026/?ville=" + item.dataset.ville;
+          if (item.dataset.candidat) {
+            url = "/municipales/2026/candidat.html?ville=" + item.dataset.ville + "&candidat=" + item.dataset.candidat;
+          }
+          window.location.href = url;
         });
       });
     }
@@ -579,14 +683,25 @@
   }
 
   function init() {
-    fetch(DATA_BASE_URL + 'villes.json?v=' + DATA_VERSION)
+    var villesPromise = fetch(DATA_BASE_URL + 'villes.json?v=' + DATA_VERSION)
+      .then(function(r) { return r.json(); });
+    var statsPromise = fetch(DATA_BASE_URL + 'stats-global.json?v=' + DATA_VERSION)
       .then(function(r) { return r.json(); })
-      .then(function(data) {
-        VILLES = data;
+      .catch(function() { return { categories: [] }; });
+
+    Promise.all([villesPromise, statsPromise])
+      .then(function(results) {
+        VILLES = results[0];
+        var statsData = results[1];
+        // Build TENDANCES_FRANCE from stats-global.json (top 6)
+        TENDANCES_FRANCE = (statsData.categories || []).slice(0, 6).map(function(cat) {
+          var meta = CATEGORIE_META[cat.id] || { icon: "ph-tag", nom: cat.id };
+          return { icon: meta.icon, nom: meta.nom, slug: cat.id, count: cat.count };
+        });
         initHome();
       })
       .catch(function(err) {
-        console.error('Erreur chargement villes:', err);
+        console.error('Erreur chargement donn\u00e9es:', err);
       });
   }
 

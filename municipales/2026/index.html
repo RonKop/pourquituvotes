@@ -824,5 +824,61 @@
   <script defer src="/js/chart.min.js?v=2026021002"></script>
   <script defer src="/js/analytics.js?v=2026021002"></script>
   <script defer src="/js/app.js?v=2026021002"></script>
+
+  <!-- Bouton Contribuer (flottant) -->
+  <button class="contribuer-fab" id="contribuer-fab" aria-label="Contribuer">
+    <i class="ph ph-hand-heart" aria-hidden="true"></i> Contribuer
+  </button>
+
+  <!-- Modal Contribuer -->
+  <div class="contribuer-modal" id="contribuer-modal" hidden>
+    <div class="contribuer-modal__overlay" id="contribuer-modal-overlay"></div>
+    <div class="contribuer-modal__content">
+      <button class="contribuer-modal__close" id="contribuer-modal-close" aria-label="Fermer">&times;</button>
+      <h2 class="contribuer-modal__title">Comment contribuer ?</h2>
+      <p class="contribuer-modal__subtitle">Ce projet est citoyen et collaboratif. Aidez-nous &agrave; am&eacute;liorer le comparateur.</p>
+      <div class="contribuer-modal__options">
+        <a href="mailto:contact@pourquituvotes.fr?subject=Signalement erreur" class="contribuer-option">
+          <div class="contribuer-option__icon contribuer-option__icon--erreur"><i class="ph ph-warning-circle"></i></div>
+          <div class="contribuer-option__text">
+            <div class="contribuer-option__title">Signaler une erreur</div>
+            <div class="contribuer-option__desc">Une proposition mal attribu&eacute;e, un lien cass&eacute;, une information obsol&egrave;te</div>
+          </div>
+          <i class="ph ph-arrow-right contribuer-option__arrow"></i>
+        </a>
+        <a href="mailto:contact@pourquituvotes.fr?subject=Demande ajout" class="contribuer-option">
+          <div class="contribuer-option__icon contribuer-option__icon--ajout"><i class="ph ph-plus-circle"></i></div>
+          <div class="contribuer-option__text">
+            <div class="contribuer-option__title">Demander un ajout</div>
+            <div class="contribuer-option__desc">Votre ville manque, un candidat n'est pas r&eacute;f&eacute;renc&eacute;, un programme n'est pas int&eacute;gr&eacute;</div>
+          </div>
+          <i class="ph ph-arrow-right contribuer-option__arrow"></i>
+        </a>
+        <a href="/faq.html" class="contribuer-option">
+          <div class="contribuer-option__icon contribuer-option__icon--aide"><i class="ph ph-question"></i></div>
+          <div class="contribuer-option__text">
+            <div class="contribuer-option__title">Besoin d'aide ?</div>
+            <div class="contribuer-option__desc">Comment utiliser le comparateur, comprendre les donn&eacute;es, interpr&eacute;ter les r&eacute;sultats</div>
+          </div>
+          <i class="ph ph-arrow-right contribuer-option__arrow"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (function() {
+    var fab = document.getElementById('contribuer-fab');
+    var modal = document.getElementById('contribuer-modal');
+    var closeBtn = document.getElementById('contribuer-modal-close');
+    var overlay = document.getElementById('contribuer-modal-overlay');
+    if (!fab || !modal) return;
+    fab.addEventListener('click', function() { modal.hidden = false; document.body.style.overflow = 'hidden'; });
+    function fermer() { modal.hidden = true; document.body.style.overflow = ''; }
+    if (closeBtn) closeBtn.addEventListener('click', fermer);
+    if (overlay) overlay.addEventListener('click', fermer);
+    document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && !modal.hidden) fermer(); });
+  })();
+  </script>
 </body>
 </html>

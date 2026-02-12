@@ -424,6 +424,11 @@
       afficherElection();
       afficherChargement(false);
 
+      // Analytics : ville sélectionnée
+      if (window.PQTV_Analytics) {
+        PQTV_Analytics.trackCitySelected(donneesElection.ville, fichier, donneesElection.candidats ? donneesElection.candidats.length : 0);
+      }
+
       // Scroll vers la catégorie si un hash est présent dans l'URL (ex: #securite)
       var hashCat = window.location.hash ? window.location.hash.substring(1) : "";
       if (hashCat) {
@@ -1167,13 +1172,23 @@
     window.addEventListener("scroll", function () {
       if (progressPills.hidden) return;
 
-      // Visibility: show only when category sections are in view
+      // Visibility: show only when category sections are in view, hide near footer
       var premiereCat = comparaisonContainer.querySelector("[data-categorie-id]");
       var derniereCat = comparaisonContainer.querySelector("[data-categorie-id]:last-of-type");
       if (!premiereCat) { progressPills.classList.add("progress-pills--hidden"); return; }
       var topRect = premiereCat.getBoundingClientRect();
       var bottomRect = derniereCat ? derniereCat.getBoundingClientRect() : topRect;
       var dansSection = topRect.top < window.innerHeight && bottomRect.bottom > 0;
+
+      // Hide pills when footer is visible to prevent overlap
+      var footer = document.querySelector(".footer");
+      if (footer) {
+        var footerTop = footer.getBoundingClientRect().top;
+        var pillsBottom = window.innerHeight / 2 + progressPills.offsetHeight / 2;
+        if (footerTop < pillsBottom + 32) {
+          dansSection = false;
+        }
+      }
       progressPills.classList.toggle("progress-pills--hidden", !dansSection);
 
       // Find visible section
@@ -3111,12 +3126,12 @@
       var actionsHTML = '';
       if (candidat.programmeComplet && candidat.programmePdfPath) {
         actionsHTML = '<div class="candidat-header__actions">' +
-          '<a href="' + echapper(candidat.programmePdfPath) + '" target="_blank" class="btn-pdf">👁️ Voir</a>' +
-          '<a href="' + echapper(candidat.programmePdfPath) + '" download class="btn-pdf btn-pdf--download">⬇️ T\u00E9l\u00E9charger</a>' +
+          '<a href="' + echapper(candidat.programmePdfPath) + '" target="_blank" class="btn-pdf"><i class="ph ph-eye"></i> Voir</a>' +
+          '<a href="' + echapper(candidat.programmePdfPath) + '" download class="btn-pdf btn-pdf--download"><i class="ph ph-download-simple"></i> T\u00E9l\u00E9charger</a>' +
         '</div>';
       } else if (candidat.programmeComplet && candidat.programmeUrl && candidat.programmeUrl !== '#') {
         actionsHTML = '<div class="candidat-header__actions">' +
-          '<a href="' + echapper(candidat.programmeUrl) + '" target="_blank" class="btn-pdf">🌐 Voir le programme</a>' +
+          '<a href="' + echapper(candidat.programmeUrl) + '" target="_blank" class="btn-pdf"><i class="ph ph-globe"></i> Voir le programme</a>' +
         '</div>';
       }
 

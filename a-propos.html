@@ -2,16 +2,27 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>À propos — Pour qui tu votes</title>
-  <meta name="description" content="Découvrez la mission de Pour qui tu votes : un outil citoyen indépendant pour comparer les programmes des candidats aux élections municipales.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- SEO -->
+  <title>&Agrave; propos &mdash; Qui suis-je ? | #POURQUITUVOTES</title>
+  <meta name="description" content="D&eacute;couvrez la mission de #POURQUITUVOTES : un outil citoyen ind&eacute;pendant et non-partisan pour comparer les programmes des candidats aux &eacute;lections municipales, pr&eacute;sidentielles et europ&eacute;ennes.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://pourquituvotes.fr/a-propos">
-  <meta property="og:title" content="À propos — Pour qui tu votes">
-  <meta property="og:description" content="Un vote éclairé est un vote libre. Découvrez notre mission.">
-  <meta property="og:url" content="https://pourquituvotes.fr/a-propos">
+  <link rel="canonical" href="https://pourquituvotes.fr/a-propos.html">
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="css/style.css">
+  <meta property="og:site_name" content="Pour qui tu votes">
+  <meta property="og:title" content="&Agrave; propos &mdash; #POURQUITUVOTES">
+  <meta property="og:description" content="Un vote &eacute;clair&eacute; est un vote libre. D&eacute;couvrez la mission citoyenne de #POURQUITUVOTES.">
+  <meta property="og:url" content="https://pourquituvotes.fr/a-propos.html">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="&Agrave; propos &mdash; #POURQUITUVOTES">
+  <meta name="twitter:description" content="Un vote &eacute;clair&eacute; est un vote libre. D&eacute;couvrez la mission citoyenne de #POURQUITUVOTES.">
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -19,115 +30,415 @@
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-T4CCTF6V');</script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css?v=2026021002">
+
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web/src/regular/style.css" media="print" onload="this.media='all'">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+  <style>
+    /* Hero */
+    .apropos-hero {
+      background: linear-gradient(135deg, #002395 0%, #001a6e 100%);
+      color: #fff;
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+    }
+    .apropos-hero__inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .apropos-hero h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+      color: #fff;
+    }
+    .apropos-hero p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      line-height: 1.6;
+      color: #fff;
+    }
+
+    /* Main content */
+    .apropos-main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+
+    /* Sections */
+    .apropos-section {
+      margin-bottom: 3rem;
+    }
+    .apropos-section h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 1.5rem;
+      color: #002395;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .apropos-section h2 i {
+      font-size: 1.3rem;
+    }
+    .apropos-section p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #334155;
+      margin-bottom: 0.8rem;
+    }
+    .apropos-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+    .apropos-section li {
+      padding: 0.5rem 0;
+      padding-left: 1.8rem;
+      position: relative;
+      color: #334155;
+      line-height: 1.6;
+    }
+    .apropos-section li i {
+      position: absolute;
+      left: 0;
+      top: 0.65rem;
+      color: #002395;
+      font-size: 1rem;
+    }
+
+    /* Values grid */
+    .apropos-values {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .apropos-value {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      text-align: center;
+      border-top: 3px solid #002395;
+    }
+    .apropos-value__icon {
+      font-size: 2rem;
+      color: #002395;
+      margin-bottom: 0.8rem;
+    }
+    .apropos-value h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: #1e293b;
+      margin-bottom: 0.5rem;
+    }
+    .apropos-value p {
+      font-size: 0.9rem;
+      color: #64748b;
+      line-height: 1.5;
+    }
+
+    /* Highlight box */
+    .apropos-highlight {
+      background: linear-gradient(135deg, #f0f4ff 0%, #e8eeff 100%);
+      border-left: 4px solid #002395;
+      border-radius: 0 12px 12px 0;
+      padding: 1.5rem 2rem;
+      margin: 2rem 0;
+    }
+    .apropos-highlight p {
+      font-size: 1.05rem;
+      color: #1e293b;
+      font-style: italic;
+    }
+    .apropos-highlight strong {
+      color: #002395;
+    }
+
+    /* CTA */
+    .apropos-cta {
+      text-align: center;
+      padding: 2rem 0 1rem;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .apropos-cta a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.9rem 2rem;
+      border-radius: 8px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .apropos-cta a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,35,149,0.25);
+    }
+    .apropos-cta__primary {
+      background: #002395;
+      color: #fff;
+    }
+    .apropos-cta__secondary {
+      background: #fff;
+      color: #002395;
+      border: 2px solid #002395;
+    }
+
+    @media (max-width: 768px) {
+      .apropos-hero h1 { font-size: 1.6rem; }
+      .apropos-hero { padding: 3rem 1rem 2rem; }
+      .apropos-values { grid-template-columns: 1fr; }
+      .apropos-main { padding: 2rem 1rem 3rem; }
+      .apropos-section h2 { font-size: 1.3rem; }
+    }
+  </style>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4CCTF6V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- Top bar -->
-  <nav class="topbar">
-    <div class="topbar__inner">
-      <a href="/" class="topbar__brand">
-        <span class="topbar__logo">🗳️</span>
-        <span class="topbar__name">Pour qui tu votes</span>
-      </a>
-      <ul class="topbar__nav">
-        <li><a href="/">Accueil</a></li>
-        <li><a href="/a-propos.html" class="topbar__nav--active">À propos</a></li>
-      </ul>
-      <div class="topbar__actions">
-        <button id="theme-toggle" class="theme-toggle" title="Activer le mode sombre">
-          <span class="theme-toggle__icon">🌙</span>
-        </button>
-      </div>
-    </div>
-  </nav>
 
-  <main class="page">
-    <article class="page__content">
+  <!-- Skip link -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
 
-      <h1>À propos</h1>
-
-      <section class="page__section">
-        <h2>Pourquoi ce site ?</h2>
-        <p>Les élections municipales façonnent notre quotidien. Pourtant, il n'est pas toujours facile de s'y retrouver parmi les candidats, les programmes et les enjeux locaux.</p>
-        <p>Ce site est né d'une conviction simple : <strong>un vote éclairé est un vote libre.</strong></p>
-      </section>
-
-      <section class="page__section">
-        <h2>Aux candidats</h2>
-        <p><strong>Merci pour votre engagement.</strong></p>
-        <p>Se présenter à une élection, c'est accepter de porter la voix de ses concitoyens, de défendre des idées, de consacrer du temps et de l'énergie au service du collectif. Quelle que soit votre étiquette politique, cet engagement mérite d'être salué.</p>
-      </section>
-
-      <section class="page__section">
-        <h2>Aux électeurs</h2>
-        <p>Voter est un droit. Certains diront un devoir. Dans tous les cas, c'est un acte qui compte.</p>
-        <p>Ce site vous propose des outils pour comparer les candidats et leurs propositions. Mais gardez à l'esprit que les mesures ne font pas tout.</p>
-        <p><strong>Un bon élu, c'est aussi :</strong></p>
-        <ul>
-          <li>Une capacité à écouter et à rassembler</li>
-          <li>Une cohérence entre les paroles et les actes</li>
-          <li>Une présence sur le terrain</li>
-          <li>Une vision pour l'avenir de votre commune</li>
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
+      <nav class="header-nav">
+        <ul class="header-nav__links">
+          <li><a href="/a-propos.html" class="header-nav__active">&Agrave; propos</a></li>
+          <li><a href="/methodologie.html">M&eacute;thodologie</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="mailto:contact@pourquituvotes.fr">Contact</a></li>
         </ul>
-        <p>Renseignez-vous, posez des questions, allez à la rencontre des candidats. Et surtout : <strong>votez.</strong></p>
-      </section>
+      </nav>
+      <button class="header__burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-      <section class="page__section">
-        <h2>Notre engagement</h2>
-        <p>Ce site est <strong>indépendant</strong> et n'est affilié à aucun parti politique. Notre seul objectif : vous donner les clés pour faire votre choix en toute connaissance de cause.</p>
-      </section>
+  <!-- Mobile menu -->
+  <div class="mobile-menu-overlay" id="mobile-menu-overlay" hidden>
+    <div class="mobile-menu-overlay__panel">
+      <div class="mobile-menu-overlay__header">
+        <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
+        <button class="mobile-menu-overlay__close" id="mobile-menu-close" aria-label="Fermer le menu">&times;</button>
+      </div>
+      <nav class="mobile-menu-overlay__nav">
+        <a href="/">&Agrave; l'accueil</a>
+        <a href="/municipales/2026/">Comparateur</a>
+        <a href="/municipales/2026/simulateur.html">Simulateur</a>
+        <a href="/a-propos.html" class="mobile-menu-overlay__active">&Agrave; propos</a>
+        <a href="/methodologie.html">M&eacute;thodologie</a>
+        <a href="/faq.html">FAQ</a>
+        <a href="mailto:contact@pourquituvotes.fr">Contact</a>
+      </nav>
+    </div>
+  </div>
 
-      <div class="page__cta">
-        <a href="/" class="btn-inscription">Comparer les programmes</a>
+  <!-- Hero -->
+  <section class="apropos-hero">
+    <div class="apropos-hero__inner">
+      <h1>&Agrave; propos de #POURQUITUVOTES</h1>
+      <p>Un vote &eacute;clair&eacute; est un vote libre. Je crois que chaque citoyen m&eacute;rite des outils &agrave; la hauteur de la d&eacute;mocratie.</p>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main id="main-content" class="apropos-main">
+
+    <!-- Mission -->
+    <section class="apropos-section">
+      <h2><i class="ph ph-flag-banner" aria-hidden="true"></i> La mission</h2>
+      <p>Les &eacute;lections fa&ccedil;onnent notre quotidien. Pourtant, il n'est pas toujours facile de s'y retrouver parmi les candidats, les programmes et les enjeux locaux.</p>
+      <p><strong>#POURQUITUVOTES</strong> est n&eacute; d'une conviction simple : donner &agrave; chaque citoyen les cl&eacute;s pour faire un choix &eacute;clair&eacute;, en pr&eacute;sentant les programmes tels qu'ils ont &eacute;t&eacute; formul&eacute;s par les candidats &mdash; sans interpr&eacute;tation, sans jugement, sans commentaire.</p>
+    </section>
+
+    <!-- Values -->
+    <section class="apropos-section">
+      <h2><i class="ph ph-heart" aria-hidden="true"></i> Les valeurs du projet</h2>
+      <div class="apropos-values">
+        <div class="apropos-value">
+          <div class="apropos-value__icon"><i class="ph ph-scales" aria-hidden="true"></i></div>
+          <h3>Neutralit&eacute;</h3>
+          <p>Aucune affiliation politique. Je pr&eacute;sente les faits, pas mes opinions.</p>
+        </div>
+        <div class="apropos-value">
+          <div class="apropos-value__icon"><i class="ph ph-magnifying-glass" aria-hidden="true"></i></div>
+          <h3>Transparence</h3>
+          <p>Chaque proposition est source&eacute;e et v&eacute;rifiable. La m&eacute;thodologie est publique.</p>
+        </div>
+        <div class="apropos-value">
+          <div class="apropos-value__icon"><i class="ph ph-hand-heart" aria-hidden="true"></i></div>
+          <h3>Accessibilit&eacute;</h3>
+          <p>Gratuit et sans publicit&eacute;. La d&eacute;mocratie n'a pas de prix.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aux candidats -->
+    <section class="apropos-section">
+      <h2><i class="ph ph-megaphone" aria-hidden="true"></i> Aux candidats</h2>
+      <p><strong>Merci pour votre engagement.</strong></p>
+      <p>Se pr&eacute;senter &agrave; une &eacute;lection, c'est accepter de porter la voix de ses concitoyens, de d&eacute;fendre des id&eacute;es, de consacrer du temps et de l'&eacute;nergie au service du collectif. Quelle que soit votre &eacute;tiquette politique, cet engagement m&eacute;rite d'&ecirc;tre salu&eacute;.</p>
+      <p>Si vous souhaitez v&eacute;rifier vos propositions, fournir votre programme complet ou corriger une information, contactez-moi &agrave; <a href="mailto:candidats@pourquituvotes.fr">candidats@pourquituvotes.fr</a>.</p>
+    </section>
+
+    <!-- Aux electeurs -->
+    <section class="apropos-section">
+      <h2><i class="ph ph-users" aria-hidden="true"></i> Aux &eacute;lecteurs</h2>
+      <p>Voter est un droit. Certains diront un devoir. Dans tous les cas, c'est un acte qui compte.</p>
+      <p>Ce site vous propose des outils pour comparer les candidats et leurs propositions. Mais gardez &agrave; l'esprit que les programmes ne font pas tout.</p>
+
+      <div class="apropos-highlight">
+        <p><strong>Un bon &eacute;lu, c'est aussi :</strong> une capacit&eacute; &agrave; &eacute;couter et &agrave; rassembler, une coh&eacute;rence entre les paroles et les actes, une pr&eacute;sence sur le terrain, et une vision pour l'avenir de votre commune.</p>
       </div>
 
-    </article>
+      <p>Renseignez-vous, posez des questions, allez &agrave; la rencontre des candidats. Et surtout : <strong>votez.</strong></p>
+    </section>
+
+    <section class="apropos-section">
+      <h2><i class="ph ph-list-checks" aria-hidden="true"></i> Ce que je fais</h2>
+      <ul>
+        <li><i class="ph ph-check-circle" style="color:#10b981" aria-hidden="true"></i> Collecter les programmes officiels des candidats</li>
+        <li><i class="ph ph-check-circle" style="color:#10b981" aria-hidden="true"></i> Classer chaque proposition dans une grille th&eacute;matique commune</li>
+        <li><i class="ph ph-check-circle" style="color:#10b981" aria-hidden="true"></i> Citer syst&eacute;matiquement les sources</li>
+        <li><i class="ph ph-check-circle" style="color:#10b981" aria-hidden="true"></i> Mettre &agrave; jour r&eacute;guli&egrave;rement les donn&eacute;es</li>
+      </ul>
+
+      <h2><i class="ph ph-prohibit" aria-hidden="true"></i> Ce que je ne fais pas</h2>
+      <ul>
+        <li><i class="ph ph-x-circle" style="color:#ef4444" aria-hidden="true"></i> Commenter ou juger les propositions</li>
+        <li><i class="ph ph-x-circle" style="color:#ef4444" aria-hidden="true"></i> V&eacute;rifier la faisabilit&eacute; des engagements</li>
+        <li><i class="ph ph-x-circle" style="color:#ef4444" aria-hidden="true"></i> Classer ou hi&eacute;rarchiser les candidats</li>
+        <li><i class="ph ph-x-circle" style="color:#ef4444" aria-hidden="true"></i> Accepter un financement politique</li>
+      </ul>
+    </section>
+
+    <!-- Ambition -->
+    <section class="apropos-section">
+      <h2><i class="ph ph-rocket-launch" aria-hidden="true"></i> L'ambition</h2>
+      <p><strong>#POURQUITUVOTES</strong> a vocation &agrave; couvrir l'ensemble des scrutins fran&ccedil;ais : municipales, pr&eacute;sidentielles, l&eacute;gislatives et europ&eacute;ennes. Le m&ecirc;me protocole de rigueur et de neutralit&eacute; sera appliqu&eacute; &agrave; chaque &eacute;lection.</p>
+      <p>La page <a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027</a> est d&eacute;j&agrave; en pr&eacute;paration.</p>
+    </section>
+
+    <section class="apropos-section">
+      <h2><i class="ph ph-identification-card" aria-hidden="true"></i> Qui suis-je ?</h2>
+      <p>Un citoyen ind&eacute;pendant, convaincu que la d&eacute;mocratie locale m&eacute;rite des outils &agrave; la hauteur de ses enjeux. Ce projet est port&eacute; seul, b&eacute;n&eacute;volement, sans financement ni affiliation politique. Le site est enti&egrave;rement gratuit, sans publicit&eacute; et h&eacute;berg&eacute; par des services open-source.</p>
+    </section>
+
+    <!-- CTA -->
+    <div class="apropos-cta">
+      <a href="/municipales/2026/" class="apropos-cta__primary"><i class="ph ph-chart-bar" aria-hidden="true"></i> Comparateur 2026</a>
+      <a href="/municipales/2026/simulateur.html" class="apropos-cta__secondary"><i class="ph ph-lightning" aria-hidden="true"></i> Simulateur</a>
+    </div>
+
   </main>
 
-  <footer class="footer">
-    <p>Outil citoyen — Présentation factuelle des programmes officiels, sans interprétation ni commentaire.</p>
-    <nav class="footer__links">
-      <a href="/">Accueil</a>
-      <a href="/a-propos.html">À propos</a>
-    </nav>
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="/" class="footer__logo" aria-label="Accueil">
+            <span class="logo__hash">#</span><span class="logo__pourquitu">POURQUITU</span><span class="logo__votes">VOTES</span><span class="logo__question">?</span>
+          </a>
+          <p class="footer__tagline">Comparez les programmes des candidats. Projet citoyen, ind&eacute;pendant et non-partisan.</p>
+          <div class="footer__socials" aria-label="R&eacute;seaux sociaux">
+            <a href="#" aria-label="X (Twitter)" class="footer__social"><i class="ph ph-x-logo" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook" class="footer__social"><i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+            <a href="#" aria-label="LinkedIn" class="footer__social"><i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Municipales 2026</h3>
+          <ul class="footer__list">
+            <li><a href="/municipales/2026/?ville=paris">Paris</a></li>
+            <li><a href="/municipales/2026/?ville=lyon">Lyon</a></li>
+            <li><a href="/municipales/2026/?ville=marseille">Marseille</a></li>
+            <li><a href="/municipales/2026/?ville=toulouse">Toulouse</a></li>
+            <li><a href="/municipales/2026/?ville=nice">Nice</a></li>
+            <li><a href="/municipales/2026/?ville=nantes">Nantes</a></li>
+            <li><a href="/municipales/2026/?ville=bordeaux">Bordeaux</a></li>
+            <li><a href="/municipales/2026/" class="footer__link--all">Toutes les villes <i class="ph ph-arrow-right" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Autres &eacute;lections</h3>
+          <ul class="footer__list">
+            <li><a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--soon">SOON</span></a></li>
+            <li><span class="footer__item-soon">L&eacute;gislatives 2027</span></li>
+            <li><span class="footer__item-soon">R&eacute;gionales</span></li>
+            <li><span class="footer__item-soon">Europ&eacute;ennes 2029</span></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Le projet</h3>
+          <ul class="footer__list">
+            <li><a href="/a-propos.html">&Agrave; propos</a></li>
+            <li><a href="/methodologie.html">M&eacute;thodologie</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="mailto:contact@pourquituvotes.fr">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 #POURQUITUVOTES &mdash; Projet citoyen ind&eacute;pendant</p>
+        <div class="footer__legal">
+          <a href="/municipales/2026/#" data-modal="mentions">Mentions l&eacute;gales</a>
+          <a href="/municipales/2026/#" data-modal="confidentialite">Confidentialit&eacute;</a>
+        </div>
+      </div>
+    </div>
   </footer>
 
+  <script defer src="/js/analytics.js?v=2026021002"></script>
   <script>
-    // Dark mode
-    var themeToggle = document.getElementById("theme-toggle");
-    function appliquerTheme(theme) {
-      document.documentElement.setAttribute("data-theme", theme);
-      var icone = themeToggle.querySelector(".theme-toggle__icon");
-      if (theme === "dark") {
-        icone.textContent = "\u2600\uFE0F";
-        themeToggle.title = "Activer le mode clair";
-      } else {
-        icone.textContent = "\uD83C\uDF19";
-        themeToggle.title = "Activer le mode sombre";
+    // Burger menu
+    var burgerBtn = document.getElementById('burger-btn');
+    var mobileMenu = document.getElementById('mobile-menu-overlay');
+    var mobileClose = document.getElementById('mobile-menu-close');
+    if (burgerBtn && mobileMenu) {
+      burgerBtn.addEventListener('click', function() {
+        mobileMenu.hidden = false;
+        burgerBtn.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      });
+      if (mobileClose) {
+        mobileClose.addEventListener('click', function() {
+          mobileMenu.hidden = true;
+          burgerBtn.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        });
       }
-    }
-    var themeSauve = localStorage.getItem("theme-pqtv");
-    if (themeSauve) appliquerTheme(themeSauve);
-    themeToggle.addEventListener("click", function() {
-      var actuel = document.documentElement.getAttribute("data-theme");
-      var nouveau = actuel === "dark" ? "light" : "dark";
-      appliquerTheme(nouveau);
-      localStorage.setItem("theme-pqtv", nouveau);
-    });
-
-    // Police
-    var policeStockee = localStorage.getItem("police-pqtv");
-    if (policeStockee) {
-      var COMBOS = {
-        "source": { titres: "'Source Sans 3'", texte: "'Source Sans 3'" },
-        "source+baskerville": { titres: "'Source Sans 3'", texte: "'Libre Baskerville'" }
-      };
-      var cfg = COMBOS[policeStockee];
-      if (cfg) {
-        document.documentElement.style.setProperty("--police-titres", cfg.titres);
-        document.documentElement.style.setProperty("--police-texte", cfg.texte);
-      }
+      mobileMenu.addEventListener('click', function(e) {
+        if (e.target === mobileMenu || e.target.classList.contains('mobile-menu-overlay__panel') === false && e.target.closest('.mobile-menu-overlay__panel') === null) {
+          mobileMenu.hidden = true;
+          burgerBtn.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        }
+      });
     }
   </script>
 </body>

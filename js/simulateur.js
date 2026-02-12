@@ -53,10 +53,10 @@
   ];
 
   var PICTOS = {
-    "transports": "\ud83d\ude87", "environnement": "\ud83c\udf31", "education": "\ud83c\udf93",
-    "securite": "\ud83d\udee1\ufe0f", "economie": "\ud83d\udcbc", "logement": "\ud83c\udfe0",
-    "sante": "\u2695\ufe0f", "culture": "\ud83c\udfad", "sport": "\u26bd",
-    "urbanisme": "\ud83c\udfd7\ufe0f", "democratie": "\ud83d\uddf3\ufe0f", "solidarite": "\ud83e\udd1d"
+    "transports": '<i class="ph ph-bus"></i>', "environnement": '<i class="ph ph-tree"></i>', "education": '<i class="ph ph-graduation-cap"></i>',
+    "securite": '<i class="ph ph-shield-check"></i>', "economie": '<i class="ph ph-briefcase"></i>', "logement": '<i class="ph ph-house"></i>',
+    "sante": '<i class="ph ph-first-aid"></i>', "culture": '<i class="ph ph-mask-happy"></i>', "sport": '<i class="ph ph-soccer-ball"></i>',
+    "urbanisme": '<i class="ph ph-buildings"></i>', "democratie": '<i class="ph ph-check-square"></i>', "solidarite": '<i class="ph ph-handshake"></i>'
   };
 
   // === État ===
@@ -613,7 +613,7 @@
       if (!data.candidats || data.candidats.length === 0) {
         var container = document.getElementById("sim-mode");
         container.innerHTML = '<div class="sim-empty">' +
-          '<div class="sim-empty__icon">\ud83d\udcc5</div>' +
+          '<div class="sim-empty__icon"><i class="ph ph-calendar-blank" style="font-size:2.5rem"></i></div>' +
           '<p class="sim-empty__text">Aucun candidat officiel pour ' + echapper(data.ville) + ' pour le moment.</p>' +
           '<p>Les candidats seront affich\u00e9s d\u00e8s leur d\u00e9claration officielle.</p>' +
           '<button class="sim-mode__back" onclick="window.simRetourSelection()"><i class="ph ph-arrow-left"></i> Choisir une autre ville</button>' +
@@ -704,7 +704,7 @@
     if (etat.questions.length === 0) {
       var container = document.getElementById("sim-questions");
       container.innerHTML = '<div class="sim-empty">' +
-        '<div class="sim-empty__icon">\ud83d\udcad</div>' +
+        '<div class="sim-empty__icon"><i class="ph ph-chat-dots" style="font-size:2.5rem"></i></div>' +
         '<p class="sim-empty__text">Pas assez de propositions pour g\u00e9n\u00e9rer un quiz.</p>' +
         '<button class="sim-mode__back" onclick="window.simRetourSelection()"><i class="ph ph-arrow-left"></i> Retour</button>' +
         '</div>';
@@ -717,6 +717,11 @@
 
     rendreQuestion(0);
     afficherPhase("questions");
+
+    // Analytics
+    if (window.PQTV_Analytics) {
+      PQTV_Analytics.trackQuizStart(etat.donneesElection.ville, mode);
+    }
   }
 
   function rendreQuestion(idx) {
@@ -930,6 +935,17 @@
     );
     rendreResultats();
     afficherPhase("resultats");
+
+    // Analytics
+    if (window.PQTV_Analytics && etat.resultats.classement.length > 0) {
+      var top = etat.resultats.classement[0];
+      PQTV_Analytics.trackQuizResult(
+        etat.donneesElection.ville, etat.mode,
+        top.candidat.nom, top.pourcentage,
+        etat.resultats.classement,
+        Object.keys(etat.reponses).length
+      );
+    }
   }
 
   function rendreResultats() {
@@ -952,9 +968,9 @@
       // Badge fiabilité si < 50%
       var badgeFiabilite = '';
       if (c.fiabilite < 50) {
-        badgeFiabilite = '<span class="sim-podium__fiabilite sim-podium__fiabilite--low" title="Ce candidat n\u2019a r\u00e9pondu qu\u2019\u00e0 ' + c.fiabilite + '% des th\u00e8mes du quiz">\u26a0\ufe0f Donn\u00e9es partielles (' + c.fiabilite + '%)</span>';
+        badgeFiabilite = '<span class="sim-podium__fiabilite sim-podium__fiabilite--low" title="Ce candidat n\u2019a r\u00e9pondu qu\u2019\u00e0 ' + c.fiabilite + '% des th\u00e8mes du quiz"><i class="ph ph-warning"></i> Donn\u00e9es partielles (' + c.fiabilite + '%)</span>';
       } else {
-        badgeFiabilite = '<span class="sim-podium__fiabilite" title="Ce candidat couvre ' + c.fiabilite + '% des th\u00e8mes du quiz">\u2705 ' + c.fiabilite + '% couvert</span>';
+        badgeFiabilite = '<span class="sim-podium__fiabilite" title="Ce candidat couvre ' + c.fiabilite + '% des th\u00e8mes du quiz"><i class="ph ph-check-circle" style="color:#10b981"></i> ' + c.fiabilite + '% couvert</span>';
       }
 
       html += '<div class="sim-podium__item sim-podium__item--' + rang + '" style="--couleur-candidat:' + c.couleur + '">' +
@@ -1074,7 +1090,7 @@
       html += '<div class="sim-recap__item sim-recap__item--duel">' +
         '<div class="sim-recap__item-header">' +
           '<span class="sim-recap__cat">' + pictoD + ' ' + echapper(duel.categorieNom) + ' \u2014 Duel</span>' +
-          '<span class="sim-recap__badge sim-recap__badge--duel">\u2694\ufe0f Duel</span>' +
+          '<span class="sim-recap__badge sim-recap__badge--duel"><i class="ph ph-sword"></i> Duel</span>' +
         '</div>' +
         '<div class="sim-recap__duel-pair">';
 
@@ -1092,7 +1108,7 @@
       var lienSourceA = '/municipales/2026/index.html?ville=' + encodeURIComponent(etat.villeId) +
         '&candidats=' + encodeURIComponent(duel.duel.a.candidatId) + '#' + duel.categorieId;
       html += '<div class="sim-recap__duel-card' + (isChosenA ? ' sim-recap__duel-card--chosen' : ' sim-recap__duel-card--rejected') + '">' +
-        '<div class="sim-recap__duel-status">' + (isChosenA ? '\u2705 Votre choix' : '\u274c Rejet\u00e9') + '</div>' +
+        '<div class="sim-recap__duel-status">' + (isChosenA ? '<i class="ph ph-check-circle" style="color:#10b981"></i> Votre choix' : '<i class="ph ph-x-circle" style="color:#ef4444"></i> Rejet\u00e9') + '</div>' +
         '<div class="sim-recap__proposition">\u00ab ' + rendreTexteAccordeon(duel.duel.a.texte, "recap-da-" + d) + ' \u00bb</div>' +
         '<div class="sim-recap__auteur">' +
           '<span class="sim-recap__auteur-dot" style="background:' + couleurA + '"></span> ' +
@@ -1115,7 +1131,7 @@
       var lienSourceB = '/municipales/2026/index.html?ville=' + encodeURIComponent(etat.villeId) +
         '&candidats=' + encodeURIComponent(duel.duel.b.candidatId) + '#' + duel.categorieId;
       html += '<div class="sim-recap__duel-card' + (isChosenB ? ' sim-recap__duel-card--chosen' : ' sim-recap__duel-card--rejected') + '">' +
-        '<div class="sim-recap__duel-status">' + (isChosenB ? '\u2705 Votre choix' : '\u274c Rejet\u00e9') + '</div>' +
+        '<div class="sim-recap__duel-status">' + (isChosenB ? '<i class="ph ph-check-circle" style="color:#10b981"></i> Votre choix' : '<i class="ph ph-x-circle" style="color:#ef4444"></i> Rejet\u00e9') + '</div>' +
         '<div class="sim-recap__proposition">\u00ab ' + rendreTexteAccordeon(duel.duel.b.texte, "recap-db-" + d) + ' \u00bb</div>' +
         '<div class="sim-recap__auteur">' +
           '<span class="sim-recap__auteur-dot" style="background:' + couleurB + '"></span> ' +
@@ -1141,7 +1157,7 @@
     if (!etat.resultats || !etat.resultats.classement.length) return "";
     var top = etat.resultats.classement[0];
     return "Je matche \u00e0 " + top.pourcentage + "% avec " + top.candidat.nom +
-      " sur #POURQUITUVOTES. Et vous ? \ud83d\uddf3\ufe0f";
+      " sur #POURQUITUVOTES. Et vous ?";
   }
 
   function getShareUrl() {

@@ -485,10 +485,11 @@
 
     function openOverlay() {
       if (window.innerWidth > 768) return;
+      heroInput.blur();
       overlay.hidden = false;
       document.body.style.overflow = "hidden";
       overlayInput.value = heroInput.value;
-      setTimeout(function() { overlayInput.focus(); }, 50);
+      setTimeout(function() { overlayInput.focus(); }, 150);
     }
 
     function closeOverlay() {
@@ -496,6 +497,7 @@
       document.body.style.overflow = "";
       overlayInput.value = "";
       resultsEl.innerHTML = "";
+      overlayOpen = false;
     }
 
     function doSearch(val) {
@@ -531,8 +533,14 @@
       });
     }
 
-    heroInput.addEventListener("focus", openOverlay);
-    heroInput.addEventListener("click", openOverlay);
+    var overlayOpen = false;
+    function safeOpenOverlay() {
+      if (overlayOpen) return;
+      overlayOpen = true;
+      openOverlay();
+    }
+    heroInput.addEventListener("focus", safeOpenOverlay);
+    heroInput.addEventListener("click", safeOpenOverlay);
 
     if (backBtn) backBtn.addEventListener("click", closeOverlay);
 

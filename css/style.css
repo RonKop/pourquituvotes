@@ -101,6 +101,11 @@ html {
   overflow-x: hidden;
 }
 
+/* Empêcher le zoom auto iOS sur les inputs (< 16px = zoom) */
+@media screen and (max-width: 768px) {
+  input, select, textarea { font-size: 1rem !important; }
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--couleur-fond);
@@ -278,7 +283,7 @@ li {
 .mobile-menu-overlay__close { width:40px; height:40px; border-radius:50%; border:none; background:rgba(255,255,255,0.1); color:#fff; font-size:1.25rem; cursor:pointer; display:flex; align-items:center; justify-content:center }
 .mobile-menu-overlay__search { padding:1.25rem 1.5rem 0.5rem }
 .mobile-menu-search-box { display:flex; align-items:center; gap:10px; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.2); border-radius:12px; padding:12px 16px }
-.mobile-menu-search-box input { flex:1; background:none; border:none; outline:none; color:#fff; font-size:0.95rem }
+.mobile-menu-search-box input { flex:1; background:none; border:none; outline:none; color:#fff; font-size:1rem }
 .mobile-menu-search-box input::placeholder { color:rgba(255,255,255,0.5) }
 .mobile-menu-suggestions { max-height:220px; overflow-y:auto; margin-top:8px; border-radius:10px; background:rgba(255,255,255,0.08) }
 .mobile-menu-suggestion-item { display:flex; align-items:center; gap:12px; padding:12px 16px; cursor:pointer; color:rgba(255,255,255,0.9); border-bottom:1px solid rgba(255,255,255,0.06); transition:background 0.15s }
@@ -460,7 +465,7 @@ li {
   flex: 1;
   border: none;
   background: transparent;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-family: 'DM Sans', sans-serif;
   color: var(--couleur-texte, #1e293b);
   padding: 10px 0;
@@ -3658,7 +3663,7 @@ mark {
   }
 
   .tableau-matriciel--mobile-accordion .tableau-matriciel__cell--sous-theme::after {
-    content: '▼';
+    content: '\25BC';
     position: absolute;
     right: 1rem;
     top: 50%;

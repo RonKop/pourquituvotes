@@ -1,7 +1,19 @@
 {
   "exportFormatVersion": 2,
-  "exportTime": "2026-02-12 00:00:00",
+  "exportTime": "2026-02-14 12:00:00",
   "containerVersion": {
+    "path": "accounts/0/containers/0/versions/0",
+    "accountId": "0",
+    "containerId": "0",
+    "containerVersionId": "0",
+    "container": {
+      "path": "accounts/0/containers/0",
+      "accountId": "0",
+      "containerId": "0",
+      "name": "pourquituvotes.fr",
+      "publicId": "GTM-T4CCTF6V",
+      "usageContext": ["WEB"]
+    },
     "tag": [
       {
         "accountId": "0",
@@ -13,18 +25,15 @@
           { "type": "TEMPLATE", "key": "measurementId", "value": "G-XXXXXXXXXX" },
           { "type": "BOOLEAN", "key": "sendPageView", "value": "true" }
         ],
-        "firingTriggerId": ["1"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "ad_storage": false, "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
+        "firingTriggerId": ["2147483646"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "fingerprint": "1707900000001"
       },
       {
         "accountId": "0",
         "containerId": "0",
         "tagId": "2",
-        "name": "GA4 - Event consent_update",
+        "name": "GA4 - consent_update",
         "type": "gaawe",
         "parameter": [
           { "type": "TEMPLATE", "key": "eventName", "value": "consent_update" },
@@ -37,53 +46,18 @@
             { "type": "MAP", "map": [
               { "type": "TEMPLATE", "key": "name", "value": "consent_marketing" },
               { "type": "TEMPLATE", "key": "value", "value": "{{DLV - consent_marketing}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "consent_functional" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - consent_functional}}" }
             ]}
           ]}
         ],
         "firingTriggerId": ["2"],
-        "consentSettings": { "consentStatus": "NOT_NEEDED" },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "3",
-        "name": "GA4 - Event page_view_custom",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "page_view_custom" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "page_path" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - page_path}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "page_title" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - page_title}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "referrer" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - referrer}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["3"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "fingerprint": "1707900000002"
       },
       {
         "accountId": "0",
         "containerId": "0",
         "tagId": "4",
-        "name": "GA4 - Event scroll_depth",
+        "name": "GA4 - scroll_depth",
         "type": "gaawe",
         "parameter": [
           { "type": "TEMPLATE", "key": "eventName", "value": "scroll_depth" },
@@ -96,25 +70,18 @@
             { "type": "MAP", "map": [
               { "type": "TEMPLATE", "key": "name", "value": "page_path" },
               { "type": "TEMPLATE", "key": "value", "value": "{{DLV - page_path}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "time_on_page" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - time_on_page}}" }
             ]}
           ]}
         ],
         "firingTriggerId": ["4"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "fingerprint": "1707900000004"
       },
       {
         "accountId": "0",
         "containerId": "0",
         "tagId": "5",
-        "name": "GA4 - Event city_selected",
+        "name": "GA4 - city_selected",
         "type": "gaawe",
         "parameter": [
           { "type": "TEMPLATE", "key": "eventName", "value": "city_selected" },
@@ -135,17 +102,14 @@
           ]}
         ],
         "firingTriggerId": ["5"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "fingerprint": "1707900000005"
       },
       {
         "accountId": "0",
         "containerId": "0",
         "tagId": "6",
-        "name": "GA4 - Event search_city",
+        "name": "GA4 - search_city",
         "type": "gaawe",
         "parameter": [
           { "type": "TEMPLATE", "key": "eventName", "value": "search_city" },
@@ -154,25 +118,18 @@
             { "type": "MAP", "map": [
               { "type": "TEMPLATE", "key": "name", "value": "search_term" },
               { "type": "TEMPLATE", "key": "value", "value": "{{DLV - search_term}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "search_context" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - search_context}}" }
             ]}
           ]}
         ],
         "firingTriggerId": ["6"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "fingerprint": "1707900000006"
       },
       {
         "accountId": "0",
         "containerId": "0",
         "tagId": "7",
-        "name": "GA4 - Event candidate_filter",
+        "name": "GA4 - candidate_filter",
         "type": "gaawe",
         "parameter": [
           { "type": "TEMPLATE", "key": "eventName", "value": "candidate_filter" },
@@ -185,29 +142,18 @@
             { "type": "MAP", "map": [
               { "type": "TEMPLATE", "key": "name", "value": "candidate_name" },
               { "type": "TEMPLATE", "key": "value", "value": "{{DLV - candidate_name}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "candidates_selected" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - candidates_selected}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "candidates_available" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - candidates_available}}" }
             ]}
           ]}
         ],
         "firingTriggerId": ["7"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "fingerprint": "1707900000007"
       },
       {
         "accountId": "0",
         "containerId": "0",
         "tagId": "8",
-        "name": "GA4 - Event category_view",
+        "name": "GA4 - category_view",
         "type": "gaawe",
         "parameter": [
           { "type": "TEMPLATE", "key": "eventName", "value": "category_view" },
@@ -220,79 +166,18 @@
             { "type": "MAP", "map": [
               { "type": "TEMPLATE", "key": "name", "value": "category_name" },
               { "type": "TEMPLATE", "key": "value", "value": "{{DLV - category_name}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "time_on_page" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - time_on_page}}" }
             ]}
           ]}
         ],
         "firingTriggerId": ["8"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "fingerprint": "1707900000008"
       },
       {
         "accountId": "0",
         "containerId": "0",
         "tagId": "9",
-        "name": "GA4 - Event source_verification",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "source_verification" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "candidate_name" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - candidate_name}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "category_id" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - category_id}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "source_url" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - source_url}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["9"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "10",
-        "name": "GA4 - Event view_mode_change",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "view_mode_change" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "view_mode" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - view_mode}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["10"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "11",
-        "name": "GA4 - Event outbound_click",
+        "name": "GA4 - outbound_click",
         "type": "gaawe",
         "parameter": [
           { "type": "TEMPLATE", "key": "eventName", "value": "outbound_click" },
@@ -305,29 +190,18 @@
             { "type": "MAP", "map": [
               { "type": "TEMPLATE", "key": "name", "value": "link_text" },
               { "type": "TEMPLATE", "key": "value", "value": "{{DLV - link_text}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "is_pdf" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - is_pdf}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "is_source_verification" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - is_source_verification}}" }
             ]}
           ]}
         ],
-        "firingTriggerId": ["11"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
+        "firingTriggerId": ["9"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "fingerprint": "1707900000009"
       },
       {
         "accountId": "0",
         "containerId": "0",
-        "tagId": "12",
-        "name": "GA4 - Event social_share",
+        "tagId": "10",
+        "name": "GA4 - social_share",
         "type": "gaawe",
         "parameter": [
           { "type": "TEMPLATE", "key": "eventName", "value": "social_share" },
@@ -336,332 +210,20 @@
             { "type": "MAP", "map": [
               { "type": "TEMPLATE", "key": "name", "value": "platform" },
               { "type": "TEMPLATE", "key": "value", "value": "{{DLV - platform}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "share_context" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - share_context}}" }
             ]}
           ]}
         ],
-        "firingTriggerId": ["12"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "13",
-        "name": "GA4 - Event quiz_start",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "quiz_start" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "city_name" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - city_name}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "quiz_mode" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - quiz_mode}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["13"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "14",
-        "name": "GA4 - Event quiz_step_complete",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "quiz_step_complete" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "step_number" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - step_number}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "total_steps" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - total_steps}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "category_id" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - category_id}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "answer_value" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - answer_value}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["14"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "15",
-        "name": "GA4 - Event quiz_result",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "quiz_result" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "city_name" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - city_name}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "quiz_mode" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - quiz_mode}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "top_candidate" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - top_candidate}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "top_match_pct" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - top_match_pct}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "podium_json" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - podium_json}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "questions_answered" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - questions_answered}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "time_on_page" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - time_on_page}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["15"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "16",
-        "name": "GA4 - Event quiz_early_exit",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "quiz_early_exit" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "step_at_exit" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - step_at_exit}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "total_steps" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - total_steps}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "completion_pct" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - completion_pct}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "time_on_page" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - time_on_page}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["16"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "17",
-        "name": "GA4 - Event quiz_result_share",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "quiz_result_share" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "platform" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - platform}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "top_candidate" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - top_candidate}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "top_match_pct" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - top_match_pct}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["17"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "18",
-        "name": "GA4 - Event lead_capture",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "lead_capture" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "form_type" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - form_type}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "time_on_page" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - time_on_page}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["18"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "19",
-        "name": "GA4 - Event form_submit_report",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "form_submit_report" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "report_city" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - report_city}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "report_category" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - report_category}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["19"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "20",
-        "name": "GA4 - Event faq_question_open",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "faq_question_open" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "question_id" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - question_id}}" }
-            ]},
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "question_text" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - question_text}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["20"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "21",
-        "name": "GA4 - Event modal_open",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "modal_open" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "modal_name" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - modal_name}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["21"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
-      },
-      {
-        "accountId": "0",
-        "containerId": "0",
-        "tagId": "22",
-        "name": "GA4 - Event quiz_priorities_set",
-        "type": "gaawe",
-        "parameter": [
-          { "type": "TEMPLATE", "key": "eventName", "value": "quiz_priorities_set" },
-          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Configuration" },
-          { "type": "LIST", "key": "eventParameters", "list": [
-            { "type": "MAP", "map": [
-              { "type": "TEMPLATE", "key": "name", "value": "priorities" },
-              { "type": "TEMPLATE", "key": "value", "value": "{{DLV - priorities}}" }
-            ]}
-          ]}
-        ],
-        "firingTriggerId": ["22"],
-        "consentSettings": {
-          "consentStatus": "NEEDED",
-          "consentType": { "analytics_storage": true }
-        },
-        "tagFiringOption": "ONCE_PER_EVENT"
+        "firingTriggerId": ["10"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "fingerprint": "1707900000010"
       }
     ],
     "trigger": [
       {
-        "accountId": "0", "containerId": "0", "triggerId": "1",
-        "name": "Consent - Analytics Granted (Initialization)",
-        "type": "INIT_CONSENT",
-        "filter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{Consent - analytics_storage}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "granted" }
-        ]}]
+        "accountId": "0", "containerId": "0", "triggerId": "2147483646",
+        "name": "All Pages",
+        "type": "PAGEVIEW",
+        "fingerprint": "1707900000100"
       },
       {
         "accountId": "0", "containerId": "0", "triggerId": "2",
@@ -670,16 +232,8 @@
         "customEventFilter": [{ "type": "EQUALS", "parameter": [
           { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
           { "type": "TEMPLATE", "key": "arg1", "value": "consent_update" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "3",
-        "name": "CE - page_view_custom",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "page_view_custom" }
-        ]}]
+        ]}],
+        "fingerprint": "1707900000102"
       },
       {
         "accountId": "0", "containerId": "0", "triggerId": "4",
@@ -688,7 +242,8 @@
         "customEventFilter": [{ "type": "EQUALS", "parameter": [
           { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
           { "type": "TEMPLATE", "key": "arg1", "value": "scroll_depth" }
-        ]}]
+        ]}],
+        "fingerprint": "1707900000104"
       },
       {
         "accountId": "0", "containerId": "0", "triggerId": "5",
@@ -697,7 +252,8 @@
         "customEventFilter": [{ "type": "EQUALS", "parameter": [
           { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
           { "type": "TEMPLATE", "key": "arg1", "value": "city_selected" }
-        ]}]
+        ]}],
+        "fingerprint": "1707900000105"
       },
       {
         "accountId": "0", "containerId": "0", "triggerId": "6",
@@ -706,7 +262,8 @@
         "customEventFilter": [{ "type": "EQUALS", "parameter": [
           { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
           { "type": "TEMPLATE", "key": "arg1", "value": "search_city" }
-        ]}]
+        ]}],
+        "fingerprint": "1707900000106"
       },
       {
         "accountId": "0", "containerId": "0", "triggerId": "7",
@@ -715,7 +272,8 @@
         "customEventFilter": [{ "type": "EQUALS", "parameter": [
           { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
           { "type": "TEMPLATE", "key": "arg1", "value": "candidate_filter" }
-        ]}]
+        ]}],
+        "fingerprint": "1707900000107"
       },
       {
         "accountId": "0", "containerId": "0", "triggerId": "8",
@@ -724,133 +282,28 @@
         "customEventFilter": [{ "type": "EQUALS", "parameter": [
           { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
           { "type": "TEMPLATE", "key": "arg1", "value": "category_view" }
-        ]}]
+        ]}],
+        "fingerprint": "1707900000108"
       },
       {
         "accountId": "0", "containerId": "0", "triggerId": "9",
-        "name": "CE - source_verification",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "source_verification" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "10",
-        "name": "CE - view_mode_change",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "view_mode_change" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "11",
         "name": "CE - outbound_click",
         "type": "CUSTOM_EVENT",
         "customEventFilter": [{ "type": "EQUALS", "parameter": [
           { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
           { "type": "TEMPLATE", "key": "arg1", "value": "outbound_click" }
-        ]}]
+        ]}],
+        "fingerprint": "1707900000109"
       },
       {
-        "accountId": "0", "containerId": "0", "triggerId": "12",
+        "accountId": "0", "containerId": "0", "triggerId": "10",
         "name": "CE - social_share",
         "type": "CUSTOM_EVENT",
         "customEventFilter": [{ "type": "EQUALS", "parameter": [
           { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
           { "type": "TEMPLATE", "key": "arg1", "value": "social_share" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "13",
-        "name": "CE - quiz_start",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "quiz_start" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "14",
-        "name": "CE - quiz_step_complete",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "quiz_step_complete" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "15",
-        "name": "CE - quiz_result",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "quiz_result" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "16",
-        "name": "CE - quiz_early_exit",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "quiz_early_exit" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "17",
-        "name": "CE - quiz_result_share",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "quiz_result_share" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "18",
-        "name": "CE - lead_capture",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "lead_capture" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "19",
-        "name": "CE - form_submit_report",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "form_submit_report" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "20",
-        "name": "CE - faq_question_open",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "faq_question_open" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "21",
-        "name": "CE - modal_open",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "modal_open" }
-        ]}]
-      },
-      {
-        "accountId": "0", "containerId": "0", "triggerId": "22",
-        "name": "CE - quiz_priorities_set",
-        "type": "CUSTOM_EVENT",
-        "customEventFilter": [{ "type": "EQUALS", "parameter": [
-          { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
-          { "type": "TEMPLATE", "key": "arg1", "value": "quiz_priorities_set" }
-        ]}]
+        ]}],
+        "fingerprint": "1707900000110"
       }
     ],
     "variable": [
@@ -862,7 +315,8 @@
           { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
           { "type": "TEMPLATE", "key": "defaultValue", "value": "denied" },
           { "type": "TEMPLATE", "key": "name", "value": "consent_analytics" }
-        ]
+        ],
+        "fingerprint": "1707900000201"
       },
       {
         "accountId": "0", "containerId": "0", "variableId": "2",
@@ -872,346 +326,145 @@
           { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
           { "type": "TEMPLATE", "key": "defaultValue", "value": "denied" },
           { "type": "TEMPLATE", "key": "name", "value": "consent_marketing" }
-        ]
+        ],
+        "fingerprint": "1707900000202"
       },
       {
         "accountId": "0", "containerId": "0", "variableId": "3",
-        "name": "DLV - consent_functional", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
-          { "type": "TEMPLATE", "key": "defaultValue", "value": "granted" },
-          { "type": "TEMPLATE", "key": "name", "value": "consent_functional" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "4",
         "name": "DLV - page_path", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "page_path" }
-        ]
+        ],
+        "fingerprint": "1707900000203"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "5",
+        "accountId": "0", "containerId": "0", "variableId": "4",
         "name": "DLV - page_title", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "page_title" }
-        ]
+        ],
+        "fingerprint": "1707900000204"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "6",
+        "accountId": "0", "containerId": "0", "variableId": "5",
         "name": "DLV - referrer", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "referrer" }
-        ]
+        ],
+        "fingerprint": "1707900000205"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "7",
+        "accountId": "0", "containerId": "0", "variableId": "6",
         "name": "DLV - depth_percent", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "depth_percent" }
-        ]
+        ],
+        "fingerprint": "1707900000206"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "8",
-        "name": "DLV - time_on_page", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "time_on_page" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "9",
+        "accountId": "0", "containerId": "0", "variableId": "7",
         "name": "DLV - city_name", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "city_name" }
-        ]
+        ],
+        "fingerprint": "1707900000207"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "10",
+        "accountId": "0", "containerId": "0", "variableId": "8",
         "name": "DLV - city_slug", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "city_slug" }
-        ]
+        ],
+        "fingerprint": "1707900000208"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "11",
+        "accountId": "0", "containerId": "0", "variableId": "9",
         "name": "DLV - nb_candidates", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "nb_candidates" }
-        ]
+        ],
+        "fingerprint": "1707900000209"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "12",
+        "accountId": "0", "containerId": "0", "variableId": "10",
         "name": "DLV - search_term", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "search_term" }
-        ]
+        ],
+        "fingerprint": "1707900000210"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "13",
-        "name": "DLV - search_context", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "search_context" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "14",
+        "accountId": "0", "containerId": "0", "variableId": "11",
         "name": "DLV - filter_action", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "filter_action" }
-        ]
+        ],
+        "fingerprint": "1707900000211"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "15",
+        "accountId": "0", "containerId": "0", "variableId": "12",
         "name": "DLV - candidate_name", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "candidate_name" }
-        ]
+        ],
+        "fingerprint": "1707900000212"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "16",
-        "name": "DLV - candidates_selected", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "candidates_selected" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "17",
-        "name": "DLV - candidates_available", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "candidates_available" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "18",
+        "accountId": "0", "containerId": "0", "variableId": "13",
         "name": "DLV - category_id", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "category_id" }
-        ]
+        ],
+        "fingerprint": "1707900000213"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "19",
+        "accountId": "0", "containerId": "0", "variableId": "14",
         "name": "DLV - category_name", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "category_name" }
-        ]
+        ],
+        "fingerprint": "1707900000214"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "20",
-        "name": "DLV - source_url", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "source_url" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "21",
-        "name": "DLV - view_mode", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "view_mode" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "22",
+        "accountId": "0", "containerId": "0", "variableId": "15",
         "name": "DLV - link_url", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "link_url" }
-        ]
+        ],
+        "fingerprint": "1707900000215"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "23",
+        "accountId": "0", "containerId": "0", "variableId": "16",
         "name": "DLV - link_text", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "link_text" }
-        ]
+        ],
+        "fingerprint": "1707900000216"
       },
       {
-        "accountId": "0", "containerId": "0", "variableId": "24",
-        "name": "DLV - is_pdf", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "is_pdf" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "25",
-        "name": "DLV - is_source_verification", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "is_source_verification" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "26",
+        "accountId": "0", "containerId": "0", "variableId": "17",
         "name": "DLV - platform", "type": "v",
         "parameter": [
           { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
           { "type": "TEMPLATE", "key": "name", "value": "platform" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "27",
-        "name": "DLV - share_context", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "share_context" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "28",
-        "name": "DLV - quiz_mode", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "quiz_mode" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "29",
-        "name": "DLV - step_number", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "step_number" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "30",
-        "name": "DLV - total_steps", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "total_steps" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "31",
-        "name": "DLV - answer_value", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "answer_value" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "32",
-        "name": "DLV - top_candidate", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "top_candidate" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "33",
-        "name": "DLV - top_match_pct", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "top_match_pct" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "34",
-        "name": "DLV - podium_json", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "podium_json" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "35",
-        "name": "DLV - questions_answered", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "questions_answered" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "36",
-        "name": "DLV - step_at_exit", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "step_at_exit" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "37",
-        "name": "DLV - completion_pct", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "completion_pct" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "38",
-        "name": "DLV - form_type", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "form_type" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "39",
-        "name": "DLV - report_city", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "report_city" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "40",
-        "name": "DLV - report_category", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "report_category" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "41",
-        "name": "DLV - modal_name", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "modal_name" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "42",
-        "name": "DLV - question_id", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "question_id" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "43",
-        "name": "DLV - question_text", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "question_text" }
-        ]
-      },
-      {
-        "accountId": "0", "containerId": "0", "variableId": "44",
-        "name": "DLV - priorities", "type": "v",
-        "parameter": [
-          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
-          { "type": "TEMPLATE", "key": "name", "value": "priorities" }
-        ]
+        ],
+        "fingerprint": "1707900000217"
       }
-    ]
+    ],
+    "fingerprint": "1707900000000"
   }
 }

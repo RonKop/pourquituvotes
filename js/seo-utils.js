@@ -54,3 +54,20 @@ function updateOpenGraph(title, description, url) {
   updateMeta('twitter:title', title);
   updateMeta('twitter:description', description);
 }
+
+function updateOgImage(villeId, candidatId) {
+  var base = 'https://pourquituvotes.fr/img/og/';
+  var filename;
+  if (candidatId) {
+    filename = villeId + '-' + candidatId + '.jpg';
+  } else if (villeId) {
+    filename = villeId + '.jpg';
+  } else {
+    filename = 'comparateur.jpg';
+  }
+  var url = base + filename;
+  updateMeta('og:image', url);
+  updateMeta('og:image:width', '1200');
+  updateMeta('og:image:height', '630');
+  updateMeta('twitter:image', url);
+}

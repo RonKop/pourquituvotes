@@ -415,6 +415,9 @@
         return idxA - idxB;
       });
 
+      // Attribuer des couleurs distinctes aux candidats (evite LR/RN tous deux bleus, etc.)
+      attribuerCouleursDistinctes(donneesElection.candidats);
+
       rechercheInput.disabled = false;
       rechercheInput.value = "";
       rechercheTexte = "";
@@ -691,6 +694,7 @@
     document.title = title;
     if (typeof setCanonical === "function") setCanonical(canonicalUrl);
     if (typeof updateOpenGraph === "function") updateOpenGraph(title, description, canonicalUrl);
+    if (typeof updateOgImage === "function") updateOgImage(villeId);
     if (typeof injectJsonLdBreadcrumb === "function") {
       injectJsonLdBreadcrumb([
         { name: "Accueil", url: "https://pourquituvotes.fr/" },
@@ -2419,7 +2423,7 @@
     return "DIV";
   }
 
-  function getCouleurParti(candidat, indexFallback) {
+  function getCouleurPartiBase(candidat, indexFallback) {
     var liste = (candidat.liste || "").toLowerCase();
     var keys = Object.keys(COULEURS_PARTIS);
     for (var i = 0; i < keys.length; i++) {
@@ -2428,6 +2432,46 @@
       }
     }
     return COULEURS_REP[indexFallback % COULEURS_REP.length];
+  }
+
+  function getCouleurParti(candidat, indexFallback) {
+    if (candidat.couleurAttribuee) return candidat.couleurAttribuee;
+    return getCouleurPartiBase(candidat, indexFallback);
+  }
+
+  // Distance euclidienne RGB entre deux couleurs hex
+  function distanceCouleurRGB(hex1, hex2) {
+    if (!hex1 || !hex2 || hex1.length < 7 || hex2.length < 7) return 999;
+    var r1 = parseInt(hex1.slice(1, 3), 16), g1 = parseInt(hex1.slice(3, 5), 16), b1 = parseInt(hex1.slice(5, 7), 16);
+    var r2 = parseInt(hex2.slice(1, 3), 16), g2 = parseInt(hex2.slice(3, 5), 16), b2 = parseInt(hex2.slice(5, 7), 16);
+    return Math.sqrt((r1 - r2) * (r1 - r2) + (g1 - g2) * (g1 - g2) + (b1 - b2) * (b1 - b2));
+  }
+
+  // Attribue des couleurs visuellement distinctes a chaque candidat
+  // Quand deux candidats ont des couleurs trop proches (ex: LR et RN),
+  // le second recoit une couleur de remplacement de COULEURS_REP
+  function attribuerCouleursDistinctes(candidats) {
+    var SEUIL = 65; // distance RGB en dessous de laquelle deux couleurs sont trop proches
+    var used = [];
+    candidats.forEach(function(candidat, idx) {
+      var color = getCouleurPartiBase(candidat, idx);
+      var tooClose = used.some(function(c) { return distanceCouleurRGB(color, c) < SEUIL; });
+      if (tooClose) {
+        var best = null, bestDist = -1;
+        for (var i = 0; i < COULEURS_REP.length; i++) {
+          var rep = COULEURS_REP[i];
+          var minDist = Infinity;
+          for (var j = 0; j < used.length; j++) {
+            var d = distanceCouleurRGB(rep, used[j]);
+            if (d < minDist) minDist = d;
+          }
+          if (minDist > bestDist) { bestDist = minDist; best = rep; }
+        }
+        if (best) color = best;
+      }
+      candidat.couleurAttribuee = color;
+      used.push(color);
+    });
   }
 
   // --- Mode A : Tableau matriciel ---

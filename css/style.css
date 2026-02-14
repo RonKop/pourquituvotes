@@ -343,6 +343,22 @@ li {
   border-image: linear-gradient(90deg, #002395 0%, #002395 33%, #ffffff 33%, #ffffff 66%, #ED2939 66%, #ED2939 100%) 1;
 }
 
+/* --- Intro paragraphe --- */
+.intro {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 24px 0;
+  text-align: center;
+}
+.intro__text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--couleur-texte-secondaire, #64748b);
+}
+.intro__text strong {
+  color: var(--couleur-texte, #1e293b);
+}
+
 /* --- Hero comparateur (fond bleu comme home) --- */
 .hero--comparateur {
   background: linear-gradient(135deg, #002395 0%, #001a6e 100%);

@@ -87,12 +87,8 @@
   var progressPillsCounter = document.getElementById("progress-pills-counter");
   var themeToggle = document.getElementById("dp-theme-toggle");
   var fontSelect = null; // Moved to design panel
-  var alertesSection = document.getElementById("alertes-section");
   var aucunCandidatSection = document.getElementById("aucun-candidat");
   var filAriane = document.getElementById("fil-ariane");
-  var alerteEmailInput = document.getElementById("alerte-email");
-  var btnAlerte = document.getElementById("btn-alerte");
-  var alerteMessage = document.getElementById("alerte-message");
 
   // === Hero dynamique ===
   var heroSection = document.getElementById("hero");
@@ -1399,87 +1395,6 @@
     appliquerTheme(nouveauTheme);
   }
 
-  // === Alertes programmes ===
-  function afficherAlertes() {
-    if (!donneesElection) {
-      alertesSection.hidden = true;
-      return;
-    }
-
-    var total = donneesElection.candidats.length;
-    var complets = donneesElection.candidats.filter(function(c) { return c.programmeComplet; }).length;
-    var programmesIncomplets = complets < total;
-
-    alertesSection.hidden = !programmesIncomplets;
-
-    var titreCount = document.getElementById("alertes-titre-count");
-    if (titreCount) {
-      var ville = donneesElection.ville || "";
-      var manquants = total - complets;
-      titreCount.textContent = manquants + " programme" + (manquants > 1 ? "s" : "") + " manque" + (manquants > 1 ? "nt" : "") + " encore \u00E0 " + ville;
-    }
-    var alertesDesc = alertesSection.querySelector(".alertes-texte p");
-    if (alertesDesc) {
-      alertesDesc.textContent = complets + " candidat" + (complets > 1 ? "s" : "") + " sur " + total + " " + (complets > 1 ? "ont" : "a") + " publi\u00E9 " + (complets > 1 ? "leur" : "son") + " programme officiel. Recevez une alerte d\u00E8s que tous les programmes sont disponibles.";
-    }
-  }
-
-  function validerEmail(email) {
-    var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return regex.test(email);
-  }
-
-  function afficherMessageAlerte(message, type) {
-    alerteMessage.textContent = message;
-    alerteMessage.className = "alerte-message alerte-message--" + type;
-    alerteMessage.hidden = false;
-
-    setTimeout(function() {
-      alerteMessage.hidden = true;
-    }, 5000);
-  }
-
-  function inscrireAlerte() {
-    var email = alerteEmailInput.value.trim();
-
-    if (!email) {
-      afficherMessageAlerte("Veuillez entrer une adresse email.", "error");
-      return;
-    }
-
-    if (!validerEmail(email)) {
-      afficherMessageAlerte("Veuillez entrer une adresse email valide.", "error");
-      return;
-    }
-
-    if (!villeSelectionnee) {
-      afficherMessageAlerte("Veuillez d'abord sélectionner une ville.", "error");
-      return;
-    }
-
-    // Récupérer les alertes existantes
-    var alertes = JSON.parse(localStorage.getItem("alertes-programmes") || "{}");
-
-    // Créer la clé pour cette ville
-    var villeId = villeSelectionnee.id;
-    if (!alertes[villeId]) {
-      alertes[villeId] = [];
-    }
-
-    // Vérifier si l'email est déjà inscrit pour cette ville
-    if (alertes[villeId].indexOf(email) !== -1) {
-      afficherMessageAlerte("Vous êtes déjà inscrit aux alertes pour " + villeSelectionnee.nom + ".", "error");
-      return;
-    }
-
-    // Ajouter l'email
-    alertes[villeId].push(email);
-    localStorage.setItem("alertes-programmes", JSON.stringify(alertes));
-
-    afficherMessageAlerte("✓ Inscription confirmée ! Vous serez notifié par email.", "success");
-    alerteEmailInput.value = "";
-  }
-
   // === Affichage complet ===
   // === Dates clés ===
   var DATES_CLES = [
@@ -1547,7 +1462,6 @@
       electionStats.textContent = "Aucun candidat d\u00e9clar\u00e9 pour le moment";
       aucunCandidatSection.hidden = false;
       selectionCandidatsSection.hidden = true;
-      alertesSection.hidden = true;
       repartitionSection.hidden = true;
       statistiquesSection.hidden = true;
       var treemapSec = document.getElementById("treemap-section");
@@ -1568,7 +1482,6 @@
     afficherSelectionCandidats(candidats);
     genererStatistiques(candidats);
     afficherTreemap();
-    afficherAlertes();
     afficherRepartition(candidats);
     afficherFiltres();
     afficherGrille(candidats);
@@ -3572,7 +3485,6 @@
       comparaisonContainer.hidden = true;
       aucunCandidatSection.hidden = true;
       selectionCandidatsSection.hidden = true;
-      alertesSection.hidden = true;
       statistiquesSection.hidden = true;
       etatVide.hidden = false;
       rechercheInput.disabled = true;
@@ -3897,14 +3809,6 @@
   }
   document.body.setAttribute("data-vue", vuePageActuelle);
 
-  // Gestion des alertes
-  btnAlerte.addEventListener("click", inscrireAlerte);
-  alerteEmailInput.addEventListener("keypress", function(e) {
-    if (e.key === "Enter") {
-      inscrireAlerte();
-    }
-  });
-
   // === Gestion des modales ===
   function ouvrirModal(modalId) {
     var modal = document.getElementById("modal-" + modalId);
@@ -4118,6 +4022,16 @@
   afficherChargement(true);
   chargerVilles().then(function() {
     afficherChargement(false);
+    demarrerCountdown("2026-03-15T08:00:00");
+
+    // Peupler le paragraphe intro dynamique
+    var totalCandidats = 0;
+    VILLES.forEach(function(v) { totalCandidats += (v.stats && v.stats.candidats) || 0; });
+    var introCandidats = document.getElementById("intro-candidats");
+    var introVilles = document.getElementById("intro-villes");
+    if (introCandidats) introCandidats.textContent = totalCandidats;
+    if (introVilles) introVilles.textContent = VILLES.length;
+
     chargerDepuisURL();
   }).catch(function(err) {
     console.error('Erreur chargement villes:', err);

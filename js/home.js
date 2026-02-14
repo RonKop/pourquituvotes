@@ -70,29 +70,20 @@
   // === Timeline Stats ===
   function updateTimelineStats() {
     var totalCandidats = 0;
-    var totalComplets = 0;
     var totalPropositions = 0;
 
     VILLES.forEach(function (v) {
       var s = v.stats || {};
       totalCandidats += s.candidats || 0;
-      totalComplets += s.complets || 0;
       totalPropositions += s.propositions || 0;
     });
 
-    var pct = totalCandidats > 0 ? Math.round((totalComplets / totalCandidats) * 100) : 0;
-    var fill = document.getElementById("timeline-progress-fill");
-    var text = document.getElementById("timeline-progress-text");
+    var candidatsEl = document.getElementById("timeline-candidats");
     var propEl = document.getElementById("timeline-propositions");
 
-    if (fill) fill.style.width = pct + "%";
-    if (text) text.textContent = pct + "%";
+    if (candidatsEl) candidatsEl.textContent = totalCandidats;
     if (propEl) propEl.textContent = totalPropositions;
 
-    var progressBar = document.querySelector(".timeline__progress");
-    if (progressBar) {
-      progressBar.setAttribute("aria-valuenow", pct);
-    }
   }
 
   // === Elections Grid ===

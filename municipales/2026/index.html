@@ -280,6 +280,11 @@
     </div>
   </section>
 
+  <!-- Intro -->
+  <section class="intro" id="intro-section" aria-label="Pr&eacute;sentation">
+    <p class="intro__text">Ne votez pas &agrave; l&rsquo;aveugle. <strong>#POURQUITUVOTES</strong> est la premi&egrave;re plateforme ind&eacute;pendante d&rsquo;analyse des &eacute;lections municipales 2026. Nous avons d&eacute;cortiqu&eacute; les programmes de <strong id="intro-candidats">0</strong>&nbsp;candidats dans <strong id="intro-villes">0</strong>&nbsp;villes de France pour vous proposer un comparatif neutre, th&eacute;matique et factuel. S&eacute;curit&eacute;, &eacute;cologie, transports ou logement&nbsp;: acc&eacute;dez en un clic aux propositions concr&egrave;tes qui fa&ccedil;onneront votre quotidien pour les six prochaines ann&eacute;es.</p>
+  </section>
+
   <!-- Loader overlay -->
   <div id="loader-overlay" class="loader-overlay">
     <div class="loader-spinner"></div>
@@ -308,9 +313,6 @@
         <p>La date limite de dépôt des candidatures est fixée au <strong>26 février 2026</strong>. Les candidats seront affichés dès leur déclaration officielle.</p>
       </div>
     </section>
-
-    <!-- Alertes programmes -->
-    <!-- Espace réservé (ancien emplacement alertes, déplacées après radar) -->
 
     <!-- Filtres candidats inline -->
     <section id="selection-candidats" class="filtres-candidats" hidden>
@@ -375,20 +377,6 @@
       </div>
       <div class="treemap__grille" id="treemap-grille"></div>
     </section>
-
-    <!-- Alerte programmes compacte -->
-    <div class="alertes-section" id="alertes-section" hidden>
-      <span class="alertes-icon"><i class="ph ph-bell-ringing"></i></span>
-      <div class="alertes-texte">
-        <strong id="alertes-titre-count">0 programmes sur 0 officiels</strong>
-        <p>Recevez une alerte quand tous les candidats ont publi&eacute; leur programme officiel</p>
-      </div>
-      <div class="alertes-formulaire">
-        <input type="email" id="alerte-email" class="alertes-input" placeholder="votre@email.fr" aria-label="Adresse email">
-        <button id="btn-alerte" class="btn-alerte">M'alerter</button>
-      </div>
-      <div id="alerte-message" class="alerte-message" hidden></div>
-    </div>
 
     <!-- Filtres catégories -->
     <nav id="filtres-categories" class="filtres" hidden>

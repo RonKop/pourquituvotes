@@ -3117,9 +3117,11 @@
     tableau.appendChild(entete);
 
     // Lignes pour chaque sous-thème
+    var isMobile = window.innerWidth <= 900;
     categorie.sousThemes.forEach(function(sousTheme, stIndex) {
       var ligne = document.createElement("div");
-      ligne.className = "tableau-matriciel__ligne";
+      // Sur mobile, les lignes commencent fermées (collapsed) — le tap ouvre
+      ligne.className = "tableau-matriciel__ligne" + (isMobile ? " tableau-matriciel__ligne--collapsed" : "");
 
       // Colonne du sous-thème
       var celleST = document.createElement("div");

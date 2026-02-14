@@ -3120,8 +3120,8 @@
     var isMobile = window.innerWidth <= 900;
     categorie.sousThemes.forEach(function(sousTheme, stIndex) {
       var ligne = document.createElement("div");
-      // Sur mobile, les lignes commencent fermées (collapsed) — le tap ouvre
-      ligne.className = "tableau-matriciel__ligne" + (isMobile ? " tableau-matriciel__ligne--collapsed" : "");
+      // Sur mobile, seul le 1er sous-thème est ouvert, les autres commencent fermés
+      ligne.className = "tableau-matriciel__ligne" + (isMobile && stIndex > 0 ? " tableau-matriciel__ligne--collapsed" : "");
 
       // Colonne du sous-thème
       var celleST = document.createElement("div");

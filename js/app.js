@@ -740,7 +740,18 @@
     } else {
       heroSection.classList.remove("hero--ville");
       if (heroBadgeVille) heroBadgeVille.hidden = true;
-      if (heroStats) heroStats.hidden = true;
+      // Restaurer stats globaux
+      var gc = 0, gp = 0, gt = 0;
+      VILLES.forEach(function(v) {
+        var s = v.stats || {};
+        gc += s.candidats || 0;
+        gp += s.propositions || 0;
+        if (s.themes && s.themes > gt) gt = s.themes;
+      });
+      if (heroStatCandidats) heroStatCandidats.textContent = gc;
+      if (heroStatProps) heroStatProps.textContent = gp;
+      if (heroStatThemes) heroStatThemes.textContent = gt;
+      if (heroStats) heroStats.hidden = false;
       if (quizCta) quizCta.hidden = true;
       // heroChampCandidat/Recherche supprimés (Phase 5 — search-float unifié)
     }
@@ -4024,13 +4035,26 @@
     afficherChargement(false);
     demarrerCountdown("2026-03-15T08:00:00");
 
-    // Peupler le paragraphe intro dynamique
-    var totalCandidats = 0;
-    VILLES.forEach(function(v) { totalCandidats += (v.stats && v.stats.candidats) || 0; });
+    // Peupler le paragraphe intro + hero stats globaux
+    var globalCandidats = 0;
+    var globalPropositions = 0;
+    var globalThemes = 0;
+    VILLES.forEach(function(v) {
+      var s = v.stats || {};
+      globalCandidats += s.candidats || 0;
+      globalPropositions += s.propositions || 0;
+      if (s.themes && s.themes > globalThemes) globalThemes = s.themes;
+    });
+    // Intro
     var introCandidats = document.getElementById("intro-candidats");
     var introVilles = document.getElementById("intro-villes");
-    if (introCandidats) introCandidats.textContent = totalCandidats;
+    if (introCandidats) introCandidats.textContent = globalCandidats;
     if (introVilles) introVilles.textContent = VILLES.length;
+    // Hero stats globaux (visibles par défaut)
+    if (heroStatCandidats) heroStatCandidats.textContent = globalCandidats;
+    if (heroStatProps) heroStatProps.textContent = globalPropositions;
+    if (heroStatThemes) heroStatThemes.textContent = globalThemes;
+    if (heroStats) heroStats.hidden = false;
 
     chargerDepuisURL();
   }).catch(function(err) {

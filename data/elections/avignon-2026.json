@@ -62,11 +62,27 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "fournier": null,
-            "rigault": null,
+            "fournier": {
+              "texte": "Augmenter les ressources pour le nettoyage urbain et la propreté des rues.",
+              "source": "Presse locale (Echo du Mardi)",
+              "sourceUrl": "https://www.echodumardi.com/actualite/david-fournier-il-faut-liberer-le-potentiel-davignon/"
+            },
+            "rigault": {
+              "texte": "Doubler l'effectif de la police municipale avec présence 24/24 heures.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-vaucluse/municipales-2026-a-avignon-la-securite-n-est-pas-une-mesure-de-droite-9639434"
+            },
             "louvain": null,
-            "galzi": null,
-            "fiori": null,
+            "galzi": {
+              "texte": "Recruter 60 agents de police supplémentaires pour renforcer la présence policière dans la ville.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-securite-proprete-circulation-coeur-projet-olivier-galzi-359720/"
+            },
+            "fiori": {
+              "texte": "Mettre en place une police municipale actionnée 24/7 avec création d'une brigade canine avec 6 chiens et 6 conducteurs jour et nuit.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-vaucluse/municipales-2026-a-avignon-l-entrepreneur-stephan-fiori-presente-ses-52-colistiers-issus-de-la-societe-civile-8577396"
+            },
             "jacob": null
           }
         },
@@ -75,9 +91,17 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "fournier": null,
-            "rigault": null,
+            "rigault": {
+              "texte": "Redéployer la vidéosurveillance pour améliorer la sécurité urbaine.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-vaucluse/municipales-2026-a-avignon-la-securite-n-est-pas-une-mesure-de-droite-9639434"
+            },
             "louvain": null,
-            "galzi": null,
+            "galzi": {
+              "texte": "Installer 100 caméras supplémentaires dotées d'intelligence artificielle dans les rues d'Avignon.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-securite-proprete-circulation-coeur-projet-olivier-galzi-359720/"
+            },
             "fiori": null,
             "jacob": null
           }
@@ -88,8 +112,16 @@
           "propositions": {
             "fournier": null,
             "rigault": null,
-            "louvain": null,
-            "galzi": null,
+            "louvain": {
+              "texte": "Développer une approche globale de la sécurité appelée 'tranquillité publique' plutôt que sécurité autoritaire.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/la-france-insoumise-devoile-son-programme-sur-la-securite-a-avignon-7928102"
+            },
+            "galzi": {
+              "texte": "Déployer une application mobile liée à un bouton de sécurité permettant d'alerter les forces de l'ordre en cas de danger.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-securite-proprete-circulation-coeur-projet-olivier-galzi-359720/"
+            },
             "fiori": null,
             "jacob": null
           }
@@ -116,10 +148,18 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "fournier": null,
+            "fournier": {
+              "texte": "Développer les transports publics pour réduire la congestion routière.",
+              "source": "Presse locale (Echo du Mardi)",
+              "sourceUrl": "https://www.echodumardi.com/actualite/david-fournier-il-faut-liberer-le-potentiel-davignon/"
+            },
             "rigault": null,
             "louvain": null,
-            "galzi": null,
+            "galzi": {
+              "texte": "Sortir la gare routière du centre-ville pour désengorger le trafic routier.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-securite-proprete-circulation-coeur-projet-olivier-galzi-359720/"
+            },
             "fiori": null,
             "jacob": null
           }
@@ -129,7 +169,11 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "fournier": null,
-            "rigault": null,
+            "rigault": {
+              "texte": "Désigner un responsable transport comme point de contact privilégié pour étudier les remarques des usagers et associations.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-vaucluse/municipales-2026-a-avignon-quelles-sont-les-propositions-des-candidats-sur-la-circulation-9474169"
+            },
             "louvain": null,
             "galzi": null,
             "fiori": null,
@@ -141,10 +185,22 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "fournier": null,
-            "rigault": null,
+            "rigault": {
+              "texte": "Implémenter un système à sens unique autour des remparts en sens inverse des aiguilles d'une montre avec onde verte, coût 150 000 euros.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://fr.headtopics.com/news/municipales-2026-a-avignon-stop-a-l-autophobie-le-plan-79217119"
+            },
             "louvain": null,
-            "galzi": null,
-            "fiori": null,
+            "galzi": {
+              "texte": "Revoir le plan faubourgs en concertation avec les habitants pour améliorer la circulation.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-securite-proprete-circulation-coeur-projet-olivier-galzi-359720/"
+            },
+            "fiori": {
+              "texte": "Restaurer les axes principaux en circulation bidirectionnelle, sauf là où les travaux l'empêchent.",
+              "source": "Presse locale (Infoavignon)",
+              "sourceUrl": "https://www.infoavignon.com/le-programme-de-stephan-fiori-serieux-mais-paradoxal/"
+            },
             "jacob": null
           }
         },
@@ -184,7 +240,11 @@
           "propositions": {
             "fournier": null,
             "rigault": null,
-            "louvain": null,
+            "louvain": {
+              "texte": "Créer des brigades contre les logements insalubres pour contrôler les locations saisonnières et encadrer les loyers.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/la-france-insoumise-devoile-son-programme-sur-la-securite-a-avignon-7928102"
+            },
             "galzi": null,
             "fiori": null,
             "jacob": null
@@ -208,7 +268,11 @@
           "propositions": {
             "fournier": null,
             "rigault": null,
-            "louvain": null,
+            "louvain": {
+              "texte": "Mettre en place un plafonnement des loyers pour lutter contre la spéculation immobilière.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/la-france-insoumise-devoile-son-programme-sur-la-securite-a-avignon-7928102"
+            },
             "galzi": null,
             "fiori": null,
             "jacob": null
@@ -249,8 +313,16 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "fournier": null,
-            "rigault": null,
-            "louvain": null,
+            "rigault": {
+              "texte": "Revenir à une semaine scolaire de quatre jours et demi contre les rythmes actuels.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/vaucluse-84/avignon/elections-municipales-a-avignon-la-semaine-de-quatre-jours-et-demi-dans-les-ecoles-divise-les-candidats-4664953"
+            },
+            "louvain": {
+              "texte": "Mettre en place un plan pluriannuel de rénovation des écoles d'Avignon comme investissement dans l'égalité et l'avenir.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-avignon-mathilde-louvain-devoile-programme-rupture-lfi-357552/"
+            },
             "galzi": null,
             "fiori": null,
             "jacob": null
@@ -260,7 +332,11 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "fournier": null,
+            "fournier": {
+              "texte": "Poursuivre la politique d'accès gratuit aux repas scolaires pour les familles les plus modestes.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-david-fournier-choisi-par-les-militants-socialistes-pour-etre-le-candidat-du-parti-a-avignon/"
+            },
             "rigault": null,
             "louvain": null,
             "galzi": null,
@@ -284,7 +360,11 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "fournier": null,
+            "fournier": {
+              "texte": "Priorité à la jeunesse, au logement social et à la sécurité dans le programme municipal.",
+              "source": "Presse locale (Echo du Mardi)",
+              "sourceUrl": "https://www.echodumardi.com/actualite/david-fournier-il-faut-liberer-le-potentiel-davignon/"
+            },
             "rigault": null,
             "louvain": null,
             "galzi": null,
@@ -317,7 +397,11 @@
             "fournier": null,
             "rigault": null,
             "louvain": null,
-            "galzi": null,
+            "galzi": {
+              "texte": "Renforcer la lutte contre les dépôts sauvages avec déploiement de caméras nomades.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-securite-proprete-circulation-coeur-projet-olivier-galzi-359720/"
+            },
             "fiori": null,
             "jacob": null
           }
@@ -372,7 +456,11 @@
             "rigault": null,
             "louvain": null,
             "galzi": null,
-            "fiori": null,
+            "fiori": {
+              "texte": "Créer une 'police municipale santé' pour assurer la sécurité de l'hôpital, des établissements privés qui le demandent et des pharmacies.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-vaucluse/municipales-2026-a-avignon-l-entrepreneur-stephan-fiori-presente-ses-52-colistiers-issus-de-la-societe-civile-8577396"
+            },
             "jacob": null
           }
         },
@@ -424,7 +512,11 @@
           "propositions": {
             "fournier": null,
             "rigault": null,
-            "louvain": null,
+            "louvain": {
+              "texte": "Instaurer une démocratie locale basée sur la participation des citoyens et leur contrôle des élus.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/la-france-insoumise-lance-sa-campagne-a-avignon-et-devoile-ses-premieres-mesures-7533861"
+            },
             "galzi": null,
             "fiori": null,
             "jacob": null
@@ -449,7 +541,11 @@
             "fournier": null,
             "rigault": null,
             "louvain": null,
-            "galzi": null,
+            "galzi": {
+              "texte": "Demander l'autorisation au préfet de fermer administrativement les lieux générant un trouble à l'ordre public.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-securite-proprete-circulation-coeur-projet-olivier-galzi-359720/"
+            },
             "fiori": null,
             "jacob": null
           }
@@ -569,8 +665,16 @@
             "fournier": null,
             "rigault": null,
             "louvain": null,
-            "galzi": null,
-            "fiori": null,
+            "galzi": {
+              "texte": "Reprendre le tracé initial de la liaison Est-Ouest (LEO) et mettre la pression pour obtenir les financements nécessaires.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-securite-proprete-circulation-coeur-projet-olivier-galzi-359720/"
+            },
+            "fiori": {
+              "texte": "Étudier la faisabilité d'enfouir le périphérique d'Avignon sur environ 2,5 kilomètres.",
+              "source": "Presse locale (Infoavignon)",
+              "sourceUrl": "https://www.infoavignon.com/les-ambitions-urbaines-de-stephan-fiori-sont-elles-realistes/"
+            },
             "jacob": null
           }
         },
@@ -622,7 +726,11 @@
           "propositions": {
             "fournier": null,
             "rigault": null,
-            "louvain": null,
+            "louvain": {
+              "texte": "Créer un observatoire municipal contre les discriminations (antisémitisme, racisme, islamophobie, LGBTphobie) et le sexisme.",
+              "source": "Presse locale (France Bleu Vaucluse)",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/provence-alpes-cote-dazur/vaucluse/municipales-2026-avignon-mathilde-louvain-devoile-programme-rupture-lfi-357552/"
+            },
             "galzi": null,
             "fiori": null,
             "jacob": null

@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026021002';
+  var DATA_VERSION = '2026021401';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -41,6 +41,15 @@
         ELECTIONS[id] = data;
         return data;
       });
+  }
+
+  function nomFamille(nom) {
+    var parts = nom.trim().split(/\s+/);
+    return parts.length > 1 ? parts[parts.length - 1] : parts[0];
+  }
+
+  function triNomFamille(a, b) {
+    return nomFamille(a.nom).localeCompare(nomFamille(b.nom), "fr");
   }
 
   function afficherChargement(visible) {
@@ -118,6 +127,7 @@
   var suggestionActive = -1;
   var villeSelectionnee = null;
   var candidatsSelectionnes = [];
+  var FOCUS_MAX = 3;
   var chartsInstances = {};
 
   // === Recherche de ville ===
@@ -154,23 +164,25 @@
     }
 
     villes.forEach(function (ville, index) {
-      var div = document.createElement("div");
-      div.className = "ville-suggestion";
-      div.dataset.index = index;
-      div.dataset.electionId = ville.elections[0];
+      var a = document.createElement("a");
+      a.className = "ville-suggestion";
+      a.href = "?ville=" + encodeURIComponent(ville.id);
+      a.dataset.index = index;
+      a.dataset.electionId = ville.elections[0];
 
       var nomHTML = surligner(echapper(ville.nom), terme);
       var codeHTML = surligner(echapper(ville.codePostal), terme);
 
-      div.innerHTML =
+      a.innerHTML =
         '<span class="ville-suggestion__nom">' + nomHTML + '</span>' +
         '<span class="ville-suggestion__code">' + codeHTML + '</span>';
 
-      div.addEventListener("click", function () {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
         selectionnerVille(ville);
       });
 
-      villeSuggestionsContainer.appendChild(div);
+      villeSuggestionsContainer.appendChild(a);
     });
 
     villeSuggestionsContainer.hidden = false;
@@ -262,22 +274,24 @@
     }
 
     resultats.forEach(function (r, index) {
-      var div = document.createElement("div");
-      div.className = "candidat-suggestion";
-      div.dataset.index = index;
+      var a = document.createElement("a");
+      a.className = "candidat-suggestion";
+      a.href = "candidat.html?ville=" + encodeURIComponent(r.villeId) + "&candidat=" + encodeURIComponent(r.candidatId);
+      a.dataset.index = index;
 
       var nomHTML = surligner(echapper(r.candidatNom), terme);
 
-      div.innerHTML =
+      a.innerHTML =
         '<span class="candidat-suggestion__nom">' + nomHTML + '</span>' +
         '<span class="candidat-suggestion__ville">\u2014 ' + echapper(r.villeNom) + '</span>' +
         '<span class="candidat-suggestion__liste">(' + echapper(r.liste) + ')</span>';
 
-      div.addEventListener("click", function () {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
         selectionnerCandidatRecherche(r);
       });
 
-      candidatSuggestionsContainer.appendChild(div);
+      candidatSuggestionsContainer.appendChild(a);
     });
 
     candidatSuggestionsContainer.hidden = false;
@@ -421,6 +435,7 @@
 
       mettreAJourMetadonnees();
       mettreAJourFilAriane(donneesElection.ville);
+      updateComparateurSEO();
       afficherElection();
       afficherChargement(false);
 
@@ -644,7 +659,7 @@
       return;
     }
     var villeId = villeSelectionnee ? villeSelectionnee.id : ville.toLowerCase().replace(/\s+/g, '-');
-    var urlVille = '/municipales/2026/?ville=' + villeId;
+    var urlVille = '/municipales/2026/?ville=' + encodeURIComponent(villeId);
 
     filAriane.innerHTML = '<ol class="fil-ariane__liste" itemscope itemtype="https://schema.org/BreadcrumbList">' +
       '<li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">' +
@@ -661,6 +676,32 @@
       '</li>' +
     '</ol>';
     filAriane.hidden = false;
+  }
+
+  function updateComparateurSEO() {
+    if (!donneesElection || !villeSelectionnee) return;
+    var ville = donneesElection.ville;
+    var villeId = villeSelectionnee.id;
+    var nbCandidats = donneesElection.candidats.length;
+    var totalProps = 0;
+    donneesElection.categories.forEach(function (cat) {
+      totalProps += compterPropositionsCategorie(cat);
+    });
+
+    var title = "Municipales " + ville + " 2026 \u2014 Comparez les candidats | #POURQUITUVOTES";
+    var description = nbCandidats + " candidats, " + totalProps + " propositions. Comparez les programmes pour les municipales " + ville + " 2026.";
+    var canonicalUrl = "https://pourquituvotes.fr/municipales-2026/" + villeId;
+
+    document.title = title;
+    if (typeof setCanonical === "function") setCanonical(canonicalUrl);
+    if (typeof updateOpenGraph === "function") updateOpenGraph(title, description, canonicalUrl);
+    if (typeof injectJsonLdBreadcrumb === "function") {
+      injectJsonLdBreadcrumb([
+        { name: "Accueil", url: "https://pourquituvotes.fr/" },
+        { name: "Municipales 2026", url: "https://pourquituvotes.fr/municipales/2026/" },
+        { name: ville }
+      ]);
+    }
   }
 
   // === Hero dynamique ===
@@ -768,7 +809,7 @@
     filtresListe.innerHTML = "";
 
     if (candidatsSelectionnes.length === 0) {
-      candidatsSelectionnes = candidats.map(function (c) { return c.id; });
+      candidatsSelectionnes = selectionnerTop3(candidats);
     }
 
     candidats.forEach(function (candidat, idx) {
@@ -785,6 +826,12 @@
         chip.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
       }
       chip.dataset.candidatId = candidat.id;
+      if (!estActif && candidatsSelectionnes.length >= FOCUS_MAX) {
+        chip.classList.add("filtres-candidats__chip--will-evict");
+        var oldestId = candidatsSelectionnes[0];
+        var oldestC = candidats.find(function(c2) { return c2.id === oldestId; });
+        chip.title = oldestC ? "Remplacera " + oldestC.nom : "";
+      }
 
       var cb = document.createElement("span");
       cb.className = "filtres-candidats__chip-cb";
@@ -800,23 +847,36 @@
       filtresListe.appendChild(chip);
     });
 
+    // Compteur X / FOCUS_MAX
+    var compteurEl = selectionCandidatsSection.querySelector(".filtres-candidats__compteur");
+    if (!compteurEl) {
+      compteurEl = document.createElement("span");
+      compteurEl.className = "filtres-candidats__compteur";
+      var headerEl = selectionCandidatsSection.querySelector(".filtres-candidats__header");
+      var actionsEl = headerEl.querySelector(".filtres-candidats__actions");
+      headerEl.insertBefore(compteurEl, actionsEl);
+    }
+    compteurEl.textContent = candidatsSelectionnes.length + " / " + FOCUS_MAX;
+    compteurEl.classList.toggle("filtres-candidats__compteur--full", candidatsSelectionnes.length >= FOCUS_MAX);
+
     selectionCandidatsSection.hidden = false;
 
     // Init boutons Tous / Aucun (une seule fois)
     if (!filtresInitialise) {
       filtreBtnTous.addEventListener("click", function () {
-        candidatsSelectionnes = donneesElection.candidats.map(function (c) { return c.id; });
-        var cands = donneesElection.candidats.slice().sort(function (a, b) { return a.nom.localeCompare(b.nom, "fr"); });
+        candidatsSelectionnes = selectionnerTop3(donneesElection.candidats);
+        var cands = donneesElection.candidats.slice().sort(function (a, b) { return triNomFamille(a, b); });
         afficherSelectionCandidats(cands);
         afficherRepartition(cands);
         afficherGrille(cands);
         genererStatistiques(cands);
         mettreAJourURL();
+        afficherToast("Top " + FOCUS_MAX + " candidats sélectionnés");
       });
       filtreBtnAucun.addEventListener("click", function () {
         if (donneesElection.candidats.length > 0) {
           candidatsSelectionnes = [donneesElection.candidats[0].id];
-          var cands = donneesElection.candidats.slice().sort(function (a, b) { return a.nom.localeCompare(b.nom, "fr"); });
+          var cands = donneesElection.candidats.slice().sort(function (a, b) { return triNomFamille(a, b); });
           afficherSelectionCandidats(cands);
           afficherRepartition(cands);
           afficherGrille(cands);
@@ -826,6 +886,7 @@
         }
       });
       filtresInitialise = true;
+      filtreBtnTous.innerHTML = "&#x2713; Top " + FOCUS_MAX;
     }
 
     // === Bottom sheet mobile ===
@@ -844,7 +905,7 @@
   function mettreAJourMobileFiltre(candidats) {
     if (!mobileFilterBtn || !donneesElection) return;
     mobileFilterBtn.hidden = false;
-    mobileFilterBadge.textContent = candidatsSelectionnes.length;
+    mobileFilterBadge.textContent = candidatsSelectionnes.length + "/" + FOCUS_MAX;
   }
 
   function ouvrirMobileFiltre() {
@@ -853,7 +914,7 @@
     mobileSelectionsTemp = candidatsSelectionnes.slice();
 
     var candidats = donneesElection.candidats.slice().sort(function(a, b) {
-      return a.nom.localeCompare(b.nom, "fr");
+      return triNomFamille(a, b);
     });
 
     candidats.forEach(function(candidat, idx) {
@@ -884,6 +945,11 @@
       item.addEventListener("click", function() {
         var pos = mobileSelectionsTemp.indexOf(candidat.id);
         if (pos === -1) {
+          if (mobileSelectionsTemp.length >= FOCUS_MAX) {
+            var evictedId = mobileSelectionsTemp.shift();
+            var evictedItem = mobileFilterListe.querySelector('[data-candidat-id="' + evictedId + '"]');
+            if (evictedItem) evictedItem.classList.remove("mobile-filtre-item--active");
+          }
           mobileSelectionsTemp.push(candidat.id);
           item.classList.add("mobile-filtre-item--active");
         } else {
@@ -892,6 +958,9 @@
             item.classList.remove("mobile-filtre-item--active");
           }
         }
+        // Mettre à jour le header compteur
+        var mobileH3 = mobileFilterSheet.querySelector("h3");
+        if (mobileH3) mobileH3.textContent = "Filtrer les candidats (" + mobileSelectionsTemp.length + "/" + FOCUS_MAX + ")";
       });
 
       mobileFilterListe.appendChild(item);
@@ -907,15 +976,25 @@
   }
 
   function appliquerMobileFiltre() {
-    candidatsSelectionnes = mobileSelectionsTemp.slice();
+    var selections = mobileSelectionsTemp.slice();
+    if (selections.length > FOCUS_MAX) {
+      selections = selections.slice(selections.length - FOCUS_MAX);
+    }
+    candidatsSelectionnes = selections;
     var cands = donneesElection.candidats.slice().sort(function(a, b) {
-      return a.nom.localeCompare(b.nom, "fr");
+      return triNomFamille(a, b);
     });
     afficherSelectionCandidats(cands);
     afficherRepartition(cands);
     afficherGrille(cands);
     genererStatistiques(cands);
     mettreAJourURL();
+    if (window.PQTV_Analytics && PQTV_Analytics.trackCandidateFocusChange) {
+      PQTV_Analytics.trackCandidateFocusChange(
+        getCandidatsActifs().map(function(c) { return c.nom; }),
+        candidatsSelectionnes.length
+      );
+    }
     fermerMobileFiltre();
   }
 
@@ -936,6 +1015,11 @@
     var index = candidatsSelectionnes.indexOf(candidatId);
 
     if (index === -1) {
+      if (candidatsSelectionnes.length >= FOCUS_MAX) {
+        var evicted = candidatsSelectionnes.shift();
+        var evictedC = donneesElection.candidats.find(function(c) { return c.id === evicted; });
+        if (evictedC) afficherToast(evictedC.nom + " remplacé(e) (max " + FOCUS_MAX + ")");
+      }
       candidatsSelectionnes.push(candidatId);
     } else {
       // Empêcher de tout désélectionner
@@ -948,7 +1032,7 @@
     }
 
     var candidats = donneesElection.candidats.slice().sort(function (a, b) {
-      return a.nom.localeCompare(b.nom, "fr");
+      return triNomFamille(a, b);
     });
 
     afficherSelectionCandidats(candidats);
@@ -957,6 +1041,12 @@
     genererStatistiques(candidats);
     afficherTreemap();
     mettreAJourURL();
+    if (window.PQTV_Analytics && PQTV_Analytics.trackCandidateFocusChange) {
+      PQTV_Analytics.trackCandidateFocusChange(
+        getCandidatsActifs().map(function(c) { return c.nom; }),
+        candidatsSelectionnes.length
+      );
+    }
   }
 
   function getCandidatsActifs() {
@@ -964,27 +1054,49 @@
     return donneesElection.candidats.filter(function (c) {
       return candidatsSelectionnes.indexOf(c.id) !== -1;
     }).sort(function (a, b) {
-      return a.nom.localeCompare(b.nom, "fr");
+      return triNomFamille(a, b);
     });
+  }
+
+  function getTousCandidatsTries() {
+    if (!donneesElection) return [];
+    return donneesElection.candidats.slice().sort(function (a, b) {
+      return triNomFamille(a, b);
+    });
+  }
+
+  function selectionnerTop3(candidats) {
+    return candidats.slice(0, FOCUS_MAX).map(function(c) { return c.id; });
   }
 
   // === Partage et permaliens ===
   function mettreAJourURL() {
     if (!donneesElection || !villeSelectionnee) return;
 
-    var params = new URLSearchParams();
-    params.set("ville", villeSelectionnee.id);
-
-    if (categorieActive && categorieActive !== "toutes") {
-      params.set("theme", categorieActive);
+    var isCleanUrl = /\/municipales-2026\//.test(window.location.pathname);
+    if (isCleanUrl) {
+      var newPath = '/municipales-2026/' + villeSelectionnee.id;
+      var extras = new URLSearchParams();
+      if (categorieActive && categorieActive !== "toutes") {
+        extras.set("theme", categorieActive);
+      }
+      if (candidatsSelectionnes.length < donneesElection.candidats.length) {
+        extras.set("candidats", candidatsSelectionnes.join(","));
+      }
+      var newUrl = newPath + (extras.toString() ? '?' + extras.toString() : '');
+      window.history.replaceState({}, "", newUrl);
+    } else {
+      var params = new URLSearchParams();
+      params.set("ville", villeSelectionnee.id);
+      if (categorieActive && categorieActive !== "toutes") {
+        params.set("theme", categorieActive);
+      }
+      if (candidatsSelectionnes.length < donneesElection.candidats.length) {
+        params.set("candidats", candidatsSelectionnes.join(","));
+      }
+      var newUrl = window.location.pathname + "?" + params.toString();
+      window.history.replaceState({}, "", newUrl);
     }
-
-    if (candidatsSelectionnes.length < donneesElection.candidats.length) {
-      params.set("candidats", candidatsSelectionnes.join(","));
-    }
-
-    var newUrl = window.location.pathname + "?" + params.toString();
-    window.history.replaceState({}, "", newUrl);
   }
 
   function genererURLAvecUTM(medium) {
@@ -1012,6 +1124,10 @@
   function chargerDepuisURL() {
     var params = new URLSearchParams(window.location.search);
     var villeId = params.get("ville");
+    if (!villeId) {
+      var pathMatch = window.location.pathname.match(/\/municipales-2026\/([^\/]+)/);
+      if (pathMatch) villeId = decodeURIComponent(pathMatch[1]);
+    }
 
     if (villeId) {
       var villeIdNorm = villeId.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -1023,7 +1139,9 @@
       if (ville) {
         var candidatsParam = params.get("candidats");
         if (candidatsParam) {
-          candidatsSelectionnes = candidatsParam.split(",");
+          var fromUrl = candidatsParam.split(",");
+          if (fromUrl.length > FOCUS_MAX) fromUrl = fromUrl.slice(fromUrl.length - FOCUS_MAX);
+          candidatsSelectionnes = fromUrl;
         }
 
         villeSearchInput.value = ville.nom + " (" + ville.codePostal + ")";
@@ -1269,7 +1387,7 @@
     // Régénérer les statistiques si elles existent
     if (donneesElection && !statistiquesSection.hidden) {
       var candidats = donneesElection.candidats.slice().sort(function (a, b) {
-        return a.nom.localeCompare(b.nom, "fr");
+        return triNomFamille(a, b);
       });
       genererStatistiques(candidats);
     }
@@ -1297,8 +1415,12 @@
     var titreCount = document.getElementById("alertes-titre-count");
     if (titreCount) {
       var ville = donneesElection.ville || "";
-      var annee = donneesElection.annee || "";
-      titreCount.textContent = "Municipales " + ville + " " + annee + " : " + complets + " programme" + (complets > 1 ? "s" : "") + " officiel" + (complets > 1 ? "s" : "") + " publi\u00E9" + (complets > 1 ? "s" : "") + " sur " + total;
+      var manquants = total - complets;
+      titreCount.textContent = manquants + " programme" + (manquants > 1 ? "s" : "") + " manque" + (manquants > 1 ? "nt" : "") + " encore \u00E0 " + ville;
+    }
+    var alertesDesc = alertesSection.querySelector(".alertes-texte p");
+    if (alertesDesc) {
+      alertesDesc.textContent = complets + " candidat" + (complets > 1 ? "s" : "") + " sur " + total + " " + (complets > 1 ? "ont" : "a") + " publi\u00E9 " + (complets > 1 ? "leur" : "son") + " programme officiel. Recevez une alerte d\u00E8s que tous les programmes sont disponibles.";
     }
   }
 
@@ -1398,7 +1520,7 @@
     if (!donneesElection) return;
 
     var candidats = donneesElection.candidats.slice().sort(function (a, b) {
-      return a.nom.localeCompare(b.nom, "fr");
+      return triNomFamille(a, b);
     });
 
     var totalPropositions = 0;
@@ -1470,7 +1592,7 @@
       return;
     }
 
-    var candidats = getCandidatsActifs();
+    var candidats = getTousCandidatsTries();
 
     // Détruire les anciens graphiques
     // if (chartsInstances.total) {
@@ -1570,9 +1692,10 @@
     //   });
     // }
 
-    // === Radar chart — Radar de Puissance (Volume Brut) ===
+    // === Radar chart — Radar de Puissance ===
     var radarComparer = document.getElementById("radar-vue-comparer");
     var radarCandidatsSelectionnes = [];
+    var radarModeNormalise = true; // true = couverture %, false = volume brut
 
     if (donneesElection && radarComparer) {
       var categories = donneesElection.categories;
@@ -1590,19 +1713,40 @@
         return "rgba(" + r + "," + g + "," + b + "," + alpha + ")";
       }
 
-      // Données brutes directes (nombre de propositions par catégorie)
+      // Données par candidat selon le mode (brut ou couverture %)
       function getDataCandidat(candidat) {
         return categories.map(function(cat) {
+          if (radarModeNormalise) {
+            return calculerCouverture(cat, candidat.id).pct;
+          }
           return compterPropositionsCandidat(cat, candidat.id);
         });
       }
 
-      // Moyenne brute par catégorie (tous candidats)
-      var moyenneParCategorie = categories.map(function(cat) {
-        var total = 0;
-        candidats.forEach(function(c) { total += compterPropositionsCandidat(cat, c.id); });
-        return candidats.length > 0 ? Math.round(total / candidats.length * 10) / 10 : 0;
-      });
+      // Calculer la moyenne selon le mode actif
+      function calculerMoyenneRadar() {
+        return categories.map(function(cat) {
+          var total = 0;
+          candidats.forEach(function(c) {
+            total += radarModeNormalise
+              ? calculerCouverture(cat, c.id).pct
+              : compterPropositionsCandidat(cat, c.id);
+          });
+          return candidats.length > 0 ? Math.round(total / candidats.length * 10) / 10 : 0;
+        });
+      }
+
+      // Max dynamique pour le mode brut
+      function getMaxBrut() {
+        var maxVal = 0;
+        candidats.forEach(function(c) {
+          categories.forEach(function(cat) {
+            var v = compterPropositionsCandidat(cat, c.id);
+            if (v > maxVal) maxVal = v;
+          });
+        });
+        return Math.ceil((maxVal + 1) / 2) * 2; // arrondir au pair supérieur
+      }
 
       var LABELS_COURTS = {
         "S\u00E9curit\u00E9 & Pr\u00E9vention": "S\u00E9curit\u00E9",
@@ -1620,8 +1764,10 @@
       };
       var labelsRadar = categories.map(function(cat) { return LABELS_COURTS[cat.nom] || cat.nom; });
 
-      // Options radar — données brutes, suggestedMax 10, grille circulaire
+      // Options radar — échelle dynamique selon le mode
       function getRadarOptions() {
+        var scaleMax = radarModeNormalise ? 100 : getMaxBrut();
+        var step = radarModeNormalise ? 25 : (scaleMax <= 6 ? 1 : 2);
         return {
           responsive: true,
           maintainAspectRatio: true,
@@ -1638,8 +1784,11 @@
                 label: function(ctx) {
                   var candidatNom = ctx.dataset.label || "";
                   var themeNom = ctx.chart.data.labels[ctx.dataIndex] || "";
-                  var nb = ctx.parsed.r;
-                  return candidatNom + " \u2014 " + nb + " proposition" + (nb > 1 ? "s" : "") + " en " + themeNom;
+                  var val = ctx.parsed.r;
+                  if (radarModeNormalise) {
+                    return candidatNom + " \u2014 " + val + "% de couverture en " + themeNom;
+                  }
+                  return candidatNom + " \u2014 " + val + " proposition" + (val > 1 ? "s" : "") + " en " + themeNom;
                 }
               }
             }
@@ -1647,12 +1796,15 @@
           scales: {
             r: {
               min: 0,
-              suggestedMax: 10,
+              suggestedMax: scaleMax,
               ticks: {
                 color: couleurTexteRadar,
                 backdropColor: "transparent",
-                stepSize: 2,
-                callback: function(v) { return v === 0 ? "" : v; }
+                stepSize: step,
+                callback: function(v) {
+                  if (v === 0) return "";
+                  return radarModeNormalise ? v + "%" : v;
+                }
               },
               grid: { color: couleurGrilleRadar, circular: true },
               angleLines: { color: couleurGrilleRadar },
@@ -1683,6 +1835,44 @@
         var selDiv = document.getElementById("radar-selection-candidats");
         selDiv.innerHTML = "";
         radarCandidatsSelectionnes = [];
+
+        // Toggle mode brut / couverture
+        var modeToggleWrap = document.createElement("div");
+        modeToggleWrap.className = "radar-mode-toggle-wrap";
+        var modeToggle = document.createElement("div");
+        modeToggle.className = "radar-mode-toggle";
+        var btnCouverture = document.createElement("button");
+        btnCouverture.className = "radar-mode-toggle__btn" + (radarModeNormalise ? " radar-mode-toggle__btn--active" : "");
+        btnCouverture.textContent = "Couverture (%)";
+        var btnBrut = document.createElement("button");
+        btnBrut.className = "radar-mode-toggle__btn" + (!radarModeNormalise ? " radar-mode-toggle__btn--active" : "");
+        btnBrut.textContent = "Volume brut";
+        var infoBtn = document.createElement("span");
+        infoBtn.className = "radar-mode-toggle__info";
+        infoBtn.innerHTML = '<i class="ph ph-info"></i>';
+        infoBtn.setAttribute("tabindex", "0");
+        var infoBulle = document.createElement("span");
+        infoBulle.className = "radar-mode-toggle__tooltip";
+        infoBulle.innerHTML = '<strong>Couverture (%)</strong> : pourcentage de sous-th\u00e8mes abord\u00e9s dans chaque cat\u00e9gorie. Permet de comparer \u00e9quitablement les cat\u00e9gories entre elles (ex\u00a0: S\u00e9curit\u00e9 a 4 sous-th\u00e8mes, Sport en a 2).<br><strong>Volume brut</strong> : nombre de propositions par cat\u00e9gorie. Montre le poids num\u00e9rique, mais les cat\u00e9gories avec plus de sous-th\u00e8mes sont naturellement avantag\u00e9es.';
+        infoBtn.appendChild(infoBulle);
+
+        function switchRadarMode(normalise) {
+          radarModeNormalise = normalise;
+          btnCouverture.classList.toggle("radar-mode-toggle__btn--active", normalise);
+          btnBrut.classList.toggle("radar-mode-toggle__btn--active", !normalise);
+          // Recalculer et re-rendre le radar
+          if (radarChartComparerGlobal) {
+            radarChartComparerGlobal.options = getRadarOptions();
+            mettreAJourRadarComparer();
+          }
+        }
+        btnCouverture.addEventListener("click", function() { switchRadarMode(true); });
+        btnBrut.addEventListener("click", function() { switchRadarMode(false); });
+        modeToggle.appendChild(btnCouverture);
+        modeToggle.appendChild(btnBrut);
+        modeToggleWrap.appendChild(modeToggle);
+        modeToggleWrap.appendChild(infoBtn);
+        selDiv.appendChild(modeToggleWrap);
 
         var header = document.createElement("div");
         header.className = "filtres-candidats__header";
@@ -1778,7 +1968,7 @@
 
         radarChartComparerGlobal = new Chart(canvasComparer, {
           type: "radar",
-          data: { labels: labelsRadar, datasets: [getMoyenneDataset(moyenneParCategorie)] },
+          data: { labels: labelsRadar, datasets: [getMoyenneDataset(calculerMoyenneRadar())] },
           options: getRadarOptions()
         });
 
@@ -1789,7 +1979,7 @@
 
       function mettreAJourRadarComparer() {
         if (!radarChartComparerGlobal) return;
-        var datasets = [getMoyenneDataset(moyenneParCategorie)];
+        var datasets = [getMoyenneDataset(calculerMoyenneRadar())];
         radarCandidatsSelectionnes.forEach(function(id) {
           var candidat = null;
           var idx = 0;
@@ -1830,11 +2020,14 @@
         html += 'Tous les candidats n\u2019ont pas encore publi\u00E9 leur programme officiel. ';
         html += 'Un radar plus petit ne signifie pas forc\u00E9ment moins d\u2019ambition, mais parfois simplement moins de propositions rendues publiques \u00E0 ce jour.';
         html += '<div class="methodo-legend">';
+        var villeId = donneesElection.ville ? donneesElection.ville.id || (villeSelectionnee && villeSelectionnee.id) : (villeSelectionnee && villeSelectionnee.id) || "";
         complets.forEach(function(c) {
-          html += '<span class="methodo-item"><strong class="methodo-item__nom">' + c.nom + '</strong><span class="methodo-item__statut methodo-item__statut--complet">programme officiel <i class="ph ph-check-circle"></i></span></span>';
+          var href = "candidat.html?ville=" + encodeURIComponent(villeId) + "&candidat=" + encodeURIComponent(c.id);
+          html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--complet">programme officiel <i class="ph ph-check-circle"></i></span></a>';
         });
         partiels.forEach(function(c) {
-          html += '<span class="methodo-item"><strong class="methodo-item__nom">' + c.nom + '</strong><span class="methodo-item__statut methodo-item__statut--partiel">programme \u00E0 venir <i class="ph ph-clock"></i></span></span>';
+          var href = "candidat.html?ville=" + encodeURIComponent(villeId) + "&candidat=" + encodeURIComponent(c.id);
+          html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--partiel">programme \u00E0 venir <i class="ph ph-clock"></i></span></a>';
         });
         html += '</div>';
       } else if (complets.length === tousCandidats.length) {
@@ -1895,7 +2088,7 @@
     var btnComparer = document.getElementById("treemap-btn-comparer");
     if (!treemapSection || !treemapGrille) return;
 
-    var candidatsActifs = getCandidatsActifs();
+    var candidatsActifs = getTousCandidatsTries();
 
     if (candidatsActifs.length === 0) {
       treemapSection.hidden = true;
@@ -1961,7 +2154,7 @@
     var btnComparer = document.getElementById("treemap-btn-comparer");
     if (!treemapGrille) return;
 
-    var candidatsActifs = getCandidatsActifs();
+    var candidatsActifs = getTousCandidatsTries();
     treemapGrille.innerHTML = "";
 
     // MAJ chips (état actif)
@@ -2175,7 +2368,7 @@
   function afficherRepartition(tousLesCandidats) {
     repartitionContenu.innerHTML = "";
 
-    var candidats = getCandidatsActifs();
+    var candidats = getTousCandidatsTries();
 
     // Préparer les données communes
     var donnees = preparerDonneesRepartition(candidats);
@@ -2521,6 +2714,8 @@
         partiels.push(c);
       }
     });
+    complets.sort(triNomFamille);
+    partiels.sort(triNomFamille);
 
     // Calculer l'écart de volume
     var volumes = candidats.map(function (c) { return donnees.totaux[c.id]; });
@@ -2540,10 +2735,12 @@
       html += 'Un nombre inf\u00E9rieur de propositions ne refl\u00E8te pas n\u00E9cessairement un projet moins ambitieux.</p>';
       html += '<div class="repartition-avertissement__liste">';
       complets.forEach(function (c) {
-        html += '<span class="repartition-avertissement__tag repartition-avertissement__tag--complet"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--complet">' + donnees.totaux[c.id] + ' propositions, programme officiel <i class="ph ph-check-circle"></i></span></span>';
+        var lienCandidat = '/municipales/2026/candidat.html?ville=' + encodeURIComponent(villeSelectionnee.id) + '&candidat=' + encodeURIComponent(c.id);
+        html += '<a href="' + lienCandidat + '" class="repartition-avertissement__tag repartition-avertissement__tag--complet"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--complet">' + donnees.totaux[c.id] + ' propositions, programme officiel <i class="ph ph-check-circle"></i></span></a>';
       });
       partiels.forEach(function (c) {
-        html += '<span class="repartition-avertissement__tag repartition-avertissement__tag--partiel"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--partiel">' + donnees.totaux[c.id] + ' propositions, programme \u00E0 venir <i class="ph ph-clock"></i></span></span>';
+        var lienCandidat = '/municipales/2026/candidat.html?ville=' + encodeURIComponent(villeSelectionnee.id) + '&candidat=' + encodeURIComponent(c.id);
+        html += '<a href="' + lienCandidat + '" class="repartition-avertissement__tag repartition-avertissement__tag--partiel"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--partiel">' + donnees.totaux[c.id] + ' propositions, programme \u00E0 venir <i class="ph ph-clock"></i></span></a>';
       });
       html += '</div>';
       html += '</div>';
@@ -2580,7 +2777,7 @@
     btn.addEventListener("click", function () {
       categorieActive = valeur;
       var candidats = donneesElection.candidats.slice().sort(function (a, b) {
-        return a.nom.localeCompare(b.nom, "fr");
+        return triNomFamille(a, b);
       });
       filtresContainer.querySelectorAll(".filtre-btn").forEach(function (b) {
         b.classList.toggle("filtre-btn--active", b.dataset.categorie === valeur);
@@ -2751,11 +2948,12 @@
     categoriesFiltrees.forEach(function (categorie, index) {
       var section;
       var estPremiere = index === 0;
+      var numTheme = index + 1;
       // Détecter le format : sous-thèmes ou propositions plates
       if (categorie.sousThemes) {
-        section = creerSectionAvecSousThemes(categorie, candidats, estPremiere);
+        section = creerSectionAvecSousThemes(categorie, candidats, estPremiere, numTheme);
       } else {
-        section = creerSectionCategorie(categorie, candidats, estPremiere);
+        section = creerSectionCategorie(categorie, candidats, estPremiere, numTheme);
       }
       if (section) {
         comparaisonContainer.appendChild(section);
@@ -2773,7 +2971,7 @@
   }
 
   // Nouvelle fonction pour les catégories avec sous-thèmes (format matriciel)
-  function creerSectionAvecSousThemes(categorie, candidats, estPremiere) {
+  function creerSectionAvecSousThemes(categorie, candidats, estPremiere, numTheme) {
     // Compter le nombre total de propositions
     var totalPropositions = 0;
     categorie.sousThemes.forEach(function(st) {
@@ -2796,6 +2994,7 @@
     var titreDiv = document.createElement("div");
     titreDiv.innerHTML =
       '<span class="categorie__nom">' +
+        '<span class="categorie__num-mobile">' + numTheme + '</span>' +
         '<span class="categorie__icone">' + getIconeCategorie(categorie.id) + '</span>' +
         echapper(categorie.nom) +
       '</span>';
@@ -2916,9 +3115,9 @@
 
       var badgeHTML = '';
       if (candidat.programmeComplet) {
-        badgeHTML = '<span class="badge badge--complet mini">Officiel</span>';
+        badgeHTML = '<span class="badge badge--complet mini">Programme officiel</span>';
       } else {
-        badgeHTML = '<span class="badge badge--partiel mini">\u00C0 venir</span>';
+        badgeHTML = '<span class="badge badge--partiel mini">Programme \u00E0 venir</span>';
       }
 
       var couv = calculerCouverture(categorie, candidat.id);
@@ -2950,14 +3149,14 @@
     tableau.appendChild(entete);
 
     // Lignes pour chaque sous-thème
-    categorie.sousThemes.forEach(function(sousTheme) {
+    categorie.sousThemes.forEach(function(sousTheme, stIndex) {
       var ligne = document.createElement("div");
       ligne.className = "tableau-matriciel__ligne";
 
       // Colonne du sous-thème
       var celleST = document.createElement("div");
       celleST.className = "tableau-matriciel__cell tableau-matriciel__cell--sous-theme";
-      celleST.innerHTML = '<strong>' + echapper(sousTheme.nom) + '</strong>';
+      celleST.innerHTML = '<span class="sous-theme__num-mobile">' + numTheme + '.' + (stIndex + 1) + '</span><strong>' + echapper(sousTheme.nom) + '</strong>';
       ligne.appendChild(celleST);
 
       // Gestion de l'accordéon mobile sur le sous-thème
@@ -3079,7 +3278,7 @@
     return div;
   }
 
-  function creerSectionCategorie(categorie, candidats, estPremiere) {
+  function creerSectionCategorie(categorie, candidats, estPremiere, numTheme) {
     var propositionsFiltrees = categorie.propositions;
     if (rechercheTexte) {
       var termeMin = rechercheTexte.toLowerCase();
@@ -3097,6 +3296,7 @@
     header.innerHTML =
       '<div>' +
         '<span class="categorie__nom">' +
+          '<span class="categorie__num-mobile">' + numTheme + '</span>' +
           '<span class="categorie__icone">' + getIconeCategorie(categorie.id) + '</span>' +
           echapper(categorie.nom) +
         '</span> ' +
@@ -3144,7 +3344,7 @@
       }
 
       var profilUrl = villeSelectionnee
-        ? 'candidat.html?ville=' + encodeURIComponent(villeSelectionnee.id) + '&candidat=' + encodeURIComponent(candidat.id)
+        ? '/municipales/2026/candidat.html?ville=' + encodeURIComponent(villeSelectionnee.id) + '&candidat=' + encodeURIComponent(candidat.id)
         : '#';
 
       headerCand.innerHTML =
@@ -3385,25 +3585,32 @@
     }
 
     var villesTrouvees = rechercherVilles(terme);
+    var candidatsTrouves = terme.length >= 2 ? rechercherCandidats(terme) : [];
+
+    // Aucun résultat pendant la frappe : vider les suggestions
+    if (villesTrouvees.length === 0 && candidatsTrouves.length === 0 && terme.length >= 2) {
+      afficherSuggestions(villesTrouvees, terme);
+      return;
+    }
+
     afficherSuggestions(villesTrouvees, terme);
 
     // Aussi chercher des candidats et les afficher en dessous des villes
-    if (terme.length >= 2) {
-      var candidatsTrouves = rechercherCandidats(terme);
-      if (candidatsTrouves.length > 0) {
-        candidatsTrouves.slice(0, 5).forEach(function(r) {
-          var div = document.createElement("div");
-          div.className = "ville-suggestion ville-suggestion--candidat";
-          div.innerHTML =
-            '<span class="ville-suggestion__nom"><i class="ph ph-user"></i> ' + surligner(echapper(r.candidatNom), terme) + '</span>' +
-            '<span class="ville-suggestion__code">' + echapper(r.villeNom) + ' \u2014 ' + echapper(r.liste) + '</span>';
-          div.addEventListener("click", function() {
-            selectionnerCandidatRecherche(r);
-          });
-          villeSuggestionsContainer.appendChild(div);
-        });
-        villeSuggestionsContainer.hidden = false;
-      }
+    if (candidatsTrouves.length > 0) {
+      var sep = document.createElement("div");
+      sep.className = "ville-suggestions__separator";
+      sep.textContent = "Candidats";
+      villeSuggestionsContainer.appendChild(sep);
+      candidatsTrouves.slice(0, 5).forEach(function(r) {
+        var a = document.createElement("a");
+        a.className = "ville-suggestion ville-suggestion--candidat";
+        a.href = "candidat.html?ville=" + encodeURIComponent(r.villeId) + "&candidat=" + encodeURIComponent(r.candidatId);
+        a.innerHTML =
+          '<span class="ville-suggestion__nom"><i class="ph ph-user"></i> ' + surligner(echapper(r.candidatNom), terme) + '</span>' +
+          '<span class="ville-suggestion__code">' + echapper(r.villeNom) + ' \u2014 ' + echapper(r.liste) + '</span>';
+        villeSuggestionsContainer.appendChild(a);
+      });
+      villeSuggestionsContainer.hidden = false;
     }
   });
 
@@ -3418,7 +3625,16 @@
       naviguerSuggestions(-1);
     } else if (e.key === "Enter") {
       e.preventDefault();
-      validerSuggestion();
+      var suggestions = villeSuggestionsContainer.querySelectorAll(".ville-suggestion");
+      if (suggestions.length > 0) {
+        validerSuggestion();
+      } else {
+        var terme = villeSearchInput.value.trim();
+        if (terme.length >= 2 && window.PQTV_Analytics && PQTV_Analytics.renderNoResult) {
+          PQTV_Analytics.renderNoResult(villeSuggestionsContainer, terme);
+          villeSuggestionsContainer.hidden = false;
+        }
+      }
     } else if (e.key === "Escape") {
       masquerSuggestions();
     }
@@ -3481,7 +3697,7 @@
       rechercheTexte = rechercheInput.value.trim();
       if (donneesElection) {
         var candidats = donneesElection.candidats.slice().sort(function (a, b) {
-          return a.nom.localeCompare(b.nom, "fr");
+          return triNomFamille(a, b);
         });
         afficherGrille(candidats);
       }
@@ -3507,6 +3723,8 @@
           var candidatsTrouves = rechercherCandidats(terme);
           if (candidatsTrouves.length > 0) {
             selectionnerCandidatRecherche(candidatsTrouves[0]);
+          } else if (window.PQTV_Analytics && PQTV_Analytics.renderNoResult) {
+            PQTV_Analytics.renderNoResult(villeSuggestionsContainer, terme);
           }
         }
       }
@@ -3619,7 +3837,7 @@
 
   function rafraichirPictos() {
     if (donneesElection) {
-      var cands = donneesElection.candidats.slice().sort(function(a, b) { return a.nom.localeCompare(b.nom, "fr"); });
+      var cands = donneesElection.candidats.slice().sort(function(a, b) { return triNomFamille(a, b); });
       genererSommaire();
       afficherGrille(cands);
       afficherRepartition(cands);
@@ -3662,7 +3880,7 @@
     }
     // Re-render si élection active
     if (donneesElection) {
-      var cands = donneesElection.candidats.slice().sort(function (a, b) { return a.nom.localeCompare(b.nom, "fr"); });
+      var cands = donneesElection.candidats.slice().sort(function (a, b) { return triNomFamille(a, b); });
       if (vue === "vue1") {
         repartitionSection.hidden = true;
       }
@@ -3841,26 +4059,46 @@
             return;
           }
           var results = rechercherVilles(val).slice(0, 8);
-          if (results.length === 0) {
+          var candidatResults = rechercherCandidats(val).slice(0, 5);
+
+          if (results.length === 0 && candidatResults.length === 0) {
             suggestionsEl.innerHTML = "";
             suggestionsEl.hidden = true;
             return;
           }
-          suggestionsEl.innerHTML = results.map(function(v) {
+
+          var html = results.map(function(v) {
             return '<div class="mobile-menu-suggestion-item" data-id="' + v.id + '">' +
               '<i class="ph ph-map-pin"></i>' +
               '<span>' + echapper(v.nom) + '</span>' +
               '<span class="mobile-menu-suggestion-cp">' + v.codePostal + '</span>' +
               '</div>';
           }).join("");
+
+          if (candidatResults.length > 0) {
+            if (results.length > 0) {
+              html += '<div style="padding:6px 16px;font-size:0.72rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:0.05em;border-top:1px solid #e2e8f0">Candidats</div>';
+            }
+            candidatResults.forEach(function(r) {
+              html += '<div class="mobile-menu-suggestion-item" data-ville-id="' + r.villeId + '" data-candidat-id="' + r.candidatId + '" data-candidat-nom="' + echapper(r.candidatNom) + '">' +
+                '<i class="ph ph-user"></i>' +
+                '<span>' + echapper(r.candidatNom) + '</span>' +
+                '<span class="mobile-menu-suggestion-cp">' + echapper(r.villeNom) + '</span>' +
+                '</div>';
+            });
+          }
+
+          suggestionsEl.innerHTML = html;
           suggestionsEl.hidden = false;
 
           suggestionsEl.querySelectorAll(".mobile-menu-suggestion-item").forEach(function(item) {
             item.addEventListener("click", function() {
-              var ville = VILLES.find(function(v) { return v.id === item.dataset.id; });
-              if (ville) {
-                closeMenu();
-                selectionnerVille(ville);
+              closeMenu();
+              if (item.dataset.candidatId) {
+                window.location.href = "candidat.html?ville=" + encodeURIComponent(item.dataset.villeId) + "&candidat=" + encodeURIComponent(item.dataset.candidatId);
+              } else {
+                var ville = VILLES.find(function(v) { return v.id === item.dataset.id; });
+                if (ville) selectionnerVille(ville);
               }
             });
           });

@@ -17,7 +17,7 @@
       "nom": "Anne-Sophie Frigout",
       "liste": "Rassemblement National",
       "programmeUrl": "https://frigout2026.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -76,9 +76,9 @@
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-le-maire-de-reims-arnaud-robinet-officiellement-candidat-a-sa-reelection-6025232"
             },
             "frigout": {
-              "texte": "Passer les effectifs de police municipale de 130 à 200 agents, avec création de deux commissariats de police municipale à Wilson et Châtillons",
-              "source": "France Bleu, 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-couvre-feu-brigade-anti-incivilites-a-reims-la-candidate-rn-promet-un-choc-securitaire-1742754"
+              "texte": "Porter les effectifs de police municipale à 200 agents avec renforcement des patrouilles de nuit. Création d'une brigade équestre pour la surveillance et la prévention",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/programme-securite"
             },
             "quenard": null,
             "coradel": null,
@@ -96,7 +96,11 @@
               "source": "France Bleu, 2025",
               "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-sur-france-bleu-champagne-ardenne/arnaud-robinet-maire-horizons-de-reims-8596574"
             },
-            "frigout": null,
+            "frigout": {
+              "texte": "Renforcement de la vidéosurveillance dans les zones sujettes aux dépôts sauvages et décharges illégales",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/programme-environnement"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -110,9 +114,9 @@
           "propositions": {
             "robinet": null,
             "frigout": {
-              "texte": "Instaurer un couvre-feu pour les mineurs (amende de 35€ en cas de non-respect) et créer des travaux éducatifs d'intérêt général pour les mineurs délinquants",
-              "source": "France Bleu, 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-reims-anne-sophie-frigout-candidate-du-rn-veut-imposer-un-couvre-feu-pour-les-mineurs-4876523"
+              "texte": "Couvre-feu nocturne pour les mineurs de moins de 15 ans de 23h à 6h dans les quartiers sensibles (amende de 135 euros en cas de récidive). Mise en place de travaux d'intérêt général (TIG) pour les collégiens et lycéens indisciplinés. Campagne de sensibilisation contre la consommation de drogue et lutte contre le trafic",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/programme-securite"
             },
             "quenard": null,
             "coradel": null,
@@ -144,8 +148,16 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "robinet": null,
-            "frigout": null,
+            "robinet": {
+              "texte": "Extension ambitieuse des horaires de bus et de tramway en soiree et la nuit, avec couverture de tous les quartiers et pas seulement le centre-ville.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
+            },
+            "frigout": {
+              "texte": "Repenser l'organisation des bus devenue chaotique depuis l'arrivée du BHNS : modification des trajets pour fluidifier la circulation automobile",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/accessibilite"
+            },
             "quenard": {
               "texte": "Expérimenter la gratuité des transports en commun pendant un an, d'abord pour les moins de 25 ans et le week-end pour tous",
               "source": "France Bleu, 2026",
@@ -179,7 +191,11 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Modification du plan de circulation pour le rendre plus fluide après des changements qui ont fait exploser les bouchons. Suppression immédiate de la Zone à Faibles Émissions (ZFE), jugée punitive, inefficace et socialement injuste. Arrêt des suppressions de places de stationnement à chaque travaux d'aménagement urbain",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/accessibilite"
+            },
             "quenard": null,
             "coradel": null,
             "lang": {
@@ -196,7 +212,11 @@
           "nom": "Stationnement",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Création de 500 nouvelles places de stationnement, en grande partie grâce à la construction d'un parking à étages à proximité de la gare. Gratuité du stationnement avec les \"Samedis en ville\" pendant 2h un samedi par mois",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/accessibilite"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -209,7 +229,11 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Gratuité des transports en commun pour les moins de 25 ans et les plus de 60 ans. Amélioration du service de bus et renforcement du service nocturne",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/programme-environnement"
+            },
             "quenard": null,
             "coradel": {
               "texte": "Gratuité des transports pour les moins de 26 ans et les bénéficiaires des minima sociaux, puis convention citoyenne pour une nouvelle tarification",
@@ -293,7 +317,11 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Aide a la recherche de solutions de garde pour les familles monoparentales et les parents qui travaillent.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": null,
             "coradel": null,
@@ -332,7 +360,11 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Extension des horaires du periscolaire le soir et ouverture de nouvelles places en centres de loisirs.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": null,
             "coradel": {
@@ -350,7 +382,11 @@
           "nom": "Jeunesse",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Création d'une ferme pédagogique au sein d'un parc réaménagé pour l'accueillir",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/amenagement-urbain"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -368,7 +404,11 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Plan de vegetalisation Reims Respire : verdissement massif des batiments, ecoles et espaces publics. Multiplication des caniparcs dans la ville.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": null,
             "coradel": null,
@@ -383,9 +423,9 @@
           "propositions": {
             "robinet": null,
             "frigout": {
-              "texte": "Création d'une brigade anti-incivilités contre les dépôts sauvages, le vandalisme, les nuisances de voisinage, les déjections canines et les tags",
-              "source": "France Bleu, 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-couvre-feu-brigade-anti-incivilites-a-reims-la-candidate-rn-promet-un-choc-securitaire-1742754"
+              "texte": "Création d'une brigade anti-incivilités chargée d'identifier et sanctionner les dépôts sauvages, nuisances et dégradations. Augmentation des tournées de nettoyage pour des quartiers plus propres. Sensibilisation des enfants au respect des règles de propreté et de collecte des déchets",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/programme-environnement"
             },
             "quenard": null,
             "coradel": null,
@@ -399,7 +439,11 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Éclairage public intelligent : s'allumant automatiquement en présence de piétons ou véhicules (comme à Angers) avec éclairage minimal constant pour réduire la consommation énergétique",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/programme-environnement"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -447,7 +491,11 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Creation d'une equipe mobile d'intervention rapide Sante mentale et Vulnerabilites pour une prise en charge precoce des crises de sante mentale.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": {
               "texte": "Création d'une mutuelle municipale de santé pour protéger près de 20 000 Rémois sans couverture",
@@ -464,7 +512,11 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Lancement du bus de prevention Reims Sante Express offrant des depistages gratuits (diabete, tension, VIH) avec un axe dedie a la sante des femmes (detection cardiovasculaire).",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": null,
             "coradel": null,
@@ -477,7 +529,11 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Diversification du programme 65+ avec introduction au numerique et deploiement de cafes seniors Papot'age dans les quartiers.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": null,
             "coradel": null,
@@ -535,8 +591,16 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "robinet": null,
-            "frigout": null,
+            "robinet": {
+              "texte": "Lancement de l'application Reims en Poche permettant aux citoyens de signaler des problemes, voter sur des sondages et acceder aux informations municipales.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
+            },
+            "frigout": {
+              "texte": "Rétablissement d'un maire-adjoint à la sécurité, disparu depuis 2022. Boutons SOS installés dans les commerces pour avertir rapidement les forces de l'ordre",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/programme-securite"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -555,7 +619,11 @@
           "nom": "Commerce local",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Accompagnement numérique individualisé des commerçants pour créer leur site Internet ou apprendre à utiliser l'IA. Organisation de marchés nocturnes et d'événements mettant en avant des artisans et produits du terroir. Création d'un parrainage \"Commerçants solidaires\" favorisant l'entraide entre commerces installés et jeunes entrepreneurs",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/programme-economie"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -568,7 +636,11 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Installation de \"Maisons de la Réussite\" dans plusieurs quartiers populaires de Reims pour aider des jeunes en difficulté à trouver une formation ou un travail",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/programme-economie"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -600,7 +672,11 @@
           "nom": "Équipements culturels",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Création d'un orchestre philharmonique de Reims, actuellement inexistant. Rénovation du Musée de l'Automobile avec création d'expositions numériques sur l'histoire de l'automobile",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/culture-sport"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -613,7 +689,11 @@
           "nom": "Événements & Création",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Refonte des Fêtes Johanniques présentes dans tous les quartiers, impliquant associations, écoles et bâtiments municipaux. Grand spectacle mémoriel annuel célébrant la Résistance, le Général de Gaulle et la Libération de Reims. Festival annuel d'une semaine célébrant l'art déco. Expositions itinérantes en plein air dans tous les quartiers. Décorations de Noël étendues à tous les quartiers de Reims",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/culture-sport"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -632,7 +712,11 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Accueillir un tournoi de tennis international masculin à la Reims Arena, avec matchs d'entraînement et qualifications ouverts au public",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/culture-sport"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -645,7 +729,11 @@
           "nom": "Sport pour tous",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Création des \"Olympiades rémoises\" : journée annuelle sportive où les enfants des classes primaires découvrent la pratique sportive",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/culture-sport"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -664,7 +752,11 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Plan \"Nouvelle Place d'Erlon\" : redynamisation par renforcement de la sécurité avec présence policière constante, animations annuelles et embellissement. Construction d'un parking à étages à proximité de la Place de la République et de la gare",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/amenagement-urbain"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -677,7 +769,11 @@
           "nom": "Accessibilité",
           "propositions": {
             "robinet": null,
-            "frigout": null,
+            "frigout": {
+              "texte": "Intégration systématique des personnes handicapées, familles et personnes âgées dans tous les futurs travaux de rénovation urbaine",
+              "source": "Programme officiel frigout2026.fr",
+              "sourceUrl": "https://frigout2026.fr/amenagement-urbain"
+            },
             "quenard": null,
             "coradel": null,
             "lang": null,
@@ -709,9 +805,9 @@
           "nom": "Aide sociale",
           "propositions": {
             "robinet": {
-              "texte": "Faire de Reims une ville bienveillante : protéger, accompagner et soigner les habitants à chaque étape de leur vie",
-              "source": "France 3, 2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/champagne-ardenne/arnaud-robinet-candidat-pour-un-troisieme-mandat-de-maire-a-reims-3279113.html"
+              "texte": "Objectif zero parent isole sans accompagnement : programme d'accompagnement administratif et juridique avec interlocuteur dedie pour les familles monoparentales.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
             },
             "frigout": null,
             "quenard": null,
@@ -742,7 +838,11 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Creation de la carte famille monoparentale offrant des reductions sur les activites culturelles et sportives.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": null,
             "coradel": null,

@@ -1,5 +1,31 @@
 # Changelog — #POURQUITUVOTES
 
+## [2026-02-13] Intégration propositions Aubervilliers, Calais, Montauban
+
+### Données électorales
+- **34 propositions intégrées** pour 21 candidats (3 villes)
+- Aubervilliers (10 props): Franclet, Lescaut, Karroumi, Djebbari
+- Calais (9 props): Bouchart, Fleurian, Lannoy, Lavigne
+- Montauban (15 props): Deville, Hilion, Lallemand, Chikhi, Lévi, Blanco
+- Sources: Presse locale (Citoyens.com, France 3, Radio TOTEM, etc.)
+- **Qualité**: 34/34 propositions concrètes, sources vérifiées, URL documentées
+- **Validation**: Script `valider_donnees.py` ✅ (0 erreurs sur ces 3 villes)
+
+### Fichiers générés
+- `data/elections/aubervilliers-2026.json` (+10 props)
+- `data/elections/calais-2026.json` (+9 props)
+- `data/elections/montauban-2026.json` (+15 props)
+- `RAPPORT_INTEGRATION_2026.md` (documentation complète)
+- `SUIVI_CANDIDATS_2026.csv` (suivi détaillé)
+
+### Candidats sans propositions trouvées
+- Aubervilliers: Daguet (PCF), Guerrien (DVG), Lavazec (LO)
+- Calais: Nicolas (LO), Delplanque (SE), Debaisieux (SE)
+- Montauban: Labarre (?)
+- Statut: Candidatures valides mais propositions non documentées en presse locale
+
+---
+
 ## [2026-02-10] Audit technique + optimisations perf/SEO/A11y
 
 ### Performance (Core Web Vitals)

@@ -1,7 +1,20 @@
-# Redirection après restructuration URLs (2026-02-10)
-# Ancien home.html → nouvelle racine
+# Enjeux silo
+/enjeux-2026  /enjeux-index.html  200
+/enjeux-2026/  /enjeux-index.html  200
+/enjeux-2026/:theme  /thematique.html  200
+/enjeux-2026/:theme/  /thematique.html  200
+
+# Clean URLs villes
+/municipales-2026/:ville  /municipales/2026/index.html  200
+/municipales-2026/:ville/  /municipales/2026/index.html  200
+
+# Clean URLs candidats
+/municipales-2026/:ville/candidats/:candidat  /municipales/2026/candidat.html  200
+/municipales-2026/:ville/candidats/:candidat/  /municipales/2026/candidat.html  200
+
+# Legacy
 /home /  301
 /home.html /  301
 
-# Ancien comparateur racine → nouveau chemin
+# Ancien comparateur racine
 /index.html?ville=:ville /municipales/2026/?ville=:ville 301

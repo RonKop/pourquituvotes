@@ -15,7 +15,7 @@
         ],
         "firingTriggerId": ["1"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "ad_storage": false, "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -45,7 +45,7 @@
           ]}
         ],
         "firingTriggerId": ["2"],
-        "consentSettings": { "consentStatus": "notNeeded" },
+        "consentSettings": { "consentStatus": "NOT_NEEDED" },
         "tagFiringOption": "ONCE_PER_EVENT"
       },
       {
@@ -74,7 +74,7 @@
         ],
         "firingTriggerId": ["3"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -105,7 +105,7 @@
         ],
         "firingTriggerId": ["4"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -136,7 +136,7 @@
         ],
         "firingTriggerId": ["5"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -163,7 +163,7 @@
         ],
         "firingTriggerId": ["6"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -198,7 +198,7 @@
         ],
         "firingTriggerId": ["7"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -229,7 +229,7 @@
         ],
         "firingTriggerId": ["8"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -260,7 +260,7 @@
         ],
         "firingTriggerId": ["9"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -283,7 +283,7 @@
         ],
         "firingTriggerId": ["10"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -318,7 +318,7 @@
         ],
         "firingTriggerId": ["11"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -345,7 +345,7 @@
         ],
         "firingTriggerId": ["12"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -372,7 +372,7 @@
         ],
         "firingTriggerId": ["13"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -407,7 +407,7 @@
         ],
         "firingTriggerId": ["14"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -454,7 +454,7 @@
         ],
         "firingTriggerId": ["15"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -489,7 +489,7 @@
         ],
         "firingTriggerId": ["16"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -520,7 +520,7 @@
         ],
         "firingTriggerId": ["17"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -547,7 +547,7 @@
         ],
         "firingTriggerId": ["18"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -574,7 +574,7 @@
         ],
         "firingTriggerId": ["19"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -601,7 +601,7 @@
         ],
         "firingTriggerId": ["20"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -624,7 +624,7 @@
         ],
         "firingTriggerId": ["21"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"
@@ -647,7 +647,7 @@
         ],
         "firingTriggerId": ["22"],
         "consentSettings": {
-          "consentStatus": "needed",
+          "consentStatus": "NEEDED",
           "consentType": { "analytics_storage": true }
         },
         "tagFiringOption": "ONCE_PER_EVENT"

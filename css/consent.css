@@ -36,6 +36,10 @@
 .consent-banner-overlay--visible .consent-banner {
   transform: translateY(0) scale(1);
 }
+.consent-banner__brand {
+  margin-bottom: 10px;
+  text-align: left;
+}
 .consent-banner__icon {
   font-size: 2.4rem;
   margin-bottom: 12px;

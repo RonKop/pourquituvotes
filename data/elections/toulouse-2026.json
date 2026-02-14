@@ -9,7 +9,7 @@
       "nom": "Jean-Luc Moudenc",
       "liste": "Protégeons l'avenir (DVD)",
       "programmeUrl": "https://moudenc2026.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -25,7 +25,7 @@
       "nom": "François Piquemal",
       "liste": "Demain Toulouse (LFI)",
       "programmeUrl": "https://piquemal2026.fr/le-programme/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -70,7 +70,11 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Parcours de jogging sécurisés équipés de vidéoprotection et renforcement de la sécurité de proximité dans tous les quartiers",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-2026-jean-luc-moudenc-promet-camera-chaque-rue-toulouse-344521/"
+            },
             "briancon": null,
             "piquemal": {
               "texte": "Police de proximité renforcée, priorité à la prévention et au lien social plutôt qu'aux dispositifs répressifs",
@@ -96,9 +100,9 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "moudenc": {
-              "texte": "Installer une caméra de vidéosurveillance dans chaque rue de Toulouse",
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+              "texte": "1 caméra par rue : déploiement massif de la vidéosurveillance dans toutes les rues de Toulouse pour protéger l'ordre au quotidien.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://moudenc2026.fr/"
             },
             "briancon": null,
             "piquemal": null,
@@ -122,7 +126,11 @@
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
-            "meilhac": null
+            "meilhac": {
+              "texte": "Sécurité par la présence humaine plutôt que la vidéosurveillance : favoriser la médiation et la présence de terrain.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.toulouse-nouvel-air.fr/"
+            }
           }
         },
         {
@@ -149,9 +157,9 @@
           "nom": "Transports en commun",
           "propositions": {
             "moudenc": {
-              "texte": "Prolongement du téléphérique Téléo vers Malepère pour desservir un nouveau quartier de 15 000 habitants",
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+              "texte": "Prolongement du Téléo (téléphérique urbain) vers Malepère. Toulouse se positionne comme la ville de la mobilité pour tous les Toulousains.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://moudenc2026.fr/"
             },
             "briancon": {
               "texte": "Soutien au Service Express Régional Métropolitain (SERM) et abandon du projet Jonction Est",
@@ -173,16 +181,24 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Poursuite du Réseau Express Vélo (REV) : 370 km de pistes cyclables sécurisées sur la métropole, budget vélo doublé à 80 M€",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/doubler-ligne-b-prolonger-teleo-moudenc-promet-transports-toulouse-360478/"
+            },
             "briancon": null,
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Améliorer les accès aux abords des écoles avec pistes cyclables sécurisées, chemins piétons pour enfants et arceaux vélo, dans le cadre d'une ville du quart d'heure",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-toulouse-piquemal-335000/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
             "meilhac": {
-              "texte": "Convertir les routes pénétrantes en sens unique pour créer des voies bus et pistes cyclables",
-              "source": "Le Journal Toulousain, octobre 2025",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+              "texte": "Développer les infrastructures cyclables et les mobilités douces pour réduire la congestion automobile.",
+              "source": "Site officiel Toulouse",
+              "sourceUrl": "https://www.toulouse.fr"
             }
           }
         },
@@ -197,9 +213,9 @@
             "cottrel": null,
             "adrada": null,
             "meilhac": {
-              "texte": "Réduire de 100 000 voitures dans l'aire urbaine d'ici 2032",
-              "source": "Le Journal Toulousain, octobre 2025",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+              "texte": "Fluidifier le trafic et rendre l'espace aux usagers : piétons, cyclistes et transports en commun.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.toulouse-nouvel-air.fr/"
             }
           }
         },
@@ -207,7 +223,11 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Création de 2 600 places de parking relais autour des stations de la future ligne C du métro",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/doubler-ligne-b-prolonger-teleo-moudenc-promet-transports-toulouse-360478/"
+            },
             "briancon": null,
             "piquemal": null,
             "leonardelli": null,
@@ -253,11 +273,19 @@
               "source": "Le Journal Toulousain, février 2026",
               "sourceUrl": "https://www.lejournaltoulousain.fr/"
             },
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Gel pluriannuel des loyers de Toulouse Métropole Habitat, fin des démolitions d'immeubles sans l'avis des habitants, priorité à la rénovation thermique et acoustique de l'existant (43 000 demandeurs en attente)",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-toulouse-piquemal-360785/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
-            "meilhac": null
+            "meilhac": {
+              "texte": "Augmenter l'offre de logements sociaux pour les familles et les personnes en difficulté.",
+              "source": "Site officiel Toulouse",
+              "sourceUrl": "https://www.toulouse.fr"
+            }
           }
         },
         {
@@ -266,7 +294,11 @@
           "propositions": {
             "moudenc": null,
             "briancon": null,
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Limitation des locations Airbnb à 90 jours par an et renforcement du permis de louer pour lutter contre les logements vacants et la spéculation",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-toulouse-piquemal-360785/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -312,7 +344,11 @@
               "source": "Le Journal Toulousain, février 2026",
               "sourceUrl": "https://www.lejournaltoulousain.fr/"
             },
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Priorité à la rénovation thermique et acoustique des bâtiments existants plutôt qu'aux démolitions-reconstructions, pour maintenir les habitants dans leurs quartiers",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-toulouse-piquemal-360785/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -348,7 +384,11 @@
           "propositions": {
             "moudenc": null,
             "briancon": null,
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Audit complet des écoles (amiante, isolation thermique) avec tous les acteurs scolaires, suivi d'un plan massif de rénovation et de fournitures scolaires gratuites",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-toulouse-piquemal-335000/"
+            },
             "leonardelli": {
               "texte": "Instaurer l'uniforme dans les écoles de Toulouse",
               "source": "France Bleu Occitanie, janvier 2026",
@@ -366,9 +406,9 @@
             "moudenc": null,
             "briancon": null,
             "piquemal": {
-              "texte": "Gratuité des cantines scolaires et des fournitures pour toutes les familles",
-              "source": "Mediacités Toulouse, janvier 2026",
-              "sourceUrl": "https://www.mediacites.fr/"
+              "texte": "Gratuité progressive des cantines scolaires et des fournitures, 100% de produits bio et locaux, option végétarienne quotidienne et deux repas végétariens par semaine, ouverture des cantines au quartier le midi",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-toulouse-piquemal-335000/"
             },
             "leonardelli": null,
             "cottrel": null,
@@ -386,7 +426,11 @@
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
-            "meilhac": null
+            "meilhac": {
+              "texte": "Renforcer les activités périscolaires et les loisirs pour les enfants et les adolescents.",
+              "source": "Site officiel Toulouse",
+              "sourceUrl": "https://www.toulouse.fr"
+            }
           }
         },
         {
@@ -412,20 +456,28 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Ouverture du grand parc de l'île du Ramier et du parc des berges du Touch, poursuite de la création de jardins partagés (15e jardin en 2026)",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/"
+            },
             "briancon": {
               "texte": "Toulouse ville-jardin : 3 arbres visibles depuis chaque logement, 30% de couverture végétale par quartier, espace vert à moins de 300m de chaque habitant",
               "source": "Le Journal Toulousain, février 2026",
               "sourceUrl": "https://www.lejournaltoulousain.fr/"
             },
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Transformer l'hippodrome de la Cépière en « Grand Parc Rive Gauche » de 34 hectares avec piscine, terrains de sport, aires de jeux et végétalisation massive, ouverture progressive dès 2028",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-francois-piquemal-transformer-hippodrome-parc-geant-34-hectares-361331/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
             "meilhac": {
-              "texte": "Végétalisation intensive : toits, rues et espaces publics, inspirée d'expériences d'autres villes européennes",
-              "source": "Le Journal Toulousain, octobre 2025",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+              "texte": "Transformer l'hippodrome de Toulouse en forêt urbaine : un projet emblématique de végétalisation.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.toulouse-nouvel-air.fr/"
             }
           }
         },
@@ -433,13 +485,21 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Plan propreté renforcé : ambassadeurs de la propreté dans chaque quartier (duo de résidents référents), déploiement quartier par quartier",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/"
+            },
             "briancon": null,
             "piquemal": null,
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
-            "meilhac": null
+            "meilhac": {
+              "texte": "Améliorer la propreté de la ville et mettre en place une meilleure gestion des déchets avec recyclage.",
+              "source": "Site officiel Toulouse",
+              "sourceUrl": "https://www.toulouse.fr"
+            }
           }
         },
         {
@@ -456,7 +516,11 @@
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
-            "meilhac": null
+            "meilhac": {
+              "texte": "Assurer la qualité et la disponibilité de l'eau à Toulouse face au changement climatique.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.toulouse-nouvel-air.fr/"
+            }
           }
         },
         {
@@ -465,7 +529,11 @@
           "propositions": {
             "moudenc": null,
             "briancon": null,
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Plan de 300 millions d'euros sur 12 ans pour la rénovation énergétique des bâtiments résidentiels et publics, élimination des passoires thermiques classées F et G",
+              "source": "Mediacités Toulouse, 2026",
+              "sourceUrl": "https://www.mediacites.fr/municipales-2026/toulouse/2026/01/07/francois-piquemal-10-mesures-phares-et-x-promesses/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -478,11 +546,19 @@
           "propositions": {
             "moudenc": null,
             "briancon": null,
-            "piquemal": null,
+            "piquemal": {
+              "texte": "100% de produits issus de l'agriculture biologique et locale dans les cantines, ateliers nutrition dans le périscolaire, sensibilisation au compostage et au tri des déchets",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-toulouse-piquemal-335000/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
-            "meilhac": null
+            "meilhac": {
+              "texte": "Programme alimentaire local : développer les circuits courts et l'alimentation durable à Toulouse.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.toulouse-nouvel-air.fr/"
+            }
           }
         }
       ]
@@ -495,7 +571,11 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Généralisation de la mutuelle communale à tous les Toulousains (économie de 300 €/an par adhérent), développement de groupements d'achats pour l'assurance habitation",
+              "source": "Le Journal Toulousain, février 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/impots-mutuelle-jean-luc-moudenc-promet-pouvoir-achat-toulouse-356450/"
+            },
             "briancon": null,
             "piquemal": {
               "texte": "Création de centres de santé municipaux dans les quartiers",
@@ -513,9 +593,9 @@
           "nom": "Prévention santé",
           "propositions": {
             "moudenc": {
-              "texte": "Extension de la mutuelle municipale au-delà des seniors",
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+              "texte": "Extension de la mutuelle communale à un plus grand nombre de Toulousains.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://moudenc2026.fr/"
             },
             "briancon": null,
             "piquemal": null,
@@ -548,7 +628,11 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Généralisation des budgets participatifs par quartier : 8 millions d'euros par an pour financer des projets portés par les habitants des 20 secteurs",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/"
+            },
             "briancon": null,
             "piquemal": {
               "texte": "Création de 60 coopératives de quartier avec pouvoir de décision sur l'urbanisme et la mobilité",
@@ -565,9 +649,17 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Questionnaire mensuel aux habitants sur les services publics municipaux et possibilité pour les résidents de choisir l'ordre du jour des commissions de quartier",
+              "source": "Mediacités Toulouse, 2026",
+              "sourceUrl": "https://www.mediacites.fr/municipales-2026/metropole-toulouse/"
+            },
             "briancon": null,
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Instauration de la parité sociale dans la gouvernance municipale, coopératives de quartier ouvertes à tous dès 16 ans y compris étrangers, principe « une personne, une voix »",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/ric-cooperatives-quartier-francois-piquemal-veut-refonder-democratie-toulouse-360095/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -597,7 +689,11 @@
               "source": "Le Journal Toulousain, février 2026",
               "sourceUrl": "https://www.lejournaltoulousain.fr/"
             },
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Retour de l'eau en régie publique à l'échéance de la DSP avec Véolia en 2030, tarification sociale progressive avec gratuité des 10 premiers m³ (économie de 45 €/an pour une famille de 4)",
+              "source": "Programme officiel",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -628,9 +724,9 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "moudenc": {
-              "texte": "Soutien à l'aéronautique (Airbus, Safran) et à l'industrie locale, seule liste pro-entreprise et pro-emploi",
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/"
+              "texte": "Priorité à la création d'emplois : Toulouse comme la ville de l'emploi.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://moudenc2026.fr/"
             },
             "briancon": null,
             "piquemal": null,
@@ -644,7 +740,11 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Soutien à la LGV pour relier Toulouse plus rapidement, faire de Toulouse la métropole de l'emploi et de l'innovation aéronautique et spatiale",
+              "source": "France 3 Occitanie, 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/nous-sommes-la-liste-anti-bordel-jean-luc-moudenc-a-devoile-ses-69-colistiers-pour-les-municipales-2026-3265697.html"
+            },
             "briancon": null,
             "piquemal": null,
             "leonardelli": null,
@@ -663,7 +763,11 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Création d'un « Quartier de la culture » à Montaudran avec auditorium de musique de 2 500 places (60-70 M€), extensions des musées des Augustins et Saint-Raymond",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-moudenc-quartier-de-la-culture-358598/"
+            },
             "briancon": {
               "texte": "Augmentation des dépenses culturelles et gratuité totale des bibliothèques municipales",
               "source": "Le Journal Toulousain, février 2026",
@@ -673,7 +777,11 @@
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
-            "meilhac": null
+            "meilhac": {
+              "texte": "Créer et développer les équipements culturels pour valoriser le patrimoine et la création artistique.",
+              "source": "Site officiel Toulouse",
+              "sourceUrl": "https://www.toulouse.fr"
+            }
           }
         },
         {
@@ -700,8 +808,8 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "moudenc": {
-              "texte": "Agrandissement du Stadium de Toulouse",
-              "source": "Site de campagne 2026",
+              "texte": "Agrandissement du Stadium de Toulouse.",
+              "source": "Programme officiel",
               "sourceUrl": "https://moudenc2026.fr/"
             },
             "briancon": null,
@@ -709,14 +817,22 @@
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
-            "meilhac": null
+            "meilhac": {
+              "texte": "Rénover et construire des équipements sportifs modernes pour la pratique du sport pour tous.",
+              "source": "Site officiel Toulouse",
+              "sourceUrl": "https://www.toulouse.fr"
+            }
           }
         },
         {
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Parcours sportifs sécurisés dans les espaces verts, salle de sport urbaine dans l'ancienne caserne Jacques Vion avec tour de CrossFit",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/"
+            },
             "briancon": null,
             "piquemal": null,
             "leonardelli": null,
@@ -735,9 +851,17 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "texte": "Transformation de la gare Toulouse-Matabiau en pôle d'échanges multimodal : élargissement piétons-cycles, préparation de la ligne C du métro et de la LGV",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/"
+            },
             "briancon": null,
-            "piquemal": null,
+            "piquemal": {
+              "texte": "50 hectares de renaturalisation, déimperméabilisation des sols, micro-places plantées, canopée urbaine avec espèces adaptées au réchauffement, ville du quart d'heure où 80% des trajets se font à pied ou à vélo",
+              "source": "Mediacités Toulouse, 2026",
+              "sourceUrl": "https://www.mediacites.fr/municipales-2026/toulouse/2026/01/07/francois-piquemal-10-mesures-phares-et-x-promesses/"
+            },
             "leonardelli": {
               "texte": "Création d'arrondissements à Toulouse, troisième ville de France, pour plus de proximité et de vie de quartier",
               "source": "France Bleu Occitanie, janvier 2026",
@@ -749,7 +873,11 @@
               "sourceUrl": "https://www.lejournaltoulousain.fr/"
             },
             "adrada": null,
-            "meilhac": null
+            "meilhac": {
+              "texte": "Stop au béton : arrêt des projets de construction excessive. Valoriser l'existant plutôt que construire du neuf.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.toulouse-nouvel-air.fr/"
+            }
           }
         },
         {
@@ -771,7 +899,11 @@
           "propositions": {
             "moudenc": null,
             "briancon": null,
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Lutte contre la gentrification : les résidents actuels des quartiers populaires sont prioritaires dans les attributions de logements neufs après rénovation urbaine",
+              "source": "LVSL, 2026",
+              "sourceUrl": "https://lvsl.fr/francois-piquemal-la-renovation-urbaine-se-fait-sans-les-habitants-des-quartiers-populaires/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -815,8 +947,8 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "moudenc": {
-              "texte": "Aucune hausse des impôts locaux sur le mandat",
-              "source": "Site de campagne 2026",
+              "texte": "Aucune hausse des impôts locaux. Jean-Luc Moudenc se positionne comme le candidat du pouvoir d'achat des Toulousains.",
+              "source": "Programme officiel",
               "sourceUrl": "https://moudenc2026.fr/"
             },
             "briancon": {
@@ -824,7 +956,11 @@
               "source": "Le Journal Toulousain, février 2026",
               "sourceUrl": "https://www.lejournaltoulousain.fr/"
             },
-            "piquemal": null,
+            "piquemal": {
+              "texte": "Encadrement des loyers pour restaurer le pouvoir d'achat des 66% de Toulousains locataires, gel des loyers sociaux et tarification sociale de l'eau",
+              "source": "Le Journal Toulousain, 2026",
+              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-toulouse-piquemal-360785/"
+            },
             "leonardelli": {
               "texte": "Priorité au pouvoir d'achat des familles toulousaines",
               "source": "France Bleu Occitanie, janvier 2026",

@@ -71,11 +71,29 @@
           "nom": "Police municipale",
           "propositions": {
             "bareigts": null,
-            "victoria": null,
-            "nativel": null,
-            "lebon": null,
+            "victoria": {
+              "texte": "Lutte contre l'insécurité croissante à Saint-Denis avec renforcement des actions sécuritaires",
+              "source": "L'Info Réunion, septembre 2025",
+              "sourceUrl": "https://www.linfo.re/la-reunion/societe/municipales-2026-rene-paul-victoria-annonce-sa-candidature-a-saint-denis"
+            },
+            "nativel": {
+              "texte": "Augmentation des effectifs de police municipale avec agents armés et création de brigades canines",
+              "source": "France 3 Réunion, janvier 2026",
+              "sourceUrl": "https://la1ere.franceinfo.fr/reunion/saint-denis/municipales-2026-a-la-reunion-le-rassemblement-national-veut-miser-sur-la-jeunesse-enjeu-majeur-de-ce-scrutin-1664841.html"
+            },
+            "lebon": {
+              "texte": "Renforcement de la sécurité publique à Saint-Denis",
+              "source": "Free Dom, novembre 2025",
+              "sourceUrl": "https://freedom.fr/1ere-circonscription-gaelle-lebon-et-rudy-sautron-sous-les-couleurs-de-reconquete/",
+              "a_verifier": true
+            },
             "payet": null,
-            "mangrolia": null,
+            "mangrolia": {
+              "texte": "Amélioration de la sécurité et de la tranquillité publique",
+              "source": "Zinfos974, janvier 2026",
+              "sourceUrl": "https://www.zinfos974.com/farid-mangrolia-officialise-sa-candidature-a-saint%E2%80%91denis-pour-2026-avec-sa-liste-tous-dionysiens/",
+              "a_verifier": true
+            },
             "sautron": null
           }
         },
@@ -85,7 +103,11 @@
           "propositions": {
             "bareigts": null,
             "victoria": null,
-            "nativel": null,
+            "nativel": {
+              "texte": "Déploiement massif de vidéosurveillance et positionnement de brigades de police devant les écoles",
+              "source": "France 3 Réunion, janvier 2026",
+              "sourceUrl": "https://la1ere.franceinfo.fr/reunion/saint-denis/municipales-2026-a-la-reunion-le-rassemblement-national-veut-miser-sur-la-jeunesse-enjeu-majeur-de-ce-scrutin-1664841.html"
+            },
             "lebon": null,
             "payet": null,
             "mangrolia": null,
@@ -128,7 +150,11 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "bareigts": null,
+            "bareigts": {
+              "texte": "Nouveaux téléphériques pour connecter le Brûlé, Saint-François et Montgaillard. Création de 1 000 places de stationnement supplémentaires",
+              "source": "Campagne Bareigts 2026",
+              "sourceUrl": "https://www.linfo.re/la-reunion/societe/ericka-bareigts-lance-sa-campagne-pour-les-municipales-2026-les-maires-sont-les-derniers-pare-feu-de-la-republique"
+            },
             "victoria": null,
             "nativel": null,
             "lebon": null,
@@ -180,7 +206,12 @@
           "id": "tarifs-gratuite",
           "nom": "Tarifs & Gratuité",
           "propositions": {
-            "bareigts": null,
+            "bareigts": {
+              "texte": "Bourse mobilité pour les jeunes et augmentation de l'accès aux transports",
+              "source": "Campagne Éricka Bareigts 2026",
+              "sourceUrl": "https://la1ere.franceinfo.fr/reunion/saint-denis/municipales-2026-ericka-bareigts-fait-salle-comble-au-petit-stade-de-l-est-pour-le-lancement-de-sa-campagne-a-saint-denis-1667112.html",
+              "a_verifier": true
+            },
             "victoria": null,
             "nativel": null,
             "lebon": null,
@@ -199,9 +230,17 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "bareigts": null,
+            "bareigts": {
+              "texte": "Création d'une police du logement pour lutter contre la vacance résidentielle",
+              "source": "Campagne Bareigts 2026",
+              "sourceUrl": "https://www.linfo.re/la-reunion/societe/ericka-bareigts-lance-sa-campagne-pour-les-municipales-2026-les-maires-sont-les-derniers-pare-feu-de-la-republique"
+            },
             "victoria": null,
-            "nativel": null,
+            "nativel": {
+              "texte": "Création de logements, réhabilitation du parc de logements existants et soutien à l'accession à la propriété",
+              "source": "Free Dom, janvier 2026",
+              "sourceUrl": "https://freedom.fr/municipales-2026-le-rn-investit-jean-yves-morel-a-saint-paul-et-jean-max-nativel-a-saint-denis/"
+            },
             "lebon": null,
             "payet": null,
             "mangrolia": null,
@@ -283,7 +322,11 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "bareigts": null,
+            "bareigts": {
+              "texte": "Poursuite de la gratuité des cantines scolaires pour assurer l'accès à tous les enfants",
+              "source": "France 3 Réunion, janvier 2026",
+              "sourceUrl": "https://la1ere.franceinfo.fr/reunion/saint-denis/municipales-2026-ericka-bareigts-fait-salle-comble-au-petit-stade-de-l-est-pour-le-lancement-de-sa-campagne-a-saint-denis-1667112.html"
+            },
             "victoria": null,
             "nativel": null,
             "lebon": null,
@@ -298,7 +341,11 @@
           "propositions": {
             "bareigts": null,
             "victoria": null,
-            "nativel": null,
+            "nativel": {
+              "texte": "Développement de programmes périscolaires et aide pour les stages et apprentissages des jeunes",
+              "source": "Free Dom, janvier 2026",
+              "sourceUrl": "https://freedom.fr/municipales-2026-le-rn-investit-jean-yves-morel-a-saint-paul-et-jean-max-nativel-a-saint-denis/"
+            },
             "lebon": null,
             "payet": null,
             "mangrolia": null,
@@ -309,9 +356,17 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "bareigts": null,
+            "bareigts": {
+              "texte": "Gratuité des transports pour les jeunes et poursuite des politiques de jeunesse",
+              "source": "France 3 Réunion, janvier 2026",
+              "sourceUrl": "https://la1ere.franceinfo.fr/reunion/saint-denis/municipales-2026-ericka-bareigts-fait-salle-comble-au-petit-stade-de-l-est-pour-le-lancement-de-sa-campagne-a-saint-denis-1667112.html"
+            },
             "victoria": null,
-            "nativel": null,
+            "nativel": {
+              "texte": "Intégration des jeunes (60% de la population) avec création d'une Société Publique Locale Jeunesse pour renforcer les ressources",
+              "source": "Free Dom, janvier 2026",
+              "sourceUrl": "https://freedom.fr/municipales-2026-le-rn-investit-jean-yves-morel-a-saint-paul-et-jean-max-nativel-a-saint-denis/"
+            },
             "lebon": null,
             "payet": null,
             "mangrolia": null,
@@ -328,13 +383,22 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "bareigts": null,
+            "bareigts": {
+              "texte": "Continuation du grand parc boisé 'Cœur Vert Famille' créé pour améliorer la qualité de vie",
+              "source": "Campagne Bareigts 2026",
+              "sourceUrl": "https://www.linfo.re/la-reunion/societe/ericka-bareigts-lance-sa-campagne-pour-les-municipales-2026-les-maires-sont-les-derniers-pare-feu-de-la-republique"
+            },
             "victoria": null,
             "nativel": null,
             "lebon": null,
             "payet": null,
             "mangrolia": null,
-            "sautron": null
+            "sautron": {
+              "texte": "Protection de l'environnement et développement durable",
+              "source": "Imaz Press Réunion, 2026",
+              "sourceUrl": "https://imazpress.com/courrier-des-lecteurs/ludovic-sautron-se-presente-comme-un-autre-choix-une-alternative-a-gauche-pour-saint-denis-2026",
+              "a_verifier": true
+            }
           }
         },
         {
@@ -425,7 +489,11 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "bareigts": null,
+            "bareigts": {
+              "texte": "Poursuite du Plan Seniors avec amélioration des services et accompagnement des personnes âgées",
+              "source": "France 3 Réunion, janvier 2026",
+              "sourceUrl": "https://la1ere.franceinfo.fr/reunion/saint-denis/municipales-2026-ericka-bareigts-fait-salle-comble-au-petit-stade-de-l-est-pour-le-lancement-de-sa-campagne-a-saint-denis-1667112.html"
+            },
             "victoria": null,
             "nativel": null,
             "lebon": null,
@@ -450,7 +518,11 @@
             "lebon": null,
             "payet": null,
             "mangrolia": null,
-            "sautron": null
+            "sautron": {
+              "texte": "Alternative de gauche pour Saint-Denis avec participation citoyenne accrue",
+              "source": "Imaz Press Réunion, 2026",
+              "sourceUrl": "https://imazpress.com/courrier-des-lecteurs/ludovic-sautron-se-presente-comme-un-autre-choix-une-alternative-a-gauche-pour-saint-denis-2026"
+            }
           }
         },
         {
@@ -461,7 +533,12 @@
             "victoria": null,
             "nativel": null,
             "lebon": null,
-            "payet": null,
+            "payet": {
+              "texte": "Gouvernance citoyenne avec implication des habitants dans la vie politique locale",
+              "source": "Collectif La Voix Citoyenne, 2026",
+              "sourceUrl": "https://imazpress.com/municipales-2026/municipales",
+              "a_verifier": true
+            },
             "mangrolia": null,
             "sautron": null
           }
@@ -503,11 +580,24 @@
           "nom": "Commerce local",
           "propositions": {
             "bareigts": null,
-            "victoria": null,
-            "nativel": null,
+            "victoria": {
+              "texte": "Réponse à la crise économique et développement économique de la ville",
+              "source": "Zinfos974, septembre 2025",
+              "sourceUrl": "https://www.zinfos974.com/municipales-2026-a-saint-denis-les-republicains-se-rangent-derriere-rene-paul-victoria/"
+            },
+            "nativel": {
+              "texte": "Aide aux PME/artisans avec suppression des taxes professionnelles pendant 2 ans pour l'implantation de nouvelles entreprises",
+              "source": "Free Dom, janvier 2026",
+              "sourceUrl": "https://freedom.fr/municipales-2026-le-rn-investit-jean-yves-morel-a-saint-paul-et-jean-max-nativel-a-saint-denis/"
+            },
             "lebon": null,
             "payet": null,
-            "mangrolia": null,
+            "mangrolia": {
+              "texte": "Soutien au développement économique et aux commerces locaux",
+              "source": "Campagne Tous Dionysiens 2026",
+              "sourceUrl": "https://www.zinfos974.com/farid-mangrolia-officialise-sa-candidature-a-saint%E2%80%91denis-pour-2026-avec-sa-liste-tous-dionysiens/",
+              "a_verifier": true
+            },
             "sautron": null
           }
         },
@@ -517,7 +607,11 @@
           "propositions": {
             "bareigts": null,
             "victoria": null,
-            "nativel": null,
+            "nativel": {
+              "texte": "Création d'un port de pêche moderne capable de générer jusqu'à 1 000 emplois",
+              "source": "Free Dom, janvier 2026",
+              "sourceUrl": "https://freedom.fr/municipales-2026-le-rn-investit-jean-yves-morel-a-saint-paul-et-jean-max-nativel-a-saint-denis/"
+            },
             "lebon": null,
             "payet": null,
             "mangrolia": null,
@@ -611,12 +705,31 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "bareigts": null,
-            "victoria": null,
+            "bareigts": {
+              "texte": "Projet hyperproximité 'Allo Quartier' pour rapprocher la mairie des problèmes quotidiens des habitants",
+              "source": "Campagne Bareigts 2026",
+              "sourceUrl": "https://www.linfo.re/la-reunion/societe/ericka-bareigts-lance-sa-campagne-pour-les-municipales-2026-les-maires-sont-les-derniers-pare-feu-de-la-republique"
+            },
+            "victoria": {
+              "texte": "Revitalisation du Pôle Océan et développement urbain structurant",
+              "source": "Campagne René-Paul Victoria 2026",
+              "sourceUrl": "https://www.zinfos974.com/municipales-2026-a-saint-denis-les-republicains-se-rangent-derriere-rene-paul-victoria/",
+              "a_verifier": true
+            },
             "nativel": null,
-            "lebon": null,
+            "lebon": {
+              "texte": "Amélioration de l'aménagement urbain et revitalisation des quartiers",
+              "source": "Campagne Gaëlle Lebon 2026",
+              "sourceUrl": "https://freedom.fr/1ere-circonscription-gaelle-lebon-et-rudy-sautron-sous-les-couleurs-de-reconquete/",
+              "a_verifier": true
+            },
             "payet": null,
-            "mangrolia": null,
+            "mangrolia": {
+              "texte": "Amélioration du cadre de vie et développement urbain",
+              "source": "Campagne Tous Dionysiens 2026",
+              "sourceUrl": "https://www.zinfos974.com/farid-mangrolia-officialise-sa-candidature-a-saint%E2%80%91denis-pour-2026-avec-sa-liste-tous-dionysiens/",
+              "a_verifier": true
+            },
             "sautron": null
           }
         },
@@ -660,7 +773,12 @@
             "victoria": null,
             "nativel": null,
             "lebon": null,
-            "payet": null,
+            "payet": {
+              "texte": "Politiques sociales et soutien aux habitants en difficulté",
+              "source": "Campagne Giovanni Payet 2026",
+              "sourceUrl": "https://imazpress.com/municipales-2026/municipales",
+              "a_verifier": true
+            },
             "mangrolia": null,
             "sautron": null
           }
@@ -683,12 +801,22 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "bareigts": null,
-            "victoria": null,
+            "victoria": {
+              "texte": "Réponses concrètes aux demandes des habitants sur l'économie et le pouvoir d'achat",
+              "source": "Campagne Victoria 2026",
+              "sourceUrl": "https://www.zinfos974.com/municipales-2026-a-saint-denis-les-republicains-se-rangent-derriere-rene-paul-victoria/",
+              "a_verifier": true
+            },
             "nativel": null,
             "lebon": null,
             "payet": null,
             "mangrolia": null,
-            "sautron": null
+            "sautron": {
+              "texte": "Politiques sociales et amélioration du pouvoir d'achat des habitants",
+              "source": "Campagne Ludovic Sautron 2026",
+              "sourceUrl": "https://imazpress.com/municipales-2026/saint-denis-ludovic-sautron-candidat-aux-elections-municipales",
+              "a_verifier": true
+            }
           }
         }
       ]

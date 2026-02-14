@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var DATA_VERSION = "2026021002";
+  var DATA_VERSION = "2026021302";
   var DATA_BASE_URL = "/data/";
 
   // === Utilitaires (copiés de app.js) ===
@@ -566,16 +566,17 @@
 
       for (var j = 0; j < Math.min(resultats.length, 8); j++) {
         var v2 = resultats[j];
-        var div = document.createElement("div");
-        div.className = "sim-selection__suggestion";
+        var a = document.createElement("a");
+        a.className = "sim-selection__suggestion";
+        a.href = "/municipales/2026/?ville=" + encodeURIComponent(v2.id);
         var nbCandidats = v2.stats ? v2.stats.candidats : (v2.candidats ? v2.candidats.length : 0);
-        div.innerHTML = '<span class="sim-selection__suggestion-ville">' + echapper(v2.nom) + '</span>' +
+        a.innerHTML = '<span class="sim-selection__suggestion-ville">' + echapper(v2.nom) + '</span>' +
           '<span class="sim-selection__suggestion-count">' + nbCandidats + ' candidats</span>';
-        div.setAttribute("data-id", v2.id);
-        div.addEventListener("click", (function (ville) {
-          return function () { selectionnerVille(ville); };
+        a.setAttribute("data-id", v2.id);
+        a.addEventListener("click", (function (ville) {
+          return function (e) { e.preventDefault(); selectionnerVille(ville); };
         })(v2));
-        suggestionsEl.appendChild(div);
+        suggestionsEl.appendChild(a);
       }
       suggestionsEl.hidden = false;
     });

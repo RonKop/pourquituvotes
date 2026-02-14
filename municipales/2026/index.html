@@ -93,12 +93,12 @@
   </style>
 
   <!-- CSS complet (non-bloquant, versionné) -->
-  <link rel="preload" as="style" href="/css/style.css?v=2026021002">
-  <link rel="stylesheet" href="/css/style.css?v=2026021002" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/css/style.css?v=2026021002"></noscript>
-  <link rel="stylesheet" href="/css/simulateur.css?v=2026021002" media="print" onload="this.media='all'">
+  <link rel="preload" as="style" href="/css/style.css?v=2026021401">
+  <link rel="stylesheet" href="/css/style.css?v=2026021401" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/css/style.css?v=2026021401"></noscript>
+  <link rel="stylesheet" href="/css/simulateur.css?v=2026021401" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="/css/consent.css">
-  <noscript><link rel="stylesheet" href="/css/simulateur.css?v=2026021002"></noscript>
+  <noscript><link rel="stylesheet" href="/css/simulateur.css?v=2026021401"></noscript>
 
   <!-- Fonts (non-bloquant) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -111,12 +111,16 @@
   <!-- Prefetch données (élimine la cascade séquentielle) -->
   <script>
   (function() {
-    var V = '2026021002';
+    var V = '2026021302';
     var base = '/data/';
     var p = window.__prefetch = {};
     p.villes = fetch(base + 'villes.json?v=' + V).then(function(r) { return r.json(); });
     var params = new URLSearchParams(location.search);
     var ville = params.get('ville');
+    if (!ville) {
+      var m = location.pathname.match(/\/municipales-2026\/([^\/]+)/);
+      if (m) ville = decodeURIComponent(m[1]);
+    }
     if (ville) {
       p.election = fetch(base + 'elections/' + ville + '-2026.json?v=' + V).then(function(r) {
         if (!r.ok) return null;
@@ -147,10 +151,10 @@
       <!-- Centre : navigation -->
       <nav class="header-nav">
         <ul class="header-nav__links">
-          <li><a href="/a-propos.html">À propos</a></li>
+          <li><a href="/municipales/2026/">Comparateur</a></li>
           <li><a href="/methodologie.html">Méthodologie</a></li>
           <li><a href="/faq.html">FAQ</a></li>
-          <li><a href="mailto:contact@pourquituvotes.fr">Contact</a></li>
+          <li><a href="/a-propos.html">À propos</a></li>
         </ul>
       </nav>
       <!-- Burger mobile -->
@@ -201,9 +205,9 @@
     </div>
     <nav class="mobile-menu-overlay__nav">
       <ul>
+        <li><a href="/municipales/2026/"><i class="ph ph-scales"></i> Comparateur</a></li>
         <li><a href="/methodologie.html"><i class="ph ph-book-open"></i> Méthodologie</a></li>
         <li><a href="/faq.html"><i class="ph ph-question"></i> FAQ</a></li>
-        <li><a href="mailto:contact@pourquituvotes.fr"><i class="ph ph-envelope"></i> Contact</a></li>
         <li><a href="/a-propos.html"><i class="ph ph-info"></i> À propos</a></li>
       </ul>
     </nav>
@@ -235,7 +239,7 @@
         <div class="hero__search">
           <div class="search-float__box">
             <i class="ph ph-magnifying-glass search-float__icon"></i>
-            <input type="text" id="ville-search" class="search-float__input" placeholder="Ex : Paris, Rachida Dati, cr&egrave;che, v&eacute;lo, ..." autocomplete="off">
+            <input type="text" id="ville-search" class="search-float__input" placeholder="Ex : Paris, Rachida Dati, ..." autocomplete="off">
             <div id="ville-suggestions" class="ville-suggestions" hidden></div>
             <div id="candidat-suggestions" class="candidat-suggestions" hidden></div>
             <button class="search-float__btn" id="search-float-btn">Rechercher</button>
@@ -244,15 +248,6 @@
           <input type="hidden" id="recherche-input" disabled>
         </div>
 
-        <!-- CTA quiz -->
-        <div class="hero__quiz-cta" id="hero-quiz-cta" hidden>
-          <a href="simulateur.html" class="hero__quiz-btn hero__quiz-btn--express" id="hero-quiz-express">
-            <i class="ph ph-lightning"></i> Test Express (2 min)
-          </a>
-          <a href="simulateur.html?mode=expert" class="hero__quiz-btn hero__quiz-btn--expert" id="hero-quiz-expert">
-            <i class="ph ph-chart-bar"></i> Analyse Complète (5 min)
-          </a>
-        </div>
       </div>
 
       <!-- Droite : stats cards (masquées sans ville) -->
@@ -458,9 +453,10 @@
 
         <!-- Autres elections -->
         <div class="footer__col">
-          <h3 class="footer__col-title">Autres &eacute;lections</h3>
+          <h3 class="footer__col-title">Enjeux &amp; &Eacute;lections</h3>
           <ul class="footer__list">
-            <li><a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--soon">SOON</span></a></li>
+            <li><a href="/enjeux-index.html">Enjeux 2026</a></li>
+            <li><a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--soon">bient&ocirc;t</span></a></li>
             <li><span class="footer__item-soon">L&eacute;gislatives 2027</span></li>
             <li><span class="footer__item-soon">R&eacute;gionales</span></li>
             <li><span class="footer__item-soon">Europ&eacute;ennes 2029</span></li>
@@ -830,10 +826,11 @@
     </div>
   </nav>
 
-  <script defer src="/js/chart.min.js?v=2026021002"></script>
+  <script defer src="/js/chart.min.js?v=2026021401"></script>
   <script defer src="/js/consent.js"></script>
-  <script defer src="/js/analytics.js?v=2026021002"></script>
-  <script defer src="/js/app.js?v=2026021002"></script>
+  <script defer src="/js/seo-utils.js"></script>
+  <script defer src="/js/analytics.js?v=2026021401"></script>
+  <script defer src="/js/app.js?v=2026021401"></script>
 
 
 </body>

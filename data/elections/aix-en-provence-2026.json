@@ -25,7 +25,7 @@
       "nom": "Philippe Klein",
       "liste": "Horizons",
       "programmeUrl": "https://www.philippe-klein.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -63,16 +63,20 @@
           "nom": "Police municipale",
           "propositions": {
             "joissains": {
-              "texte": "Renforcement de la police municipale avec 10 recrutements supplémentaires par an (138 agents actuellement) et déploiement de 500 caméras de vidéoprotection",
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-qui-sont-les-candidats-declares-a-aix-en-provence-3346519"
+              "texte": "Continuer le recrutement de 10 policiers municipaux par an (effectifs passés de 80 à 147 agents). Créer deux bases de police municipale supplémentaires et un grand commissariat avec centre d'hypervision.",
+              "source": "Conférence de presse de campagne, Marsactu",
+              "sourceUrl": "https://marsactu.fr/breve_de_campagne/a-aix-la-maire-sortante-sophie-joissains-lance-sa-campagne-sur-le-theme-de-la-securite/"
             },
             "pena": {
               "texte": "Renforcement de la police municipale et lutte contre le narcotrafic",
               "source": "France Bleu Provence, 2026",
               "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497"
             },
-            "klein": null,
+            "klein": {
+              "texte": "Création du dispositif « S.O.AIX » : réseau de protection coordonné en temps réel associant police municipale, pompiers, bars et restaurants. Déploiement de 150 bornes d'appel d'urgence reliées directement à la police municipale.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-tranquille/"
+            },
             "boronad": null,
             "geiger": {
               "texte": "Obtenir 140 policiers nationaux supplémentaires pour Aix et créer une brigade anti-stupéfiants municipale sur le modèle de Béziers",
@@ -87,12 +91,16 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "joissains": {
-              "texte": "Équiper toutes les écoles primaires et maternelles de vidéosurveillance",
-              "source": "Marsactu, 2026",
+              "texte": "Poursuivre le déploiement des caméras de vidéoprotection (500 appareils actuellement). Objectif : équiper en vidéosurveillance l'ensemble des écoles primaires et maternelles de la commune.",
+              "source": "Conférence de presse de campagne, Marsactu",
               "sourceUrl": "https://marsactu.fr/breve_de_campagne/a-aix-la-maire-sortante-sophie-joissains-lance-sa-campagne-sur-le-theme-de-la-securite/"
             },
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Accélération du déploiement de la vidéoprotection avec un rythme d'installation multiplié par quatre. Réparation de l'ensemble des caméras défectueuses.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-tranquille/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null
@@ -102,9 +110,17 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Lutter contre l'évolution du narcotrafic, notamment la livraison de drogue. Tolérance zéro face aux incivilités, avec une présence renforcée sur le terrain.",
+              "source": "Conférence de presse de campagne, Marsactu",
+              "sourceUrl": "https://marsactu.fr/breve_de_campagne/a-aix-la-maire-sortante-sophie-joissains-lance-sa-campagne-sur-le-theme-de-la-securite/"
+            },
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Recrutements de policiers municipaux pour atteindre 1 agent pour 800 habitants d'ici la fin du mandat. Formation des personnels sur l'action contre les infractions, les incivilités et les comportements anormaux.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-tranquille/"
+            },
             "boronad": {
               "texte": "Créer une police de proximité dans chaque quartier, formée à la médiation, pour recréer le lien avec les habitants",
               "source": "L'Affranchi Mag, 2026",
@@ -166,7 +182,11 @@
               "source": "France Bleu Provence, 2026",
               "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497"
             },
-            "klein": null,
+            "klein": {
+              "texte": "Créer des voies dédiées pour les vélos reliant les 4 points cardinaux avec « Le trajet le plus agréable et pas forcément le plus court ».",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null
@@ -178,7 +198,11 @@
           "propositions": {
             "joissains": null,
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Mise en place de voies réservées aux bus sur la RD9 pour faire disparaître les embouteillages sous 2 ans. Créer des solutions innovantes et alternatives au BHNS.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null
@@ -268,7 +292,11 @@
           "propositions": {
             "joissains": null,
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Encadrer la location saisonnière des résidences secondaires pour protéger le logement résidentiel. Reconversion de bureaux vides en logements pour étudiants et jeunes actifs.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/"
+            },
             "boronad": {
               "texte": "Créer une régie du logement : face aux 40 000 étudiants pour seulement 8 000 places en résidences, construire des logements gérés par le CROUS",
               "source": "L'Affranchi Mag, 2026",
@@ -360,7 +388,11 @@
               "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741"
             },
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Désimperméabiliser et végétaliser l'équivalent d'un deuxième parc Jourdan sur la mandature. Lancer une végétalisation massive avec des essences adaptées au climat local.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-vert/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null
@@ -385,9 +417,9 @@
             "joissains": null,
             "pena": null,
             "klein": {
-              "texte": "Faire d'Aix-en-Provence une ville-refuge climatique : fin de la minéralisation excessive, ombrage, eau, arbres et espaces publics de qualité",
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/philippe-klein-candidat-horizon-a-la-mairie-d-aix-en-provence-5268735"
+              "texte": "Faire d'Aix-en-Provence la ville qui progresse le plus rapidement dans la lutte contre le réchauffement climatique sur un seul mandat. Adapter l'architecture et les usages pour favoriser les courants d'air.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-vert/"
             },
             "boronad": null,
             "geiger": null,
@@ -404,7 +436,11 @@
               "source": "Destimed, 2026",
               "sourceUrl": "https://www.destimed.fr/Tribune-Municipales-a-Aix-en-Provence-Ecologistes-avec-Marc-Pena-et-Aix-en/"
             },
-            "klein": null,
+            "klein": {
+              "texte": "Promouvoir une architecture bioclimatique favorisant les courants d'air et la fraîcheur naturelle. Développer des toitures ventilées comme espaces partagés et lieux de lien social.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-vert/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null
@@ -434,7 +470,11 @@
           "propositions": {
             "joissains": null,
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Création de maison de santé avec un accès 7j/7. Une aide accrue pour l'installation de professionnels de médecine.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null
@@ -474,9 +514,17 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Renforcer la concertation citoyenne : décider avec les Aixois sur les projets structurants de la ville.",
+              "source": "Site officiel de campagne",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/"
+            },
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Allouer une enveloppe pour réaliser des travaux d'investissements à chaque CIQ qui décidera de ses priorités. Le maire comme chef d'orchestre, garant de l'harmonie entre les quartiers.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null
@@ -486,9 +534,17 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Engagement de ne pas augmenter les impôts locaux. Gestion rigoureuse des finances municipales au service des Aixois, avec stabilité fiscale garantie sur tout le mandat.",
+              "source": "Site officiel de campagne",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/"
+            },
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Mettre en place une nouvelle méthode de gouvernance basée sur la transparence et fondée sur l'écoute active des habitants, CIQ et associations. Être l'avocat des Aixois au sein de la Métropole.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null
@@ -641,9 +697,9 @@
             },
             "pena": null,
             "klein": {
-              "texte": "Proposer un cap exigeant conciliant qualité de vie, attractivité économique, transition écologique et cohésion intergénérationnelle",
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/philippe-klein-candidat-horizon-a-la-mairie-d-aix-en-provence-5268735"
+              "texte": "Conditionner toute construction à la création préalable d'infrastructures (voirie, eaux pluviales, réseaux). Valoriser le trésor du fleuve l'Arc comme axe naturel de fraîcheur et ressource hydrique.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/"
             },
             "boronad": null,
             "geiger": null,
@@ -656,7 +712,11 @@
           "propositions": {
             "joissains": null,
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Adapter l'architecture et les usages pour favoriser les courants d'air. Offrir des couvertures arborées aux piétons et aux cyclistes.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-vert/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null
@@ -710,7 +770,11 @@
           "propositions": {
             "joissains": null,
             "pena": null,
-            "klein": null,
+            "klein": {
+              "texte": "Ne pas augmenter les impôts. Réduire les dépenses de fonctionnement pour augmenter celles d'investissement, ce qui est un devoir envers les contribuables aixois.",
+              "source": "Site officiel Philippe Klein",
+              "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-transparent/"
+            },
             "boronad": null,
             "geiger": null,
             "ben-ammar": null

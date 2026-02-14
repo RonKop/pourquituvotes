@@ -9,7 +9,7 @@
       "nom": "Michèle Lutz",
       "liste": "Fiers de Mulhouse ! (LR)",
       "programmeUrl": "https://www.michelelutz.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -111,18 +111,27 @@
           "nom": "Police municipale",
           "propositions": {
             "lutz": {
-              "texte": "Police municipale de 75 agents opérationnelle 24h/24, réarmement progressif avec pistolets semi-automatiques 9 mm",
-              "source": "M+, 2025",
-              "sourceUrl": "https://www.mplusinfo.fr/la-securite-premiere-priorite-de-la-ville-8bc42430-64e6-4cad-aa89-c10942ab06f8"
+              "texte": "Davantage de moyens pour la police municipale avec une présence nocturne renforcée. Création d'une brigade anti-incivilités, d'une police municipale des marchés, et d'un Allo proximité spécial sécurité contre le harcèlement de rue. Faire de Mulhouse une ville pilote pour tester de nouvelles compétences de police municipale.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/securite/"
             },
-            "million": null,
+            "million": {
+              "texte": "Création d'une brigade anti-incivilités. Augmentation de la présence sur le terrain avec des patrouilles pédestres Police / Agents de tranquillité publique. Installation de plus de caméras là où les habitants le demandent.",
+              "source": "Site officiel Lara Million",
+              "sourceUrl": "https://laramillion2026.fr/"
+            },
             "minery": null,
             "ritz": {
               "texte": "Doubler les effectifs de police municipale et créer un centre d'éloignement pour mineurs délinquants récidivistes",
               "source": "France Bleu Alsace, février 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
             },
-            "taffarelli": null,
+            "taffarelli": {
+              "texte": "Garantir la liberté de mouvements en toute sécurité. Les déplacements à pied ou en transports en commun ne doivent pas être source d'angoisse à toute heure du jour ou de la nuit.",
+              "source": "Site officiel Restaurer Mulhouse",
+              "sourceUrl": "https://www.restaurermulhouse.fr/",
+              "a_verifier": true
+            },
             "gafanesch": null,
             "sassi": null,
             "sornin": null,
@@ -137,9 +146,9 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "lutz": {
-              "texte": "330 caméras de vidéoprotection opérationnelles, 39 nouvelles déployées en 2025",
-              "source": "M+, 2025",
-              "sourceUrl": "https://www.mplusinfo.fr/la-securite-premiere-priorite-de-la-ville-8bc42430-64e6-4cad-aa89-c10942ab06f8"
+              "texte": "Vidéoprotection modernisée : extension de la vidéo-verbalisation dans tous les quartiers, déploiement de caméras intelligentes avec détection de comportements suspects en temps réel. Utilisation de drones et d'intelligence artificielle au service de la sécurité.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/securite/"
             },
             "million": null,
             "minery": null,
@@ -158,8 +167,16 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "lutz": null,
-            "million": null,
+            "lutz": {
+              "texte": "Créer des délégués police-population pour renforcer l'écoute et la médiation. Lancer un programme local de prévention de la délinquance avec ateliers, interventions scolaires et campagnes de sensibilisation. Créer un comité local de la sécurité des habitants. Tolérance zéro contre les incivilités avec amendes administratives et travaux d'intérêt général.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/securite/"
+            },
+            "million": {
+              "texte": "Combattre le harcèlement de rue, les rodéos, les tirs de mortiers, les cortèges de klaxons, les comportements dangereux. Agir vite pour rétablir la tranquillité et la sécurité au quotidien.",
+              "source": "Site officiel Lara Million",
+              "sourceUrl": "https://laramillion2026.fr/"
+            },
             "minery": null,
             "ritz": null,
             "taffarelli": {
@@ -180,7 +197,11 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Créer un lieu d'hébergement d'urgence pour les personnes victimes de violences intrafamiliales. Créer un Allo proximité spécial sécurité afin de lutter contre le harcèlement de rue.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -204,7 +225,11 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Améliorer les mobilités quotidiennes en proposant plus de tramways en soirée et une meilleure desserte de la première couronne. Poursuivre l'aménagement du quartier Gare et l'adapter aux besoins du RER transfrontalier. Renforcer la ligne Mulhouse-Müllheim-Freiburg.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/attractivite-vie-economique/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -223,9 +248,9 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "lutz": {
-              "texte": "Création de 15 km de pistes cyclables et 10 itinéraires continus pour le vélo",
-              "source": "France 3 Grand Est, décembre 2025",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/mulhouse/municipales-2026-a-mulhouse-michele-lutz-annonce-sa-candidature-pour-un-nouveau-mandat-3258649.html"
+              "texte": "Développer la conciergerie de la Cité du Vélo avec services aux cyclistes (stationnement, réparation, logistique douce). Renforcer la continuité cyclable. Favoriser la livraison en vélo-cargo pour soutenir le commerce de centre-ville.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/attractivite-vie-economique/"
             },
             "million": null,
             "minery": null,
@@ -248,7 +273,11 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Renforcer la sécurisation des abords de toutes les écoles par le déploiement de pédibus, le renforcement du dispositif Papy Mamie Trafic et l'expérimentation de solutions de voirie innovantes. Sensibiliser à la prévention routière par la création d'une délégation municipale dédiée.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -266,7 +295,11 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Augmenter l'offre de stationnement en centre-ville de 1 500 places pour faciliter l'accès aux commerces. Densifier l'offre de stationnement globale.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/commerce/"
+            },
             "million": null,
             "minery": null,
             "ritz": {
@@ -316,7 +349,11 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Construire et rénover plus de 2 000 logements dans les quartiers des Coteaux, du Drouot et de la Fonderie. Accompagner les copropriétés en difficulté.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -334,7 +371,11 @@
           "id": "logements-vacants",
           "nom": "Logements vacants",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Instaurer une stratégie ciblée pour lutter contre l'habitat indigne. Lutter contre les marchands de sommeil en saisissant leurs biens et diminuer la vacance.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -370,7 +411,11 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Favoriser l'accession à la propriété pour les jeunes actifs. Favoriser l'accès au logement des jeunes en partenariat avec l'association Un Toit pour Deux.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -394,7 +439,11 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Développer la scolarisation à 2 ans. Soutenir l'implantation de crèches à Mulhouse. Augmenter le nombre de places en périscolaire sur l'ensemble de Mulhouse en lien avec l'agglomération.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -412,7 +461,11 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Doubler le nombre de cours d'écoles végétalisées d'ici la fin du mandat. Accompagner l'innovation dans la forme scolaire (matériel, inclusion, espaces, projets). Soutenir l'école du dehors pour développer le contact des enfants à la nature. Mettre en place des cours d'empathie dès le primaire et installer des bancs de l'amitié contre le harcèlement.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -430,7 +483,11 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Renforcer l'éducation artistique et culturelle en faisant entrer les artistes dans les écoles. Intensifier le dispositif « EPS dans les écoles mulhousiennes » pour toucher l'ensemble des élèves.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -448,7 +505,11 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Augmenter le nombre de places en périscolaire sur l'ensemble de Mulhouse. Soutenir les familles monoparentales en leur donnant la priorité sur les places en périscolaire et en crèche.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -466,7 +527,11 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Mettre en place le dispositif « un cabas pour un étudiant ». Lutter contre le mal-être des jeunes via des stands mobiles de dépistage. Favoriser l'accès au logement des jeunes. Lutter contre le cyberharcèlement par le permis internet dans les écoles. Organiser une Fête de la jeunesse. Créer un club des jeunes ambassadeurs rhénans avec Bâle et Freiburg.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": {
               "texte": "Priorité à l'éducation et à la jeunesse",
               "source": "France Bleu Alsace, janvier 2026",
@@ -495,9 +560,9 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "lutz": {
-              "texte": "Projet Mulhouse Diagonales : vaste démarche de renaturation urbaine et végétalisation du centre-ville (9 000 m² piétonnisés)",
-              "source": "France 3 Grand Est, décembre 2025",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/mulhouse/municipales-2026-a-mulhouse-michele-lutz-annonce-sa-candidature-pour-un-nouveau-mandat-3258649.html"
+              "texte": "Développer la plantation d'arbres fruitiers dans tous les quartiers. Créer des jardins partagés au cœur des quartiers et protéger les jardins ouvriers. Créer une Maison itinérante de la biodiversité. Rénover le square de la Bourse, réaménager le jardin des senteurs. Développer de nouveaux espaces de loisirs le long de l'Ill et du Steinbaechlein.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/nature-en-ville/"
             },
             "million": null,
             "minery": null,
@@ -516,11 +581,15 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Créer une brigade municipale dédiée exclusivement à la propreté urbaine. Optimiser la gestion des encombrants avec bennes spécifiques et enlèvement à la demande. Réinventer la journée citoyenne en « Clean up day » une fois par an dans chaque quartier. Étendre le tri des biodéchets à tous les quartiers. Mettre en place des poubelles de tri avec cendriers.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+            },
             "million": {
-              "texte": "Collecte des déchets à domicile dans tout Mulhouse et création d'une brigade anti-incivilités",
-              "source": "France Bleu Alsace, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "texte": "Choc de propreté avec ramassage des encombrants devant la porte de chaque quartier le 1er mercredi du mois. Arrêter les dépôts sauvages et le sentiment d'abandon.",
+              "source": "Site officiel Lara Million",
+              "sourceUrl": "https://laramillion2026.fr/"
             },
             "minery": null,
             "ritz": null,
@@ -530,9 +599,10 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Urgence propreté : nettoyage et entretien renforcés de la ville",
-              "source": "France Bleu Alsace, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "texte": "Parlons de la propreté à Mulhouse - thème de consultation citoyenne pour améliorer la propreté de la ville et la gestion des déchets.",
+              "source": "Site officiel Frédéric Marquet",
+              "sourceUrl": "https://marquet2026.fr/",
+              "a_verifier": true
             },
             "keltoumi": null,
             "djehaf": null
@@ -543,9 +613,9 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "lutz": {
-              "texte": "Défis climatique, social et patrimonial : reconversion des friches industrielles (DMC) en « laboratoires de ville durable »",
-              "source": "France 3 Grand Est, décembre 2025",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/mulhouse/municipales-2026-a-mulhouse-michele-lutz-annonce-sa-candidature-pour-un-nouveau-mandat-3258649.html"
+              "texte": "Doubler le nombre de cours d'écoles végétalisées. Participer au programme de conservation de la forêt du Waldeck avec parcours de biodiversité. Développer la stratégie de lutte contre le moustique tigre et les nuisances sonores.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/nature-en-ville/"
             },
             "million": {
               "texte": "Transition climatique et intégration de l'intelligence artificielle au service de la ville",
@@ -568,7 +638,11 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Exonérer de taxe foncière la création et la rénovation des logements performants énergétiquement. Construire et rénover plus de 2 000 logements dans les quartiers des Coteaux, du Drouot et de la Fonderie.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -586,7 +660,11 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Mener des actions de sensibilisation au bénéfice d'une meilleure alimentation. Renforcer le rayonnement de la place du marché comme lieu de circuits courts et d'innovation culinaire. Lancer l'ordonnance verte avec paniers de légumes bio pour femmes enceintes.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/sante/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -610,7 +688,11 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Créer un poste de manager de la santé pour faciliter les installations de professionnels. Dupliquer le modèle de la maison de santé de Bourtzwiller dans d'autres quartiers. Être moteur dans l'implantation de centres de formation dans les métiers du soin, avec mise en place d'une première année de médecine.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/sante/"
+            },
             "million": {
               "texte": "Priorité santé et bien vieillir",
               "source": "France Bleu Alsace, janvier 2026",
@@ -624,9 +706,10 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Urgence santé : améliorer l'accès aux soins à Mulhouse",
-              "source": "France Bleu Alsace, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "texte": "Parlons de la santé à Mulhouse - thème de consultation citoyenne pour construire des propositions concrètes sur l'accès aux soins.",
+              "source": "Site officiel Frédéric Marquet",
+              "sourceUrl": "https://marquet2026.fr/",
+              "a_verifier": true
             },
             "keltoumi": null,
             "djehaf": null
@@ -636,7 +719,11 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Lancer l'ordonnance verte pour améliorer l'alimentation des femmes enceintes. Instaurer un programme citoyen pour former 1 habitant sur 20 aux gestes qui sauvent. Renforcer les parcours de prévention dans tous les quartiers avec le bus M TA SANTE. Promouvoir le sport santé à tous les âges. Expérimenter la culture sur ordonnance pour la santé mentale.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/sante/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -654,7 +741,11 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Inciter à la création d'habitats inclusifs et intergénérationnels. Lancer le programme des « petits veilleurs » avec les Petits Frères des Pauvres pour les seniors isolés. Développer un soutien renforcé aux aidants avec temps de répit. Offrir aux seniors la participation à l'embellissement des parcs et l'accès à des espaces climatisés lors des canicules.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/"
+            },
             "million": {
               "texte": "Politique dédiée au bien vieillir à Mulhouse",
               "source": "France Bleu Alsace, janvier 2026",
@@ -682,7 +773,11 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Organiser une Journée de la consultation citoyenne afin de voter sur les grandes transformations de la ville. Introduire le droit d'interpellation citoyenne au Conseil municipal.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/vie-citoyenne/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -691,7 +786,12 @@
             "sassi": null,
             "sornin": null,
             "fuchs": null,
-            "marquet": null,
+            "marquet": {
+              "texte": "Mener une grande consultation citoyenne avec questionnaires et rencontres dans tous les quartiers, groupes de travail pour élaborer un projet concret construit avec les habitants.",
+              "source": "Site officiel Frédéric Marquet",
+              "sourceUrl": "https://marquet2026.fr/",
+              "a_verifier": true
+            },
             "keltoumi": null,
             "djehaf": null
           }
@@ -701,7 +801,11 @@
           "nom": "Transparence",
           "propositions": {
             "lutz": null,
-            "million": null,
+            "million": {
+              "texte": "Des élus référents clairement identifiés pour chaque quartier, responsables, disponibles et joignables. Des contrats de quartiers : 3 mesures claires, formalisées, signées, suivies et évaluées dans le temps.",
+              "source": "Site officiel Lara Million",
+              "sourceUrl": "https://laramillion2026.fr/"
+            },
             "minery": null,
             "ritz": null,
             "taffarelli": null,
@@ -722,8 +826,16 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "lutz": null,
-            "million": null,
+            "lutz": {
+              "texte": "Créer une application pour les associations permettant de réserver des salles et mutualiser des moyens. Organiser une Fête des bénévoles. Réinventer les conseils de quartier avec les habitants.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/vie-citoyenne/"
+            },
+            "million": {
+              "texte": "Des QG de quartiers : espaces de travail partagés entre habitants, élus et administration pour trouver des solutions concrètes du quotidien.",
+              "source": "Site officiel Lara Million",
+              "sourceUrl": "https://laramillion2026.fr/"
+            },
             "minery": null,
             "ritz": null,
             "taffarelli": null,
@@ -740,15 +852,24 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Favoriser l'intégration et le lien social par des cérémonies d'accueil des nouveaux habitants. Soutenir l'organisation d'événements culturels gratuits (Fête de la Science, Fête du Monde, Nuit des Mystères) en lien avec les riverains.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/vie-citoyenne/"
+            },
             "million": {
-              "texte": "Mairie mobile, élus référents de quartier avec permanences régulières, mairies annexes de quartier",
-              "source": "France Bleu Alsace, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "texte": "Une mairie mobile : un bus itinérant dans tous les quartiers pour effectuer des démarches simples et obtenir des réponses immédiates. Permanences régulières sur le terrain au plus près des habitants.",
+              "source": "Site officiel Lara Million",
+              "sourceUrl": "https://laramillion2026.fr/"
             },
             "minery": null,
             "ritz": null,
-            "taffarelli": null,
+            "taffarelli": {
+              "texte": "Défendre l'identité française et alsacienne de Mulhouse qui est présente depuis 1798 et des siècles. La ville ne doit pas faiblir dans ses prérogatives sur ce thème.",
+              "source": "Site officiel Restaurer Mulhouse",
+              "sourceUrl": "https://www.restaurermulhouse.fr/",
+              "a_verifier": true
+            },
             "gafanesch": null,
             "sassi": null,
             "sornin": null,
@@ -768,8 +889,16 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "lutz": null,
-            "million": null,
+            "lutz": {
+              "texte": "Mettre en place une politique d'urbanisme commercial garantissant la diversité des commerces de proximité. Étendre la fonction de manager du commerce à tous les quartiers. Renforcer le soutien financier aux associations de commerçants. Revitaliser l'offre commerciale autour du square de la Bourse. Conforter la place du Marché de Noël dans l'espace rhénan.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/commerce/"
+            },
+            "million": {
+              "texte": "Redynamiser le commerce en soutenant les commerçants et artisans. Redonner vie au centre-ville et aux quartiers par des actions concrètes et financées.",
+              "source": "Site officiel Lara Million",
+              "sourceUrl": "https://laramillion2026.fr/"
+            },
             "minery": null,
             "ritz": null,
             "taffarelli": null,
@@ -786,7 +915,11 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Développer un programme de mécénat. Soutenir le projet Mulhouse Vallée des Matériaux en partenariat avec l'Université Haute-Alsace. Développer les conciergeries économiques au service des entreprises et salariés. Mettre en place la filière du réemploi informatique au bénéfice des plus démunis.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/attractivite-vie-economique/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -804,7 +937,11 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Poursuivre la mutation du quartier Gare pour renforcer sa fonction économique et logistique. Créer un « Mulhouse Business Welcome » pour attirer entreprises et talents. Mettre en place un Groupement Local de Coopération Transfrontalière (GLCT). Renforcer la ligne Mulhouse-Müllheim-Freiburg.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/transfrontalier-projets-emblematiques/"
+            },
             "million": {
               "texte": "Faire de Mulhouse une capitale trinationale",
               "source": "France Bleu Alsace, janvier 2026",
@@ -812,7 +949,12 @@
             },
             "minery": null,
             "ritz": null,
-            "taffarelli": null,
+            "taffarelli": {
+              "texte": "Encourager la réindustrialisation en accueillant des usines, des unités de production et des manufactures. Mulhouse, historiquement industrielle, doit participer pleinement à la réindustrialisation du pays.",
+              "source": "Site officiel Restaurer Mulhouse",
+              "sourceUrl": "https://www.restaurermulhouse.fr/",
+              "a_verifier": true
+            },
             "gafanesch": null,
             "sassi": null,
             "sornin": null,
@@ -832,7 +974,11 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Rénover le Théâtre de la Sinne et le Noumatrouff. Accompagner MOTOCO dans son développement. Labelliser le conservatoire Huguette Dreyfus Conservatoire à rayonnement régional. Rendre l'accès gratuit à tous les services des bibliothèques. Développer les expériences immersives et le e-musée. Obtenir le label Patrimoine européen.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -850,7 +996,11 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Célébrer le 30e anniversaire de Scènes de rue. Renouveler le festival littéraire LIVRODROME. Faire de Mulhouse la capitale européenne des carnavals en 2028. Créer un festival culturel alémanique contemporain ouvert aux participants alsaciens, suisses et allemands. Définir un pass culture et un pass famille.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -874,7 +1024,11 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Construire une grande salle pour accueillir des manifestations sportives et culturelles d'envergure nationale. Réaliser le skatepark de l'Illberg. Équiper tous les quartiers avec un City stade et une aire de street work out accessible et sécurisée.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -883,7 +1037,12 @@
             "sassi": null,
             "sornin": null,
             "fuchs": null,
-            "marquet": null,
+            "marquet": {
+              "texte": "Parlons du sport à Mulhouse - thème de consultation citoyenne pour développer les équipements et activités sportives.",
+              "source": "Site officiel Frédéric Marquet",
+              "sourceUrl": "https://marquet2026.fr/",
+              "a_verifier": true
+            },
             "keltoumi": null,
             "djehaf": null
           }
@@ -892,7 +1051,11 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Développer les pratiques sportives amateures sur l'espace public. Promouvoir le sport santé à tous les âges. Intensifier le dispositif « EPS dans les écoles mulhousiennes » pour toucher l'ensemble des élèves.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -917,9 +1080,9 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "lutz": {
-              "texte": "Extension des zones piétonnes (9 000 m²), plantations d'arbres et création d'espaces verts en centre-ville",
-              "source": "France 3 Grand Est, décembre 2025",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/mulhouse/municipales-2026-a-mulhouse-michele-lutz-annonce-sa-candidature-pour-un-nouveau-mandat-3258649.html"
+              "texte": "Réhabiliter et repositionner la Tour de l'Europe. Transformer le site DMC en laboratoire urbain. Requalifier le canal du Rhône au Rhin et le port de plaisance comme porte d'entrée touristique. Faire des bains municipaux Pierre et Marie Curie un lieu dédié au bien-être autour de l'eau. Recréer les Bains de l'Ill à proximité du pont Chinois.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/transfrontalier-projets-emblematiques/"
             },
             "million": null,
             "minery": null,
@@ -938,7 +1101,11 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Renforcer la mise en accessibilité des voiries et des services publics en faveur des personnes en situation de handicap. Densifier l'offre de toilettes publiques.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -956,7 +1123,11 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Construire et rénover plus de 2 000 logements dans les quartiers des Coteaux, du Drouot et de la Fonderie. Encadrer davantage la densification des quartiers Rebberg et Dornach. Réguler les rénovations dans la Cité Ouvrière. Réinventer les centres socioculturels.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -980,7 +1151,11 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Créer une Cité de la Solidarité à Miroir Cité regroupant l'ensemble des services publics sociaux. Soutenir les familles monoparentales. Mettre en place une astreinte sociale municipale. Signer une convention tripartite Croix-Rouge / sécurité civile / Ville pour les sinistres. Encourager le réemploi solidaire.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/"
+            },
             "million": null,
             "minery": {
               "texte": "Lutte contre la pauvreté (36 % de taux de pauvreté), priorité absolue du mandat",
@@ -1006,7 +1181,11 @@
           "id": "egalite-discriminations",
           "nom": "Égalité & Discriminations",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Fonder une maison de la parentalité. Renforcer la mise en accessibilité des voiries et services publics pour les personnes en situation de handicap. Accueillir la journée nationale d'hommage à Alfred Dreyfus le 12 juillet 2026.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,
@@ -1024,7 +1203,11 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "lutz": null,
+            "lutz": {
+              "texte": "Mettre en place le dispositif « un cabas pour un étudiant ». Encourager le réemploi solidaire (redistribution d'objets, meubles, ordinateurs inutilisés à des structures sociales). Mettre en place la filière du réemploi informatique au bénéfice des plus démunis.",
+              "source": "Programme officiel",
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+            },
             "million": null,
             "minery": null,
             "ritz": null,

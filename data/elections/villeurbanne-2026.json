@@ -70,12 +70,34 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "styvendael": null,
-            "bret": null,
+            "styvendael": {
+              "texte": "Augmentation des effectifs de la police municipale de 75 à 100 agents pour une présence renforcée dans chaque quartier",
+              "source": "Lyon Capitale, janvier 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/actualite/a-villeurbanne-cedric-van-styvendael-veut-poursuivre-son-travail"
+            },
+            "bret": {
+              "texte": "Amélioration de la sécurité et réduction de la criminalité à Villeurbanne",
+              "source": "Tribune de Lyon, 2025-2026",
+              "sourceUrl": "https://tribunedelyon.fr/politique/villeurbanne-jean-paul-bret-prend-rendez-vous-pour-2026/",
+              "a_verifier": true
+            },
             "garabedian": null,
-            "cruz": null,
-            "fraysse": null,
-            "canon": null,
+            "cruz": {
+              "texte": "Renforcement majeur de la sécurité et lutte contre la criminalité record à Villeurbanne",
+              "source": "Tribune de Lyon, février 2026",
+              "sourceUrl": "https://tribunedelyon.fr/politique/villeurbanne-2026-a-droite-sophie-cruz-preferee-a-marc-fraysse/"
+            },
+            "fraysse": {
+              "texte": "Amélioration majeure de la sécurité publique face à l'insécurité croissante",
+              "source": "Lyon Capitale et Tribune de Lyon, 2025-2026",
+              "sourceUrl": "https://tribunedelyon.fr/politique/villeurbanne-2026-a-droite-sophie-cruz-preferee-a-marc-fraysse/",
+              "a_verifier": true
+            },
+            "canon": {
+              "texte": "Restauration de la sécurité à Villeurbanne face à l'insécurité croissante avec renforcement des forces de l'ordre",
+              "source": "Tribune de Lyon, novembre 2025",
+              "sourceUrl": "https://tribunedelyon.fr/politique/villeurbanne-2026-gerald-canon-veut-acter-le-retour-du-rn-au-conseil-municipal/"
+            },
             "bouhami": null
           }
         },
@@ -98,7 +120,11 @@
           "propositions": {
             "styvendael": null,
             "bret": null,
-            "garabedian": null,
+            "garabedian": {
+              "texte": "Désarmement de la police municipale et renforcement de la présence humaine de proximité",
+              "source": "Tribune de Lyon, 2025-2026",
+              "sourceUrl": "https://tribunedelyon.fr/politique/villeurbanne-2026-ladjoint-mathieu-garabedian-menera-la-liste-des-insoumis/"
+            },
             "cruz": null,
             "fraysse": null,
             "canon": null,
@@ -157,7 +183,11 @@
             "styvendael": null,
             "bret": null,
             "garabedian": null,
-            "cruz": null,
+            "cruz": {
+              "texte": "Révision du plan de circulation de la ville pour améliorer la mobilité et la sécurité des piétons",
+              "source": "Tribune de Lyon, février 2026",
+              "sourceUrl": "https://tribunedelyon.fr/politique/villeurbanne-2026-a-droite-sophie-cruz-preferee-a-marc-fraysse/"
+            },
             "fraysse": null,
             "canon": null,
             "bouhami": null
@@ -201,11 +231,20 @@
           "propositions": {
             "styvendael": null,
             "bret": null,
-            "garabedian": null,
+            "garabedian": {
+              "texte": "Inspection du logement et amélioration des conditions de logement pour tous",
+              "source": "Lyon Mag, janvier 2026",
+              "sourceUrl": "https://www.lyonmag.com/article/147027/municipales-2026-a-villeurbanne-mathieu-garabedian-officialise-sa-candidature-pour-lfi"
+            },
             "cruz": null,
             "fraysse": null,
             "canon": null,
-            "bouhami": null
+            "bouhami": {
+              "texte": "Défense du logement pour tous et lutte contre la spéculation immobilière",
+              "source": "Lutte Ouvrière, 2026",
+              "sourceUrl": "https://www.petit-bulletin.fr/article-80302-municipales-2026-cedric-van-styvendael-officialise-sa-candidature-a-villeurbanne.html",
+              "a_verifier": true
+            }
           }
         },
         {
@@ -257,7 +296,11 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "styvendael": null,
+            "styvendael": {
+              "texte": "Création de 160 nouvelles places en crèches dans plusieurs quartiers (Filature, Gratte-Ciel, Saint-Jean, Grandclément)",
+              "source": "Lyon Capitale, janvier 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/actualite/a-villeurbanne-cedric-van-styvendael-veut-poursuivre-son-travail"
+            },
             "bret": null,
             "garabedian": null,
             "cruz": null,
@@ -270,7 +313,11 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "styvendael": null,
+            "styvendael": {
+              "texte": "Rénovation de trois écoles et construction de deux nouveaux établissements éducatifs",
+              "source": "Lyon Capitale, janvier 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/actualite/a-villeurbanne-cedric-van-styvendael-veut-poursuivre-son-travail"
+            },
             "bret": null,
             "garabedian": null,
             "cruz": null,
@@ -285,7 +332,11 @@
           "propositions": {
             "styvendael": null,
             "bret": null,
-            "garabedian": null,
+            "garabedian": {
+              "texte": "Gratuité des cantines scolaires et des fournitures scolaires pour tous les élèves",
+              "source": "Programme LFI Villeurbanne 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/politique/municipales-2026-l-insoumis-mathieu-garabedian-officialise-sa-candidature-face-au-maire-socialiste"
+            },
             "cruz": null,
             "fraysse": null,
             "canon": null,
@@ -328,7 +379,11 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "styvendael": null,
+            "styvendael": {
+              "texte": "Plan de rafraîchissement majeur avec plantation de 10 000 arbres supplémentaires durant le mandat et création de 4 nouveaux parcs urbains",
+              "source": "Lyon Capitale, janvier 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/actualite/a-villeurbanne-cedric-van-styvendael-veut-poursuivre-son-travail"
+            },
             "bret": null,
             "garabedian": null,
             "cruz": null,
@@ -401,7 +456,11 @@
           "propositions": {
             "styvendael": null,
             "bret": null,
-            "garabedian": null,
+            "garabedian": {
+              "texte": "Ouverture d'un centre de santé dans le quartier Saint-Jean",
+              "source": "Lyon Demain, 2025-2026",
+              "sourceUrl": "https://www.lyondemain.fr/villeurbanne-garabedian-lfi-prone-une-inspection-du-logement/"
+            },
             "cruz": null,
             "fraysse": null,
             "canon": null,
@@ -425,7 +484,11 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "styvendael": null,
+            "styvendael": {
+              "texte": "Renforcement des politiques seniors avec amélioration des services aux personnes âgées",
+              "source": "Lyon Capitale, janvier 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/actualite/a-villeurbanne-cedric-van-styvendael-veut-poursuivre-son-travail"
+            },
             "bret": null,
             "garabedian": null,
             "cruz": null,
@@ -446,7 +509,11 @@
           "propositions": {
             "styvendael": null,
             "bret": null,
-            "garabedian": null,
+            "garabedian": {
+              "texte": "Création de comités de quartier pour discuter avec les élus locaux et restaurer le pouvoir au peuple",
+              "source": "Lyon Mag, janvier 2026",
+              "sourceUrl": "https://www.lyonmag.com/article/147294/mathieu-garabedian-lfi-notre-but-est-d-arriver-en-tete-a-villeurbanne"
+            },
             "cruz": null,
             "fraysse": null,
             "canon": null,
@@ -474,7 +541,12 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
+            "fraysse": {
+              "texte": "Renforcement de l'union de la droite, du centre et au-delà autour d'un projet commun pour la ville",
+              "source": "Lyon People, janvier 2026",
+              "sourceUrl": "https://www.lyonpeople.com/actualites-lyon/actualites-politiques/municipales-a-villeurbanne-sonne-mais-pas-coule-marc-fraysse-maintient-sa-candidature-2026-01-14.html",
+              "a_verifier": true
+            },
             "canon": null,
             "bouhami": null
           }
@@ -505,7 +577,11 @@
             "styvendael": null,
             "bret": null,
             "garabedian": null,
-            "cruz": null,
+            "cruz": {
+              "texte": "Relance de l'activité économique locale et soutien aux commerces du centre-ville",
+              "source": "Tribune de Lyon, février 2026",
+              "sourceUrl": "https://tribunedelyon.fr/politique/villeurbanne-2026-a-droite-sophie-cruz-preferee-a-marc-fraysse/"
+            },
             "fraysse": null,
             "canon": null,
             "bouhami": null
@@ -516,12 +592,22 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "styvendael": null,
-            "bret": null,
+            "bret": {
+              "texte": "Réinvestissement dans la vie quotidienne des Villeurbannais et création d'emplois",
+              "source": "Lyon Capitale, 2025-2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/actualite/municipales-2026-face-a-l-exasperation-grandissante-des-villeurbannais-bret-se-lance-dans-la-course",
+              "a_verifier": true
+            },
             "garabedian": null,
             "cruz": null,
             "fraysse": null,
             "canon": null,
-            "bouhami": null
+            "bouhami": {
+              "texte": "Création d'emplois pour les travailleurs et protection de l'emploi local",
+              "source": "Lyon Bondy Blog, 2025-2026",
+              "sourceUrl": "http://lyonbondyblog.fr/LBB/nadia-bouhami-pour-le-camp-des-travailleurs/",
+              "a_verifier": true
+            }
           }
         },
         {
@@ -612,11 +698,29 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "styvendael": null,
-            "bret": null,
-            "garabedian": null,
+            "bret": {
+              "texte": "Amélioration de la relation entre la ville et la Métropole pour développer de nouvelles formes d'intervention publique",
+              "source": "Lyon Capitale, 2025-2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/actualite/municipales-2026-face-a-l-exasperation-grandissante-des-villeurbannais-bret-se-lance-dans-la-course",
+              "a_verifier": true
+            },
+            "garabedian": {
+              "texte": "Concept de 'ville archipel' où chaque quartier a son identité avec services publics locaux et transport connecté",
+              "source": "Lyon Mag, janvier 2026",
+              "sourceUrl": "https://www.lyonmag.com/article/147294/mathieu-garabedian-lfi-notre-but-est-d-arriver-en-tete-a-villeurbanne"
+            },
             "cruz": null,
-            "fraysse": null,
-            "canon": null,
+            "fraysse": {
+              "texte": "Création de trois arrondissements (Buers, Charpennes, Grand-Clément) pour améliorer la représentation de quartier et l'efficacité municipale",
+              "source": "Lyon People, janvier 2026",
+              "sourceUrl": "https://www.lyonpeople.com/actualites-lyon/actualites-politiques/municipales-a-villeurbanne-marc-fraysse-maintient-sa-candidature-et-propose-de-creer-trois-arrondissements-2026-01-14.html"
+            },
+            "canon": {
+              "texte": "Développement urbain et amélioration de la qualité de vie dans les quartiers",
+              "source": "Figures Publiques, 2026",
+              "sourceUrl": "https://figurespubliques.fr/votetafrance/municipales-2026-a-villeurbanne-gerald-canon-veut-acter-le-retour-du-rn-au-conseil-municipal/",
+              "a_verifier": true
+            },
             "bouhami": null
           }
         },
@@ -682,13 +786,22 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "styvendael": null,
+            "styvendael": {
+              "texte": "Actions pour améliorer le pouvoir d'achat des habitants",
+              "source": "Lyon Capitale, janvier 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/actualite/a-villeurbanne-cedric-van-styvendael-veut-poursuivre-son-travail"
+            },
             "bret": null,
             "garabedian": null,
             "cruz": null,
             "fraysse": null,
             "canon": null,
-            "bouhami": null
+            "bouhami": {
+              "texte": "Amélioration du pouvoir d'achat et défense des intérêts des travailleurs",
+              "source": "Lutte Ouvrière, 2026",
+              "sourceUrl": "https://www.petit-bulletin.fr/article-80302-municipales-2026-cedric-van-styvendael-officialise-sa-candidature-a-villeurbanne.html",
+              "a_verifier": true
+            }
           }
         }
       ]

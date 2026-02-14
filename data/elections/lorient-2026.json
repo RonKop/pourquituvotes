@@ -427,7 +427,12 @@
           "nom": "Commerce local",
           "propositions": {
             "loher": null,
-            "girard": null,
+            "girard": {
+              "texte": "Projet « Lorient, Port bio » pour soutenir les professionnels du port et le développement local.",
+              "source": "Site officiel Lorient en Commun",
+              "sourceUrl": "https://lorientencommun.fr/programme",
+              "a_verifier": true
+            },
             "stradic": null,
             "tertre": null,
             "thomas": null

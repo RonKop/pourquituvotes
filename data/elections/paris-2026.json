@@ -25,7 +25,7 @@
       "nom": "Sophia Chikirou",
       "liste": "LFI",
       "programmeUrl": "https://sophiapourparis.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -33,7 +33,7 @@
       "nom": "Pierre-Yves Bournazel",
       "liste": "Renaissance/Horizons",
       "programmeUrl": "https://bournazel.paris/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -72,11 +72,15 @@
               "source": "Tract Sécurité 2026",
               "sourceUrl": "https://rachidadati2026.com/"
             },
-            "chikirou": null,
+            "chikirou": {
+              "texte": "Création d'antennes de proximité réunissant police municipale, médiateurs, éducateurs et assistants sociaux dans des maisons de quartier. Refus de l'armement létal de la police municipale",
+              "source": "Presse (CNews, France 24)",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
             "bournazel": {
-              "texte": "6 000 policiers municipaux armés, opérationnels 24h/24 et 7j/7. Brigades spécialisées par quartier (bruit, incivilités, petite délinquance)",
+              "texte": "6 000 policiers municipaux armés, opérationnels 24h/24 et 7j/7 via un numéro dédié 7517. Académie municipale de police. Brigade canine de 50 chiens et 60 agents (~5 M€/an). Accès logement prioritaire pour les policiers. Compétences élargies : constatation de délits, contrôles d'alcoolémie, lecture automatique des plaques",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/"
+              "sourceUrl": "https://bournazel.paris/engagements/securite"
             },
             "knafo": {
               "texte": "8 000 policiers municipaux armés (contre 3 000). Interpellations systématiques des délinquants. Vidéosurveillance IA généralisée. Création d'une brigade montée à cheval (40 chevaux) et d'une brigade canine (30 chiens) pour parcs et zones sensibles",
@@ -105,13 +109,21 @@
               "sourceUrl": "https://rachidadati2026.com/"
             },
             "chikirou": null,
-            "bournazel": null,
+            "bournazel": {
+              "texte": "Investissement de ~3 M€ dans la vidéosurveillance algorithmique (détection automatique d'infractions et de risques). Caméras aux entrées de chaque école et collège. Boutons d'alerte d'urgence dans les écoles, commerces et lieux de culte",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/securite"
+            },
             "knafo": {
               "texte": "Réverbères intelligents anti-agression pilotés par IA (détection de cris, bris de verre, coups de feu). Éclairage LED maintenu toute la nuit. Droit des commerces d'éclairer leurs vitrines",
               "source": "Programme officiel 2026",
               "sourceUrl": "https://unevilleheureuse.fr/"
             },
-            "mariani": null
+            "mariani": {
+              "texte": "Déployer 14 000 caméras de vidéosurveillance dans Paris pour couvrir l'ensemble du territoire",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.mariani-2026.fr/"
+            }
           }
         },
         {
@@ -128,14 +140,26 @@
               "source": "Tract Sécurité 2026",
               "sourceUrl": "https://rachidadati2026.com/"
             },
-            "chikirou": null,
-            "bournazel": null,
+            "chikirou": {
+              "texte": "Approche de la sécurité fondée sur la prévention et la médiation. Rééquilibrage des moyens entre l'est et l'ouest de Paris",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
+            "bournazel": {
+              "texte": "Un agent de sécurité municipale par station de métro le soir. 5 000 agents de sécurité dans le métro (2 000 supplémentaires). Service d'arrêt à la demande pour les bus de nuit. Patrouilles conjointes avec la police nationale dans certains parcs",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/securite"
+            },
             "knafo": {
               "texte": "Reconquête des quartiers sensibles (Stalingrad, Porte de la Chapelle, Goutte d'Or) : déploiement massif de forces de l'ordre 24h/24, démantèlement des campements illégaux",
               "source": "Programme officiel 2026",
               "sourceUrl": "https://unevilleheureuse.fr/"
             },
-            "mariani": null
+            "mariani": {
+              "texte": "Création de 7 brigades spécialisées : anti-squat, anti-drogue, anti-campements illicites, transports, circulation, brigade d'action rapide et police de quartier. Intervention sous 48 heures",
+              "source": "France 24, 2026",
+              "sourceUrl": "https://www.france24.com/fr/info-en-continu/20260115-municipales-%C3%A0-paris-mariani-rn-veut-armer-la-police-municipale-et-doubler-ses-effectifs"
+            }
           }
         },
         {
@@ -180,9 +204,9 @@
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "Priorité aux bus : modernisation des feux de signalisation par solutions numériques et automatisées",
+              "texte": "Ouverture des lignes 1, 4 et 14 du métro 24h/24 dès fin 2026 (d'abord les week-ends). Accélération de l'automatisation des lignes 7, 8 et 9. Accessibilité de toutes les lignes de métro. Trois lignes de bus express (Nord-Sud, Est-Ouest le long de la Seine, gares). Remplacement de tous les bus diesel par des électriques d'ici 2026. Paiement direct par carte bancaire dans le métro",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/"
+              "sourceUrl": "https://bournazel.paris/engagements/mobilite"
             },
             "knafo": {
               "texte": "Développement de la livraison de marchandises par voie fluviale (appel à manifestation d’intérêt pour navettes fluviales, dernier km en vélo ou camion)",
@@ -207,7 +231,11 @@
               "sourceUrl": "https://rachidadati2026.com/"
             },
             "chikirou": null,
-            "bournazel": null,
+            "bournazel": {
+              "texte": "1 680 km de pistes cyclables protégées et séparées d'ici 2032. Sécurisation des 200 intersections les plus accidentogènes. Modernisation de 60 000 arceaux vélo. Vélib' 2.0 : démontage des anciennes bornes, nouveaux arceaux modernes, ajout de vélos cargo et de sièges enfants. Interdiction des engins surdimensionnés (fat bikes, trottinettes puissantes) sur les pistes cyclables",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/mobilite"
+            },
             "knafo": {
               "texte": "Nouveau contrat Vélib intégrant la publicité (économie de 22 M€/an, clause de reprise du personnel). Piste cyclable bidirectionnelle maintenue sur la rue de Rivoli",
               "source": "Programme officiel 2026",
@@ -231,13 +259,21 @@
               "sourceUrl": "https://rachidadati2026.com/"
             },
             "chikirou": null,
-            "bournazel": null,
+            "bournazel": {
+              "texte": "Plan « zéro mort » piéton avec compte à rebours à tous les passages piétons. 1 000 rues apaisées près des écoles avec enrobé anti-bruit et végétalisation. Coordination centrale des chantiers avec pénalités financières automatiques en cas de dépassement des délais. Interdiction des autocars touristiques non électriques dans Paris",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/mobilite"
+            },
             "knafo": {
               "texte": "Réouverture des voies sur berge rive droite à la circulation automobile. Construction d'un tablier au-dessus pour créer une promenade piétonne (coût estimé : 60 M€, soumis à référendum). Réouverture des voies sur berge + promenade piétonne et cycliste au-dessus (60 M€, référendum). Réaménagement de Rivoli (voie auto + piste cyclable + trottoir élargi, 6 M€). Feux tricolores pilotés par IA (-11% temps de trajet). Tarif unique stationnement 3€/h, 1ère heure gratuite, gratuit 12h-14h. 15 000 places de stationnement créées. Places disponibles en temps réel via IA",
               "source": "Site de campagne 2026 | Programme officiel 2026",
               "sourceUrl": "https://sarahpourparis.fr/"
             },
-            "mariani": null
+            "mariani": {
+              "texte": "Adapter le plan de circulation pour protéger piétons, cyclistes et automobilistes. Faire respecter le code de la route par tous les usagers",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.mariani-2026.fr/"
+            }
           }
         },
         {
@@ -247,13 +283,21 @@
             "gregoire": null,
             "dati": null,
             "chikirou": null,
-            "bournazel": null,
+            "bournazel": {
+              "texte": "Doublement des places de livraison à 18 000. Application de stationnement intelligent en temps réel. 30 000 places supplémentaires en parcs relais en périphérie (+30 %). Utilisation de la Seine comme axe logistique avec mini-ports modernisés (Javel, Bercy, Grenelle)",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/mobilite"
+            },
             "knafo": {
               "texte": "Tarif unique 3€/h dans tous les arrondissements. Stationnement résident étendu à tout l'arrondissement. Gratuité 12h-14h pour aider les restaurateurs. 1ère heure gratuite pour les professionnels. Places disponibles en temps réel via GPS et IA",
               "source": "Programme officiel 2026",
               "sourceUrl": "https://unevilleheureuse.fr/"
             },
-            "mariani": null
+            "mariani": {
+              "texte": "Rétablir l'égalité des tarifs de stationnement en mettant fin au zonage discriminant pour les Parisiens",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.mariani-2026.fr/"
+            }
           }
         },
         {
@@ -266,7 +310,11 @@
               "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
             },
             "dati": null,
-            "chikirou": null,
+            "chikirou": {
+              "texte": "Gratuité des transports en commun pour les jeunes",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
             "bournazel": null,
             "knafo": null,
             "mariani": null
@@ -325,7 +373,11 @@
               "source": "Site de campagne 2026",
               "sourceUrl": "https://sophiapourparis.fr/"
             },
-            "bournazel": null,
+            "bournazel": {
+              "texte": "Pacte de confiance avec les propriétaires : fonds de garantie municipale couvrant impayés, dégradations et dépôts de garantie pour remettre 20 000 logements vacants sur le marché. Réduction des locations Airbnb de 90 à 30 jours par an avec contrôle renforcé par IA",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/logement"
+            },
             "knafo": {
               "texte": "Remettre 50 000 logements vacants sur le marché locatif parisien en supprimant l'encadrement des loyers qui dissuade les propriétaires de louer",
               "source": "Programme officiel 2026",
@@ -349,7 +401,11 @@
               "source": "Site de campagne 2026",
               "sourceUrl": "https://sophiapourparis.fr/"
             },
-            "bournazel": null,
+            "bournazel": {
+              "texte": "Prime incitative à la rotation : réduction de loyer sur 5 ans pour les locataires qui libèrent un logement surdimensionné. Objectif : passer de 5 % à 10 % de rotation annuelle, soit 80 000 attributions supplémentaires sur le mandat",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/logement"
+            },
             "knafo": {
               "texte": "Suppression de l'encadrement des loyers, mesure aux effets désastreux : frein aux constructions, entretien réduit, pénurie aggravée",
               "source": "Programme officiel 2026",
@@ -372,8 +428,16 @@
               "source": "Tract Familles 2026",
               "sourceUrl": "https://rachidadati2026.com/"
             },
-            "chikirou": null,
-            "bournazel": null,
+            "chikirou": {
+              "texte": "Création d'une régie publique locative offrant aux propriétaires la gestion de leur bien en échange de loyers modérés, garantis, et la prise en charge des travaux de rénovation énergétique. Doublement de la production de logements sociaux (de 2 500 à plus de 5 000 par an)",
+              "source": "Journal du Grand Paris / Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
+            "bournazel": {
+              "texte": "Création de 3 quartiers universitaires (Villette, Chapelle, Charbon) offrant 7 000 logements étudiants et familiaux d'ici 2030. Bail étudiant annuel de 9-10 mois à loyer plafonné avec garantie municipale, libérant 1 000 logements privés par an",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/logement"
+            },
             "knafo": null,
             "mariani": null
           }
@@ -396,16 +460,20 @@
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "10 000 nouvelles solutions de garde d'enfants",
+              "texte": "10 000 nouvelles solutions de garde d'enfants d'ici 2032 (crèches et assistantes maternelles, +25 %). Quintuplement des places en CAP petite enfance (1 000 apprentis formés). Critères d'attribution transparents et publics. Maisons des Nounous pour garde en soirée et week-end",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/"
+              "sourceUrl": "https://bournazel.paris/engagements/famille"
             },
             "knafo": {
               "texte": "Création de 7 000 places en crèche : priorité d'accès au logement social pour les professionnels de la petite enfance, salaire à l'embauche +10% en crèche municipale, gestion centralisée des effectifs, attribution des places via une appli transparente sans passe-droit, achat de 1 000 places aux crèches privées",
               "source": "Programme officiel 2026",
               "sourceUrl": "https://unevilleheureuse.fr/"
             },
-            "mariani": null
+            "mariani": {
+              "texte": "Lancer un grand plan de protection de la petite enfance avec tolérance zéro contre les abus dans les structures d'accueil",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.mariani-2026.fr/"
+            }
           }
         },
         {
@@ -428,16 +496,20 @@
               "sourceUrl": "https://sophiapourparis.fr/"
             },
             "bournazel": {
-              "texte": "Plan de rénovation massif des écoles",
+              "texte": "100 % des écoles rénovées d'ici 2032 (1 Md€ d'investissement). Capteurs de CO₂ et purificateurs d'air dans chaque classe. Végétalisation de toutes les cours d'école rénovées. Cuisines dans 325 écoles (200 M€). 100 % d'alimentation durable en cantine (locale, fraîche, de saison). Programme Educalim d'éducation à la nutrition",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/"
+              "sourceUrl": "https://bournazel.paris/engagements/famille"
             },
             "knafo": {
               "texte": "Fin de la guerre contre l'école privée : équité de traitement public/privé. Bras de fer avec l'État pour supprimer les critères idéologiques de mixité sociale dans l'algorithme Affelnet",
               "source": "Programme officiel 2026",
               "sourceUrl": "https://unevilleheureuse.fr/"
             },
-            "mariani": null
+            "mariani": {
+              "texte": "Instaurer le port de l'uniforme scolaire dès l'école primaire dans les écoles parisiennes",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.mariani-2026.fr/"
+            }
           }
         },
         {
@@ -450,8 +522,16 @@
               "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
             },
             "dati": null,
-            "chikirou": null,
-            "bournazel": null,
+            "chikirou": {
+              "texte": "Cantines scolaires bio à 1 euro. Repas gratuits, bio et de qualité pour tous les enfants. Ouverture de restaurants populaires à prix solidaires avec produits bio, durables, locaux et option végétarienne",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
+            "bournazel": {
+              "texte": "Cuisines installées dans un tiers des écoles (325 établissements, investissement de 200 M€). 100 % d'alimentation durable, locale et de saison dans les cantines. Programme obligatoire Educalim d'éducation à la nutrition",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/famille"
+            },
             "knafo": {
               "texte": "100% de produits issus de l'agriculture française dans les cantines scolaires parisiennes (30 millions de repas/an, +7 M€/an)",
               "source": "Programme officiel 2026",
@@ -480,9 +560,9 @@
               "sourceUrl": "https://sophiapourparis.fr/"
             },
             "bournazel": {
-              "texte": "Restructuration du périscolaire, contrôles systématiques du personnel, inspections surprises. Extension des horaires jusqu'à 19h. 8 millions d'euros dans la formation",
+              "texte": "Vérification systématique des antécédents judiciaires pour tous les animateurs (12 000 agents). Formation BAFA obligatoire pour tous les encadrants (8 M€/an). Système d'inspection municipale contrôlant les 650 sites récréatifs chaque année. Programme « Colos pour tous » : 30 000 places annuelles à tarif progressif (15 M€)",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/"
+              "sourceUrl": "https://bournazel.paris/engagements/famille"
             },
             "knafo": {
               "texte": "Vérifications strictes (casier judiciaire, Fijais) pour tous les intervenants périscolaires avec contrôles périodiques continus et principe de précaution immédiat",
@@ -502,8 +582,16 @@
               "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
             },
             "dati": null,
-            "chikirou": null,
-            "bournazel": null,
+            "chikirou": {
+              "texte": "Titularisation des 4 000 animateurs vacataires de la Ville. Formation qualifiante via des partenariats avec les lycées professionnels et licences pro",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
+            "bournazel": {
+              "texte": "Carte Solo Parent : tarifs réduits en crèche, cantine, activités culturelles et musées pour les familles monoparentales. Prise en charge du pass Navigo des enfants et Vélib à tarif réduit. Début des cours au collège à 9h. Casiers sécurisés pour les téléphones portables dans les écoles",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/famille"
+            },
             "knafo": {
               "texte": "Villa des talents : résidence étudiante de prestige en plein Paris pour les meilleurs étudiants français (Sorbonne, Sciences Po, ENS, École Boulle, Conservatoire...), financée par les grandes écoles partenaires, coût zéro pour la collectivité",
               "source": "Programme officiel 2026",
@@ -528,7 +616,11 @@
               "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
             },
             "dati": null,
-            "chikirou": null,
+            "chikirou": {
+              "texte": "Végétalisation massive de la ville. Engagement à ne pas artificialiser un seul mètre carré supplémentaire",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
             "bournazel": null,
             "knafo": {
               "texte": "Sublimer les parcs et jardins : remettre l’art du jardinage au cœur des missions des agents. Ouvrir tous les squares aux chiens tenus en laisse (sauf aires de jeux enfants)",
@@ -554,9 +646,9 @@
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "Privatisation intégrale de la collecte des ordures ménagères. Doublement des équipes de balayage. IA pour optimiser nettoyage et collecte. Brigade municipale anti-incivilités",
+              "texte": "Privatisation intégrale de la collecte et du nettoyage par délégation de service public. Passage à 100 % de camions électriques. IA pour l'optimisation des tournées et la détection des déchets. Ouverture de nouvelles déchèteries. Contrats sur résultats avec pénalités financières mensuelles. Économie estimée à 742 M€ sur le mandat, sans hausse de taxe",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/"
+              "sourceUrl": "https://bournazel.paris/engagements/proprete"
             },
             "knafo": {
               "texte": "Privatisation totale du ramassage des ordures ménagères et du nettoyage de la voirie (27% moins cher selon la CRC). Plan anti-rats : suppression des sources de nourriture en surface, poubelles à QR codes pour signalement en temps réel",
@@ -564,9 +656,9 @@
               "sourceUrl": "https://unevilleheureuse.fr/"
             },
             "mariani": {
-              "texte": "Externalisation totale de la collecte des déchets. Redéploiement des agents municipaux sur le terrain pour la propreté 24h/24. Possibilité pour chaque arrondissement de choisir son prestataire",
-              "source": "Site de campagne 2026",
-              "sourceUrl": "https://www.mariani-2026.fr/"
+              "texte": "Grand plan de dératisation à l'échelle de Paris. Chaque arrondissement pourra choisir son prestataire de nettoyage",
+              "source": "CNews, 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-02-05/municipales-paris-que-proposent-les-candidats-pour-garantir-la-proprete-de-la"
             }
           }
         },
@@ -581,7 +673,11 @@
             },
             "dati": null,
             "chikirou": null,
-            "bournazel": null,
+            "bournazel": {
+              "texte": "300 capteurs acoustiques et 50 radars anti-bruit déployés dans Paris. 1 000 rues calmes avec enrobé anti-bruit et anti-chaleur. Piétonisation de toutes les 626 rues d'écoles maternelles et élémentaires. Couverture de 5 km supplémentaires du périphérique d'ici 2035 avec revêtement acoustique et végétalisation",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/apaiser-paris"
+            },
             "knafo": null,
             "mariani": null
           }
@@ -596,8 +692,16 @@
               "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
             },
             "dati": null,
-            "chikirou": null,
-            "bournazel": null,
+            "chikirou": {
+              "texte": "Accélération de la rénovation énergétique des bâtiments parisiens. Lutte contre la précarité énergétique",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
+            "bournazel": {
+              "texte": "Triplement du rythme de rénovation du parc social à 12 000 logements/an (rénovation complète en 10 ans). Quadruplement de la rénovation privée à 12 000 logements/an avec 30 M€ de soutien municipal et crédit d'impôt foncier de 50 % pour les passoires thermiques (F-G). Isolation acoustique systématiquement intégrée aux rénovations thermiques. 15 M€ pour des installations photovoltaïques coopératives sur les toits",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/logement"
+            },
             "knafo": null,
             "mariani": null
           }
@@ -678,7 +782,11 @@
               "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
             },
             "dati": null,
-            "chikirou": null,
+            "chikirou": {
+              "texte": "Couverture santé populaire municipale pour aider ceux qui ne peuvent pas se payer de mutuelle (achat groupé d'assurance par la Ville). Réseau de centres de santé municipaux publics et associatifs, au moins un par arrondissement d'ici 2032",
+              "source": "Concours Pluripro / Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
             "bournazel": null,
             "knafo": null,
             "mariani": null
@@ -742,16 +850,20 @@
             "dati": null,
             "chikirou": null,
             "bournazel": {
-              "texte": "Coopération métropolitaine renforcée, réforme de la gouvernance. Plan de 4 milliards d'euros d'économies sur 6 ans",
+              "texte": "Plafonnement des frais de représentation à 30 €/repas/personne. Suppression des voitures avec chauffeur (22,4 M€ d'économies). Réduction de moitié des collaborateurs de cabinet (55 M€). Déclarations de patrimoine et d'intérêts obligatoires pour tous les élus. Audit annuel des 100 plus grosses subventions. Audit indépendant des finances par la Cour des comptes",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/"
+              "sourceUrl": "https://bournazel.paris/engagements/probite"
             },
             "knafo": {
               "texte": "Réduire les adjoints à 10 (contre 37). Diviser par 2 les conseillers de Paris (163→81). Diviser par 5 les voitures de fonction (500→100) et les collaborateurs de cabinet (145→30). Supprimer frais de représentation et jetons de présence. Économie : 18 M€/an",
               "source": "Programme officiel 2026",
               "sourceUrl": "https://unevilleheureuse.fr/"
             },
-            "mariani": null
+            "mariani": {
+              "texte": "Contrôle de la bonne gestion municipale confié à une association de défense des contribuables parisiens",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://www.mariani-2026.fr/"
+            }
           }
         },
         {
@@ -785,13 +897,21 @@
             },
             "dati": null,
             "chikirou": null,
-            "bournazel": null,
+            "bournazel": {
+              "texte": "Fusion des trois bailleurs sociaux parisiens (6 % d'économies structurelles, 540 M€ réalloués). Économies de 4 Md€ sur 6 ans : vente de 20 000 logements sociaux hors Paris (3 Md€), réduction de l'absentéisme (190 M€), non-remplacement d'un départ sur trois (315 M€), application des 35 heures (récupération de 2 000 ETP)",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/dette"
+            },
             "knafo": {
               "texte": "Non-remplacement d'un départ sur deux (objectif : -15 000 postes en 6 ans). Mobilité interne et reconversion vers police municipale et petite enfance. Plan de départs volontaires. Rationalisation du temps de travail (50 jours d'absence → 33 jours pour les nouveaux contrats)",
               "source": "Programme officiel 2026",
               "sourceUrl": "https://unevilleheureuse.fr/"
             },
-            "mariani": null
+            "mariani": {
+              "texte": "Permettre à chaque arrondissement de choisir ses prestataires de services (propreté, entretien) pour s'adapter aux réalités locales",
+              "source": "CNews, 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-02-05/municipales-paris-que-proposent-les-candidats-pour-garantir-la-proprete-de-la"
+            }
           }
         }
       ]
@@ -806,7 +926,11 @@
           "propositions": {
             "gregoire": null,
             "dati": null,
-            "chikirou": null,
+            "chikirou": {
+              "texte": "Triplement des espaces commerciaux publics via la Foncière Paris Commerce avec loyers très réduits. Création d'un statut de « commerce essentiel » (alimentation, artisanat dans un rayon de 400-500 m). Garantie municipale à 50 % des prêts des entrepreneurs de moins de 35 ans. Augmentation de la taxe sur les locaux commerciaux vacants spéculatifs",
+              "source": "Journal du Grand Paris / Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
             "bournazel": null,
             "knafo": {
               "texte": "Abroger le PLU bioclimatique (PLUb) et diviser par 3 les durées d'instruction des permis de construire pour libérer les entrepreneurs",
@@ -937,7 +1061,11 @@
               "source": "Site de campagne 2026",
               "sourceUrl": "https://sophiapourparis.fr/"
             },
-            "bournazel": null,
+            "bournazel": {
+              "texte": "Couverture de 5 km supplémentaires du périphérique d'ici 2035 dans les secteurs les plus exposés au bruit. Systèmes de régulation intelligente de la vitesse sur le périphérique. Revêtement acoustique et écrans végétaux. Aide à l'isolation acoustique de 1 000 bars et restaurants (35 M€ sur 7 ans)",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/apaiser-paris"
+            },
             "knafo": {
               "texte": "Relever la vitesse à 80 km/h sur le périphérique (infrastructure conçue pour 90 km/h, la limitation à 50 km/h n’a réduit ni pollution ni bruit)",
               "source": "Programme officiel 2026",
@@ -968,7 +1096,11 @@
           "propositions": {
             "gregoire": null,
             "dati": null,
-            "chikirou": null,
+            "chikirou": {
+              "texte": "Rééquilibrage des moyens et des équipements publics en faveur des arrondissements périphériques et des quartiers populaires",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
             "bournazel": null,
             "knafo": null,
             "mariani": null
@@ -990,8 +1122,16 @@
               "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
             },
             "dati": null,
-            "chikirou": null,
-            "bournazel": null,
+            "chikirou": {
+              "texte": "Paris populaire et solidaire : renforcement de l'entraide et des dispositifs d'aide aux plus précaires. Coopération concrète avec les communes voisines pour le logement, les transports, l'écologie et les services publics",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
+            "bournazel": {
+              "texte": "Service minimum dans les écoles en cas de grève. Carte Solo Parent avec tarifs réduits pour les familles monoparentales (crèches, cantines, culture, musées, transports)",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://bournazel.paris/engagements/famille"
+            },
             "knafo": {
               "texte": "Fermeture des 99 centres d'hébergement pour migrants en situation irrégulière à Paris",
               "source": "Programme officiel 2026",
@@ -1010,7 +1150,11 @@
               "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
             },
             "dati": null,
-            "chikirou": null,
+            "chikirou": {
+              "texte": "Plan pour Paris Capitale Antiraciste. Budgets municipaux sensibles au genre avec indicateurs transparents. Action soutenue contre toutes les discriminations",
+              "source": "Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/notre-plan-pour-paris-capitale-antiraciste/"
+            },
             "bournazel": null,
             "knafo": null,
             "mariani": null
@@ -1022,7 +1166,11 @@
           "propositions": {
             "gregoire": null,
             "dati": null,
-            "chikirou": null,
+            "chikirou": {
+              "texte": "Division par deux de la taxe foncière et remboursement du trop-perçu lié à la hausse de 2023. Réforme de la taxe foncière pour distinguer propriétaires d'un seul logement et multipropriétaires spéculatifs",
+              "source": "Journal du Grand Paris / Site de campagne 2026",
+              "sourceUrl": "https://sophiapourparis.fr/"
+            },
             "bournazel": null,
             "knafo": null,
             "mariani": null

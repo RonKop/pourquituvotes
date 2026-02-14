@@ -9,14 +9,17 @@ Usage:
   python scripts/discovery_step0.py --seeds data/seeds.txt
   python scripts/discovery_step0.py --seeds data/seeds.txt --max-pages 200 --max-depth 1
   python scripts/discovery_step0.py --auto  (extrait les URLs depuis data/elections/*.json)
+  python scripts/discovery_step0.py --auto --workers 5 --purge-days 30
 """
 
 import argparse
+import concurrent.futures
 import hashlib
 import json
 import os
 import re
 import sys
+import threading
 import time
 from datetime import datetime, timedelta
 from urllib.parse import urljoin, urlparse, urlunparse
@@ -37,9 +40,11 @@ ELECTIONS_DIR = os.path.join(DATA_DIR, "elections")
 REGISTRY_PATH = os.path.join(DATA_DIR, "crawl-registry.json")
 
 USER_AGENT = "PourQuiTuVotes-Discovery/1.0 (+https://pourquituvotes.fr)"
-RATE_LIMIT = 0.5  # secondes entre requêtes
+RATE_LIMIT = 0.5  # secondes entre requêtes par domaine
 TIMEOUT = 10  # secondes
 SKIP_IF_CHECKED_DAYS = 7  # ne pas revérifier avant X jours
+MAX_PDF_SIZE = 100 * 1024 * 1024  # 100 MB
+STREAM_THRESHOLD = 10 * 1024 * 1024  # 10 MB — streaming au-delà
 
 # Mots-clés pour détecter une page "programme"
 PROGRAM_KEYWORDS = [
@@ -47,6 +52,18 @@ PROGRAM_KEYWORDS = [
     "nos-mesures", "nos-engagements", "engagements", "nos-priorites",
     "priorites", "plan", "manifeste", "plateforme", "documents",
     "telecharger", "telechargement", "pdf",
+    "nos-actions", "mon-projet", "vision", "ambition", "tract",
+    "kit-militant", "campagne", "nos-combats", "enjeux",
+]
+
+# Pattern numérique type "132-propositions"
+PROGRAM_NUMERIC_RE = re.compile(r"\d+-propositions?|\d+-mesures?|\d+-engagements?")
+
+# Faux positifs à exclure
+FALSE_POSITIVE_KEYWORDS = [
+    "programme-tv", "mentions-legales", "conditions-generales",
+    "cookies", "confidentialite", "recrutement", "emploi",
+    "don", "contact", "politique-de-confidentialite",
 ]
 
 # Domaines à exclure (réseaux sociaux, plateformes génériques)
@@ -55,6 +72,27 @@ SKIP_DOMAINS = {
     "youtube.com", "tiktok.com", "threads.net", "google.com", "wikipedia.org",
     "legifrance.gouv.fr", "senat.fr", "assemblee-nationale.fr",
 }
+
+# === Rate limiter par domaine ===
+_domain_locks = {}
+_domain_lock_mutex = threading.Lock()
+_domain_last_request = {}
+
+
+def domain_rate_limit(url):
+    """Attend si nécessaire pour respecter le rate limit par domaine."""
+    host = (urlparse(url).hostname or "").lower()
+    with _domain_lock_mutex:
+        if host not in _domain_locks:
+            _domain_locks[host] = threading.Lock()
+    lock = _domain_locks[host]
+    with lock:
+        now = time.monotonic()
+        last = _domain_last_request.get(host, 0)
+        wait = RATE_LIMIT - (now - last)
+        if wait > 0:
+            time.sleep(wait)
+        _domain_last_request[host] = time.monotonic()
 
 
 def normalize_url(url):
@@ -93,17 +131,109 @@ def is_program_link(url, text=""):
     """Détecte si un lien ressemble à une page programme."""
     url_lower = url.lower()
     text_lower = (text or "").lower()
+    combined = url_lower + " " + text_lower
+
+    # Exclure les faux positifs
+    if any(fp in combined for fp in FALSE_POSITIVE_KEYWORDS):
+        return False
+
     # Lien PDF
     if url_lower.endswith(".pdf"):
         return True
+
+    # Pattern numérique (ex: "132-propositions")
+    if PROGRAM_NUMERIC_RE.search(combined):
+        return True
+
     # Mots-clés dans l'URL ou le texte du lien
-    combined = url_lower + " " + text_lower
     return any(kw in combined for kw in PROGRAM_KEYWORDS)
 
 
 def url_hash(url):
     """Hash court d'une URL pour dédup rapide."""
     return hashlib.md5(normalize_url(url).encode()).hexdigest()[:12]
+
+
+# === Analyse du contenu HTML ===
+
+ELECTORAL_WORDS = [
+    "proposition", "mesure", "engagement", "candidat", "municipale",
+    "élection", "mandat", "programme", "liste", "électeur",
+    "promesse", "priorité", "action", "réalisation", "projet",
+]
+
+
+def analyze_page_content(html):
+    """Analyse le contenu HTML et retourne un score de pertinence (0-100)."""
+    soup = BeautifulSoup(html, "html.parser")
+    score = 0
+
+    # Signal 1 : mots-clés dans les titres (h1-h3)
+    for tag in soup.find_all(["h1", "h2", "h3"]):
+        title_text = tag.get_text(strip=True).lower()
+        for word in ELECTORAL_WORDS:
+            if word in title_text:
+                score += 10
+                break  # max 10 par titre
+
+    # Signal 2 : listes longues (>5 éléments li)
+    for ul in soup.find_all(["ul", "ol"]):
+        items = ul.find_all("li")
+        if len(items) > 5:
+            score += 10
+            # Bonus si les items contiennent des mots-clés
+            items_text = " ".join(li.get_text(strip=True).lower() for li in items[:10])
+            if any(w in items_text for w in ELECTORAL_WORDS):
+                score += 10
+
+    # Signal 3 : densité de mots-clés dans le corps
+    body_text = soup.get_text(separator=" ", strip=True).lower()
+    keyword_count = sum(body_text.count(w) for w in ELECTORAL_WORDS)
+    if keyword_count > 20:
+        score += 20
+    elif keyword_count > 10:
+        score += 10
+    elif keyword_count > 5:
+        score += 5
+
+    # Signal 4 : présence de PDF links
+    pdf_links = [a for a in soup.find_all("a", href=True) if a["href"].lower().endswith(".pdf")]
+    if pdf_links:
+        score += 10
+
+    return min(score, 100)
+
+
+def content_score_to_confidence(score):
+    """Convertit un score de contenu en niveau de confiance."""
+    if score > 50:
+        return "high"
+    elif score >= 20:
+        return "medium"
+    return "low"
+
+
+# === Détection JS-rendered / Cloudflare ===
+
+def detect_js_rendered(html):
+    """Détecte si une page nécessite JavaScript pour afficher son contenu."""
+    if not html:
+        return False
+    lower = html.lower()
+    # Body très court avec des scripts → probablement une SPA
+    soup = BeautifulSoup(html, "html.parser")
+    body = soup.find("body")
+    if body:
+        body_text = body.get_text(strip=True)
+        scripts = body.find_all("script")
+        if len(body_text) < 500 and len(scripts) > 0:
+            return True
+    # Noscript avec message JavaScript
+    for noscript in soup.find_all("noscript"):
+        ns_text = noscript.get_text(strip=True).lower()
+        if "javascript" in ns_text or "enable javascript" in ns_text or "activer javascript" in ns_text:
+            return True
+    return False
 
 
 # === Registre (crawl-registry.json) ===
@@ -121,7 +251,7 @@ def load_registry():
         "metadata": {
             "created_at": datetime.now().isoformat(),
             "last_run_at": None,
-            "version": "1.0"
+            "version": "2.0"
         }
     }
 
@@ -131,6 +261,20 @@ def save_registry(registry):
     registry["metadata"]["last_run_at"] = datetime.now().isoformat()
     with open(REGISTRY_PATH, "w", encoding="utf-8") as f:
         json.dump(registry, f, ensure_ascii=False, indent=2)
+
+
+def purge_old_checks(registry, keep_days=30):
+    """Purge les source_checks plus vieux que keep_days jours."""
+    cutoff = (datetime.now() - timedelta(days=keep_days)).isoformat()
+    before = len(registry["source_checks"])
+    registry["source_checks"] = [
+        c for c in registry["source_checks"] if c.get("checked_at", "") > cutoff
+    ]
+    after = len(registry["source_checks"])
+    purged = before - after
+    if purged > 0:
+        print(f"  Purge : {purged} checks supprimés (>{keep_days} jours)")
+    return purged
 
 
 def was_recently_checked(registry, url, days=SKIP_IF_CHECKED_DAYS):
@@ -175,14 +319,33 @@ def add_candidate_source(registry, url, source_type="program_page_candidate",
     })
 
 
-def add_document(registry, url, doc_type="program_candidate", file_hash=None):
-    """Ajoute un document détecté (dédupliqué par URL normalisée)."""
+def add_document(registry, url, doc_type="program_candidate", file_hash=None, run_changes=None):
+    """Ajoute un document détecté (dédupliqué par URL normalisée).
+    Détecte les changements de hash pour les documents existants."""
     norm = normalize_url(url)
     now = datetime.now().isoformat()
     for doc in registry["documents"]:
         if normalize_url(doc["url"]) == norm:
             doc["last_seen"] = now
-            return  # Déjà présent, MAJ last_seen
+            # Détection de changement de hash
+            if file_hash and doc.get("file_hash") and doc["file_hash"] != file_hash:
+                old_hash = doc["file_hash"]
+                doc["previous_hash"] = old_hash
+                doc["file_hash"] = file_hash
+                doc["status"] = "updated"
+                # Historique des changements
+                if "change_history" not in doc:
+                    doc["change_history"] = []
+                doc["change_history"].append({
+                    "date": now,
+                    "old_hash": old_hash,
+                    "new_hash": file_hash
+                })
+                if run_changes is not None:
+                    run_changes["updated_docs"].append(doc["url"])
+            elif file_hash and not doc.get("file_hash"):
+                doc["file_hash"] = file_hash
+            return  # Existant, mis à jour
     registry["documents"].append({
         "url": url,
         "normalized_url": norm,
@@ -192,6 +355,8 @@ def add_document(registry, url, doc_type="program_candidate", file_hash=None):
         "last_seen": now,
         "status": "new"
     })
+    if run_changes is not None:
+        run_changes["new_sources"].append(url)
 
 
 # === Extraction des seeds depuis les JSON élections ===
@@ -236,12 +401,70 @@ def load_seeds_file(path):
     return seeds
 
 
+# === Fetch avec retry ===
+
+def fetch_with_retry(url, session, retries=2, backoff=1.0):
+    """Fetch une URL avec retry et backoff exponentiel.
+    3 tentatives max (1 initiale + 2 retries), délai 1s → 2s."""
+    last_error = None
+    for attempt in range(1 + retries):
+        try:
+            resp = session.get(url, timeout=TIMEOUT, allow_redirects=True)
+            return resp
+        except requests.RequestException as e:
+            last_error = e
+            if attempt < retries:
+                wait = backoff * (2 ** attempt)
+                time.sleep(wait)
+    raise last_error
+
+
+def check_pdf_size(url, session):
+    """Vérifie la taille d'un PDF via HEAD avant le GET.
+    Retourne (ok, size) — ok=False si > MAX_PDF_SIZE."""
+    try:
+        head = session.head(url, timeout=TIMEOUT, allow_redirects=True)
+        content_length = head.headers.get("Content-Length")
+        if content_length:
+            size = int(content_length)
+            return size <= MAX_PDF_SIZE, size
+        # Pas de Content-Length → on accepte
+        return True, 0
+    except (requests.RequestException, ValueError):
+        return True, 0  # En cas d'erreur HEAD, on tente quand même
+
+
+def download_pdf_content(url, session):
+    """Télécharge un PDF, en streaming si > STREAM_THRESHOLD.
+    Retourne le contenu bytes ou None."""
+    # Vérifier la taille d'abord
+    ok, size = check_pdf_size(url, session)
+    if not ok:
+        return None, f"PDF trop gros ({size / 1024 / 1024:.0f} MB > {MAX_PDF_SIZE / 1024 / 1024:.0f} MB)"
+
+    resp = fetch_with_retry(url, session)
+    if resp.status_code >= 400:
+        return None, f"HTTP {resp.status_code}"
+
+    content_type = resp.headers.get("Content-Type", "").lower()
+    if "pdf" not in content_type and not url.lower().endswith(".pdf"):
+        return None, "not_pdf"
+
+    # Pour les gros fichiers, re-télécharger en streaming
+    actual_size = len(resp.content)
+    if actual_size > MAX_PDF_SIZE:
+        return None, f"PDF trop gros ({actual_size / 1024 / 1024:.0f} MB)"
+
+    return resp, None
+
+
 # === Crawl ===
 
 def fetch_page(url, session):
-    """Fetch une URL et retourne (response, content_type) ou (None, None)."""
+    """Fetch une URL avec retry et retourne (response, content_type) ou (None, error_str)."""
     try:
-        resp = session.get(url, timeout=TIMEOUT, allow_redirects=True)
+        domain_rate_limit(url)
+        resp = fetch_with_retry(url, session)
         content_type = resp.headers.get("Content-Type", "").lower()
         return resp, content_type
     except requests.RequestException as e:
@@ -263,52 +486,76 @@ def extract_links(html, base_url):
     return links
 
 
-def crawl_seed(seed, registry, session, max_depth=1, stats=None):
+# Lock pour protéger les écritures concurrentes sur le registre
+_registry_lock = threading.Lock()
+
+
+def crawl_seed(seed, registry, session, max_depth=1, stats=None, run_changes=None):
     """Crawl une URL seed et ses liens programme (depth 1)."""
     url = seed["url"]
     candidate_id = seed.get("candidate_id")
     city_id = seed.get("city_id")
 
     # Skip si déjà vérifié récemment
-    if was_recently_checked(registry, url):
-        stats["skipped"] += 1
-        return
+    with _registry_lock:
+        if was_recently_checked(registry, url):
+            stats["skipped"] += 1
+            return
 
-    time.sleep(RATE_LIMIT)
     resp, content_type = fetch_page(url, session)
 
     if resp is None:
-        add_source_check(registry, url, 0, "", "fail", notes=content_type)
-        stats["errors"] += 1
+        with _registry_lock:
+            add_source_check(registry, url, 0, "", "fail", notes=content_type)
+            stats["errors"] += 1
         return
 
     final_url = resp.url
     status = resp.status_code
 
     if status >= 400:
-        add_source_check(registry, url, status, final_url, "fail")
-        stats["errors"] += 1
+        with _registry_lock:
+            add_source_check(registry, url, status, final_url, "fail")
+            stats["errors"] += 1
         return
-
-    add_source_check(registry, url, status, final_url, "ok")
-    stats["checked"] += 1
 
     # Cas PDF direct
     if "pdf" in content_type or url.lower().endswith(".pdf"):
         file_hash = hashlib.md5(resp.content).hexdigest() if len(resp.content) < 50_000_000 else None
-        add_document(registry, final_url, file_hash=file_hash)
-        add_candidate_source(registry, final_url, source_type="pdf_direct",
-                              candidate_id=candidate_id, city_id=city_id,
-                              confidence="high")
-        stats["pdfs"] += 1
+        with _registry_lock:
+            add_source_check(registry, url, status, final_url, "ok")
+            stats["checked"] += 1
+            add_document(registry, final_url, file_hash=file_hash, run_changes=run_changes)
+            add_candidate_source(registry, final_url, source_type="pdf_direct",
+                                  candidate_id=candidate_id, city_id=city_id,
+                                  confidence="high")
+            stats["pdfs"] += 1
         return
 
     # Cas HTML
     if "html" not in content_type:
+        with _registry_lock:
+            add_source_check(registry, url, status, final_url, "ok")
+            stats["checked"] += 1
         return
 
-    stats["html"] += 1
     html = resp.text
+
+    # Détection JS-rendered
+    js_required = detect_js_rendered(html)
+
+    # Analyse du contenu
+    content_score = analyze_page_content(html)
+
+    with _registry_lock:
+        result = "js_required" if js_required else "ok"
+        notes = f"content_score={content_score}"
+        if js_required:
+            notes += " (JS required)"
+            run_changes["js_only_sites"].add(urlparse(url).hostname or url)
+        add_source_check(registry, url, status, final_url, result, notes=notes)
+        stats["checked"] += 1
+        stats["html"] += 1
 
     # Extraire les liens
     links = extract_links(html, final_url)
@@ -328,56 +575,80 @@ def crawl_seed(seed, registry, session, max_depth=1, stats=None):
         if is_program_link(link_url, link_text):
             program_links.append(link)
 
-    # Enregistrer les liens programme trouvés
-    for plink in program_links:
-        purl = plink["url"]
-        if purl.lower().endswith(".pdf"):
-            add_document(registry, purl, doc_type="program_candidate")
-            add_candidate_source(registry, purl, source_type="pdf_linked",
-                                  candidate_id=candidate_id, city_id=city_id,
-                                  confidence="high")
-            stats["pdfs"] += 1
-        else:
-            add_candidate_source(registry, purl, source_type="program_page_candidate",
-                                  candidate_id=candidate_id, city_id=city_id,
-                                  confidence="medium")
-            stats["program_links"] += 1
+    # Enregistrer les liens programme trouvés avec scoring intelligent
+    with _registry_lock:
+        for plink in program_links:
+            purl = plink["url"]
+            if purl.lower().endswith(".pdf"):
+                add_document(registry, purl, doc_type="program_candidate", run_changes=run_changes)
+                # PDF lié depuis une page programme → high
+                confidence = "high"
+                add_candidate_source(registry, purl, source_type="pdf_linked",
+                                      candidate_id=candidate_id, city_id=city_id,
+                                      confidence=confidence)
+                stats["pdfs"] += 1
+            else:
+                # Scoring basé sur le contenu de la page source
+                confidence = content_score_to_confidence(content_score)
+                add_candidate_source(registry, purl, source_type="program_page_candidate",
+                                      candidate_id=candidate_id, city_id=city_id,
+                                      confidence=confidence)
+                stats["program_links"] += 1
 
     # Depth 1 : crawler les liens programme trouvés
     if max_depth >= 1:
         for plink in program_links[:10]:  # Limiter à 10 liens par seed
             purl = plink["url"]
-            if was_recently_checked(registry, purl):
-                continue
+            with _registry_lock:
+                if was_recently_checked(registry, purl):
+                    continue
             if purl.lower().endswith(".pdf"):
                 # Télécharger le PDF pour obtenir le hash
-                time.sleep(RATE_LIMIT)
-                resp2, ct2 = fetch_page(purl, session)
-                if resp2 and resp2.status_code < 400 and "pdf" in (ct2 or ""):
-                    file_hash = hashlib.md5(resp2.content).hexdigest() if len(resp2.content) < 50_000_000 else None
-                    add_document(registry, resp2.url, file_hash=file_hash)
-                    add_source_check(registry, purl, resp2.status_code, resp2.url, "ok")
-                elif resp2:
-                    add_source_check(registry, purl, resp2.status_code, resp2.url, "fail")
-                stats["checked"] += 1
+                resp2, error = download_pdf_content(purl, session)
+                with _registry_lock:
+                    if resp2 and not error:
+                        file_hash = hashlib.md5(resp2.content).hexdigest() if len(resp2.content) < 50_000_000 else None
+                        add_document(registry, resp2.url, file_hash=file_hash, run_changes=run_changes)
+                        add_source_check(registry, purl, resp2.status_code, resp2.url, "ok")
+                    elif error:
+                        add_source_check(registry, purl, 0, "", "fail", notes=error)
+                    stats["checked"] += 1
             else:
                 # Crawler la sous-page programme
-                time.sleep(RATE_LIMIT)
                 resp2, ct2 = fetch_page(purl, session)
-                if resp2 and resp2.status_code < 400 and "html" in (ct2 or ""):
-                    add_source_check(registry, purl, resp2.status_code, resp2.url, "ok")
-                    # Chercher des PDF dans cette sous-page
-                    sub_links = extract_links(resp2.text, resp2.url)
-                    for sl in sub_links:
-                        if sl["url"].lower().endswith(".pdf"):
-                            add_document(registry, sl["url"], doc_type="program_candidate")
-                            add_candidate_source(registry, sl["url"], source_type="pdf_linked_depth1",
+                with _registry_lock:
+                    if resp2 and resp2.status_code < 400 and "html" in (ct2 or ""):
+                        sub_html = resp2.text
+                        sub_score = analyze_page_content(sub_html)
+                        sub_js = detect_js_rendered(sub_html)
+
+                        result = "js_required" if sub_js else "ok"
+                        notes = f"content_score={sub_score}"
+                        if sub_js:
+                            notes += " (JS required)"
+                            run_changes["js_only_sites"].add(urlparse(purl).hostname or purl)
+                        add_source_check(registry, purl, resp2.status_code, resp2.url, result, notes=notes)
+
+                        # Chercher des PDF dans cette sous-page
+                        sub_links = extract_links(sub_html, resp2.url)
+                        for sl in sub_links:
+                            if sl["url"].lower().endswith(".pdf"):
+                                add_document(registry, sl["url"], doc_type="program_candidate", run_changes=run_changes)
+                                # PDF trouvé en depth 1 → medium
+                                add_candidate_source(registry, sl["url"], source_type="pdf_linked_depth1",
+                                                      candidate_id=candidate_id, city_id=city_id,
+                                                      confidence="medium")
+                                stats["pdfs"] += 1
+
+                        # Enregistrer la page elle-même si score élevé
+                        if sub_score > 20:
+                            sub_confidence = content_score_to_confidence(sub_score)
+                            add_candidate_source(registry, purl, source_type="program_page_confirmed",
                                                   candidate_id=candidate_id, city_id=city_id,
-                                                  confidence="medium")
-                            stats["pdfs"] += 1
-                elif resp2:
-                    add_source_check(registry, purl, resp2.status_code, resp2.url, "fail")
-                stats["checked"] += 1
+                                                  confidence=sub_confidence)
+                    elif resp2:
+                        add_source_check(registry, purl, resp2.status_code, resp2.url, "fail")
+                    stats["checked"] += 1
 
 
 def update_city_coverage(registry):
@@ -409,6 +680,34 @@ def update_city_coverage(registry):
         })
 
 
+def update_last_full_review(registry, checked_seeds):
+    """Met à jour last_full_review_at pour les villes dont tous les candidats ont été vérifiés."""
+    # Grouper les seeds vérifiés par ville
+    checked_by_city = {}
+    for seed in checked_seeds:
+        cid = seed.get("city_id")
+        if cid:
+            checked_by_city.setdefault(cid, set()).add(seed.get("candidate_id"))
+
+    now = datetime.now().isoformat()
+    for city in registry["coverage_city"]:
+        city_id = city["city_id"]
+        if city_id not in checked_by_city:
+            continue
+        # Charger les candidats de cette ville
+        filepath = os.path.join(ELECTIONS_DIR, f"{city_id}-2026.json")
+        if not os.path.exists(filepath):
+            continue
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            continue
+        all_candidates = {c.get("id") for c in data.get("candidats", []) if c.get("programmeUrl", "#") != "#"}
+        if all_candidates and all_candidates.issubset(checked_by_city[city_id]):
+            city["last_full_review_at"] = now
+
+
 # === Main ===
 
 def main():
@@ -421,6 +720,10 @@ def main():
                         help="Nombre max de pages à crawler (défaut: 500)")
     parser.add_argument("--max-depth", type=int, default=1,
                         help="Profondeur de crawl (défaut: 1)")
+    parser.add_argument("--workers", type=int, default=5,
+                        help="Nombre de threads parallèles (défaut: 5)")
+    parser.add_argument("--purge-days", type=int, default=30,
+                        help="Supprimer les checks plus vieux que N jours (défaut: 30)")
     args = parser.parse_args()
 
     print("=" * 60)
@@ -433,6 +736,9 @@ def main():
     print(f"  Sources existantes : {len(registry['candidate_sources'])}")
     print(f"  Checks existants  : {len(registry['source_checks'])}")
     print(f"  Documents existants: {len(registry['documents'])}")
+
+    # Purge des vieux checks
+    purge_old_checks(registry, keep_days=args.purge_days)
 
     # Collecter les seeds
     seeds = []
@@ -465,34 +771,61 @@ def main():
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT})
 
-    # Stats
+    # Stats (thread-safe via lock)
     stats = {
         "checked": 0, "html": 0, "pdfs": 0,
         "program_links": 0, "errors": 0, "skipped": 0
     }
 
-    # Crawl
-    print(f"\nCrawl en cours (depth={args.max_depth}, rate={RATE_LIMIT}s)...\n")
-    for i, seed in enumerate(seeds):
-        pct = round((i + 1) / len(seeds) * 100)
+    # Suivi des changements pour ce run
+    run_changes = {
+        "new_sources": [],
+        "updated_docs": [],
+        "js_only_sites": set(),
+    }
+
+    # Compteur de progression (thread-safe)
+    progress_lock = threading.Lock()
+    progress = {"done": 0}
+
+    def process_seed(seed):
+        """Wrapper pour le traitement d'une seed dans un thread."""
+        try:
+            crawl_seed(seed, registry, session, max_depth=args.max_depth,
+                       stats=stats, run_changes=run_changes)
+        except Exception as e:
+            with _registry_lock:
+                stats["errors"] += 1
+            print(f"\n  ERREUR sur {seed['url']}: {e}")
+        with progress_lock:
+            progress["done"] += 1
+            done = progress["done"]
+        pct = round(done / len(seeds) * 100)
         host = urlparse(seed["url"]).hostname or "?"
         cid = seed.get("candidate_id") or "?"
-        print(f"  [{i+1}/{len(seeds)}] {pct}% — {host} ({cid})", end="\r")
+        print(f"  [{done}/{len(seeds)}] {pct}% — {host} ({cid})          ", end="\r")
 
-        try:
-            crawl_seed(seed, registry, session, max_depth=args.max_depth, stats=stats)
-        except Exception as e:
-            print(f"\n  ERREUR sur {seed['url']}: {e}")
-            stats["errors"] += 1
+    # Crawl parallèle
+    start_time = time.monotonic()
+    print(f"\nCrawl en cours (depth={args.max_depth}, workers={args.workers}, rate={RATE_LIMIT}s/domaine)...\n")
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
+        futures = {executor.submit(process_seed, seed): seed for seed in seeds}
+        concurrent.futures.wait(futures)
+
+    elapsed = time.monotonic() - start_time
 
     # Mettre à jour la couverture villes
     update_city_coverage(registry)
+
+    # Mettre à jour last_full_review_at
+    update_last_full_review(registry, seeds)
 
     # Sauvegarder
     save_registry(registry)
 
     # === Résumé ===
-    print("\n" + "=" * 60)
+    print("\n\n" + "=" * 60)
     print("  RÉSUMÉ")
     print("=" * 60)
     print(f"  Seeds traitées     : {len(seeds)}")
@@ -502,18 +835,52 @@ def main():
     print(f"  Liens programme    : {stats['program_links']}")
     print(f"  Erreurs            : {stats['errors']}")
     print(f"  Skippées (récent)  : {stats['skipped']}")
+    print(f"  Durée              : {elapsed:.1f}s ({args.workers} workers)")
     print(f"\n  Total sources      : {len(registry['candidate_sources'])}")
     print(f"  Total documents    : {len(registry['documents'])}")
     print(f"  Total villes       : {len(registry['coverage_city'])}")
 
-    # Top villes par priorité
+    # === Rapport de changements ===
+    print("\n" + "-" * 60)
+    print("  CHANGEMENTS CE RUN")
+    print("-" * 60)
+
+    new_sources = run_changes["new_sources"]
+    updated_docs = run_changes["updated_docs"]
+    js_sites = run_changes["js_only_sites"]
+
+    if new_sources:
+        print(f"\n  Nouvelles sources découvertes ({len(new_sources)}) :")
+        for src in new_sources[:20]:
+            print(f"    + {src}")
+        if len(new_sources) > 20:
+            print(f"    ... et {len(new_sources) - 20} autres")
+    else:
+        print("\n  Aucune nouvelle source découverte")
+
+    if updated_docs:
+        print(f"\n  Documents mis à jour — hash changé ({len(updated_docs)}) :")
+        for doc in updated_docs:
+            print(f"    ~ {doc}")
+    else:
+        print("  Aucun document mis à jour")
+
+    if js_sites:
+        print(f"\n  Sites JS-only détectés ({len(js_sites)}) — à crawler manuellement :")
+        for site in sorted(js_sites):
+            print(f"    ! {site}")
+
+    # Top villes par priorité (programmes manquants)
     top = sorted(registry["coverage_city"], key=lambda c: c["priority_score"], reverse=True)[:10]
-    if top:
-        print("\n  Top 10 villes à compléter :")
+    if top and top[0]["priority_score"] > 0:
+        print(f"\n  Top villes avec programmes manquants :")
         for c in top:
+            if c["priority_score"] == 0:
+                break
+            reviewed = " (reviewed)" if c.get("last_full_review_at") else ""
             print(f"    {c['city_name']:25s}  {c['candidates_count']} candidats, "
                   f"{c['with_program_complete_count']} complets, "
-                  f"priorité={c['priority_score']}")
+                  f"priorité={c['priority_score']}{reviewed}")
 
     # Top domaines
     domains = {}

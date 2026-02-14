@@ -39,7 +39,7 @@
   })(window,document,'script','dataLayer','GTM-T4CCTF6V');</script>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/style.css?v=2026021002">
+  <link rel="stylesheet" href="/css/style.css?v=2026021302">
   <link rel="stylesheet" href="/css/consent.css">
 
   <!-- Phosphor Icons -->
@@ -234,10 +234,10 @@
       <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
       <nav class="header-nav">
         <ul class="header-nav__links">
-          <li><a href="/a-propos.html" class="header-nav__active">&Agrave; propos</a></li>
+          <li><a href="/municipales/2026/">Comparateur</a></li>
           <li><a href="/methodologie.html">M&eacute;thodologie</a></li>
           <li><a href="/faq.html">FAQ</a></li>
-          <li><a href="mailto:contact@pourquituvotes.fr">Contact</a></li>
+          <li><a href="/a-propos.html">À propos</a></li>
         </ul>
       </nav>
       <button class="header__burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
@@ -253,14 +253,20 @@
         <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
         <button class="mobile-menu-overlay__close" id="mobile-menu-close" aria-label="Fermer le menu">&times;</button>
       </div>
+      <div class="mobile-menu-overlay__search">
+        <div class="mobile-menu-search-box">
+          <i class="ph ph-magnifying-glass"></i>
+          <input type="text" id="mobile-menu-search" placeholder="Rechercher une ville..." autocomplete="off">
+        </div>
+        <div class="mobile-menu-suggestions" id="mobile-menu-suggestions" hidden></div>
+      </div>
       <nav class="mobile-menu-overlay__nav">
-        <a href="/">&Agrave; l'accueil</a>
-        <a href="/municipales/2026/">Comparateur</a>
-        <a href="/municipales/2026/simulateur.html">Simulateur</a>
-        <a href="/a-propos.html" class="mobile-menu-overlay__active">&Agrave; propos</a>
-        <a href="/methodologie.html">M&eacute;thodologie</a>
-        <a href="/faq.html">FAQ</a>
-        <a href="mailto:contact@pourquituvotes.fr">Contact</a>
+        <ul>
+          <li><a href="/municipales/2026/"><i class="ph ph-scales"></i> Comparateur</a></li>
+          <li><a href="/methodologie.html"><i class="ph ph-book-open"></i> Méthodologie</a></li>
+          <li><a href="/faq.html"><i class="ph ph-question"></i> FAQ</a></li>
+          <li><a href="/a-propos.html"><i class="ph ph-info"></i> À propos</a></li>
+        </ul>
       </nav>
     </div>
   </div>
@@ -268,10 +274,11 @@
   <!-- Hero -->
   <section class="apropos-hero">
     <div class="apropos-hero__inner">
-      <nav class="breadcrumb-hero breadcrumb-hero--center" aria-label="Fil d'Ariane">
-        <a href="/">Accueil</a>
-        <span class="breadcrumb-hero__sep" aria-hidden="true">&rsaquo;</span>
-        <span class="breadcrumb-hero__current">&Agrave; propos</span>
+      <nav class="fil-ariane fil-ariane--hero" aria-label="Fil d'Ariane">
+        <ol class="fil-ariane__liste" itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><i class="ph ph-house" aria-hidden="true"></i> <span itemprop="name">Accueil</span></a><meta itemprop="position" content="1"></li>
+          <li class="fil-ariane__item fil-ariane__item--actif" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/a-propos.html" itemprop="item"><span itemprop="name">&Agrave; propos</span></a><meta itemprop="position" content="2"></li>
+        </ol>
       </nav>
       <h1>&Agrave; propos de #POURQUITUVOTES</h1>
       <p>Un vote &eacute;clair&eacute; est un vote libre. Je crois que chaque citoyen m&eacute;rite des outils &agrave; la hauteur de la d&eacute;mocratie.</p>
@@ -404,9 +411,10 @@
 
         <!-- Autres elections -->
         <div class="footer__col">
-          <h3 class="footer__col-title">Autres &eacute;lections</h3>
+          <h3 class="footer__col-title">Enjeux &amp; &Eacute;lections</h3>
           <ul class="footer__list">
-            <li><a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--soon">SOON</span></a></li>
+            <li><a href="/enjeux-index.html">Enjeux 2026</a></li>
+            <li><a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--soon">bientôt</span></a></li>
             <li><span class="footer__item-soon">L&eacute;gislatives 2027</span></li>
             <li><span class="footer__item-soon">R&eacute;gionales</span></li>
             <li><span class="footer__item-soon">Europ&eacute;ennes 2029</span></li>
@@ -439,7 +447,8 @@
   </footer>
 
   <script defer src="/js/consent.js"></script>
-  <script defer src="/js/analytics.js?v=2026021002"></script>
+  <script defer src="/js/analytics.js?v=2026021401"></script>
+  <script defer src="/js/burger-search.js?v=2026021401"></script>
   <script>
     // Burger menu
     var burgerBtn = document.getElementById('burger-btn');

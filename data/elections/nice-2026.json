@@ -9,7 +9,7 @@
       "nom": "Christian Estrosi",
       "liste": "Nice au coeur (Horizons)",
       "programmeUrl": "https://estrosi2026.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -17,7 +17,7 @@
       "nom": "Éric Ciotti",
       "liste": "Ciotti 2026 (UDR/RN)",
       "programmeUrl": "https://www.ciotti2026.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -78,11 +78,15 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Police municipale portée à 1 000 policiers (actuellement 600). Hôtel des Polices réunissant 2 000 policiers sur un même site. 3 brigades spécialisées (stupéfiants, protection seniors, collines). Réserve de police municipale ouverte aux volontaires. Maintien des 10 postes de quartier + 2 nouveaux. PM sur rendez-vous à domicile en 48h. GAIDA doublée avec extension territoriale (Pasteur, Saint-Roch, Las Planas)",
+              "source": "estrosi2026.fr - Le projet, section Sécurité",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": {
-              "texte": "100 policiers municipaux supplémentaires déployés dans tous les quartiers de Nice",
-              "source": "France Bleu Azur, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/"
+              "texte": "Doublement des effectifs de la police municipale sur le terrain avec une meilleure réponse pénale face à la délinquance",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/securite"
             },
             "chesnel": null,
             "damiano": null,
@@ -96,7 +100,11 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Objectif 10 000 caméras de vidéoprotection. Application mobile VigiNice avec bouton d'alerte",
+              "source": "estrosi2026.fr - Le projet, section Sécurité",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": null,
             "damiano": null,
@@ -110,8 +118,16 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "estrosi": null,
-            "ciotti": null,
+            "estrosi": {
+              "texte": "Médiateurs sociaux de rue et lutte anti-cyberharcèlement. Formation aux gestes de secours pour tous. 400 défibrillateurs sur voie publique. Sécurisation 100% établissements scolaires. Lutte contre nuisances sonores",
+              "source": "estrosi2026.fr - Le projet, section Sécurité",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
+            "ciotti": {
+              "texte": "Construction d'un centre éducatif fermé pour mineurs délinquants. Renforcement de la lutte contre l'immigration clandestine",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/securite"
+            },
             "chesnel": {
               "texte": "Renforcement de la police de proximité et sécurité repensée au service des habitants",
               "source": "Nice Presse, février 2026",
@@ -156,8 +172,16 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "estrosi": null,
-            "ciotti": null,
+            "estrosi": {
+              "texte": "Prolongement tramway en horaire nocturne (vendredi-samedi)",
+              "source": "estrosi2026.fr - Le projet, section Transports",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
+            "ciotti": {
+              "texte": "Densifier les réseaux de transports publics, notamment dans les collines niçoises mal desservies",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -199,7 +223,11 @@
           "nom": "Stationnement",
           "propositions": {
             "estrosi": null,
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Augmenter les places de stationnement gratuit dans la ville",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -212,7 +240,11 @@
           "id": "tarifs-gratuite",
           "nom": "Tarifs & Gratuité",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Gratuité des transports pour retraités dès le 1er jour du mandat",
+              "source": "estrosi2026.fr - Le projet, section Transports",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": {
               "texte": "Gratuité des transports en commun pour tous les Niçois",
@@ -240,7 +272,11 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "50% du parc social rénové. Solutions logement pour travailleurs essentiels",
+              "source": "estrosi2026.fr - Le projet, section Logement",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": {
               "texte": "Vente des logements sociaux de Côte d'Azur Habitat hors métropole (400 M€) pour construire et rénover du logement à Nice",
               "source": "Nice Presse, février 2026",
@@ -262,7 +298,11 @@
           "id": "logements-vacants",
           "nom": "Logements vacants",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Aucune résidence secondaire dans zones tendues. Lutte renforcée contre vacance logements",
+              "source": "estrosi2026.fr - Le projet, section Logement",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": null,
             "damiano": null,
@@ -280,7 +320,11 @@
           "id": "encadrement-loyers",
           "nom": "Encadrement des loyers",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Exonération taxe foncière 3 ans pour les propriétaires réalisant une rénovation énergétique",
+              "source": "estrosi2026.fr - Le projet, section Logement",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": {
               "texte": "Mise en place de l'encadrement des loyers à Nice",
@@ -302,7 +346,11 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Plus de 10 000 logements supplémentaires. 1 000 logements via surélévation immeubles existants. Pacte d'engagement avec professionnels immobilier. Gratuité intermédiation locative 2 ans. Prêts taux zéro pour dépôts de garantie. Assurances habitation à prix réduits",
+              "source": "estrosi2026.fr - Le projet, section Logement",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": null,
             "damiano": null,
@@ -322,8 +370,16 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "estrosi": null,
-            "ciotti": null,
+            "estrosi": {
+              "texte": "1 500 places de crèche supplémentaires. Crèches/garderies ouvertes jusqu'à 19h. Service municipal de garde le samedi. Réseau de nounous mobilisables en urgence. Allocation municipale augmentée de 200€ à 400€ par enfant",
+              "source": "estrosi2026.fr - Le projet, section Services publics",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
+            "ciotti": {
+              "texte": "Créer des places de crèche en nombre suffisant pour accompagner les jeunes parents",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -337,11 +393,15 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "estrosi": {
-              "texte": "Poursuite de la rénovation des écoles : 150 établissements rénovés depuis 2008, objectif de continuer sur le mandat",
-              "source": "Nice Premium, février 2026",
-              "sourceUrl": "https://www.nicepremium.fr/"
+              "texte": "4 nouvelles écoles (1 000 élèves). 20 millions € plan protection thermique. 100% cours d'école végétalisées. Renforcement accueil enfants en situation de handicap",
+              "source": "estrosi2026.fr - Le projet, section Éducation",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
             },
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Rénover les écoles et les équiper de systèmes de climatisation",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -368,8 +428,16 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "estrosi": null,
-            "ciotti": null,
+            "estrosi": {
+              "texte": "Création de 1 000 places en centres de loisirs (+1 centre par école). Carte Nice Culture Écoliers pour tous les enfants. Grand plan 100% anglais à l'école. Dispositif Papys et Mamies devoirs",
+              "source": "estrosi2026.fr - Le projet, section Éducation",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
+            "ciotti": {
+              "texte": "Développer la prise en charge périscolaire pour soulager les familles",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -382,7 +450,11 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Brigade contre cyberharcèlement scolaire. Reprise en régie transports scolaires",
+              "source": "estrosi2026.fr - Le projet, section Éducation",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": null,
             "damiano": null,
@@ -402,7 +474,11 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "+30 hectares Grand Parc Plaine du Var (140 000 arbres). Objectif 50 km trames vertes centre-ville. Promenade Paillon acte III : +1 500 arbres, +17 000 m² espaces verts. 5 grands parcs à chien. Reprise parcs Vinaigrier, Estienne d'Orves, Château, Mont-Boron",
+              "source": "estrosi2026.fr - Le projet, section Verdissement",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": null,
             "damiano": {
@@ -421,7 +497,11 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "estrosi": null,
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Améliorer le recyclage et la gestion des déchets dans une approche cohérente combinant urbanisme, mobilité, habitat et énergie",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -434,7 +514,11 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Réseau rues anti-canicule (canopées, pergolas, fontaines). Aides financières pour verdir copropriétés + concours. 100% cours écoles végétalisées à mi-mandat",
+              "source": "estrosi2026.fr - Le projet, section Verdissement",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": {
               "texte": "Hausse de la taxe mobilité de 2% à 3,2% (60 M€ d'investissement) et hausse de la taxe de séjour au plafond légal pour financer la transition",
@@ -457,7 +541,11 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "estrosi": null,
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Développer la géothermie et la thalassothermie. Améliorer l'isolation des bâtiments et la préservation environnementale",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": {
@@ -495,11 +583,15 @@
           "nom": "Centres de santé",
           "propositions": {
             "estrosi": {
-              "texte": "Création de 8 maisons de santé d'ici 2030 (Ariane, Nice Nord...) et d'une maison médicale mobile à domicile",
-              "source": "France Bleu Azur, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/"
+              "texte": "10 maisons de santé d'ici 2030 + maison mobile. Plan « Mon cœur, mes poumons » (maladies cardiovasculaires/respiratoires). 1 million d'euros pour recherche médicale. Guichet unique pour professionnels de santé. Livraison médicaments à domicile",
+              "source": "estrosi2026.fr - Le projet, section Santé",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
             },
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Dispositifs concrets pour sauver l'hôpital public, renforcer la médecine de ville et favoriser les synergies entre secteurs public et privé. Défense de l'hôpital pédiatrique Lenval",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -512,7 +604,11 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Objectif zéro transmission VIH d'ici 2030. Retour infirmières/médecins dans écoles. Grand plan santé mentale jeunes. Veille sanitaire renforcée",
+              "source": "estrosi2026.fr - Le projet, section Santé",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": null,
             "damiano": null,
@@ -526,8 +622,16 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "estrosi": null,
-            "ciotti": null,
+            "estrosi": {
+              "texte": "Solutions de répit pour aidants familiaux. Brigade spécialisée protection seniors",
+              "source": "estrosi2026.fr - Le projet, section Santé/Sécurité",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
+            "ciotti": {
+              "texte": "Développer des établissements de proximité pour accueillir les personnes dépendantes. Créer des structures de soutien contre l'isolement à domicile des aînés",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -546,7 +650,11 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Budget participatif porté à 3 millions d'euros (triplé). Intégration des 2 meilleures idées citoyennes sur la liste",
+              "source": "estrosi2026.fr - Le projet, section Gouvernance",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": null,
             "damiano": null,
@@ -561,11 +669,15 @@
           "nom": "Transparence",
           "propositions": {
             "estrosi": {
-              "texte": "Chaque adjoint rencontre les Niçois 2 fois par an. Journée annuelle de référendums locaux",
-              "source": "Nice Premium, février 2026",
-              "sourceUrl": "https://www.nicepremium.fr/"
+              "texte": "2 réunions publiques annuelles par élu. Plateforme numérique de dialogue permanent. 3 questions de citoyens à chaque Conseil municipal. Indicateurs de ville en temps réel (propreté, sécurité, mobilité, qualité air). Journée annuelle du référendum. Audit annuel des finances par cabinet indépendant. Clause de concertation citoyenne obligatoire dans appels d'offres",
+              "source": "estrosi2026.fr - Le projet, section Gouvernance",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
             },
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Audit complet des finances municipales dès les premières semaines du mandat pour restaurer une gestion rigoureuse et responsable",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/fiscalite"
+            },
             "chesnel": {
               "texte": "Code éthique de 12 pages : réduction de 50% des indemnités des élus municipaux",
               "source": "Nice Presse, février 2026",
@@ -600,7 +712,11 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "100% démarches administratives dématérialisées 24h/24. 2 nouvelles maisons de services publics (total 5). Mairies ouvertes en soirée (20h) et samedi (9h-12h). Bibliothèque Nucéra : nocturnes et dimanches jusqu'à 22h",
+              "source": "estrosi2026.fr - Le projet, section Services publics",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": null,
             "damiano": null,
@@ -621,7 +737,11 @@
           "nom": "Commerce local",
           "propositions": {
             "estrosi": null,
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Défense des commerces de proximité, protection des artisans, commerçants et restaurateurs. Allègement des contraintes administratives et fluidification des démarches pour ceux qui souhaitent investir",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/economie"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -635,7 +755,11 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "estrosi": null,
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Renforcement de l'université et encouragement à l'émergence de nouvelles grandes écoles. Création de passerelles concrètes entre l'enseignement supérieur et le monde de l'entreprise",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/economie"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -650,9 +774,9 @@
           "propositions": {
             "estrosi": null,
             "ciotti": {
-              "texte": "Nouveau centre des congrès et des expositions, projet économique majeur sur le site du Marché d'Intérêt National",
-              "source": "Nice Presse, février 2026",
-              "sourceUrl": "https://nicepresse.com/"
+              "texte": "Refondation totale du projet de la Plaine du Var en matière d'urbanisme, commerce et attractivité. Transformation du site du Marché d'Intérêt National en centre d'un grand projet économique à dimension internationale. Création d'une zone franche économique commune Nice-Monaco. Reconstruction d'un Palais des Congrès et d'Exposition pour relancer le tourisme d'affaires",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/economie"
             },
             "chesnel": null,
             "damiano": {
@@ -677,14 +801,14 @@
           "nom": "Équipements culturels",
           "propositions": {
             "estrosi": {
-              "texte": "100 M€ investis dans la culture sur le mandat. Palais des Arts et de la Culture : salle de théâtre de 850 places sous la voûte du palais des expositions",
-              "source": "France Bleu Azur, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/"
+              "texte": "Parc Phoenix transformé en Cité Sciences et Nature (25 millions €). Bibliothèque Nucéra ouverte en nocturne et le dimanche",
+              "source": "estrosi2026.fr - Le projet, section Verdissement/Services",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
             },
             "ciotti": {
-              "texte": "Nouveau théâtre sur le site de la Gare du Sud",
-              "source": "Nice Presse, février 2026",
-              "sourceUrl": "https://nicepresse.com/"
+              "texte": "Création d'un nouveau théâtre sur le site de la Gare du Sud. Construction d'un nouvel auditorium. Rénovation de l'Opéra de Nice et obtention du statut d'Opéra national. Faire des musées de Nice une référence nationale",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/culture"
             },
             "chesnel": null,
             "damiano": null,
@@ -699,7 +823,11 @@
           "nom": "Événements & Création",
           "propositions": {
             "estrosi": null,
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Politique ambitieuse de soutien à la création, tournée vers la jeunesse, les artistes et la transmission",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/culture"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -719,7 +847,11 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "estrosi": null,
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Vaste plan de rénovation des espaces sportifs pour des équipements modernes et adaptés, accessibles dans tous les quartiers",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -752,7 +884,11 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Requalification urbaine majeure : Place Auguste-Blanqui (entrée de gare), Place Arson (modernisation/végétalisation), axes Hôtel des Postes et Gioffredo (trames vertes, pistes cyclables). Gambetta Nord/Cessole : transformation avec travaux dès janvier 2027. Vieux Nice : plus grand plan rénovation depuis 50 ans. Place Île de Beauté : élargissement trottoir Nord. 100 projets de proximité par quartier",
+              "source": "estrosi2026.fr - Le projet, section Requalification urbaine",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": null,
             "chesnel": null,
             "damiano": null,
@@ -767,7 +903,11 @@
           "nom": "Accessibilité",
           "propositions": {
             "estrosi": null,
-            "ciotti": null,
+            "ciotti": {
+              "texte": "Créer des structures adaptées pour les personnes en situation de handicap dans tous les quartiers",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
+            },
             "chesnel": null,
             "damiano": null,
             "governatori": null,
@@ -783,8 +923,8 @@
             "estrosi": null,
             "ciotti": {
               "texte": "Grand plan d'investissement pour les quartiers périphériques : une ville à deux vitesses n'est pas acceptable",
-              "source": "Nice Presse, février 2026",
-              "sourceUrl": "https://nicepresse.com/"
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/proximite"
             },
             "chesnel": null,
             "damiano": null,
@@ -836,11 +976,15 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "estrosi": null,
+            "estrosi": {
+              "texte": "Allocation municipale augmentée de 200€ à 400€ par enfant. Assurances habitation à prix réduits pour les Niçois",
+              "source": "estrosi2026.fr - Le projet, sections Services/Logement",
+              "sourceUrl": "https://estrosi2026.fr/le-projet/"
+            },
             "ciotti": {
-              "texte": "Annulation de la hausse de la taxe foncière votée l'année précédente",
-              "source": "France Bleu Azur, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/"
+              "texte": "Réduction de la taxe foncière de 20% dès les premières années du mandat. Audit complet des finances municipales pour identifier les dérives budgétaires et supprimer les dépenses superflues, réorienter les crédits vers des priorités utiles",
+              "source": "Programme officiel ciotti2026.fr",
+              "sourceUrl": "https://www.ciotti2026.fr/fiscalite"
             },
             "chesnel": null,
             "damiano": null,

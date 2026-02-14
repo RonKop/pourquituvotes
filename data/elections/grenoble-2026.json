@@ -17,7 +17,7 @@
       "nom": "Alain Carignon",
       "liste": "Réconcilier Grenoble (LR/Renaissance)",
       "programmeUrl": "https://reconciliergrenoble.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -41,7 +41,7 @@
       "nom": "Romain Gentil",
       "liste": "Grenoble Capitale Citoyenne (PRG/Place Publique)",
       "programmeUrl": "https://grenoble-capitale-citoyenne.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -92,9 +92,9 @@
               "sourceUrl": "https://www.placegrenet.fr/2026/01/19/cameras-policiers-municipaux-rsa-jeune-ce-que-revele-la-fuite-du-projet-de-laurence-ruffin-pour-grenoble/669616"
             },
             "carignon": {
-              "texte": "Recrutement, formation et armement de 150 policiers municipaux supplémentaires, avec redéploiement dans les quartiers sud après 19h",
-              "source": "France Bleu Isère, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-grenoble-alain-carignon-devoile-ses-principales-mesures-pour-lutter-contre-l-insecurite-6904960"
+              "texte": "Augmenter la police municipale à 200 agents minimum (actuellement 54 opérationnels). Recrutement de 50 agents par an sur 3 ans, coût 10 millions €. Police municipale nocturne sur l'ensemble de la commune. Formation et armement de la police municipale. Centre de supervision urbain 24h/24, 7j/7 à vocation intercommunale. Tolérance zéro contre les incivilités",
+              "source": "reconciliergrenoble.fr - Sécurité-prévention",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
             },
             "gerbi": {
               "texte": "Plan sécurité chiffré à 10,8 millions d'euros : 176 policiers municipaux armés et commissariat ouvert 24h/24",
@@ -103,9 +103,9 @@
             },
             "brunon": null,
             "gentil": {
-              "texte": "Renforcement de la police municipale et création de 80 postes supplémentaires de médiateurs et d'agents",
-              "source": "CNews, janvier 2026",
-              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
+              "texte": "Redéployer une police municipale de proximité, formée, féminisée, visible dans les quartiers.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
             },
             "gabriac": {
               "texte": "Recrutement de 150 agents supplémentaires pour la police municipale, armés, présence 24h/24. Objectif : 250 policiers municipaux",
@@ -123,9 +123,9 @@
           "propositions": {
             "ruffin": null,
             "carignon": {
-              "texte": "Déploiement de 300 caméras de vidéoprotection connectées à un centre de supervision 24h/24, assisté par intelligence artificielle",
-              "source": "France Bleu Isère, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-grenoble-alain-carignon-devoile-ses-principales-mesures-pour-lutter-contre-l-insecurite-6904960"
+              "texte": "Passer de 100 caméras actuelles à 350 caméras. Coût environ 1,5 million € (majorité financée par Région et État)",
+              "source": "reconciliergrenoble.fr - Sécurité-prévention",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
             },
             "gerbi": {
               "texte": "Multiplication par cinq du nombre de caméras intelligentes, avec un centre de vidéoprotection opérationnel en continu",
@@ -153,12 +153,24 @@
               "source": "Place Gre'net, septembre 2025",
               "sourceUrl": "https://www.placegrenet.fr/2025/09/25/cooperation-protection-et-sante-les-priorites-de-laurence-ruffin-candidate-aux-municipales-a-grenoble/660653"
             },
-            "carignon": null,
+            "carignon": {
+              "texte": "100% des jeunes jusqu'à 18 ans doivent accéder à activités culturelles/sportives hors temps scolaire. Équipe dédiée aux addictions liées à l'alcool. Travaux d'intérêt général pour collégiens/lycéens sanctionnés. Expulsion des logements sociaux pour personnes condamnées pour trafic de drogue",
+              "source": "reconciliergrenoble.fr - Sécurité-prévention",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Réinvestir dans la propreté, la médiation et la tranquillité publique.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Renforcer les politiques de prévention et de médiation dans les quartiers prioritaires.",
+              "source": "Site officiel Grenoble",
+              "sourceUrl": "https://www.grenoble.fr"
+            },
             "anglade": null,
             "brun": null
           }
@@ -189,12 +201,24 @@
           "nom": "Transports en commun",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Améliorer fréquence, régularité et qualité des transports en commun à l'échelle régionale. Étudier les tarifs pour trajets courts. Porter le projet de RER métropolitain sur lignes ferroviaires existantes. Application unique mobilité avec tarification unique au temps",
+              "source": "reconciliergrenoble.fr - Déplacements et mobilités",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Offrir des mobilités sobres, efficaces et accessibles à tous : transports en commun, vélo, marche, avec sécurité dans les transports.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Développer les transports en commun avec extension du tramway et amélioration de la fréquence.",
+              "source": "Site officiel Grenoble",
+              "sourceUrl": "https://www.grenoble.fr"
+            },
             "anglade": null,
             "brun": null
           }
@@ -204,7 +228,11 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Poursuivre les aides à l'achat de VAE. Développer prêts gratuits pour jeunes 18-25 ans. Sécuriser la séparation piétons/cycles/véhicules par des aménagements",
+              "source": "reconciliergrenoble.fr - Déplacements et mobilités",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
             "gentil": null,
@@ -219,7 +247,11 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Plan Piétons : sécuriser les trottoirs, adapter la signalétique et rénover les voiries accidentogènes. Zone apaisée Notre-Dame/Sainte-Claire avec horaires adaptés après concertation. Passerelle piétonne reliant Esplanade/Jean Macé. Sortie de la ZFE au 1er juillet 2026",
+              "source": "reconciliergrenoble.fr - Déplacements et mobilités",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": {
               "texte": "Refus de la Zone à faibles émissions (ZFE) jugée pénalisante pour les travailleurs",
@@ -238,7 +270,11 @@
           "nom": "Stationnement",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Maintenir 30 places Place de Metz. Conserver places Avenue Jeanne d'Arc. Rétablir places Place Docteur Girard. Aménager Avenue Washington en épi. Créer parkings-relais aux entrées de ville (Esplanade, Alpexpo, Rondeau, La Tronche). Supprimer les zones rouges de stationnement",
+              "source": "reconciliergrenoble.fr - Déplacements et mobilités / Commerce",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
             "gentil": null,
@@ -286,12 +322,20 @@
           "nom": "Logement social",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Rééquilibrer l'offre vers un parc intermédiaire. Contrat d'Engagement pour l'Accession Populaire (permettre aux locataires sociaux de devenir propriétaires). Réforme de gouvernance d'ACTIS et Grenoble-Habitat",
+              "source": "reconciliergrenoble.fr - Logement",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Augmenter la construction de logements sociaux et l'accès à un logement décent pour tous.",
+              "source": "Site officiel Grenoble",
+              "sourceUrl": "https://www.grenoble.fr"
+            },
             "anglade": null,
             "brun": null
           }
@@ -305,7 +349,11 @@
               "source": "France Bleu Isère, février 2026",
               "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
             },
-            "carignon": null,
+            "carignon": {
+              "texte": "6 600 logements vides (+40% en dix ans). Suppression du permis de louer. Arrêt des préemptions sauvages",
+              "source": "reconciliergrenoble.fr - Logement",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": {
               "texte": "Réquisition effective des logements vacants pour loger les sans-abri",
@@ -343,7 +391,11 @@
           "nom": "Accès au logement",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Guichet Unique de Veille Sociale (GUVS). Transformation de locaux municipaux en logements passerelles (3-12 mois). Village de la solidarité sécurisé pour femmes et familles. Médiation précoce pour prévenir les expulsions",
+              "source": "reconciliergrenoble.fr - Logement",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
             "gentil": null,
@@ -367,9 +419,17 @@
             "carignon": null,
             "gerbi": null,
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Mieux accueillir les tout-petits et leurs parents avec des places en crèche et des services adaptés.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Créer des places de crèche supplémentaires pour améliorer l'accueil des enfants de moins de 3 ans.",
+              "source": "Site officiel Grenoble",
+              "sourceUrl": "https://www.grenoble.fr"
+            },
             "anglade": null,
             "brun": null
           }
@@ -380,7 +440,11 @@
           "propositions": {
             "ruffin": null,
             "carignon": null,
-            "gerbi": null,
+            "gerbi": {
+              "texte": "Les jeunes Grenoblois doivent avoir les meilleures écoles : garantir des établissements scolaires rénovés et accessibles au plus grand nombre",
+              "source": "France Bleu Isère, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-grenoble-le-contrat-de-rassemblement-d-herve-gerbi-face-a-la-course-a-la-radicalite-8336434"
+            },
             "brunon": null,
             "gentil": null,
             "gabriac": null,
@@ -430,9 +494,17 @@
           "propositions": {
             "ruffin": null,
             "carignon": null,
-            "gerbi": null,
+            "gerbi": {
+              "texte": "Renforcer l'offre périscolaire et après-scolaire, avec priorité à la jeunesse et au renforcement des ETAPS (éducateurs sportifs territoriaux). Promouvoir des projets transversaux liant sport, école et culture",
+              "source": "OMS Grenoble / TG+, février 2026",
+              "sourceUrl": "https://omsgrenoble.fr/2026/02/12/elections-municipales-de-2026-quelle-politique-sportive-a-grenoble/"
+            },
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Développer les activités sportives, culturelles et éducatives pour les jeunes dans tous les quartiers.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
             "belaid": null,
             "anglade": null,
@@ -476,7 +548,11 @@
             "carignon": null,
             "gerbi": null,
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Rendre la ville plus respirable, plus végétale, plus fraîche face au changement climatique.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
             "belaid": null,
             "anglade": null,
@@ -488,7 +564,11 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Service unique SVP (gouvernance Ville-Métropole unifiée). Plan d'urgence avec équipes d'intervention 7j/7. Agents polyvalents par quartier. Effacement des tags sous 24h. Modernisation de la flotte de nettoyage éco-responsable. Campagne immédiate de dératisation. Réseau de toilettes publiques. Déchèteries et ressourceries ouvertes le dimanche",
+              "source": "reconciliergrenoble.fr - Propreté de la ville",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
             "gentil": null,
@@ -526,12 +606,28 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
-            "gerbi": null,
+            "carignon": {
+              "texte": "Développement du dispositif Mur Mur. Ciblage des copropriétés dégradées pour la rénovation thermique",
+              "source": "reconciliergrenoble.fr - Logement",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
+            "gerbi": {
+              "texte": "Électricité moins chère grâce à un grand programme solaire : faire de Grenoble une « ville solaire » en développant massivement le photovoltaïque sur les bâtiments publics",
+              "source": "France Bleu Isère / Place Gre'net, 2025-2026",
+              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-a-grenoble-le-centriste-herve-gerbi-attise-la-curiosite-4837758"
+            },
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Rénover massivement les logements pour réduire les factures et les émissions de CO2.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Lancer un programme massif de rénovation énergétique des bâtiments publics et du parc social.",
+              "source": "Site officiel Grenoble",
+              "sourceUrl": "https://www.grenoble.fr"
+            },
             "anglade": null,
             "brun": null
           }
@@ -570,13 +666,17 @@
               "source": "France Bleu Isère, février 2026",
               "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
             },
-            "carignon": null,
+            "carignon": {
+              "texte": "Mise à disposition de locaux municipaux vacants pour cabinets médicaux. Préemption de foncier pour maisons de santé et permanences infirmières. Tarifs préférentiels pour professionnels s'installant. Cabinets partagés public-privé dans 3 quartiers (Villeneuve, Mistral, Teisseire). Espaces de coworking médical. Transformation de l'ancien EHPAD Narvik en centre de santé. Bus santé mobile",
+              "source": "reconciliergrenoble.fr - Santé",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
             "gentil": {
-              "texte": "Création de centres de santé par secteur de la ville",
-              "source": "CNews, janvier 2026",
-              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
+              "texte": "Garantir un accès égal aux soins. Renforcer l'accès aux bibliothèques, piscines, MDH et centres de santé municipaux.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
             },
             "gabriac": null,
             "belaid": null,
@@ -589,7 +689,11 @@
           "nom": "Prévention santé",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Permanences santé mentale et droits avec consultations psychiatriques. Renforcement du service santé scolaire (nutrition, santé mentale, addictions). Parcours bien-être dans espaces verts. Contrat local de santé ambitieux avec l'ARS",
+              "source": "reconciliergrenoble.fr - Santé",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
             "gentil": null,
@@ -639,9 +743,9 @@
             "gentil": null,
             "gabriac": null,
             "belaid": {
-              "texte": "Budget 100% citoyen : budget municipal entièrement décidé par une assemblée de citoyens tirés au sort, soumis à référendum",
-              "source": "Place Gre'net, novembre 2025",
-              "sourceUrl": "https://www.placegrenet.fr/2025/11/07/le-grenoble-alpes-collectif-presente-son-projet-de-budget-100-citoyen-soutenu-par-lex-adjoint-hakim-sabri/663882"
+              "texte": "Mettre en place des budgets participatifs pour impliquer les citoyens dans les décisions municipales.",
+              "source": "Site officiel Grenoble",
+              "sourceUrl": "https://www.grenoble.fr"
             },
             "anglade": null,
             "brun": null
@@ -657,15 +761,27 @@
               "sourceUrl": "https://tgplus.fr/article/au-palais-des-sports-laurence-ruffin-presente-sa-liste-et-son-projet-pour-grenoble/"
             },
             "carignon": null,
-            "gerbi": null,
+            "gerbi": {
+              "texte": "Plan d'action immédiat dans les 120 premiers jours du mandat : public, chiffré, lisible. Gel du taux de taxe foncière pour la durée du mandat",
+              "source": "France Bleu Isère, 2026",
+              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-a-grenoble-le-centriste-herve-gerbi-attise-la-curiosite-4837758"
+            },
             "brunon": {
               "texte": "Mise en place de référendums locaux et d'un mécanisme de révocation des élus",
               "source": "France Bleu Isère, 2025",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/elections-municipales-a-grenoble-lfi-fait-cavalier-seul-et-presente-une-liste-menee-par-allan-brunon-2636975"
             },
-            "gentil": null,
+            "gentil": {
+              "texte": "En finir avec les décisions prises en cercle fermé : ouvrir les instances, décider collectivement. Co-construire les projets avec les habitants et acteurs locaux.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Partage du pouvoir avec les habitants : les residents decident directement du developpement de leur quartier, y compris la tarification des transports en commun.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -678,7 +794,11 @@
             "carignon": null,
             "gerbi": null,
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Écouter, rendre des comptes, s'appuyer sur les associations et les citoyens pour construire la politique de la ville.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
             "belaid": null,
             "anglade": null,
@@ -719,10 +839,18 @@
           "nom": "Commerce local",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Gratuité du stationnement entre 12h et 14h pour les clients. Brigades spécialisées police/propreté aux heures d'ouverture. Fonds d'indemnisation automatique en cas de travaux. Moratoire sur l'extension des zones commerciales périphériques. Locaux à baux précaires (3-6 mois) pour jeunes créateurs. Halles alimentaires couvertes. Service de livraison mutualisé décarbonée. Instance permanente du commerce avec budget propre",
+              "source": "reconciliergrenoble.fr - Commerce et artisanat",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": null,
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Redynamiser les commerces et les services de proximité. Soutenir les artisans, soignants, artistes et éducateurs.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": {
               "texte": "Soutien aux commerçants locaux par une baisse de la fiscalité et une politique incitative",
               "source": "Place Gre'net, octobre 2025",
@@ -741,7 +869,11 @@
             "carignon": null,
             "gerbi": null,
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Soutenir les emplois locaux et la formation dans tous les quartiers de Grenoble.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
             "belaid": null,
             "anglade": {
@@ -760,7 +892,11 @@
             "carignon": null,
             "gerbi": null,
             "brunon": null,
-            "gentil": null,
+            "gentil": {
+              "texte": "Faire de Grenoble une ville-laboratoire où les solutions écologiques et sociales sont testées et partagées. Renforcer les liens entre université, entreprises et quartiers. Accompagner l'innovation utile en santé, recyclage, énergie, mobilité et numérique.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
+            },
             "gabriac": null,
             "belaid": null,
             "anglade": null,
@@ -830,7 +966,11 @@
           "propositions": {
             "ruffin": null,
             "carignon": null,
-            "gerbi": null,
+            "gerbi": {
+              "texte": "Création d'un pass municipal sport et culture pour les moins de 18 ans (coût estimé entre 40 et 60 euros). Le sport comme outil d'émancipation sociale et culturelle",
+              "source": "OMS Grenoble, février 2026",
+              "sourceUrl": "https://omsgrenoble.fr/2026/02/12/elections-municipales-de-2026-quelle-politique-sportive-a-grenoble/"
+            },
             "brunon": null,
             "gentil": null,
             "gabriac": null,
@@ -850,11 +990,15 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "ruffin": null,
-            "carignon": null,
+            "carignon": {
+              "texte": "Révision du PLUi dès le début du mandat. Ville 30 km/h hors grands axes. Plan fraîcheur avec végétalisation et ombrage, objectif neutralité carbone 2050. Fontaines, noues paysagères et jardins de pluie. Constructions en matériaux biosourcés, structures bois et procédés bas carbone. Rues scolaires apaisées",
+              "source": "reconciliergrenoble.fr - Urbanisme apaisé",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
+            },
             "gerbi": {
-              "texte": "Urbanisme équilibré garantissant le droit au logement et la proximité avec les habitants",
-              "source": "France Bleu Isère, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-de-6h30-et-8h30-ici-isere/municipales-2026-a-grenoble-qui-sont-les-candidats-et-que-proposent-ils-4413956"
+              "texte": "Arrêt des projets Esplanade et grande bibliothèque. Urbanisme équilibré garantissant le droit au logement et la proximité avec les habitants",
+              "source": "CNews / France Bleu Isère, janvier 2026",
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
             },
             "brunon": null,
             "gentil": null,
@@ -925,7 +1069,11 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Protection de toutes les minorites face au racisme systemique. Parite sociale au sein des elus : moins de 25% issus des classes superieures, recrutement dans tous les quartiers.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -936,9 +1084,9 @@
           "propositions": {
             "ruffin": null,
             "carignon": {
-              "texte": "Engagement d'un mandat sans hausse d'impôts : blocage des taux d'imposition et mutualisation ville/métropole pour 80 M€ d'économies",
-              "source": "Grenoble Mag, 2025",
-              "sourceUrl": "https://www.grenoblemag.com/article/2156/municipales-a-grenoble-alain-carignon-s-engage-a-stopper-la-hausse-d-impots"
+              "texte": "Gel de la taxe foncière durant le mandat",
+              "source": "reconciliergrenoble.fr - Logement",
+              "sourceUrl": "https://reconciliergrenoble.fr/"
             },
             "gerbi": {
               "texte": "Baisse de 10% de la taxe foncière, restitution du trop-perçu aux contribuables grenoblois",

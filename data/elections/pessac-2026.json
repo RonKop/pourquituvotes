@@ -70,10 +70,20 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "raynal": null,
+            "raynal": {
+              "texte": "Renforcer les effectifs de policiers municipaux pour augmenter la présence sécuritaire dans les quartiers",
+              "source": "Débat candidats France 3, février 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/video-rehabilitation-du-quartier-saige-nuisances-de-l-aeroport-securite-le-debat-entre-quatre-des-candidats-aux-municipales-a-pessac-3291342.html",
+              "a_verifier": true
+            },
             "saint-pasteur": null,
             "curvale": null,
-            "couillard": null,
+            "couillard": {
+              "texte": "Renforcer la sécurité et la tranquillité des habitants",
+              "source": "France3 Nouvelle-Aquitaine, débat candidats 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/securite-logement-fiscalite-posez-vos-questions-aux-candidats-aux-elections-municipales-a-pessac-3287412.html",
+              "a_verifier": true
+            },
             "jaouen": null,
             "ufferte": null,
             "rybak": null
@@ -142,8 +152,17 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "raynal": null,
-            "saint-pasteur": null,
-            "curvale": null,
+            "saint-pasteur": {
+              "texte": "Développement des mobilités douces avec amélioration de la politique cyclable",
+              "source": "Programme campagne électorale 2026",
+              "sourceUrl": "https://rue89bordeaux.com/2025/12/municipales-2026-a-pessac-le-socialiste-sebastien-saint-pasteur-candidat-adoube-par-le-pc-et-les-ecolos/",
+              "a_verifier": true
+            },
+            "curvale": {
+              "texte": "Politique cyclable complète pour développer le vélo comme mode de transport principal",
+              "source": "Programme EELV 2026",
+              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/"
+            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
@@ -203,8 +222,17 @@
             "saint-pasteur": null,
             "curvale": null,
             "couillard": null,
-            "jaouen": null,
-            "ufferte": null,
+            "jaouen": {
+              "texte": "Augmentation du parc de logements sociaux et lutte contre la vacance résidentielle",
+              "source": "Programme La France Insoumise 2026",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
+            "ufferte": {
+              "texte": "Politique de logement social pour répondre aux besoins des habitants et lutte contre la gentrification",
+              "source": "Positionnement NPA Pessac 2020-2026",
+              "sourceUrl": "https://nouveaupartianticapitaliste.org/actualite/politique/opposition-de-gauche-pessac-ouest-france",
+              "a_verifier": true
+            },
             "rybak": null
           }
         },
@@ -238,7 +266,12 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "raynal": null,
+            "raynal": {
+              "texte": "Favoriser l'accès au logement et accompagner les familles dans leur accès à la propriété ou la location",
+              "source": "Débat candidats France 3 Gironde, janvier 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/securite-logement-fiscalite-posez-vos-questions-aux-candidats-aux-elections-municipales-a-pessac-3287412.html",
+              "a_verifier": true
+            },
             "saint-pasteur": null,
             "curvale": null,
             "couillard": null,
@@ -261,7 +294,11 @@
             "saint-pasteur": null,
             "curvale": null,
             "couillard": null,
-            "jaouen": null,
+            "jaouen": {
+              "texte": "Accès massif aux structures de petite enfance et augmentation des places en crèches",
+              "source": "Programme La France Insoumise 2026",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
             "ufferte": null,
             "rybak": null
           }
@@ -287,9 +324,17 @@
             "saint-pasteur": null,
             "curvale": null,
             "couillard": null,
-            "jaouen": null,
+            "jaouen": {
+              "texte": "Gratuité des cantines scolaires et des fournitures pour tous les enfants",
+              "source": "Programme LFI 2026",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
             "ufferte": null,
-            "rybak": null
+            "rybak": {
+              "texte": "Gratuité des cantines scolaires décidée par vote des habitants",
+              "source": "France Bleu Gironde, débat candidats 2020 (positionnement similaire en 2026)",
+              "sourceUrl": "https://www.francebleu.fr/infos/elections/municipales-a-pessac-david-rybak-se-veut-donner-plus-de-pouvoir-aux-citoyens-1582736391"
+            }
           }
         },
         {
@@ -311,7 +356,11 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
+            "curvale": {
+              "texte": "Investissement dans l'enfance et la jeunesse avec amélioration des équipements éducatifs",
+              "source": "Programme EELV 2026",
+              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/"
+            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
@@ -328,10 +377,27 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "raynal": null,
-            "saint-pasteur": null,
-            "curvale": null,
-            "couillard": null,
+            "raynal": {
+              "texte": "Politique de plantation d'arbres et renforcement de la protection environnementale",
+              "source": "Recherche municipales 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/municipales-2026-dire-que-ma-decision-est-prise-est-premature-franck-raynal-maire-horizons-de-pessac-3150725.html"
+            },
+            "saint-pasteur": {
+              "texte": "Actions ambitieuses sur la biodiversité et augmentation des espaces verts",
+              "source": "Programme campagne électorale Sébastien Saint-Pasteur",
+              "sourceUrl": "https://rue89bordeaux.com/2025/12/municipales-2026-a-pessac-le-socialiste-sebastien-saint-pasteur-candidat-adoube-par-le-pc-et-les-ecolos/"
+            },
+            "curvale": {
+              "texte": "Faire de Pessac une ville verte adaptée au changement climatique avec conservation de la biodiversité",
+              "source": "Programme EELV Laure Curvale 2026",
+              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/"
+            },
+            "couillard": {
+              "texte": "Politique ambitieuse d'écologie et amélioration de la qualité environnementale de la ville",
+              "source": "Campagne citoyenne Unis pour Pessac, 2026",
+              "sourceUrl": "https://unispourpessac.fr/",
+              "a_verifier": true
+            },
             "jaouen": null,
             "ufferte": null,
             "rybak": null
@@ -343,7 +409,11 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
+            "curvale": {
+              "texte": "Politique de prévention des déchets et amélioration de la propreté de la ville",
+              "source": "Programme EELV 2026",
+              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/"
+            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
@@ -355,8 +425,16 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "raynal": null,
-            "saint-pasteur": null,
-            "curvale": null,
+            "saint-pasteur": {
+              "texte": "Mise en œuvre d'un budget climat pour réduire les émissions de gaz à effet de serre des services municipaux",
+              "source": "Programme campagne électorale Sébastien Saint-Pasteur",
+              "sourceUrl": "https://rue89bordeaux.com/2025/12/municipales-2026-a-pessac-le-socialiste-sebastien-saint-pasteur-candidat-adoube-par-le-pc-et-les-ecolos/"
+            },
+            "curvale": {
+              "texte": "Plan d'adaptation aux changements climatiques et transition écologique de la ville",
+              "source": "Programme EELV 2026",
+              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/"
+            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
@@ -380,11 +458,23 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "raynal": null,
-            "saint-pasteur": null,
+            "raynal": {
+              "texte": "Approvisionnement 100% local ou biologique pour les cantines municipales et lutte contre le plastique à usage unique",
+              "source": "France 3 Nouvelle-Aquitaine, janvier 2026",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/municipales-2026-dire-que-ma-decision-est-prise-est-premature-franck-raynal-maire-horizons-de-pessac-3150725.html"
+            },
+            "saint-pasteur": {
+              "texte": "Objectif 100% de cantines scolaires avec approvisionnement local et biologique d'ici 2026",
+              "source": "Programme et articles France Bleu Gironde, 2025-2026",
+              "sourceUrl": "https://rue89bordeaux.com/2025/12/municipales-2026-a-pessac-le-socialiste-sebastien-saint-pasteur-candidat-adoube-par-le-pc-et-les-ecolos/"
+            },
             "curvale": null,
             "couillard": null,
-            "jaouen": null,
+            "jaouen": {
+              "texte": "Cantines scolaires 100% bio et locales, fin des intrants chimiques dans la ville",
+              "source": "Programme La France Insoumise municipales 2026",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
             "ufferte": null,
             "rybak": null
           }
@@ -414,9 +504,17 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
+            "curvale": {
+              "texte": "Interdiction des pesticides et politiques de santé environnementale",
+              "source": "Programme EELV Laure Curvale 2026",
+              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/"
+            },
             "couillard": null,
-            "jaouen": null,
+            "jaouen": {
+              "texte": "Mise en place de centres de santé accessibles avec accès gratuit à la prévention",
+              "source": "Programme LFI 2026",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
             "ufferte": null,
             "rybak": null
           }
@@ -445,12 +543,20 @@
           "nom": "Budget participatif",
           "propositions": {
             "raynal": null,
-            "saint-pasteur": null,
+            "saint-pasteur": {
+              "texte": "Renforcement de la démocratie locale et engagement citoyen",
+              "source": "Programme campagne électorale 2026",
+              "sourceUrl": "https://rue89bordeaux.com/2025/12/municipales-2026-a-pessac-le-socialiste-sebastien-saint-pasteur-candidat-adoube-par-le-pc-et-les-ecolos/"
+            },
             "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null
+            "rybak": {
+              "texte": "Mettre le citoyen au cœur du projet avec participation active des habitants aux décisions municipales",
+              "source": "France Bleu Gironde, débat candidats",
+              "sourceUrl": "https://www.francebleu.fr/infos/elections/municipales-a-pessac-david-rybak-se-veut-donner-plus-de-pouvoir-aux-citoyens-1582736391"
+            }
           }
         },
         {
@@ -472,7 +578,11 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
+            "curvale": {
+              "texte": "Renforcement de la vie citoyenne et participation démocratique des habitants",
+              "source": "Programme EELV 2026",
+              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/"
+            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
@@ -520,8 +630,17 @@
             "curvale": null,
             "couillard": null,
             "jaouen": null,
-            "ufferte": null,
-            "rybak": null
+            "ufferte": {
+              "texte": "Création d'emplois publics et insertion professionnelle pour tous",
+              "source": "Programme NPA 2026",
+              "sourceUrl": "https://nouveaupartianticapitaliste.org/",
+              "a_verifier": true
+            },
+            "rybak": {
+              "texte": "Création de centres d'affaires pour identifier les besoins en termes de stages, emplois et création d'entreprise",
+              "source": "France Bleu Gironde, débat candidats 2020",
+              "sourceUrl": "https://www.francebleu.fr/infos/elections/municipales-a-pessac-david-rybak-se-veut-donner-plus-de-pouvoir-aux-citoyens-1582736391"
+            }
           }
         },
         {
@@ -613,7 +732,11 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
+            "curvale": {
+              "texte": "Ville accessible pour tous avec amélioration de l'accessibilité et aménagement urbain durable",
+              "source": "Programme EELV 2026",
+              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/"
+            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
@@ -627,7 +750,12 @@
             "raynal": null,
             "saint-pasteur": null,
             "curvale": null,
-            "couillard": null,
+            "couillard": {
+              "texte": "Amélioration de l'accessibilité pour tous les citoyens",
+              "source": "Campagne citoyenne Unis pour Pessac, 2026",
+              "sourceUrl": "https://unispourpessac.fr/",
+              "a_verifier": true
+            },
             "jaouen": null,
             "ufferte": null,
             "rybak": null
@@ -657,11 +785,20 @@
           "nom": "Aide sociale",
           "propositions": {
             "raynal": null,
-            "saint-pasteur": null,
+            "saint-pasteur": {
+              "texte": "Soutien aux personnes en situation de fragilité et politiques de solidarité",
+              "source": "Programme campagne électorale 2026",
+              "sourceUrl": "https://rue89bordeaux.com/2025/12/municipales-2026-a-pessac-le-socialiste-sebastien-saint-pasteur-candidat-adoube-par-le-pc-et-les-ecolos/"
+            },
             "curvale": null,
             "couillard": null,
             "jaouen": null,
-            "ufferte": null,
+            "ufferte": {
+              "texte": "Renforcement des aides sociales pour les plus précaires et les familles en difficulté",
+              "source": "Positionnement NPA 2026",
+              "sourceUrl": "https://nouveaupartianticapitaliste.org/",
+              "a_verifier": true
+            },
             "rybak": null
           }
         },
@@ -672,7 +809,12 @@
             "raynal": null,
             "saint-pasteur": null,
             "curvale": null,
-            "couillard": null,
+            "couillard": {
+              "texte": "Priorité à l'égalité des chances et à la justice sociale",
+              "source": "Campagne citoyenne Unis pour Pessac, 2026",
+              "sourceUrl": "https://unispourpessac.fr/",
+              "a_verifier": true
+            },
             "jaouen": null,
             "ufferte": null,
             "rybak": null

@@ -12,7 +12,9 @@
     if (p === '/home' || p === '/home.html') {
       location.replace('/');
     } else if (p === '/' && location.search.indexOf('ville=') !== -1) {
-      location.replace('/municipales/2026/' + location.search);
+      var vp = new URLSearchParams(location.search).get('ville');
+      if (vp) location.replace('/municipales/2026/?ville=' + vp);
+      else location.replace('/municipales/2026/' + location.search);
     }
   })();
   </script>
@@ -82,8 +84,8 @@
   <!-- Phosphor Icons (non-blocking) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web/src/regular/style.css" media="print" onload="this.media='all'">
 
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="stylesheet" href="css/consent.css">
+  <link rel="stylesheet" href="css/home.css?v=2026021401">
+  <link rel="stylesheet" href="css/consent.css?v=2026021401">
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -98,10 +100,10 @@
       <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
       <nav class="header-nav">
         <ul class="header-nav__links">
-          <li><a href="/a-propos.html">&Agrave; propos</a></li>
+          <li><a href="/municipales/2026/">Comparateur</a></li>
           <li><a href="/methodologie.html">M&eacute;thodologie</a></li>
           <li><a href="/faq.html">FAQ</a></li>
-          <li><a href="mailto:contact@pourquituvotes.fr">Contact</a></li>
+          <li><a href="/a-propos.html">&Agrave; propos</a></li>
         </ul>
       </nav>
       <div class="header-countdown" id="topbar-countdown">
@@ -150,10 +152,10 @@
     </div>
     <nav class="mobile-menu-overlay__nav">
       <ul>
-        <li><a href="/a-propos.html"><i class="ph ph-info"></i> &Agrave; propos</a></li>
+        <li><a href="/municipales/2026/"><i class="ph ph-scales"></i> Comparateur</a></li>
         <li><a href="/methodologie.html"><i class="ph ph-book-open"></i> M&eacute;thodologie</a></li>
         <li><a href="/faq.html"><i class="ph ph-question"></i> FAQ</a></li>
-        <li><a href="mailto:contact@pourquituvotes.fr"><i class="ph ph-envelope"></i> Contact</a></li>
+        <li><a href="/a-propos.html"><i class="ph ph-info"></i> &Agrave; propos</a></li>
       </ul>
     </nav>
     <div class="mobile-menu-overlay__footer">
@@ -180,18 +182,18 @@
         <div class="hero__search" role="search">
           <label for="search-input" class="sr-only">Rechercher une ville ou un code postal</label>
           <!-- Desktop : vrai input -->
-          <div class="hero__search-box hero__search-box--desktop">
-            <i class="ph ph-magnifying-glass hero__search-icon" aria-hidden="true"></i>
-            <input type="text" id="search-input" class="hero__search-input" placeholder="Entrez votre ville ou code postal..." autocomplete="off" aria-describedby="search-hint">
-            <button type="button" id="search-btn" class="hero__search-btn">Comparer</button>
+          <div class="search-float__box hero__search-box--desktop">
+            <i class="ph ph-magnifying-glass search-float__icon" aria-hidden="true"></i>
+            <input type="text" id="search-input" class="search-float__input" placeholder="Ex : Paris, Rachida Dati, ..." autocomplete="off" aria-describedby="search-hint">
+            <div class="ville-suggestions" id="suggestions-dropdown" role="listbox" hidden></div>
+            <button type="button" id="search-btn" class="search-float__btn">Comparer</button>
           </div>
           <!-- Mobile : faux input (bouton) qui ouvre l'overlay -->
-          <button type="button" id="mobile-search-trigger" class="hero__search-box hero__search-trigger">
-            <i class="ph ph-magnifying-glass hero__search-icon" aria-hidden="true"></i>
-            <span class="hero__search-placeholder">Entrez votre ville ou code postal...</span>
+          <button type="button" id="mobile-search-trigger" class="search-float__box hero__search-trigger">
+            <i class="ph ph-magnifying-glass search-float__icon" aria-hidden="true"></i>
+            <span class="hero__search-placeholder">Ex : Paris, Rachida Dati, ...</span>
           </button>
           <span id="search-hint" class="sr-only">Les suggestions apparaissent apr&egrave;s 2 caract&egrave;res</span>
-          <div class="hero__suggestions-dropdown" id="suggestions-dropdown" role="listbox" hidden></div>
         </div>
 
         <div class="hero__pills" aria-label="Suggestions de villes">
@@ -228,15 +230,10 @@
     <!-- APERCU DU COMPARATEUR -->
     <section class="apercu" id="apercu" aria-labelledby="apercu-title">
       <div class="apercu__inner">
-        <div class="apercu__text">
-          <h2 id="apercu-title" class="apercu__title">Comparez les programmes visuellement</h2>
-          <p class="apercu__desc">Radar, barres horizontales, tableau d&eacute;taill&eacute; : choisissez la vue qui vous convient pour comparer les propositions des candidats.</p>
-          <ul class="apercu__features">
-            <li><i class="ph ph-squares-four" aria-hidden="true"></i> Treemap pour visualiser le poids de chaque th&egrave;me</li>
-            <li><i class="ph ph-chart-polar" aria-hidden="true"></i> Radar pour une vue d'ensemble par th&egrave;me</li>
-            <li><i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> Barres pour comparer le volume de propositions</li>
-            <li><i class="ph ph-table" aria-hidden="true"></i> Tableau pour lire les d&eacute;tails c&ocirc;te &agrave; c&ocirc;te</li>
-          </ul>
+        <div class="apercu__desc-block">
+          <h2 id="apercu-title" class="apercu__title">Comparez les programmes en un coup d&rsquo;&oelig;il</h2>
+          <p class="apercu__desc">Choisissez la visualisation qui vous aide le mieux &agrave; comprendre les diff&eacute;rences entre les candidats.</p>
+          <p class="apercu__desc">Du r&eacute;sum&eacute; global au d&eacute;tail des mesures, passez d&rsquo;une vue &agrave; l&rsquo;autre en un instant.</p>
         </div>
         <div class="apercu__mockup">
           <div class="mockup-browser">
@@ -259,6 +256,12 @@
             </div>
           </div>
         </div>
+        <ul class="apercu__features">
+          <li><i class="ph ph-squares-four" aria-hidden="true"></i> Treemap &mdash; visualisez le poids de chaque th&egrave;me dans un programme</li>
+          <li><i class="ph ph-chart-polar" aria-hidden="true"></i> Radar &mdash; comparez rapidement les priorit&eacute;s des candidats</li>
+          <li><i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> Barres &mdash; mesurez le volume de propositions par sujet</li>
+          <li><i class="ph ph-table" aria-hidden="true"></i> Tableau &mdash; lisez les engagements c&ocirc;te &agrave; c&ocirc;te</li>
+        </ul>
         <a href="/municipales/2026/" class="apercu__cta">Voir les &eacute;lections disponibles <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
       </div>
     </section>
@@ -285,7 +288,7 @@
           <span class="top-comparaisons__badge"><i class="ph ph-chart-bar" aria-hidden="true"></i> Cette semaine</span>
         </div>
         <div class="top-comparaisons__list">
-          <a href="/municipales/2026/?ville=paris&candidats=dati,gregoire&categorie=environnement" class="top-comp-item">
+          <a href="/municipales/2026/?ville=paris&candidats=dati,gregoire&theme=environnement" class="top-comp-item">
             <span class="top-comp-item__rang">1</span>
             <div class="top-comp-item__avatars">
               <span class="top-comp-avatar" style="background:#3B82F6">RD</span>
@@ -297,7 +300,7 @@
             </div>
             <i class="ph ph-arrow-right top-comp-item__arrow" aria-hidden="true"></i>
           </a>
-          <a href="/municipales/2026/?ville=paris&candidats=chikirou,knafo&categorie=securite" class="top-comp-item">
+          <a href="/municipales/2026/?ville=paris&candidats=chikirou,knafo&theme=securite" class="top-comp-item">
             <span class="top-comp-item__rang">2</span>
             <div class="top-comp-item__avatars">
               <span class="top-comp-avatar" style="background:#C94277">RC</span>
@@ -309,7 +312,7 @@
             </div>
             <i class="ph ph-arrow-right top-comp-item__arrow" aria-hidden="true"></i>
           </a>
-          <a href="/municipales/2026/?ville=paris&candidats=gregoire,bournazel&categorie=logement" class="top-comp-item">
+          <a href="/municipales/2026/?ville=paris&candidats=gregoire,bournazel&theme=logement" class="top-comp-item">
             <span class="top-comp-item__rang">3</span>
             <div class="top-comp-item__avatars">
               <span class="top-comp-avatar" style="background:#E63946">EG</span>
@@ -354,7 +357,7 @@
       <div class="tendances__inner">
         <div class="tendances__header">
           <h2 id="tendances-title" class="tendances__title"><i class="ph ph-fire" aria-hidden="true"></i> Sujets qui agitent</h2>
-          <a href="/municipales/2026/?ville=paris" class="tendances__link">Tous les th&egrave;mes <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
+          <a href="/enjeux-index.html" class="tendances__link">Tous les th&egrave;mes <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
         </div>
         <div class="tendances__grid" id="tendances-grid">
           <!-- Generated by JS -->
@@ -407,11 +410,12 @@
           </ul>
         </div>
 
-        <!-- Autres elections -->
+        <!-- Enjeux & Autres elections -->
         <div class="footer__col">
-          <h3 class="footer__col-title">Autres &eacute;lections</h3>
+          <h3 class="footer__col-title">Enjeux &amp; &Eacute;lections</h3>
           <ul class="footer__list">
-            <li><a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--soon">SOON</span></a></li>
+            <li><a href="/enjeux-index.html">Enjeux 2026</a></li>
+            <li><a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--soon">bient&ocirc;t</span></a></li>
             <li><span class="footer__item-soon">L&eacute;gislatives 2027</span></li>
             <li><span class="footer__item-soon">R&eacute;gionales</span></li>
             <li><span class="footer__item-soon">Europ&eacute;ennes 2029</span></li>
@@ -455,7 +459,7 @@
   </div>
 
   <script defer src="js/consent.js"></script>
-  <script defer src="js/analytics.js?v=2026021002"></script>
-  <script defer src="js/home.js"></script>
+  <script defer src="js/analytics.js?v=2026021401"></script>
+  <script defer src="js/home.js?v=2026021401"></script>
 </body>
 </html>

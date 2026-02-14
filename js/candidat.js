@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var DATA_VERSION = "2026021002";
+  var DATA_VERSION = "2026021302";
   var DATA_BASE_URL = "/data/";
 
   var ORDRE_CATEGORIES = [
@@ -35,6 +35,21 @@
     "NPA": "#B71C1C", "Lutte Ouvri\u00e8re": "#C62828",
     "Reconqu\u00eate": "#1A1A1A",
     "Modem": "#FF9900"
+  };
+
+  var ICONES_CATEGORIES = {
+    "securite": "ph-shield-check",
+    "transports": "ph-bus",
+    "logement": "ph-house",
+    "education": "ph-graduation-cap",
+    "environnement": "ph-leaf",
+    "sante": "ph-heartbeat",
+    "democratie": "ph-bank",
+    "economie": "ph-briefcase",
+    "culture": "ph-palette",
+    "sport": "ph-soccer-ball",
+    "urbanisme": "ph-buildings",
+    "solidarite": "ph-handshake"
   };
 
   var COULEURS_DEFAUT = [
@@ -109,10 +124,23 @@
     var nbCategories = 0;
     for (var k in propsByCat) { if (propsByCat[k] > 0) nbCategories++; }
 
-    // Meta
-    document.title = candidat.nom + " \u2014 Municipales " + ville + " 2026 | #POURQUITUVOTES";
+    // Meta & SEO
+    var seoTitle = candidat.nom + " \u2014 Programme " + ville + " 2026 | #POURQUITUVOTES";
+    var seoDesc = "D\u00e9couvrez les " + totalProps + " propositions de " + candidat.nom + " (" + candidat.liste + ") pour les municipales " + ville + " 2026.";
+    var seoUrl = "https://pourquituvotes.fr/municipales-2026/" + villeSlug + "/candidats/" + candidatId;
+    document.title = seoTitle;
     var metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute("content", "D\u00e9couvrez les " + totalProps + " propositions de " + candidat.nom + " (" + candidat.liste + ") pour les municipales " + ville + " 2026.");
+    if (metaDesc) metaDesc.setAttribute("content", seoDesc);
+    if (typeof setCanonical === "function") setCanonical(seoUrl);
+    if (typeof updateOpenGraph === "function") updateOpenGraph(seoTitle, seoDesc, seoUrl);
+    if (typeof injectJsonLdBreadcrumb === "function") {
+      injectJsonLdBreadcrumb([
+        { name: "Accueil", url: "https://pourquituvotes.fr/" },
+        { name: "Municipales 2026", url: "https://pourquituvotes.fr/municipales/2026/" },
+        { name: ville, url: "https://pourquituvotes.fr/municipales-2026/" + villeSlug },
+        { name: candidat.nom }
+      ]);
+    }
 
     // Initiales
     var parts = candidat.nom.split(" ");
@@ -120,11 +148,13 @@
 
     // Hero
     var heroHTML =
-      '<div class="candidat-hero__breadcrumb">' +
-        '<a href="/">Accueil</a><span>/</span>' +
-        '<a href="/municipales/2026/?ville=' + echapper(villeSlug) + '">' + echapper(ville) + '</a><span>/</span>' +
-        '<span>' + echapper(candidat.nom) + '</span>' +
-      '</div>' +
+      '<nav class="fil-ariane fil-ariane--hero" aria-label="Fil d\'Ariane">' +
+        '<ol class="fil-ariane__liste" itemscope itemtype="https://schema.org/BreadcrumbList">' +
+          '<li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><i class="ph ph-house" aria-hidden="true"></i> <span itemprop="name">Accueil</span></a><meta itemprop="position" content="1"></li>' +
+          '<li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/municipales/2026/?ville=' + echapper(villeSlug) + '" itemprop="item"><span itemprop="name">' + echapper(ville) + '</span></a><meta itemprop="position" content="2"></li>' +
+          '<li class="fil-ariane__item fil-ariane__item--actif" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/municipales/2026/candidat.html?ville=' + echapper(villeSlug) + '&candidat=' + echapper(candidat.id) + '" itemprop="item"><span itemprop="name">' + echapper(candidat.nom) + '</span></a><meta itemprop="position" content="3"></li>' +
+        '</ol>' +
+      '</nav>' +
       '<div class="candidat-hero__card">' +
         '<div class="candidat-hero__avatar" style="background:' + couleur + '">' + echapper(initiales.toUpperCase()) + '</div>' +
         '<div class="candidat-hero__info">' +
@@ -133,7 +163,7 @@
           '<div class="candidat-hero__tags">' +
             (candidat.programmeComplet
               ? '<span class="candidat-hero__tag candidat-hero__tag--complet"><i class="ph ph-check-circle"></i> Programme complet</span>'
-              : '<span class="candidat-hero__tag candidat-hero__tag--partiel"><i class="ph ph-warning-circle"></i> Programme partiel</span>') +
+              : '<span class="candidat-hero__tag candidat-hero__tag--partiel"><i class="ph ph-clock"></i> Programme \u00e0 venir</span>') +
           '</div>' +
         '</div>' +
       '</div>';
@@ -147,8 +177,11 @@
 
     // Liens
     var linksHTML = '';
+    if (candidat.programmePdfPath) {
+      linksHTML += '<a href="' + echapper(candidat.programmePdfPath) + '" target="_blank" rel="noopener" class="candidat-links__btn candidat-links__btn--primary"><i class="ph ph-file-pdf"></i> Programme (PDF)</a>';
+    }
     if (candidat.programmeUrl && candidat.programmeUrl !== "#") {
-      linksHTML += '<a href="' + echapper(candidat.programmeUrl) + '" target="_blank" rel="noopener" class="candidat-links__btn candidat-links__btn--primary"><i class="ph ph-globe"></i> Site de campagne</a>';
+      linksHTML += '<a href="' + echapper(candidat.programmeUrl) + '" target="_blank" rel="noopener" class="candidat-links__btn candidat-links__btn--' + (candidat.programmePdfPath ? 'secondary' : 'primary') + '"><i class="ph ph-globe"></i> Site de campagne</a>';
     }
     linksHTML += '<a href="/municipales/2026/?ville=' + echapper(villeSlug) + '&candidats=' + echapper(candidatId) + '" class="candidat-links__btn candidat-links__btn--secondary"><i class="ph ph-chart-bar"></i> Voir dans le comparateur</a>';
     document.getElementById("candidat-links").innerHTML = linksHTML;
@@ -181,7 +214,7 @@
 
       catsHTML += '<div class="candidat-cat candidat-cat--open" data-cat="' + cat.id + '">' +
         '<div class="candidat-cat__header">' +
-          '<div class="candidat-cat__icon" style="background:' + catColor + '20;color:' + catColor + '"><i class="ph ph-folder"></i></div>' +
+          '<div class="candidat-cat__icon" style="background:' + catColor + '20;color:' + catColor + '"><i class="ph ' + (ICONES_CATEGORIES[cat.id] || 'ph-folder') + '"></i></div>' +
           '<span class="candidat-cat__nom">' + echapper(cat.nom) + '</span>' +
           '<span class="candidat-cat__count">' + props.length + '</span>' +
           '<i class="ph ph-caret-down candidat-cat__chevron"></i>' +
@@ -327,6 +360,14 @@
     var params = new URLSearchParams(window.location.search);
     var villeParam = params.get("ville");
     var candidatParam = params.get("candidat");
+
+    if (!villeParam || !candidatParam) {
+      var pathMatch = window.location.pathname.match(/\/municipales-2026\/([^\/]+)\/candidats\/([^\/]+)/);
+      if (pathMatch) {
+        villeParam = decodeURIComponent(pathMatch[1]);
+        candidatParam = decodeURIComponent(pathMatch[2]);
+      }
+    }
 
     if (!villeParam || !candidatParam) {
       document.getElementById("candidat-main").innerHTML =

@@ -230,6 +230,15 @@
       });
     },
 
+    trackCandidateFocusChange: function (selectedNames, selectionCount) {
+      sendAnalyticsEvent("candidate_focus_change", {
+        selected_candidates_names: selectedNames.join(", "),
+        selection_count: selectionCount,
+        page_path: location.pathname,
+        time_on_page: getTimeOnPage()
+      });
+    },
+
     trackCategoryView: function (categoryId, categoryName) {
       sendAnalyticsEvent("category_view", {
         category_id: categoryId,
@@ -332,6 +341,106 @@
         question_id: questionId,
         question_text: questionText.substring(0, 100),
         page_path: location.pathname
+      });
+    },
+
+    // === Bloc "Ville non trouvée" avec formulaire de notification ===
+    renderNoResult: function (container, searchTerm) {
+      searchTerm = (searchTerm || "").trim();
+
+      // 1. Tracking GA4
+      sendAnalyticsEvent("search_no_result", {
+        search_term: searchTerm,
+        page_path: location.pathname
+      });
+
+      // 2. Construction DOM (textContent sur searchTerm → anti-XSS)
+      var wrapper = document.createElement("div");
+      wrapper.className = "search-no-result";
+
+      // Header : icône + titre sur une ligne
+      var header = document.createElement("div");
+      header.className = "search-no-result__header";
+      var iconI = document.createElement("i");
+      iconI.className = "ph ph-map-pin-simple-area";
+      header.appendChild(iconI);
+      var title = document.createElement("span");
+      title.textContent = "Cette ville n'est pas encore couverte";
+      header.appendChild(title);
+
+      // Description compacte
+      var desc = document.createElement("p");
+      desc.className = "search-no-result__desc";
+      desc.appendChild(document.createTextNode("\u00catre pr\u00e9venu(e) quand "));
+      var strong = document.createElement("strong");
+      strong.textContent = searchTerm;
+      desc.appendChild(strong);
+      desc.appendChild(document.createTextNode(" sera disponible :"));
+
+      // Formulaire inline
+      var form = document.createElement("form");
+      form.className = "search-no-result__form";
+
+      var inputEmail = document.createElement("input");
+      inputEmail.type = "email";
+      inputEmail.className = "search-no-result__input";
+      inputEmail.placeholder = "Votre email";
+      inputEmail.required = true;
+
+      var btn = document.createElement("button");
+      btn.type = "submit";
+      btn.className = "search-no-result__btn";
+      var btnIcon = document.createElement("i");
+      btnIcon.className = "ph ph-bell-ringing";
+      btn.appendChild(btnIcon);
+      btn.appendChild(document.createTextNode(" M'avertir"));
+
+      form.appendChild(inputEmail);
+      form.appendChild(btn);
+
+      // Lien méthodologie
+      var footer = document.createElement("div");
+      footer.className = "search-no-result__footer";
+      var link = document.createElement("a");
+      link.href = "/methodologie.html";
+      link.className = "search-no-result__link";
+      var linkIcon = document.createElement("i");
+      linkIcon.className = "ph ph-info";
+      link.appendChild(linkIcon);
+      link.appendChild(document.createTextNode(" Pourquoi pas toutes les villes ?"));
+      footer.appendChild(link);
+
+      wrapper.appendChild(header);
+      wrapper.appendChild(desc);
+      wrapper.appendChild(form);
+      wrapper.appendChild(footer);
+
+      container.innerHTML = "";
+      container.appendChild(wrapper);
+      container.hidden = false;
+
+      // Empêcher la propagation des clics (évite fermeture dropdown)
+      wrapper.addEventListener("mousedown", function (e) { e.stopPropagation(); });
+      wrapper.addEventListener("click", function (e) { e.stopPropagation(); });
+
+      // 3. Gestion soumission
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var email = inputEmail.value.trim();
+        btn.disabled = true;
+        btn.textContent = "";
+        var checkIcon = document.createElement("i");
+        checkIcon.className = "ph ph-check";
+        btn.appendChild(checkIcon);
+        btn.appendChild(document.createTextNode(" Merci !"));
+
+        hashEmail(email).then(function (hash) {
+          sendAnalyticsEvent("lead_notification_request", {
+            requested_city: searchTerm,
+            email_hash: hash,
+            page_path: location.pathname
+          });
+        });
       });
     }
   };

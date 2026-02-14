@@ -68,6 +68,7 @@
     wrapper.setAttribute("aria-label", "Gestion des cookies");
     wrapper.innerHTML =
       '<div class="consent-banner">' +
+        '<div class="consent-banner__brand" aria-hidden="true"><span style="font-family:Montserrat,sans-serif;font-weight:900;font-style:italic;font-size:1.1rem;letter-spacing:-0.01em;text-transform:uppercase"><span style="color:#002395">#POURQUITU</span><span style="color:#ED2939">VOTES?</span></span></div>' +
         '<div class="consent-banner__icon" aria-hidden="true"><i class="ph ph-shield-check"></i></div>' +
         '<div class="consent-banner__title">Votre visite, vos choix</div>' +
         '<div class="consent-banner__desc">Ce site utilise des cookies pour mieux comprendre comment vous l\u2019utilisez et am\u00e9liorer votre exp\u00e9rience. Vos donn\u00e9es restent anonymes et ne sont jamais vendues. <a href="/confidentialite.html">En savoir plus</a></div>' +

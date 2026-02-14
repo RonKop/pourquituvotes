@@ -78,7 +78,11 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "bayrou": null,
+            "bayrou": {
+              "texte": "Passage de 12 à 72 policiers municipaux armés depuis son premier mandat (2014)",
+              "source": "France Bleu Béarn",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-de-ici-bearn-bigorre/municipales-2026-a-pau-nos-concitoyens-font-la-difference-entre-la-politique-et-la-ville-selon-francois-bayrou-1018870"
+            },
             "marbot": null,
             "blanco": null,
             "taillefer": null,
@@ -92,14 +96,23 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "bayrou": null,
+            "bayrou": {
+              "texte": "Vidéoprotection avec plus de 250 caméras installées dans la ville",
+              "source": "France Bleu Béarn",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-de-ici-bearn-bigorre/municipales-2026-a-pau-nos-concitoyens-font-la-difference-entre-la-politique-et-la-ville-selon-francois-bayrou-1018870"
+            },
             "marbot": null,
             "blanco": null,
             "taillefer": null,
             "arraou": null,
             "boniface": null,
             "marconi": null,
-            "cronier": null
+            "cronier": {
+              "texte": "Suppression des dispositifs de surveillance jugés liberticides",
+              "source": "Candidator",
+              "sourceUrl": "https://www.candidator.fr/municipalespau2026/recherche-candidat.html",
+              "a_verifier": true
+            }
           }
         },
         {
@@ -109,7 +122,11 @@
             "bayrou": null,
             "marbot": null,
             "blanco": null,
-            "taillefer": null,
+            "taillefer": {
+              "texte": "La sécurité comme priorité absolue et non négociable du programme municipal",
+              "source": "France Bleu Béarn",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/une-centaine-de-personnes-pour-le-premier-meeting-du-rassemblement-national-a-pau-3093796"
+            },
             "arraou": null,
             "boniface": null,
             "marconi": null,
@@ -258,7 +275,11 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "bayrou": null,
+            "bayrou": {
+              "texte": "Développement d'habitats partagés entre générations",
+              "source": "Parlons Politique",
+              "sourceUrl": "https://www.parlons-politique.fr/elections/municipales-2026-a-pau-francois-bayrou-annonce-sa-candidature-pour-un-3e-mandat-axe-securite-habitats-intergenerationnels-et-soutien-aux-familles_7106/"
+            },
             "marbot": null,
             "blanco": null,
             "taillefer": null,
@@ -320,7 +341,11 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "bayrou": null,
+            "bayrou": {
+              "texte": "Création d'une école du soir pour tout le monde",
+              "source": "France Info",
+              "sourceUrl": "https://www.franceinfo.fr/france/nouvelle-aquitaine/pyrenees-atlantiques/municipales-2026-francois-bayrou-candidat-pour-un-troisieme-mandat-a-pau_7749751.html"
+            },
             "marbot": null,
             "blanco": null,
             "taillefer": null,
@@ -383,7 +408,11 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "bayrou": null,
-            "marbot": null,
+            "marbot": {
+              "texte": "Accélération de la transition écologique de la ville par le développement des mobilités douces et la végétalisation des espaces urbains",
+              "source": "France Bleu Béarn",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-pau-jerome-marbot-candidat-a-la-tete-d-une-liste-d-union-partielle-de-la-gauche-et-des-ecologistes-2610691"
+            },
             "blanco": null,
             "taillefer": null,
             "arraou": null,
@@ -482,7 +511,11 @@
             "marbot": null,
             "blanco": null,
             "taillefer": null,
-            "arraou": null,
+            "arraou": {
+              "texte": "Implication citoyenne renforcée dans les décisions municipales avec consultations en ligne régulières",
+              "source": "France Bleu Béarn",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-pau-l-expert-comptable-philippe-arraou-candidat-il-va-faire-campagne-a-bord-d-un-van-9225152"
+            },
             "boniface": null,
             "marconi": null,
             "cronier": null
@@ -507,7 +540,11 @@
           "nom": "Vie associative",
           "propositions": {
             "bayrou": null,
-            "marbot": null,
+            "marbot": {
+              "texte": "Renforcement de la vie de quartier pour favoriser la proximité et la solidarité entre Palois",
+              "source": "France Bleu Béarn",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-pau-jerome-marbot-candidat-a-la-tete-d-une-liste-d-union-partielle-de-la-gauche-et-des-ecologistes-2610691"
+            },
             "blanco": null,
             "taillefer": null,
             "arraou": null,
@@ -541,13 +578,22 @@
           "nom": "Commerce local",
           "propositions": {
             "bayrou": null,
-            "marbot": null,
+            "marbot": {
+              "texte": "Redynamisation du centre-ville par le soutien aux commerces de proximité et l'amélioration des conditions de vie quotidienne",
+              "source": "France Bleu Béarn",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-pau-jerome-marbot-candidat-a-la-tete-d-une-liste-d-union-partielle-de-la-gauche-et-des-ecologistes-2610691"
+            },
             "blanco": null,
             "taillefer": null,
             "arraou": null,
             "boniface": null,
             "marconi": null,
-            "cronier": null
+            "cronier": {
+              "texte": "Opposition à la bureaucratie européenne et métropolitaine qui étouffe les petits commerces et commerçants du centre-ville palois",
+              "source": "Candidator",
+              "sourceUrl": "https://www.candidator.fr/municipalespau2026/recherche-candidat.html",
+              "a_verifier": true
+            }
           }
         },
         {
@@ -571,8 +617,17 @@
             "bayrou": null,
             "marbot": null,
             "blanco": null,
-            "taillefer": null,
-            "arraou": null,
+            "taillefer": {
+              "texte": "Rétablir l'équilibre des finances municipales et réduire la dette qui a explosé sous Bayrou",
+              "source": "Twitter Margaux Taillefer",
+              "sourceUrl": "https://x.com/margauxtaillef2/status/1964765419992223824",
+              "a_verifier": true
+            },
+            "arraou": {
+              "texte": "Meilleur contrôle du budget municipal dont la dette par habitant a doublé entre 2014 et 2023",
+              "source": "France Bleu Béarn",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-pau-l-expert-comptable-philippe-arraou-candidat-il-va-faire-campagne-a-bord-d-un-van-9225152"
+            },
             "boniface": null,
             "marconi": null,
             "cronier": null
@@ -656,11 +711,19 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "bayrou": null,
+            "bayrou": {
+              "texte": "Travaux de la place Royale, place Clémenceau et des galeries Lafayette comme grands chantiers du mandat",
+              "source": "Parlons Politique",
+              "sourceUrl": "https://www.parlons-politique.fr/politique-locale/municipales-a-pau-francois-bayrou-renonce-provisoirement-aux-ambitions-nationales-pour-briguer-un-3e-mandat-misant-sur-un-bilan-demographique-5k-et-la-place-royale_7676/"
+            },
             "marbot": null,
             "blanco": null,
             "taillefer": null,
-            "arraou": null,
+            "arraou": {
+              "texte": "Développement vers le sud pour que la géographie béarnaise au pied des Pyrénées ne soit plus source d'enclavement",
+              "source": "France Bleu Béarn",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-pau-l-expert-comptable-philippe-arraou-candidat-il-va-faire-campagne-a-bord-d-un-van-9225152"
+            },
             "boniface": null,
             "marconi": null,
             "cronier": null
@@ -704,7 +767,11 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "bayrou": null,
+            "bayrou": {
+              "texte": "Mesures pour faciliter la vie des mamans seules et soutien aux familles monoparentales",
+              "source": "Parlons Politique",
+              "sourceUrl": "https://www.parlons-politique.fr/elections/municipales-2026-a-pau-francois-bayrou-annonce-sa-candidature-pour-un-3e-mandat-axe-securite-habitats-intergenerationnels-et-soutien-aux-familles_7106/"
+            },
             "marbot": null,
             "blanco": null,
             "taillefer": null,
@@ -739,7 +806,12 @@
             "arraou": null,
             "boniface": null,
             "marconi": null,
-            "cronier": null
+            "cronier": {
+              "texte": "Réduction drastique de la pression fiscale locale",
+              "source": "Candidator",
+              "sourceUrl": "https://www.candidator.fr/municipalespau2026/recherche-candidat.html",
+              "a_verifier": true
+            }
           }
         }
       ]

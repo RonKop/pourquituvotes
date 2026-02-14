@@ -4,7 +4,7 @@
   // === Data (chargé depuis JSON) ===
   var VILLES = [];
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026021002';
+  var DATA_VERSION = '2026021401';
 
   var DATE_SCRUTIN = new Date("2026-03-15T08:00:00");
 
@@ -18,13 +18,13 @@
     "transports": { icon: "ph-bus", nom: "Transports" },
     "environnement": { icon: "ph-leaf", nom: "Environnement" },
     "education": { icon: "ph-graduation-cap", nom: "\u00c9ducation" },
-    "democratie": { icon: "ph-handshake", nom: "D\u00e9mocratie" },
+    "democratie": { icon: "ph-bank", nom: "D\u00e9mocratie" },
     "logement": { icon: "ph-house", nom: "Logement" },
     "economie": { icon: "ph-briefcase", nom: "\u00c9conomie" },
-    "sante": { icon: "ph-first-aid", nom: "Sant\u00e9" },
-    "solidarite": { icon: "ph-heart", nom: "Solidarit\u00e9" },
+    "sante": { icon: "ph-heartbeat", nom: "Sant\u00e9" },
+    "solidarite": { icon: "ph-handshake", nom: "Solidarit\u00e9" },
     "urbanisme": { icon: "ph-buildings", nom: "Urbanisme" },
-    "culture": { icon: "ph-paint-brush", nom: "Culture" },
+    "culture": { icon: "ph-palette", nom: "Culture" },
     "sport": { icon: "ph-soccer-ball", nom: "Sport" }
   };
 
@@ -164,7 +164,7 @@
 
     grid.innerHTML = TENDANCES_FRANCE.map(function (t, idx) {
       var cls = (idx === 0 || idx === TENDANCES_FRANCE.length - 1) ? " tendance-card--wide" : "";
-      return '<a href="/municipales/2026/?categorie=' + t.slug + '" class="tendance-card' + cls + '">' +
+      return '<a href="/thematique.html?theme=' + t.slug + '" class="tendance-card' + cls + '">' +
         '<i class="ph ' + t.icon + ' tendance-card__icon" aria-hidden="true"></i>' +
         '<div class="tendance-card__name">' + esc(t.nom) + '</div>' +
         '<div class="tendance-card__count">' + t.count + ' propositions</div>' +
@@ -182,6 +182,16 @@
 
     var debounceTimer = null;
     var activeIndex = -1;
+
+    function termeRegexSafe(str) {
+      return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function surligner(texte, terme) {
+      if (!terme) return texte;
+      var regex = new RegExp("(" + termeRegexSafe(terme) + ")", "gi");
+      return texte.replace(regex, '<span class="ville-suggestion__highlight">$1</span>');
+    }
 
     function search(terme) {
       if (!terme || terme.length < 2) {
@@ -219,52 +229,48 @@
 
       var html = "";
       villeResults.forEach(function (v, idx) {
-        html += '<div class="hero__suggestion-item" role="option" data-ville="' + v.id + '" data-index="' + idx + '">' +
-          '<i class="ph ph-map-pin" aria-hidden="true"></i>' +
-          '<span>' + esc(v.nom) + '</span>' +
-          '<span class="hero__suggestion-cp">' + v.codePostal + '</span>' +
-          '<span class="hero__suggestion-stats">' + (v.stats ? v.stats.candidats : 0) + ' candidats</span>' +
-          '</div>';
+        var nomHTML = surligner(esc(v.nom), terme);
+        var codeHTML = surligner(esc(v.codePostal), terme);
+        var url = "/municipales/2026/?ville=" + encodeURIComponent(v.id);
+        html += '<a href="' + url + '" class="ville-suggestion" role="option" data-ville="' + v.id + '" data-index="' + idx + '">' +
+          '<span class="ville-suggestion__nom">' + nomHTML + '</span>' +
+          '<span class="ville-suggestion__code">' + codeHTML + '</span>' +
+          '</a>';
       });
 
       if (candidatResults.length > 0) {
         if (villeResults.length > 0) {
-          html += '<div style="padding:6px 20px;font-size:0.72rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:0.05em;background:#f8fafc;border-top:1px solid #e2e8f0">Candidats</div>';
+          html += '<div class="ville-suggestions__separator">Candidats</div>';
         }
         candidatResults.forEach(function (r, idx) {
           var totalIdx = villeResults.length + idx;
-          html += '<div class="hero__suggestion-item" role="option" data-ville="' + r.ville.id + '" data-candidat="' + r.candidat.id + '" data-index="' + totalIdx + '">' +
-            '<i class="ph ph-user" aria-hidden="true"></i>' +
-            '<span>' + esc(r.candidat.nom) + '</span>' +
-            '<span class="hero__suggestion-cp">' + esc(r.ville.nom) + '</span>' +
-            '</div>';
+          var nomHTML = surligner(esc(r.candidat.nom), terme);
+          var url = "/municipales/2026/candidat.html?ville=" + encodeURIComponent(r.ville.id) + "&candidat=" + encodeURIComponent(r.candidat.id);
+          html += '<a href="' + url + '" class="ville-suggestion ville-suggestion--candidat" role="option" data-ville="' + r.ville.id + '" data-candidat="' + r.candidat.id + '" data-index="' + totalIdx + '">' +
+            '<span class="ville-suggestion__nom"><i class="ph ph-user"></i> ' + nomHTML + '</span>' +
+            '<span class="ville-suggestion__code">' + esc(r.ville.nom) + '</span>' +
+            '</a>';
         });
       }
 
       dropdown.innerHTML = html;
       dropdown.hidden = false;
       activeIndex = -1;
-
-      dropdown.querySelectorAll(".hero__suggestion-item").forEach(function (item) {
-        item.addEventListener("click", function () {
-          navigateTo(item.dataset.ville, item.dataset.candidat);
-        });
-      });
     }
 
     function navigateTo(villeId, candidatId) {
-      var url = "/municipales/2026/?ville=" + villeId;
+      var url = "/municipales/2026/?ville=" + encodeURIComponent(villeId);
       if (candidatId) {
-        url = "/municipales/2026/candidat.html?ville=" + villeId + "&candidat=" + candidatId;
+        url = "/municipales/2026/candidat.html?ville=" + encodeURIComponent(villeId) + "&candidat=" + encodeURIComponent(candidatId);
       }
       window.location.href = url;
     }
 
     function highlightItem(idx) {
-      var items = dropdown.querySelectorAll(".hero__suggestion-item");
-      items.forEach(function (it) { it.classList.remove("hero__suggestion-item--active"); });
+      var items = dropdown.querySelectorAll(".ville-suggestion");
+      items.forEach(function (it) { it.classList.remove("ville-suggestion--active"); });
       if (idx >= 0 && idx < items.length) {
-        items[idx].classList.add("hero__suggestion-item--active");
+        items[idx].classList.add("ville-suggestion--active");
         items[idx].scrollIntoView({ block: "nearest" });
       }
     }
@@ -278,7 +284,7 @@
     });
 
     input.addEventListener("keydown", function (e) {
-      var items = dropdown.querySelectorAll(".hero__suggestion-item");
+      var items = dropdown.querySelectorAll(".ville-suggestion");
       if (e.key === "ArrowDown") {
         e.preventDefault();
         activeIndex = Math.min(activeIndex + 1, items.length - 1);
@@ -293,6 +299,12 @@
           navigateTo(items[activeIndex].dataset.ville, items[activeIndex].dataset.candidat);
         } else if (items.length > 0) {
           navigateTo(items[0].dataset.ville, items[0].dataset.candidat);
+        } else {
+          var terme = input.value.trim();
+          if (terme.length >= 2 && window.PQTV_Analytics && PQTV_Analytics.renderNoResult) {
+            PQTV_Analytics.renderNoResult(dropdown, terme);
+            dropdown.hidden = false;
+          }
         }
       } else if (e.key === "Escape") {
         dropdown.hidden = true;
@@ -302,17 +314,21 @@
 
     if (btn) {
       btn.addEventListener("click", function () {
-        var items = dropdown.querySelectorAll(".hero__suggestion-item");
+        var items = dropdown.querySelectorAll(".ville-suggestion");
         if (activeIndex >= 0 && items[activeIndex]) {
           navigateTo(items[activeIndex].dataset.ville, items[activeIndex].dataset.candidat);
         } else if (items.length > 0) {
           navigateTo(items[0].dataset.ville, items[0].dataset.candidat);
         } else {
-          search(input.value.trim());
+          var terme = input.value.trim();
+          if (!terme) return;
+          search(terme);
           setTimeout(function () {
-            var newItems = dropdown.querySelectorAll(".hero__suggestion-item");
+            var newItems = dropdown.querySelectorAll(".ville-suggestion");
             if (newItems.length > 0) {
               navigateTo(newItems[0].dataset.ville, newItems[0].dataset.candidat);
+            } else if (terme.length >= 2 && window.PQTV_Analytics && PQTV_Analytics.renderNoResult) {
+              PQTV_Analytics.renderNoResult(dropdown, terme);
             }
           }, 350);
         }
@@ -387,11 +403,6 @@
             return nomNorm.indexOf(termeMin) !== -1 || v.codePostal.indexOf(termeMin) !== -1;
           }).slice(0, 8);
 
-          if (results.length === 0) {
-            suggestionsEl.innerHTML = "";
-            suggestionsEl.hidden = true;
-            return;
-          }
           // Candidats dans le burger
           var burgerCandidats = [];
           VILLES.forEach(function(v2) {
@@ -404,6 +415,12 @@
             });
           });
           burgerCandidats = burgerCandidats.slice(0, 5);
+
+          if (results.length === 0 && burgerCandidats.length === 0) {
+            suggestionsEl.innerHTML = "";
+            suggestionsEl.hidden = true;
+            return;
+          }
 
           var burgerHtml = results.map(function(v) {
             return '<div class="mobile-menu-suggestion-item" data-ville="' + v.id + '">' +
@@ -426,9 +443,9 @@
 
           suggestionsEl.querySelectorAll(".mobile-menu-suggestion-item").forEach(function(item) {
             item.addEventListener("click", function() {
-              var url = "/municipales/2026/?ville=" + item.dataset.ville;
+              var url = "/municipales/2026/?ville=" + encodeURIComponent(item.dataset.ville);
               if (item.dataset.candidat) {
-                url = "/municipales/2026/candidat.html?ville=" + item.dataset.ville + "&candidat=" + item.dataset.candidat;
+                url = "/municipales/2026/candidat.html?ville=" + encodeURIComponent(item.dataset.ville) + "&candidat=" + encodeURIComponent(item.dataset.candidat);
               }
               window.location.href = url;
             });
@@ -640,9 +657,9 @@
 
       resultsEl.querySelectorAll(".mobile-search-result-item").forEach(function(item) {
         item.addEventListener("click", function() {
-          var url = "/municipales/2026/?ville=" + item.dataset.ville;
+          var url = "/municipales/2026/?ville=" + encodeURIComponent(item.dataset.ville);
           if (item.dataset.candidat) {
-            url = "/municipales/2026/candidat.html?ville=" + item.dataset.ville + "&candidat=" + item.dataset.candidat;
+            url = "/municipales/2026/candidat.html?ville=" + encodeURIComponent(item.dataset.ville) + "&candidat=" + encodeURIComponent(item.dataset.candidat);
           }
           window.location.href = url;
         });

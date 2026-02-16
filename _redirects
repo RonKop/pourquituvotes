@@ -1,16 +1,21 @@
-# Enjeux silo
-/enjeux-2026  /enjeux-index.html  200
-/enjeux-2026/  /enjeux-index.html  200
-/enjeux-2026/:theme  /thematique.html  200
-/enjeux-2026/:theme/  /thematique.html  200
+# Enjeux silo (destinations sans .html = déjà normalisées → pas de 308)
+/enjeux-2026  /enjeux-index  200
+/enjeux-2026/  /enjeux-index  200
+/enjeux-2026/:theme  /thematique  200
+/enjeux-2026/:theme/  /thematique  200
 
-# Clean URLs villes
-/municipales-2026/:ville  /municipales/2026/index.html  200
-/municipales-2026/:ville/  /municipales/2026/index.html  200
+# Clean URLs villes (trailing slash = forme canonique d'un dossier)
+/municipales-2026/:ville  /municipales/2026/  200
+/municipales-2026/:ville/  /municipales/2026/  200
 
-# Clean URLs candidats
-/municipales-2026/:ville/candidats/:candidat  /municipales/2026/candidat.html  200
-/municipales-2026/:ville/candidats/:candidat/  /municipales/2026/candidat.html  200
+# Clean URLs candidats (sans .html)
+/municipales-2026/:ville/candidats/:candidat  /municipales/2026/candidat  200
+/municipales-2026/:ville/candidats/:candidat/  /municipales/2026/candidat  200
+
+# Pages statiques .html → clean URL (301 car les anciennes URLs circulent peut-être)
+/a-propos.html  /a-propos  301
+/methodologie.html  /methodologie  301
+/faq.html  /faq  301
 
 # Legacy
 /home /  301

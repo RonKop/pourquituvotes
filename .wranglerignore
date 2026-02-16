@@ -1,0 +1,29 @@
+# PDFs programmes (pas déployés)
+data/programmes/
+
+# Scripts Python (outils, pas le site)
+scripts/
+
+# Archives et backups
+archives/
+*.backup-*
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Fichiers de travail
+data/crawl-registry.json
+METHODOLOGIE_RECHERCHE.md
+PROGRAMMES_A_TELECHARGER.html
+PROGRAMMES_A_TELECHARGER.md
+
+# Git
+.git/
+.gitignore
+
+# Wrangler ignore itself
+.wranglerignore
+
+# Templates OG (le script, pas les images finales)
+templates/

@@ -272,7 +272,7 @@
     resultats.forEach(function (r, index) {
       var a = document.createElement("a");
       a.className = "candidat-suggestion";
-      a.href = "candidat.html?ville=" + encodeURIComponent(r.villeId) + "&candidat=" + encodeURIComponent(r.candidatId);
+      a.href = "/municipales-2026/" + encodeURIComponent(r.villeId) + "/candidats/" + encodeURIComponent(r.candidatId) + "/";
       a.dataset.index = index;
 
       var nomHTML = surligner(echapper(r.candidatNom), terme);
@@ -436,6 +436,7 @@
       mettreAJourFilAriane(donneesElection.ville);
       updateComparateurSEO();
       afficherElection();
+      mettreAJourURL();
       afficherChargement(false);
 
       // Analytics : ville sélectionnée
@@ -658,7 +659,7 @@
       return;
     }
     var villeId = villeSelectionnee ? villeSelectionnee.id : ville.toLowerCase().replace(/\s+/g, '-');
-    var urlVille = '/municipales/2026/?ville=' + encodeURIComponent(villeId);
+    var urlVille = '/municipales-2026/' + encodeURIComponent(villeId) + '/';
 
     filAriane.innerHTML = '<ol class="fil-ariane__liste" itemscope itemtype="https://schema.org/BreadcrumbList">' +
       '<li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">' +
@@ -1950,11 +1951,11 @@
         html += '<div class="methodo-legend">';
         var villeId = donneesElection.ville ? donneesElection.ville.id || (villeSelectionnee && villeSelectionnee.id) : (villeSelectionnee && villeSelectionnee.id) || "";
         complets.forEach(function(c) {
-          var href = "candidat.html?ville=" + encodeURIComponent(villeId) + "&candidat=" + encodeURIComponent(c.id);
+          var href = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(c.id) + "/";
           html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--complet">programme officiel <i class="ph ph-check-circle"></i></span></a>';
         });
         partiels.forEach(function(c) {
-          var href = "candidat.html?ville=" + encodeURIComponent(villeId) + "&candidat=" + encodeURIComponent(c.id);
+          var href = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(c.id) + "/";
           html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--partiel">programme \u00E0 venir <i class="ph ph-clock"></i></span></a>';
         });
         html += '</div>';
@@ -2703,11 +2704,11 @@
       html += 'Un nombre inf\u00E9rieur de propositions ne refl\u00E8te pas n\u00E9cessairement un projet moins ambitieux.</p>';
       html += '<div class="repartition-avertissement__liste">';
       complets.forEach(function (c) {
-        var lienCandidat = '/municipales/2026/candidat.html?ville=' + encodeURIComponent(villeSelectionnee.id) + '&candidat=' + encodeURIComponent(c.id);
+        var lienCandidat = '/municipales-2026/' + encodeURIComponent(villeSelectionnee.id) + '/candidats/' + encodeURIComponent(c.id) + '/';
         html += '<a href="' + lienCandidat + '" class="repartition-avertissement__tag repartition-avertissement__tag--complet"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--complet">' + donnees.totaux[c.id] + ' propositions, programme officiel <i class="ph ph-check-circle"></i></span></a>';
       });
       partiels.forEach(function (c) {
-        var lienCandidat = '/municipales/2026/candidat.html?ville=' + encodeURIComponent(villeSelectionnee.id) + '&candidat=' + encodeURIComponent(c.id);
+        var lienCandidat = '/municipales-2026/' + encodeURIComponent(villeSelectionnee.id) + '/candidats/' + encodeURIComponent(c.id) + '/';
         html += '<a href="' + lienCandidat + '" class="repartition-avertissement__tag repartition-avertissement__tag--partiel"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--partiel">' + donnees.totaux[c.id] + ' propositions, programme \u00E0 venir <i class="ph ph-clock"></i></span></a>';
       });
       html += '</div>';
@@ -3314,7 +3315,7 @@
       }
 
       var profilUrl = villeSelectionnee
-        ? '/municipales/2026/candidat.html?ville=' + encodeURIComponent(villeSelectionnee.id) + '&candidat=' + encodeURIComponent(candidat.id)
+        ? '/municipales-2026/' + encodeURIComponent(villeSelectionnee.id) + '/candidats/' + encodeURIComponent(candidat.id) + '/'
         : '#';
 
       headerCand.innerHTML =
@@ -3573,7 +3574,7 @@
       candidatsTrouves.slice(0, 5).forEach(function(r) {
         var a = document.createElement("a");
         a.className = "ville-suggestion ville-suggestion--candidat";
-        a.href = "candidat.html?ville=" + encodeURIComponent(r.villeId) + "&candidat=" + encodeURIComponent(r.candidatId);
+        a.href = "/municipales-2026/" + encodeURIComponent(r.villeId) + "/candidats/" + encodeURIComponent(r.candidatId) + "/";
         a.innerHTML =
           '<span class="ville-suggestion__nom"><i class="ph ph-user"></i> ' + surligner(echapper(r.candidatNom), terme) + '</span>' +
           '<span class="ville-suggestion__code">' + echapper(r.villeNom) + ' \u2014 ' + echapper(r.liste) + '</span>';
@@ -4056,7 +4057,7 @@
             item.addEventListener("click", function() {
               closeMenu();
               if (item.dataset.candidatId) {
-                window.location.href = "candidat.html?ville=" + encodeURIComponent(item.dataset.villeId) + "&candidat=" + encodeURIComponent(item.dataset.candidatId);
+                window.location.href = "/municipales-2026/" + encodeURIComponent(item.dataset.villeId) + "/candidats/" + encodeURIComponent(item.dataset.candidatId) + "/";
               } else {
                 var ville = VILLES.find(function(v) { return v.id === item.dataset.id; });
                 if (ville) selectionnerVille(ville);

@@ -432,7 +432,7 @@ li {
 /* Barre de recherche dans le hero */
 .hero__search {
   position: relative;
-  z-index: 20;
+  z-index: 100;
   max-width: 560px;
 }
 .search-float__box {

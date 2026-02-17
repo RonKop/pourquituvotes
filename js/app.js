@@ -220,6 +220,11 @@
     if (suggestionActive === -1) return;
     var suggestions = villeSuggestionsContainer.querySelectorAll(".ville-suggestion");
     if (suggestions[suggestionActive]) {
+      // Candidat suggestion: trigger click handler
+      if (suggestions[suggestionActive].classList.contains("ville-suggestion--candidat")) {
+        suggestions[suggestionActive].click();
+        return;
+      }
       var electionId = suggestions[suggestionActive].dataset.electionId;
       var ville = VILLES.find(function (v) { return v.elections[0] === electionId; });
       if (ville) {
@@ -3584,10 +3589,17 @@
       candidatsTrouves.slice(0, 5).forEach(function(r) {
         var a = document.createElement("a");
         a.className = "ville-suggestion ville-suggestion--candidat";
-        a.href = "/municipales-2026/" + encodeURIComponent(r.villeId) + "/candidats/" + encodeURIComponent(r.candidatId) + "/";
+        a.href = "?ville=" + encodeURIComponent(r.villeId) + "&candidats=" + encodeURIComponent(r.candidatId);
+        a.dataset.candidatId = r.candidatId;
+        a.dataset.villeId = r.villeId;
+        a.dataset.electionId = r.electionId;
         a.innerHTML =
           '<span class="ville-suggestion__nom"><i class="ph ph-user"></i> ' + surligner(echapper(r.candidatNom), terme) + '</span>' +
           '<span class="ville-suggestion__code">' + echapper(r.villeNom) + ' \u2014 ' + echapper(r.liste) + '</span>';
+        a.addEventListener("click", function(e) {
+          e.preventDefault();
+          selectionnerCandidatRecherche(r);
+        });
         villeSuggestionsContainer.appendChild(a);
       });
       villeSuggestionsContainer.hidden = false;

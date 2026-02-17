@@ -305,9 +305,11 @@ PROPS = {
         "créer une Halle de la Méditerranée et des produits du monde à l'Épeule, "
         "développer l'économie transfrontalière avec l'Eurométropole (partenariats, formations binationales), "
         "proposer une Zone Franche Urbaine 2.0 (économie circulaire, numérique inclusif, artisanat local), "
-        "lancer le label FAIR(E) ROUBAIX (économie solidaire internationale) "
-        "et organiser un Festival « 70 Nations » avec trois temps forts annuels, "
-        "ainsi qu'un apprentissage pratique des langues dès la maternelle (dispositif EMILE)"
+        "lancer le label FAIR(E) ROUBAIX (économie solidaire internationale), "
+        "organiser un Festival « 70 Nations » avec trois temps forts annuels, "
+        "créer un lieu de recueillement des solidarités internationales (pavoisement drapeaux des 70 nationalités, "
+        "espace de paix et de fraternité entre les peuples) "
+        "et développer l'apprentissage pratique des langues dès la maternelle (dispositif EMILE)"
     ),
 
     # ── CULTURE ───────────────────────────────────────────────────
@@ -417,14 +419,87 @@ PROPS = {
     ),
 }
 
+# === SOUS-THÈMES SPÉCIFIQUES ROUBAIX ===
+# Propositions du PDF qui ne rentrent pas dans les 44 sous-thèmes standard
+SOUS_THEMES_SPECIFIQUES = {
+    "culture": {
+        "patrimoine-roubaisien": {
+            "nom": "Patrimoine roubaisien",
+            "proposition": p(
+                "Faire du patrimoine roubaisien un patrimoine vivant porté par ses habitants : "
+                "habitants-ambassadeurs du patrimoine (transmission orale, récits de quartier, mémoire populaire), "
+                "lieux emblématiques réinvestis en espaces culturels co-conçus, "
+                "partenariats structurants (Métropole Label.le, Société d'émulation, Non-Lieu). "
+                "Redynamiser le label Ville d'Art et d'Histoire : livrets pédagogiques, "
+                "classe patrimoine en école volontaire, circuits avec panneaux explicatifs, "
+                "partenariats universitaires, valorisation du matrimoine (statues féminines au parc de Barbieux). "
+                "Stop aux démolitions spéculatives : opposition à toute démolition de valeur architecturale, "
+                "renforcement des protections, fouilles d'archéologie préventive. "
+                "Plan d'investissement pluriannuel chiffré : hôtel Dupire-Rozan (diagnostic), "
+                "église Notre-Dame 4 M€ (2 M€ clos/couvert + 2 M€ désordres), "
+                "couvent des Clarisses ~10 M€, maison ossature métallique 1,45 M€ (rachat + façade + intérieur), "
+                "église Saint-François (appui au diocèse), le Moulin, couvent de la Visitation, hôtel Saint-Benoît. "
+                "Appui au projet de maison mémorielle sur la Shoah (42 bd d'Armentières, Lili Leignel). "
+                "Poursuivre la convention Fondation du patrimoine (aides aux particuliers, défiscalisation, mécénat). "
+                "Stimuler la création d'une Fondation de défense du patrimoine roubaisien "
+                "avec label Petit Patrimoine Populaire Roubaisien (PPPR). "
+                "Requalification des façades via la Maison de l'Habitat (conseils architecturaux, accompagnement financier)"
+            ),
+        },
+    },
+    "democratie": {
+        "fonction-publique-municipale": {
+            "nom": "Fonction publique municipale",
+            "proposition": p(
+                "Faire du maire un véritable maire-employeur, garant de conditions de travail dignes. "
+                "Stabiliser l'organisation municipale : fin aux réorganisations permanentes, "
+                "chaîne de décision lisible, priorités politiques partagées avec l'administration. "
+                "Ancrer la municipalité dans tous les quartiers avec une présence renforcée sur le terrain. "
+                "Remettre à plat le régime indemnitaire pour garantir cohérence et équité, "
+                "lutter contre la précarité et prioriser les bas salaires. "
+                "Créer un lieu d'écoute indépendant et sécurisé : procédures claires de signalement "
+                "du harcèlement moral et sexuel, discriminations et violences au travail, "
+                "protection des agents, délais de traitement garantis. "
+                "Agir contre les temps partiels subis (majoritairement imposés aux femmes). "
+                "Repenser le parcours professionnel : entretiens d'évaluation transformés en outils de valorisation, "
+                "mentorat, passerelles de carrière, reconnaissance des compétences. "
+                "Ouvrir la mairie à la jeunesse : stages, apprentissage, tutorat, "
+                "découverte des métiers municipaux sur base du volontariat. "
+                "Relancer un Forum des métiers municipaux ouvert aux habitants "
+                "pour rendre visibles les agents et leur savoir-faire"
+            ),
+        },
+    },
+    "economie": {
+        "finances-ingenierie": {
+            "nom": "Finances & Ingénierie de projets",
+            "proposition": p(
+                "Créer un Bureau municipal de la conception et du financement des projets "
+                "(veille, montage et suivi des financements État, Europe, Région, Département, agences). "
+                "Stratégie « zéro euro laissé sur la table » : audit des subventions perdues ou non sollicitées, "
+                "référent financement dans chaque direction municipale. "
+                "Constituer des projets « prêts à subventionner » avec coûts, calendriers et impacts pré-établis "
+                "pour répondre sans délai aux appels à projets. "
+                "Former les cadres et chefs de projet à l'ingénierie financière, "
+                "base de données partagée des appels à projets et échéances. "
+                "Créer un Conseil économique et social roubaisien pour relancer l'activité locale"
+            ),
+        },
+    },
+}
+
 
 def main():
     with open(JSON_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    # Liste des candidats pour créer les entrées null
+    candidat_ids = [c["id"] for c in data["candidats"]]
+
     updated = 0
     added = 0
 
+    # 1. Mettre à jour les sous-thèmes standard
     for cat in data["categories"]:
         for st in cat["sousThemes"]:
             sid = st["id"]
@@ -438,7 +513,36 @@ def main():
                     updated += 1
                     print(f"  ~ {sid}: MIS À JOUR")
 
-    # Mettre à jour le candidat
+    # 2. Ajouter les sous-thèmes spécifiques Roubaix
+    specifiques_added = 0
+    for cat in data["categories"]:
+        cat_id = cat["id"]
+        if cat_id in SOUS_THEMES_SPECIFIQUES:
+            for st_id, st_info in SOUS_THEMES_SPECIFIQUES[cat_id].items():
+                # Vérifier si le sous-thème existe déjà
+                existe = any(st["id"] == st_id for st in cat["sousThemes"])
+                if not existe:
+                    # Créer le sous-thème avec propositions null pour tous les candidats
+                    props = {cid: None for cid in candidat_ids}
+                    props["guiraud"] = st_info["proposition"]
+                    nouveau_st = {
+                        "id": st_id,
+                        "nom": st_info["nom"],
+                        "propositions": props,
+                    }
+                    cat["sousThemes"].append(nouveau_st)
+                    specifiques_added += 1
+                    print(f"  ++ {st_id}: SOUS-THÈME SPÉCIFIQUE CRÉÉ (dans {cat_id})")
+                else:
+                    # Mettre à jour la proposition
+                    for st in cat["sousThemes"]:
+                        if st["id"] == st_id:
+                            st["propositions"]["guiraud"] = st_info["proposition"]
+                            updated += 1
+                            print(f"  ~ {st_id}: MIS À JOUR (spécifique)")
+                            break
+
+    # 3. Mettre à jour le candidat
     for c in data["candidats"]:
         if c["id"] == "guiraud":
             c["programmeComplet"] = True
@@ -452,8 +556,9 @@ def main():
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-    print(f"\n  Résultat: {updated} mis à jour, {added} ajoutés")
-    print(f"  Total sous-thèmes Guiraud: {updated + added}")
+    total = updated + added + specifiques_added
+    print(f"\n  Résultat: {updated} mis à jour, {added} ajoutés, {specifiques_added} spécifiques créés")
+    print(f"  Total sous-thèmes Guiraud: {total}")
 
 
 if __name__ == "__main__":

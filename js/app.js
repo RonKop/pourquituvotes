@@ -1627,7 +1627,11 @@
     var radarModeNormalise = true; // true = couverture %, false = volume brut
 
     if (donneesElection && radarComparer) {
-      var categories = donneesElection.categories;
+      var categories = donneesElection.categories.slice().sort(function(a, b) {
+        var idxA = ORDRE_CATEGORIES.indexOf(a.id); if (idxA === -1) idxA = 999;
+        var idxB = ORDRE_CATEGORIES.indexOf(b.id); if (idxB === -1) idxB = 999;
+        return idxA - idxB;
+      });
       var categoriesLabels = categories.map(function(cat) { return cat.nom; });
       var couleurGrilleRadar = theme === "dark" ? "rgba(255,255,255,0.1)" : "#e5e5e5";
       var couleurTexteRadar = theme === "dark" ? "#ccc" : "#555";

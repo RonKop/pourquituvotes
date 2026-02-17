@@ -5,8 +5,8 @@
   var DATA_BASE_URL = "/data/";
 
   var ORDRE_CATEGORIES = [
-    "securite", "transports", "logement", "education", "environnement",
-    "sante", "democratie", "economie", "culture", "sport", "urbanisme", "solidarite"
+    "education", "environnement", "transports", "sante", "logement",
+    "economie", "solidarite", "urbanisme", "culture", "sport", "democratie", "securite"
   ];
 
   var COULEURS_CATEGORIES = {

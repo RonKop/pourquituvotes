@@ -1,0 +1,584 @@
+{
+  "id": "sport",
+  "nom": "Sport & Loisirs",
+  "sousThemes": [
+    {
+      "id": "equipements-sportifs",
+      "nom": "Équipements sportifs"
+    },
+    {
+      "id": "sport-pour-tous",
+      "nom": "Sport pour tous"
+    }
+  ],
+  "stats": {
+    "totalPropositions": 56,
+    "villesAvecPropositions": 33,
+    "candidatsAvecPropositions": 44
+  },
+  "villes": [
+    {
+      "id": "tours",
+      "nom": "Tours",
+      "nbPropositions": 4,
+      "candidats": [
+        {
+          "id": "denis",
+          "nom": "Emmanuel Denis",
+          "nbPropositions": 1
+        },
+        {
+          "id": "bouchet",
+          "nom": "Christophe Bouchet",
+          "nbPropositions": 1
+        },
+        {
+          "id": "alfandari",
+          "nom": "Henri Alfandari",
+          "nbPropositions": 1
+        },
+        {
+          "id": "pierre",
+          "nom": "Benoist Pierre",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "angers",
+      "nom": "Angers",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "bechu",
+          "nom": "Christophe Béchu",
+          "nbPropositions": 2
+        },
+        {
+          "id": "laveau",
+          "nom": "Romain Laveau",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "dijon",
+      "nom": "Dijon",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "bichot",
+          "nom": "Emmanuel Bichot",
+          "nbPropositions": 2
+        },
+        {
+          "id": "koenders",
+          "nom": "Nathalie Koenders",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "mulhouse",
+      "nom": "Mulhouse",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "lutz",
+          "nom": "Michèle Lutz",
+          "nbPropositions": 2
+        },
+        {
+          "id": "marquet",
+          "nom": "Frédéric Marquet",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "toulouse",
+      "nom": "Toulouse",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "moudenc",
+          "nom": "Jean-Luc Moudenc",
+          "nbPropositions": 2
+        },
+        {
+          "id": "meilhac",
+          "nom": "Lambert Meilhac & Domitille Allorant",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "annecy",
+      "nom": "Annecy",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "armand",
+          "nom": "Antoine Armand",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "caen",
+      "nom": "Caen",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "lecoutour",
+          "nom": "Xavier Le Coutour",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "chambery",
+      "nom": "Chambéry",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "bernard",
+          "nom": "Brice Bernard",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "clermont",
+      "nom": "Clermont-Ferrand",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "bianchi",
+          "nom": "Olivier Bianchi",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "la-seyne-sur-mer",
+      "nom": "La Seyne-sur-Mer",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "minniti",
+          "nom": "Joseph Minniti",
+          "nbPropositions": 1
+        },
+        {
+          "id": "mansour",
+          "nom": "Cheikh Mansour",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "le-havre",
+      "nom": "Le Havre",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "philippe",
+          "nom": "Édouard Philippe",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "marseille",
+      "nom": "Marseille",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "delogu",
+          "nom": "Sébastien Delogu",
+          "nbPropositions": 1
+        },
+        {
+          "id": "allisio",
+          "nom": "Franck Allisio",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "nom": "Paris",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "gregoire",
+          "nom": "Emmanuel Grégoire",
+          "nbPropositions": 1
+        },
+        {
+          "id": "knafo",
+          "nom": "Sarah Knafo",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "quimper",
+      "nom": "Quimper",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "assih",
+          "nom": "Isabelle Assih",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "reims",
+      "nom": "Reims",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "frigout",
+          "nom": "Anne-Sophie Frigout",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "saint-nazaire",
+      "nom": "Saint-Nazaire",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "lucas",
+          "nom": "Violaine Lucas",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "strasbourg",
+      "nom": "Strasbourg",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "barseghian",
+          "nom": "Jeanne Barseghian",
+          "nbPropositions": 1
+        },
+        {
+          "id": "vetter",
+          "nom": "Jean-Philippe Vetter",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "antibes",
+      "nom": "Antibes",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "ducatel",
+          "nom": "Éric Ducatel",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "brest",
+      "nom": "Brest",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "cuillandre",
+          "nom": "François Cuillandre",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "frejus",
+      "nom": "Fréjus",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "bonnemain",
+          "nom": "Emmanuel Bonnemain",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "grenoble",
+      "nom": "Grenoble",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "gerbi",
+          "nom": "Hervé Gerbi",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "issy-les-moulineaux",
+      "nom": "Issy-les-Moulineaux",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "morel",
+          "nom": "Mathieu Morel",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "la-rochelle",
+      "nom": "La Rochelle",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "batcabe",
+          "nom": "Christophe Batcabé",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "limoges",
+      "nom": "Limoges",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "leonie",
+          "nom": "Vincent Léonie",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "lyon",
+      "nom": "Lyon",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "belouassa",
+          "nom": "Anaïs Belouassa Cherifi",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "metz",
+      "nom": "Metz",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "grosdidier",
+          "nom": "François Grosdidier",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "nice",
+      "nom": "Nice",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "ciotti",
+          "nom": "Éric Ciotti",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "orleans",
+      "nom": "Orléans",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "chapuis",
+          "nom": "Baptiste Chapuis",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "perpignan",
+      "nom": "Perpignan",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "idrac",
+          "nom": "Mickaël Idrac",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "rouen",
+      "nom": "Rouen",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "mayer-rossignol",
+          "nom": "Nicolas Mayer-Rossignol",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "rueil-malmaison",
+      "nom": "Rueil-Malmaison",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "indjian",
+          "nom": "Patrick Indjian",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "toulon",
+      "nom": "Toulon",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "lavalette",
+          "nom": "Laure Lavalette",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "valence",
+      "nom": "Valence",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "christophle",
+          "nom": "Paul Christophle",
+          "nbPropositions": 1
+        }
+      ]
+    }
+  ],
+  "propositions_marquantes": [
+    {
+      "villeId": "dijon",
+      "ville": "Dijon",
+      "candidatId": "koenders",
+      "candidat": "Nathalie Koenders",
+      "liste": "Dijon Écologique, Sociale, Attractive (PS/MoDem/EELV)",
+      "sousTheme": "sport-pour-tous",
+      "sousThemeNom": "Sport pour tous",
+      "texte": "Rétablir la Nuit du Sport",
+      "source": "Infos Dijon, 2026"
+    },
+    {
+      "villeId": "toulouse",
+      "ville": "Toulouse",
+      "candidatId": "moudenc",
+      "candidat": "Jean-Luc Moudenc",
+      "liste": "Protégeons l'avenir (DVD)",
+      "sousTheme": "equipements-sportifs",
+      "sousThemeNom": "Équipements sportifs",
+      "texte": "Agrandissement du Stadium de Toulouse.",
+      "source": "Programme officiel"
+    },
+    {
+      "villeId": "rouen",
+      "ville": "Rouen",
+      "candidatId": "mayer-rossignol",
+      "candidat": "Nicolas Mayer-Rossignol",
+      "liste": "Fiers de Rouen (PS/EELV/PCF/PP)",
+      "sousTheme": "sport-pour-tous",
+      "sousThemeNom": "Sport pour tous",
+      "texte": "Faire de Rouen la capitale du sport féminin",
+      "source": "Tendance Ouest, janvier 2026"
+    },
+    {
+      "villeId": "perpignan",
+      "ville": "Perpignan",
+      "candidatId": "idrac",
+      "candidat": "Mickaël Idrac",
+      "liste": "Perpignan, Changez d'air ! (LFI-EELV-G.s)",
+      "sousTheme": "sport-pour-tous",
+      "sousThemeNom": "Sport pour tous",
+      "texte": "Première licence sportive gratuite pour les enfants",
+      "source": "France Bleu Roussillon, novembre 2025"
+    },
+    {
+      "villeId": "orleans",
+      "ville": "Orléans",
+      "candidatId": "chapuis",
+      "candidat": "Baptiste Chapuis",
+      "liste": "Rassembler Orléans (PS/PCF/Génération.s/Place publique/PRG)",
+      "sousTheme": "equipements-sportifs",
+      "sousThemeNom": "Équipements sportifs",
+      "texte": "Rénovation du stade de La Source pour l'USO et le RCO",
+      "source": "France Bleu Orléans, février 2026"
+    },
+    {
+      "villeId": "dijon",
+      "ville": "Dijon",
+      "candidatId": "bichot",
+      "candidat": "Emmanuel Bichot",
+      "liste": "Agir pour Dijon (LR/UDI/Horizons)",
+      "sousTheme": "sport-pour-tous",
+      "sousThemeNom": "Sport pour tous",
+      "texte": "Accueillir des événements sportifs d'envergure nationale",
+      "source": "Dijon Actualités, 2026"
+    },
+    {
+      "villeId": "saint-nazaire",
+      "ville": "Saint-Nazaire",
+      "candidatId": "lucas",
+      "candidat": "Violaine Lucas",
+      "liste": "Union de la gauche et de l'écologie (EELV/LFI/PCF)",
+      "sousTheme": "equipements-sportifs",
+      "sousThemeNom": "Équipements sportifs",
+      "texte": "Poursuivre la rénovation des équipements sportifs de proximité",
+      "source": "Programme Violaine Lucas"
+    },
+    {
+      "villeId": "la-seyne-sur-mer",
+      "ville": "La Seyne-sur-Mer",
+      "candidatId": "mansour",
+      "candidat": "Cheikh Mansour",
+      "liste": "Horizons",
+      "sousTheme": "equipements-sportifs",
+      "sousThemeNom": "Équipements sportifs",
+      "texte": "Réouverture de la piscine municipale, trouver un repreneur en accord avec TPM",
+      "source": "cheikhmansourmunicipales2026.fr"
+    },
+    {
+      "villeId": "brest",
+      "ville": "Brest",
+      "candidatId": "cuillandre",
+      "candidat": "François Cuillandre",
+      "liste": "La gauche unie pour Brest (PS/EELV/PRG/PCF)",
+      "sousTheme": "equipements-sportifs",
+      "sousThemeNom": "Équipements sportifs",
+      "texte": "Construction du nouveau stade Arkéa Park pour remplacer le stade Francis-Le Blé",
+      "source": "UESR29, 2025"
+    },
+    {
+      "villeId": "strasbourg",
+      "ville": "Strasbourg",
+      "candidatId": "barseghian",
+      "candidat": "Jeanne Barseghian",
+      "liste": "Strasbourg juste et vivante (EELV)",
+      "sousTheme": "sport-pour-tous",
+      "sousThemeNom": "Sport pour tous",
+      "texte": "Sport encadré en accès libre dans les parcs avec des coachs sportifs municipaux",
+      "source": "Pokaa, janvier 2026"
+    }
+  ]
+}

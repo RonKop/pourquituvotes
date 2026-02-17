@@ -13,7 +13,7 @@
       location.replace('/');
     } else if (p === '/' && location.search.indexOf('ville=') !== -1) {
       var vp = new URLSearchParams(location.search).get('ville');
-      if (vp) location.replace('/municipales/2026/?ville=' + vp);
+      if (vp) location.replace('/municipales-2026/' + vp + '/');
       else location.replace('/municipales/2026/' + location.search);
     }
   })();
@@ -204,10 +204,10 @@
         </div>
 
         <div class="hero__pills" aria-label="Suggestions de villes">
-          <a href="/municipales/2026/?ville=paris" class="hero__pill">Paris</a>
-          <a href="/municipales/2026/?ville=lyon" class="hero__pill">Lyon</a>
-          <a href="/municipales/2026/?ville=marseille" class="hero__pill">Marseille</a>
-          <a href="/municipales/2026/?ville=toulouse" class="hero__pill">Toulouse</a>
+          <a href="/municipales-2026/paris/" class="hero__pill">Paris</a>
+          <a href="/municipales-2026/lyon/" class="hero__pill">Lyon</a>
+          <a href="/municipales-2026/marseille/" class="hero__pill">Marseille</a>
+          <a href="/municipales-2026/toulouse/" class="hero__pill">Toulouse</a>
           <a href="presidentielle/2027/" class="hero__pill hero__pill--highlight"><svg width="18" height="13" viewBox="0 0 3 2" style="border-radius:2px;vertical-align:middle" aria-hidden="true"><rect width="1" height="2" fill="#002395"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ED2939"/></svg> Pr&eacute;sidentielle 2027</a>
         </div>
       </div>
@@ -292,7 +292,7 @@
           <span class="top-comparaisons__badge"><i class="ph ph-chart-bar" aria-hidden="true"></i> Cette semaine</span>
         </div>
         <div class="top-comparaisons__list">
-          <a href="/municipales/2026/?ville=paris&candidats=dati,gregoire&theme=environnement" class="top-comp-item">
+          <a href="/municipales-2026/paris/?candidats=dati,gregoire&theme=environnement" class="top-comp-item">
             <span class="top-comp-item__rang">1</span>
             <div class="top-comp-item__avatars">
               <span class="top-comp-avatar" style="background:#3B82F6">RD</span>
@@ -304,7 +304,7 @@
             </div>
             <i class="ph ph-arrow-right top-comp-item__arrow" aria-hidden="true"></i>
           </a>
-          <a href="/municipales/2026/?ville=paris&candidats=chikirou,knafo&theme=securite" class="top-comp-item">
+          <a href="/municipales-2026/paris/?candidats=chikirou,knafo&theme=securite" class="top-comp-item">
             <span class="top-comp-item__rang">2</span>
             <div class="top-comp-item__avatars">
               <span class="top-comp-avatar" style="background:#C94277">RC</span>
@@ -316,7 +316,7 @@
             </div>
             <i class="ph ph-arrow-right top-comp-item__arrow" aria-hidden="true"></i>
           </a>
-          <a href="/municipales/2026/?ville=paris&candidats=gregoire,bournazel&theme=logement" class="top-comp-item">
+          <a href="/municipales-2026/paris/?candidats=gregoire,bournazel&theme=logement" class="top-comp-item">
             <span class="top-comp-item__rang">3</span>
             <div class="top-comp-item__avatars">
               <span class="top-comp-avatar" style="background:#E63946">EG</span>
@@ -403,13 +403,13 @@
         <div class="footer__col">
           <h3 class="footer__col-title">Municipales 2026</h3>
           <ul class="footer__list">
-            <li><a href="/municipales/2026/?ville=paris">Paris</a></li>
-            <li><a href="/municipales/2026/?ville=lyon">Lyon</a></li>
-            <li><a href="/municipales/2026/?ville=marseille">Marseille</a></li>
-            <li><a href="/municipales/2026/?ville=toulouse">Toulouse</a></li>
-            <li><a href="/municipales/2026/?ville=nice">Nice</a></li>
-            <li><a href="/municipales/2026/?ville=nantes">Nantes</a></li>
-            <li><a href="/municipales/2026/?ville=bordeaux">Bordeaux</a></li>
+            <li><a href="/municipales-2026/paris/">Paris</a></li>
+            <li><a href="/municipales-2026/lyon/">Lyon</a></li>
+            <li><a href="/municipales-2026/marseille/">Marseille</a></li>
+            <li><a href="/municipales-2026/toulouse/">Toulouse</a></li>
+            <li><a href="/municipales-2026/nice/">Nice</a></li>
+            <li><a href="/municipales-2026/nantes/">Nantes</a></li>
+            <li><a href="/municipales-2026/bordeaux/">Bordeaux</a></li>
             <li><a href="/municipales/2026/" class="footer__link--all">Toutes les villes <i class="ph ph-arrow-right" aria-hidden="true"></i></a></li>
           </ul>
         </div>

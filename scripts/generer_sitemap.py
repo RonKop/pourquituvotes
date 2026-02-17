@@ -72,7 +72,7 @@ def generate_sitemap():
     # --- 1. Pages statiques ---
     static_pages = [
         ("/", 1.0),
-        ("/enjeux-2026", 0.9),
+        ("/enjeux-2026/", 0.9),
         ("/municipales/2026/", 0.8),
         ("/a-propos", 0.3),
         ("/methodologie", 0.3),
@@ -85,24 +85,24 @@ def generate_sitemap():
         add_url(urlset, url, lastmod=TODAY, priority=priority)
         all_urls.append(url)
 
-    # --- 2. Pages enjeux (12 catégories) ---
+    # --- 2. Pages enjeux (12 catégories) --- shells = dossiers → trailing slash
     for cat in categories:
-        url = f"{BASE_URL}/enjeux-2026/{cat['id']}"
+        url = f"{BASE_URL}/enjeux-2026/{cat['id']}/"
         add_url(urlset, url, lastmod=TODAY, priority=0.8)
         all_urls.append(url)
 
-    # --- 3. Pages villes ---
+    # --- 3. Pages villes --- shells = dossiers → trailing slash
     for ville in villes:
         ville_id = ville["id"]
         lastmod = ville.get("derniereMaj", TODAY)
-        url = f"{BASE_URL}/municipales-2026/{ville_id}"
+        url = f"{BASE_URL}/municipales-2026/{ville_id}/"
         add_url(urlset, url, lastmod=lastmod, priority=0.7)
         all_urls.append(url)
 
-        # --- 4. Pages candidats ---
+        # --- 4. Pages candidats --- shells = dossiers → trailing slash
         for candidat in ville.get("candidats", []):
             candidat_id = candidat["id"]
-            url = f"{BASE_URL}/municipales-2026/{ville_id}/candidats/{candidat_id}"
+            url = f"{BASE_URL}/municipales-2026/{ville_id}/candidats/{candidat_id}/"
             add_url(urlset, url, lastmod=lastmod, priority=0.5)
             all_urls.append(url)
 

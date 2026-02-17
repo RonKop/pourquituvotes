@@ -568,7 +568,7 @@
         var v2 = resultats[j];
         var a = document.createElement("a");
         a.className = "sim-selection__suggestion";
-        a.href = "/municipales/2026/?ville=" + encodeURIComponent(v2.id);
+        a.href = "/municipales-2026/" + encodeURIComponent(v2.id) + "/";
         var nbCandidats = v2.stats ? v2.stats.candidats : (v2.candidats ? v2.candidats.length : 0);
         a.innerHTML = '<span class="sim-selection__suggestion-ville">' + echapper(v2.nom) + '</span>' +
           '<span class="sim-selection__suggestion-count">' + nbCandidats + ' candidats</span>';
@@ -630,7 +630,7 @@
           '<div class="sim-empty__icon">\ud83e\udd37</div>' +
           '<p class="sim-empty__text">Un seul candidat est list\u00e9 pour ' + echapper(data.ville) + '.</p>' +
           '<p>Le simulateur n\u2019est pas n\u00e9cessaire avec un seul candidat. ' +
-          '<a href="/municipales/2026/?ville=' + encodeURIComponent(etat.villeId) + '">Consultez directement son programme</a>.</p>' +
+          '<a href="/municipales-2026/' + encodeURIComponent(etat.villeId) + '/">Consultez directement son programme</a>.</p>' +
           '<button class="sim-mode__back" onclick="window.simRetourSelection()"><i class="ph ph-arrow-left"></i> Choisir une autre ville</button>' +
           '</div>';
         afficherPhase("mode");
@@ -963,8 +963,8 @@
     for (var i = 0; i < classement.length; i++) {
       var c = classement[i];
       var rang = i + 1;
-      var lienComparateur = '/municipales/2026/?ville=' + encodeURIComponent(etat.villeId) +
-        '&candidats=' + encodeURIComponent(c.candidat.id);
+      var lienComparateur = '/municipales-2026/' + encodeURIComponent(etat.villeId) +
+        '/?candidats=' + encodeURIComponent(c.candidat.id);
 
       // Badge fiabilité si < 50%
       var badgeFiabilite = '';
@@ -1005,8 +1005,8 @@
 
     // CTA
     html += '<div class="sim-cta">' +
-      '<a class="sim-cta__btn sim-cta__btn--primary" href="/municipales/2026/?ville=' +
-        encodeURIComponent(etat.villeId) + '&candidats=' + encodeURIComponent(classement.slice(0, 3).map(function(cc) { return cc.candidat.id; }).join(",")) + '">' +
+      '<a class="sim-cta__btn sim-cta__btn--primary" href="/municipales-2026/' +
+        encodeURIComponent(etat.villeId) + '/?candidats=' + encodeURIComponent(classement.slice(0, 3).map(function(cc) { return cc.candidat.id; }).join(",")) + '">' +
         '<i class="ph ph-chart-bar"></i> Comparer mon top 3</a>' +
       '<button class="sim-cta__btn sim-cta__btn--secondary" id="sim-refaire"><i class="ph ph-arrow-counter-clockwise"></i> Refaire le quiz</button>' +
     '</div>';
@@ -1065,8 +1065,8 @@
 
       if (auteur) {
         var couleur = getCouleurParti(auteur.candidat, 0);
-        var lienSource = '/municipales/2026/index.html?ville=' + encodeURIComponent(etat.villeId) +
-          '&candidats=' + encodeURIComponent(auteur.candidat.id) + '#' + q.categorieId;
+        var lienSource = '/municipales-2026/' + encodeURIComponent(etat.villeId) +
+          '/?candidats=' + encodeURIComponent(auteur.candidat.id) + '#' + q.categorieId;
         html += '<div class="sim-recap__auteur">' +
           '<span class="sim-recap__auteur-dot" style="background:' + couleur + '"></span> ' +
           '<strong>' + echapper(auteur.candidat.nom) + '</strong>' +
@@ -1076,8 +1076,8 @@
       }
 
       // Lien vers le comparateur pour ce thème
-      html += '<a class="sim-recap__verify" href="/municipales/2026/index.html?ville=' +
-        encodeURIComponent(etat.villeId) + '#' + q.categorieId + '">Voir toutes les propositions sur ce th\u00e8me <i class="ph ph-arrow-right"></i></a>';
+      html += '<a class="sim-recap__verify" href="/municipales-2026/' +
+        encodeURIComponent(etat.villeId) + '/#' + q.categorieId + '">Voir toutes les propositions sur ce th\u00e8me <i class="ph ph-arrow-right"></i></a>';
 
       html += '</div>';
     }
@@ -1106,8 +1106,8 @@
       }
       var couleurA = candidatA ? getCouleurParti(candidatA, 0) : "#94a3b8";
 
-      var lienSourceA = '/municipales/2026/index.html?ville=' + encodeURIComponent(etat.villeId) +
-        '&candidats=' + encodeURIComponent(duel.duel.a.candidatId) + '#' + duel.categorieId;
+      var lienSourceA = '/municipales-2026/' + encodeURIComponent(etat.villeId) +
+        '/?candidats=' + encodeURIComponent(duel.duel.a.candidatId) + '#' + duel.categorieId;
       html += '<div class="sim-recap__duel-card' + (isChosenA ? ' sim-recap__duel-card--chosen' : ' sim-recap__duel-card--rejected') + '">' +
         '<div class="sim-recap__duel-status">' + (isChosenA ? '<i class="ph ph-check-circle" style="color:#10b981"></i> Votre choix' : '<i class="ph ph-x-circle" style="color:#ef4444"></i> Rejet\u00e9') + '</div>' +
         '<div class="sim-recap__proposition">\u00ab ' + rendreTexteAccordeon(duel.duel.a.texte, "recap-da-" + d) + ' \u00bb</div>' +
@@ -1129,8 +1129,8 @@
       }
       var couleurB = candidatB ? getCouleurParti(candidatB, 0) : "#94a3b8";
 
-      var lienSourceB = '/municipales/2026/index.html?ville=' + encodeURIComponent(etat.villeId) +
-        '&candidats=' + encodeURIComponent(duel.duel.b.candidatId) + '#' + duel.categorieId;
+      var lienSourceB = '/municipales-2026/' + encodeURIComponent(etat.villeId) +
+        '/?candidats=' + encodeURIComponent(duel.duel.b.candidatId) + '#' + duel.categorieId;
       html += '<div class="sim-recap__duel-card' + (isChosenB ? ' sim-recap__duel-card--chosen' : ' sim-recap__duel-card--rejected') + '">' +
         '<div class="sim-recap__duel-status">' + (isChosenB ? '<i class="ph ph-check-circle" style="color:#10b981"></i> Votre choix' : '<i class="ph ph-x-circle" style="color:#ef4444"></i> Rejet\u00e9') + '</div>' +
         '<div class="sim-recap__proposition">\u00ab ' + rendreTexteAccordeon(duel.duel.b.texte, "recap-db-" + d) + ' \u00bb</div>' +
@@ -1142,8 +1142,8 @@
         '</div></div>';
 
       html += '</div>' +
-        '<a class="sim-recap__verify" href="/municipales/2026/index.html?ville=' +
-          encodeURIComponent(etat.villeId) + '#' + duel.categorieId + '">Voir toutes les propositions <i class="ph ph-arrow-right"></i></a>' +
+        '<a class="sim-recap__verify" href="/municipales-2026/' +
+          encodeURIComponent(etat.villeId) + '/#' + duel.categorieId + '">Voir toutes les propositions <i class="ph ph-arrow-right"></i></a>' +
         '</div>';
     }
 

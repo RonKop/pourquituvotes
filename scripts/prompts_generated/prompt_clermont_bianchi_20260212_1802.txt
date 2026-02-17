@@ -1,0 +1,1242 @@
+Tu es un assistant spécialisé dans l'analyse de programmes électoraux municipaux français.
+
+## Ta mission
+
+Extraire TOUTES les propositions concrètes du texte ci-dessous et les classer dans les sous-thèmes prédéfinis.
+
+## Candidat
+- **Nom** : Olivier Bianchi
+- **Liste** : Vivre Clermont !
+- **Ville** : Clermont-Ferrand
+- **Source** : Programme PDF (clermont-bianchi.pdf)
+
+## Les 12 catégories et 44 sous-thèmes
+
+### securite — Sécurité & Prévention
+- `securite/police-municipale` -> Police municipale
+- `securite/videoprotection` -> Vidéoprotection
+- `securite/prevention-mediation` -> Prévention & Médiation
+- `securite/violences-femmes` -> Violences faites aux femmes
+
+### transports — Transports & Mobilité
+- `transports/transports-en-commun` -> Transports en commun
+- `transports/velo-mobilites-douces` -> Vélo & Mobilités douces
+- `transports/pietons-circulation` -> Piétons & Circulation
+- `transports/stationnement` -> Stationnement
+- `transports/tarifs-gratuite` -> Tarifs & Gratuité
+
+### logement — Logement
+- `logement/logement-social` -> Logement social
+- `logement/logements-vacants` -> Logements vacants
+- `logement/encadrement-loyers` -> Encadrement des loyers
+- `logement/acces-logement` -> Accès au logement
+
+### education — Éducation & Jeunesse
+- `education/petite-enfance` -> Petite enfance
+- `education/ecoles-renovation` -> Écoles & Rénovation
+- `education/cantines-fournitures` -> Cantines & Fournitures
+- `education/periscolaire-loisirs` -> Périscolaire & Loisirs
+- `education/jeunesse` -> Jeunesse
+
+### environnement — Environnement & Transition écologique
+- `environnement/espaces-verts` -> Espaces verts & Biodiversité
+- `environnement/proprete-dechets` -> Propreté & Déchets
+- `environnement/climat-adaptation` -> Climat & Adaptation
+- `environnement/renovation-energetique` -> Rénovation énergétique
+- `environnement/alimentation-durable` -> Alimentation durable
+
+### sante — Santé & Accès aux soins
+- `sante/centres-sante` -> Centres de santé
+- `sante/prevention-sante` -> Prévention santé
+- `sante/seniors` -> Seniors
+
+### democratie — Démocratie & Vie citoyenne
+- `democratie/budget-participatif` -> Budget participatif
+- `democratie/transparence` -> Transparence
+- `democratie/vie-associative` -> Vie associative
+- `democratie/services-publics` -> Services publics
+
+### economie — Économie & Emploi
+- `economie/commerce-local` -> Commerce local
+- `economie/emploi-insertion` -> Emploi & Insertion
+- `economie/attractivite` -> Attractivité
+
+### culture — Culture & Patrimoine
+- `culture/equipements-culturels` -> Équipements culturels
+- `culture/evenements-creation` -> Événements & Création
+
+### sport — Sport & Loisirs
+- `sport/equipements-sportifs` -> Équipements sportifs
+- `sport/sport-pour-tous` -> Sport pour tous
+
+### urbanisme — Urbanisme & Cadre de vie
+- `urbanisme/amenagement-urbain` -> Aménagement urbain
+- `urbanisme/accessibilite` -> Accessibilité
+- `urbanisme/quartiers-prioritaires` -> Quartiers prioritaires
+
+### solidarite — Solidarité & Égalité
+- `solidarite/aide-sociale` -> Aide sociale
+- `solidarite/egalite-discriminations` -> Égalité & Discriminations
+- `solidarite/pouvoir-achat` -> Pouvoir d'achat
+
+
+## Règles STRICTES
+
+1. **UNE mesure = UN seul sous-thème** (pas de doublons)
+2. **Résumé fidèle** : reformule de façon concise mais garde les chiffres, montants, délais
+3. **Regroupe** les mesures qui concernent le même sous-thème en UN seul texte (séparées par ". ")
+4. **Source** : indique la page du PDF ou la section du site web
+5. **Si une mesure ne rentre dans aucun sous-thème existant**, propose un nouveau sous-thème spécifique à la ville avec le format `categorie/nouveau-sous-theme`
+6. **N'invente rien** : si le texte ne mentionne pas un thème, ne le remplis pas
+7. **Inclus les petites mesures** : même une mention brève d'un sujet compte
+
+## Format de sortie OBLIGATOIRE (JSON)
+
+Réponds UNIQUEMENT avec ce JSON, sans texte autour :
+
+```json
+{
+  "propositions": {
+    "securite/police-municipale": {
+      "texte": "Résumé concis de la/des proposition(s) sur ce sous-thème",
+      "source": "Programme officiel p. X"
+    },
+    "transports/velo-mobilites-douces": {
+      "texte": "...",
+      "source": "Programme officiel p. Y"
+    }
+  },
+  "sous_themes_specifiques": [
+    {
+      "id": "categorie/nouveau-id",
+      "nom": "Nom du nouveau sous-thème",
+      "texte": "...",
+      "source": "..."
+    }
+  ],
+  "stats": {
+    "total_propositions": 25,
+    "categories_couvertes": 8,
+    "mesures_ignorees": "Liste de mesures qui ne rentrent nulle part (si applicable)"
+  }
+}
+```
+
+## TEXTE DU PROGRAMME À ANALYSER
+
+--- PAGE 1 ---
+Une ville qui protège   02
+Une Ville pour tous les âges   03
+Une ville durable   04
+Une ville vivante   05
+Une ville proche de vous   06
+Une Métropole ouverte   07
+FAIRE VIVRE CLERMONT,
+ENSEMBLE 
+D
+epuis 2020, Clermont-
+Ferrand a affronté des 
+épreuves inédites.  
+La crise sanitaire, les 
+tensions économiques 
+et sociales, l’inflation, les 
+bouleversements climatiques et les 
+violences du narcotrafic ont mis 
+à rude épreuve les habitantes et 
+les habitants, les services publics, 
+les associations, les commerces et 
+les entreprises. Dans ce contexte 
+national, notre responsabilité 
+a été de protéger, d’agir et de 
+maintenir le cap, sans jamais 
+renoncer à la solidarité.
+En parallèle, la ville s’est 
+transformée en profondeur.  
+Les grands chantiers, notamment 
+ceux liés aux mobilités et à l’espace 
+public, ont parfois été difficiles à 
+vivre au quotidien. Ils préparent 
+pourtant une ville plus accessible, 
+plus respirable et plus durable. 
+Ces transformations ont déjà 
+changé le quotidien. De nouveaux 
+équipements ont ouvert, des 
+parcs urbains ont vu le jour, et les 
+services publics ont été renforcés 
+sans hausse des impôts ni des tarifs 
+décidés par la municipalité. Après 
+le temps des chantiers, Clermont-
+Ferrand doit entrer dans celui de 
+la convivialité retrouvée, une ville 
+où l’on profite pleinement de la 
+vie dans tous les quartiers.
+Aujourd’hui, grâce à ces 
+transformations, nous allons 
+pouvoir apprécier un nouveau 
+chapitre de Clermont-Ferrand : 
+celui du mieux-vivre ensemble. Le 
+projet que nous vous proposons 
+pour 2026–2032 ouvre ce nouveau 
+temps. Il repose sur une conviction 
+simple : une ville doit avant tout 
+prendre soin de celles et ceux qui y 
+vivent. Protéger face aux risques, 
+avec une attention particulière 
+portée à la santé et à la sécurité, 
+accompagner les parcours de 
+vie, renforcer le pouvoir d’achat, 
+réussir une transition écologique 
+bénéfique à toutes et tous, et 
+faire vivre la ville dans tous ses 
+quartiers.
+Ce projet s’appuie sur une 
+méthode claire : l’écoute, le 
+dialogue, la participation et la 
+proximité. Nous voulons continuer 
+à construire avec les habitantes 
+et les habitants, les associations, 
+les acteurs économiques, sociaux, 
+sportifs et culturels, en lien étroit 
+avec les communes de Clermont 
+Auvergne Métropole. C’est par 
+la coopération et l’intelligence 
+collective que nous répondrons aux 
+défis à venir.
+Clermont-Ferrand est une ville 
+populaire, solidaire et inventive. 
+Une ville fidèle à ses valeurs 
+démocratiques et progressistes, 
+capable de se réinventer sans se 
+renier. Ensemble, faisons vivre 
+Clermont et préparons l’avenir 
+avec confiance.
+Les 15 et 22 mars, vous élirez vos représentantes et représentants au Conseil municipal de Clermont-Ferrand 
+et à Clermont Auvergne Métropole pour les six prochaines années. En votant pour la liste « Vivre Clermont ! » 
+conduite par Olivier Bianchi, vous soutiendrez l’union des forces de gauche sociales, écologistes et progressistes 
+rassemblées dès le 1er tour.
+ PROTÉGER LE QUOTIDIEN,  
+RASSEMBLER LES CLERMONTOISES  
+ET CLERMONTOIS POUR RELEVER  
+DE NOUVEAUX DÉFIS, ENSEMBLE ! 
+CLERMONT !
+VIVRE
+ 
+P
+R
+O
+G
+R
+A
+M
+M
+E
+ÉLECTIONS MUNICIPALES
+15 & 22 MARS 2026
+
+--- PAGE 2 ---
+Prendre en compte 
+la monoparentalité 
+pour les tarifs des 
+familles
+Protéger les Clermontoises et les Clermontois, c’est agir pour la tranquillité 
+publique et la sécurité, prévenir les risques du quotidien et accompagner 
+chaque parcours de vie. Notre action repose sur trois piliers indissociables : 
+sécurité, prévention et réussite éducative, en lien étroit avec l’État, l’Éducation 
+nationale, la Police nationale, la Justice et les acteurs de terrain.
+N
+ous agirons pour un logement abordable 
+et accessible : lutte contre l’inflation de 
+l’immobilier neuf grâce aux baux réels solidaires, 
+lutte contre la vacance, encadrement des 
+meublés touristiques, et facilitation de l’accès 
+au logement des jeunes, en lien avec l’Agence 
+immobilière à vocation sociale.
+Nous renforcerons l’accès aux soins en encourageant 
+l’installation de médecins, avec l’ouverture de centres 
+de santé (libéraux ou municipaux, selon ce que la 
+situation exige).
+Nous instaurerons la gratuité du stationnement 
+pour les professionnels de santé en déplacement 
+à domicile, et lancerons un travail de concertation 
+autour des places réservées.
+Nous développerons notre pôle d’infirmières 
+scolaires municipales (5 recrutements), formées à 
+la prévention et à la santé mentale, et organiserons 
+avec nos partenaires une semaine de la santé pour 
+valoriser les initiatives locales.
+Nous élaborerons un contrat local de santé 
+métropolitain, en collaboration avec les maires, 
+afin de mieux coordonner la prévention et 
+l’accompagnement entre les 21 communes de notre 
+métropole.
+SÉCURITÉ : PRÉSENCE, 
+PROXIMITÉ, EFFICACITÉ 
+ Nous renforcerons la police municipale 
+en poursuivant l’augmentation 
+progressive et réaliste des effectifs  
+(5 policiers par an) et la poursuite du 
+déploiement de la vidéoprotection, 
+utile à la prévention, à l’élucidation et 
+aux poursuites judiciaires. 
+ Un deuxième commissariat de 
+police municipale sera créé, à Saint-
+Jacques.
+ Une police des transports renforcera la 
+sécurité dans les tramways et les bus.
+ Nous poursuivrons la sécurisation des 
+abords des écoles, avec une présence 
+régulière de la police municipale et le 
+dispositif « les enfants d’abord », ainsi 
+que la régulation des épiceries de nuit.
+ Nous mettrons en œuvre un Plan 
+de sécurité routière, ainsi que la 
+régulation pour une ville sans accident 
+grave : adaptation des voiries, baisse 
+de la vitesse, actions pédagogiques...
+PROTÉGER  
+LE POUVOIR D’ACHAT 
+ La gratuité des transports en 
+commun, pour les Clermontois de 
+moins de 26 ans et de plus de 60 ans, 
+sera mise en place. Un gain en pouvoir 
+d’achat pour toutes les familles avec 
+des jeunes. La gratuité pour toutes et 
+tous les week-end sera maintenue.
+ Soutien aux parents « solo » avec un 
+accès facilité aux services publics 
+municipaux et des tarifs solidaires 
+(ajout d’une ½ part fiscale).
+LUTTER POUR L’ÉGALITÉ 
+Face à toutes les discriminations, nous 
+continuerons d’agir farouchement avec 
+notre Mission égalité, service municipal  
+et l’ensemble de nos partenaires. 
+Nous continuerons notamment de faire 
+vivre le « 25·Gisèle-Halimi » : lieu d’accueil, 
+d’écoute et d’accompagnement pour toutes 
+les femmes, ouvert en 2023.
+Gratuité des 
+transports pour 
+les Clermontois  
+de - 26 ans et  
++ 60 ans
+Renforcer la 
+prévention, 
+augmenter les 
+effectifs de police 
+municipale
+5 nouvelles 
+infirmières 
+scolaires pour plus 
+de prévention
+QUI PROTÈGE
+UNE VILLE
+8 PROPOSITIONS À RETENIR
+2
+LOGEMENT, SANTÉ : DES PROTECTIONS ESSENTIELLES
+PRÉVENIR POUR MIEUX PROTÉGER
+La sécurité passe par la prévention. Nous 
+renforcerons la lutte contre le harcèlement de rue 
+(dispositif Angela, commerces refuges) et contre 
+le harcèlement scolaire, et la prévention des 
+addictions, y compris numériques, en lien avec le CHU 
+et le service de santé universitaire. 
+Nous renforcerons la formation de nos agents face 
+aux violences sexuelles, notamment celles dont sont 
+victimes les enfants. 
+Nous pérenniserons le Conseil des droits et des 
+familles, renforcerons l’accueil des Travaux d’Intérêt 
+Général dans la collectivité ainsi que les dispositifs de 
+réussite éducative et de parentalité.
+Nous augmenterons le nombre d’éducateurs 
+spécialisés pour une présence renforcée sur le terrain.
+Des chantiers éducatifs municipaux et le Travail 
+Alternatif Payé à la Journée (TAPAJ) pour les jeunes 
+de 16 à 25 ans en précarité permettront des parcours 
+d’engagement et d’insertion, en lien avec les acteurs 
+éducatifs.
+25 · Gisèle-Halimi , lieu municipal pour toutes les femmes
+
+--- PAGE 3 ---
+Nous déploierons un Plan seniors pour mieux 
+accompagner le vieillissement, soutenir les aidants 
+et faciliter l’information et l’accès aux droits. 
+ Pour faciliter les déplacements, nous mettrons en 
+œuvre la gratuité des transports publics pour 
+les Clermontois de + 60 ans.
+ Face aux épisodes de forte chaleur, nous 
+mènerons la rénovation énergétique de nos 
+EHPAD publics. 
+ Les seniors auront toute leur place dans la vie 
+citoyenne grâce au Conseil des aînés, espace 
+d’expression, de dialogue et de propositions.
+ La ville sera plus confortable et plus accessible 
+grâce à notre Plan piéton : création de points 
+de repos (bancs, fauteuils, accès à l’eau), 
+développement de toilettes accessibles au 
+public, et attention particulière portée aux 
+déplacements des personnes fragiles.
+À Clermont-Ferrand, bien vivre se décline à tous les âges.  
+De la petite enfance aux seniors, notre action vise à accompagner  
+chaque étape de la vie, à lutter contre les inégalités et à rendre la ville  
+plus accessible, plus attentive et plus solidaire, dans tous les quartiers.
+Nous avons créé le lieu jeunesse Anatole-
+France, qui regroupe de nombreux services 
+pour les 11 - 25 ans : tiers-lieu, permanences 
+psychologiques ou d’accès aux droits, emploi 
+avec la Mission locale, animations… 
+Nous irons plus loin avec la création d’un 
+guichet jeunes qui constituera une évolution 
+des dispositifs existants pour mieux informer 
+en matière de droits sociaux, de santé 
+mentale, d’emploi et de prévention.
+Pour faciliter les déplacements, nous 
+mettrons en œuvre la gratuité des 
+transports publics pour les Clermontois 
+de - 26 ans.
+UNE VILLE 
+ACCESSIBLE ET 
+INCLUSIVE POUR 
+TOUTES ET TOUS 
+Nous poursuivrons l’adaptation de 
+l’espace public pour répondre aux 
+besoins des personnes en situation de 
+handicap, des enfants et des seniors : 
+voiries et mobiliers urbains adaptés, 
+meilleure accessibilité visuelle des 
+transports, et création d’aires de jeux 
+inclusives, afin que chaque enfant 
+puisse jouer et grandir dans la ville.
+ Nous poursuivrons une politique ambitieuse 
+en faveur des enfants et des familles. Deux 
+nouvelles crèches municipales verront le jour, à 
+Regensburg et Pélissier. 
+ Le nombre de places en centres de loisirs sera 
+augmenté pour mieux répondre aux besoins des 
+familles.
+ À l’école, nous continuerons d’agir pour l’égalité et 
+la réussite de tous : nous prendrons en charge un 
+kit de fournitures scolaires pour tous les élèves 
+de primaire. Nous garantirons une ATSEM par 
+classe maternelle.
+ Une nouvelle école maternelle à Regensburg 
+viendra renforcer l’offre éducative et 
+accompagner le développement du quartier. 
+ Nous finaliserons la végétalisation des cours 
+d’école, à ce jour 31 cours (plus de la moitié) 
+réalisées, et certaines seront ouvertes au public 
+l’été en période de canicule.
+ Nous continuerons nos efforts pour une 
+alimentation saine dans nos cantines, en 
+maintenant des repas préparés par nos agents 
+publics et nous développerons une alternative 
+végétarienne chaque jour. 
+ Afin de lutter contre les inégalités, nous 
+fournirons un goûter sain et équilibré aux 
+écoliers après la classe sans coût supplémentaire 
+pour les familles.
+BIEN VIEILLIR À CLERMONT-FERRAND
+ACCOMPAGNER  
+NOS JEUNES
+Augmenter 
+le nombre 
+de places en 
+centres de loisirs
+Ouvrir deux 
+nouvelles crèches  
+et une nouvelle école 
+maternelle
+Fournir chaque 
+jour un goûter 
+sain et équilibré 
+aux écoliers
+Un Plan seniors : 
+Conseil des aînés, 
+soutien aux aidants, 
+accès facilité aux 
+services et activités...
+ R e t r o u v e z  l ’ e n s e m b l e  d e  n o s  p r o p o s i t i o n s  s u r  b i a n c h i 2 0 2 6 . f r
+POUR TOUS LES ÂGES
+UNE VILLE
+3
+GRANDIR ET S’ÉPANOUIR DÈS LE PLUS JEUNE ÂGE
+
+--- PAGE 4 ---
+Notre priorité est claire : 
+continuer d'améliorer 
+durablement le cadre de vie. 
+Une ville plus écoresponsable, 
+plus fraîche, plus accessible, 
+qui protège la santé et agit 
+pour l’adaptation climatique 
+en conciliant les usages de tous 
+les habitants : une écologie 
+concrète pour mieux vivre au 
+quotidien.
+UNE VILLE PLUS FRAÎCHE,  
+PLUS VERTE, PLUS AGRÉABLE 
+La qualité de vie des quartiers sera renforcée par 
+l’achèvement du renouvellement urbain des Vergnes, 
+de la Gauthière et de Saint-Jacques, un Plan d’actions 
+pour Montferrand (place de la Rodade, sauvegarde 
+du patrimoine, soutien aux commerces…) et le 
+réaménagement de la place Delille, avec un meilleur 
+partage des déplacements, et la mise en valeur des 
+commerces.
+Nous poursuivrons la création et 
+l’extension de parcs (ouverture du 
+parc de la Muraille, 2e phase du parc 
+Saint-Jean), la végétalisation des 
+places (Delille, Rodade, Bughes…). 
+Nous renaturerons les cimetières. 
+Pour plus de nature en ville et face aux canicules, nous 
+déploierons un Plan fraîcheur avec des cheminements 
+ombragés, des points d’eau et des espaces de repos. La 
+végétalisation de l'ensemble des cours d’école sera finalisée 
+et certaines seront ouvertes au public en cas de canicule.
+SE DÉPLACER 
+AUTREMENT,  
+EN SÉCURITÉ 
+ Nous poursuivrons l’apaisement des 
+déplacements avec un Plan piéton pour 
+sécuriser les cheminements et faciliter 
+la marche à tous les âges. Une nouvelle 
+phase du réseau cyclable sera déployée 
+et une école municipale du vélo permettra 
+d’apprendre à circuler sereinement en ville.
+ Nous favoriserons l’accès à des vélos 
+reconditionnés, renforcerons les 
+stationnements pour vélos et deux-roues 
+(arceaux, vélo-box) et développerons 
+la location longue durée de vélos 
+électriques.
+ Après la bonne mise en service du nouveau 
+réseau T2C, une évaluation du schéma 
+de circulation sera menée afin d’ajuster 
+si nécessaire les usages et améliorer la 
+sécurité.
+SOBRIÉTÉ 
+ÉNERGÉTIQUE 
+ Nous renforcerons la rénovation énergétique 
+des bâtiments pour les publics les plus 
+vulnérables : crèches, écoles et EHPAD. 
+ Nous soutiendrons les propriétaires privés 
+dans la rénovation des logements, notamment 
+via une centrale d’achats groupés qui 
+facilitera l’accès à des travaux de qualité à 
+moindre coût.
+ L’éclairage public 100 % LED sera achevé 
+(50% à ce jour). Nous diminuerons notre 
+dépendance aux énergies fossiles avec une 
+maîtrise publique de l’énergie renforcée : 
+développement des énergies renouvelables, 
+du photovoltaïque et de l’autoconsommation 
+collective.
+PROTÉGER, PRÉSERVER L’EAU ET PRÉVENIR LES RISQUES 
+Nous continuerons de garantir une eau potable de qualité, en luttant contre les polluants. Nous 
+développerons la récupération de l’eau. Une réflexion sera engagée sur les usages et le partage de la 
+ressource, ainsi que pour l’étude de la création d’une usine de recyclage des eaux usées pour permettre leur 
+réemploi.
+La prévention des risques naturels sera renforcée : zones inondables, création de bassins d’orage 
+(à Fontgiève notamment), campagnes d’information sur les crues et vagues de chaleur, et réunions 
+d’information annuelles par quartier.
+Nous renforcerons la lutte contre les décharges sauvages grâce à une brigade verte.
+DURABLE
+UNE VILLE
+8 PROPOSITIONS À RETENIR
+Priorité alimentation 
+bio et locale pour 
+les plus fragiles : 
+femmes enceintes, 
+enfants, seniors, 
+publics précaires...
+Plan piéton : 
+cheminements 
+sécurisés, 
+accessibles,  
+et ombragés
+Rénover 
+thermiquement 
+nos bâtiments, 
+priorité aux publics 
+vulnérables : crèches, 
+EHPAD, écoles
+Programme 
+Montferrand, renou-
+vellement urbain 
+(Vergnes, Saint-
+Jacques, Gauthière), 
+réaménagement  
+de Delille
+4
+MANGER SAIN  
+SANS SE RUINER 
+Nous agirons pour une alimentation 
+plus saine et accessible, avec 
+une alternative végétarienne 
+quotidienne dans la restauration 
+scolaire et le développement de la 
+ceinture maraîchère métropolitaine. 
+Un parcours d’accompagnement 
+alimentaire pour les femmes 
+enceintes sera mis en place, associant 
+prévention, ateliers pratiques et accès 
+à des paniers de produits bio et locaux 
+(ordonnance verte).
+Nous expérimenterons une caisse 
+alimentaire locale à destination 
+des publics précaires pour favoriser 
+l’accès à des produits sains et 
+locaux, fondée sur une gouvernance 
+citoyenne.
+nouveaux 
+hectares 
+d’espaces 
+verts
+13 
+Jardin Lecoq
+
+--- PAGE 5 ---
+Une ville vivante est une ville où l’on se rencontre, où l’on crée, où l’on bouge 
+et où l’on partage. À Clermont-Ferrand, la vitalité se construit chaque jour 
+dans les quartiers, les commerces, les associations, les équipements culturels 
+et sportifs. Nous agissons pour soutenir celles et ceux qui font battre le cœur 
+clermontois.
+UNE CULTURE VIVANTE,  
+OUVERTE ET PARTAGÉE 
+Nous poursuivrons une politique culturelle ambitieuse et 
+accessible, avec la rénovation des façades de l’Opéra, la 
+modernisation de la Coopérative de Mai, l’ouverture de la Cité 
+du court et la rénovation du Lieu-dit, lieux emblématiques de la 
+création clermontoise. Ces investissements s’accompagneront 
+d’un soutien renforcé aux équipes artistiques et aux 
+associations culturelles.
+Nous encouragerons les pratiques culturelles amateures et les 
+actions de démocratisation culturelle et de culture scientifique.
+Une journée annuelle de la solidarité internationale favorisera 
+l’ouverture et l’engagement citoyen.
+UNE VILLE QUI BOUGE :  
+SPORT, SANTÉ ET LOISIRS ACCESSIBLES 
+Le sport est un levier majeur de santé publique et de lien social. Nous développerons « Clermont bouge », 
+une manifestation sport-santé ouverte à toutes et tous, et faciliterons la pratique libre, comme au stade 
+Marcombes, avec l’ouverture d’un gymnase chaque dimanche en automne et en hiver.
+Nous continuerons d’investir dans des équipements de proximité : gymnase du complexe Montpied aux 
+Vergnes, pumptrack à Croix-Neyrat, et nous doublerons le chèque première licence, avec désormais 
+50 € pour que les plus jeunes puissent découvrir le sport en club. Des projets d’espaces sportifs libres et de 
+rénovation d’équipements seront menés en concertation avec les habitantes et habitants.
+La patinoire Papadakis-Cizeron sera rénovée.
+DES COMMERCES 
+AU CŒUR DE LA VIE 
+CLERMONTOISE 
+Les commerces et artisans sont essentiels à 
+l’animation de la ville et à la vie des quartiers :
+ Nous créerons un office municipal 
+du commerce et de l’artisanat pour 
+accompagner les commerçants et artisans, 
+structurer notre stratégie d’implantation 
+et mieux anticiper les évolutions du tissu 
+commercial.
+ Des managers de commerce 
+supplémentaires appuieront cet 
+accompagnement. Nous renforcerons nos 
+soutiens aux porteurs de projets (boutiques 
+à l’essai, baux sociaux commerciaux...).
+ Nous mènerons des animations pour 
+valoriser commerces et producteurs 
+locaux. Les marchés alimentaires et 
+la Halle Saint-Pierre feront l’objet 
+d’améliorations concertées pour renforcer 
+leur attractivité et leur convivialité.
+L’ART POUR  
+LES TOUT PETITS
+Nous déploierons un réseau “mille formes”, 
+notre centre d’initiation à l’art pour  
+les 0-6 ans, dans des équipements 
+municipaux de proximité.
+UNE VIE NOCTURNE 
+VIVANTE ET SEREINE
+Nous poursuivrons nos actions 
+pour une vie nocturne conviviale 
+et sereine, avec la création d’un 
+Conseil de la nuit et le renforcement 
+de la charte de la vie nocturne, 
+fondée sur le dialogue entre 
+riverains, professionnels et acteurs 
+de la nuit.
+La lutte contre les épiceries de nuit 
+ne respectant pas la réglementation 
+sera renforcée en lien avec l’État.
+Ouverture  
+d’un gymnase  
+chaque dimanche  
+(automne-hiver)  
+pour la pratique libre
+Créer un Office  
+municipal  
+du commerce  
+et de l’artisanat
+Repenser les 
+animations de l’été 
+avec un grand village 
+de loisirs accessible  
+à toutes et tous
+Rénover  
+et moderniser 
+ la Coopérative 
+de Mai
+ R e t r o u v e z  l ’ e n s e m b l e  d e  n o s  p r o p o s i t i o n s  s u r  b i a n c h i 2 0 2 6 . f r
+5
+VIVANTE
+UNE VILLE
+enfants 
+accueillis  
+à mille formes  
+depuis 2020 
+150 000
+DES LOISIRS  
+ET DÉCOUVERTES 
+DANS L’ESPACE 
+PUBLIC 
+Pour permettre au plus grand 
+nombre de profiter de l’été, nous 
+repenserons nos animations avec 
+un grand village de loisirs gratuit 
+accessible à toutes et tous.
+Nous investirons l’espace public 
+avec une programmation 
+culturelle ouverte, concerts, bals 
+et spectacles vivants dans des 
+lieux emblématiques : nouvelle 
+place des Carmes, parcs de la 
+Muraille et Saint-Jean, centre-
+ville, parc des 4 Saisons aux 
+Vergnes… afin de faire vivre la 
+ville au plus près des habitants.
+Rue du 11 Novembre
+
+--- PAGE 6 ---
+4 PROPOSITIONS À RETENIR
+ R e t r o u v e z  l ’ e n s e m b l e  d e  n o s  p r o p o s i t i o n s  s u r  b i a n c h i 2 0 2 6 . f r
+6
+PROCHE DE VOUS
+UNE VILLE
+UN NUMÉRIQUE INCLUSIF ET ÉTHIQUE
+Le numérique doit faciliter l’accès aux droits, jamais exclure. Nous poursuivrons nos actions pour un numérique 
+inclusif et nous lutterons contre l’illectronisme.
+L’Intelligence Artificielle (IA) est un enjeu sociétal majeur. Nous encadrerons son utilisation par nos agents 
+publics avec une charte de l’IA publique et éthique et nous réunirons tous les acteurs locaux autour de ces enjeux 
+dans une Convention citoyenne dédiée.
+RENFORCER  
+LE PACTE 
+ASSOCIATIF 
+L
+es associations sont au 
+cœur de la vie clermontoise. 
+Nous renforcerons notre 
+appui et nos discussions, en 
+organisant d’abord des Assises 
+de la vie associative pour 
+mieux construire ensemble nos 
+dispositifs.
+Une nouvelle Maison des 
+associations, et le site associatif 
+Abbé-Prévost rénové, offriront 
+des lieux de ressources adaptés 
+pour accompagner les projets, 
+mutualiser les moyens et soutenir 
+l’engagement au plus près des 
+besoins des habitants.
+Nous voulons faire vivre la démocratie au quotidien, 
+fondée sur la confiance et le dialogue. Nous mettrons 
+en place de nouveaux outils citoyens en appui de nos 
+politiques publiques : 
+ Le Conseil des aînés donnera la parole aux seniors 
+clermontois
+ Le droit de proposition citoyenne sera assoupli et 
+facilité
+ L’Observatoire citoyen pourra s’auto-saisir pour 
+évaluer nos actions
+ Des États généraux des quartiers et de la jeunesse, 
+ainsi que des assises de la vie associative seront 
+organisés
+ 2 nouvelles éditions du budget participatif auront 
+lieu
+ Une nouvelle convention citoyenne réunira experts, 
+citoyens, services publics, autour de l’enjeu majeur 
+de l’Intelligence Artificielle
+ Un statut du « Clermontois engagé » permettra 
+de valoriser les compétences, les engagements 
+personnels et initiatives au-delà des parcours 
+académiques
+ Une instance de dialogue autour des principes de 
+laïcité, de la liberté de conscience et des cultes sera 
+créée
+UNE DÉMOCRATIE LOCALE VIVANTE
+Toutes nos propositions seront mises en place pour et avec vous.  
+La proximité est notre manière de gouverner : en témoignent la création 
+du Conseil des enfants, des forums de quartier, du budget participatif… 
+Notre projet renforce la démocratie locale, soutient l’engagement  
+et facilite l’accès aux droits et démarches, dans tous les quartiers.
+UNE PRÉSENCE 
+MUNICIPALE 
+RENFORCÉE
+La proximité, c’est aussi une présence 
+concrète. Nous poursuivrons le 
+renforcement de nos lieux municipaux 
+pour répondre au mieux aux nouveaux 
+besoins des habitants, notamment en 
+reconstruisant la Maison de quartier 
+de Croix-Neyrat, et en identifiant un lieu 
+municipal dans le quartier de la Gare. 
+Des États généraux des quartiers et 
+de la jeunesse permettront de refonder 
+notre action avec des réponses adaptées 
+et concertées.
+FACILITER L'ACCÈS 
+AUX SERVICES 
+PUBLICS  
+Simplifier la vie des habitantes et 
+des habitants est une priorité. Nous 
+créerons un accueil centralisé “toutes 
+démarches”, pour faciliter l’accès 
+aux services municipaux dans un lieu 
+unique. 
+Des permanences d’accès aux 
+droits seront proposées dans des 
+équipements municipaux existants, 
+pour aller vers celles et ceux qui en ont 
+le plus besoin.
+Une attention particulière sera 
+portée aux jeunes : un guichet 
+jeunes constituera une évolution 
+des dispositifs existants pour mieux 
+informer en matière de droits sociaux, 
+de santé mentale, d’emploi et de 
+prévention. 
+Le conseil municipal des enfants sera 
+doté d’un budget participatif dédié 
+pour réaliser des projets.
+Forum des associations
+Reconstruction  de  
+la Maison de quartier 
+à Croix-de-Neyrat
+Une nouvelle Maison 
+des associations, 
+centre de ressources
+2 nouveaux 
+budgets 
+participatifs
+Des États généraux 
+des quartiers et de 
+la jeunesse
+
+--- PAGE 7 ---
+Nous voulons une métropole utile au quotidien et juste pour toutes et tous.  
+Depuis 2014, nous avons fait le choix d’une gouvernance partagée : toutes les communes, 
+quelles que soient les sensibilités politiques, participent à la gestion métropolitaine. 
+Le respect de chaque commune et de chaque habitant est la garantie d’une métropole  
+qui avance, sans laisser personne de côté.
+7
+OUVERTE
+UNE MÉTROPOLE
+ REJOIGNEZ 
+ NOTRE COMITÉ 
+ DE SOUTIEN ! 
+ Éric Boucomont,  
+agent immobilier 
+ Michelle  
+Hufnagel, retrai-
+tée journaliste 
+ Antoine Besse,  
+para-triathlète 
+ Dimitri Demas,  
+commerçant 
+ Eugène Ekobo,  
+entrepreneur 
+ Karine  
+Gubbiotti,  
+commerçante 
+ Didier Muller,  
+commerçant 
+retraité
+ Ruben Gado,  
+décathlonien 
+ Didier Veillault,  
+ex. Coopérative  
+de Mai
+ Michèle André, 
+ancienne 
+ministre
+ Mickaël Pécaud, 
+chorégraphe
+ Fouad Antar, 
+commerçant
+ Serge Godard, 
+ancien maire
+ Azouz Djelailia, 
+président 
+d’association 
+sportive
+ Joana Neves, 
+citoyenne 
+engagée
+ Bérénice 
+Sabatier,  
+cheffe 
+d'entreprise 
+...
+Lionel  
+ONA 
+Christine  
+DULAC-ROUGERIE
+CO-PRÉSIDENTS DU COMITÉ DE SOUTIEN
+ACCOMPAGNER LE DYNAMISME ÉCONOMIQUE 
+ Nous poursuivrons nos actions pour une Métropole créatrice d’emploi local : "coup de pouce" TPE-PME, 
+ouvre-boîtes, recrut'seniors, chantiers d'insertion…
+ Nous proposerons une politique métropolitaine ambitieuse de l’Économie Sociale et Solidaire, avec la 
+création d’un fonds métropolitain ESS, pour soutenir les projets à fort impact social et environnemental. 
+ Nous favoriserons l'implantation d'entreprises en réservant 150 hectares de foncier économique et 
+industriel, poursuivrons la prévention des défaillances, et mettrons en place un accompagnement pour une 
+plus-value environnementale et sociale des entreprises aidées.
+ Nous soutiendrons les filières locales de réemploi et de matériaux biosourcés, avec un fonds métropolitain 
+dédié.
+ Nous initierons une coopérative carbone territoriale pour une économie vertueuse.
+INSERTION ET EMPLOI : 
+ACCOMPAGNER VERS DES EMPLOIS DURABLES
+Nous ferons de la Métropole un acteur central de l’insertion et de l’accès à l’emploi. Nous renforcerons 
+l’accompagnement des publics les plus éloignés du travail, en lien avec les Missions locales, France Travail 
+et les acteurs associatifs. Nous mobiliserons pleinement les clauses d’insertion dans les marchés publics, 
+soutiendrons l’insertion par l’activité économique et agirons sur les freins à l’emploi : logement, mobilité, 
+santé...
+Nous implanterons une Maison de l’insertion et de l’emploi dans le quartier Saint-Jacques.
+Pour mieux piloter l’action publique, nous nous doterons d’un Observatoire métropolitain des inégalités.
+COOPÉRER  
+POUR AVANCER 
+N
+ous voulons une Métropole qui 
+coopère. Capitale du Massif central, 
+Clermont Auvergne Métropole sera un 
+outil d’alliance des territoires.
+Nous agirons avec les collectivités voisines, 
+le Département, la Région et l’État sur 
+les grands enjeux d’avenir, qui ne doivent 
+souffrir d'aucune querelle politicienne : 
+le partage de la ressource en eau, les 
+déplacements du quotidien, la mise en 
+œuvre du “RER Métropolitain”, pour 
+proposer des trains chaque jour plus 
+fréquents et mieux connectés aux 
+transports urbains.
+Mieux coopérer passera également 
+par un renforcement de nos dispositifs 
+participatifs métropolitains.
+LE LOGEMENT,  
+UNE PRIORITÉ
+ Nous produirons  
+2 000 logements par an  
+(dont 30 % de sociaux  
+et 20 % en accession à la 
+propriété), pour répondre 
+à une demande croissante 
+dans la métropole.
+ Nous privilégierons un 
+développement sobre, 
+préservant les espaces 
+naturels et agricoles en 
+réhabilitant en priorité les 
+friches, et en luttant contre 
+la vacance.
+bianchi2026.fr
+
+--- PAGE 8 ---
+06 72 64 31 11
+contact@bianchi2026.fr
+1, rue de la Préfecture 
+63000 Clermont Ferrand
+Meeting 
+ouvert à toutes et tous
+ Jeudi 12 mars à 19h 
+ Maison du Peuple - Place de la Liberté
+Les 38 premiers sont aussi candidates et candidats à Clermont Auvergne Métropole
+Olivier Bianchi - 55 ans | PS
+Julien Barbat
+50 ans | Génération·s | 
+Formateur à l’INSPE | 
+La Glacière
+Claudine Khatchadourian
+57 ans | PS | 
+Secrétaire | 
+Saint-Jacques
+Simon Favier
+33 ans | PCF | 
+Éducateur | 
+Centre-ville
+Pierre Sabatier
+61 ans | PS | 
+Agent SNCF | 
+Galaxie-Fontgiève
+Steve Maquaire-Beausoleil
+32 ans | PS | Chef de 
+service de l'action sociale | 
+Montferrand
+Valérie Bernard | 59 ans  
+Génération·s | Chargée de 
+projets insertion | Conseillère 
+départementale | Les Vergnes
+Dominique Briat | 73 ans | 
+PS | Inspectrice des finances 
+retraitée | Conseillère 
+départementale | Salins
+Samir El Bakkali | 64 ans | 
+Société civile | Conférencier 
+géologue volcanologue | 
+Croix-de-Neyrat
+Elsa Siffert
+37 ans | PCF | 
+En recherche d'emploi | 
+Lafayette
+Geoffrey Volat
+33 ans | Les Écologistes | 
+Enseignant Chercheur | 
+Montlosier
+Sandrine Nolot
+58 ans | Les Écologistes | 
+Avocate | 
+La Pradelle
+Abba Souleymane 
+Diourte | 32 ans | Société 
+civile | Entrepreneur | 
+Chanteranne
+Anna Aubois  
+48 ans | PS | 
+Formatrice | 
+Oradou
+Sophie Boyer
+50 ans | Les Écologistes | 
+Cadre bancaire | 
+Saint-Alyre
+Jérôme Auslender
+52 ans | Place Publique | 
+Enseignant UCA | 
+Regensburg
+Charles Dubreuil
+48 ans | Génération·s | 
+Professeur de droit à 
+l'UCA | Littré
+Anne-Laure Stanislas
+44 ans | Les Écologistes | 
+Cadre PME | 
+Tremonteix
+Cécile Gaudio
+43 ans | Société civile | 
+Sophrologue | 
+Montferrand
+Louis D'Eramo
+32 ans | Les Écologistes | 
+Chercheur au CNRS | 
+Oradou
+Yannick Vigignol
+52 ans | Les Écologistes | 
+Entrepreneur | 
+Tremonteix
+Magali Gallais
+49 ans | PCF | Conseillère 
+Principale d'Education | 
+Croix-de-Neyrat
+Osman Kulekci
+23 ans | PS |  
+Étudiant en médecine | 
+La Plaine
+Hayath Abdou
+40 ans | Place publique | 
+Professeure agrégée | 
+Champratel
+Sandrine Moriconi
+45 ans | Place Publique | 
+Cheffe d'entreprise d'une 
+TPE | La Fontaine du Bac
+Cyril Cineux
+52 ans | PCF | 
+Fonctionnaire territorial | 
+La Glacière
+Cécile Audet
+54 ans | Génération·s | 
+Vendeuse | 
+Mazet
+Fabrice Bouche
+63 ans | Société civile | 
+Retraité | 
+Montjuzet
+Jérôme Godard
+55 ans | Société civile | 
+Chef d'entreprise | 
+Kessler-Rabanesse
+Jean-Philippe Degui
+66 ans | Société civile | 
+Médecin | 
+Saint-Jacques
+Victoria Mure-Ravaud
+31 ans | Les Écologistes | 
+Architecte DE | 
+Centre-ville
+Christophe Bertucat
+59 ans | PS | 
+Employé au CHU | 
+Chanteranne
+Isabelle Lavest | 58 ans 
+PRG | Conseillère en 
+insertion professionnelle | 
+Delille
+Karim Srikah
+47 ans | PS | Conseiller 
+départemental | 
+Les Vergnes
+Marion Barraud
+34 ans | Les Écologistes | 
+Responsable dans l'ESS | 
+Vallières
+Lucas Peyre
+35 ans | PS |  
+Agent administratif | 
+Fontgiève
+Sondès El Hafidhi
+57 ans | PS |  
+Agrégée de Lettres | 
+Victoire
+Cyril Triolaire | 47 ans  
+Les Écologistes | Maître  
+de conférences à l'UCA |  
+Saint-Jacques
+Nicolas Lejolivet-
+Deligand
+43 ans | Société civile | 
+Ingénieur | La Plaine
+Odile Vignal
+69 ans | Les Écologistes | 
+Retraitée | 
+Saint-Jacques
+Nadia Amara  
+52 ans | PCF | Agent 
+d’accueil CROUS | 
+La Fontaine du Bac
+Manuela Ferreira de Sousa  
+50 ans | Société civile | Agente 
+à l'aéroport | Conseillère 
+départementale | Crouël
+Lucie Mizoule
+40 ans | PCF |  
+Cadre Michelin | 
+Estaing
+Marion Canales
+45 ans | PS | Ancienne 
+Cadre CHU | Sénatrice | 
+Gaillard
+Grégory Bernard
+46 ans | Les Écologistes | 
+Enseignant | 
+Champgil
+LES 55 CANDIDATES ET CANDIDATS DE LA LISTE 
+VIVRE CLERMONT-FERRAND
+DE RENOUVELLEMENT
+DE MOYENNE D’ÂGE
+42%
+47 ANS
+Ne pas jeter sur la voie publique - Crédits photos : Hugo Mallat - Imaginarium- Adobe Stock - Vu, le candidat - Impression Groupe Maury imprimeur
+Maxime Boyer
+27 ans | Debout! | 
+Responsable accueil à l’UCA | 
+Saint-Jacques
+Asmaa Thevenot
+29 ans | PS | 
+Cheffe d’entreprise | 
+Montferrand
+Frédéric Pilaud
+50 ans | PRG | Inspecteur 
+des Finances Publiques | 
+La Pradelle
+Wendy Lafaye
+30 ans | Société civile | 
+Consultante | 
+Saint-Hérèm
+Zakia Douakha
+51 ans | PS | Cadre 
+admininstrative ENSACF | 
+Croix-de-Neyrat
+Jean-Christophe 
+Cervantes | 44 ans | PCF | 
+Chargé d'enseignement | 
+Regensburg
+Clément Boudier
+33 ans | Les Écologistes | 
+Urbaniste | 
+Delille
+Marie Fernandez Madrid
+32 ans | Les Écologistes | 
+Juriste | 
+Salins
+Anne Gourdy David
+58 ans | Société civile | 
+Documentaliste | 
+Amadéo
+Nicolas Bonnet 
+44 ans | Les Écologistes |  
+Ingénieur | Député | 
+Centre-ville
+SUIVEZ L'ACTUALITÉ
+DE LA CAMPAGNE
+bianchi2026.fr 
+2
+4
+3
+5
+6
+7
+8
+9
+10
+11
+13
+12
+14
+15
+16
+17
+18
+19
+20
+22
+21
+23
+24
+1
+25
+26
+28
+27
+29
+30
+31
+32
+34
+33
+35
+36
+37
+38
+41
+40
+43
+39
+42
+44
+45
+46
+47
+50
+49
+52
+48
+51
+53
+54
+55

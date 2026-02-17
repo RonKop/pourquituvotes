@@ -93,8 +93,8 @@
 
     if (!candidat) {
       document.getElementById("candidat-main").innerHTML =
-        '<div style="text-align:center;padding:4rem 2rem"><h2>Candidat introuvable</h2><p><a href="/municipales/2026/?ville=' +
-        echapper(election.ville.toLowerCase().replace(/\s+/g, "-")) + '">Retour au comparateur</a></p></div>';
+        '<div style="text-align:center;padding:4rem 2rem"><h2>Candidat introuvable</h2><p><a href="/municipales-2026/' +
+        echapper(election.ville.toLowerCase().replace(/\s+/g, "-")) + '/">Retour au comparateur</a></p></div>';
       return;
     }
 
@@ -151,8 +151,8 @@
       '<nav class="fil-ariane fil-ariane--hero" aria-label="Fil d\'Ariane">' +
         '<ol class="fil-ariane__liste" itemscope itemtype="https://schema.org/BreadcrumbList">' +
           '<li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><i class="ph ph-house" aria-hidden="true"></i> <span itemprop="name">Accueil</span></a><meta itemprop="position" content="1"></li>' +
-          '<li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/municipales/2026/?ville=' + echapper(villeSlug) + '" itemprop="item"><span itemprop="name">' + echapper(ville) + '</span></a><meta itemprop="position" content="2"></li>' +
-          '<li class="fil-ariane__item fil-ariane__item--actif" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/municipales/2026/candidat.html?ville=' + echapper(villeSlug) + '&candidat=' + echapper(candidat.id) + '" itemprop="item"><span itemprop="name">' + echapper(candidat.nom) + '</span></a><meta itemprop="position" content="3"></li>' +
+          '<li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/municipales-2026/' + echapper(villeSlug) + '/" itemprop="item"><span itemprop="name">' + echapper(ville) + '</span></a><meta itemprop="position" content="2"></li>' +
+          '<li class="fil-ariane__item fil-ariane__item--actif" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/municipales-2026/' + echapper(villeSlug) + '/candidats/' + echapper(candidat.id) + '/" itemprop="item"><span itemprop="name">' + echapper(candidat.nom) + '</span></a><meta itemprop="position" content="3"></li>' +
         '</ol>' +
       '</nav>' +
       '<div class="candidat-hero__card">' +
@@ -183,7 +183,7 @@
     if (candidat.programmeUrl && candidat.programmeUrl !== "#") {
       linksHTML += '<a href="' + echapper(candidat.programmeUrl) + '" target="_blank" rel="noopener" class="candidat-links__btn candidat-links__btn--' + (candidat.programmePdfPath ? 'secondary' : 'primary') + '"><i class="ph ph-globe"></i> Site de campagne</a>';
     }
-    linksHTML += '<a href="/municipales/2026/?ville=' + echapper(villeSlug) + '&candidats=' + echapper(candidatId) + '" class="candidat-links__btn candidat-links__btn--secondary"><i class="ph ph-chart-bar"></i> Voir dans le comparateur</a>';
+    linksHTML += '<a href="/municipales-2026/' + echapper(villeSlug) + '/?candidats=' + echapper(candidatId) + '" class="candidat-links__btn candidat-links__btn--secondary"><i class="ph ph-chart-bar"></i> Voir dans le comparateur</a>';
     document.getElementById("candidat-links").innerHTML = linksHTML;
 
     // Radar
@@ -250,7 +250,7 @@
     });
 
     // CTA
-    document.getElementById("candidat-cta-link").href = "/municipales/2026/?ville=" + encodeURIComponent(villeSlug);
+    document.getElementById("candidat-cta-link").href = "/municipales-2026/" + encodeURIComponent(villeSlug) + "/";
     document.getElementById("candidat-cta-link").innerHTML = '<i class="ph ph-arrow-left"></i> Comparer tous les candidats \u00e0 ' + echapper(ville);
   }
 

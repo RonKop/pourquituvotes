@@ -117,7 +117,7 @@
 
   function createFeaturedCard(ville) {
     var s = ville.stats || {};
-    return '<a href="/municipales/2026/?ville=' + ville.id + '" class="election-card election-card--featured">' +
+    return '<a href="/municipales-2026/' + ville.id + '/" class="election-card election-card--featured">' +
       '<span class="election-card__badge election-card__badge--available"><i class="ph ph-check-circle" aria-hidden="true"></i> Disponible</span>' +
       '<div class="election-card__icon"><i class="ph ph-bank" aria-hidden="true"></i></div>' +
       '<div class="election-card__type">MUNICIPALES 2026</div>' +
@@ -222,7 +222,7 @@
       villeResults.forEach(function (v, idx) {
         var nomHTML = surligner(esc(v.nom), terme);
         var codeHTML = surligner(esc(v.codePostal), terme);
-        var url = "/municipales/2026/?ville=" + encodeURIComponent(v.id);
+        var url = "/municipales-2026/" + encodeURIComponent(v.id) + "/";
         html += '<a href="' + url + '" class="ville-suggestion" role="option" data-ville="' + v.id + '" data-index="' + idx + '">' +
           '<span class="ville-suggestion__nom">' + nomHTML + '</span>' +
           '<span class="ville-suggestion__code">' + codeHTML + '</span>' +
@@ -236,7 +236,7 @@
         candidatResults.forEach(function (r, idx) {
           var totalIdx = villeResults.length + idx;
           var nomHTML = surligner(esc(r.candidat.nom), terme);
-          var url = "/municipales/2026/candidat.html?ville=" + encodeURIComponent(r.ville.id) + "&candidat=" + encodeURIComponent(r.candidat.id);
+          var url = "/municipales-2026/" + encodeURIComponent(r.ville.id) + "/candidats/" + encodeURIComponent(r.candidat.id) + "/";
           html += '<a href="' + url + '" class="ville-suggestion ville-suggestion--candidat" role="option" data-ville="' + r.ville.id + '" data-candidat="' + r.candidat.id + '" data-index="' + totalIdx + '">' +
             '<span class="ville-suggestion__nom"><i class="ph ph-user"></i> ' + nomHTML + '</span>' +
             '<span class="ville-suggestion__code">' + esc(r.ville.nom) + '</span>' +
@@ -250,9 +250,9 @@
     }
 
     function navigateTo(villeId, candidatId) {
-      var url = "/municipales/2026/?ville=" + encodeURIComponent(villeId);
+      var url = "/municipales-2026/" + encodeURIComponent(villeId) + "/";
       if (candidatId) {
-        url = "/municipales/2026/candidat.html?ville=" + encodeURIComponent(villeId) + "&candidat=" + encodeURIComponent(candidatId);
+        url = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(candidatId) + "/";
       }
       window.location.href = url;
     }
@@ -434,9 +434,9 @@
 
           suggestionsEl.querySelectorAll(".mobile-menu-suggestion-item").forEach(function(item) {
             item.addEventListener("click", function() {
-              var url = "/municipales/2026/?ville=" + encodeURIComponent(item.dataset.ville);
+              var url = "/municipales-2026/" + encodeURIComponent(item.dataset.ville) + "/";
               if (item.dataset.candidat) {
-                url = "/municipales/2026/candidat.html?ville=" + encodeURIComponent(item.dataset.ville) + "&candidat=" + encodeURIComponent(item.dataset.candidat);
+                url = "/municipales-2026/" + encodeURIComponent(item.dataset.ville) + "/candidats/" + encodeURIComponent(item.dataset.candidat) + "/";
               }
               window.location.href = url;
             });
@@ -648,9 +648,9 @@
 
       resultsEl.querySelectorAll(".mobile-search-result-item").forEach(function(item) {
         item.addEventListener("click", function() {
-          var url = "/municipales/2026/?ville=" + encodeURIComponent(item.dataset.ville);
+          var url = "/municipales-2026/" + encodeURIComponent(item.dataset.ville) + "/";
           if (item.dataset.candidat) {
-            url = "/municipales/2026/candidat.html?ville=" + encodeURIComponent(item.dataset.ville) + "&candidat=" + encodeURIComponent(item.dataset.candidat);
+            url = "/municipales-2026/" + encodeURIComponent(item.dataset.ville) + "/candidats/" + encodeURIComponent(item.dataset.candidat) + "/";
           }
           window.location.href = url;
         });

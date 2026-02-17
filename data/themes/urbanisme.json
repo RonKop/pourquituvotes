@@ -1,0 +1,1026 @@
+{
+  "id": "urbanisme",
+  "nom": "Urbanisme & Cadre de vie",
+  "sousThemes": [
+    {
+      "id": "amenagement-urbain",
+      "nom": "Aménagement urbain"
+    },
+    {
+      "id": "accessibilite",
+      "nom": "Accessibilité"
+    },
+    {
+      "id": "quartiers-prioritaires",
+      "nom": "Quartiers prioritaires"
+    }
+  ],
+  "stats": {
+    "totalPropositions": 129,
+    "villesAvecPropositions": 52,
+    "candidatsAvecPropositions": 105
+  },
+  "villes": [
+    {
+      "id": "clermont",
+      "nom": "Clermont-Ferrand",
+      "nbPropositions": 6,
+      "candidats": [
+        {
+          "id": "bianchi",
+          "nom": "Olivier Bianchi",
+          "nbPropositions": 3
+        },
+        {
+          "id": "bony",
+          "nom": "Julien Bony",
+          "nbPropositions": 2
+        },
+        {
+          "id": "darbois",
+          "nom": "Antoine Darbois",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "dijon",
+      "nom": "Dijon",
+      "nbPropositions": 6,
+      "candidats": [
+        {
+          "id": "koenders",
+          "nom": "Nathalie Koenders",
+          "nbPropositions": 2
+        },
+        {
+          "id": "haberstrau",
+          "nom": "Michel Haberstrau",
+          "nbPropositions": 2
+        },
+        {
+          "id": "bichot",
+          "nom": "Emmanuel Bichot",
+          "nbPropositions": 1
+        },
+        {
+          "id": "coudert",
+          "nom": "Thierry Coudert",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "nom": "Paris",
+      "nbPropositions": 6,
+      "candidats": [
+        {
+          "id": "gregoire",
+          "nom": "Emmanuel Grégoire",
+          "nbPropositions": 2
+        },
+        {
+          "id": "chikirou",
+          "nom": "Sophia Chikirou",
+          "nbPropositions": 2
+        },
+        {
+          "id": "bournazel",
+          "nom": "Pierre-Yves Bournazel",
+          "nbPropositions": 1
+        },
+        {
+          "id": "knafo",
+          "nom": "Sarah Knafo",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "strasbourg",
+      "nom": "Strasbourg",
+      "nbPropositions": 6,
+      "candidats": [
+        {
+          "id": "jakubowicz",
+          "nom": "Pierre Jakubowicz",
+          "nbPropositions": 2
+        },
+        {
+          "id": "becherirat",
+          "nom": "Ismaïl Becherirat",
+          "nbPropositions": 2
+        },
+        {
+          "id": "vetter",
+          "nom": "Jean-Philippe Vetter",
+          "nbPropositions": 1
+        },
+        {
+          "id": "kobryn",
+          "nom": "Florian Kobryn",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "toulouse",
+      "nom": "Toulouse",
+      "nbPropositions": 6,
+      "candidats": [
+        {
+          "id": "piquemal",
+          "nom": "François Piquemal",
+          "nbPropositions": 2
+        },
+        {
+          "id": "moudenc",
+          "nom": "Jean-Luc Moudenc",
+          "nbPropositions": 1
+        },
+        {
+          "id": "leonardelli",
+          "nom": "Julien Leonardelli",
+          "nbPropositions": 1
+        },
+        {
+          "id": "cottrel",
+          "nom": "Arthur Cottrel",
+          "nbPropositions": 1
+        },
+        {
+          "id": "meilhac",
+          "nom": "Lambert Meilhac & Domitille Allorant",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "montpellier",
+      "nom": "Montpellier",
+      "nbPropositions": 5,
+      "candidats": [
+        {
+          "id": "oziol",
+          "nom": "Nathalie Oziol",
+          "nbPropositions": 2
+        },
+        {
+          "id": "roumegas",
+          "nom": "Jean-Louis Roumegas",
+          "nbPropositions": 1
+        },
+        {
+          "id": "perrein",
+          "nom": "Isabelle Perrein",
+          "nbPropositions": 1
+        },
+        {
+          "id": "delafosse",
+          "nom": "Michaël Delafosse",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "ajaccio",
+      "nom": "Ajaccio",
+      "nbPropositions": 4,
+      "candidats": [
+        {
+          "id": "sbraggia",
+          "nom": "Stéphane Sbraggia",
+          "nbPropositions": 2
+        },
+        {
+          "id": "filoni",
+          "nom": "François Filoni",
+          "nbPropositions": 1
+        },
+        {
+          "id": "carrolaggi",
+          "nom": "Jean-Paul Carrolaggi",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "amiens",
+      "nom": "Amiens",
+      "nbPropositions": 4,
+      "candidats": [
+        {
+          "id": "decle",
+          "nom": "Paul-Éric Dècle",
+          "nbPropositions": 2
+        },
+        {
+          "id": "mercuzot",
+          "nom": "Benoît Mercuzot",
+          "nbPropositions": 1
+        },
+        {
+          "id": "caron",
+          "nom": "Aurélien Caron",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "la-rochelle",
+      "nom": "La Rochelle",
+      "nbPropositions": 4,
+      "candidats": [
+        {
+          "id": "guiraud",
+          "nom": "Thibaut Guiraud",
+          "nbPropositions": 2
+        },
+        {
+          "id": "batcabe",
+          "nom": "Christophe Batcabé",
+          "nbPropositions": 1
+        },
+        {
+          "id": "werbrouck",
+          "nom": "Séverine Werbrouck",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "limoges",
+      "nom": "Limoges",
+      "nbPropositions": 4,
+      "candidats": [
+        {
+          "id": "leonie",
+          "nom": "Vincent Léonie",
+          "nbPropositions": 1
+        },
+        {
+          "id": "freychet",
+          "nom": "Albin Freychet",
+          "nbPropositions": 1
+        },
+        {
+          "id": "lombertie",
+          "nom": "Émile-Roger Lombertie",
+          "nbPropositions": 1
+        },
+        {
+          "id": "miguel",
+          "nom": "Thierry Miguel",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "saint-denis-reunion",
+      "nom": "Saint-Denis (La Réunion)",
+      "nbPropositions": 4,
+      "candidats": [
+        {
+          "id": "bareigts",
+          "nom": "Éricka Bareigts",
+          "nbPropositions": 1
+        },
+        {
+          "id": "victoria",
+          "nom": "René-Paul Victoria",
+          "nbPropositions": 1
+        },
+        {
+          "id": "lebon",
+          "nom": "Gaëlle Lebon",
+          "nbPropositions": 1
+        },
+        {
+          "id": "mangrolia",
+          "nom": "Farid Mangrolia",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "villeurbanne",
+      "nom": "Villeurbanne",
+      "nbPropositions": 4,
+      "candidats": [
+        {
+          "id": "bret",
+          "nom": "Jean-Paul Bret",
+          "nbPropositions": 1
+        },
+        {
+          "id": "garabedian",
+          "nom": "Mathieu Garabédian",
+          "nbPropositions": 1
+        },
+        {
+          "id": "fraysse",
+          "nom": "Marc Fraysse",
+          "nbPropositions": 1
+        },
+        {
+          "id": "canon",
+          "nom": "Gérald Canon",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "aix-en-provence",
+      "nom": "Aix-en-Provence",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "klein",
+          "nom": "Philippe Klein",
+          "nbPropositions": 2
+        },
+        {
+          "id": "joissains",
+          "nom": "Sophie Joissains",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "la-seyne-sur-mer",
+      "nom": "La Seyne-sur-Mer",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "mansour",
+          "nom": "Cheikh Mansour",
+          "nbPropositions": 2
+        },
+        {
+          "id": "minniti",
+          "nom": "Joseph Minniti",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "le-havre",
+      "nom": "Le Havre",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "philippe",
+          "nom": "Édouard Philippe",
+          "nbPropositions": 2
+        },
+        {
+          "id": "zarifian",
+          "nom": "Sophie Zarifian",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "mulhouse",
+      "nom": "Mulhouse",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "lutz",
+          "nom": "Michèle Lutz",
+          "nbPropositions": 3
+        }
+      ]
+    },
+    {
+      "id": "nice",
+      "nom": "Nice",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "ciotti",
+          "nom": "Éric Ciotti",
+          "nbPropositions": 2
+        },
+        {
+          "id": "estrosi",
+          "nom": "Christian Estrosi",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "poitiers",
+      "nom": "Poitiers",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "moncond-huy",
+          "nom": "Léonore Moncond'huy",
+          "nbPropositions": 1
+        },
+        {
+          "id": "brottier",
+          "nom": "Anthony Brottier",
+          "nbPropositions": 1
+        },
+        {
+          "id": "rangheard",
+          "nom": "Charles Rangheard",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "toulon",
+      "nom": "Toulon",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "brunel",
+          "nom": "Magali Brunel",
+          "nbPropositions": 2
+        },
+        {
+          "id": "lavalette",
+          "nom": "Laure Lavalette",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "tours",
+      "nom": "Tours",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "bouchet",
+          "nom": "Christophe Bouchet",
+          "nbPropositions": 1
+        },
+        {
+          "id": "alfandari",
+          "nom": "Henri Alfandari",
+          "nbPropositions": 1
+        },
+        {
+          "id": "pierre",
+          "nom": "Benoist Pierre",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "vitry-sur-seine",
+      "nom": "Vitry-sur-Seine",
+      "nbPropositions": 3,
+      "candidats": [
+        {
+          "id": "bell-lloch",
+          "nom": "Pierre Bell-Lloch",
+          "nbPropositions": 1
+        },
+        {
+          "id": "tmimi",
+          "nom": "Hocine Tmimi",
+          "nbPropositions": 1
+        },
+        {
+          "id": "afflatet",
+          "nom": "Alain Afflatet",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "annecy",
+      "nom": "Annecy",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "roit-leveque",
+          "nom": "Guillaume Roit-Levêque",
+          "nbPropositions": 1
+        },
+        {
+          "id": "armand",
+          "nom": "Antoine Armand",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "avignon",
+      "nom": "Avignon",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "galzi",
+          "nom": "Olivier Galzi",
+          "nbPropositions": 1
+        },
+        {
+          "id": "fiori",
+          "nom": "Stéphan Fiori",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "bordeaux",
+      "nom": "Bordeaux",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "hurmic",
+          "nom": "Pierre Hurmic",
+          "nbPropositions": 1
+        },
+        {
+          "id": "cazenave",
+          "nom": "Thomas Cazenave",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "caen",
+      "nom": "Caen",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "chevalier",
+          "nom": "Thomas Chevalier",
+          "nbPropositions": 1
+        },
+        {
+          "id": "lecoutour",
+          "nom": "Xavier Le Coutour",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "chambery",
+      "nom": "Chambéry",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "patey",
+          "nom": "Vincent Patey",
+          "nbPropositions": 1
+        },
+        {
+          "id": "bernard",
+          "nom": "Brice Bernard",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "grenoble",
+      "nom": "Grenoble",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "carignon",
+          "nom": "Alain Carignon",
+          "nbPropositions": 1
+        },
+        {
+          "id": "gerbi",
+          "nom": "Hervé Gerbi",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "pau",
+      "nom": "Pau",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "bayrou",
+          "nom": "François Bayrou",
+          "nbPropositions": 1
+        },
+        {
+          "id": "arraou",
+          "nom": "Philippe Arraou",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "perpignan",
+      "nom": "Perpignan",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "idrac",
+          "nom": "Mickaël Idrac",
+          "nbPropositions": 1
+        },
+        {
+          "id": "blanc",
+          "nom": "Mathias Blanc",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "pessac",
+      "nom": "Pessac",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "curvale",
+          "nom": "Laure Curvale",
+          "nbPropositions": 1
+        },
+        {
+          "id": "couillard",
+          "nom": "Bérangère Couillard",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "reims",
+      "nom": "Reims",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "frigout",
+          "nom": "Anne-Sophie Frigout",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "saint-nazaire",
+      "nom": "Saint-Nazaire",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "lucas",
+          "nom": "Violaine Lucas",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "villejuif",
+      "nom": "Villejuif",
+      "nbPropositions": 2,
+      "candidats": [
+        {
+          "id": "esclangon",
+          "nom": "Christel Esclangon",
+          "nbPropositions": 2
+        }
+      ]
+    },
+    {
+      "id": "angers",
+      "nom": "Angers",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "bechu",
+          "nom": "Christophe Béchu",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "antibes",
+      "nom": "Antibes",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "ducatel",
+          "nom": "Éric Ducatel",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "antony",
+      "nom": "Antony",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "precetti",
+          "nom": "Perrine Precetti",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "brest",
+      "nom": "Brest",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "roudaut",
+          "nom": "Stéphane Roudaut",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "calais",
+      "nom": "Calais",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "bouchart",
+          "nom": "Natacha Bouchart",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "dunkerque",
+      "nom": "Dunkerque",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "vergriete",
+          "nom": "Patrice Vergriete",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "frejus",
+      "nom": "Fréjus",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "bonnemain",
+          "nom": "Emmanuel Bonnemain",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "lille",
+      "nom": "Lille",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "valet",
+          "nom": "Matthieu Valet",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "metz",
+      "nom": "Metz",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "grosdidier",
+          "nom": "François Grosdidier",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "montauban",
+      "nom": "Montauban",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "lallemand",
+          "nom": "Didier Lallemand",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "nancy",
+      "nom": "Nancy",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "henart",
+          "nom": "Laurent Hénart",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "nantes",
+      "nom": "Nantes",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "chombart",
+          "nom": "Foulques Chombart de Lauwe",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "orleans",
+      "nom": "Orléans",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "grouard",
+          "nom": "Serge Grouard",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "quimper",
+      "nom": "Quimper",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "assih",
+          "nom": "Isabelle Assih",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "rennes",
+      "nom": "Rennes",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "melan",
+          "nom": "Yan Mélan",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "saint-etienne",
+      "nom": "Saint-Étienne",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "juanico",
+          "nom": "Régis Juanico",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "troyes",
+      "nom": "Troyes",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "beury",
+          "nom": "Loëtitia Beury",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "valence",
+      "nom": "Valence",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "christophle",
+          "nom": "Paul Christophle",
+          "nbPropositions": 1
+        }
+      ]
+    },
+    {
+      "id": "versailles",
+      "nom": "Versailles",
+      "nbPropositions": 1,
+      "candidats": [
+        {
+          "id": "mazieres",
+          "nom": "François de Mazières",
+          "nbPropositions": 1
+        }
+      ]
+    }
+  ],
+  "propositions_marquantes": [
+    {
+      "villeId": "saint-etienne",
+      "ville": "Saint-Étienne",
+      "candidatId": "juanico",
+      "candidat": "Régis Juanico",
+      "liste": "Rassembler Saint-Étienne (PS/EELV/PCF)",
+      "sousTheme": "amenagement-urbain",
+      "sousThemeNom": "Aménagement urbain",
+      "texte": "Développement de zones piétonnes en centre-ville",
+      "source": "France Bleu, 2026"
+    },
+    {
+      "villeId": "saint-denis-reunion",
+      "ville": "Saint-Denis (La Réunion)",
+      "candidatId": "mangrolia",
+      "candidat": "Farid Mangrolia",
+      "liste": "Divers centre, Tous Dionysiens",
+      "sousTheme": "amenagement-urbain",
+      "sousThemeNom": "Aménagement urbain",
+      "texte": "Amélioration du cadre de vie et développement urbain",
+      "source": "Campagne Tous Dionysiens 2026"
+    },
+    {
+      "villeId": "pessac",
+      "ville": "Pessac",
+      "candidatId": "couillard",
+      "candidat": "Bérangère Couillard",
+      "liste": "Divers centre (ex-Renaissance, liste citoyenne)",
+      "sousTheme": "accessibilite",
+      "sousThemeNom": "Accessibilité",
+      "texte": "Amélioration de l'accessibilité pour tous les citoyens",
+      "source": "Campagne citoyenne Unis pour Pessac, 2026"
+    },
+    {
+      "villeId": "dijon",
+      "ville": "Dijon",
+      "candidatId": "haberstrau",
+      "candidat": "Michel Haberstrau",
+      "liste": "Dijon Change d'ère (EELV/PCF)",
+      "sousTheme": "accessibilite",
+      "sousThemeNom": "Accessibilité",
+      "texte": "Zéro rue non accessible aux personnes à mobilité réduite",
+      "source": "Infos Dijon, 2026"
+    },
+    {
+      "villeId": "brest",
+      "ville": "Brest",
+      "candidatId": "roudaut",
+      "candidat": "Stéphane Roudaut",
+      "liste": "Une nouvelle histoire pour Brest (DVD/UDI/Horizons/LR)",
+      "sousTheme": "accessibilite",
+      "sousThemeNom": "Accessibilité",
+      "texte": "Faire de l'inclusion et du handicap la grande cause du mandat",
+      "source": "stephaneroudaut2026.fr, 2026"
+    },
+    {
+      "villeId": "dijon",
+      "ville": "Dijon",
+      "candidatId": "koenders",
+      "candidat": "Nathalie Koenders",
+      "liste": "Dijon Écologique, Sociale, Attractive (PS/MoDem/EELV)",
+      "sousTheme": "amenagement-urbain",
+      "sousThemeNom": "Aménagement urbain",
+      "texte": "Piétonniser la cour d'honneur du Palais des Ducs de Bourgogne",
+      "source": "Dijon Actualités, 2026"
+    },
+    {
+      "villeId": "paris",
+      "ville": "Paris",
+      "candidatId": "gregoire",
+      "candidat": "Emmanuel Grégoire",
+      "liste": "Gauche unie (PS-Écologistes)",
+      "sousTheme": "amenagement-urbain",
+      "sousThemeNom": "Aménagement urbain",
+      "texte": "Requalification du Périphérique en boulevard urbain végétalisé",
+      "source": "Programme officiel 2026"
+    },
+    {
+      "villeId": "chambery",
+      "ville": "Chambéry",
+      "candidatId": "patey",
+      "candidat": "Vincent Patey",
+      "liste": "Divers droite, Le Pacte",
+      "sousTheme": "amenagement-urbain",
+      "sousThemeNom": "Aménagement urbain",
+      "texte": "Amélioration des rues et quartiers par participation citoyenne.",
+      "source": "Site officiel Chambéry 2026"
+    },
+    {
+      "villeId": "saint-denis-reunion",
+      "ville": "Saint-Denis (La Réunion)",
+      "candidatId": "victoria",
+      "candidat": "René-Paul Victoria",
+      "liste": "LR (Les Républicains)",
+      "sousTheme": "amenagement-urbain",
+      "sousThemeNom": "Aménagement urbain",
+      "texte": "Revitalisation du Pôle Océan et développement urbain structurant",
+      "source": "Campagne René-Paul Victoria 2026"
+    },
+    {
+      "villeId": "lille",
+      "ville": "Lille",
+      "candidatId": "valet",
+      "candidat": "Matthieu Valet",
+      "liste": "RN",
+      "sousTheme": "amenagement-urbain",
+      "sousThemeNom": "Aménagement urbain",
+      "texte": "Couverture du périphérique pour créer de nouveaux espaces urbains",
+      "source": "France Bleu Nord, février 2026"
+    }
+  ]
+}

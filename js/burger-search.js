@@ -68,7 +68,7 @@
     }
 
     var html = villes.map(function (v) {
-      return '<a class="mobile-menu-suggestion-item" href="/municipales/2026/?ville=' + encodeURIComponent(v.id) + '">' +
+      return '<a class="mobile-menu-suggestion-item" href="/municipales-2026/' + encodeURIComponent(v.id) + '/">' +
         '<i class="ph ph-map-pin"></i>' +
         '<span>' + esc(v.nom) + '</span>' +
         '<span class="mobile-menu-suggestion-cp">' + v.codePostal + '</span>' +
@@ -80,7 +80,7 @@
         html += '<div style="padding:6px 16px;font-size:0.72rem;font-weight:700;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.05em;border-top:1px solid rgba(255,255,255,0.1)">Candidats</div>';
       }
       candidats.forEach(function (r) {
-        html += '<a class="mobile-menu-suggestion-item" href="/municipales/2026/candidat.html?ville=' + encodeURIComponent(r.villeId) + '&candidat=' + encodeURIComponent(r.candidatId) + '">' +
+        html += '<a class="mobile-menu-suggestion-item" href="/municipales-2026/' + encodeURIComponent(r.villeId) + '/candidats/' + encodeURIComponent(r.candidatId) + '/">' +
           '<i class="ph ph-user"></i>' +
           '<span>' + esc(r.candidatNom) + '</span>' +
           '<span class="mobile-menu-suggestion-cp">' + esc(r.villeNom) + '</span>' +

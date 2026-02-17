@@ -123,10 +123,49 @@
     document.body.style.overflow = "";
   }
 
+  var API_URL = "/api/contribute";
+
   function buildMailto(subject, bodyText) {
     return "mailto:" + EMAIL +
       "?subject=" + encodeURIComponent(subject) +
       "&body=" + encodeURIComponent(bodyText);
+  }
+
+  /** Envoie la contribution via l'API Brevo (fallback: mailto) */
+  function envoyerContribution(data) {
+    var btn = document.querySelector(".contribuer-btn--send");
+    if (btn) { btn.disabled = true; btn.innerHTML = '<i class="ph ph-spinner"></i> Envoi\u2026'; }
+
+    return fetch(API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
+    })
+    .then(function (resp) {
+      if (!resp.ok) throw new Error("HTTP " + resp.status);
+      return resp.json();
+    })
+    .then(function () {
+      showStep(
+        '<div class="contribuer-success">' +
+          '<i class="ph ph-check-circle"></i>' +
+          '<h2>Merci pour votre contribution\u00a0!</h2>' +
+          '<p>Nous avons bien re\u00e7u votre message. Un email de confirmation vous a \u00e9t\u00e9 envoy\u00e9.</p>' +
+          '<button type="button" class="contribuer-btn--close" onclick="document.getElementById(\'modal-contribuer\').hidden=true;document.body.style.overflow=\'\'">Fermer</button>' +
+        '</div>'
+      );
+    })
+    .catch(function () {
+      // Fallback mailto si l'API est indisponible
+      var subject = data.type === "erreur"
+        ? "Signalement \u2014 " + (data.ville || "")
+        : (data.sujet || "Contact");
+      var text = data.message;
+      if (data.email) text += "\n\nEmail : " + data.email;
+      text += "\n\n---\nEnvoy\u00e9 depuis " + location.href;
+      window.location.href = buildMailto(subject, text);
+      setTimeout(fermer, 300);
+    });
   }
 
   // === Autocomplétion ===
@@ -251,25 +290,29 @@
     var sujet = document.getElementById("c-sujet");
     var msg = document.getElementById("c-msg");
 
-    var subject, text;
     var userEmail = emailField ? emailField.value.trim() : "";
 
     if (ville) {
-      subject = "Signalement \u2014 " + (ville.value || "");
-      text = "Ville : " + (ville.value || "") + "\n";
-      if (candidat && candidat.value) text += "Candidat : " + candidat.value + "\n";
-      text += "\nDescription :\n" + (desc ? desc.value : "") + "\n";
-      if (source && source.value) text += "\nSource correcte : " + source.value + "\n";
+      // Type erreur
+      envoyerContribution({
+        type: "erreur",
+        email: userEmail,
+        message: desc ? desc.value : "",
+        ville: ville.value || "",
+        candidat: candidat ? candidat.value : "",
+        source: source ? source.value : "",
+        pageUrl: location.href
+      });
     } else {
-      subject = sujet ? sujet.value : "Contact";
-      text = msg ? msg.value : "";
+      // Type autre
+      envoyerContribution({
+        type: "autre",
+        email: userEmail,
+        message: msg ? msg.value : "",
+        sujet: sujet ? sujet.value : "Contact",
+        pageUrl: location.href
+      });
     }
-
-    if (userEmail) text += "\n\nEmail de contact : " + userEmail;
-    text += "\n\n---\nEnvoy\u00e9 depuis " + location.href;
-
-    window.location.href = buildMailto(subject, text);
-    setTimeout(fermer, 300);
   });
 
   document.addEventListener("keydown", function (e) {

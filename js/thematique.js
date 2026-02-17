@@ -91,7 +91,7 @@
       var candidatsText = v.candidats.map(function (c) { return c.nom; }).slice(0, 3).join(", ");
       if (v.candidats.length > 3) candidatsText += " +" + (v.candidats.length - 3);
 
-      return '<a href="/municipales/2026/?ville=' + v.id + '" class="theme-ville-card">' +
+      return '<a href="/municipales-2026/' + v.id + '/" class="theme-ville-card">' +
         '<div class="theme-ville-card__info">' +
           '<span class="theme-ville-card__nom">' + esc(v.nom) + '</span>' +
           '<span class="theme-ville-card__count">' + v.nbPropositions + ' propositions</span>' +
@@ -116,7 +116,7 @@
     var html = data.propositions_marquantes.map(function (p) {
       return '<div class="theme-prop-card">' +
         '<div class="theme-prop-card__header">' +
-          '<a href="/municipales/2026/candidat.html?ville=' + p.villeId + '&candidat=' + p.candidatId + '" class="theme-prop-card__candidat" style="color:#3B82F6;text-decoration:none">' + esc(p.candidat) + '</a>' +
+          '<a href="/municipales-2026/' + p.villeId + '/candidats/' + p.candidatId + '/" class="theme-prop-card__candidat" style="color:#3B82F6;text-decoration:none">' + esc(p.candidat) + '</a>' +
           '<span class="theme-prop-card__ville">' + esc(p.ville) + '</span>' +
           '<span class="theme-prop-card__tag">' + esc(p.sousThemeNom) + '</span>' +
         '</div>' +

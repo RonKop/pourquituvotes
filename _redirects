@@ -1,18 +1,8 @@
-# Enjeux silo (destinations sans .html = déjà normalisées → pas de 308)
-/enjeux-2026  /enjeux-index  200
-/enjeux-2026/  /enjeux-index  200
-/enjeux-2026/:theme  /thematique  200
-/enjeux-2026/:theme/  /thematique  200
+# Les shells HTML statiques dans municipales-2026/ et enjeux-2026/
+# sont servis directement par Cloudflare Pages (fichiers physiques).
+# Plus besoin de rewrites wildcard pour ces chemins.
 
-# Clean URLs villes (trailing slash = forme canonique d'un dossier)
-/municipales-2026/:ville  /municipales/2026/  200
-/municipales-2026/:ville/  /municipales/2026/  200
-
-# Clean URLs candidats (sans .html)
-/municipales-2026/:ville/candidats/:candidat  /municipales/2026/candidat  200
-/municipales-2026/:ville/candidats/:candidat/  /municipales/2026/candidat  200
-
-# Pages statiques .html → clean URL (301 car les anciennes URLs circulent peut-être)
+# Pages statiques .html -> clean URL
 /a-propos.html  /a-propos  301
 /methodologie.html  /methodologie  301
 /faq.html  /faq  301

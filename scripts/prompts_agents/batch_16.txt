@@ -1,0 +1,47 @@
+Tu travailles sur le projet "Pour qui tu votes" dans `C:\Users\KOPELMANRon\Downloads\FR comp mun`.
+
+Ta tache : extraire les propositions de candidats depuis leurs sites web et les inserer dans les JSON d'election.
+
+**Candidats a traiter :**
+1. Guillaume Lescaut (Aubervilliers) - https://www.guillaumelescaut2026.fr/ - ville: aubervilliers, candidat id: lescaut (0 props existantes)
+2. Bruno Beschizza (Aulnay-sous-Bois) - https://brunobeschizza.fr/ - ville: aulnay-sous-bois, candidat id: beschizza (0 props existantes)
+3. Xavier Le Coutour (Caen) - https://xavierlecoutour2026.fr/ - ville: caen, candidat id: lecoutour (0 props existantes)
+
+**Methode :**
+Pour chaque candidat :
+1. Fetch le site (et les sous-pages programme : /programme, /projet, /nos-engagements, /propositions, etc.)
+2. Si le site est JS-only ou vague, chercher dans la presse locale avec WebSearch : "[nom] [ville] programme municipales 2026"
+3. Extraire les propositions concretes (pas de declarations vagues)
+4. Les mapper aux sous-themes : "categorie/sous-theme"
+5. Ecrire scripts/tmp_{candidat_id}_props.json
+6. Executer : python scripts/inserer_propositions.py --ville {ville_id} --candidat {candidat_id} --file scripts/tmp_{candidat_id}_props.json
+
+**Format du JSON :**
+```json
+{
+  "categorie/sous-theme": {
+    "texte": "Description de la proposition",
+    "source": "Programme officiel",
+    "sourceUrl": "https://url-source"
+  }
+}
+```
+
+**Les 44 sous-themes :**
+securite: police-municipale, videoprotection, prevention-mediation, violences-femmes
+transports: transports-en-commun, velo-mobilites-douces, pietons-circulation, stationnement, tarifs-gratuite
+logement: logement-social, logements-vacants, encadrement-loyers, acces-logement
+education: petite-enfance, ecoles-renovation, cantines-fournitures, periscolaire-loisirs, jeunesse
+environnement: espaces-verts, proprete-dechets, climat-adaptation, renovation-energetique, alimentation-durable
+sante: centres-sante, prevention-sante, seniors
+democratie: budget-participatif, transparence, vie-associative, services-publics
+economie: commerce-local, emploi-insertion, attractivite
+culture: equipements-culturels, evenements-creation
+sport: equipements-sportifs, sport-pour-tous
+urbanisme: amenagement-urbain, accessibilite, quartiers-prioritaires
+solidarite: aide-sociale, egalite-discriminations, pouvoir-achat
+
+**Important :**
+- Si un site est inaccessible, chercher le bon URL ou utiliser la presse locale
+- Ne pas inserer de propositions trop vagues ("une ville plus sure" sans mesure concrete)
+- Privilegier les sous-pages thematiques du site plutot que la page d'accueil

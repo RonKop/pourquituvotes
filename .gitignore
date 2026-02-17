@@ -10,3 +10,22 @@ data/crawl-registry.json
 
 # Backups
 *.backup-*
+
+# Credentials & secrets
+scripts/google_credentials.json
+scripts/brevo_setup.py
+scripts/envoyer_emails_candidats.py
+scripts/stats_emails.py
+scripts/publier_twitter.py
+scripts/linkedin_auth.py
+
+# Données personnelles (emails candidats)
+data/emails_envoyes.json
+data/suivi_candidats.csv
+
+# Artefacts Windows / test
+nul
+test_icons.png
+
+# Dossier Téléchargements personnel
+scripts/Téléchargements/

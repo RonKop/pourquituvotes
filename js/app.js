@@ -1945,25 +1945,25 @@
       var partiels = tousCandidats.filter(function(c) { return !c.programmeComplet; });
 
       var html = '<strong><i class="ph ph-scales"></i> \u00C9quit\u00E9 de comparaison :</strong> ';
+      var villeId = donneesElection.ville ? donneesElection.ville.id || (villeSelectionnee && villeSelectionnee.id) : (villeSelectionnee && villeSelectionnee.id) || "";
       if (complets.length > 0 && partiels.length > 0) {
         html += 'Tous les candidats n\u2019ont pas encore publi\u00E9 leur programme officiel. ';
         html += 'Un radar plus petit ne signifie pas forc\u00E9ment moins d\u2019ambition, mais parfois simplement moins de propositions rendues publiques \u00E0 ce jour.';
-        html += '<div class="methodo-legend">';
-        var villeId = donneesElection.ville ? donneesElection.ville.id || (villeSelectionnee && villeSelectionnee.id) : (villeSelectionnee && villeSelectionnee.id) || "";
-        complets.forEach(function(c) {
-          var href = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(c.id) + "/";
-          html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--complet">programme officiel <i class="ph ph-check-circle"></i></span></a>';
-        });
-        partiels.forEach(function(c) {
-          var href = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(c.id) + "/";
-          html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--partiel">programme \u00E0 venir <i class="ph ph-clock"></i></span></a>';
-        });
-        html += '</div>';
       } else if (complets.length === tousCandidats.length) {
         html += 'Tous les candidats affich\u00E9s ont publi\u00E9 un programme officiel. Les donn\u00E9es sont exhaustives.';
       } else {
-        html += 'Aucun candidat n\u2019a encore publi\u00E9 de programme officiel. Les donn\u00E9es sont bas\u00E9es sur des sources publiques - programme \u00E0 venir.';
+        html += 'Aucun candidat n\u2019a encore publi\u00E9 de programme officiel. Les donn\u00E9es sont bas\u00E9es sur des sources publiques.';
       }
+      html += '<div class="methodo-legend">';
+      complets.forEach(function(c) {
+        var href = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(c.id) + "/";
+        html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--complet">programme officiel <i class="ph ph-check-circle"></i></span></a>';
+      });
+      partiels.forEach(function(c) {
+        var href = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(c.id) + "/";
+        html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--partiel">programme \u00E0 venir <i class="ph ph-clock"></i></span></a>';
+      });
+      html += '</div>';
 
       methodoDiv.innerHTML = html;
     }
@@ -2696,24 +2696,30 @@
 
     var html = '';
 
-    // Avertissement si mix complets/partiels
+    // Équité de comparaison — toujours affichée avec la liste des candidats
+    html += '<div class="repartition-avertissement__bloc repartition-avertissement__bloc--equite">';
+    html += '<strong><i class="ph ph-scales"></i> \u00C9quit\u00E9 de comparaison</strong>';
     if (complets.length > 0 && partiels.length > 0) {
-      html += '<div class="repartition-avertissement__bloc repartition-avertissement__bloc--equite">';
-      html += '<strong><i class="ph ph-scales"></i> \u00C9quit\u00E9 de comparaison</strong>';
       html += '<p>Tous les candidats n\u2019ont pas encore publi\u00E9 leur programme officiel. ';
       html += 'Un nombre inf\u00E9rieur de propositions ne refl\u00E8te pas n\u00E9cessairement un projet moins ambitieux.</p>';
-      html += '<div class="repartition-avertissement__liste">';
-      complets.forEach(function (c) {
-        var lienCandidat = '/municipales-2026/' + encodeURIComponent(villeSelectionnee.id) + '/candidats/' + encodeURIComponent(c.id) + '/';
-        html += '<a href="' + lienCandidat + '" class="repartition-avertissement__tag repartition-avertissement__tag--complet"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--complet">' + donnees.totaux[c.id] + ' propositions, programme officiel <i class="ph ph-check-circle"></i></span></a>';
-      });
-      partiels.forEach(function (c) {
-        var lienCandidat = '/municipales-2026/' + encodeURIComponent(villeSelectionnee.id) + '/candidats/' + encodeURIComponent(c.id) + '/';
-        html += '<a href="' + lienCandidat + '" class="repartition-avertissement__tag repartition-avertissement__tag--partiel"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--partiel">' + donnees.totaux[c.id] + ' propositions, programme \u00E0 venir <i class="ph ph-clock"></i></span></a>';
-      });
-      html += '</div>';
-      html += '</div>';
+    } else if (complets.length === candidats.length) {
+      html += '<p>Tous les candidats affich\u00E9s ont publi\u00E9 un programme officiel.</p>';
+    } else {
+      html += '<p>Aucun candidat n\u2019a encore publi\u00E9 de programme officiel. Les donn\u00E9es sont bas\u00E9es sur des sources publiques.</p>';
     }
+    html += '<div class="repartition-avertissement__liste">';
+    complets.forEach(function (c) {
+      var lienCandidat = '/municipales-2026/' + encodeURIComponent(villeSelectionnee.id) + '/candidats/' + encodeURIComponent(c.id) + '/';
+      html += '<a href="' + lienCandidat + '" class="repartition-avertissement__tag repartition-avertissement__tag--complet"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--complet">' + donnees.totaux[c.id] + ' propositions, programme officiel <i class="ph ph-check-circle"></i></span></a>';
+    });
+    partiels.forEach(function (c) {
+      var lienCandidat = '/municipales-2026/' + encodeURIComponent(villeSelectionnee.id) + '/candidats/' + encodeURIComponent(c.id) + '/';
+      var nbProps = donnees.totaux[c.id] || 0;
+      var statut = nbProps > 0 ? nbProps + ' propositions, programme \u00E0 venir' : 'programme \u00E0 venir';
+      html += '<a href="' + lienCandidat + '" class="repartition-avertissement__tag repartition-avertissement__tag--partiel"><strong class="repartition-avertissement__nom">' + echapper(c.nom) + '</strong><span class="repartition-avertissement__statut repartition-avertissement__statut--partiel">' + statut + ' <i class="ph ph-clock"></i></span></a>';
+    });
+    html += '</div>';
+    html += '</div>';
 
     // Date de disponibilité des programmes
     html += '<div class="repartition-avertissement__bloc repartition-avertissement__bloc--date">';

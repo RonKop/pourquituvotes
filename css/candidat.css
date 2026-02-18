@@ -58,6 +58,13 @@
   color: rgba(255,255,255,0.8);
   margin-bottom: 0.5rem;
 }
+.candidat-hero__soutiens {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.55);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
 .candidat-hero__tags {
   display: flex;
   gap: 0.5rem;

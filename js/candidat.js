@@ -175,6 +175,7 @@
         '<div class="candidat-hero__info">' +
           '<h1 class="candidat-hero__nom">' + echapper(candidat.nom) + '</h1>' +
           '<div class="candidat-hero__liste">' + echapper(candidat.liste) + ' &mdash; ' + echapper(ville) + '</div>' +
+          (candidat.soutiens ? '<div class="candidat-hero__soutiens">Soutenue par : ' + echapper(candidat.soutiens) + '</div>' : '') +
           '<div class="candidat-hero__tags">' +
             (candidat.programmeComplet
               ? '<span class="candidat-hero__tag candidat-hero__tag--complet"><i class="ph ph-check-circle"></i> Programme complet</span>'

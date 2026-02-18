@@ -23,10 +23,11 @@
     {
       "id": "compagnon",
       "nom": "Charles Compagnon",
-      "liste": "Vivre Rennes ! (Horizons)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "liste": "Vivre Rennes ! (Union centre, droite et société civile)",
+      "programmeUrl": "https://vivre-rennes.fr/",
+      "programmeComplet": true,
+      "programmePdfPath": "compagnon-rennes-programme.pdf",
+      "soutiens": "Horizons, Renaissance, MoDem, UDI, Parti Breton, Nouvelle Énergie, Démocrates et Progressistes, Démocrates pour la Planète"
     },
     {
       "id": "trousseau",
@@ -109,9 +110,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Doubler les effectifs de la police municipale avec une présence 24h/24 dans tous les quartiers, armement et renforcement de la formation",
-              "source": "Rennes Infos Autrement",
-              "sourceUrl": "https://www.rennes-infos-autrement.fr/municipales-2026-a-rennes-charles-compagnon-presente-son-programme/"
+              "texte": "Doublement des effectifs de la police municipale avec présence 24h/24 dans tous les quartiers, armement et formation renforcée. Création de 4 commissariats de proximité (Maurepas, Villejean, Cleunay, Le Blosne). Création d'une police métropolitaine des transports (métro, bus, trambus).",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": {
               "texte": "Doublement des effectifs de la police municipale avec armement",
@@ -138,9 +139,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Tripler le nombre de caméras de vidéoprotection avec des opérateurs dédiés (investissement 3-8M€, coûts 1-2.5M€/an)",
-              "source": "Rennes Infos Autrement",
-              "sourceUrl": "https://www.rennes-infos-autrement.fr/municipales-2026-a-rennes-charles-compagnon-presente-son-programme/"
+              "texte": "Triplement des caméras de vidéoprotection avec opérateurs dédiés. Éclairage nocturne renforcé et expérimentation de systèmes d'éclairage intelligent (détection de mouvement).",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": {
               "texte": "Triplement des caméras de vidéosurveillance couplées à des dispositifs de haute technologie",
@@ -167,9 +168,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Ouverture de 4 postes de police de proximité à Maurepas, Villejean, Cleunay et Blosne",
-              "source": "Unidivers",
-              "sourceUrl": "https://unidivers.fr/rennes-municipales-programme-charles-compagnon/"
+              "texte": "Brigade de prévention et de médiation déployée dans les logements sociaux en lien avec les bailleurs. Lutte ciblée contre les trafics dans les halls et parkings. Agents de quartier clairement identifiés et présents.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": {
               "texte": "Instauration de dispositifs Sentinelles de quartier (signalement citoyen) et brigades de nuit et de tranquillité publique",
@@ -224,9 +225,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Étudier l'extension du métro au-delà du rocade, déployer des lignes de trambus vers les communes de Rennes Métropole avec parkings relais, relancer le RER métropolitain et étendre les horaires des transports en commun jusqu'à 3h du matin le week-end",
-              "source": "Rennes Infos Autrement",
-              "sourceUrl": "https://www.rennes-infos-autrement.fr/municipales-2026-a-rennes-charles-compagnon-presente-son-programme/"
+              "texte": "Études pour prolonger le métro au-delà de la rocade (aéroport, parc-expo, Ker Lann). Lignes de trambus vers Bruz, Pacé, Liffré, Châteaugiron avec parkings relais en périphérie. Relance du RER métropolitain. Métro et bus jusqu'à 3h du matin le week-end. Bus circulaire de première couronne. Navettes fluviales sur la Vilaine.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": null,
             "masson": null,
@@ -249,9 +250,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Plan de sécurisation des pistes cyclables et meilleure accessibilité pour les personnes âgées et handicapées",
-              "source": "Unidivers",
-              "sourceUrl": "https://unidivers.fr/rennes-municipales-programme-charles-compagnon/"
+              "texte": "Mise en œuvre d'un plan vélo sécurisé et apaisé dans toute la ville.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": null,
             "masson": null,
@@ -273,7 +274,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Opération SARA (Sainte-Anne et République Apaisées) : espaces sûrs, propres et accueillants dans le centre-ville.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": {
               "texte": "Organisation du plan de circulation et redéfinition de la place de la voiture dans l'espace urbain",
               "source": "Espoir Rennais",
@@ -298,7 +303,11 @@
           "propositions": {
             "appere": null,
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Surélévation du parking Kléber (+120 places) et végétalisation. Création d'un stationnement résident pour la 2e voiture. Pass pro stationnement pour les commerçants et professions libérales.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -324,9 +333,9 @@
               "sourceUrl": "https://www.francebleu.fr/"
             },
             "compagnon": {
-              "texte": "Gratuité des transports lors des grands événements commerciaux et culturels",
-              "source": "Rennes Infos Autrement",
-              "sourceUrl": "https://www.rennes-infos-autrement.fr/municipales-2026-a-rennes-charles-compagnon-presente-son-programme/"
+              "texte": "Gratuité des transports en commun lors des temps forts commerciaux et culturels (soldes, Noël, etc.).",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": null,
             "masson": null,
@@ -359,9 +368,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Développer massivement le bail réel solidaire et réviser les règles d'urbanisme",
-              "source": "France Bleu Armorique",
-              "sourceUrl": "https://www.francebleu.fr/bretagne/ille-et-vilaine-35/rennes/municipales-2026-reelection-au-premier-tour-ou-quadrangulaire-dix-projets-face-a-nathalie-appere-maire-de-rennes-2120058"
+              "texte": "Réserver un logement sur trois aux actifs travaillant à Rennes. Logements accessibles pour les actifs et les classes moyennes.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": {
               "texte": "Révision des critères d'accès aux logements sociaux et plan ambitieux en matière de logement",
@@ -387,7 +396,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Priorité à la réhabilitation et au recyclage urbain avant toute extension de la ville. Fin de la bétonisation brutale et des projets imposés sans concertation.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -412,7 +425,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Révision des règles d'urbanisme (PLUi et PLH) pour mieux organiser la construction et le logement sur le territoire.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -441,7 +458,11 @@
               "source": "TVR, janvier 2026",
               "sourceUrl": "https://www.tvr.bzh/"
             },
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Développement massif du Bail Réel Solidaire pour réduire durablement le coût du foncier. Plan logement étudiant en partenariat avec le CROUS et les bailleurs.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": {
@@ -472,7 +493,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Augmenter de 30 % les capacités d'accueil de la petite enfance sur le mandat. Développement de crèches aux horaires élargis (soir, week-end) pour les familles aux horaires atypiques.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -535,7 +560,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Organisation du « Temps des enfants » : redonner la parole aux familles sur l'organisation du périscolaire et des loisirs.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -557,9 +586,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Création d'un Conseil Municipal de la Jeunesse avec réel pouvoir décisionnel, déploiement d'espaces communs dans les quartiers, extension de la carte Sortir aux boursiers échelon 1",
-              "source": "Unidivers",
-              "sourceUrl": "https://unidivers.fr/rennes-municipales-programme-charles-compagnon/"
+              "texte": "Création d'un Conseil municipal de la jeunesse doté d'un véritable pouvoir de proposition. Déploiement de tiers-lieux jeunesse dans les quartiers. Extension de la Carte Sortir aux étudiants boursiers échelon 1 et 0 bis.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": null,
             "masson": null,
@@ -588,9 +617,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Moratoire sur l'abattage des arbres et création d'îlots de fraîcheur dans chaque quartier. Végétalisation massive des cours d'école, trottoirs et parkings",
-              "source": "France Bleu Armorique",
-              "sourceUrl": "https://www.francebleu.fr/bretagne/ille-et-vilaine-35/rennes/municipales-2026-reelection-au-premier-tour-ou-quadrangulaire-dix-projets-face-a-nathalie-appere-maire-de-rennes-2120058"
+              "texte": "Moratoire sur l'abattage des arbres. Création d'un îlot de fraîcheur par quartier. Végétalisation massive des cours d'école, des parkings et des trottoirs.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": null,
             "masson": null,
@@ -616,7 +645,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Opération choc de propreté dès le début du mandat. Tolérance zéro pour les dégradations et dépôts sauvages. Rétablissement du ramassage des déchets verts. Arrêtés anti-tags avec nettoyage immédiat des dégradations.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -637,7 +670,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Construction d'une usine de méthanisation métropolitaine (biogaz).",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": {
               "texte": "Aménagement du territoire en adéquation avec les enjeux environnementaux et les besoins en logements",
               "source": "Espoir Rennais",
@@ -666,7 +703,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Plan de rénovation énergétique des bâtiments municipaux. Mise en place d'un réseau de réemploi (recyclerie) près des écoles.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -715,9 +756,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Ouverture de centres santé-solidarité dans les quartiers prioritaires",
-              "source": "Unidivers",
-              "sourceUrl": "https://unidivers.fr/rennes-municipales-programme-charles-compagnon/"
+              "texte": "Ouverture de maisons de santé et de solidarité dans les quartiers prioritaires.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": null,
             "masson": null,
@@ -739,7 +780,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Déploiement du programme « Rennes bouge pour sa santé » : activités physiques adaptées, alimentation durable, prévention des addictions.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -787,7 +832,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Budget participatif par quartier. Référendums populaires locaux sur les grands projets.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -808,7 +857,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Aucune hausse d'impôts sur le mandat, des priorités claires et évaluées. Concerter avant de décider, pas après. Charte de la construction et de la citoyenneté rendue opposable juridiquement.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -834,9 +887,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Rénovation et extension de la Maison des Associations avec maintien du budget associatif global stable",
-              "source": "Unidivers",
-              "sourceUrl": "https://unidivers.fr/rennes-municipales-programme-charles-compagnon/"
+              "texte": "Rénovation et extension de la Maison des associations. Budget global maintenu, subventions attribuées en fonction de l'utilité locale et du respect des valeurs républicaines.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": null,
             "masson": null,
@@ -858,7 +911,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Décider au plus près des quartiers (subsidiarité, conseils de quartier renforcés). Redonner la parole aux Rennais sur les décisions structurantes.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -885,7 +942,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Plan « Quartiers vivants » pour le commerce. Centre-ville et quartiers commerçants vivants et attractifs.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": {
               "texte": "Maintien et dynamisation du commerce en centre-ville",
               "source": "Espoir Rennais",
@@ -911,9 +972,9 @@
             },
             "mesmeur": null,
             "compagnon": {
-              "texte": "Création d'un fonds d'innovation économique, objectif de 10 000 emplois en 6 ans via des relocalisations ciblées, plan local d'insertion pour jeunes et seniors",
-              "source": "Unidivers",
-              "sourceUrl": "https://unidivers.fr/rennes-municipales-programme-charles-compagnon/"
+              "texte": "Plan local d'insertion pour les jeunes et les seniors. Renforcement des liens entreprises/formation/alternance. Soutien aux structures de l'économie sociale et solidaire. Création d'un permis de conduire civique pour faciliter l'accès à l'emploi.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
             },
             "trousseau": null,
             "masson": null,
@@ -935,7 +996,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Création d'un fonds d'innovation et de transition économique. Relocalisation industrielle ciblée (objectif : 10 000 emplois en 6 ans). Création d'une maison citoyenne de l'Intelligence Artificielle.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -962,7 +1027,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Construction d'un Zénith (12 000 à 15 000 places), équipement métropolitain structurant. Soutien au projet de musée de la Justice sur le site de la prison Jacques Cartier.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -983,7 +1052,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Candidature de Rennes au titre de Capitale européenne de la culture. Soutien renforcé à la création artistique locale. Développement du tourisme urbain et culturel. Ouverture d'une antenne de l'office de tourisme près de la gare.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -1010,7 +1083,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Construction d'un nouveau stade Roazhon Park II financé par le propriétaire du Stade Rennais. Roazhon Park I consacré au rugby et aux pratiques sportives féminines. Installation de bassins de natation mobiles et extension des horaires des piscines. Rénovation et modernisation des équipements sportifs existants.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -1031,7 +1108,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Développement du sport pour tous, du handisport et du sport inclusif. Première licence sportive gratuite pour les enfants de 6 ans.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -1058,7 +1139,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Moratoire sur la construction d'immeubles de grande hauteur dans les quartiers pavillonnaires. Respect du cadre de vie existant. Création de comités locaux d'urbanisme avec droit d'initiative citoyenne.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -1083,7 +1168,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Amélioration de l'accessibilité pour les personnes âgées et en situation de handicap dans les transports et espaces publics.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,
@@ -1104,7 +1193,11 @@
               "sourceUrl": "https://rennes-solidaire.fr/notre-programme/"
             },
             "mesmeur": null,
-            "compagnon": null,
+            "compagnon": {
+              "texte": "Création d'un quartier des stades autour de la route de Lorient. Parkings relais en périphérie connectés aux quartiers rennais.",
+              "source": "Programme « Vivre Rennes ! » (PDF officiel, février 2026)",
+              "sourceUrl": "https://vivre-rennes.fr/wp-content/uploads/2026/02/VIVRE-RENNES-AVEC-CHARLES-COMPAGNON-Notre-programme-web.pdf"
+            },
             "trousseau": null,
             "masson": null,
             "rabate": null,

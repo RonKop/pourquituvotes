@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var DATA_VERSION = "2026021804";
+  var DATA_VERSION = "2026021805";
   var DATA_BASE_URL = "/data/";
 
   // === Utilitaires (copiés de app.js) ===

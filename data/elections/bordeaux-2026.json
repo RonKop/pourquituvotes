@@ -15,9 +15,9 @@
     {
       "id": "cazenave",
       "nom": "Thomas Cazenave",
-      "liste": "Renaissance",
-      "programmeUrl": "https://fairegagnerbordeaux.fr/",
-      "programmeComplet": false,
+      "liste": "Faire gagner Bordeaux (Renaissance / Droite / Centre)",
+      "programmeUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -97,7 +97,11 @@
           "nom": "Transports en commun",
           "propositions": {
             "hurmic": null,
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Révision des plans de transport pour améliorer la fluidité et réduire les embouteillages.",
+              "source": "Rue89 Bordeaux, novembre 2025",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -110,7 +114,11 @@
               "source": "Programme officiel 2026",
               "sourceUrl": "https://pierrehurmic2026.fr/"
             },
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Déploiement de bornes de recharge pour véhicules électriques dans toute la ville.",
+              "source": "France Bleu Gironde, janvier 2026",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -176,7 +184,11 @@
               "source": "Programme officiel 2026",
               "sourceUrl": "https://pierrehurmic2026.fr/"
             },
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Construction de nouveaux logements via la transformation de bureaux vacants, avec objectif de mixité sociale.",
+              "source": "Rue89 Bordeaux, janvier 2026",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -248,7 +260,11 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "hurmic": null,
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Gel des tarifs des cantines scolaires pour tout le mandat. Augmentation de la part de bio et local à 75% dans la restauration collective.",
+              "source": "France Bleu Gironde + Site Institut Montaigne (proposition 2020 reconduite)",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -303,7 +319,11 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "hurmic": null,
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Réutilisation des eaux usées et gestion pragmatique des ressources en eau face au changement climatique.",
+              "source": "France Bleu Gironde, janvier 2026",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -321,7 +341,11 @@
           "nom": "Alimentation durable",
           "propositions": {
             "hurmic": null,
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Garantir une majorité de places aux produits bio et locaux dans les marchés bordelais.",
+              "source": "Site Institut Montaigne (proposition 2020 reconduite)",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         }
@@ -382,7 +406,11 @@
           "nom": "Transparence",
           "propositions": {
             "hurmic": null,
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Grande consultation des Bordelais pour construire le programme avec les citoyens (déjà lancée en 2025).",
+              "source": "Site Renouveau Bordeaux",
+              "sourceUrl": "https://renouveaubordeaux.fr/"
+            },
             "poutou": null
           }
         },
@@ -400,7 +428,11 @@
           "nom": "Services publics",
           "propositions": {
             "hurmic": null,
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Remunicipalisation de la propreté (fin de la délégation privée). Création de 30 quartiers de vie pour plus de proximité dans les services municipaux.",
+              "source": "Rue89 Bordeaux + site officiel",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         }
@@ -419,7 +451,11 @@
               "source": "Programme officiel 2026",
               "sourceUrl": "https://pierrehurmic2026.fr/"
             },
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Soutien aux commerçants via le gel des tarifs et l'amélioration de l'accessibilité (stationnement gratuit le week-end).",
+              "source": "Rue89 Bordeaux, novembre 2025",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -437,7 +473,11 @@
           "nom": "Attractivité",
           "propositions": {
             "hurmic": null,
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Faire de Bordeaux une capitale européenne de la culture et renforcer son rayonnement économique et sportif.",
+              "source": "France Bleu Gironde + site officiel",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         }
@@ -452,7 +492,11 @@
           "nom": "Équipements culturels",
           "propositions": {
             "hurmic": null,
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Candidature de Bordeaux pour devenir Capitale européenne de la culture. Développement des équipements culturels existants.",
+              "source": "Site officiel + presse locale",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -480,7 +524,11 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "hurmic": null,
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Renforcement du rayonnement sportif de Bordeaux et développement des infrastructures sportives.",
+              "source": "Site officiel",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -508,7 +556,11 @@
               "source": "Programme officiel 2026",
               "sourceUrl": "https://pierrehurmic2026.fr/"
             },
-            "cazenave": null,
+            "cazenave": {
+              "texte": "Arrêt des projets jugés inutiles (réaménagement des allées de Tourny). Priorité à la rénovation et à la fluidité urbaine.",
+              "source": "Rue89 Bordeaux + France Bleu",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },

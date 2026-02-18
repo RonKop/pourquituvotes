@@ -17,14 +17,14 @@
       "nom": "Benoît Payan",
       "liste": "Printemps Marseillais (PS)",
       "programmeUrl": "https://www.pourmarseille.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
       "id": "vassal",
       "nom": "Martine Vassal",
       "liste": "LR / Centre",
-      "programmeUrl": "#",
+      "programmeUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -32,7 +32,7 @@
       "id": "allisio",
       "nom": "Franck Allisio",
       "liste": "Rassemblement National",
-      "programmeUrl": "#",
+      "programmeUrl": "https://franckallisio2026.fr/",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -78,9 +78,21 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "delogu": null,
-            "payan": null,
-            "vassal": null,
-            "allisio": null,
+            "payan": {
+              "texte": "Extension de la vidéoprotection dans le cadre du doublement de la police municipale",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Relance massive de la vidéoprotection avec augmentation significative du parc de caméras",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
+            "allisio": {
+              "texte": "Doublement du nombre de caméras de vidéoprotection pour atteindre 4 000 caméras",
+              "source": "Programme Marseille en ordre 2026",
+              "sourceUrl": "https://franckallisio2026.fr/"
+            },
             "davoux": null
           }
         },
@@ -93,9 +105,21 @@
               "source": "Programme officiel 2026 - 379 mesures",
               "sourceUrl": "https://sebastiendelogu2026.fr/"
             },
-            "payan": null,
-            "vassal": null,
-            "allisio": null,
+            "payan": {
+              "texte": "Création d'une police de la propreté avec 80 agents pour lutter contre les incivilités",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Plan Argos : dispositif à 15 millions d'euros coordonnant Ville, école, justice, État et acteurs sociaux pour agir en amont sur la délinquance",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
+            "allisio": {
+              "texte": "Couvre-feu pour les mineurs dans les zones de trafic intense. Création d'un commissariat par arrondissement (contre trois actuellement)",
+              "source": "Programme Marseille en ordre 2026",
+              "sourceUrl": "https://www.lejdd.fr/politique/pass-anti-racaille-couvre-feu-pour-les-mineurs-les-mesures-de-franck-allisio-pour-restaurer-la-securite-a-marseille-166910"
+            },
             "davoux": null
           }
         },
@@ -126,7 +150,11 @@
               "source": "Site de campagne",
               "sourceUrl": "https://www.pourmarseille.fr/"
             },
-            "vassal": null,
+            "vassal": {
+              "texte": "Extension des horaires métro et tramway les vendredis et samedis soir (métro jusqu'à 1h). Connexion de tous les quartiers par les transports",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
             "allisio": null,
             "davoux": null
           }
@@ -149,7 +177,11 @@
             "delogu": null,
             "payan": null,
             "vassal": null,
-            "allisio": null,
+            "allisio": {
+              "texte": "Opposition aux radars urbains. Redonner de la place à la voiture à Marseille",
+              "source": "Programme Marseille en ordre 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/radars-urbain-prix-des-parkings-le-candidat-rn-franck-allisio-veut-redonner-de-la-place-a-la-voiture-a-marseille-8148606"
+            },
             "davoux": null
           }
         },
@@ -158,9 +190,17 @@
           "nom": "Stationnement",
           "propositions": {
             "delogu": null,
-            "payan": null,
+            "payan": {
+              "texte": "Amélioration de la gestion du stationnement dans le cadre de la politique de mobilité",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
-            "allisio": null,
+            "allisio": {
+              "texte": "Arrêt de la suppression des places de stationnement (2 000 supprimées en 5 ans). Gratuité des 30 premières minutes dans les parkings payants pour aider les commerçants du centre-ville",
+              "source": "Programme Marseille en ordre 2026",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/radars-urbain-prix-des-parkings-le-candidat-rn-franck-allisio-veut-redonner-de-la-place-a-la-voiture-a-marseille-8148606"
+            },
             "davoux": null
           }
         },
@@ -211,8 +251,16 @@
               "source": "Site de campagne",
               "sourceUrl": "https://www.pourmarseille.fr/"
             },
-            "vassal": null,
-            "allisio": null,
+            "vassal": {
+              "texte": "Fin de l'habitat indigne avec programme massif de réhabilitation",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
+            "allisio": {
+              "texte": "Programme de construction et de rénovation en hauteur tout en préservant les espaces verts. Simplification des permis de construire",
+              "source": "Programme Marseille en ordre 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/municipales-2026/196558-municipales-2026-la-grande-interview-de-franck-allisio-et-son-programme-pour-marseille/"
+            },
             "davoux": null
           }
         },
@@ -225,7 +273,11 @@
               "source": "Programme officiel 2026 - 379 mesures",
               "sourceUrl": "https://sebastiendelogu2026.fr/"
             },
-            "payan": null,
+            "payan": {
+              "texte": "Lutte contre les logements vacants dans le cadre du programme de réhabilitation massive",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": null,
             "davoux": null
@@ -272,8 +324,16 @@
           "nom": "Petite enfance",
           "propositions": {
             "delogu": null,
-            "payan": null,
-            "vassal": null,
+            "payan": {
+              "texte": "Renforcement de l'offre de petite enfance et création de nouvelles places en crèche",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Doublement des places en crèche et investissement massif dans la petite enfance",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
             "allisio": null,
             "davoux": null
           }
@@ -287,8 +347,16 @@
               "source": "Programme officiel 2026 - 379 mesures",
               "sourceUrl": "https://sebastiendelogu2026.fr/"
             },
-            "payan": null,
-            "vassal": null,
+            "payan": {
+              "texte": "Nouveau plan écoles avec rénovation et modernisation des infrastructures scolaires",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Plan Condorcet : audit général de la SPEM, rénovation et construction de 60 écoles par an",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
             "allisio": null,
             "davoux": null
           }
@@ -317,7 +385,11 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "delogu": null,
-            "payan": null,
+            "payan": {
+              "texte": "Petits déjeuners gratuits pour 15 000 écoliers marseillais",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": null,
             "davoux": null
@@ -365,12 +437,20 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "texte": "Amélioration des services de propreté et de la gestion des déchets au niveau métropolitain.",
-              "source": "Site de campagne",
+              "texte": "Plan propreté avec création d'une police de la propreté de 80 agents et renforcement des services de nettoyage",
+              "source": "Programme Pour Marseille 2026",
               "sourceUrl": "https://www.pourmarseille.fr/"
             },
-            "vassal": null,
-            "allisio": null,
+            "vassal": {
+              "texte": "Faire de Marseille une ville propre avec renforcement des services de nettoyage",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
+            "allisio": {
+              "texte": "Brigade anti-graffitis avec volet nettoyage et volet sanction. Amendes de 135 à 750 euros",
+              "source": "Programme Marseille en ordre 2026",
+              "sourceUrl": "https://franckallisio2026.fr/"
+            },
             "davoux": null
           }
         },
@@ -383,7 +463,11 @@
               "source": "Programme officiel 2026 - 379 mesures",
               "sourceUrl": "https://sebastiendelogu2026.fr/"
             },
-            "payan": null,
+            "payan": {
+              "texte": "Création d'un grand parc municipal dans le massif de l'Étoile pour adapter la ville au changement climatique",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": null,
             "davoux": null
@@ -544,7 +628,11 @@
           "propositions": {
             "delogu": null,
             "payan": null,
-            "vassal": null,
+            "vassal": {
+              "texte": "Soutien au commerce local via le Plan Canebière et baisse de la taxe foncière",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
             "allisio": null,
             "davoux": null
           }
@@ -556,7 +644,11 @@
             "delogu": null,
             "payan": null,
             "vassal": null,
-            "allisio": null,
+            "allisio": {
+              "texte": "Développement de l'emploi dans trois secteurs prioritaires : santé/biotechnologie, logistique/port, énergie/environnement",
+              "source": "Programme Marseille en ordre 2026",
+              "sourceUrl": "https://lematindalgerie.com/marseille-franck-allisio-detaille-son-projet-economique-pour-les-municipales-2026/"
+            },
             "davoux": null
           }
         },
@@ -565,16 +657,20 @@
           "nom": "Attractivité",
           "propositions": {
             "delogu": null,
-            "payan": null,
+            "payan": {
+              "texte": "Création d'une Société du Grand Marseille pour porter les grands projets de long terme",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": {
-              "texte": "Création d’un conseil de développement économique. Faire de Marseille une station balnéaire : réaménagement des plages, cheminement doux Estaque-Goudes",
-              "source": "France Bleu / Made in Marseille, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/"
+              "texte": "Installation d'un casino à Marseille pour générer environ 120 millions d'euros sur le mandat. Faire de Marseille une station balnéaire comme les grandes villes méditerranéennes",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
             },
             "allisio": {
-              "texte": "Trois secteurs prioritaires : santé/biotech, logistique/port, énergie/environnement. Clusters d’entreprises et quartier start-up à la Joliette. Simplification des permis de construire. Tourisme lent autour de Marcel Pagnol. Tourisme sportif et d’affaires. Marina et port pour navettes maritimes",
-              "source": "France Bleu / Maritima, février 2026",
-              "sourceUrl": "https://franckallisio2026.fr/"
+              "texte": "Faire de Marseille l'autre capitale économique de France et du sud de l'Europe. Clusters d'entreprises et quartier start-up à la Joliette. Marina et port pour navettes maritimes. Tourisme d'affaires",
+              "source": "Programme Marseille en ordre 2026",
+              "sourceUrl": "https://lematindalgerie.com/marseille-franck-allisio-detaille-son-projet-economique-pour-les-municipales-2026/"
             },
             "davoux": null
           }
@@ -590,8 +686,16 @@
           "nom": "Équipements culturels",
           "propositions": {
             "delogu": null,
-            "payan": null,
-            "vassal": null,
+            "payan": {
+              "texte": "Développement des équipements culturels et renforcement de l'offre culturelle pour tous",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Création d'une école de cuisine sur une partie du Centre Bourse. Académie pour le sport féminin",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://marsactu.fr/municipales-2026-martine-vassal-devoile-un-peu-ses-ambitions-culturelles-pour-marseille/"
+            },
             "allisio": null,
             "davoux": null
           }
@@ -602,8 +706,16 @@
           "propositions": {
             "delogu": null,
             "payan": null,
-            "vassal": null,
-            "allisio": null,
+            "vassal": {
+              "texte": "Faire de Marseille une capitale culturelle et touristique. Accueil de tournois internationaux (football, e-sports)",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
+            "allisio": {
+              "texte": "Développement du tourisme sportif autour de Marcel Pagnol. Accueil de tournois internationaux de football et e-sports",
+              "source": "Programme Marseille en ordre 2026",
+              "sourceUrl": "https://lematindalgerie.com/marseille-franck-allisio-detaille-son-projet-economique-pour-les-municipales-2026/"
+            },
             "davoux": null
           }
         }
@@ -618,8 +730,16 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "delogu": null,
-            "payan": null,
-            "vassal": null,
+            "payan": {
+              "texte": "Création du plus grand boulodrome couvert du monde à vocation internationale du côté de Saint-Marcel",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Projet de parc Borély du 22e siècle avec espaces numériques et inclusifs",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://marsactu.fr/municipales-2026-martine-vassal-devoile-un-peu-ses-ambitions-culturelles-pour-marseille/"
+            },
             "allisio": null,
             "davoux": null
           }
@@ -654,8 +774,16 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "delogu": null,
-            "payan": null,
-            "vassal": null,
+            "payan": {
+              "texte": "Projet Grandes Rives de la Méditerranée : grande promenade littorale du Nord au Sud avec jardins, espaces paysagers, belvédères, offre sportive et commerciale",
+              "source": "Programme Pour Marseille 2026",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
+            "vassal": {
+              "texte": "Plan Canebière : préemption de locaux vacants pour revitaliser le centre-ville",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
             "allisio": null,
             "davoux": null
           }
@@ -728,7 +856,11 @@
           "propositions": {
             "delogu": null,
             "payan": null,
-            "vassal": null,
+            "vassal": {
+              "texte": "Réduction de la taxe foncière pour soutenir le pouvoir d'achat des Marseillais",
+              "source": "Programme 13 axes prioritaires 2026",
+              "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/"
+            },
             "allisio": null,
             "davoux": null
           }

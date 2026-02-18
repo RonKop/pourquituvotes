@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026021402';
+  var DATA_VERSION = '2026021802';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -1083,7 +1083,11 @@
   }
 
   function selectionnerTop3(candidats) {
-    return candidats.slice(0, FOCUS_MAX).map(function(c) { return c.id; });
+    var complets = candidats.filter(function(c) { return c.programmeComplet; });
+    var partiels = candidats.filter(function(c) { return !c.programmeComplet; });
+    complets.sort(triNomFamille);
+    partiels.sort(triNomFamille);
+    return complets.concat(partiels).slice(0, FOCUS_MAX).map(function(c) { return c.id; });
   }
 
   // === Partage et permaliens ===

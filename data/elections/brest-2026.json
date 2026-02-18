@@ -7,9 +7,9 @@
     {
       "id": "cuillandre",
       "nom": "François Cuillandre",
-      "liste": "La gauche unie pour Brest (PS/EELV/PRG/PCF)",
-      "programmeUrl": "https://www.brest-ensemble.fr/",
-      "programmeComplet": false,
+      "liste": "La gauche unie pour Brest (PS/EELV/PCF/PRG/UDB/Génération.s/GRS/Parti radical/NFP)",
+      "programmeUrl": "https://lagaucheuniepourbrest.fr/",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -63,7 +63,7 @@
           "nom": "Police municipale",
           "propositions": {
             "cuillandre": {
-              "texte": "Création d'une police municipale de proximité de 50 agents, équipés d'armes non létales et de caméras-piétons, coût 3 M€/an",
+              "texte": "Création d'une police municipale de proximité de 50 agents, équipés d'armes non létales (bâtons, menottes, bombes lacrymogènes) et de caméras-piétons. Coût estimé : 3 M€/an. Missions : prévention des tensions, lutte contre les incivilités, présence humaine et dialogue dans tous les quartiers",
               "source": "France 3 Bretagne, 2026",
               "sourceUrl": "https://france3-regions.franceinfo.fr/bretagne/finistere/brest/elections-municipales-2026-le-maire-de-brest-et-candidat-francois-cuillandre-veut-creer-une-police-municipale-de-50-agents-3277367.html"
             },
@@ -91,7 +91,7 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "cuillandre": {
-              "texte": "Renforcement de la brigade de tranquillité urbaine à 25 agents et installation de nouvelles caméras de vidéoprotection",
+              "texte": "Renforcement de la brigade de tranquillité urbaine à 25 agents et installation de nouvelles caméras de vidéoprotection pour répondre aux attentes croissantes des Brestois en matière de sécurité",
               "source": "France Bleu, 2026",
               "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-breizh-izel/municipales-2026-a-brest-francois-cuillandre-promet-une-police-municipale-2030517"
             },
@@ -114,7 +114,11 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "cuillandre": null,
+            "cuillandre": {
+              "texte": "Renforcement de la prévention et de la médiation dans les quartiers, en complément de la police municipale. Approche fondée sur le dialogue, la présence humaine et la coordination entre tous les acteurs de la tranquillité publique",
+              "source": "France Bleu, fév. 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-francois-cuillandre-devoile-son-programme-en-60-mesures-9898818"
+            },
             "roudaut": {
               "texte": "Doublement du nombre de médiateurs, de 25 à 50, concentrés dans les quartiers prioritaires, les écoles et les équipements publics. Objectif : 100 % des bailleurs sociaux engagés dans un programme « tranquillité résidentielle »",
               "source": "Programme officiel 2026 — 5 engagements sécurité",
@@ -157,10 +161,9 @@
           "nom": "Transports en commun",
           "propositions": {
             "cuillandre": {
-              "texte": "Construction d'une ville pour toutes les générations et tous les déplacements.",
-              "source": "Site officiel Brest Ensemble",
-              "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
-              "a_verifier": true
+              "texte": "Création d'une ligne de bus Est-Ouest via le boulevard de l'Europe réaménagé. Expérimentation d'une ligne de bateau-bus reliant le Moulin Blanc, le port de commerce et la plage de Sainte-Anne du Portzic. Construction d'un ascenseur urbain reliant la Carène au square Beautemps-Beaupré (gare)",
+              "source": "France Bleu, fév. 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-francois-cuillandre-devoile-son-programme-en-60-mesures-9898818"
             },
             "roudaut": {
               "texte": "Amélioration de la desserte des transports en commun sur l'ensemble de la métropole, en lien avec le projet « Mon Réseau Grandit » et le développement des mobilités douces",
@@ -177,7 +180,11 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "cuillandre": null,
+            "cuillandre": {
+              "texte": "Grand plan vélo de 30 millions d'euros : extension du réseau cyclable sécurisé, développement des mobilités douces dans tous les quartiers de la métropole",
+              "source": "France Bleu, fév. 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-francois-cuillandre-devoile-son-programme-en-60-mesures-9898818"
+            },
             "roudaut": {
               "texte": "Développement des mobilités douces : extension du réseau cyclable sécurisé et encouragement des déplacements actifs dans tous les quartiers de la métropole",
               "source": "Programme officiel 2026",
@@ -225,7 +232,11 @@
           "id": "tarifs-gratuite",
           "nom": "Tarifs & Gratuité",
           "propositions": {
-            "cuillandre": null,
+            "cuillandre": {
+              "texte": "Pass transport à 10 euros par mois pour tous les jeunes de moins de 26 ans",
+              "source": "France Bleu, fév. 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-francois-cuillandre-devoile-son-programme-en-60-mesures-9898818"
+            },
             "roudaut": null,
             "beaudouin": {
               "texte": "Gratuité totale des transports en commun avec garantie de qualité de service et de conditions de travail",
@@ -247,7 +258,11 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "cuillandre": null,
+            "cuillandre": {
+              "texte": "Plan d'urgence de 4 millions d'euros supplémentaires par an pour le logement social, afin de réduire les délais d'attente et augmenter l'offre de logements accessibles",
+              "source": "France Bleu, fév. 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-francois-cuillandre-devoile-son-programme-en-60-mesures-9898818"
+            },
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
@@ -292,10 +307,9 @@
           "nom": "Accès au logement",
           "propositions": {
             "cuillandre": {
-              "texte": "Ville accueillante où il est facile de se loger.",
-              "source": "Site officiel Brest Ensemble",
-              "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
-              "a_verifier": true
+              "texte": "Ville accueillante où il est facile de se loger : soutien au logement et à l'habitat durable, lutte contre les logements vacants et accompagnement des primo-accédants",
+              "source": "Programme officiel La gauche unie pour Brest, 2026",
+              "sourceUrl": "https://lagaucheuniepourbrest.fr/"
             },
             "roudaut": null,
             "beaudouin": {
@@ -318,7 +332,11 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "cuillandre": null,
+            "cuillandre": {
+              "texte": "Création de nouvelles places en crèches pour répondre aux besoins des familles brestoises et faciliter la conciliation vie professionnelle / vie familiale",
+              "source": "France Bleu, fév. 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-francois-cuillandre-devoile-son-programme-en-60-mesures-9898818"
+            },
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
@@ -342,7 +360,11 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "cuillandre": null,
+            "cuillandre": {
+              "texte": "Plan Alimentaire Territorial : objectif 100 % de produits bio, frais et locaux dans les cantines scolaires d'ici la fin du mandat. Renforcement de l'éducation à l'alimentation dans les écoles",
+              "source": "PS29 / Accord PS-Écologistes, 2026",
+              "sourceUrl": "https://www.ps29.org/actualite/la-gauche-unie-pour-brest-socialistes-et-ecologistes-scellent-un-accord-pour-2026/"
+            },
             "roudaut": null,
             "beaudouin": {
               "texte": "Cantines scolaires 100% bio et entièrement gratuites",
@@ -397,10 +419,9 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "cuillandre": {
-              "texte": "Construction d'une ville plus verte et protection de la rade, patrimoine à valoriser.",
-              "source": "Site officiel Brest Ensemble",
-              "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
-              "a_verifier": true
+              "texte": "Construction d'une ville plus verte : protection et valorisation de la rade de Brest, développement des espaces verts et de la biodiversité urbaine, poursuite du contrat de rade signé en 2022",
+              "source": "Programme officiel La gauche unie pour Brest, 2026",
+              "sourceUrl": "https://lagaucheuniepourbrest.fr/"
             },
             "roudaut": null,
             "beaudouin": null,
@@ -426,10 +447,9 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "cuillandre": {
-              "texte": "Engagement dans la transition écologique pour une ville plus sobre et adaptée au changement climatique.",
-              "source": "Site officiel Brest Ensemble",
-              "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
-              "a_verifier": true
+              "texte": "Engagement renforcé dans la transition écologique : ville plus sobre et adaptée au changement climatique, mesures fortes pour l'écologie issues de l'accord avec les Écologistes",
+              "source": "PS29 / Accord PS-Écologistes, 2026",
+              "sourceUrl": "https://www.ps29.org/actualite/la-gauche-unie-pour-brest-socialistes-et-ecologistes-scellent-un-accord-pour-2026/"
             },
             "roudaut": {
               "texte": "Engagement fort dans la transition écologique pour une ville plus sobre et adaptée au changement climatique, sujet de prédilection identifié par le candidat parmi les priorités du mandat",
@@ -458,7 +478,11 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "cuillandre": null,
+            "cuillandre": {
+              "texte": "Création d'un fonds en faveur des exploitations urbaines respectueuses de l'environnement, d'un incubateur de maraîchage et d'une ferme urbaine bio et pédagogique. Développement du Plan Alimentaire Territorial",
+              "source": "PS29 / Accord PS-Écologistes, 2026",
+              "sourceUrl": "https://www.ps29.org/actualite/la-gauche-unie-pour-brest-socialistes-et-ecologistes-scellent-un-accord-pour-2026/"
+            },
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
@@ -522,7 +546,11 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "cuillandre": null,
+            "cuillandre": {
+              "texte": "Poursuite et renforcement du budget participatif (saison 5 en cours, enveloppe portée à 2 millions d'euros) : les habitants imaginent et votent des projets d'intérêt général pour leur ville et leur quartier",
+              "source": "Programme officiel La gauche unie pour Brest, 2026",
+              "sourceUrl": "https://lagaucheuniepourbrest.fr/"
+            },
             "roudaut": {
               "texte": "Consultation citoyenne élargie : plus de 1 500 personnes rencontrées via 16 groupes thématiques (solidarité, sécurité, transitions, etc.) pour co-construire le programme municipal",
               "source": "France Bleu Bretagne, 2026",
@@ -539,9 +567,9 @@
           "nom": "Transparence",
           "propositions": {
             "cuillandre": {
-              "texte": "Agir au service des Brestois·e·s, à leur écoute, et en toute transparence. Garantir les sécurités en dialoguant pour comprendre et agir.",
-              "source": "Manifeste Brest Ensemble",
-              "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html"
+              "texte": "Gouvernance plus collective et moins verticale, redistribution des responsabilités au sein de la majorité. Agir au service des Brestois, à leur écoute et en toute transparence",
+              "source": "PS29 / Accord PS-Écologistes, 2026",
+              "sourceUrl": "https://www.ps29.org/actualite/la-gauche-unie-pour-brest-socialistes-et-ecologistes-scellent-un-accord-pour-2026/"
             },
             "roudaut": {
               "texte": "Gouvernance renouvelée : transparente, collaborative et tournée vers le bien commun. Financement de la politique de sécurité par une gestion municipale rigoureuse",
@@ -567,10 +595,9 @@
           "nom": "Vie associative",
           "propositions": {
             "cuillandre": {
-              "texte": "Chacun dispose d'une place pour s'engager dans une ville où il est possible de s'épanouir.",
-              "source": "Site officiel Brest Ensemble",
-              "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
-              "a_verifier": true
+              "texte": "Soutien au tissu associatif brestois : chacun dispose d'une place pour s'engager dans une ville où il est possible de s'épanouir. Développement de la participation citoyenne dans tous les quartiers",
+              "source": "Programme officiel La gauche unie pour Brest, 2026",
+              "sourceUrl": "https://lagaucheuniepourbrest.fr/"
             },
             "roudaut": null,
             "beaudouin": null,
@@ -646,9 +673,9 @@
           "nom": "Attractivité",
           "propositions": {
             "cuillandre": {
-              "texte": "Favoriser le dynamisme économique et culturel du territoire. Développer des espaces permettant aux habitants de se rencontrer, créer et célébrer.",
-              "source": "Manifeste Brest Ensemble",
-              "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html"
+              "texte": "Favoriser le dynamisme économique et culturel du territoire. Développer des espaces permettant aux habitants de se rencontrer, créer et célébrer. Relancer l'attractivité de Brest et de sa métropole",
+              "source": "Programme officiel La gauche unie pour Brest, 2026",
+              "sourceUrl": "https://lagaucheuniepourbrest.fr/"
             },
             "roudaut": {
               "texte": "Relancer l'attractivité de Brest et de sa métropole : une ville plus juste, plus sûre et plus rayonnante, où les habitants et les entreprises choisissent de s'installer",
@@ -676,10 +703,9 @@
           "nom": "Équipements culturels",
           "propositions": {
             "cuillandre": {
-              "texte": "Favorisation du dynamisme culturel du territoire avec développement d'espaces pour la création.",
-              "source": "Site officiel Brest Ensemble",
-              "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
-              "a_verifier": true
+              "texte": "Construction de deux salles culturelles de proximité dans les quartiers Europe et Saint-Pierre. Gratuité des médiathèques pour tous les Brestois",
+              "source": "France Bleu, fév. 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-francois-cuillandre-devoile-son-programme-en-60-mesures-9898818"
             },
             "roudaut": {
               "texte": "Action culturelle identifiée comme sujet de prédilection : développement de l'offre culturelle et des équipements pour faire de Brest une ville où l'on se retrouve et où l'on grandit",
@@ -715,9 +741,9 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "cuillandre": {
-              "texte": "Construction du nouveau stade Arkéa Park pour remplacer le stade Francis-Le Blé",
-              "source": "UESR29, 2025",
-              "sourceUrl": "https://uesr29.fr/entre-grands-projets-et-enjeux-politiques-francois-cuillandre-trace-la-voie-pour-brest/"
+              "texte": "Construction du nouveau stade Arkéa Park (15 000 places) pour remplacer le stade Francis-Le Blé. Équipement multifonctionnel : sport, loisirs, restauration, bureaux",
+              "source": "France Bleu, fév. 2026",
+              "sourceUrl": "https://www.francebleu.fr/bretagne/finistere-29/brest/municipales-2026-a-brest-francois-cuillandre-devoile-son-programme-en-60-mesures-9898818"
             },
             "roudaut": null,
             "beaudouin": null,
@@ -811,10 +837,9 @@
           "nom": "Aide sociale",
           "propositions": {
             "cuillandre": {
-              "texte": "Favorisation des solidarités pour renforcer les liens et réduire les inégalités.",
-              "source": "Site officiel Brest Ensemble",
-              "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
-              "a_verifier": true
+              "texte": "Consolidation des politiques sociales : renforcement des solidarités pour réduire les inégalités. Projet fondé sur la solidarité, la qualité de vie dans les quartiers et l'accès de tous à l'essentiel",
+              "source": "Programme officiel La gauche unie pour Brest, 2026",
+              "sourceUrl": "https://lagaucheuniepourbrest.fr/"
             },
             "roudaut": null,
             "beaudouin": null,
@@ -831,7 +856,11 @@
           "id": "egalite-discriminations",
           "nom": "Égalité & Discriminations",
           "propositions": {
-            "cuillandre": null,
+            "cuillandre": {
+              "texte": "Engagement pour l'égalité femmes-hommes comme priorité du mandat : la première adjointe sera issue des rangs écologistes, plan d'action transversal pour une ville pionnière en matière d'égalité",
+              "source": "PS29 / Accord PS-Écologistes, 2026",
+              "sourceUrl": "https://www.ps29.org/actualite/la-gauche-unie-pour-brest-socialistes-et-ecologistes-scellent-un-accord-pour-2026/"
+            },
             "roudaut": {
               "texte": "Plan ambitieux pour faire de Brest une ville pionnière en matière d'égalité femmes-hommes : « L'égalité femmes-hommes ne peut plus être un vœu pieux, elle doit devenir une réalité quotidienne »",
               "source": "Programme officiel 2026",

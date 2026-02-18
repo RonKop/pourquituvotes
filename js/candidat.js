@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var DATA_VERSION = "2026021805";
+  var DATA_VERSION = "2026021806";
   var DATA_BASE_URL = "/data/";
 
   var ORDRE_CATEGORIES = [

@@ -24,16 +24,16 @@
       "id": "chapuis",
       "nom": "Baptiste Chapuis",
       "liste": "Rassembler Orléans (PS/PCF/Génération.s/Place publique/PRG)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
       "id": "grand",
       "nom": "Jean-Philippe Grand",
       "liste": "OSE - Orléans Solidaire et Écologique (EELV)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://orleans-solidaire-ecologique.fr/le-programme-de-la-liste-ose/",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -88,8 +88,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Renforcement de la police municipale au service de la proximité et de la tranquillité publique",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Police de proximité dans les quartiers, sans tabou ni naïveté, avec des effectifs renforcés sur le terrain",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
             "pele": {
               "texte": "Désarmement de la police municipale pour les armes létales",
               "source": "Mag'Centre, janvier 2026",
@@ -108,7 +116,11 @@
             "grouard": null,
             "janvier": null,
             "chapuis": null,
-            "grand": null,
+            "grand": {
+              "texte": "Évaluation indépendante de l'efficacité de la vidéoprotection existante avant tout déploiement supplémentaire",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-securite/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -131,7 +143,11 @@
               "source": "France Bleu Orléans, février 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
             },
-            "grand": null,
+            "grand": {
+              "texte": "Prévention au cœur de la sécurité : médiation de rue, éducateurs spécialisés et traitement des causes profondes de l'insécurité",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-securite/"
+            },
             "pele": null,
             "rabault": {
               "texte": "Renforcement de la sécurité dans les rues d'Orléans, priorité à la tranquillité publique",
@@ -149,8 +165,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Création d'un réseau de « safe spaces » dans les bars, commerces et écoles pour lutter contre le harcèlement de rue et les violences faites aux femmes",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Lutte contre les violences faites aux femmes : marches exploratoires nocturnes, meilleur éclairage public et partenariats avec les associations",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-securite/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -174,8 +198,16 @@
               "source": "France Bleu Orléans, janvier 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/je-suis-la-seule-a-avoir-battu-serge-grouard-caroline-janvier-officialise-sa-candidature-aux-municipales-a-orleans-6202892"
             },
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Gratuité progressive des transports en commun : d'abord les week-ends dès 2026, puis en semaine pour les jeunes et seniors, puis pour tous au-delà de 2030",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Gratuité progressive du tram : d'abord le samedi, puis jeunes/seniors, jours de pollution, grands événements, et gratuité totale en fin de mandat",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
             "pele": {
               "texte": "Construction d'une troisième ligne de tramway",
               "source": "Mag'Centre, janvier 2026",
@@ -193,7 +225,11 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
+            "chapuis": {
+              "texte": "Sécurisation des rues scolaires pour le vélo et développement d'un réseau cyclable continu dans toute la ville",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
             "grand": {
               "texte": "Création de vraies vélo-routes sécurisées dans toute la ville",
               "source": "France Bleu Orléans, janvier 2026",
@@ -212,8 +248,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Apaisement de la circulation en centre-ville et sécurisation des traversées piétonnes autour des écoles",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Pont Royal réservé aux piétons et cyclistes, passerelle piétonne reliant le Parc de Loire au Port Saint-Loup, et dégagement des trottoirs",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -228,7 +272,11 @@
             "grouard": null,
             "janvier": null,
             "chapuis": null,
-            "grand": null,
+            "grand": {
+              "texte": "Deux heures de stationnement gratuit le samedi pour les clients des commerces du centre-ville",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/elections-municipales-a-orleans-ose-presente-son-programme-2923431"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -280,7 +328,11 @@
               "source": "France Bleu Orléans, février 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
             },
-            "grand": null,
+            "grand": {
+              "texte": "Meilleure répartition du logement social entre Orléans et la métropole, avec réservation de terrains en centre-ville pour du logement social intégré",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-logement/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -294,8 +346,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Lutte contre les logements vacants et les passoires thermiques pour remettre des logements sur le marché",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Lutte contre la vacance des logements et les marchands de sommeil, objectif zéro logement indigne",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-logement/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -310,7 +370,11 @@
             "grouard": null,
             "janvier": null,
             "chapuis": null,
-            "grand": null,
+            "grand": {
+              "texte": "Maîtrise de la dynamique des loyers et du foncier pour maintenir l'accessibilité au logement",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-logement/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -324,8 +388,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Faciliter l'accès au logement pour les jeunes et les familles, notamment par l'aide à l'installation",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Garantir l'accès effectif au logement : mixité sociale renforcée et préservation d'une ville habitée et vivante",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-logement/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -350,7 +422,11 @@
               "source": "France Bleu Orléans, février 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
             },
-            "grand": null,
+            "grand": {
+              "texte": "Augmentation des places en crèche et développement de modes de garde diversifiés dans tous les quartiers",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-sante-solidarites/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -414,8 +490,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Renforcement de l'offre périscolaire et des centres de loisirs dans tous les quartiers",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Rues scolaires sans voiture aux heures d'entrée et de sortie, et renforcement des activités périscolaires",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-securite/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -429,8 +513,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Création d'une Cité du numérique dans l'ancien collège Jean Rostand, dédiée aux jeunes et au jeu vidéo en partenariat avec l'ESAD",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Création d'un pôle de création vidéo et numérique pour les jeunes, possiblement aux Vinaigreries, et festival de deux mois dédié à la création",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -450,8 +542,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Végétalisation massive de la ville : toutes les cours d'école, les places et les rues transformées en îlots de fraîcheur",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Coulée verte reliant la Loire au Loiret via Saint-Pryvé et le Parc de Loire, jusqu'à Saint-Jean-de-Braye",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -465,8 +565,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Amélioration de la propreté urbaine et renforcement du tri sélectif dans tous les quartiers",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Politique zéro déchet avec développement du compostage de quartier et réduction des déchets à la source",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-environnement/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -484,8 +592,16 @@
               "source": "France Bleu Orléans, janvier 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/je-suis-la-seule-a-avoir-battu-serge-grouard-caroline-janvier-officialise-sa-candidature-aux-municipales-a-orleans-6202892"
             },
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Plan climat ambitieux : adaptation de la ville aux canicules par la végétalisation et la désimperméabilisation des sols",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Plan d'adaptation au changement climatique : désimperméabilisation des sols, îlots de fraîcheur et stratégie fondée sur le PCAET métropolitain",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-environnement/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -499,8 +615,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Rénovation énergétique des bâtiments municipaux et accompagnement des copropriétés dans leurs travaux",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Rénovation énergétique massive des bâtiments publics et accompagnement des copropriétés pour réduire durablement les charges",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-logement/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -514,8 +638,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Développement des circuits courts et de l'alimentation locale dans les cantines et marchés de la ville",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Sécurité sociale de l'alimentation expérimentale : accès de tous à des produits de qualité, fête annuelle de l'alimentation et circuits courts",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-sante-solidarites/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -539,8 +671,16 @@
               "source": "France Bleu Orléans, janvier 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/je-suis-la-seule-a-avoir-battu-serge-grouard-caroline-janvier-officialise-sa-candidature-aux-municipales-a-orleans-6202892"
             },
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Ouverture de centres de santé municipaux pour lutter contre les déserts médicaux dans les quartiers",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Renforcement de l'offre de soins de proximité dans les quartiers sous-dotés en professionnels de santé",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-sante-solidarites/"
+            },
             "pele": {
               "texte": "Création d'un réseau de centres de santé municipaux",
               "source": "Mag'Centre, janvier 2026",
@@ -558,8 +698,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Actions de prévention santé dans les quartiers prioritaires, en lien avec les associations",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Politique de prévention santé globale : qualité de l'air, qualité de l'eau, adaptation aux canicules et accès aux droits",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-sante-solidarites/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -573,8 +721,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Politique dédiée aux seniors : transport gratuit, lutte contre l'isolement et maintien à domicile",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Développement de béguinages (habitats partagés pour seniors) et de tiny houses pour lutter contre l'isolement des personnes âgées",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -594,8 +750,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Mise en place d'un véritable budget participatif permettant aux habitants de décider de projets de quartier",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Budget participatif ambitieux repensé : chaque habitant peut proposer des projets utiles à son quartier, avec de vrais moyens",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-democratie/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -614,7 +778,11 @@
               "source": "France Bleu Orléans, février 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
             },
-            "grand": null,
+            "grand": {
+              "texte": "États généraux, assemblée citoyenne tirée au sort et observatoires pour mesurer, corriger et rendre des comptes",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-democratie/"
+            },
             "pele": {
               "texte": "Organisation de votations citoyennes et transparence des dépenses publiques",
               "source": "Mag'Centre, janvier 2026",
@@ -641,7 +809,11 @@
               "source": "France Bleu Orléans, février 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
             },
-            "grand": null,
+            "grand": {
+              "texte": "Conventions triennales garanties aux associations : subventions et prêts de locaux/matériel sur 3 ans pour assurer la stabilité",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-sante-solidarites/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -655,8 +827,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Remise en service de proximité : guichets uniques de quartier pour simplifier les démarches administratives",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Services numériques sobres et accessibles, droit à la non-dématérialisation, logiciels libres et données ouvertes",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-numerique/"
+            },
             "pele": {
               "texte": "Création d'un service public municipal des pompes funèbres",
               "source": "Mag'Centre, janvier 2026",
@@ -703,8 +883,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Soutien à l'emploi local et à l'insertion professionnelle, avec des clauses sociales dans les marchés publics",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Économie au service du développement durable : clauses d'insertion dans les marchés publics et soutien à l'économie sociale et solidaire",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/orleans-ose-leconomie-au-service-du-developpement-durable/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -726,8 +914,16 @@
               "source": "France Bleu Orléans, janvier 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/je-suis-la-seule-a-avoir-battu-serge-grouard-caroline-janvier-officialise-sa-candidature-aux-municipales-a-orleans-6202892"
             },
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Création d'un centre international Jeanne d'Arc et d'un musée Jean Zay pour renforcer le rayonnement d'Orléans",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Attractivité fondée sur la qualité de vie et la transition écologique, en rupture avec les grands projets pharaoniques",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
             "pele": null,
             "rabault": {
               "texte": "Développement économique d'Orléans et politique inclusive",
@@ -760,7 +956,11 @@
               "source": "France Bleu Orléans, février 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
             },
-            "grand": null,
+            "grand": {
+              "texte": "Renforcement des bibliothèques de proximité, place restaurée aux arts visuels et au numérique, et désacralisation de la culture",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-culture/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -774,8 +974,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Soutien renforcé à la création artistique et aux événements culturels tout au long de l'année",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Festival de création de deux mois et repenser les grands événements pour qu'ils laissent des traces toute l'année",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/360154-la-feuille-de-route-dose-pour-une-nouvelle-orleans/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -800,7 +1008,11 @@
               "source": "France Bleu Orléans, février 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
             },
-            "grand": null,
+            "grand": {
+              "texte": "Construction d'un gymnase inclusif avec sol en verre lumineux et murs interactifs, accessible aux personnes en situation de handicap",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-sport/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -814,8 +1026,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Développement du sport pour tous : accès facilité aux équipements sportifs municipaux et aide aux clubs amateurs",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Sport accessible à tous : équipements adaptés aux personnes handicapées et développement du sport dans les quartiers prioritaires",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-sport/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -839,8 +1059,16 @@
               "sourceUrl": "https://france3-regions.franceinfo.fr/centre-val-de-loire/loiret/orleans/municipales-2026-sans-surprise-serge-grouard-candidat-a-sa-reelection-a-orleans-3278198.html"
             },
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Nouvelles Halles Châtelet pour valoriser la gastronomie locale, transformation du quartier de La Source et requalification des espaces publics",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Requalification des faubourgs Bannier et Bourgogne : voirie, modes doux, stationnement, logements, patrimoine et commerce de proximité",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-urbanisme/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -854,8 +1082,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Mise en accessibilité de tous les bâtiments et espaces publics pour les personnes en situation de handicap",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Dégagement systématique des trottoirs et mise en accessibilité de tous les espaces publics pour les personnes handicapées et les poussettes",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-securite/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -869,8 +1105,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Plan d'investissement massif pour les quartiers prioritaires : rénovation urbaine, services publics de proximité et animations",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "En finir avec la fracture territoriale : équité entre tous les quartiers, réduction des inégalités d'accès aux services",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-urbanisme/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -890,8 +1134,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Renforcement du CCAS et des aides d'urgence pour les personnes en difficulté",
+              "source": "Mag'Centre, février 2026",
+              "sourceUrl": "https://www.magcentre.fr/359793-municipales-rassembler-orleans-devoile-sa-vision-de-la-ville-de-demain/"
+            },
+            "grand": {
+              "texte": "Protection des plus vulnérables : enfants, personnes âgées, handicapées et précaires, avec des mesures visibles et mesurables",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/notre-programme-sante-solidarites/"
+            },
             "pele": {
               "texte": "Création d'une régie maraîchère municipale pour l'accès à une alimentation de qualité",
               "source": "Mag'Centre, janvier 2026",
@@ -909,8 +1161,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Plan de lutte contre toutes les discriminations et promotion de l'égalité femmes-hommes dans les politiques municipales",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Élu·e dédié·e à la lutte contre les discriminations : plans d'action budgétés, comité citoyen de veille, dispositif d'alerte et rapport annuel public",
+              "source": "OSE 2026, programme officiel",
+              "sourceUrl": "https://orleans-solidaire-ecologique.fr/en-finir-avec-les-discriminations/"
+            },
             "pele": null,
             "rabault": null,
             "meyer": null,
@@ -924,8 +1184,16 @@
           "propositions": {
             "grouard": null,
             "janvier": null,
-            "chapuis": null,
-            "grand": null,
+            "chapuis": {
+              "texte": "Fournitures scolaires gratuites pour 5 000 élèves (coût 200 000 à 300 000 €), gratuité progressive des transports et tarifs solidaires pour les services municipaux",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-on-veut-rassembler-orleans-et-ses-habitants-le-socialiste-baptiste-chapuis-devoile-son-programme-9406795"
+            },
+            "grand": {
+              "texte": "Tram gratuit le samedi, 2h de parking gratuit le samedi, cantines bio et locales re-municipalisées pour baisser le coût des repas",
+              "source": "France Bleu Orléans, février 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/elections-municipales-a-orleans-ose-presente-son-programme-2923431"
+            },
             "pele": {
               "texte": "Gratuité des premiers mètres cubes d'eau pour tous les ménages",
               "source": "Mag'Centre, janvier 2026",

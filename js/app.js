@@ -4114,11 +4114,6 @@
       globalPropositions += s.propositions || 0;
       if (s.themes && s.themes > globalThemes) globalThemes = s.themes;
     });
-    // Intro
-    var introCandidats = document.getElementById("intro-candidats");
-    var introVilles = document.getElementById("intro-villes");
-    if (introCandidats) introCandidats.textContent = globalCandidats;
-    if (introVilles) introVilles.textContent = VILLES.length;
     // Hero stats globaux (visibles par défaut)
     if (heroStatCandidats) heroStatCandidats.textContent = globalCandidats;
     if (heroStatProps) heroStatProps.textContent = globalPropositions;

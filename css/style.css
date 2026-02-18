@@ -491,7 +491,7 @@ li {
   background: #fff;
   border: none;
   margin-top: 0;
-  z-index: 50;
+  z-index: 999;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0,0,0,0.15);
 }
@@ -1176,6 +1176,11 @@ li {
   margin-left: 0.5rem;
 }
 
+.ville-suggestion__nom,
+.ville-suggestion__code,
+.ville-suggestion__highlight {
+  pointer-events: none;
+}
 .ville-suggestion__highlight {
   background: #fff3b0;
   font-weight: 700;
@@ -1224,6 +1229,11 @@ li {
   background: var(--couleur-hover);
 }
 
+.candidat-suggestion__nom,
+.candidat-suggestion__ville,
+.candidat-suggestion__liste {
+  pointer-events: none;
+}
 .candidat-suggestion__nom {
   font-weight: 600;
   font-size: 0.95rem;

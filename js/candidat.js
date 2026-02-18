@@ -255,6 +255,8 @@
   }
 
   // === Radar individuel ===
+  var radarModeCouverture = true;
+
   function dessinerRadar(election, candidat, candidatIdx, propsByCat) {
     var canvas = document.getElementById("candidat-radar-canvas");
     if (!canvas || !canvas.getContext) return;
@@ -279,10 +281,28 @@
       var idxB = ORDRE_CATEGORIES.indexOf(b.id); if (idxB === -1) idxB = 999;
       return idxA - idxB;
     });
+
+    // Max brut pour normalisation en mode volume
+    var maxBrut = 0;
+    if (!radarModeCouverture) {
+      catsSorted.forEach(function (cat) {
+        var count = propsByCat[cat.id] || 0;
+        if (count > maxBrut) maxBrut = count;
+      });
+      maxBrut = Math.ceil((maxBrut + 1) / 2) * 2;
+      if (maxBrut < 2) maxBrut = 2;
+    }
+
     catsSorted.forEach(function (cat) {
       var total = cat.sousThemes.length;
       var count = propsByCat[cat.id] || 0;
-      cats.push({ nom: cat.nom, id: cat.id, val: total > 0 ? count / total : 0 });
+      var val;
+      if (radarModeCouverture) {
+        val = total > 0 ? count / total : 0;
+      } else {
+        val = maxBrut > 0 ? count / maxBrut : 0;
+      }
+      cats.push({ nom: cat.nom, id: cat.id, val: val, raw: count, total: total });
     });
 
     var n = cats.length;
@@ -297,10 +317,27 @@
     // Grille circulaire
     ctx.strokeStyle = "#e2e8f0";
     ctx.lineWidth = 0.7;
-    [0.25, 0.5, 0.75, 1.0].forEach(function (s) {
+    var steps = radarModeCouverture ? [0.25, 0.5, 0.75, 1.0] : [];
+    if (!radarModeCouverture) {
+      var stepSize = maxBrut <= 6 ? 1 : 2;
+      for (var s = stepSize; s <= maxBrut; s += stepSize) {
+        steps.push(s / maxBrut);
+      }
+    }
+    steps.forEach(function (s) {
       ctx.beginPath();
       ctx.arc(cx, cy, maxR * s, 0, Math.PI * 2);
       ctx.stroke();
+    });
+
+    // Graduations
+    ctx.fillStyle = "#94a3b8";
+    ctx.font = "400 8px 'DM Sans', sans-serif";
+    ctx.textAlign = "left";
+    ctx.textBaseline = "bottom";
+    steps.forEach(function (s) {
+      var label = radarModeCouverture ? Math.round(s * 100) + "%" : Math.round(s * maxBrut);
+      ctx.fillText(label, cx + 3, cy - maxR * s - 2);
     });
 
     // Axes
@@ -321,7 +358,6 @@
     ctx.textBaseline = "middle";
     for (var i = 0; i < n; i++) {
       var p = pointAt(i, 1.18);
-      // Raccourcir les noms longs
       var label = cats[i].nom;
       if (label.length > 14) label = label.substring(0, 12) + "\u2026";
       ctx.fillText(label, p.x, p.y);
@@ -352,6 +388,36 @@
       ctx.strokeStyle = "#fff";
       ctx.lineWidth = 2;
       ctx.stroke();
+    }
+
+    // Toggle buttons — créer dynamiquement si absent
+    var toggleDiv = document.getElementById("candidat-radar-toggle");
+    if (!toggleDiv) {
+      var radarSection = document.getElementById("candidat-radar-section");
+      var canvasWrap = radarSection ? radarSection.querySelector(".candidat-radar__canvas-wrap") : null;
+      if (radarSection && canvasWrap) {
+        toggleDiv = document.createElement("div");
+        toggleDiv.className = "candidat-radar__toggle";
+        toggleDiv.id = "candidat-radar-toggle";
+        toggleDiv.innerHTML =
+          '<button class="radar-mode-toggle__btn radar-mode-toggle__btn--active" data-mode="couverture">Couverture</button>' +
+          '<button class="radar-mode-toggle__btn" data-mode="volume">Volume brut</button>';
+        radarSection.insertBefore(toggleDiv, canvasWrap);
+      }
+    }
+    if (toggleDiv && !toggleDiv.dataset.init) {
+      toggleDiv.dataset.init = "1";
+      toggleDiv.addEventListener("click", function (e) {
+        var btn = e.target.closest("[data-mode]");
+        if (!btn) return;
+        var isCouverture = btn.dataset.mode === "couverture";
+        if (isCouverture === radarModeCouverture) return;
+        radarModeCouverture = isCouverture;
+        toggleDiv.querySelectorAll(".radar-mode-toggle__btn").forEach(function (b) {
+          b.classList.toggle("radar-mode-toggle__btn--active", b.dataset.mode === btn.dataset.mode);
+        });
+        dessinerRadar(election, candidat, candidatIdx, propsByCat);
+      });
     }
   }
 

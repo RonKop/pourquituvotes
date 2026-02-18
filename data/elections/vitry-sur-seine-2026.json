@@ -17,16 +17,16 @@
       "nom": "Hocine Tmimi",
       "liste": "LFI, Vitry Unie et Populaire",
       "programmeUrl": "https://vitry2026.fr/",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmeComplet": true,
+      "programmePdfPath": "tmimi-programme-vitry2026.pdf"
     },
     {
       "id": "afflatet",
       "nom": "Alain Afflatet",
       "liste": "DVD (droite et centre unis), Vitry À Venir",
       "programmeUrl": "https://vitryavenir.fr/",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmeComplet": true,
+      "programmePdfPath": "afflatet-programme-vitryavenir.pdf"
     }
   ],
   "categories": [
@@ -39,7 +39,11 @@
           "nom": "Police municipale",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Création d'un deuxième commissariat, rénovation du commissariat actuel, police municipale centrée sur la prévention avec présence régulière et rassurante sur le terrain",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": {
               "texte": "Augmenter la sécurité en ville par une politique de prévention et de renforcement de l'ordre républicain.",
               "source": "Site officiel Alain Afflatet",
@@ -53,7 +57,11 @@
           "propositions": {
             "bell-lloch": null,
             "tmimi": null,
-            "afflatet": null
+            "afflatet": {
+              "texte": "Installer la vidéoprotection réclamée par les Vitriots, devenue une nécessité pour la sérénité des habitants.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -65,8 +73,16 @@
               "source": "pbl2026.fr",
               "sourceUrl": "https://pbl2026.fr/programme.html"
             },
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Médiateurs présents au quotidien, gardiens d'immeuble, travailleurs sociaux et animateurs dans les quartiers, Conseil local de sécurité et de prévention de la délinquance renforcé",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Étendre les prérogatives de la police municipale et sa collaboration avec la police nationale, créer un complexe ouvert 24h/24 regroupant police nationale et municipale.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -74,7 +90,11 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Création d'une Maison des Femmes à Vitry : accompagnement pluridisciplinaire, hébergement d'urgence, observatoire contre les violences faites aux femmes, arrêt des bus à la demande après 22h",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         }
@@ -94,7 +114,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Dialoguer avec Île-de-France Mobilités pour la création de nouvelles lignes de bus dans Vitry, en connexion avec les gares internes et externes, favoriser une navette fluviale vers Paris.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -107,7 +131,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Création d'une piste cyclable depuis l'avenue Jean Jaurès jusqu'à la gare des Ardoines, locaux à vélo obligatoires dans tous les logements pour inciter aux déplacements à vélo.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -120,7 +148,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Repenser le plan de circulation pour éviter que Vitry soit une ville de transit, remettre en état la voirie, trottoirs réaménagés.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -128,8 +160,16 @@
           "nom": "Stationnement",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Rénover, sécuriser et étendre les horaires des parkings en soirée avec deux heures gratuites, refus de la vidéo-verbalisation, stationnement vélo près des commerces et écoles",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Organiser le stationnement pour éviter les stationnements anarchiques, rouvrir les parkings condamnés par les bailleurs, créer des places aux alentours des futures gares du Grand Paris.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -137,7 +177,11 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Obtenir les transports gratuits pour lycéens, chômeurs et foyers modestes, navette inter-quartiers gratuite, Vélib' gratuit pour les lycéens, prise en charge du Pass Navigo selon le quotient familial",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": null
           }
         }
@@ -161,7 +205,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Réhabiliter le parc locatif existant avant d'envisager de nouvelles constructions, construire en offrant la possibilité aux locataires d'accéder à la propriété.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -169,8 +217,16 @@
           "nom": "Logements vacants",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Mobilisation des bureaux et logements vacants, dispositif « Louez Solidaire » pour intégrer 1 000 logements vacants au parc social (10 M€ d'investissement prévu)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Créer une bourse d'échange de logements entre tous les bailleurs, privés et publics.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -191,8 +247,16 @@
           "nom": "Accès au logement",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Critères d'attribution lisibles (scoring), citoyens tirés au sort dans les commissions, bourse d'échange de logements sociaux, habitat coopératif et intergénérationnel, colocation encadrée",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Repenser la commission d'attribution des logements sociaux avec une charte d'attribution transparente et égalitaire, obliger les bailleurs à installer un gardien pour 100 logements.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         }
       ]
@@ -211,7 +275,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Augmenter le nombre de berceaux en aidant à la création de places en crèches par des subventions plutôt que de créer directement des crèches municipales.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -219,8 +287,16 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Plan pluriannuel d'isolation des bâtiments scolaires (30 M€), déminéralisation et végétalisation des cours, îlots de fraîcheur, écoles ouvertes aux associations le soir et le week-end",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Mener une campagne d'isolation et de rénovation de toutes les écoles pour réduire la consommation d'énergie, arborer les cours d'écoles avec ateliers jardinage.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -245,8 +321,16 @@
               "source": "pbl2026.fr",
               "sourceUrl": "https://pbl2026.fr/programme.html"
             },
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Gratuité de l'aide aux devoirs et du goûter dès la rentrée 2026, cantine au quotient familial dégressif selon le nombre d'enfants, activité physique quotidienne pour tous",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Utiliser les salles d'école pour le soutien scolaire et l'aide à l'apprentissage des fondamentaux sous contrôle de professeurs volontaires rémunérés par la ville.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -307,7 +391,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Nettoyer la ville avec de nouveaux outils connectés, plateforme de signalement des incivilités, construire une déchetterie éco-responsable avec tri sélectif et recyclage.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -320,7 +408,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Imposer pour chaque nouveau projet la prise en compte des enjeux écologiques : toitures végétalisées, récupérateurs d'eau, panneaux photovoltaïques, composteurs.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -337,7 +429,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Modification du PLU pour un plan d'obligation de rénovation harmonieuse des bâtiments, campagnes de sensibilisation aux enjeux écologiques.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -350,7 +446,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Arborer les cours d'écoles et mettre en place des ateliers jardinage pour les élèves, former les agents municipaux aux gestes écologiques.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         }
       ]
@@ -369,7 +469,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Soutenir le maintien des deux cliniques existantes, favoriser l'installation de cabinets médicaux et paramédicaux, faciliter l'accès aux soins non programmés via une plateforme numérique.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -382,7 +486,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Mettre en place une communauté professionnelle territoriale de santé (CPTS) pour favoriser la coordination des soins, rééquilibrer l'offre de soins sur toute la commune.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -399,7 +507,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Ouvrir un deuxième EHPAD dans le quartier du Plateau, mettre en place des représentations culturelles l'après-midi pour les séniors, développer la prise en charge du handicap.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         }
       ]
@@ -418,7 +530,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Création d'une maison de la démocratie pour accueillir partis politiques et associations, réorganisation des conseils de quartier avec présidence partagée entre élus et habitants.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -431,7 +547,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Repenser l'attribution des subventions aux associations en toute transparence, créer une commission d'attribution et contrôler chaque année les activités des associations.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -448,7 +568,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Instaurer une charte des associations, favoriser les associations ayant une action directe au bénéfice des habitants, les aider dans leurs recherches de nouveaux fonds.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -461,7 +585,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Déployer les outils numériques de la smart-city pour faciliter l'accès à des services publics efficaces, avec une aide à l'appropriation de ces outils pour tous les habitants.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         }
       ]
@@ -479,8 +607,16 @@
               "source": "pbl2026.fr",
               "sourceUrl": "https://pbl2026.fr/programme.html"
             },
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Promenade commerçante de la gare à la mairie, halles alimentaires au quartier 8 Mai 1945, piétonnisation le week-end, soutien aux marchés de quartier et petits commerces, charte de la distribution",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Favoriser l'implantation d'activités économiques et commerciales dans les quartiers en manque de commerces, mettre à disposition une plateforme recensant les offres commerciales.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -492,7 +628,11 @@
               "source": "pbl2026.fr",
               "sourceUrl": "https://pbl2026.fr/programme.html"
             },
-            "tmimi": null,
+            "tmimi": {
+              "texte": "Objectif « Territoire zéro chômeur de longue durée », parcours emploi-formation ancrés dans le territoire, campus métiers verts, foncière coopérative, monnaie locale citoyenne envisagée",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
             "afflatet": {
               "texte": "Développer l'activité économique et l'emploi local en attirant des entreprises et en soutenant les petits commerces.",
               "source": "Site officiel Alain Afflatet",
@@ -505,8 +645,16 @@
           "nom": "Attractivité",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Industrie urbaine moderne : micro-usines, productions décarbonées, ateliers de réparation, fablabs, recycleries, maillage économique par quartiers (Ardoines innovation, centre-ville artisanat)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Mener des actions pour attirer les entreprises et créer des emplois, aménager des salles pour événements privés, faciliter l'installation d'écoles privées, mettre en place des accès Internet gratuits.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         }
       ]
@@ -524,8 +672,16 @@
               "source": "pbl2026.fr",
               "sourceUrl": "https://pbl2026.fr/programme.html"
             },
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Rénovation du 3 Cinés Robespierre, soutien au Kilowatt, 6BIS, La Kunda, L'Exploradôme, Gare au Théâtre, renforcement des EMA et classes artistiques (CHAM), soutien aux librairies indépendantes",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Redessiner l'axe palais des sports / Mac Val, créer un lieu culturel alternatif autour de Gare au Théâtre avec restauration, proposer un musée à ciel ouvert sur les berges de Seine.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -537,8 +693,16 @@
               "source": "pbl2026.fr",
               "sourceUrl": "https://pbl2026.fr/programme.html"
             },
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Création d'un festival international, concerts et spectacles dans les quartiers, gratuité du cinéma Robespierre et du théâtre Jean-Vilar pour les moins de 15 ans, guide d'art urbain pour enfants",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Développer une politique culturelle élargie et pour tous publics, mettre en valeur le street-art, créer une maison d'échanges de maîtrises et de connaissances techniques.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         }
       ]
@@ -552,8 +716,16 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Modernisation des équipements sportifs (30 M€), nouvel équipement avec un Dojo aux Ardoines, gestion optimisée des créneaux, mutualisation entre scolaires, clubs et habitants, city-stades éclairés",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Ouvrir les stades en dehors des heures scolaires et pendant les vacances, aménager les bords de Seine pour clubs de sports nautiques, aménager le parc des Lilas pour le sport.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -561,8 +733,16 @@
           "nom": "Sport pour tous",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Objectif 100% savoir nager, Pass Jeunes Culture & Sport (12-25 ans), baignade gratuite dans la Seine en été, flotte municipale de vélos, sport-santé, créneaux inclusifs handicap, formation BPJEPS/BNSSA",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Favoriser l'émulation entre sportifs, organiser des événements inter-clubs ou inter-quartiers, aménager un parcours sportif en bord de Seine.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         }
       ]
@@ -597,8 +777,16 @@
           "nom": "Accessibilité",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Guichet municipal Handicap & Autonomie, plan pluriannuel pour l'espace public accessible, navettes adaptées, numérique accessible, volet handicap obligatoire dans tout projet municipal",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Développer la prise en charge des personnes en situation de handicap, faciliter les moyens de déplacements (trottoirs adaptés, transports adaptés).",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -606,8 +794,16 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Moratoire sur les démolitions de logements, renégociation des projets de rénovation urbaine, consultation citoyenne sur l'avenir des Ardoines, refus de la bétonisation excessive, 40 M€ pour le renouvellement urbain",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Création de zones commerçantes dans les quartiers du Moulin Vert et Malassis pour redynamiser la vie de ces quartiers, restaurer la maison du Moulin Vert en espace de co-working.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         }
       ]
@@ -621,8 +817,16 @@
           "nom": "Aide sociale",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Lutte contre le non-recours aux aides (RSA, APL, AME), repérage des publics invisibles, Mairie mobile pour les parents seuls, hébergement d'urgence municipal, « Visa Parent Solo » pour les familles monoparentales",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Aides ciblées pour familles en difficulté, familles monoparentales, personnes isolées et jeunes : aide au logement, à la parentalité, au travail, à la santé, aux loisirs, au sport et à la culture.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -635,7 +839,11 @@
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/"
             },
-            "afflatet": null
+            "afflatet": {
+              "texte": "Renforcer les actions de prévention, commission permanente pour suivre le quotidien des locataires avec les bailleurs, lutte contre l'isolement des personnes seules.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         },
         {
@@ -643,8 +851,16 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "bell-lloch": null,
-            "tmimi": null,
-            "afflatet": null
+            "tmimi": {
+              "texte": "Gratuité progressive des services (aide aux devoirs, goûter, cinéma pour les jeunes), cantines au quotient familial dégressif, abattement 25 à 40% pour familles monoparentales, halles alimentaires à prix justes",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitry2026.fr/"
+            },
+            "afflatet": {
+              "texte": "Stopper l'augmentation des impôts, développer le dynamisme économique pour générer des ressources propres, suivre les recommandations de la Chambre Régionale des Comptes.",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://vitryavenir.fr/"
+            }
           }
         }
       ]

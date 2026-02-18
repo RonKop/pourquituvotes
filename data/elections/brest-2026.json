@@ -17,7 +17,7 @@
       "nom": "Stéphane Roudaut",
       "liste": "Une nouvelle histoire pour Brest (DVD/UDI/Horizons/LR)",
       "programmeUrl": "https://www.stephaneroudaut2026.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -41,7 +41,7 @@
       "nom": "Yves Pagès",
       "liste": "Rassemblement National",
       "programmeUrl": "https://yvespages2026.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -68,13 +68,17 @@
               "sourceUrl": "https://france3-regions.franceinfo.fr/bretagne/finistere/brest/elections-municipales-2026-le-maire-de-brest-et-candidat-francois-cuillandre-veut-creer-une-police-municipale-de-50-agents-3277367.html"
             },
             "roudaut": {
-              "texte": "Création d'une Police Territoriale unifiée (police municipale + ASVP + brigade transport) avec patrouilles 24h/24 le week-end et armement des agents",
-              "source": "stephaneroudaut2026.fr, 2026",
+              "texte": "Création d'une Police Territoriale unifiée (police municipale, ASVP et brigade intercommunale de transport) avec objectif de 150 agents armés de proximité, soit 1 agent pour 1 000 habitants. Patrouilles de quartier 24h/24 le week-end. Missions : lutte contre les incivilités, sécurisation des écoles, contrôle du stationnement. Budget estimé : 7,5 M€",
+              "source": "Programme officiel 2026 — 5 engagements sécurité",
               "sourceUrl": "https://www.stephaneroudaut2026.fr/post/s%C3%A9curit%C3%A9-%C3%A0-brest-les-5-engagements-de-st%C3%A9phane-roudaut-pour-une-ville-plus-s%C3%BBre"
             },
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Création d'une police municipale armée pour Brest, dernière grande ville de France de plus de 100 000 habitants à ne pas en disposer. La sécurité au cœur de l'élection municipale",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": {
               "texte": "Création d'une police municipale armée de 100 agents, avec un commissariat central au port et deux antennes à Bellevue et Pontanézen",
               "source": "France Bleu, 2026",
@@ -91,10 +95,18 @@
               "source": "France Bleu, 2026",
               "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-breizh-izel/municipales-2026-a-brest-francois-cuillandre-promet-une-police-municipale-2030517"
             },
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Déploiement de 300 points de vidéoprotection (1 000 caméras) dans les zones d'habitation, zones économiques et bâtiments publics. Création d'un Centre de Supervision Urbain (CSU) opérationnel 24h/24 pour une gestion intelligente de la sécurité",
+              "source": "Programme officiel 2026 — 5 engagements sécurité",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/post/s%C3%A9curit%C3%A9-%C3%A0-brest-les-5-engagements-de-st%C3%A9phane-roudaut-pour-une-ville-plus-s%C3%BBre"
+            },
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Déploiement massif de la vidéoprotection dans l'ensemble des quartiers de Brest pour lutter contre la délinquance et les incivilités",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         },
@@ -103,7 +115,11 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "cuillandre": null,
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Doublement du nombre de médiateurs, de 25 à 50, concentrés dans les quartiers prioritaires, les écoles et les équipements publics. Objectif : 100 % des bailleurs sociaux engagés dans un programme « tranquillité résidentielle »",
+              "source": "Programme officiel 2026 — 5 engagements sécurité",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/post/s%C3%A9curit%C3%A9-%C3%A0-brest-les-5-engagements-de-st%C3%A9phane-roudaut-pour-une-ville-plus-s%C3%BBre"
+            },
             "beaudouin": {
               "texte": "Prévention, médiation et éducation coordonnées entre tous les acteurs sociaux pour une ville plus sûre",
               "source": "France Bleu, 2026",
@@ -119,7 +135,11 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "cuillandre": null,
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Plan d'action ambitieux pour faire de Brest une ville pilote en matière de lutte contre les violences faites aux femmes, intégré à la politique d'égalité femmes-hommes",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
             "beaudouin": null,
             "muscat": null,
             "pages": null,
@@ -142,7 +162,11 @@
               "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
               "a_verifier": true
             },
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Amélioration de la desserte des transports en commun sur l'ensemble de la métropole, en lien avec le projet « Mon Réseau Grandit » et le développement des mobilités douces",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
             "beaudouin": null,
             "muscat": null,
             "pages": null,
@@ -154,7 +178,11 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "cuillandre": null,
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Développement des mobilités douces : extension du réseau cyclable sécurisé et encouragement des déplacements actifs dans tous les quartiers de la métropole",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
             "beaudouin": null,
             "muscat": null,
             "pages": null,
@@ -169,7 +197,11 @@
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Mettre fin à la politique anti-voitures assumée qui a fait de Brest la 3e grande ville de France où la circulation automobile est la plus difficile, avec de nombreux bouchons. Rétablir une circulation fluide",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         },
@@ -181,7 +213,11 @@
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Restaurer les centaines de places de stationnement sur voirie supprimées qui ont sinistré le petit commerce de proximité",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         },
@@ -215,7 +251,11 @@
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Priorité nationale dans l'attribution des logements sociaux. Rétablir l'ordre et la tranquillité dans les résidences HLM",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": {
               "texte": "Réhabilitation des logements sociaux dans les quartiers populaires",
               "source": "France Bleu, 2026",
@@ -331,10 +371,18 @@
           "nom": "Jeunesse",
           "propositions": {
             "cuillandre": null,
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Programme jeunesse issu de la consultation de 1 500 habitants : accompagnement des jeunes dans la cité et développement de l'offre périscolaire et de loisirs",
+              "source": "France Bleu Bretagne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-stephane-roudaut-veut-ecrire-une-nouvelle-histoire-pour-brest-3205749"
+            },
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Retenir les jeunes talents à Brest : créer les conditions pour que les étudiants et jeunes diplômés trouvent un emploi et choisissent de rester dans la métropole",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         }
@@ -383,7 +431,11 @@
               "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
               "a_verifier": true
             },
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Engagement fort dans la transition écologique pour une ville plus sobre et adaptée au changement climatique, sujet de prédilection identifié par le candidat parmi les priorités du mandat",
+              "source": "France Bleu Bretagne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-stephane-roudaut-veut-ecrire-une-nouvelle-histoire-pour-brest-3205749"
+            },
             "beaudouin": null,
             "muscat": null,
             "pages": null,
@@ -437,7 +489,11 @@
           "nom": "Prévention santé",
           "propositions": {
             "cuillandre": null,
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Politique de prévention santé renforcée, travaillée avec les 16 groupes thématiques du collectif « Mon Brest », incluant un volet solidarité et accès aux soins",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
             "beaudouin": null,
             "muscat": null,
             "pages": null,
@@ -467,7 +523,11 @@
           "nom": "Budget participatif",
           "propositions": {
             "cuillandre": null,
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Consultation citoyenne élargie : plus de 1 500 personnes rencontrées via 16 groupes thématiques (solidarité, sécurité, transitions, etc.) pour co-construire le programme municipal",
+              "source": "France Bleu Bretagne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-stephane-roudaut-veut-ecrire-une-nouvelle-histoire-pour-brest-3205749"
+            },
             "beaudouin": null,
             "muscat": null,
             "pages": null,
@@ -483,14 +543,22 @@
               "source": "Manifeste Brest Ensemble",
               "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html"
             },
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Gouvernance renouvelée : transparente, collaborative et tournée vers le bien commun. Financement de la politique de sécurité par une gestion municipale rigoureuse",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
             "beaudouin": {
               "texte": "Séparer les fonctions de maire de Brest et président de la métropole, limiter à deux mandats maximum",
               "source": "France Bleu, 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-a-brest-la-liste-lfi-de-cecile-beaudouin-promet-une-revolution-citoyenne-1075453"
             },
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Renouvellement démocratique : transparence de la gestion municipale et fin du cumul des fonctions qui concentre trop de pouvoir",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         },
@@ -523,7 +591,11 @@
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Améliorer l'efficacité des services publics municipaux et mettre fin aux retards qui pénalisent les habitants et les commerçants",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         }
@@ -541,7 +613,11 @@
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Sauver le petit commerce de proximité sinistré par la suppression des places de parking et accélérer la réouverture des commerces du marché Saint-Louis, fermés depuis trop longtemps à cause des retards de la municipalité",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         },
@@ -550,10 +626,18 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "cuillandre": null,
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Favoriser l'emploi et l'insertion par le dynamisme économique du territoire, en s'appuyant sur les conclusions des 16 groupes thématiques de consultation citoyenne",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Lutter contre le chômage (13,7 %) et la pauvreté (19 %, jusqu'à 45 % dans certains quartiers). Retenir les jeunes talents formés par l'université qui quittent la ville",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         },
@@ -566,12 +650,16 @@
               "source": "Manifeste Brest Ensemble",
               "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html"
             },
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Relancer l'attractivité de Brest et de sa métropole : une ville plus juste, plus sûre et plus rayonnante, où les habitants et les entreprises choisissent de s'installer",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
             "beaudouin": null,
             "muscat": null,
             "pages": {
-              "texte": "Enrayer le déclin démographique et relancer l'attractivité économique de Brest",
-              "source": "yvespages2026.fr, 2026",
+              "texte": "Enrayer le déclin démographique et relancer l'attractivité économique de Brest. Désenclaver la ville : Brest n'a ni TGV ni autoroute pour rejoindre rapidement Rennes. Développer le port de commerce, marginal avec 2,8 M de tonnes (contre 130 M au Havre), relancer le terminal ferroviaire à l'arrêt",
+              "source": "Programme officiel 2026",
               "sourceUrl": "https://yvespages2026.fr/"
             },
             "yenier": null
@@ -593,7 +681,11 @@
               "sourceUrl": "https://www.brest-ensemble.fr/Manifeste_8.html",
               "a_verifier": true
             },
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Action culturelle identifiée comme sujet de prédilection : développement de l'offre culturelle et des équipements pour faire de Brest une ville où l'on se retrouve et où l'on grandit",
+              "source": "France Bleu Bretagne, 2026",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-stephane-roudaut-veut-ecrire-une-nouvelle-histoire-pour-brest-3205749"
+            },
             "beaudouin": null,
             "muscat": null,
             "pages": null,
@@ -639,7 +731,11 @@
           "nom": "Sport pour tous",
           "propositions": {
             "cuillandre": null,
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Développement du sport pour tous dans les quartiers, en lien avec la politique d'inclusion et d'accessibilité universelle",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/"
+            },
             "beaudouin": null,
             "muscat": null,
             "pages": null,
@@ -660,7 +756,11 @@
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Revoir l'aménagement urbain pour rétablir l'équilibre entre piétons, cyclistes et automobilistes. Mettre fin aux politiques qui ont dégradé la circulation et l'accès au centre-ville",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         },
@@ -670,8 +770,8 @@
           "propositions": {
             "cuillandre": null,
             "roudaut": {
-              "texte": "Faire de l'inclusion et du handicap la grande cause du mandat",
-              "source": "stephaneroudaut2026.fr, 2026",
+              "texte": "Faire de l'inclusion et du handicap la « grande cause » du mandat : garantir l'accès à tout pour tous, avec une approche transversale couvrant tous les sujets et compétences de la ville",
+              "source": "Programme officiel 2026",
               "sourceUrl": "https://www.stephaneroudaut2026.fr/"
             },
             "beaudouin": null,
@@ -685,10 +785,18 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "cuillandre": null,
-            "roudaut": null,
+            "roudaut": {
+              "texte": "Renforcement de la présence dans les quartiers prioritaires : médiateurs dédiés, patrouilles de proximité et programme « tranquillité résidentielle » avec les bailleurs sociaux",
+              "source": "Programme officiel 2026 — 5 engagements sécurité",
+              "sourceUrl": "https://www.stephaneroudaut2026.fr/post/s%C3%A9curit%C3%A9-%C3%A0-brest-les-5-engagements-de-st%C3%A9phane-roudaut-pour-une-ville-plus-s%C3%BBre"
+            },
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Agir dans les quartiers prioritaires où la pauvreté atteint 45 % : renforcer la sécurité, l'emploi et les services de proximité",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         }
@@ -711,7 +819,11 @@
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Priorité nationale dans l'accès aux aides sociales et au logement social pour les Brestois. Maîtrise de l'immigration : Brest est la 2e grande ville de France où l'immigration a le plus augmenté (+100 % entre 2006 et 2021)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         },
@@ -721,8 +833,8 @@
           "propositions": {
             "cuillandre": null,
             "roudaut": {
-              "texte": "Plan ambitieux pour faire de Brest une ville pionnière en matière d'égalité femmes-hommes",
-              "source": "stephaneroudaut2026.fr, 2026",
+              "texte": "Plan ambitieux pour faire de Brest une ville pionnière en matière d'égalité femmes-hommes : « L'égalité femmes-hommes ne peut plus être un vœu pieux, elle doit devenir une réalité quotidienne »",
+              "source": "Programme officiel 2026",
               "sourceUrl": "https://www.stephaneroudaut2026.fr/"
             },
             "beaudouin": null,
@@ -739,7 +851,11 @@
             "roudaut": null,
             "beaudouin": null,
             "muscat": null,
-            "pages": null,
+            "pages": {
+              "texte": "Défendre le pouvoir d'achat des Brestois par une gestion rigoureuse des finances municipales et la baisse de la pression fiscale locale",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://yvespages2026.fr/"
+            },
             "yenier": null
           }
         }

@@ -9,7 +9,7 @@
       "nom": "Laurence Ruffin",
       "liste": "Oui Grenoble (EELV/PS/PCF/Génération.s)",
       "programmeUrl": "https://oui-grenoble.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -57,7 +57,7 @@
       "nom": "Nadia Belaïd",
       "liste": "Grenoble Alpes Collectif (citoyenne)",
       "programmeUrl": "https://www.grenoblealpescollectif.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -88,8 +88,8 @@
           "propositions": {
             "ruffin": {
               "texte": "Création d'une police municipale de quartier renforcée par 50 agents supplémentaires, axée sur la proximité et la prévention",
-              "source": "Place Gre'net, janvier 2026",
-              "sourceUrl": "https://www.placegrenet.fr/2026/01/19/cameras-policiers-municipaux-rsa-jeune-ce-que-revele-la-fuite-du-projet-de-laurence-ruffin-pour-grenoble/669616"
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": {
               "texte": "Augmenter la police municipale à 200 agents minimum (actuellement 54 opérationnels). Recrutement de 50 agents par an sur 3 ans, coût 10 millions €. Police municipale nocturne sur l'ensemble de la commune. Formation et armement de la police municipale. Centre de supervision urbain 24h/24, 7j/7 à vocation intercommunale. Tolérance zéro contre les incivilités",
@@ -149,9 +149,9 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "ruffin": {
-              "texte": "Approche axée sur la prévention et la médiation de proximité dans tous les quartiers de la ville",
-              "source": "Place Gre'net, septembre 2025",
-              "sourceUrl": "https://www.placegrenet.fr/2025/09/25/cooperation-protection-et-sante-les-priorites-de-laurence-ruffin-candidate-aux-municipales-a-grenoble/660653"
+              "texte": "Déployer des médiateurs et médiatrices sur toute la ville pour plus de prévention. Approche axée sur la médiation de proximité dans tous les quartiers",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": {
               "texte": "100% des jeunes jusqu'à 18 ans doivent accéder à activités culturelles/sportives hors temps scolaire. Équipe dédiée aux addictions liées à l'alcool. Travaux d'intérêt général pour collégiens/lycéens sanctionnés. Expulsion des logements sociaux pour personnes condamnées pour trafic de drogue",
@@ -167,9 +167,9 @@
             },
             "gabriac": null,
             "belaid": {
-              "texte": "Renforcer les politiques de prévention et de médiation dans les quartiers prioritaires.",
-              "source": "Site officiel Grenoble",
-              "sourceUrl": "https://www.grenoble.fr"
+              "texte": "Mettre en place une veille sécurité citoyenne et policière, espaces de dialogue par quartier entre habitants, police et professionnels pour identifier les enjeux de sécurité et co-construire des solutions adaptées avec la mairie et la préfecture",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
             },
             "anglade": null,
             "brun": null
@@ -179,7 +179,11 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Agents municipaux dédiés à la lutte contre les violences sexistes et sexuelles",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
@@ -200,7 +204,11 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Tarification sociale de l'autopartage pour se libérer des coûts et de la contrainte de la voiture individuelle",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": {
               "texte": "Améliorer fréquence, régularité et qualité des transports en commun à l'échelle régionale. Étudier les tarifs pour trajets courts. Porter le projet de RER métropolitain sur lignes ferroviaires existantes. Application unique mobilité avec tarification unique au temps",
               "source": "reconciliergrenoble.fr - Déplacements et mobilités",
@@ -215,9 +223,9 @@
             },
             "gabriac": null,
             "belaid": {
-              "texte": "Développer les transports en commun avec extension du tramway et amélioration de la fréquence.",
-              "source": "Site officiel Grenoble",
-              "sourceUrl": "https://www.grenoble.fr"
+              "texte": "Organiser une assemblée citoyenne décisionnaire à l'échelle du SMMAG qui décide des projets structurants de transports (prolongement du tram, gratuité des transports, etc.)",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
             },
             "anglade": null,
             "brun": null
@@ -227,7 +235,11 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Faire de Grenoble la capitale du vélo : entretien de toutes les pistes cyclables, tous les quartiers accessibles à vélo",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": {
               "texte": "Poursuivre les aides à l'achat de VAE. Développer prêts gratuits pour jeunes 18-25 ans. Sécuriser la séparation piétons/cycles/véhicules par des aménagements",
               "source": "reconciliergrenoble.fr - Déplacements et mobilités",
@@ -290,8 +302,8 @@
           "propositions": {
             "ruffin": {
               "texte": "Gratuité des transports en commun le week-end pour accéder au centre-ville et à la montagne",
-              "source": "TéléGrenoble, février 2026",
-              "sourceUrl": "https://tgplus.fr/article/au-palais-des-sports-laurence-ruffin-presente-sa-liste-et-son-projet-pour-grenoble/"
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": null,
             "gerbi": null,
@@ -332,9 +344,9 @@
             "gentil": null,
             "gabriac": null,
             "belaid": {
-              "texte": "Augmenter la construction de logements sociaux et l'accès à un logement décent pour tous.",
-              "source": "Site officiel Grenoble",
-              "sourceUrl": "https://www.grenoble.fr"
+              "texte": "Réguler le marché du logement : appliquer la taxe sur les logements vides et la taxe sur les friches commerciales, réguler les locations touristiques de type Airbnb",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
             },
             "anglade": null,
             "brun": null
@@ -346,8 +358,8 @@
           "propositions": {
             "ruffin": {
               "texte": "Création d'une brigade municipale contre la vacance de logements",
-              "source": "France Bleu Isère, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": {
               "texte": "6 600 logements vides (+40% en dix ans). Suppression du permis de louer. Arrêt des préemptions sauvages",
@@ -362,7 +374,11 @@
             },
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Appliquer la taxe sur les logements vides pour lutter contre la vacance de logements",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": {
               "texte": "Réquisition des logements vacants et baisse des loyers",
               "source": "Place Gre'net, octobre 2025",
@@ -375,13 +391,21 @@
           "id": "encadrement-loyers",
           "nom": "Encadrement des loyers",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Encadrer les loyers et rendre l'habitat durable pour protéger les locataires",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Généraliser l'encadrement des loyers et le permis de louer à toute la ville",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -426,9 +450,9 @@
             },
             "gabriac": null,
             "belaid": {
-              "texte": "Créer des places de crèche supplémentaires pour améliorer l'accueil des enfants de moins de 3 ans.",
-              "source": "Site officiel Grenoble",
-              "sourceUrl": "https://www.grenoble.fr"
+              "texte": "Renforcer le soutien aux familles monoparentales par le CCAS",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
             },
             "anglade": null,
             "brun": null
@@ -438,7 +462,11 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Accélérer la réhabilitation des écoles et des crèches : rénovation thermique, végétalisation et ombrage des cours, poursuite de « Place(s) aux Enfants »",
+              "source": "Livret Santé - Oui Grenoble",
+              "sourceUrl": "https://oui-grenoble.fr/wp-content/uploads/2026/01/OuiGrenoble_LivretSante.pdf"
+            },
             "carignon": null,
             "gerbi": {
               "texte": "Les jeunes Grenoblois doivent avoir les meilleures écoles : garantir des établissements scolaires rénovés et accessibles au plus grand nombre",
@@ -459,8 +487,8 @@
           "propositions": {
             "ruffin": {
               "texte": "Tarif parent solo pour la cantine et le périscolaire",
-              "source": "France Bleu Isère, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": null,
             "gerbi": {
@@ -479,7 +507,11 @@
               "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504"
             },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Expérimenter des petits déjeuners gratuits dans les écoles REP",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": {
               "texte": "Gratuité des cantines scolaires",
               "source": "CNews, janvier 2026",
@@ -492,7 +524,11 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Renforcer le périscolaire contre les trous d'inter-scolaire : activités culturelles, sportives et vivantes. Permettre à tous les enfants grenoblois de partir en vacances (colonies, montagne)",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": {
               "texte": "Renforcer l'offre périscolaire et après-scolaire, avec priorité à la jeunesse et au renforcement des ETAPS (éducateurs sportifs territoriaux). Promouvoir des projets transversaux liant sport, école et culture",
@@ -516,9 +552,9 @@
           "nom": "Jeunesse",
           "propositions": {
             "ruffin": {
-              "texte": "Création d'un revenu de solidarité jeunes",
-              "source": "France Bleu Isère, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+              "texte": "Expérimenter un revenu de solidarité jeunes",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": null,
             "gerbi": null,
@@ -541,9 +577,9 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "ruffin": {
-              "texte": "Création d'une forêt urbaine et ouverture de la baignade dans l'Isère",
-              "source": "France Bleu Isère, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+              "texte": "Création d'une forêt urbaine. Ouverture de la baignade dans l'Isère (site Jean Bron, ouverte toute l'année). Un parc à moins de cinq minutes de chez soi. Ville engagée pour le bien-être animal",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": null,
             "gerbi": null,
@@ -554,7 +590,11 @@
               "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
             },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Renforcer la végétalisation de l'espace public et la désimperméabilisation des sols",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -587,16 +627,20 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "ruffin": {
-              "texte": "Développement d'une épargne citoyenne pour accompagner la transition écologique, inspirée de Bologne et Fribourg",
-              "source": "Place Gre'net, septembre 2025",
-              "sourceUrl": "https://www.placegrenet.fr/2025/09/25/cooperation-protection-et-sante-les-priorites-de-laurence-ruffin-candidate-aux-municipales-a-grenoble/660653"
+              "texte": "Développement d'un fonds d'épargne citoyen 100% au service de l'intérêt général pour accompagner la transition écologique. Urbanisme favorable à la santé, lutte contre les îlots de chaleur, espaces de rafraîchissement",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Aménager une zone de baignade sécurisée dans l'Isère. Renforcer la végétalisation et la désimperméabilisation pour s'adapter aux conséquences du changement climatique et lutter contre les vagues de chaleur",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -605,7 +649,11 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Création d'un pôle public de l'énergie à coûts maîtrisés. Lutte contre la précarité énergétique par la rénovation des logements",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": {
               "texte": "Développement du dispositif Mur Mur. Ciblage des copropriétés dégradées pour la rénovation thermique",
               "source": "reconciliergrenoble.fr - Logement",
@@ -624,9 +672,9 @@
             },
             "gabriac": null,
             "belaid": {
-              "texte": "Lancer un programme massif de rénovation énergétique des bâtiments publics et du parc social.",
-              "source": "Site officiel Grenoble",
-              "sourceUrl": "https://www.grenoble.fr"
+              "texte": "Lancer un programme massif de rénovation énergétique des bâtiments publics et du parc social",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
             },
             "anglade": null,
             "brun": null
@@ -637,16 +685,20 @@
           "nom": "Alimentation durable",
           "propositions": {
             "ruffin": {
-              "texte": "Création d'une sécurité sociale de l'alimentation et d'un marché convivial en centre-ville",
-              "source": "France Bleu Isère, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+              "texte": "Création d'une sécurité sociale de l'alimentation et d'un marché convivial en centre-ville. Paniers bio gratuits de saison pour les familles les plus modestes. Épiceries solidaires pour faire ses courses à prix juste",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Alimentation de qualité pour tous : expérimenter des petits déjeuners gratuits dans les écoles REP",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -662,9 +714,9 @@
           "nom": "Centres de santé",
           "propositions": {
             "ruffin": {
-              "texte": "Création de deux centres de santé municipaux, un centre de santé dans chaque secteur de la ville",
-              "source": "France Bleu Isère, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/auvergne-rhone-alpes/isere-38/grenoble/municipales-2026-laurence-ruffin-lance-son-sprint-final-au-palais-des-sports-de-grenoble-9158572"
+              "texte": "Un centre de santé dans chaque secteur de la ville. Soutenir les 5 centres de santé associatifs existants. Création d'un 6ème centre pédiatrique à l'Arlequin. Pôle d'accompagnement à l'installation des professionnels de santé",
+              "source": "Livret Santé - Oui Grenoble",
+              "sourceUrl": "https://oui-grenoble.fr/wp-content/uploads/2026/01/OuiGrenoble_LivretSante.pdf"
             },
             "carignon": {
               "texte": "Mise à disposition de locaux municipaux vacants pour cabinets médicaux. Préemption de foncier pour maisons de santé et permanences infirmières. Tarifs préférentiels pour professionnels s'installant. Cabinets partagés public-privé dans 3 quartiers (Villeneuve, Mistral, Teisseire). Espaces de coworking médical. Transformation de l'ancien EHPAD Narvik en centre de santé. Bus santé mobile",
@@ -679,7 +731,11 @@
               "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
             },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Soutenir financièrement les projets d'habitants de centres de santé autogérés et maisons de santé. Mettre en place un tiers lieu en santé comme lieu ressource et de formation pour les soignants, les patients et les aidants",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -688,7 +744,11 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Points d'écoute et de parole psychologique pour les jeunes et étudiants. Campagnes de prévention drogues/alcool. Objectif « Grenoble ville sans sida ». Développer le sport-santé à tous les âges. Ordonnances vertes pour les femmes enceintes",
+              "source": "Livret Santé - Oui Grenoble",
+              "sourceUrl": "https://oui-grenoble.fr/wp-content/uploads/2026/01/OuiGrenoble_LivretSante.pdf"
+            },
             "carignon": {
               "texte": "Permanences santé mentale et droits avec consultations psychiatriques. Renforcement du service santé scolaire (nutrition, santé mentale, addictions). Parcours bien-être dans espaces verts. Contrat local de santé ambitieux avec l'ARS",
               "source": "reconciliergrenoble.fr - Santé",
@@ -707,7 +767,11 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Bien vieillir dans la ville et prévenir la perte d'autonomie : actions de prévention auprès des personnes âgées, soutenir les aidants, permettre le droit au répit",
+              "source": "Livret Santé - Oui Grenoble",
+              "sourceUrl": "https://oui-grenoble.fr/wp-content/uploads/2026/01/OuiGrenoble_LivretSante.pdf"
+            },
             "carignon": null,
             "gerbi": {
               "texte": "Chèque restaurant pour les plus de 70 ans",
@@ -736,16 +800,20 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Des chantiers coopératifs pour améliorer ou construire des aménagements en bas de chez soi. Révolutionner la Fête des Tuiles avec un budget participatif culture",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
             "gentil": null,
             "gabriac": null,
             "belaid": {
-              "texte": "Mettre en place des budgets participatifs pour impliquer les citoyens dans les décisions municipales.",
-              "source": "Site officiel Grenoble",
-              "sourceUrl": "https://www.grenoble.fr"
+              "texte": "Budget 100% citoyen : 350 citoyens tirés au sort, des agents et élus décident des projets structurants pour le mandat avec une validation par référendum",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
             },
             "anglade": null,
             "brun": null
@@ -756,9 +824,9 @@
           "nom": "Transparence",
           "propositions": {
             "ruffin": {
-              "texte": "Votes ouverts dès 16 ans sur les questions municipales, y compris aux résidents étrangers",
-              "source": "TéléGrenoble, février 2026",
-              "sourceUrl": "https://tgplus.fr/article/au-palais-des-sports-laurence-ruffin-presente-sa-liste-et-son-projet-pour-grenoble/"
+              "texte": "Votes ouverts dès 16 ans sur les questions municipales, y compris aux résidents étrangers. Référendums citoyens. Trois priorités budgétaires claires : solidarité/écologie, éducation/culture, participatif/égalité",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
             },
             "carignon": null,
             "gerbi": {
@@ -778,9 +846,9 @@
             },
             "gabriac": null,
             "belaid": {
-              "texte": "Partage du pouvoir avec les habitants : les residents decident directement du developpement de leur quartier, y compris la tarification des transports en commun.",
-              "source": "Site de campagne",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/"
+              "texte": "Charte publique des élus (engagement de transparence, responsabilité, respect des décisions prises par les habitants) et fonctionnement interne de la mairie plus démocratique. Partage du pouvoir avec les habitants",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
             },
             "anglade": null,
             "brun": null
@@ -790,7 +858,11 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Charte d'engagement avec le monde associatif pour renforcer le partenariat ville-associations",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
@@ -800,7 +872,11 @@
               "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
             },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Redonner aux associations leur place dans la vie des quartiers en arrêtant la municipalisation des structures de jeunesse, culturelles ou citoyennes. Rendre les habitants et les associations co-gestionnaires des Maisons des Habitants",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -809,7 +885,11 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Des permanences du quotidien pour accueillir et traiter les demandes des habitants. Des pactes grenoblois pour l'innovation, la solidarité et l'écologie dans l'administration des équipements publics",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
@@ -838,7 +918,11 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Grand plan d'animations et de vitalisation des rues centrales pour le commerce de proximité. Halle ouverte et conviviale pour faire de la ville un lieu de rencontres",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": {
               "texte": "Gratuité du stationnement entre 12h et 14h pour les clients. Brigades spécialisées police/propreté aux heures d'ouverture. Fonds d'indemnisation automatique en cas de travaux. Moratoire sur l'extension des zones commerciales périphériques. Locaux à baux précaires (3-6 mois) pour jeunes créateurs. Halles alimentaires couvertes. Service de livraison mutualisé décarbonée. Instance permanente du commerce avec budget propre",
               "source": "reconciliergrenoble.fr - Commerce et artisanat",
@@ -856,7 +940,11 @@
               "source": "Place Gre'net, octobre 2025",
               "sourceUrl": "https://www.placegrenet.fr/2025/10/13/municipales-le-rn-valentin-gabriac-veut-refaire-de-grenoble-la-capitale-des-alpes/661799"
             },
-            "belaid": null,
+            "belaid": {
+              "texte": "Mettre en place un bureau des commerces comme espace d'échange entre commerçants, avec des interlocuteurs dédiés de la Ville pour soutenir l'installation et la vie des commerces",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -865,7 +953,11 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Développer l'emploi local et donner du sens à l'économie : réparer plutôt que jeter, développer les filières locales, savoir-faire et usage",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
@@ -875,7 +967,11 @@
               "sourceUrl": "https://grenoble-capitale-citoyenne.fr/"
             },
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Mettre en place un Territoire Zéro Chômeurs de Longue Durée (TZCLD) à Grenoble",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": {
               "texte": "Interdiction des licenciements, augmentation générale des salaires d'au moins 400 €/mois, aucun salaire inférieur à 2 000 €",
               "source": "Le Travailleur alpin, novembre 2025",
@@ -913,13 +1009,21 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Création d'un centre des cultures urbaines et de montagne pour rénover les cultures populaires",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Créer les conditions d'une culture non pas administrée mais organisée par les acteurs et les habitants dans leur diversité, dans le respect des droits culturels",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -928,7 +1032,11 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Révolutionner la Fête des Tuiles : budget participatif dédié à la solidarité et à la culture",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
@@ -1048,13 +1156,21 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Permettre à tous les enfants grenoblois de partir en vacances. Paniers bio gratuits pour les familles modestes. Épiceries solidaires pour faire ses courses à prix juste",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": null,
             "gerbi": null,
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
+            "belaid": {
+              "texte": "Ouvrir une maison de l'Hospitalité à Grenoble, lieu d'accueil inconditionnel où accéder aux services essentiels (douches, repos, numérique, etc.), des informations et de l'accompagnement",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
+            },
             "anglade": null,
             "brun": null
           }
@@ -1070,9 +1186,9 @@
             "gentil": null,
             "gabriac": null,
             "belaid": {
-              "texte": "Protection de toutes les minorites face au racisme systemique. Parite sociale au sein des elus : moins de 25% issus des classes superieures, recrutement dans tous les quartiers.",
-              "source": "Site de campagne",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/"
+              "texte": "Soutenir fortement les structures antiracistes et de prévention des risques (violences sexistes et sexuelles, drogues, addictions). Appliquer un plan de formation des agents aux oppressions systémiques. Parité sociale au sein des élus",
+              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
+              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/"
             },
             "anglade": null,
             "brun": null
@@ -1082,7 +1198,11 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "ruffin": null,
+            "ruffin": {
+              "texte": "Épiceries solidaires pour faire ses courses à prix juste. Tarification sociale de l'autopartage. Pôle public de l'énergie à coûts maîtrisés",
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://oui-grenoble.fr/le-programme/"
+            },
             "carignon": {
               "texte": "Gel de la taxe foncière durant le mandat",
               "source": "reconciliergrenoble.fr - Logement",

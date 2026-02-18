@@ -159,14 +159,9 @@
   color: #1e293b;
   margin-bottom: 1rem;
 }
-.candidat-radar__toggle {
-  display: flex;
-  gap: 0;
-  border: 1px solid var(--couleur-bordure, #e2e8f0);
-  border-radius: 8px;
-  overflow: hidden;
-  width: fit-content;
-  margin: 0 auto 1rem;
+.candidat-radar .radar-mode-toggle-wrap {
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 .candidat-radar__canvas-wrap {
   max-width: 400px;

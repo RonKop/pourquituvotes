@@ -52,6 +52,21 @@
     "solidarite": "ph-handshake"
   };
 
+  var LABELS_RADAR = {
+    "securite": "Sécurité",
+    "transports": "Transports",
+    "logement": "Logement",
+    "education": "Éducation",
+    "environnement": "Environnement",
+    "sante": "Santé",
+    "democratie": "Démocratie",
+    "economie": "Économie",
+    "culture": "Culture",
+    "sport": "Sport",
+    "urbanisme": "Urbanisme",
+    "solidarite": "Solidarité"
+  };
+
   var COULEURS_DEFAUT = [
     "#3B82F6", "#EF4444", "#10B981", "#F59E0B", "#8B5CF6",
     "#EC4899", "#14B8A6", "#F97316", "#6366F1", "#64748B"
@@ -358,8 +373,7 @@
     ctx.textBaseline = "middle";
     for (var i = 0; i < n; i++) {
       var p = pointAt(i, 1.18);
-      var label = cats[i].nom;
-      if (label.length > 14) label = label.substring(0, 12) + "\u2026";
+      var label = LABELS_RADAR[cats[i].id] || cats[i].nom;
       ctx.fillText(label, p.x, p.y);
     }
 
@@ -397,11 +411,23 @@
       var canvasWrap = radarSection ? radarSection.querySelector(".candidat-radar__canvas-wrap") : null;
       if (radarSection && canvasWrap) {
         toggleDiv = document.createElement("div");
-        toggleDiv.className = "candidat-radar__toggle";
+        toggleDiv.className = "radar-mode-toggle-wrap";
         toggleDiv.id = "candidat-radar-toggle";
-        toggleDiv.innerHTML =
-          '<button class="radar-mode-toggle__btn radar-mode-toggle__btn--active" data-mode="couverture">Couverture</button>' +
+        var innerToggle = document.createElement("div");
+        innerToggle.className = "radar-mode-toggle";
+        innerToggle.innerHTML =
+          '<button class="radar-mode-toggle__btn radar-mode-toggle__btn--active" data-mode="couverture">Couverture (%)</button>' +
           '<button class="radar-mode-toggle__btn" data-mode="volume">Volume brut</button>';
+        var infoBtn = document.createElement("span");
+        infoBtn.className = "radar-mode-toggle__info";
+        infoBtn.innerHTML = '<i class="ph ph-info"></i>';
+        infoBtn.setAttribute("tabindex", "0");
+        var infoBulle = document.createElement("span");
+        infoBulle.className = "radar-mode-toggle__tooltip";
+        infoBulle.innerHTML = '<strong>Couverture (%)</strong> : pourcentage de sous-thèmes abordés par catégorie.<br><strong>Volume brut</strong> : nombre de propositions par catégorie.';
+        infoBtn.appendChild(infoBulle);
+        toggleDiv.appendChild(innerToggle);
+        toggleDiv.appendChild(infoBtn);
         radarSection.insertBefore(toggleDiv, canvasWrap);
       }
     }

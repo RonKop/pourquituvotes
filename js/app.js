@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026021401';
+  var DATA_VERSION = '2026021402';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -3671,6 +3671,15 @@
     } else if (e.key === "Escape") {
       masquerSuggestionsCandidats();
     }
+  });
+
+  // Empêcher la perte de focus de l'input quand on clique dans les suggestions
+  // (sinon le blur peut causer un relayout avant que le click ne se déclenche)
+  villeSuggestionsContainer.addEventListener("mousedown", function (e) {
+    e.preventDefault();
+  });
+  candidatSuggestionsContainer.addEventListener("mousedown", function (e) {
+    e.preventDefault();
   });
 
   document.addEventListener("click", function (e) {

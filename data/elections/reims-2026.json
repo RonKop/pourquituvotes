@@ -8,8 +8,8 @@
       "id": "robinet",
       "nom": "Arnaud Robinet",
       "liste": "Horizons (soutenu par LR)",
-      "programmeUrl": "https://www.arnaudrobinet2026.fr/",
-      "programmeComplet": false,
+      "programmeUrl": "https://www.arnaudrobinet2026.fr/programme/",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -112,7 +112,11 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Mise en place du tutorat extra-scolaire pour les 12-18 ans dans tous les quartiers et creation d'un reseau de Voisins solidaires benevoles pour prevenir les situations de fragilite",
+              "source": "Programme officiel (PDF Vivons Reims Bienveillante)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Couvre-feu nocturne pour les mineurs de moins de 15 ans de 23h à 6h dans les quartiers sensibles (amende de 135 euros en cas de récidive). Mise en place de travaux d'intérêt général (TIG) pour les collégiens et lycéens indisciplinés. Campagne de sensibilisation contre la consommation de drogue et lutte contre le trafic",
               "source": "Programme officiel frigout2026.fr",
@@ -173,7 +177,11 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Poursuite et developpement des amenagements cyclables et des continuites cyclables entre les quartiers et le centre-ville, notamment vers Orgeval, la Croix Blandin et les principaux axes",
+              "source": "Programme officiel (PDF Vivons Reims en Commun)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": {
               "texte": "Créer un réseau cyclable structurant, continu et sécurisé, avec l'objectif de passer de 3% à 10% de déplacements à vélo d'ici la fin du mandat",
@@ -190,7 +198,11 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Apaisement de la circulation et reduction de la vitesse sur les grands boulevards. Securisation des cheminements pietons et amelioration du partage de l'espace dans tous les quartiers",
+              "source": "Programme officiel (PDF Vivons Reims en Commun)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Modification du plan de circulation pour le rendre plus fluide après des changements qui ont fait exploser les bouchons. Suppression immédiate de la Zone à Faibles Émissions (ZFE), jugée punitive, inefficace et socialement injuste. Arrêt des suppressions de places de stationnement à chaque travaux d'aménagement urbain",
               "source": "Programme officiel frigout2026.fr",
@@ -211,7 +223,11 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Creation de stationnement residentiel dans les quartiers et de nouvelles places de parking, notamment a la Neuvillette, Murigny, Maison Blanche et Barbâtre",
+              "source": "Programme officiel (PDF Vivons Reims en Commun)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Création de 500 nouvelles places de stationnement, en grande partie grâce à la construction d'un parking à étages à proximité de la gare. Gratuité du stationnement avec les \"Samedis en ville\" pendant 2h un samedi par mois",
               "source": "Programme officiel frigout2026.fr",
@@ -381,7 +397,11 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Developpement des espaces de jeux et d'activites pour les jeunes dans tous les quartiers. Mise en place du tutorat extra-scolaire pour les 12-18 ans",
+              "source": "Programme officiel (PDF Vivons Reims Bienveillante)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Création d'une ferme pédagogique au sein d'un parc réaménagé pour l'accueillir",
               "source": "Programme officiel frigout2026.fr",
@@ -421,7 +441,11 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Mise en place d'un controle des proprietaires de chiens pour lutter contre les dejections canines dans tous les quartiers de la ville",
+              "source": "Programme officiel (PDF Vivons Reims en Commun)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Création d'une brigade anti-incivilités chargée d'identifier et sanctionner les dépôts sauvages, nuisances et dégradations. Augmentation des tournées de nettoyage pour des quartiers plus propres. Sensibilisation des enfants au respect des règles de propreté et de collecte des déchets",
               "source": "Programme officiel frigout2026.fr",
@@ -438,7 +462,11 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Creation d'ilots de fraicheur dans tous les quartiers et deploiement du reseau de chaleur pour une consommation bas carbone et economique. Vegetalisation des parkings, pieds de murs et places publiques",
+              "source": "Programme officiel (PDF Vivons Reims en Commun)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Éclairage public intelligent : s'allumant automatiquement en présence de piétons ou véhicules (comme à Angers) avec éclairage minimal constant pour réduire la consommation énergétique",
               "source": "Programme officiel frigout2026.fr",
@@ -455,7 +483,11 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Deploiement du reseau de chaleur urbain pour une consommation bas carbone et economique, notamment dans les quartiers Europe, Chemin Vert et Clemenceau",
+              "source": "Programme officiel (PDF Vivons Reims en Commun)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": {
               "texte": "Programme d'investissement thermique dans les bâtiments publics, notamment les écoles",
@@ -578,7 +610,11 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Creation d'un reseau de Voisins solidaires benevoles dans les quartiers et poursuite du reseau d'ecrivains publics numeriques pour l'inclusion",
+              "source": "Programme officiel (PDF Vivons Reims Bienveillante)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": null,
             "coradel": null,
@@ -652,7 +688,11 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Accueillir des evenements sportifs internationaux majeurs, dont le Grand Depart du Tour de France 2028. Donner au musee des Beaux-arts une dimension internationale",
+              "source": "Programme officiel (PDF Vivons Reims en Mouvement)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": null,
             "coradel": null,
@@ -671,7 +711,11 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Donner au musee des Beaux-arts une dimension internationale. Creer une galerie d'art pour artistes emergents (Ecole Blot). Transformer le Tresor en lieu de creation culturelle. Perenniser la gratuite d'inscription aux mediatheques et bibliotheques municipales. Faire de l'ESAD un lieu majeur de l'art contemporain et du design industriel",
+              "source": "Programme officiel (PDF Vivons Reims en Mouvement)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Création d'un orchestre philharmonique de Reims, actuellement inexistant. Rénovation du Musée de l'Automobile avec création d'expositions numériques sur l'histoire de l'automobile",
               "source": "Programme officiel frigout2026.fr",
@@ -688,7 +732,11 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Accompagner un nouvel evenement de musiques actuelles. Lancer un nouveau spectacle multimedia sur la cathedrale Notre-Dame. Developper l'art dans la rue avec le programme « Reims en couleurs ». Valoriser le patrimoine au travers de parcours lumineux. Politique ambitieuse de preservation du patrimoine (renovation des basiliques Saint-Remi et Sainte-Clotilde)",
+              "source": "Programme officiel (PDF Vivons Reims en Mouvement)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Refonte des Fêtes Johanniques présentes dans tous les quartiers, impliquant associations, écoles et bâtiments municipaux. Grand spectacle mémoriel annuel célébrant la Résistance, le Général de Gaulle et la Libération de Reims. Festival annuel d'une semaine célébrant l'art déco. Expositions itinérantes en plein air dans tous les quartiers. Décorations de Noël étendues à tous les quartiers de Reims",
               "source": "Programme officiel frigout2026.fr",
@@ -711,7 +759,11 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Creation de grands equipements sportifs : patinoire, pole de sports nautiques le long des Berges, complexe multisports urbain. Renovation des piscines (Talleyrand, Thiolettes, Orgeval) et des gymnases. Soutien a la creation d'un pole de sports americains",
+              "source": "Programme officiel (PDF Vivons Reims en Mouvement)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Accueillir un tournoi de tennis international masculin à la Reims Arena, avec matchs d'entraînement et qualifications ouverts au public",
               "source": "Programme officiel frigout2026.fr",
@@ -728,7 +780,11 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Developpement de parcours sportifs de plein air (street workout) dans tous les quartiers. Installation d'equipements sportifs en acces libre dans les parcs et de casiers connectes pour les sportifs",
+              "source": "Programme officiel (PDF Vivons Reims en Mouvement)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Création des \"Olympiades rémoises\" : journée annuelle sportive où les enfants des classes primaires découvrent la pratique sportive",
               "source": "Programme officiel frigout2026.fr",
@@ -751,7 +807,11 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Poursuite de l'amenagement des berges jusqu'a Port Colbert. Embellissement des entrees de ville (route de Witry, avenue Nationale). Rehabilitation des salles municipales (Vauban, Pheniciens). Animation des places de quartier (Jean Moulin, Rene Clair)",
+              "source": "Programme officiel (PDF Vivons Reims en Commun)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Plan \"Nouvelle Place d'Erlon\" : redynamisation par renforcement de la sécurité avec présence policière constante, animations annuelles et embellissement. Construction d'un parking à étages à proximité de la Place de la République et de la gare",
               "source": "Programme officiel frigout2026.fr",
@@ -768,7 +828,11 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Poursuite de l'accessibilite des trottoirs dans tous les quartiers et amelioration de la desserte des quartiers peripheriques par le BHNS",
+              "source": "Programme officiel (PDF Vivons Reims en Commun)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": {
               "texte": "Intégration systématique des personnes handicapées, familles et personnes âgées dans tous les futurs travaux de rénovation urbaine",
               "source": "Programme officiel frigout2026.fr",
@@ -785,7 +849,11 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "robinet": null,
+            "robinet": {
+              "texte": "Poursuite et achevement de la requalification des quartiers prioritaires (Croix-Rouge, Orgeval). Actions de proximite co-construites quartier par quartier avec les habitants",
+              "source": "Programme officiel (PDF Vivons Reims en Commun)",
+              "sourceUrl": "https://www.arnaudrobinet2026.fr/programme/"
+            },
             "frigout": null,
             "quenard": null,
             "coradel": null,

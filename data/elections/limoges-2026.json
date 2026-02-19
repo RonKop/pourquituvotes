@@ -32,16 +32,16 @@
       "id": "miguel",
       "nom": "Thierry Miguel",
       "liste": "Pour Limoges (PS-PCF-Place publique)",
-      "programmeUrl": "https://www.pourlimoges.fr/",
-      "programmeComplet": false,
+      "programmeUrl": "https://www.pourlimoges.fr/le-programme/",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
       "id": "leonie",
       "nom": "Vincent Léonie",
       "liste": "Réunir (Centre)",
-      "programmeUrl": "https://www.reunir-limoges.fr/",
-      "programmeComplet": false,
+      "programmeUrl": "https://www.reunir-limoges.fr/notre-programme/calendrier-de-l-avent-reunir--nos-propositions-page-72653",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -85,7 +85,11 @@
               "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-limousin/municipales-a-limoges-guillaume-guerin-assez-meurtri-par-la-candidature-de-lombertie-veut-creer-une-dynamique-2492960"
             },
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Constituer une police municipale de proximité intégrant des antennes locales, une brigade de tranquillité publique et de soirée ainsi qu'une brigade équestre dédiée aux jardins publics et aux bords de Vienne. Créer un poste mobile de proximité installé dans les quartiers selon les besoins. Nommer un adjoint au maire dédié à la sécurité.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/lordre-republicain-comme-boussole/"
+            },
             "leonie": {
               "texte": "Renforcer la présence de la police municipale en augmentant les effectifs avec 120 agents d'ici 2032. La sécurité, la sûreté, la gestion des incivilités et la proximité guideront l'action de la police municipale.",
               "source": "Site officiel Réunir Limoges",
@@ -122,9 +126,9 @@
             "guerin": null,
             "maudet": null,
             "miguel": {
-              "texte": "Lutte contre le narcotrafic par une meilleure coordination entre police nationale, police municipale et services fiscaux",
-              "source": "Pour Limoges, 2026",
-              "sourceUrl": "https://www.pourlimoges.fr/"
+              "texte": "Lutter contre le narcotrafic par une meilleure complémentarité police nationale, police municipale et services fiscaux. Rétablir des médiateurs et des correspondants de soirée. Mener des actions de prévention contre les radicalisations. Exiger de l'État des commissariats de police nationale de plein exercice à Beaubreuil et Val de l'Aurence.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/lordre-republicain-comme-boussole/"
             },
             "leonie": null,
             "freychet": null,
@@ -140,9 +144,9 @@
             "guerin": null,
             "maudet": null,
             "miguel": {
-              "texte": "Créer un lieu dédié gratuit d'écoute, de soins et de santé pour prévenir et combattre les violences faites aux femmes et les violences conjugales, incluant un hébergement d'urgence",
-              "source": "Programme officiel / France Bleu Limousin",
-              "sourceUrl": "https://www.pourlimoges.fr/"
+              "texte": "Créer une Maison des femmes dédiée à la prévention et la lutte contre les violences faites aux femmes : lieu d'écoute et de soins gratuits (santé sexuelle, violences conjugales, accompagnement psychologique). Renforcer le nombre de places d'hébergement d'urgence pour les femmes victimes de violence.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/lordre-republicain-comme-boussole/"
             },
             "leonie": null,
             "freychet": null,
@@ -164,9 +168,9 @@
             "guerin": null,
             "maudet": null,
             "miguel": {
-              "texte": "Améliorer les liaisons ferroviaires pour désenclaver Limoges et réduire son isolement",
-              "source": "Pour Limoges, 2026",
-              "sourceUrl": "https://www.pourlimoges.fr/"
+              "texte": "Améliorer les transports publics à Limoges (fluidité, fréquences, cadencement, décarbonation). Améliorer le projet actuel de BHNS. Étudier la possibilité d'un Tram-Train limousin. Renforcer les noctambus. Obtenir plusieurs allers-retours directs chaque jour vers Paris par le POLT en moins de 2h45.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/plan-de-mobilite-et-des-transports/"
             },
             "leonie": {
               "texte": "Soutenir le projet Tram-Train pour repenser l'accessibilité à Limoges. Créer un plan de circulation qui concilie accès aux voitures et place pour toutes les mobilités.",
@@ -190,9 +194,9 @@
               "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-limoges-front-populaire-un-debut-de-programme-mais-pas-encore-de-tete-de-liste-5996749"
             },
             "miguel": {
-              "texte": "Plan global de transports intégrant des pistes cyclables sécurisées et des itinéraires piétons, basé sur une grande étude des infrastructures de transport",
-              "source": "France Bleu Limousin, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-limousin/municipales-nous-avons-une-obligation-historique-de-gagner-limoges-pour-reparer-la-ville-dit-thierry-miguel-ps-6226006"
+              "texte": "Créer des pistes cyclables intégrées et continues avec deux voies traversantes Nord-Sud et Est-Ouest et une boucle verte. Renforcer l'aménagement PMR des axes piétons, des trottoirs et des escaliers.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/plan-de-mobilite-et-des-transports/"
             },
             "leonie": {
               "texte": "Créer de vraies continuités cyclables. Mettre en place un stationnement plus juste et une vraie navette pour le centre ville.",
@@ -211,7 +215,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Achever la piétonisation du centre-ville. Créer des cheminements piétons sécurisés dans tous les quartiers et des zones de convivialité festive sans voiture. Déployer des « rues aux enfants » autour des écoles : rues aménagées, végétalisées, sécurisées et piétonisées lors des entrées et sorties.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/plan-de-mobilite-et-des-transports/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -225,8 +233,16 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
-            "leonie": null,
+            "miguel": {
+              "texte": "Corriger les erreurs de la politique de stationnement payant : diagnostic des stationnements en centre-ville, bornes « arrêt minute » adaptées à chaque rue, plan de stationnement longue durée pour étudiants et artisans, lutte contre les voitures ventouses. Mettre en place des parcs relais en entrée de ville avec navettes gratuites.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/plan-de-mobilite-et-des-transports/"
+            },
+            "leonie": {
+              "texte": "Offrir 1h30 de stationnement gratuit pour soutenir le commerce local en centre-ville.",
+              "source": "Site officiel Réunir Limoges",
+              "sourceUrl": "https://www.reunir-limoges.fr/notre-programme/notre-programme--au-service-du-pouvoir-d-achat--page-74578"
+            },
             "freychet": null,
             "benzoni": null,
             "faucon": null
@@ -243,7 +259,11 @@
               "source": "France Bleu Limousin, 2026",
               "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-limoges-front-populaire-un-debut-de-programme-mais-pas-encore-de-tete-de-liste-5996749"
             },
-            "miguel": null,
+            "miguel": {
+              "texte": "Pérenniser et élargir la gratuité partielle des transports publics aux jeunes de moins de 26 ans dès le début de la mandature, pour atteindre la gratuité totale d'ici la fin du mandat. Tarification solidaire et écologique de l'eau avec gratuité sur les premiers mètres cubes.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/plan-de-mobilite-et-des-transports/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -277,7 +297,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Lutter contre l'habitat indigne et les marchands de sommeil avec la généralisation du permis de louer sur l'ensemble de la ville. Instaurer une taxe sur les logements vacants.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/rendre-la-ville-plus-solidaire-et-inclusive/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -305,7 +329,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Expérimenter le bail réel solidaire pour dissocier la propriété foncière et immobilière. Créer un prêt à taux zéro municipal pour faciliter la rénovation des appartements et des maisons en centre-ville.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/rendre-la-ville-plus-solidaire-et-inclusive/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -325,7 +353,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Proposer une garderie du matin et du soir gratuite dans toutes les écoles. Recréer un véritable « pool de renforts » pour les équipes en crèche et dans les écoles. Mettre en place des accueils en crèche en horaires atypiques (avant 7h30 et après 18h30) pour aider les parents isolés.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/limoges-a-hauteur-denfants/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -340,9 +372,9 @@
             "guerin": null,
             "maudet": null,
             "miguel": {
-              "texte": "Doubler le budget de fonctionnement des écoles dès la rentrée 2026, en priorité pour les écoles les plus défavorisées. Accélérer la rénovation des écoles pour un meilleur confort thermique et de meilleures conditions d'apprentissage",
-              "source": "France Bleu Limousin, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/limoges-la-renovation-des-ecoles-au-coeur-de-l-election-municipale-2146396"
+              "texte": "Doubler le budget de fonctionnement des écoles dès la rentrée 2026, en priorité pour les écoles les plus défavorisées. Accélérer la rénovation des écoles pour un meilleur confort thermique, verdir les cours et les réaménager pour favoriser la mixité filles-garçons. Généraliser l'enseignement de la musique dès le CP. Doter chaque enfant d'une carte de bibliothèque personnalisée.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/limoges-a-hauteur-denfants/"
             },
             "leonie": {
               "texte": "Accélérer les rénovations des écoles pour rénover tout le parc immobilier au cours du mandat.",
@@ -366,9 +398,9 @@
             "guerin": null,
             "maudet": null,
             "miguel": {
-              "texte": "Fournitures scolaires gratuites pour tous les élèves du primaire d'ici la fin du mandat. Augmenter la part de bio et de produits locaux dans les cantines scolaires et lutter contre le gaspillage alimentaire",
-              "source": "France Bleu Limousin / Programme officiel",
-              "sourceUrl": "https://www.pourlimoges.fr/"
+              "texte": "Assurer d'ici la fin du mandat la gratuité des fournitures scolaires pour tous les élèves de primaire. Engager les cantines scolaires dans une démarche de labellisation environnementale en augmentant la part de bio et de produits locaux, en luttant contre le gaspillage alimentaire et en éduquant les enfants au tri des déchets.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/limoges-a-hauteur-denfants/"
             },
             "leonie": {
               "texte": "Les fournitures scolaires doivent être gratuites pour tous les limougeauds. Abaisser le tarif maximum de la cantine des écoles pour l'aligner sur celui des collèges et lycées à partir de la rentrée 2026.",
@@ -387,7 +419,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Multiplier par deux l'offre d'activités périscolaires en s'appuyant sur les associations agréées : éducation à la santé, activités physique et culturelle, découverte de la citoyenneté. Déployer un pass « impulsion Limoges jeunesse » pour aider les plus modestes à financer des activités de loisirs.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/limoges-a-hauteur-denfants/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -401,7 +437,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Mettre en place un pass culture-sport pour les moins de 26 ans. Garantir que chaque enfant maîtrise la natation et le vélo avant la 6ème. Développer l'éducation aux médias en milieu scolaire. Organiser chaque année les « rencontres de la jeunesse » pour consulter les jeunes sur les politiques publiques.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/limoges-a-hauteur-denfants/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -421,7 +461,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Végétaliser la ville avec la plantation de 130 000 arbres, la végétalisation des écoles, espaces publics et rues, la création de rues-jardins et d'îlots de fraîcheur à moins de 10 minutes des habitations. Finaliser la boucle verte de Limoges reliant parcs, jardins, voies vertes et bords de Vienne. Créer des refuges en ville pour les pollinisateurs et les oiseaux.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/sadapter-au-changement-climatique/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -436,9 +480,9 @@
             "guerin": null,
             "maudet": null,
             "miguel": {
-              "texte": "Lutter contre les dépôts sauvages, l'affichage illégal, les tags et graffitis. Réserver des espaces dédiés à la création graphique urbaine et à l'expression civique",
-              "source": "France Bleu Limousin, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-limousin/municipales-nous-avons-une-obligation-historique-de-gagner-limoges-pour-reparer-la-ville-dit-thierry-miguel-ps-6226006"
+              "texte": "Lutter contre les déchets et dépôts sauvages en travaillant avec Limoges Métropole à l'amélioration du service de collecte. Lutter contre l'affichage illégal, les tags et graffitis, et réserver des espaces dédiés à la création graphique urbaine et à l'expression citoyenne. Renforcer le règlement local de publicité pour réduire la pollution visuelle. Engager des actions d'éducation à la citoyenneté.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/faire-de-la-tranquillite-publique-une-realite-commune/"
             },
             "leonie": null,
             "freychet": null,
@@ -454,9 +498,9 @@
             "guerin": null,
             "maudet": null,
             "miguel": {
-              "texte": "Reconnecter Limoges à la rivière, créer des fontaines et jeux d'eau pour lutter contre les îlots de chaleur urbains",
-              "source": "Pour Limoges, 2026",
-              "sourceUrl": "https://www.pourlimoges.fr/"
+              "texte": "Faire de Limoges une ville résiliente en 2050 : cartographie des îlots de chaleur, création de fontaines urbaines, rigoles plantées et jeux d'eau. Lancer le programme « Limoges plage » avec aménagements en bord de Vienne et baignade urbaine. Désimperméabiliser les rues et places, recycler les eaux de pluie. Arrêter l'étalement urbain et stopper l'artificialisation des espaces naturels.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/sadapter-au-changement-climatique/"
             },
             "leonie": null,
             "freychet": null,
@@ -471,8 +515,16 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
-            "leonie": null,
+            "miguel": {
+              "texte": "Accélérer la rénovation énergétique des bâtiments publics (en particulier les écoles) et des logements du parc social en prenant en compte le confort d'été. Étudier le potentiel photovoltaïque des grands bâtiments et des parcs de stationnement existants. Étendre le réseau de chaleur.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/sadapter-au-changement-climatique/"
+            },
+            "leonie": {
+              "texte": "Créer un crédit d'impôt local pour les habitants réalisant des travaux d'amélioration énergétique dans leur habitat.",
+              "source": "Site officiel Réunir Limoges",
+              "sourceUrl": "https://www.reunir-limoges.fr/notre-programme/notre-programme--au-service-du-pouvoir-d-achat--page-74578"
+            },
             "freychet": null,
             "benzoni": null,
             "faucon": null
@@ -485,7 +537,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Délivrance de chèques « alimentation durable » par le CCAS et actions d'éducation à l'alimentation (Limoges, ville contre la faim). Aider à la mise en place de points de vente collectifs dédiés à des groupements d'agriculteurs locaux.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/rendre-la-ville-plus-solidaire-et-inclusive/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -509,7 +565,11 @@
               "source": "France Bleu Limousin, 2026",
               "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-2026-salle-comble-pour-le-premier-meeting-de-damien-maudet-et-sa-liste-limoges-front-populaire-6347710"
             },
-            "miguel": null,
+            "miguel": {
+              "texte": "Créer des centres municipaux de santé dans les quartiers sous-dotés, avec médecins généralistes, spécialistes et paramédicaux salariés, consultations de prévention et services de santé. Déployer un bus santé mobile proposant soins de base, dépistages et accompagnement social dans les quartiers périphériques.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/agir-pour-la-sante-de-toutes-et-tous/"
+            },
             "leonie": {
               "texte": "Créer des maisons médicales municipales dans chaque quartier en manque de médecin pour garantir l'accès aux soins.",
               "source": "Site officiel Réunir Limoges",
@@ -531,7 +591,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Programme « santé mentale des jeunes » avec interventions dans les écoles, ateliers de gestion du stress et accompagnement des familles. Organiser chaque année une semaine municipale de la santé. Campagnes de prévention sur les addictions et la santé sexuelle. « Ordonnance verte » pour protéger les femmes enceintes des perturbateurs endocriniens avec un panier de légumes bio hebdomadaire.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/agir-pour-la-sante-de-toutes-et-tous/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -545,7 +609,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Créer une ville « amie des aînés » (charte OMS) avec l'installation d'un Conseil des aînés pour orienter les politiques publiques : urbanisme adapté, activités physiques, ateliers mémoire, nutrition, lutte contre l'isolement. Identifier par quartier des référents bénévoles pour les seniors isolés, partage d'équipements, accueil canicule.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/rendre-la-ville-plus-solidaire-et-inclusive/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -566,9 +634,9 @@
             "guerin": null,
             "maudet": null,
             "miguel": {
-              "texte": "Transformer les conseils de quartier en assemblées de quartier dotées d'un budget propre pour financer des mesures concrètes contribuant à la paix sociale et au vivre-ensemble",
-              "source": "France 3 Nouvelle-Aquitaine, 2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/haute-vienne/limoges/thierry-miguel-conduira-liste-gauche-municipales-limoges-1762785.html"
+              "texte": "Transformer les conseils de quartier en assemblées citoyennes dotées d'un budget dédié pour financer des mesures concrètes. Créer un emprunt participatif citoyen pour financer des projets locaux. Renforcer les dispositifs de votations citoyennes. Adopter une charte éthique applicable aux élus avec suspension des délégations en cas de non-respect.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/democratie-participative-budget-participatif/"
             },
             "leonie": null,
             "freychet": {
@@ -591,7 +659,11 @@
               "source": "France Bleu Limousin, 2026",
               "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-2026-candidat-a-limoges-damien-maudet-s-explique-sur-les-indemnites-et-le-cumul-des-mandats-7694759"
             },
-            "miguel": null,
+            "miguel": {
+              "texte": "Redéfinir les missions et la composition de la commission éthique et transparence. Lutter contre la désinformation locale avec une plateforme de questions citoyennes / réponses officielles pour un fact-checking local.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/democratie-participative-budget-participatif/"
+            },
             "leonie": {
               "texte": "Créer une consultation en ligne permettant aux habitants de se prononcer sur toute décision financière non prévue dans le programme.",
               "source": "Site officiel Réunir Limoges",
@@ -609,7 +681,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Renforcer les soutiens aux associations et aux bénévoles. Rénover la friche des Ponts pour y créer une Maison des associations avec un guichet unique (budget, subventions, événements, communication). Retour à la gratuité des salles municipales pour les associations.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/reenchanter-la-politique-du-temps-libre/"
+            },
             "leonie": {
               "texte": "Créer un « club des associations » pour mutualiser les moyens, partager les connaissances, échanger les expériences et renforcer les réseaux. Créer un lieu pour les associations pour partager, s'entraider et agir ensemble.",
               "source": "Site officiel Réunir Limoges",
@@ -656,11 +732,15 @@
               "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-2026-salle-comble-pour-le-premier-meeting-de-damien-maudet-et-sa-liste-limoges-front-populaire-6347710"
             },
             "miguel": {
-              "texte": "Créer une société publique locale pour lutter contre la vacance commerciale en centre-ville",
-              "source": "Pour Limoges, 2026",
-              "sourceUrl": "https://www.pourlimoges.fr/"
+              "texte": "Créer une société publique locale pour préempter les locaux commerciaux vacants et les fonds de commerce en cession. Renforcer l'accompagnement des créateurs et repreneurs de commerce, créer une maison des entreprises. Mettre en place une stratégie commerciale avec des managers de centre-ville. Créer une « carte touriste » avec programme de fidélité chez les commerçants.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/attractivite-vitalite-du-commerce-et-de-lartisanat-tourisme/"
             },
-            "leonie": null,
+            "leonie": {
+              "texte": "Soutenir le commerce local grâce à 1h30 de stationnement gratuit en centre-ville pour inciter les habitants à fréquenter les commerces de proximité.",
+              "source": "Site officiel Réunir Limoges",
+              "sourceUrl": "https://www.reunir-limoges.fr/notre-programme/notre-programme--au-service-du-pouvoir-d-achat--page-74578"
+            },
             "freychet": {
               "texte": "Redynamiser le commerce de centre-ville et faire de Limoges un point d'attraction touristique estival",
               "source": "France Bleu Limousin, 2026",
@@ -677,7 +757,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Mobiliser davantage et étendre les Travaux d'Intérêt Général (TIG) à des actions utiles à la ville. Proposer des dispositifs de relais et d'appui pour les familles monoparentales (démarches administratives, entretiens d'embauche). Moderniser l'abattoir de Limoges pour soutenir la filière locale.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/developpement-economique/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -699,7 +783,11 @@
               "sourceUrl": "https://www.flashfm.fr/municipales-guillaume-guerin-veut-creer-une-dynamique"
             },
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Créer une agence de développement et d'attractivité avec un interlocuteur unique pour les acteurs économiques. Faire de l'aéroport de Limoges une plateforme de recherche et d'innovation aéronautique. Faire de la gare des Bénédictins un lieu de vie tourné vers la valorisation touristique de Limoges. Créer un centre de valorisation de la recherche sur le site de l'ex-clinique du Colombier.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/developpement-economique/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -720,15 +808,14 @@
             "guerin": null,
             "maudet": null,
             "miguel": {
-              "texte": "Réviser les budgets pour restaurer l'accès à la culture pour tous les Limougeauds",
-              "source": "Pour Limoges, 2026",
-              "sourceUrl": "https://www.pourlimoges.fr/"
+              "texte": "Créer une cité des arts du feu (céramique, émaux, vitraux) et un pôle de l'artisanat et des métiers d'art en centre-ville. Rénover la Maison du Peuple et créer un lieu de référence sur l'histoire ouvrière, syndicale et culturelle. Créer une résidence d'artistes « Les Ateliers Renoir ». Renforcer les moyens des médiathèques et musées municipaux.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/reenchanter-la-politique-du-temps-libre/"
             },
             "leonie": {
-              "texte": "Organiser des animations annuelles prévues pour faire vivre la ville. Organiser des événements majeurs célébrant la Liberté, l'Égalité et la Fraternité.",
+              "texte": "Engager une politique ambitieuse de valorisation de l'identité culturelle et historique de la ville : mise en lumière des sites emblématiques, soutien aux initiatives patrimoniales, développement d'actions éducatives et touristiques. Organiser des dizaines d'animations annuelles pour faire vivre la ville.",
               "source": "Site officiel Réunir Limoges",
-              "sourceUrl": "https://www.reunir-limoges.fr/notre-programme/calendrier-de-l-avent-reunir--nos-propositions-page-72653",
-              "a_verifier": true
+              "sourceUrl": "https://www.reunir-limoges.fr/notre-programme/calendrier-de-l-avent-reunir--nos-propositions-page-72653"
             },
             "freychet": null,
             "benzoni": null,
@@ -742,9 +829,13 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Créer le « Parcours des Artistes », un itinéraire culturel permanent dans les rues de Limoges avec sculptures, fresques, œuvres en porcelaine et installations lumineuses. Relancer une biennale des arts du feu. Promouvoir et développer la culture et la langue occitane.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/reenchanter-la-politique-du-temps-libre/"
+            },
             "leonie": {
-              "texte": "Créer un lieu pour transmettre l'histoire ouvrière et syndicale de Limoges entre mémoire sociale, art décoratif et enjeux contemporains. Organiser des journées « médiévales » dédiées aux spectacles et à l'artisanat local.",
+              "texte": "Créer un lieu pour transmettre l'histoire ouvrière et syndicale de Limoges entre mémoire sociale, art décoratif et enjeux contemporains. Organiser des journées « médiévales » dédiées aux spectacles et à l'artisanat local. Proposer des saisons animées, des idées nouvelles et le retour des fêtes qui ont marqué la ville. Créer un événement majeur célébrant la Liberté, l'Égalité et la Fraternité.",
               "source": "Site officiel Réunir Limoges",
               "sourceUrl": "https://www.reunir-limoges.fr/notre-programme/calendrier-de-l-avent-reunir--nos-propositions-page-72653"
             },
@@ -766,7 +857,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Engager un plan gymnases pour faire face à leur vétusté et favoriser l'accès aux pratiques sportives. Créer un lieu d'expression culturelle avec salle de spectacle et de répétitions dans la friche rénovée des Ponts.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/reenchanter-la-politique-du-temps-libre/"
+            },
             "leonie": {
               "texte": "Revoir le projet Beaublanc en profondeur, en concertation avec les clubs résidents et les collectivités partenaires.",
               "source": "Site officiel Réunir Limoges",
@@ -784,7 +879,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Expérimenter un dispositif « une heure d'activité physique par jour pour tous » dans les parcs et espaces publics, en lien avec les clubs sportifs. Développer les activités de sport-nature sur la boucle verte. Concertation avec les associations de personnes en situation de handicap pour rendre les activités sportives accessibles.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/agir-pour-la-sante-de-toutes-et-tous/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -804,7 +903,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Création d'une agence d'urbanisme pour penser l'aménagement de la ville. Réaménager la place de la République avec végétalisation et ombrières. Mettre en place une charte d'esthétisme urbain pour améliorer la qualité architecturale. Inventorier et requalifier les friches urbaines pour implanter de nouvelles activités. Lutter contre les nuisances sonores avec capteurs, médiateurs et revêtements anti-bruit.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/sadapter-au-changement-climatique/"
+            },
             "leonie": {
               "texte": "Revoir le projet Beaublanc en profondeur, en concertation avec les clubs résidents et les collectivités partenaires. Réviser le tracé du BHNS pour s'inscrire dans un nouveau plan de déplacements urbains.",
               "source": "Site officiel Réunir Limoges",
@@ -826,7 +929,11 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Concertation avec les associations de personnes en situation de handicap dans les projets urbains (transports, urbanisme, mobilier urbain, activités associatives, sportives et culturelles). Renforcer l'aménagement PMR des axes piétons, des trottoirs et des escaliers.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/rendre-la-ville-plus-solidaire-et-inclusive/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -872,7 +979,11 @@
               "source": "France Bleu Limousin, 2026",
               "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-limousin/municipales-2026-salle-comble-pour-le-premier-meeting-de-damien-maudet-et-sa-liste-limoges-front-populaire-6347710"
             },
-            "miguel": null,
+            "miguel": {
+              "texte": "Travailler à un plan d'hébergement d'urgence afin qu'aucun enfant ne dorme à la rue. Renforcer les moyens des associations d'aide alimentaire. Créer une coopérative du pouvoir d'achat ouverte à tous les habitants pour acheter en groupe à des prix réduits l'énergie, les denrées alimentaires et les sorties culturelles.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/rendre-la-ville-plus-solidaire-et-inclusive/"
+            },
             "leonie": null,
             "freychet": null,
             "benzoni": null,
@@ -900,11 +1011,15 @@
             "lombertie": null,
             "guerin": null,
             "maudet": null,
-            "miguel": null,
+            "miguel": {
+              "texte": "Créer une coopérative du pouvoir d'achat ouverte à tous les habitants de Limoges pour acheter en groupe à des prix réduits l'énergie, les denrées alimentaires et les sorties culturelles, et répondre à tous les besoins essentiels.",
+              "source": "Programme officiel Pour Limoges",
+              "sourceUrl": "https://www.pourlimoges.fr/rendre-la-ville-plus-solidaire-et-inclusive/"
+            },
             "leonie": {
-              "texte": "Mettre en place des achats groupés municipaux (mutuelles, énergie, etc.) accessibles à tous les limougeauds pour améliorer les fins de mois.",
+              "texte": "Mettre en place une régie municipale d'achats groupés (mutuelles, énergie, etc.) accessibles à tous les limougeauds pour payer moins cher les dépenses du quotidien. Pas d'augmentation d'impôts durant le mandat.",
               "source": "Site officiel Réunir Limoges",
-              "sourceUrl": "https://www.reunir-limoges.fr/notre-programme/calendrier-de-l-avent-reunir--nos-propositions-page-72653"
+              "sourceUrl": "https://www.reunir-limoges.fr/notre-programme/notre-programme--au-service-du-pouvoir-d-achat--page-74578"
             },
             "freychet": null,
             "benzoni": null,

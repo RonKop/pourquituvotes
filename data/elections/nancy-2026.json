@@ -8,9 +8,9 @@
       "id": "klein",
       "nom": "Mathieu Klein",
       "liste": "Nancy Grandit (PS/EELV/PCF/Place publique/PRG)",
-      "programmeUrl": "https://mathieuklein.fr/",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmeUrl": "https://mathieuklein.fr/programme/",
+      "programmeComplet": true,
+      "programmePdfPath": "klein-nancy-grandit-programme.pdf"
     },
     {
       "id": "henart",
@@ -55,9 +55,9 @@
           "nom": "Police municipale",
           "propositions": {
             "klein": {
-              "texte": "Augmentation de 50 % des effectifs dédiés à la sécurité en un mandat, seul poste de hausse des RH",
-              "source": "France Bleu Lorraine, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+              "texte": "Hausse de 50 % des effectifs dédiés à la sécurité. Création d'une police métropolitaine des transports en commun. Extension des horaires d'intervention la nuit en fin de semaine contre les incivilités nocturnes et violences sexistes. Création d'une unité canine.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": {
               "texte": "Recrutement de 40 policiers municipaux supplémentaires (service actuel : 100 agents). Développement de la police de proximité avec patrouilles à pied dans tous les quartiers.",
@@ -73,7 +73,11 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Installation de 30 % de caméras supplémentaires pour lutter contre le trafic de drogues. Hausse de 60 % du nombre de caméras sur le mandat.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": {
               "texte": "Déploiement de 500 caméras de vidéosurveillance au total dans Nancy.",
               "source": "France Bleu Lorraine",
@@ -88,7 +92,11 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Déploiement de médiateurs pour assurer un lien de proximité. Patrouilles plus nombreuses sur le terrain. Journées d'engagement citoyen pour des chantiers collectifs de proximité.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -99,7 +107,11 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Maison des femmes ouverte 24h/24 et 7j/7 pour accueillir et accompagner les femmes victimes de violence et leurs enfants. Mieux penser les aménagements et usages de l'espace public par et pour les femmes.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -117,9 +129,9 @@
           "nom": "Transports en commun",
           "propositions": {
             "klein": {
-              "texte": "Nouveau réseau de transport : ligne 1 en trolleybus 100 % électrique, lignes 2 à 5 en Bus à Haut Niveau de Service",
-              "source": "France 3 Grand Est, janvier 2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/municipales-2026-mathieu-klein-brigue-un-second-mandat-a-nancy-3283448.html"
+              "texte": "Mise en service du trolleybus 100 % électrique sur la ligne 1. Transformation et décarbonation de la ligne 2 (Plateau de Haye à Saint-Pierre/Bonsecours, Jarville, Laneuveville, Laxou, Maxéville). Obtenir le retour du train de nuit vers le Sud et plus de trains pour desservir Nancy.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": null,
             "farghaly": null,
@@ -132,9 +144,9 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "klein": {
-              "texte": "200 km de pistes cyclables sécurisées et plan vélo express",
-              "source": "France 3 Grand Est, janvier 2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/municipales-2026-mathieu-klein-brigue-un-second-mandat-a-nancy-3283448.html"
+              "texte": "Continuer à sécuriser les déplacements à vélo et déployer de nouvelles pistes cyclables. Passerelles Alstom et Charles III réservées aux mobilités actives.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": null,
             "farghaly": null,
@@ -147,9 +159,9 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "klein": {
-              "texte": "Plus d'espace pour les piétons, ville plus apaisée avec meilleure combinaison des modes de déplacement",
-              "source": "France Bleu Lorraine, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+              "texte": "Étendre l'aire piétonne de la Ville-Vieille (places Saint-Epvre et Carrière). Rénover et métamorphoser les axes Strasbourg, de Lattre de Tassigny, Saint-Dizier et Stanislas. Reporter le trafic de transit sur l'anneau de desserte pour un cœur de ville accessible. Plus de 2 300 bancs installés.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": null,
             "farghaly": null,
@@ -161,7 +173,11 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Créer 2 000 places de stationnement supplémentaires en parking relais. Tarif solidaire pour le stationnement résident. Déployer 50 bornes de recharge rapide pour véhicules électriques. Améliorer la sécurité des parkings en ouvrage. Créer des espaces de stationnement pour les livreurs.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -173,9 +189,9 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "klein": {
-              "texte": "Gratuité des transports pour les moins de 18 ans, étendue aux plus de 65 ans dès août 2026",
-              "source": "France Bleu Lorraine, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+              "texte": "Gratuité des transports en commun pour les -18 ans, les +65 ans, et tous les week-ends. Extension aux personnes en situation de handicap et aux jours fériés. Tarification plus progressive en fonction des ressources, notamment pour les étudiants.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": null,
             "farghaly": null,
@@ -193,7 +209,11 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Poursuivre l'effort de construction et de rénovation qualitative de logements sociaux. Permettre à chacun de se loger correctement, à des prix abordables, selon ses besoins tout au long de la vie.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -234,7 +254,11 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Créer des logements intergénérationnels dans le quartier Saint-Pierre/René II/Bonsecours (ancien hôpital central). Permettre à chacun de se loger à des prix abordables selon ses besoins tout au long de la vie.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -251,7 +275,11 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Plan « Écoles d'avenir » incluant la rénovation des crèches. Création d'une crèche dans le quartier Saint-Pierre/René II (ancien hôpital central). Éducation artistique et culturelle dans toutes les crèches.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -263,9 +291,9 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "klein": {
-              "texte": "17 cours d'école végétalisées et plantations de 300 arbres le long de la ligne 1",
-              "source": "France 3 Grand Est, janvier 2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/municipales-2026-mathieu-klein-brigue-un-second-mandat-a-nancy-3283448.html"
+              "texte": "Plan « Écoles d'avenir » pour la rénovation des écoles et crèches : confort thermique, toilettes, cantine, cours de récréation. 17 cours d'écoles végétalisées. Construction d'un nouveau groupe scolaire à Beauregard. Rénovation des aires de jeux (Sainte-Marie, Olry, Bonnet, Pépinière).",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": null,
             "farghaly": null,
@@ -277,7 +305,11 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Pérenniser la distribution de fournitures scolaires gratuites pour plus de 3 500 enfants chaque année. Construire une cuisine centrale intercommunale pour augmenter la part de bio/local dans la restauration collective des écoles.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -288,7 +320,11 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Garantir le droit aux vacances pour tous : accueils de loisirs, séjours de vacances et chantiers jeunes. Améliorer la prise en charge des enfants porteurs de handicap au périscolaire. Déployer une ludothèque mobile.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -299,7 +335,11 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Ouvrir une auberge de jeunesse dans le quartier Nancy Centre Gare. Engager un plan pour le bien-être et la santé mentale de la jeunesse (addictions, écrans). Lancer la Cité internationale pour l'accueil et l'intégration d'étudiants internationaux. Améliorer les conditions de vie des étudiants : restauration, hébergement, accès aux soins.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -317,9 +357,9 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "klein": {
-              "texte": "Végétalisation de la ville : arbres le long des lignes de transport et cours d'école vertes",
-              "source": "France 3 Grand Est, janvier 2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/municipales-2026-mathieu-klein-brigue-un-second-mandat-a-nancy-3283448.html"
+              "texte": "Végétalisation massive : + 5 000 arbres plantés, 70 000 m² désimperméabilisés. Aménager et végétaliser les coins de rue et places, créer des rues jardins. Créer des corridors de biodiversité pour protéger les espèces animales et végétales.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": null,
             "farghaly": null,
@@ -331,7 +371,11 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Créer une police métropolitaine des déchets pour lutter contre les dépôts sauvages et sanctionner les contrevenants. Supprimer les bacs gris et verts, les remplacer par des containers enterrés (maintien de la collecte à domicile pour les personnes fragiles). 20 agents supplémentaires pour la propreté.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -342,7 +386,11 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Diminuer les îlots de chaleur en poursuivant la végétalisation de la ville. Poursuivre le déploiement des réseaux de chaleur, plus écologiques et plus économiques.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": {
               "texte": "Plus d'ambition en écologie et justice sociale pour Nancy",
@@ -357,7 +405,11 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Rénover énergétiquement le bâti public et 10 000 logements à l'échelle du Grand Nancy.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -368,7 +420,11 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Expérimenter une sécurité sociale alimentaire pour garantir à chaque citoyen un accès régulier à une alimentation suffisante et de qualité. Créer le Grand Carreau, futur marché d'intérêt local, nouvelle place économique autour de l'alimentation.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -386,9 +442,9 @@
           "nom": "Centres de santé",
           "propositions": {
             "klein": {
-              "texte": "Développement de maisons de santé pluridisciplinaires",
-              "source": "France Bleu Lorraine, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+              "texte": "Soutenir 7 projets de Maison de Santé (Médreville, Saint-Pierre, René II, Bonsecours, Plateau de Haye, Libération, Trois Maisons). Accompagner le déménagement de l'hôpital central à Brabois et maintenir un accès aux soins au centre-ville. Grande alliance locale pour la santé avec l'Université et l'hôpital pour ancrer les médecins sur le territoire.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": null,
             "farghaly": null,
@@ -400,7 +456,11 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Mise en place d'une mutuelle communale de santé. Ouvrir un lieu de prise en charge sanitaire et sociale des personnes dépendantes des drogues dures (halte soins addictions). Plan pour le bien-être et la santé mentale de la jeunesse.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -411,7 +471,11 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Créer une « Maison des Séniors » et de leurs aidants familiaux pour le maintien à domicile et l'accès à un logement adapté. Lutter contre l'isolement et favoriser l'accès aux activités sportives, culturelles et ludiques pour les séniors.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -428,7 +492,11 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Pérenniser les moyens dédiés au budget participatif (200 projets déjà mis en place dans tous les quartiers). Renforcer le rôle des Ateliers de Vie de Quartier (AVQ).",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -439,7 +507,11 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Faciliter le référendum d'initiative locale par les citoyens, proposé par l'Assemblée Citoyenne.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": {
               "texte": "Plus de démocratie locale et de transparence dans la gestion municipale",
@@ -454,7 +526,11 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Renforcer l'aide aux associations : logistique, financière, juridique, et recherche de bénévoles. Organiser des journées d'engagement citoyen pour des chantiers collectifs de proximité.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -465,7 +541,11 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Créer une mairie annexe mobile qui se déplacera dans tous les quartiers pour faciliter les démarches administratives. Pôle de services publics aux Tamaris (Haut-du-Lièvre).",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -483,9 +563,9 @@
           "nom": "Commerce local",
           "propositions": {
             "klein": {
-              "texte": "Retour du commerce en centre-ville, revitalisation commerciale",
-              "source": "France Bleu Lorraine, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+              "texte": "Investir 6 millions d'euros pour la rénovation du marché central. Promouvoir l'achat local et soutenir les commerçants par des actions d'animation. Renforcer la politique d'achat public au bénéfice des entreprises locales. Accompagner la création de vitrines de l'économie sociale et solidaire et du réemploi au centre-ville. Taxe sur les friches commerciales.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": null,
             "farghaly": null,
@@ -497,7 +577,11 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Plan de mentorat intergénérationnel au profit de jeunes en insertion professionnelle. Accompagner les innovations du territoire en développant des filières stratégiques : santé, matériaux, énergie, IA.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -508,7 +592,11 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Faire de Nancy la première « Métropole des Métiers d'Art ». Première ligne Urbanloop en 2028 (innovation « Made in Nancy »). Développer le tourisme patrimonial, thermal et fluvial (port Saint-Georges/Sainte-Catherine). Accentuer la diplomatie économique du Grand Nancy à l'échelle européenne. Conforter l'offre hôtelière (Beaux-arts Boffrand 4 étoiles, Grand Hôtel de la Reine 5 étoiles).",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -525,7 +613,11 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Nouveau Centre Chorégraphique National - Ballet de Lorraine dans l'ancienne faculté de pharmacie. Ouvrir la médiathèque Fadwa Touqan au Haut-du-Lièvre en 2027. Poursuivre la rénovation du Musée Lorrain (réouverture 2033). Restauration de la Villa Majorelle et proposition d'inscription UNESCO. Implanter un nouveau centre socioculturel et tiers-lieu à Pichon. Gratuité des bibliothèques et des musées pour les -26 ans.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -536,7 +628,11 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Faire de Nancy une « capitale de la danse ». Pérenniser le soutien aux acteurs culturels et garantir leur liberté de création. Résidences d'artistes dans les quartiers. Faire rayonner les Fêtes de la Saint-Nicolas (grand défilé et Saint-Nicolas sur l'eau). Plan de restauration du patrimoine XVIIIe et parcours de mémoire de l'histoire de la Lorraine.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -553,7 +649,11 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Développer une plaine du sport autour de la Meurthe avec la rénovation des stades Matter et Victor. Bassins de baignade de la Méchelle. Favoriser les pratiques sportives libres avec des installations pour tous les âges.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -564,7 +664,11 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Conforter le soutien au mouvement associatif sportif. Activités sportives hebdomadaires dédiées aux séniors. Accès au sport pour tous, quel que soit le parcours de vie.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -581,7 +685,11 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Transformation du Cours Léopold et de la Place Carnot : fontaine, retrait du stationnement, extension du parking souterrain, végétalisation. Réaménagement des places de la République et Simone Veil. Construire et penser la ville à hauteur d'enfant.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": {
               "texte": "Mise en pause des grands chantiers de construction à Nancy. Priorité au retour de la douceur de vivre et à l'aménagement des quartiers.",
               "source": "France Bleu Lorraine",
@@ -596,7 +704,11 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Extension de la gratuité des transports en commun aux personnes en situation de handicap. Améliorer la prise en charge des enfants porteurs de handicap dans les activités périscolaires.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -607,7 +719,11 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Haut-du-Lièvre : pôle de services publics aux Tamaris, redynamisation du centre commercial, ouverture d'un centre de santé, construction d'un nouveau collège, médiathèque Fadwa Touqan 2027. Haussonville : sécurisation de l'avenue du Général Mangin. Nouveau lieu artistique et de restauration à la porte de la Citadelle.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -624,7 +740,11 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Solutions pour les plus vulnérables : ateliers des solidarités, bagagerie solidaire, repas du soir en période hivernale. Attention particulière pour les familles monoparentales (aide aux devoirs, garde d'enfants, temps de répit). Renforcer l'accès aux structures d'éducation populaire par une tarification attractive et équitable.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": null,
             "farghaly": null,
             "lacresse": null,
@@ -636,9 +756,9 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "klein": {
-              "texte": "Ouverture de la Maison des femmes en novembre, lutte contre les violences et les discriminations",
-              "source": "France Bleu Lorraine, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-la-redaction-ici-lorraine-meurthe-et-moselle-et-vosges/municipales-a-nancy-le-maire-sortant-et-candidat-mathieu-klein-veut-lutter-contre-les-logements-vacants-9873507"
+              "texte": "Créer une carte de citoyenneté nancéienne pour un égal accès au service public des personnes étrangères. Renforcer le soutien aux associations luttant contre l'antisémitisme, le racisme, le sexisme, les LGBT-phobies et toutes les discriminations.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
             },
             "henart": null,
             "farghaly": null,
@@ -650,7 +770,11 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "klein": null,
+            "klein": {
+              "texte": "Tarification plus juste de l'eau et des transports en commun. Fournitures scolaires gratuites pour 3 500 enfants. Foire à l'équipement dédiée aux étudiants pour s'équiper à petit prix. Gratuité de la collecte des objets encombrants pour les étudiants.",
+              "source": "Programme « Nancy Grandit », janvier 2026",
+              "sourceUrl": "https://mathieuklein.fr/programme/"
+            },
             "henart": {
               "texte": "Pas d'augmentation de la taxe foncière sur le mandat.",
               "source": "France Bleu Lorraine",

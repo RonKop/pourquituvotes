@@ -139,9 +139,14 @@
     var nbCategories = 0;
     for (var k in propsByCat) { if (propsByCat[k] > 0) nbCategories++; }
 
-    // Meta & SEO
-    var seoTitle = candidat.nom + " \u2014 Programme " + ville + " 2026 | #POURQUITUVOTES";
-    var seoDesc = "D\u00e9couvrez les " + totalProps + " propositions de " + candidat.nom + " (" + candidat.liste + ") pour les municipales " + ville + " 2026.";
+    // Meta & SEO — format aligné avec les shells statiques
+    var seoTitle = candidat.nom + " (" + ville + ") : Programme | Municipales 2026";
+    var seoDesc;
+    if (totalProps > 0) {
+      seoDesc = "D\u00e9couvrez le programme de " + candidat.nom + " pour " + ville + " : " + totalProps + " propositions analys\u00e9es. Radar Chart, comparaison des candidats municipales 2026.";
+    } else {
+      seoDesc = "Profil de " + candidat.nom + ", candidat aux municipales 2026 \u00e0 " + ville + ". Comparez les enjeux locaux et restez inform\u00e9 d\u00e8s publication de son programme.";
+    }
     var seoUrl = "https://pourquituvotes.fr/municipales-2026/" + villeSlug + "/candidats/" + candidatId;
     document.title = seoTitle;
     var metaDesc = document.querySelector('meta[name="description"]');

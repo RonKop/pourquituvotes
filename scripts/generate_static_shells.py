@@ -23,6 +23,7 @@ import os
 import sys
 from datetime import datetime
 from html import escape
+from urllib.parse import quote
 
 ROOT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 DATA_DIR = os.path.join(ROOT_DIR, "data")
@@ -38,6 +39,80 @@ TODAY = datetime.now().strftime("%Y-%m-%d")
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+# ─────────────────────────────────────────────────────────
+# Comptage des propositions par candidat
+# ─────────────────────────────────────────────────────────
+
+def count_propositions(el_data, candidate_id):
+    """Compte les propositions non-null d'un candidat dans les données élection."""
+    total = 0
+    for cat in el_data.get("categories", []):
+        for st in cat.get("sousThemes", []):
+            val = st.get("propositions", {}).get(candidate_id)
+            if val is not None:
+                total += 1
+    return total
+
+
+def make_candidate_title(nom, ville, max_len=60):
+    """Génère un titre SEO candidat qui tient dans max_len caractères."""
+    # Format idéal : "Nom (Ville) : Programme et Analyse | Municipales 2026"
+    full = f"{nom} ({ville}) : Programme et Analyse | Municipales 2026"
+    if len(full) <= max_len:
+        return full
+    # Raccourci : "Nom (Ville) : Programme | Municipales 2026"
+    short = f"{nom} ({ville}) : Programme | Municipales 2026"
+    if len(short) <= max_len:
+        return short
+    # Minimal : "Nom (Ville) | Municipales 2026"
+    minimal = f"{nom} ({ville}) | Municipales 2026"
+    if len(minimal) <= max_len:
+        return minimal
+    # Dernier recours : tronquer le nom
+    remaining = max_len - len(f" ({ville}) | Municipales 2026")
+    return f"{nom[:remaining-1]}… ({ville}) | Municipales 2026"
+
+
+def make_candidate_desc(nom, ville, n_props, max_len=155):
+    """Génère une meta description conditionnelle selon le nombre de propositions."""
+    if n_props > 0:
+        desc = f"Découvrez le programme de {nom} pour {ville} : {n_props} propositions analysées. Radar Chart, comparaison des candidats municipales 2026."
+        if len(desc) > max_len:
+            desc = f"Programme de {nom} ({ville}) : {n_props} propositions analysées. Comparaison avec les autres candidats aux municipales 2026."
+    else:
+        desc = f"Profil de {nom}, candidat aux municipales 2026 à {ville}. Comparez les enjeux locaux et restez informé dès publication de son programme."
+        if len(desc) > max_len:
+            desc = f"{nom}, candidat aux municipales 2026 à {ville}. Comparez les enjeux et suivez la publication de son programme."
+    return desc[:max_len]
+
+
+def make_jsonld_candidate(nom, ville, liste, url, n_props, complet):
+    """Génère un bloc JSON-LD Person + Event pour un candidat."""
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": nom,
+        "description": f"Candidat aux élections municipales 2026 à {ville}" + (f" — {liste}" if liste else ""),
+        "url": url,
+        "jobTitle": f"Candidat aux municipales 2026 à {ville}",
+        "knowsAbout": [
+            {
+                "@type": "Event",
+                "name": f"Élections municipales 2026 — {ville}",
+                "startDate": "2026-03-15",
+                "location": {
+                    "@type": "Place",
+                    "name": ville,
+                    "address": {"@type": "PostalAddress", "addressLocality": ville, "addressCountry": "FR"}
+                }
+            }
+        ]
+    }
+    if n_props > 0:
+        ld["description"] += f". {n_props} propositions analysées"
+    return json.dumps(ld, ensure_ascii=False, indent=2)
 
 
 # ─────────────────────────────────────────────────────────
@@ -112,9 +187,17 @@ def extract_head_assets(html):
 # Générateur de <head> SEO
 # ─────────────────────────────────────────────────────────
 
-def make_head(title, description, url, og_image, og_type="website", og_image_alt=None):
-    """Génère un bloc <head> complet avec OG/Twitter en dur."""
+def make_head(title, description, url, og_image, og_type="website", og_image_alt=None, jsonld=None):
+    """Génère un bloc <head> complet avec OG/Twitter en dur + JSON-LD optionnel."""
     alt = og_image_alt or title
+    jsonld_block = ""
+    if jsonld:
+        jsonld_block = f"""
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+{jsonld}
+  </script>
+"""
     return f"""  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -144,7 +227,7 @@ def make_head(title, description, url, og_image, og_type="website", og_image_alt
   <meta name="twitter:image:alt" content="{escape(alt)}">
 
   <meta property="article:modified_time" content="{TODAY}T00:00:00+01:00">
-"""
+{jsonld_block}"""
 
 
 # ─────────────────────────────────────────────────────────
@@ -216,6 +299,7 @@ def main():
         # --- 2. Shells candidats ---
         # Charger l'élection pour les détails candidat
         el_file = os.path.join(ELECTIONS_DIR, f"{vid}-2026.json")
+        el_data = None
         el_candidats = []
         if os.path.exists(el_file):
             el_data = load_json(el_file)
@@ -232,14 +316,21 @@ def main():
             # Enrichir depuis l'élection JSON si dispo
             el_cand = el_map.get(cid, {})
             complet = el_cand.get("programmeComplet", False)
-            badge = "Programme complet" if complet else "Propositions"
 
-            c_title = f"{cnom} — Municipales 2026 {vnom} | #POURQUITUVOTES"
-            c_desc = f"{badge} de {cnom} ({cliste}) aux municipales 2026 à {vnom}. Comparez avec les autres candidats."
+            # Compter les propositions
+            n_props = count_propositions(el_data, cid) if el_data else 0
+
+            # Titre SEO optimisé (max 60 chars)
+            c_title = make_candidate_title(cnom, vnom)
+            # Description conditionnelle (max 155 chars)
+            c_desc = make_candidate_desc(cnom, vnom, n_props)
             c_url = f"{BASE_URL}/municipales-2026/{vid}/candidats/{cid}/"
             c_og = f"{OG_BASE}{vid}-{cid}.jpg"
 
-            c_head = make_head(c_title, c_desc, c_url, c_og, og_type="profile")
+            # JSON-LD structured data
+            jsonld = make_jsonld_candidate(cnom, vnom, cliste, c_url, n_props, complet)
+
+            c_head = make_head(c_title, c_desc, c_url, c_og, og_type="profile", jsonld=jsonld)
             c_rel = f"municipales-2026/{vid}/candidats/{cid}/index.html"
             write_shell(c_rel, c_head, cand_assets, cand_body, dry_run)
             count += 1

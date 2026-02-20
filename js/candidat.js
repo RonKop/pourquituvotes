@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var DATA_VERSION = "2026021809";
+  var DATA_VERSION = "2026021810";
   var DATA_BASE_URL = "/data/";
 
   var ORDRE_CATEGORIES = [
@@ -269,6 +269,24 @@
         header.parentElement.classList.toggle("candidat-cat--open");
       });
     });
+
+    // Maillage interne — Autres candidats de la même ville
+    var autresCandidats = election.candidats.filter(function (c) { return c.id !== candidatId; });
+    if (autresCandidats.length > 0) {
+      var mailHTML = '<section class="candidat-autres"><h2 class="candidat-autres__title">Autres candidats \u00e0 ' + echapper(ville) + '</h2><div class="candidat-autres__grid">';
+      autresCandidats.forEach(function (c, i) {
+        var cCouleur = getCouleurParti(c, i);
+        var cUrl = "/municipales-2026/" + encodeURIComponent(villeSlug) + "/candidats/" + encodeURIComponent(c.id) + "/";
+        mailHTML += '<a href="' + cUrl + '" class="candidat-autres__card">' +
+          '<span class="candidat-autres__pastille" style="background:' + cCouleur + '"></span>' +
+          '<span class="candidat-autres__nom">' + echapper(c.nom) + '</span>' +
+          '<span class="candidat-autres__liste">' + echapper(c.liste || "") + '</span>' +
+          '</a>';
+      });
+      mailHTML += '</div></section>';
+      var ctaDiv = document.querySelector(".candidat-cta");
+      if (ctaDiv) ctaDiv.insertAdjacentHTML("beforebegin", mailHTML);
+    }
 
     // CTA
     document.getElementById("candidat-cta-link").href = "/municipales-2026/" + encodeURIComponent(villeSlug) + "/";

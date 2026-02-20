@@ -281,6 +281,59 @@
 }
 .candidat-cta__btn:hover { background: #001a6e; }
 
+/* --- Autres candidats (maillage interne) --- */
+.candidat-autres {
+  margin: 2.5rem 0 1.5rem;
+}
+.candidat-autres__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+.candidat-autres__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+.candidat-autres__card {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.7rem 1rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1e293b;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.candidat-autres__card:hover {
+  border-color: #002395;
+  box-shadow: 0 2px 8px rgba(0,35,149,0.10);
+}
+.candidat-autres__pastille {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.candidat-autres__nom {
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.candidat-autres__liste {
+  font-size: 0.75rem;
+  color: #64748b;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: auto;
+}
+
 /* --- Responsive --- */
 @media (max-width: 768px) {
   .candidat-hero { padding: 1.5rem 1rem 2rem; }

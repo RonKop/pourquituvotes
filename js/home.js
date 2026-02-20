@@ -4,7 +4,7 @@
   // === Data (chargé depuis JSON) ===
   var VILLES = [];
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026021809';
+  var DATA_VERSION = '2026021810';
 
   var DATE_SCRUTIN = new Date("2026-03-15T08:00:00");
 

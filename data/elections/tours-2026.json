@@ -242,7 +242,7 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "denis": {
-              "texte": "Plan piéton pour la marchabilité, pensé pour les enfants, les seniors et les personnes handicapées",
+              "texte": "Plan piéton pour la marchabilité, pensé pour les enfants, les seniors et les personnes handicapées, hiérarchiser les rues et clarifier la signalétique pour faciliter la circulation de tous les usagers",
               "source": "37 degrés mag, 2026",
               "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
             },
@@ -399,7 +399,11 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "texte": "Activation du levier de rénovation pour accélérer les opérations, particulièrement dans les quartiers anciens bien desservis",
+              "source": "Happy Color Tours, 2026",
+              "sourceUrl": "https://www.happycolortours.fr/municipales-2026-emmanuel-denis-se-lance-officiellement-pour-un-second-mandat-a-la-mairie-de-tours/"
+            },
             "quinton": {
               "texte": "Réquisitionner les logements vacants et mettre en place l'encadrement des loyers",
               "source": "La France Insoumise, 2026",
@@ -416,7 +420,7 @@
               "sourceUrl": "https://www.naturellement-tours.fr/programme"
             },
             "pierre": {
-              "texte": "Utiliser l'EPFL pour préempter des terrains et construire des logements neufs",
+              "texte": "Utiliser l'EPFL pour préempter des terrains et construire des logements neufs, comme au Carrefour de la Marne",
               "source": "37 degrés mag, 2026",
               "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
             },
@@ -457,7 +461,11 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "texte": "12 projets de rénovation thermique et technique scolaires en cours pour des écoles plus sobres en énergie",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
             "quinton": null,
             "bouchet": {
               "texte": "Poursuivre le plan écoles avec les rénovations scolaires, construire une école dans le quartier Deux-Lions, soutenir les sorties scolaires avec une aide aux enseignants et sécuriser le parcours des AESH",
@@ -523,7 +531,11 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "texte": "Pass local pour les 15-25 ans pour accéder à la culture et au sport, espaces ouverts et projets concrets (hockey, danse, ateliers numériques, studios d'enregistrement)",
+              "source": "Presse locale, 2026",
+              "sourceUrl": "https://www.happycolortours.fr/municipales-2026-emmanuel-denis-se-lance-officiellement-pour-un-second-mandat-a-la-mairie-de-tours/"
+            },
             "quinton": null,
             "bouchet": {
               "texte": "Rétablir le Conseil municipal des jeunes",
@@ -552,7 +564,7 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "denis": {
-              "texte": "Plantation de 40 000 arbres supplémentaires et création de nouveaux parcs et jardins",
+              "texte": "Plantation de 40 000 arbres supplémentaires et création de nouveaux parcs et jardins, faire du fleuve un parc naturel métropolitain et créer une École de la Loire pour rassembler les initiatives autour de la faune, de la flore et de la culture du risque",
               "source": "37 degrés mag, 2026",
               "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
             },
@@ -762,7 +774,7 @@
           "nom": "Transparence",
           "propositions": {
             "denis": {
-              "texte": "Mise en place du Référendum d'Initiative Citoyenne pour permettre aux Tourangeaux de peser sur les grands projets",
+              "texte": "Mise en place du Référendum d'Initiative Citoyenne pour permettre aux Tourangeaux de peser sur les grands projets et amélioration de l'accessibilité des chiffres budgétaires et des évaluations pour les habitants",
               "source": "37 degrés mag, 2026",
               "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
             },
@@ -929,7 +941,11 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "texte": "Réhabilitation des crèches et équipements culturels et sportifs dans le cadre du plan massif d'investissement métropolitain",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/"
+            },
             "quinton": null,
             "bouchet": {
               "texte": "Construire une Arena multifonctionnelle de 7 000 à 10 000 places et rénover les équipements culturels majeurs de la ville",
@@ -1050,9 +1066,9 @@
               "sourceUrl": "https://www.naturellement-tours.fr/programme"
             },
             "pierre": {
-              "texte": "Rénover la ville sans augmenter les impôts en réduisant les dépenses sur les projets surdimensionnés",
-              "source": "Info Tours, 2025",
-              "sourceUrl": "https://info-tours.fr/tours/2025/11/20/municipales-2026-a-tours-revision-de-la-2e-ligne-de-tramway-augmentation-du-nombre-de-policiers-municipaux-referendum-numerique-les-propositions-de-benoist-pierre/"
+              "texte": "Rénover la ville sans augmenter les impôts en réduisant les dépenses sur les projets surdimensionnés et relancer le plan de rénovation des façades dans l'hypercentre",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
             },
             "nikolic": null,
             "rouzier": null,
@@ -1157,7 +1173,11 @@
               "source": "Programme Naturellement Tours, Henri Alfandari, 2026",
               "sourceUrl": "https://www.naturellement-tours.fr/programme"
             },
-            "pierre": null,
+            "pierre": {
+              "texte": "Engagement à rénover sans augmenter les impôts en réduisant les projets surdimensionnés (économie de 150-200 M€ sur le tramway)",
+              "source": "37 degrés mag, 2026",
+              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-de-benoist-pierre-candidat-aux-municipales-a-tours/"
+            },
             "nikolic": null,
             "rouzier": null,
             "jouhannaud": {

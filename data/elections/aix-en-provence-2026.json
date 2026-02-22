@@ -8,8 +8,8 @@
       "id": "joissains",
       "nom": "Sophie Joissains",
       "liste": "UDI (Union de la droite et du centre)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://www.sophiejoissains2026.fr/",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -212,7 +212,11 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Construction de parkings-relais pour accompagner le développement des transports en commun et limiter la circulation automobile en centre-ville",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741"
+            },
             "pena": {
               "texte": "Politique de stationnement incitative pour réduire la dépendance automobile et transférer les déplacements vers les modes doux",
               "source": "France Bleu Provence, 2026",
@@ -328,7 +332,11 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Plan 'Bien-être à l'école' : végétalisation des 78 cours d'écoles avec confort thermique et lutte contre le harcèlement scolaire. Installation de panneaux photovoltaïques sur les bâtiments.",
+              "source": "Gomet', 2024",
+              "sourceUrl": "https://gomet.net/education-une-rentree-des-classes-au-vert-pour-les-petits-aixois/"
+            },
             "pena": null,
             "klein": null,
             "boronad": null,
@@ -340,7 +348,11 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "51% de produits de qualité dans les cantines scolaires dont 31% bio, et 85% de fruits et légumes en circuits courts et de saison",
+              "source": "Gomet', 2024",
+              "sourceUrl": "https://gomet.net/education-une-rentree-des-classes-au-vert-pour-les-petits-aixois/"
+            },
             "pena": null,
             "klein": null,
             "boronad": null,
@@ -383,9 +395,9 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "joissains": {
-              "texte": "Végétalisation des places publiques avec plantation d'arbres pour réduire les températures de 2 à 4 degrés",
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741"
+              "texte": "Végétalisation des places publiques avec plantation d'arbres pour réduire les températures de 2 à 4 degrés. Élimination des pesticides et optimisation de l'arrosage des espaces verts. Création d'un parc naturel urbain.",
+              "source": "Made in Marseille, 2024",
+              "sourceUrl": "https://madeinmarseille.net/123668-ambitions-sophie-joissains-aix-en-provence-ville-plus-verte/"
             },
             "pena": null,
             "klein": {
@@ -468,7 +480,11 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Renaissance du thermalisme : poursuite de la recherche d'eau thermale pour développer l'activité thermale historique d'Aix-en-Provence",
+              "source": "Destimed, 2026",
+              "sourceUrl": "https://www.destimed.fr/municipales-a-aix-en-provence-sophie-joissains-lance-sa-candidature-passionnee/"
+            },
             "pena": null,
             "klein": {
               "texte": "Création de maison de santé avec un accès 7j/7. Une aide accrue pour l'installation de professionnels de médecine.",
@@ -554,7 +570,11 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Renforcement des conseils de quartier et de citoyens pour favoriser la participation citoyenne et la proximité avec les habitants",
+              "source": "Métropole Aix-Marseille-Provence",
+              "sourceUrl": "https://ampmetropole.fr/elus/joissains-sophie/"
+            },
             "pena": null,
             "klein": null,
             "boronad": null,
@@ -584,7 +604,11 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Ville du quart d'heure : chaque habitant à 10-15 minutes à pied ou vélo de chez lui peut trouver les équipements et commerces de proximité. Pré-emption de baux commerciaux pour préserver le commerce local.",
+              "source": "France Bleu Provence, 2026",
+              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741"
+            },
             "pena": null,
             "klein": null,
             "boronad": null,
@@ -630,7 +654,11 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Développement du Conservatoire, de la Cité du Livre et des musiques actuelles. Culture accessible dans tous les quartiers avec pôle cirque et pôle image.",
+              "source": "Métropole Aix-Marseille-Provence",
+              "sourceUrl": "https://ampmetropole.fr/elus/joissains-sophie/"
+            },
             "pena": null,
             "klein": null,
             "boronad": null,
@@ -660,7 +688,11 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "texte": "Récupération et gestion directe par la Ville des équipements sportifs et culturels de la métropole : Arena, 6Mic, stade Maurice David, piscines Claude Mollet, Yves Blanc et Plein Ciel.",
+              "source": "Gomet', 2023",
+              "sourceUrl": "https://gomet.net/la-ville-daix-recupere-ses-equipements-sportifs-et-culturels/"
+            },
             "pena": null,
             "klein": null,
             "boronad": null,
@@ -691,9 +723,9 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "joissains": {
-              "texte": "Poursuite de la transformation de la place Romée de Villeneuve et de la requalification du Cours Sextius",
-              "source": "Marsactu, 2026",
-              "sourceUrl": "https://marsactu.fr/breve_de_campagne/a-aix-la-maire-sortante-sophie-joissains-lance-sa-campagne-sur-le-theme-de-la-securite/"
+              "texte": "Poursuite de la transformation de la place Romée de Villeneuve et de la requalification du Cours Sextius en artère urbaine fraîche avec espaces verts et eau. Préservation des points de vue cézaniens à la ZAC de la Constance.",
+              "source": "Destimed, 2026",
+              "sourceUrl": "https://www.destimed.fr/municipales-a-aix-en-provence-sophie-joissains-lance-sa-candidature-passionnee/"
             },
             "pena": null,
             "klein": {

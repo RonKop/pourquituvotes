@@ -32,8 +32,8 @@
       "id": "blanc",
       "nom": "Mathias Blanc",
       "liste": "Perpignan Autrement (PS-PCF-PRG)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://mathiasblanc2026.fr/",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -95,7 +95,11 @@
               "source": "France Bleu Roussillon, janvier 2026",
               "sourceUrl": "https://www.francebleu.fr/"
             },
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Passer de 390 à près de 1 000 caméras de vidéoprotection (investissement de 1,5 million d'euros par an)",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "langevine": null,
             "blanc": null,
             "idrac": null,
@@ -148,11 +152,15 @@
             "nougayrede": null,
             "langevine": null,
             "blanc": {
-              "texte": "Développer des lignes de bus à haut niveau de service avec fréquences renforcées (70% des habitants dépendent de la voiture)",
+              "texte": "Développer des lignes de bus à haut niveau de service avec fréquences renforcées et voies dédiées (70% des habitants dépendent de la voiture)",
               "source": "France Bleu Roussillon, 2026",
               "sourceUrl": "https://www.francebleu.fr/"
             },
-            "idrac": null,
+            "idrac": {
+              "texte": "Réseau de voies dédiées aux transports en commun dans Perpignan et sa périphérie, mobilité douce en priorité",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "ripoull": null
           }
         },
@@ -163,8 +171,16 @@
             "aliot": null,
             "nougayrede": null,
             "langevine": null,
-            "blanc": null,
-            "idrac": null,
+            "blanc": {
+              "texte": "Faire de Perpignan la capitale du vélo du sud de la France (modèle Amsterdam) : généralisation des pistes cyclables coordonnées et politique volontariste de mobilité douce",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": {
+              "texte": "Créer des micro-parcs et transformer des espaces vacants en îlots de fraîcheur végétalisés accessibles aux mobilités douces",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "ripoull": null
           }
         },
@@ -175,7 +191,11 @@
             "aliot": null,
             "nougayrede": null,
             "langevine": null,
-            "blanc": null,
+            "blanc": {
+              "texte": "Mettre en place un code de la rue pour une meilleure cohabitation entre piétons, vélos et trottinettes",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
             "idrac": null,
             "ripoull": null
           }
@@ -203,8 +223,16 @@
             "aliot": null,
             "nougayrede": null,
             "langevine": null,
-            "blanc": null,
-            "idrac": null,
+            "blanc": {
+              "texte": "Transports en commun gratuits pour les moins de 26 ans (plaidoyer auprès de Perpignan Métropole)",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
+            "idrac": {
+              "texte": "Gratuité des transports pour les moins de 26 ans",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "ripoull": null
           }
         }
@@ -222,7 +250,11 @@
             "nougayrede": null,
             "langevine": null,
             "blanc": null,
-            "idrac": null,
+            "idrac": {
+              "texte": "Stratégie massive de rénovation des passoires thermiques du parc social, mobilisation des aides disponibles et responsabilisation des bailleurs",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "ripoull": null
           }
         },
@@ -277,7 +309,11 @@
           "nom": "Petite enfance",
           "propositions": {
             "aliot": null,
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Créer une crèche à horaires élargis pour faciliter l'installation des professionnels et soutenir l'activité économique",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "langevine": null,
             "blanc": null,
             "idrac": {
@@ -336,7 +372,11 @@
             "nougayrede": null,
             "langevine": null,
             "blanc": null,
-            "idrac": null,
+            "idrac": {
+              "texte": "Fournitures scolaires gratuites pour tous les élèves",
+              "source": "France Bleu Roussillon, novembre 2025",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
             "ripoull": null
           }
         },
@@ -352,7 +392,11 @@
               "sourceUrl": "https://madeinperpignan.com/"
             },
             "blanc": null,
-            "idrac": null,
+            "idrac": {
+              "texte": "Campus municipal de la transition : formations courtes certifiantes dans les métiers dont la ville a besoin (rénovation énergétique, solaire, réemploi, recyclage) pour les jeunes décrocheurs et personnes éloignées de l'emploi",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "ripoull": null
           }
         }
@@ -367,14 +411,22 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "aliot": null,
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Créer un grand parc urbain patrimonial reliant les jardins de la Miranda au Campo Santo, poumon vert au cœur de la ville combinant valorisation du patrimoine, qualité de vie et attractivité touristique",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "langevine": null,
             "blanc": {
               "texte": "Planter massivement des arbres dans toute la ville pour lutter contre les îlots de chaleur",
               "source": "France Bleu Roussillon, 2026",
               "sourceUrl": "https://www.francebleu.fr/"
             },
-            "idrac": null,
+            "idrac": {
+              "texte": "Végétalisation des cours d'école, création de micro-parcs et transformation d'espaces vacants (Perpignan est très minérale avec des quartiers sans espaces verts)",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "ripoull": null
           }
         },
@@ -383,7 +435,11 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "aliot": null,
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Améliorer la propreté urbaine, enjeu majeur pour la qualité de vie et l'attractivité de Perpignan",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "langevine": null,
             "blanc": null,
             "idrac": null,
@@ -426,7 +482,11 @@
             "nougayrede": null,
             "langevine": null,
             "blanc": null,
-            "idrac": null,
+            "idrac": {
+              "texte": "Faire de la rénovation énergétique une priorité politique majeure pour lutter contre les passoires thermiques qui affectent la santé et le pouvoir d'achat des ménages modestes",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "ripoull": null
           }
         },
@@ -438,7 +498,7 @@
             "nougayrede": null,
             "langevine": null,
             "blanc": {
-              "texte": "Fin du foie gras et 50% de végétalisation des buffets municipaux, campagne massive de stérilisation des chats errants",
+              "texte": "Fin du foie gras et 50% de végétalisation des buffets municipaux, développer la sécurité alimentaire et les banques alimentaires",
               "source": "Made in Perpignan, septembre 2025",
               "sourceUrl": "https://madeinperpignan.com/"
             },
@@ -462,13 +522,13 @@
               "sourceUrl": "https://france3-regions.franceinfo.fr/"
             },
             "nougayrede": {
-              "texte": "Récupérer une faculté de médecine à Perpignan pour former et fixer les médecins localement",
-              "source": "France Bleu Roussillon, 2026",
-              "sourceUrl": "https://www.francebleu.fr/"
+              "texte": "Développer des services facilitant l'installation des professionnels de santé (crèche horaires élargis, téléconsultation spécialisée), 6 professionnels de santé sur la liste",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
             },
             "langevine": null,
             "blanc": {
-              "texte": "Recruter 15 médecins pour garantir un suivi médical à chacun (15 000 Perpignanais sans médecin traitant)",
+              "texte": "Créer 3 centres de santé municipaux avec 5 à 6 médecins salariés pour les 15 000 Perpignanais sans médecin traitant",
               "source": "France Bleu Roussillon, 2026",
               "sourceUrl": "https://www.francebleu.fr/"
             },
@@ -483,7 +543,11 @@
             "aliot": null,
             "nougayrede": null,
             "langevine": null,
-            "blanc": null,
+            "blanc": {
+              "texte": "Proposer une clinique vétérinaire municipale pour faciliter l'accès aux soins des animaux",
+              "source": "France Bleu Roussillon, 2026",
+              "sourceUrl": "https://www.francebleu.fr/"
+            },
             "idrac": null,
             "ripoull": null
           }
@@ -493,7 +557,11 @@
           "nom": "Seniors",
           "propositions": {
             "aliot": null,
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Développer la téléconsultation médicale spécialisée pour faciliter l'accès aux soins des seniors",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "langevine": null,
             "blanc": null,
             "idrac": null,
@@ -543,7 +611,11 @@
           "nom": "Vie associative",
           "propositions": {
             "aliot": null,
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Soutenir la vie associative comme pilier de la cohésion sociale et de l'identité perpignanaise",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "langevine": null,
             "blanc": null,
             "idrac": null,
@@ -587,7 +659,11 @@
               "sourceUrl": "https://madeinperpignan.com/"
             },
             "langevine": null,
-            "blanc": null,
+            "blanc": {
+              "texte": "Soutenir le commerce local et favoriser une économie locale dynamique, socialement et écologiquement responsable",
+              "source": "Made in Perpignan, 2026",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "idrac": null,
             "ripoull": null
           }
@@ -601,7 +677,7 @@
             "langevine": null,
             "blanc": null,
             "idrac": {
-              "texte": "Relance économique par la consommation populaire, création d'un poste d'adjoint « ville productive » interlocuteur direct des artisans",
+              "texte": "Campus municipal de la transition : formations courtes certifiantes en rénovation énergétique, solaire, réemploi, recyclage conçues avec les artisans, débouchant sur des emplois municipaux ou dans les PME locales",
               "source": "Made in Perpignan, 2025",
               "sourceUrl": "https://madeinperpignan.com/"
             },
@@ -614,9 +690,9 @@
           "propositions": {
             "aliot": null,
             "nougayrede": {
-              "texte": "Améliorer les conditions d'accueil des entreprises : ressources humaines, foncier, accès au capital et coût de l'énergie",
-              "source": "France Bleu Roussillon, 2026",
-              "sourceUrl": "https://www.francebleu.fr/"
+              "texte": "Améliorer les conditions d'accueil des entreprises et professionnels de santé : ressources humaines, foncier, accès au capital, coût de l'énergie, crèche à horaires élargis",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
             },
             "langevine": {
               "texte": "Mobiliser 1 000 places de stationnement en période commerciale et relancer les grands événements urbains pour l'attractivité",
@@ -624,7 +700,11 @@
               "sourceUrl": "https://madeinperpignan.com/"
             },
             "blanc": null,
-            "idrac": null,
+            "idrac": {
+              "texte": "Créer un poste d'adjoint « ville productive » interlocuteur direct des artisans, relance économique par la consommation populaire",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "ripoull": null
           }
         }
@@ -639,9 +719,17 @@
           "nom": "Équipements culturels",
           "propositions": {
             "aliot": null,
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Réorganisation complète de la Place de la Victoire au pied du Castillet (trop minérale) pour la connecter aux Allées Maillol, projet majeur autour du Castillet, symbole de l'identité perpignanaise",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "langevine": null,
-            "blanc": null,
+            "blanc": {
+              "texte": "Perpignan la Catalane : ville fière de son identité, sa langue et son patrimoine, rayonnant par sa culture unique",
+              "source": "Made in Perpignan, 2026",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "idrac": null,
             "ripoull": null
           }
@@ -651,7 +739,11 @@
           "nom": "Événements & Création",
           "propositions": {
             "aliot": null,
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Projet historico-culturel des jardins de la Miranda au Campo Santo regroupant une dizaine de monuments historiques, lieu de vie, culture et attraction pour habitants et touristes",
+              "source": "Le blogabonnel, avril 2025",
+              "sourceUrl": "https://leblogabonnel.over-blog.com/"
+            },
             "langevine": {
               "texte": "Redonner une place importante aux fêtes catalanes, publier des manuels scolaires en catalan, personnel scolaire catalanophone dans les écoles immersives",
               "source": "France Bleu Roussillon, janvier 2026",
@@ -675,7 +767,11 @@
             "aliot": null,
             "nougayrede": null,
             "langevine": null,
-            "blanc": null,
+            "blanc": {
+              "texte": "Développer et rénover les équipements sportifs de proximité pour garantir l'accès au sport pour tous",
+              "source": "Made in Perpignan, 2026",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "idrac": null,
             "ripoull": null
           }
@@ -689,9 +785,9 @@
             "langevine": null,
             "blanc": null,
             "idrac": {
-              "texte": "Première licence sportive gratuite pour les enfants",
-              "source": "France Bleu Roussillon, novembre 2025",
-              "sourceUrl": "https://www.francebleu.fr/"
+              "texte": "Première licence sportive gratuite pour tous les enfants (beaucoup de parents ne peuvent plus payer les licences sportives, enjeu de santé, lien social et prévention)",
+              "source": "Made in Perpignan, 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
             },
             "ripoull": null
           }
@@ -707,11 +803,15 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "aliot": null,
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Rénovation ambitieuse des Allées Maillol pour restaurer l'attractivité et la cohérence de cet axe majeur",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "langevine": null,
             "blanc": null,
             "idrac": {
-              "texte": "Changer radicalement l'urbanisme : stopper la bétonisation et privilégier un développement durable",
+              "texte": "Rupture dans la politique d'urbanisme : stopper la bétonisation, récupérer du foncier dans certains secteurs, privilégier un développement durable",
               "source": "Made in Perpignan, 2025",
               "sourceUrl": "https://madeinperpignan.com/"
             },
@@ -725,7 +825,11 @@
             "aliot": null,
             "nougayrede": null,
             "langevine": null,
-            "blanc": null,
+            "blanc": {
+              "texte": "Améliorer l'accessibilité de la ville pour toutes et tous, garantir une ville inclusive et à échelle humaine",
+              "source": "Made in Perpignan, 2026",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "idrac": null,
             "ripoull": null
           }
@@ -758,7 +862,7 @@
           "propositions": {
             "aliot": null,
             "nougayrede": {
-              "texte": "Plan de lutte contre la précarité, ne pas augmenter les impôts et envisager une baisse si les bases fiscales progressent",
+              "texte": "Plan de lutte contre la précarité, gestion rigoureuse des dépenses de fonctionnement pour créer des marges d'investissement",
               "source": "Made in Perpignan, décembre 2025",
               "sourceUrl": "https://madeinperpignan.com/"
             },
@@ -775,7 +879,11 @@
             "aliot": null,
             "nougayrede": null,
             "langevine": null,
-            "blanc": null,
+            "blanc": {
+              "texte": "Ouvrir les parcs municipaux aux animaux, campagne massive de stérilisation des chats errants (32 mesures en faveur du bien-être animal)",
+              "source": "Made in Perpignan, septembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "idrac": null,
             "ripoull": null
           }
@@ -785,11 +893,15 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "aliot": null,
-            "nougayrede": null,
+            "nougayrede": {
+              "texte": "Engagement à ne pas augmenter la taxe foncière pendant le mandat (Perpignan affiche un niveau 20% supérieur aux autres communes du département), baisse envisagée si les bases fiscales progressent",
+              "source": "Made in Perpignan, décembre 2025",
+              "sourceUrl": "https://madeinperpignan.com/"
+            },
             "langevine": null,
             "blanc": null,
             "idrac": {
-              "texte": "Améliorer le pouvoir d'achat des Perpignanais en priorité, via la consommation locale",
+              "texte": "Améliorer le pouvoir d'achat des Perpignanais en priorité, via la consommation locale et populaire",
               "source": "Made in Perpignan, 2025",
               "sourceUrl": "https://madeinperpignan.com/"
             },

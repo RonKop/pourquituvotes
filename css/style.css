@@ -1950,30 +1950,59 @@ li {
   color: var(--couleur-accent);
 }
 
-/* --- Methodo items cliquables (lien page candidat) --- */
-a.methodo-item--link {
-  text-decoration: none;
-  color: inherit;
+/* --- Methodo nom-bouton : toggle candidat dans le radar --- */
+.methodo-item__nom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: none;
+  background: none;
   cursor: pointer;
-  transition: background 0.15s;
-  padding: 0.35rem 0.4rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
   border-radius: 6px;
-  margin: 0 -0.4rem;
+  transition: background 0.15s, opacity 0.15s;
+  opacity: 0.5;
 }
 
-a.methodo-item--link:hover {
-  background: var(--couleur-hover);
+.methodo-item__nom-btn--active {
+  opacity: 1;
+  background: color-mix(in srgb, currentColor 8%, transparent);
 }
 
-a.methodo-item--link .methodo-item__nom i {
+.methodo-item__nom-btn:hover {
+  opacity: 1;
+  background: color-mix(in srgb, currentColor 12%, transparent);
+}
+
+.methodo-item__pastille {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* --- Methodo statut : lien vers page candidat --- */
+a.methodo-item__statut {
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+a.methodo-item__statut:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a.methodo-item__statut i {
   font-size: 0.7rem;
   opacity: 0.35;
   transition: opacity 0.15s;
 }
 
-a.methodo-item--link:hover .methodo-item__nom i {
+a.methodo-item__statut:hover i {
   opacity: 1;
-  color: var(--couleur-accent);
 }
 
 /* --- Vue 2 : radar combiné + sélection côte à côte --- */
@@ -2443,14 +2472,8 @@ a.methodo-item--link:hover .methodo-item__nom i {
   border-bottom: 1px solid var(--couleur-bordure);
 }
 .radar-methodologie .methodo-item:last-child { border-bottom: none; }
-.radar-methodologie .methodo-item .methodo-item__nom {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--couleur-texte);
+.radar-methodologie .methodo-item .methodo-item__nom-btn {
   white-space: nowrap;
-  display: inline;
-  margin-bottom: 0;
-  gap: 0;
 }
 .methodo-item__statut {
   display: flex;

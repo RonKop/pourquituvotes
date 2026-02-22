@@ -1869,6 +1869,7 @@
               chip.style.setProperty("--chip-bg", "rgba(" + r2 + "," + g2 + "," + b2 + ",0.08)");
             }
             mettreAJourRadarComparer();
+            syncMethodoFromChips();
           });
 
           liste.appendChild(chip);
@@ -1902,6 +1903,7 @@
               }
             });
             mettreAJourRadarComparer();
+            syncMethodoFromChips();
           }
         });
 
@@ -1946,6 +1948,34 @@
         radarChartComparerGlobal.update();
       }
 
+      function syncChipsFromMethodo() {
+        var chips = document.querySelectorAll(".filtres-candidats__chip");
+        chips.forEach(function(chip) {
+          var id = chip.dataset.candidatId;
+          var selected = radarCandidatsSelectionnes.indexOf(id) >= 0;
+          chip.classList.toggle("filtres-candidats__chip--active", selected);
+          if (selected) {
+            var couleur = chip.style.getPropertyValue("--chip-couleur");
+            if (couleur) {
+              var r = parseInt(couleur.slice(1, 3), 16) || 44;
+              var g = parseInt(couleur.slice(3, 5), 16) || 62;
+              var b = parseInt(couleur.slice(5, 7), 16) || 107;
+              chip.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
+            }
+          } else {
+            chip.style.removeProperty("--chip-bg");
+          }
+        });
+      }
+
+      function syncMethodoFromChips() {
+        var items = document.querySelectorAll(".methodo-item__nom-btn");
+        items.forEach(function(btn) {
+          var id = btn.closest(".methodo-item").dataset.candidatId;
+          btn.classList.toggle("methodo-item__nom-btn--active", radarCandidatsSelectionnes.indexOf(id) >= 0);
+        });
+      }
+
       radarComparer.hidden = false;
       rendreVueComparer();
     }
@@ -1967,18 +1997,65 @@
       } else {
         html += 'Aucun candidat n\u2019a encore publi\u00E9 de programme officiel. Les donn\u00E9es sont bas\u00E9es sur des sources publiques.';
       }
-      html += '<div class="methodo-legend">';
-      complets.forEach(function(c) {
-        var href = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(c.id) + "/";
-        html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--complet">programme officiel <i class="ph ph-check-circle"></i></span></a>';
-      });
-      partiels.forEach(function(c) {
-        var href = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(c.id) + "/";
-        html += '<a class="methodo-item methodo-item--link" href="' + href + '"><strong class="methodo-item__nom">' + echapper(c.nom) + ' <i class="ph ph-arrow-square-out"></i></strong><span class="methodo-item__statut methodo-item__statut--partiel">programme \u00E0 venir <i class="ph ph-clock"></i></span></a>';
-      });
-      html += '</div>';
-
       methodoDiv.innerHTML = html;
+
+      var legendDiv = document.createElement("div");
+      legendDiv.className = "methodo-legend";
+
+      // Complets d'abord, puis partiels
+      var ordonneCandidats = complets.concat(partiels);
+      ordonneCandidats.forEach(function(c) {
+        // Trouver l'index original pour la couleur
+        var idx = 0;
+        for (var i = 0; i < candidats.length; i++) {
+          if (candidats[i].id === c.id) { idx = i; break; }
+        }
+        var couleur = getCouleurParti(c, idx);
+        var estComplet = c.programmeComplet;
+        var estSelectionne = radarCandidatsSelectionnes.indexOf(c.id) >= 0;
+        var href = "/municipales-2026/" + encodeURIComponent(villeId) + "/candidats/" + encodeURIComponent(c.id) + "/";
+
+        var item = document.createElement("div");
+        item.className = "methodo-item";
+        item.dataset.candidatId = c.id;
+
+        // Nom cliquable = toggle radar
+        var nomBtn = document.createElement("button");
+        nomBtn.className = "methodo-item__nom-btn" + (estSelectionne ? " methodo-item__nom-btn--active" : "");
+        nomBtn.style.color = couleur;
+        nomBtn.innerHTML =
+          '<span class="methodo-item__pastille" style="background:' + couleur + '"></span>' +
+          '<span class="methodo-item__nom-texte">' + echapper(c.nom) + '</span>';
+
+        nomBtn.addEventListener("click", function() {
+          var pos = radarCandidatsSelectionnes.indexOf(c.id);
+          if (pos >= 0) {
+            if (radarCandidatsSelectionnes.length > 1) {
+              radarCandidatsSelectionnes.splice(pos, 1);
+              nomBtn.classList.remove("methodo-item__nom-btn--active");
+            }
+          } else {
+            radarCandidatsSelectionnes.push(c.id);
+            nomBtn.classList.add("methodo-item__nom-btn--active");
+          }
+          mettreAJourRadarComparer();
+          syncChipsFromMethodo();
+        });
+
+        // Statut = lien vers page candidat
+        var statutLink = document.createElement("a");
+        statutLink.href = href;
+        statutLink.className = "methodo-item__statut methodo-item__statut--" + (estComplet ? "complet" : "partiel");
+        statutLink.innerHTML = estComplet
+          ? 'programme officiel <i class="ph ph-arrow-square-out"></i>'
+          : 'programme \u00E0 venir <i class="ph ph-arrow-square-out"></i>';
+
+        item.appendChild(nomBtn);
+        item.appendChild(statutLink);
+        legendDiv.appendChild(item);
+      });
+
+      methodoDiv.appendChild(legendDiv);
     }
 
     // Afficher la section

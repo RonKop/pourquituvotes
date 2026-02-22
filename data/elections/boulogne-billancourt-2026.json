@@ -8,7 +8,7 @@
       "id": "baguet",
       "nom": "Pierre-Christophe Baguet",
       "liste": "LR-UDI-MoDem-Renaissance-Horizons",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.pcbaguet2026.com",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -16,7 +16,7 @@
       "id": "jerphanion",
       "nom": "Antoine de Jerphanion",
       "liste": "Divers droite",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.antoinedejerphanion.fr/notreprojet",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -24,7 +24,7 @@
       "id": "rapilly-ferniot",
       "nom": "Pauline Rapilly-Ferniot",
       "liste": "Union de la gauche (Écologistes/PCF/LFI)",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.avecpauline.fr/",
       "programmeComplet": false,
       "programmePdfPath": null
     }
@@ -38,8 +38,16 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "baguet": null,
-            "jerphanion": null,
+            "baguet": {
+              "texte": "Renforcer la sécurité dans l’espace public, maintenir les effectifs de police municipale et la coordination avec la police nationale",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.pcbaguet2026.com"
+            },
+            "jerphanion": {
+              "texte": "Rénover le commissariat de police, financer de nouveaux moyens d’intervention pour améliorer la mobilité et la réactivité des forces de l’ordre",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.antoinedejerphanion.fr/securite"
+            },
             "rapilly-ferniot": null
           }
         },
@@ -48,7 +56,11 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "baguet": null,
-            "jerphanion": null,
+            "jerphanion": {
+              "texte": "Renforcer la coordination entre police municipale et nationale par le partage du contrôle des caméras de surveillance",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.antoinedejerphanion.fr/securite"
+            },
             "rapilly-ferniot": null
           }
         },
@@ -91,7 +103,11 @@
           "propositions": {
             "baguet": null,
             "jerphanion": null,
-            "rapilly-ferniot": null
+            "rapilly-ferniot": {
+              "texte": "Développer de vraies pistes cyclables sécurisées et connectées entre elles, pas de simples bandes peintes",
+              "source": "Presse locale",
+              "sourceUrl": "https://lepetitboulonnais.com/2025/04/03/a-boulogne-billancourt-la-bataille-pour-2026-sorganise-entre-reglements-de-comptes-et-divisions-masquees/"
+            }
           }
         },
         {
@@ -133,7 +149,11 @@
           "propositions": {
             "baguet": null,
             "jerphanion": null,
-            "rapilly-ferniot": null
+            "rapilly-ferniot": {
+              "texte": "Mener une politique volontariste de logement social : Boulogne-Billancourt n’a que 15 % de logements sociaux, bien en dessous des obligations légales",
+              "source": "Presse locale",
+              "sourceUrl": "https://lepetitboulonnais.com/2025/04/03/a-boulogne-billancourt-la-bataille-pour-2026-sorganise-entre-reglements-de-comptes-et-divisions-masquees/"
+            }
           }
         },
         {
@@ -224,9 +244,21 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "baguet": null,
-            "jerphanion": null,
-            "rapilly-ferniot": null
+            "baguet": {
+              "texte": "Poursuivre la végétalisation de la ville et les aménagements écologiques (trophée national ÉcoQuartier pour l’Ile Seguin)",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.pcbaguet2026.com"
+            },
+            "jerphanion": {
+              "texte": "Créer une ferme urbaine en centre-ville : refuge de biodiversité du rez-de-chaussée aux toits, avec parcelles cultivables pour les habitants et ateliers pédagogiques",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.antoinedejerphanion.fr/projets"
+            },
+            "rapilly-ferniot": {
+              "texte": "Augmenter les espaces verts par habitant (moins de 5 m² actuellement, objectif OMS : 12 m² par personne)",
+              "source": "Presse locale",
+              "sourceUrl": "https://lepetitboulonnais.com/2025/04/03/a-boulogne-billancourt-la-bataille-pour-2026-sorganise-entre-reglements-de-comptes-et-divisions-masquees/"
+            }
           }
         },
         {
@@ -244,7 +276,11 @@
           "propositions": {
             "baguet": null,
             "jerphanion": null,
-            "rapilly-ferniot": null
+            "rapilly-ferniot": {
+              "texte": "Adapter la ville au changement climatique, réduire la place de la voiture au profit des mobilités douces",
+              "source": "Presse locale",
+              "sourceUrl": "https://lepetitboulonnais.com/2025/04/03/a-boulogne-billancourt-la-bataille-pour-2026-sorganise-entre-reglements-de-comptes-et-divisions-masquees/"
+            }
           }
         },
         {
@@ -319,7 +355,11 @@
           "propositions": {
             "baguet": null,
             "jerphanion": null,
-            "rapilly-ferniot": null
+            "rapilly-ferniot": {
+              "texte": "Mettre fin à l’opacité municipale, ouvrir le conseil municipal à la diffusion en direct comme le font 16 communes des Hauts-de-Seine sur 36",
+              "source": "Presse locale",
+              "sourceUrl": "https://lepetitboulonnais.com/2025/04/06/conseils-interdits-boulogne-billancourt-met-la-democratie-en-sourdine/"
+            }
           }
         },
         {
@@ -336,7 +376,11 @@
           "nom": "Services publics",
           "propositions": {
             "baguet": null,
-            "jerphanion": null,
+            "jerphanion": {
+              "texte": "Créer un centre de services numériques inspiré de la maison de la justice, pour aider les habitants dans leurs démarches administratives en ligne",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.antoinedejerphanion.fr/projets"
+            },
             "rapilly-ferniot": null
           }
         }
@@ -351,7 +395,11 @@
           "nom": "Commerce local",
           "propositions": {
             "baguet": null,
-            "jerphanion": null,
+            "jerphanion": {
+              "texte": "Créer une halle gastronomique en centre-ville, sous la ferme urbaine, pour dynamiser le commerce local",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.antoinedejerphanion.fr/projets"
+            },
             "rapilly-ferniot": null
           }
         },
@@ -407,7 +455,11 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "baguet": null,
+            "baguet": {
+              "texte": "Construire un nouveau stade de 5 000 places en centre-ville dans le cadre de la modification du PLU",
+              "source": "Presse locale",
+              "sourceUrl": "https://lepetitboulonnais.com/2025/04/03/a-boulogne-billancourt-la-bataille-pour-2026-sorganise-entre-reglements-de-comptes-et-divisions-masquees/"
+            },
             "jerphanion": null,
             "rapilly-ferniot": null
           }
@@ -431,8 +483,16 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "baguet": null,
-            "jerphanion": null,
+            "baguet": {
+              "texte": "Adapter Boulogne-Billancourt aux transitions écologique, technologique et démographique, poursuivre le développement du quartier Ile Seguin – Rives de Seine",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.pcbaguet2026.com"
+            },
+            "jerphanion": {
+              "texte": "S’opposer à la densification excessive du PLU, proposer 20 mesures alternatives pour l’aménagement urbain dont la sortie A13 rue de l’Abreuvoir",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.antoinedejerphanion.fr/notreprojet"
+            },
             "rapilly-ferniot": null
           }
         },
@@ -482,7 +542,11 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "baguet": null,
+            "baguet": {
+              "texte": "Maintenir une fiscalité maîtrisée et une gestion rigoureuse des finances municipales",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.pcbaguet2026.com"
+            },
             "jerphanion": null,
             "rapilly-ferniot": null
           }

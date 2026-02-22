@@ -24,7 +24,7 @@
       "id": "siby",
       "nom": "Oussouf Siby",
       "liste": "PS-EELV",
-      "programmeUrl": "#",
+      "programmeUrl": "https://aulnayrassemblee2026.fr/candidat-equipe/",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -46,7 +46,11 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Renforcement des effectifs de la police municipale, mieux armés et mieux équipés, avec des outils juridiques élargis pour accomplir leurs missions",
+              "source": "Site de campagne",
+              "sourceUrl": "https://brunobeschizza.fr/"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -56,7 +60,11 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Réseau de 530 caméras de vidéoprotection avec un centre de supervision urbain (CSU) fonctionnant 24h/24, 7j/7 avec 24 opérateurs",
+              "source": "Site ville",
+              "sourceUrl": "https://www.aulnay-sous-bois.fr/ma-ville/securite-et-prevention/videoprotection/"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -92,7 +100,11 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Arrivée de la gare du métro ligne 16 (Grand Paris Express) à Aulnay-sous-Bois, désenclavement du territoire et connexion directe aux pôles d'emploi",
+              "source": "Aulnaylibre",
+              "sourceUrl": "https://www.aulnaylibre.com/2025/01/le-maire-d-aulnay-sous-bois-bruno-beschizza-presente-sa-feuille-de-route-pour-2026-aux-acteurs-economiques.html"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -204,7 +216,11 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Toutes les écoles de la ville bénéficieront de travaux de rénovation dans le cadre d'un plan d'investissement pluriannuel",
+              "source": "Aulnaylibre",
+              "sourceUrl": "https://www.aulnaylibre.com/2025/08/2014-2026-un-bilan-une-vision-pour-aulnay-sous-bois-avec-le-maire-bruno-beschizza.html"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -215,7 +231,11 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "beschizza": null,
-            "malandra": null,
+            "malandra": {
+              "texte": "Cantines scolaires 100 % bio et locales avec tarification sociale, fournitures scolaires gratuites",
+              "source": "Programme LFI municipales",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
             "siby": null,
             "nguette": null
           }
@@ -236,7 +256,11 @@
           "propositions": {
             "beschizza": null,
             "malandra": null,
-            "siby": null,
+            "siby": {
+              "texte": "Programme dédié à l'enfance, la jeunesse et l'éducation : renforcement de l'accueil périscolaire et des activités pour les jeunes Aulnaysiens",
+              "source": "MonAulnay",
+              "sourceUrl": "https://monaulnay.com/2026/02/enfance-jeunesse-et-education-un-tract-de-la-liste-aulnay-rassemblee.html"
+            },
             "nguette": null
           }
         }
@@ -250,7 +274,11 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Plan ambitieux de création d'espaces verts supplémentaires, renaturation du canal de l'Ourcq et réhabilitation patrimoniale de la Laiterie Garcelon (2,5 M EUR)",
+              "source": "Site ville",
+              "sourceUrl": "https://www.aulnay-sous-bois.fr/grands-projets/projets-ecologiques-et-durables/laiterie-garcelon/"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -281,7 +309,11 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "beschizza": null,
-            "malandra": null,
+            "malandra": {
+              "texte": "Plan de rénovation énergétique des bâtiments publics et accompagnement des copropriétés en précarité énergétique",
+              "source": "Programme LFI municipales",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
             "siby": null,
             "nguette": null
           }
@@ -343,7 +375,11 @@
           "nom": "Budget participatif",
           "propositions": {
             "beschizza": null,
-            "malandra": null,
+            "malandra": {
+              "texte": "Mise en place de budgets participatifs pour que les habitants décident directement de l'utilisation d'une part du budget municipal",
+              "source": "Programme LFI municipales",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
             "siby": null,
             "nguette": null
           }
@@ -354,8 +390,16 @@
           "propositions": {
             "beschizza": null,
             "malandra": null,
-            "siby": null,
-            "nguette": null
+            "siby": {
+              "texte": "Agir avec intégrité, responsabilité et transparence dans la gestion des finances et des projets municipaux",
+              "source": "MonAulnay",
+              "sourceUrl": "https://monaulnay.com/2025/08/elections-municipales-pour-oussouf-siby-rien-ne-se-fera-seul.html"
+            },
+            "nguette": {
+              "texte": "Promouvoir la démocratie représentative avec des élus au service des citoyens, plus de transparence et de participation",
+              "source": "AulnayCap",
+              "sourceUrl": "https://aulnaycap.com/2025/09/28/video-cheickh-nguette-officialise-sa-candidature-aux-municipales-2026-a-aulnay-sous-bois/"
+            }
           }
         },
         {
@@ -364,7 +408,11 @@
           "propositions": {
             "beschizza": null,
             "malandra": null,
-            "siby": null,
+            "siby": {
+              "texte": "Défense et soutien renforcé aux associations locales et aux agents municipaux, piliers du lien social à Aulnay",
+              "source": "MonAulnay",
+              "sourceUrl": "https://monaulnay.com/2026/01/oussouf-siby-dans-un-tract-sadresse-aux-aulnaysiens.html"
+            },
             "nguette": null
           }
         },
@@ -374,7 +422,11 @@
           "propositions": {
             "beschizza": null,
             "malandra": null,
-            "siby": null,
+            "siby": {
+              "texte": "Remettre le service public au coeur des politiques municipales, garantir la proximité et l'écoute des habitants dans chaque quartier",
+              "source": "MonAulnay",
+              "sourceUrl": "https://monaulnay.com/2025/08/elections-municipales-pour-oussouf-siby-rien-ne-se-fera-seul.html"
+            },
             "nguette": null
           }
         }
@@ -388,7 +440,11 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Organisation de festivités tout au long de l'année et soutien à l'installation de commerces de proximité dans tous les quartiers",
+              "source": "Aulnaylibre",
+              "sourceUrl": "https://www.aulnaylibre.com/2025/12/elections-municipales-de-2026-a-aulnay-sous-bois-l-impressionnant-lancement-de-campagne-du-maire-bruno-beschizza.html"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -398,7 +454,11 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Inauguration du campus numérique Aultech (IA et numérique) en partenariat avec Apple, Microsoft, Simplon et IBM, pour former les jeunes aux métiers d'avenir",
+              "source": "Aulnaylibre",
+              "sourceUrl": "https://www.aulnaylibre.com/2025/12/inauguration-de-aultech-nouveau-campus-du-numerique-et-de-l-intelligence-artificielle-a-aulnay-sous-bois.html"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -408,7 +468,11 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Réindustrialisation de l'ancien site PSA avec implantation de nouvelles entreprises, data center, centre de maintenance des métros 16 et 17, et puits géothermique",
+              "source": "Aulnaylibre",
+              "sourceUrl": "https://www.aulnaylibre.com/2025/01/le-maire-d-aulnay-sous-bois-bruno-beschizza-presente-sa-feuille-de-route-pour-2026-aux-acteurs-economiques.html"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -424,7 +488,11 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Réhabilitation de la Laiterie Garcelon en équipement culturel et patrimonial, préservant le dernier témoignage du passé agricole du sud de la commune",
+              "source": "Site ville",
+              "sourceUrl": "https://www.aulnay-sous-bois.fr/grands-projets/projets-ecologiques-et-durables/laiterie-garcelon/"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -460,7 +528,11 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Soutien aux pratiques sportives et culturelles dans les collèges, avec un programme sportif renforcé (15 heures minimum de sport par semaine au collège Parc)",
+              "source": "Site ville",
+              "sourceUrl": "https://www.aulnay-sous-bois.fr/actualites/la-ville-soutient-les-pratiques-culturelles-et-sportives-au-sein-des-colleges-2026-2027/"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -476,7 +548,11 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "beschizza": null,
+            "beschizza": {
+              "texte": "Réaménagement du boulevard de Strasbourg, renaturation du canal de l'Ourcq, rénovation de la halle du marché du Vieux-Pays",
+              "source": "Aulnaylibre",
+              "sourceUrl": "https://www.aulnaylibre.com/2025/01/le-maire-d-aulnay-sous-bois-bruno-beschizza-presente-sa-feuille-de-route-pour-2026-aux-acteurs-economiques.html"
+            },
             "malandra": null,
             "siby": null,
             "nguette": null
@@ -513,7 +589,11 @@
           "nom": "Aide sociale",
           "propositions": {
             "beschizza": null,
-            "malandra": null,
+            "malandra": {
+              "texte": "Faire de la solidarité une réalité concrète et du droit à vivre mieux une revendication légitime pour tous les Aulnaysiens",
+              "source": "Aulnaylibre",
+              "sourceUrl": "https://www.aulnaylibre.com/2025/11/elections-municipales-de-2026-a-aulnay-sous-bois-elena-malandra-annonce-sa-candidature-pour-lfi.html"
+            },
             "siby": null,
             "nguette": null
           }
@@ -524,8 +604,16 @@
           "propositions": {
             "beschizza": null,
             "malandra": null,
-            "siby": null,
-            "nguette": null
+            "siby": {
+              "texte": "Construire une ville plus solidaire, plus juste et plus durable, fondée sur les valeurs de solidarité, justice et égalité",
+              "source": "MonAulnay",
+              "sourceUrl": "https://monaulnay.com/2025/08/elections-municipales-pour-oussouf-siby-rien-ne-se-fera-seul.html"
+            },
+            "nguette": {
+              "texte": "Aulnay humaniste, ensemble pour la dignité : défense de la dignité de chaque habitant et lutte contre les discriminations",
+              "source": "Aulnaylibre",
+              "sourceUrl": "https://www.aulnaylibre.com/2025/11/elections-municipales-de-2026-a-aulnay-sous-bois-candidature-de-cheick-nguette-pour-la-democratie-representative.html"
+            }
           }
         },
         {

@@ -8,7 +8,7 @@
       "id": "foll",
       "nom": "Stéphane Le Foll",
       "liste": "PS (Parti Socialiste)",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -16,7 +16,7 @@
       "id": "karamanli",
       "nom": "Marietta Karamanli",
       "liste": "Union de la gauche écologique et citoyenne (EELV/PCF)",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.francebleu.fr/pays-de-la-loire/sarthe-72/le-mans/municipales-2026-marietta-karamanli-tete-de-la-liste-de-la-gauche-ecologiste-et-citoyenne-au-mans-6198977",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -24,7 +24,7 @@
       "id": "sasso",
       "nom": "Olivier Sasso",
       "liste": "LR (Les Républicains)",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.lemans2026.fr/",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -32,7 +32,7 @@
       "id": "vigneral",
       "nom": "Victoria de Vigneral",
       "liste": "RN (Rassemblement National)",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-victoria-de-vigneral-pour-le-rn-au-mans-j-ai-vu-ma-ville-changer-negativement-7728733",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -40,7 +40,7 @@
       "id": "sainty",
       "nom": "Benjamin Sainty",
       "liste": "Révolution Permanente",
-      "programmeUrl": "#",
+      "programmeUrl": "https://benjaminsainty.municipales-rp.fr/projet/",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -48,7 +48,7 @@
       "id": "fontenel-personne",
       "nom": "Pascale Fontenel-Personne",
       "liste": "Renaissance (Ensemble)",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.francebleu.fr/emissions/l-invite-de-ici-maine/pascale-fontenel-personne-pilote-des-municipales-2026-au-mans-pour-renaissance-1076692",
       "programmeComplet": false,
       "programmePdfPath": null
     }
@@ -62,10 +62,22 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Porter la police municipale de 40 à 50 agents, équipés de pistolets à impulsion électrique",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690"
+            },
             "karamanli": null,
-            "sasso": null,
-            "vigneral": null,
+            "sasso": {
+              "texte": "Doubler les effectifs de la police municipale pour atteindre 80 agents (contre 2,5 pour 10 000 habitants actuellement, objectif : rejoindre la moyenne des villes comparables)",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.lemans2026.fr/"
+            },
+            "vigneral": {
+              "texte": "Renforcer massivement la sécurité pour « une ville plus sûre et mieux gérée », axe central du programme RN au Mans",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-victoria-de-vigneral-pour-le-rn-au-mans-j-ai-vu-ma-ville-changer-negativement-7728733"
+            },
             "sainty": null,
             "fontenel-personne": null
           }
@@ -74,7 +86,11 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Renforcer la coordination entre police nationale et municipale via un centre de supervision gérant plus de 100 caméras de vidéoprotection",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690"
+            },
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
@@ -91,7 +107,11 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null
+            "fontenel-personne": {
+              "texte": "Faire de la sécurité en centre-ville une priorité, répondre aux préoccupations des habitants sur les incivilités",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-ici-maine/pascale-fontenel-personne-pilote-des-municipales-2026-au-mans-pour-renaissance-1076692"
+            }
           }
         },
         {
@@ -116,10 +136,18 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Investir 40 millions d’euros pour remplacer les rames de tramway par des modèles plus longs, accueillant davantage de passagers aux heures de pointe",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690"
+            },
             "karamanli": null,
             "sasso": null,
-            "vigneral": null,
+            "vigneral": {
+              "texte": "Remettre en cause les chronolignes (réorganisation de la circulation des bus) et redonner plus de place à la voiture en ville",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-victoria-de-vigneral-pour-le-rn-au-mans-j-ai-vu-ma-ville-changer-negativement-7728733"
+            },
             "sainty": null,
             "fontenel-personne": null
           }
@@ -128,7 +156,11 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Développer des pistes cyclables dédiées dans toute la ville",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690"
+            },
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
@@ -140,7 +172,11 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Mettre en place des navettes électriques gratuites en centre-ville pour faciliter les déplacements et réduire la circulation automobile",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690"
+            },
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
@@ -168,7 +204,11 @@
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
-            "sainty": null,
+            "sainty": {
+              "texte": "Gratuité totale des transports en commun au Mans",
+              "source": "Site de campagne",
+              "sourceUrl": "https://benjaminsainty.municipales-rp.fr/projet/"
+            },
             "fontenel-personne": null
           }
         }
@@ -182,7 +222,11 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Passer de 500 à 700-800 logements construits par an, avec une part importante de logement social",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.parlons-politique.fr/elections/municipales-le-mans-2026-stephane-le-foll-candidat-la-gauche-divisee-face-a-une-liste-anti-le-foll-la-droite-en-quete-de-retour_6408/"
+            },
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
@@ -198,7 +242,11 @@
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
-            "sainty": null,
+            "sainty": {
+              "texte": "Réquisitionner les logements vides du Mans pour loger les sans-abri et les mal-logés",
+              "source": "Site de campagne",
+              "sourceUrl": "https://benjaminsainty.municipales-rp.fr/projet/"
+            },
             "fontenel-personne": null
           }
         },
@@ -248,7 +296,11 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Renforcer les services périscolaires et investir dans la rénovation des écoles",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690"
+            },
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
@@ -260,11 +312,19 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Gratuité des transports en commun pour les élèves du primaire",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690"
+            },
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
-            "sainty": null,
+            "sainty": {
+              "texte": "Gratuité des cantines scolaires et des fournitures pour tous les élèves",
+              "source": "Site de campagne",
+              "sourceUrl": "https://benjaminsainty.municipales-rp.fr/projet/"
+            },
             "fontenel-personne": null
           }
         },
@@ -303,8 +363,16 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "foll": null,
-            "karamanli": null,
-            "sasso": null,
+            "karamanli": {
+              "texte": "Végétaliser la ville dans le cadre d’un programme écologique ambitieux porté par l’union EELV-PCF",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-au-mans-une-liste-d-union-de-la-gauche-ecologique-et-citoyenne-pour-ecouter-respecter-et-agir-1949734"
+            },
+            "sasso": {
+              "texte": "Garantir à chaque habitant un espace vert accessible en moins de 15 minutes, développer parcs et jardins (55 m² d’espace vert par habitant actuellement)",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-olivier-sasso-officialise-sa-candidature-pour-la-droite-au-mans-1616890"
+            },
             "vigneral": null,
             "sainty": null,
             "fontenel-personne": null
@@ -328,7 +396,11 @@
           "propositions": {
             "foll": null,
             "karamanli": null,
-            "sasso": null,
+            "sasso": {
+              "texte": "Lancer un plan de gestion intelligente de l’eau avec capteurs et intelligence artificielle",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-olivier-sasso-officialise-sa-candidature-pour-la-droite-au-mans-1616890"
+            },
             "vigneral": null,
             "sainty": null,
             "fontenel-personne": null
@@ -368,7 +440,11 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Organiser des assises de la santé en début de mandat pour construire une nouvelle organisation entre tous les professionnels de santé à l’échelle de la ville",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690"
+            },
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
@@ -411,7 +487,11 @@
           "nom": "Budget participatif",
           "propositions": {
             "foll": null,
-            "karamanli": null,
+            "karamanli": {
+              "texte": "Mettre en place une démocratie participative renforcée : « écouter, respecter et agir » comme méthode de gouvernance municipale",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-au-mans-une-liste-d-union-de-la-gauche-ecologique-et-citoyenne-pour-ecouter-respecter-et-agir-1949734"
+            },
             "sasso": null,
             "vigneral": null,
             "sainty": null,
@@ -423,10 +503,22 @@
           "nom": "Transparence",
           "propositions": {
             "foll": null,
-            "karamanli": null,
+            "karamanli": {
+              "texte": "Travailler au-delà des partis en associant les citoyens aux décisions municipales, renouveler les pratiques démocratiques",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/pays-de-la-loire/sarthe-72/le-mans/municipales-2026-marietta-karamanli-tete-de-la-liste-de-la-gauche-ecologiste-et-citoyenne-au-mans-6198977"
+            },
             "sasso": null,
-            "vigneral": null,
-            "sainty": null,
+            "vigneral": {
+              "texte": "Gérer le budget municipal « à l’euro près » avec une gestion exemplaire, sans « folie verte » dans les dépenses",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-victoria-de-vigneral-pour-le-rn-au-mans-j-ai-vu-ma-ville-changer-negativement-7728733"
+            },
+            "sainty": {
+              "texte": "Élus révocables par la population et rémunérés au salaire d’une infirmière",
+              "source": "Site de campagne",
+              "sourceUrl": "https://benjaminsainty.municipales-rp.fr/projet/"
+            },
             "fontenel-personne": null
           }
         },
@@ -450,7 +542,11 @@
             "karamanli": null,
             "sasso": null,
             "vigneral": null,
-            "sainty": null,
+            "sainty": {
+              "texte": "Investissement massif dans les services publics sous contrôle des travailleurs, arrêt des subventions publiques aux entreprises",
+              "source": "Site de campagne",
+              "sourceUrl": "https://benjaminsainty.municipales-rp.fr/projet/"
+            },
             "fontenel-personne": null
           }
         }
@@ -466,7 +562,11 @@
           "propositions": {
             "foll": null,
             "karamanli": null,
-            "sasso": null,
+            "sasso": {
+              "texte": "Créer une maison de l’entreprise et de l’artisanat : guichet unique pour faciliter les démarches des chefs d’entreprise et les aider à s’installer au Mans",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.lemans2026.fr/"
+            },
             "vigneral": null,
             "sainty": null,
             "fontenel-personne": null
@@ -490,7 +590,11 @@
           "propositions": {
             "foll": null,
             "karamanli": null,
-            "sasso": null,
+            "sasso": {
+              "texte": "Faire de l’attractivité économique un axe prioritaire : attirer entreprises et investisseurs au Mans par un accompagnement renforcé",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-olivier-sasso-officialise-sa-candidature-pour-la-droite-au-mans-1616890"
+            },
             "vigneral": null,
             "sainty": null,
             "fontenel-personne": null
@@ -511,7 +615,11 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null
+            "fontenel-personne": {
+              "texte": "Rendre la culture plus populaire et accessible à tous les Manceaux, en faire une priorité pour l’épanouissement des habitants",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-ici-maine/pascale-fontenel-personne-pilote-des-municipales-2026-au-mans-pour-renaissance-1076692"
+            }
           }
         },
         {
@@ -632,7 +740,11 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "foll": null,
+            "foll": {
+              "texte": "Maintenir une fiscalité modérée avec une hausse des impôts locaux limitée à 0,75 % par an maximum",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.parlons-politique.fr/elections/municipales-le-mans-2026-stephane-le-foll-candidat-la-gauche-divisee-face-a-une-liste-anti-le-foll-la-droite-en-quete-de-retour_6408/"
+            },
             "karamanli": null,
             "sasso": null,
             "vigneral": null,

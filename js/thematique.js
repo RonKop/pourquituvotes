@@ -2,7 +2,7 @@
   "use strict";
 
   var DATA_BASE_URL = "/data/";
-  var DATA_VERSION = "2026021813";
+  var DATA_VERSION = "2026022201";
 
   var CATEGORIE_META = {
     "securite": { icon: "ph-shield-check" },

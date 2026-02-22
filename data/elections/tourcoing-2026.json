@@ -54,18 +54,30 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "becue": null,
+            "becue": {
+              "texte": "Renforcement du service Tranquillité résidentielle et des effectifs de police municipale, en complément de la police nationale",
+              "source": "Site ville de Tourcoing",
+              "sourceUrl": "https://www.tourcoing.fr/Vivre-a-Tourcoing/Securite-prevention/Pour-plus-de-securite-a-Tourcoing"
+            },
             "vuylsteker": null,
             "talpaert": null,
             "croes": null,
-            "verbrugghe": null
+            "verbrugghe": {
+              "texte": "Renforcement des effectifs et des moyens de la police municipale pour assurer la sécurité au quotidien",
+              "source": "Charte RN municipales",
+              "sourceUrl": "https://rassemblementnational.fr/communiques/municipales-2026-le-rn-lance-une-charte-de-soutien"
+            }
           }
         },
         {
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "becue": null,
+            "becue": {
+              "texte": "Extension du réseau de vidéoprotection au-delà des 166 caméras déjà en service sur la commune",
+              "source": "Site ville de Tourcoing",
+              "sourceUrl": "https://www.tourcoing.fr/Vivre-a-Tourcoing/Securite-prevention/Pour-plus-de-securite-a-Tourcoing"
+            },
             "vuylsteker": null,
             "talpaert": null,
             "croes": null,
@@ -76,7 +88,11 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "becue": null,
+            "becue": {
+              "texte": "Maintien et développement du dispositif d'aide aux victimes et de médiation de quartier",
+              "source": "Site ville de Tourcoing",
+              "sourceUrl": "https://www.tourcoing.fr/Vivre-a-Tourcoing/Securite-prevention/Pour-plus-de-securite-a-Tourcoing"
+            },
             "vuylsteker": null,
             "talpaert": null,
             "croes": null,
@@ -116,7 +132,11 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "becue": null,
-            "vuylsteker": null,
+            "vuylsteker": {
+              "texte": "Rendre l'espace public respirable et apaisé pour les piétons et cyclistes, permettre aux enfants de marcher et jouer en sécurité",
+              "source": "Site de campagne",
+              "sourceUrl": "https://tourcoingvertdemain.fr/"
+            },
             "talpaert": null,
             "croes": null,
             "verbrugghe": null
@@ -149,9 +169,17 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "becue": null,
-            "vuylsteker": null,
+            "vuylsteker": {
+              "texte": "Rendre les transports en commun gratuits avant la fin du mandat, tout en améliorant et sécurisant le réseau",
+              "source": "Site de campagne",
+              "sourceUrl": "https://tourcoingvertdemain.fr/"
+            },
             "talpaert": null,
-            "croes": null,
+            "croes": {
+              "texte": "Gratuité des transports en commun pour les habitants de Tourcoing, dans le cadre d'un programme de rupture sociale et écologique",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.croes2026.com/"
+            },
             "verbrugghe": null
           }
         }
@@ -165,7 +193,11 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "becue": null,
+            "becue": {
+              "texte": "Rénovation urbaine du quartier de la Bourgogne (81 M EUR ANRU) : diversification de l'offre de logements pour renforcer la mixité sociale",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.lillemetropole.fr/renouvellement-urbain-la-bourgogne-tourcoing"
+            },
             "vuylsteker": null,
             "talpaert": null,
             "croes": null,
@@ -226,7 +258,11 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "becue": null,
+            "becue": {
+              "texte": "Poursuite du plan pluriannuel de rénovation des écoles et amélioration de la restauration scolaire",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.mediacites.fr/breve/lille/2026/02/13/municipales-a-tourcoing-le-parti-de-doriane-becue-et-gerald-darmanin-sanctionne-au-pire-moment/"
+            },
             "vuylsteker": null,
             "talpaert": null,
             "croes": null,
@@ -240,8 +276,16 @@
             "becue": null,
             "vuylsteker": null,
             "talpaert": null,
-            "croes": null,
-            "verbrugghe": null
+            "croes": {
+              "texte": "Cantines 100 % bio et locales avec tarification sociale, fournitures scolaires gratuites pour toutes les familles",
+              "source": "Programme LFI municipales",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
+            "verbrugghe": {
+              "texte": "Promotion du localisme dans les cantines scolaires : approvisionnement en circuits courts et produits du terroir",
+              "source": "Charte RN municipales",
+              "sourceUrl": "https://rassemblementnational.fr/communiques/municipales-2026-le-rn-lance-une-charte-de-soutien"
+            }
           }
         },
         {
@@ -276,8 +320,16 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "becue": null,
-            "vuylsteker": null,
+            "becue": {
+              "texte": "Création de jardins partagés et développement d'espaces verts dans le cadre de la rénovation du quartier de la Bourgogne",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.lillemetropole.fr/renouvellement-urbain-la-bourgogne-tourcoing"
+            },
+            "vuylsteker": {
+              "texte": "Planter massivement des arbres, inviter la nature en ville et multiplier les espaces de repos et de fraîcheur",
+              "source": "Site de campagne",
+              "sourceUrl": "https://tourcoingvertdemain.fr/"
+            },
             "talpaert": null,
             "croes": null,
             "verbrugghe": null
@@ -299,7 +351,11 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "becue": null,
-            "vuylsteker": null,
+            "vuylsteker": {
+              "texte": "Répondre en urgence aux enjeux écologiques : végétalisation, désimperméabilisation des sols, lutte contre les îlots de chaleur",
+              "source": "Site de campagne",
+              "sourceUrl": "https://tourcoingvertdemain.fr/"
+            },
             "talpaert": null,
             "croes": null,
             "verbrugghe": null
@@ -312,7 +368,11 @@
             "becue": null,
             "vuylsteker": null,
             "talpaert": null,
-            "croes": null,
+            "croes": {
+              "texte": "Plan massif de rénovation énergétique des bâtiments publics et accompagnement des copropriétés en précarité énergétique",
+              "source": "Programme LFI municipales",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
             "verbrugghe": null
           }
         },
@@ -377,9 +437,17 @@
           "nom": "Budget participatif",
           "propositions": {
             "becue": null,
-            "vuylsteker": null,
+            "vuylsteker": {
+              "texte": "Mettre en place une démocratie locale renforcée pour répondre aux urgences démocratiques et sociales du prochain mandat",
+              "source": "Site de campagne",
+              "sourceUrl": "https://tourcoingvertdemain.fr/"
+            },
             "talpaert": null,
-            "croes": null,
+            "croes": {
+              "texte": "Mise en place d'un budget participatif ambitieux pour permettre aux habitants de décider directement des investissements de leur quartier",
+              "source": "Programme LFI municipales",
+              "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/"
+            },
             "verbrugghe": null
           }
         },
@@ -391,7 +459,11 @@
             "vuylsteker": null,
             "talpaert": null,
             "croes": null,
-            "verbrugghe": null
+            "verbrugghe": {
+              "texte": "Gestion financière prudente, lutte contre le gaspillage d'argent public et transparence des dépenses municipales",
+              "source": "Charte RN municipales",
+              "sourceUrl": "https://rassemblementnational.fr/communiques/municipales-2026-le-rn-lance-une-charte-de-soutien"
+            }
           }
         },
         {
@@ -426,11 +498,19 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "becue": null,
+            "becue": {
+              "texte": "Construction d'un nouvel équipement commercial et de services dans le quartier de la Bourgogne",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.lillemetropole.fr/renouvellement-urbain-la-bourgogne-tourcoing"
+            },
             "vuylsteker": null,
             "talpaert": null,
             "croes": null,
-            "verbrugghe": null
+            "verbrugghe": {
+              "texte": "Soutien aux commerces de proximité et aux artisans locaux, lutte contre la désertification commerciale",
+              "source": "Charte RN municipales",
+              "sourceUrl": "https://rassemblementnational.fr/communiques/municipales-2026-le-rn-lance-une-charte-de-soutien"
+            }
           }
         },
         {
@@ -521,7 +601,11 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "becue": null,
+            "becue": {
+              "texte": "Projet ANRU Bourgogne : urbanisme à taille humaine, ouverture du quartier sur la ville, réaménagement des espaces publics",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.lillemetropole.fr/renouvellement-urbain-la-bourgogne-tourcoing"
+            },
             "vuylsteker": null,
             "talpaert": null,
             "croes": null,
@@ -543,7 +627,11 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "becue": null,
+            "becue": {
+              "texte": "Transformation en profondeur du quartier de la Bourgogne : désenclavement, création d'espaces publics de qualité, sécurisation et développement économique",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.lillemetropole.fr/renouvellement-urbain-la-bourgogne-tourcoing"
+            },
             "vuylsteker": null,
             "talpaert": null,
             "croes": null,

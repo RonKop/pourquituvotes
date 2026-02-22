@@ -8,7 +8,7 @@
       "id": "lisnard",
       "nom": "David Lisnard",
       "liste": "LR / Nouvelle Énergie pour la France",
-      "programmeUrl": "#",
+      "programmeUrl": "https://lisnard2026.fr/",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -16,7 +16,7 @@
       "id": "mussio",
       "nom": "Lucas Mussio",
       "liste": "RN (Rassemblement National)",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.lucasmussio2026.fr/",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -38,16 +38,32 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "lisnard": null,
-            "mussio": null,
-            "hugues": null
+            "lisnard": {
+              "texte": "Maintien d'une police municipale armée avec un ratio parmi les plus élevés de France (1 policier pour 400 habitants), plus de 155 opérations anti-drogue par an en coordination avec la police nationale",
+              "source": "France Bleu Azur",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin/municipales-a-cannes-david-lisnard-devoile-un-projet-ambitieux-tout-en-reduisant-la-depense-8620274"
+            },
+            "mussio": {
+              "texte": "Réorganisation de la police municipale, création d'une brigade anti-stupéfiants municipale et d'une brigade maritime pour sécuriser les zones côtières et les îles de Lérins",
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-a-cannes-il-faut-une-tolerance-zero-face-a-linsecurite-et-au-narcotrafic-les-propositions-fortes-du-candidat-rn-lucas-mussio/"
+            },
+            "hugues": {
+              "texte": "Sécurité de proximité recentrée sur la police nationale, avec des effectifs adaptés aux besoins réels des quartiers",
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-cannes-gauche-locale-sunit-et-devoile-sa-tete-de-liste-pour-proposer-une-alternative-nette-et-coherente/"
+            }
           }
         },
         {
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "texte": "Extension du réseau de vidéoprotection (déjà plus de 800 caméras, 1 pour 72 habitants) et déploiement d'une IA d'analyse d'images pour les réquisitions judiciaires",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.petitesaffiches.fr/politique,104/securite-la-ville-de-cannes,39526.html?lang=fr"
+            },
             "mussio": null,
             "hugues": null
           }
@@ -57,7 +73,11 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "lisnard": null,
-            "mussio": null,
+            "mussio": {
+              "texte": "Tolérance zéro face à l'insécurité et au narcotrafic : stratégie de pression quotidienne sur le terrain contre les trafiquants, engagement de la responsabilité parentale pour les mineurs délinquants",
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-a-cannes-il-faut-une-tolerance-zero-face-a-linsecurite-et-au-narcotrafic-les-propositions-fortes-du-candidat-rn-lucas-mussio/"
+            },
             "hugues": null
           }
         },
@@ -133,7 +153,11 @@
           "propositions": {
             "lisnard": null,
             "mussio": null,
-            "hugues": null
+            "hugues": {
+              "texte": "Faire du logement accessible une urgence sociale : lutte contre les logements vides et les meublés touristiques (80 % de l'offre immobilière), construction de logements pour les jeunes et les travailleurs",
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-cannes-jeunes-travailleurs-ne-peuvent-plus-se-loger-gauche-fait-de-la-crise-du-logement-sa-priorite/"
+            }
           }
         },
         {
@@ -158,7 +182,11 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "texte": "Construction de 3 000 nouveaux logements, notamment dans le secteur de la Roubine, avec développement de logements diffus en centre-ville et programme de 300 logements dans le quartier République",
+              "source": "France 3 PACA",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/cannes/campus-du-spatial-3000-nouveaux-logements-voie-rapide-vegetalisee-les-premieres-annonces-du-candidat-david-lisnard-pour-cannes-3295233.html"
+            },
             "mussio": null,
             "hugues": null
           }
@@ -209,7 +237,11 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "texte": "Faire de Cannes une ville étudiante : construction du campus Vatel (hôtellerie), objectif de passer de 3 000 à 6 000 étudiants sur la commune",
+              "source": "RCF Nice",
+              "sourceUrl": "https://www.rcf.fr/articles/actualite/cannes-david-lisnard-annonce-sa-candidature-aux-elections-municipales"
+            },
             "mussio": null,
             "hugues": null
           }
@@ -224,7 +256,11 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "texte": "Plantation massive d'arbres et végétalisation de la ville, poursuite de la lutte contre les inondations",
+              "source": "France Bleu Azur",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin/municipales-a-cannes-david-lisnard-devoile-un-projet-ambitieux-tout-en-reduisant-la-depense-8620274"
+            },
             "mussio": null,
             "hugues": null
           }
@@ -234,7 +270,11 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "lisnard": null,
-            "mussio": null,
+            "mussio": {
+              "texte": "Améliorer le quotidien des habitants en rendant la ville plus propre et mieux entretenue, avec une attention particulière à chaque quartier",
+              "source": "Nice Presse",
+              "sourceUrl": "https://nicepresse.com/a-cannes-le-candidat-rn-qui-part-a-lassaut-de-la-citadelle-lisnard-pointe-une-delinquance-en-hausse-et-une-police-municipale-a-reorganiser/"
+            },
             "hugues": null
           }
         },
@@ -253,7 +293,11 @@
           "propositions": {
             "lisnard": null,
             "mussio": null,
-            "hugues": null
+            "hugues": {
+              "texte": "Investissements massifs dans la rénovation thermique des copropriétés dégradées et promotion de la mobilité durable",
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-cannes-jeunes-travailleurs-ne-peuvent-plus-se-loger-gauche-fait-de-la-crise-du-logement-sa-priorite/"
+            }
           }
         },
         {
@@ -310,14 +354,22 @@
           "propositions": {
             "lisnard": null,
             "mussio": null,
-            "hugues": null
+            "hugues": {
+              "texte": "Mise en place de budgets participatifs, renforcement de la transparence municipale et des conseils de quartier pour une démocratie locale vivante",
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-cannes-gauche-locale-sunit-et-devoile-sa-tete-de-liste-pour-proposer-une-alternative-nette-et-coherente/"
+            }
           }
         },
         {
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "texte": "Poursuite de l'orthodoxie financière : baisse de la dette de 81,7 M EUR depuis 2014, diminution du taux de la taxe foncière de 3,6 % en 2025, 56 M EUR d'économies réalisées",
+              "source": "France Bleu Azur",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin/municipales-a-cannes-david-lisnard-devoile-un-projet-ambitieux-tout-en-reduisant-la-depense-8620274"
+            },
             "mussio": null,
             "hugues": null
           }
@@ -337,7 +389,11 @@
           "propositions": {
             "lisnard": null,
             "mussio": null,
-            "hugues": null
+            "hugues": {
+              "texte": "Renforcement des services publics de proximité dans tous les quartiers, avec une attention particulière aux populations fragiles",
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-cannes-gauche-locale-sunit-et-devoile-sa-tete-de-liste-pour-proposer-une-alternative-nette-et-coherente/"
+            }
           }
         }
       ]
@@ -351,7 +407,11 @@
           "nom": "Commerce local",
           "propositions": {
             "lisnard": null,
-            "mussio": null,
+            "mussio": {
+              "texte": "Soutien renforcé aux commerçants et artisans locaux, présence quotidienne sur le terrain pour accompagner les commerces de proximité",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.lucasmussio2026.fr/"
+            },
             "hugues": null
           }
         },
@@ -368,7 +428,11 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "texte": "Création d'un campus du spatial en partenariat avec Thales Alenia Space et développement de filières IA et quantique, objectif 6 000 étudiants en 5 ans avec le campus Vatel",
+              "source": "France 3 PACA",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/cannes/campus-du-spatial-3000-nouveaux-logements-voie-rapide-vegetalisee-les-premieres-annonces-du-candidat-david-lisnard-pour-cannes-3295233.html"
+            },
             "mussio": null,
             "hugues": null
           }
@@ -392,7 +456,11 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "texte": "Stratégie événementielle pour dynamiser la hors-saison : festivals, congrès internationaux et événements culturels et sportifs toute l'année",
+              "source": "France Bleu Azur",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin/municipales-a-cannes-david-lisnard-devoile-un-projet-ambitieux-tout-en-reduisant-la-depense-8620274"
+            },
             "mussio": null,
             "hugues": null
           }
@@ -431,7 +499,11 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "texte": "Grand projet de végétalisation de la voie rapide qui recouvre la voie ferrée : la rendre plus belle, plus esthétique et végétalisée",
+              "source": "France 3 PACA",
+              "sourceUrl": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/cannes/campus-du-spatial-3000-nouveaux-logements-voie-rapide-vegetalisee-les-premieres-annonces-du-candidat-david-lisnard-pour-cannes-3295233.html"
+            },
             "mussio": null,
             "hugues": null
           }
@@ -449,7 +521,11 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "texte": "Rénovation du quartier populaire de République : 300 logements neufs, amélioration des équipements publics et requalification urbaine",
+              "source": "Presse locale",
+              "sourceUrl": "https://www.unenouvelleenergie.fr/le-quartier-populaire-de-republique-avance-avec-david-lisnard/"
+            },
             "mussio": null,
             "hugues": null
           }

@@ -38,17 +38,37 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "kossowski": null,
-            "taquillain": null,
-            "ronze-spilliaert": null
+            "kossowski": {
+              "texte": "Politique de tolérance zéro en matière de sécurité. La ville est classée première pour la sécurité et entend maintenir ce rang.",
+              "source": "Presse locale (Le Journal du Grand Paris)",
+              "sourceUrl": "https://www.lejournaldugrandparis.fr/courbevoie-en-campagne-avec-jacques-kossowski-et-stephanie-soares/"
+            },
+            "taquillain": {
+              "texte": "Faire de Courbevoie une ville plus sûre : renforcement de la police municipale.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.aurelietaquillain.fr/mes-propositions"
+            },
+            "ronze-spilliaert": {
+              "texte": "Renforcement de la police municipale pour lutter contre les trafics de drogue en augmentation à Courbevoie.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/politique/municipales-2026-cyprien-ronze-spilliaert-porte-une-liste-de-gauche-anti-lfi-a-courbevoie-86131"
+            }
           }
         },
         {
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "kossowski": null,
-            "taquillain": null,
+            "kossowski": {
+              "texte": "Augmentation du nombre de caméras de vidéoprotection de 150 à 200, avec un centre de sécurité urbaine opérationnel 24h/24 et 7j/7.",
+              "source": "Presse locale (Le Journal du Grand Paris)",
+              "sourceUrl": "https://www.lejournaldugrandparis.fr/courbevoie-en-campagne-avec-jacques-kossowski-et-stephanie-soares/"
+            },
+            "taquillain": {
+              "texte": "Développement de la vidéoprotection et mise en place de subventions pour l'installation d'alarmes au domicile.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.aurelietaquillain.fr/mes-propositions"
+            },
             "ronze-spilliaert": null
           }
         },
@@ -80,7 +100,11 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "kossowski": null,
+            "kossowski": {
+              "texte": "Accompagnement de l'arrivée de la ligne 15 du Grand Paris Express. Inscription au SDRIF-E du prolongement de la ligne 3 du métro jusqu'à Courbevoie.",
+              "source": "Presse locale (Le Journal du Grand Paris)",
+              "sourceUrl": "https://www.lejournaldugrandparis.fr/courbevoie-en-campagne-avec-jacques-kossowski-et-stephanie-soares/"
+            },
             "taquillain": null,
             "ronze-spilliaert": null
           }
@@ -100,7 +124,11 @@
           "propositions": {
             "kossowski": null,
             "taquillain": null,
-            "ronze-spilliaert": null
+            "ronze-spilliaert": {
+              "texte": "Lutte contre le tout-voiture : plus de rues piétonnes et végétalisées au centre-ville.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/politique/municipales-2026-cyprien-ronze-spilliaert-porte-une-liste-de-gauche-anti-lfi-a-courbevoie-86131"
+            }
           }
         },
         {
@@ -184,7 +212,11 @@
           "propositions": {
             "kossowski": null,
             "taquillain": null,
-            "ronze-spilliaert": null
+            "ronze-spilliaert": {
+              "texte": "Relance du projet d'école européenne à Courbevoie, reporté à plusieurs reprises.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/politique/municipales-2026-cyprien-ronze-spilliaert-porte-une-liste-de-gauche-anti-lfi-a-courbevoie-86131"
+            }
           }
         },
         {
@@ -225,8 +257,16 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "kossowski": null,
-            "taquillain": null,
-            "ronze-spilliaert": null
+            "taquillain": {
+              "texte": "Végétalisation des rues, des cours d'écoles et des bâtiments publics. Création d'îlots de fraîcheur.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.aurelietaquillain.fr/mes-propositions"
+            },
+            "ronze-spilliaert": {
+              "texte": "Lancement d'un grand plan d'écologie urbaine : végétalisation de la ville avec plus de rues piétonnes et végétalisées. Lutte contre le tout-béton.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/politique/municipales-2026-cyprien-ronze-spilliaert-porte-une-liste-de-gauche-anti-lfi-a-courbevoie-86131"
+            }
           }
         },
         {
@@ -243,7 +283,11 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "kossowski": null,
-            "taquillain": null,
+            "taquillain": {
+              "texte": "Relever le défi climatique à l'échelle locale. Faire de la Seine un lieu de loisirs, d'activités sportives et de convivialité.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.aurelietaquillain.fr/mes-propositions"
+            },
             "ronze-spilliaert": null
           }
         },
@@ -276,7 +320,11 @@
           "nom": "Centres de santé",
           "propositions": {
             "kossowski": null,
-            "taquillain": null,
+            "taquillain": {
+              "texte": "Favoriser l'ouverture de maisons de santé pluriprofessionnelles pour lutter contre les déserts médicaux.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.aurelietaquillain.fr/mes-propositions"
+            },
             "ronze-spilliaert": null
           }
         },
@@ -319,7 +367,11 @@
           "propositions": {
             "kossowski": null,
             "taquillain": null,
-            "ronze-spilliaert": null
+            "ronze-spilliaert": {
+              "texte": "Lancement d'un audit financier des comptes de la ville pour réduire la dette municipale dans une logique de transparence.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/politique/municipales-2026-cyprien-ronze-spilliaert-porte-une-liste-de-gauche-anti-lfi-a-courbevoie-86131"
+            }
           }
         },
         {
@@ -351,7 +403,11 @@
           "nom": "Commerce local",
           "propositions": {
             "kossowski": null,
-            "taquillain": null,
+            "taquillain": {
+              "texte": "Défense d'un commerce local vivant et diversifié. Politique active de préemption des locaux commerciaux.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.aurelietaquillain.fr/mes-propositions"
+            },
             "ronze-spilliaert": null
           }
         },
@@ -431,8 +487,16 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "kossowski": null,
-            "taquillain": null,
+            "kossowski": {
+              "texte": "Réaménagement du quartier Charras. Travail sur l'avenir économique de La Défense et de son implantation.",
+              "source": "Presse locale (Le Journal du Grand Paris)",
+              "sourceUrl": "https://www.lejournaldugrandparis.fr/courbevoie-en-campagne-avec-jacques-kossowski-et-stephanie-soares/"
+            },
+            "taquillain": {
+              "texte": "Doter Courbevoie d'un véritable centre-ville. Consultation de plus de 3 000 habitants pour co-construire le projet.",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.aurelietaquillain.fr/mes-propositions"
+            },
             "ronze-spilliaert": null
           }
         },
@@ -483,7 +547,11 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "kossowski": null,
-            "taquillain": null,
+            "taquillain": {
+              "texte": "Stabilité fiscale : mettre fin aux hausses d'impôts injustifiées (plus de 35 % sur le mandat en cours).",
+              "source": "Site de campagne",
+              "sourceUrl": "https://www.aurelietaquillain.fr/mes-propositions"
+            },
             "ronze-spilliaert": null
           }
         }

@@ -8,7 +8,7 @@
       "id": "adam",
       "nom": "Raphaël Adam",
       "liste": "DVG (PCF/Écologistes/Génération.s), Choisir Nanterre",
-      "programmeUrl": "#",
+      "programmeUrl": "https://www.defense-92.fr/wp-content/uploads/2026/02/programme_Nanterre2026DERok-2.pdf",
       "programmeComplet": false,
       "programmePdfPath": null
     },
@@ -46,17 +46,33 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Renforcement des effectifs de la police municipale et intensification de la vidéo-verbalisation. Poursuite des actions contre la vente à la sauvette aux abords des gares et marchés.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
-            "matouk": null,
-            "kasmi": null
+            "matouk": {
+              "texte": "Armement de la police municipale et renforcement de la sécurité dans tous les quartiers.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-helene-matouk-en-quete-du-second-tour-a-nanterre-86144"
+            },
+            "kasmi": {
+              "texte": "Mise en place d'une vraie police de proximité participant aux conseils de quartier et aux réunions de gestion. Recrutement de 25 agents de police municipale.",
+              "source": "Presse locale",
+              "sourceUrl": "https://fr.wikipedia.org/wiki/%C3%89lections_municipales_de_2026_%C3%A0_Nanterre"
+            }
           }
         },
         {
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Poursuite du déploiement de la vidéoprotection (passage de 55 à 160 caméras sur le mandat écoulé). Intensification de la vidéo-verbalisation.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -66,7 +82,11 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Création d'une brigade environnementale de gardes champêtres chargée de lutter contre les dépôts sauvages et les incivilités.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -148,8 +168,16 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "adam": null,
-            "huyghe": null,
+            "adam": {
+              "texte": "Poursuite de la construction de logements HLM et développement du bail réel solidaire pour l'accession sociale à la propriété.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
+            "huyghe": {
+              "texte": "Création d'une cellule municipale de défense des droits des locataires contre les marchands de sommeil, les pannes d'ascenseur et les problèmes de chauffage.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-le-candidat-insoumis-nicolas-huyghe-va-defier-raphael-adam-85901"
+            },
             "matouk": null,
             "kasmi": null
           }
@@ -158,7 +186,11 @@
           "id": "logements-vacants",
           "nom": "Logements vacants",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Transformation de bureaux vacants en logements (30 % des bureaux sont vides à Nanterre).",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -168,7 +200,11 @@
           "id": "encadrement-loyers",
           "nom": "Encadrement des loyers",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Lutte contre les loyers excessifs et encadrement du coliving.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -178,9 +214,17 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Renforcement de la prévention des expulsions locatives et développement du bail réel solidaire.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
-            "matouk": null,
+            "matouk": {
+              "texte": "Améliorer l'accès au logement pour les classes moyennes via la révision du PLUi.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-helene-matouk-en-quete-du-second-tour-a-nanterre-86144"
+            },
             "kasmi": null
           }
         }
@@ -204,9 +248,17 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Opposition aux fermetures de classes. Accélération de la rénovation et de la végétalisation des cours d'écoles. Création d'unités adaptées pour les enfants en situation de handicap ou autistes.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
-            "matouk": null,
+            "matouk": {
+              "texte": "Consacrer la moitié du budget d'investissement à l'éducation, priorité numéro un du programme.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-helene-matouk-en-quete-du-second-tour-a-nanterre-86144"
+            },
             "kasmi": null
           }
         },
@@ -214,7 +266,11 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Développement de l'alimentation bio et durable dans les cantines scolaires.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -260,7 +316,11 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Création d'une brigade environnementale de gardes champêtres pour lutter contre les dépôts sauvages. Lutte contre l'affichage illégal.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -342,7 +402,11 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Instauration d'une votation citoyenne déclenchée à partir de 1 000 signatures. Lancement d'une consultation « Vivre à Nanterre en 2050 ».",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -352,8 +416,16 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "adam": null,
-            "huyghe": null,
+            "adam": {
+              "texte": "Réduction des délais de réponse municipale aux sollicitations des habitants.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
+            "huyghe": {
+              "texte": "Programme de rupture avec les méthodes jugées anti-démocratiques de la municipalité actuelle. Consultation réelle des habitants avant les grands projets.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-le-candidat-insoumis-nicolas-huyghe-va-defier-raphael-adam-85901"
+            },
             "matouk": null,
             "kasmi": null
           }
@@ -362,7 +434,11 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Création d'une assemblée citoyenne ouverte aux résidents étrangers pour renforcer la participation de tous.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -388,7 +464,11 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Création d'une foncière commerciale solidaire. Développement de boutiques éphémères pour les créateurs. Soutien renforcé au commerce de proximité.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -450,7 +530,11 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Rénovation des équipements sportifs et ouverture de nouveaux gymnases.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -460,7 +544,11 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Développement du sport féminin et création d'un club d'e-sport municipal.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -477,8 +565,16 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "adam": null,
-            "huyghe": null,
-            "matouk": null,
+            "huyghe": {
+              "texte": "Rupture avec la politique d'urbanisme actuelle ayant engendré une inflation de bureaux (30 % vides). Consultation réelle des habitants sur les projets de rénovation urbaine.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-le-candidat-insoumis-nicolas-huyghe-va-defier-raphael-adam-85901"
+            },
+            "matouk": {
+              "texte": "Révision du PLUi pour préserver les zones pavillonnaires, abaisser les seuils de hauteur des constructions et améliorer l'accès au logement pour les classes moyennes.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-helene-matouk-en-quete-du-second-tour-a-nanterre-86144"
+            },
             "kasmi": null
           }
         },
@@ -512,7 +608,11 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Renforcement de l'accompagnement pour les titres de séjour. Création d'un fonds de solidarité pour les personnes en rupture de droits.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null
@@ -522,7 +622,11 @@
           "id": "egalite-discriminations",
           "nom": "Égalité & Discriminations",
           "propositions": {
-            "adam": null,
+            "adam": {
+              "texte": "Mobilisation contre toutes les discriminations. Programme reposant sur la solidarité et les droits.",
+              "source": "Presse locale (Defense-92.fr)",
+              "sourceUrl": "https://www.defense-92.fr/elections/municipales-2026-raphael-adam-deroule-son-programme-solidaire-pour-nanterre-86509"
+            },
             "huyghe": null,
             "matouk": null,
             "kasmi": null

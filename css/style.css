@@ -2078,6 +2078,16 @@ a.methodo-item--link:hover .methodo-item__nom i {
 [data-theme="dark"] .radar-guide { background: rgba(100, 120, 180, 0.06); }
 @media (max-width: 768px) {
   .radar-guide__items { grid-template-columns: 1fr; gap: 0.6rem; }
+  .radar-guide__titre { cursor: pointer; margin-bottom: 0; }
+  .radar-guide__titre::after {
+    content: "\25BC"; /* ▼ */
+    font-size: 0.65rem;
+    margin-left: auto;
+    transition: transform 0.2s;
+  }
+  .radar-guide:not(.radar-guide--open) .radar-guide__titre::after { transform: rotate(-90deg); }
+  .radar-guide:not(.radar-guide--open) .radar-guide__items { display: none; }
+  .radar-guide--open .radar-guide__titre { margin-bottom: 0.6rem; }
 }
 
 /* --- Polices graphiques (héritent de --police-texte via le bloc global) --- */

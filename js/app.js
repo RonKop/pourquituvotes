@@ -4134,6 +4134,15 @@
     if (heroStats) heroStats.hidden = false;
 
     chargerDepuisURL();
+
+    // Toggle guide radar sur mobile
+    var guideTitle = document.querySelector('.radar-guide__titre');
+    if (guideTitle) {
+      guideTitle.addEventListener('click', function () {
+        guideTitle.closest('.radar-guide').classList.toggle('radar-guide--open');
+      });
+    }
+
   }).catch(function(err) {
     console.error('Erreur chargement villes:', err);
     afficherChargement(false);

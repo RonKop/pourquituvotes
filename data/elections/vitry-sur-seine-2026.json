@@ -9,7 +9,7 @@
       "nom": "Pierre Bell-Lloch",
       "liste": "PCF",
       "programmeUrl": "https://pbl2026.fr/programme.html",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -108,7 +108,11 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Arrivée de la ligne 15 du métro automatique du Grand Paris Express avec 4 gares à Vitry (2025-2030), amélioration des lignes de bus existantes, création de navettes de proximité pour relier les quartiers",
+              "source": "Ville de Vitry-sur-Seine",
+              "sourceUrl": "https://www.vitry94.fr/"
+            },
             "tmimi": {
               "texte": "Interdire la circulation des poids lourds en ville, création d'une navette interquartier gratuite",
               "source": "vitry2026.fr",
@@ -125,7 +129,11 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Développement des pistes cyclables sécurisées dans toute la ville, création de stationnements vélos près des commerces et des gares du Grand Paris, promotion des mobilités douces avec aménagements piétons",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
             "tmimi": {
               "texte": "Plan vélo ambitieux, promotion de la marche, partage de l'espace public",
               "source": "vitry2026.fr",
@@ -246,7 +254,11 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Délai moyen d'attribution réduit à 4 ans grâce à une commission d'attribution équitable examinant chaque situation : composition familiale, ressources, type de logement demandé et ancienneté. Attribution transparente de 500 logements par an",
+              "source": "Mairie de Vitry-sur-Seine",
+              "sourceUrl": "https://www.vitry94.fr/vos-questions-sur-le-logement-en-direct/"
+            },
             "tmimi": {
               "texte": "Critères d'attribution lisibles (scoring), citoyens tirés au sort dans les commissions, bourse d'échange de logements sociaux, habitat coopératif et intergénérationnel, colocation encadrée",
               "source": "Programme officiel 2026",
@@ -303,7 +315,11 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Gratuité des fournitures scolaires pour plusieurs milliers d'élèves, cantines au quotient familial avec produits de qualité issus de circuits courts",
+              "source": "pbl2026.fr - Bilan et programme 2026",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
             "tmimi": {
               "texte": "Cantines de plus en plus bio et locales, avec options végétariennes",
               "source": "vitry2026.fr",
@@ -317,7 +333,7 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "bell-lloch": {
-              "texte": "Étude de la possibilité de rendre gratuite l'heure d'étude scolaire après la classe",
+              "texte": "Étude de la possibilité de rendre gratuite l'heure d'étude scolaire après la classe. Organisation de 2 000 séjours en vacances pour les jeunes Vitriots, activités périscolaires accessibles à tous",
               "source": "pbl2026.fr",
               "sourceUrl": "https://pbl2026.fr/programme.html"
             },
@@ -361,7 +377,7 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "bell-lloch": {
-              "texte": "Création d'un grand parc en bord de Seine d'au moins 50 000 m² pour réconcilier la ville avec son fleuve",
+              "texte": "Création d'un grand parc en bord de Seine d'au moins 50 000 m² pour réconcilier la ville avec son fleuve. Transformation écologique des espaces verts du quartier Vilmorin, développement du parc des Prairies du Fort comme 4ème plus grand espace vert de la ville, plantation d'arbres remarquables et création de prairies fleuries pour favoriser les pollinisateurs",
               "source": "pbl2026.fr",
               "sourceUrl": "https://pbl2026.fr/programme.html"
             },
@@ -402,7 +418,11 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Plan d'adaptation au changement climatique avec déminéralisation des sols, création d'îlots de fraîcheur dans les quartiers, plantation massive d'arbres et végétalisation des cours d'école",
+              "source": "pbl2026.fr",
+              "sourceUrl": "https://pbl2026.fr/programme.html"
+            },
             "tmimi": {
               "texte": "Déminéraliser les sols, isoler le bâti et blanchir les surfaces pour Vitry zéro carbone en 2050",
               "source": "vitry2026.fr",
@@ -524,7 +544,11 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Démocratie de proximité avec plus de 30 ateliers citoyens pour construire le projet municipal, conseils de quartier renforcés, consultation permanente des habitants sur les projets d'aménagement, co-construction de la ville avec les Vitriots",
+              "source": "pbl2026.fr - Démarche participative",
+              "sourceUrl": "https://pbl2026.fr/"
+            },
             "tmimi": {
               "texte": "Budgets participatifs, référendums locaux, conseils de quartier indépendants dotés de pouvoir",
               "source": "vitry2026.fr",
@@ -756,7 +780,7 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "bell-lloch": {
-              "texte": "Nouveau cœur de ville : 5 600 m² d'espaces verts, nouveaux commerces, terrasses, cinés Robespierre revisités et parking souterrain rénové",
+              "texte": "Nouveau cœur de ville : 5 600 m² d'espaces verts, nouveaux commerces, terrasses, cinés Robespierre revisités et parking souterrain rénové. Projet NPRU Cœur de Ville pour revitaliser le centre, développement équilibré du quartier des Ardoines avec concertation citoyenne sur l'avenir du quartier, refus de la bétonisation excessive",
               "source": "pbl2026.fr",
               "sourceUrl": "https://pbl2026.fr/programme.html"
             },
@@ -833,7 +857,11 @@
           "id": "egalite-discriminations",
           "nom": "Égalité & Discriminations",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "texte": "Lutte contre toutes les discriminations (racisme, sexisme, LGBTQIphobies), conseil municipal paritaire avec 15 adjoints au maire, promotion de l'égalité femmes-hommes dans toutes les politiques municipales, soutien aux associations œuvrant pour l'inclusion",
+              "source": "Mairie de Vitry-sur-Seine",
+              "sourceUrl": "https://www.vitry94.fr/les-elus-du-conseil-municipal/"
+            },
             "tmimi": {
               "texte": "Observatoire local des discriminations et violences sexistes, lutte contre racisme, sexisme, LGBTQIphobies",
               "source": "vitry2026.fr",

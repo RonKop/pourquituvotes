@@ -25,7 +25,7 @@
       "nom": "Nathalie Perrin-Gilbert",
       "liste": "Lyon en commun",
       "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -41,7 +41,7 @@
       "nom": "Anaïs Belouassa Cherifi",
       "liste": "Lyon Fière et Populaire (LFI)",
       "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -78,7 +78,11 @@
               "source": "Lyon Capitale, février 2026",
               "sourceUrl": "https://www.lyoncapitale.fr/"
             },
-            "belouassa": null,
+            "belouassa": {
+              "texte": "Désarmement de la police municipale : retirer l'arme létale aux policiers municipaux dont les compétences ne sont pas d'agir sur des lieux de crime",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": {
               "texte": "1000 postes de policiers municipaux, 30 mini-postes de police d’ultra-proximité et drones dans les quartiers difficiles",
               "source": "Lyon Capitale, février 2026",
@@ -122,7 +126,11 @@
               "sourceUrl": "https://tribunedelyon.fr/politique/municipales-2026-nathalie-perrin-gilbert-lance-sa-campagne-samedi-a-la-guillotiere/"
             },
             "kepenekian": null,
-            "belouassa": null,
+            "belouassa": {
+              "texte": "Priorité à la prévention plutôt qu'à la répression : restaurer la confiance entre citoyens et police municipale",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": null
           }
         },
@@ -140,7 +148,11 @@
               "source": "Programme officiel 2026",
               "sourceUrl": "https://coeurlyonnais.fr/"
             },
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "texte": "Centre d'hébergement d'urgence pour les femmes victimes de violences, réseau de logements-relais, brigade municipale des femmes et des familles",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
             "kepenekian": null,
             "belouassa": null,
             "dupalais": null
@@ -187,7 +199,11 @@
             "doucet": null,
             "aulas": null,
             "perrin-gilbert": null,
-            "kepenekian": null,
+            "kepenekian": {
+              "texte": "Maintien des pistes cyclables, équilibre ville pour tous entre vélo, piétons et voitures",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
             "belouassa": null,
             "dupalais": null
           }
@@ -228,7 +244,11 @@
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": null,
-            "belouassa": null,
+            "belouassa": {
+              "texte": "Gratuité des transports pour les moins de 26 ans dans un premier temps, puis gratuité totale progressive du réseau TCL",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": null
           }
         },
@@ -310,7 +330,11 @@
             },
             "perrin-gilbert": null,
             "kepenekian": null,
-            "belouassa": null,
+            "belouassa": {
+              "texte": "Encadrement strict des loyers contre la spéculation immobilière et la multipropriété",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": null
           }
         },
@@ -362,9 +386,17 @@
           "propositions": {
             "doucet": null,
             "aulas": null,
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "texte": "Travaux prioritaires de rénovation dans les bâtiments scolaires dégradés, crédits d'investissement votés dès les premières semaines du mandat",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
             "kepenekian": null,
-            "belouassa": null,
+            "belouassa": {
+              "texte": "Restauration scolaire en régie municipale directe, fin de la délégation au privé",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": null
           }
         },
@@ -404,7 +436,11 @@
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": null,
-            "belouassa": null,
+            "belouassa": {
+              "texte": "Statut pour les familles monoparentales avec carte spécialisée donnant des droits concrets (cantine, périscolaire, colonies de vacances municipales)",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": null
           }
         },
@@ -414,7 +450,11 @@
           "propositions": {
             "doucet": null,
             "aulas": null,
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "texte": "Étages du CLIP dédiés au logement des jeunes, avec médiathèque et espace jeux vidéo au rez-de-chaussée",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
             "kepenekian": null,
             "belouassa": null,
             "dupalais": null
@@ -456,7 +496,11 @@
           "propositions": {
             "doucet": null,
             "aulas": null,
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "texte": "Technicien de quartier dans chaque maison de quartier dédié au suivi de la propreté urbaine et de la collecte",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
             "kepenekian": null,
             "belouassa": null,
             "dupalais": null
@@ -478,8 +522,16 @@
               "a_verifier": true
             },
             "perrin-gilbert": null,
-            "kepenekian": null,
-            "belouassa": null,
+            "kepenekian": {
+              "texte": "Plan Lyon Fraîcheur 2030 de 50 M€ : réseau de mini-canaux dans 50 rues, 12 bassins de rafraîchissement par arrondissement, plages urbaines et 15 000 kits climatiques gratuits",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
+            "belouassa": {
+              "texte": "Écologie populaire qui ne pénalise pas les populations précaires, végétalisation prioritaire des quartiers populaires",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": null
           }
         },
@@ -490,7 +542,11 @@
             "doucet": null,
             "aulas": null,
             "perrin-gilbert": null,
-            "kepenekian": null,
+            "kepenekian": {
+              "texte": "Subventions pour la remise en place de persiennes et volets lyonnais, VMC double flux et géothermie dans les bâtiments publics",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
             "belouassa": null,
             "dupalais": null
           }
@@ -568,7 +624,11 @@
             "doucet": null,
             "aulas": null,
             "perrin-gilbert": null,
-            "kepenekian": null,
+            "kepenekian": {
+              "texte": "Programme de prévention majeur, Lyon capitale du soin",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
             "belouassa": null,
             "dupalais": null
           }
@@ -579,7 +639,11 @@
           "propositions": {
             "doucet": null,
             "aulas": null,
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "texte": "Grand plan de formation pour les métiers du grand âge, opposition à la marchandisation du secteur de la dépendance",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
             "kepenekian": null,
             "belouassa": null,
             "dupalais": null
@@ -626,8 +690,16 @@
           "propositions": {
             "doucet": null,
             "aulas": null,
-            "perrin-gilbert": null,
-            "kepenekian": null,
+            "perrin-gilbert": {
+              "texte": "Création d'un Conseil Économique, Social et Environnemental Municipal (CESEM) composé de 4 collèges, consulté avant chaque vote de budget",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
+            "kepenekian": {
+              "texte": "Tirage au sort de 100 Lyonnais pour débattre des nouveaux projets municipaux et les présenter au conseil municipal",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
             "belouassa": null,
             "dupalais": null
           }
@@ -677,9 +749,17 @@
               "sourceUrl": "https://coeurlyonnais.fr/pacte-lyonnais/",
               "a_verifier": true
             },
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "texte": "Fonds annuel de soutien de 3,5 M€ pour les artisans et commerçants indépendants impactés par les travaux et chantiers urbains",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
             "kepenekian": null,
-            "belouassa": null,
+            "belouassa": {
+              "texte": "Création de maisons des communs inspirées des maisons du peuple : lieux d'engagement civique et de restauration solidaire dans chaque quartier",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": null
           }
         },
@@ -695,7 +775,11 @@
               "a_verifier": true
             },
             "perrin-gilbert": null,
-            "kepenekian": null,
+            "kepenekian": {
+              "texte": "Incubateur d'entreprises dans chaque quartier prioritaire de la politique de la ville",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
             "belouassa": null,
             "dupalais": null
           }
@@ -706,7 +790,11 @@
           "propositions": {
             "doucet": null,
             "aulas": null,
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "texte": "Faire de Lyon une capitale européenne des secteurs santé, numérique et innovation pour créer des emplois locaux",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
             "kepenekian": null,
             "belouassa": null,
             "dupalais": null
@@ -816,8 +904,16 @@
           "propositions": {
             "doucet": null,
             "aulas": null,
-            "perrin-gilbert": null,
-            "kepenekian": null,
+            "perrin-gilbert": {
+              "texte": "Ralentir les chantiers en cours, achever les travaux actuels et adapter les projets avant d'en lancer de nouveaux",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
+            "kepenekian": {
+              "texte": "Voilages intelligents (ombrages déployés) sur 30 axes commerciaux (5 M€), réseau de référents climat dans chaque immeuble",
+              "source": "Lyon Capitale, février 2026",
+              "sourceUrl": "https://www.lyoncapitale.fr/"
+            },
             "belouassa": null,
             "dupalais": null
           }
@@ -828,7 +924,11 @@
           "propositions": {
             "doucet": null,
             "aulas": null,
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "texte": "Technicien de quartier dans chaque maison de quartier pour traiter les réclamations voirie, propreté et stationnement",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
             "kepenekian": null,
             "belouassa": null,
             "dupalais": null
@@ -869,7 +969,11 @@
               "sourceUrl": "https://www.lyoncapitale.fr/actualite/justice-sociale-mobilites-securite-a-lyon-nathalie-perrin-gilbert-lance-sa-campagne-pour-les-municipales-2026"
             },
             "kepenekian": null,
-            "belouassa": null,
+            "belouassa": {
+              "texte": "Hébergement de tous les enfants sans-abri et de leurs familles (environ 200 enfants et familles actuellement à la rue à Lyon)",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": null
           }
         },
@@ -895,9 +999,17 @@
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
             },
             "aulas": null,
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "texte": "Engagement à ne pas faire d'annonces non finançables, refus de vendre le patrimoine municipal (Halle Tony Garnier, musée Guimet)",
+              "source": "Programme Lyon en commun 2026",
+              "sourceUrl": "https://tribunedelyon.fr/"
+            },
             "kepenekian": null,
-            "belouassa": null,
+            "belouassa": {
+              "texte": "Gratuité des cantines = 550 € de pouvoir d'achat par an et par enfant. Coût estimé à 8 M€, avec création de 100-125 ETP",
+              "source": "Programme Lyon Fière et Populaire 2026",
+              "sourceUrl": "https://lafranceinsoumise.fr/"
+            },
             "dupalais": {
               "texte": "Annulation de la hausse de 9% de la taxe foncière de 2023, soit 350€ par an par ménage propriétaire",
               "source": "Lyon Capitale, février 2026",

@@ -1,0 +1,47 @@
+name: Publier tweets planifiés
+
+on:
+  schedule:
+    # 6 runs/jour pour couvrir CET (hiver) et CEST (été)
+    # Posts planifiés à 9h, 12h30, 18h heure française
+    # Hiver (UTC+1) : 8:00, 11:30, 17:00 UTC → runs à 8:05, 11:05, 17:05
+    # Été (UTC+2) :   7:00, 10:30, 16:00 UTC → runs à 7:05, 10:05, 16:05
+    - cron: '5 7,8,10,11,16,17 * * *'
+  workflow_dispatch: # Déclenchement manuel possible
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install tweepy
+        run: pip install tweepy
+
+      - name: Publier les tweets en attente
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+          TZ: Europe/Paris
+        run: python scripts/publier_twitter.py --now
+
+      - name: Commit twitter_published.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/twitter_published.json
+          git diff --staged --quiet || git commit -m "Auto-publish tweets $(date +%Y-%m-%d)"
+          git push

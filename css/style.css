@@ -2375,6 +2375,19 @@ a.methodo-item__statut:hover i {
   .treemap__grille { flex-direction: column; align-items: stretch; }
   .treemap-carte { max-width: none; }
   .treemap-container { min-height: 200px; }
+  .treemap-block--small .treemap-block__label {
+    display: block;
+    position: static;
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    font-size: 0.55rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    pointer-events: none;
+  }
 }
 
 /* --- Animation highlight catégorie (clic treemap → scroll) --- */
@@ -3296,6 +3309,29 @@ a.repartition-avertissement__tag .repartition-avertissement__nom { text-decorati
 }
 .guide-lecture__fermer:hover {
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .guide-lecture__titre-bloc {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .guide-lecture__titre-bloc::after {
+    content: "\25BC";
+    font-size: 0.65rem;
+    margin-left: auto;
+    transition: transform 0.2s;
+  }
+  .guide-lecture:not(.guide-lecture--open) .guide-lecture__titre-bloc::after {
+    transform: rotate(-90deg);
+  }
+  .guide-lecture:not(.guide-lecture--open) .guide-lecture__corps {
+    display: none;
+  }
+  .guide-lecture--open .guide-lecture__titre-bloc {
+    margin-bottom: 0.4rem;
+  }
 }
 
 /* --- Bouton +/− toggle colonne --- */
@@ -5524,7 +5560,22 @@ mark {
   }
 }
 
+.mobile-filtre-sheet__header::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 4px;
+  background: #ccc;
+  border-radius: 2px;
+  margin: 0 auto 0.5rem;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .mobile-filtre-sheet__header {
+  position: relative;
+  padding-top: 1.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -5673,6 +5724,41 @@ mark {
 @keyframes loader-spin {
   to { transform: rotate(360deg); }
 }
+
+/* === Skeleton screens === */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+[data-theme="dark"] .skeleton {
+  background: linear-gradient(90deg, #2a2a3d 25%, #353550 50%, #2a2a3d 75%);
+  background-size: 200% 100%;
+}
+.skeleton-radar {
+  width: 100%;
+  height: 300px;
+  border-radius: 50%;
+  max-width: 350px;
+  margin: auto;
+}
+.skeleton-treemap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.skeleton-treemap__block { height: 80px; }
+.skeleton-barres {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.skeleton-barres__row { height: 24px; }
 
 /* === Countdown topbar mobile === */
 .countdown-topbar {

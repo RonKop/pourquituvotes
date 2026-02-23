@@ -57,6 +57,52 @@
     if (overlay) overlay.hidden = !visible;
   }
 
+  function afficherSkeletons() {
+    var cibles = [
+      { id: "statistiques", type: "radar" },
+      { id: "treemap-section", type: "treemap" },
+      { id: "repartition", type: "barres" },
+      { id: "comparaison", type: "barres" }
+    ];
+    cibles.forEach(function(c) {
+      var section = document.getElementById(c.id);
+      if (!section) return;
+      // Ne pas doubler les skeletons
+      if (section.querySelector(".skeleton-placeholder")) return;
+      var placeholder = document.createElement("div");
+      placeholder.className = "skeleton-placeholder";
+      placeholder.style.padding = "1.5rem";
+      if (c.type === "radar") {
+        placeholder.innerHTML = '<div class="skeleton skeleton-radar"></div>';
+      } else if (c.type === "treemap") {
+        placeholder.innerHTML =
+          '<div class="skeleton-treemap">' +
+          '<div class="skeleton skeleton-treemap__block"></div>' +
+          '<div class="skeleton skeleton-treemap__block"></div>' +
+          '<div class="skeleton skeleton-treemap__block"></div>' +
+          '<div class="skeleton skeleton-treemap__block"></div>' +
+          '</div>';
+      } else {
+        placeholder.innerHTML =
+          '<div class="skeleton-barres">' +
+          '<div class="skeleton skeleton-barres__row"></div>' +
+          '<div class="skeleton skeleton-barres__row"></div>' +
+          '<div class="skeleton skeleton-barres__row"></div>' +
+          '<div class="skeleton skeleton-barres__row"></div>' +
+          '</div>';
+      }
+      section.hidden = false;
+      section.insertBefore(placeholder, section.firstChild);
+    });
+  }
+
+  function retirerSkeletons() {
+    var placeholders = document.querySelectorAll(".skeleton-placeholder");
+    for (var i = 0; i < placeholders.length; i++) {
+      placeholders[i].parentNode.removeChild(placeholders[i]);
+    }
+  }
+
   // === Éléments DOM ===
   var villeSearchInput = document.getElementById("ville-search");
   var villeSuggestionsContainer = document.getElementById("ville-suggestions");
@@ -404,9 +450,11 @@
   // === Chargement d'une élection ===
   function chargerElection(fichier) {
     afficherChargement(true);
+    afficherSkeletons();
     chargerDonneesElection(fichier).then(function(data) {
       donneesElection = data;
       if (!donneesElection) {
+        retirerSkeletons();
         afficherChargement(false);
         return;
       }
@@ -440,6 +488,7 @@
       mettreAJourMetadonnees();
       mettreAJourFilAriane(donneesElection.ville);
       updateComparateurSEO();
+      retirerSkeletons();
       afficherElection();
       mettreAJourURL();
       afficherChargement(false);
@@ -464,6 +513,7 @@
       }
     }).catch(function(err) {
       console.error('Erreur chargement:', err);
+      retirerSkeletons();
       afficherChargement(false);
     });
   }
@@ -1027,6 +1077,50 @@
   if (mobileFilterAppliquer) {
     mobileFilterAppliquer.addEventListener("click", appliquerMobileFiltre);
   }
+
+  // Swipe-to-dismiss sur la bottom sheet mobile
+  (function() {
+    if (!mobileFilterSheet) return;
+    var startY = 0;
+    var currentDelta = 0;
+    var isSwiping = false;
+    var sheetHeader = mobileFilterSheet.querySelector(".mobile-filtre-sheet__header");
+    if (!sheetHeader) return;
+
+    sheetHeader.addEventListener("touchstart", function(e) {
+      var liste = mobileFilterSheet.querySelector(".mobile-filtre-sheet__liste");
+      if (liste && liste.scrollTop > 0) return;
+      startY = e.touches[0].clientY;
+      currentDelta = 0;
+      isSwiping = true;
+      mobileFilterSheet.style.transition = "none";
+    }, { passive: true });
+
+    sheetHeader.addEventListener("touchmove", function(e) {
+      if (!isSwiping) return;
+      currentDelta = e.touches[0].clientY - startY;
+      if (currentDelta < 0) currentDelta = 0;
+      if (currentDelta > 0) {
+        mobileFilterSheet.style.transform = "translateY(" + currentDelta + "px)";
+      }
+    }, { passive: true });
+
+    sheetHeader.addEventListener("touchend", function() {
+      if (!isSwiping) return;
+      isSwiping = false;
+      mobileFilterSheet.style.transition = "transform 0.3s ease";
+      if (currentDelta > 100) {
+        mobileFilterSheet.style.transform = "translateY(100%)";
+        setTimeout(function() {
+          fermerMobileFiltre();
+          mobileFilterSheet.style.transform = "";
+        }, 300);
+      } else {
+        mobileFilterSheet.style.transform = "";
+      }
+      currentDelta = 0;
+    }, { passive: true });
+  })();
 
   function toggleCandidatSelection(candidatId) {
     var index = candidatsSelectionnes.indexOf(candidatId);
@@ -1710,9 +1804,11 @@
       function getRadarOptions() {
         var scaleMax = radarModeNormalise ? 100 : getMaxBrut();
         var step = radarModeNormalise ? 25 : (scaleMax <= 6 ? 1 : 2);
+        var isMobile = window.innerWidth <= 768;
         return {
           responsive: true,
           maintainAspectRatio: true,
+          animation: { duration: isMobile ? 0 : 400 },
           plugins: {
             legend: { display: false },
             tooltip: {
@@ -1721,6 +1817,8 @@
               bodyColor: couleurTexteRadar,
               borderColor: couleurGrilleRadar,
               borderWidth: 1,
+              intersect: isMobile ? false : true,
+              mode: isMobile ? "nearest" : "point",
               filter: function(item) { return item.dataset.label !== "Moyenne"; },
               callbacks: {
                 label: function(ctx) {
@@ -1750,7 +1848,7 @@
               },
               grid: { color: couleurGrilleRadar, circular: true },
               angleLines: { color: couleurGrilleRadar },
-              pointLabels: { color: couleurTexteRadar, padding: 15, font: { family: "'DM Sans', sans-serif", size: 11, weight: 600 } }
+              pointLabels: { color: couleurTexteRadar, padding: isMobile ? 8 : 15, font: { family: "'DM Sans', sans-serif", size: isMobile ? 9 : 11, weight: 600 } }
             }
           }
         };
@@ -2960,7 +3058,7 @@
       comparaisonContainer.appendChild(titreH2);
     }
 
-    // Guide de lecture (affiché une seule fois, masquable)
+    // Guide de lecture (affiché une seule fois, masquable, plié sur mobile)
     var guideDejaVu = localStorage.getItem("guide-lecture-vu");
     if (!guideDejaVu) {
       var guide = document.createElement("div");
@@ -2969,7 +3067,7 @@
         '<span class="guide-lecture__icone"><i class="ph ph-book-open-text"></i></span>' +
         '<div class="guide-lecture__texte">' +
         '<div class="guide-lecture__titre-bloc">Comment lire cette section ?</div>' +
-        '<p>Chaque th\u00E8me regroupe les propositions de tous les candidats c\u00F4te \u00E0 c\u00F4te. ' +
+        '<p class="guide-lecture__corps">Chaque th\u00E8me regroupe les propositions de tous les candidats c\u00F4te \u00E0 c\u00F4te. ' +
         'Utilisez les <b>points de navigation</b> sur la droite (sur grand \u00E9cran) pour naviguer directement vers un th\u00E8me. ' +
         'Les cases grises indiquent qu\u2019un candidat ne s\u2019est pas encore prononc\u00E9 sur le sujet.</p>' +
         '</div>' +
@@ -2978,6 +3076,9 @@
       guide.querySelector(".guide-lecture__fermer").addEventListener("click", function () {
         guide.remove();
         localStorage.setItem("guide-lecture-vu", "1");
+      });
+      guide.querySelector(".guide-lecture__titre-bloc").addEventListener("click", function () {
+        guide.classList.toggle("guide-lecture--open");
       });
       comparaisonContainer.appendChild(guide);
     }

@@ -591,8 +591,9 @@ li {
     gap: 0.5rem;
     width: 100%;
   }
-  .hero--comparateur .hero__stat-card { padding: 0.5rem 1rem; min-width: 85px; flex: 1; }
-  .hero--comparateur .hero__stat-valeur { font-size: 1.2rem; }
+  .hero--comparateur .hero__stat-card { padding: 0.6rem 1rem; min-width: 95px; flex: 1; }
+  .hero--comparateur .hero__stat-valeur { font-size: 1.3rem; }
+  .hero--comparateur .hero__stat-label { font-size: 0.78rem; }
   .hero__search { display: none; }
   .search-float__btn { padding: 10px 16px; font-size: 0.82rem; }
   .hero__toolbar { justify-content: flex-start; }
@@ -1950,36 +1951,42 @@ li {
   color: var(--couleur-accent);
 }
 
-/* --- Methodo nom-bouton : toggle candidat dans le radar --- */
+/* --- Methodo nom-bouton : toggle candidat dans le radar (même design que chips ADN) --- */
 .methodo-item__nom-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
+  padding: 0.45rem 0.7rem;
   border: none;
-  background: none;
+  border-radius: 10px;
   cursor: pointer;
-  font-family: inherit;
-  font-size: 0.9rem;
-  font-weight: 600;
-  padding: 0.25rem 0.5rem;
-  border-radius: 6px;
-  transition: background 0.15s, opacity 0.15s;
-  opacity: 0.65;
+  font-size: 0.82rem;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--couleur-texte);
+  background: #f8f8f8;
+  transition: background 0.2s, box-shadow 0.2s;
+  user-select: none;
+}
+[data-theme="dark"] .methodo-item__nom-btn { background: var(--couleur-hover); }
+
+.methodo-item__nom-btn:hover {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  filter: brightness(0.97);
 }
 
 .methodo-item__nom-btn--active {
-  opacity: 1;
-  background: color-mix(in srgb, currentColor 8%, transparent);
+  background: var(--chip-bg, rgba(44,62,107,0.08));
+  font-weight: 700;
+  box-shadow: 0 0 0 2px var(--chip-couleur, var(--couleur-accent));
 }
-
-.methodo-item__nom-btn:hover {
-  opacity: 1;
-  background: color-mix(in srgb, currentColor 12%, transparent);
-}
+[data-theme="dark"] .methodo-item__nom-btn--active { background: var(--chip-bg, rgba(100,120,180,0.15)); }
 
 .methodo-item__pastille {
-  font-size: 0.85rem;
-  line-height: 1;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
   flex-shrink: 0;
 }
 
@@ -2007,9 +2014,17 @@ a.methodo-item__statut:hover i {
 /* --- Vue 2 : radar combiné + sélection côte à côte --- */
 .radar-comparer__body {
   display: flex;
+  flex-wrap: wrap;
   gap: 3.5rem;
   align-items: center;
   justify-content: center;
+}
+
+.radar-comparer__body > .radar-mode-toggle-wrap {
+  width: 100%;
+  flex-basis: 100%;
+  justify-content: center;
+  margin-bottom: -2rem;
 }
 
 .radar-comparer__chart {
@@ -2500,6 +2515,30 @@ a.methodo-item__statut:hover i {
   .radar-comparer__chart { max-width: 100%; flex: none; width: 100%; }
   .radar-comparer__chart canvas { width: 100% !important; height: auto !important; }
   .filtres-candidats__btn--bottom { margin-top: 0.5rem; }
+
+  /* Toggle brut/couverture — touch targets 48px */
+  .radar-mode-toggle { width: 100%; border-radius: 10px; }
+  .radar-mode-toggle__btn {
+    flex: 1;
+    padding: 0.65rem 0.75rem;
+    font-size: 0.82rem;
+    min-height: 44px;
+  }
+
+  /* Section équité — meilleur espacement mobile */
+  .radar-methodologie { padding: 0.85rem 1rem; }
+  .radar-methodologie .methodo-item {
+    padding: 0.5rem 0;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+  }
+  .methodo-item__nom-btn {
+    min-height: 44px;
+    font-size: 0.88rem;
+    padding: 0.35rem 0.6rem;
+  }
+  .methodo-item__pastille { font-size: 0.95rem; }
+  .methodo-item__statut { font-size: 0.8rem; }
 }
 
 /* Ancien tooltip (désactivé) */
@@ -3861,13 +3900,14 @@ mark {
   background: none;
   border: none;
   color: var(--couleur-accent);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
-  padding: 0.15rem 0;
+  padding: 0.4rem 0.5rem;
+  min-height: 44px;
+  display: none;
   text-decoration: underline;
   text-underline-offset: 2px;
-  display: none;
 }
 
 .voir-plus-btn:hover {
@@ -3879,13 +3919,13 @@ mark {
   .tableau-matriciel .proposition__texte {
     max-height: none;
     overflow: visible;
-    font-size: 0.92rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.7;
     word-break: break-word;
     overflow-wrap: break-word;
   }
   .tableau-matriciel .proposition__source {
-    font-size: 0.78rem;
+    font-size: 0.85rem;
   }
   .tableau-matriciel .proposition__source a {
     word-break: break-all;
@@ -5500,13 +5540,13 @@ mark {
 }
 
 .mobile-filtre-sheet__close {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: none;
   background: var(--couleur-hover);
   color: var(--couleur-texte);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -5526,7 +5566,8 @@ mark {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 12px 15px;
+  padding: 14px 16px;
+  min-height: 48px;
   border-radius: 10px;
   border: none;
   background: #f8f8f8;
@@ -5573,7 +5614,7 @@ mark {
 
 .mobile-filtre-item__nom {
   font-weight: 600;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
 }
 
 .mobile-filtre-item__parti {

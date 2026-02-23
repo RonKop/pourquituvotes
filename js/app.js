@@ -1633,7 +1633,7 @@
     // === Radar chart — Radar de Puissance ===
     var radarComparer = document.getElementById("radar-vue-comparer");
     var radarCandidatsSelectionnes = [];
-    var radarModeNormalise = true; // true = couverture %, false = volume brut
+    var radarModeNormalise = false; // true = couverture %, false = volume brut
 
     if (donneesElection && radarComparer) {
       var categories = donneesElection.categories.slice().sort(function(a, b) {
@@ -1814,7 +1814,13 @@
         modeToggle.appendChild(btnBrut);
         modeToggleWrap.appendChild(modeToggle);
         modeToggleWrap.appendChild(infoBtn);
-        selDiv.appendChild(modeToggleWrap);
+        // Insérer le toggle dans le body (avant le chart) pour qu'il reste visible sur mobile
+        var radarBody = document.querySelector(".radar-comparer__body");
+        if (radarBody) {
+          radarBody.insertBefore(modeToggleWrap, radarBody.firstChild);
+        } else {
+          selDiv.appendChild(modeToggleWrap);
+        }
 
         var header = document.createElement("div");
         header.className = "filtres-candidats__header";
@@ -1972,17 +1978,28 @@
         var items = document.querySelectorAll(".methodo-item__nom-btn");
         items.forEach(function(btn) {
           var id = btn.closest(".methodo-item").dataset.candidatId;
-          btn.classList.toggle("methodo-item__nom-btn--active", radarCandidatsSelectionnes.indexOf(id) >= 0);
+          var selected = radarCandidatsSelectionnes.indexOf(id) >= 0;
+          btn.classList.toggle("methodo-item__nom-btn--active", selected);
+          if (selected) {
+            var couleur = btn.style.getPropertyValue("--chip-couleur");
+            if (couleur) {
+              var r = parseInt(couleur.slice(1, 3), 16) || 44;
+              var g = parseInt(couleur.slice(3, 5), 16) || 62;
+              var b = parseInt(couleur.slice(5, 7), 16) || 107;
+              btn.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
+            }
+          } else {
+            btn.style.removeProperty("--chip-bg");
+          }
         });
       }
 
       radarComparer.hidden = false;
       rendreVueComparer();
-    }
 
-    // Afficher l'encart méthodologique sous le radar
-    var methodoDiv = document.getElementById("radar-methodologie");
-    if (methodoDiv && donneesElection) {
+      // Afficher l'encart méthodologique sous le radar
+      var methodoDiv = document.getElementById("radar-methodologie");
+      if (methodoDiv) {
       var tousCandidats = donneesElection.candidats;
       var complets = tousCandidats.filter(function(c) { return c.programmeComplet; });
       var partiels = tousCandidats.filter(function(c) { return !c.programmeComplet; });
@@ -2019,12 +2036,18 @@
         item.className = "methodo-item";
         item.dataset.candidatId = c.id;
 
-        // Nom cliquable = toggle radar
+        // Nom cliquable = toggle radar (design identique aux chips ADN)
         var nomBtn = document.createElement("button");
         nomBtn.className = "methodo-item__nom-btn" + (estSelectionne ? " methodo-item__nom-btn--active" : "");
-        nomBtn.style.color = couleur;
+        nomBtn.style.setProperty("--chip-couleur", couleur);
+        if (estSelectionne) {
+          var r = parseInt(couleur.slice(1, 3), 16) || 44;
+          var g = parseInt(couleur.slice(3, 5), 16) || 62;
+          var b = parseInt(couleur.slice(5, 7), 16) || 107;
+          nomBtn.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
+        }
         nomBtn.innerHTML =
-          '<span class="methodo-item__pastille" style="color:' + couleur + '">●</span>' +
+          '<span class="methodo-item__pastille" style="background:' + couleur + '"></span>' +
           '<span class="methodo-item__nom-texte">' + echapper(c.nom) + '</span>';
 
         nomBtn.addEventListener("click", function() {
@@ -2033,10 +2056,15 @@
             if (radarCandidatsSelectionnes.length > 1) {
               radarCandidatsSelectionnes.splice(pos, 1);
               nomBtn.classList.remove("methodo-item__nom-btn--active");
+              nomBtn.style.removeProperty("--chip-bg");
             }
           } else {
             radarCandidatsSelectionnes.push(c.id);
             nomBtn.classList.add("methodo-item__nom-btn--active");
+            var r2 = parseInt(couleur.slice(1, 3), 16) || 44;
+            var g2 = parseInt(couleur.slice(3, 5), 16) || 62;
+            var b2 = parseInt(couleur.slice(5, 7), 16) || 107;
+            nomBtn.style.setProperty("--chip-bg", "rgba(" + r2 + "," + g2 + "," + b2 + ",0.08)");
           }
           mettreAJourRadarComparer();
           syncChipsFromMethodo();
@@ -2055,7 +2083,8 @@
         legendDiv.appendChild(item);
       });
 
-      methodoDiv.appendChild(legendDiv);
+        methodoDiv.appendChild(legendDiv);
+      }
     }
 
     // Afficher la section
@@ -2140,7 +2169,7 @@
         chip.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
       }
       chip.innerHTML =
-        '<span class="treemap__chip-pastille" style="color:' + couleur + '">25CF</span>' +
+        '<span class="treemap__chip-pastille" style="background:' + couleur + '"></span>' +
         echapper(candidat.nom);
       chip.addEventListener("click", function() {
         treemapCandidatPrincipal = candidat.id;
@@ -2282,7 +2311,7 @@
     var distribution = calculerDistribution(candidat.id);
 
     header.innerHTML =
-      '<span class="treemap-carte__pastille" style="color:' + couleur + '">25CF</span>' +
+      '<span class="treemap-carte__pastille" style="background:' + couleur + '"></span>' +
       '<div><div class="treemap-carte__nom">' + echapper(candidat.nom) + '</div>' +
       '<div class="treemap-carte__parti">' + echapper(candidat.liste || "") + '</div></div>' +
       '<span class="treemap-carte__total">' + distribution.total + ' prop.</span>';
@@ -2613,7 +2642,7 @@
     legende.className = "rep-barres__legende";
     candidats.forEach(function (c, idx) {
       var couleur = getCouleurParti(c, idx);
-      legende.innerHTML += '<span class="rep-barres__legende-item"><span class="rep-barres__legende-color" style="color:' + couleur + '">25CF</span>' + echapper(c.nom) + ' <span class="rep-barres__legende-parti">(' + echapper(c.liste) + ')</span></span>';
+      legende.innerHTML += '<span class="rep-barres__legende-item"><span class="rep-barres__legende-color" style="background:' + couleur + '"></span>' + echapper(c.nom) + ' <span class="rep-barres__legende-parti">(' + echapper(c.liste) + ')</span></span>';
     });
     container.appendChild(legende);
 

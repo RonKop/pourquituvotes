@@ -1978,12 +1978,8 @@ li {
 }
 
 .methodo-item__pastille {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  min-width: 14px;
-  min-height: 14px;
-  border-radius: 50%;
+  font-size: 0.85rem;
+  line-height: 1;
   flex-shrink: 0;
 }
 

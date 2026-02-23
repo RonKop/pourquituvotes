@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026022201';
+  var DATA_VERSION = '2026022301';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -2024,7 +2024,7 @@
         nomBtn.className = "methodo-item__nom-btn" + (estSelectionne ? " methodo-item__nom-btn--active" : "");
         nomBtn.style.color = couleur;
         nomBtn.innerHTML =
-          '<span class="methodo-item__pastille" style="background:' + couleur + '"></span>' +
+          '<span class="methodo-item__pastille" style="color:' + couleur + '">●</span>' +
           '<span class="methodo-item__nom-texte">' + echapper(c.nom) + '</span>';
 
         nomBtn.addEventListener("click", function() {
@@ -2140,7 +2140,7 @@
         chip.style.setProperty("--chip-bg", "rgba(" + r + "," + g + "," + b + ",0.08)");
       }
       chip.innerHTML =
-        '<span class="treemap__chip-pastille" style="background:' + couleur + '"></span>' +
+        '<span class="treemap__chip-pastille" style="color:' + couleur + '">25CF</span>' +
         echapper(candidat.nom);
       chip.addEventListener("click", function() {
         treemapCandidatPrincipal = candidat.id;
@@ -2282,7 +2282,7 @@
     var distribution = calculerDistribution(candidat.id);
 
     header.innerHTML =
-      '<span class="treemap-carte__pastille" style="background:' + couleur + '"></span>' +
+      '<span class="treemap-carte__pastille" style="color:' + couleur + '">25CF</span>' +
       '<div><div class="treemap-carte__nom">' + echapper(candidat.nom) + '</div>' +
       '<div class="treemap-carte__parti">' + echapper(candidat.liste || "") + '</div></div>' +
       '<span class="treemap-carte__total">' + distribution.total + ' prop.</span>';
@@ -2613,7 +2613,7 @@
     legende.className = "rep-barres__legende";
     candidats.forEach(function (c, idx) {
       var couleur = getCouleurParti(c, idx);
-      legende.innerHTML += '<span class="rep-barres__legende-item"><span class="rep-barres__legende-color" style="background:' + couleur + '"></span>' + echapper(c.nom) + ' <span class="rep-barres__legende-parti">(' + echapper(c.liste) + ')</span></span>';
+      legende.innerHTML += '<span class="rep-barres__legende-item"><span class="rep-barres__legende-color" style="color:' + couleur + '">25CF</span>' + echapper(c.nom) + ' <span class="rep-barres__legende-parti">(' + echapper(c.liste) + ')</span></span>';
     });
     container.appendChild(legende);
 

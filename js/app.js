@@ -1876,6 +1876,13 @@
         selDiv.innerHTML = "";
         radarCandidatsSelectionnes = [];
 
+        // Nettoyer un éventuel toggle précédent
+        var radarBody = document.querySelector(".radar-comparer__body");
+        if (radarBody) {
+          var oldToggle = radarBody.querySelector(".radar-mode-toggle-wrap");
+          if (oldToggle) oldToggle.parentNode.removeChild(oldToggle);
+        }
+
         // Toggle mode brut / couverture
         var modeToggleWrap = document.createElement("div");
         modeToggleWrap.className = "radar-mode-toggle-wrap";

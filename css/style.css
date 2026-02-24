@@ -2033,13 +2033,14 @@ a.methodo-item__statut:hover i {
 }
 
 .radar-comparer__selection {
-  flex: 0 0 200px;
+  flex: 0 0 380px;
   order: 2;
 }
 
-/* Panneau candidats vertical */
+/* Panneau candidats en 2 colonnes */
 .radar-comparer__selection .filtres-candidats__liste {
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
 }
 .radar-comparer__selection .filtres-candidats__header {
@@ -2523,7 +2524,7 @@ a.methodo-item__statut:hover i {
   .radar-mode-toggle__tooltip { left: 0; transform: none; width: 240px; }
   .radar-comparer__body { flex-direction: column; gap: 1rem; }
   .radar-comparer__selection { flex: none; width: 100%; order: 0; }
-  .radar-comparer__selection .filtres-candidats__liste { flex-direction: row; flex-wrap: wrap; }
+  .radar-comparer__selection .filtres-candidats__liste { display: flex; flex-direction: row; flex-wrap: wrap; }
   .radar-comparer__selection .filtres-candidats__chip { width: auto; }
   .radar-comparer__chart { max-width: 100%; flex: none; width: 100%; }
   .radar-comparer__chart canvas { width: 100% !important; height: auto !important; }

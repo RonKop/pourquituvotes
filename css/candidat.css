@@ -334,6 +334,125 @@
   margin-left: auto;
 }
 
+/* --- Barres horizontales par thème --- */
+.candidat-barres {
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  padding: 0 1.5rem;
+}
+.candidat-barres__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--couleur-texte, #1e293b);
+}
+.candidat-barres__chart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.candidat-barre {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.candidat-barre__label {
+  flex: 0 0 160px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--couleur-texte, #1e293b);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.candidat-barre__label i {
+  font-size: 1rem;
+}
+.candidat-barre__track {
+  flex: 1;
+  height: 16px;
+  background: var(--couleur-hover, #f1f5f9);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.candidat-barre__fill {
+  height: 100%;
+  border-radius: 8px;
+  transition: width 0.4s ease;
+  min-width: 4px;
+}
+.candidat-barre__nb {
+  flex: 0 0 28px;
+  text-align: right;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--couleur-texte, #1e293b);
+}
+
+/* --- Mesures liste dans les props candidat --- */
+.candidat-prop__mesures {
+  list-style: disc;
+  padding-left: 1.2rem;
+  margin: 0.25rem 0 0.5rem;
+}
+.candidat-prop__mesures li {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+  font-size: 0.88rem;
+  color: var(--couleur-texte, #334155);
+}
+
+/* --- Filtres thématiques candidat --- */
+.candidat-filtres-themes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+  background: var(--couleur-surface, #f8fafc);
+  border-radius: 12px;
+  border: 1px solid var(--couleur-bordure, #e2e8f0);
+}
+.candidat-filtre-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 20px;
+  border: 1px solid var(--couleur-bordure, #e2e8f0);
+  background: var(--couleur-fond, #fff);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  color: var(--couleur-texte, #1e293b);
+  font-family: 'Outfit', sans-serif;
+}
+.candidat-filtre-chip:hover {
+  border-color: var(--chip-color, #002395);
+  background: color-mix(in srgb, var(--chip-color, #002395) 8%, transparent);
+}
+.candidat-filtre-chip--actif {
+  background: var(--chip-color, #002395);
+  color: #fff;
+  border-color: var(--chip-color, #002395);
+}
+.candidat-filtre-chip--actif:hover {
+  background: var(--chip-color, #002395);
+}
+.candidat-filtre-chip__count {
+  font-size: 0.7rem;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.candidat-filtre-chip i {
+  font-size: 0.9rem;
+}
+
 /* --- Responsive --- */
 @media (max-width: 768px) {
   .candidat-hero { padding: 1.5rem 1rem 2rem; }
@@ -344,4 +463,13 @@
   .candidat-content { padding: 1.5rem 1rem 2rem; }
   .candidat-links { flex-direction: column; }
   .candidat-links__btn { justify-content: center; }
+  .candidat-barre__label { flex: 0 0 140px; font-size: 0.75rem; }
+  .candidat-barres { padding: 0 1rem; }
+  .candidat-filtres-themes {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.6rem;
+    gap: 0.4rem;
+  }
 }

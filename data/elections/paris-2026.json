@@ -64,34 +64,62 @@
           "nom": "Police municipale",
           "propositions": {
             "gregoire": {
-              "texte": "Effectif complet de la police municipale, présence 7j/7, équipes de nuit. Vidéoprotection intelligente dans les zones sensibles",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Effectif complet de la police municipale, présence 7j/7, équipes de nuit.",
+                "Vidéoprotection intelligente dans les zones sensibles."
+              ]
             },
             "dati": {
-              "texte": "5 000 agents de police municipale armés, formés et connectés, déployés jour et nuit dans tous les quartiers. Élargissement des compétences : contrôle d'identité, accès aux fichiers nationaux, traitement de la petite délinquance. Convention avec Île-de-France Mobilités pour intervention dans les transports en commun.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "5 000 agents de police municipale armés, formés et connectés, déployés jour et nuit dans tous les quartiers.",
+                "Élargissement des compétences : contrôle d'identité, accès aux fichiers nationaux, traitement de la petite délinquance.",
+                "Convention avec Île-de-France Mobilités pour intervention dans les transports en commun."
+              ]
             },
             "chikirou": {
-              "texte": "Création d'antennes de proximité réunissant police municipale, médiateurs, éducateurs et assistants sociaux dans des maisons de quartier. Refus de l'armement létal de la police municipale",
               "source": "Presse (CNews, France 24)",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Création d'antennes de proximité réunissant police municipale, médiateurs, éducateurs et assistants sociaux dans des maisons de quartier.",
+                "Refus de l'armement létal de la police municipale."
+              ]
             },
             "bournazel": {
-              "texte": "6 000 policiers municipaux armés, opérationnels 24h/24 et 7j/7 via un numéro dédié 7517. Académie municipale de police. Brigade canine de 50 chiens et 60 agents (~5 M€/an). Accès logement prioritaire pour les policiers. Compétences élargies : constatation de délits, contrôles d'alcoolémie, lecture automatique des plaques",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/securite"
+              "sourceUrl": "https://bournazel.paris/engagements/securite",
+              "mesures": [
+                "6 000 policiers municipaux armés, opérationnels 24h/24 et 7j/7 via un numéro dédié 7517.",
+                "Académie municipale de police.",
+                "Brigade canine de 50 chiens et 60 agents (~5 M€/an)",
+                "Accès logement prioritaire pour les policiers.",
+                "Compétences élargies : constatation de délits, contrôles d'alcoolémie, lecture automatique des plaques."
+              ]
             },
             "knafo": {
-              "texte": "8 000 policiers municipaux armés (contre 3 000). Interpellations systématiques des délinquants. Vidéosurveillance IA généralisée. Création d'une brigade montée à cheval (40 chevaux) et d'une brigade canine (30 chiens) pour parcs et zones sensibles",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "8 000 policiers municipaux armés (contre 3 000)",
+                "Interpellations systématiques des délinquants.",
+                "Vidéosurveillance IA généralisée.",
+                "Création d'une brigade montée à cheval (40 chevaux) et d'une brigade canine (30 chiens) pour parcs et zones sensibles."
+              ]
             },
             "mariani": {
-              "texte": "Police municipale armée de 8 350 agents (ratio de 4 pour 1 000 habitants, modèle New York). 15 000 caméras de vidéoprotection (144 cam/km², moyenne européenne). Patrouilles 24h/24 dans les zones sensibles. Renforcement des prérogatives avec recours encadré aux drones et IA. Délégation de pouvoirs de sécurité aux mairies d'arrondissement (« police d'arrondissement »). Renforcement de l'éclairage public LED après audit complet du territoire. Mobilier urbain anti-vandalisme et revêtements anti-tag",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Police municipale armée de 8 350 agents (ratio de 4 pour 1 000 habitants, modèle New York). 15 000 caméras de vidéoprotection (144 cam/km², moyenne européenne)",
+                "Patrouilles 24h/24 dans les zones sensibles.",
+                "Renforcement des prérogatives avec recours encadré aux drones et IA.",
+                "Délégation de pouvoirs de sécurité aux mairies d'arrondissement (« police d'arrondissement »)",
+                "Renforcement de l'éclairage public LED après audit complet du territoire.",
+                "Mobilier urbain anti-vandalisme et revêtements anti-tag."
+              ]
             }
           }
         },
@@ -100,30 +128,51 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "gregoire": {
-              "texte": "Plan d’éclairage public sécuritaire",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Plan d’éclairage public sécuritaire."
+              ]
             },
             "dati": {
-              "texte": "Doublement du réseau de vidéoprotection à 8 000 caméras, reliées à un Centre de Supervision Urbain unique avec antenne dans chaque arrondissement. Vidéoprotection prioritaire aux abords des écoles, collèges, terrains de sport et piscines. Bouclier de Sécurité : aide au financement de vidéoprotection et alarmes pour commerces et cabinets médicaux.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Doublement du réseau de vidéoprotection à 8 000 caméras, reliées à un Centre de Supervision Urbain unique avec antenne dans chaque arrondissement.",
+                "Vidéoprotection prioritaire aux abords des écoles, collèges, terrains de sport et piscines.",
+                "Bouclier de Sécurité : aide au financement de vidéoprotection et alarmes pour commerces et cabinets médicaux."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "Investissement de ~3 M€ dans la vidéosurveillance algorithmique (détection automatique d'infractions et de risques). Caméras aux entrées de chaque école et collège. Boutons d'alerte d'urgence dans les écoles, commerces et lieux de culte",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/securite"
+              "sourceUrl": "https://bournazel.paris/engagements/securite",
+              "mesures": [
+                "Investissement de ~3 M€ dans la vidéosurveillance algorithmique (détection automatique d'infractions et de risques)",
+                "Caméras aux entrées de chaque école et collège.",
+                "Boutons d'alerte d'urgence dans les écoles, commerces et lieux de culte."
+              ]
             },
             "knafo": {
-              "texte": "Réverbères intelligents anti-agression pilotés par IA (détection de cris, bris de verre, coups de feu). Éclairage LED maintenu toute la nuit. Droit des commerces d'éclairer leurs vitrines",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Réverbères intelligents anti-agression pilotés par IA (détection de cris, bris de verre, coups de feu)",
+                "Éclairage LED maintenu toute la nuit.",
+                "Droit des commerces d'éclairer leurs vitrines."
+              ]
             },
             "mariani": {
-              "texte": "Tripler le parc pour atteindre 15 000 caméras (144 cam/km²). Vidéoprotection dans le logement social (sur vote des locataires). Caméras mobiles déployables rapidement pour cibler les zones de deal. Dispositif « Voisins vigilants » sur tout Paris. Boutons d'alerte pour crèches, écoles et commerçants. Vidéoprotection pour sécuriser abords des écoles, jardins et parcs",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Tripler le parc pour atteindre 15 000 caméras (144 cam/km²)",
+                "Vidéoprotection dans le logement social (sur vote des locataires)",
+                "Caméras mobiles déployables rapidement pour cibler les zones de deal.",
+                "Dispositif « Voisins vigilants » sur tout Paris.",
+                "Boutons d'alerte pour crèches, écoles et commerçants.",
+                "Vidéoprotection pour sécuriser abords des écoles, jardins et parcs."
+              ]
             }
           }
         },
@@ -132,34 +181,58 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "gregoire": {
-              "texte": "Prévention spécialisée renforcée pour les jeunes. Médiation urbaine dans tous les quartiers",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Prévention spécialisée renforcée pour les jeunes.",
+                "Médiation urbaine dans tous les quartiers."
+              ]
             },
             "dati": {
-              "texte": "Sécurisation des immeubles sociaux (équipes de sécurité chez les bailleurs, caméras dans les parties communes). Brigades de Sécurité dans les Collèges composées de médiateurs et éducateurs contre le harcèlement et les rixes. Sécurisation des passages urbains (tunnels, ponts, portes de Paris). Lutte contre le trafic et la consommation de crack : centres de soins hors zones denses, transformation des CAARUD/CSAPA en pôles de soins intégrés.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Sécurisation des immeubles sociaux (équipes de sécurité chez les bailleurs, caméras dans les parties communes)",
+                "Brigades de Sécurité dans les Collèges composées de médiateurs et éducateurs contre le harcèlement et les rixes.",
+                "Sécurisation des passages urbains (tunnels, ponts, portes de Paris)",
+                "Lutte contre le trafic et la consommation de crack : centres de soins hors zones denses, transformation des CAARUD/CSAPA en pôles de soins intégrés."
+              ]
             },
             "chikirou": {
-              "texte": "Approche de la sécurité fondée sur la prévention et la médiation. Rééquilibrage des moyens entre l'est et l'ouest de Paris",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Approche de la sécurité fondée sur la prévention et la médiation.",
+                "Rééquilibrage des moyens entre l'est et l'ouest de Paris."
+              ]
             },
             "bournazel": {
-              "texte": "Un agent de sécurité municipale par station de métro le soir. 5 000 agents de sécurité dans le métro (2 000 supplémentaires). Service d'arrêt à la demande pour les bus de nuit. Patrouilles conjointes avec la police nationale dans certains parcs",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/securite"
+              "sourceUrl": "https://bournazel.paris/engagements/securite",
+              "mesures": [
+                "Un agent de sécurité municipale par station de métro le soir. 5 000 agents de sécurité dans le métro (2 000 supplémentaires)",
+                "Service d'arrêt à la demande pour les bus de nuit.",
+                "Patrouilles conjointes avec la police nationale dans certains parcs."
+              ]
             },
             "knafo": {
-              "texte": "Reconquête des quartiers sensibles (Stalingrad, Porte de la Chapelle, Goutte d'Or) : déploiement massif de forces de l'ordre 24h/24, démantèlement des campements illégaux",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Reconquête des quartiers sensibles (Stalingrad, Porte de la Chapelle, Goutte d'Or) : déploiement massif de forces de l'ordre 24h/24, démantèlement des campements illégaux."
+              ]
             },
             "mariani": {
-              "texte": "7 brigades spécialisées : anti-squat (intervention sous 48h), transports, anti-campements, anti-drogue, circulation, brigade d'action rapide (BAR) et police d'arrondissement. Zones de Sécurité Prioritaires (ZSP) avec antennes de police et permanences mobiles. Tolérance zéro face au trafic de drogue et aux points de deals. Supprimer les salles de shoot et ouvrir un centre de soin unique. Principe « casseur-payeur ». Suppression des allocations municipales pour familles d'un membre condamné",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "7 brigades spécialisées : anti-squat (intervention sous 48h), transports, anti-campements, anti-drogue, circulation, brigade d'action rapide (BAR) et police d'arrondissement.",
+                "Zones de Sécurité Prioritaires (ZSP) avec antennes de police et permanences mobiles.",
+                "Tolérance zéro face au trafic de drogue et aux points de deals.",
+                "Supprimer les salles de shoot et ouvrir un centre de soin unique.",
+                "Principe « casseur-payeur ».",
+                "Suppression des allocations municipales pour familles d'un membre condamné."
+              ]
             }
           }
         },
@@ -168,22 +241,33 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "gregoire": {
-              "texte": "Observatoire des violences faites aux femmes, marches exploratoires. Plan anti-harcèlement de rue : formation, signalement",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Observatoire des violences faites aux femmes, marches exploratoires.",
+                "Plan anti-harcèlement de rue : formation, signalement."
+              ]
             },
             "dati": {
-              "texte": "Dispositif de sécurisation du bois de Vincennes et du bois de Boulogne : deux antennes de police municipale dédiées avec brigades équestres, caméras et éclairage intelligent. Plan de sécurisation du Champ de Mars : clôture du site, fermeture nocturne, antenne dédiée contre le commerce illégal, les vols à la tire et les agressions.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Dispositif de sécurisation du bois de Vincennes et du bois de Boulogne : deux antennes de police municipale dédiées avec brigades équestres, caméras et éclairage intelligent.",
+                "Plan de sécurisation du Champ de Mars : clôture du site, fermeture nocturne, antenne dédiée contre le commerce illégal, les vols à la tire et les agressions."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
             "knafo": null,
             "mariani": {
-              "texte": "Résidences sécurisées pour victimes de violences conjugales (au moins une par arrondissement) avec aide juridique municipale. Patrouilles renforcées dans les transports contre les violences sexuelles et le harcèlement. Présence de nuit de la police municipale à proximité des rues festives. Présence permanente dans les bois de Boulogne et Vincennes",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Résidences sécurisées pour victimes de violences conjugales (au moins une par arrondissement) avec aide juridique municipale.",
+                "Patrouilles renforcées dans les transports contre les violences sexuelles et le harcèlement.",
+                "Présence de nuit de la police municipale à proximité des rues festives.",
+                "Présence permanente dans les bois de Boulogne et Vincennes."
+              ]
             }
           }
         }
@@ -198,30 +282,52 @@
           "nom": "Transports en commun",
           "propositions": {
             "gregoire": {
-              "texte": "15 lignes de bus express sur les grandes avenues parisiennes. Métro ouvert 24h/24 les vendredis et samedis. Navettes fluviales sur la Seine pour le transport quotidien et touristique",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "15 lignes de bus express sur les grandes avenues parisiennes.",
+                "Métro ouvert 24h/24 les vendredis et samedis.",
+                "Navettes fluviales sur la Seine pour le transport quotidien et touristique."
+              ]
             },
             "dati": {
-              "texte": "Schéma de circulation global à l'échelle de Paris intégrant les enjeux métropolitains. Rétablissement des 70 km/h sur le périphérique après pose d'enrobés phoniques. Investissement pour la mise en accessibilité du métro (Ligne 6 en priorité). Parkings relais gardés aux portes de Paris, connectés aux métros et bus, avec tarif unique abordable.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Schéma de circulation global à l'échelle de Paris intégrant les enjeux métropolitains.",
+                "Rétablissement des 70 km/h sur le périphérique après pose d'enrobés phoniques.",
+                "Investissement pour la mise en accessibilité du métro (Ligne 6 en priorité)",
+                "Parkings relais gardés aux portes de Paris, connectés aux métros et bus, avec tarif unique abordable."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "Ouverture des lignes 1, 4 et 14 du métro 24h/24 dès fin 2026 (d'abord les week-ends). Accélération de l'automatisation des lignes 7, 8 et 9. Accessibilité de toutes les lignes de métro. Trois lignes de bus express (Nord-Sud, Est-Ouest le long de la Seine, gares). Remplacement de tous les bus diesel par des électriques d'ici 2026. Paiement direct par carte bancaire dans le métro",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/mobilite"
+              "sourceUrl": "https://bournazel.paris/engagements/mobilite",
+              "mesures": [
+                "Ouverture des lignes 1, 4 et 14 du métro 24h/24 dès fin 2026 (d'abord les week-ends)",
+                "Accélération de l'automatisation des lignes 7, 8 et 9.",
+                "Accessibilité de toutes les lignes de métro.",
+                "Trois lignes de bus express (Nord-Sud, Est-Ouest le long de la Seine, gares)",
+                "Remplacement de tous les bus diesel par des électriques d'ici 2026.",
+                "Paiement direct par carte bancaire dans le métro."
+              ]
             },
             "knafo": {
-              "texte": "Développement de la livraison de marchandises par voie fluviale (appel à manifestation d’intérêt pour navettes fluviales, dernier km en vélo ou camion)",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Développement de la livraison de marchandises par voie fluviale (appel à manifestation d’intérêt pour navettes fluviales, dernier km en vélo ou camion)"
+              ]
             },
             "mariani": {
-              "texte": "Ouverture des lignes de métro automatiques la nuit, les vendredis et samedis soir. Développer les navettes de proximité inter-arrondissements. Audit des dépenses et retard du Grand Paris Express et rationalisation des travaux",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Ouverture des lignes de métro automatiques la nuit, les vendredis et samedis soir.",
+                "Développer les navettes de proximité inter-arrondissements.",
+                "Audit des dépenses et retard du Grand Paris Express et rationalisation des travaux."
+              ]
             }
           }
         },
@@ -230,30 +336,49 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "gregoire": {
-              "texte": "Coopérative vélo municipale : les adhérents disposent d’un vélo en longue durée avec assurance et possibilité de changement selon les besoins. Doublement des pistes cyclables, 100 000 places de stationnement vélo, aide à l’acquisition et à la réparation. Coopérative vélo municipale",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Coopérative vélo municipale : les adhérents disposent d’un vélo en longue durée avec assurance et possibilité de changement selon les besoins.",
+                "Doublement des pistes cyclables, 100 000 places de stationnement vélo, aide à l’acquisition et à la réparation.",
+                "Coopérative vélo municipale."
+              ]
             },
             "dati": {
-              "texte": "Préservation et renforcement des pistes cyclables sur les axes sous-dotés (axe nord-sud), parcours longs et sécurisés. Vélib entièrement régional en partenariat avec la Région, en site propre. Essor des véhicules électriques : aides à l'achat, places réservées, plan de bornes de recharge dans chaque quartier (couverture intégrale d'ici fin de mandat).",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Préservation et renforcement des pistes cyclables sur les axes sous-dotés (axe nord-sud), parcours longs et sécurisés.",
+                "Vélib entièrement régional en partenariat avec la Région, en site propre.",
+                "Essor des véhicules électriques : aides à l'achat, places réservées, plan de bornes de recharge dans chaque quartier (couverture intégrale d'ici fin de mandat)."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "1 680 km de pistes cyclables protégées et séparées d'ici 2032. Sécurisation des 200 intersections les plus accidentogènes. Modernisation de 60 000 arceaux vélo. Vélib' 2.0 : démontage des anciennes bornes, nouveaux arceaux modernes, ajout de vélos cargo et de sièges enfants. Interdiction des engins surdimensionnés (fat bikes, trottinettes puissantes) sur les pistes cyclables",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/mobilite"
+              "sourceUrl": "https://bournazel.paris/engagements/mobilite",
+              "mesures": [
+                "1 680 km de pistes cyclables protégées et séparées d'ici 2032.",
+                "Sécurisation des 200 intersections les plus accidentogènes.",
+                "Modernisation de 60 000 arceaux vélo.",
+                "Vélib' 2.0 : démontage des anciennes bornes, nouveaux arceaux modernes, ajout de vélos cargo et de sièges enfants.",
+                "Interdiction des engins surdimensionnés (fat bikes, trottinettes puissantes) sur les pistes cyclables."
+              ]
             },
             "knafo": {
-              "texte": "Nouveau contrat Vélib intégrant la publicité (économie de 22 M€/an, clause de reprise du personnel). Piste cyclable bidirectionnelle maintenue sur la rue de Rivoli",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Nouveau contrat Vélib intégrant la publicité (économie de 22 M€/an, clause de reprise du personnel)",
+                "Piste cyclable bidirectionnelle maintenue sur la rue de Rivoli."
+              ]
             },
             "mariani": {
-              "texte": "Moratoire et audit des nouvelles pistes cyclables afin de les sécuriser ou de revoir la répartition de l'espace (comme rue de Rivoli)",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Moratoire et audit des nouvelles pistes cyclables afin de les sécuriser ou de revoir la répartition de l'espace (comme rue de Rivoli)"
+              ]
             }
           }
         },
@@ -262,30 +387,59 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "gregoire": {
-              "texte": "Quartiers apaisés avec zones 20 km/h, suppression de places de stationnement au profit de la végétalisation. Plan de circulation concerté prenant en compte les besoins des professionnels et des personnes à mobilité réduite. Extension des zones piétonnes dans chaque arrondissement. Logistique urbaine propre : points relais de proximité, véhicules de livraison décarbonés",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Quartiers apaisés avec zones 20 km/h, suppression de places de stationnement au profit de la végétalisation.",
+                "Plan de circulation concerté prenant en compte les besoins des professionnels et des personnes à mobilité réduite.",
+                "Extension des zones piétonnes dans chaque arrondissement.",
+                "Logistique urbaine propre : points relais de proximité, véhicules de livraison décarbonés."
+              ]
             },
             "dati": {
-              "texte": "Grandes traversées urbaines réservées aux piétons : rénovation et élargissement des trottoirs. Quais bas de Seine réservés aux piétons (grand parc urbain patrimonial). Rue de Rivoli rééquilibrée : trottoirs élargis, piste cyclable bidirectionnelle sécurisée, voie bus et voie de desserte locale. Fin du provisoire : séquençage annuel des projets structurants.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Grandes traversées urbaines réservées aux piétons : rénovation et élargissement des trottoirs.",
+                "Quais bas de Seine réservés aux piétons (grand parc urbain patrimonial)",
+                "Rue de Rivoli rééquilibrée : trottoirs élargis, piste cyclable bidirectionnelle sécurisée, voie bus et voie de desserte locale.",
+                "Fin du provisoire : séquençage annuel des projets structurants."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "Plan « zéro mort » piéton avec compte à rebours à tous les passages piétons. 1 000 rues apaisées près des écoles avec enrobé anti-bruit et végétalisation. Coordination centrale des chantiers avec pénalités financières automatiques en cas de dépassement des délais. Interdiction des autocars touristiques non électriques dans Paris",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/mobilite"
+              "sourceUrl": "https://bournazel.paris/engagements/mobilite",
+              "mesures": [
+                "Plan « zéro mort » piéton avec compte à rebours à tous les passages piétons. 1 000 rues apaisées près des écoles avec enrobé anti-bruit et végétalisation.",
+                "Coordination centrale des chantiers avec pénalités financières automatiques en cas de dépassement des délais.",
+                "Interdiction des autocars touristiques non électriques dans Paris."
+              ]
             },
             "knafo": {
-              "texte": "Réouverture des voies sur berge rive droite à la circulation automobile. Construction d'un tablier au-dessus pour créer une promenade piétonne (coût estimé : 60 M€, soumis à référendum). Réouverture des voies sur berge + promenade piétonne et cycliste au-dessus (60 M€, référendum). Réaménagement de Rivoli (voie auto + piste cyclable + trottoir élargi, 6 M€). Feux tricolores pilotés par IA (-11% temps de trajet). Tarif unique stationnement 3€/h, 1ère heure gratuite, gratuit 12h-14h. 15 000 places de stationnement créées. Places disponibles en temps réel via IA",
               "source": "Site de campagne 2026 | Programme officiel 2026",
-              "sourceUrl": "https://sarahpourparis.fr/"
+              "sourceUrl": "https://sarahpourparis.fr/",
+              "mesures": [
+                "Réouverture des voies sur berge rive droite à la circulation automobile.",
+                "Construction d'un tablier au-dessus pour créer une promenade piétonne (coût estimé : 60 M€, soumis à référendum)",
+                "Réouverture des voies sur berge + promenade piétonne et cycliste au-dessus (60 M€, référendum)",
+                "Réaménagement de Rivoli (voie auto + piste cyclable + trottoir élargi, 6 M€)",
+                "Feux tricolores pilotés par IA (-11% temps de trajet)",
+                "Tarif unique stationnement 3€/h, 1ère heure gratuite, gratuit 12h-14h. 15 000 places de stationnement créées.",
+                "Places disponibles en temps réel via IA."
+              ]
             },
             "mariani": {
-              "texte": "Faire strictement respecter le code de la route. Réviser le plan de circulation pour protéger piétons, cyclistes et automobilistes. Supprimer la Zone à Trafic Limité dans le centre de Paris. Revenir à 90 km/h sur le périphérique. Retour des 50 km/h sur les grands axes. Policiers municipaux pour fluidifier la circulation aux axes clés",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Faire strictement respecter le code de la route.",
+                "Réviser le plan de circulation pour protéger piétons, cyclistes et automobilistes.",
+                "Supprimer la Zone à Trafic Limité dans le centre de Paris.",
+                "Revenir à 90 km/h sur le périphérique.",
+                "Retour des 50 km/h sur les grands axes.",
+                "Policiers municipaux pour fluidifier la circulation aux axes clés."
+              ]
             }
           }
         },
@@ -295,25 +449,45 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "Nouveau tarif résident unique pour stationner dans tout Paris (pas uniquement son quartier). Gratuité du stationnement pour les deux-roues motorisés sur emplacements réservés. Places réservées pour véhicules électriques. Stationnement gratuit pour les professionnels de santé intervenant à domicile.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Nouveau tarif résident unique pour stationner dans tout Paris (pas uniquement son quartier)",
+                "Gratuité du stationnement pour les deux-roues motorisés sur emplacements réservés.",
+                "Places réservées pour véhicules électriques.",
+                "Stationnement gratuit pour les professionnels de santé intervenant à domicile."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "Doublement des places de livraison à 18 000. Application de stationnement intelligent en temps réel. 30 000 places supplémentaires en parcs relais en périphérie (+30 %). Utilisation de la Seine comme axe logistique avec mini-ports modernisés (Javel, Bercy, Grenelle)",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/mobilite"
+              "sourceUrl": "https://bournazel.paris/engagements/mobilite",
+              "mesures": [
+                "Doublement des places de livraison à 18 000.",
+                "Application de stationnement intelligent en temps réel. 30 000 places supplémentaires en parcs relais en périphérie (+30 %)",
+                "Utilisation de la Seine comme axe logistique avec mini-ports modernisés (Javel, Bercy, Grenelle)"
+              ]
             },
             "knafo": {
-              "texte": "Tarif unique 3€/h dans tous les arrondissements. Stationnement résident étendu à tout l'arrondissement. Gratuité 12h-14h pour aider les restaurateurs. 1ère heure gratuite pour les professionnels. Places disponibles en temps réel via GPS et IA",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Tarif unique 3€/h dans tous les arrondissements.",
+                "Stationnement résident étendu à tout l'arrondissement.",
+                "Gratuité 12h-14h pour aider les restaurateurs. 1ère heure gratuite pour les professionnels.",
+                "Places disponibles en temps réel via GPS et IA."
+              ]
             },
             "mariani": {
-              "texte": "Refuser les tarifs discriminatoires, supprimer le zonage pour les Parisiens. Réduire le Forfait Post-Stationnement. 20 000 nouvelles places de stationnement sur le mandat. Gratuité du stationnement dans les parcs. Rétablir la gratuité pour les 2 roues motorisés (retour ante-2022). Stationnement temporaire gratuit",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Refuser les tarifs discriminatoires, supprimer le zonage pour les Parisiens.",
+                "Réduire le Forfait Post-Stationnement. 20 000 nouvelles places de stationnement sur le mandat.",
+                "Gratuité du stationnement dans les parcs.",
+                "Rétablir la gratuité pour les 2 roues motorisés (retour ante-2022)",
+                "Stationnement temporaire gratuit."
+              ]
             }
           }
         },
@@ -322,26 +496,39 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "gregoire": {
-              "texte": "Tarification unique des transports sur la zone métropolitaine. Solidarité financière entre territoires riches et pauvres",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Tarification unique des transports sur la zone métropolitaine.",
+                "Solidarité financière entre territoires riches et pauvres."
+              ]
             },
             "dati": {
-              "texte": "Fin de la ZTL Paris-Centre. Tarif unique abordable pour les parkings relais aux portes de Paris. Tarif résident abordable pour que les familles puissent circuler et se garer sans coût confiscatoire.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Fin de la ZTL Paris-Centre.",
+                "Tarif unique abordable pour les parkings relais aux portes de Paris.",
+                "Tarif résident abordable pour que les familles puissent circuler et se garer sans coût confiscatoire."
+              ]
             },
             "chikirou": {
-              "texte": "Gratuité des transports en commun pour les jeunes",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Gratuité des transports en commun pour les jeunes."
+              ]
             },
             "bournazel": null,
             "knafo": null,
             "mariani": {
-              "texte": "Gratuité du stationnement dans les parcs pour les familles. Gratuité pour les 2 roues motorisés. Rendre les transports en commun accessibles aux chiens avec réglementation simplifiée",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Gratuité du stationnement dans les parcs pour les familles.",
+                "Gratuité pour les 2 roues motorisés.",
+                "Rendre les transports en commun accessibles aux chiens avec réglementation simplifiée."
+              ]
             }
           }
         }
@@ -356,34 +543,64 @@
           "nom": "Logement social",
           "propositions": {
             "gregoire": {
-              "texte": "60 000 nouveaux logements publics, rééquilibrage entre arrondissements, reconversion de bureaux en logements. Création d’une équipe inter-bailleurs d’intervention rapide pour les réparations dans le parc social",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "60 000 nouveaux logements publics, rééquilibrage entre arrondissements, reconversion de bureaux en logements.",
+                "Création d’une équipe inter-bailleurs d’intervention rapide pour les réparations dans le parc social."
+              ]
             },
             "dati": {
-              "texte": "Priorisation des travailleurs essentiels (soignants, police, éducateurs) et familles pour le logement social. Contrôle strict de l'occupation : vérification régulière des ressources et de la composition du foyer, mobilité vers logements adaptés et accession sociale à la propriété. Tolérance zéro pour les fauteurs de trouble : expulsion du parc social. Gel de la production de nouveaux logements sociaux via préemption, redéploiement de 100 M€/an vers la réhabilitation du parc existant.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Priorisation des travailleurs essentiels (soignants, police, éducateurs) et familles pour le logement social.",
+                "Contrôle strict de l'occupation : vérification régulière des ressources et de la composition du foyer, mobilité vers logements adaptés et accession sociale à la propriété.",
+                "Tolérance zéro pour les fauteurs de trouble : expulsion du parc social.",
+                "Gel de la production de nouveaux logements sociaux via préemption, redéploiement de 100 M€/an vers la réhabilitation du parc existant."
+              ]
             },
             "chikirou": {
-              "texte": "État d'urgence sur le logement. Relance de la production de logements sociaux dans tous les arrondissements (achat, conventionnement, reconversion, réquisition de logements vacants)",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "État d'urgence sur le logement.",
+                "Relance de la production de logements sociaux dans tous les arrondissements (achat, conventionnement, reconversion, réquisition de logements vacants)"
+              ]
             },
             "bournazel": {
-              "texte": "Pacte de confiance pour récupérer 60 000 logements. Fin de la préemption généralisée. Transformation de bureaux vacants en logements. Priorité aux actifs travaillant à Paris pour le logement social",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/"
+              "sourceUrl": "https://bournazel.paris/",
+              "mesures": [
+                "Pacte de confiance pour récupérer 60 000 logements.",
+                "Fin de la préemption généralisée.",
+                "Transformation de bureaux vacants en logements.",
+                "Priorité aux actifs travaillant à Paris pour le logement social."
+              ]
             },
             "knafo": {
-              "texte": "Moratoire total sur la construction de logements sociaux (273 M€/an d'économies). Grand plan d'accession à la propriété : vente de logements sociaux aux locataires. Stopper les financements de ZAC et écoquartiers (129 M€/an d'économies). Attribution des logements sociaux via une appli transparente sans passe-droit. Favoriser la rotation en privilégiant les familles modestes. Expulsion systématique des fauteurs de troubles et trafiquants du parc social",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Moratoire total sur la construction de logements sociaux (273 M€/an d'économies)",
+                "Grand plan d'accession à la propriété : vente de logements sociaux aux locataires.",
+                "Stopper les financements de ZAC et écoquartiers (129 M€/an d'économies)",
+                "Attribution des logements sociaux via une appli transparente sans passe-droit.",
+                "Favoriser la rotation en privilégiant les familles modestes.",
+                "Expulsion systématique des fauteurs de troubles et trafiquants du parc social."
+              ]
             },
             "mariani": {
-              "texte": "Priorité nationale dans l'accès au logement social. Rétablir l'ordre dans les HLM : convention locataire permettant l'expulsion des délinquants et trafiquants. Plan d'accès social à la propriété : 40 000 familles propriétaires de leur logement social d'ici fin du mandat. Fusionner Paris Habitat, RIVP et Élogie-Siemp. Moratoire sur le sur-logement social. Sécuriser les résidences avec la police municipale",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Priorité nationale dans l'accès au logement social.",
+                "Rétablir l'ordre dans les HLM : convention locataire permettant l'expulsion des délinquants et trafiquants.",
+                "Plan d'accès social à la propriété : 40 000 familles propriétaires de leur logement social d'ici fin du mandat.",
+                "Fusionner Paris Habitat, RIVP et Élogie-Siemp.",
+                "Moratoire sur le sur-logement social.",
+                "Sécuriser les résidences avec la police municipale."
+              ]
             }
           }
         },
@@ -392,34 +609,53 @@
           "nom": "Logements vacants",
           "propositions": {
             "gregoire": {
-              "texte": "Taxation et réquisition des logements vacants depuis plus de 5 ans. Interdiction des nouvelles résidences secondaires et des meublés touristiques type Airbnb",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Taxation et réquisition des logements vacants depuis plus de 5 ans.",
+                "Interdiction des nouvelles résidences secondaires et des meublés touristiques type Airbnb."
+              ]
             },
             "dati": {
-              "texte": "Transformation de bureaux vides en logements. Remise sur le marché du patrimoine non-stratégique de la Ville pour projets privés abordables. Encadrement d'Airbnb : blocage des transformations en locations professionnelles à l'année, accompagnement juridique des copropriétaires souhaitant interdire la location courte durée.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Transformation de bureaux vides en logements.",
+                "Remise sur le marché du patrimoine non-stratégique de la Ville pour projets privés abordables.",
+                "Encadrement d'Airbnb : blocage des transformations en locations professionnelles à l'année, accompagnement juridique des copropriétaires souhaitant interdire la location courte durée."
+              ]
             },
             "chikirou": {
-              "texte": "Régulation des locations meublées touristiques type Airbnb. Moratoire immédiat sur les hausses de loyers et de charges pour les familles",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Régulation des locations meublées touristiques type Airbnb.",
+                "Moratoire immédiat sur les hausses de loyers et de charges pour les familles."
+              ]
             },
             "bournazel": {
-              "texte": "Pacte de confiance avec les propriétaires : fonds de garantie municipale couvrant impayés, dégradations et dépôts de garantie pour remettre 20 000 logements vacants sur le marché. Réduction des locations Airbnb de 90 à 30 jours par an avec contrôle renforcé par IA",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/logement"
+              "sourceUrl": "https://bournazel.paris/engagements/logement",
+              "mesures": [
+                "Pacte de confiance avec les propriétaires : fonds de garantie municipale couvrant impayés, dégradations et dépôts de garantie pour remettre 20 000 logements vacants sur le marché.",
+                "Réduction des locations Airbnb de 90 à 30 jours par an avec contrôle renforcé par IA."
+              ]
             },
             "knafo": {
-              "texte": "Remettre 50 000 logements vacants sur le marché locatif parisien en supprimant l'encadrement des loyers qui dissuade les propriétaires de louer",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Remettre 50 000 logements vacants sur le marché locatif parisien en supprimant l'encadrement des loyers qui dissuade les propriétaires de louer."
+              ]
             },
             "mariani": {
-              "texte": "Programme « Bureaux → Logements » : convertir 500 000 m² sur 6 ans (environ 6 000 logements). Limiter Airbnb à 60 nuits/an (contre 90), taxe de séjour à 15 % (contre 5 %). Incitation au déménagement approprié pour favoriser la mobilité résidentielle",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Programme « Bureaux → Logements » : convertir 500 000 m² sur 6 ans (environ 6 000 logements)",
+                "Limiter Airbnb à 60 nuits/an (contre 90), taxe de séjour à 15 % (contre 5 %)",
+                "Incitation au déménagement approprié pour favoriser la mobilité résidentielle."
+              ]
             }
           }
         },
@@ -428,34 +664,53 @@
           "nom": "Encadrement des loyers",
           "propositions": {
             "gregoire": {
-              "texte": "Brigade de protection du logement pour le respect de l’encadrement des loyers, la lutte contre les discriminations et le contrôle de la salubrité. Garantie Municipale des Loyers (extension du dispositif Visale)",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Brigade de protection du logement pour le respect de l’encadrement des loyers, la lutte contre les discriminations et le contrôle de la salubrité.",
+                "Garantie Municipale des Loyers (extension du dispositif Visale)"
+              ]
             },
             "dati": {
-              "texte": "Assouplissement de l'encadrement des loyers pour les logements revenant sur le marché après vacance. Assouplissement des plafonds pour les logements sortant des étiquettes F et G après rénovation énergétique (gain de 2 échelons). Stabilité de la taxe foncière comme signal aux bailleurs et investisseurs.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Assouplissement de l'encadrement des loyers pour les logements revenant sur le marché après vacance.",
+                "Assouplissement des plafonds pour les logements sortant des étiquettes F et G après rénovation énergétique (gain de 2 échelons)",
+                "Stabilité de la taxe foncière comme signal aux bailleurs et investisseurs."
+              ]
             },
             "chikirou": {
-              "texte": "Contrôle strict du respect de l'encadrement des loyers (renouvellement de l'expérimentation). Création d'une agence publique de location (loyers garantis, prix régulés)",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Contrôle strict du respect de l'encadrement des loyers (renouvellement de l'expérimentation)",
+                "Création d'une agence publique de location (loyers garantis, prix régulés)"
+              ]
             },
             "bournazel": {
-              "texte": "Prime incitative à la rotation : réduction de loyer sur 5 ans pour les locataires qui libèrent un logement surdimensionné. Objectif : passer de 5 % à 10 % de rotation annuelle, soit 80 000 attributions supplémentaires sur le mandat",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/logement"
+              "sourceUrl": "https://bournazel.paris/engagements/logement",
+              "mesures": [
+                "Prime incitative à la rotation : réduction de loyer sur 5 ans pour les locataires qui libèrent un logement surdimensionné.",
+                "Objectif : passer de 5 % à 10 % de rotation annuelle, soit 80 000 attributions supplémentaires sur le mandat."
+              ]
             },
             "knafo": {
-              "texte": "Suppression de l'encadrement des loyers, mesure aux effets désastreux : frein aux constructions, entretien réduit, pénurie aggravée",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Suppression de l'encadrement des loyers, mesure aux effets désastreux : frein aux constructions, entretien réduit, pénurie aggravée."
+              ]
             },
             "mariani": {
-              "texte": "Supprimer l'encadrement des loyers à terme, en l'assouplissant sur 4 années pour protéger les locataires. Réviser le PLUb pour libérer la construction. Autoriser des immeubles de 8 à 10 étages (contre 6) dans des zones définies le long des axes de transport",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Supprimer l'encadrement des loyers à terme, en l'assouplissant sur 4 années pour protéger les locataires.",
+                "Réviser le PLUb pour libérer la construction.",
+                "Autoriser des immeubles de 8 à 10 étages (contre 6) dans des zones définies le long des axes de transport."
+              ]
             }
           }
         },
@@ -464,30 +719,49 @@
           "nom": "Accès au logement",
           "propositions": {
             "gregoire": {
-              "texte": "Assurance habitation municipale accessible (incluant la couverture punaises de lit). Logements adaptés à chaque âge de la vie : étudiants, jeunes actifs, familles monoparentales, personnes en situation de handicap, seniors",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Assurance habitation municipale accessible (incluant la couverture punaises de lit)",
+                "Logements adaptés à chaque âge de la vie : étudiants, jeunes actifs, familles monoparentales, personnes en situation de handicap, seniors."
+              ]
             },
             "dati": {
-              "texte": "Prêt à taux zéro de 10 000 à 50 000€ pour les familles déménageant pour accueillir un nouvel enfant. Production accrue de logements intermédiaires pour jeunes actifs via modification du PLU. Suppression des pastillages qui menacent les logements privés de transformation imposée en logements sociaux. Révision du PLU pour desserrer les contraintes quartier par quartier.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Prêt à taux zéro de 10 000 à 50 000€ pour les familles déménageant pour accueillir un nouvel enfant.",
+                "Production accrue de logements intermédiaires pour jeunes actifs via modification du PLU.",
+                "Suppression des pastillages qui menacent les logements privés de transformation imposée en logements sociaux.",
+                "Révision du PLU pour desserrer les contraintes quartier par quartier."
+              ]
             },
             "chikirou": {
-              "texte": "Création d'une régie publique locative offrant aux propriétaires la gestion de leur bien en échange de loyers modérés, garantis, et la prise en charge des travaux de rénovation énergétique. Doublement de la production de logements sociaux (de 2 500 à plus de 5 000 par an)",
               "source": "Journal du Grand Paris / Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Création d'une régie publique locative offrant aux propriétaires la gestion de leur bien en échange de loyers modérés, garantis, et la prise en charge des travaux de rénovation énergétique.",
+                "Doublement de la production de logements sociaux (de 2 500 à plus de 5 000 par an)"
+              ]
             },
             "bournazel": {
-              "texte": "Création de 3 quartiers universitaires (Villette, Chapelle, Charbon) offrant 7 000 logements étudiants et familiaux d'ici 2030. Bail étudiant annuel de 9-10 mois à loyer plafonné avec garantie municipale, libérant 1 000 logements privés par an",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/logement"
+              "sourceUrl": "https://bournazel.paris/engagements/logement",
+              "mesures": [
+                "Création de 3 quartiers universitaires (Villette, Chapelle, Charbon) offrant 7 000 logements étudiants et familiaux d'ici 2030.",
+                "Bail étudiant annuel de 9-10 mois à loyer plafonné avec garantie municipale, libérant 1 000 logements privés par an."
+              ]
             },
             "knafo": null,
             "mariani": {
-              "texte": "Prêt à taux zéro via fonds de garantie municipal de 50 000 € pour primo-accédants (objectif : 500 ménages/an). Programme de cohabitation intergénérationnelle étudiants-seniors (formules « Loyer » et « Solidarité »). Guichet unique pour toutes les autorisations d'urbanisme. Simplification : délai max 6 mois pour permis de construire, dématérialisation intégrale",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Prêt à taux zéro via fonds de garantie municipal de 50 000 € pour primo-accédants (objectif : 500 ménages/an)",
+                "Programme de cohabitation intergénérationnelle étudiants-seniors (formules « Loyer » et « Solidarité »)",
+                "Guichet unique pour toutes les autorisations d'urbanisme.",
+                "Simplification : délai max 6 mois pour permis de construire, dématérialisation intégrale."
+              ]
             }
           }
         }
@@ -503,25 +777,40 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "100 % des places en crèche pourvues : personnels des crèches prioritaires pour le logement social. Horaires d'accueil élargis (tôt le matin, tard le soir) dans les crèches et écoles pour les parents en horaires décalés et les 31 % de familles monoparentales parisiennes.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "100 % des places en crèche pourvues : personnels des crèches prioritaires pour le logement social.",
+                "Horaires d'accueil élargis (tôt le matin, tard le soir) dans les crèches et écoles pour les parents en horaires décalés et les 31 % de familles monoparentales parisiennes."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "10 000 nouvelles solutions de garde d'enfants d'ici 2032 (crèches et assistantes maternelles, +25 %). Quintuplement des places en CAP petite enfance (1 000 apprentis formés). Critères d'attribution transparents et publics. Maisons des Nounous pour garde en soirée et week-end",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/famille"
+              "sourceUrl": "https://bournazel.paris/engagements/famille",
+              "mesures": [
+                "10 000 nouvelles solutions de garde d'enfants d'ici 2032 (crèches et assistantes maternelles, +25 %)",
+                "Quintuplement des places en CAP petite enfance (1 000 apprentis formés)",
+                "Critères d'attribution transparents et publics.",
+                "Maisons des Nounous pour garde en soirée et week-end."
+              ]
             },
             "knafo": {
-              "texte": "Création de 7 000 places en crèche : priorité d'accès au logement social pour les professionnels de la petite enfance, salaire à l'embauche +10% en crèche municipale, gestion centralisée des effectifs, attribution des places via une appli transparente sans passe-droit, achat de 1 000 places aux crèches privées",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Création de 7 000 places en crèche : priorité d'accès au logement social pour les professionnels de la petite enfance, salaire à l'embauche +10% en crèche municipale, gestion centralisée des effectifs, attribution des places via une appli transparente sans passe-droit, achat de 1 000 places aux crèches privées."
+              ]
             },
             "mariani": {
-              "texte": "Grand plan de protection de la petite enfance : contrôle des antécédents obligatoire (casier + FIJAIS), interdiction d'exercer pour coupables d'agression sexuelle, cellules psychologiques. « Plan crèche » : priorité nationale, crèches de nuit, encourager crèches privées/entreprises, horaires étendus jusqu'à 19h30/20h. Gratuité de la crèche à partir du 3e enfant. Allocation de 300 €/mois quand pas de place en crèche. Interdiction des écrans dans les crèches municipales",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Grand plan de protection de la petite enfance : contrôle des antécédents obligatoire (casier + FIJAIS), interdiction d'exercer pour coupables d'agression sexuelle, cellules psychologiques. « Plan crèche » : priorité nationale, crèches de nuit, encourager crèches privées/entreprises, horaires étendus jusqu'à 19h30/20h.",
+                "Gratuité de la crèche à partir du 3e enfant.",
+                "Allocation de 300 €/mois quand pas de place en crèche.",
+                "Interdiction des écrans dans les crèches municipales."
+              ]
             }
           }
         },
@@ -530,34 +819,61 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "gregoire": {
-              "texte": "Défense de l’école publique et lutte contre les fermetures de classes. Modulation des dotations aux établissements privés selon leur effort de mixité sociale. Exiger un saut qualitatif pour les AESH avec continuité périscolaire. 50 nouvelles unités d’enseignement adapté pour le handicap. Grand plan de rénovation et végétalisation des écoles et collèges (cours Oasis). Protection des enfants : jamais un adulte seul avec un enfant, formations à la bientraitance",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Défense de l’école publique et lutte contre les fermetures de classes.",
+                "Modulation des dotations aux établissements privés selon leur effort de mixité sociale.",
+                "Exiger un saut qualitatif pour les AESH avec continuité périscolaire. 50 nouvelles unités d’enseignement adapté pour le handicap.",
+                "Grand plan de rénovation et végétalisation des écoles et collèges (cours Oasis)",
+                "Protection des enfants : jamais un adulte seul avec un enfant, formations à la bientraitance."
+              ]
             },
             "dati": {
-              "texte": "Grand plan de rénovation et d'équipement des écoles (budget passé de 152 à 77 M€ sous la majorité sortante). Révision du forfait communal pour les écoles maternelles privées sous contrat, revalorisation pour les élémentaires. 100 % des élèves avec accès à l'éducation artistique et culturelle (socle commun EAC).",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Grand plan de rénovation et d'équipement des écoles (budget passé de 152 à 77 M€ sous la majorité sortante)",
+                "Révision du forfait communal pour les écoles maternelles privées sous contrat, revalorisation pour les élémentaires. 100 % des élèves avec accès à l'éducation artistique et culturelle (socle commun EAC)."
+              ]
             },
             "chikirou": {
-              "texte": "Création d'un service municipal d'éducation communautaire au même niveau que l'Éducation nationale",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Création d'un service municipal d'éducation communautaire au même niveau que l'Éducation nationale."
+              ]
             },
             "bournazel": {
-              "texte": "100 % des écoles rénovées d'ici 2032 (1 Md€ d'investissement). Capteurs de CO₂ et purificateurs d'air dans chaque classe. Végétalisation de toutes les cours d'école rénovées. Cuisines dans 325 écoles (200 M€). 100 % d'alimentation durable en cantine (locale, fraîche, de saison). Programme Educalim d'éducation à la nutrition",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/famille"
+              "sourceUrl": "https://bournazel.paris/engagements/famille",
+              "mesures": [
+                "100 % des écoles rénovées d'ici 2032 (1 Md€ d'investissement)",
+                "Capteurs de CO₂ et purificateurs d'air dans chaque classe.",
+                "Végétalisation de toutes les cours d'école rénovées.",
+                "Cuisines dans 325 écoles (200 M€). 100 % d'alimentation durable en cantine (locale, fraîche, de saison)",
+                "Programme Educalim d'éducation à la nutrition."
+              ]
             },
             "knafo": {
-              "texte": "Fin de la guerre contre l'école privée : équité de traitement public/privé. Bras de fer avec l'État pour supprimer les critères idéologiques de mixité sociale dans l'algorithme Affelnet",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Fin de la guerre contre l'école privée : équité de traitement public/privé.",
+                "Bras de fer avec l'État pour supprimer les critères idéologiques de mixité sociale dans l'algorithme Affelnet."
+              ]
             },
             "mariani": {
-              "texte": "Tenue uniforme dans les écoles parisiennes. Semaine de 4 jours en primaire. Soutenir l'école libre. Rénovation des écoles : isolation thermique, végétalisation des cours, accessibilité PMR, climatisation. 100 centres de soutien scolaire gratuits avec 800 tuteurs (groupes de 8 élèves max). Parcours « Jeune Parisien » pour CM1-CM2 (5 sorties patrimoine : Notre-Dame, Panthéon, Arc de Triomphe...). Maintien des décharges de direction",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Tenue uniforme dans les écoles parisiennes.",
+                "Semaine de 4 jours en primaire.",
+                "Soutenir l'école libre.",
+                "Rénovation des écoles : isolation thermique, végétalisation des cours, accessibilité PMR, climatisation. 100 centres de soutien scolaire gratuits avec 800 tuteurs (groupes de 8 élèves max)",
+                "Parcours « Jeune Parisien » pour CM1-CM2 (5 sorties patrimoine : Notre-Dame, Panthéon, Arc de Triomphe...)",
+                "Maintien des décharges de direction."
+              ]
             }
           }
         },
@@ -566,34 +882,51 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "gregoire": {
-              "texte": "Gel des tarifs de cantine, extension de la gratuité des fournitures scolaires",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Gel des tarifs de cantine, extension de la gratuité des fournitures scolaires."
+              ]
             },
             "dati": {
-              "texte": "Alimentation saine et équilibrée dès l'école : programmes d'éducation nutritionnelle et repas équilibrés en circuits-courts saisonniers dans les cantines.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Alimentation saine et équilibrée dès l'école : programmes d'éducation nutritionnelle et repas équilibrés en circuits-courts saisonniers dans les cantines."
+              ]
             },
             "chikirou": {
-              "texte": "Cantines scolaires bio à 1 euro. Repas gratuits, bio et de qualité pour tous les enfants. Ouverture de restaurants populaires à prix solidaires avec produits bio, durables, locaux et option végétarienne",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Cantines scolaires bio à 1 euro.",
+                "Repas gratuits, bio et de qualité pour tous les enfants.",
+                "Ouverture de restaurants populaires à prix solidaires avec produits bio, durables, locaux et option végétarienne."
+              ]
             },
             "bournazel": {
-              "texte": "Cuisines installées dans un tiers des écoles (325 établissements, investissement de 200 M€). 100 % d'alimentation durable, locale et de saison dans les cantines. Programme obligatoire Educalim d'éducation à la nutrition",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/famille"
+              "sourceUrl": "https://bournazel.paris/engagements/famille",
+              "mesures": [
+                "Cuisines installées dans un tiers des écoles (325 établissements, investissement de 200 M€). 100 % d'alimentation durable, locale et de saison dans les cantines.",
+                "Programme obligatoire Educalim d'éducation à la nutrition."
+              ]
             },
             "knafo": {
-              "texte": "100% de produits issus de l'agriculture française dans les cantines scolaires parisiennes (30 millions de repas/an, +7 M€/an)",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "100% de produits issus de l'agriculture française dans les cantines scolaires parisiennes (30 millions de repas/an, +7 M€/an)"
+              ]
             },
             "mariani": {
-              "texte": "Simplifier la grille du prix des cantines scolaires, maximum 3 € par repas. Privilégier les circuits courts pour les cantines. Service minimum d'accueil pour les cantines en cas de grève",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Simplifier la grille du prix des cantines scolaires, maximum 3 € par repas.",
+                "Privilégier les circuits courts pour les cantines.",
+                "Service minimum d'accueil pour les cantines en cas de grève."
+              ]
             }
           }
         },
@@ -602,34 +935,59 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "gregoire": {
-              "texte": "Convention citoyenne sur les temps scolaires et périscolaires. Activités périscolaires de qualité : culture, sport, langues, sciences. Classe découverte pour chaque enfant. Filière animation : fin des vacations, 100 % de contrats continus. Offre « péricollège » y compris pendant les vacances",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Convention citoyenne sur les temps scolaires et périscolaires.",
+                "Activités périscolaires de qualité : culture, sport, langues, sciences.",
+                "Classe découverte pour chaque enfant.",
+                "Filière animation : fin des vacations, 100 % de contrats continus.",
+                "Offre « péricollège » y compris pendant les vacances."
+              ]
             },
             "dati": {
-              "texte": "Semaine de 4 jours (lundi-mardi-jeudi-vendredi, 8h30-16h30). Mercredi sanctuarisé pour temps périscolaire de qualité avec animateurs mieux diplômés et contrôlés. Études dirigées après l'école pour les élèves en difficulté (mesure de justice sociale).",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Semaine de 4 jours (lundi-mardi-jeudi-vendredi, 8h30-16h30)",
+                "Mercredi sanctuarisé pour temps périscolaire de qualité avec animateurs mieux diplômés et contrôlés.",
+                "Études dirigées après l'école pour les élèves en difficulté (mesure de justice sociale)."
+              ]
             },
             "chikirou": {
-              "texte": "Investissement massif dans le personnel périscolaire",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Investissement massif dans le personnel périscolaire."
+              ]
             },
             "bournazel": {
-              "texte": "Vérification systématique des antécédents judiciaires pour tous les animateurs (12 000 agents). Formation BAFA obligatoire pour tous les encadrants (8 M€/an). Système d'inspection municipale contrôlant les 650 sites récréatifs chaque année. Programme « Colos pour tous » : 30 000 places annuelles à tarif progressif (15 M€)",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/famille"
+              "sourceUrl": "https://bournazel.paris/engagements/famille",
+              "mesures": [
+                "Vérification systématique des antécédents judiciaires pour tous les animateurs (12 000 agents)",
+                "Formation BAFA obligatoire pour tous les encadrants (8 M€/an)",
+                "Système d'inspection municipale contrôlant les 650 sites récréatifs chaque année.",
+                "Programme « Colos pour tous » : 30 000 places annuelles à tarif progressif (15 M€)"
+              ]
             },
             "knafo": {
-              "texte": "Vérifications strictes (casier judiciaire, Fijais) pour tous les intervenants périscolaires avec contrôles périodiques continus et principe de précaution immédiat",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Vérifications strictes (casier judiciaire, Fijais) pour tous les intervenants périscolaires avec contrôles périodiques continus et principe de précaution immédiat."
+              ]
             },
             "mariani": {
-              "texte": "Contrôle des antécédents obligatoire pour tous les candidats à l'animation périscolaire (casier judiciaire + FIJAIS). Périscolaire de qualité avec système d'alerte rapide. Plan de prévention généralisée contre la drogue dans les écoles-collèges. Respect strict de la laïcité dans les cours EILE/ELCO. Service minimum d'accueil pour crèches et écoles en cas de grève",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Contrôle des antécédents obligatoire pour tous les candidats à l'animation périscolaire (casier judiciaire + FIJAIS)",
+                "Périscolaire de qualité avec système d'alerte rapide.",
+                "Plan de prévention généralisée contre la drogue dans les écoles-collèges.",
+                "Respect strict de la laïcité dans les cours EILE/ELCO.",
+                "Service minimum d'accueil pour crèches et écoles en cas de grève."
+              ]
             }
           }
         },
@@ -638,34 +996,56 @@
           "nom": "Jeunesse",
           "propositions": {
             "gregoire": {
-              "texte": "Quartier Jeunes dans chaque arrondissement. Offre de stages et formations d’insertion. Logements sociaux étudiants et Foyers de Jeunes Travailleurs. Droit aux vacances pour chaque jeune, séjours adaptés au handicap",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Quartier Jeunes dans chaque arrondissement.",
+                "Offre de stages et formations d’insertion.",
+                "Logements sociaux étudiants et Foyers de Jeunes Travailleurs.",
+                "Droit aux vacances pour chaque jeune, séjours adaptés au handicap."
+              ]
             },
             "dati": {
-              "texte": "Nouveaux points 'Quartier Jeunes' pour les 16-30 ans : accompagnement en santé mentale, accès aux droits et insertion. Foncier libéré (écoles, collèges fermés) transformé en lieux dédiés à la jeunesse. Résidences d'artistes dans les écoles, conventions avec universités pour cursus d'excellence (IA, deeptech, quantique).",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Nouveaux points 'Quartier Jeunes' pour les 16-30 ans : accompagnement en santé mentale, accès aux droits et insertion.",
+                "Foncier libéré (écoles, collèges fermés) transformé en lieux dédiés à la jeunesse.",
+                "Résidences d'artistes dans les écoles, conventions avec universités pour cursus d'excellence (IA, deeptech, quantique)."
+              ]
             },
             "chikirou": {
-              "texte": "Titularisation des 4 000 animateurs vacataires de la Ville. Formation qualifiante via des partenariats avec les lycées professionnels et licences pro",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Titularisation des 4 000 animateurs vacataires de la Ville.",
+                "Formation qualifiante via des partenariats avec les lycées professionnels et licences pro."
+              ]
             },
             "bournazel": {
-              "texte": "Carte Solo Parent : tarifs réduits en crèche, cantine, activités culturelles et musées pour les familles monoparentales. Prise en charge du pass Navigo des enfants et Vélib à tarif réduit. Début des cours au collège à 9h. Casiers sécurisés pour les téléphones portables dans les écoles",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/famille"
+              "sourceUrl": "https://bournazel.paris/engagements/famille",
+              "mesures": [
+                "Carte Solo Parent : tarifs réduits en crèche, cantine, activités culturelles et musées pour les familles monoparentales.",
+                "Prise en charge du pass Navigo des enfants et Vélib à tarif réduit.",
+                "Début des cours au collège à 9h.",
+                "Casiers sécurisés pour les téléphones portables dans les écoles."
+              ]
             },
             "knafo": {
-              "texte": "Villa des talents : résidence étudiante de prestige en plein Paris pour les meilleurs étudiants français (Sorbonne, Sciences Po, ENS, École Boulle, Conservatoire...), financée par les grandes écoles partenaires, coût zéro pour la collectivité",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Villa des talents : résidence étudiante de prestige en plein Paris pour les meilleurs étudiants français (Sorbonne, Sciences Po, ENS, École Boulle, Conservatoire...), financée par les grandes écoles partenaires, coût zéro pour la collectivité."
+              ]
             },
             "mariani": {
-              "texte": "Parcours civique municipal pour les 16-25 ans : 200 heures de missions d'intérêt général sur 6 mois (aide aux personnes âgées, entretien espaces publics, soutien scolaire), rémunérées au SMIC horaire. Plan d'apprentissage « savoir-nager » pour tous les élèves du cycle 3",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Parcours civique municipal pour les 16-25 ans : 200 heures de missions d'intérêt général sur 6 mois (aide aux personnes âgées, entretien espaces publics, soutien scolaire), rémunérées au SMIC horaire.",
+                "Plan d'apprentissage « savoir-nager » pour tous les élèves du cycle 3."
+              ]
             }
           }
         }
@@ -680,30 +1060,51 @@
           "nom": "Espaces verts",
           "propositions": {
             "gregoire": {
-              "texte": "170 000 arbres plantés (10 par habitant). Végétalisation des toitures, façades et cours d’immeubles. Fermes urbaines dans chaque arrondissement. Parc métropolitain reliant les bois de Boulogne et de Vincennes. Plan biodiversité : corridors écologiques, nichoirs, prairies",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "170 000 arbres plantés (10 par habitant)",
+                "Végétalisation des toitures, façades et cours d’immeubles.",
+                "Fermes urbaines dans chaque arrondissement.",
+                "Parc métropolitain reliant les bois de Boulogne et de Vincennes.",
+                "Plan biodiversité : corridors écologiques, nichoirs, prairies."
+              ]
             },
             "dati": {
-              "texte": "Préservation des 200 000 arbres de Paris et 300 000 arbres des Bois (aucun abattage sauf état phytosanitaire). 500 nouvelles bandes végétalisées. Débitumisation et retour des grilles Davioud pour préserver les racines. Végétalisation grimpante, désartificialisation des cours d'écoles et cœurs d'îlot.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Préservation des 200 000 arbres de Paris et 300 000 arbres des Bois (aucun abattage sauf état phytosanitaire). 500 nouvelles bandes végétalisées.",
+                "Débitumisation et retour des grilles Davioud pour préserver les racines.",
+                "Végétalisation grimpante, désartificialisation des cours d'écoles et cœurs d'îlot."
+              ]
             },
             "chikirou": {
-              "texte": "Végétalisation massive de la ville. Engagement à ne pas artificialiser un seul mètre carré supplémentaire",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Végétalisation massive de la ville.",
+                "Engagement à ne pas artificialiser un seul mètre carré supplémentaire."
+              ]
             },
             "bournazel": null,
             "knafo": {
-              "texte": "Sublimer les parcs et jardins : remettre l’art du jardinage au cœur des missions des agents. Ouvrir tous les squares aux chiens tenus en laisse (sauf aires de jeux enfants)",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Sublimer les parcs et jardins : remettre l’art du jardinage au cœur des missions des agents.",
+                "Ouvrir tous les squares aux chiens tenus en laisse (sauf aires de jeux enfants)"
+              ]
             },
             "mariani": {
-              "texte": "Plan de végétalisation prioritaire : 50 000 arbres supplémentaires sur six ans. Végétalisation de toutes les cours d'école (désimperméabilisation des sols). Renforcer l'aménagement de la Petite Ceinture (ouest : 16e, 17e, 18e ; sud : 12e, 13e, 14e, 15e). Développer les espaces canins dans les parcs et plan bien-être animal",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Plan de végétalisation prioritaire : 50 000 arbres supplémentaires sur six ans.",
+                "Végétalisation de toutes les cours d'école (désimperméabilisation des sols)",
+                "Renforcer l'aménagement de la Petite Ceinture (ouest : 16e, 17e, 18e ; sud : 12e, 13e, 14e, 15e)",
+                "Développer les espaces canins dans les parcs et plan bien-être animal."
+              ]
             }
           }
         },
@@ -712,30 +1113,58 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "gregoire": {
-              "texte": "Ressourcerie solidaire et ateliers de réparation dans chaque quartier pour réduire les déchets. Fréquence accrue de nettoyage, brigades propreté de quartier",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Ressourcerie solidaire et ateliers de réparation dans chaque quartier pour réduire les déchets.",
+                "Fréquence accrue de nettoyage, brigades propreté de quartier."
+              ]
             },
             "dati": {
-              "texte": "Réorganisation de la direction de la propreté avec autorité aux maires d'arrondissement. Privatisation de la collecte des déchets ménagers pour un service uniforme. Brigades de la propreté : équipes d'intervention d'urgence plusieurs fois par jour. Tolérance zéro : verbalisation renforcée contre dépôts sauvages et tags. Grand plan de lutte contre les 6 millions de rats (glace carbonique, pièges écologiques connectés).",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Réorganisation de la direction de la propreté avec autorité aux maires d'arrondissement.",
+                "Privatisation de la collecte des déchets ménagers pour un service uniforme.",
+                "Brigades de la propreté : équipes d'intervention d'urgence plusieurs fois par jour.",
+                "Tolérance zéro : verbalisation renforcée contre dépôts sauvages et tags.",
+                "Grand plan de lutte contre les 6 millions de rats (glace carbonique, pièges écologiques connectés)."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "Privatisation intégrale de la collecte et du nettoyage par délégation de service public. Passage à 100 % de camions électriques. IA pour l'optimisation des tournées et la détection des déchets. Ouverture de nouvelles déchèteries. Contrats sur résultats avec pénalités financières mensuelles. Économie estimée à 742 M€ sur le mandat, sans hausse de taxe",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/proprete"
+              "sourceUrl": "https://bournazel.paris/engagements/proprete",
+              "mesures": [
+                "Privatisation intégrale de la collecte et du nettoyage par délégation de service public.",
+                "Passage à 100 % de camions électriques.",
+                "IA pour l'optimisation des tournées et la détection des déchets.",
+                "Ouverture de nouvelles déchèteries.",
+                "Contrats sur résultats avec pénalités financières mensuelles.",
+                "Économie estimée à 742 M€ sur le mandat, sans hausse de taxe."
+              ]
             },
             "knafo": {
-              "texte": "Privatisation totale du ramassage des ordures ménagères et du nettoyage de la voirie (27% moins cher selon la CRC). Plan anti-rats : suppression des sources de nourriture en surface, poubelles à QR codes pour signalement en temps réel",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Privatisation totale du ramassage des ordures ménagères et du nettoyage de la voirie (27% moins cher selon la CRC)",
+                "Plan anti-rats : suppression des sources de nourriture en surface, poubelles à QR codes pour signalement en temps réel."
+              ]
             },
             "mariani": {
-              "texte": "Propreté 24h/24 par redéploiement des effectifs sur le terrain. Externalisation totale de la collecte des déchets. Autonomie des arrondissements pour choisir leurs prestataires. Grand plan de dératisation. Équipes anti-tag (amende portée à 3 750 €). Modernisation du matériel. Fin du détournement de la TEOM (60 M€/an détournés). Tolérance zéro : verbalisation systématique, effacement des tags sous 24h",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Propreté 24h/24 par redéploiement des effectifs sur le terrain.",
+                "Externalisation totale de la collecte des déchets.",
+                "Autonomie des arrondissements pour choisir leurs prestataires.",
+                "Grand plan de dératisation.",
+                "Équipes anti-tag (amende portée à 3 750 €)",
+                "Modernisation du matériel.",
+                "Fin du détournement de la TEOM (60 M€/an détournés)",
+                "Tolérance zéro : verbalisation systématique, effacement des tags sous 24h."
+              ]
             }
           }
         },
@@ -744,20 +1173,33 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "gregoire": {
-              "texte": "Lutte contre la pollution de l’eau et de l’air (PFAS, pesticides, particules fines) et les perturbateurs endocriniens. Installation de capteurs et radars sonores, plans de réduction du bruit par quartier",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Lutte contre la pollution de l’eau et de l’air (PFAS, pesticides, particules fines) et les perturbateurs endocriniens.",
+                "Installation de capteurs et radars sonores, plans de réduction du bruit par quartier."
+              ]
             },
             "dati": {
-              "texte": "Débitumisation pour créer des îlots de fraîcheur (objectif -3°C dans les rues l'été). Paris 'ville éponge' : diagnostic par quartier, pavés enherbés, revêtements infiltrants. Plan 'Urgence Fours Urbains' : rafraîchissement des 100 sites les plus chauds, doublement des bâtiments raccordés au réseau Fraîcheur de Paris. Interdiction des projets créant des îlots de chaleur. Brumisateurs dans les parcs, 2 miroirs d'eau sur les quais de Seine.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Débitumisation pour créer des îlots de fraîcheur (objectif -3°C dans les rues l'été)",
+                "Paris 'ville éponge' : diagnostic par quartier, pavés enherbés, revêtements infiltrants.",
+                "Plan 'Urgence Fours Urbains' : rafraîchissement des 100 sites les plus chauds, doublement des bâtiments raccordés au réseau Fraîcheur de Paris.",
+                "Interdiction des projets créant des îlots de chaleur.",
+                "Brumisateurs dans les parcs, 2 miroirs d'eau sur les quais de Seine."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "300 capteurs acoustiques et 50 radars anti-bruit déployés dans Paris. 1 000 rues calmes avec enrobé anti-bruit et anti-chaleur. Piétonisation de toutes les 626 rues d'écoles maternelles et élémentaires. Couverture de 5 km supplémentaires du périphérique d'ici 2035 avec revêtement acoustique et végétalisation",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/apaiser-paris"
+              "sourceUrl": "https://bournazel.paris/engagements/apaiser-paris",
+              "mesures": [
+                "300 capteurs acoustiques et 50 radars anti-bruit déployés dans Paris. 1 000 rues calmes avec enrobé anti-bruit et anti-chaleur.",
+                "Piétonisation de toutes les 626 rues d'écoles maternelles et élémentaires.",
+                "Couverture de 5 km supplémentaires du périphérique d'ici 2035 avec revêtement acoustique et végétalisation."
+              ]
             },
             "knafo": null,
             "mariani": null
@@ -768,30 +1210,51 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "gregoire": {
-              "texte": "Rénovation et isolation de 35 000 logements sociaux. Soutien à la rénovation de 200 000 logements privés avec avance à taux zéro « prime climat ». Achats groupés d’énergie renouvelable pour les Parisiens. Développement de réseaux publics de chaleur et de froid",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Rénovation et isolation de 35 000 logements sociaux.",
+                "Soutien à la rénovation de 200 000 logements privés avec avance à taux zéro « prime climat ».",
+                "Achats groupés d’énergie renouvelable pour les Parisiens.",
+                "Développement de réseaux publics de chaleur et de froid."
+              ]
             },
             "dati": {
-              "texte": "Chantier du siècle : 54 % des logements parisiens sont des passoires thermiques (E, F, G). Interlocuteur unique pour les copropriétés, renforcement de l'Agence Parisienne du Climat. 10 000 rénovations de logements sociaux/an. 25 % des résidences raccordées aux réseaux de chaleur/fraîcheur d'ici 2032. 30 % de toitures solaires lors des grosses rénovations. Modernisation de l'éclairage public intelligent. Doublement de la couverture en panneaux solaires (164 000 m²).",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Chantier du siècle : 54 % des logements parisiens sont des passoires thermiques (E, F, G)",
+                "Interlocuteur unique pour les copropriétés, renforcement de l'Agence Parisienne du Climat. 10 000 rénovations de logements sociaux/an. 25 % des résidences raccordées aux réseaux de chaleur/fraîcheur d'ici 2032. 30 % de toitures solaires lors des grosses rénovations.",
+                "Modernisation de l'éclairage public intelligent.",
+                "Doublement de la couverture en panneaux solaires (164 000 m²)."
+              ]
             },
             "chikirou": {
-              "texte": "Accélération de la rénovation énergétique des bâtiments parisiens. Lutte contre la précarité énergétique",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Accélération de la rénovation énergétique des bâtiments parisiens.",
+                "Lutte contre la précarité énergétique."
+              ]
             },
             "bournazel": {
-              "texte": "Triplement du rythme de rénovation du parc social à 12 000 logements/an (rénovation complète en 10 ans). Quadruplement de la rénovation privée à 12 000 logements/an avec 30 M€ de soutien municipal et crédit d'impôt foncier de 50 % pour les passoires thermiques (F-G). Isolation acoustique systématiquement intégrée aux rénovations thermiques. 15 M€ pour des installations photovoltaïques coopératives sur les toits",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/logement"
+              "sourceUrl": "https://bournazel.paris/engagements/logement",
+              "mesures": [
+                "Triplement du rythme de rénovation du parc social à 12 000 logements/an (rénovation complète en 10 ans)",
+                "Quadruplement de la rénovation privée à 12 000 logements/an avec 30 M€ de soutien municipal et crédit d'impôt foncier de 50 % pour les passoires thermiques (F-G)",
+                "Isolation acoustique systématiquement intégrée aux rénovations thermiques. 15 M€ pour des installations photovoltaïques coopératives sur les toits."
+              ]
             },
             "knafo": null,
             "mariani": {
-              "texte": "Rénovation du parc social et privé pour lutter contre les passoires énergétiques avec aides ciblées et exonérations fiscales. Isolation thermique accélérée de tous les établissements scolaires. Climatisation des établissements scolaires et lieux accueillant du public",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Rénovation du parc social et privé pour lutter contre les passoires énergétiques avec aides ciblées et exonérations fiscales.",
+                "Isolation thermique accélérée de tous les établissements scolaires.",
+                "Climatisation des établissements scolaires et lieux accueillant du public."
+              ]
             }
           }
         },
@@ -800,14 +1263,20 @@
           "nom": "Alimentation durable",
           "propositions": {
             "gregoire": {
-              "texte": "100 % alimentation bio, locale et durable dans les cantines et crèches, avec goûter gratuit. Sécurité sociale de l’alimentation : coopératives alimentaires, épiceries solidaires, restaurants municipaux à prix accessible",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "100 % alimentation bio, locale et durable dans les cantines et crèches, avec goûter gratuit.",
+                "Sécurité sociale de l’alimentation : coopératives alimentaires, épiceries solidaires, restaurants municipaux à prix accessible."
+              ]
             },
             "dati": {
-              "texte": "Alimentation saine et équilibrée dès l'école via programmes d'éducation et repas en circuits-courts saisonniers. Contrôle trimestriel des bâtiments publics contre les nuisibles (rats, moustiques).",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Alimentation saine et équilibrée dès l'école via programmes d'éducation et repas en circuits-courts saisonniers.",
+                "Contrôle trimestriel des bâtiments publics contre les nuisibles (rats, moustiques)."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
@@ -820,16 +1289,20 @@
           "nom": "Baignades & Eau",
           "propositions": {
             "gregoire": {
-              "texte": "Ouverture de nouvelles baignades dans la Seine et les canaux. 1 000 nouvelles fontaines et brumisateurs contre la canicule",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Ouverture de nouvelles baignades dans la Seine et les canaux. 1 000 nouvelles fontaines et brumisateurs contre la canicule."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
             "knafo": {
-              "texte": "Suppression du programme de baignade dans la Seine (47 M€ sur le mandat d’économies)",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Suppression du programme de baignade dans la Seine (47 M€ sur le mandat d’économies)"
+              ]
             },
             "mariani": null
           }
@@ -845,30 +1318,46 @@
           "nom": "Centres de santé",
           "propositions": {
             "gregoire": {
-              "texte": "Mutuelle municipale parisienne. 100 nouveaux lieux de soin en secteur 1, 7 centres de santé municipaux. Parcours des 1 000 premiers jours de l’enfant (60 PMI), diagnostic précoce des troubles cognitifs et de l’autisme. Santé scolaire renforcée, plan santé mentale jeunes",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Mutuelle municipale parisienne. 100 nouveaux lieux de soin en secteur 1, 7 centres de santé municipaux.",
+                "Parcours des 1 000 premiers jours de l’enfant (60 PMI), diagnostic précoce des troubles cognitifs et de l’autisme.",
+                "Santé scolaire renforcée, plan santé mentale jeunes."
+              ]
             },
             "dati": {
-              "texte": "Plan de désengorgement des urgences et lutte contre les déserts médicaux sur certaines spécialités. Aide à l'installation de maisons de santé et centres de soins non programmés. 'Bus des Femmes' parisiens dédiés à la prévention et aux soins primaires (contraception, dépistage IST, frottis, mammographies) dans les quartiers les plus difficiles d'accès.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Plan de désengorgement des urgences et lutte contre les déserts médicaux sur certaines spécialités.",
+                "Aide à l'installation de maisons de santé et centres de soins non programmés. 'Bus des Femmes' parisiens dédiés à la prévention et aux soins primaires (contraception, dépistage IST, frottis, mammographies) dans les quartiers les plus difficiles d'accès."
+              ]
             },
             "chikirou": {
-              "texte": "Création de centres de santé communautaires dans chaque arrondissement",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Création de centres de santé communautaires dans chaque arrondissement."
+              ]
             },
             "bournazel": null,
             "knafo": {
-              "texte": "Doubler la contribution au dépistage des cancers (1 M€/an). Financer la recherche médicale via l’Institut Pasteur (5 M€/an). Rénover les EHPAD municipaux (12 M€ sur le mandat). 1ère heure de stationnement gratuite pour les infirmières libérales",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Doubler la contribution au dépistage des cancers (1 M€/an)",
+                "Financer la recherche médicale via l’Institut Pasteur (5 M€/an)",
+                "Rénover les EHPAD municipaux (12 M€ sur le mandat). 1ère heure de stationnement gratuite pour les infirmières libérales."
+              ]
             },
             "mariani": {
-              "texte": "Soutenir toutes les initiatives et recrutements pour assurer une médecine scolaire de qualité. Supprimer les salles de shoot et ouvrir un centre de soin unique pour traiter la toxicomanie",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Soutenir toutes les initiatives et recrutements pour assurer une médecine scolaire de qualité.",
+                "Supprimer les salles de shoot et ouvrir un centre de soin unique pour traiter la toxicomanie."
+              ]
             }
           }
         },
@@ -877,26 +1366,42 @@
           "nom": "Prévention santé",
           "propositions": {
             "gregoire": {
-              "texte": "Plan santé sexuelle avec objectif zéro VIH d’ici 2030. Équipes de réduction des risques (errance, drogue, troubles psychiques). Accompagnement de l’endométriose",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Plan santé sexuelle avec objectif zéro VIH d’ici 2030.",
+                "Équipes de réduction des risques (errance, drogue, troubles psychiques)",
+                "Accompagnement de l’endométriose."
+              ]
             },
             "dati": {
-              "texte": "Campagnes de dépistage pour maladies chroniques (respiratoires, cardiovasculaires, cancers, santé mentale). Contrôle trimestriel des bâtiments publics contre les nuisibles. Lutte contre les pollutions sonores et lumineuses : objectif de réduction de moitié des nuisances sonores d'ici 2032. Droit au sommeil garanti : médiateurs de quartier, terrasses soumises à permis à points.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Campagnes de dépistage pour maladies chroniques (respiratoires, cardiovasculaires, cancers, santé mentale)",
+                "Contrôle trimestriel des bâtiments publics contre les nuisibles.",
+                "Lutte contre les pollutions sonores et lumineuses : objectif de réduction de moitié des nuisances sonores d'ici 2032.",
+                "Droit au sommeil garanti : médiateurs de quartier, terrasses soumises à permis à points."
+              ]
             },
             "chikirou": {
-              "texte": "Couverture santé populaire municipale pour aider ceux qui ne peuvent pas se payer de mutuelle (achat groupé d'assurance par la Ville). Réseau de centres de santé municipaux publics et associatifs, au moins un par arrondissement d'ici 2032",
               "source": "Concours Pluripro / Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Couverture santé populaire municipale pour aider ceux qui ne peuvent pas se payer de mutuelle (achat groupé d'assurance par la Ville)",
+                "Réseau de centres de santé municipaux publics et associatifs, au moins un par arrondissement d'ici 2032."
+              ]
             },
             "bournazel": null,
             "knafo": null,
             "mariani": {
-              "texte": "Plan de lutte contre la consommation de stupéfiants et accompagnement vers la réinsertion sociale. Prévention scolaire obligatoire sur les dangers des stupéfiants. Plan de prévention des maladies mentales dans les écoles et collèges",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Plan de lutte contre la consommation de stupéfiants et accompagnement vers la réinsertion sociale.",
+                "Prévention scolaire obligatoire sur les dangers des stupéfiants.",
+                "Plan de prévention des maladies mentales dans les écoles et collèges."
+              ]
             }
           }
         },
@@ -906,17 +1411,23 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "Système de veille solidaire (agents publics, gardiens, commerçants, voisins) pour accompagner les personnes isolées. Soins à domicile facilités : stationnement gratuit pour les professionnels de santé intervenant à domicile. Aménagements adaptés aux personnes âgées dans l'espace public (assises, îlots de fraîcheur, prévention des chutes près des EHPAD).",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Système de veille solidaire (agents publics, gardiens, commerçants, voisins) pour accompagner les personnes isolées.",
+                "Soins à domicile facilités : stationnement gratuit pour les professionnels de santé intervenant à domicile.",
+                "Aménagements adaptés aux personnes âgées dans l'espace public (assises, îlots de fraîcheur, prévention des chutes près des EHPAD)."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
             "knafo": null,
             "mariani": {
-              "texte": "Programme de cohabitation intergénérationnelle pour lutter contre la solitude et la vulnérabilité des seniors : logement partagé avec des étudiants (formules « Loyer » et « Solidarité »), cadre juridique et médiation assurés par la mairie",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Programme de cohabitation intergénérationnelle pour lutter contre la solitude et la vulnérabilité des seniors : logement partagé avec des étudiants (formules « Loyer » et « Solidarité »), cadre juridique et médiation assurés par la mairie."
+              ]
             }
           }
         }
@@ -931,30 +1442,48 @@
           "nom": "Budget participatif",
           "propositions": {
             "gregoire": {
-              "texte": "Budget participatif renforcé : 10 % du budget d’investissement. Conseils citoyens avec pouvoir de co-décision. Application numérique de signalement et suivi",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Budget participatif renforcé : 10 % du budget d’investissement.",
+                "Conseils citoyens avec pouvoir de co-décision.",
+                "Application numérique de signalement et suivi."
+              ]
             },
             "dati": {
-              "texte": "Renforcement du pouvoir budgétaire des mairies d'arrondissement (3 % actuellement) pour davantage d'investissements localisés. Autorité fonctionnelle et hiérarchique des maires d'arrondissement sur les services déconcentrés : compétences en urbanisme, logements sociaux, voirie, propreté avec dotations appropriées.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Renforcement du pouvoir budgétaire des mairies d'arrondissement (3 % actuellement) pour davantage d'investissements localisés.",
+                "Autorité fonctionnelle et hiérarchique des maires d'arrondissement sur les services déconcentrés : compétences en urbanisme, logements sociaux, voirie, propreté avec dotations appropriées."
+              ]
             },
             "chikirou": {
-              "texte": "Renforcement des conseils de quartier avec plus de pouvoir aux habitants. Pouvoir accru aux associations locales. Démocratie participative renforcée",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Renforcement des conseils de quartier avec plus de pouvoir aux habitants.",
+                "Pouvoir accru aux associations locales.",
+                "Démocratie participative renforcée."
+              ]
             },
             "bournazel": null,
             "knafo": {
-              "texte": "Au moins 2 référendums locaux par an sur les grands projets de la ville",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Au moins 2 référendums locaux par an sur les grands projets de la ville."
+              ]
             },
             "mariani": {
-              "texte": "Référendum d'Initiative Populaire dès que 5 % du corps électoral le demande. Élire tous les conseils de quartiers tous les 3 ans et les consulter systématiquement dès qu'un projet municipal les concerne. Renforcer leurs moyens d'actions. Votation citoyenne dont le résultat sera respecté et appliqué",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Référendum d'Initiative Populaire dès que 5 % du corps électoral le demande.",
+                "Élire tous les conseils de quartiers tous les 3 ans et les consulter systématiquement dès qu'un projet municipal les concerne.",
+                "Renforcer leurs moyens d'actions.",
+                "Votation citoyenne dont le résultat sera respecté et appliqué."
+              ]
             }
           }
         },
@@ -963,30 +1492,58 @@
           "nom": "Transparence",
           "propositions": {
             "gregoire": {
-              "texte": "Gouvernance métropolitaine renforcée. Mutualisation des services avec les communes limitrophes",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Gouvernance métropolitaine renforcée.",
+                "Mutualisation des services avec les communes limitrophes."
+              ]
             },
             "dati": {
-              "texte": "Création d'une Direction permanente de l'évaluation et de la performance pour auditer chaque euro dépensé. Contrôle systématique des subventions et programmes non obligatoires. Maîtrise du train de vie de la mairie : contrôle strict des notes de frais et déplacements des élus. Commission indépendante de contrôle des subventions associatives.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Création d'une Direction permanente de l'évaluation et de la performance pour auditer chaque euro dépensé.",
+                "Contrôle systématique des subventions et programmes non obligatoires.",
+                "Maîtrise du train de vie de la mairie : contrôle strict des notes de frais et déplacements des élus.",
+                "Commission indépendante de contrôle des subventions associatives."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "Plafonnement des frais de représentation à 30 €/repas/personne. Suppression des voitures avec chauffeur (22,4 M€ d'économies). Réduction de moitié des collaborateurs de cabinet (55 M€). Déclarations de patrimoine et d'intérêts obligatoires pour tous les élus. Audit annuel des 100 plus grosses subventions. Audit indépendant des finances par la Cour des comptes",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/probite"
+              "sourceUrl": "https://bournazel.paris/engagements/probite",
+              "mesures": [
+                "Plafonnement des frais de représentation à 30 €/repas/personne.",
+                "Suppression des voitures avec chauffeur (22,4 M€ d'économies)",
+                "Réduction de moitié des collaborateurs de cabinet (55 M€)",
+                "Déclarations de patrimoine et d'intérêts obligatoires pour tous les élus.",
+                "Audit annuel des 100 plus grosses subventions.",
+                "Audit indépendant des finances par la Cour des comptes."
+              ]
             },
             "knafo": {
-              "texte": "Réduire les adjoints à 10 (contre 37). Diviser par 2 les conseillers de Paris (163→81). Diviser par 5 les voitures de fonction (500→100) et les collaborateurs de cabinet (145→30). Supprimer frais de représentation et jetons de présence. Économie : 18 M€/an",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Réduire les adjoints à 10 (contre 37)",
+                "Diviser par 2 les conseillers de Paris (163→81)",
+                "Diviser par 5 les voitures de fonction (500→100) et les collaborateurs de cabinet (145→30)",
+                "Supprimer frais de représentation et jetons de présence.",
+                "Économie : 18 M€/an."
+              ]
             },
             "mariani": {
-              "texte": "Audit complet et indépendant des dépenses et comptes de la Ville. Plan massif d'économie et de désendettement dès la 1re année. Encadrer les frais de réception pour éviter les abus. Conseil de Surveillance Budgétaire Indépendant avec rapport semestriel public. Lutter contre la bureaucratie et les privilèges des élus. Contrôle de gestion confié à une association de défense des contribuables",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Audit complet et indépendant des dépenses et comptes de la Ville.",
+                "Plan massif d'économie et de désendettement dès la 1re année.",
+                "Encadrer les frais de réception pour éviter les abus.",
+                "Conseil de Surveillance Budgétaire Indépendant avec rapport semestriel public.",
+                "Lutter contre la bureaucratie et les privilèges des élus.",
+                "Contrôle de gestion confié à une association de défense des contribuables."
+              ]
             }
           }
         },
@@ -995,21 +1552,30 @@
           "nom": "Vie associative",
           "propositions": {
             "gregoire": {
-              "texte": "Soutien à la vie associative : doublement des subventions, locaux gratuits. Nuits parisiennes : charte de la nuit, médiateurs, lieux culturels ouverts",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Soutien à la vie associative : doublement des subventions, locaux gratuits.",
+                "Nuits parisiennes : charte de la nuit, médiateurs, lieux culturels ouverts."
+              ]
             },
             "dati": {
-              "texte": "Réorientation des subventions vers les associations agissant pour les Parisiens, fin de l'opacité. Mise à disposition d'espaces de réunion et moyens logistiques, plateforme de réservation de locaux dans les bâtiments publics. Rétablissement de la neutralité politique des subventions : fin des subventions militantes et de la préférence pour les arrondissements acquis à l'exécutif.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Réorientation des subventions vers les associations agissant pour les Parisiens, fin de l'opacité.",
+                "Mise à disposition d'espaces de réunion et moyens logistiques, plateforme de réservation de locaux dans les bâtiments publics.",
+                "Rétablissement de la neutralité politique des subventions : fin des subventions militantes et de la préférence pour les arrondissements acquis à l'exécutif."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
             "knafo": {
-              "texte": "Réduction de 100 M€/an des subventions aux associations politisées, recentrage sur les associations d'intérêt général",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Réduction de 100 M€/an des subventions aux associations politisées, recentrage sur les associations d'intérêt général."
+              ]
             },
             "mariani": null
           }
@@ -1019,30 +1585,54 @@
           "nom": "Services publics",
           "propositions": {
             "gregoire": {
-              "texte": "100 % de recours aux droits avec permanences mobiles par quartier. Permanences MDPH dans tous les arrondissements. Accompagnement personnalisé des allocataires du RSA. Transformer les mairies d’arrondissement en maisons de service public de proximité",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "100 % de recours aux droits avec permanences mobiles par quartier.",
+                "Permanences MDPH dans tous les arrondissements.",
+                "Accompagnement personnalisé des allocataires du RSA.",
+                "Transformer les mairies d’arrondissement en maisons de service public de proximité."
+              ]
             },
             "dati": {
-              "texte": "Choc de gestion : réduction des dépenses de fonctionnement de 3 %/an (~275-300 M€). Application des 35h réellement travaillées (contre 32h actuelles). Règle d'or RH : effectifs alignés sur la courbe démographique (1 agent/39 habitants vs 1/107 à Londres). Non-remplacement partiel des départs en retraite. Prime au mérite renforcée pour les agents les plus engagés.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Choc de gestion : réduction des dépenses de fonctionnement de 3 %/an (~275-300 M€)",
+                "Application des 35h réellement travaillées (contre 32h actuelles)",
+                "Règle d'or RH : effectifs alignés sur la courbe démographique (1 agent/39 habitants vs 1/107 à Londres)",
+                "Non-remplacement partiel des départs en retraite.",
+                "Prime au mérite renforcée pour les agents les plus engagés."
+              ]
             },
             "chikirou": null,
             "bournazel": {
-              "texte": "Fusion des trois bailleurs sociaux parisiens (6 % d'économies structurelles, 540 M€ réalloués). Économies de 4 Md€ sur 6 ans : vente de 20 000 logements sociaux hors Paris (3 Md€), réduction de l'absentéisme (190 M€), non-remplacement d'un départ sur trois (315 M€), application des 35 heures (récupération de 2 000 ETP)",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/dette"
+              "sourceUrl": "https://bournazel.paris/engagements/dette",
+              "mesures": [
+                "Fusion des trois bailleurs sociaux parisiens (6 % d'économies structurelles, 540 M€ réalloués)",
+                "Économies de 4 Md€ sur 6 ans : vente de 20 000 logements sociaux hors Paris (3 Md€), réduction de l'absentéisme (190 M€), non-remplacement d'un départ sur trois (315 M€), application des 35 heures (récupération de 2 000 ETP)"
+              ]
             },
             "knafo": {
-              "texte": "Non-remplacement d'un départ sur deux (objectif : -15 000 postes en 6 ans). Mobilité interne et reconversion vers police municipale et petite enfance. Plan de départs volontaires. Rationalisation du temps de travail (50 jours d'absence → 33 jours pour les nouveaux contrats)",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Non-remplacement d'un départ sur deux (objectif : -15 000 postes en 6 ans)",
+                "Mobilité interne et reconversion vers police municipale et petite enfance.",
+                "Plan de départs volontaires.",
+                "Rationalisation du temps de travail (50 jours d'absence → 33 jours pour les nouveaux contrats)"
+              ]
             },
             "mariani": {
-              "texte": "Redéployer les effectifs municipaux sur le terrain. Gestion assainie des services publics avec objectifs d'efficacité. Réformer la gestion des ressources humaines. Chaque arrondissement pourra choisir ses prestataires de services (propreté, entretien)",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Redéployer les effectifs municipaux sur le terrain.",
+                "Gestion assainie des services publics avec objectifs d'efficacité.",
+                "Réformer la gestion des ressources humaines.",
+                "Chaque arrondissement pourra choisir ses prestataires de services (propreté, entretien)"
+              ]
             }
           }
         }
@@ -1058,25 +1648,47 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "Guichet unique pour implantations commerciales, artisanales et industrielles. Principe 'dites-le-nous une fois' : un seul dossier partagé entre services. Délais garantis de 3 semaines (silence vaut acceptation). Exonération de CFE pour les locaux vacants depuis plus de 2 ans. Marchés éphémères de quartier. Collecte mutualisée pour commerces. Étude d'impact sur le commerce pour chaque projet d'aménagement.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Guichet unique pour implantations commerciales, artisanales et industrielles.",
+                "Principe 'dites-le-nous une fois' : un seul dossier partagé entre services.",
+                "Délais garantis de 3 semaines (silence vaut acceptation)",
+                "Exonération de CFE pour les locaux vacants depuis plus de 2 ans.",
+                "Marchés éphémères de quartier.",
+                "Collecte mutualisée pour commerces.",
+                "Étude d'impact sur le commerce pour chaque projet d'aménagement."
+              ]
             },
             "chikirou": {
-              "texte": "Triplement des espaces commerciaux publics via la Foncière Paris Commerce avec loyers très réduits. Création d'un statut de « commerce essentiel » (alimentation, artisanat dans un rayon de 400-500 m). Garantie municipale à 50 % des prêts des entrepreneurs de moins de 35 ans. Augmentation de la taxe sur les locaux commerciaux vacants spéculatifs",
               "source": "Journal du Grand Paris / Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Triplement des espaces commerciaux publics via la Foncière Paris Commerce avec loyers très réduits.",
+                "Création d'un statut de « commerce essentiel » (alimentation, artisanat dans un rayon de 400-500 m)",
+                "Garantie municipale à 50 % des prêts des entrepreneurs de moins de 35 ans.",
+                "Augmentation de la taxe sur les locaux commerciaux vacants spéculatifs."
+              ]
             },
             "bournazel": null,
             "knafo": {
-              "texte": "Abroger le PLU bioclimatique (PLUb) et diviser par 3 les durées d'instruction des permis de construire pour libérer les entrepreneurs",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Abroger le PLU bioclimatique (PLUb) et diviser par 3 les durées d'instruction des permis de construire pour libérer les entrepreneurs."
+              ]
             },
             "mariani": {
-              "texte": "Fonds d'aide à l'installation de 50 M€ sur 5 ans pour reprises de commerces vacants. Fonds de soutien aux jeunes entrepreneurs (<35 ans) avec garantie municipale de 50 %. Taxe dissuasive de 30 % sur locaux commerciaux vacants >2 ans. Programme « 1 000 commerces » et 15 nouveaux marchés de plein vent. Transfert des compétences d'autorisations d'ouverture aux mairies d'arrondissement. Incubateur municipal",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Fonds d'aide à l'installation de 50 M€ sur 5 ans pour reprises de commerces vacants.",
+                "Fonds de soutien aux jeunes entrepreneurs (<35 ans) avec garantie municipale de 50 %.",
+                "Taxe dissuasive de 30 % sur locaux commerciaux vacants >2 ans.",
+                "Programme « 1 000 commerces » et 15 nouveaux marchés de plein vent.",
+                "Transfert des compétences d'autorisations d'ouverture aux mairies d'arrondissement.",
+                "Incubateur municipal."
+              ]
             }
           }
         },
@@ -1086,17 +1698,24 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "'Small Parisian Business Act' : faciliter l'accès des TPE-PME aux marchés publics via allotissement et procédures simplifiées. Pôles parisiens du numérique et de l'IA (entreprises, écoles, universités). Cours d'Adultes de Paris centrés sur compétences commerciales (langues, accueil, numérique, gestion). 1 % du budget d'investissement aux 'preuves de concept' pour entrepreneurs.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "'Small Parisian Business Act' : faciliter l'accès des TPE-PME aux marchés publics via allotissement et procédures simplifiées.",
+                "Pôles parisiens du numérique et de l'IA (entreprises, écoles, universités)",
+                "Cours d'Adultes de Paris centrés sur compétences commerciales (langues, accueil, numérique, gestion). 1 % du budget d'investissement aux 'preuves de concept' pour entrepreneurs."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
             "knafo": null,
             "mariani": {
-              "texte": "Parcours civique municipal pour les 16-25 ans : 200 heures de missions d'intérêt général rémunérées au SMIC horaire. Création de zones franches pour revitaliser les quartiers en crise",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Parcours civique municipal pour les 16-25 ans : 200 heures de missions d'intérêt général rémunérées au SMIC horaire.",
+                "Création de zones franches pour revitaliser les quartiers en crise."
+              ]
             }
           }
         },
@@ -1106,21 +1725,37 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "Points de détaxe immédiate dans les quartiers touristiques (seuil abaissé de 100€ à 50€). Signalétique multilingue renforcée (en lien avec la RATP). Labels 'Fabriqué à Paris' et 'Paris Business' pour dynamiser tourisme et commerce. Fonds Parisien pour l'Innovation pour faire de Paris un leader de la Smart City.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Points de détaxe immédiate dans les quartiers touristiques (seuil abaissé de 100€ à 50€)",
+                "Signalétique multilingue renforcée (en lien avec la RATP)",
+                "Labels 'Fabriqué à Paris' et 'Paris Business' pour dynamiser tourisme et commerce.",
+                "Fonds Parisien pour l'Innovation pour faire de Paris un leader de la Smart City."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
             "knafo": {
-              "texte": "Commande publique réservée aux entreprises françaises du numérique. Données des Parisiens stockées exclusivement sur serveurs français. Maquette numérique (jumeau numérique) de Paris. Vente de bâtiments municipaux devenus obsolètes, de foncier non bâti (880 ha plaine d'Achères), de logements et commerces municipaux. Plan d'accession à la propriété avec exonération de frais de notaire pour les primo-accédants",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Commande publique réservée aux entreprises françaises du numérique.",
+                "Données des Parisiens stockées exclusivement sur serveurs français.",
+                "Maquette numérique (jumeau numérique) de Paris.",
+                "Vente de bâtiments municipaux devenus obsolètes, de foncier non bâti (880 ha plaine d'Achères), de logements et commerces municipaux.",
+                "Plan d'accession à la propriété avec exonération de frais de notaire pour les primo-accédants."
+              ]
             },
             "mariani": {
-              "texte": "Soutenir le « Made in France » et les initiatives « Faites en France ». Le Parc des Princes appartient aux Parisiens : cesser de brader les biens publics. Moratoire sur les grands travaux non-essentiels. Aucune hausse d'impôts sur les ménages, travailleurs et entreprises",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Soutenir le « Made in France » et les initiatives « Faites en France ».",
+                "Le Parc des Princes appartient aux Parisiens : cesser de brader les biens publics.",
+                "Moratoire sur les grands travaux non-essentiels.",
+                "Aucune hausse d'impôts sur les ménages, travailleurs et entreprises."
+              ]
             }
           }
         }
@@ -1135,22 +1770,34 @@
           "nom": "Équipements culturels",
           "propositions": {
             "gregoire": {
-              "texte": "Gratuité des musées municipaux. 1 lieu culturel municipal de proximité par quartier. Grand plan lecture publique avec horaires élargis et médiathèques renforcées. Soutien à la création artistique et résidences d’artistes",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Gratuité des musées municipaux. 1 lieu culturel municipal de proximité par quartier.",
+                "Grand plan lecture publique avec horaires élargis et médiathèques renforcées.",
+                "Soutien à la création artistique et résidences d’artistes."
+              ]
             },
             "dati": {
-              "texte": "Bibliothèques et médiathèques ouvertes systématiquement le dimanche avec horaires élargis. 2 000 places supplémentaires dans les conservatoires d'ici 2027 (priorité : 15e, 16e, 18e, 19e, 20e). Conservatoire 'hors les murs' : cours hebdomadaires dans les écoles des quartiers prioritaires. Espace culturel immersif au musée Carnavalet. 'Villa Médicis' du design sur l'ex-Mairie du 1er. Nocturnes hebdomadaires dans les grands musées municipaux.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Bibliothèques et médiathèques ouvertes systématiquement le dimanche avec horaires élargis. 2 000 places supplémentaires dans les conservatoires d'ici 2027 (priorité : 15e, 16e, 18e, 19e, 20e)",
+                "Conservatoire 'hors les murs' : cours hebdomadaires dans les écoles des quartiers prioritaires.",
+                "Espace culturel immersif au musée Carnavalet. 'Villa Médicis' du design sur l'ex-Mairie du 1er.",
+                "Nocturnes hebdomadaires dans les grands musées municipaux."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
             "knafo": null,
             "mariani": {
-              "texte": "Préserver l'héritage culturel parisien : recentrer le budget culture sur le patrimoine et le mobilier historique. Parcours obligatoire « Jeune Parisien » dans les hauts lieux du patrimoine (Notre-Dame, Panthéon, Arc de Triomphe, Invalides, Sainte-Chapelle, Opéra Garnier...)",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Préserver l'héritage culturel parisien : recentrer le budget culture sur le patrimoine et le mobilier historique.",
+                "Parcours obligatoire « Jeune Parisien » dans les hauts lieux du patrimoine (Notre-Dame, Panthéon, Arc de Triomphe, Invalides, Sainte-Chapelle, Opéra Garnier...)"
+              ]
             }
           }
         },
@@ -1160,9 +1807,14 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "Nuit blanche des enfants (5-12 ans, 2 fois/an, 18h-minuit). Grand orchestre parisien des collèges des 17 arrondissements (3 concerts/an à la Philharmonie et Opéra Bastille). Festival populaire des arts vivants avec remise de prix. 20 toits-terrasses transformés en lieux de diffusion culturelle estivale gratuite. Œuvres d'art contemporain tournantes dans chaque square. Programmation culturelle dédiée aux Parisiens des outre-mer au Cent-Quatre.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Nuit blanche des enfants (5-12 ans, 2 fois/an, 18h-minuit)",
+                "Grand orchestre parisien des collèges des 17 arrondissements (3 concerts/an à la Philharmonie et Opéra Bastille)",
+                "Festival populaire des arts vivants avec remise de prix. 20 toits-terrasses transformés en lieux de diffusion culturelle estivale gratuite. Œuvres d'art contemporain tournantes dans chaque square.",
+                "Programmation culturelle dédiée aux Parisiens des outre-mer au Cent-Quatre."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
@@ -1181,26 +1833,42 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "gregoire": {
-              "texte": "50 nouveaux équipements sportifs de proximité. Sport sur ordonnance élargi. Paris capitale des grands événements sportifs et culturels",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "50 nouveaux équipements sportifs de proximité.",
+                "Sport sur ordonnance élargi.",
+                "Paris capitale des grands événements sportifs et culturels."
+              ]
             },
             "dati": {
-              "texte": "Audit d'infrastructure et plan de modernisation des équipements sportifs. Rénovation prioritaire des piscines municipales vétustes. Négociation vente du Parc des Princes au PSG en contrepartie d'un village sportif et culturel ouvert aux associations et Parisiens. Plus de créneaux sur des plages horaires élargies. Fin des réquisitions intempestives des gymnases.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Audit d'infrastructure et plan de modernisation des équipements sportifs.",
+                "Rénovation prioritaire des piscines municipales vétustes.",
+                "Négociation vente du Parc des Princes au PSG en contrepartie d'un village sportif et culturel ouvert aux associations et Parisiens.",
+                "Plus de créneaux sur des plages horaires élargies.",
+                "Fin des réquisitions intempestives des gymnases."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
             "knafo": {
-              "texte": "Équipements sportifs municipaux ouverts de 7h à 23h avec partenariats entreprises. Terrains de sport sous le métro aérien (football, basketball, padel)",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Équipements sportifs municipaux ouverts de 7h à 23h avec partenariats entreprises.",
+                "Terrains de sport sous le métro aérien (football, basketball, padel)"
+              ]
             },
             "mariani": {
-              "texte": "Créer trois nouvelles piscines municipales et rénover les existantes. Plan d'apprentissage « savoir-nager » pour tous les élèves du cycle 3",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Créer trois nouvelles piscines municipales et rénover les existantes.",
+                "Plan d'apprentissage « savoir-nager » pour tous les élèves du cycle 3."
+              ]
             }
           }
         },
@@ -1210,9 +1878,12 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "Sport accessible à tous sans exception : créneaux réservés au sport adapté et sport-santé. Développement du sport féminin à Paris.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Sport accessible à tous sans exception : créneaux réservés au sport adapté et sport-santé.",
+                "Développement du sport féminin à Paris."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
@@ -1231,34 +1902,59 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "gregoire": {
-              "texte": "Requalification du Périphérique en boulevard urbain végétalisé",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Requalification du Périphérique en boulevard urbain végétalisé."
+              ]
             },
             "dati": {
-              "texte": "Charte 'Paris du Beau' pour espaces publics et opérations d'aménagement. Réhabilitation du mobilier haussmannien (fontaines Wallace, colonnes Morris). Commission du Mobilier Urbain réactivée (pas réunie depuis 2011). Transformation des quais de Seine en grand parc urbain patrimonial (bancs Davioud, matériaux nobles). Végétalisation de la place de la République avec retour des fontaines aux dauphins. Concours architectural pour les portes de Paris. Retrait des palissades sous 7 jours. Plan d'urgence pour le patrimoine (églises, lieux cultuels).",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Charte 'Paris du Beau' pour espaces publics et opérations d'aménagement.",
+                "Réhabilitation du mobilier haussmannien (fontaines Wallace, colonnes Morris)",
+                "Commission du Mobilier Urbain réactivée (pas réunie depuis 2011)",
+                "Transformation des quais de Seine en grand parc urbain patrimonial (bancs Davioud, matériaux nobles)",
+                "Végétalisation de la place de la République avec retour des fontaines aux dauphins.",
+                "Concours architectural pour les portes de Paris.",
+                "Retrait des palissades sous 7 jours.",
+                "Plan d'urgence pour le patrimoine (églises, lieux cultuels)."
+              ]
             },
             "chikirou": {
-              "texte": "Transformation du périphérique en boulevard urbain (engagement envers les alliés écologistes)",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Transformation du périphérique en boulevard urbain (engagement envers les alliés écologistes)"
+              ]
             },
             "bournazel": {
-              "texte": "Couverture de 5 km supplémentaires du périphérique d'ici 2035 dans les secteurs les plus exposés au bruit. Systèmes de régulation intelligente de la vitesse sur le périphérique. Revêtement acoustique et écrans végétaux. Aide à l'isolation acoustique de 1 000 bars et restaurants (35 M€ sur 7 ans)",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/apaiser-paris"
+              "sourceUrl": "https://bournazel.paris/engagements/apaiser-paris",
+              "mesures": [
+                "Couverture de 5 km supplémentaires du périphérique d'ici 2035 dans les secteurs les plus exposés au bruit.",
+                "Systèmes de régulation intelligente de la vitesse sur le périphérique.",
+                "Revêtement acoustique et écrans végétaux.",
+                "Aide à l'isolation acoustique de 1 000 bars et restaurants (35 M€ sur 7 ans)"
+              ]
             },
             "knafo": {
-              "texte": "Relever la vitesse à 80 km/h sur le périphérique (infrastructure conçue pour 90 km/h, la limitation à 50 km/h n’a réduit ni pollution ni bruit)",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Relever la vitesse à 80 km/h sur le périphérique (infrastructure conçue pour 90 km/h, la limitation à 50 km/h n’a réduit ni pollution ni bruit)"
+              ]
             },
             "mariani": {
-              "texte": "Moratoire et révision des projets Tour Eiffel-Trocadéro, Champs de Mars-École Militaire et Place de la Concorde, référendum en 2026. Soutenir la couverture partielle du périphérique. Garantir la préservation des quartiers pavillonnaires historiques. Nouveau crématorium sous délégation de service public",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Moratoire et révision des projets Tour Eiffel-Trocadéro, Champs de Mars-École Militaire et Place de la Concorde, référendum en 2026.",
+                "Soutenir la couverture partielle du périphérique.",
+                "Garantir la préservation des quartiers pavillonnaires historiques.",
+                "Nouveau crématorium sous délégation de service public."
+              ]
             }
           }
         },
@@ -1267,22 +1963,33 @@
           "nom": "Accessibilité",
           "propositions": {
             "gregoire": {
-              "texte": "Accessibilité universelle de tous les services et lieux publics. Plan mémoire et transmission",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Accessibilité universelle de tous les services et lieux publics.",
+                "Plan mémoire et transmission."
+              ]
             },
             "dati": {
-              "texte": "Mise en accessibilité du métro pour les personnes handicapées (Ligne 6 en priorité). Espaces accessibles aux chiens dans les parcs (caniparcs avec double porte, enherbés). Opérations d'aménagement adaptées aux personnes âgées et PMR (assises, prévention des chutes). Amende de non-ramassage des déjections canines relevée de 135€ à 300€.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Mise en accessibilité du métro pour les personnes handicapées (Ligne 6 en priorité)",
+                "Espaces accessibles aux chiens dans les parcs (caniparcs avec double porte, enherbés)",
+                "Opérations d'aménagement adaptées aux personnes âgées et PMR (assises, prévention des chutes)",
+                "Amende de non-ramassage des déjections canines relevée de 135€ à 300€."
+              ]
             },
             "chikirou": null,
             "bournazel": null,
             "knafo": null,
             "mariani": {
-              "texte": "Mise aux normes d'accessibilité PMR complète de tous les établissements scolaires. Climatisation des établissements scolaires et lieux accueillant du public",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Mise aux normes d'accessibilité PMR complète de tous les établissements scolaires.",
+                "Climatisation des établissements scolaires et lieux accueillant du public."
+              ]
             }
           }
         },
@@ -1292,21 +1999,30 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "Obligations renforcées de végétalisation et d'adaptation climatique des QPV surminéralisés. Contrôle accru des nuisances automobiles : revêtements phoniques, radars 'méduses' contre le bruit. Limitation des nuisances liées aux travaux : interdiction soirs et week-ends (hors urgences), charte des chantiers à faible nuisance.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Obligations renforcées de végétalisation et d'adaptation climatique des QPV surminéralisés.",
+                "Contrôle accru des nuisances automobiles : revêtements phoniques, radars 'méduses' contre le bruit.",
+                "Limitation des nuisances liées aux travaux : interdiction soirs et week-ends (hors urgences), charte des chantiers à faible nuisance."
+              ]
             },
             "chikirou": {
-              "texte": "Rééquilibrage des moyens et des équipements publics en faveur des arrondissements périphériques et des quartiers populaires",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Rééquilibrage des moyens et des équipements publics en faveur des arrondissements périphériques et des quartiers populaires."
+              ]
             },
             "bournazel": null,
             "knafo": null,
             "mariani": {
-              "texte": "Développer les Zones de Sécurité Prioritaires (ZSP) avec antennes de police municipale et permanences mobiles dans les quartiers prioritaires. Création de zones franches pour revitaliser les quartiers les plus abandonnés",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Développer les Zones de Sécurité Prioritaires (ZSP) avec antennes de police municipale et permanences mobiles dans les quartiers prioritaires.",
+                "Création de zones franches pour revitaliser les quartiers les plus abandonnés."
+              ]
             }
           }
         }
@@ -1321,34 +2037,58 @@
           "nom": "Aide sociale",
           "propositions": {
             "gregoire": {
-              "texte": "4 000 places d’hébergement d’urgence, réquisition des logements vides depuis plus de 5 ans. Objectif zéro enfant à la rue, présomption de minorité pour les mineurs étrangers non accompagnés. Revenu Solidarité Jeunesse sous conditions pour les jeunes sortant de l’Aide Sociale à l’Enfance (ASE). Paris ville refuge : accueil des migrants, hébergement et accompagnement",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "4 000 places d’hébergement d’urgence, réquisition des logements vides depuis plus de 5 ans.",
+                "Objectif zéro enfant à la rue, présomption de minorité pour les mineurs étrangers non accompagnés.",
+                "Revenu Solidarité Jeunesse sous conditions pour les jeunes sortant de l’Aide Sociale à l’Enfance (ASE)",
+                "Paris ville refuge : accueil des migrants, hébergement et accompagnement."
+              ]
             },
             "dati": {
-              "texte": "Maisons de la parentalité : extension des PMI au-delà de 6 ans pour accompagner les parents (conseils, aide recherche de professionnels). Animateurs formés à la mission AESH pour les enfants handicapés. Guichet unique MDPH effectif. Chèque vétérinaire pour les plus démunis via les Maisons des Solidarités.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Maisons de la parentalité : extension des PMI au-delà de 6 ans pour accompagner les parents (conseils, aide recherche de professionnels)",
+                "Animateurs formés à la mission AESH pour les enfants handicapés.",
+                "Guichet unique MDPH effectif.",
+                "Chèque vétérinaire pour les plus démunis via les Maisons des Solidarités."
+              ]
             },
             "chikirou": {
-              "texte": "Paris populaire et solidaire : renforcement de l'entraide et des dispositifs d'aide aux plus précaires. Coopération concrète avec les communes voisines pour le logement, les transports, l'écologie et les services publics",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Paris populaire et solidaire : renforcement de l'entraide et des dispositifs d'aide aux plus précaires.",
+                "Coopération concrète avec les communes voisines pour le logement, les transports, l'écologie et les services publics."
+              ]
             },
             "bournazel": {
-              "texte": "Service minimum dans les écoles en cas de grève. Carte Solo Parent avec tarifs réduits pour les familles monoparentales (crèches, cantines, culture, musées, transports)",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://bournazel.paris/engagements/famille"
+              "sourceUrl": "https://bournazel.paris/engagements/famille",
+              "mesures": [
+                "Service minimum dans les écoles en cas de grève.",
+                "Carte Solo Parent avec tarifs réduits pour les familles monoparentales (crèches, cantines, culture, musées, transports)"
+              ]
             },
             "knafo": {
-              "texte": "Fermeture des 99 centres d'hébergement pour migrants en situation irrégulière à Paris",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://unevilleheureuse.fr/"
+              "sourceUrl": "https://unevilleheureuse.fr/",
+              "mesures": [
+                "Fermeture des 99 centres d'hébergement pour migrants en situation irrégulière à Paris."
+              ]
             },
             "mariani": {
-              "texte": "Fermer les structures municipales d'accueil pour migrants et rendre les locaux aux Parisiens. Supprimer les subventions aux associations immigrationnistes. Cellule de veille campements opérationnelle 24h/24. Allocation de 300 €/mois pour les familles sans place en crèche. Gratuité de la crèche à partir du 3e enfant",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Fermer les structures municipales d'accueil pour migrants et rendre les locaux aux Parisiens.",
+                "Supprimer les subventions aux associations immigrationnistes.",
+                "Cellule de veille campements opérationnelle 24h/24.",
+                "Allocation de 300 €/mois pour les familles sans place en crèche.",
+                "Gratuité de la crèche à partir du 3e enfant."
+              ]
             }
           }
         },
@@ -1357,19 +2097,30 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "gregoire": {
-              "texte": "Plan contre le racisme, l’antisémitisme et les LGBTphobies. Budget genré de la ville",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://emmanuel-gregoire-2026.fr/"
+              "sourceUrl": "https://emmanuel-gregoire-2026.fr/",
+              "mesures": [
+                "Plan contre le racisme, l’antisémitisme et les LGBTphobies.",
+                "Budget genré de la ville."
+              ]
             },
             "dati": {
-              "texte": "'Bus des Femmes' pour la prévention et les soins primaires dans les quartiers difficiles d'accès. Encadrement des terrasses et droit au sommeil garanti pour lutter contre les nuisances. Programmation culturelle valorisant les Parisiens des outre-mer.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "'Bus des Femmes' pour la prévention et les soins primaires dans les quartiers difficiles d'accès.",
+                "Encadrement des terrasses et droit au sommeil garanti pour lutter contre les nuisances.",
+                "Programmation culturelle valorisant les Parisiens des outre-mer."
+              ]
             },
             "chikirou": {
-              "texte": "Plan pour Paris Capitale Antiraciste. Budgets municipaux sensibles au genre avec indicateurs transparents. Action soutenue contre toutes les discriminations",
               "source": "Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/notre-plan-pour-paris-capitale-antiraciste/"
+              "sourceUrl": "https://sophiapourparis.fr/notre-plan-pour-paris-capitale-antiraciste/",
+              "mesures": [
+                "Plan pour Paris Capitale Antiraciste.",
+                "Budgets municipaux sensibles au genre avec indicateurs transparents.",
+                "Action soutenue contre toutes les discriminations."
+              ]
             },
             "bournazel": null,
             "knafo": null,
@@ -1382,21 +2133,35 @@
           "propositions": {
             "gregoire": null,
             "dati": {
-              "texte": "Pas de nouveaux impôts, stabilité de la taxe foncière. Prêt à taux zéro pour déménagement familial (10 000 à 50 000€). Fin des préemptions (250 M€/an économisés). Réduction progressive des dépenses de fonctionnement de 3 %/an. Colombariums pour urnes funéraires d'animaux, crémation à prix coûtant.",
               "source": "Programme officiel 2026 (PDF 32 pages)",
-              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/"
+              "sourceUrl": "https://rachidadati2026.com/dossiers_de_presse/dossier-de-presse-programme-rachida-dati/",
+              "mesures": [
+                "Pas de nouveaux impôts, stabilité de la taxe foncière.",
+                "Prêt à taux zéro pour déménagement familial (10 000 à 50 000€)",
+                "Fin des préemptions (250 M€/an économisés)",
+                "Réduction progressive des dépenses de fonctionnement de 3 %/an.",
+                "Colombariums pour urnes funéraires d'animaux, crémation à prix coûtant."
+              ]
             },
             "chikirou": {
-              "texte": "Division par deux de la taxe foncière et remboursement du trop-perçu lié à la hausse de 2023. Réforme de la taxe foncière pour distinguer propriétaires d'un seul logement et multipropriétaires spéculatifs",
               "source": "Journal du Grand Paris / Site de campagne 2026",
-              "sourceUrl": "https://sophiapourparis.fr/"
+              "sourceUrl": "https://sophiapourparis.fr/",
+              "mesures": [
+                "Division par deux de la taxe foncière et remboursement du trop-perçu lié à la hausse de 2023.",
+                "Réforme de la taxe foncière pour distinguer propriétaires d'un seul logement et multipropriétaires spéculatifs."
+              ]
             },
             "bournazel": null,
             "knafo": null,
             "mariani": {
-              "texte": "Réduire la taxe foncière : 310 M€ rendus aux foyers parisiens par an (205 € pour un studio, 574 € pour 70 m², 820 € pour un 4 pièces). Aucune hausse d'impôts. Gel des taxes (stationnement résidentiel, droits de terrasse, TEOM). Engager le remboursement accéléré de la dette parisienne",
               "source": "Programme officiel 2026 (PDF)",
-              "sourceUrl": "https://www.mariani-2026.fr/Le-programme"
+              "sourceUrl": "https://www.mariani-2026.fr/Le-programme",
+              "mesures": [
+                "Réduire la taxe foncière : 310 M€ rendus aux foyers parisiens par an (205 € pour un studio, 574 € pour 70 m², 820 € pour un 4 pièces)",
+                "Aucune hausse d'impôts.",
+                "Gel des taxes (stationnement résidentiel, droits de terrasse, TEOM)",
+                "Engager le remboursement accéléré de la dette parisienne."
+              ]
             }
           }
         }

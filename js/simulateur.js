@@ -126,14 +126,15 @@
     var candidats = etat.donneesElection.candidats;
     for (var i = 0; i < candidats.length; i++) {
       var prop = found.sousTheme.propositions[candidats[i].id];
-      if (prop && prop.texte && prop.texte === question.texte) {
+      var propTexte = prop && prop.mesures ? prop.mesures.join(" ") : (prop && prop.texte ? prop.texte : "");
+      if (propTexte && propTexte === question.texte) {
         return { candidat: candidats[i], proposition: prop };
       }
     }
     // Fallback : premier candidat avec une proposition
     for (var j = 0; j < candidats.length; j++) {
       var p = found.sousTheme.propositions[candidats[j].id];
-      if (p && p.texte) {
+      if (p && (p.mesures && p.mesures.length > 0 || p.texte)) {
         return { candidat: candidats[j], proposition: p };
       }
     }
@@ -160,8 +161,9 @@
     // Collecter tous les candidats ayant une proposition
     for (var i = 0; i < candidats.length; i++) {
       var prop = sousTheme.propositions[candidats[i].id];
-      if (prop && prop.texte) {
-        options.push({ texte: prop.texte, candidatId: candidats[i].id });
+      var txt = prop && prop.mesures ? prop.mesures.join(" ") : (prop && prop.texte ? prop.texte : "");
+      if (txt) {
+        options.push({ texte: txt, candidatId: candidats[i].id });
       }
     }
     if (options.length === 0) return null;
@@ -175,13 +177,14 @@
     var props = [];
     for (var i = 0; i < candidats.length; i++) {
       var prop = sousTheme.propositions[candidats[i].id];
-      if (prop && prop.texte) {
+      var txt = prop && prop.mesures ? prop.mesures.join(" ") : (prop && prop.texte ? prop.texte : "");
+      if (txt) {
         props.push({
           candidatId: candidats[i].id,
           candidatNom: candidats[i].nom,
           candidatListe: candidats[i].liste,
           candidatIndex: i,
-          texte: prop.texte,
+          texte: txt,
           source: prop.source,
           sourceUrl: prop.sourceUrl
         });

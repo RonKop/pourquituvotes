@@ -153,7 +153,7 @@ def compter_propositions(ville, election):
     for cat in election.get("categories", []):
         for st in cat.get("sousThemes", []):
             for cid, prop in st.get("propositions", {}).items():
-                if cid in compteurs and prop and prop.get("texte"):
+                if cid in compteurs and prop and (prop.get("mesures") or prop.get("texte")):
                     compteurs[cid] += 1
 
     for cid in sorted(candidats):

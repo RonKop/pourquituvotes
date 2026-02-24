@@ -63,21 +63,29 @@
           "nom": "Police municipale",
           "propositions": {
             "philippe": {
-              "texte": "Création d'un poste de police municipale en ville haute. Augmentation des effectifs de police municipale.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Création d'un poste de police municipale en ville haute.",
+                "Augmentation des effectifs de police municipale."
+              ]
             },
             "lecoq": null,
             "keller": {
-              "texte": "Faire de la sécurité un axe prioritaire : renforcement de la sécurité publique et de la propreté",
               "source": "Tendance Ouest, 2026",
-              "sourceUrl": "https://www.tendanceouest.com/actualite-435434-le-havre-qui-est-franck-keller-candidat-de-l-alliance-udr-rn-aux-municipales"
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435434-le-havre-qui-est-franck-keller-candidat-de-l-alliance-udr-rn-aux-municipales",
+              "mesures": [
+                "Faire de la sécurité un axe prioritaire : renforcement de la sécurité publique et de la propreté."
+              ]
             },
             "boulogne": null,
             "zarifian": {
-              "texte": "Police municipale de proximité centrée sur la médiation, la désescalade et la connaissance du terrain. Ateliers de médiation et prévention des violences dans les écoles et centres sociaux.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Police municipale de proximité centrée sur la médiation, la désescalade et la connaissance du terrain.",
+                "Ateliers de médiation et prévention des violences dans les écoles et centres sociaux."
+              ]
             },
             "cauchois": null
           }
@@ -87,9 +95,12 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "philippe": {
-              "texte": "Installation de 400 caméras supplémentaires en 6 ans (objectif 1 000 au total). Déploiement de la vidéosurveillance pour les infractions routières et les dépôts sauvages.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Installation de 400 caméras supplémentaires en 6 ans (objectif 1 000 au total)",
+                "Déploiement de la vidéosurveillance pour les infractions routières et les dépôts sauvages."
+              ]
             },
             "lecoq": null,
             "keller": null,
@@ -103,21 +114,29 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "philippe": {
-              "texte": "Création d'un nouveau Centre de Supervision Urbaine avec partenaires (EAT, Police nationale, LIA). Création de zones d'échange sécurisées pour les achats en ligne.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Création d'un nouveau Centre de Supervision Urbaine avec partenaires (EAT, Police nationale, LIA)",
+                "Création de zones d'échange sécurisées pour les achats en ligne."
+              ]
             },
             "lecoq": {
-              "texte": "Augmenter le nombre d'agents de sécurité et de médiation pour assurer la tranquillité publique et lutter contre les incivilités.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Augmenter le nombre d'agents de sécurité et de médiation pour assurer la tranquillité publique et lutter contre les incivilités."
+              ]
             },
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Maison municipale de la prévention et de la tranquillité réunissant police municipale, éducateurs, médiateurs et associations. Médiateurs de quartier et éducateurs de rue présents quotidiennement.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Maison municipale de la prévention et de la tranquillité réunissant police municipale, éducateurs, médiateurs et associations.",
+                "Médiateurs de quartier et éducateurs de rue présents quotidiennement."
+              ]
             },
             "cauchois": null
           }
@@ -145,17 +164,25 @@
           "nom": "Transports en commun",
           "propositions": {
             "philippe": {
-              "texte": "Réalisation de la 3e ligne de tramway desservant directement l'hôpital Monod. Lancement du « ZIP fil » : desserte en transport des zones industrielles pour les travailleurs en horaires décalés. Installation d'une agence LIA en ville haute.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Réalisation de la 3e ligne de tramway desservant directement l'hôpital Monod.",
+                "Lancement du « ZIP fil » : desserte en transport des zones industrielles pour les travailleurs en horaires décalés.",
+                "Installation d'une agence LIA en ville haute."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Gratuité des transports publics pour la ville. Développement du réseau cyclable continu et sécurisé. Création d'une politique de stationnement juste (zones bleues à disque, première heure gratuite).",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Gratuité des transports publics pour la ville.",
+                "Développement du réseau cyclable continu et sécurisé.",
+                "Création d'une politique de stationnement juste (zones bleues à disque, première heure gratuite)."
+              ]
             },
             "cauchois": null
           }
@@ -165,9 +192,13 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "philippe": {
-              "texte": "Augmentation du parc de vélos en location à 3 000 unités (+500). Développement des pistes cyclables : boulevards Jules Durand, Graville, 29e Régiment. Extension du réseau cyclable sécurisé.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Augmentation du parc de vélos en location à 3 000 unités (+500)",
+                "Développement des pistes cyclables : boulevards Jules Durand, Graville, 29e Régiment.",
+                "Extension du réseau cyclable sécurisé."
+              ]
             },
             "lecoq": null,
             "keller": null,
@@ -181,9 +212,12 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "philippe": {
-              "texte": "Plan ambitieux de rénovation des trottoirs (Aplemont, Sanvic, Sainte-Cécile). Investissement dans l'infrastructure piétonne pour prévenir les chutes.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Plan ambitieux de rénovation des trottoirs (Aplemont, Sanvic, Sainte-Cécile)",
+                "Investissement dans l'infrastructure piétonne pour prévenir les chutes."
+              ]
             },
             "lecoq": null,
             "keller": null,
@@ -197,9 +231,14 @@
           "nom": "Stationnement",
           "propositions": {
             "philippe": {
-              "texte": "Réduction des tarifs d'abonnement parking de 12 à 20%. Extension des tarifs étudiants à toutes les zones vertes. Développement des cases arrêt-minute. Contrôle des parkings privés pour l'accessibilité PMR.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Réduction des tarifs d'abonnement parking de 12 à 20%.",
+                "Extension des tarifs étudiants à toutes les zones vertes.",
+                "Développement des cases arrêt-minute.",
+                "Contrôle des parkings privés pour l'accessibilité PMR."
+              ]
             },
             "lecoq": null,
             "keller": null,
@@ -213,19 +252,26 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "philippe": {
-              "texte": "Abonnement transport familial dès le premier enfant. Gratuité des transports pour tous les enfants de moins de 6 ans.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Abonnement transport familial dès le premier enfant.",
+                "Gratuité des transports pour tous les enfants de moins de 6 ans."
+              ]
             },
             "lecoq": {
-              "texte": "Instaurer le libre accès des transports en commun les mercredis, les samedis et pour les scolaires.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Instaurer le libre accès des transports en commun les mercredis, les samedis et pour les scolaires."
+              ]
             },
             "keller": {
-              "texte": "Gratuité des transports en commun",
               "source": "CNews, 2026",
-              "sourceUrl": "https://www.cnews.fr/france/2026-01-31/municipales-2026-qui-sont-les-candidats-la-mairie-du-havre-1809627"
+              "sourceUrl": "https://www.cnews.fr/france/2026-01-31/municipales-2026-qui-sont-les-candidats-la-mairie-du-havre-1809627",
+              "mesures": [
+                "Gratuité des transports en commun."
+              ]
             },
             "boulogne": null,
             "zarifian": null,
@@ -243,14 +289,18 @@
           "nom": "Logement social",
           "propositions": {
             "philippe": {
-              "texte": "Déploiement d'un plan de rénovation du logement social avec les bailleurs sociaux.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Déploiement d'un plan de rénovation du logement social avec les bailleurs sociaux."
+              ]
             },
             "lecoq": {
-              "texte": "Garantir un logement digne pour tous, lutte contre les logements insalubres et les marchands de sommeil",
               "source": "Tendance Ouest, 2026",
-              "sourceUrl": "https://www.tendanceouest.com/actualite-435542-municipales-2026-jean-paul-lecoq-sera-le-candidat-du-front-populaire-havrais"
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435542-municipales-2026-jean-paul-lecoq-sera-le-candidat-du-front-populaire-havrais",
+              "mesures": [
+                "Garantir un logement digne pour tous, lutte contre les logements insalubres et les marchands de sommeil."
+              ]
             },
             "keller": null,
             "boulogne": null,
@@ -264,9 +314,11 @@
           "propositions": {
             "philippe": null,
             "lecoq": {
-              "texte": "Expérimentation du permis de louer pour lutter contre l'habitat indigne.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Expérimentation du permis de louer pour lutter contre l'habitat indigne."
+              ]
             },
             "keller": null,
             "boulogne": null,
@@ -291,17 +343,24 @@
           "nom": "Accès au logement",
           "propositions": {
             "philippe": {
-              "texte": "Renforcement de la lutte contre l'habitat indigne. Encouragement à la construction de logements de qualité. Soutien aux copropriétés du centre reconstruit.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Renforcement de la lutte contre l'habitat indigne.",
+                "Encouragement à la construction de logements de qualité.",
+                "Soutien aux copropriétés du centre reconstruit."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Encadrement des ventes du domaine public pour stopper la spéculation. Développement de l'habitat participatif et des colocations intergénérationnelles.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Encadrement des ventes du domaine public pour stopper la spéculation.",
+                "Développement de l'habitat participatif et des colocations intergénérationnelles."
+              ]
             },
             "cauchois": null
           }
@@ -317,9 +376,12 @@
           "nom": "Petite enfance",
           "propositions": {
             "philippe": {
-              "texte": "Augmentation de la capacité des crèches de 30%. Extension des horaires des crèches (tôt le matin, tard le soir) pour les travailleurs en horaires décalés.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Augmentation de la capacité des crèches de 30%.",
+                "Extension des horaires des crèches (tôt le matin, tard le soir) pour les travailleurs en horaires décalés."
+              ]
             },
             "lecoq": null,
             "keller": null,
@@ -333,21 +395,31 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "philippe": {
-              "texte": "Accélération du plan de rénovation des écoles. Végétalisation de 18 cours d'école d'ici la fin du mandat (3 par an). Création d'une nouvelle école dans le quartier de l'Eure. Rénovation complète de l'école Paul Bert intégrant un IME.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Accélération du plan de rénovation des écoles.",
+                "Végétalisation de 18 cours d'école d'ici la fin du mandat (3 par an)",
+                "Création d'une nouvelle école dans le quartier de l'Eure.",
+                "Rénovation complète de l'école Paul Bert intégrant un IME."
+              ]
             },
             "lecoq": {
-              "texte": "Plan de rénovation des bâtiments municipaux avec effort particulier sur les écoles et gymnases",
               "source": "France Bleu Normandie, 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186",
+              "mesures": [
+                "Plan de rénovation des bâtiments municipaux avec effort particulier sur les écoles et gymnases."
+              ]
             },
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Audit complet des écoles et plan de rénovation prioritaire. Fin des fermetures d'écoles de proximité et réouvertures ciblées dans les quartiers en déclin.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Audit complet des écoles et plan de rénovation prioritaire.",
+                "Fin des fermetures d'écoles de proximité et réouvertures ciblées dans les quartiers en déclin."
+              ]
             },
             "cauchois": null
           }
@@ -357,21 +429,30 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "philippe": {
-              "texte": "Maintien des tarifs de cantine abordables. Aucune augmentation des tarifs de cantine sur 6 ans. Tarification au quotient familial maintenue.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Maintien des tarifs de cantine abordables.",
+                "Aucune augmentation des tarifs de cantine sur 6 ans.",
+                "Tarification au quotient familial maintenue."
+              ]
             },
             "lecoq": {
-              "texte": "Baisser les tarifs de cantine, parmi les plus élevés du département, pour des tarifs plus bas et plus justes.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Baisser les tarifs de cantine, parmi les plus élevés du département, pour des tarifs plus bas et plus justes."
+              ]
             },
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Cantine gratuite pour les familles à quotient familial ≤ 450. Circuits courts dans les cantines et établissements publics.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Cantine gratuite pour les familles à quotient familial ≤ 450.",
+                "Circuits courts dans les cantines et établissements publics."
+              ]
             },
             "cauchois": null
           }
@@ -381,17 +462,25 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "philippe": {
-              "texte": "Déploiement d'un programme gratuit de soutien scolaire en primaire. Augmentation de la capacité des centres de loisirs de 30%. Création d'activités de loisirs pour les 6e-5e. Développement de périodes d'apprentissage estival.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Déploiement d'un programme gratuit de soutien scolaire en primaire.",
+                "Augmentation de la capacité des centres de loisirs de 30%.",
+                "Création d'activités de loisirs pour les 6e-5e.",
+                "Développement de périodes d'apprentissage estival."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Création d'espaces jeunesse dans chaque quartier, ouverts le soir et le week-end. Prolongation du périscolaire jusqu'à 18h30 et revalorisation des animateurs.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Création d'espaces jeunesse dans chaque quartier, ouverts le soir et le week-end.",
+                "Prolongation du périscolaire jusqu'à 18h30 et revalorisation des animateurs."
+              ]
             },
             "cauchois": null
           }
@@ -401,9 +490,14 @@
           "nom": "Jeunesse",
           "propositions": {
             "philippe": {
-              "texte": "Développement du campus : arrivée de l'ENSAM, relocalisation de l'IUT. Création d'un nouveau restaurant CROUS sur le campus. Installation d'une nouvelle résidence CROUS place Gens de Mer. Extension des tarifs étudiants.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Développement du campus : arrivée de l'ENSAM, relocalisation de l'IUT.",
+                "Création d'un nouveau restaurant CROUS sur le campus.",
+                "Installation d'une nouvelle résidence CROUS place Gens de Mer.",
+                "Extension des tarifs étudiants."
+              ]
             },
             "lecoq": null,
             "keller": null,
@@ -423,21 +517,33 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "philippe": {
-              "texte": "Plantation de 20 000 arbres supplémentaires (objectif 50 000 au total). Végétalisation de 3 cours d'école par an. Création d'un jardin aux magasins généraux. Développement d'activités éco-responsables en forêt de Montgeon. Remplissage du grand lac par récupération d'eau de pluie. Extension des jardins familiaux.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Plantation de 20 000 arbres supplémentaires (objectif 50 000 au total)",
+                "Végétalisation de 3 cours d'école par an.",
+                "Création d'un jardin aux magasins généraux.",
+                "Développement d'activités éco-responsables en forêt de Montgeon.",
+                "Remplissage du grand lac par récupération d'eau de pluie.",
+                "Extension des jardins familiaux."
+              ]
             },
             "lecoq": {
-              "texte": "Plan d'urgence pour la végétalisation de la ville.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Plan d'urgence pour la végétalisation de la ville."
+              ]
             },
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Vegetalisation massive des bâtiments publics (écoles, gymnases, crèches). Végétalisation et désimperméabilisation massives des espaces publics pour adapter le territoire au changement climatique.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Vegetalisation massive des bâtiments publics (écoles, gymnases, crèches)",
+                "Végétalisation et désimperméabilisation massives des espaces publics pour adapter le territoire au changement climatique."
+              ]
             },
             "cauchois": null
           }
@@ -447,17 +553,25 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "philippe": {
-              "texte": "Lutte contre les dépôts sauvages par vidéosurveillance (nettoyage de la décharge de Dollemard). Extension de la collecte gratuite des encombrants au dimanche. Création d'une brigade d'intervention pour les déjections canines. Déploiement d'un plan de toilettes publiques.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Lutte contre les dépôts sauvages par vidéosurveillance (nettoyage de la décharge de Dollemard)",
+                "Extension de la collecte gratuite des encombrants au dimanche.",
+                "Création d'une brigade d'intervention pour les déjections canines.",
+                "Déploiement d'un plan de toilettes publiques."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Recyclage local des plastiques pour fabriquer du mobilier urbain. Plan « Havre propre » : priorité à la propreté visible et à l'entretien des rues avec équipes renforcées et produits non polluants.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Recyclage local des plastiques pour fabriquer du mobilier urbain.",
+                "Plan « Havre propre » : priorité à la propreté visible et à l'entretien des rues avec équipes renforcées et produits non polluants."
+              ]
             },
             "cauchois": null
           }
@@ -467,21 +581,31 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "philippe": {
-              "texte": "Soutien à la décarbonation industrielle et portuaire (électrification des quais). Extension du réseau de chaleur urbain. Réutilisation des eaux usées traitées pour usage industriel. Développement de l'éolien offshore.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Soutien à la décarbonation industrielle et portuaire (électrification des quais)",
+                "Extension du réseau de chaleur urbain.",
+                "Réutilisation des eaux usées traitées pour usage industriel.",
+                "Développement de l'éolien offshore."
+              ]
             },
             "lecoq": {
-              "texte": "Mesurer l'impact environnemental de chaque décision municipale, réviser le PLU pour la transition écologique",
               "source": "vert.eco, 2026",
-              "sourceUrl": "https://vert.eco/articles/municipales-2026-dans-les-bastions-industriels-du-havre-et-de-rouen-les-candidats-promettent-de-mettre-lecologie-au-centre"
+              "sourceUrl": "https://vert.eco/articles/municipales-2026-dans-les-bastions-industriels-du-havre-et-de-rouen-les-candidats-promettent-de-mettre-lecologie-au-centre",
+              "mesures": [
+                "Mesurer l'impact environnemental de chaque décision municipale, réviser le PLU pour la transition écologique."
+              ]
             },
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Plan communal d'adaptation au changement climatique : gestion des canicules, inondations et submersion marine. Tenir compte des risques de submersion marine et adapter la ville basse.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Plan communal d'adaptation au changement climatique : gestion des canicules, inondations et submersion marine.",
+                "Tenir compte des risques de submersion marine et adapter la ville basse."
+              ]
             },
             "cauchois": null
           }
@@ -491,14 +615,19 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "philippe": {
-              "texte": "Poursuite de la rénovation énergétique des bâtiments municipaux avec déploiement de panneaux solaires. Soutien financier à la rénovation énergétique des logements et copropriétés.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Poursuite de la rénovation énergétique des bâtiments municipaux avec déploiement de panneaux solaires.",
+                "Soutien financier à la rénovation énergétique des logements et copropriétés."
+              ]
             },
             "lecoq": {
-              "texte": "Plan d'urgence pour la rénovation et l'accessibilité des bâtiments municipaux.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Plan d'urgence pour la rénovation et l'accessibilité des bâtiments municipaux."
+              ]
             },
             "keller": null,
             "boulogne": null,
@@ -511,17 +640,23 @@
           "nom": "Alimentation durable",
           "propositions": {
             "philippe": {
-              "texte": "Promotion du tri des déchets et déploiement de points de collecte des déchets alimentaires. Connexion des cantines scolaires avec des agriculteurs locaux durables.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Promotion du tri des déchets et déploiement de points de collecte des déchets alimentaires.",
+                "Connexion des cantines scolaires avec des agriculteurs locaux durables."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Créer des potagers municipaux éducatifs pour alimenter les cantines et sensibiliser les enfants à l'alimentation durable. Mettre en place des circuits courts dans les cantines et établissements publics.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Créer des potagers municipaux éducatifs pour alimenter les cantines et sensibiliser les enfants à l'alimentation durable.",
+                "Mettre en place des circuits courts dans les cantines et établissements publics."
+              ]
             },
             "cauchois": null
           }
@@ -537,25 +672,36 @@
           "nom": "Centres de santé",
           "propositions": {
             "philippe": {
-              "texte": "Soutien à l'implantation de jeunes médecins via un incubateur de médecins généralistes juniors. Logements abordables pour le personnel médical junior. Financement d'assistants médicaux pour augmenter la capacité des médecins.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Soutien à l'implantation de jeunes médecins via un incubateur de médecins généralistes juniors.",
+                "Logements abordables pour le personnel médical junior.",
+                "Financement d'assistants médicaux pour augmenter la capacité des médecins."
+              ]
             },
             "lecoq": {
-              "texte": "Ouverture d'un centre de santé municipal avec des médecins salariés pour lutter contre le manque de médecins.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Ouverture d'un centre de santé municipal avec des médecins salariés pour lutter contre le manque de médecins."
+              ]
             },
             "keller": {
-              "texte": "Création de centres de santé soutenus par la municipalité",
               "source": "Tendance Ouest, 2026",
-              "sourceUrl": "https://www.tendanceouest.com/actualite-435434-le-havre-qui-est-franck-keller-candidat-de-l-alliance-udr-rn-aux-municipales"
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435434-le-havre-qui-est-franck-keller-candidat-de-l-alliance-udr-rn-aux-municipales",
+              "mesures": [
+                "Création de centres de santé soutenus par la municipalité."
+              ]
             },
             "boulogne": null,
             "zarifian": {
-              "texte": "Centre de santé municipal avec médecins salariés et tiers payant généralisé. Guichet unique de l'autonomie et renforcement de l'aide à domicile pour faciliter l'accès aux droits.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Centre de santé municipal avec médecins salariés et tiers payant généralisé.",
+                "Guichet unique de l'autonomie et renforcement de l'aide à domicile pour faciliter l'accès aux droits."
+              ]
             },
             "cauchois": null
           }
@@ -565,17 +711,24 @@
           "nom": "Prévention santé",
           "propositions": {
             "philippe": {
-              "texte": "Mise en œuvre d'un grand plan de prévention. Création d'un centre de coordination des politiques de prévention santé. Programme de prévention dans les écoles : nutrition, activité physique, sommeil, écrans.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Mise en œuvre d'un grand plan de prévention.",
+                "Création d'un centre de coordination des politiques de prévention santé.",
+                "Programme de prévention dans les écoles : nutrition, activité physique, sommeil, écrans."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Création d'une mutuelle communale négociée sans condition d'âge ni de revenu, accessible à tous les Havrais. Ateliers citoyens de vulgarisation de la recherche maritime et climatique.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Création d'une mutuelle communale négociée sans condition d'âge ni de revenu, accessible à tous les Havrais.",
+                "Ateliers citoyens de vulgarisation de la recherche maritime et climatique."
+              ]
             },
             "cauchois": null
           }
@@ -585,17 +738,25 @@
           "nom": "Seniors",
           "propositions": {
             "philippe": {
-              "texte": "Création d'un 2e centre des aidants en ville basse. Adaptation des espaces publics pour la mobilité des personnes âgées. Construction de logements collectifs alliant intimité et communauté. Extension de l'accompagnement culturel pour les seniors.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Création d'un 2e centre des aidants en ville basse.",
+                "Adaptation des espaces publics pour la mobilité des personnes âgées.",
+                "Construction de logements collectifs alliant intimité et communauté.",
+                "Extension de l'accompagnement culturel pour les seniors."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Colocations seniors et logements intergénérationnels comme alternatives à l'EHPAD. Instance citoyenne d'observation des EHPAD public pour la transparence et la qualité de vie.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Colocations seniors et logements intergénérationnels comme alternatives à l'EHPAD.",
+                "Instance citoyenne d'observation des EHPAD public pour la transparence et la qualité de vie."
+              ]
             },
             "cauchois": null
           }
@@ -615,9 +776,12 @@
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Budget participatif de 5 % du budget d'investissement municipal. Budget participatif jeunes et festival annuel jeunesse.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Budget participatif de 5 % du budget d'investissement municipal.",
+                "Budget participatif jeunes et festival annuel jeunesse."
+              ]
             },
             "cauchois": null
           }
@@ -628,16 +792,21 @@
           "propositions": {
             "philippe": null,
             "lecoq": {
-              "texte": "Changement d'approche : les propositions viennent des citoyens, fin de la gouvernance descendante du maire",
               "source": "France Bleu Normandie, 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-jean-paul-lecoq-candidat-de-la-gauche-a-lance-sa-campagne-au-havre-8468186",
+              "mesures": [
+                "Changement d'approche : les propositions viennent des citoyens, fin de la gouvernance descendante du maire."
+              ]
             },
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Publication en ligne de toutes les ventes de biens publics avec estimation et historique d'usage. Diffusion en direct du Conseil municipal et temps de parole citoyen en début de séance.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Publication en ligne de toutes les ventes de biens publics avec estimation et historique d'usage.",
+                "Diffusion en direct du Conseil municipal et temps de parole citoyen en début de séance."
+              ]
             },
             "cauchois": null
           }
@@ -651,9 +820,12 @@
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Conseils de quartier dotés d'un budget d'investissement propre et d'un pouvoir d'amendement sur les projets municipaux. Conseil citoyen municipal tiré au sort pour suivre les engagements de la majorité.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Conseils de quartier dotés d'un budget d'investissement propre et d'un pouvoir d'amendement sur les projets municipaux.",
+                "Conseil citoyen municipal tiré au sort pour suivre les engagements de la majorité."
+              ]
             },
             "cauchois": null
           }
@@ -664,9 +836,11 @@
           "propositions": {
             "philippe": null,
             "lecoq": {
-              "texte": "Création de Maisons des Habitants dans chaque quartier pour permettre à tous d'être pleinement acteurs de leur ville et de leur quartier.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Création de Maisons des Habitants dans chaque quartier pour permettre à tous d'être pleinement acteurs de leur ville et de leur quartier."
+              ]
             },
             "keller": null,
             "boulogne": null,
@@ -685,17 +859,25 @@
           "nom": "Commerce local",
           "propositions": {
             "philippe": {
-              "texte": "Rénovation des places de destination : port de pêche, Place du Marché, Place Sainte-Cécile, place de Bléville. Création d'une promenade à Saint-Vincent. Soutien aux associations de commerçants. Piétonnisation à la demande pour événements.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Rénovation des places de destination : port de pêche, Place du Marché, Place Sainte-Cécile, place de Bléville.",
+                "Création d'une promenade à Saint-Vincent.",
+                "Soutien aux associations de commerçants.",
+                "Piétonnisation à la demande pour événements."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Label « Produire au Havre » pour valoriser l'artisanat et la production locale. Relance du commerce de centre-ville par une politique de stationnement juste et transports gratuits.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Label « Produire au Havre » pour valoriser l'artisanat et la production locale.",
+                "Relance du commerce de centre-ville par une politique de stationnement juste et transports gratuits."
+              ]
             },
             "cauchois": null
           }
@@ -705,25 +887,38 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "philippe": {
-              "texte": "Soutien aux investissements portuaires. Positionnement du Havre comme territoire d'excellence du secteur drone. Renforcement des formations industrielles, ingénierie et numérique. Accueil de l'ENSAM. Mise en place du « Mobi-ZIP » pour l'accès aux zones industrielles.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Soutien aux investissements portuaires.",
+                "Positionnement du Havre comme territoire d'excellence du secteur drone.",
+                "Renforcement des formations industrielles, ingénierie et numérique.",
+                "Accueil de l'ENSAM.",
+                "Mise en place du « Mobi-ZIP » pour l'accès aux zones industrielles."
+              ]
             },
             "lecoq": {
-              "texte": "Action résolue pour l'emploi et la réindustrialisation durable face à la crise.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Action résolue pour l'emploi et la réindustrialisation durable face à la crise."
+              ]
             },
             "keller": {
-              "texte": "Lutter contre le taux de chômage élevé, amélioration globale des conditions de vie",
               "source": "Tendance Ouest, 2026",
-              "sourceUrl": "https://www.tendanceouest.com/actualite-435434-le-havre-qui-est-franck-keller-candidat-de-l-alliance-udr-rn-aux-municipales"
+              "sourceUrl": "https://www.tendanceouest.com/actualite-435434-le-havre-qui-est-franck-keller-candidat-de-l-alliance-udr-rn-aux-municipales",
+              "mesures": [
+                "Lutter contre le taux de chômage élevé, amélioration globale des conditions de vie."
+              ]
             },
             "boulogne": null,
             "zarifian": {
-              "texte": "Guichet municipal des TPE/PME pour un accompagnement de proximité. Incubateur local pour artisans, commerçants et entrepreneurs.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Guichet municipal des TPE/PME pour un accompagnement de proximité.",
+                "Incubateur local pour artisans, commerçants et entrepreneurs."
+              ]
             },
             "cauchois": null
           }
@@ -733,17 +928,24 @@
           "nom": "Attractivité",
           "propositions": {
             "philippe": {
-              "texte": "Développement de toutes les formes de tourisme : culturel, fluvial, industriel, d'affaires, croisière. Achèvement des terminaux de croisière. Ouverture du Centre d'exposition Antoine Rufenacht.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Développement de toutes les formes de tourisme : culturel, fluvial, industriel, d'affaires, croisière.",
+                "Achèvement des terminaux de croisière.",
+                "Ouverture du Centre d'exposition Antoine Rufenacht."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Le Hub Bleu : création d'un centre international d'écologie maritime alliant formation, recherche, culture, innovation et économie bleue. Moteur de transformation écologique et économique du territoire.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Le Hub Bleu : création d'un centre international d'écologie maritime alliant formation, recherche, culture, innovation et économie bleue.",
+                "Moteur de transformation écologique et économique du territoire."
+              ]
             },
             "cauchois": null
           }
@@ -759,17 +961,26 @@
           "nom": "Équipements culturels",
           "propositions": {
             "philippe": {
-              "texte": "Ouverture du Centre d'art Antoine Rufenacht au quai de Southampton. Ouverture de la bibliothèque Raymond Queneau au Mont-Gaillard. Centre maritime/portuaire aux Docks. Centre d'interprétation de l'architecture Place Perret. 2e salle du Volcan à Mare Rouge. Rénovation de la bibliothèque Senghor.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Ouverture du Centre d'art Antoine Rufenacht au quai de Southampton.",
+                "Ouverture de la bibliothèque Raymond Queneau au Mont-Gaillard.",
+                "Centre maritime/portuaire aux Docks.",
+                "Centre d'interprétation de l'architecture Place Perret. 2e salle du Volcan à Mare Rouge.",
+                "Rénovation de la bibliothèque Senghor."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Maisons de la Culture et de la Jeunesse dans chaque quartier : lieux gratuits de création, d'expression et de rencontre. Budget participatif culturel de 500 000 € par an voté par les habitants.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Maisons de la Culture et de la Jeunesse dans chaque quartier : lieux gratuits de création, d'expression et de rencontre.",
+                "Budget participatif culturel de 500 000 € par an voté par les habitants."
+              ]
             },
             "cauchois": null
           }
@@ -779,21 +990,30 @@
           "nom": "Événements & Création",
           "propositions": {
             "philippe": {
-              "texte": "Extension du programme « Lire au Havre » : relais lecture, bibliobus, présence sur les marchés, écoles. Développement de la politique d'éducation à l'image. Piétonnisation à la demande pour événements culturels.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Extension du programme « Lire au Havre » : relais lecture, bibliobus, présence sur les marchés, écoles.",
+                "Développement de la politique d'éducation à l'image.",
+                "Piétonnisation à la demande pour événements culturels."
+              ]
             },
             "lecoq": {
-              "texte": "Organisation d'Assises de la Culture pour une politique culturelle ambitieuse.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Organisation d'Assises de la Culture pour une politique culturelle ambitieuse."
+              ]
             },
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Résidences d'artistes et fonds d'aide à l'auto-production pour soutenir la création indépendante. Festival de rue du Havre accessible et participatif.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Résidences d'artistes et fonds d'aide à l'auto-production pour soutenir la création indépendante.",
+                "Festival de rue du Havre accessible et participatif."
+              ]
             },
             "cauchois": null
           }
@@ -809,9 +1029,14 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "philippe": {
-              "texte": "Rénovation des gymnases (Bois de Bléville, Louis Blanc, Marcel Royer). Rénovation des pistes d'athlétisme. Rénovation des piscines (Mare Rouge, Cours de la République). Création d'un skate park couvert aux magasins généraux.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Rénovation des gymnases (Bois de Bléville, Louis Blanc, Marcel Royer)",
+                "Rénovation des pistes d'athlétisme.",
+                "Rénovation des piscines (Mare Rouge, Cours de la République)",
+                "Création d'un skate park couvert aux magasins généraux."
+              ]
             },
             "lecoq": null,
             "keller": null,
@@ -825,9 +1050,13 @@
           "nom": "Sport pour tous",
           "propositions": {
             "philippe": {
-              "texte": "Développement d'activités éco-responsables en forêt de Montgeon. Rénovation des terrains de pétanque. Soutien aux acteurs sportifs et associations.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Développement d'activités éco-responsables en forêt de Montgeon.",
+                "Rénovation des terrains de pétanque.",
+                "Soutien aux acteurs sportifs et associations."
+              ]
             },
             "lecoq": null,
             "keller": null,
@@ -847,9 +1076,15 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "philippe": {
-              "texte": "Création d'une place de quartier par an. Rénovation du quartier Sainte-Marie/Massillon. Réaménagement du secteur des magasins généraux. Création d'un grand parc paysager étendant le bassin Vatine. Plan de rénovation des espaces publics lié à la 3e ligne de tramway.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Création d'une place de quartier par an.",
+                "Rénovation du quartier Sainte-Marie/Massillon.",
+                "Réaménagement du secteur des magasins généraux.",
+                "Création d'un grand parc paysager étendant le bassin Vatine.",
+                "Plan de rénovation des espaces publics lié à la 3e ligne de tramway."
+              ]
             },
             "lecoq": null,
             "keller": null,
@@ -863,17 +1098,25 @@
           "nom": "Accessibilité",
           "propositions": {
             "philippe": {
-              "texte": "Rénovation complète de l'école Paul Bert intégrant un IME. Adaptation des espaces publics : bancs, toilettes, abribus pour l'accessibilité. Construction de logements pour jeunes personnes handicapées. Soutien au café inclusif aux Docks.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Rénovation complète de l'école Paul Bert intégrant un IME.",
+                "Adaptation des espaces publics : bancs, toilettes, abribus pour l'accessibilité.",
+                "Construction de logements pour jeunes personnes handicapées.",
+                "Soutien au café inclusif aux Docks."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Revoir la circulation dans la ville des personnes en situation de handicap et le mobilier urbain non adapté. Éclairage public repensé avec participation citoyenne pour renforcer le sentiment de sécurité.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Revoir la circulation dans la ville des personnes en situation de handicap et le mobilier urbain non adapté.",
+                "Éclairage public repensé avec participation citoyenne pour renforcer le sentiment de sécurité."
+              ]
             },
             "cauchois": null
           }
@@ -901,17 +1144,23 @@
           "nom": "Aide sociale",
           "propositions": {
             "philippe": {
-              "texte": "Maintien de la gratuité des lieux culturels municipaux et des transports pour les aidants. Soutien aux associations de protection animale.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Maintien de la gratuité des lieux culturels municipaux et des transports pour les aidants.",
+                "Soutien aux associations de protection animale."
+              ]
             },
             "lecoq": null,
             "keller": null,
             "boulogne": null,
             "zarifian": {
-              "texte": "Carte municipale de solidarité donnant accès à des réductions culturelles, de transport et alimentaires. Maisons du numérique dans les quartiers pour inclusion digitale des seniors.",
               "source": "Site officiel Le Havre en débat",
-              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet"
+              "sourceUrl": "https://lhendebat.fr/decouvrir-le-projet",
+              "mesures": [
+                "Carte municipale de solidarité donnant accès à des réductions culturelles, de transport et alimentaires.",
+                "Maisons du numérique dans les quartiers pour inclusion digitale des seniors."
+              ]
             },
             "cauchois": null
           }
@@ -933,22 +1182,32 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "philippe": {
-              "texte": "Aucune augmentation de la taxe foncière sur 6 ans. Aucune augmentation des tarifs de cantine. Maintien de la tarification au quotient familial. Réduction des tarifs de stationnement de 12 à 20%. Soutien financier à la rénovation énergétique.",
               "source": "Programme officiel",
-              "sourceUrl": "https://ep2026.fr/programme/"
+              "sourceUrl": "https://ep2026.fr/programme/",
+              "mesures": [
+                "Aucune augmentation de la taxe foncière sur 6 ans.",
+                "Aucune augmentation des tarifs de cantine.",
+                "Maintien de la tarification au quotient familial.",
+                "Réduction des tarifs de stationnement de 12 à 20%.",
+                "Soutien financier à la rénovation énergétique."
+              ]
             },
             "lecoq": {
-              "texte": "Gratuité des premiers mètres cubes d'eau (l'eau est un bien commun) et rénovation du réseau.",
               "source": "10 mesures d'urgence",
-              "sourceUrl": "https://jplecoq2026.fr/"
+              "sourceUrl": "https://jplecoq2026.fr/",
+              "mesures": [
+                "Gratuité des premiers mètres cubes d'eau (l'eau est un bien commun) et rénovation du réseau."
+              ]
             },
             "keller": null,
             "boulogne": null,
             "zarifian": null,
             "cauchois": {
-              "texte": "Être les yeux et les oreilles des travailleurs au conseil municipal, défendre la condition ouvrière",
               "source": "Tendance Ouest, 2026",
-              "sourceUrl": "https://www.tendanceouest.com/actualite-436029-municipales-2026-au-havre-magali-cauchois-place-la-condition-des-travailleurs-au-coeur-de-la-campagne"
+              "sourceUrl": "https://www.tendanceouest.com/actualite-436029-municipales-2026-au-havre-magali-cauchois-place-la-condition-des-travailleurs-au-coeur-de-la-campagne",
+              "mesures": [
+                "Être les yeux et les oreilles des travailleurs au conseil municipal, défendre la condition ouvrière."
+              ]
             }
           }
         }

@@ -92,6 +92,11 @@
     suggestionsEl.hidden = false;
   }
 
+  // Empêcher la perte de focus quand on clique dans les suggestions
+  suggestionsEl.addEventListener("mousedown", function (e) {
+    e.preventDefault();
+  });
+
   searchInput.addEventListener("input", function () {
     clearTimeout(debounceTimer);
     var val = searchInput.value.trim();

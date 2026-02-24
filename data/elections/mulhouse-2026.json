@@ -111,39 +111,63 @@
           "nom": "Police municipale",
           "propositions": {
             "lutz": {
-              "texte": "Davantage de moyens pour la police municipale avec une présence nocturne renforcée. Création d'une brigade anti-incivilités, d'une police municipale des marchés, et d'un Allo proximité spécial sécurité contre le harcèlement de rue. Faire de Mulhouse une ville pilote pour tester de nouvelles compétences de police municipale.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/securite/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/securite/",
+              "mesures": [
+                "Davantage de moyens pour la police municipale avec une présence nocturne renforcée.",
+                "Création d'une brigade anti-incivilités, d'une police municipale des marchés, et d'un Allo proximité spécial sécurité contre le harcèlement de rue.",
+                "Faire de Mulhouse une ville pilote pour tester de nouvelles compétences de police municipale."
+              ]
             },
             "million": {
-              "texte": "Création d'une brigade anti-incivilités. Augmentation de la présence sur le terrain avec des patrouilles pédestres Police / Agents de tranquillité publique. Installation de plus de caméras là où les habitants le demandent.",
               "source": "Site officiel Lara Million",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Création d'une brigade anti-incivilités.",
+                "Augmentation de la présence sur le terrain avec des patrouilles pédestres Police / Agents de tranquillité publique.",
+                "Installation de plus de caméras là où les habitants le demandent."
+              ]
             },
             "minery": {
-              "texte": "Développer des patrouilles mixtes Police municipale / Agents de tranquillité publique (jour et nuit) afin de favoriser la médiation et les interventions. Mettre en place un code de la rue adapté à tous les usagers.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Développer des patrouilles mixtes Police municipale / Agents de tranquillité publique (jour et nuit) afin de favoriser la médiation et les interventions.",
+                "Mettre en place un code de la rue adapté à tous les usagers."
+              ]
             },
             "ritz": {
-              "texte": "Doubler les effectifs de police municipale et créer un centre d'éloignement pour mineurs délinquants récidivistes",
               "source": "France Bleu Alsace, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Doubler les effectifs de police municipale et créer un centre d'éloignement pour mineurs délinquants récidivistes."
+              ]
             },
             "taffarelli": {
-              "texte": "Garantir la liberté de mouvements en toute sécurité. Les déplacements à pied ou en transports en commun ne doivent pas être source d'angoisse à toute heure du jour ou de la nuit.",
               "source": "Site officiel Restaurer Mulhouse",
               "sourceUrl": "https://www.restaurermulhouse.fr/",
-              "a_verifier": true
+              "a_verifier": true,
+              "mesures": [
+                "Garantir la liberté de mouvements en toute sécurité.",
+                "Les déplacements à pied ou en transports en commun ne doivent pas être source d'angoisse à toute heure du jour ou de la nuit."
+              ]
             },
             "gafanesch": null,
             "sassi": null,
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Recruter 25 agents supplémentaires pour une police municipale opérationnelle 24h/24. Assurer une intervention en 2 à 10 minutes sur toute la ville. Rééclairer la ville le soir et la nuit. Installer une brigade montée à cheval (modèle Cannes). Mettre en place des gardiens de square reliés à la police. Obtenir des renforts d'effectifs avec l'État. Favoriser la synergie avec Police nationale et Justice.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Recruter 25 agents supplémentaires pour une police municipale opérationnelle 24h/24.",
+                "Assurer une intervention en 2 à 10 minutes sur toute la ville.",
+                "Rééclairer la ville le soir et la nuit.",
+                "Installer une brigade montée à cheval (modèle Cannes)",
+                "Mettre en place des gardiens de square reliés à la police.",
+                "Obtenir des renforts d'effectifs avec l'État.",
+                "Favoriser la synergie avec Police nationale et Justice."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -154,14 +178,19 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "lutz": {
-              "texte": "Vidéoprotection modernisée : extension de la vidéo-verbalisation dans tous les quartiers, déploiement de caméras intelligentes avec détection de comportements suspects en temps réel. Utilisation de drones et d'intelligence artificielle au service de la sécurité.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/securite/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/securite/",
+              "mesures": [
+                "Vidéoprotection modernisée : extension de la vidéo-verbalisation dans tous les quartiers, déploiement de caméras intelligentes avec détection de comportements suspects en temps réel.",
+                "Utilisation de drones et d'intelligence artificielle au service de la sécurité."
+              ]
             },
             "million": {
-              "texte": "Installation de plus de caméras là où les habitants le demandent pour améliorer la prévention.",
               "source": "Site officiel Lara Million",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Installation de plus de caméras là où les habitants le demandent pour améliorer la prévention."
+              ]
             },
             "minery": null,
             "ritz": null,
@@ -180,34 +209,54 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "lutz": {
-              "texte": "Créer des délégués police-population pour renforcer l'écoute et la médiation. Lancer un programme local de prévention de la délinquance avec ateliers, interventions scolaires et campagnes de sensibilisation. Créer un comité local de la sécurité des habitants. Tolérance zéro contre les incivilités avec amendes administratives et travaux d'intérêt général.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/securite/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/securite/",
+              "mesures": [
+                "Créer des délégués police-population pour renforcer l'écoute et la médiation.",
+                "Lancer un programme local de prévention de la délinquance avec ateliers, interventions scolaires et campagnes de sensibilisation.",
+                "Créer un comité local de la sécurité des habitants.",
+                "Tolérance zéro contre les incivilités avec amendes administratives et travaux d'intérêt général."
+              ]
             },
             "million": {
-              "texte": "Combattre le harcèlement de rue, les rodéos, les tirs de mortiers, les cortèges de klaxons, les comportements dangereux. Agir vite pour rétablir la tranquillité et la sécurité au quotidien.",
               "source": "Site officiel Lara Million",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Combattre le harcèlement de rue, les rodéos, les tirs de mortiers, les cortèges de klaxons, les comportements dangereux.",
+                "Agir vite pour rétablir la tranquillité et la sécurité au quotidien."
+              ]
             },
             "minery": {
-              "texte": "Apaiser tous les quartiers avec plus de médiateurs formés et de présence humaine la nuit. Coordonner avec les partenaires sociaux et éducatifs une charte de l'éducation au civisme. Agir contre le narcotrafic par la prévention, l'accompagnement social et la médiation de proximité. Développer l'accueil des Travaux d'Intérêt Général (TIG) dans une logique de sanction/réparation.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Apaiser tous les quartiers avec plus de médiateurs formés et de présence humaine la nuit.",
+                "Coordonner avec les partenaires sociaux et éducatifs une charte de l'éducation au civisme.",
+                "Agir contre le narcotrafic par la prévention, l'accompagnement social et la médiation de proximité.",
+                "Développer l'accueil des Travaux d'Intérêt Général (TIG) dans une logique de sanction/réparation."
+              ]
             },
             "ritz": null,
             "taffarelli": {
-              "texte": "Priorité à la sécurité, aux libertés et à l'identité",
               "source": "France Bleu Alsace, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Priorité à la sécurité, aux libertés et à l'identité."
+              ]
             },
             "gafanesch": null,
             "sassi": null,
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Lutter contre les incivilités avec tolérance zéro. Créer un dispositif de parents-relais dans les quartiers (modèle Orléans). Développer les travaux d'intérêt général pour réparer les dégradations. Déployer un plan global de prévention contre les stupéfiants et les incivilités.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Lutter contre les incivilités avec tolérance zéro.",
+                "Créer un dispositif de parents-relais dans les quartiers (modèle Orléans)",
+                "Développer les travaux d'intérêt général pour réparer les dégradations.",
+                "Déployer un plan global de prévention contre les stupéfiants et les incivilités."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -218,15 +267,21 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "lutz": {
-              "texte": "Créer un lieu d'hébergement d'urgence pour les personnes victimes de violences intrafamiliales. Créer un Allo proximité spécial sécurité afin de lutter contre le harcèlement de rue.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/",
+              "mesures": [
+                "Créer un lieu d'hébergement d'urgence pour les personnes victimes de violences intrafamiliales.",
+                "Créer un Allo proximité spécial sécurité afin de lutter contre le harcèlement de rue."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Mobiliser tous les moyens possibles pour lutter contre les violences intrafamiliales, les violences sexistes et sexuelles, prévenir les féminicides et créer un conseil local avec l'ensemble des partenaires. Créer 20 places d'hébergement supplémentaires pour les femmes et enfants victimes de violences.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Mobiliser tous les moyens possibles pour lutter contre les violences intrafamiliales, les violences sexistes et sexuelles, prévenir les féminicides et créer un conseil local avec l'ensemble des partenaires.",
+                "Créer 20 places d'hébergement supplémentaires pour les femmes et enfants victimes de violences."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -235,9 +290,12 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Déployer un plan global de prévention des violences intrafamiliales. Prévoir des logements pour isoler le conjoint violent.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Déployer un plan global de prévention des violences intrafamiliales.",
+                "Prévoir des logements pour isoler le conjoint violent."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -254,15 +312,24 @@
           "nom": "Transports en commun",
           "propositions": {
             "lutz": {
-              "texte": "Améliorer les mobilités quotidiennes en proposant plus de tramways en soirée et une meilleure desserte de la première couronne. Poursuivre l'aménagement du quartier Gare et l'adapter aux besoins du RER transfrontalier. Renforcer la ligne Mulhouse-Müllheim-Freiburg.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/attractivite-vie-economique/"
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/attractivite-vie-economique/",
+              "mesures": [
+                "Améliorer les mobilités quotidiennes en proposant plus de tramways en soirée et une meilleure desserte de la première couronne.",
+                "Poursuivre l'aménagement du quartier Gare et l'adapter aux besoins du RER transfrontalier.",
+                "Renforcer la ligne Mulhouse-Müllheim-Freiburg."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Créer un arrêt de tram au Parc-Expo pour les grands événements et soutenir une extension du réseau vers le nord avec un renforcement des fréquences. Mettre en place une navette gratuite Gare-Hôpital E. Muller calée sur les horaires des TER. Renforcer les mobilités avec Belfort, Müllheim et Bâle par un cadencement des TER à la demi-heure.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Créer un arrêt de tram au Parc-Expo pour les grands événements et soutenir une extension du réseau vers le nord avec un renforcement des fréquences.",
+                "Mettre en place une navette gratuite Gare-Hôpital E.",
+                "Muller calée sur les horaires des TER.",
+                "Renforcer les mobilités avec Belfort, Müllheim et Bâle par un cadencement des TER à la demi-heure."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -271,9 +338,16 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Augmenter la fréquence des bus et tram en soirée (un tram toutes les 20 minutes). Accélérer l'étude des extensions du tram. Relancer le projet de liaison ferroviaire directe avec l'aéroport. Mettre en place une navette fluviale électrique. Étudier l'opportunité d'un téléphérique urbain. Soutenir les liaisons ferroviaires vers l'Allemagne et la Suisse, adaptées aux travailleurs et étudiants transfrontaliers.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Augmenter la fréquence des bus et tram en soirée (un tram toutes les 20 minutes)",
+                "Accélérer l'étude des extensions du tram.",
+                "Relancer le projet de liaison ferroviaire directe avec l'aéroport.",
+                "Mettre en place une navette fluviale électrique.",
+                "Étudier l'opportunité d'un téléphérique urbain.",
+                "Soutenir les liaisons ferroviaires vers l'Allemagne et la Suisse, adaptées aux travailleurs et étudiants transfrontaliers."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -284,20 +358,28 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "lutz": {
-              "texte": "Développer la conciergerie de la Cité du Vélo avec services aux cyclistes (stationnement, réparation, logistique douce). Renforcer la continuité cyclable. Favoriser la livraison en vélo-cargo pour soutenir le commerce de centre-ville.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/attractivite-vie-economique/"
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/attractivite-vie-economique/",
+              "mesures": [
+                "Développer la conciergerie de la Cité du Vélo avec services aux cyclistes (stationnement, réparation, logistique douce)",
+                "Renforcer la continuité cyclable.",
+                "Favoriser la livraison en vélo-cargo pour soutenir le commerce de centre-ville."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Sécuriser les aménagements cyclables existants et étendre le réseau de 20 km pour faciliter les liaisons interquartiers et avec les communes voisines.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Sécuriser les aménagements cyclables existants et étendre le réseau de 20 km pour faciliter les liaisons interquartiers et avec les communes voisines."
+              ]
             },
             "ritz": {
-              "texte": "Développement des pistes cyclables et création de parkings relais aux entrées de Mulhouse",
               "source": "France Bleu Alsace, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Développement des pistes cyclables et création de parkings relais aux entrées de Mulhouse."
+              ]
             },
             "taffarelli": null,
             "gafanesch": null,
@@ -305,9 +387,12 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Faciliter l'usage du vélo en sécurisant les itinéraires, notamment vers les écoles. Créer une zone « pied à terre » pour vélos et trottinettes en centre-ville (10h-20h).",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Faciliter l'usage du vélo en sécurisant les itinéraires, notamment vers les écoles.",
+                "Créer une zone « pied à terre » pour vélos et trottinettes en centre-ville (10h-20h)."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -318,19 +403,27 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "lutz": {
-              "texte": "Renforcer la sécurisation des abords de toutes les écoles par le déploiement de pédibus, le renforcement du dispositif Papy Mamie Trafic et l'expérimentation de solutions de voirie innovantes. Sensibiliser à la prévention routière par la création d'une délégation municipale dédiée.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Renforcer la sécurisation des abords de toutes les écoles par le déploiement de pédibus, le renforcement du dispositif Papy Mamie Trafic et l'expérimentation de solutions de voirie innovantes.",
+                "Sensibiliser à la prévention routière par la création d'une délégation municipale dédiée."
+              ]
             },
             "million": {
-              "texte": "Améliorer les mobilités quotidiennes pour que les habitants puissent se déplacer sans stress, à pied et en toute sécurité, dans tous les quartiers.",
               "source": "Site officiel Lara Million",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Améliorer les mobilités quotidiennes pour que les habitants puissent se déplacer sans stress, à pied et en toute sécurité, dans tous les quartiers."
+              ]
             },
             "minery": {
-              "texte": "Décider un plan piéton et passer Mulhouse en ville limitée à 30 km/h à l'exception des grands axes. Réaliser 20 rues aux écoles d'ici 2030 afin de sécuriser les abords des écoles et améliorer la qualité de vie des enfants et des familles.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Décider un plan piéton et passer Mulhouse en ville limitée à 30 km/h à l'exception des grands axes.",
+                "Réaliser 20 rues aux écoles d'ici 2030 afin de sécuriser les abords des écoles et améliorer la qualité de vie des enfants et des familles."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -339,9 +432,15 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Adapter le plan de circulation à la vie réelle. Étudier la réintroduction d'une voie de circulation sur l'axe Briand-Franklin. Mieux entretenir la voirie dans tous les quartiers. Piétonniser des rues avec bon sens pour améliorer la vie des habitants et des commerces. Fermer temporairement certaines rues à la circulation le dimanche pour créer de grands ensembles piétons.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Adapter le plan de circulation à la vie réelle.",
+                "Étudier la réintroduction d'une voie de circulation sur l'axe Briand-Franklin.",
+                "Mieux entretenir la voirie dans tous les quartiers.",
+                "Piétonniser des rues avec bon sens pour améliorer la vie des habitants et des commerces.",
+                "Fermer temporairement certaines rues à la circulation le dimanche pour créer de grands ensembles piétons."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -352,20 +451,28 @@
           "nom": "Stationnement",
           "propositions": {
             "lutz": {
-              "texte": "Augmenter l'offre de stationnement en centre-ville de 1 500 places pour faciliter l'accès aux commerces. Densifier l'offre de stationnement globale.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/commerce/"
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/commerce/",
+              "mesures": [
+                "Augmenter l'offre de stationnement en centre-ville de 1 500 places pour faciliter l'accès aux commerces.",
+                "Densifier l'offre de stationnement globale."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Créer un parking relais au niveau du musée de l'Auto et concrétiser un parking silo à la Fonderie dans le cadre du réaménagement FRICHES 2030. Faciliter le stationnement résidentiel avec une tarification sociale.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Créer un parking relais au niveau du musée de l'Auto et concrétiser un parking silo à la Fonderie dans le cadre du réaménagement FRICHES 2030.",
+                "Faciliter le stationnement résidentiel avec une tarification sociale."
+              ]
             },
             "ritz": {
-              "texte": "Préservation des places de stationnement en centre-ville",
               "source": "France Bleu Alsace, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Préservation des places de stationnement en centre-ville."
+              ]
             },
             "taffarelli": null,
             "gafanesch": null,
@@ -373,9 +480,12 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Développer l'offre de stationnement en pourtour de la zone piétonne. Rendre gratuite la 2ème heure de stationnement pour dynamiser le commerce.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Développer l'offre de stationnement en pourtour de la zone piétonne.",
+                "Rendre gratuite la 2ème heure de stationnement pour dynamiser le commerce."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -388,24 +498,34 @@
             "lutz": null,
             "million": null,
             "minery": {
-              "texte": "Instaurer la gratuité des transports en commun pour les jeunes jusqu'à 25 ans et les bénéficiaires des minima sociaux. Gratuité le samedi pour tous afin de soutenir les commerçants. Gratuité pour les sorties scolaires. Tendre vers la gratuité totale des transports urbains.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Instaurer la gratuité des transports en commun pour les jeunes jusqu'à 25 ans et les bénéficiaires des minima sociaux.",
+                "Gratuité le samedi pour tous afin de soutenir les commerçants.",
+                "Gratuité pour les sorties scolaires.",
+                "Tendre vers la gratuité totale des transports urbains."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
             "gafanesch": {
-              "texte": "Gratuité des transports en commun à Mulhouse",
               "source": "France Bleu Alsace, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Gratuité des transports en commun à Mulhouse."
+              ]
             },
             "sassi": null,
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Maintenir la gratuité des transports pour les seniors. Étendre la gratuité des transports aux jeunes.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Maintenir la gratuité des transports pour les seniors.",
+                "Étendre la gratuité des transports aux jeunes."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -422,15 +542,20 @@
           "nom": "Logement social",
           "propositions": {
             "lutz": {
-              "texte": "Construire et rénover plus de 2 000 logements dans les quartiers des Coteaux, du Drouot et de la Fonderie. Accompagner les copropriétés en difficulté.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/",
+              "mesures": [
+                "Construire et rénover plus de 2 000 logements dans les quartiers des Coteaux, du Drouot et de la Fonderie.",
+                "Accompagner les copropriétés en difficulté."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Appliquer un programme ambitieux de rénovation de 3 000 logements en favorisant les entreprises locales et l'Économie Sociale et Solidaire, tout en favorisant l'accession à la propriété des occupants.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Appliquer un programme ambitieux de rénovation de 3 000 logements en favorisant les entreprises locales et l'Économie Sociale et Solidaire, tout en favorisant l'accession à la propriété des occupants."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -439,9 +564,13 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Travailler en synergie avec les bailleurs sociaux pour assurer la qualité des logements. Assurer l'entretien et la sécurité des logements sociaux. Donner la parole aux habitants des grands ensembles et les associer aux décisions sur leur quartier.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Travailler en synergie avec les bailleurs sociaux pour assurer la qualité des logements.",
+                "Assurer l'entretien et la sécurité des logements sociaux.",
+                "Donner la parole aux habitants des grands ensembles et les associer aux décisions sur leur quartier."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -452,15 +581,21 @@
           "nom": "Logements vacants",
           "propositions": {
             "lutz": {
-              "texte": "Instaurer une stratégie ciblée pour lutter contre l'habitat indigne. Lutter contre les marchands de sommeil en saisissant leurs biens et diminuer la vacance.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/",
+              "mesures": [
+                "Instaurer une stratégie ciblée pour lutter contre l'habitat indigne.",
+                "Lutter contre les marchands de sommeil en saisissant leurs biens et diminuer la vacance."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Mettre en place un guichet unique du logement et lutter contre les marchands de sommeil en étendant le permis de louer à tout le quartier péricentre. Créer un fonds d'aide municipale à la rénovation des logements en priorisant les logements vacants et insalubres.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Mettre en place un guichet unique du logement et lutter contre les marchands de sommeil en étendant le permis de louer à tout le quartier péricentre.",
+                "Créer un fonds d'aide municipale à la rénovation des logements en priorisant les logements vacants et insalubres."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -469,9 +604,13 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Rénover les bâtiments anciens et réinvestir les friches industrielles. Combattre l'habitat indigne dans toute la ville. Accélérer la reconversion des friches pour créer de nouveaux espaces de vie.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Rénover les bâtiments anciens et réinvestir les friches industrielles.",
+                "Combattre l'habitat indigne dans toute la ville.",
+                "Accélérer la reconversion des friches pour créer de nouveaux espaces de vie."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -500,15 +639,21 @@
           "nom": "Accès au logement",
           "propositions": {
             "lutz": {
-              "texte": "Favoriser l'accession à la propriété pour les jeunes actifs. Favoriser l'accès au logement des jeunes en partenariat avec l'association Un Toit pour Deux.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/",
+              "mesures": [
+                "Favoriser l'accession à la propriété pour les jeunes actifs.",
+                "Favoriser l'accès au logement des jeunes en partenariat avec l'association Un Toit pour Deux."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Favoriser l'accession à la propriété des ménages modestes grâce au Bail Réel Solidaire (BRS), qui rend possible l'achat d'un logement neuf à prix abordable. Faciliter la création de logements étudiants et lutter contre l'habitat insalubre.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Favoriser l'accession à la propriété des ménages modestes grâce au Bail Réel Solidaire (BRS), qui rend possible l'achat d'un logement neuf à prix abordable.",
+                "Faciliter la création de logements étudiants et lutter contre l'habitat insalubre."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -517,9 +662,12 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Favoriser le logement étudiant. Aider les copropriétés au patrimoine remarquable à rénover.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Favoriser le logement étudiant.",
+                "Aider les copropriétés au patrimoine remarquable à rénover."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -536,15 +684,22 @@
           "nom": "Petite enfance",
           "propositions": {
             "lutz": {
-              "texte": "Développer la scolarisation à 2 ans. Soutenir l'implantation de crèches à Mulhouse. Augmenter le nombre de places en périscolaire sur l'ensemble de Mulhouse en lien avec l'agglomération.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Développer la scolarisation à 2 ans.",
+                "Soutenir l'implantation de crèches à Mulhouse.",
+                "Augmenter le nombre de places en périscolaire sur l'ensemble de Mulhouse en lien avec l'agglomération."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Initier et soutenir un plan pluriannuel de création de places pour la petite enfance et les sites périscolaires. Mettre en place un accueil municipal dans les écoles à partir de 7h30.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Initier et soutenir un plan pluriannuel de création de places pour la petite enfance et les sites périscolaires.",
+                "Mettre en place un accueil municipal dans les écoles à partir de 7h30."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -562,15 +717,24 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "lutz": {
-              "texte": "Doubler le nombre de cours d'écoles végétalisées d'ici la fin du mandat. Accompagner l'innovation dans la forme scolaire (matériel, inclusion, espaces, projets). Soutenir l'école du dehors pour développer le contact des enfants à la nature. Mettre en place des cours d'empathie dès le primaire et installer des bancs de l'amitié contre le harcèlement.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Doubler le nombre de cours d'écoles végétalisées d'ici la fin du mandat.",
+                "Accompagner l'innovation dans la forme scolaire (matériel, inclusion, espaces, projets)",
+                "Soutenir l'école du dehors pour développer le contact des enfants à la nature.",
+                "Mettre en place des cours d'empathie dès le primaire et installer des bancs de l'amitié contre le harcèlement."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Végétaliser toutes les cours d'écoles d'ici la fin du mandat en associant les équipes éducatives et les enfants. Doter l'école de plus de moyens humains : 1 ATSEM par classe de maternelle, même pour les classes dédoublées, et davantage d'AESH. Amplifier le développement de l'école du dehors.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Végétaliser toutes les cours d'écoles d'ici la fin du mandat en associant les équipes éducatives et les enfants.",
+                "Doter l'école de plus de moyens humains : 1 ATSEM par classe de maternelle, même pour les classes dédoublées, et davantage d'AESH.",
+                "Amplifier le développement de l'école du dehors."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -579,9 +743,18 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Accélérer la rénovation et la modernisation des écoles. Végétaliser les écoles. Sécuriser tous les accès aux établissements scolaires avec une présence renforcée d'adultes aux heures d'entrée/sortie. Réguler la circulation devant les écoles. Garantir à chaque élève le matériel scolaire nécessaire. Créer un « KM0 de l'éducation » (lieu de ressources pédagogiques). Développer les « savoir être » : respect, entraide, ouverture. Soutenir les projets innovants des enseignants.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Accélérer la rénovation et la modernisation des écoles.",
+                "Végétaliser les écoles.",
+                "Sécuriser tous les accès aux établissements scolaires avec une présence renforcée d'adultes aux heures d'entrée/sortie.",
+                "Réguler la circulation devant les écoles.",
+                "Garantir à chaque élève le matériel scolaire nécessaire.",
+                "Créer un « KM0 de l'éducation » (lieu de ressources pédagogiques)",
+                "Développer les « savoir être » : respect, entraide, ouverture.",
+                "Soutenir les projets innovants des enseignants."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -592,15 +765,21 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "lutz": {
-              "texte": "Renforcer l'éducation artistique et culturelle en faisant entrer les artistes dans les écoles. Intensifier le dispositif « EPS dans les écoles mulhousiennes » pour toucher l'ensemble des élèves.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Renforcer l'éducation artistique et culturelle en faisant entrer les artistes dans les écoles.",
+                "Intensifier le dispositif « EPS dans les écoles mulhousiennes » pour toucher l'ensemble des élèves."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Tenir l'objectif d'une cantine 100 % bio d'ici 2032, au maximum en circuits courts avec une alternative végétarienne tous les jours. Décider la gratuité des fournitures scolaires pour les familles en difficulté en lien avec le CCAS.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Tenir l'objectif d'une cantine 100 % bio d'ici 2032, au maximum en circuits courts avec une alternative végétarienne tous les jours.",
+                "Décider la gratuité des fournitures scolaires pour les familles en difficulté en lien avec le CCAS."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -609,9 +788,12 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Optimiser l'approvisionnement des restaurants scolaires en circuit court. Faire du bien-manger une philosophie partagée et développer des passerelles pédagogiques entre cuisine et enseignement.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Optimiser l'approvisionnement des restaurants scolaires en circuit court.",
+                "Faire du bien-manger une philosophie partagée et développer des passerelles pédagogiques entre cuisine et enseignement."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -622,15 +804,21 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "lutz": {
-              "texte": "Augmenter le nombre de places en périscolaire sur l'ensemble de Mulhouse. Soutenir les familles monoparentales en leur donnant la priorité sur les places en périscolaire et en crèche.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Augmenter le nombre de places en périscolaire sur l'ensemble de Mulhouse.",
+                "Soutenir les familles monoparentales en leur donnant la priorité sur les places en périscolaire et en crèche."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Créer un plan de soutien et d'aide aux devoirs en lien avec les périscolaires, les centres sociaux, le Rectorat et la Collectivité Européenne d'Alsace. Proposer des animations et lectures en alsacien sur les temps périscolaires.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Créer un plan de soutien et d'aide aux devoirs en lien avec les périscolaires, les centres sociaux, le Rectorat et la Collectivité Européenne d'Alsace.",
+                "Proposer des animations et lectures en alsacien sur les temps périscolaires."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -648,19 +836,32 @@
           "nom": "Jeunesse",
           "propositions": {
             "lutz": {
-              "texte": "Mettre en place le dispositif « un cabas pour un étudiant ». Lutter contre le mal-être des jeunes via des stands mobiles de dépistage. Favoriser l'accès au logement des jeunes. Lutter contre le cyberharcèlement par le permis internet dans les écoles. Organiser une Fête de la jeunesse. Créer un club des jeunes ambassadeurs rhénans avec Bâle et Freiburg.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Mettre en place le dispositif « un cabas pour un étudiant ».",
+                "Lutter contre le mal-être des jeunes via des stands mobiles de dépistage.",
+                "Favoriser l'accès au logement des jeunes.",
+                "Lutter contre le cyberharcèlement par le permis internet dans les écoles.",
+                "Organiser une Fête de la jeunesse.",
+                "Créer un club des jeunes ambassadeurs rhénans avec Bâle et Freiburg."
+              ]
             },
             "million": {
-              "texte": "Priorité à l'éducation et à la jeunesse",
               "source": "France Bleu Alsace, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Priorité à l'éducation et à la jeunesse."
+              ]
             },
             "minery": {
-              "texte": "Porter le projet « Quartier Jeunes », un nouveau lieu de ressources en coopération avec tous les acteurs de la politique jeunesse. Financer des bourses d'engagement pour soutenir les projets portés par les 15-25 ans, avec soutien spécifique pour les décrocheurs scolaires. Éduquer aux usages numériques et sensibiliser aux écrans dans toutes les écoles.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Porter le projet « Quartier Jeunes », un nouveau lieu de ressources en coopération avec tous les acteurs de la politique jeunesse.",
+                "Financer des bourses d'engagement pour soutenir les projets portés par les 15-25 ans, avec soutien spécifique pour les décrocheurs scolaires.",
+                "Éduquer aux usages numériques et sensibiliser aux écrans dans toutes les écoles."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -669,9 +870,18 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Développer au moins deux nouvelles filières d'études supérieures. Lancer un plan « Vie étudiante » et favoriser la poursuite d'études à Mulhouse. Relier universités, écoles et entreprises par un programme « Innovation et emploi ». Étendre le parcours SIM aux décrocheurs scolaires dans tous les collèges. Soutenir les CFA, l'AFPA et les centres de formation dans leurs projets de développement. Proposer des chantiers-écoles pour apprendre en rénovant la ville. Formaliser les échanges avec le conseil des jeunes. Attirer les étudiants en ville et faciliter l'accès aux transports pour étudiants.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Développer au moins deux nouvelles filières d'études supérieures.",
+                "Lancer un plan « Vie étudiante » et favoriser la poursuite d'études à Mulhouse.",
+                "Relier universités, écoles et entreprises par un programme « Innovation et emploi ».",
+                "Étendre le parcours SIM aux décrocheurs scolaires dans tous les collèges.",
+                "Soutenir les CFA, l'AFPA et les centres de formation dans leurs projets de développement.",
+                "Proposer des chantiers-écoles pour apprendre en rénovant la ville.",
+                "Formaliser les échanges avec le conseil des jeunes.",
+                "Attirer les étudiants en ville et faciliter l'accès aux transports pour étudiants."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -688,15 +898,26 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "lutz": {
-              "texte": "Développer la plantation d'arbres fruitiers dans tous les quartiers. Créer des jardins partagés au cœur des quartiers et protéger les jardins ouvriers. Créer une Maison itinérante de la biodiversité. Rénover le square de la Bourse, réaménager le jardin des senteurs. Développer de nouveaux espaces de loisirs le long de l'Ill et du Steinbaechlein.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/nature-en-ville/"
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/nature-en-ville/",
+              "mesures": [
+                "Développer la plantation d'arbres fruitiers dans tous les quartiers.",
+                "Créer des jardins partagés au cœur des quartiers et protéger les jardins ouvriers.",
+                "Créer une Maison itinérante de la biodiversité.",
+                "Rénover le square de la Bourse, réaménager le jardin des senteurs.",
+                "Développer de nouveaux espaces de loisirs le long de l'Ill et du Steinbaechlein."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Augmenter le nombre d'arbres labellisés filière durable et plantés en rangs serrés pour la fraîcheur et la biodiversité. Développer la plantation d'arbres fruitiers dans toute la ville. Créer des vergers pédagogiques et des jardins partagés accessibles aux habitants de tous les quartiers. Garantir un parc ou une aire de jeu à moins de 5 minutes de chaque habitant.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Augmenter le nombre d'arbres labellisés filière durable et plantés en rangs serrés pour la fraîcheur et la biodiversité.",
+                "Développer la plantation d'arbres fruitiers dans toute la ville.",
+                "Créer des vergers pédagogiques et des jardins partagés accessibles aux habitants de tous les quartiers.",
+                "Garantir un parc ou une aire de jeu à moins de 5 minutes de chaque habitant."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -705,9 +926,21 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Végétaliser le plus possible les rues et verdir les rues dans tous les quartiers. Valoriser le parc de la Bourse et en faire un parc majeur sur le cheminement gare-plateau piéton. Dessiner une allée-promenade verte piétonne Salvator-Fonderie. Recréer un parc entre Mairie et Bains municipaux (rue Pierre et Marie Curie). Créer des espaces publics de quiétude calmes et ombragés dans tous les quartiers. Planter des arbres fruitiers en libre accès dans parcs et espaces publics. Soutenir les potagers urbains, la permaculture et les fermes innovantes. Faire réapparaître l'eau dans la ville (canaux, fontaines). Remettre de l'eau dans l'ensemble des parcs. Créer un parcours d'éveil dans un parc. Mener des actions pour le bien-être animal.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Végétaliser le plus possible les rues et verdir les rues dans tous les quartiers.",
+                "Valoriser le parc de la Bourse et en faire un parc majeur sur le cheminement gare-plateau piéton.",
+                "Dessiner une allée-promenade verte piétonne Salvator-Fonderie.",
+                "Recréer un parc entre Mairie et Bains municipaux (rue Pierre et Marie Curie)",
+                "Créer des espaces publics de quiétude calmes et ombragés dans tous les quartiers.",
+                "Planter des arbres fruitiers en libre accès dans parcs et espaces publics.",
+                "Soutenir les potagers urbains, la permaculture et les fermes innovantes.",
+                "Faire réapparaître l'eau dans la ville (canaux, fontaines)",
+                "Remettre de l'eau dans l'ensemble des parcs.",
+                "Créer un parcours d'éveil dans un parc.",
+                "Mener des actions pour le bien-être animal."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -718,19 +951,33 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "lutz": {
-              "texte": "Créer une brigade municipale dédiée exclusivement à la propreté urbaine. Optimiser la gestion des encombrants avec bennes spécifiques et enlèvement à la demande. Réinventer la journée citoyenne en « Clean up day » une fois par an dans chaque quartier. Étendre le tri des biodéchets à tous les quartiers. Mettre en place des poubelles de tri avec cendriers.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/",
+              "mesures": [
+                "Créer une brigade municipale dédiée exclusivement à la propreté urbaine.",
+                "Optimiser la gestion des encombrants avec bennes spécifiques et enlèvement à la demande.",
+                "Réinventer la journée citoyenne en « Clean up day » une fois par an dans chaque quartier.",
+                "Étendre le tri des biodéchets à tous les quartiers.",
+                "Mettre en place des poubelles de tri avec cendriers."
+              ]
             },
             "million": {
-              "texte": "Choc de propreté avec ramassage des encombrants devant la porte de chaque quartier le 1er mercredi du mois. Arrêter les dépôts sauvages et le sentiment d'abandon.",
               "source": "Site officiel Lara Million",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Choc de propreté avec ramassage des encombrants devant la porte de chaque quartier le 1er mercredi du mois.",
+                "Arrêter les dépôts sauvages et le sentiment d'abandon."
+              ]
             },
             "minery": {
-              "texte": "Installer des containers enterrés de déchets à la demande des copropriétés et bailleurs sociaux. Créer un dispositif d'enlèvement des encombrants au domicile sur rendez-vous. Poursuivre la réduction des déchets en généralisant le tri des biodéchets. Supprimer le plastique à usage unique lors des événements sur le territoire municipal.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Installer des containers enterrés de déchets à la demande des copropriétés et bailleurs sociaux.",
+                "Créer un dispositif d'enlèvement des encombrants au domicile sur rendez-vous.",
+                "Poursuivre la réduction des déchets en généralisant le tri des biodéchets.",
+                "Supprimer le plastique à usage unique lors des événements sur le territoire municipal."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -739,9 +986,15 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Refaire de la propreté un essentiel dans tous les quartiers. Augmenter les équipes de terrain pour le nettoyage et mieux soutenir les agents municipaux de propreté (moyens et reconnaissance). Mettre en place une collecte des encombrants sur rendez-vous. Remplacer les corbeilles de déchets par des corbeilles de tri. Faire de Mulhouse la première ville sans bouteilles plastiques en 10 ans.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Refaire de la propreté un essentiel dans tous les quartiers.",
+                "Augmenter les équipes de terrain pour le nettoyage et mieux soutenir les agents municipaux de propreté (moyens et reconnaissance)",
+                "Mettre en place une collecte des encombrants sur rendez-vous.",
+                "Remplacer les corbeilles de déchets par des corbeilles de tri.",
+                "Faire de Mulhouse la première ville sans bouteilles plastiques en 10 ans."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -752,19 +1005,28 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "lutz": {
-              "texte": "Doubler le nombre de cours d'écoles végétalisées. Participer au programme de conservation de la forêt du Waldeck avec parcours de biodiversité. Développer la stratégie de lutte contre le moustique tigre et les nuisances sonores.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/nature-en-ville/"
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/nature-en-ville/",
+              "mesures": [
+                "Doubler le nombre de cours d'écoles végétalisées.",
+                "Participer au programme de conservation de la forêt du Waldeck avec parcours de biodiversité.",
+                "Développer la stratégie de lutte contre le moustique tigre et les nuisances sonores."
+              ]
             },
             "million": {
-              "texte": "Transition climatique et intégration de l'intelligence artificielle au service de la ville",
               "source": "France Bleu Alsace, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Transition climatique et intégration de l'intelligence artificielle au service de la ville."
+              ]
             },
             "minery": {
-              "texte": "Lutter contre les îlots de chaleur en zone urbaine : les identifier prioritairement dans les quartiers abritant les populations les plus vulnérables, puis les transformer en végétalisant et en plantant des arbres. Prévenir le développement du moustique-tigre par une campagne de porte à porte massive.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Lutter contre les îlots de chaleur en zone urbaine : les identifier prioritairement dans les quartiers abritant les populations les plus vulnérables, puis les transformer en végétalisant et en plantant des arbres.",
+                "Prévenir le développement du moustique-tigre par une campagne de porte à porte massive."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -773,9 +1035,15 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Intégrer rivières et canaux dans la transformation urbaine. Créer des espaces de baignade. Développer le port urbain. Transformer la ville en « ville d'eau » à l'horizon 2040. Porter un axe de développement stratégique autour de l'eau.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Intégrer rivières et canaux dans la transformation urbaine.",
+                "Créer des espaces de baignade.",
+                "Développer le port urbain.",
+                "Transformer la ville en « ville d'eau » à l'horizon 2040.",
+                "Porter un axe de développement stratégique autour de l'eau."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -786,15 +1054,21 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "lutz": {
-              "texte": "Exonérer de taxe foncière la création et la rénovation des logements performants énergétiquement. Construire et rénover plus de 2 000 logements dans les quartiers des Coteaux, du Drouot et de la Fonderie.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/",
+              "mesures": [
+                "Exonérer de taxe foncière la création et la rénovation des logements performants énergétiquement.",
+                "Construire et rénover plus de 2 000 logements dans les quartiers des Coteaux, du Drouot et de la Fonderie."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Créer un plan de développement des énergies renouvelables pour les infrastructures municipales et accompagner les habitants dans la transition énergétique de leurs logements en favorisant l'autoconsommation et la décarbonation. Initier une cellule « appel d'offres » mutualisée pour faciliter la rénovation énergétique des logements.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Créer un plan de développement des énergies renouvelables pour les infrastructures municipales et accompagner les habitants dans la transition énergétique de leurs logements en favorisant l'autoconsommation et la décarbonation.",
+                "Initier une cellule « appel d'offres » mutualisée pour faciliter la rénovation énergétique des logements."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -803,9 +1077,12 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Accélérer le déploiement des solutions énergétiques nouvelles. Rénover les bâtiments anciens pour améliorer leur performance énergétique.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Accélérer le déploiement des solutions énergétiques nouvelles.",
+                "Rénover les bâtiments anciens pour améliorer leur performance énergétique."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -816,15 +1093,23 @@
           "nom": "Alimentation durable",
           "propositions": {
             "lutz": {
-              "texte": "Mener des actions de sensibilisation au bénéfice d'une meilleure alimentation. Renforcer le rayonnement de la place du marché comme lieu de circuits courts et d'innovation culinaire. Lancer l'ordonnance verte avec paniers de légumes bio pour femmes enceintes.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/sante/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/sante/",
+              "mesures": [
+                "Mener des actions de sensibilisation au bénéfice d'une meilleure alimentation.",
+                "Renforcer le rayonnement de la place du marché comme lieu de circuits courts et d'innovation culinaire.",
+                "Lancer l'ordonnance verte avec paniers de légumes bio pour femmes enceintes."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Coordonner les acteurs de l'aide alimentaire et expérimenter la Sécurité Sociale de l'Alimentation. Trouver un lieu pérenne pour les distributions en circuit court (AMAP) et créer un label pour les restaurateurs mulhousiens. Mettre en place les ordonnances vertes avec distribution de paniers bio et locaux pour les femmes enceintes.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Coordonner les acteurs de l'aide alimentaire et expérimenter la Sécurité Sociale de l'Alimentation.",
+                "Trouver un lieu pérenne pour les distributions en circuit court (AMAP) et créer un label pour les restaurateurs mulhousiens.",
+                "Mettre en place les ordonnances vertes avec distribution de paniers bio et locaux pour les femmes enceintes."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -833,9 +1118,13 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Protéger la qualité de l'eau du robinet. Expérimenter la sécurité sociale de l'alimentation (modèle Strasbourg). Cultiver une ceinture nourricière autour de la ville et réserver des terrains à l'agriculture.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Protéger la qualité de l'eau du robinet.",
+                "Expérimenter la sécurité sociale de l'alimentation (modèle Strasbourg)",
+                "Cultiver une ceinture nourricière autour de la ville et réserver des terrains à l'agriculture."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -852,19 +1141,29 @@
           "nom": "Centres de santé",
           "propositions": {
             "lutz": {
-              "texte": "Créer un poste de manager de la santé pour faciliter les installations de professionnels. Dupliquer le modèle de la maison de santé de Bourtzwiller dans d'autres quartiers. Être moteur dans l'implantation de centres de formation dans les métiers du soin, avec mise en place d'une première année de médecine.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/sante/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/sante/",
+              "mesures": [
+                "Créer un poste de manager de la santé pour faciliter les installations de professionnels.",
+                "Dupliquer le modèle de la maison de santé de Bourtzwiller dans d'autres quartiers.",
+                "Être moteur dans l'implantation de centres de formation dans les métiers du soin, avec mise en place d'une première année de médecine."
+              ]
             },
             "million": {
-              "texte": "Priorité santé et bien vieillir",
               "source": "France Bleu Alsace, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Priorité santé et bien vieillir."
+              ]
             },
             "minery": {
-              "texte": "Créer une Maison Municipale de Santé regroupant des médecins salariés, en lien avec les universités et l'IFSI, pour attirer médecins et internes. Création de Centres de Santé dans les quartiers intégrant santé scolaire, prévention et soutien à la santé mentale. Accompagner l'installation des études de santé à Mulhouse sur l'ensemble du cursus (UHA-UNISTRA-IFSI-GHR).",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Créer une Maison Municipale de Santé regroupant des médecins salariés, en lien avec les universités et l'IFSI, pour attirer médecins et internes.",
+                "Création de Centres de Santé dans les quartiers intégrant santé scolaire, prévention et soutien à la santé mentale.",
+                "Accompagner l'installation des études de santé à Mulhouse sur l'ensemble du cursus (UHA-UNISTRA-IFSI-GHR)."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -873,9 +1172,17 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Doubler le nombre de médecins en 10 ans avec aide à l'installation. Accompagner l'installation de la 1ère promotion UHA d'étudiants en médecine à Mulhouse. Créer un pôle d'innovation en santé numérique et neuroscience. Assurer un accueil adapté pour tous (personnes âgées, mobilité réduite). Renforcer l'offre de soins pour les plus fragiles. Garantir une fin de vie digne avec soins palliatifs. Proposer la formation « Médecin maître de stage » à Mulhouse.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Doubler le nombre de médecins en 10 ans avec aide à l'installation.",
+                "Accompagner l'installation de la 1ère promotion UHA d'étudiants en médecine à Mulhouse.",
+                "Créer un pôle d'innovation en santé numérique et neuroscience.",
+                "Assurer un accueil adapté pour tous (personnes âgées, mobilité réduite)",
+                "Renforcer l'offre de soins pour les plus fragiles.",
+                "Garantir une fin de vie digne avec soins palliatifs.",
+                "Proposer la formation « Médecin maître de stage » à Mulhouse."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -886,15 +1193,24 @@
           "nom": "Prévention santé",
           "propositions": {
             "lutz": {
-              "texte": "Lancer l'ordonnance verte pour améliorer l'alimentation des femmes enceintes. Instaurer un programme citoyen pour former 1 habitant sur 20 aux gestes qui sauvent. Renforcer les parcours de prévention dans tous les quartiers avec le bus M TA SANTE. Promouvoir le sport santé à tous les âges. Expérimenter la culture sur ordonnance pour la santé mentale.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/sante/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-plus-sure/sante/",
+              "mesures": [
+                "Lancer l'ordonnance verte pour améliorer l'alimentation des femmes enceintes.",
+                "Instaurer un programme citoyen pour former 1 habitant sur 20 aux gestes qui sauvent.",
+                "Renforcer les parcours de prévention dans tous les quartiers avec le bus M TA SANTE.",
+                "Promouvoir le sport santé à tous les âges.",
+                "Expérimenter la culture sur ordonnance pour la santé mentale."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Développer la prise en charge de la santé mentale en renforçant les Conseils locaux de santé mentale (CLSM) et en massifiant la formation aux premiers secours en santé mentale. S'appuyer sur le centre sportif régional et le tissu sportif local pour faire de Mulhouse le fleuron du sport-santé.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Développer la prise en charge de la santé mentale en renforçant les Conseils locaux de santé mentale (CLSM) et en massifiant la formation aux premiers secours en santé mentale.",
+                "S'appuyer sur le centre sportif régional et le tissu sportif local pour faire de Mulhouse le fleuron du sport-santé."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -903,9 +1219,13 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Déployer un plan local de santé mentale. Intensifier les campagnes de prévention (nutrition, activité physique, addictions, maladies chroniques). Développer un plan « Mulhouse Sport Santé 2040 » et encourager la pratique sportive à tout âge.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Déployer un plan local de santé mentale.",
+                "Intensifier les campagnes de prévention (nutrition, activité physique, addictions, maladies chroniques)",
+                "Développer un plan « Mulhouse Sport Santé 2040 » et encourager la pratique sportive à tout âge."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -916,19 +1236,30 @@
           "nom": "Seniors",
           "propositions": {
             "lutz": {
-              "texte": "Inciter à la création d'habitats inclusifs et intergénérationnels. Lancer le programme des « petits veilleurs » avec les Petits Frères des Pauvres pour les seniors isolés. Développer un soutien renforcé aux aidants avec temps de répit. Offrir aux seniors la participation à l'embellissement des parcs et l'accès à des espaces climatisés lors des canicules.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/",
+              "mesures": [
+                "Inciter à la création d'habitats inclusifs et intergénérationnels.",
+                "Lancer le programme des « petits veilleurs » avec les Petits Frères des Pauvres pour les seniors isolés.",
+                "Développer un soutien renforcé aux aidants avec temps de répit.",
+                "Offrir aux seniors la participation à l'embellissement des parcs et l'accès à des espaces climatisés lors des canicules."
+              ]
             },
             "million": {
-              "texte": "Politique dédiée au bien vieillir à Mulhouse",
               "source": "France Bleu Alsace, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Politique dédiée au bien vieillir à Mulhouse."
+              ]
             },
             "minery": {
-              "texte": "Développer l'habitat inclusif à destination des seniors pour lutter contre l'isolement et soutenir les aidants familiaux. Transformer la Clé des Aînés en une « Maison des aînés et des Aidants » pour renseigner, orienter et accompagner la population vieillissante. Lutter contre l'isolement des seniors en favorisant l'accès aux activités sportives, culturelles et ludiques.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Développer l'habitat inclusif à destination des seniors pour lutter contre l'isolement et soutenir les aidants familiaux.",
+                "Transformer la Clé des Aînés en une « Maison des aînés et des Aidants » pour renseigner, orienter et accompagner la population vieillissante.",
+                "Lutter contre l'isolement des seniors en favorisant l'accès aux activités sportives, culturelles et ludiques."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -937,9 +1268,14 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Recréer un conseil des anciens. Mettre en place un parrainage seniors/étudiants. Développer les échanges entre écoles et maisons de retraite. Faciliter les accès aux lieux de quiétude pour personnes à mobilité réduite.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Recréer un conseil des anciens.",
+                "Mettre en place un parrainage seniors/étudiants.",
+                "Développer les échanges entre écoles et maisons de retraite.",
+                "Faciliter les accès aux lieux de quiétude pour personnes à mobilité réduite."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -956,15 +1292,22 @@
           "nom": "Budget participatif",
           "propositions": {
             "lutz": {
-              "texte": "Organiser une Journée de la consultation citoyenne afin de voter sur les grandes transformations de la ville. Introduire le droit d'interpellation citoyenne au Conseil municipal.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/vie-citoyenne/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/vie-citoyenne/",
+              "mesures": [
+                "Organiser une Journée de la consultation citoyenne afin de voter sur les grandes transformations de la ville.",
+                "Introduire le droit d'interpellation citoyenne au Conseil municipal."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Augmenter les fonds alloués aux budgets participatifs pour que les habitants décident réellement des investissements de proximité. Instaurer le Référendum d'Initiative Citoyenne (RIC) et organiser des consultations sur les grands projets urbains. Mettre en place le « quart d'heure des citoyennes et des citoyens » pour donner la parole aux habitants lors du conseil municipal.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Augmenter les fonds alloués aux budgets participatifs pour que les habitants décident réellement des investissements de proximité.",
+                "Instaurer le Référendum d'Initiative Citoyenne (RIC) et organiser des consultations sur les grands projets urbains.",
+                "Mettre en place le « quart d'heure des citoyennes et des citoyens » pour donner la parole aux habitants lors du conseil municipal."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -973,9 +1316,15 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Coconstruire les décisions avec les habitants. Réinstaller les « conseils de quartiers ». Assurer une permanence mensuelle du Maire accessible sans rendez-vous. Désigner pour chaque quartier un adjoint référent. Organiser chaque mois une réunion publique dans un quartier différent.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Coconstruire les décisions avec les habitants.",
+                "Réinstaller les « conseils de quartiers ».",
+                "Assurer une permanence mensuelle du Maire accessible sans rendez-vous.",
+                "Désigner pour chaque quartier un adjoint référent.",
+                "Organiser chaque mois une réunion publique dans un quartier différent."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -987,29 +1336,44 @@
           "propositions": {
             "lutz": null,
             "million": {
-              "texte": "Des élus référents clairement identifiés pour chaque quartier, responsables, disponibles et joignables. Des contrats de quartiers : 3 mesures claires, formalisées, signées, suivies et évaluées dans le temps.",
               "source": "Site officiel Lara Million",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Des élus référents clairement identifiés pour chaque quartier, responsables, disponibles et joignables.",
+                "Des contrats de quartiers : 3 mesures claires, formalisées, signées, suivies et évaluées dans le temps."
+              ]
             },
             "minery": {
-              "texte": "Publication systématique des ordres du jour du conseil municipal. Appliquer les 30 propositions d'Anticor pour une commune éthique, incluant le non-cumul des mandats et la probité des élus. Ne pas augmenter la taxe foncière à contexte économique constant.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Publication systématique des ordres du jour du conseil municipal.",
+                "Appliquer les 30 propositions d'Anticor pour une commune éthique, incluant le non-cumul des mandats et la probité des élus.",
+                "Ne pas augmenter la taxe foncière à contexte économique constant."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
             "gafanesch": null,
             "sassi": null,
             "sornin": {
-              "texte": "L'humain d'abord, la ville autrement : transparence et gouvernance ouverte après avoir quitté la majorité",
               "source": "L'Alterpresse68, décembre 2025",
-              "sourceUrl": "https://www.alterpresse68.info/2025/12/15/cecile-sornin-candidate-aux-elections-municipales-de-mulhouse-les-promesses-nengagent-que-ceux-qui-les-ecoutent-est-une-phrase-qui-me-donne-la-nausee/"
+              "sourceUrl": "https://www.alterpresse68.info/2025/12/15/cecile-sornin-candidate-aux-elections-municipales-de-mulhouse-les-promesses-nengagent-que-ceux-qui-les-ecoutent-est-une-phrase-qui-me-donne-la-nausee/",
+              "mesures": [
+                "L'humain d'abord, la ville autrement : transparence et gouvernance ouverte après avoir quitté la majorité."
+              ]
             },
             "fuchs": null,
             "marquet": {
-              "texte": "Réaliser un audit complet des finances municipales et le rendre public. Stabiliser les impôts locaux et réaliser des économies. Mettre en place une équipe spécialisée dans la recherche de subventions (État, Europe, Fondations). Créer un fonds « Innovation Mulhouse 2050 » pour financer les grands projets, alimenté par la Ville, la M2A, la Région, l'État et des partenaires privés sous contrôle. Mettre en place un « Indice du Bonheur mulhousien » mesurant régulièrement le bien-être, la santé, la cohésion sociale, l'accès à la culture, le niveau de confiance et le sentiment de sécurité, publié chaque année le 20 mars.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Réaliser un audit complet des finances municipales et le rendre public.",
+                "Stabiliser les impôts locaux et réaliser des économies.",
+                "Mettre en place une équipe spécialisée dans la recherche de subventions (État, Europe, Fondations)",
+                "Créer un fonds « Innovation Mulhouse 2050 » pour financer les grands projets, alimenté par la Ville, la M2A, la Région, l'État et des partenaires privés sous contrôle.",
+                "Mettre en place un « Indice du Bonheur mulhousien » mesurant régulièrement le bien-être, la santé, la cohésion sociale, l'accès à la culture, le niveau de confiance et le sentiment de sécurité, publié chaque année le 20 mars."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1020,19 +1384,29 @@
           "nom": "Vie associative",
           "propositions": {
             "lutz": {
-              "texte": "Créer une application pour les associations permettant de réserver des salles et mutualiser des moyens. Organiser une Fête des bénévoles. Réinventer les conseils de quartier avec les habitants.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/vie-citoyenne/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/vie-citoyenne/",
+              "mesures": [
+                "Créer une application pour les associations permettant de réserver des salles et mutualiser des moyens.",
+                "Organiser une Fête des bénévoles.",
+                "Réinventer les conseils de quartier avec les habitants."
+              ]
             },
             "million": {
-              "texte": "Des QG de quartiers : espaces de travail partagés entre habitants, élus et administration pour trouver des solutions concrètes du quotidien.",
               "source": "Site officiel Lara Million",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Des QG de quartiers : espaces de travail partagés entre habitants, élus et administration pour trouver des solutions concrètes du quotidien."
+              ]
             },
             "minery": {
-              "texte": "Restructurer et redynamiser le Carré des Associations comme lieu de ressources et de la vie associative. Augmenter le financement des Centres Socio-Culturels afin de leur permettre de se développer de manière pérenne. Mettre en place des conventions pluriannuelles de financement pour permettre aux associations de se projeter sur le long terme.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Restructurer et redynamiser le Carré des Associations comme lieu de ressources et de la vie associative.",
+                "Augmenter le financement des Centres Socio-Culturels afin de leur permettre de se développer de manière pérenne.",
+                "Mettre en place des conventions pluriannuelles de financement pour permettre aux associations de se projeter sur le long terme."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1041,9 +1415,13 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Soumettre une charte municipale des valeurs républicaines aux associations. Soutenir les associations et collectifs mulhousiens. Encourager le dialogue interreligieux et créer un forum consultatif des cultes et de la fraternité.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Soumettre une charte municipale des valeurs républicaines aux associations.",
+                "Soutenir les associations et collectifs mulhousiens.",
+                "Encourager le dialogue interreligieux et créer un forum consultatif des cultes et de la fraternité."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1054,35 +1432,54 @@
           "nom": "Services publics",
           "propositions": {
             "lutz": {
-              "texte": "Favoriser l'intégration et le lien social par des cérémonies d'accueil des nouveaux habitants. Soutenir l'organisation d'événements culturels gratuits (Fête de la Science, Fête du Monde, Nuit des Mystères) en lien avec les riverains.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/vie-citoyenne/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/vie-citoyenne/",
+              "mesures": [
+                "Favoriser l'intégration et le lien social par des cérémonies d'accueil des nouveaux habitants.",
+                "Soutenir l'organisation d'événements culturels gratuits (Fête de la Science, Fête du Monde, Nuit des Mystères) en lien avec les riverains."
+              ]
             },
             "million": {
-              "texte": "Une mairie mobile : un bus itinérant dans tous les quartiers pour effectuer des démarches simples et obtenir des réponses immédiates. Permanences régulières sur le terrain au plus près des habitants.",
               "source": "Site officiel Lara Million",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Une mairie mobile : un bus itinérant dans tous les quartiers pour effectuer des démarches simples et obtenir des réponses immédiates.",
+                "Permanences régulières sur le terrain au plus près des habitants."
+              ]
             },
             "minery": {
-              "texte": "Créer un Conseil Citoyen du Numérique, instance indépendante pour une politique numérique responsable, éthique des données et inclusion de tous. Des conseils de quartiers plus démocratiques avec diagnostic partagé, priorités et calendrier d'actions. Moins d'externalisations et confiance aux agents municipaux dans l'accomplissement des missions de service public.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Créer un Conseil Citoyen du Numérique, instance indépendante pour une politique numérique responsable, éthique des données et inclusion de tous.",
+                "Des conseils de quartiers plus démocratiques avec diagnostic partagé, priorités et calendrier d'actions.",
+                "Moins d'externalisations et confiance aux agents municipaux dans l'accomplissement des missions de service public."
+              ]
             },
             "ritz": null,
             "taffarelli": {
-              "texte": "Défendre l'identité française et alsacienne de Mulhouse qui est présente depuis 1798 et des siècles. La ville ne doit pas faiblir dans ses prérogatives sur ce thème.",
               "source": "Site officiel Restaurer Mulhouse",
               "sourceUrl": "https://www.restaurermulhouse.fr/",
-              "a_verifier": true
+              "a_verifier": true,
+              "mesures": [
+                "Défendre l'identité française et alsacienne de Mulhouse qui est présente depuis 1798 et des siècles.",
+                "La ville ne doit pas faiblir dans ses prérogatives sur ce thème."
+              ]
             },
             "gafanesch": null,
             "sassi": null,
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Créer des mairies de quartiers. Simplifier, accélérer et humaniser les démarches administratives. Créer une plateforme numérique unique et un portail unique pour les démarches. Proposer les documents administratifs en plusieurs langues (anglais, allemand, italien, espagnol, arabe, turc, portugais). Ajuster l'action publique sur résultats concrets.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Créer des mairies de quartiers.",
+                "Simplifier, accélérer et humaniser les démarches administratives.",
+                "Créer une plateforme numérique unique et un portail unique pour les démarches.",
+                "Proposer les documents administratifs en plusieurs langues (anglais, allemand, italien, espagnol, arabe, turc, portugais)",
+                "Ajuster l'action publique sur résultats concrets."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1099,19 +1496,33 @@
           "nom": "Commerce local",
           "propositions": {
             "lutz": {
-              "texte": "Mettre en place une politique d'urbanisme commercial garantissant la diversité des commerces de proximité. Étendre la fonction de manager du commerce à tous les quartiers. Renforcer le soutien financier aux associations de commerçants. Revitaliser l'offre commerciale autour du square de la Bourse. Conforter la place du Marché de Noël dans l'espace rhénan.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/commerce/"
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/commerce/",
+              "mesures": [
+                "Mettre en place une politique d'urbanisme commercial garantissant la diversité des commerces de proximité.",
+                "Étendre la fonction de manager du commerce à tous les quartiers.",
+                "Renforcer le soutien financier aux associations de commerçants.",
+                "Revitaliser l'offre commerciale autour du square de la Bourse.",
+                "Conforter la place du Marché de Noël dans l'espace rhénan."
+              ]
             },
             "million": {
-              "texte": "Redynamiser le commerce en soutenant les commerçants et artisans. Redonner vie au centre-ville et aux quartiers par des actions concrètes et financées.",
               "source": "Site officiel Lara Million",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Redynamiser le commerce en soutenant les commerçants et artisans.",
+                "Redonner vie au centre-ville et aux quartiers par des actions concrètes et financées."
+              ]
             },
             "minery": {
-              "texte": "Adopter une stratégie commerciale lisible pour soutenir tous les commerces et artisans et favoriser l'installation de nouvelles enseignes de proximité et indépendantes. Taxer davantage les locaux commerciaux vacants. Prioriser les circuits courts et l'économie locale dans les marchés publics. Soutenir et promouvoir la monnaie locale « La cigogne ».",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Adopter une stratégie commerciale lisible pour soutenir tous les commerces et artisans et favoriser l'installation de nouvelles enseignes de proximité et indépendantes.",
+                "Taxer davantage les locaux commerciaux vacants.",
+                "Prioriser les circuits courts et l'économie locale dans les marchés publics.",
+                "Soutenir et promouvoir la monnaie locale « La cigogne »."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1120,9 +1531,16 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Lancer la « Mission Commerce Mulhouse » avec une stratégie opérationnelle. Dédier des équipes au commerce du centre-ville, des quartiers et des marchés. Soutenir le marché de Mulhouse et élaborer un projet avec les commerçants du marché. Créer une halle gourmande des cuisines du monde dans un lieu central. Soutenir les initiatives culinaires d'insertion et créant du lien social. Redonner vie au Réfectoire de DMC avec un projet culinaire et culturel.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Lancer la « Mission Commerce Mulhouse » avec une stratégie opérationnelle.",
+                "Dédier des équipes au commerce du centre-ville, des quartiers et des marchés.",
+                "Soutenir le marché de Mulhouse et élaborer un projet avec les commerçants du marché.",
+                "Créer une halle gourmande des cuisines du monde dans un lieu central.",
+                "Soutenir les initiatives culinaires d'insertion et créant du lien social.",
+                "Redonner vie au Réfectoire de DMC avec un projet culinaire et culturel."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1133,15 +1551,25 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "lutz": {
-              "texte": "Développer un programme de mécénat. Soutenir le projet Mulhouse Vallée des Matériaux en partenariat avec l'Université Haute-Alsace. Développer les conciergeries économiques au service des entreprises et salariés. Mettre en place la filière du réemploi informatique au bénéfice des plus démunis.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/attractivite-vie-economique/"
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/attractivite-vie-economique/",
+              "mesures": [
+                "Développer un programme de mécénat.",
+                "Soutenir le projet Mulhouse Vallée des Matériaux en partenariat avec l'Université Haute-Alsace.",
+                "Développer les conciergeries économiques au service des entreprises et salariés.",
+                "Mettre en place la filière du réemploi informatique au bénéfice des plus démunis."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Porter un pacte pour l'emploi afin de sortir 2 000 jeunes du statut de ni en emploi / ni en formation. Expérimenter le dispositif « Territoire Zéro Chômeur de longue durée ». Créer un pôle d'excellence avec KMO et l'UHA sur l'IA et la transformation de l'industrie. Adapter la stratégie d'achats publics pour soutenir les structures de réemploi et l'ESS.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Porter un pacte pour l'emploi afin de sortir 2 000 jeunes du statut de ni en emploi / ni en formation.",
+                "Expérimenter le dispositif « Territoire Zéro Chômeur de longue durée ».",
+                "Créer un pôle d'excellence avec KMO et l'UHA sur l'IA et la transformation de l'industrie.",
+                "Adapter la stratégie d'achats publics pour soutenir les structures de réemploi et l'ESS."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1150,9 +1578,16 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Recruter un Manager de l'Industrie. Accélérer la reconversion des friches industrielles. Mettre en place une équipe dédiée à l'implantation et au développement des entreprises. Coordonner avec la CCI et l'ADIRA. Faciliter les démarches administratives des entrepreneurs. Proposer un programme commun d'emploi transfrontalier avec Bâle et Freiburg.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Recruter un Manager de l'Industrie.",
+                "Accélérer la reconversion des friches industrielles.",
+                "Mettre en place une équipe dédiée à l'implantation et au développement des entreprises.",
+                "Coordonner avec la CCI et l'ADIRA.",
+                "Faciliter les démarches administratives des entrepreneurs.",
+                "Proposer un programme commun d'emploi transfrontalier avec Bâle et Freiburg."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1163,35 +1598,58 @@
           "nom": "Attractivité",
           "propositions": {
             "lutz": {
-              "texte": "Poursuivre la mutation du quartier Gare pour renforcer sa fonction économique et logistique. Créer un « Mulhouse Business Welcome » pour attirer entreprises et talents. Mettre en place un Groupement Local de Coopération Transfrontalière (GLCT). Renforcer la ligne Mulhouse-Müllheim-Freiburg.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/transfrontalier-projets-emblematiques/"
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/transfrontalier-projets-emblematiques/",
+              "mesures": [
+                "Poursuivre la mutation du quartier Gare pour renforcer sa fonction économique et logistique.",
+                "Créer un « Mulhouse Business Welcome » pour attirer entreprises et talents.",
+                "Mettre en place un Groupement Local de Coopération Transfrontalière (GLCT)",
+                "Renforcer la ligne Mulhouse-Müllheim-Freiburg."
+              ]
             },
             "million": {
-              "texte": "Faire de Mulhouse une capitale trinationale",
               "source": "France Bleu Alsace, janvier 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Faire de Mulhouse une capitale trinationale."
+              ]
             },
             "minery": {
-              "texte": "Affirmer la place singulière de Mulhouse pour lui redonner une voix au sein de la région et dans un dialogue resserré avec Bâle et Fribourg. Renforcer l'acquisition des fonds européens avec une cellule experte dédiée à l'accompagnement au montage de projets européens. Avoir une ambition pour la gare de Mulhouse : embellissement, sécurisation, retour du TGV Mulhouse-Lille.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Affirmer la place singulière de Mulhouse pour lui redonner une voix au sein de la région et dans un dialogue resserré avec Bâle et Fribourg.",
+                "Renforcer l'acquisition des fonds européens avec une cellule experte dédiée à l'accompagnement au montage de projets européens.",
+                "Avoir une ambition pour la gare de Mulhouse : embellissement, sécurisation, retour du TGV Mulhouse-Lille."
+              ]
             },
             "ritz": null,
             "taffarelli": {
-              "texte": "Encourager la réindustrialisation en accueillant des usines, des unités de production et des manufactures. Mulhouse, historiquement industrielle, doit participer pleinement à la réindustrialisation du pays.",
               "source": "Site officiel Restaurer Mulhouse",
               "sourceUrl": "https://www.restaurermulhouse.fr/",
-              "a_verifier": true
+              "a_verifier": true,
+              "mesures": [
+                "Encourager la réindustrialisation en accueillant des usines, des unités de production et des manufactures.",
+                "Mulhouse, historiquement industrielle, doit participer pleinement à la réindustrialisation du pays."
+              ]
             },
             "gafanesch": null,
             "sassi": null,
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Créer un Conseil créatif pour l'économie et associer les acteurs économiques à la décision municipale. Bâtir une vision stratégique novatrice pour l'attractivité de Mulhouse. Engager un plan « Image et attractivité ». Ouvrir une boutique-accueil Office du Tourisme place de la Réunion. Déterminer une stratégie d'agglomération avec des objectifs chiffrés. Renforcer les relations avec la Région et la Collectivité européenne d'Alsace. Mettre en œuvre une stratégie partagée de rayonnement sur le Rhin supérieur. Se positionner pour accueillir des équipements et fonctions départementales.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Créer un Conseil créatif pour l'économie et associer les acteurs économiques à la décision municipale.",
+                "Bâtir une vision stratégique novatrice pour l'attractivité de Mulhouse.",
+                "Engager un plan « Image et attractivité ».",
+                "Ouvrir une boutique-accueil Office du Tourisme place de la Réunion.",
+                "Déterminer une stratégie d'agglomération avec des objectifs chiffrés.",
+                "Renforcer les relations avec la Région et la Collectivité européenne d'Alsace.",
+                "Mettre en œuvre une stratégie partagée de rayonnement sur le Rhin supérieur.",
+                "Se positionner pour accueillir des équipements et fonctions départementales."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1208,15 +1666,27 @@
           "nom": "Équipements culturels",
           "propositions": {
             "lutz": {
-              "texte": "Rénover le Théâtre de la Sinne et le Noumatrouff. Accompagner MOTOCO dans son développement. Labelliser le conservatoire Huguette Dreyfus Conservatoire à rayonnement régional. Rendre l'accès gratuit à tous les services des bibliothèques. Développer les expériences immersives et le e-musée. Obtenir le label Patrimoine européen.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Rénover le Théâtre de la Sinne et le Noumatrouff.",
+                "Accompagner MOTOCO dans son développement.",
+                "Labelliser le conservatoire Huguette Dreyfus Conservatoire à rayonnement régional.",
+                "Rendre l'accès gratuit à tous les services des bibliothèques.",
+                "Développer les expériences immersives et le e-musée.",
+                "Obtenir le label Patrimoine européen."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Concrétiser le projet Noumatrouff 2 avec une nouvelle salle de 1 000 places pour les musiques actuelles. Ouvrir les bibliothèques à tous : gratuité pour les Mulhousiens et extension des horaires d'ouverture. Garantir un avenir aux équipements culturels (Filature, Théâtre de la Sinne, Conservatoire, Kunsthalle). Soutenir la création en développant des lieux de production (ateliers, salles de répétition, studios partagés).",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Concrétiser le projet Noumatrouff 2 avec une nouvelle salle de 1 000 places pour les musiques actuelles.",
+                "Ouvrir les bibliothèques à tous : gratuité pour les Mulhousiens et extension des horaires d'ouverture.",
+                "Garantir un avenir aux équipements culturels (Filature, Théâtre de la Sinne, Conservatoire, Kunsthalle)",
+                "Soutenir la création en développant des lieux de production (ateliers, salles de répétition, studios partagés)."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1225,9 +1695,20 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Équiper Mulhouse d'une médiathèque nouvelle génération dans un bâtiment central, ouverte le week-end, avec espace de coworking, café, salle de projection. Rendre l'entrée des musées gratuite pour les Mulhousiens. Offrir le Pass Musée à chaque famille d'enfant en maternelle et en primaire. Soutenir la modernisation des musées et des parcours de visite. Étudier la création d'un grand musée national de l'histoire industrielle. Devenir capitale européenne des arts visuels et de l'image. Étendre MOTOCO avec un pôle des arts visuels et scéniques. Attirer l'industrie de l'audiovisuel sur le site DMC. Étudier les possibilités pour le Noumatrouff. Doter Mulhouse d'un Zénith modulable de 2 000 à 8 000 places, financé à 60 % par partenaires extérieurs.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Équiper Mulhouse d'une médiathèque nouvelle génération dans un bâtiment central, ouverte le week-end, avec espace de coworking, café, salle de projection.",
+                "Rendre l'entrée des musées gratuite pour les Mulhousiens.",
+                "Offrir le Pass Musée à chaque famille d'enfant en maternelle et en primaire.",
+                "Soutenir la modernisation des musées et des parcours de visite.",
+                "Étudier la création d'un grand musée national de l'histoire industrielle.",
+                "Devenir capitale européenne des arts visuels et de l'image.",
+                "Étendre MOTOCO avec un pôle des arts visuels et scéniques.",
+                "Attirer l'industrie de l'audiovisuel sur le site DMC.",
+                "Étudier les possibilités pour le Noumatrouff.",
+                "Doter Mulhouse d'un Zénith modulable de 2 000 à 8 000 places, financé à 60 % par partenaires extérieurs."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1238,15 +1719,26 @@
           "nom": "Événements & Création",
           "propositions": {
             "lutz": {
-              "texte": "Célébrer le 30e anniversaire de Scènes de rue. Renouveler le festival littéraire LIVRODROME. Faire de Mulhouse la capitale européenne des carnavals en 2028. Créer un festival culturel alémanique contemporain ouvert aux participants alsaciens, suisses et allemands. Définir un pass culture et un pass famille.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Célébrer le 30e anniversaire de Scènes de rue.",
+                "Renouveler le festival littéraire LIVRODROME.",
+                "Faire de Mulhouse la capitale européenne des carnavals en 2028.",
+                "Créer un festival culturel alémanique contemporain ouvert aux participants alsaciens, suisses et allemands.",
+                "Définir un pass culture et un pass famille."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Renforcer et soutenir les événements marqueurs forts (Festival sans nom, Scènes de Rue, Carnaval, Festival Météo, Biennale photos...). Impulser de nouveaux événements coconstruits avec l'écosystème culturel (ex : Wilkumma in Milhusa, festival interalémanique). Valoriser le patrimoine industriel et l'histoire sociale et ouvrière de la ville. Établir un compagnonnage durable entre artistes et élèves des écoles mulhousiennes.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Renforcer et soutenir les événements marqueurs forts (Festival sans nom, Scènes de Rue, Carnaval, Festival Météo, Biennale photos...)",
+                "Impulser de nouveaux événements coconstruits avec l'écosystème culturel (ex : Wilkumma in Milhusa, festival interalémanique)",
+                "Valoriser le patrimoine industriel et l'histoire sociale et ouvrière de la ville.",
+                "Établir un compagnonnage durable entre artistes et élèves des écoles mulhousiennes."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1255,9 +1747,24 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Créer un kiosque place de la Réunion avec billetterie pour valoriser l'offre culturelle. Proposer un concert chaque vendredi soir (juin à septembre) et un grand concert annuel place de la Réunion. Soutenir et valoriser les artistes locaux. Organiser un grand marché des créateurs et artisans locaux et du monde, dans les rues du centre-ville tout l'été. Lancer une biennale de la photographie industrielle et manufacturière. Créer des lieux de cinéma en plein air tout l'été. Faire de Mulhouse « ville de la fête » avec événements et festivals de quartier, animations saisonnières. Proposer chaque été une grande fête dans un quartier différent. Relancer le Festival Automobile en y ajoutant cuisines et musiques du monde. Illuminer les espaces publics et moderniser les infrastructures du port. Installer une péniche bar-restaurant. Valoriser l'histoire et l'identité de Mulhouse, mettre à l'honneur les Mulhousiens célèbres. Ouvrir une annexe de la « maison de l'Alsace » et promouvoir la culture alsacienne. Soutenir les sections bilingues et les échanges scolaires internationaux.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Créer un kiosque place de la Réunion avec billetterie pour valoriser l'offre culturelle.",
+                "Proposer un concert chaque vendredi soir (juin à septembre) et un grand concert annuel place de la Réunion.",
+                "Soutenir et valoriser les artistes locaux.",
+                "Organiser un grand marché des créateurs et artisans locaux et du monde, dans les rues du centre-ville tout l'été.",
+                "Lancer une biennale de la photographie industrielle et manufacturière.",
+                "Créer des lieux de cinéma en plein air tout l'été.",
+                "Faire de Mulhouse « ville de la fête » avec événements et festivals de quartier, animations saisonnières.",
+                "Proposer chaque été une grande fête dans un quartier différent.",
+                "Relancer le Festival Automobile en y ajoutant cuisines et musiques du monde.",
+                "Illuminer les espaces publics et moderniser les infrastructures du port.",
+                "Installer une péniche bar-restaurant.",
+                "Valoriser l'histoire et l'identité de Mulhouse, mettre à l'honneur les Mulhousiens célèbres.",
+                "Ouvrir une annexe de la « maison de l'Alsace » et promouvoir la culture alsacienne.",
+                "Soutenir les sections bilingues et les échanges scolaires internationaux."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1274,15 +1781,24 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "lutz": {
-              "texte": "Construire une grande salle pour accueillir des manifestations sportives et culturelles d'envergure nationale. Réaliser le skatepark de l'Illberg. Équiper tous les quartiers avec un City stade et une aire de street work out accessible et sécurisée.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Construire une grande salle pour accueillir des manifestations sportives et culturelles d'envergure nationale.",
+                "Réaliser le skatepark de l'Illberg.",
+                "Équiper tous les quartiers avec un City stade et une aire de street work out accessible et sécurisée."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Élaborer un plan pluriannuel de rénovation et de création de nouveaux équipements sportifs, dont la création de city-stades aux Coteaux et à Bourtzwiller. Moderniser le Stade de l'Ill et renouveler la piste d'athlétisme. Achever la rénovation du Stade Barina aux Coteaux. Réouverture de la piscine Pierre et Marie Curie avec offre bien-être à tarifs abordables.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Élaborer un plan pluriannuel de rénovation et de création de nouveaux équipements sportifs, dont la création de city-stades aux Coteaux et à Bourtzwiller.",
+                "Moderniser le Stade de l'Ill et renouveler la piste d'athlétisme.",
+                "Achever la rénovation du Stade Barina aux Coteaux.",
+                "Réouverture de la piscine Pierre et Marie Curie avec offre bien-être à tarifs abordables."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1291,9 +1807,15 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Augmenter de 50 % le budget Sport avec des objectifs clairs, une gestion transparente et un contrôle de l'utilisation. Monter un « village multi-sports » pour l'été 2026 avec terrains et écran géant pour les grands événements sportifs. Doter Mulhouse d'un Zénith modulable pouvant accueillir des événements sportifs. Ouvrir davantage les équipements sportifs en soirée, le week-end et pendant les vacances scolaires. Lancer un concours pour réhabiliter les Bains municipaux en conservant la dimension piscine.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Augmenter de 50 % le budget Sport avec des objectifs clairs, une gestion transparente et un contrôle de l'utilisation.",
+                "Monter un « village multi-sports » pour l'été 2026 avec terrains et écran géant pour les grands événements sportifs.",
+                "Doter Mulhouse d'un Zénith modulable pouvant accueillir des événements sportifs.",
+                "Ouvrir davantage les équipements sportifs en soirée, le week-end et pendant les vacances scolaires.",
+                "Lancer un concours pour réhabiliter les Bains municipaux en conservant la dimension piscine."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1304,15 +1826,24 @@
           "nom": "Sport pour tous",
           "propositions": {
             "lutz": {
-              "texte": "Développer les pratiques sportives amateures sur l'espace public. Promouvoir le sport santé à tous les âges. Intensifier le dispositif « EPS dans les écoles mulhousiennes » pour toucher l'ensemble des élèves.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Développer les pratiques sportives amateures sur l'espace public.",
+                "Promouvoir le sport santé à tous les âges.",
+                "Intensifier le dispositif « EPS dans les écoles mulhousiennes » pour toucher l'ensemble des élèves."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Augmenter de 25 % le budget sport de la Ville d'ici la fin du mandat pour soutenir les activités amateurs, loisirs et le sport de haut niveau. Développer et favoriser les pratiques sportives pour tous, en particulier le handisport, les pratiques mixtes et le sport féminin. Garantir une aide à la pratique sportive pour les 6-13 ans. Créer un événement festif et populaire : la montée du Bollwerk.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Augmenter de 25 % le budget sport de la Ville d'ici la fin du mandat pour soutenir les activités amateurs, loisirs et le sport de haut niveau.",
+                "Développer et favoriser les pratiques sportives pour tous, en particulier le handisport, les pratiques mixtes et le sport féminin.",
+                "Garantir une aide à la pratique sportive pour les 6-13 ans.",
+                "Créer un événement festif et populaire : la montée du Bollwerk."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1321,9 +1852,16 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Proposer un abonnement commun pour les événements sportifs mulhousiens. Renforcer les liens entre clubs d'élite et associations de quartier. Développer un plan « Mulhouse Sport Santé 2040 » et encourager la pratique sportive à tout âge. Créer un club des partenaires de l'agglomération pour faciliter la recherche de financements. Soutenir le sport de haut niveau et s'engager pour que le football retrouve le plus haut niveau. Valoriser le sport comme vecteur d'image et renforcer la fierté d'appartenance.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Proposer un abonnement commun pour les événements sportifs mulhousiens.",
+                "Renforcer les liens entre clubs d'élite et associations de quartier.",
+                "Développer un plan « Mulhouse Sport Santé 2040 » et encourager la pratique sportive à tout âge.",
+                "Créer un club des partenaires de l'agglomération pour faciliter la recherche de financements.",
+                "Soutenir le sport de haut niveau et s'engager pour que le football retrouve le plus haut niveau.",
+                "Valoriser le sport comme vecteur d'image et renforcer la fierté d'appartenance."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1340,19 +1878,33 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "lutz": {
-              "texte": "Réhabiliter et repositionner la Tour de l'Europe. Transformer le site DMC en laboratoire urbain. Requalifier le canal du Rhône au Rhin et le port de plaisance comme porte d'entrée touristique. Faire des bains municipaux Pierre et Marie Curie un lieu dédié au bien-être autour de l'eau. Recréer les Bains de l'Ill à proximité du pont Chinois.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/transfrontalier-projets-emblematiques/"
+              "sourceUrl": "https://www.michelelutz.fr/une-ville-qui-propage-ses-succes/transfrontalier-projets-emblematiques/",
+              "mesures": [
+                "Réhabiliter et repositionner la Tour de l'Europe.",
+                "Transformer le site DMC en laboratoire urbain.",
+                "Requalifier le canal du Rhône au Rhin et le port de plaisance comme porte d'entrée touristique.",
+                "Faire des bains municipaux Pierre et Marie Curie un lieu dédié au bien-être autour de l'eau.",
+                "Recréer les Bains de l'Ill à proximité du pont Chinois."
+              ]
             },
             "million": {
-              "texte": "Créer des bureaux de proximité et annexes mairie dans chaque quartier pour renouer les liens et être plus proche des habitants avec des permanences régulières.",
               "source": "Déclaration officielle",
-              "sourceUrl": "https://laramillion2026.fr/"
+              "sourceUrl": "https://laramillion2026.fr/",
+              "mesures": [
+                "Créer des bureaux de proximité et annexes mairie dans chaque quartier pour renouer les liens et être plus proche des habitants avec des permanences régulières."
+              ]
             },
             "minery": {
-              "texte": "Donner un nouvel élan à la Tour de l'Europe : lieu vivant, accueil d'associations et de résidences d'artistes, restaurant panoramique. Mettre en place un plan « Mulhouse renaît de ses friches » pour relancer l'attractivité. Nouveau quartier de vie à DMC : forêt urbaine, mixité des usages, réalisation du 8e collège. Repenser l'urbanisme de proximité dans tous les quartiers. Réduire les emplacements publicitaires dans l'espace public.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Donner un nouvel élan à la Tour de l'Europe : lieu vivant, accueil d'associations et de résidences d'artistes, restaurant panoramique.",
+                "Mettre en place un plan « Mulhouse renaît de ses friches » pour relancer l'attractivité.",
+                "Nouveau quartier de vie à DMC : forêt urbaine, mixité des usages, réalisation du 8e collège.",
+                "Repenser l'urbanisme de proximité dans tous les quartiers.",
+                "Réduire les emplacements publicitaires dans l'espace public."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1361,9 +1913,16 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Protéger l'identité patrimoniale bâtie et la richesse naturelle des quartiers. Redonner toute sa dimension à la Tour de l'Europe et en faire un symbole vivant de la ville. Faire se croiser les énergies créatives (Motoco et KM0). Développer les voies fluviales et le port urbain. Redynamiser les relations avec les villes jumelées et fixer des programmes communs (culture, sport, économie). Faire réapparaître l'eau dans la ville (canaux, fontaines) et transformer Mulhouse en « ville d'eau » à l'horizon 2040.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Protéger l'identité patrimoniale bâtie et la richesse naturelle des quartiers.",
+                "Redonner toute sa dimension à la Tour de l'Europe et en faire un symbole vivant de la ville.",
+                "Faire se croiser les énergies créatives (Motoco et KM0)",
+                "Développer les voies fluviales et le port urbain.",
+                "Redynamiser les relations avec les villes jumelées et fixer des programmes communs (culture, sport, économie)",
+                "Faire réapparaître l'eau dans la ville (canaux, fontaines) et transformer Mulhouse en « ville d'eau » à l'horizon 2040."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1374,15 +1933,22 @@
           "nom": "Accessibilité",
           "propositions": {
             "lutz": {
-              "texte": "Renforcer la mise en accessibilité des voiries et des services publics en faveur des personnes en situation de handicap. Densifier l'offre de toilettes publiques.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/",
+              "mesures": [
+                "Renforcer la mise en accessibilité des voiries et des services publics en faveur des personnes en situation de handicap.",
+                "Densifier l'offre de toilettes publiques."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Installer un Conseil Local du Handicap pour donner la parole aux acteurs et usagers concernés. Mettre en place une application mobile Mulhouse Accessibilité Universelle collaborative pour connaître les lieux accessibles et/ou adaptés. Travailler l'accès dans la ville aux installations sanitaires (toilettes, douches, tables à langer).",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Installer un Conseil Local du Handicap pour donner la parole aux acteurs et usagers concernés.",
+                "Mettre en place une application mobile Mulhouse Accessibilité Universelle collaborative pour connaître les lieux accessibles et/ou adaptés.",
+                "Travailler l'accès dans la ville aux installations sanitaires (toilettes, douches, tables à langer)."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1391,9 +1957,12 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Faciliter les accès aux lieux de quiétude pour personnes à mobilité réduite. Assurer un accueil adapté pour tous, personnes âgées et mobilité réduite.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Faciliter les accès aux lieux de quiétude pour personnes à mobilité réduite.",
+                "Assurer un accueil adapté pour tous, personnes âgées et mobilité réduite."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1404,15 +1973,25 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "lutz": {
-              "texte": "Construire et rénover plus de 2 000 logements dans les quartiers des Coteaux, du Drouot et de la Fonderie. Encadrer davantage la densification des quartiers Rebberg et Dornach. Réguler les rénovations dans la Cité Ouvrière. Réinventer les centres socioculturels.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/"
+              "sourceUrl": "https://www.michelelutz.fr/ville-jardin/cadre-de-vie/",
+              "mesures": [
+                "Construire et rénover plus de 2 000 logements dans les quartiers des Coteaux, du Drouot et de la Fonderie.",
+                "Encadrer davantage la densification des quartiers Rebberg et Dornach.",
+                "Réguler les rénovations dans la Cité Ouvrière.",
+                "Réinventer les centres socioculturels."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Poursuivre le plan de rénovation urbaine des Coteaux dans le respect et la concertation avec les habitants. Installation d'un city-stade à Bourtzwiller et réinvestissement de la friche Manurhin. Classer le Rebberg en site remarquable (SPR) et limiter la hauteur des constructions. Construire un plan de sauvegarde durable des Centres Socio-Culturels.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Poursuivre le plan de rénovation urbaine des Coteaux dans le respect et la concertation avec les habitants.",
+                "Installation d'un city-stade à Bourtzwiller et réinvestissement de la friche Manurhin.",
+                "Classer le Rebberg en site remarquable (SPR) et limiter la hauteur des constructions.",
+                "Construire un plan de sauvegarde durable des Centres Socio-Culturels."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1421,9 +2000,13 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Créer des espaces publics de quiétude calmes et ombragés dans tous les quartiers. Soutenir les échanges entre écoles des différents quartiers. Développer les projets autour de l'image dans tous les quartiers.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Créer des espaces publics de quiétude calmes et ombragés dans tous les quartiers.",
+                "Soutenir les échanges entre écoles des différents quartiers.",
+                "Développer les projets autour de l'image dans tous les quartiers."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1440,30 +2023,49 @@
           "nom": "Aide sociale",
           "propositions": {
             "lutz": {
-              "texte": "Créer une Cité de la Solidarité à Miroir Cité regroupant l'ensemble des services publics sociaux. Soutenir les familles monoparentales. Mettre en place une astreinte sociale municipale. Signer une convention tripartite Croix-Rouge / sécurité civile / Ville pour les sinistres. Encourager le réemploi solidaire.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/",
+              "mesures": [
+                "Créer une Cité de la Solidarité à Miroir Cité regroupant l'ensemble des services publics sociaux.",
+                "Soutenir les familles monoparentales.",
+                "Mettre en place une astreinte sociale municipale.",
+                "Signer une convention tripartite Croix-Rouge / sécurité civile / Ville pour les sinistres.",
+                "Encourager le réemploi solidaire."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Décider un plan municipal dédié aux familles monoparentales et aux mères isolées pour favoriser le répit, l'entraide et la solidarité. Expérimenter un plan d'accompagnement et d'insertion sociale pour les jeunes en situation de grande précarité. Renforcer l'accès aux droits pour les personnes en situation de vulnérabilité. Renforcer les réponses en matière d'hébergement d'urgence avec plus de places.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Décider un plan municipal dédié aux familles monoparentales et aux mères isolées pour favoriser le répit, l'entraide et la solidarité.",
+                "Expérimenter un plan d'accompagnement et d'insertion sociale pour les jeunes en situation de grande précarité.",
+                "Renforcer l'accès aux droits pour les personnes en situation de vulnérabilité.",
+                "Renforcer les réponses en matière d'hébergement d'urgence avec plus de places."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
             "gafanesch": null,
             "sassi": {
-              "texte": "Candidat des classes populaires : fierté, dignité et justice pour les quartiers",
               "source": "France Bleu Alsace, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290"
+              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-quels-sont-les-candidats-declares-a-mulhouse-6254290",
+              "mesures": [
+                "Candidat des classes populaires : fierté, dignité et justice pour les quartiers."
+              ]
             },
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Coordonner l'action de tous les acteurs sociaux. Renforcer l'apprentissage du français. Soumettre une charte municipale des valeurs républicaines aux nouveaux habitants. Garantir la laïcité. Mettre en place un pôle d'innovation juridique pour la protection des droits de l'homme.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Coordonner l'action de tous les acteurs sociaux.",
+                "Renforcer l'apprentissage du français.",
+                "Soumettre une charte municipale des valeurs républicaines aux nouveaux habitants.",
+                "Garantir la laïcité.",
+                "Mettre en place un pôle d'innovation juridique pour la protection des droits de l'homme."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1474,15 +2076,24 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "lutz": {
-              "texte": "Fonder une maison de la parentalité. Renforcer la mise en accessibilité des voiries et services publics pour les personnes en situation de handicap. Accueillir la journée nationale d'hommage à Alfred Dreyfus le 12 juillet 2026.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/solidarite-seniors/",
+              "mesures": [
+                "Fonder une maison de la parentalité.",
+                "Renforcer la mise en accessibilité des voiries et services publics pour les personnes en situation de handicap.",
+                "Accueillir la journée nationale d'hommage à Alfred Dreyfus le 12 juillet 2026."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Former les agents de la Ville aux problématiques des violences genrées, LGBTphobes et racistes. Signer la charte européenne pour l'égalité des femmes et des hommes dans la vie locale. Développer l'exemplarité de la Ville en tant qu'employeur sur l'égalité femme-homme et contre toutes les discriminations. Faire de « Mulhouse au Pluriel » un vrai outil de visibilité et d'inclusion.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Former les agents de la Ville aux problématiques des violences genrées, LGBTphobes et racistes.",
+                "Signer la charte européenne pour l'égalité des femmes et des hommes dans la vie locale.",
+                "Développer l'exemplarité de la Ville en tant qu'employeur sur l'égalité femme-homme et contre toutes les discriminations.",
+                "Faire de « Mulhouse au Pluriel » un vrai outil de visibilité et d'inclusion."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1491,9 +2102,14 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Encourager le dialogue interreligieux. Créer un forum consultatif des cultes et de la fraternité. Soutenir les échanges entre écoles des différents quartiers. Valoriser l'apprentissage des langues étrangères et soutenir les sections bilingues.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Encourager le dialogue interreligieux.",
+                "Créer un forum consultatif des cultes et de la fraternité.",
+                "Soutenir les échanges entre écoles des différents quartiers.",
+                "Valoriser l'apprentissage des langues étrangères et soutenir les sections bilingues."
+              ]
             },
             "keltoumi": null,
             "djehaf": null
@@ -1504,15 +2120,23 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "lutz": {
-              "texte": "Mettre en place le dispositif « un cabas pour un étudiant ». Encourager le réemploi solidaire (redistribution d'objets, meubles, ordinateurs inutilisés à des structures sociales). Mettre en place la filière du réemploi informatique au bénéfice des plus démunis.",
               "source": "Programme officiel",
-              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/"
+              "sourceUrl": "https://www.michelelutz.fr/mulhouse-une-ville-qui-se-bat/jeunesse-culture-sport/",
+              "mesures": [
+                "Mettre en place le dispositif « un cabas pour un étudiant ».",
+                "Encourager le réemploi solidaire (redistribution d'objets, meubles, ordinateurs inutilisés à des structures sociales)",
+                "Mettre en place la filière du réemploi informatique au bénéfice des plus démunis."
+              ]
             },
             "million": null,
             "minery": {
-              "texte": "Instaurer la gratuité des premiers m3 d'eau et le renchérissement des consommations excessives. Lutter contre la précarité énergétique par une tarification sociale de l'énergie via le CCAS et une convention avec les fournisseurs d'énergie pour les ménages les plus modestes. Ne pas augmenter la taxe foncière à contexte économique constant.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://loicminery.fr/"
+              "sourceUrl": "https://loicminery.fr/",
+              "mesures": [
+                "Instaurer la gratuité des premiers m3 d'eau et le renchérissement des consommations excessives.",
+                "Lutter contre la précarité énergétique par une tarification sociale de l'énergie via le CCAS et une convention avec les fournisseurs d'énergie pour les ménages les plus modestes.",
+                "Ne pas augmenter la taxe foncière à contexte économique constant."
+              ]
             },
             "ritz": null,
             "taffarelli": null,
@@ -1521,9 +2145,13 @@
             "sornin": null,
             "fuchs": null,
             "marquet": {
-              "texte": "Créer un Office du Pouvoir d'Achat permettant aux habitants de bénéficier de tarifs réduits et offrant des conseils en gestion de budget. Tendre à la gratuité de l'eau pour consommation vitale : instaurer une première tranche gratuite, puis progressivement étendre la gratuité pour tous (objectif 10 m³/an/personne gratuits). Alléger la charge des contribuables en stabilisant les impôts locaux.",
               "source": "Programme officiel 2026",
-              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/"
+              "sourceUrl": "https://marquet2026.fr/programme-frederic-marquet/",
+              "mesures": [
+                "Créer un Office du Pouvoir d'Achat permettant aux habitants de bénéficier de tarifs réduits et offrant des conseils en gestion de budget.",
+                "Tendre à la gratuité de l'eau pour consommation vitale : instaurer une première tranche gratuite, puis progressivement étendre la gratuité pour tous (objectif 10 m³/an/personne gratuits)",
+                "Alléger la charge des contribuables en stabilisant les impôts locaux."
+              ]
             },
             "keltoumi": null,
             "djehaf": null

@@ -82,12 +82,17 @@ def build_election_json(election_id, ville_nom, candidats, cand_ids, props, cate
             for cid in cand_ids:
                 key = (cat_id, st_id, cid)
                 if key in props:
-                    texte, source, source_url = props[key]
-                    st["propositions"][cid] = {
-                        "texte": texte,
-                        "source": source,
-                        "sourceUrl": source_url
-                    }
+                    val = props[key]
+                    # Support both formats: (texte, source, url) tuple or dict with mesures
+                    if isinstance(val, dict):
+                        st["propositions"][cid] = val
+                    else:
+                        texte, source, source_url = val
+                        st["propositions"][cid] = {
+                            "mesures": [texte] if isinstance(texte, str) else texte,
+                            "source": source,
+                            "sourceUrl": source_url
+                        }
                 else:
                     st["propositions"][cid] = None
             cat["sousThemes"].append(st)
@@ -102,7 +107,7 @@ def compute_stats(election):
     for cat in election["categories"]:
         for st in cat.get("sousThemes", []):
             for cid, prop in st.get("propositions", {}).items():
-                if prop and prop.get("texte"):
+                if prop and (prop.get("mesures") or prop.get("texte")):
                     total_props += 1
 
     complets = sum(1 for c in election["candidats"] if c.get("programmeComplet"))

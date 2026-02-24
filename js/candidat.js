@@ -120,18 +120,21 @@
       if (v.nom === ville) villeSlug = v.id;
     });
 
-    // Comptage propositions
+    // Comptage propositions (mesures réelles) + couverture (sous-thèmes couverts)
     var totalProps = 0;
-    var propsByCat = {};
-    ORDRE_CATEGORIES.forEach(function (catId) { propsByCat[catId] = 0; });
+    var propsByCat = {};       // volume réel (mesures.length)
+    var couvertureByCat = {};  // sous-thèmes couverts (0 ou 1 par ST)
+    ORDRE_CATEGORIES.forEach(function (catId) { propsByCat[catId] = 0; couvertureByCat[catId] = 0; });
 
     election.categories.forEach(function (cat) {
       cat.sousThemes.forEach(function (st) {
         var prop = st.propositions[candidatId];
-        if (prop && prop.texte) {
-          totalProps++;
+        if (prop && prop.mesures && prop.mesures.length > 0) {
+          totalProps += prop.mesures.length;
           if (!propsByCat[cat.id]) propsByCat[cat.id] = 0;
-          propsByCat[cat.id]++;
+          propsByCat[cat.id] += prop.mesures.length;
+          if (!couvertureByCat[cat.id]) couvertureByCat[cat.id] = 0;
+          couvertureByCat[cat.id]++;
         }
       });
     });
@@ -210,65 +213,159 @@
     // Radar
     if (totalProps >= 5) {
       document.getElementById("candidat-radar-section").hidden = false;
-      dessinerRadar(election, candidat, candidatIdx, propsByCat);
+      dessinerRadar(election, candidat, candidatIdx, propsByCat, couvertureByCat);
     }
 
-    // Propositions par cat\u00e9gorie
-    var catsHTML = '';
+    // Barres horizontales par thème
+    if (totalProps >= 3) {
+      var barresSection = document.getElementById("candidat-barres-section");
+      if (!barresSection) {
+        barresSection = document.createElement("section");
+        barresSection.className = "candidat-barres";
+        barresSection.id = "candidat-barres-section";
+        var radarSec = document.getElementById("candidat-radar-section");
+        var propsSec = document.getElementById("candidat-propositions");
+        if (radarSec && propsSec) {
+          radarSec.parentNode.insertBefore(barresSection, propsSec);
+        }
+      }
+      var maxBarVal = 0;
+      for (var bk in propsByCat) { if (propsByCat[bk] > maxBarVal) maxBarVal = propsByCat[bk]; }
+
+      var barresHTML = '<h2 class="candidat-barres__title">R\u00e9partition par th\u00e9matique</h2><div class="candidat-barres__chart">';
+      election.categories.forEach(function (cat) {
+        var nb = propsByCat[cat.id] || 0;
+        if (nb === 0) return;
+        var pct = maxBarVal > 0 ? Math.round(nb / maxBarVal * 100) : 0;
+        var catColor = COULEURS_CATEGORIES[cat.id] || "#64748b";
+        var barLabel = LABELS_RADAR[cat.id] || cat.nom;
+        barresHTML += '<div class="candidat-barre">' +
+          '<div class="candidat-barre__label"><i class="ph ' + (ICONES_CATEGORIES[cat.id] || 'ph-folder') + '"></i> ' + echapper(barLabel) + '</div>' +
+          '<div class="candidat-barre__track"><div class="candidat-barre__fill" style="width:' + pct + '%;background:' + catColor + '"></div></div>' +
+          '<span class="candidat-barre__nb">' + nb + '</span>' +
+        '</div>';
+      });
+      barresHTML += '</div>';
+      barresSection.innerHTML = barresHTML;
+    }
+
+    // Propositions par catégorie — avec filtres thématiques
     var catsSorted = election.categories.slice().sort(function (a, b) {
       var idxA = ORDRE_CATEGORIES.indexOf(a.id); if (idxA === -1) idxA = 999;
       var idxB = ORDRE_CATEGORIES.indexOf(b.id); if (idxB === -1) idxB = 999;
       return idxA - idxB;
     });
 
+    // Identifier les catégories avec des propositions
+    var catsAvecProps = [];
     catsSorted.forEach(function (cat) {
-      var props = [];
+      var count = 0;
       cat.sousThemes.forEach(function (st) {
         var p = st.propositions[candidatId];
-        if (p && p.texte) {
-          props.push({ theme: st.nom, texte: p.texte, source: p.source, sourceUrl: p.sourceUrl });
-        }
+        if (p && p.mesures && p.mesures.length > 0) count += p.mesures.length;
       });
-      if (props.length === 0) return;
+      if (count > 0) catsAvecProps.push({ cat: cat, count: count });
+    });
 
-      var catColor = COULEURS_CATEGORIES[cat.id] || "#64748b";
+    var candidatFiltreActif = "toutes";
 
-      catsHTML += '<div class="candidat-cat candidat-cat--open" data-cat="' + cat.id + '">' +
-        '<div class="candidat-cat__header">' +
-          '<div class="candidat-cat__icon" style="background:' + catColor + '20;color:' + catColor + '"><i class="ph ' + (ICONES_CATEGORIES[cat.id] || 'ph-folder') + '"></i></div>' +
-          '<span class="candidat-cat__nom">' + echapper(cat.nom) + '</span>' +
-          '<span class="candidat-cat__count">' + props.length + '</span>' +
-          '<i class="ph ph-caret-down candidat-cat__chevron"></i>' +
-        '</div>' +
-        '<div class="candidat-cat__body">';
+    function rendrePropositions() {
+      var catsHTML = '';
+      catsSorted.forEach(function (cat) {
+        if (candidatFiltreActif !== "toutes" && cat.id !== candidatFiltreActif) return;
 
-      props.forEach(function (p) {
-        catsHTML += '<div class="candidat-prop" style="--cat-color:' + catColor + '">' +
-          '<div class="candidat-prop__theme">' + echapper(p.theme) + '</div>' +
-          '<div class="candidat-prop__texte">' + echapper(p.texte) + '</div>';
-        if (p.source) {
-          catsHTML += '<div class="candidat-prop__source">Source : ';
-          if (p.sourceUrl && p.sourceUrl !== "#") {
-            catsHTML += '<a href="' + echapper(p.sourceUrl) + '" target="_blank" rel="noopener">' + echapper(p.source) + '</a>';
+        var props = [];
+        var catMesuresCount = 0;
+        cat.sousThemes.forEach(function (st) {
+          var p = st.propositions[candidatId];
+          if (p && p.mesures && p.mesures.length > 0) {
+            props.push({ theme: st.nom, mesures: p.mesures, source: p.source, sourceUrl: p.sourceUrl });
+            catMesuresCount += p.mesures.length;
+          }
+        });
+        if (props.length === 0) return;
+
+        var catColor = COULEURS_CATEGORIES[cat.id] || "#64748b";
+
+        catsHTML += '<div class="candidat-cat candidat-cat--open" data-cat="' + cat.id + '">' +
+          '<div class="candidat-cat__header">' +
+            '<div class="candidat-cat__icon" style="background:' + catColor + '20;color:' + catColor + '"><i class="ph ' + (ICONES_CATEGORIES[cat.id] || 'ph-folder') + '"></i></div>' +
+            '<span class="candidat-cat__nom">' + echapper(cat.nom) + '</span>' +
+            '<span class="candidat-cat__count">' + catMesuresCount + '</span>' +
+            '<i class="ph ph-caret-down candidat-cat__chevron"></i>' +
+          '</div>' +
+          '<div class="candidat-cat__body">';
+
+        props.forEach(function (p) {
+          catsHTML += '<div class="candidat-prop" style="--cat-color:' + catColor + '">' +
+            '<div class="candidat-prop__theme">' + echapper(p.theme) + '</div>';
+          if (p.mesures.length === 1) {
+            catsHTML += '<div class="candidat-prop__texte">' + echapper(p.mesures[0]) + '</div>';
           } else {
-            catsHTML += echapper(p.source);
+            catsHTML += '<ul class="candidat-prop__mesures">';
+            p.mesures.forEach(function (m) {
+              catsHTML += '<li>' + echapper(m) + '</li>';
+            });
+            catsHTML += '</ul>';
+          }
+          if (p.source) {
+            catsHTML += '<div class="candidat-prop__source">Source : ';
+            if (p.sourceUrl && p.sourceUrl !== "#") {
+              catsHTML += '<a href="' + echapper(p.sourceUrl) + '" target="_blank" rel="noopener">' + echapper(p.source) + '</a>';
+            } else {
+              catsHTML += echapper(p.source);
+            }
+            catsHTML += '</div>';
           }
           catsHTML += '</div>';
-        }
-        catsHTML += '</div>';
+        });
+
+        catsHTML += '</div></div>';
       });
 
-      catsHTML += '</div></div>';
-    });
+      document.getElementById("candidat-propositions").innerHTML = catsHTML;
 
-    document.getElementById("candidat-propositions").innerHTML = catsHTML;
-
-    // Toggle cat\u00e9gories
-    document.querySelectorAll(".candidat-cat__header").forEach(function (header) {
-      header.addEventListener("click", function () {
-        header.parentElement.classList.toggle("candidat-cat--open");
+      // Toggle catégories
+      document.querySelectorAll(".candidat-cat__header").forEach(function (header) {
+        header.addEventListener("click", function () {
+          header.parentElement.classList.toggle("candidat-cat--open");
+        });
       });
-    });
+    }
+
+    // Filtres thématiques
+    var filtresContainer = document.getElementById("candidat-filtres-themes");
+    if (!filtresContainer) {
+      filtresContainer = document.createElement("div");
+      filtresContainer.className = "candidat-filtres-themes";
+      filtresContainer.id = "candidat-filtres-themes";
+      var propsEl = document.getElementById("candidat-propositions");
+      if (propsEl) propsEl.parentNode.insertBefore(filtresContainer, propsEl);
+    }
+
+    function rendreFiltres() {
+      var html = '';
+      html += '<button class="candidat-filtre-chip' + (candidatFiltreActif === "toutes" ? ' candidat-filtre-chip--actif' : '') + '" data-filtre="toutes">Tous</button>';
+      catsAvecProps.forEach(function (item) {
+        var catColor = COULEURS_CATEGORIES[item.cat.id] || "#64748b";
+        var label = LABELS_RADAR[item.cat.id] || item.cat.nom;
+        html += '<button class="candidat-filtre-chip' + (candidatFiltreActif === item.cat.id ? ' candidat-filtre-chip--actif' : '') + '" data-filtre="' + item.cat.id + '" style="--chip-color:' + catColor + '">' +
+          '<i class="ph ' + (ICONES_CATEGORIES[item.cat.id] || 'ph-folder') + '"></i> ' +
+          echapper(label) + ' <span class="candidat-filtre-chip__count">' + item.count + '</span></button>';
+      });
+      filtresContainer.innerHTML = html;
+
+      filtresContainer.querySelectorAll(".candidat-filtre-chip").forEach(function (chip) {
+        chip.addEventListener("click", function () {
+          candidatFiltreActif = chip.dataset.filtre;
+          rendreFiltres();
+          rendrePropositions();
+        });
+      });
+    }
+
+    rendreFiltres();
+    rendrePropositions();
 
     // Maillage interne — Autres candidats de la même ville
     var autresCandidats = election.candidats.filter(function (c) { return c.id !== candidatId; });
@@ -296,7 +393,7 @@
   // === Radar individuel ===
   var radarModeCouverture = true;
 
-  function dessinerRadar(election, candidat, candidatIdx, propsByCat) {
+  function dessinerRadar(election, candidat, candidatIdx, propsByCat, couvertureByCat) {
     var canvas = document.getElementById("candidat-radar-canvas");
     if (!canvas || !canvas.getContext) return;
 
@@ -321,27 +418,31 @@
       return idxA - idxB;
     });
 
-    // Max brut pour normalisation en mode volume
+    // Max brut dynamique — adapté au candidat
     var maxBrut = 0;
-    if (!radarModeCouverture) {
-      catsSorted.forEach(function (cat) {
-        var count = propsByCat[cat.id] || 0;
-        if (count > maxBrut) maxBrut = count;
-      });
-      maxBrut = Math.ceil((maxBrut + 1) / 2) * 2;
-      if (maxBrut < 2) maxBrut = 2;
-    }
+    for (var mk in propsByCat) { if (propsByCat[mk] > maxBrut) maxBrut = propsByCat[mk]; }
+    if (maxBrut <= 5) maxBrut = 5;
+    else if (maxBrut <= 10) maxBrut = 10;
+    else if (maxBrut <= 15) maxBrut = 15;
+    else if (maxBrut <= 20) maxBrut = 20;
+    else if (maxBrut <= 30) maxBrut = 30;
+    else if (maxBrut <= 50) maxBrut = 50;
+    else maxBrut = Math.ceil(maxBrut / 10) * 10;
 
     catsSorted.forEach(function (cat) {
       var total = cat.sousThemes.length;
-      var count = propsByCat[cat.id] || 0;
       var val;
       if (radarModeCouverture) {
-        val = total > 0 ? count / total : 0;
+        // Couverture = sous-thèmes couverts / total sous-thèmes
+        var couverts = couvertureByCat ? (couvertureByCat[cat.id] || 0) : (propsByCat[cat.id] || 0);
+        val = total > 0 ? couverts / total : 0;
       } else {
+        // Volume brut = nombre de mesures réelles, normalisé sur maxBrut
+        var count = propsByCat[cat.id] || 0;
         val = maxBrut > 0 ? count / maxBrut : 0;
       }
-      cats.push({ nom: cat.nom, id: cat.id, val: val, raw: count, total: total });
+      var rawDisplay = radarModeCouverture ? (couvertureByCat ? (couvertureByCat[cat.id] || 0) : (propsByCat[cat.id] || 0)) : (propsByCat[cat.id] || 0);
+      cats.push({ nom: cat.nom, id: cat.id, val: val, raw: rawDisplay, total: total });
     });
 
     var n = cats.length;
@@ -358,8 +459,9 @@
     ctx.lineWidth = 0.7;
     var steps = radarModeCouverture ? [0.25, 0.5, 0.75, 1.0] : [];
     if (!radarModeCouverture) {
-      var stepSize = maxBrut <= 6 ? 1 : 2;
-      for (var s = stepSize; s <= maxBrut; s += stepSize) {
+      // Graduations dynamiques
+      var niceStep = maxBrut <= 5 ? 1 : maxBrut <= 10 ? 2 : maxBrut <= 20 ? 5 : maxBrut <= 50 ? 10 : Math.ceil(maxBrut / 5 / 10) * 10;
+      for (var s = niceStep; s <= maxBrut; s += niceStep) {
         steps.push(s / maxBrut);
       }
     }
@@ -375,7 +477,8 @@
     ctx.textAlign = "left";
     ctx.textBaseline = "bottom";
     steps.forEach(function (s) {
-      var label = radarModeCouverture ? Math.round(s * 100) + "%" : Math.round(s * maxBrut);
+      var rawVal = Math.round(s * maxBrut);
+      var label = radarModeCouverture ? Math.round(s * 100) + "%" : rawVal;
       ctx.fillText(label, cx + 3, cy - maxR * s - 2);
     });
 
@@ -466,7 +569,7 @@
         toggleDiv.querySelectorAll(".radar-mode-toggle__btn").forEach(function (b) {
           b.classList.toggle("radar-mode-toggle__btn--active", b.dataset.mode === btn.dataset.mode);
         });
-        dessinerRadar(election, candidat, candidatIdx, propsByCat);
+        dessinerRadar(election, candidat, candidatIdx, propsByCat, couvertureByCat);
       });
     }
   }

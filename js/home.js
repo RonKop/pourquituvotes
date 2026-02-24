@@ -332,6 +332,32 @@
         activeIndex = -1;
       }
     });
+
+    // Empêcher la perte de focus quand on clique dans les suggestions
+    // (sinon le blur cache le dropdown avant que le click ne se déclenche)
+    dropdown.addEventListener("mousedown", function (e) {
+      e.preventDefault();
+    });
+
+    // Délégation de clic — toute la zone du dropdown est cliquable
+    dropdown.addEventListener("click", function (e) {
+      var suggestion = e.target.closest(".ville-suggestion");
+      if (!suggestion && !e.target.classList.contains("ville-suggestion")) {
+        var all = dropdown.querySelectorAll(".ville-suggestion");
+        if (all.length > 0) {
+          var clickY = e.clientY;
+          var closest = all[0];
+          var closestDist = Infinity;
+          all.forEach(function(s) {
+            var rect = s.getBoundingClientRect();
+            var mid = rect.top + rect.height / 2;
+            var dist = Math.abs(clickY - mid);
+            if (dist < closestDist) { closestDist = dist; closest = s; }
+          });
+          closest.click();
+        }
+      }
+    });
   }
 
   // === Burger Menu (full-screen overlay) ===

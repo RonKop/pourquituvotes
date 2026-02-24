@@ -529,8 +529,9 @@
       var total = 0;
       categorie.sousThemes.forEach(function(st) {
         Object.keys(st.propositions).forEach(function(candidatId) {
-          if (st.propositions[candidatId] && st.propositions[candidatId].texte) {
-            total++;
+          var prop = st.propositions[candidatId];
+          if (prop && prop.mesures && prop.mesures.length > 0) {
+            total += prop.mesures.length;
           }
         });
       });
@@ -546,12 +547,13 @@
         return p.candidatId === candidatId;
       }).length;
     }
-    // Nouveau format : sous-thèmes
+    // Nouveau format : sous-thèmes — compte le volume réel de mesures
     if (categorie.sousThemes) {
       var count = 0;
       categorie.sousThemes.forEach(function(st) {
-        if (st.propositions[candidatId] && st.propositions[candidatId].texte) {
-          count++;
+        var prop = st.propositions[candidatId];
+        if (prop && prop.mesures && prop.mesures.length > 0) {
+          count += prop.mesures.length;
         }
       });
       return count;
@@ -566,7 +568,8 @@
     var total = categorie.sousThemes.length;
     var couverts = 0;
     categorie.sousThemes.forEach(function(st) {
-      if (st.propositions[candidatId] && st.propositions[candidatId].texte) {
+      var prop = st.propositions[candidatId];
+      if (prop && prop.mesures && prop.mesures.length > 0) {
         couverts++;
       }
     });
@@ -833,8 +836,8 @@
         var textes = [];
         cat.sousThemes.forEach(function (st) {
           var prop = st.propositions[candidat.id];
-          if (prop && prop.texte) {
-            textes.push(prop.texte);
+          if (prop && prop.mesures && prop.mesures.length > 0) {
+            textes.push(prop.mesures.join(" "));
           }
         });
         if (textes.length === 0) return;
@@ -1772,16 +1775,30 @@
         });
       }
 
-      // Max dynamique pour le mode brut
+      // Max dynamique pour le mode brut — adapté au candidat le plus fourni
       function getMaxBrut() {
-        var maxVal = 0;
+        var max = 0;
         candidats.forEach(function(c) {
           categories.forEach(function(cat) {
-            var v = compterPropositionsCandidat(cat, c.id);
-            if (v > maxVal) maxVal = v;
+            var count = compterPropositionsCandidat(cat, c.id);
+            if (count > max) max = count;
           });
         });
-        return Math.ceil((maxVal + 1) / 2) * 2; // arrondir au pair supérieur
+        if (max <= 5) return 5;
+        if (max <= 10) return 10;
+        if (max <= 15) return 15;
+        if (max <= 20) return 20;
+        if (max <= 30) return 30;
+        if (max <= 50) return 50;
+        return Math.ceil(max / 10) * 10;
+      }
+
+      function getNiceStep(max) {
+        if (max <= 5) return 1;
+        if (max <= 10) return 2;
+        if (max <= 20) return 5;
+        if (max <= 50) return 10;
+        return Math.ceil(max / 5 / 10) * 10;
       }
 
       var LABELS_COURTS = {
@@ -1802,8 +1819,9 @@
 
       // Options radar — échelle dynamique selon le mode
       function getRadarOptions() {
-        var scaleMax = radarModeNormalise ? 100 : getMaxBrut();
-        var step = radarModeNormalise ? 25 : (scaleMax <= 6 ? 1 : 2);
+        var brutMax = getMaxBrut();
+        var scaleMax = radarModeNormalise ? 100 : brutMax;
+        var step = radarModeNormalise ? 25 : getNiceStep(brutMax);
         var isMobile = window.innerWidth <= 768;
         return {
           responsive: true,
@@ -1843,7 +1861,8 @@
                 stepSize: step,
                 callback: function(v) {
                   if (v === 0) return "";
-                  return radarModeNormalise ? v + "%" : v;
+                  if (radarModeNormalise) return v + "%";
+                  return v;
                 }
               },
               grid: { color: couleurGrilleRadar, circular: true },
@@ -3099,7 +3118,7 @@
       donneesElection.categories.forEach(function (cat) {
         if (cat.sousThemes) {
           cat.sousThemes.forEach(function (st) {
-            if (st.propositions[c.id] && st.propositions[c.id].texte) total++;
+            var _p = st.propositions[c.id]; if (_p && _p.mesures && _p.mesures.length > 0) total++;
           });
         }
       });
@@ -3123,6 +3142,38 @@
     comparaisonContainer.appendChild(compteur);
 
     compteur.querySelector(".tableau-compteur__btn-tous").addEventListener("click", afficherTousTableau);
+
+    // Barre de filtres thèmes (chips)
+    var filtresThemes = document.createElement("div");
+    filtresThemes.className = "filtres-themes";
+
+    // Par défaut : sélectionner le 1er thème si "toutes"
+    if (categorieActive === "toutes" && donneesElection.categories.length > 0) {
+      categorieActive = donneesElection.categories[0].id;
+    }
+
+    var chipTous = document.createElement("button");
+    chipTous.className = "filtre-theme-chip" + (categorieActive === "toutes" ? " filtre-theme-chip--actif" : "");
+    chipTous.textContent = "Tous";
+    chipTous.addEventListener("click", function() {
+      categorieActive = "toutes";
+      afficherGrille(tousLesCandidats);
+      mettreAJourURL();
+    });
+    filtresThemes.appendChild(chipTous);
+
+    donneesElection.categories.forEach(function(cat) {
+      var chip = document.createElement("button");
+      chip.className = "filtre-theme-chip" + (categorieActive === cat.id ? " filtre-theme-chip--actif" : "");
+      chip.innerHTML = '<span class="filtre-theme-chip__icone">' + getIconeCategorie(cat.id) + '</span> ' + echapper(cat.nom);
+      chip.addEventListener("click", function() {
+        categorieActive = cat.id;
+        afficherGrille(tousLesCandidats);
+        mettreAJourURL();
+      });
+      filtresThemes.appendChild(chip);
+    });
+    comparaisonContainer.appendChild(filtresThemes);
 
     var categoriesFiltrees = donneesElection.categories.filter(function (cat) {
       return categorieActive === "toutes" || cat.id === categorieActive;
@@ -3332,7 +3383,10 @@
 
       var fullContent = document.createElement("span");
       fullContent.className = "tableau-col__content-full";
-      fullContent.innerHTML = '<strong>' + echapper(candidat.nom) + '</strong><span class="candidat-parti-label">' + echapper(candidat.liste) + '</span> ' + badgeHTML + couvertureHTML;
+      var profilUrlMatrice = villeSelectionnee
+        ? '/municipales-2026/' + encodeURIComponent(villeSelectionnee.id) + '/candidats/' + encodeURIComponent(candidat.id) + '/'
+        : '#';
+      fullContent.innerHTML = '<a href="' + profilUrlMatrice + '" class="tableau-col__nom-link">' + echapper(candidat.nom) + '</a><span class="candidat-parti-label">' + echapper(candidat.liste) + '</span> ' + badgeHTML + couvertureHTML;
 
       var verticalName = document.createElement("span");
       verticalName.className = "tableau-col__nom-vertical";
@@ -3383,47 +3437,55 @@
           celleProps.classList.add("tableau-col--collapsed");
         }
 
+        // Lien cliquable vers page candidat (visible sur mobile à la place du ::before)
+        var profilUrlCell = villeSelectionnee
+          ? '/municipales-2026/' + encodeURIComponent(villeSelectionnee.id) + '/candidats/' + encodeURIComponent(candidat.id) + '/'
+          : '#';
+        var nomLinkMobile = document.createElement("a");
+        nomLinkMobile.className = "tableau-cell__nom-mobile";
+        nomLinkMobile.href = profilUrlCell;
+        nomLinkMobile.textContent = candidat.nom;
+        celleProps.appendChild(nomLinkMobile);
+
         var prop = sousTheme.propositions[candidat.id];
 
-        if (prop && prop.texte) {
-          var texteDiv = document.createElement("div");
-          texteDiv.className = "proposition__texte";
-          texteDiv.textContent = prop.texte;
+        if (prop && prop.mesures && prop.mesures.length > 0) {
+          var mesures = prop.mesures;
+          var maxAffiche = 3;
+          var listeDiv = document.createElement("div");
+          listeDiv.className = "proposition__mesures";
+
+          var ul = document.createElement("ul");
+          ul.className = "proposition__mesures-liste";
+          var nb = Math.min(mesures.length, maxAffiche);
+          for (var mi = 0; mi < nb; mi++) {
+            var li = document.createElement("li");
+            li.textContent = mesures[mi];
+            ul.appendChild(li);
+          }
+          listeDiv.appendChild(ul);
+
+          if (mesures.length > maxAffiche) {
+            var voirToutesBtn = document.createElement("button");
+            voirToutesBtn.className = "voir-toutes-btn";
+            voirToutesBtn.textContent = "et " + (mesures.length - maxAffiche) + " autre" + (mesures.length - maxAffiche > 1 ? "s" : "") + " mesure" + (mesures.length - maxAffiche > 1 ? "s" : "") + " \u2192";
+            (function(cNom, stNom, mes, src, srcUrl) {
+              voirToutesBtn.addEventListener("click", function(e) {
+                e.stopPropagation();
+                ouvrirModalMesures(cNom, stNom, mes, src, srcUrl);
+              });
+            })(candidat.nom, sousTheme.nom, mesures, prop.source, prop.sourceUrl);
+            listeDiv.appendChild(voirToutesBtn);
+          }
 
           var sourceDiv = document.createElement("div");
           sourceDiv.className = "proposition__source";
           sourceDiv.innerHTML = '<a href="' + echapper(prop.sourceUrl || '#') + '" target="_blank" rel="noopener">' +
             echapper(prop.source) + '</a>';
 
-          var voirPlusBtn = document.createElement("button");
-          voirPlusBtn.className = "voir-plus-btn";
-          voirPlusBtn.textContent = "Voir plus";
-          voirPlusBtn.hidden = true;
-
-          voirPlusBtn.addEventListener("click", function(e) {
-            e.stopPropagation();
-            if (texteDiv.classList.contains("proposition__texte--expanded")) {
-              texteDiv.classList.remove("proposition__texte--expanded");
-              voirPlusBtn.textContent = "Voir plus";
-            } else {
-              texteDiv.classList.add("proposition__texte--expanded");
-              voirPlusBtn.textContent = "Voir moins";
-            }
-          });
-
-          celleProps.appendChild(texteDiv);
-          celleProps.appendChild(voirPlusBtn);
+          celleProps.appendChild(listeDiv);
           celleProps.appendChild(sourceDiv);
           celleProps.classList.add('tableau-matriciel__cell--remplie');
-
-          // Show "voir plus" only if text is actually truncated
-          (function(td, btn) {
-            requestAnimationFrame(function() {
-              if (td.scrollHeight > td.clientHeight + 2) {
-                btn.hidden = false;
-              }
-            });
-          })(texteDiv, voirPlusBtn);
         } else {
           celleProps.innerHTML = '<div class="proposition__absence"><span class="absence__icon"></span><span class="absence__label">Non renseign\u00E9</span></div>';
           celleProps.classList.add('tableau-matriciel__cell--vide');
@@ -3595,6 +3657,73 @@
     contenu.appendChild(grille);
     div.appendChild(contenu);
     return div;
+  }
+
+  // === Modal mesures (pop-in) ===
+  function ouvrirModalMesures(candidatNom, sousThemeNom, mesures, source, sourceUrl) {
+    // Supprimer l'ancienne modale si elle existe
+    var ancien = document.getElementById("modal-mesures");
+    if (ancien) ancien.remove();
+
+    var modal = document.createElement("div");
+    modal.className = "modal";
+    modal.id = "modal-mesures";
+
+    var overlay = document.createElement("div");
+    overlay.className = "modal__overlay";
+    overlay.addEventListener("click", function() { modal.remove(); });
+
+    var contenu = document.createElement("div");
+    contenu.className = "modal__contenu";
+
+    var fermer = document.createElement("button");
+    fermer.className = "modal__fermer";
+    fermer.innerHTML = "&times;";
+    fermer.addEventListener("click", function() { modal.remove(); });
+
+    var titre = document.createElement("h3");
+    titre.textContent = candidatNom + " \u2014 " + sousThemeNom;
+
+    var count = document.createElement("p");
+    count.className = "modal__count";
+    count.textContent = mesures.length + " mesure" + (mesures.length > 1 ? "s" : "");
+
+    var liste = document.createElement("ul");
+    liste.className = "modal__mesures-liste";
+    mesures.forEach(function(m) {
+      var li = document.createElement("li");
+      li.textContent = m;
+      liste.appendChild(li);
+    });
+
+    contenu.appendChild(fermer);
+    contenu.appendChild(titre);
+    contenu.appendChild(count);
+    contenu.appendChild(liste);
+
+    if (source) {
+      var srcP = document.createElement("p");
+      srcP.className = "modal__source";
+      if (sourceUrl && sourceUrl !== "#") {
+        srcP.innerHTML = "Source : <a href=\"" + echapper(sourceUrl) + "\" target=\"_blank\" rel=\"noopener\">" + echapper(source) + "</a>";
+      } else {
+        srcP.textContent = "Source : " + source;
+      }
+      contenu.appendChild(srcP);
+    }
+
+    modal.appendChild(overlay);
+    modal.appendChild(contenu);
+    document.body.appendChild(modal);
+
+    // Fermeture au clavier
+    function onKeydown(e) {
+      if (e.key === "Escape") {
+        modal.remove();
+        document.removeEventListener("keydown", onKeydown);
+      }
+    }
+    document.addEventListener("keydown", onKeydown);
   }
 
   // === Utilitaires ===
@@ -3805,19 +3934,24 @@
       sep.textContent = "Candidats";
       villeSuggestionsContainer.appendChild(sep);
       candidatsTrouves.slice(0, 5).forEach(function(r) {
+        var candidatUrl = "/municipales-2026/" + encodeURIComponent(r.villeId) + "/candidats/" + encodeURIComponent(r.candidatId) + "/";
         var a = document.createElement("a");
         a.className = "ville-suggestion ville-suggestion--candidat";
-        a.href = "?ville=" + encodeURIComponent(r.villeId) + "&candidats=" + encodeURIComponent(r.candidatId);
+        a.href = candidatUrl;
         a.dataset.candidatId = r.candidatId;
         a.dataset.villeId = r.villeId;
         a.dataset.electionId = r.electionId;
         a.innerHTML =
           '<span class="ville-suggestion__nom"><i class="ph ph-user"></i> ' + surligner(echapper(r.candidatNom), terme) + '</span>' +
           '<span class="ville-suggestion__code">' + echapper(r.villeNom) + ' \u2014 ' + echapper(r.liste) + '</span>';
-        a.addEventListener("click", function(e) {
-          e.preventDefault();
-          selectionnerCandidatRecherche(r);
-        });
+        // Navigation directe vers la page candidat
+        (function(url) {
+          a.addEventListener("click", function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            window.location.href = url;
+          });
+        })(candidatUrl);
         villeSuggestionsContainer.appendChild(a);
       });
       villeSuggestionsContainer.hidden = false;
@@ -3898,6 +4032,28 @@
   });
   candidatSuggestionsContainer.addEventListener("mousedown", function (e) {
     e.preventDefault();
+  });
+
+  // Délégation de clic — toute la zone du dropdown est cliquable
+  villeSuggestionsContainer.addEventListener("click", function (e) {
+    var suggestion = e.target.closest(".ville-suggestion");
+    if (!suggestion && !e.target.classList.contains("ville-suggestion")) {
+      // Clic sur un espace vide du dropdown → activer la suggestion la plus proche
+      var all = villeSuggestionsContainer.querySelectorAll(".ville-suggestion");
+      if (all.length > 0) {
+        // Trouver la suggestion la plus proche verticalement
+        var clickY = e.clientY;
+        var closest = all[0];
+        var closestDist = Infinity;
+        all.forEach(function(s) {
+          var rect = s.getBoundingClientRect();
+          var mid = rect.top + rect.height / 2;
+          var dist = Math.abs(clickY - mid);
+          if (dist < closestDist) { closestDist = dist; closest = s; }
+        });
+        closest.click();
+      }
+    }
   });
 
   document.addEventListener("click", function (e) {

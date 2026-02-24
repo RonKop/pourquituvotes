@@ -14,11 +14,12 @@ def update_city(filename, updates):
             "programmeUrl": "...",
             "programmeComplet": True/False,
             "propositions": {
-                "sous-theme-id": {"texte": "...", "source": "...", "sourceUrl": "..."},
+                "sous-theme-id": {"mesures": ["...", "..."], "source": "...", "sourceUrl": "..."},
                 ...
             }
         }
     }
+    Note: legacy format {"texte": "..."} is auto-converted to {"mesures": ["..."]}
     """
     filepath = os.path.join(ELECTIONS, filename)
     with open(filepath, "r", encoding="utf-8") as f:
@@ -43,7 +44,11 @@ def update_city(filename, updates):
         for cat in data["categories"]:
             for st in cat["sousThemes"]:
                 if st["id"] in props:
-                    st["propositions"][cand_id] = props[st["id"]]
+                    prop = props[st["id"]]
+                    # Auto-convert legacy texte format to mesures[]
+                    if "texte" in prop and "mesures" not in prop:
+                        prop["mesures"] = [prop.pop("texte")]
+                    st["propositions"][cand_id] = prop
                     count += 1
         print(f"  {cand_id}: {count} propositions intégrées")
 

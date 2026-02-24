@@ -324,21 +324,30 @@ input { font-family: inherit; border: none; outline: none; }
 /* Suggestions dropdown (identique au comparateur) */
 .search-float__box .ville-suggestions {
   position: absolute;
-  top: calc(100% + 6px);
+  top: 100%;
   left: 0;
   right: 0;
   background: #fff;
   border: none;
-  border-radius: 12px;
+  border-radius: 0 0 12px 12px;
   box-shadow: 0 10px 40px rgba(0,0,0,0.15);
   max-height: 300px;
   overflow-y: auto;
   z-index: 50;
   text-align: left;
+  margin-top: -2px;
+  padding-top: 0;
+  cursor: pointer;
+}
+.search-float__box .ville-suggestions .ville-suggestion {
+  padding: 1rem 1.2rem;
+}
+.search-float__box .ville-suggestions > :first-child {
+  padding-top: 1.1rem;
 }
 .ville-suggestion {
   display: block;
-  padding: 0.75rem 1rem;
+  padding: 0.85rem 1.2rem;
   cursor: pointer;
   transition: background 0.2s;
   border-bottom: 1px solid #f1f5f9;

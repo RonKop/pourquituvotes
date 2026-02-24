@@ -2,11 +2,11 @@ name: Publier tweets planifiés
 
 on:
   schedule:
-    # 6 runs/jour pour couvrir CET (hiver) et CEST (été)
+    # 7 runs/jour pour couvrir CET (hiver) et CEST (été)
     # Posts planifiés à 9h, 12h30, 18h heure française
-    # Hiver (UTC+1) : 8:00, 11:30, 17:00 UTC → runs à 8:05, 11:05, 17:05
-    # Été (UTC+2) :   7:00, 10:30, 16:00 UTC → runs à 7:05, 10:05, 16:05
-    - cron: '5 7,8,10,11,16,17 * * *'
+    # Hiver (UTC+1) : 8:00, 11:30, 17:00 UTC → runs à 8:05, 9:05, 11:05, 17:05
+    # Été (UTC+2) :   7:00, 10:30, 16:00 UTC → runs à 7:05, 9:05, 10:05, 16:05
+    - cron: '5 7,8,9,10,11,16,17 * * *'
   workflow_dispatch: # Déclenchement manuel possible
 
 jobs:

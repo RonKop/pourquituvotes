@@ -56,10 +56,13 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "source": "Site de campagne",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Doublement des effectifs de la police municipale de Marseille."
+                "Doublement des effectifs de la police municipale de Marseille, passés de 400 à 800 agents.",
+                "Objectif d'atteindre 1 600 policiers municipaux d'ici 2033.",
+                "Création de 10 nouvelles antennes de police municipale d'ici la fin du mandat 2032.",
+                "Création d'un commissariat de police municipale dans chaque arrondissement."
               ]
             },
             "vassal": {
@@ -96,10 +99,11 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Extension de la vidéoprotection dans le cadre du doublement de la police municipale."
+                "Extension du réseau de vidéoprotection avec déploiement continu de caméras de surveillance.",
+                "500 caméras de vidéoprotection installées lors du mandat précédent, poursuite du déploiement."
               ]
             },
             "vassal": {
@@ -139,10 +143,11 @@
               ]
             },
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Création d'une police de la propreté avec 80 agents pour lutter contre les incivilités."
+                "Création d'une police de la propreté de 80 agents, placée sous le commandement de la police municipale, habilitée à dresser des PV.",
+                "Lutte contre le narcotrafic : faire de Marseille la vitrine nationale de la lutte contre le narcotrafic, en lien avec le parquet national antistupéfiants."
               ]
             },
             "vassal": {
@@ -177,7 +182,13 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "delogu": null,
+            "delogu": {
+              "mesures": [
+                "Financer la création d'un centre féministe offrant espace d'organisation, services de prévention et protection menstruelle gratuite."
+              ],
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/"
+            },
             "payan": null,
             "vassal": null,
             "allisio": {
@@ -202,10 +213,18 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "source": "Site de campagne",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Amélioration des systèmes de transports en commun et de l'entretien de la voirie au niveau de la métropole."
+                "Extension du tramway Nord jusqu'à La Bricarde, au-delà de la Castellane.",
+                "Prolongement du tramway Belle-de-Mai jusqu'à Saint-Jérôme.",
+                "Extension du tramway Est en direction de Saint-Loup et La Barasse.",
+                "Extension du tramway Sud jusqu'à La Rouvière, après La Gaye.",
+                "Refonte intégrale de la carte des bus selon la logique urbaine et les besoins des habitants.",
+                "Élargissement des horaires de transports en commun le soir et le week-end.",
+                "Développement de solutions de transport lourd pour désenclaver les quartiers Nord et Est.",
+                "Billet unique métropolitain intégrant les gares ferroviaires au réseau urbain.",
+                "Création d'une Société du Grand Marseille pour porter les grands projets de transport et d'aménagement."
               ]
             },
             "vassal": {
@@ -241,7 +260,14 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "delogu": null,
-            "payan": null,
+            "payan": {
+              "mesures": [
+                "Déploiement de davantage de vélos en libre-service comme alternative de mobilité.",
+                "Suppression des trottinettes en libre-service si les conditions d'usage ne sont pas respectées."
+              ],
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": null,
             "davoux": {
@@ -259,7 +285,14 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "delogu": null,
-            "payan": null,
+            "payan": {
+              "mesures": [
+                "Renégociation des tarifs des tunnels Prado Carénage et Prado Sud.",
+                "Tarif réduit à 1 euro par traversée du tunnel avec abonnement régulier."
+              ],
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": {
               "source": "Programme 13 axes prioritaires 2026",
               "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/",
@@ -331,10 +364,12 @@
               ]
             },
             "payan": {
-              "source": "France Bleu / Made in Marseille, février 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Gratuité des transports en commun pour les moins de 26 ans."
+                "Gratuité des transports en commun pour les moins de 26 ans.",
+                "Gratuité des transports en commun pour les demandeurs d'emploi.",
+                "Étude de la gratuité totale des transports en commun en analysant les coûts réels."
               ]
             },
             "vassal": {
@@ -353,7 +388,8 @@
                 "Gratuité des transports RTM pour tous les Marseillais.",
                 "Pass touristique transport et culturel payant pour les touristes.",
                 "Remunicipalisation du tunnel Prado-Carénage.",
-                "Référendum sur la fin des trottinettes en libre-service."
+                "Référendum sur la fin des trottinettes en libre-service.",
+                "Gratuité des transports pour améliorer le pouvoir d’achat."
               ]
             }
           }
@@ -369,18 +405,21 @@
           "nom": "Logement social",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Création de 30 000 logements dont 70% sociaux (1/3 PLAI), en combinant construction neuve, rénovation et transformation de friches et bureaux vacants."
+                "Créer 30 000 logements dont 70% sociaux, un tiers réservé aux ménages les plus modestes.",
+                "Développer l'habitat participatif, coopératif et le bail réel solidaire.",
+                "Transformer Marseille Habitat en outil public démocratisé.",
+                "Exiger des financements de l'État à hauteur des besoins réels de la ville."
               ]
             },
             "payan": {
-              "source": "Site de campagne",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "5 000 logements indignes réhabilités.",
-                "Programme massif de réhabilitation de l'habitat indigne à Marseille."
+                "Objectif de produire 4 500 logements par an dont 2 300 logements sociaux.",
+                "Programme massif de réhabilitation de l'habitat indigne à Marseille : 5 000 logements indignes réhabilités."
               ]
             },
             "vassal": {
@@ -416,14 +455,14 @@
           "nom": "Logements vacants",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Registre public des biens vacants, médiation renforcée et réquisitions ciblées pour lutter contre la vacance des logements."
+                "Réquisitionner les logements vacants et créer un registre public des logements inoccupés."
               ]
             },
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
                 "Lutte contre les logements vacants dans le cadre du programme de réhabilitation massive."
@@ -452,7 +491,14 @@
                 "Extension du permis de louer à toute la ville et instauration de l’encadrement des loyers."
               ]
             },
-            "payan": null,
+            "payan": {
+              "mesures": [
+                "Mise en place de l'encadrement des loyers à Marseille.",
+                "Permis de louer renforcé avec contrôle triennal de l'état des logements."
+              ],
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": null,
             "davoux": {
@@ -471,13 +517,26 @@
           "nom": "Accès au logement",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Soutien aux projets d’habitat participatif, coopératif et bail réel solidaire avec appui technique, juridique et financier."
+                "Garantir l'accès au logement comme droit universel via une « sécurité sociale du logement ».",
+                "Renforcer la direction municipale de l'habitat comme guichet unique pour tous les Marseillais.",
+                "Transformer la brigade du logement en outil de défense du droit au logement.",
+                "Organiser des Assises populaires du logement pour co-construire la politique habitat.",
+                "Faire respecter le droit au logement digne par les bailleurs sociaux.",
+                "Créer une régie municipale des ascenseurs pour les résidences sociales.",
+                "Démocratiser le fonctionnement du logement social avec participation des locataires.",
+                "Renforcer l'hébergement d'urgence et l'accès au logement social pour les victimes de violences conjugales via un guichet unique."
               ]
             },
-            "payan": null,
+            "payan": {
+              "mesures": [
+                "Création d'une assurance habitation municipale à tarifs négociés."
+              ],
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": null,
             "davoux": {
@@ -503,7 +562,7 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
                 "Renforcement de l'offre de petite enfance et création de nouvelles places en crèche."
@@ -546,10 +605,10 @@
               ]
             },
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Nouveau plan écoles avec rénovation et modernisation des infrastructures scolaires."
+                "Poursuite du Plan écoles avec rénovation et modernisation de 188 écoles sur 15 ans."
               ]
             },
             "vassal": {
@@ -591,11 +650,14 @@
               ]
             },
             "payan": {
-              "source": "Site de campagne",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "10 000 petits Marseillais mangent gratuitement à la cantine chaque jour.",
-                "Doublement de la part de bio dans les cantines scolaires."
+                "Cantine gratuite pour 15 000 enfants marseillais chaque jour, contre 10 000 actuellement.",
+                "Doublement de la part de bio dans les cantines scolaires.",
+                "Test de la remunicipalisation de la restauration scolaire via des lots expérimentaux.",
+                "Création de cuisines de proximité décentralisées pour améliorer la qualité des repas.",
+                "Kit scolaire gratuit de rentrée augmenté de 80 euros à 150 euros par enfant."
               ]
             },
             "vassal": null,
@@ -623,7 +685,7 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
                 "Petits déjeuners gratuits pour 15 000 écoliers marseillais."
@@ -682,17 +744,20 @@
           "nom": "Espaces verts",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Réintroduction massive de la nature dans les quartiers populaires, élargissement des horaires d’ouverture des parcs, plages et jardins."
+                "Déployer une stratégie de végétalisation massive avec diagnostics par arrondissement et micro-forêts urbaines.",
+                "Mobiliser des financements pour réintroduire massivement la nature dans les quartiers populaires."
               ]
             },
             "payan": {
-              "source": "Site de campagne",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Plantation de 150 000 arbres à Marseille pour verdir la ville."
+                "Plantation de 300 000 arbres, arbustes et buissons à Marseille dans le cadre du Plan Arbres.",
+                "Création d'un grand écoparc de plusieurs milliers d'hectares dans le massif de l'Étoile avec sentiers balisés, maison du parc, zones pédagogiques et aires de repos.",
+                "Création d'une ferme pédagogique dans le parc du massif de l'Étoile."
               ]
             },
             "vassal": null,
@@ -713,10 +778,16 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Plan propreté avec création d'une police de la propreté de 80 agents et renforcement des services de nettoyage."
+                "Reprise en main de la gouvernance de la propreté depuis la Métropole.",
+                "Doublement de la fréquence des tournées de nettoyage urbain.",
+                "Doublement du nombre de poubelles de rue, de 7 000 à 15 000 unités.",
+                "Retour du cantonnier de quartier identifié pour chaque secteur.",
+                "Mise en place de poubelles intelligentes connectées, communicant avec les agents pour optimiser la collecte.",
+                "Réorganisation de la collecte des déchets par secteur selon la densité et l'activité des quartiers.",
+                "Amélioration du tri sélectif, Marseille étant dernière de France avec 38 kg par habitant par an."
               ]
             },
             "vassal": {
@@ -754,18 +825,23 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Comité populaire de planification écologique piloté par les associations et collectifs d’habitants pour co-construire les priorités municipales.",
-                "Plan canicule renforcé avec multiplication des lieux d’accueil frais, plan d’ombrage des rues avec voiles et pergolas végétalisées, et micro-forêts urbaines."
+                "Adopter un plan canicule renforcé avec lieux d'accueil frais pour les populations vulnérables.",
+                "Élargir les horaires d'ouverture des parcs, plages et jardins durant les fortes chaleurs.",
+                "Installer voiles, pergolas végétalisées et structures d'ombre dans les rues étroites.",
+                "Transformer les espaces publics et constructions selon les principes architecturaux provençaux.",
+                "Mettre à jour les cartes des risques et les intégrer obligatoirement dans les décisions d'urbanisme.",
+                "Adopter un plan de reconstruction post-crise évitant les zones dangereuses."
               ]
             },
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Création d'un grand parc municipal dans le massif de l'Étoile pour adapter la ville au changement climatique."
+                "Objectif de réduction de 30 % de la consommation d'eau de la ville.",
+                "Sélection de plantes économes en eau et résistantes à la chaleur pour les espaces verts municipaux."
               ]
             },
             "vassal": null,
@@ -812,7 +888,13 @@
           "nom": "Alimentation durable",
           "propositions": {
             "delogu": null,
-            "payan": null,
+            "payan": {
+              "mesures": [
+                "Obligation annuelle de montée en qualité imposée aux prestataires de restauration scolaire."
+              ],
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": {
               "source": "Programme économique - Marseille en ordre 2026",
@@ -844,10 +926,11 @@
               ]
             },
             "payan": {
-              "source": "France Bleu / Made in Marseille, février 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Mutuelle municipale complémentaire pour tous les Marseillais, sans conditions de ressources."
+                "Création d'une mutuelle municipale complémentaire ouverte à tous les Marseillais, sans conditions de ressources.",
+                "Tarifs de la mutuelle municipale de 20 % à 30 % moins chers que le marché."
               ]
             },
             "vassal": {
@@ -883,13 +966,19 @@
           "nom": "Prévention santé",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Création d’un Observatoire Santé-Environnement public pour surveiller qualité de l’air, de l’eau, bruit, températures et polluants (PFAS), en commençant par les écoles."
+                "Créer un Observatoire public Santé-Environnement pour surveiller la qualité de l'air, de l'eau, du bruit et des polluants."
               ]
             },
-            "payan": null,
+            "payan": {
+              "mesures": [
+                "Gratuité des premiers mètres cubes d'eau potable pour tous les Marseillais."
+              ],
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": null,
             "davoux": {
@@ -941,15 +1030,25 @@
           "nom": "Budget participatif",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Mise en place de comités de quartier ouverts à tous, dotés de budgets participatifs, avec possibilité d’inscrire des sujets à l’ordre du jour du conseil municipal.",
-                "Renforcement de l’Assemblée citoyenne du futur composée de 111 habitants tirés au sort avec droit d’initiative pour soumettre des délibérations au Conseil municipal.",
-                "Application pleine du droit aux référendums locaux : lorsqu’une pétition atteint 10% des électeurs, organisation d’un référendum dont le résultat est appliqué si la participation dépasse 50%."
+                "Mettre en place des comités de quartier dotés de budgets participatifs, réunissant habitants, associations et élus.",
+                "Créer un comité populaire du budget et un comité populaire de la commande publique pour démocratiser les finances municipales.",
+                "Faire appliquer le droit de pétition : au-delà de 10 000 signatures, le sujet doit être examiné par le Conseil municipal.",
+                "Permettre les référendums locaux lorsqu'une pétition atteint 10% des électeurs, avec application du résultat si la participation dépasse 50%.",
+                "Établir un diagnostic partagé des urgences locales via les comités de quartier.",
+                "Créer un comité populaire de planification écologique co-construit avec associations et collectifs."
               ]
             },
-            "payan": null,
+            "payan": {
+              "mesures": [
+                "Budgets participatifs déployés dans chaque mairie de secteur.",
+                "Consultation de 15 000 Marseillais en 72 ateliers pour l'élaboration du programme."
+              ],
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": null,
             "davoux": {
@@ -967,10 +1066,14 @@
           "nom": "Transparence",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Publication de tous les rendez-vous des élus avec des représentants d’intérêts privés, interdiction des cadeaux et avantages, et dispositif de détection des conflits d’intérêts avant chaque conseil municipal."
+                "Garantir une attribution juste et transparente des ressources publiques (logements, crèches, marchés publics) par les comités populaires.",
+                "Mettre fin au clientélisme en suspendant les embauches municipales 3-6 mois avant/après les élections, sauf urgence avérée.",
+                "Publier les rendez-vous des élus avec représentants privés et instaurer une détection des conflits d'intérêts avant chaque Conseil municipal.",
+                "Imposer la sobriété des élus en rééquilibrant les indemnités et supprimant certaines primes.",
+                "Créer une Maison des lanceurs d'alerte assurant protection juridique et confidentialité, avec service de déontologie indépendant."
               ]
             },
             "payan": null,
@@ -1000,7 +1103,17 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "delogu": null,
+            "delogu": {
+              "mesures": [
+                "Mettre à disposition des salles municipales et développer l'éducation populaire (assemblées de quartier, enquêtes participatives).",
+                "Créer des comités populaires liés aux délégations municipales pour suivre et co-piloter les politiques publiques.",
+                "Renforcer l'Assemblée citoyenne avec 111 habitants tirés au sort disposant d'un droit d'initiative pour soumettre des délibérations.",
+                "Lancer un plan d'éducation populaire à l'écologie avec budget dédié et Bibliothèque de l'écologie.",
+                "Constituer un réseau de référents formés sur les thématiques écologiques dans les comités de quartier."
+              ],
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/"
+            },
             "payan": null,
             "vassal": {
               "source": "Programme 13 axes prioritaires 2026",
@@ -1027,17 +1140,22 @@
           "nom": "Services publics",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Fin de la gestion privée des services publics : retour en régie municipale des cantines, de l’eau, des parkings et du tunnel Prado-Carénage."
+                "Créer l'application « Marseille ma ville » et un guichet unique avec accompagnement aux droits dans chaque mairie de secteur.",
+                "Soutenir les associations de traduction et d'apprentissage du français pour garantir l'accès aux services publics.",
+                "Constituer des réserves municipales de biens essentiels mobilisables en urgence.",
+                "Créer un réseau municipal d'entraide avec formation massive aux premiers secours.",
+                "Renforcer la participation électorale par une grande campagne d'inscription sur les listes électorales."
               ]
             },
             "payan": {
-              "source": "France Bleu / Made in Marseille, février 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Régie publique de l’eau (retour en gestion municipale)"
+                "Retour en régie publique de la gestion de l'eau potable à l'expiration du contrat Veolia/SEM en 2029.",
+                "Négociation avec la SEMM pour rendre l'eau gratuite ou à tarif réduit sur les premiers mètres cubes."
               ]
             },
             "vassal": null,
@@ -1138,10 +1256,11 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Création d'une Société du Grand Marseille pour porter les grands projets de long terme."
+                "Création d'une Société du Grand Marseille pour porter les grands projets de long terme.",
+                "Création d'une zone franche urbaine pour encourager l'implantation d'entreprises commerciales."
               ]
             },
             "vassal": {
@@ -1192,10 +1311,14 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Développement des équipements culturels et renforcement de l'offre culturelle pour tous."
+                "Implantation d'une philharmonie dans le Centre Bourse pour redynamiser le centre-ville.",
+                "Création d'une Cité de la mer et des sciences, pôle culturel enfance dédié aux océans.",
+                "Création d'une médiathèque à Capitaine-Gèze.",
+                "Création d'une médiathèque à la Rose.",
+                "Création d'une médiathèque au Vallon Régny."
               ]
             },
             "vassal": {
@@ -1273,10 +1396,12 @@
           "propositions": {
             "delogu": null,
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Création du plus grand boulodrome couvert du monde à vocation internationale du côté de Saint-Marcel."
+                "Construction du plus grand boulodrome couvert du monde à vocation internationale du côté de Saint-Marcel.",
+                "Reconstruction de la piscine Nord.",
+                "Reconstruction de la piscine Luminy."
               ]
             },
             "vassal": {
@@ -1347,12 +1472,24 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "delogu": null,
+            "delogu": {
+              "mesures": [
+                "Intensifier les clauses environnementales dans les marchés municipaux avec bilan carbone systématique."
+              ],
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/"
+            },
             "payan": {
-              "source": "Programme Pour Marseille 2026",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "Projet Grandes Rives de la Méditerranée : grande promenade littorale du Nord au Sud avec jardins, espaces paysagers, belvédères, offre sportive et commerciale."
+                "Projet Grandes Rives de la Méditerranée : grande promenade littorale du Nord au Sud avec jardins, espaces paysagers et belvédères.",
+                "Rénovation complète de la plage des Catalans.",
+                "Cheminement et découverte de l'Anse du Pharo.",
+                "Accès renouvelé à la Digue du Large.",
+                "Agrandissement des plages Nord et Sud.",
+                "Création d'un parc balnéaire à l'Estaque.",
+                "Gare des plages à Corbières pour le train de la Côte Bleue."
               ]
             },
             "vassal": {
@@ -1401,7 +1538,8 @@
               "source": "Programme Marseille Pour Tous 2026",
               "sourceUrl": "https://marseillepourtous.org/wp-content/uploads/2026/02/Programme-general-MPT.pdf",
               "mesures": [
-                "Grands travaux de mise en conformité avec la loi Handicap de 2005 : rendre accessibles les transports et lieux publics aux personnes en situation de handicap. 20 ans de retard à rattraper, ces travaux seront créateurs d’emploi."
+                "Grands travaux de mise en conformité avec la loi Handicap de 2005 : rendre accessibles les transports et lieux publics aux personnes en situation de handicap.",
+                "20 ans de retard à rattraper, ces travaux seront créateurs d’emploi."
               ]
             }
           }
@@ -1411,7 +1549,13 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "delogu": null,
-            "payan": null,
+            "payan": {
+              "mesures": [
+                "Désenclavement des quartiers Nord et Est par le développement de transports lourds."
+              ],
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": null,
             "allisio": null,
             "davoux": null
@@ -1427,12 +1571,19 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "delogu": null,
+            "delogu": {
+              "mesures": [
+                "Organiser l'accueil et la solidarité envers les populations les plus fragiles avec des dispositifs d'aide aux droits."
+              ],
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/"
+            },
             "payan": {
-              "source": "Site de campagne",
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
               "sourceUrl": "https://www.pourmarseille.fr/",
               "mesures": [
-                "525 places d'hébergement d'urgence créées pour les sans-abri et les personnes en situation de précarité."
+                "525 places d'hébergement d'urgence créées pour les sans-abri et les personnes en situation de précarité.",
+                "Poursuite des dispositifs d'accueil de jour et de nuit pour les personnes sans domicile."
               ]
             },
             "vassal": null,
@@ -1449,8 +1600,7 @@
               "source": "Programme Marseille Pour Tous 2026",
               "sourceUrl": "https://marseillepourtous.org/wp-content/uploads/2026/02/Programme-general-MPT.pdf",
               "mesures": [
-                "Intégration des familles monoparentales (25 % des foyers marseillais) dans tous les domaines d’intervention sociale.",
-                "Augmentation des subventions aux associations de maraudes de nuit pour les plus précaires."
+                "Intégration des familles monoparentales (25 % des foyers marseillais) dans tous les domaines d’intervention sociale."
               ]
             }
           }
@@ -1460,12 +1610,21 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "delogu": {
-              "source": "Programme officiel 2026 - 379 mesures",
-              "sourceUrl": "https://sebastiendelogu2026.fr/",
+              "source": "Programme officiel 2026 — Sébastien Delogu",
+              "sourceUrl": "https://sebastiendelogu2026.fr/programme/sommaire/",
               "mesures": [
-                "Création d’un Observatoire municipal des discriminations avec quatre pôles spécialisés (handicap, sexisme, racisme, LGBTI), accueil, permanence juridique gratuite et numéro vert.",
-                "Budget sensible au genre, centre féministe, protections menstruelles gratuites, congé menstruel pour les agentes municipales et guichet unique pour les victimes de violences sexistes.",
-                "Anonymisation partielle des dossiers de logement social, grille d’évaluation publique et traçabilité des décisions d’attribution pour garantir l’égalité d’accès."
+                "Créer un observatoire municipal des discriminations avec quatre pôles spécialisés (handicap, sexisme, racisme, LGBTI), aide juridique gratuite et ligne d'écoute.",
+                "Désigner des référents discrimination dans chaque service municipal pour traiter les plaintes.",
+                "Lancer des campagnes de sensibilisation publiques lors des dates clés (8 mars, 21 mars, Mois des Fiertés, 25 novembre).",
+                "Reconnaître et préserver les histoires des mouvements féministes, antiracistes, LGBTQIA+ et de résistance dans l'espace public.",
+                "Permettre à la municipalité de se constituer partie civile aux côtés des victimes de discrimination.",
+                "Intégrer l'éducation anti-discrimination dans toute la programmation municipale.",
+                "Mettre en place un budget genré pour évaluer l'impact des politiques sur les femmes et les hommes.",
+                "Garantir l'égalité professionnelle des femmes dans les services municipaux : parité aux postes de direction et congé menstruel.",
+                "Assurer que les espaces publics et équipements municipaux offrent sécurité, accessibilité et confort pour tous.",
+                "Combattre les discriminations au logement par l'anonymisation partielle des dossiers et des critères transparents.",
+                "Garantir les droits des gens du voyage avec des aires d'accueil dignes.",
+                "Protéger la laïcité en garantissant un accès équitable aux équipements municipaux."
               ]
             },
             "payan": null,
@@ -1493,7 +1652,15 @@
           "nom": "Pouvoir d’achat",
           "propositions": {
             "delogu": null,
-            "payan": null,
+            "payan": {
+              "mesures": [
+                "Kit scolaire gratuit de rentrée porté à 150 euros par enfant.",
+                "Gratuité de la cantine scolaire étendue de 10 000 à 15 000 enfants.",
+                "Gratuité des transports pour les moins de 26 ans et les demandeurs d'emploi."
+              ],
+              "source": "Programme Pour Marseille 2026 — Benoît Payan",
+              "sourceUrl": "https://www.pourmarseille.fr/"
+            },
             "vassal": {
               "source": "Programme 13 axes prioritaires 2026",
               "sourceUrl": "https://madeinmarseille.net/politique/196173-municipales-2026-martine-vassal-presente-les-13-axes-prioritaires-de-son-programme/",
@@ -1514,7 +1681,6 @@
               "source": "Programme Marseille Pour Tous 2026",
               "sourceUrl": "https://marseillepourtous.org/wp-content/uploads/2026/02/Programme-general-MPT.pdf",
               "mesures": [
-                "Gratuité des transports pour améliorer le pouvoir d’achat.",
                 "Triplement de la taxe de séjour Airbnb (gain estimé : 30 millions d’euros)",
                 "Lutte contre le gaspillage d’argent public et fin des pratiques de gouvernance coûteuses."
               ]

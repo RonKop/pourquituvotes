@@ -26,7 +26,7 @@ def normaliser_texte(texte):
 
 def main():
     # Chemin vers les données
-    base_dir = Path(r"C:\Users\KOPELMANRon\Downloads\FR comp mun")
+    base_dir = Path(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
     elections_dir = base_dir / "data" / "elections"
 
     if not elections_dir.exists():

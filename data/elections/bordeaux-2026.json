@@ -39,17 +39,25 @@
           "nom": "Police municipale",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Augmenter les effectifs de policiers municipaux et de médiateurs urbains."
+                "Augmenter de 50 % les effectifs de policiers municipaux et d'agents de surveillance.",
+                "Créer 3 nouvelles brigades de police municipale territorialisées.",
+                "Développer les patrouilles à pied et à vélo dans tous les quartiers.",
+                "Renforcer la brigade anti-incivilités (propreté, tags, dépôts sauvages).",
+                "Élargir le champ de la charte éthique de la police municipale."
               ]
             },
             "cazenave": {
-              "source": "France Bleu Gironde / Rue89 Bordeaux",
-              "sourceUrl": "https://www.francebleu.fr/nouvelle-aquitaine/gironde-33/bordeaux/municipales-2026-a-bordeaux-l-ancien-ministre-macroniste-thomas-cazenave-propose-un-plan-marshall-de-la-securite-7349261",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Plan Marshall de la sécurité : armement de toute la police municipale, création de 4 antennes de police de quartier, doublement des effectifs."
+                "Armer l'ensemble de la police municipale.",
+                "Doubler les effectifs de la police municipale pour atteindre 300 agents.",
+                "Créer 4 antennes de police de proximité dans les quartiers.",
+                "Installer une caserne de police municipale dans le quartier Victoire-Capucins.",
+                "Créer une brigade de nuit dédiée à la sécurité nocturne."
               ]
             },
             "poutou": {
@@ -66,12 +74,18 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "hurmic": null,
-            "cazenave": {
-              "source": "France Bleu Gironde",
-              "sourceUrl": "https://www.francebleu.fr/nouvelle-aquitaine/gironde-33/bordeaux/municipales-2026-a-bordeaux-l-ancien-ministre-macroniste-thomas-cazenave-propose-un-plan-marshall-de-la-securite-7349261",
+            "hurmic": {
               "mesures": [
-                "Doublement du nombre de caméras de vidéosurveillance dans Bordeaux."
+                "Doubler le nombre de caméras de vidéoprotection dans la ville."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
+              "mesures": [
+                "Doubler le nombre de caméras de vidéosurveillance dans Bordeaux."
               ]
             },
             "poutou": null
@@ -81,8 +95,24 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "hurmic": null,
-            "cazenave": null,
+            "hurmic": {
+              "mesures": [
+                "Renforcer la médiation sociale dans tous les quartiers, y compris en zones nocturnes.",
+                "Déployer des « Promeneurs du Net » sur les réseaux sociaux pour la prévention jeunesse.",
+                "Mettre en place un plan municipal de prévention des comportements à risque chez les jeunes.",
+                "Créer un « Forum tranquillité » dans chaque quartier de vie.",
+                "Adopter une charte de la vie nocturne responsable avec patrouilles de médiation."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "mesures": [
+                "Déployer les mesures du plan sécurité dans les 100 premiers jours du mandat."
+              ],
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -90,7 +120,15 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Renforcer le dispositif « Demandez Angela » dans les établissements de nuit.",
+                "Organiser un mois de sensibilisation annuel contre le harcèlement de rue.",
+                "Installer des points de sensibilisation dans les zones passantes."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -105,15 +143,27 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "hurmic": null,
             "cazenave": {
-              "source": "Rue89 Bordeaux, novembre 2025",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Révision des plans de transport pour améliorer la fluidité et réduire les embouteillages."
+                "Mettre en service un tramway nouvelle génération avec des rames plus longues et des circulations plus fiables.",
+                "Faire passer le tramway sur le pont Chaban-Delmas.",
+                "Abandonner le projet de téléphérique sur la Garonne.",
+                "Abandonner l'étude du métro bordelais."
               ]
             },
-            "poutou": null
+            "poutou": null,
+            "hurmic": {
+              "mesures": [
+                "Augmenter les fréquences du tramway et des lignes de bus.",
+                "Mettre en œuvre le RER métropolitain avec la Métropole.",
+                "Déployer 5 lignes de bus express d'ici 2030.",
+                "Lancer la navette fluviale BATO entre Queyries et Quinconces."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            }
           }
         },
         {
@@ -121,17 +171,21 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Sécuriser les itinéraires piétons végétalisés, créer 7 nouveaux parcs et réaménager 6 grandes places arborées."
+                "Doubler le rythme des aménagements cyclables pour achever le réseau express vélo d'ici 2030.",
+                "Créer des parkings vélos sécurisés dans tous les quartiers.",
+                "Déployer des « vélo-taxis » comme solution de mobilité douce.",
+                "Aménager un grand tour piéton et vélo autour du lac."
               ]
             },
             "cazenave": {
-              "source": "France Bleu Gironde, janvier 2026",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Déploiement de bornes de recharge pour véhicules électriques dans toute la ville."
+                "Créer une passerelle piétons-vélos reliant les deux rives entre le pont de Pierre et le pont Chaban.",
+                "Déployer des bornes de recharge pour véhicules électriques dans toute la ville."
               ]
             },
             "poutou": null
@@ -141,13 +195,24 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "hurmic": null,
-            "cazenave": {
-              "source": "Rue89 Bordeaux",
-              "sourceUrl": "https://rue89bordeaux.com/2025/11/municipales-2026-thomas-cazenave-devoile-ses-premieres-priorites-entre-stationnement-gratuit-et-gel-des-tarifs-municipaux/",
+            "hurmic": {
               "mesures": [
-                "Révision des plans de circulation pour désengorger Bordeaux (2e ville la plus embouteillée de France)",
-                "Rétablissement complet de l'éclairage nocturne."
+                "Sécuriser les itinéraires piétons végétalisés dans tous les quartiers.",
+                "Aménager les abords des écoles et des structures seniors pour la sécurité piétonne.",
+                "Transformer les grands boulevards en « rues du XXIe siècle » apaisées et végétalisées.",
+                "Moderniser la gestion du trafic urbain pour fluidifier la circulation.",
+                "Créer une passerelle piétons-vélos dédiée reliant les deux rives de la Garonne."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
+              "mesures": [
+                "Réviser les plans de circulation pour désengorger Bordeaux, 2e ville la plus embouteillée de France.",
+                "Rétablir intégralement l'éclairage nocturne dans toute la ville.",
+                "Rénover les trottoirs dégradés dans tous les quartiers."
               ]
             },
             "poutou": null
@@ -157,12 +222,21 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "hurmic": null,
-            "cazenave": {
-              "source": "Rue89 Bordeaux",
-              "sourceUrl": "https://rue89bordeaux.com/2025/11/municipales-2026-thomas-cazenave-devoile-ses-premieres-priorites-entre-stationnement-gratuit-et-gel-des-tarifs-municipaux/",
+            "hurmic": {
               "mesures": [
-                "Gratuité du stationnement et moratoire sur la suppression de places de parking en surface."
+                "Expérimenter de nouveaux lieux de stationnement en centre-ville.",
+                "Multiplier les parkings moto/scooter et les stations d'autopartage."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
+              "mesures": [
+                "Instaurer la gratuité du stationnement le week-end dans les parkings publics.",
+                "Décréter un moratoire sur la suppression de places de parking en surface.",
+                "Réviser les tarifs de stationnement pour les rendre plus accessibles."
               ]
             },
             "poutou": null
@@ -173,17 +247,18 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Soutien au pouvoir d’achat via la tarification solidaire et l’étude de la gratuité des transports pour les moins de 10 ans."
+                "Étendre la tarification solidaire aux transports, stationnement, piscines et services publics.",
+                "Étudier la gratuité des transports en commun pour les enfants de moins de 10 ans."
               ]
             },
             "cazenave": {
-              "source": "Rue89 Bordeaux, novembre 2025",
-              "sourceUrl": "https://fairegagnerbordeaux.fr/",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Gratuité du stationnement le week-end dans les parkings publics."
+                "Gratuité du stationnement le week-end dans les parkings publics pour soutenir les commerces."
               ]
             },
             "poutou": {
@@ -206,17 +281,19 @@
           "nom": "Logement social",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Amplifier la production de logements sociaux, développer l’accession sociale à la propriété et poursuivre l’encadrement des loyers."
+                "Amplifier la production de logements sociaux pour atteindre 25 % réglementaires.",
+                "Créer 3 000 logements sociaux pour jeunes et étudiants d'ici 2030.",
+                "Développer des logements sociaux mixtes jeunes-seniors intergénérationnels."
               ]
             },
             "cazenave": {
-              "source": "Rue89 Bordeaux, janvier 2026",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Construction de nouveaux logements via la transformation de bureaux vacants, avec objectif de mixité sociale."
+                "Construire de nouveaux logements via la transformation de bureaux vacants, avec objectif de mixité sociale."
               ]
             },
             "poutou": null
@@ -226,12 +303,18 @@
           "id": "logements-vacants",
           "nom": "Logements vacants",
           "propositions": {
-            "hurmic": null,
-            "cazenave": {
-              "source": "Rue89 Bordeaux",
-              "sourceUrl": "https://rue89bordeaux.com/2025/11/municipales-2026-thomas-cazenave-devoile-ses-premieres-priorites-entre-stationnement-gratuit-et-gel-des-tarifs-municipaux/",
+            "hurmic": {
               "mesures": [
-                "1 000 nouveaux logements en transformant des bureaux vacants du centre-ville en habitations."
+                "Lancer le programme « Territoire Zéro Logement Passoire » contre la vacance et l'insalubrité."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
+              "mesures": [
+                "Transformer les bureaux vacants du centre-ville en près de 1 000 logements."
               ]
             },
             "poutou": null
@@ -241,7 +324,14 @@
           "id": "encadrement-loyers",
           "nom": "Encadrement des loyers",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Poursuivre l'encadrement des loyers et renforcer les contrôles Airbnb.",
+                "Expérimenter l'encadrement des loyers commerciaux."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -250,8 +340,22 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "hurmic": null,
-            "cazenave": null,
+            "hurmic": {
+              "mesures": [
+                "Développer l'accession sociale à la propriété pour les classes moyennes.",
+                "Proposer des solutions de logements solidaires (colocations seniors, habitat participatif, viager solidaire).",
+                "Construire 2 500 logements abordables dans le nouveau quartier bas carbone de la Jallère."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "mesures": [
+                "Lancer un projet d'adaptation des logements pour les seniors."
+              ],
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         }
@@ -266,10 +370,13 @@
           "nom": "Petite enfance",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Créer plus de 200 places en crèches et poursuivre le développement de l’offre d’accueil périscolaire."
+                "Créer plus de 200 nouvelles places en crèches sur le mandat.",
+                "Ouvrir 2 maisons d'assistantes maternelles municipales.",
+                "Expérimenter des crèches en plein air.",
+                "Viser 100 % de bio dans les crèches municipales."
               ]
             },
             "cazenave": null,
@@ -281,10 +388,13 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Rénover massivement les écoles pour répondre aux enjeux de rafraîchissement l’été et de confort l’hiver."
+                "Poursuivre la rénovation massive des écoles bordelaises.",
+                "Améliorer le rafraîchissement estival et le confort hivernal des établissements scolaires avec ombrières.",
+                "Soutenir « l'école dehors » avec des espaces adaptés et des cours buissonnières.",
+                "Ouvrir les cours d'écoles en squares accessibles les week-ends et vacances."
               ]
             },
             "cazenave": null,
@@ -295,13 +405,21 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Construire une cuisine centrale municipale en « fait maison ».",
+                "Viser 100 % de bio et local dans les cantines scolaires.",
+                "Instaurer la gratuité progressive des fournitures scolaires."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": {
-              "source": "France Bleu Gironde + Site Institut Montaigne (proposition 2020 reconduite)",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Gel des tarifs des cantines scolaires pour tout le mandat.",
-                "Augmentation de la part de bio et local à 75% dans la restauration collective."
+                "Geler les tarifs des cantines scolaires pour tout le mandat.",
+                "Porter à 75 % la part de bio et local dans la restauration collective."
               ]
             },
             "poutou": null
@@ -311,7 +429,16 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Développer l'offre d'accueil périscolaire dans tous les quartiers.",
+                "Créer les « Drôles de Samedis » : activités parents-enfants pour les 0-6 ans.",
+                "Proposer des accueils ados encadrés en soirée.",
+                "Lancer le programme « Vacances solidaires » pour permettre à tous les enfants de partir."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -320,7 +447,16 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Lancer l'application « Mes Premières Fois » pour guider les jeunes vers l'autonomie.",
+                "Mener des campagnes de sensibilisation à la désinformation et aux bonnes pratiques numériques.",
+                "Mettre en place le programme « Enfants-Ados-Parents & Écrans ».",
+                "Créer un programme d'opportunités internationales pour les 18-25 ans."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -335,7 +471,17 @@
           "id": "espaces-verts",
           "nom": "Espaces verts",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Créer 7 nouveaux parcs dans les quartiers déficitaires en espaces verts.",
+                "Réaménager 6 grandes places arborées pour lutter contre les îlots de chaleur.",
+                "Créer des îlots de fraîcheur à moins de 5 minutes à pied de chaque habitant.",
+                "Installer des trames ombragées et végétalisées (rues voilées l'été, fontaines).",
+                "Développer « Petits pas dans la ville » : espaces ludiques pour enfants dans les parcs."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -344,13 +490,24 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "hurmic": null,
-            "cazenave": {
-              "source": "Rue89 Bordeaux, novembre 2025",
-              "sourceUrl": "https://fairegagnerbordeaux.fr/",
+            "hurmic": {
               "mesures": [
-                "Remunicipalisation de la compétence propreté (fin de la délégation au privé)",
-                "Création de bataillons de propreté déployés dans tous les quartiers."
+                "Renforcer les équipes de propreté le week-end dans les quartiers animés.",
+                "Doubler la brigade anti-incivilités dédiée à la propreté et aux tags.",
+                "Proposer des déchetteries mobiles de quartier.",
+                "Étendre le dispositif « Ici Toilettes » en partenariat avec les commerces."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
+              "mesures": [
+                "Remunicipaliser la compétence propreté (fin de la délégation au privé).",
+                "Créer des équipes d'intervention rapide dans chaque quartier contre les dépôts sauvages et l'accumulation de saletés.",
+                "Mettre en place un plan « zéro débordement » autour des marchés.",
+                "Enlever rapidement les encombrants dans tous les quartiers."
               ]
             },
             "poutou": null
@@ -360,12 +517,22 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Renforcer le plan canicule avec des lieux publics climatisés gratuits.",
+                "Rafraîchir les écoles et crèches via la rénovation thermique et des ombrières.",
+                "Gérer l'eau via une régie publique et cesser d'utiliser l'eau potable pour l'arrosage des espaces publics.",
+                "Reconnaître des droits juridiques à la Garonne."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": {
-              "source": "France Bleu Gironde, janvier 2026",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Réutilisation des eaux usées et gestion pragmatique des ressources en eau face au changement climatique."
+                "Réutiliser les eaux usées pour la gestion des ressources en eau face au changement climatique.",
+                "Réactiver les illuminations des monuments et places de Bordeaux."
               ]
             },
             "poutou": null
@@ -375,7 +542,16 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Atteindre 100 % d'autonomie énergétique pour les bâtiments publics.",
+                "Finaliser le passage à 100 % LED de l'éclairage public.",
+                "Solariser une quarantaine de sites publics.",
+                "Diminuer de 40 % les consommations énergétiques du patrimoine public d'ici 2030."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -384,9 +560,17 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Rénover le Marché des Capucins en gestion municipale directe.",
+                "Valoriser le MIN comme distributeur de produits locaux et de circuits courts.",
+                "Accompagner l'installation d'activités nourricières en territoire girondin."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": {
-              "source": "Site Institut Montaigne (proposition 2020 reconduite)",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
                 "Garantir une majorité de places aux produits bio et locaux dans les marchés bordelais."
@@ -406,13 +590,20 @@
           "nom": "Centres de santé",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Développer des structures médicales locales, dont un centre municipal de santé aux Aubiers dès 2027."
+                "Ouvrir des centres de santé municipaux dans les quartiers déficitaires en médecins.",
+                "Créer un centre municipal de santé aux Aubiers opérationnel dès 2027."
               ]
             },
-            "cazenave": null,
+            "cazenave": {
+              "mesures": [
+                "Créer des centres municipaux de santé dans les quartiers en désert médical."
+              ],
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -420,7 +611,17 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Mener des campagnes de prévention des addictions.",
+                "Ouvrir des lieux de soins pour usagers de drogues.",
+                "Former aux premiers secours en santé mentale.",
+                "Créer une équipe mobile spécialisée dans le refus scolaire anxieux.",
+                "Développer une offre spécifique en santé mentale pour les jeunes."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -429,7 +630,18 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Organiser des rencontres entre seniors pour lutter contre l'isolement.",
+                "Déployer des services civiques de quartier pour accompagner les personnes âgées.",
+                "Faciliter l'accès au sport pour les seniors et développer le sport sur ordonnance.",
+                "Créer le label « Établissements Seniors Inclusifs ».",
+                "Adapter l'habitat des personnes âgées (colocations seniors, habitat participatif, viager solidaire).",
+                "Développer la médiation animale en établissements pour personnes âgées."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -444,7 +656,14 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Réinventer le budget participatif avec de nouvelles modalités.",
+                "Organiser des votes par quartier de vie sur les projets locaux."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -453,12 +672,21 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "hurmic": null,
-            "cazenave": {
-              "source": "Site Renouveau Bordeaux",
-              "sourceUrl": "https://renouveaubordeaux.fr/",
+            "hurmic": {
               "mesures": [
-                "Grande consultation des Bordelais pour construire le programme avec les citoyens (déjà lancée en 2025)."
+                "Rendre les pétitions citoyennes recevables dès 2 000 signatures.",
+                "Utiliser des outils numériques souverains et éthiques (IA, respect de la vie privée).",
+                "Simplifier les démarches administratives municipales."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
+              "mesures": [
+                "Lancer une grande consultation citoyenne pour construire le programme avec les Bordelais.",
+                "Organiser l'opération « 1 quartier, 1 programme » : réunions publiques dans chaque quartier."
               ]
             },
             "poutou": null
@@ -468,7 +696,16 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Financer les associations sur plusieurs années de manière sécurisée.",
+                "Valoriser le bénévolat et garantir l'indépendance associative.",
+                "Offrir des bonus financiers aux associations inclusives.",
+                "Renforcer l'« Atelier des initiatives » pour accompagner les projets citoyens."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -477,13 +714,18 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Créer 30 quartiers de vie pour rapprocher les services municipaux des habitants."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": {
-              "source": "Rue89 Bordeaux + site officiel",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Remunicipalisation de la propreté (fin de la délégation privée)",
-                "Création de 30 quartiers de vie pour plus de proximité dans les services municipaux."
+                "Créer 30 quartiers de vie pour rapprocher les services municipaux des habitants."
               ]
             },
             "poutou": null
@@ -500,17 +742,21 @@
           "nom": "Commerce local",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Dynamiser et protéger les commerces avec l’Office du commerce et l’expérimentation de l’encadrement des loyers commerciaux."
+                "Déployer l'Office du Commerce en partenariat avec la CCI.",
+                "Mettre en œuvre un plan de sauvegarde des commerces de quartier.",
+                "Valoriser le commerce indépendant engagé et l'artisanat local.",
+                "Pérenniser « Bordeaux se met au verre » pour réduire les déchets commerciaux."
               ]
             },
             "cazenave": {
-              "source": "Rue89 Bordeaux, novembre 2025",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Soutien aux commerçants via le gel des tarifs et l'amélioration de l'accessibilité (stationnement gratuit le week-end)."
+                "Soutenir les commerçants via le gel des tarifs et l'amélioration de l'accessibilité.",
+                "Redynamiser le commerce local en attirant de nouveaux commerces et entreprises."
               ]
             },
             "poutou": null
@@ -520,8 +766,24 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "hurmic": null,
-            "cazenave": null,
+            "hurmic": {
+              "mesures": [
+                "Prolonger l'expérience « Territoire zéro chômeur de longue durée » au Grand Parc.",
+                "Faciliter l'accès aux marchés publics pour les petites entreprises locales.",
+                "Organiser une conférence sociale territoriale avec les acteurs économiques.",
+                "Conditionner les aides publiques à des critères environnementaux et sociaux."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "mesures": [
+                "Accueillir 10 000 entrepreneurs à Bordeaux en six ans.",
+                "Réconcilier Bordeaux avec le monde économique pour attirer les investissements."
+              ],
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites"
+            },
             "poutou": null
           }
         },
@@ -529,12 +791,23 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Accompagner la création d'un pôle numérique souverain à Bordeaux.",
+                "Doubler la capacité d'acquisition de locaux économiques par la foncière publique.",
+                "Créer des centres de logistique urbaine pour des livraisons décarbonées.",
+                "Accueillir 10 000 entrepreneurs à Bordeaux d'ici 2032.",
+                "Mobiliser les entreprises autour d'un dividende territorial."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": {
-              "source": "France Bleu Gironde + site officiel",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Faire de Bordeaux une capitale européenne de la culture et renforcer son rayonnement économique et sportif."
+                "Faire de Bordeaux une capitale européenne de la culture.",
+                "Donner une ambition économique et culturelle de métropole européenne à Bordeaux."
               ]
             },
             "poutou": null
@@ -550,13 +823,23 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Garantir la liberté de création et d'expression artistique.",
+                "Ouvrir la Bourse du travail aux pratiques artistiques amateurs.",
+                "Renforcer l'accessibilité des pratiques artistiques amateurs dans tous les quartiers.",
+                "Associer les habitants à la programmation des établissements culturels municipaux.",
+                "Protéger et adapter le patrimoine bordelais aux enjeux contemporains."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": {
-              "source": "Site officiel + presse locale",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Candidature de Bordeaux pour devenir Capitale européenne de la culture.",
-                "Développement des équipements culturels existants."
+                "Lancer la candidature de Bordeaux pour devenir Capitale européenne de la culture.",
+                "Développer les équipements culturels existants et soutenir la création locale."
               ]
             },
             "poutou": null
@@ -567,10 +850,13 @@
           "nom": "Événements & Création",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Garantir la liberté de création artistique et ouvrir la Bourse du travail aux pratiques amateurs."
+                "Instaurer « 100 % Éducation artistique et culturelle » pour tous les élèves bordelais.",
+                "Intensifier les actions culturelles hors les murs dans chaque quartier.",
+                "Soutenir les artistes locaux et développer des ateliers d'artistes.",
+                "Reconnaître le « droit à la fête » avec une charte vie nocturne responsable."
               ]
             },
             "cazenave": null,
@@ -587,12 +873,22 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Rénover les équipements sportifs existants et les adapter au parasport.",
+                "Créer des parcours de running sécurisés.",
+                "Moderniser le site sportif Charles-Martin à Bacalan.",
+                "Rénover le complexe sportif Stéhélin (stade athlétisme, gymnase)."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": {
-              "source": "Site officiel",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Renforcement du rayonnement sportif de Bordeaux et développement des infrastructures sportives."
+                "Renforcer le rayonnement sportif de Bordeaux et développer les infrastructures sportives.",
+                "Organiser les « Jeux olympiques des quartiers » au stade Chaban-Delmas."
               ]
             },
             "poutou": null
@@ -602,7 +898,16 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Développer des écoles multisports pour les enfants.",
+                "Soutenir la pratique féminine avec un accès égal aux équipements sportifs.",
+                "Développer le sport sur ordonnance.",
+                "Soutenir les clubs et sportifs de haut niveau, avec priorité au sport féminin."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -618,19 +923,23 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Créer 30 quartiers de vie pour plus de proximité et d’efficacité dans les services municipaux.",
-                "Grand projet urbain autour du lac, l’un des premiers quartiers bas carbone de France, avec un pôle numérique souverain."
+                "Créer 30 quartiers de vie pour plus de proximité et de convivialité.",
+                "Lancer le grand projet urbain autour du lac avec le quartier bas carbone de la Jallère.",
+                "Transformer la zone commerciale du Lac.",
+                "Apaiser et végétaliser les allées de Tourny.",
+                "Réaménager les quais de Garonne (cyclabilité, îlots fraîcheur).",
+                "Végétaliser et réorganiser la place Victoire."
               ]
             },
             "cazenave": {
-              "source": "Rue89 Bordeaux + France Bleu",
+              "source": "Programme officiel 2026 — Thomas Cazenave",
               "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
               "mesures": [
-                "Arrêt des projets jugés inutiles (réaménagement des allées de Tourny)",
-                "Priorité à la rénovation et à la fluidité urbaine."
+                "Arrêter les projets jugés inutiles comme le réaménagement des allées de Tourny.",
+                "Donner la priorité à la rénovation et à la fluidité urbaine."
               ]
             },
             "poutou": null
@@ -640,7 +949,15 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Rendre 100 % des équipements publics accessibles aux personnes en situation de handicap.",
+                "Sécuriser et adapter les trajets piétons pour les personnes à mobilité réduite.",
+                "Systématiser l'intégration du genre et du handicap dans la construction d'équipements."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -649,12 +966,22 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "hurmic": null,
-            "cazenave": {
-              "source": "France Bleu Gironde",
-              "sourceUrl": "https://www.francebleu.fr/nouvelle-aquitaine/gironde-33/bordeaux/municipales-2026-a-bordeaux-l-ancien-ministre-macroniste-thomas-cazenave-propose-un-plan-marshall-de-la-securite-7349261",
+            "hurmic": {
               "mesures": [
-                "Rénovation des quartiers Victoire et Capucins avec installation d'une caserne de police municipale."
+                "Ouvrir un centre de santé municipal, un centre d'animation et une crèche aux Aubiers.",
+                "Lancer un plan propreté coordonné Ville-Métropole-Bailleurs dans les quartiers prioritaires.",
+                "Réhabiliter le centre social et d'animation l'Escargot au Grand Parc.",
+                "Rénover le centre commercial Europe au Grand Parc."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
+              "mesures": [
+                "Rénover et sécuriser les quartiers Victoire et Capucins.",
+                "Installer une caserne de police municipale dans les quartiers prioritaires."
               ]
             },
             "poutou": null
@@ -671,10 +998,14 @@
           "nom": "Aide sociale",
           "propositions": {
             "hurmic": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://pierrehurmic2026.fr/",
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/",
               "mesures": [
-                "Porter un plan d’action commun avec l’État pour zéro enfant sans abri à Bordeaux."
+                "Plan d'action avec l'État : zéro enfant sans abri à Bordeaux.",
+                "Ouvrir des hébergements d'urgence et des accueils de jour.",
+                "Développer l'habitat léger avec accompagnement social.",
+                "Créer une cantine solidaire municipale.",
+                "Renforcer la solidarité alimentaire (épiceries sociales et solidaires)."
               ]
             },
             "cazenave": null,
@@ -685,7 +1016,18 @@
           "id": "egalite-discriminations",
           "nom": "Égalité & Discriminations",
           "propositions": {
-            "hurmic": null,
+            "hurmic": {
+              "mesures": [
+                "Intégrer l'égalité femmes-hommes dans toutes les politiques municipales.",
+                "Former les agents municipaux au sexisme ordinaire et aux inégalités filles-garçons.",
+                "Amplifier le « Mois des fiertés » à Bordeaux.",
+                "Concevoir des campagnes municipales contre le racisme et l'antisémitisme.",
+                "Soutenir les associations d'accompagnement des migrants.",
+                "Coconstruire un plan d'action sur la mémoire de l'esclavage et de la colonisation."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
             "cazenave": null,
             "poutou": null
           }
@@ -694,12 +1036,22 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d’achat",
           "propositions": {
-            "hurmic": null,
-            "cazenave": {
-              "source": "Rue89 Bordeaux",
-              "sourceUrl": "https://rue89bordeaux.com/2025/11/municipales-2026-thomas-cazenave-devoile-ses-premieres-priorites-entre-stationnement-gratuit-et-gel-des-tarifs-municipaux/",
+            "hurmic": {
               "mesures": [
-                "Gel des tarifs municipaux et de la taxe foncière pour tout le mandat."
+                "Étendre la tarification solidaire au stationnement, piscines, concessions funéraires et services publics.",
+                "Proposer des commandes groupées à tarifs avantageux pour les Bordelais.",
+                "Soutenir les associations offrant des soins vétérinaires gratuits."
+              ],
+              "source": "Programme officiel 2026 — Pierre Hurmic",
+              "sourceUrl": "https://pierrehurmic2026.fr/notre-programme/"
+            },
+            "cazenave": {
+              "source": "Programme officiel 2026 — Thomas Cazenave",
+              "sourceUrl": "https://www.fairegagnerbordeaux.fr/nos-priorites",
+              "mesures": [
+                "Geler les tarifs municipaux pour tout le mandat.",
+                "Geler la taxe foncière pour tout le mandat.",
+                "Supprimer les projets jugés inutiles pour réorienter le budget vers les besoins quotidiens."
               ]
             },
             "poutou": null

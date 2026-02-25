@@ -149,7 +149,66 @@ Avant de considérer un candidat comme "intégré" :
    ↓
 7. Exécuter + valider (valider_donnees.py)
    ↓
-8. Mettre à jour suivi_candidats.csv
+8. Auditer (auditer_completude.py)
    ↓
-9. Commit + push + merge
+9. Mettre à jour suivi_candidats.csv
+   ↓
+10. Commit + push + merge
 ```
+
+---
+
+## 7. Détection du bilan (track record)
+
+Les candidats sortants mélangent souvent leurs réalisations passées avec leurs engagements futurs. Ces éléments de bilan doivent être filtrés car ils ne sont pas des propositions.
+
+### 7.1 Marqueurs temporels à détecter
+
+Les 10 patterns regex utilisés par `auditer_completude.py` :
+
+| Pattern | Exemple | Action |
+|---------|---------|--------|
+| `depuis 20XX` | « Augmentation des effectifs depuis 2014 » | Supprimer ou reformuler |
+| `déjà en place` | « Gratuité déjà en place » | Supprimer |
+| `record de` | « Record de fréquentation du réseau » | Supprimer |
+| `passage de X à Y` | « Passage de 21 à 710 caméras » | Reformuler (« Atteindre 710 caméras ») |
+| `fin 20XX` | « Livré fin 2024 » | Supprimer |
+| `actuellement` | « Contre 311 actuellement » | Reformuler (retirer le chiffre actuel) |
+| `triplement/doublement` | « Triplement du budget » | Vérifier contexte : passé ou futur ? |
+| `X déjà installées` | « 500 caméras déjà installées » | Supprimer |
+| `augmentation...depuis` | « Augmentation de 30% depuis 2020 » | Supprimer |
+
+### 7.2 Procédure de nettoyage
+
+1. Exécuter `python scripts/auditer_completude.py --candidat X`
+2. Examiner chaque détection « BILAN » dans le rapport
+3. Pour chaque détection :
+   - **Supprimer** si c'est purement du bilan (réalisation passée)
+   - **Reformuler** en proposition si c'est un objectif chiffré (« Porter à X » au lieu de « Passage de Y à X »)
+4. Utiliser `nettoyer_bilan.py` comme modèle pour les corrections en batch
+
+---
+
+## 8. Limites WebFetch & vérification complétude
+
+### 8.1 Problèmes connus de WebFetch
+
+| Problème | Impact | Solution |
+|----------|--------|----------|
+| Sites SPA (JS dynamique) | Contenu vide ou partiel | PDF CDN, copier-coller |
+| Paraphrase du contenu | Mesures reformulées, nuances perdues | Toujours croiser avec PDF |
+| Troncature pages longues | Programme incomplet | Extraire section par section |
+| Invention de contenu | Mesures qui n'existent pas | Vérifier chaque mesure contre la source |
+
+### 8.2 Protocole de vérification
+
+Après chaque extraction assistée par WebFetch :
+
+1. **Compter** : nombre de mesures extraites vs nombre dans la source
+2. **Croiser** : au moins 5 mesures au hasard vérifiées mot pour mot contre la source
+3. **Auditer** : `auditer_completude.py` pour détecter bilan, blocs, doublons
+4. **Valider** : `valider_donnees.py` pour la structure JSON
+
+### 8.3 Référence aux outils
+
+Voir `METHODOLOGIE_EXTRACTION.md` pour le détail complet des 10 problèmes et du pipeline d'extraction en 9 étapes.

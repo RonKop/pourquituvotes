@@ -55,11 +55,11 @@
           "nom": "Police municipale",
           "propositions": {
             "bechu": {
-              "source": "Site officiel angersbechu.fr",
-              "sourceUrl": "https://www.angersbechu.fr/christophe-bechu-devoile-deux-premiers-colistiers-pour-agir-sur-la-securite-et-leducation-2/",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Nouvelle augmentation des effectifs de police municipale.",
-                "Accompagner la montée en puissance de l'armement des agents pour garantir la tranquillité du quotidien."
+                "Augmentation des effectifs de police municipale de 75 à 100 agents.",
+                "Déploiement de l'armement létal d'abord pour les équipes de nuit, puis pour l'ensemble des 75 policiers municipaux."
               ]
             },
             "laveau": {
@@ -85,10 +85,11 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "bechu": {
-              "source": "Angers Villactu, 2026",
-              "sourceUrl": "https://www.angers.villactu.fr/municipales-2026-christophe-bechu-presente-ses-deux-nouveaux-colistiers/",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Porter le réseau de vidéoprotection à 300 caméras avec un centre de supervision opérationnel."
+                "Déploiement de 150 caméras supplémentaires pour porter le réseau à 450 caméras de vidéoprotection.",
+                "Amélioration de la résolution des caméras pour une meilleure précision de zoom."
               ]
             },
             "laveau": null,
@@ -102,10 +103,11 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "bechu": {
-              "source": "Site officiel angersbechu.fr",
-              "sourceUrl": "https://www.angersbechu.fr/christophe-bechu-devoile-deux-premiers-colistiers-pour-agir-sur-la-securite-et-leducation-2/",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Lutte contre les incivilités et renforcement de la présence humaine dans l'espace public pour assurer la protection de chaque habitant."
+                "Adoption d'un plan spécifique contre les incivilités et le bruit.",
+                "Renforcement de la présence humaine dans l'espace public pour assurer la tranquillité du quotidien."
               ]
             },
             "laveau": null,
@@ -141,13 +143,6 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "bechu": {
-              "source": "Angers Villactu, 2026",
-              "sourceUrl": "https://www.angers.villactu.fr/municipales-christophe-bechu-presente-lensemble-de-ses-propositions/",
-              "mesures": [
-                "Mettre en place la gratuité des transports en commun."
-              ]
-            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/creches-ecoles-gratuite-des-transports-demain-angers-expose-son-programme/",
@@ -158,7 +153,15 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null
+            "leandri": null,
+            "bechu": {
+              "mesures": [
+                "Acquisition de rames supplémentaires pour mettre en place des trams rallongés aux heures de pointe.",
+                "Gratuité des transports en commun pour les sorties scolaires."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            }
           }
         },
         {
@@ -166,10 +169,12 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "bechu": {
-              "source": "Angers Villactu, 2026",
-              "sourceUrl": "https://www.angers.villactu.fr/municipales-christophe-bechu-presente-lensemble-de-ses-propositions/",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Ouvrir une maison du vélo et des mobilités près de la gare, atteindre 160 km de voies cyclables sécurisées d'ici 2030."
+                "Ouverture d'une maison du vélo et des mobilités près de la gare.",
+                "Atteindre 160 km de voies cyclables sécurisées (réseau Irigovélo) d'ici 2030.",
+                "Doublement du budget plan vélo à 7 millions d'euros par an."
               ]
             },
             "laveau": {
@@ -218,13 +223,20 @@
           "id": "tarifs-gratuite",
           "nom": "Tarifs & Gratuité",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
+              "mesures": [
+                "Mise en place de la gratuité des transports en commun."
+              ]
+            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/creches-ecoles-gratuite-des-transports-demain-angers-expose-son-programme/",
               "mesures": [
                 "Gratuité des transports en commun le week-end.",
-                "Baisse de 20 % du prix de tous les abonnements Irigo pour augmenter la fréquentation du réseau."
+                "Baisse de 20 % du prix de tous les abonnements Irigo pour augmenter la fréquentation du réseau.",
+                "Gratuité des fournitures scolaires pour toutes les familles."
               ]
             },
             "saeidi": {
@@ -254,7 +266,13 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Création d'une bourse d'échanges de logements dans le parc social, validée par les bailleurs et la collectivité."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/creches-ecoles-gratuite-des-transports-demain-angers-expose-son-programme/",
@@ -313,7 +331,13 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Mise en place d'une assurance communale habitation à tarifs négociés pour couvrir les 2-3 % de ménages non assurés."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
@@ -331,10 +355,11 @@
           "nom": "Petite enfance",
           "propositions": {
             "bechu": {
-              "source": "Angers Info (my-angers.info)",
-              "sourceUrl": "https://my-angers.info/02/13/municipales-a-angers-christophe-bechu-detaille-un-programme-tres-cible-et-geolocalise-pour-un-nouveau-mandat/178231",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Faire de l'enfance et la jeunesse la grande cause du mandat : petite enfance, soutien à la parentalité, réussite éducative et lutte contre la surexposition aux écrans."
+                "Faire de l'enfance et la jeunesse la grande cause du mandat : petite enfance, soutien à la parentalité, réussite éducative.",
+                "Organisation d'Assises de la Parentalité et de la Famille dès le début du mandat."
               ]
             },
             "laveau": {
@@ -355,11 +380,12 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "bechu": {
-              "source": "Site officiel angersbechu.fr",
-              "sourceUrl": "https://www.angersbechu.fr/christophe-bechu-devoile-deux-premiers-colistiers-pour-agir-sur-la-securite-et-leducation-2/",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
                 "Améliorer les conditions d'apprentissage des enfants en veillant à la qualité des écoles.",
-                "Renforcer l'offre périscolaire et l'égalité des chances pour les petits Angevins."
+                "Renforcer l'offre périscolaire et l'égalité des chances pour les jeunes Angevins.",
+                "Végétalisation de toutes les cours d'école d'ici fin 2027."
               ]
             },
             "laveau": {
@@ -379,17 +405,10 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "bechu": {
-              "source": "my-angers.info, 2026",
-              "sourceUrl": "https://my-angers.info/01/16/municipales-a-angers-christophe-bechu-devoile-ses-deux-premiers-colistiers-securite-et-education-en-tete/176626",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Poursuivre la montée en gamme de la restauration scolaire Papillote & Compagnie (42% de bio atteint)"
-              ]
-            },
-            "laveau": {
-              "source": "Angers Villactu",
-              "sourceUrl": "https://www.angers.villactu.fr/creches-ecoles-gratuite-des-transports-demain-angers-expose-son-programme/",
-              "mesures": [
-                "Gratuité des fournitures scolaires pour toutes les familles."
+                "Poursuivre la montée en gamme de la restauration scolaire Papillote & Compagnie (42 % de bio atteint, objectif supérieur)."
               ]
             },
             "saeidi": null,
@@ -402,8 +421,8 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "bechu": {
-              "source": "my-angers.info, 2026",
-              "sourceUrl": "https://my-angers.info/01/16/municipales-a-angers-christophe-bechu-devoile-ses-deux-premiers-colistiers-securite-et-education-en-tete/176626",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
                 "Maintenir la gratuité des activités périscolaires."
               ]
@@ -426,10 +445,13 @@
           "nom": "Jeunesse",
           "propositions": {
             "bechu": {
-              "source": "Angers Info (my-angers.info)",
-              "sourceUrl": "https://my-angers.info/02/13/municipales-a-angers-christophe-bechu-detaille-un-programme-tres-cible-et-geolocalise-pour-un-nouveau-mandat/178231",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Faire de l'enfance et la jeunesse la grande cause du mandat, avec l'éducation et la lutte contre la surexposition aux écrans comme axes structurants."
+                "Faire de l'enfance et l'adolescence la grande cause du mandat avec la lutte contre la surexposition aux écrans.",
+                "Offrir un abonnement à un magazine de lecture pour les élèves de CE1 et CE2.",
+                "Déployer un dispositif de terrain pour les jeunes souffrant de difficultés psychologiques.",
+                "Créer un médicampus pour lutter contre les fausses informations en santé."
               ]
             },
             "laveau": {
@@ -454,7 +476,15 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Lancer un plan parc annuel : revégétalisation des parcs de Villechien, du Haras et de Bellefontaine.",
+                "Végétalisation de la rue Saint-Aubin dès le début du mandat.",
+                "Création de 68 hectares de nature en ville depuis 2014, poursuite de l'effort."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/creches-ecoles-gratuite-des-transports-demain-angers-expose-son-programme/",
@@ -477,7 +507,13 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Installation de filets collecteurs de déchets dans la Maine."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
@@ -489,10 +525,11 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "bechu": {
-              "source": "Angers Info (my-angers.info)",
-              "sourceUrl": "https://my-angers.info/02/13/municipales-a-angers-christophe-bechu-detaille-un-programme-tres-cible-et-geolocalise-pour-un-nouveau-mandat/178231",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Transition écologique comme l'une des trois priorités du mandat, avec des mesures concrètes déclinées quartier par quartier."
+                "Organisation des Assises de la transition écologique avec élus, associations, ADEME, scientifiques et citoyens.",
+                "Plan d'adaptation climatique visant une métropole zéro carbone."
               ]
             },
             "laveau": null,
@@ -505,7 +542,13 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Poursuite de l'isolation des bâtiments municipaux et scolaires."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/creches-ecoles-gratuite-des-transports-demain-angers-expose-son-programme/",
@@ -548,7 +591,13 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Rejet de la mutuelle communale classique ; mise en place d'une assurance habitation communale négociée comme alternative sociale."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-demain-angers-fait-du-logement-lune-de-ses-priorites/",
@@ -571,7 +620,13 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Augmentation du plafond de ressources du CCAS de 10 % pour élargir le nombre de bénéficiaires."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": null,
             "saeidi": {
               "source": "Angers Villactu, 2026",
@@ -588,7 +643,15 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Accompagnement des personnes âgées au quotidien : diversification des solutions de logement et lutte contre l'isolement.",
+                "Augmentation du budget CCAS de 1,6 million d'euros pour le soutien aux seniors.",
+                "Présentation d'un rapport CCAS tous les deux mois au conseil municipal."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-la-liste-de-gauche-demain-angers-veut-renforcer-les-solidarites/",
@@ -630,11 +693,11 @@
           "nom": "Transparence",
           "propositions": {
             "bechu": {
-              "source": "Angers Info (my-angers.info)",
-              "sourceUrl": "https://my-angers.info/02/13/municipales-a-angers-christophe-bechu-detaille-un-programme-tres-cible-et-geolocalise-pour-un-nouveau-mandat/178231",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "200 propositions réalisables sur 6 ans et finançables sans augmentation des impôts.",
-                "Programme décliné quartier par quartier pour une action de proximité."
+                "198 propositions réalisables sur 6 ans et finançables sans aucune augmentation des impôts.",
+                "Programme décliné quartier par quartier avec 10 documents spécifiques et 50 propositions géolocalisées."
               ]
             },
             "laveau": {
@@ -654,7 +717,13 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Mise à disposition de véhicules adaptés pour les personnes en situation de handicap via les associations."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
@@ -665,7 +734,13 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Relogement de la maison de quartier centre-ville place Saint-Éloi dans un espace unifié avec 150 m² supplémentaires."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-la-liste-de-gauche-demain-angers-veut-renforcer-les-solidarites/",
@@ -689,11 +764,13 @@
           "nom": "Commerce local",
           "propositions": {
             "bechu": {
-              "source": "Angers Info (my-angers.info)",
-              "sourceUrl": "https://my-angers.info/02/13/municipales-a-angers-christophe-bechu-detaille-un-programme-tres-cible-et-geolocalise-pour-un-nouveau-mandat/178231",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Renforcer les ressources dédiées au commerce local, qui souffre depuis plusieurs années.",
-                "Priorité à la redynamisation commerciale du centre-ville."
+                "Confier la compétence commerce à l'agence Aldev pour professionnaliser la redynamisation.",
+                "Démarcher les enseignes nationales manquantes pour les inciter à s'implanter à Angers.",
+                "Création d'une foncière commerciale pour racheter les locaux vacants en centre-ville.",
+                "Mise en place d'équipes de gestion de centre-ville (centre-ville managers)."
               ]
             },
             "laveau": {
@@ -713,7 +790,13 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Accompagnement de l'implantation de halles alimentaires sur le site Cœur de Maine."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/creches-ecoles-gratuite-des-transports-demain-angers-expose-son-programme/",
@@ -730,7 +813,13 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Inscrire l'IceParc dans la dynamique des Jeux des Alpes 2030 : Angers ville hôte d'entraînement des équipes nationales."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
@@ -748,11 +837,13 @@
           "nom": "Équipements culturels",
           "propositions": {
             "bechu": {
-              "source": "Angers Info (my-angers.info)",
-              "sourceUrl": "https://my-angers.info/02/13/municipales-a-angers-christophe-bechu-detaille-un-programme-tres-cible-et-geolocalise-pour-un-nouveau-mandat/178231",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Création d'un film office pour le cinéma à Angers.",
-                "Mise en place d'une « artothèque citoyenne » permettant aux Angevins d'emprunter des œuvres d'artistes locaux, hébergée dans un bâtiment municipal au Lac de Maine."
+                "Création d'un film office (bureau des tournages) pour le cinéma à Angers.",
+                "Mise en place d'une artothèque citoyenne permettant d'emprunter des œuvres d'artistes locaux, installée au Lac de Maine.",
+                "Rénovation de la médiathèque Toussaint avec intégration au jardin des beaux-arts transformé en jardin de sculptures.",
+                "Transformation de l'hôtel de la Godeline en salle de bal et de danse."
               ]
             },
             "laveau": null,
@@ -783,10 +874,11 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "bechu": {
-              "source": "Angers Info (my-angers.info)",
-              "sourceUrl": "https://my-angers.info/02/13/municipales-a-angers-christophe-bechu-detaille-un-programme-tres-cible-et-geolocalise-pour-un-nouveau-mandat/178231",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Réaménagement de la halle Jean-Bouin pour accompagner le basket de haut niveau à Angers."
+                "Réaménagement de la halle Jean-Bouin pour accompagner le basket de haut niveau à Angers.",
+                "Création d'une piste de BMX sur un site alternatif après la non-reconstruction du vélodrome."
               ]
             },
             "laveau": {
@@ -807,10 +899,10 @@
           "nom": "Sport pour tous",
           "propositions": {
             "bechu": {
-              "source": "Angers Villactu, 2026",
-              "sourceUrl": "https://www.angers.villactu.fr/municipales-christophe-bechu-presente-lensemble-de-ses-propositions/",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
-                "Organiser des états généraux du football pour soutenir les clubs et reconnaître leur rôle éducatif."
+                "Organiser des états généraux du football pour soutenir les clubs et reconnaître leur rôle éducatif et d'enracinement urbain."
               ]
             },
             "laveau": null,
@@ -829,7 +921,13 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Végétalisation de la rue Saint-Aubin pour améliorer l'expérience piétonne en centre-ville."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
@@ -852,11 +950,11 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "bechu": {
-              "source": "Angers Info (my-angers.info)",
-              "sourceUrl": "https://my-angers.info/02/13/municipales-a-angers-christophe-bechu-detaille-un-programme-tres-cible-et-geolocalise-pour-un-nouveau-mandat/178231",
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/",
               "mesures": [
                 "Opérations de renouvellement urbain prioritaires sur les quartiers Monplaisir et Belle-Beille.",
-                "Programme décliné en dix documents spécifiques par quartier avec une cinquantaine de propositions géolocalisées."
+                "Programme décliné en 10 documents spécifiques par quartier avec des propositions géolocalisées."
               ]
             },
             "laveau": null,
@@ -875,7 +973,14 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Augmentation du plafond de ressources du CCAS de 10 % pour élargir l'accès aux aides sociales.",
+                "Approche solidaire « accueillir, aider, agir, accompagner » tout en évitant l'assistanat."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": {
               "source": "Angers Villactu",
               "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-la-liste-de-gauche-demain-angers-veut-renforcer-les-solidarites/",
@@ -917,7 +1022,13 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "bechu": null,
+            "bechu": {
+              "mesures": [
+                "Aucune augmentation des impôts locaux sur l'ensemble du mandat."
+              ],
+              "source": "Programme officiel 2026 — Christophe Béchu",
+              "sourceUrl": "https://www.angersbechu.fr/programme/"
+            },
             "laveau": null,
             "saeidi": {
               "source": "Angers Villactu, 2026",

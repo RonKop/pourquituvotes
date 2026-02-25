@@ -71,24 +71,37 @@
           "nom": "Police municipale",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-2026-jean-luc-moudenc-promet-camera-chaque-rue-toulouse-344521/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Parcours de jogging sécurisés équipés de vidéoprotection et renforcement de la sécurité de proximité dans tous les quartiers."
+                "Présence policière 24h/24 dans tous les quartiers de Toulouse.",
+                "Déploiement d'unités motorisées spécialisées et de brigades VTT.",
+                "Création de brigades de contact avec garantie d'intervention sous 72 heures.",
+                "Armement permanent de la police municipale.",
+                "Équipement des agents en pistolets à impulsions électriques.",
+                "Dotation en lanceurs de balles de défense.",
+                "Construction du commissariat central moderne à Basso Cambo.",
+                "Recrutement de 115 policiers nationaux supplémentaires via les contrats de sécurité intégrée.",
+                "Création de 22 postes de magistrats et assistants juridiques dédiés."
               ]
             },
             "briancon": {
-              "source": "Révolution Permanente, février 2026",
-              "sourceUrl": "https://www.revolutionpermanente.fr/Ex-patron-et-apparatchik-PS-qui-est-Francois-Briancon-candidat-de-la-gauche-unie-a-Toulouse",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Soutien aux moyens de la police municipale pour assurer la sécurité de proximité dans tous les quartiers."
+                "Présence de police municipale de proximité dans tous les quartiers, avec un objectif d'un agent pour 1 000 habitants.",
+                "Plan « Stop les deals » combinant sécurité, prévention, santé et cohésion sociale.",
+                "Plan de réduction des nuisances sonores et de prévention des vols nocturnes."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Police de proximité renforcée, priorité à la prévention et au lien social plutôt qu'aux dispositifs répressifs."
+                "Recrutement de 100 policiers municipaux supplémentaires pour une police de proximité présente dans tous les quartiers.",
+                "Déploiement de 4 agents de police municipale par quartier dans chacun des 84 quartiers de Toulouse.",
+                "Création d'une antenne de police municipale dans chaque secteur.",
+                "Police visible, à l'écoute et formée à la médiation plutôt qu'à la répression."
               ]
             },
             "leonardelli": {
@@ -114,14 +127,24 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "moudenc": {
-              "source": "Programme officiel",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
               "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "1 caméra par rue : déploiement massif de la vidéosurveillance dans toutes les rues de Toulouse pour protéger l'ordre au quotidien."
+                "Objectif 1 caméra par rue : déploiement massif de la vidéosurveillance dans toutes les rues de Toulouse.",
+                "Déploiement de caméras mobiles pour les événements et zones sensibles.",
+                "Vidéo-verbalisation des infractions routières.",
+                "Parcours de jogging sécurisés équipés de vidéoprotection et renforcement de la surveillance dans les parcs."
               ]
             },
             "briancon": null,
-            "piquemal": null,
+            "piquemal": {
+              "mesures": [
+                "Audit complet des 675 caméras de vidéosurveillance existantes sur la voie publique.",
+                "Réorientation des 16 millions d'euros du marché des caméras vers le recrutement de 34 agents de police municipale supplémentaires."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -138,13 +161,26 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "moudenc": null,
-            "briancon": null,
-            "piquemal": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+            "moudenc": {
               "mesures": [
-                "Création d'un office municipal de médiation pour résoudre les conflits de voisinage et les incivilités."
+                "Renforcement de la lutte contre le narcotrafic en lien avec les forces de sécurité nationales."
+              ],
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/"
+            },
+            "briancon": {
+              "mesures": [
+                "Création d'un service de médiation urbaine et de tranquillité publique."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
+              "mesures": [
+                "Rétablissement de l'Office municipal de médiation supprimé sous le mandat actuel.",
+                "Priorité à la prévention, à la médiation et au renforcement du lien social plutôt qu'aux dispositifs technologiques et répressifs."
               ]
             },
             "leonardelli": null,
@@ -163,8 +199,20 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "moudenc": null,
-            "briancon": null,
+            "moudenc": {
+              "mesures": [
+                "Lutte renforcée contre les violences sexistes et sexuelles."
+              ],
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/"
+            },
+            "briancon": {
+              "mesures": [
+                "Programme de lutte contre les violences sexistes et sexuelles dans l'espace public."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
             "piquemal": null,
             "leonardelli": null,
             "cottrel": null,
@@ -183,25 +231,35 @@
           "nom": "Transports en commun",
           "propositions": {
             "moudenc": {
-              "source": "Programme officiel",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
               "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
                 "Prolongement du Téléo (téléphérique urbain) vers Malepère.",
-                "Toulouse se positionne comme la ville de la mobilité pour tous les Toulousains."
+                "Maintien du métro comme colonne vertébrale du réseau de transport.",
+                "Soutien au projet de LGV pour relier Toulouse plus rapidement au réseau national.",
+                "Doublement de la ligne B du métro pour augmenter les capacités.",
+                "Création de 2 600 places de parking relais autour des stations de la future ligne C."
               ]
             },
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Soutien au Service Express Régional Métropolitain (SERM) et abandon du projet Jonction Est."
+                "Augmentation de 20 % de la capacité des transports en commun en trois ans.",
+                "Déploiement du Service Express Régional Métropolitain (SERM/RER) entre 2028 et 2040, budget de 4,8 milliards d'euros.",
+                "Renforcement du réseau Linéo et bus avec plus de fréquence et de meilleures amplitudes horaires.",
+                "Abandon du projet Jonction Est au profit d'alternatives de transport collectif."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Création d'un RER métropolitain comme colonne vertébrale pour désengorger la métropole."
+                "Création d'un RER métropolitain cadencé toutes les 15 minutes de 5h à minuit, avec trains compatibles vélos et synchronisation bus-train.",
+                "Augmentation de 20 % des kilomètres commerciaux du réseau bus en trois ans.",
+                "Création de nouvelles lignes Linéo avec voies dédiées et priorité aux feux.",
+                "Étude du doublement des rames de la ligne B du métro.",
+                "Réseau de bus renforcé dans les quartiers périphériques : plus d'arrêts, de fréquence et d'amplitude horaire."
               ]
             },
             "leonardelli": null,
@@ -221,24 +279,26 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/doubler-ligne-b-prolonger-teleo-moudenc-promet-transports-toulouse-360478/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Poursuite du Réseau Express Vélo (REV) : 370 km de pistes cyclables sécurisées sur la métropole, budget vélo doublé à 80 M€."
+                "Poursuite du Réseau Express Vélo (REV) : 370 km de pistes cyclables sécurisées sur l'ensemble de la métropole."
               ]
             },
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-transports-prepare-gauche-unie-vivre-mieux-toulouse-355876/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Mise en place d'un réseau express vélo pour renforcer les mobilités douces et réduire la circulation automobile."
+                "Plan d'infrastructures cyclables avec éducation au vélo et espaces partagés.",
+                "Plan de mobilité neutre en carbone à l'horizon 2050."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-toulouse-piquemal-335000/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Améliorer les accès aux abords des écoles avec pistes cyclables sécurisées, chemins piétons pour enfants et arceaux vélo, dans le cadre d'une ville du quart d'heure."
+                "Développement de 300 à 400 kilomètres de pistes cyclables sur la métropole.",
+                "Développement massif de la marche et du vélo via les coopératives de quartier identifiant les zones à piétonniser."
               ]
             },
             "leonardelli": null,
@@ -257,12 +317,19 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "moudenc": null,
-            "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-transports-prepare-gauche-unie-vivre-mieux-toulouse-355876/",
+            "moudenc": {
               "mesures": [
-                "Ville à hauteur d'enfants : rues plus calmes, réduction de la circulation automobile, création de cheminements piétonniers et espaces publics avec un espace vert à moins de 300 mètres de chaque habitant."
+                "Maintien de la vitesse à 50 km/h sur les grands axes et 90 km/h sur le périphérique."
+              ],
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/"
+            },
+            "briancon": {
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
+              "mesures": [
+                "Ville à hauteur d'enfants : rues plus calmes, zones piétonnes aux abords des écoles.",
+                "Plan de mise en accessibilité des trottoirs pour les personnes en situation de handicap."
               ]
             },
             "piquemal": null,
@@ -284,14 +351,29 @@
           "nom": "Stationnement",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/doubler-ligne-b-prolonger-teleo-moudenc-promet-transports-toulouse-360478/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Création de 2 600 places de parking relais autour des stations de la future ligne C du métro."
+                "Tarif de stationnement résidentiel parmi les plus bas de France : 100 €/an.",
+                "Stationnement gratuit pour les véhicules électriques.",
+                "Lutte contre le stationnement sauvage dans tous les quartiers."
               ]
             },
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Tarification sociale et écologique du stationnement.",
+                "Reprise en gestion publique des parkings actuellement concédés au privé."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Création d'une régie publique de stationnement pour mettre fin au monopole de l'usage automobile."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -304,17 +386,21 @@
           "propositions": {
             "moudenc": null,
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Tarification sociale des transports en commun."
+                "Gratuité des transports en commun pour les mineurs et les étudiants boursiers.",
+                "Abonnement à 10 euros par mois pour les moins de 26 ans.",
+                "Tarification solidaire des transports basée sur les revenus à partir de 2027.",
+                "Gratuité des transports pour les moins de 18 ans."
               ]
             },
             "piquemal": {
-              "source": "Mediacités Toulouse, janvier 2026",
-              "sourceUrl": "https://www.mediacites.fr/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Gratuité des transports pour les moins de 26 ans d'ici 2030, avec réduction mensuelle dès septembre 2026."
+                "Gratuité de l'abonnement Tisséo pour les moins de 26 ans d'ici 2030, avec première réduction mensuelle dès septembre 2026.",
+                "Retour de l'eau en régie publique à l'échéance de la DSP avec Véolia en 2030, avec tarification sociale : premiers 10 m³ gratuits et tarification progressive."
               ]
             },
             "leonardelli": null,
@@ -333,19 +419,30 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "moudenc": null,
-            "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+            "moudenc": {
               "mesures": [
-                "15 000 nouveaux logements abordables sur le mandat, dont 7 500 via le Bail Réel Solidaire (BRS)"
+                "Obligation de 35% de logement social dans le PLUiH.",
+                "25% de logements abordables exigés dans les programmes immobiliers."
+              ],
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/"
+            },
+            "briancon": {
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
+              "mesures": [
+                "Construction de 15 000 logements à loyers modérés sur le mandat.",
+                "7 500 logements en accession sociale via le Bail Réel Solidaire (BRS) sur la métropole.",
+                "500 logements de transition pour les personnes en situation de vulnérabilité."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-toulouse-piquemal-360785/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Gel pluriannuel des loyers de Toulouse Métropole Habitat, fin des démolitions d'immeubles sans l'avis des habitants, priorité à la rénovation thermique et acoustique de l'existant (43 000 demandeurs en attente)"
+                "Gel pluriannuel des loyers de Toulouse Métropole Habitat.",
+                "Fin des démolitions d'immeubles HLM sans accord préalable des résidents.",
+                "Transformation du « quota du maire » pour l'attribution des HLM en « quota du conseil municipal » avec critères transparents."
               ]
             },
             "leonardelli": null,
@@ -367,17 +464,18 @@
           "propositions": {
             "moudenc": null,
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/crise-logement-toulouse-comment-gauche-unie-veut-changer-donne-357190/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Réduction de la durée de location autorisée des meublés touristiques de 120 à 90 jours par an et renforcement des contrôles pour lutter contre les logements vacants."
+                "Réduction de la durée de location autorisée des meublés touristiques de 120 à 90 jours par an."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-toulouse-piquemal-360785/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Limitation des locations Airbnb à 90 jours par an et renforcement du permis de louer pour lutter contre les logements vacants et la spéculation."
+                "Limitation des locations Airbnb à 90 jours par an.",
+                "Renforcement du permis de louer et généralisation à l'ensemble de la ville."
               ]
             },
             "leonardelli": null,
@@ -391,24 +489,24 @@
           "nom": "Encadrement des loyers",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Refus de l'encadrement des loyers : privilégier la construction pour faire baisser les prix."
+                "Refus de l'encadrement des loyers : privilégier la construction massive pour faire baisser les prix par l'offre."
               ]
             },
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Candidature auprès de l'État pour expérimenter l'encadrement des loyers à Toulouse avant fin 2026."
+                "Candidature auprès de l'État pour expérimenter l'encadrement des loyers à Toulouse dès fin 2026."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Mise en place de l'encadrement des loyers à Toulouse."
+                "Mise en place de l'encadrement des loyers à Toulouse pour stopper la spéculation immobilière."
               ]
             },
             "leonardelli": null,
@@ -422,24 +520,27 @@
           "nom": "Accès au logement",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
                 "Création d'une assurance logement municipale pour les familles."
               ]
             },
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Rénovation massive de 30 000 logements sur le mandat."
+                "Rénovation massive de 30 000 logements sur le mandat.",
+                "Aide aux primo-accédants : cautions et aides à l'installation.",
+                "Garantie zéro enfant à la rue : hébergement, repas et scolarisation assurés."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-toulouse-piquemal-360785/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Priorité à la rénovation thermique et acoustique des bâtiments existants plutôt qu'aux démolitions-reconstructions, pour maintenir les habitants dans leurs quartiers."
+                "Priorité à la rénovation thermique et acoustique des bâtiments existants plutôt qu'à la construction neuve.",
+                "Exercice du droit de préemption municipal pour l'acquisition de biens immobiliers mis en vente."
               ]
             },
             "leonardelli": null,
@@ -466,13 +567,23 @@
           "propositions": {
             "moudenc": null,
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/ecoles-creches-transports-gauche-unie-promet-grandir-mieux-toulouse-361559/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "1 000 places de crèche supplémentaires pour répondre aux besoins des familles toulousaines."
+                "Création de 1 000 places de crèche supplémentaires sur le mandat, avec priorité aux quartiers sous-dotés.",
+                "Système d'attribution des places en crèche transparent et équitable.",
+                "Renforcement de l'accompagnement des enfants en situation de handicap (personnel supplémentaire, coordination avec les familles)."
               ]
             },
-            "piquemal": null,
+            "piquemal": {
+              "mesures": [
+                "Augmentation des places en crèche municipale et associative dans les secteurs sous-équipés.",
+                "Réouverture de la crèche Sainte-Lucie et création de crèches aux horaires décalés adaptés aux réalités sociales locales.",
+                "Renforcement du soutien aux crèches associatives et parentales."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -485,17 +596,20 @@
           "propositions": {
             "moudenc": null,
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/municipales-francois-briancon-toulouse-ville-jardin-357792/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Cours oasis dans chaque école : désimperméabilisation des cours pour remplacer l'asphalte par de la terre et des arbres, reconnectant les enfants à la nature."
+                "Plan pluriannuel de rénovation des écoles adapté au changement climatique.",
+                "Généralisation des cours oasis végétalisées dans chaque école.",
+                "Un ATSEM par classe de maternelle sur tout le temps scolaire."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-toulouse-piquemal-335000/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Audit complet des écoles (amiante, isolation thermique) avec tous les acteurs scolaires, suivi d'un plan massif de rénovation et de fournitures scolaires gratuites."
+                "Audit complet des écoles (amiante, isolation thermique) avec tous les acteurs scolaires.",
+                "Plan pluriannuel de rénovation massive des écoles avec calendrier transparent et public."
               ]
             },
             "leonardelli": {
@@ -514,19 +628,27 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "moudenc": null,
+            "moudenc": {
+              "mesures": [],
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/"
+            },
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/ecoles-creches-transports-gauche-unie-promet-grandir-mieux-toulouse-361559/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Gratuité des cantines scolaires et des goûters pour les familles gagnant moins de 1 200 €/mois dès septembre 2026, fournitures scolaires gratuites en CP."
+                "Gratuité des cantines scolaires pour les familles gagnant moins de 2 000 euros par mois.",
+                "Goûter quotidien gratuit et équilibré dans les écoles, avec option végétarienne.",
+                "Sortie culturelle ou artistique trimestrielle pour tous les élèves."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-toulouse-piquemal-335000/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Gratuité progressive des cantines scolaires et des fournitures, 100% de produits bio et locaux, option végétarienne quotidienne et deux repas végétariens par semaine, ouverture des cantines au quartier le midi."
+                "Gratuité progressive des cantines scolaires et des fournitures.",
+                "100 % de produits issus de l'agriculture biologique et locale dans les cantines.",
+                "Cuisine centrale (35 000 repas/jour) servant une large part de repas végétariens d'ici la fin du mandat."
               ]
             },
             "leonardelli": null,
@@ -546,8 +668,21 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "moudenc": null,
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Tarification solidaire de l'ensemble des services municipaux selon les revenus des familles."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Extension des horaires des CLAE pour les familles monoparentales.",
+                "Création de jardins potagers scolaires avec compostage systématique des déchets verts."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -566,13 +701,21 @@
           "propositions": {
             "moudenc": null,
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/ecoles-creches-transports-gauche-unie-promet-grandir-mieux-toulouse-361559/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Transports gratuits pour les moins de 18 ans."
+                "Reconnaissance des droits des familles monoparentales dans l'accès aux services municipaux.",
+                "Confirmation du hub Toulouse Culture Sourde."
               ]
             },
-            "piquemal": null,
+            "piquemal": {
+              "mesures": [
+                "Création d'une carte municipale « famille monoparentale » facilitant l'accès aux services, aides et activités municipales à tarifs adaptés.",
+                "Extension de la mutuelle municipale aux familles monoparentales à tarifs préférentiels."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -590,24 +733,31 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Ouverture du grand parc de l'île du Ramier et du parc des berges du Touch, poursuite de la création de jardins partagés (15e jardin en 2026)"
+                "Ouverture du grand parc de l'île du Ramier et du parc des berges du Touch.",
+                "Poursuite de la politique de végétalisation et de création d'espaces verts dans tous les quartiers."
               ]
             },
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Toulouse ville-jardin : 3 arbres visibles depuis chaque logement, 30% de couverture végétale par quartier, espace vert à moins de 300m de chaque habitant."
+                "Toulouse ville-jardin : 3 arbres visibles depuis chaque logement, 30 % de couverture végétale par quartier, un espace vert à moins de 300 mètres de chaque habitation.",
+                "Création d'un parc de 100 hectares à l'est de Toulouse.",
+                "Développement d'une ceinture verte autour de la ville.",
+                "Projet Étoile Verte : réaménagement paysager des boulevards, canaux et voies de pénétration."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-francois-piquemal-transformer-hippodrome-parc-geant-34-hectares-361331/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Transformer l'hippodrome de la Cépière en « Grand Parc Rive Gauche » de 34 hectares avec piscine, terrains de sport, aires de jeux et végétalisation massive, ouverture progressive dès 2028."
+                "Transformation de l'hippodrome de la Cépière en « Grand Parc Rive Gauche » de 34 hectares avec piscine, équipements sportifs et végétation, ouverture progressive dès 2028.",
+                "50 hectares de renaturalisation et désimperméabilisation des sols dans la ville.",
+                "Plan massif de végétalisation des sols, voiries et bâtiments avec des espèces adaptées au changement climatique.",
+                "Moratoire sur l'abattage des arbres, considérés comme un patrimoine précieux à protéger."
               ]
             },
             "leonardelli": null,
@@ -628,14 +778,27 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Plan propreté renforcé : ambassadeurs de la propreté dans chaque quartier (duo de résidents référents), déploiement quartier par quartier."
+                "Plan propreté renforcé : ambassadeurs de la propreté dans chaque quartier (duo de référents par quartier)."
               ]
             },
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Service de propreté uniforme sur l'ensemble du territoire municipal."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Changement de paradigme en matière de déchets inspiré des propositions de l'association Zéro Waste.",
+                "Service de propreté uniforme sur tout le territoire, y compris les quartiers populaires."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -654,17 +817,21 @@
           "propositions": {
             "moudenc": null,
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/municipales-francois-briancon-toulouse-ville-jardin-357792/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Programme 'sols vivants' : désimperméabilisation de 300 000 m² de surfaces minérales sur le mandat pour favoriser l'infiltration des eaux de pluie et renforcer la biodiversité."
+                "Programme « sols vivants » : désimperméabilisation de 300 000 m² de surfaces minéralisées.",
+                "Végétalisation massive et équitable pour lutter contre les îlots de chaleur.",
+                "Bouclier « santé-environnement » pour les établissements sensibles (crèches, écoles, centres de soins)."
               ]
             },
             "piquemal": {
-              "source": "Mediacités Toulouse, janvier 2026",
-              "sourceUrl": "https://www.mediacites.fr/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Réduction de 55% des émissions de gaz à effet de serre de la métropole d'ici 2030."
+                "Réduction de 55 % des émissions de gaz à effet de serre de la métropole d'ici 2030.",
+                "Opposition aux grands projets d'écocide : autoroute A69, Jonction Est, tour Occitanie.",
+                "Audits énergétiques quartier par quartier pour planifier la transition écologique."
               ]
             },
             "leonardelli": null,
@@ -683,13 +850,29 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "moudenc": null,
-            "briancon": null,
-            "piquemal": {
-              "source": "Mediacités Toulouse, 2026",
-              "sourceUrl": "https://www.mediacites.fr/municipales-2026/toulouse/2026/01/07/francois-piquemal-10-mesures-phares-et-x-promesses/",
+            "moudenc": {
               "mesures": [
-                "Plan de 300 millions d'euros sur 12 ans pour la rénovation énergétique des bâtiments résidentiels et publics, élimination des passoires thermiques classées F et G."
+                "Lancement d'un cadastre solaire en ligne pour planifier les installations photovoltaïques.",
+                "Partenariats avec des installateurs certifiés pour garantir les économies d'énergie.",
+                "Subventions à la rénovation énergétique : en moyenne 3 776 € par projet.",
+                "Subventions à l'achat de véhicules propres : en moyenne 2 960 € par véhicule."
+              ],
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/"
+            },
+            "briancon": {
+              "mesures": [
+                "Rénovation énergétique de 30 000 logements sur la durée du mandat."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
+              "mesures": [
+                "Plan de 300 millions d'euros sur 12 ans pour la rénovation énergétique des bâtiments publics et privés.",
+                "Élimination des passoires thermiques (logements classés F et G) sur la durée du plan."
               ]
             },
             "leonardelli": null,
@@ -703,12 +886,21 @@
           "nom": "Alimentation durable",
           "propositions": {
             "moudenc": null,
-            "briancon": null,
-            "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-toulouse-piquemal-335000/",
+            "briancon": {
               "mesures": [
-                "100% de produits issus de l'agriculture biologique et locale dans les cantines, ateliers nutrition dans le périscolaire, sensibilisation au compostage et au tri des déchets."
+                "Prescriptions vertes : distribution de paniers bio gratuits pour les femmes enceintes.",
+                "Programme de soutien à la sécurité alimentaire pour les familles en difficulté.",
+                "Ticket transport pour les animaux de compagnie dans les transports en commun (laisse et muselière obligatoires)."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
+              "mesures": [
+                "100 % de produits issus de l'agriculture biologique et locale dans les cantines scolaires.",
+                "Valorisation des agents techniques scolaires : missions élargies au compostage, à la transformation alimentaire sur place et à la réduction des déchets."
               ]
             },
             "leonardelli": null,
@@ -735,18 +927,27 @@
           "nom": "Centres de santé",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/impots-mutuelle-jean-luc-moudenc-promet-pouvoir-achat-toulouse-356450/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Généralisation de la mutuelle communale à tous les Toulousains (économie de 300 €/an par adhérent), développement de groupements d'achats pour l'assurance habitation."
+                "Généralisation de la mutuelle communale à tous les Toulousains (économie de 300 € par an et par personne)."
               ]
             },
-            "briancon": null,
-            "piquemal": {
-              "source": "Mediacités Toulouse, janvier 2026",
-              "sourceUrl": "https://www.mediacites.fr/",
+            "briancon": {
               "mesures": [
-                "Création de centres de santé municipaux dans les quartiers."
+                "Création de centres de santé municipaux pour lutter contre les déserts médicaux.",
+                "Plan municipal de santé mentale.",
+                "Programme de santé scolaire dans les établissements."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
+              "mesures": [
+                "Création de centres de santé municipaux avec professionnels salariés dans les quartiers en désert médical.",
+                "Déploiement de bus santé mobiles pour aller vers les habitants des quartiers mal desservis."
               ]
             },
             "leonardelli": null,
@@ -760,14 +961,27 @@
           "nom": "Prévention santé",
           "propositions": {
             "moudenc": {
-              "source": "Programme officiel",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
               "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Extension de la mutuelle communale à un plus grand nombre de Toulousains."
+                "Extension de la mutuelle communale à un plus grand nombre de Toulousains.",
+                "Programme santé seniors avec accès facilité aux soins."
               ]
             },
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Tarification progressive et écologique de l'eau avec retour en régie publique."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Extension des soins de santé par des approches innovantes pour lutter contre les déserts médicaux."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -784,9 +998,28 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "moudenc": null,
-            "briancon": null,
-            "piquemal": null,
+            "moudenc": {
+              "mesures": [
+                "Repas au restaurant seniors à 3,40 € (tarif gelé depuis 12 ans)."
+              ],
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/"
+            },
+            "briancon": {
+              "mesures": [
+                "Plan « Mieux Vieillir » de lutte contre l'isolement des personnes âgées.",
+                "Accompagnement humain et solidaire des aînés dans tous les quartiers."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Lutte contre l'isolement des personnes âgées par des programmes de quartier."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -804,18 +1037,28 @@
           "nom": "Budget participatif",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Généralisation des budgets participatifs par quartier : 8 millions d'euros par an pour financer des projets portés par les habitants des 20 secteurs."
+                "Généralisation des budgets participatifs par quartier : 8 millions d'euros par an."
               ]
             },
-            "briancon": null,
-            "piquemal": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+            "briancon": {
               "mesures": [
-                "Création de 60 coopératives de quartier avec pouvoir de décision sur l'urbanisme et la mobilité."
+                "Assemblée citoyenne de l'urgence climatique dotée de pouvoirs de proposition, suivi et contrôle.",
+                "Assises de la « Démocratie Vivante » pour évaluer et améliorer la participation citoyenne.",
+                "Fabrique Toulouse en continu : co-construction citoyenne permanente sur les grands projets."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
+              "mesures": [
+                "Création de 60 coopératives de quartier ouvertes à toute personne de plus de 16 ans vivant, étudiant ou travaillant dans le secteur.",
+                "Budget de fonctionnement annuel de 500 000 à 1 million d'euros par coopérative de quartier.",
+                "Pouvoir de décision des coopératives sur l'urbanisme, le logement, la mobilité, la sécurité et les équipements publics."
               ]
             },
             "leonardelli": null,
@@ -835,18 +1078,26 @@
           "nom": "Transparence",
           "propositions": {
             "moudenc": {
-              "source": "Mediacités Toulouse, 2026",
-              "sourceUrl": "https://www.mediacites.fr/municipales-2026/metropole-toulouse/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Questionnaire mensuel aux habitants sur les services publics municipaux et possibilité pour les résidents de choisir l'ordre du jour des commissions de quartier."
+                "Questionnaire mensuel aux habitants sur les services publics municipaux et possibilité de retour direct."
               ]
             },
-            "briancon": null,
-            "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/ric-cooperatives-quartier-francois-piquemal-veut-refonder-democratie-toulouse-360095/",
+            "briancon": {
               "mesures": [
-                "Instauration de la parité sociale dans la gouvernance municipale, coopératives de quartier ouvertes à tous dès 16 ans y compris étrangers, principe « une personne, une voix »."
+                "Code d'éthique et d'intégrité pour restaurer la confiance et lutter contre la corruption.",
+                "Droit d'initiative citoyenne : examen municipal obligatoire des propositions soutenues par les habitants."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
+              "mesures": [
+                "Instauration de la parité sociale dans la gouvernance municipale (24 % d'ouvriers et employés sur la liste contre 3 % au conseil actuel).",
+                "Mise en place du Référendum d'Initiative Citoyenne (RIC) local."
               ]
             },
             "leonardelli": null,
@@ -866,7 +1117,15 @@
           "nom": "Vie associative",
           "propositions": {
             "moudenc": null,
-            "briancon": null,
+            "briancon": {
+              "mesures": [
+                "Plan de soutien aux associations et aux services publics locaux.",
+                "Observatoire local de la laïcité pour accompagner les situations sensibles et faire la pédagogie de la loi de 1905.",
+                "Formation des élus et des agents municipaux à la laïcité."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
             "piquemal": null,
             "leonardelli": null,
             "cottrel": null,
@@ -880,17 +1139,11 @@
           "propositions": {
             "moudenc": null,
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Retour en régie municipale de la gestion de l'eau et de l'assainissement."
-              ]
-            },
-            "piquemal": {
-              "source": "Programme officiel",
-              "sourceUrl": "https://piquemal2026.fr/le-programme/",
-              "mesures": [
-                "Retour de l'eau en régie publique à l'échéance de la DSP avec Véolia en 2030, tarification sociale progressive avec gratuité des 10 premiers m³ (économie de 45 €/an pour une famille de 4)"
+                "Retour en régie municipale de la gestion de l'eau et de l'assainissement.",
+                "Centre populaire de la biosphère pour l'éducation au climat et à la biodiversité, accueillant des associations."
               ]
             },
             "leonardelli": null,
@@ -902,6 +1155,14 @@
               "mesures": [
                 "Retour à une gestion publique de l'eau : investir dans les infrastructures pour garantir qualité et disponibilité de cette ressource vitale à long terme."
               ]
+            },
+            "piquemal": {
+              "mesures": [
+                "Retour de l'eau en régie publique à l'expiration de la DSP avec Véolia en 2030.",
+                "Tarification sociale de l'eau : premiers 10 m³ gratuits correspondant au minimum vital, puis tarification progressive."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
             }
           }
         }
@@ -916,8 +1177,20 @@
           "nom": "Commerce local",
           "propositions": {
             "moudenc": null,
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Soutien aux commerces et artisans de proximité dans les quartiers."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Facilitation de l'accès des producteurs locaux aux marchés publics municipaux."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -935,14 +1208,29 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "moudenc": {
-              "source": "Programme officiel",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
               "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Priorité à la création d'emplois : Toulouse comme la ville de l'emploi."
+                "Priorité à la création d'emplois : Toulouse comme la ville de l'emploi, de l'innovation et de l'industrie.",
+                "Soutien prioritaire à la filière aéronautique et aux entreprises locales."
               ]
             },
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Soutien à l'économie sociale et solidaire."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Expérimentation du dispositif « Territoire Zéro Chômeur de Longue Durée » : embauche en CDI de personnes sans emploi depuis plus d'un an pour des activités d'utilité sociale.",
+                "Création d'un fonds municipal d'appui à l'économie sociale et solidaire (ESS).",
+                "Faire de Toulouse la capitale française de l'économie sociale et solidaire."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -954,14 +1242,29 @@
           "nom": "Attractivité",
           "propositions": {
             "moudenc": {
-              "source": "France 3 Occitanie, 2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/nous-sommes-la-liste-anti-bordel-jean-luc-moudenc-a-devoile-ses-69-colistiers-pour-les-municipales-2026-3265697.html",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Soutien à la LGV pour relier Toulouse plus rapidement, faire de Toulouse la métropole de l'emploi et de l'innovation aéronautique et spatiale."
+                "Soutien à la LGV pour relier Toulouse plus rapidement, faire de Toulouse la métropole la plus attractive de France.",
+                "Développement de l'industrie et de l'innovation comme moteurs économiques."
               ]
             },
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Soutien au secteur aéronautique et spatial toulousain.",
+                "Diversification économique : santé, robotique, intelligence artificielle, cybersécurité, biotechnologies, énergies renouvelables.",
+                "Création de « Campus du Futur » : pôles stratégiques d'innovation."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Construction d'une économie plus résiliente, inclusive et durable centrée sur l'ESS."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -985,20 +1288,29 @@
           "nom": "Équipements culturels",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-moudenc-quartier-de-la-culture-358598/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Création d'un « Quartier de la culture » à Montaudran avec auditorium de musique de 2 500 places (60-70 M€), extensions des musées des Augustins et Saint-Raymond."
+                "Création d'un « Quartier de la culture » à Montaudran avec auditorium de musique classique et salle de concert de variété."
               ]
             },
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Augmentation des dépenses culturelles et gratuité totale des bibliothèques municipales."
+                "Création de la Villa Tolosa, lieu de création artistique contemporaine accueillant artistes locaux et internationaux.",
+                "Gratuité totale et maintien des horaires d'ouverture des bibliothèques municipales.",
+                "Accès à la pratique artistique sur l'ensemble du territoire : possibilité d'une pratique hebdomadaire pour chaque habitant."
               ]
             },
-            "piquemal": null,
+            "piquemal": {
+              "mesures": [
+                "Restauration et pérennisation des subventions aux associations culturelles (réduites de 20 à 40 % sous le mandat actuel) avec conventions pluriannuelles.",
+                "Cours gratuits dans les équipements et espaces publics municipaux."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -1017,13 +1329,22 @@
           "propositions": {
             "moudenc": null,
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-2026-toulouse-nouveau-ralliement-gauche-autour-francois-briancon-358467/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Plan ambitieux pour développer la langue et la culture occitanes du XXIe siècle : transmission de la langue, partage avec tous les habitants, nouvelle gouvernance concertée."
+                "Valorisation des cultures urbaines : street art, fresques, hip-hop, rap.",
+                "Plan ambitieux de développement de la langue et de la culture occitanes, en coordination avec les associations.",
+                "Jumelages entre Toulouse et des villes partenaires (culturels, universitaires, économiques), dont création d'un jumelage avec une ville du Maghreb.",
+                "Prix annuel « Toulouse Féministe » récompensant les initiatives d'égalité dans les domaines civique, culturel, sportif et économique."
               ]
             },
-            "piquemal": null,
+            "piquemal": {
+              "mesures": [
+                "Plan « Un festival dans mon quartier » : création de 15 festivals dans 15 quartiers sur des thématiques variées (musique, rap, manga, street-art, cirque, danse, théâtre, stand-up, astronomie, écologie, cinéma, littérature)."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -1041,14 +1362,27 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "moudenc": {
-              "source": "Programme officiel",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
               "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Agrandissement du Stadium de Toulouse."
+                "Agrandissement du Stadium de Toulouse.",
+                "Piscines municipales à 3,40 € l'entrée."
               ]
             },
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Ligue de quartier : tournois inter-écoles avec parrainage d'athlètes professionnels."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Construction d'une piscine et d'équipements sportifs dans le futur Grand Parc Rive Gauche."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -1066,14 +1400,28 @@
           "nom": "Sport pour tous",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Parcours sportifs sécurisés dans les espaces verts, salle de sport urbaine dans l'ancienne caserne Jacques Vion avec tour de CrossFit."
+                "Parcours sportifs sécurisés dans les espaces verts, salle de sport urbaine dans les quartiers."
               ]
             },
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Plan de pratique sportive féminine avec budgets genrés et mentorat professionnel.",
+                "Pass'Sport Toulouse : subvention à la licence sportive pour les familles modestes."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Cours de sport gratuits dans les équipements publics avec créneaux réservés aux femmes.",
+                "Places réservées et tarifs modulés selon les revenus dans les activités sportives municipales."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -1091,18 +1439,26 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "moudenc": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-grands-chantiers-faire-bouger-ville-2026-355622/",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
+              "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Transformation de la gare Toulouse-Matabiau en pôle d'échanges multimodal : élargissement piétons-cycles, préparation de la ligne C du métro et de la LGV."
+                "Transformation de la gare Toulouse-Matabiau en pôle d'échanges multimodal.",
+                "Protection de l'identité architecturale de la Ville Rose."
               ]
             },
-            "briancon": null,
-            "piquemal": {
-              "source": "Mediacités Toulouse, 2026",
-              "sourceUrl": "https://www.mediacites.fr/municipales-2026/toulouse/2026/01/07/francois-piquemal-10-mesures-phares-et-x-promesses/",
+            "briancon": {
               "mesures": [
-                "50 hectares de renaturalisation, déimperméabilisation des sols, micro-places plantées, canopée urbaine avec espèces adaptées au réchauffement, ville du quart d'heure où 80% des trajets se font à pied ou à vélo."
+                "Suppression de la tarification saisonnière de l'eau pour protéger le pouvoir d'achat des ménages."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
+              "mesures": [
+                "50 hectares de renaturalisation, désimperméabilisation des sols, micro-places plantées dans les quartiers denses.",
+                "Plans de mobilité de quartier élaborés par les coopératives : délibérations sur les itinéraires, phases de test, horaires et « coupures urbaines » à traiter en priorité."
               ]
             },
             "leonardelli": {
@@ -1151,10 +1507,11 @@
             "moudenc": null,
             "briancon": null,
             "piquemal": {
-              "source": "LVSL, 2026",
-              "sourceUrl": "https://lvsl.fr/francois-piquemal-la-renovation-urbaine-se-fait-sans-les-habitants-des-quartiers-populaires/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Lutte contre la gentrification : les résidents actuels des quartiers populaires sont prioritaires dans les attributions de logements neufs après rénovation urbaine."
+                "Lutte contre la gentrification : les résidents actuels des quartiers populaires doivent bénéficier en premier des améliorations urbaines.",
+                "Réseau de bus prioritairement renforcé dans les quartiers périphériques et populaires."
               ]
             },
             "leonardelli": null,
@@ -1174,8 +1531,21 @@
           "nom": "Aide sociale",
           "propositions": {
             "moudenc": null,
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Tarification solidaire des services municipaux basée sur les revenus des familles."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Carte municipale « famille monoparentale » donnant accès à des tarifs préférentiels sur les services municipaux.",
+                "Mutuelle municipale ouverte aux familles monoparentales à tarifs préférentiels."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -1187,8 +1557,21 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "moudenc": null,
-            "briancon": null,
-            "piquemal": null,
+            "briancon": {
+              "mesures": [
+                "Observatoire anti-discriminations : racisme, antisémitisme, sexisme, LGBTphobies, discriminations d'origine sociale.",
+                "Interventions en milieu scolaire et auprès des agents municipaux pour la prévention des discriminations."
+              ],
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/"
+            },
+            "piquemal": {
+              "mesures": [
+                "Test de parité sociale appliqué à la composition de la liste et aux instances de gouvernance."
+              ],
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/"
+            },
             "leonardelli": null,
             "cottrel": null,
             "adrada": null,
@@ -1200,25 +1583,28 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "moudenc": {
-              "source": "Programme officiel",
+              "source": "Programme officiel 2026 — Jean-Luc Moudenc",
               "sourceUrl": "https://moudenc2026.fr/",
               "mesures": [
-                "Aucune hausse des impôts locaux.",
-                "Jean-Luc Moudenc se positionne comme le candidat du pouvoir d'achat des Toulousains."
+                "Aucune hausse de la taxe foncière jusqu'en 2032.",
+                "Aucune hausse de la CFE (cotisation foncière des entreprises) jusqu'en 2032.",
+                "Assurance logement communale pour réduire les dépenses mensuelles des ménages.",
+                "Achats groupés communaux pour les produits du quotidien (moustiquaires, etc.)."
               ]
             },
             "briancon": {
-              "source": "Le Journal Toulousain, février 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/",
+              "source": "Programme officiel 2026 — François Briançon",
+              "sourceUrl": "https://vivremieuxtoulouse.fr/programme-en-bref/",
               "mesures": [
-                "Suppression de la tarification saisonnière de l'eau pour protéger le pouvoir d'achat."
+                "Suppression de la tarification saisonnière de l'eau pour protéger le pouvoir d'achat des ménages."
               ]
             },
             "piquemal": {
-              "source": "Le Journal Toulousain, 2026",
-              "sourceUrl": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-toulouse-piquemal-360785/",
+              "source": "Programme officiel 2026 — François Piquemal",
+              "sourceUrl": "https://piquemal2026.fr/le-programme/",
               "mesures": [
-                "Encadrement des loyers pour restaurer le pouvoir d'achat des 66% de Toulousains locataires, gel des loyers sociaux et tarification sociale de l'eau."
+                "Encadrement des loyers pour restaurer le pouvoir d'achat des 66 % de Toulousains locataires.",
+                "Tarification sociale de l'eau avec premiers 10 m³ gratuits, économie estimée à 45 euros par an pour une famille de 4 personnes."
               ]
             },
             "leonardelli": {

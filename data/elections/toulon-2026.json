@@ -409,8 +409,7 @@
               "mesures": [
                 "180 logements étudiants à La Rode (ancien bâtiment CAF/Sécurité sociale)",
                 "Maison des Internes à Sainte-Musse pour les étudiants en médecine.",
-                "Rénovation des résidences dégradées (La Grande Plaine Sainte-Musse, La Closerie La Serinette)",
-                "Politique de régénération urbaine avec adaptation climatique et biodiversité."
+                "Rénovation des résidences dégradées (La Grande Plaine Sainte-Musse, La Closerie La Serinette)"
               ]
             },
             "brunel": {
@@ -542,7 +541,13 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "massi": null,
+            "massi": {
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://joseemassi.com/",
+              "mesures": [
+                "Dynamiser l'économie avec la création de nouveaux secteurs économiques, construction d'une résidence étudiante de 180 logements, et verdissement des écoles."
+              ]
+            },
             "lavalette": null,
             "bonnus": {
               "source": "Programme officiel Toulon en Grand",
@@ -651,7 +656,8 @@
               "mesures": [
                 "Connexions électriques à quai obligatoires lors de toutes les escales portuaires.",
                 "Bassin de rétention de 800 m³ au Petit-Bois pour la prévention des inondations.",
-                "Intégration des principes de développement durable dans toutes les politiques municipales."
+                "Intégration des principes de développement durable dans toutes les politiques municipales.",
+                "Politique de régénération urbaine avec adaptation climatique et biodiversité."
               ]
             },
             "brunel": {
@@ -973,7 +979,6 @@
               "source": "Programme officiel 2026",
               "sourceUrl": "https://joseemassi.com/",
               "mesures": [
-                "Dynamiser l'économie avec la création de nouveaux secteurs économiques, construction d'une résidence étudiante de 180 logements, et verdissement des écoles.",
                 "Faire de Toulon une capitale méditerranéenne entreprenante, durable et accueillante."
               ]
             },
@@ -982,7 +987,6 @@
               "source": "Programme officiel Toulon en Grand",
               "sourceUrl": "https://toulonengrand.fr/le-programme/",
               "mesures": [
-                "« Cité des Sciences et de la Mer » à l'Arsenal Mourillon avec musée du sous-marin Casabianca. « Cité de l'Économie de la Mer et de la Défense » au Stade Delaune (Pont-du-Las). « Cité du Cinéma et des Cultures Urbaines » à la Cour de Nice.",
                 "Hôtel Mama Shelter (~100 chambres) à l'Ancien Évêché.",
                 "Hôtel de luxe et thalasso en front de mer (Mayol à Pipady)",
                 "Pôle casino et centre de congrès."
@@ -1021,7 +1025,8 @@
                 "Rénovation complète de l'Opéra de Toulon (réouverture début 2028)",
                 "Rénovation et extension du Muséum Départemental du Var (réouverture fin 2028)",
                 "Réhabilitation de la Maison Verlaque à Sainte-Musse.",
-                "Rénovation de la Cathédrale Notre-Dame de la Seds."
+                "Rénovation de la Cathédrale Notre-Dame de la Seds.",
+                "« Cité des Sciences et de la Mer » à l'Arsenal Mourillon avec musée du sous-marin Casabianca. « Cité de l'Économie de la Mer et de la Défense » au Stade Delaune (Pont-du-Las). « Cité du Cinéma et des Cultures Urbaines » à la Cour de Nice."
               ]
             },
             "brunel": null,
@@ -1237,8 +1242,7 @@
               "source": "Programme officiel Toulon en Grand",
               "sourceUrl": "https://toulonengrand.fr/le-programme/",
               "mesures": [
-                "« Maison des solidarités » : guichet unique d'aide sociale.",
-                "Renforcement de l'accompagnement des personnes âgées isolées."
+                "« Maison des solidarités » : guichet unique d'aide sociale."
               ]
             },
             "brunel": {

@@ -42,7 +42,7 @@
       "liste": "Strasbourg fière et solidaire (LFI)",
       "programmeUrl": "https://www.kobryn2026.eu/",
       "programmeComplet": true,
-      "programmePdfPath": "data/programmes/kobryn-strasbourg-programme.pdf"
+      "programmePdfPath": "kobryn-strasbourg-programme.pdf"
     },
     {
       "id": "jakubowicz",
@@ -228,10 +228,11 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Création d'un centre-ressource de médiation et justice restaurative, avec prise en charge des conflits, harcèlement, violences sexistes et sexuelles, prévention de la récidive et réparation."
+                "Créer un centre-ressource de médiation et justice restaurative pour la prise en charge des conflits, du harcèlement, des violences sexistes et sexuelles, la prévention de la récidive et la réparation.",
+                "Nommer un médiateur municipal indépendant, gratuit et accessible, pour faciliter le dialogue entre habitants et administration."
               ]
             },
             "trautmann": null,
@@ -279,7 +280,13 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "barseghian": null,
+            "barseghian": {
+              "mesures": [
+                "Lancer une campagne municipale gratuite de dépistage de l'endométriose dès 14 ans, en partenariat avec le CMCO, avec test salivaire et orientation rapide vers un suivi médical."
+              ],
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/"
+            },
             "trautmann": null,
             "vetter": null,
             "joron": null,
@@ -320,10 +327,12 @@
           "nom": "Transports en commun",
           "propositions": {
             "barseghian": {
-              "source": "Rue89 Strasbourg, janvier 2026",
-              "sourceUrl": "https://www.rue89strasbourg.com/",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Poursuite de l'extension du tramway vers le nord de Strasbourg et transformation de la gare."
+                "Poursuivre l'extension du tramway vers le nord de Strasbourg (tram Nord vers Schiltigheim et Bischheim).",
+                "Mettre en place un service de bus 24h/24 pour les quartiers mal desservis, avec arrêts à la demande, pour un coût estimé à 1 million d'euros par an.",
+                "Renforcer l'offre de transports en soirée et la nuit pour répondre aux besoins des travailleurs de nuit, étudiants et personnel hospitalier."
               ]
             },
             "trautmann": {
@@ -389,10 +398,12 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et Rue89 Strasbourg, janvier 2026",
-              "sourceUrl": "https://www.rue89strasbourg.com/jeanne-barseghian-premieres-mesures-strasbourg-376685",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Stationnements vélo sécurisés dans tous les quartiers pour lutter contre le vol de vélos."
+                "Installer des stationnements vélo sécurisés dans tous les quartiers, y compris près des gares, parkings-silos et résidences sociales.",
+                "Installer 3 000 places de stationnement vélo sécurisées sous la gare centrale.",
+                "Étendre Vélhop avec retour gratuit des vélos sur tout le territoire."
               ]
             },
             "trautmann": null,
@@ -426,7 +437,16 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "barseghian": null,
+            "barseghian": {
+              "mesures": [
+                "Instaurer progressivement la limitation à 30 km/h dans toute la ville, hors axes structurants majeurs.",
+                "Poursuivre l'objectif Vision Zéro : zéro mort et zéro accident grave, avec tolérance zéro sur les comportements dangereux tous modes confondus.",
+                "Créer une brigade piétonne de la police municipale pour cibler les cyclistes dangereux et protéger les piétons.",
+                "Généraliser les rues scolaires (28 rues scolaires créées, avec réservation aux mobilités actives aux horaires d'entrée et sortie)."
+              ],
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/"
+            },
             "trautmann": null,
             "vetter": null,
             "joron": null,
@@ -462,10 +482,10 @@
           "nom": "Stationnement",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et Rue89 Strasbourg, janvier 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Tarification solidaire et progressive du stationnement résident : de 5€ à 40€ par mois selon les revenus des ménages."
+                "Instaurer une tarification solidaire et progressive du stationnement résident : de 5 € à 40 € par mois selon les revenus des ménages."
               ]
             },
             "trautmann": {
@@ -509,10 +529,10 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Mise en place de bus circulant 24h/24, 7j/7 pour permettre à chacun de travailler, sortir et rentrer à toute heure."
+                "Financer le service de bus de nuit 24h/24, estimé à 1 million d'euros par an, pour garantir l'accès aux transports à toute heure."
               ]
             },
             "trautmann": {
@@ -555,7 +575,14 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "barseghian": null,
+            "barseghian": {
+              "mesures": [
+                "Poursuivre la construction de logements sociaux (6 500 créés lors du premier mandat) pour résorber la liste d'attente de plus de 30 000 demandeurs.",
+                "Développer l'habitat participatif avec le plus grand quartier en habitat participatif de France à l'horizon 2030."
+              ],
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/"
+            },
             "trautmann": null,
             "vetter": null,
             "joron": null,
@@ -652,10 +679,11 @@
           "nom": "Encadrement des loyers",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et France 3 Grand Est, janvier 2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/grand-est/bas-rhin/strasbourg-0/l-encadrement-des-loyers-au-programme-de-la-maire-sortante-de-strasbourg-argument-electoral-ou-mesure-efficace-3278660.html",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Encadrement des loyers pour les logements et les commerces afin de garantir leur accessibilité et préserver la diversité."
+                "Encadrer les loyers commerciaux pour protéger la diversité des commerces de proximité et lutter contre la vacance commerciale.",
+                "Poursuivre l'encadrement des loyers résidentiels pour garantir des logements abordables."
               ]
             },
             "trautmann": null,
@@ -778,10 +806,11 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Poursuite de la rénovation d'une vingtaine d'écoles et construction de 2 nouveaux groupes scolaires, avec végétalisation de toutes les cours d'école."
+                "Poursuivre la végétalisation des cours d'école (70 % végétalisées lors du premier mandat sur 140 établissements).",
+                "Investir 810 millions d'euros sur le mandat pour l'éducation et la rénovation énergétique des bâtiments publics."
               ]
             },
             "trautmann": null,
@@ -821,10 +850,12 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et Rue89 Strasbourg, janvier-février 2026",
-              "sourceUrl": "https://pokaa.fr/2026/02/02/municipales-2026-jeanne-barseghian-veut-une-alimentation-saine-pour-tout-strasbourg/",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Objectif de 75% de bio dans les cantines scolaires (contre 53% actuellement), et développement de cantines de quartier accessibles à tous pour manger bien et pas cher."
+                "Atteindre 75 % de produits bio dans les cantines scolaires (contre 53 % actuellement).",
+                "Réduire les portions de viande dans les cantines en cohérence avec le Traité Plant Based.",
+                "Créer des cuisines municipales centrales pour préparer les repas sur place dans les écoles, crèches et EHPAD."
               ]
             },
             "trautmann": {
@@ -940,10 +971,12 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et Rue89 Strasbourg, janvier 2026",
-              "sourceUrl": "https://www.rue89strasbourg.com/jeanne-barseghian-premieres-mesures-strasbourg-376685",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Accélération de la végétalisation : création de nouveaux parcs et rues plus vertes dans tous les quartiers."
+                "Appliquer la règle 3-30-300 : chaque habitant voit 3 arbres de chez lui, vit dans un quartier à 30 % de canopée, et à moins de 300 m d'un parc.",
+                "Créer de nouveaux parcs à Hautepierre, Plaine Élan (Neuhof), Cronenbourg et sur le site industriel du Schluthfeld.",
+                "Développer des corridors de fraîcheur urbains dans toute la ville."
               ]
             },
             "trautmann": null,
@@ -979,10 +1012,10 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Lutte renforcée contre les dépôts sauvages avec sanctions alourdies (de 135 à 15 000 € d'amende), poursuite de la stratégie Zéro Déchet avec équipement de tous les habitants en bacs de tri."
+                "Renforcer la propreté urbaine et la lutte contre les dépôts sauvages."
               ]
             },
             "trautmann": null,
@@ -1019,10 +1052,11 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Création de corridors de fraîcheur reliant les nouveaux parcs (Hautepierre, Plaine Élan à Neuhof, Cronenbourg) pour garantir des zones ombragées et adapter Strasbourg aux canicules."
+                "Accélérer le verdissement de la ville avec des rues plus vertes et plus fraîches pour adapter Strasbourg au changement climatique.",
+                "Créer une Maison de l'écologie populaire pour former les habitants des quartiers populaires aux enjeux climatiques et réduire les inégalités face aux îlots de chaleur."
               ]
             },
             "trautmann": null,
@@ -1069,10 +1103,11 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Accélération de la rénovation énergétique des logements et bâtiments publics, avec 3 millions d'euros d'économies d'énergie annuelles déjà réalisées sur le patrimoine municipal."
+                "Renforcer la souveraineté énergétique en étendant et densifiant les réseaux de chaleur urbains (40 000 logements raccordés, 12 000 de plus qu'en 2020).",
+                "Garantir des prix stables de l'énergie grâce au développement des énergies locales."
               ]
             },
             "trautmann": null,
@@ -1115,10 +1150,14 @@
           "nom": "Alimentation durable",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa, février 2026",
-              "sourceUrl": "https://pokaa.fr/2026/02/02/municipales-2026-jeanne-barseghian-veut-une-alimentation-saine-pour-tout-strasbourg/",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Développement de l'alimentation saine et locale pour tous les Strasbourgeois via des cantines de quartier et soutien renforcé aux épiceries solidaires."
+                "Ouvrir des cantines de quartier proposant des repas abordables et de qualité pour renforcer le lien social et lutter contre l'isolement.",
+                "Soutenir les supermarchés coopératifs et les coopératives alimentaires offrant des produits de qualité à prix maîtrisés.",
+                "Renforcer le soutien aux épiceries solidaires et aux associations facilitant l'accès à une alimentation saine pour les populations vulnérables.",
+                "Poursuivre l'expérimentation de la sécurité alimentaire pour tous.",
+                "Développer l'agriculture urbaine sur le territoire strasbourgeois."
               ]
             },
             "trautmann": null,
@@ -1192,10 +1231,11 @@
           "nom": "Prévention santé",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et Rue89 Strasbourg, janvier 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Campagne municipale gratuite de dépistage de l'endométriose pour les personnes de 14 ans et plus, en partenariat avec le CMCO (tests salivaires pour orientation rapide vers les soins)"
+                "Lancer une campagne municipale de dépistage gratuit de l'endométriose dès 14 ans.",
+                "Proposer des cours de sport gratuits et encadrés en plein air, avec accent sur le sport féminin et le sport adapté."
               ]
             },
             "trautmann": null,
@@ -1230,10 +1270,10 @@
           "nom": "Seniors",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et Rue89 Strasbourg, janvier 2026",
-              "sourceUrl": "https://www.rue89strasbourg.com/jeanne-barseghian-premieres-mesures-strasbourg-376685",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Création d'un conseil des seniors sur le modèle du conseil des jeunes, pour impliquer les seniors dans les décisions qui les concernent."
+                "Créer un Conseil des seniors, sur le modèle du Conseil des jeunes, pour associer les aînés aux décisions municipales les concernant."
               ]
             },
             "trautmann": null,
@@ -1270,10 +1310,10 @@
           "nom": "Animaux de compagnie",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et Rue89 Strasbourg, janvier 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Dispensaire municipal pour animaux avec soins vétérinaires accessibles à tous les Strasbourgeois quel que soit leur revenu, pour lutter contre l'abandon et la maltraitance."
+                "Ouvrir un dispensaire vétérinaire municipal offrant des soins à tarif accessible quel que soit le revenu, pour lutter contre l'abandon des animaux."
               ]
             },
             "trautmann": null,
@@ -1315,10 +1355,12 @@
           "nom": "Budget participatif",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa, janvier-février 2026",
-              "sourceUrl": "https://pokaa.fr/2026/02/16/municipales-2026-jeanne-barseghian-veut-accelerer-la-democratie-locale-a-strasbourg/",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Nouvelles assemblées de quartier avec davantage de moyens pour les élu(e)s de quartier, droit d'interpellation citoyen, et tirage au sort pour diversifier la participation."
+                "Renforcer les budgets et pouvoirs des élus de quartier avec des permanences régulières et des Stammtisch mensuels.",
+                "Créer des assemblées de quartier réformées avec tirage au sort de résidents pour assurer la diversité de la participation.",
+                "Organiser des ateliers de conception urbaine pour les grands projets (Place de l'Homme de Fer, Parc de Haguenau, Place de Bordeaux)."
               ]
             },
             "trautmann": null,
@@ -1355,7 +1397,10 @@
               "source": "Pokaa, novembre 2025",
               "sourceUrl": "https://pokaa.fr/2025/11/13/municipales-2026-fahad-raja-muhammad-est-candidat-pour-reconstruire-strasbourg/",
               "mesures": [
-                "Droit populaire d'interpellation: à 100 signatures petition citoyenne = réunion publique obligatoire; à 1500 = inscription au conseil municipal; à 9000 = vote citoyen; à 30000 = référendum contraignant."
+                "Droit populaire d'interpellation: à 100 signatures petition citoyenne = réunion publique obligatoire.",
+                "À 1500 = inscription au conseil municipal.",
+                "À 9000 = vote citoyen.",
+                "À 30000 = référendum contraignant."
               ]
             },
             "feve": null,
@@ -1368,11 +1413,12 @@
           "nom": "Transparence",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Droit d'interpellation citoyen : à 5% du corps électoral mobilisé par pétition, convention citoyenne ; à 10%, vote local.",
-                "Élargissement du droit de vote aux jeunes de 16 ans et résidents étrangers pour les scrutins locaux."
+                "Instaurer un droit de pétition citoyenne : 5 % des inscrits (environ 7 400 signatures) déclenche une convention citoyenne, 10 % déclenche un vote citoyen local.",
+                "Élargir le droit de vote aux résidents dès 16 ans et aux résidents étrangers pour les consultations locales.",
+                "Organiser des conventions citoyennes sur les enjeux majeurs, dont l'incinérateur Sénerval."
               ]
             },
             "trautmann": null,
@@ -1539,7 +1585,14 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "barseghian": null,
+            "barseghian": {
+              "mesures": [
+                "Réduire la vacance commerciale (passée de 6,5 % à 5,3 %) en régulant les loyers commerciaux pour préserver la diversité des boutiques.",
+                "Créer des espaces dédiés aux artisans avec des ateliers adaptés dans différents quartiers."
+              ],
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/"
+            },
             "trautmann": null,
             "vetter": null,
             "joron": null,
@@ -1574,7 +1627,15 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "barseghian": null,
+            "barseghian": {
+              "mesures": [
+                "Accélérer le développement de l'économie sociale et solidaire en renforçant le soutien municipal aux entreprises qui réinvestissent localement.",
+                "Cibler l'accompagnement vers l'emploi des jeunes, des femmes et des migrants.",
+                "Sanctuariser les zones d'activité économique stratégiques pour empêcher la spéculation foncière et maintenir la capacité productive."
+              ],
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/"
+            },
             "trautmann": null,
             "vetter": null,
             "joron": null,
@@ -1632,7 +1693,13 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "barseghian": null,
+            "barseghian": {
+              "mesures": [
+                "Créer des aires de repos pour les livreurs et soutenir le développement d'applications de livraison locales."
+              ],
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/"
+            },
             "trautmann": null,
             "vetter": null,
             "joron": null,
@@ -1653,8 +1720,6 @@
                 "Définir des quotas de meublés de tourisme dans le PLU.",
                 "Limiter la location touristique à 90 jours par an.",
                 "Renforcer les contrôles avec amendes de 10 000 à 20 000 euros.",
-                "Informer les copropriétés de leur droit d'interdire les meublés touristiques.",
-                "Instaurer un péage pour les autocars de tourisme avec obligation de réservation.",
                 "Limiter les escales de bateaux de croisière.",
                 "Travailler avec les agences de voyage pour désengorger l'hypercentre.",
                 "Freiner les Free Tours au profit des guides-conférenciers diplômés."
@@ -1681,7 +1746,13 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "barseghian": null,
+            "barseghian": {
+              "mesures": [
+                "Construire la médiathèque du Rhin au port, dans l'ancienne Cour des Douanes : équipement culturel franco-allemand de 20 000 m² pour un investissement de 15 millions d'euros."
+              ],
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/"
+            },
             "trautmann": null,
             "vetter": null,
             "joron": null,
@@ -1733,10 +1804,10 @@
           "nom": "Événements & Création",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Création d'une esplanade festive de 40 000 m² à la Plaine des Bouchers pour accueillir la Foire Saint-Jean, festivals, spectacles, fan-zones et cirques (ouverture 2027)"
+                "Aménager un site permanent de 40 000 m² pour la Foire Saint-Jean à la Plaine des Bouchers (approbation début 2026, livraison visée 2027)."
               ]
             },
             "trautmann": null,
@@ -1827,10 +1898,12 @@
           "nom": "Sport pour tous",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et Rue89 Strasbourg, janvier 2026",
-              "sourceUrl": "https://www.rue89strasbourg.com/jeanne-barseghian-premieres-mesures-strasbourg-376685",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Sport encadré en accès libre dans les parcs avec des coachs sportifs municipaux."
+                "Proposer des cours de sport gratuits et encadrés en plein air dans les parcs, avec accent sur le sport féminin et le sport adapté.",
+                "Instaurer des créneaux spécifiques dans les équipements sportifs pour les personnes en situation de handicap.",
+                "Renforcer le soutien financier aux associations spécialisées et former des éducateurs au para-sport."
               ]
             },
             "trautmann": null,
@@ -1878,10 +1951,11 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Conseils d'urbanisme pour associer les Strasbourgeois dès la conception des grands projets d'aménagement, avec simplification du jargon administratif."
+                "Repenser l'espace public en donnant la priorité aux piétons dans la conception urbaine.",
+                "Poursuivre la transformation de la gare de Strasbourg (projet Gare à 360 degrés)."
               ]
             },
             "trautmann": null,
@@ -1936,10 +2010,10 @@
           "nom": "Accessibilité",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Création d'un Conseil de l'accessibilité réunissant personnes handicapées, seniors, parents et aidants, intégré à tous les projets d'urbanisme."
+                "Créer un Conseil de l'accessibilité pour intégrer la question du handicap dans tous les projets municipaux futurs, avec visites de chantiers pour les personnes concernées."
               ]
             },
             "trautmann": null,
@@ -1956,7 +2030,6 @@
                 "Favoriser les bourses à matériel médical et ateliers de réparation.",
                 "Respecter les obligations d'emploi de personnes handicapées à tous niveaux de responsabilité.",
                 "Garantir le choix entre démarche physique ou dématérialisée pour chaque service public.",
-                "Garantir le choix entre démarche physique ou dématérialisée pour tout service public.",
                 "Faciliter l'accès à des écrivains publics dans les lieux gérés par la ville.",
                 "Développer des espaces d'accès à Internet confidentiels et gratuits respectant la neutralité du net.",
                 "Développer le réseau de médiateurs numériques.",
@@ -1984,7 +2057,13 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "barseghian": null,
+            "barseghian": {
+              "mesures": [
+                "Créer une Maison de l'écologie populaire dans les quartiers prioritaires pour former les habitants et réduire les inégalités climatiques."
+              ],
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/"
+            },
             "trautmann": null,
             "vetter": null,
             "joron": null,
@@ -2028,10 +2107,11 @@
           "nom": "Aide sociale",
           "propositions": {
             "barseghian": {
-              "source": "Pokaa et Rue89 Strasbourg, janvier 2026",
-              "sourceUrl": "https://www.rue89strasbourg.com/jeanne-barseghian-premieres-mesures-strasbourg-376685",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Garantir le droit aux vacances pour toutes et tous avec des séjours accessibles pour les familles modestes."
+                "Garantir à chacun l'accès effectif à une alimentation saine, durable et abordable tout en soutenant l'agriculture locale créatrice d'emplois.",
+                "Développer un programme de vacances accessibles pour tous les enfants via les centres socioculturels."
               ]
             },
             "trautmann": null,
@@ -2049,7 +2129,6 @@
                 "Garantir la domiciliation des personnes sans abri et développer le service de bagagerie.",
                 "Mener une campagne annuelle sur l'accès aux droits et aides sociales.",
                 "Proposer une simulation mesaides.gouv à tout nouvel arrivant.",
-                "Mettre en place un coffre-fort numérique pour les pièces administratives des plus démunis.",
                 "Rendre les services sociaux municipaux plus accessibles (horaires, effectifs) et mettre en place des écrivains publics et des interprètes.",
                 "Soutenir les associations de prévention spécialisée : pérenniser le schéma eurométropolitain, permettre les recrutements, renforcer les moyens, étendre aux territoires non couverts.",
                 "Organiser une permanence pour l'accès aux droits des personnes privées d'emploi et précarisées.",
@@ -2090,10 +2169,11 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "barseghian": {
-              "source": "Programme Barseghian 2026",
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
               "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/",
               "mesures": [
-                "Plan global 'zéro discrimination' transversal, renforcement de l'observatoire des discriminations avec baromètre local annuel et mobilisation des acteurs associatifs et éducatifs."
+                "Mettre en place un plan zéro discrimination avec un Observatoire local des discriminations, un baromètre annuel et des recommandations pour améliorer la lutte contre le sexisme, le racisme, l'antisémitisme et les LGBTIphobies.",
+                "Renforcer les mesures anti-discrimination dans les recrutements municipaux."
               ]
             },
             "trautmann": null,
@@ -2145,7 +2225,13 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "barseghian": null,
+            "barseghian": {
+              "mesures": [
+                "Instaurer une tarification solidaire et progressive du stationnement résident de 5 € à 40 € par mois selon les revenus."
+              ],
+              "source": "Programme officiel 2026 — Jeanne Barseghian",
+              "sourceUrl": "https://pokaa.fr/2026/01/07/municipales-2026-jeanne-barseghian-devoile-12-mesures-pour-etre-reelue-maire/"
+            },
             "trautmann": {
               "source": "Pokaa et Rue89 Strasbourg, janvier 2026",
               "sourceUrl": "https://www.rue89strasbourg.com/catherine-trautmann-droits-essentiels-municipales-strasbourg-377114",
@@ -2161,12 +2247,9 @@
               "mesures": [
                 "Gratuité des 30 premiers m3 d'eau par foyer.",
                 "Adopter un plan de développement des énergies renouvelables avec tarif social et progressif de l'énergie via les coopératives citoyennes.",
-                "Mettre le premier échelon de la tarification sociale à 0 euro pour tous les services publics municipaux (parking, transport, cantine)",
-                "Intégrer une tarification étudiante au Quotient familial unique.",
                 "Etablir un plan de lutte contre la précarité étudiante (encadrement des loyers, tarification sociale, gratuité des transports)",
                 "S'opposer à la hausse des loyers des résidences universitaires et défendre le retour du repas à 1 euro au CROUS.",
-                "Doubler le nombre de logements CROUS pour atteindre 10 000 places.",
-                "Arrêtés municipaux d'interdiction des coupures d'eau et d'énergie."
+                "Doubler le nombre de logements CROUS pour atteindre 10 000 places."
               ]
             },
             "jakubowicz": null,

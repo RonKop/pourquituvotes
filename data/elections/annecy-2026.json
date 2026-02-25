@@ -692,13 +692,6 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "armand": {
-              "source": "acteursannecy.fr",
-              "sourceUrl": "https://acteursannecy.fr/programme",
-              "mesures": [
-                "Attractivité économique, soutien aux entreprises innovantes, stratégie 'Territoire intelligent' et soutien aux startups."
-              ]
-            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": null,
@@ -710,7 +703,13 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "armand": null,
+            "armand": {
+              "source": "acteursannecy.fr",
+              "sourceUrl": "https://acteursannecy.fr/programme",
+              "mesures": [
+                "Attractivité économique, soutien aux entreprises innovantes, stratégie 'Territoire intelligent' et soutien aux startups."
+              ]
+            },
             "mulatier-gachet": null,
             "rigaut": null,
             "roit-leveque": {

@@ -66,8 +66,11 @@ Donnees completes d'une election, chargees a la demande quand l'utilisateur sele
           "nom": "Police municipale",
           "propositions": {
             "gregoire": {
-              "texte": "...",
-              "source": "...",
+              "mesures": [
+                "Mesure concrete 1.",
+                "Mesure concrete 2."
+              ],
+              "source": "Programme officiel 2026",
               "sourceUrl": "https://..."
             },
             "dati": null
@@ -96,6 +99,24 @@ Le `generateur_commun.py` :
 
 Modifier le script generateur de la ville, puis le re-executer. Le fichier JSON sera ecrase avec les nouvelles donnees.
 
+## Format des propositions (mesures[])
+
+Chaque proposition d'un candidat pour un sous-theme utilise le format `mesures[]` :
+
+```json
+{
+  "mesures": ["Mesure 1.", "Mesure 2."],
+  "source": "Programme officiel 2026",
+  "sourceUrl": "https://..."
+}
+```
+
+- **mesures** : tableau de strings, chaque string = une mesure concrete et distincte
+- **source** : nom du document source (PDF, site officiel)
+- **sourceUrl** : URL de la source
+- Une mesure = une phrase/action (pas de blocs monolithiques > 200 chars)
+- Ancien format `texte` (string unique) encore present sur certains candidats non-complets
+
 ## Validation
 
 ```bash
@@ -109,6 +130,34 @@ Verifie :
 - Grille universelle (12 categories, meme ordre)
 - Sous-themes communs presents
 - Comptage des propositions par candidat
+
+## Audit de completude
+
+```bash
+python scripts/auditer_completude.py                     # Tous les complets
+python scripts/auditer_completude.py --ville paris       # Par ville
+python scripts/auditer_completude.py --candidat gregoire # Par candidat
+python scripts/auditer_completude.py --csv rapport.csv   # Export CSV
+```
+
+Detecte sur les candidats `programmeComplet: true` :
+- Candidats avec < 20 mesures (extraction partielle ?)
+- Marqueurs de bilan (track record melange aux propositions)
+- Blocs monolithiques (mesures > 200 chars)
+- Doublons intra-candidat (similarite > 85%)
+- Misclassifications (mesure dans le mauvais sous-theme)
+- Sources manquantes (source/sourceUrl vides)
+
+## Autres outils
+
+| Script | Usage |
+|--------|-------|
+| `detecter_doublons.py` | Detection doublons inter/intra candidats |
+| `resplit_blocs.py` | Re-decoupe blocs monolithiques automatiquement |
+| `nettoyer_bilan.py` | Suppression bilan et corrections manuelles |
+| `template_reextraire.py` | Template pour script de re-extraction |
+
+Voir `METHODOLOGIE_EXTRACTION.md` pour le guide complet d'extraction.
 
 ## Dev local
 

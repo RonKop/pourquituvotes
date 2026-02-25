@@ -63,18 +63,22 @@
           "nom": "Police municipale",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "Renforcement de la police municipale avec objectif de 400 agents d’ici 2032 et déploiement de postes de police mobiles pour des permanences dans l’espace public.",
-                "Création d’une brigade anti-incivilités de 50 agents pour prévenir, signaler et sanctionner."
+                "Augmenter les effectifs de police municipale à 400 policiers, soit +30% par rapport à 2024.",
+                "Créer une deuxième brigade cycliste pour couvrir davantage de secteurs.",
+                "Établir des postes de police municipale mobiles dans l'espace public.",
+                "Former les policiers municipaux aux missions de dialogue et prévention.",
+                "Créer une brigade anti-incivilités de 50 agents dédiés.",
+                "Développer une brigade d'agents de sécurité et médiateurs pour les résidences sociales."
               ]
             },
             "aulas": {
               "source": "Lyon Capitale, février 2026",
               "sourceUrl": "https://www.lyoncapitale.fr/actualite/municipales-2026-a-lyon-jean-michel-aulas-degaine-ses-propositions-de-campagne-sur-la-securite",
               "mesures": [
-                "500 policiers municipaux d'ici 2033 (contre 311 actuellement), création d'unités spécialisées et police municipale des transports dans métros, bus et gares.",
+                "Porter les effectifs de police municipale à 500 agents d'ici 2033.",
                 "Création d'un 'Hôtel de la Police' mutualisant forces nationales et municipales."
               ]
             },
@@ -107,7 +111,14 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Adapter le parc de caméras de vidéosurveillance selon les besoins de chaque quartier.",
+                "Fusionner le centre de gestion de crise et le poste radio de la police municipale."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": {
               "source": "Lyon Capitale, février 2026",
               "sourceUrl": "https://www.lyoncapitale.fr/actualite/municipales-2026-a-lyon-jean-michel-aulas-degaine-ses-propositions-de-campagne-sur-la-securite",
@@ -115,7 +126,13 @@
                 "Doublement du réseau de caméras de surveillance : 1200 caméras déployées."
               ]
             },
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "source": "Tribune de Lyon, février 2026",
+              "sourceUrl": "https://tribunedelyon.fr/politique/municipales-2026-nathalie-perrin-gilbert-lance-sa-campagne-samedi-a-la-guillotiere/",
+              "mesures": [
+                "Vidéosurveillance au cas par cas, refus d'en faire une solution miracle."
+              ]
+            },
             "kepenekian": null,
             "belouassa": null,
             "dupalais": {
@@ -131,12 +148,27 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "doucet": null,
-            "aulas": {
-              "source": "Lyon Capitale, février 2026",
-              "sourceUrl": "https://www.lyoncapitale.fr/actualite/municipales-2026-les-six-propositions-de-jean-michel-aulas-pour-apaiser-la-rue-a-lyon",
+            "doucet": {
               "mesures": [
-                "Charte lyonnaise du respect urbain, diplôme de mobilité pour tous les écoliers lyonnais (citoyenneté dès l'enfance), semaine annuelle des rues apaisées dans tous les arrondissements."
+                "Doubler le nombre de médiateurs sociaux dans toute la ville.",
+                "Améliorer l'éclairage public dans les zones identifiées comme sensibles.",
+                "Généraliser les diagnostics nocturnes pour identifier les zones à améliorer.",
+                "Mettre en place un plan de prévention contre l'entrée des jeunes dans le narcotrafic.",
+                "Créer un dispositif innovant pour repérer, extraire et protéger les jeunes exposés au trafic.",
+                "Orienter systématiquement les usagers interpellés vers l'accompagnement sanitaire et social."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/",
+              "mesures": [
+                "Création d'un centre mobile de médiation de la rue avec médiateurs, agents formés à la désescalade et psychologues urbains.",
+                "Élaboration d'une cartographie des tensions urbaines à partir des signalements réels pour guider l'action de terrain.",
+                "Adoption d'une Charte lyonnaise du respect urbain, simple, visible et partagée.",
+                "Lancement d'une semaine annuelle de la rue apaisée dans tous les arrondissements.",
+                "Institution d'un brevet mobilité pour tous les enfants scolarisés à Lyon pour enseigner le civisme dans l'espace public."
               ]
             },
             "perrin-gilbert": {
@@ -144,7 +176,6 @@
               "sourceUrl": "https://tribunedelyon.fr/politique/municipales-2026-nathalie-perrin-gilbert-lance-sa-campagne-samedi-a-la-guillotiere/",
               "mesures": [
                 "Remise à plat des relations avec la préfecture.",
-                "Vidéosurveillance au cas par cas, refus d'en faire une solution miracle.",
                 "Priorité à la prévention et la médiation."
               ]
             },
@@ -164,10 +195,14 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "Fonds de solidarité pour la mise en sécurité des femmes victimes de violences (changement de serrure, garde d’enfants, frais de téléphonie) et espace égalité à la bibliothèque de la Part-Dieu."
+                "Créer des places d'accueil pour femmes victimes de violences et jeunes LGBTQ+.",
+                "Étendre le dispositif Angela (lieux refuges) dans l'ensemble de la ville.",
+                "Subventionner les initiatives de prévention en milieu festif.",
+                "Créer un fonds municipal pour les victimes de violences conjugales.",
+                "Poursuivre l'arrêt à la demande sur le réseau TCL pour la sécurité nocturne."
               ]
             },
             "aulas": {
@@ -200,37 +235,37 @@
           "nom": "Transports en commun",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "Transports en commun gratuits pour les moins de 18 ans si un parent est abonné (250€ économisés par enfant et par an) et ouverture du métro toute la nuit les week-ends."
+                "Ouvrir le métro 24h/24 les week-ends.",
+                "Créer le tramway ouest lyonnais reliant le plateau du 5e à la Presqu'île d'ici 2032.",
+                "Créer le tramway T9 Charpennes — Vaulx-en-Velin.",
+                "Créer le tramway T10 reliant le 7e arrondissement à Vénissieux et Saint-Fons.",
+                "Augmenter la fréquence du métro C et du tramway T3.",
+                "Doubler les rames des métros B et D pour augmenter la capacité.",
+                "Climatiser les rames de métro et tramway.",
+                "Rénover les ascenseurs et escalators du réseau TCL."
               ]
             },
             "aulas": {
-              "source": "Lyon Capitale, février 2026",
-              "sourceUrl": "https://www.lyoncapitale.fr/actualite/municipales-2026-les-propositions-des-principaux-candidats",
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/",
               "mesures": [
-                "Gratuité des transports en commun pour les Lyonnais gagnant moins de 2 500€ par mois.",
-                "Projet de nouvelle ligne de métro Est-Ouest."
+                "Extension du métro vers l'Est lyonnais : donner à l'Est le métro qu'il mérite.",
+                "Maintien de plans ambitieux d'extension du métro vers l'Est et l'Ouest.",
+                "Développement d'un réseau de transports en commun fiable, accessible et moderne sans endettement excessif.",
+                "Rendre les transports abordables pour les jeunes et les familles."
               ]
             },
             "perrin-gilbert": {
               "source": "Tribune de Lyon, février 2026",
               "sourceUrl": "https://tribunedelyon.fr/",
               "mesures": [
-                "Gratuité des transports en commun pour les seniors de plus de 60 ans.",
                 "Navettes fluviales avec arrêts réguliers (Vaise) et intermodalité renforcée."
               ]
             },
             "kepenekian": null,
-            "belouassa": {
-              "source": "Page LFI 2026",
-              "sourceUrl": "https://lafranceinsoumise.fr/",
-              "mesures": [
-                "Gratuité totale des transports en commun (réseau TCL)",
-                "Dans un premier temps, gratuité pour les moins de 26 ans."
-              ]
-            },
             "dupalais": null
           }
         },
@@ -238,7 +273,14 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Développer les Voies lyonnaises et pistes cyclables sécurisées.",
+                "Créer de nouvelles stations Vélo'v dans les quartiers sous-équipés."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": {
@@ -256,8 +298,23 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "doucet": null,
-            "aulas": null,
+            "doucet": {
+              "mesures": [
+                "Transformer les places de quartier avec végétation, assises et fontaines.",
+                "Créer des itinéraires piétons continus reliant commerces, écoles et services.",
+                "Élargir les trottoirs et installer une signalétique piétonne avec bancs.",
+                "Créer 60 nouvelles rues aux enfants avec piétonisation et végétalisation."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "mesures": [
+                "Construction d'un nouveau tunnel sous Fourvière de 8 km reliant Valvert à Saint-Fons avec sortie Presqu'île près de Perrache."
+              ],
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
             "perrin-gilbert": null,
             "kepenekian": null,
             "belouassa": null,
@@ -269,10 +326,12 @@
           "nom": "Stationnement",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "10 journées de stationnement offertes par an pour toutes les Lyonnaises et Lyonnais."
+                "Créer 1 500 places de parking relais aux entrées de ville.",
+                "Offrir 10 journées de stationnement gratuit par an aux ménages lyonnais.",
+                "Créer un abonnement stationnement pour travailleurs en horaires décalés."
               ]
             },
             "aulas": null,
@@ -286,15 +345,31 @@
           "id": "tarifs-gratuite",
           "nom": "Tarifs & Gratuité",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Étendre la gratuité des transports en commun aux moins de 18 ans.",
+                "Gratuité des fournitures scolaires pour les écoliers du primaire.",
+                "Étendre la gratuité TCL aux moins de 18 ans avec un parent abonné."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
-            "perrin-gilbert": null,
+            "perrin-gilbert": {
+              "source": "Tribune de Lyon, février 2026",
+              "sourceUrl": "https://tribunedelyon.fr/",
+              "mesures": [
+                "Gratuité des transports en commun pour les seniors de plus de 60 ans."
+              ]
+            },
             "kepenekian": null,
             "belouassa": {
               "source": "Programme Lyon Fière et Populaire 2026",
               "sourceUrl": "https://lafranceinsoumise.fr/",
               "mesures": [
-                "Gratuité des transports pour les moins de 26 ans dans un premier temps, puis gratuité totale progressive du réseau TCL."
+                "Gratuité des transports pour les moins de 26 ans dans un premier temps, puis gratuité totale progressive du réseau TCL.",
+                "Dans un premier temps, gratuité pour les moins de 26 ans.",
+                "Gratuité totale des transports en commun (réseau TCL)"
               ]
             },
             "dupalais": null
@@ -329,10 +404,13 @@
           "nom": "Logement social",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "Service public du logement avec garantie municipale (la Ville devient garante des locataires sans garantie), assurance habitation municipale à tarifs accessibles et objectif de 30% de logements sociaux d’ici 2040."
+                "Doubler les investissements pour atteindre 1 500 logements sociaux par an jusqu'en 2040.",
+                "Créer des logements étudiants dans les quartiers proches des universités.",
+                "Produire des logements très sociaux pour les personnes les plus précaires.",
+                "Transformer les bureaux vacants en logements sociaux."
               ]
             },
             "aulas": {
@@ -372,7 +450,14 @@
           "id": "logements-vacants",
           "nom": "Logements vacants",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Remettre les logements vacants sur le marché via un service de gestion locative clé en main.",
+                "Créer une prime petits travaux pour transformer les grandes pièces en chambres étudiantes."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": null,
@@ -384,7 +469,14 @@
           "id": "encadrement-loyers",
           "nom": "Encadrement des loyers",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Encadrer les locations touristiques type Airbnb et renforcer les contrôles.",
+                "Offrir un soutien juridique aux locataires sur l'encadrement des loyers."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": {
               "source": "Lyon Capitale, février 2026",
               "sourceUrl": "https://www.lyoncapitale.fr/elections-2026/ce-que-jean-michel-aulas-propose-et-ce-qu-il-veut-supprimer",
@@ -408,7 +500,17 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Développer le bail réel solidaire pour l'accession abordable à la propriété.",
+                "Mettre en place une garantie municipale des loyers pour sécuriser les propriétaires.",
+                "Créer une assurance habitation municipale à prix réduit.",
+                "Augmenter le budget d'hébergement d'urgence de 40%.",
+                "Créer une délégation dédiée à la lutte contre le sans-abrisme infantile."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": null,
@@ -458,7 +560,6 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "doucet": null,
             "aulas": null,
             "perrin-gilbert": {
               "source": "Programme Lyon en commun 2026",
@@ -475,20 +576,20 @@
                 "Restauration scolaire en régie municipale directe, fin de la délégation au privé."
               ]
             },
-            "dupalais": null
+            "dupalais": null,
+            "doucet": {
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
+              "mesures": [
+                "Sécuriser les abords des écoles, collèges et aires de jeux."
+              ]
+            }
           }
         },
         {
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "doucet": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
-              "mesures": [
-                "Gratuité des fournitures scolaires pour les écoliers du primaire."
-              ]
-            },
             "aulas": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://coeurlyonnais.fr/",
@@ -537,7 +638,14 @@
           "nom": "Jeunesse",
           "propositions": {
             "doucet": null,
-            "aulas": null,
+            "aulas": {
+              "mesures": [
+                "Création d'un pacte de confiance avec la jeunesse lyonnaise avec des opportunités élargies.",
+                "Soutien aux programmes culturels, sportifs et associatifs pour les jeunes."
+              ],
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
             "perrin-gilbert": {
               "source": "Programme Lyon en commun 2026",
               "sourceUrl": "https://tribunedelyon.fr/",
@@ -561,17 +669,23 @@
           "nom": "Espaces verts",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "Création de 6 nouveaux parcs pour rafraîchir et végétaliser les quartiers, poursuite du projet Rive Droite (végétalisation de 3 hectares) et ouverture de 2 baignades naturelles."
+                "Créer 6 nouveaux parcs d'ici 2032 dans les quartiers déficitaires en espaces verts.",
+                "Développer des squares et jardins de proximité dans les secteurs carencés.",
+                "Augmenter la végétalisation des espaces privés avec les bailleurs sociaux et copropriétés.",
+                "Distribuer des arbres aux habitants et accompagner la végétalisation des cours collectives.",
+                "Renforcer les continuités écologiques entre espaces favorables à la biodiversité.",
+                "Installer nichoirs et plantations diversifiées dans les espaces verts.",
+                "Définir une charte des droits du Rhône et de la Saône pour la protection des cours d'eau."
               ]
             },
             "aulas": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
               "sourceUrl": "https://coeurlyonnais.fr/",
               "mesures": [
-                "Végétalisation de la place Bellecour avec 4000 m² d’arbustes et 5500 m² de diversité végétale."
+                "Végétalisation de la place Bellecour."
               ]
             },
             "perrin-gilbert": null,
@@ -609,10 +723,13 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "Plan d’adaptation à la canicule, réserve citoyenne solidaire avec volontaires formés pour alerter et protéger lors de canicules et grands froids."
+                "Créer un fonds municipal d'adaptation des logements à la chaleur.",
+                "Transformer le zoo de la Tête d'Or en centre d'accueil pour animaux en danger.",
+                "Créer des aires d'ébat canines et parcours d'agility.",
+                "Poursuivre les campagnes de stérilisation des chats errants."
               ]
             },
             "aulas": {
@@ -646,8 +763,21 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "doucet": null,
-            "aulas": null,
+            "doucet": {
+              "mesures": [
+                "Poursuivre le programme de rénovation énergétique Eco-rénov.",
+                "Créer une aide financière pour l'adaptation des logements au handicap et à la perte d'autonomie."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "mesures": [
+                "Réduction de la pollution par des techniques innovantes sans contraintes idéologiques."
+              ],
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
             "perrin-gilbert": null,
             "kepenekian": {
               "source": "Lyon Capitale, février 2026",
@@ -665,10 +795,14 @@
           "nom": "Alimentation durable",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "Ouverture de 10 cantines de quartier avec épiceries sociales et solidaires où faire ses courses à prix juste et cuisiner ensemble."
+                "Ouvrir 10 cantines de quartier avec épicerie sociale, cuisine partagée et restauration sociale.",
+                "Poursuivre les expérimentations de sécurité sociale de l'alimentation.",
+                "Créer une ferme municipale à Cibeins pour approvisionner la restauration collective.",
+                "Améliorer la qualité de la restauration collective avec davantage de bio et de local.",
+                "Distribuer des paniers bio gratuits aux femmes enceintes et des réductions AMAP aux jeunes parents."
               ]
             },
             "aulas": null,
@@ -717,10 +851,12 @@
           "nom": "Centres de santé",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "Ouverture de 10 centres de santé en zones carencées et création d’une mutuelle municipale accessible à tous sans critères discriminants."
+                "Ouvrir au moins une maison de santé par arrondissement avec médecins et praticiens sans dépassement d'honoraires.",
+                "Créer une mutuelle de santé municipale accessible à tous à prix réduit.",
+                "Renforcer les liens entre médecine scolaire et médecine de ville."
               ]
             },
             "aulas": null,
@@ -747,7 +883,16 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Développer le sport sur ordonnance via une maison du sport-santé pour les malades chroniques.",
+                "Mettre en œuvre une action contre le moustique tigre : information, prévention et moustiquaires.",
+                "Renforcer la lutte contre les punaises de lit via dépistage et prêt de matériel.",
+                "Développer des accueils de jour et séjours aidant-aidé pour soutenir les aidants."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": {
@@ -765,7 +910,15 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Établir des visites à domicile pour les personnes âgées isolées.",
+                "Organiser des repas partagés le dimanche par quartier pour rompre l'isolement.",
+                "Proposer des formations aux premiers secours en santé mentale."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": {
               "source": "Programme Lyon en commun 2026",
@@ -789,13 +942,20 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Créer un conseil citoyen du Rhône et de la Saône pour gérer les enjeux collectifs des fleuves."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": {
-              "source": "Site officiel Cœur Lyonnais",
-              "sourceUrl": "https://coeurlyonnais.fr/partagez-vos-idees/",
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/",
               "a_verifier": true,
               "mesures": [
-                "Mettre en place davantage de démocratie locale avec des budgets participatifs et des décisions réellement partagées avec les habitants."
+                "Instauration de référendums annuels sur les grands projets municipaux.",
+                "Implication directe des associations et acteurs de terrain dans les décisions."
               ]
             },
             "perrin-gilbert": {
@@ -827,7 +987,6 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "doucet": null,
             "aulas": null,
             "perrin-gilbert": {
               "source": "Programme Lyon en commun 2026",
@@ -851,7 +1010,13 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Renforcer le soutien aux clubs et associations sportives."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": null,
@@ -863,7 +1028,14 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Renforcer les mairies d'arrondissement comme points d'accès aux démarches administratives.",
+                "Proposer des permanences juridiques et sociales régulières dans chaque arrondissement."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": {
@@ -887,14 +1059,20 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Soutenir les commerces de proximité et les unions commerciales dans tous les quartiers."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": {
-              "source": "Site officiel Cœur Lyonnais",
-              "sourceUrl": "https://coeurlyonnais.fr/pacte-lyonnais/",
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/",
               "a_verifier": true,
               "mesures": [
-                "Soutenir les entrepreneurs, les commerces et les industries lyonnaises.",
-                "Les Lyonnais expriment une attente forte d'un soutien renforcé au commerce local et aux artisans."
+                "Rétablissement de conditions favorables pour les commerçants et détaillants.",
+                "Garantie de l'accessibilité du centre-ville pour le bon fonctionnement des commerces."
               ]
             },
             "perrin-gilbert": {
@@ -921,12 +1099,12 @@
           "propositions": {
             "doucet": null,
             "aulas": {
-              "source": "Site officiel Cœur Lyonnais",
-              "sourceUrl": "https://coeurlyonnais.fr/pacte-lyonnais/",
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/",
               "a_verifier": true,
               "mesures": [
-                "Soutenir la jeunesse autour de l'emploi, de la mobilité et de la vie associative.",
-                "L'économie lyonnaise doit rester une force d'innovation et d'emploi attrayante."
+                "Soutien aux entrepreneurs, commerces et industries locales.",
+                "Préparation de l'avenir par l'emploi des jeunes et l'attraction des talents."
               ]
             },
             "perrin-gilbert": null,
@@ -945,8 +1123,21 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "doucet": null,
-            "aulas": null,
+            "doucet": {
+              "mesures": [
+                "Renforcer la participation de Lyon aux réseaux de villes pour le transfert de connaissances sur la transition écologique.",
+                "Développer des jumelages et initiatives de coopération internationale."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
+            "aulas": {
+              "mesures": [
+                "Positionnement de Lyon comme grand pôle économique axé sur l'innovation et la recherche."
+              ],
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
             "perrin-gilbert": {
               "source": "Programme Lyon en commun 2026",
               "sourceUrl": "https://tribunedelyon.fr/",
@@ -970,17 +1161,31 @@
           "nom": "Équipements culturels",
           "propositions": {
             "doucet": {
-              "source": "Programme officiel 2026",
+              "source": "Programme officiel 2026 — Grégory Doucet",
               "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
               "mesures": [
-                "Rénovation et agrandissement de la bibliothèque de la Part-Dieu (140 millions d’euros, 4000 m² supplémentaires minimum)"
+                "Reconstruire la médiathèque Champollion avec 4 000 m² supplémentaires.",
+                "Créer un club gaming et un studio d'enregistrement dans la bibliothèque.",
+                "Créer des salles de répétitions pour les pratiques amateures.",
+                "Mettre en place un parcours d'éducation aux médias et à l'IA pour les primaires.",
+                "Créer l'Atelier Lumière dédié au cinéma et à l'image.",
+                "Ouvrir trois nouvelles bibliothèques : Confluence, Guillotière et Moulin à Vent-Grand Trou.",
+                "Instaurer le prix libre dans les musées municipaux tous les mercredis.",
+                "Rénover le musée Guimet pour en faire un haut lieu culturel.",
+                "Créer un centre d'interprétation du patrimoine UNESCO.",
+                "Réaliser des travaux d'embellissement à la Halle Tony Garnier.",
+                "Permettre ponctuellement la traversée de l'Hôtel de Ville et l'ouverture des salons.",
+                "Accompagner le développement de l'Institut Lumière.",
+                "Créer un bureau d'aide au tournage pour les productions cinématographiques."
               ]
             },
             "aulas": {
-              "source": "Lyon Capitale, février 2026",
-              "sourceUrl": "https://www.lyoncapitale.fr/actualite/municipales-2026-les-propositions-des-principaux-candidats",
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/",
               "mesures": [
-                "Rénovation et agrandissement de la bibliothèque municipale de la Part-Dieu (3e arr.) : 140 millions d'euros investis, au moins 4 000 m² d'espace supplémentaire."
+                "Renforcement de l'identité culturelle lyonnaise : théâtre, opéra, festivals de danse.",
+                "Développement d'un grand pôle cinéma autour du projet Lumière.",
+                "Restauration majeure du patrimoine de Fourvière."
               ]
             },
             "perrin-gilbert": {
@@ -1001,7 +1206,19 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Réinventer la Fête des Lumières en fête populaire, créative et partout dans la ville.",
+                "Renforcer le budget dédié à la Fête des Lumières avec carte blanche à un artiste.",
+                "Multiplier les expositions et spectacles gratuits dans l'espace public.",
+                "Développer des open airs musicaux dans tous les quartiers.",
+                "Mettre à disposition des lieux pour les ateliers d'artistes.",
+                "Renforcer l'hospitalité d'artistes en exil ou menacés.",
+                "Opération « 1 bébé 1 livre » : offrir un livre à tous les petits Lyonnais."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": {
               "source": "Site de campagne 2026",
               "sourceUrl": "https://coeurlyonnais.fr/lyon-de-demain/",
@@ -1014,8 +1231,7 @@
               "sourceUrl": "https://tribunedelyon.fr/",
               "mesures": [
                 "Réouverture du musée Guimet en Exploratorium dédié aux sciences (inspiré San Francisco)",
-                "Festival des Lumières révisé avec festival intérieur à la Halle Tony Garnier.",
-                "Médiathèque à la Guillotière."
+                "Festival des Lumières révisé avec festival intérieur à la Halle Tony Garnier."
               ]
             },
             "kepenekian": {
@@ -1046,7 +1262,17 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Lancer un grand plan baignade avec deux baignades naturelles en Saône et au Rhône.",
+                "Ouvrir la nouvelle piscine Kennedy dans le 8e arrondissement.",
+                "Rénover les piscines CNTB, Charial, Saint-Exupéry et Mermoz.",
+                "Construire de nouveaux équipements sportifs à Confluence, Kennedy, Montchat, Girondins et Mermoz.",
+                "Créer des city stades et skateparks dans les quartiers."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": null,
@@ -1058,7 +1284,18 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Généraliser l'apprentissage de la natation à l'école pour 100% de certification.",
+                "Créer un pass'sport municipal avec réduction immédiate à l'inscription en club.",
+                "Lancer des parcours sport municipaux pour découvrir plusieurs disciplines.",
+                "Soutenir le développement du para-sport avec dotations accrues.",
+                "Organiser les premiers Jeux Lyonnais, grand rendez-vous sportif amateur bisannuel.",
+                "Développer un réseau d'espaces de pratique sportive en plein air inclusifs."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": null,
@@ -1082,7 +1319,15 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Développer des circuits patrimoniaux dans chaque quartier de Lyon.",
+                "Intégrer le patrimoine du XXe siècle dans la valorisation urbaine.",
+                "Installer des panneaux historiques dans l'espace public."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": {
               "source": "Programme Lyon en commun 2026",
@@ -1106,8 +1351,13 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "doucet": null,
-            "aulas": null,
+            "aulas": {
+              "mesures": [
+                "Priorité à l'accessibilité pour les personnes handicapées dans les transports et espaces publics."
+              ],
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/"
+            },
             "perrin-gilbert": {
               "source": "Programme Lyon en commun 2026",
               "sourceUrl": "https://tribunedelyon.fr/",
@@ -1117,7 +1367,14 @@
             },
             "kepenekian": null,
             "belouassa": null,
-            "dupalais": null
+            "dupalais": null,
+            "doucet": {
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
+              "mesures": [
+                "Créer une application collaborative pour l'accessibilité PMR des transports et équipements."
+              ]
+            }
           }
         },
         {
@@ -1142,14 +1399,22 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Ouvrir une deuxième structure municipale de bains-douches avec consigne à bagages.",
+                "Créer un deuxième restaurant social pour les populations vulnérables.",
+                "Former le personnel municipal à l'accueil des migrants et traduire les documents administratifs."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": {
-              "source": "Site officiel Cœur Lyonnais",
-              "sourceUrl": "https://coeurlyonnais.fr/pacte-lyonnais/",
+              "source": "Programme officiel 2026 — Jean-Michel Aulas",
+              "sourceUrl": "https://coeurlyonnais.fr/",
               "a_verifier": true,
               "mesures": [
-                "Assurer l'accès au logement, le soutien aux plus fragiles et l'accompagnement des jeunes.",
-                "La solidarité doit se traduire dans des actes concrets pour que personne ne soit laissé de côté."
+                "Soutien aux familles monoparentales en difficulté pour concilier travail et garde d'enfants.",
+                "Accompagnement des personnes isolées et des jeunes en doute sur leur avenir."
               ]
             },
             "perrin-gilbert": {
@@ -1175,7 +1440,17 @@
           "id": "egalite-discriminations",
           "nom": "Égalité & Discriminations",
           "propositions": {
-            "doucet": null,
+            "doucet": {
+              "mesures": [
+                "Mettre en place un plan municipal de lutte contre le racisme, l'antisémitisme et l'islamophobie.",
+                "Créer l'espace égalité pour éduquer sur les discriminations et accompagner les victimes.",
+                "Établir des Spot'Égalité offrant consultations juridiques gratuites dans chaque arrondissement.",
+                "Ajouter du personnel spécialisé dans les commissariats pour les victimes de discriminations.",
+                "Poursuivre le renforcement de la budgétisation sensible au genre."
+              ],
+              "source": "Programme officiel 2026 — Grégory Doucet",
+              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/"
+            },
             "aulas": null,
             "perrin-gilbert": null,
             "kepenekian": null,
@@ -1187,13 +1462,6 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d’achat",
           "propositions": {
-            "doucet": {
-              "source": "Programme officiel 2026",
-              "sourceUrl": "https://www.pourvivrelyonmunicipales2026.fr/",
-              "mesures": [
-                "Achats groupés via la centrale métropolitaine du pouvoir d’achat, pass’sport municipal et fonds pour petits travaux d’économie d’énergie (jusqu’à 500€ d’économies par an par foyer)"
-              ]
-            },
             "aulas": null,
             "perrin-gilbert": {
               "source": "Programme Lyon en commun 2026",

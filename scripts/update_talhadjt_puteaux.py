@@ -1,0 +1,418 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Met à jour les propositions d'Abdel-Rahman Talhadjt (Puteaux) depuis le programme
+reçu par e-mail (PDF OCR). Programme complet de 260+ mesures.
+Liste : Puteaux à Gauche (La France Insoumise)
+"""
+
+import json
+import os
+import sys
+
+if sys.stdout.encoding != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+JSON_PATH = os.path.join(ROOT, "data", "elections", "puteaux-2026.json")
+CANDIDAT_ID = "talhadjt"
+
+# Mapping : sous-thème -> liste de mesures (texte nettoyé du programme OCR)
+PROPOSITIONS = {
+    # ── SÉCURITÉ ──
+    "police-municipale": [
+        "Maintenir les effectifs de la police municipale de proximité oeuvrant à la sécurité, la prévention et à la tranquillité publique.",
+        "Refuser l'armement létal des policiers municipaux.",
+        "Demander l'expérimentation par la police nationale du récépissé de contrôle d'identité sur le territoire communal pour lutter contre le contrôle au faciès.",
+        "Former les personnels de la police municipale sur les problématiques et l'accueil des personnes LGBTI et sur les critères de discrimination.",
+        "Travailler étroitement avec la police nationale judiciaire et la gendarmerie pour démanteler les trafics de drogue.",
+    ],
+    "videoprotection": [
+        "Privilégier la présence humaine plutôt que la vidéosurveillance, coûteuse, liberticide et démagogique.",
+        "Réaliser un audit financier et des études indépendantes pour évaluer l'efficacité réelle de la vidéosurveillance, y compris algorithmique.",
+    ],
+    "prevention-mediation": [
+        "Développer l'emploi de médiateurs et médiatrices scolaires et de rue, de jour et de nuit, ainsi que d'éducateurs et éducatrices de rue.",
+        "Soutenir les clubs de prévention.",
+        "Lutter contre les rodéos urbains en déployant des moyens de médiation et de contrôle des infractions.",
+        "Proposer un plan de prévention des conduites addictives, de réduction des risques et de soin aux personnes dépendantes.",
+        "Mettre en place un numéro municipal d'écoute et de dialogue sur la drogue pour orienter et accompagner les personnes consommatrices vers une sortie de consommation.",
+        "Proposer des formations au collège et au lycée pour alerter sur les risques des stupéfiants et les techniques de recrutement des trafiquants.",
+    ],
+    "violences-femmes": [
+        "Créer un lieu d'accueil d'urgence pour femmes victimes de violence avec ou sans enfant.",
+        "Développer en lien avec l'État et la justice des mesures d'éloignement des conjoints violents et d'accompagnement des auteurs de violence.",
+        "Mettre en place un protocole d'accueil des plaintes de violences sexistes et sexuelles pour la police, basé sur le modèle espagnol.",
+        "Engager un plan de lutte contre le harcèlement sexuel au travail en lien avec les organisations syndicales de la collectivité.",
+        "Initier des comités de défense des victimes de violences sexistes et sexuelles pour militer auprès des pouvoirs publics pour un réexamen des plaintes classées sans suite.",
+    ],
+
+    # ── TRANSPORTS ──
+    "transports-en-commun": [
+        "Augmenter le nombre de Buséoliens et revoir leur fréquence ainsi que leur parcours.",
+        "Développer les plateformes multimodales à proximité des gares pour réduire le trafic et la pollution de l'air.",
+        "Développer un système de vélos-taxis permettant aux personnes excentrées de se déplacer facilement partout en ville.",
+    ],
+    "velo-mobilites-douces": [
+        "Développer les pistes cyclables en prenant conseil auprès de communes pionnières et des associations vélo de Puteaux.",
+        "Analyser les routes les plus accidentogènes et les sécuriser.",
+        "Proposer à chaque collégien et lycéen la mise à disposition d'un vélo sous condition d'avoir suivi une formation sur la circulation en milieu urbain.",
+        "Favoriser les bourses à vélos et ateliers de réparation en travaillant avec les acteurs de l'économie sociale et solidaire.",
+        "Développer les stations Vélib' dans Puteaux.",
+        "Inclure des parkings vélos et deux-roues dans les rénovations des résidences HLM.",
+    ],
+    "pietons-circulation": [
+        "Organiser les schémas de circulation en faisant la part belle aux rues piétonnes, aux rues avec écoles et à la piétonnisation en coeur d'îlot, avec avis des conseils citoyens de quartiers.",
+    ],
+    "stationnement": [
+        "Développer les aires et places de stationnement pour le covoiturage.",
+    ],
+    "tarifs-gratuite": None,
+
+    # ── LOGEMENT ──
+    "logement-social": [
+        "Attribuer les logements sociaux de manière transparente en transformant le quota du maire en quota du conseil municipal avec une grille claire de critères.",
+        "Systématiser l'anonymisation des dossiers passant en commissions d'attribution de logements.",
+        "Empêcher la privatisation du logement social prévue par la loi ELAN : refuser l'avis conforme pour la vente de logements sociaux et négocier des engagements zéro vente sur le territoire municipal.",
+        "Transformer les immeubles dégradés et vacants en immeubles de logements publics diversifiés avec l'appui des établissements publics fonciers.",
+        "Répartir l'implantation des logements les plus sociaux dans les quartiers les plus aisés pour favoriser la mixité sociale.",
+    ],
+    "logements-vacants": [
+        "Garder la taxe pour les propriétaires de logements vacants hors justification valable.",
+        "Accélérer la réhabilitation des bâtiments insalubres en proposant leur acquisition à l'amiable pour les convertir en lieux de vie dynamisant le tissu urbain.",
+    ],
+    "encadrement-loyers": [
+        "Demander au préfet la mise en place de l'encadrement des loyers.",
+        "Définir une charte promoteur indiquant le prix de vente moyen maximum, imposant des normes écologiques et d'inclusion, avec des clauses anti-spéculatives.",
+        "Utiliser tous les outils pour lutter contre les abus d'Airbnb : abaisser la limite de mise en location touristique à 90 jours et fixer des quotas maximum.",
+        "Systématiser les contrôles des loueurs de meublés touristiques et des plateformes numériques.",
+    ],
+    "acces-logement": [
+        "Créer un organisme de foncier solidaire pour faciliter l'accès à la propriété des ménages modestes en dissociant la propriété du bâti de celle du foncier.",
+        "Lutter contre les marchands de sommeil en mettant en oeuvre le permis de louer et en développant les contrôles d'hygiène et de salubrité.",
+        "Prendre des arrêtés anti-expulsion locative sans solution de relogement pérenne.",
+        "Créer des cellules de défense des locataires, incluant les logements étudiants et foyers de jeunes travailleurs.",
+        "Mettre à disposition et favoriser la construction de structures d'insertion pérennes dans une logique de logement d'abord.",
+        "Accompagner les projets d'habitat coopératif et participatif.",
+        "Réserver du foncier au logement étudiant et à destination des jeunes actifs.",
+    ],
+
+    # ── ÉDUCATION ──
+    "petite-enfance": [
+        "Développer le service public local de la petite enfance en proposant des modes d'accueil diversifiés à taille humaine afin de permettre à 100 % des parents d'obtenir une place.",
+        "Rendre la procédure d'attribution des places en crèches transparente et plus rapide.",
+        "Revaloriser les salaires des agents exerçant dans le secteur de la petite enfance et de l'enfance.",
+        "Former les professionnels de la petite enfance à la déconstruction des stéréotypes sexistes.",
+        "Développer l'accompagnement à la parentalité dans les équipements municipaux : temps d'échanges, accueils jeux, ateliers, rendez-vous individuels.",
+        "Favoriser l'accueil des enfants handicapés dans les crèches publiques.",
+    ],
+    "ecoles-renovation": [
+        "Rénover les écoles publiques pour garantir de bonnes conditions d'étude : isolation thermique et phonique, accessibilité, désamiantage.",
+        "Se mobiliser contre les fermetures d'écoles et de classes.",
+        "Construire une sectorisation mettant fin à la ségrégation et permettant l'accès de tous les enfants à une école publique de proximité.",
+        "Débétonner et végétaliser toutes les cours d'école pour les transformer en cours Oasis.",
+        "Réorganiser les cours d'écoles pour mettre un terme à l'occupation inégale entre les genres.",
+    ],
+    "cantines-fournitures": [
+        "Instaurer la gratuité de la cantine en renforçant la progressivité des tarifs pour les petits revenus et la gratuité immédiate pour les familles sous le seuil de pauvreté.",
+        "Maximiser la part de produits de saison et locaux dans la restauration collective pour atteindre 100 % de produits bio.",
+        "Intégrer une option végétarienne pour chaque repas dans la restauration scolaire et les événements municipaux.",
+        "Faire du repas à la cantine un moment d'éducation à l'alimentation, à la saisonnalité et de lutte contre le gaspillage alimentaire.",
+        "Continuer à allouer à tous les élèves une dotation de fournitures scolaires gratuites, non genrée et réévaluée selon les âges.",
+        "Bannir les produits industriels ultra-transformés de la restauration collective.",
+        "Créer des légumeries municipales pour la restauration collective.",
+    ],
+    "periscolaire-loisirs": [
+        "Garantir un nombre suffisant d'animateurs périscolaires formés, en emploi non précaire en visant le temps plein.",
+        "Développer les classes transplantées (classes de neige, de mer) et les correspondances internationales.",
+        "Effectuer des conseils enseignants-mairies-parents pour entendre les améliorations possibles dans tous les établissements.",
+        "Développer des lieux couverts pour permettre aux enfants de jouer librement l'hiver.",
+    ],
+    "jeunesse": [
+        "Utiliser des lieux vacants pour établir des Maisons de Jeunesse et de la Culture, lieux de mixité culturelle et d'éducation populaire.",
+        "Créer des lieux de citoyenneté, de débat et d'éducation à l'esprit critique pour les jeunes.",
+        "Soutenir les projets citoyens, humanitaires et associatifs portés par les jeunes via des bourses et des locaux.",
+        "Mettre en place des espaces santé jeunes proposant des consultations gratuites et anonymes de prévention.",
+        "Expérimenter l'ouverture d'équipements publics en soirée pour les jeunes et les associations.",
+        "Scolariser de façon inconditionnelle tous les enfants quel que soit leur statut administratif.",
+        "Développer les logements intergénérationnels entre étudiants et seniors.",
+    ],
+
+    # ── ENVIRONNEMENT ──
+    "espaces-verts": [
+        "Réaliser l'atlas de la biodiversité communale.",
+        "Adopter un plan pluriannuel de désimperméabilisation et renaturation de l'espace public.",
+        "Développer les jardins partagés, ouverts et conviviaux, pour recréer du lien social.",
+        "Enlever les barrières entravant l'accès aux espaces de verdure.",
+        "Ouvrir un débat public pour atteindre l'objectif de zéro artificialisation nette d'ici 2050.",
+        "Planter des arbres fruitiers en mélangeant les espèces régionales et les espèces adaptées à l'évolution du climat, en libre accès.",
+        "Identifier les îlots de chaleur et les éliminer ; déployer un plan de développement des îlots de fraîcheur végétaux.",
+        "Restaurer la régénération des écosystèmes des berges de la Seine pour limiter l'exposition aux inondations et développer la biodiversité.",
+        "Allonger les horaires d'ouverture des parcs et jardins, surtout l'été et en période de canicule.",
+    ],
+    "proprete-dechets": [
+        "Généraliser la collecte et le compostage des biodéchets en multipliant les composteurs publics d'usage collectif.",
+        "Limiter voire éliminer l'usage de plastique et à usage unique dans les événements municipaux.",
+        "Accompagner les entreprises et les commerçants dans leur transformation zéro déchet.",
+        "Mettre en place un dispositif de consigne pour les bouteilles en verre.",
+        "Mettre en place une ressourcerie municipale permettant la collecte et la vente à bas prix des objets du quotidien et des vêtements.",
+    ],
+    "climat-adaptation": [
+        "Établir avec les habitants un état des lieux des émissions de gaz à effet de serre, des pollutions, de la production de déchets et de l'état de la biodiversité.",
+        "Voter en conseil municipal une trajectoire de réduction des émissions de gaz à effet de serre compatible avec les accords de Paris.",
+        "Adopter une charte de construction durable contraignante pour les travaux de la commune.",
+        "Adopter un plan canicule recensant et prévoyant des lieux d'accueil adaptés pour les personnes vulnérables.",
+        "Actualiser le plan de prévention des risques en prenant en compte les effets attendus du réchauffement climatique.",
+        "Constituer des réserves stratégiques de biens essentiels (médicaments, denrées non périssables).",
+        "Lutter contre la pollution lumineuse : extinction hors temps d'activité des éclairages des boutiques, magasins et bureaux.",
+        "Systématiser les éclairages publics en LED et appliquer scrupuleusement l'extinction nocturne des bâtiments municipaux.",
+        "Bannir la publicité non locale et les écrans publicitaires de l'espace public.",
+    ],
+    "renovation-energetique": [
+        "Adopter un plan énergétique des bâtiments publics et des logements sociaux pour planifier la sobriété des usages et la rénovation thermique en privilégiant les énergies renouvelables.",
+        "Développer les réseaux de chaleur et de froid urbains produits grâce aux énergies renouvelables.",
+        "Développer un service d'accompagnement des particuliers pour la rénovation thermique de leur logement : montage de dossiers, recherche de subventions et complément financier.",
+        "Auditer le système de chauffage de tous les bâtiments publics et supprimer le chauffage au fioul et au gaz.",
+    ],
+    "alimentation-durable": [
+        "Soutenir l'agriculture biologique et régionale en développant l'AMAP avec un système de prix solidaire pour les foyers précaires et la gratuité du panier pour les foyers attendant un enfant.",
+        "Développer les jardins potagers biologiques cultivés par les élèves dans les écoles.",
+        "Mettre en oeuvre un projet alimentaire territorial pour favoriser la production et la consommation de produits locaux et de qualité.",
+        "Soutenir les expérimentations de sécurité sociale de l'alimentation.",
+        "Faire confiance aux équipes de cuisine pour réinvestir leur métier dans une alimentation moins carnée, moins transformée et issue de l'agriculture biologique.",
+    ],
+
+    # ── SANTÉ ──
+    "centres-sante": [
+        "Déployer un bus-santé parcourant Puteaux tout au long de l'année permettant l'accès aux soins à l'ensemble des habitants.",
+        "Créer un centre de planning familial.",
+        "Permettre l'installation de centres gratuits d'information, de dépistage et de diagnostic au sein de structures municipales.",
+        "Assurer la prise en charge dans les centres de santé des problématiques spécifiques aux femmes, notamment l'endométriose.",
+        "Aider financièrement les pharmacies volontaires à l'installation d'un espace de téléconsultation.",
+        "Développer des contrats locaux de santé articulant prévention, santé communautaire, santé mentale et accès aux droits.",
+    ],
+    "prevention-sante": [
+        "Lancer un plan santé mentale avec l'aide de l'ARS et des structures médicales locales ; créer un centre d'appel gratuit pour répondre aux urgences.",
+        "Organiser des campagnes de sensibilisation à la santé mentale dans les écoles, entreprises et lieux publics.",
+        "Construire un tiers-lieu accueillant et inclusif pour les personnes en souffrance psychique, inspiré de la Maison Perchée.",
+        "Proposer des formations et des groupes de soutien pour les proches des personnes souffrant de troubles psychiques.",
+        "Former massivement la population aux premiers secours à tous les âges, de l'école aux EHPAD.",
+        "Développer les lieux et campagnes d'information sur la santé sexuelle et reproductive.",
+        "Créer des bains-douches sécurisés aux horaires étendus pour faciliter l'accès à l'hygiène gratuitement.",
+    ],
+    "seniors": [
+        "Soutenir les services à la personne accessibles et adaptés : maintien à domicile, portage de repas.",
+        "Soutenir les projets de logement partagé adaptés pour les seniors.",
+        "Mettre en place un service d'aide aux aidants : formation, soutien psychologique, solutions de pause par accueil temporaire.",
+        "Développer les structures de co-logement seniors-étudiants.",
+        "Favoriser le lien intergénérationnel en facilitant la mise en relation des personnes âgées avec les associations de soutien scolaire et d'animation.",
+        "Développer des services de transport à la demande ou de covoiturage pour les seniors.",
+        "Organiser régulièrement des ateliers de sensibilisation à la santé et au bien-être pour les seniors.",
+        "Développer les clubs seniors sous forme associative et citoyenne et l'accès aux activités culturelles et sociales.",
+    ],
+
+    # ── DÉMOCRATIE ──
+    "budget-participatif": [
+        "Créer des conseils de quartier citoyens de proximité, composés d'habitants dont une partie tirée au sort, dotés d'un budget participatif.",
+        "Allouer aux budgets participatifs communaux un montant dépassant 10 % du budget d'investissement hors investissements contraints.",
+        "Fixer les règles d'utilisation des budgets participatifs avec les habitants en assurant la transparence tout au long du processus.",
+    ],
+    "transparence": [
+        "Consulter les habitants sur les grands sujets communaux en organisant des votations citoyennes dont le conseil municipal s'engage à respecter le résultat.",
+        "Donner aux citoyens la possibilité d'organiser un référendum d'initiative citoyenne dont le conseil s'engage à respecter le résultat.",
+        "Enregistrer les séances du conseil municipal en vidéo et les mettre en accès libre sur le site internet de la commune.",
+        "Exiger des élus qu'ils publient tous leurs rendez-vous avec les représentants d'intérêts privés ; refuser cadeaux et avantages en nature venant d'entreprises.",
+        "Instaurer un plafond aux indemnités de maire : pas plus de trois fois le salaire de l'agent le moins payé à temps plein.",
+        "Supprimer les jetons de présence des conseils d'administration des satellites et baisser les indemnités liées à leur présidence.",
+        "Signer la Charte Anticor.",
+        "Rendre publique la déclaration de patrimoine du maire.",
+        "Faire signer aux élus une charte d'engagement à respecter une votation sur leur révocation si 10 % du corps électoral le demande.",
+        "Ouvrir toutes les commissions municipales à l'opposition.",
+        "Ouvrir aux habitants un temps de questions lors de chaque conseil municipal.",
+        "Installer un comité citoyen tiré au sort chargé de réaliser un audit de la dette communale et intercommunale.",
+        "Dénoncer les contrats déraisonnables signés par les majorités précédentes au profit d'entreprises privées.",
+    ],
+    "vie-associative": [
+        "Ouvrir des Maisons de Quartier comme lieux de vie destinés à l'interaction et aux échanges, avec un espace de jeu pour enfants.",
+        "Permettre le prêt gratuit des infrastructures municipales aux associations et collectifs.",
+        "Généraliser les conventions pluriannuelles et financer les associations à hauteur réelle du travail qu'elles fournissent.",
+        "Établir un rapport de coopération avec le mouvement associatif respectant son autonomie.",
+        "Maintenir et défendre les subventions aux associations et aux entreprises de l'économie sociale et solidaire.",
+    ],
+    "services-publics": [
+        "Créer une mission d'audit citoyen des services publics pour évaluer les services communaux et leur accessibilité.",
+        "Étudier quels services publics peuvent passer en régie publique pour reprendre la maîtrise des coûts.",
+        "Organiser la transition vers le logiciel libre pour l'administration municipale et les écoles.",
+        "Limiter le recours à des cabinets de consultants en développant l'emploi scientifique et en recourant aux expertises publiques.",
+        "Garantir un véritable contrôle citoyen de la gestion des services publics locaux en ouvrant la CCSPL à toutes les associations et citoyens.",
+        "Garantir le choix entre démarche physique ou dématérialisée pour tout service public.",
+        "Développer les services de traduction pour l'accès aux services publics.",
+        "Mettre en place un service public laïc et gratuit des obsèques.",
+    ],
+
+    # ── ÉCONOMIE ──
+    "commerce-local": [
+        "Aider par la mise à disposition de locaux l'installation ou le maintien de petits commerces : librairies, boulangeries, magasins de bricolage, cafés.",
+        "Utiliser le droit de préemption de la mairie pour favoriser les commerces indépendants.",
+        "Valoriser et soutenir les artisans de la ville et les commerces éthiquement engagés vers une consommation durable.",
+        "Promouvoir les marchés locaux dans une démarche de valorisation des circuits courts et du vrac.",
+        "Refuser les permis de construire et modifier le PLU pour empêcher la construction de toute nouvelle grande surface.",
+    ],
+    "emploi-insertion": [
+        "Développer des initiatives en faveur de l'orientation et de l'accès à l'emploi des jeunes : formations, bourses aux stages, aide à la rédaction de CV.",
+        "Refuser le recours aux travailleurs détachés en surveillant les clauses d'emploi et de sous-traitance des appels d'offres.",
+        "Créer et soutenir les structures d'insertion par l'activité économique : régies de quartier, ateliers et chantiers d'insertion.",
+        "S'engager dans la démarche Territoire Zéro Chômeur et créer des entreprises à but d'emploi.",
+        "Organiser une permanence dédiée à garantir le respect du droit du travail et l'accès aux droits des chômeurs et précaires.",
+        "Lutter contre les plateformes précarisantes en proposant un service de livraison dédié aux commerces putéoliens.",
+    ],
+    "attractivite": [
+        "Créer des espaces publics de travail partagés au coeur des quartiers avec du matériel mutualisé et des services partagés.",
+        "Nommer un adjoint en charge de la ville productive, interlocuteur des entreprises et des services de l'État.",
+    ],
+
+    # ── CULTURE ──
+    "equipements-culturels": [
+        "Soutenir les établissements d'enseignement artistique comme le Conservatoire en leur garantissant les moyens nécessaires.",
+        "Mettre à disposition d'artistes les lieux vacants pour proposer des espaces de création, d'exposition et d'expression.",
+        "Assurer l'indépendance des bibliothèques et médiathèques quant à l'organisation d'événements et la politique d'acquisition.",
+        "Proposer une bourse aux livres quand les documents sont désherbés en bibliothèque en les mettant à disposition dans des boîtes à livres.",
+        "Encourager une plus grande diversité d'ouvrages au sein des bibliothèques et médiathèques.",
+        "Favoriser la tarification sociale des équipements culturels et des activités artistiques.",
+    ],
+    "evenements-creation": [
+        "Soutenir les artistes et équipes artistiques locales, notamment émergentes, grâce à des financements dédiés et la programmation culturelle municipale.",
+        "Favoriser l'implication citoyenne en matière de programmation artistique dans la vie culturelle.",
+        "Exclure tout emploi de l'intelligence artificielle dans les communications de la mairie qui remplacerait le travail d'un artiste.",
+    ],
+
+    # ── SPORT ──
+    "equipements-sportifs": [
+        "Rendre accessibles les installations sportives scolaires aux associations en dehors des horaires d'ouverture, y compris pendant les vacances.",
+        "Soutenir la pratique sportive féminine et mixte en engageant une réflexion sur le type d'équipement sportif à construire.",
+        "Favoriser la pratique et la mise en place de clubs permettant la pratique du handisport.",
+        "Inciter à l'implantation de nouvelles pratiques sportives mixtes dans leurs valeurs.",
+    ],
+    "sport-pour-tous": [
+        "Favoriser la gratuité et la tarification sociale des équipements sportifs.",
+        "Former les acteurs de la vie sportive à la déconstruction des stéréotypes sexistes et à la prévention des violences sexistes et sexuelles.",
+        "Valoriser et permettre l'accès au sport au plus grand nombre à travers un événement annuel de découverte des associations sportives.",
+    ],
+
+    # ── URBANISME ──
+    "amenagement-urbain": [
+        "Refuser les grands projets inutiles imposés.",
+        "Développer l'échange et la solidarité en mettant à disposition des citoyens des plateformes numériques dédiées à l'échelle des quartiers.",
+        "Déplacer les panneaux d'expression libre de manière à ce qu'ils soient visibles et non seulement dans des rues non fréquentées.",
+        "Aménager des aires de jeux inventives, naturelles et intergénérationnelles respectueuses des normes environnementales.",
+        "Installer des toilettes pour enfants dans les parcs et aires de jeux.",
+    ],
+    "accessibilite": [
+        "Lancer dès la première année du mandat un plan pluriannuel d'accessibilité des locaux municipaux.",
+        "Former les agents en lien avec le public à l'accueil des personnes en situation de handicap.",
+        "Mener une campagne d'information sur les handicaps visibles et invisibles pour lever les tabous et favoriser l'inclusion.",
+        "Créer des espaces calmes dans les lieux publics pour les personnes souffrant de troubles sensoriels ou anxieux.",
+        "Lancer un audit sur la ville en y associant les associations représentatives des personnes en situation de handicap pour déterminer les manquements à l'accessibilité.",
+        "Assurer l'accessibilité de toutes les communications institutionnelles : langage facile à lire, sous-titrage, LSF, version audio, braille.",
+    ],
+    "quartiers-prioritaires": [
+        "Mettre en place une communication claire permettant à chacun d'être au courant des points et enjeux discutés lors du prochain conseil municipal.",
+        "Effectuer des permanences d'élus dans les Maisons de Quartier pour favoriser les échanges de proximité.",
+        "Lancer une campagne locale d'inscription sur les listes électorales.",
+    ],
+
+    # ── SOLIDARITÉ ──
+    "aide-sociale": [
+        "Prendre des arrêtés municipaux d'interdiction des coupures d'eau et d'énergie.",
+        "Soutenir et développer les épiceries sociales et solidaires par des subventions et la mise à disposition de locaux.",
+        "Proposer en lien avec les associations des colis repas et vêtements pour les familles populaires, les jeunes et les personnes âgées.",
+        "Proposer une simulation sur mesaides.gouv à tout nouvel arrivant dans la commune.",
+        "Favoriser la mise en oeuvre et généraliser le logement pour sans-abris par le programme logement d'abord.",
+        "Récupérer les meubles et gros électroménager dont les habitants souhaitent se séparer et les redistribuer à prix solidaire ou gratuitement.",
+    ],
+    "egalite-discriminations": [
+        "Créer un observatoire communal des discriminations, contre le racisme, l'islamophobie, l'antisémitisme, le sexisme et les LGBTIphobies, co-géré avec les associations.",
+        "Mettre en place un lieu d'accueil et un numéro vert pour signalement et accompagnement des victimes de discriminations, avec une permanence juridique gratuite.",
+        "Constituer le maire en partie civile lors de tout dépôt de plainte d'une victime de racisme, de sexisme ou de LGBTIphobies.",
+        "Assurer l'absence de discriminations à l'emploi dans la collectivité en menant des audits des risques structurels de discrimination.",
+        "Soutenir financièrement les associations de lutte contre les discriminations.",
+        "Mettre en place des distributeurs de protections hygiéniques dans les collèges, lycées, toilettes publiques et établissements publics.",
+        "Offrir un kit de protections hygiéniques réutilisables annuellement à la demande.",
+        "Nommer des rues et des équipements publics de noms de femmes.",
+        "Soutenir activement les Marches des Fiertés en collaboration avec les associations locales.",
+    ],
+    "pouvoir-achat": [
+        "Attribuer une demi-part supplémentaire pour le calcul du quotient familial des familles monoparentales pour les cantines et centres de loisirs.",
+        "Développer l'aide en post-partum aux parents : aide matérielle, ménagère, soutien psychologique.",
+        "Renforcer les dispositifs d'accompagnement des personnes migrantes : cours de français, soutien administratif, actions socio-éducatives.",
+        "Lutter contre la précarité des agents en mettant en place des plans de titularisation et l'éradication du temps partiel subi.",
+        "Engager un plan de rattrapage pour garantir l'égalité salariale entre les femmes et les hommes employés par la collectivité.",
+    ],
+}
+
+
+def main():
+    with open(JSON_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # Mettre à jour l'URL du programme et le statut
+    for c in data["candidats"]:
+        if c["id"] == CANDIDAT_ID:
+            c["programmeUrl"] = "#"
+            c["programmeComplet"] = True
+            break
+
+    # Compteurs
+    updated = 0
+    added = 0
+    total_mesures = 0
+
+    for cat in data["categories"]:
+        for st in cat["sousThemes"]:
+            st_id = st["id"]
+            if st_id not in PROPOSITIONS:
+                continue
+
+            new_mesures = PROPOSITIONS[st_id]
+
+            if "propositions" not in st:
+                st["propositions"] = {}
+
+            if new_mesures is None:
+                # Pas de proposition pour ce sous-thème
+                if CANDIDAT_ID in st["propositions"] and st["propositions"][CANDIDAT_ID]:
+                    pass  # Ne pas supprimer les existantes
+                continue
+
+            had_before = (
+                CANDIDAT_ID in st["propositions"]
+                and st["propositions"][CANDIDAT_ID]
+                and isinstance(st["propositions"][CANDIDAT_ID], dict)
+                and st["propositions"][CANDIDAT_ID].get("mesures")
+            )
+
+            st["propositions"][CANDIDAT_ID] = {
+                "mesures": new_mesures
+            }
+
+            total_mesures += len(new_mesures)
+            if had_before:
+                updated += 1
+            else:
+                added += 1
+
+    # Écrire
+    with open(JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"{'='*55}")
+    print(f"  MISE À JOUR — Abdel-Rahman Talhadjt (Puteaux)")
+    print(f"{'='*55}")
+    print(f"  Sous-thèmes mis à jour  : {updated}")
+    print(f"  Sous-thèmes ajoutés     : {added}")
+    print(f"  Total mesures           : {total_mesures}")
+    print(f"  JSON écrit : {JSON_PATH}")
+
+
+if __name__ == "__main__":
+    main()

@@ -18,6 +18,7 @@ import csv
 import glob
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -46,10 +47,11 @@ DAILY_LIMIT = 295  # Brevo free plan = 300/jour, on garde une marge
 
 # --- Chemins ---
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# Utilise le fichier 500 villes s'il existe, sinon 150
+# Utilise le fichier le plus large disponible
+CSV_1000 = os.path.join(ROOT, "data", "mairies_1000_villes.csv")
 CSV_500 = os.path.join(ROOT, "data", "mairies_500_villes.csv")
 CSV_150 = os.path.join(ROOT, "data", "mairies_150_villes.csv")
-CSV_PATH = CSV_500 if os.path.exists(CSV_500) else CSV_150
+CSV_PATH = CSV_1000 if os.path.exists(CSV_1000) else (CSV_500 if os.path.exists(CSV_500) else CSV_150)
 ELECTIONS_DIR = os.path.join(ROOT, "data", "elections")
 LOG_PATH = os.path.join(ROOT, "data", "emails_mairies_envoyes.json")
 
@@ -155,12 +157,15 @@ def load_mairies():
     with open(CSV_PATH, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            email = row.get("email", "").strip()
+            raw_email = row.get("email", "").strip()
             verified = row.get("email_verified", "").strip()
 
             # Ignorer les villes sans email valide
-            if not email or "formulaire" in email.lower() or "contact form" in email.lower():
+            if not raw_email or "formulaire" in raw_email.lower() or "contact form" in raw_email.lower():
                 continue
+
+            # Multi-emails : prendre le premier (séparateur ; ou ,)
+            email = re.split(r"[;,]", raw_email)[0].strip()
             if verified and "no" in verified.lower() and "form" in verified.lower():
                 continue
 

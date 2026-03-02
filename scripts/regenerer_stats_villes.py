@@ -16,25 +16,24 @@ from collections import defaultdict
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 def compter_propositions(categories):
-    """Compte le nombre total de propositions non-null dans toutes les catégories."""
+    """Compte le nombre total de mesures dans toutes les catégories."""
     total = 0
     for categorie in categories:
         for sous_theme in categorie.get('sousThemes', []):
             propositions = sous_theme.get('propositions', {})
-            # Compter les propositions non-null (qui ont un texte)
             for candidat_id, prop in propositions.items():
-                if prop and prop.get('texte'):
-                    total += 1
+                if prop and prop.get('mesures'):
+                    total += len(prop['mesures'])
     return total
 
 def compter_themes(categories):
-    """Compte le nombre de catégories ayant au moins une proposition."""
+    """Compte le nombre de catégories ayant au moins une mesure."""
     themes_avec_props = 0
     for categorie in categories:
         a_une_proposition = False
         for sous_theme in categorie.get('sousThemes', []):
             propositions = sous_theme.get('propositions', {})
-            if any(prop and prop.get('texte') for prop in propositions.values()):
+            if any(prop and prop.get('mesures') for prop in propositions.values()):
                 a_une_proposition = True
                 break
         if a_une_proposition:
@@ -64,7 +63,7 @@ def main():
     args = parser.parse_args()
 
     # Chemins
-    base_dir = Path(r'C:\Users\KOPELMANRon\Downloads\FR comp mun')
+    base_dir = Path(__file__).resolve().parent.parent
     elections_dir = base_dir / 'data' / 'elections'
     villes_path = base_dir / 'data' / 'villes.json'
 

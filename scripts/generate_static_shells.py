@@ -101,7 +101,11 @@ def make_jsonld_candidate(nom, ville, liste, url, n_props, complet):
             {
                 "@type": "Event",
                 "name": f"Élections municipales 2026 — {ville}",
+                "description": f"Premier et second tour des élections municipales 2026 à {ville}, France.",
                 "startDate": "2026-03-15",
+                "endDate": "2026-03-22",
+                "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
                 "location": {
                     "@type": "Place",
                     "name": ville,
@@ -380,6 +384,9 @@ def update_redirects(dry_run=False):
 /a-propos.html  /a-propos  301
 /methodologie.html  /methodologie  301
 /faq.html  /faq  301
+/mentions-legales.html  /mentions-legales  301
+/confidentialite.html  /confidentialite  301
+/enjeux-index.html  /enjeux-2026/  301
 
 # Legacy
 /home /  301

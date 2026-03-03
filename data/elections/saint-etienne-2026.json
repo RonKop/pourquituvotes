@@ -56,16 +56,16 @@
       "id": "jousserand",
       "nom": "Corentin Jousserand",
       "liste": "Rassemblement National",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://rassemblementnational.fr/communiques/municipales-2026-le-rn-lance-une-charte-de-soutien",
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
       "id": "brossard",
       "nom": "Romain Brossard",
       "liste": "Lutte Ouvrière",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-saint-etienne-189469.html",
+      "programmeComplet": true,
       "programmePdfPath": null
     }
   ],
@@ -139,11 +139,11 @@
               ]
             },
             "jousserand": {
-              "source": "France Bleu, 2025",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-saint-etienne-corentin-jousserand-28-ans-est-la-tete-de-liste-du-rassemblement-national-5554400",
               "mesures": [
-                "Lutte contre l'insécurité comme priorité absolue."
-              ]
+                "Faire de la lutte contre l'insécurité la priorité absolue du mandat.",
+                "Armer la police municipale et lui donner les moyens d'agir efficacement."
+              ],
+              "source": null
             },
             "brossard": null
           }
@@ -607,7 +607,13 @@
               ]
             },
             "jousserand": null,
-            "brossard": null
+            "brossard": {
+              "mesures": [
+                "Lutter contre le mal-logement et les hébergements indignes.",
+                "Garantir l'accès au chauffage pour les familles en difficulté."
+              ],
+              "source": null
+            }
           }
         },
         {
@@ -885,7 +891,12 @@
                 "Allouer 300 000 euros minimum par an pour les projets pédagogiques des écoles publiques."
               ]
             },
-            "jousserand": null,
+            "jousserand": {
+              "mesures": [
+                "Favoriser les produits locaux et les circuits courts dans les cantines scolaires."
+              ],
+              "source": null
+            },
             "brossard": null
           }
         },
@@ -1630,13 +1641,19 @@
               ]
             },
             "jousserand": {
-              "source": "France Bleu, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-saint-etienne-loire/le-candidat-rassemblement-national-a-la-mairie-de-saint-etienne-propose-un-comite-d-ethique-pour-la-moralite-des-elus-9039906",
               "mesures": [
-                "Création d'un comité d'éthique pour contrôler la moralité des élus."
-              ]
+                "Création d'un comité d'éthique pour contrôler la moralité des élus.",
+                "Pratiquer une gestion budgétaire rigoureuse et combattre le gaspillage des deniers publics.",
+                "S'opposer à toute augmentation des taux de la fiscalité locale pendant le mandat."
+              ],
+              "source": null
             },
-            "brossard": null
+            "brossard": {
+              "mesures": [
+                "Constituer une liste sans politiciens professionnels ni notables, composée exclusivement de travailleurs."
+              ],
+              "source": null
+            }
           }
         },
         {
@@ -1699,7 +1716,12 @@
                 "Soutenir les associations de lutte contre les discriminations, notamment de testing."
               ]
             },
-            "jousserand": null,
+            "jousserand": {
+              "mesures": [
+                "Soutenir les associations locales qui oeuvrent pour le bien commun et la cohésion sociale."
+              ],
+              "source": null
+            },
             "brossard": null
           }
         },
@@ -1753,8 +1775,19 @@
                 "Mettre en place le projet Territoire Zéro Non-Recours (TZNR) décentralisé via les centres sociaux pour lutter contre le non-recours aux droits."
               ]
             },
-            "jousserand": null,
-            "brossard": null
+            "jousserand": {
+              "mesures": [
+                "Défendre et développer des services publics locaux de qualité.",
+                "S'opposer aux transferts de compétences vers l'intercommunalité."
+              ],
+              "source": null
+            },
+            "brossard": {
+              "mesures": [
+                "Refinancer les services publics locaux (écoles, hôpitaux) plutôt que d'augmenter les dépenses militaires."
+              ],
+              "source": null
+            }
           }
         }
       ]
@@ -1827,7 +1860,12 @@
                 "Prioriser les marchands alimentaires et produits locaux sur les marchés."
               ]
             },
-            "jousserand": null,
+            "jousserand": {
+              "mesures": [
+                "Soutenir le commerce local et les artisans dans le cadre légal."
+              ],
+              "source": null
+            },
             "brossard": null
           }
         },
@@ -1890,7 +1928,13 @@
               ]
             },
             "jousserand": null,
-            "brossard": null
+            "brossard": {
+              "mesures": [
+                "Interdire les licenciements et s'opposer aux plans sociaux qui détruisent l'emploi local.",
+                "Mettre fin aux subventions publiques aux entreprises qui délocalisent ou suppriment des emplois."
+              ],
+              "source": null
+            }
           }
         },
         {
@@ -1966,11 +2010,10 @@
               ]
             },
             "jousserand": {
-              "source": "France Bleu, 2025",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-a-saint-etienne-corentin-jousserand-28-ans-est-la-tete-de-liste-du-rassemblement-national-5554400",
               "mesures": [
                 "Attirer l'activité économique à Saint-Étienne et améliorer l'image de la ville."
-              ]
+              ],
+              "source": null
             },
             "brossard": null
           }
@@ -2048,7 +2091,12 @@
                 "Étudier la réunion de la médiathèque de Carnot avec la biblio-matériauthèque de la Cité du Design."
               ]
             },
-            "jousserand": null,
+            "jousserand": {
+              "mesures": [
+                "Protéger, entretenir et valoriser le patrimoine local de Saint-Étienne."
+              ],
+              "source": null
+            },
             "brossard": null
           }
         },
@@ -2306,7 +2354,12 @@
               ]
             },
             "jousserand": null,
-            "brossard": null
+            "brossard": {
+              "mesures": [
+                "Lutter contre la dégradation des zones industrielles et l'abandon urbain des quartiers populaires."
+              ],
+              "source": null
+            }
           }
         },
         {
@@ -2458,7 +2511,12 @@
               ]
             },
             "jousserand": null,
-            "brossard": null
+            "brossard": {
+              "mesures": [
+                "Porter la voix des travailleurs, chômeurs et retraités face aux difficultés sociales."
+              ],
+              "source": null
+            }
           }
         },
         {
@@ -2513,7 +2571,12 @@
                 "Interdire les cirques exploitant des animaux sauvages et toute exploitation d'animaux sauvages à des fins de représentation sur le territoire communal."
               ]
             },
-            "jousserand": null,
+            "jousserand": {
+              "mesures": [
+                "Garantir la laïcité dans la vie communale et refuser les subventions aux associations communautaristes."
+              ],
+              "source": null
+            },
             "brossard": null
           }
         },
@@ -2566,11 +2629,10 @@
             },
             "jousserand": null,
             "brossard": {
-              "source": "Lutte Ouvrière, 2025",
-              "sourceUrl": "https://www.lutte-ouvriere.org/portail/revue-de-presse/municipales-2026-solutions-luttes-romain-brossard-repart-combat-saint-etienne-188071.html",
               "mesures": [
                 "Défendre le pouvoir d'achat des salariés, chômeurs et retraités face à la hausse des prix et la stagnation des salaires."
-              ]
+              ],
+              "source": null
             }
           }
         }

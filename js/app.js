@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026030301';
+  var DATA_VERSION = '2026030302';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;

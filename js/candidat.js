@@ -300,11 +300,11 @@
           catsHTML += '<div class="candidat-prop" style="--cat-color:' + catColor + '">' +
             '<div class="candidat-prop__theme">' + echapper(p.theme) + '</div>';
           if (p.mesures.length === 1) {
-            catsHTML += '<div class="candidat-prop__texte">' + echapper(p.mesures[0]) + '</div>';
+            catsHTML += '<div class="candidat-prop__texte">' + echapper(typeof p.mesures[0] === "string" ? p.mesures[0] : p.mesures[0].texte) + '</div>';
           } else {
             catsHTML += '<ul class="candidat-prop__mesures">';
             p.mesures.forEach(function (m) {
-              catsHTML += '<li>' + echapper(m) + '</li>';
+              catsHTML += '<li>' + echapper(typeof m === "string" ? m : m.texte) + '</li>';
             });
             catsHTML += '</ul>';
           }

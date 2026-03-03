@@ -7,7 +7,7 @@
   "use strict";
 
   var DATA_BASE_URL = "/data/";
-  var DATA_VERSION = "2026022201";
+  var DATA_VERSION = "2026030301";
   var VILLES = null;
 
   var searchInput = document.getElementById("mobile-menu-search");

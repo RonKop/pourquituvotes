@@ -78,9 +78,9 @@ def make_candidate_title(nom, ville, max_len=60):
 def make_candidate_desc(nom, ville, n_props, max_len=155):
     """Génère une meta description conditionnelle selon le nombre de propositions."""
     if n_props > 0:
-        desc = f"Découvrez le programme de {nom} pour {ville} : {n_props} propositions analysées. Radar Chart, comparaison des candidats municipales 2026."
+        desc = f"Programme de {nom} pour {ville} : {n_props} propositions sur la sécurité, les transports, le logement… Comparez les candidats aux municipales 2026."
         if len(desc) > max_len:
-            desc = f"Programme de {nom} ({ville}) : {n_props} propositions analysées. Comparaison avec les autres candidats aux municipales 2026."
+            desc = f"Programme de {nom} ({ville}) : {n_props} propositions analysées. Comparez avec les autres candidats aux municipales 2026."
     else:
         desc = f"Profil de {nom}, candidat aux municipales 2026 à {ville}. Comparez les enjeux locaux et restez informé dès publication de son programme."
         if len(desc) > max_len:
@@ -387,6 +387,11 @@ def update_redirects(dry_run=False):
 /mentions-legales.html  /mentions-legales  301
 /confidentialite.html  /confidentialite  301
 /enjeux-index.html  /enjeux-2026/  301
+
+# Trailing slash canonicalization (evite duplication Google)
+/municipales-2026/:ville/candidats/:candidat /municipales-2026/:ville/candidats/:candidat/ 301
+/municipales-2026/:ville /municipales-2026/:ville/ 301
+/enjeux-2026/:theme /enjeux-2026/:theme/ 301
 
 # Legacy
 /home /  301

@@ -837,7 +837,7 @@
         cat.sousThemes.forEach(function (st) {
           var prop = st.propositions[candidat.id];
           if (prop && prop.mesures && prop.mesures.length > 0) {
-            textes.push(prop.mesures.join(" "));
+            textes.push(prop.mesures.map(function(m) { return typeof m === "string" ? m : m.texte; }).join(" "));
           }
         });
         if (textes.length === 0) return;
@@ -3460,7 +3460,7 @@
           var nb = Math.min(mesures.length, maxAffiche);
           for (var mi = 0; mi < nb; mi++) {
             var li = document.createElement("li");
-            li.textContent = mesures[mi];
+            li.textContent = typeof mesures[mi] === "string" ? mesures[mi] : mesures[mi].texte;
             ul.appendChild(li);
           }
           listeDiv.appendChild(ul);
@@ -3692,7 +3692,7 @@
     liste.className = "modal__mesures-liste";
     mesures.forEach(function(m) {
       var li = document.createElement("li");
-      li.textContent = m;
+      li.textContent = typeof m === "string" ? m : m.texte;
       liste.appendChild(li);
     });
 

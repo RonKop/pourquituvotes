@@ -46,13 +46,13 @@ def load_json(path):
 # ─────────────────────────────────────────────────────────
 
 def count_propositions(el_data, candidate_id):
-    """Compte les propositions non-null d'un candidat dans les données élection."""
+    """Compte le nombre total de mesures d'un candidat dans les données élection."""
     total = 0
     for cat in el_data.get("categories", []):
         for st in cat.get("sousThemes", []):
             val = st.get("propositions", {}).get(candidate_id)
-            if val is not None:
-                total += 1
+            if val and val.get("mesures"):
+                total += len(val["mesures"])
     return total
 
 

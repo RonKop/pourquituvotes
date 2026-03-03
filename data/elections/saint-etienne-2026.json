@@ -17,7 +17,7 @@
       "nom": "Régis Juanico",
       "liste": "Rassembler Saint-Étienne (PS/EELV/PCF)",
       "programmeUrl": "https://juanico2026.fr/programme/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -25,7 +25,7 @@
       "nom": "Éric Le Jaouen",
       "liste": "Relevons Saint-Étienne (Horizons dissident)",
       "programmeUrl": "https://www.lejaouen2026.fr/wp-content/uploads/2026/02/PROJET-ELJ-V4.pdf",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -33,7 +33,7 @@
       "nom": "Marc Chassaubéné",
       "liste": "Majorité sortante (1er adjoint)",
       "programmeUrl": "https://www.marc-chassaubene-2026.fr/#programme",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -86,14 +86,89 @@
               ]
             },
             "juanico": {
-              "source": "France Bleu, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-saint-etienne-loire/municipales-2026-la-gauche-stephanoise-unie-derriere-le-socialiste-regis-juanico-8849511",
               "mesures": [
-                "Création d'une police municipale communautaire de proximité."
-              ]
+                {
+                  "texte": "Déployer une police municipale de terrain présente sur la voie publique, dans l'ensemble des quartiers, en journée, en soirée et plus souvent à pied ou à vélo"
+                },
+                {
+                  "texte": "Renforcer la présence de la police municipale dans les quartiers par la création d'antennes de proximité et l'organisation de permanences au moyen de postes mobiles avancés"
+                },
+                {
+                  "texte": "Apporter une réponse rapide aux incivilités en permettant au maire de prononcer des rappels à l'ordre et en développant le travail d'intérêt général dans les services municipaux"
+                },
+                {
+                  "texte": "Renforcer les contrôles sur la voie publique par la police municipale contre les incivilités routières, en complémentarité avec la police nationale"
+                },
+                {
+                  "texte": "Mener des opérations de contrôle régulières en lien avec la police nationale (vitesse, stupéfiants, alcoolémie, protoxyde d'azote)"
+                },
+                {
+                  "texte": "Dédier un agent de police municipale à la protection animale"
+                },
+                {
+                  "texte": "Engager une action coordonnée avec la police nationale contre le narcotrafic et mettre en œuvre un Contrat de sécurité intégré (CSI) impliquant Préfecture, Procureur et Ville"
+                },
+                {
+                  "texte": "Faire respecter les horaires de fermeture des commerces nocturnes sources de nuisances pour les riverains"
+                }
+              ],
+              "source": null
             },
-            "le-jaouen": null,
-            "chassaubene": null,
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Création d'une Police Municipale de Proximité avec retour de l'îlotage à pieds, présente dans tous les quartiers"
+                },
+                {
+                  "texte": "Création d'une Brigade Rapide d'Intervention (BRI) équipée de moyens de déplacement légers pour intervenir sans délai face aux incivilités et urgences"
+                },
+                {
+                  "texte": "Création d'une brigade cynophile pour sécuriser les agents et renforcer les patrouilles"
+                },
+                {
+                  "texte": "Renforcer la présence policière en centre-ville les week-ends par des patrouilles piétonnes sur les grandes places et rues commerçantes"
+                },
+                {
+                  "texte": "Mise en œuvre du dispositif TIG&TAG priorisant les travaux d'intérêt général pour les personnes condamnées pour des délits mineurs"
+                },
+                {
+                  "texte": "Lutte contre les trafics de stupéfiants dans le cadre du Contrat Local de Sécurité et de Prévention de la Délinquance"
+                },
+                {
+                  "texte": "Reconnaissance de la pénibilité du métier de policier municipal : déroulement de carrière, retraite, horaires de nuit"
+                },
+                {
+                  "texte": "Modernisation des conditions de travail des policiers : plus d'autonomie opérationnelle, véhicules, équipements et tenues adaptés"
+                },
+                {
+                  "texte": "Formation et spécialisation des agents de police municipale"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Continuer à renforcer les effectifs de la Police Municipale pour assurer une présence visible et dissuasive dans tous les quartiers"
+                },
+                {
+                  "texte": "Ouvrir le nouveau siège de la Police Municipale pouvant accueillir 300 agents, équipé d'un Centre de supervision municipal avec les dernières technologies"
+                },
+                {
+                  "texte": "Étendre et renforcer la brigade de sécurité des transports"
+                },
+                {
+                  "texte": "Renforcer la présence de la police municipale sur l'espace public, notamment la nuit"
+                },
+                {
+                  "texte": "Renforcer l'équipement des agents de la police municipale, notamment pour lutter contre les incivilités en trottinette"
+                },
+                {
+                  "texte": "Créer une brigade dédiée aux délits routiers"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -120,9 +195,36 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Renforcer l'efficacité du dispositif de vidéosurveillance par une évaluation menée avec les chercheurs de l'université Jean Monnet, mise au service des actions de police et de justice"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Modernisation et renforcement de la vidéo-protection avec couverture élargie et lecture des plaques d'immatriculation, images accessibles à la Police Nationale"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Augmenter le nombre de caméras de vidéoprotection"
+                },
+                {
+                  "texte": "Soutenir la lutte contre le narcotrafic avec l'installation de caméras nomades"
+                },
+                {
+                  "texte": "Sécuriser les grands événements avec le déploiement de drones dans un cadre strictement réglementé"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -141,9 +243,60 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Constituer une équipe mobile de médiateurs présente dans les quartiers et en centre-ville, en lien avec les forces de l'ordre, les bailleurs sociaux et les associations locales"
+                },
+                {
+                  "texte": "Renforcer la sécurité dans les transports en commun avec davantage d'agents de prévention et de médiation, et montée en puissance de la brigade de sécurisation métropolitaine"
+                },
+                {
+                  "texte": "Sécuriser les déplacements de nuit : arrêt de bus à la demande après 21h, éclairage intelligent et cheminements piétonniers éclairés"
+                },
+                {
+                  "texte": "Développer la justice restaurative et réparatrice en lien avec les associations et les services de l'État"
+                },
+                {
+                  "texte": "Multiplier les actions locales de prévention via le CLSPD comme outil de coordination opérationnelle associant écoles, associations, forces de l'ordre et acteurs de terrain"
+                },
+                {
+                  "texte": "Déployer des actions de prévention en lien avec les associations œuvrant pour la sécurité routière"
+                },
+                {
+                  "texte": "Faire de Saint-Étienne la capitale de la formation aux premiers secours en soutenant les structures formatrices et en organisant des événements mobilisateurs"
+                },
+                {
+                  "texte": "Développer une sécurité civile municipale mobilisable en cas de catastrophe, en impliquant les habitants à travers une réserve citoyenne"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Intervention de policiers municipaux et pompiers retraités dans les écoles pour sensibiliser les élèves à la prévention sécurité et à l'engagement citoyen"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Déployer dans toute la ville un dispositif anti-agression avec des bornes d'appel d'urgence vidéo sur l'espace public"
+                },
+                {
+                  "texte": "Mettre en place des boutons anti-agression sur le réseau de transport en commun"
+                },
+                {
+                  "texte": "Distribuer une alarme portative, personnelle et gratuite pour tous les habitants qui en font la demande"
+                },
+                {
+                  "texte": "Apprendre le civisme et le respect de l'autorité dès le plus jeune âge en partenariat avec la police municipale, l'Éducation Nationale et les éducateurs sportifs"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -163,9 +316,60 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Soutenir les associations œuvrant pour l'égalité femmes-hommes et contre les violences intrafamiliales"
+                },
+                {
+                  "texte": "Promouvoir les démarches de sensibilisation et de prévention des comportements sexistes et violents"
+                },
+                {
+                  "texte": "Créer un Observatoire des violences faites aux femmes permettant d'initier et de coordonner des actions concrètes via un partenariat entre collectivités, État et associations"
+                },
+                {
+                  "texte": "Renforcer la vigilance contre les maladies cardio-vasculaires chez les femmes en soutenant les dispositifs de dépistage associatifs"
+                },
+                {
+                  "texte": "Contribuer à la lutte contre la précarité menstruelle et mettre à disposition des protections périodiques dans les toilettes municipales"
+                },
+                {
+                  "texte": "Appliquer un budget sensible au genre pour s'assurer que les politiques municipales profitent aux femmes comme aux hommes, avec un·e chargé·e de mission dédié·e"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Renforcer la sécurité des femmes via des réseaux de commerçants partenaires et des applications d'alerte et de mise en sécurité"
+                },
+                {
+                  "texte": "Création d'une Maison des Femmes labellisée, adossée au réseau national, pour la protection immédiate des femmes victimes de violences"
+                },
+                {
+                  "texte": "Lieu de prise en charge globale des femmes victimes avec équipes pluridisciplinaires : médecins, psychologues, travailleurs sociaux, juristes"
+                },
+                {
+                  "texte": "Création d'un centre d'analyse et de centralisation des violences faites aux femmes pour des actions de prévention adaptées"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Poursuivre le développement du dispositif « Angela » pour lutter contre le harcèlement de rue et les agressions"
+                },
+                {
+                  "texte": "Sensibiliser à l'utilisation de l'application « The Sorority » pour protéger les Stéphanoises"
+                },
+                {
+                  "texte": "Concevoir un lieu refuge municipal pour les personnes victimes de harcèlement, discrimination et violences, et soutien aux associations"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -192,14 +396,65 @@
           "propositions": {
             "cinieri": null,
             "juanico": {
-              "source": "France Bleu, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-saint-etienne-loire/l-invite-d-ici-matin-regis-juanico-chef-de-file-de-la-liste-rassembler-saint-etienne-3268244",
               "mesures": [
-                "Gratuité des transports en commun le week-end."
-              ]
+                {
+                  "texte": "Lever les freins à l'utilisation du réseau STAS par l'augmentation des fréquences, la diminution des temps de parcours et la lutte contre les incivilités"
+                },
+                {
+                  "texte": "Prioriser les investissements pour renouveler le matériel roulant et accélérer la décarbonation des bus et véhicules municipaux"
+                },
+                {
+                  "texte": "Créer une Maison des mobilités, guichet unique pour conseiller et accompagner les citoyens sur toutes les solutions de transport"
+                },
+                {
+                  "texte": "Améliorer la liaison entre Saint-Victor-sur-Loire et le centre-ville de Saint-Étienne"
+                },
+                {
+                  "texte": "Expérimenter l'élargissement des horaires en soirée pour faciliter la vie nocturne et culturelle"
+                },
+                {
+                  "texte": "Porter le projet de Service express régional métropolitain (SERM) pour transformer le réseau SNCF en un « RER stéphanois »"
+                }
+              ],
+              "source": null
             },
-            "le-jaouen": null,
-            "chassaubene": null,
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Renforcer l'offre de transports en soirée en augmentant la fréquence des trams et des principales lignes de bus"
+                },
+                {
+                  "texte": "Un noctambus sécurisé par la présence d'un agent dédié à la tranquillité des usagers"
+                },
+                {
+                  "texte": "Créer de nouvelles liaisons interurbaines de transports en commun vers la plaine du Forez, les vallées du Gier et de l'Ondaine"
+                },
+                {
+                  "texte": "Améliorer l'accès au CHU par des navettes régulières depuis les parkings relais"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Étudier l'extension d'une ligne de tram vers la Plaine et l'Ondaine"
+                },
+                {
+                  "texte": "Déployer les « Chronobus »"
+                },
+                {
+                  "texte": "Innover avec la mise en circulation de la première ligne de bus à hydrogène"
+                },
+                {
+                  "texte": "Étendre le réseau « Noctambus » et développer l'arrêt à la demande pour sécuriser les déplacements nocturnes"
+                },
+                {
+                  "texte": "Créer la « Navette bleue » pour faciliter le transport depuis le domicile jusqu'aux lieux de culture ou de loisirs"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -221,9 +476,51 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Structurer des axes piétons et cyclables magistraux nord-sud et est-ouest facilitant l'accès au centre-ville et les liaisons entre quartiers"
+                },
+                {
+                  "texte": "Créer des itinéraires cyclables cohérents et sans discontinuité en reliant prioritairement les pistes cyclables entre elles"
+                },
+                {
+                  "texte": "Créer un environnement favorable à la pratique du vélo : stationnement vélo, location longue durée, promotion du « savoir-rouler », soutien aux ateliers de réparation"
+                },
+                {
+                  "texte": "Encourager la pratique du vélo dès l'enfance : renforcement de l'école municipale du vélo, aménagement d'un pump track, collaboration avec les écoles"
+                },
+                {
+                  "texte": "Renforcer les moyens du « Plan vélo et marche » et étendre la voie verte urbaine pour des marches de loisirs sécurisées"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Des pistes cyclables sécurisées et adaptées aux déplacements quotidiens à vélo"
+                },
+                {
+                  "texte": "Des aménagements dédiés aux vélos : stationnements adaptés et zones de réparation d'urgence"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Multiplier les stations « Vélivert » et le nombre de vélos pour promouvoir la pratique du vélo en ville"
+                },
+                {
+                  "texte": "Faire de la continuité et la sécurisation des pistes cyclables un enjeu majeur"
+                },
+                {
+                  "texte": "Créer un conseil des mobilités douces et un lieu ressource pour le développement de la marche et du vélo"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -246,9 +543,45 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Aménager des cheminements piétons sécurisés et facilement repérables vers les arrêts de bus et de tramway, avec attention particulière aux abords des écoles"
+                },
+                {
+                  "texte": "Généraliser progressivement la zone 30 pour apaiser les cœurs de quartiers, sauf voiries structurantes maintenues à 50 km/h"
+                },
+                {
+                  "texte": "Expérimenter la piétonisation de certaines rues en centre-ville, en concertation avec les commerçants"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Révision du plan de circulation pour faciliter les transversales Nord/Sud et Est/Ouest en concertation avec les habitants"
+                },
+                {
+                  "texte": "Circulation régulée aux abords des écoles avec signalétique visible et aménagements adaptés pour la sécurité des familles"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Poursuivre la rénovation du boulevard urbain dans la continuité du boulevard Fraissinette, respectueux pour toutes les mobilités et végétalisé"
+                },
+                {
+                  "texte": "Poursuivre le projet de continuité piétonne en centre-ville"
+                },
+                {
+                  "texte": "Mettre en place un plan « plaques de rue » et de signalétique directionnelle piétonne et automobile"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -273,9 +606,51 @@
           "nom": "Stationnement",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Développer et améliorer le réseau des parkings relais et de covoiturage : places, signalétique, tarification incitative, sécurisation, ombrières photovoltaïques"
+                },
+                {
+                  "texte": "Instaurer une tarification différenciée pour le stationnement en surface en fonction du poids des véhicules"
+                },
+                {
+                  "texte": "Augmenter significativement l'offre de bornes de recharge des véhicules électriques et harmoniser les tarifications"
+                },
+                {
+                  "texte": "Offrir la gratuité du stationnement en centre-ville 3 heures par jour le week-end"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Gratuité du stationnement de surface tous les vendredis et les week-ends pour encourager la fréquentation du centre-ville"
+                },
+                {
+                  "texte": "Suppression de la « sulfateuse à PV » qui pénalise injustement les habitants"
+                },
+                {
+                  "texte": "Nouvelles solutions de stationnement en centre-ville avec affichage en temps réel du temps d'accès aux parkings sur les axes principaux"
+                },
+                {
+                  "texte": "Développer les parkings relais en périphérie de la ville, plus sécurisés, éclairés et optimisés"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Transformer le parking des Ursules en un grand parc urbain et créer un nouveau parking pour maintenir une offre de stationnement adaptée au centre-ville"
+                },
+                {
+                  "texte": "Étendre les parkings relais en entrées de ville et de métropole"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -297,9 +672,36 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Mettre en place des gratuités ciblées du réseau STAS : week-end, pics de pollution/canicule, événements culturels/sportifs, moins de 18 ans, Handi'Stas, bénéficiaires du minimum vieillesse et minima sociaux"
+                },
+                {
+                  "texte": "Mettre en place la gratuité des transports en commun le week-end et organiser des navettes gratuites depuis les parkings relais"
+                },
+                {
+                  "texte": "Gratuité des transports le jour de match pour les supporters avec accès au réseau STAS"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Accès gratuit au réseau Stas et Handistas pour les élèves afin de lutter contre l'inégalité sociale et encourager les sorties culturelles et sportives"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Étendre la gratuité des transports à l'école de cyclisme et aux activités culturelles, comme pour la piscine et la patinoire"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -324,7 +726,20 @@
           "nom": "Logement social",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Accompagner une politique du logement social qui priorise l'amélioration du bâti existant et la diversification de l'offre dans tous les quartiers"
+                },
+                {
+                  "texte": "Proposer une offre de logements qualitatifs avec extérieur pour favoriser la mixité sociale"
+                },
+                {
+                  "texte": "Encourager les opérations d'habitat groupé et participatif et développer des résidences intergénérationnelles"
+                }
+              ],
+              "source": null
+            },
             "le-jaouen": null,
             "chassaubene": null,
             "labich": null,
@@ -349,9 +764,39 @@
           "nom": "Logements vacants",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Promouvoir les dispositifs d'aides incitant les propriétaires de logements vacants à les remettre en location avec un loyer modéré"
+                },
+                {
+                  "texte": "Instaurer un « permis de louer » dans les secteurs où les logements sont le plus dégradés"
+                },
+                {
+                  "texte": "Lutter contre les logements indignes par le permis de louer, l'accompagnement des propriétaires pour la rénovation et la taxation des logements vides"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Création d'une foncière municipale pour lutter contre les rez-de-chaussée vacants"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Réhabiliter la rue de la Ville et la rue de la Résistance"
+                },
+                {
+                  "texte": "Renforcer le plan façade et lumière pour accompagner la rénovation des immeubles du centre-ville"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -392,14 +837,44 @@
           "nom": "Accès au logement",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": {
-              "source": "Radio Scoop, 2025",
-              "sourceUrl": "https://www.radioscoop.com/infos/municipales-2026-a-saint-etienne-marc-chassaubene-officialise-sa-candidature_344977",
+            "juanico": {
               "mesures": [
-                "Programme articulé autour de grandir, vivre, transmettre avec le logement, la mobilité et la sécurité comme fil rouge."
-              ]
+                {
+                  "texte": "Renforcer la lutte contre le sans-abrisme en soutenant davantage les associations dédiées et en proposant des habitats intercalaires"
+                },
+                {
+                  "texte": "Mettre à disposition des locaux municipaux vacants pour des hébergements d'urgence via une prise de bail symbolique par une association"
+                },
+                {
+                  "texte": "Promouvoir la garantie Visale auprès des bailleurs pour faciliter l'accès au logement des jeunes et étudiants"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Faciliter l'accès au logement pour les alternants en expérimentant la résidence à vocation d'emploi et en contractualisant avec les bailleurs"
+                },
+                {
+                  "texte": "Habitat intergénérationnel : plateforme de mise en relation seniors/étudiants pour de la colocation et soutien aux résidences intergénérationnelles"
+                },
+                {
+                  "texte": "Opération d'aménagement ambitieuse de la Charité mêlant logements et activités économiques tout en préservant l'identité du site"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Poursuivre le projet urbain Cœur d'histoire (réfection du bourg médiéval)"
+                },
+                {
+                  "texte": "Réaliser sur le site de la Charité un projet mixte végétalisé associant un hôtel, une résidence Senior, un nouveau groupe scolaire et une crèche, intégralement piétonnisé"
+                }
+              ],
+              "source": null
             },
             "labich": null,
             "mercier": {
@@ -425,9 +900,57 @@
           "nom": "Petite enfance",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Ouvrir des places dans les crèches municipales adaptées aux besoins : horaires atypiques, structures à taille humaine, aide à la création de Maisons d'assistantes maternelles"
+                },
+                {
+                  "texte": "Améliorer la qualité de l'accueil dans les crèches par la rénovation des locaux et le renforcement de la formation des agents"
+                },
+                {
+                  "texte": "Simplifier les démarches d'inscription en crèche avec possibilité d'inscription en cours d'année et généraliser les comités de crèche"
+                },
+                {
+                  "texte": "Constituer une équipe pluridisciplinaire formée à l'accueil des enfants en situation de handicap en crèche"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Renforcer l'accueil en crèche pour garantir un accès équitable à un mode de garde adapté et de qualité"
+                },
+                {
+                  "texte": "Des aires de jeux adaptées et sécurisées pour les plus petits dans tous les quartiers, avec aménagements confortables pour les familles"
+                },
+                {
+                  "texte": "Faciliter l'allaitement en ville via un réseau de commerçants bénévoles proposant un espace calme et adapté"
+                },
+                {
+                  "texte": "Des tables à langer dans tous les bâtiments municipaux ouverts au public"
+                },
+                {
+                  "texte": "Mobilier urbain adapté et ludique pour les jeunes enfants et leurs parents dans l'espace public"
+                },
+                {
+                  "texte": "Soutenir les familles monoparentales par des solutions de garde ponctuelles ou temporaires et des temps collectifs en partenariat avec les associations"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Étendre et renforcer les dispositifs d'éveil sensoriel dans les crèches"
+                },
+                {
+                  "texte": "Créer une crèche d'urgence en cas d'imprévu et pour les parents qui travaillent ou en recherche d'emploi"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -451,9 +974,54 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Accélérer la rénovation des écoles en priorisant isolation thermique, mise en sécurité, accessibilité et végétalisation des cours"
+                },
+                {
+                  "texte": "Rendre l'école publique vraiment gratuite en augmentant les crédits pour le matériel scolaire et les sorties pédagogiques"
+                },
+                {
+                  "texte": "Renforcer la présence des ATSEM auprès des plus petits avec des agentes plus nombreuses, mieux remplacées et mieux formées"
+                },
+                {
+                  "texte": "Développer le dispositif de réussite éducative au-delà des quartiers prioritaires"
+                },
+                {
+                  "texte": "Sécuriser les abords des écoles en y limitant la circulation"
+                },
+                {
+                  "texte": "Renouer le dialogue avec la communauté éducative en créant des Conseils éducatifs de secteur et en assurant une présence stable de la municipalité dans les conseils d'école"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Rénovation massive des écoles : bâti vieillissant, sécurité, accessibilité et rénovation thermique via le plan EduRénov de la Banque des Territoires"
+                },
+                {
+                  "texte": "Des zones d'ombrage et de fraîcheur dans les écoles pour faire face aux épisodes caniculaires"
+                },
+                {
+                  "texte": "Cours végétalisées avec potagers et zones d'ombrage dans les écoles"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Poursuivre un « Plan école » ambitieux après les 60 millions d'euros investis dans la rénovation et la végétalisation des écoles"
+                },
+                {
+                  "texte": "Poursuivre la végétalisation des cours d'école"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -474,9 +1042,48 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Préparer la reprise en gestion directe des cantines dans les écoles et les crèches"
+                },
+                {
+                  "texte": "Favoriser l'accès de tous les élèves à la cantine : création d'un tarif à 50 centimes par repas et mise en place d'un fonds social cantine"
+                },
+                {
+                  "texte": "Simplifier le système d'inscription à la cantine et revoir le système de pénalités"
+                },
+                {
+                  "texte": "Améliorer l'accueil des enfants pendant la pause méridienne avec des personnels plus nombreux et mieux formés"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Doubler le nombre d'ATSEM en maternelle pour accompagner la réussite scolaire dès le plus jeune âge"
+                },
+                {
+                  "texte": "Augmentation du budget des projets pédagogiques de 50% pour des projets porteurs de sens inscrits dans les apprentissages"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Geler le prix des repas dans les cantines scolaires, activités sportives et culturelles municipales pour préserver le pouvoir d'achat des familles"
+                },
+                {
+                  "texte": "Conserver la place de numéro 1 en France des cantines bio et locales"
+                },
+                {
+                  "texte": "Poursuivre l'option quotidienne végétarienne dans les écoles et responsabiliser les enfants quant à la consommation de viande"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -501,9 +1108,60 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Renforcer l'offre d'accueil périscolaire en proposant un accueil inconditionnel à toutes les familles matin et soir"
+                },
+                {
+                  "texte": "Renforcer la place des arts et de la culture à l'école : gratuité des sorties dans les musées, interventions artistiques, classes à horaires aménagés (orchestre, danse, théâtre)"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Plus d'animations pendant la pause méridienne en partenariat avec des associations accompagnant l'insertion des jeunes"
+                },
+                {
+                  "texte": "Un périscolaire matin et soir dans toutes les écoles pour garantir l'égalité des chances"
+                },
+                {
+                  "texte": "Préserver durablement les structures d'éducation populaire avec un modèle économique viable et mutualisation de certaines fonctions"
+                },
+                {
+                  "texte": "Cellule municipale dédiée à la recherche de financements pour les professionnels de l'éducation populaire"
+                },
+                {
+                  "texte": "Financements pluriannuels pour les structures d'éducation populaire"
+                },
+                {
+                  "texte": "Renforcer le conseil consultatif de l'éducation populaire pour un meilleur dialogue entre mairie, professionnels et associations"
+                },
+                {
+                  "texte": "Création du dispositif « Mon quartier, mon projet » : les jeunes portent un projet pour leur quartier financé par le budget participatif"
+                },
+                {
+                  "texte": "Passeport citoyen pour les enfants et les jeunes permettant de réaliser des actions citoyennes et d'être valorisé pour cet engagement"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Développer et sécuriser des espaces de jeux et de loisirs pour les enfants en ville"
+                },
+                {
+                  "texte": "Favoriser l'implantation d'un pôle de loisirs indoor en centre-ville"
+                },
+                {
+                  "texte": "Créer des espaces de loisirs et de divertissement en centre-ville"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -525,9 +1183,81 @@
           "nom": "Jeunesse",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Favoriser l'accès à la culture et à la citoyenneté des jeunes : Brevet de l'engagement, bourse projets jeunes, Festival des Jeunes, élargissement du dispositif « La Boge »"
+                },
+                {
+                  "texte": "Développer les services civiques et les formations en alternance au sein des services municipaux"
+                },
+                {
+                  "texte": "Lutter contre la précarité des jeunes en attribuant une aide au stage et en augmentant l'aide au permis"
+                },
+                {
+                  "texte": "Soutenir le projet de Service de santé étudiant porté par l'université et le projet de campus actif promoteur de santé à la Métare"
+                },
+                {
+                  "texte": "Faciliter les déplacements des jeunes : extension et sécurisation des Noctambus, location longue durée de vélos"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Assises de la jeunesse : rendez-vous sur plusieurs journées pour les 12-30 ans avec ateliers participatifs, village associatif, débats et soirées festives"
+                },
+                {
+                  "texte": "Conseil municipal de la jeunesse et de la vie étudiante pour renforcer les échanges entre jeunes, étudiants et municipalité"
+                },
+                {
+                  "texte": "Espaces de coworking pour les étudiants à proximité des campus, ouverts les soirs et dimanches"
+                },
+                {
+                  "texte": "Bourse d'engagement civique pour soutenir les jeunes impliqués dans des actions associatives ou municipales"
+                },
+                {
+                  "texte": "Rubrique « Jeunes Stéphanois » dans le magazine municipal pour valoriser les initiatives des jeunes"
+                },
+                {
+                  "texte": "Stages, jobs étudiants et alternances facilités auprès de la mairie et de ses partenaires économiques"
+                },
+                {
+                  "texte": "Plateforme de parrainage entre habitants et étudiants pour lutter contre l'isolement et accompagner les nouveaux arrivants"
+                },
+                {
+                  "texte": "Agenda de la vie étudiante sur laboge.fr pour que les associations étudiantes communiquent sur leurs événements"
+                },
+                {
+                  "texte": "Réceptions en mairie et remise du ruban vert pour valoriser l'engagement des jeunes dans la vie associative, le sport et la culture"
+                },
+                {
+                  "texte": "Lutte contre le harcèlement scolaire par de la prévention, de l'écoute et du soutien aux équipes éducatives et aux familles"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Développer l'éducation aux bons usages du numérique, aux écrans et à la lutte contre la désinformation"
+                },
+                {
+                  "texte": "Renforcer les valeurs de la République, de la Laïcité et la lutte contre les discriminations et le harcèlement via les agents des médiathèques dans les écoles"
+                },
+                {
+                  "texte": "Soutenir nos centres sociaux et les acteurs de l'éducation populaire dans leurs missions d'accueil des jeunes"
+                },
+                {
+                  "texte": "Encourager et aider le déploiement des épiceries solidaires étudiantes"
+                },
+                {
+                  "texte": "Fonder une école de E-sport, développer et encadrer la pratique sportive numérique"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -554,9 +1284,108 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Désimperméabiliser et végétaliser la ville avec la plantation de 10 000 arbres"
+                },
+                {
+                  "texte": "Mettre en valeur les espaces naturels emblématiques : gorges de la Loire, Gouffre d'Enfer, parc de Montaud, parc de l'Europe, parc de Montreynaud, Jardin des Plantes"
+                },
+                {
+                  "texte": "Renaturer les friches non bâties et valoriser l'espace protégé du Bois d'Avaize et du parc de la Doa"
+                },
+                {
+                  "texte": "Créer des « parcours comestibles » dans la ville avec des vergers urbains pour des balades ludiques et éducatives"
+                },
+                {
+                  "texte": "Rouvrir des serres municipales accessibles à tous, lieu de recherche et d'éducation, et améliorer le fleurissement pour viser la 4e fleur"
+                },
+                {
+                  "texte": "Aménager un lieu de baignade naturelle populaire"
+                },
+                {
+                  "texte": "Renforcer le soutien aux jardins ouvriers et familiaux, sanctuariser les parcelles et encourager la diversification des jardiniers"
+                },
+                {
+                  "texte": "Appliquer la règle du « 3-30-300 » comme boussole : 3 arbres visibles depuis chaque domicile, 30% de couverture arborée, un espace vert à moins de 300 mètres, via un Pôle de l'arbre et du végétal urbain"
+                },
+                {
+                  "texte": "Préserver la faune lors de l'entretien des espaces verts et des travaux de construction avec l'appui d'écologues"
+                },
+                {
+                  "texte": "Intégrer la biodiversité dans les marchés publics et les projets d'infrastructure"
+                },
+                {
+                  "texte": "Développer les aires de jeux et de défoulement pour les animaux de compagnie"
+                },
+                {
+                  "texte": "Garantir un accueil digne des animaux recueillis (SPA, fourrière) : rénovation des locaux, chenil social, dispensaire vétérinaire"
+                },
+                {
+                  "texte": "Poursuivre le financement de la stérilisation des chats errants en partenariat avec les associations"
+                },
+                {
+                  "texte": "Expérimenter des modes de régulation non létale des animaux liminaires, notamment les pigeonniers contraceptifs"
+                },
+                {
+                  "texte": "Créer un cimetière animalier"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Création d'un « Central Park » stéphanois entre la place Grenette et la place Albert Thomas : grand poumon vert avec aires de jeux, parcours mobilité seniors et espaces de repos"
+                },
+                {
+                  "texte": "Plus de squares végétalisés et de jardins partagés dans tous les quartiers, intégrés à tous les projets urbains"
+                },
+                {
+                  "texte": "Plantation d'un arbre pour chaque naissance à Saint-Étienne"
+                },
+                {
+                  "texte": "Plantation massive de fleurs endémiques dans les parcs et jardins pour soutenir les insectes pollinisateurs"
+                },
+                {
+                  "texte": "Multiplier les micro-habitats pour les animaux urbains afin de préserver les espèces locales"
+                },
+                {
+                  "texte": "Distribution annuelle de nichoirs et graines de fleurs aux habitants pour la biodiversité"
+                },
+                {
+                  "texte": "Multiplier les ruches municipales avec actions de sensibilisation et ateliers de découverte"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Végétaliser nos places et continuer le renouvellement urbain en créant des îlots de fraîcheur pérenne"
+                },
+                {
+                  "texte": "Rénover le parc François Mitterrand pour en faire un vrai parc urbain et de nature au cœur de la ville, capable d'accueillir des événements"
+                },
+                {
+                  "texte": "Créer des espaces de fraîcheur partout en ville, avec plus d'arbres, d'ombre, de points d'eau et de sols perméables"
+                },
+                {
+                  "texte": "Transformer les grandes places et rues pour qu'elles soient plus végétales, plus agréables l'été et utilisables toute l'année"
+                },
+                {
+                  "texte": "Protéger les arbres existants, créer des refuges pour les pollinisateurs et limiter les espèces invasives en ville"
+                },
+                {
+                  "texte": "Mettre en place des actions en faveur des insectes pollinisateurs par la création de ruches municipales et encourager la production du miel local"
+                },
+                {
+                  "texte": "Continuer la lutte contre les frelons asiatiques et les espèces invasives comme la renouée du Japon"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -585,9 +1414,111 @@
                 "Propreté de la ville comme priorité du programme, avec des mesures concrètes de nettoyage."
               ]
             },
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Déployer des équipes de nettoyage permanentes et territorialisées par quartier pour un entretien continu et régulier"
+                },
+                {
+                  "texte": "Créer une brigade environnementale de sensibilisation et verbalisation contre les décharges sauvages, déjections canines et nuisances sonores"
+                },
+                {
+                  "texte": "Simplifier l'accès aux déchèteries pour les particuliers (QR codes, ouverture dominicale)"
+                },
+                {
+                  "texte": "Aménager la fréquence de collecte des ordures ménagères selon les besoins et veiller à la bonne rentrée des poubelles"
+                },
+                {
+                  "texte": "Assurer un service de collecte régulier et gratuit des encombrants et organiser la collecte des cartons via des points d'apport volontaire"
+                },
+                {
+                  "texte": "Accompagner les initiatives citoyennes de collecte de déchets : journées quartier propre, « plogging »"
+                },
+                {
+                  "texte": "Déployer une politique volontariste de lutte contre les tags"
+                },
+                {
+                  "texte": "Mobiliser des équipes de sensibilisation lors des grands événements"
+                },
+                {
+                  "texte": "Augmenter le nombre de toilettes publiques, les remettre en usage et les entretenir régulièrement"
+                },
+                {
+                  "texte": "Créer de nouveaux espaces canins et alimenter plus fréquemment les bornes de distribution de sacs à déjections"
+                },
+                {
+                  "texte": "Agir à la source pour réduire la production de déchets par des actions de sensibilisation et d'amélioration du tri"
+                },
+                {
+                  "texte": "Réexaminer toutes les alternatives à la construction d'un grand incinérateur à déchets"
+                },
+                {
+                  "texte": "Encourager le réemploi des matériaux : ressourcerie, lieu de bricolage et de réparation"
+                },
+                {
+                  "texte": "Créer une bibliothèque d'objets au sein d'une médiathèque pour emprunter gratuitement des objets d'utilisation ponctuelle"
+                },
+                {
+                  "texte": "Accompagner le développement d'une économie circulaire autour du biodéchet"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Grand nettoyage des rues dès les 100 premiers jours"
+                },
+                {
+                  "texte": "Repenser le service municipal de propreté avec multiplication des agents dans tous les quartiers et suivi quotidien"
+                },
+                {
+                  "texte": "Actions citoyennes de nettoyage en lien avec les associations et les écoles"
+                },
+                {
+                  "texte": "Suppression du QR code pour l'accès aux déchèteries afin de faciliter le tri et lutter contre les dépôts sauvages"
+                },
+                {
+                  "texte": "Renforcer le service des encombrants et augmenter sa fréquence pour limiter les dépôts sur l'espace public"
+                },
+                {
+                  "texte": "Déploiement de conteneurs enterrés pour réduire encombrement, pollution visuelle et odeurs"
+                },
+                {
+                  "texte": "Création de locaux poubelles intégrés au paysage urbain pour supprimer les poubelles stagnantes sur les trottoirs"
+                },
+                {
+                  "texte": "Installation de corbeilles à déchets doubles (tri sélectif) dans le centre-ville, les quartiers, les parcs et jardins"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Mettre fin au QR code d'accès aux déchetteries et réouverture le dimanche matin"
+                },
+                {
+                  "texte": "Créer une brigade permanente anti-tag et de lutte contre les dégradations dans l'espace public"
+                },
+                {
+                  "texte": "Lutter avec les propriétaires pour l'entretien et le nettoyage des immeubles tagués"
+                },
+                {
+                  "texte": "Déployer des caméras nomades pour repérer les dépôts sauvages et sanctionner les comportements illégaux"
+                },
+                {
+                  "texte": "Appliquer des amendes sévères pour les dépôts sauvages, les déjections canines et autres incivilités pouvant aller jusqu'à 1 500 euros"
+                },
+                {
+                  "texte": "Favoriser le service de ramassage à la demande des encombrants couplé à l'application MobiliSÉ"
+                },
+                {
+                  "texte": "Développer les points d'apports volontaires multi-matériaux enterrés et des conteneurs à carton d'emballage"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -608,9 +1539,48 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Découvrir le Furan en plusieurs endroits dans la ville pour retrouver de la fraîcheur grâce à la rivière oubliée"
+                },
+                {
+                  "texte": "Engager une politique volontariste d'amélioration de la qualité de l'air à travers un plan de protection de l'atmosphère"
+                },
+                {
+                  "texte": "Agir pour préserver les populations de pollinisateurs : lutte contre la prolifération du frelon asiatique, les pesticides"
+                },
+                {
+                  "texte": "Lutter contre l'exposition au bruit sur les secteurs les plus impactés (RN88)"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Déploiement d'îlots de fraîcheur et de brumisateurs accessibles à tous en ville"
+                },
+                {
+                  "texte": "Création d'un conseil local de la transition énergétique réunissant associations, entreprises et habitants"
+                },
+                {
+                  "texte": "Citernes de récupération des eaux de pluie dans les parcs et jardins pour un arrosage responsable"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Adapter la ville aux enjeux du changement climatique par un plan d'aménagement de l'espace public répondant aux risques d'inondation et de canicule"
+                },
+                {
+                  "texte": "Développer des quartiers plus autonomes avec des jardins partagés, potagers urbains et espaces de compostage accessibles"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -634,9 +1604,60 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Expérimenter un dispositif de « tiers-payant énergétique » pour les propriétaires modestes : la collectivité avancera les aides pour la rénovation thermique"
+                },
+                {
+                  "texte": "Repenser et moderniser l'éclairage public pour favoriser les économies d'énergie tout en répondant aux besoins des habitants et de la biodiversité (pilotage intelligent)"
+                },
+                {
+                  "texte": "Accélérer la rénovation énergétique des bâtiments communaux"
+                },
+                {
+                  "texte": "Entretenir et poursuivre l'installation de panneaux photovoltaïques sur les équipements communaux ainsi que les réseaux de chaleur"
+                },
+                {
+                  "texte": "Réaliser un diagnostic patrimonial complet des bâtiments municipaux (accessibilité PMR, performance énergétique, amiante) et planifier un programme de rénovation"
+                },
+                {
+                  "texte": "Privilégier l'emploi de matériaux recyclés et biosourcés pour la construction et rénovation des bâtiments municipaux"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Accélérer la rénovation thermique des bâtiments municipaux dont les EHPAD et les écoles"
+                },
+                {
+                  "texte": "Éclairage public durable par remplacement progressif des installations par des solutions écologiques et intelligentes"
+                },
+                {
+                  "texte": "Accélération de la solarisation des bâtiments et parkings municipaux"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Réduire la consommation énergétique des bâtiments municipaux et continuer le plan de passage aux luminaires LED"
+                },
+                {
+                  "texte": "Produire localement de l'énergie propre en équipant les bâtiments municipaux de panneaux solaires et en développant la géothermie"
+                },
+                {
+                  "texte": "Réduire les factures d'énergie en poursuivant la rénovation thermique des bâtiments publics"
+                },
+                {
+                  "texte": "Encourager la construction de bâtiments à énergie positive, utilisation de panneaux photovoltaïques, de biocarburant ou de géothermie"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -655,9 +1676,36 @@
           "nom": "Alimentation durable",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Développer l'alimentation bio et locale dans les crèches, écoles et maisons de retraite"
+                },
+                {
+                  "texte": "Renforcer l'agriculture urbaine et la culture maraîchère aux portes de la ville et faire plus de place aux marchés de producteurs locaux bio"
+                },
+                {
+                  "texte": "Favoriser l'installation de paysans sur des modèles d'exploitation plus écologiques"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Soutenir les circuits courts et favoriser les marchés de producteurs locaux, sensibilisation à une alimentation responsable"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Poursuivre la politique en faveur du développement des jardins familiaux et de l'alimentation saine"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -688,14 +1736,56 @@
           "propositions": {
             "cinieri": null,
             "juanico": {
-              "source": "France Bleu, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-saint-etienne-loire/l-invite-d-ici-matin-regis-juanico-chef-de-file-de-la-liste-rassembler-saint-etienne-3268244",
               "mesures": [
-                "Déployer des médicobus pour rapprocher les soins des habitants éloignés des services médicaux."
-              ]
+                {
+                  "texte": "Créer un Centre municipal de santé pluridisciplinaire avec professionnels salariés, implanté en centre-ville avec antennes dans les quartiers touchés par la désertification médicale"
+                },
+                {
+                  "texte": "Déployer des « Médicobus » : permanences itinérantes en véhicules équipés pour consultations médicales et dépistages de proximité"
+                },
+                {
+                  "texte": "Accompagner la recherche d'un médecin traitant par une plateforme municipale recensant les professionnels de santé"
+                },
+                {
+                  "texte": "Faciliter l'installation de nouveaux médecins : aide à la recherche, adaptation et mise en accessibilité des locaux"
+                },
+                {
+                  "texte": "Favoriser les coopérations entre médecine de ville et hôpital pour une meilleure coordination des parcours de soins"
+                }
+              ],
+              "source": null
             },
-            "le-jaouen": null,
-            "chassaubene": null,
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Mutuelle municipale : couverture santé à prix réduit pour tous les Stéphanois"
+                },
+                {
+                  "texte": "Création d'un réseau de relais de médecins pour assurer une présence dans un centre de soins municipal et en consultations itinérantes"
+                },
+                {
+                  "texte": "Encourager les stages d'étudiants en médecine à Saint-Étienne avec conditions d'accueil attractives"
+                },
+                {
+                  "texte": "Faciliter l'installation de professionnels et de maisons de santé par mise à disposition de locaux et simplification des démarches"
+                },
+                {
+                  "texte": "Contrats locaux de santé avec les acteurs du territoire pour améliorer l'accès aux soins, la prévention et la coordination"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Créer des maisons de santé pluridisciplinaires à Terrenoire et Tarentaize"
+                },
+                {
+                  "texte": "Favoriser l'installation des médecins et professionnels de santé"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -714,9 +1804,60 @@
           "nom": "Prévention santé",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Prévenir les facteurs de risques dans le cadre d'un vaste « plan santé » : santé environnementale, activité physique, alimentation saine, dépistages"
+                },
+                {
+                  "texte": "Mettre en place une mutuelle santé communale pour lutter contre le non-recours aux soins pour raisons financières"
+                },
+                {
+                  "texte": "Déployer des actions de prévention contre toutes les addictions, avec attention particulière à l'addiction aux écrans chez les jeunes"
+                },
+                {
+                  "texte": "Accompagner les acteurs de la santé mentale et former aux premiers secours en santé mentale"
+                },
+                {
+                  "texte": "Soutenir les initiatives du CHU visant à renforcer l'offre de soins en psychiatrie"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Multiplier les actions de sensibilisation et de dépistage dans les quartiers"
+                },
+                {
+                  "texte": "Renforcer l'observatoire de la santé en partenariat avec l'ARS pour mieux orienter les décisions municipales"
+                },
+                {
+                  "texte": "Soins psychologiques accessibles : permanences de professionnels libéraux dans des lieux municipaux et création d'un annuaire dédié"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Mettre en place un plan municipal pour la santé mentale : lutte contre le harcèlement, prévention du suicide pour les adolescents"
+                },
+                {
+                  "texte": "Poursuivre les campagnes de dépistage et les actions de « aller vers » pour se rapprocher des personnes éloignées du soin"
+                },
+                {
+                  "texte": "Poursuivre et ancrer le Plan Cancer municipal en portant une attention particulière sur le sommeil et la qualité de vie"
+                },
+                {
+                  "texte": "Mettre en place un grand plan de lutte contre les addictions et le fléau du protoxyde d'azote"
+                },
+                {
+                  "texte": "Lutter contre la précarité menstruelle en mettant en place la distribution gratuite de protections périodiques"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -738,9 +1879,105 @@
           "nom": "Seniors",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Mieux accompagner les démarches administratives des seniors en renforçant la présence physique dans les services municipaux"
+                },
+                {
+                  "texte": "Mettre en place un référent municipal du lien social par quartier et soutenir les démarches d'« aller vers » pour les seniors"
+                },
+                {
+                  "texte": "Diversifier les offres du Pass sénior et le rendre accessible dès la retraite pour favoriser l'accès au sport, à la culture et à la convivialité"
+                },
+                {
+                  "texte": "Mettre en place la gratuité des transports pour les bénéficiaires du minimum vieillesse"
+                },
+                {
+                  "texte": "Soutenir les projets d'habitat partagé et intergénérationnel contre la perte d'autonomie et l'isolement"
+                },
+                {
+                  "texte": "Garantir la diversité et la qualité de l'alimentation en résidence municipale"
+                },
+                {
+                  "texte": "Améliorer le taux d'encadrement dans les EHPAD municipaux pour une meilleure qualité d'accueil"
+                },
+                {
+                  "texte": "Renforcer les services du CCAS pour le maintien à domicile (portage de repas, etc.)"
+                },
+                {
+                  "texte": "Identifier toutes les personnes isolées pour intervenir en cas de besoin (canicule, nouveaux services)"
+                },
+                {
+                  "texte": "Expérimenter le dispositif d'EHPAD « hors les murs » pour un suivi médicalisé à domicile"
+                },
+                {
+                  "texte": "Offrir des possibilités de répit aux aidants : accueil de jour, places d'accueil court séjour, hébergement temporaire"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Accompagner le maintien à domicile des seniors en participant au financement du reste à charge pour les travaux MaPrimeAdapt'"
+                },
+                {
+                  "texte": "Aides à l'adaptation des domiciles pour favoriser l'autonomie, la mobilité et l'indépendance, en lien avec le CCAS"
+                },
+                {
+                  "texte": "Isolation thermique des EHPAD municipaux pour plus de confort et de sécurité des résidents"
+                },
+                {
+                  "texte": "Élargir les dispositifs Bons Taxis / Pass Loisirs à des services de la vie quotidienne (ex. prestations coiffeurs)"
+                },
+                {
+                  "texte": "Parcours autonomie dans les quartiers : espaces permettant aux personnes âgées de travailler leur mobilité"
+                },
+                {
+                  "texte": "Espaces de repos adaptés pour les seniors avec mobilier urbain étudié en concertation"
+                },
+                {
+                  "texte": "« Raconte-moi ton histoire » : intervention de personnes âgées auprès des structures d'éducation populaire pour partage et témoignage"
+                },
+                {
+                  "texte": "Ateliers « transmission » dans les quartiers pour encourager le partage de savoir intergénérationnel et lutter contre l'isolement"
+                },
+                {
+                  "texte": "Points d'accueil dans les quartiers pour les personnes âgées, les aidants et les jeunes isolés"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Maintenir l'exigence du label Platine « Ville amie des aînés »"
+                },
+                {
+                  "texte": "Créer un plan municipal « Bien vieillir à domicile » d'aide aux familles dans l'adaptation du logement par le design et le développement des résidences autonomies"
+                },
+                {
+                  "texte": "Mettre en place des restaurants partagés intergénérationnels pour lutter contre l'isolement et la malnutrition des personnes âgées"
+                },
+                {
+                  "texte": "Créer un club municipal multisports seniors"
+                },
+                {
+                  "texte": "Développer la créativité avec les projets artistiques intergénérationnels dans les établissements"
+                },
+                {
+                  "texte": "Créer une plateforme municipale d'entraide intergénérationnelle"
+                },
+                {
+                  "texte": "Créer une porte d'entrée unique pour les démarches administratives des aidants liées au grand âge"
+                },
+                {
+                  "texte": "Augmenter l'offre du Pass Seniors"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -770,8 +2007,31 @@
           "nom": "Budget participatif",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Repenser en profondeur le fonctionnement des conseils de quartier pour qu'ils redeviennent des lieux de co-construction avec un budget dédié"
+                },
+                {
+                  "texte": "Instaurer un droit d'initiative citoyenne permettant de saisir le conseil municipal et d'inscrire un sujet à l'ordre du jour"
+                },
+                {
+                  "texte": "Créer une Assemblée citoyenne dont les membres, pour partie tirés au sort, pourront transmettre des avis et recommandations, et initier des Conventions citoyennes locales"
+                },
+                {
+                  "texte": "Mettre en place un budget participatif : les habitants décideront de l'affectation d'une partie du budget municipal à des projets qu'ils auront pensés et décidés"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Budget participatif d'1 million d'euros par an pour financer des projets portés par les Stéphanois dans chaque quartier"
+                }
+              ],
+              "source": null
+            },
             "chassaubene": null,
             "labich": null,
             "mercier": {
@@ -798,14 +2058,77 @@
           "propositions": {
             "cinieri": null,
             "juanico": {
-              "source": "France 3, 2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/loire/saint-etienne/reduire-de-15-de-l-indemnite-du-maire-une-mesure-annoncee-par-regis-juanico-candidat-aux-municipales-de-saint-etienne-3290505.html",
               "mesures": [
-                "Réduire de 15% l'indemnité du maire (de 4 000 à 3 500 € nets) pour restaurer la confiance après l'affaire Perdriau."
-              ]
+                {
+                  "texte": "Diminuer l'indemnité du maire"
+                },
+                {
+                  "texte": "Publier l'ensemble des rémunérations et indemnités des élus, soumises à obligation d'assiduité avec pénalités financières"
+                },
+                {
+                  "texte": "Assainir le fonctionnement du Cabinet du Maire : interdiction des emplois familiaux, publication de sa composition et des rémunérations"
+                },
+                {
+                  "texte": "Encadrer strictement les frais de représentation des élus"
+                },
+                {
+                  "texte": "Mettre en retrait tout élu mis en examen pour des délits graves"
+                },
+                {
+                  "texte": "Garantir la transparence sur l'utilisation de la « réserve du maire »"
+                },
+                {
+                  "texte": "Créer un comité de déontologie présidé par une personnalité qualifiée et impliquant des habitants"
+                },
+                {
+                  "texte": "Évaluer systématiquement les politiques publiques municipales en mobilisant l'expertise des acteurs locaux"
+                },
+                {
+                  "texte": "Mettre en place des critères transparents et co-construits pour l'attribution des subventions aux associations"
+                }
+              ],
+              "source": null
             },
-            "le-jaouen": null,
-            "chassaubene": null,
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Transparence financière : rendre le budget municipal accessible et compréhensible avec un plan « 1 euro dépensé = 1 euro justifié »"
+                },
+                {
+                  "texte": "Publication annuelle de rapports et d'indicateurs de suivi des politiques municipales (éducation, sécurité, transition énergétique)"
+                },
+                {
+                  "texte": "Communication lisible et accessible sur les services, projets et événements de la mairie"
+                },
+                {
+                  "texte": "Consultation citoyenne tout au long du mandat sur les projets impactant le mode de vie des habitants"
+                },
+                {
+                  "texte": "Commissions thématiques avec élus, techniciens, associations, habitants et professionnels"
+                },
+                {
+                  "texte": "Conseils de quartiers indépendants pour une prise en compte des besoins de chaque secteur"
+                },
+                {
+                  "texte": "Création d'un Conseil municipal de concertation éducative associant enseignants, acteurs de l'éducation populaire et parents"
+                },
+                {
+                  "texte": "Publication annuelle d'un rapport municipal sur l'école publique"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Poursuivre une gestion rigoureuse et responsable : maîtriser les dépenses et réduire la dette sans faire peser la charge sur les habitants"
+                },
+                {
+                  "texte": "Associer les habitants et la jeunesse en les impliquant dans les projets qui engagent l'avenir de leur quartier et de la ville"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -834,9 +2157,60 @@
           "nom": "Vie associative",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Attribuer les subventions aux associations avec transparence sur la base de critères travaillés au sein du Conseil consultatif de la vie associative"
+                },
+                {
+                  "texte": "Simplifier les démarches administratives pour les associations afin de libérer du temps aux salariés et bénévoles"
+                },
+                {
+                  "texte": "Reconnaître, accompagner et valoriser l'engagement bénévole"
+                },
+                {
+                  "texte": "Exonérer les associations stéphanoises de la taxe d'habitation"
+                },
+                {
+                  "texte": "Ouvrir une nouvelle Maison des associations en réponse à la forte demande de locaux"
+                },
+                {
+                  "texte": "Renouer un dialogue constructif au sein du Conseil de l'éducation populaire pour les centres sociaux et amicales laïques"
+                },
+                {
+                  "texte": "Sécuriser les financements des structures d'éducation populaire dans la durée par des subventions pluriannuelles"
+                },
+                {
+                  "texte": "Favoriser les projets innovants des structures d'éducation populaire en lien avec les équipements culturels et sportifs"
+                },
+                {
+                  "texte": "Mieux accompagner les acteurs de l'inclusion numérique œuvrant pour l'accès aux droits"
+                },
+                {
+                  "texte": "Poursuivre la rénovation des centres sociaux et réactiver le projet de création d'un nouveau centre social à Montreynaud"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Simplifier les démarches administratives pour les associations afin de leur permettre de se concentrer sur leurs missions"
+                },
+                {
+                  "texte": "Soutenir et valoriser les associations et clubs sportifs par des aides financières, un accompagnement logistique et la promotion de leurs actions"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Ouvrir la concertation sur l'avenir de la Bourse du Travail"
+                }
+              ],
+              "source": null
+            },
             "labich": {
               "source": "France Bleu, 2026",
               "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-siham-labich-officiellement-candidate-deuxieme-liste-issue-de-la-majorite-a-saint-etienne-3748819",
@@ -865,8 +2239,55 @@
           "nom": "Services publics",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Développer la transversalité entre les services municipaux pour une meilleure coopération"
+                },
+                {
+                  "texte": "Fonder la politique de management sur la confiance et l'égalité de traitement avec un Observatoire des métiers et de la prévention des risques psychosociaux"
+                },
+                {
+                  "texte": "Rétablir un vrai dialogue social avec les organisations représentatives du personnel par le respect des instances de concertation"
+                },
+                {
+                  "texte": "Renforcer les moyens de la médecine du travail et favoriser la prévention par la promotion des activités physiques et sportives pour les agents"
+                },
+                {
+                  "texte": "Garantir l'égalité salariale femmes-hommes dans la fonction publique municipale et briser le plafond de verre"
+                },
+                {
+                  "texte": "Ouvrir les places non occupées dans les crèches municipales aux enfants des agents ne résidant pas dans la commune"
+                },
+                {
+                  "texte": "Former les personnels municipaux aux enjeux de non-discrimination, respect de l'égalité et premiers secours en santé mentale"
+                },
+                {
+                  "texte": "Mieux rationaliser les dépenses et l'organisation entre la Ville et la Métropole en réexaminant les mutualisations"
+                },
+                {
+                  "texte": "Repenser le modèle économique de l'aéroport d'Andrézieux-Bouthéon pour le rendre moins dépendant de l'argent public"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Le maire prendra en charge les Ressources Humaines au minimum la première année pour instaurer un dialogue direct avec les agents"
+                },
+                {
+                  "texte": "Rencontre avec les organisations représentatives du personnel dès les premiers jours après l'élection"
+                },
+                {
+                  "texte": "Égalité salariale homme/femme dans la fonction publique municipale"
+                },
+                {
+                  "texte": "Des toilettes publiques propres, accessibles et confortables pour tous"
+                }
+              ],
+              "source": null
+            },
             "chassaubene": null,
             "labich": null,
             "mercier": {
@@ -902,9 +2323,69 @@
                 "Chaque euro investi via la commande publique doit être dirigé vers l'économie locale et la création d'emplois."
               ]
             },
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "S'opposer à toute extension ou implantation de nouvelles zones commerciales en périphérie"
+                },
+                {
+                  "texte": "Déployer une politique d'animation ambitieuse du centre-ville avec chaque mois une grande animation populaire"
+                },
+                {
+                  "texte": "Favoriser la venue de nouvelles locomotives commerciales et activités (loisirs, services) en proposant des locaux requalifiés"
+                },
+                {
+                  "texte": "Mobiliser tous les leviers fonciers pour augmenter l'offre de locaux disponibles : initiatives associatives, foncière commerciale"
+                },
+                {
+                  "texte": "Établir un partenariat ville-commerçants via un conseil stratégique du commerce avec manager-référent et dispositif de « bons d'achat »"
+                },
+                {
+                  "texte": "Installer une « pépinière » dédiée aux commerces sous les arcades de l'Hôtel de Ville pour tester de nouvelles activités"
+                },
+                {
+                  "texte": "Maintenir l'éclairage nocturne des zones commerçantes"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Redéfinir le parcours commerçant avec cheminements identifiables par des marqueurs visuels forts et aménagement spécifique"
+                },
+                {
+                  "texte": "Animations régulières en centre-ville (marchés à thème, spectacles, défilés) imaginées avec les associations de commerçants"
+                },
+                {
+                  "texte": "Implantation et maintien des commerces de proximité dans les quartiers"
+                },
+                {
+                  "texte": "Expérimentation de baux commerciaux temporaires pour encourager les porteurs de projets"
+                },
+                {
+                  "texte": "Stratégie urbaine incluant la prise en compte des flux, mobilité et visibilité des commerces dans tous les projets d'aménagement"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Créer une nouvelle aide à l'installation des commerces en partenariat avec la CCI et les associations de commerçants"
+                },
+                {
+                  "texte": "Lancer un grand plan de rénovation du centre-ville avec la rénovation des places Hôtel-de-Ville, Jean-Jaurès, Place du Peuple et les axes qui les relient"
+                },
+                {
+                  "texte": "Renforcer les événements et festivals existants (Pléiades, Sainte-Barbe, Street Food Festival) pour faire vivre le centre-ville toute l'année"
+                },
+                {
+                  "texte": "Lancer un appel à manifestation d'intérêt pour la création d'animations gérées par les commerçants"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -936,9 +2417,69 @@
                 "Retenir les 30 000 étudiants formés à Saint-Étienne en créant des passerelles entre formations et entreprises locales pour leur premier emploi."
               ]
             },
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Favoriser la formation et l'accès à l'emploi des jeunes via la mission locale, les écoles de production, l'école de la seconde chance"
+                },
+                {
+                  "texte": "Mettre en place la démarche « Territoire zéro chômeur de longue durée »"
+                },
+                {
+                  "texte": "Conditionner les aides aux entreprises à la création ou au maintien de l'emploi avec obligation de remboursement en cas de délocalisation"
+                },
+                {
+                  "texte": "Garantir un soutien actif aux salariés en cas de menace sur l'emploi et accompagner les reclassements et reconversions"
+                },
+                {
+                  "texte": "S'engager pour une commande publique responsable encourageant la participation des TPE et artisans locaux"
+                },
+                {
+                  "texte": "Développer les achats publics responsables : soutien à l'emploi local, ESS, entreprises adaptées, clauses sociales et environnementales"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Objectif de 6 000 emplois créés dans le cœur de ville sur la durée du mandat"
+                },
+                {
+                  "texte": "Création d'un Conseil de reconquête économique réunissant entreprises et organisations syndicales avec engagements sur le maintien et la création d'emplois"
+                },
+                {
+                  "texte": "Choc de simplification administrative pour faciliter l'implantation des entreprises à Saint-Étienne"
+                },
+                {
+                  "texte": "Label RSE territorial à l'échelle métropolitaine pour valoriser les entreprises engagées"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Développer les clauses sociales dans les marchés publics accordés aux entreprises"
+                },
+                {
+                  "texte": "Soutenir de façon constante les structures d'insertion par l'activité économique"
+                },
+                {
+                  "texte": "Renforcer les actions en faveur de l'insertion professionnelle des personnes en situation de handicap"
+                },
+                {
+                  "texte": "Développer les forums emplois pour rapprocher l'offre et la demande d'emplois"
+                },
+                {
+                  "texte": "Structurer le plan jeune emploi avec une plateforme unique d'offres d'emplois à Saint-Étienne"
+                },
+                {
+                  "texte": "Favoriser le maintien ou le retour à l'emploi et lutter contre les discriminations liées à l'état de santé"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -960,15 +2501,75 @@
           "nom": "Attractivité",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": {
-              "source": "France Bleu, 2025",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/eric-le-jaouen-candidat-aux-municipales-a-saint-etienne-pour-redonner-un-elan-a-la-ville-6315268",
+            "juanico": {
               "mesures": [
-                "Redonner un élan économique à Saint-Étienne, liste du renouveau de la droite et du centre."
-              ]
+                {
+                  "texte": "Instaurer un guichet unique d'accompagnement à l'installation des entreprises, commerçants et artisans, en facilitant l'accès au foncier et aux aides"
+                },
+                {
+                  "texte": "Renforcer le soutien à l'économie sociale et solidaire (ESS) et créer une « Cité de l'ESS »"
+                },
+                {
+                  "texte": "Soutenir la réindustrialisation locale et les filières stratégiques : optique, photonique, textile sportif et médical, bâtiment, IA"
+                },
+                {
+                  "texte": "Redonner au design sa dimension populaire en le faisant entrer dans l'espace public et le quotidien des Stéphanois"
+                },
+                {
+                  "texte": "Soutenir une offre diversifiée de festivals et accompagner de nouveaux événements (cinéma, mode, arts numériques, cosplay)"
+                },
+                {
+                  "texte": "Relancer le Festival « Arts dans la ville » mêlant arts amateurs et professionnels à travers toute la ville"
+                },
+                {
+                  "texte": "Jouer la carte du tourisme gastronomique en aidant à l'installation de nouveaux chefs"
+                },
+                {
+                  "texte": "Mettre en valeur le patrimoine ouvrier et paysager à travers un « Parcours des crassiers » et œuvrer pour la reconnaissance patrimoniale du bassin minier"
+                },
+                {
+                  "texte": "Valoriser les trésors cachés de la ville : accessibilité des traboules, parcours de découverte des ouvrages historiques dans tous les quartiers"
+                },
+                {
+                  "texte": "Ouvrir des points relais de l'Office du Tourisme pérennes ou temporaires à proximité des lieux remarquables"
+                },
+                {
+                  "texte": "Aménager la zone autour du stade Geoffroy Guichard avec espaces conviviaux et ombragés pour mieux accueillir les supporters"
+                }
+              ],
+              "source": null
             },
-            "chassaubene": null,
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Fiscalité municipale stable pour les entreprises avec allègements ciblés (taxe d'aménagement) en contrepartie d'engagements sur l'emploi local"
+                },
+                {
+                  "texte": "Remise à plat de la stratégie foncière dès le début de mandat avec les organisations professionnelles du bâtiment"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Contribuer à l'installation et à la création d'entreprises en lien avec Saint-Étienne Métropole"
+                },
+                {
+                  "texte": "Renforcer les liens avec la CCI, la Chambre des métiers, l'Adie, Face, la Mife"
+                },
+                {
+                  "texte": "Créer des zones d'activités (ex : ZAC Pierre Loti) ou des pépinières d'entreprises pour des emplois de proximité"
+                },
+                {
+                  "texte": "Préparer le retour de l'industrie et de l'artisanat avec des zones adaptées pour créer des emplois locaux et durables"
+                },
+                {
+                  "texte": "Favoriser l'accueil et l'installation d'entreprises à travers une veille foncière renforcée et de nouveaux dispositifs d'accompagnement via Saint-Étienne Métropole"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -1001,9 +2602,81 @@
           "nom": "Équipements culturels",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Instaurer la gratuité des musées chaque dimanche, pas seulement le premier du mois"
+                },
+                {
+                  "texte": "Rendre gratuit l'accès aux médiathèques pour toutes et tous"
+                },
+                {
+                  "texte": "Ouvrir une grande médiathèque dans le nord de la ville par relocalisation de celle de Carnot à la Cité du Design et création d'une antenne à Montreynaud"
+                },
+                {
+                  "texte": "Étendre les horaires d'ouverture des médiathèques en concertation avec les personnels et les usagers"
+                },
+                {
+                  "texte": "Impliquer la population par la création de comités d'usagers dans les grands équipements culturels"
+                },
+                {
+                  "texte": "Accélérer et amplifier la rénovation du Musée de la Mine et développer les activités scientifiques et ludiques avec Explora et l'École des Mines"
+                },
+                {
+                  "texte": "Redéfinir le projet culturel de l'Opéra pour l'ouvrir à une plus grande diversité de pratiques et de publics"
+                },
+                {
+                  "texte": "Revoir en profondeur le modèle économique, la gouvernance et les missions de la Cité du Design"
+                },
+                {
+                  "texte": "Mieux valoriser les collections du Musée d'Art Moderne et Contemporain et développer une artothèque"
+                },
+                {
+                  "texte": "Engager une rénovation de la Bourse du Travail en maintenant les syndicats et en créant une salle culturelle et citoyenne"
+                },
+                {
+                  "texte": "Accompagner la pratique amateur en dédiant plus d'espaces de travail et créer une nouvelle Maison de la Culture dans les quartiers sud-est"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Rénovation et mise en lumière de l'école des beaux-arts via le grand projet urbain de centre-ville, pour accueillir des associations culturelles"
+                },
+                {
+                  "texte": "Réflexion sur la création d'un musée de l'Action syndicale et du mouvement mutualiste à la Bourse du travail"
+                },
+                {
+                  "texte": "Création d'un véritable mémorial de la Résistance pour l'accueil des scolaires et collégiens, retraçant l'histoire locale"
+                },
+                {
+                  "texte": "Rénovation et mise en lumière du patrimoine architectural pour le rendre plus accessible et attractif"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Proposer un nouveau Conservatoire Massenet moderne adapté aux ambitions d'un Conservatoire à Rayonnement Régional"
+                },
+                {
+                  "texte": "Développer une école municipale pour les Arts Plastiques et le théâtre"
+                },
+                {
+                  "texte": "Créer un nouveau Centre d'art intégrant des ateliers pour les artistes plasticiens et visuels et de nouveaux espaces d'exposition"
+                },
+                {
+                  "texte": "Restaurer le Kiosque de la place Jean Jaurès et création d'une animation permanente"
+                },
+                {
+                  "texte": "Réinstaurer une politique patrimoniale métropolitaine à travers le label « Pays d'Art et d'Histoire »"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -1028,9 +2701,72 @@
           "nom": "Événements & Création",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Affirmer l'éducation artistique et culturelle comme vecteur majeur de la culture pour tous, des jeunes aux seniors"
+                },
+                {
+                  "texte": "Garantir la transparence et l'équité des aides culturelles municipales et faire du Conseil consultatif de la culture une instance de co-construction dotée d'un budget participatif"
+                },
+                {
+                  "texte": "Refaire de la « Fête du Livre » un grand événement populaire incluant les acteurs locaux du livre et de l'éducation populaire"
+                },
+                {
+                  "texte": "Soutenir les emplois culturels locaux par une aide à la création, à la diffusion et à la médiation"
+                },
+                {
+                  "texte": "Reconnaître et soutenir les cultures émergentes et populaires : cultures urbaines, gaming, musiques actuelles, culture de l'image"
+                },
+                {
+                  "texte": "Valoriser le patrimoine social, ferroviaire, architectural, industriel et minier stéphanois : appui à la reconnaissance des monuments historiques"
+                },
+                {
+                  "texte": "Promouvoir une culture plus sobre et résiliente fondée sur la mutualisation et le réemploi"
+                },
+                {
+                  "texte": "Promouvoir l'égalité femmes-hommes dans la culture par un accès équitable aux financements, espaces de création et visibilité"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Réinventer la politique culturelle autour du design, héritage du passé industriel, en la rapprochant des habitants et des entreprises"
+                },
+                {
+                  "texte": "Parcours thématiques gratuits en ville pour valoriser le patrimoine : parcours Ella&Pitr, parcours Art déco"
+                },
+                {
+                  "texte": "Street art pour requalifier l'espace public : lieux d'expression pour artistes afin de recouvrir les graffitis sauvages et colorer les rues"
+                },
+                {
+                  "texte": "Festival interculturel de danse, musique et arts en partenariat avec les associations locales"
+                },
+                {
+                  "texte": "Réinventer la fête du livre avec une programmation modernisée et créative pour tous les publics"
+                },
+                {
+                  "texte": "Grande fête du vélo : histoire du cycle, compétitions, parcours d'initiation, marché de la seconde main et prévention sécurité"
+                },
+                {
+                  "texte": "Réflexion sur la rénovation de la Bourse du Travail en association avec les organisations utilisatrices"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Renforcer le soutien des festivals et favoriser leur présence en cœur de ville"
+                },
+                {
+                  "texte": "Étendre le festival de la création numérique Pléiades"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -1055,9 +2791,51 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Effectuer un diagnostic sur la vétusté des équipements sportifs pour établir les priorités de rénovation ou construction : gymnases, dojos, piscines, patinoire, pétanquodrome"
+                },
+                {
+                  "texte": "Étudier l'opportunité d'un nouvel équipement sportif métropolitain couvert intégrant vélodrome, athlétisme et autres disciplines"
+                },
+                {
+                  "texte": "Construire une nouvelle piscine dans les quartiers sud de Saint-Étienne pour assurer le savoir-nager des enfants"
+                },
+                {
+                  "texte": "Réouvrir et sécuriser les balcons de Geoffroy Guichard"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Création d'un grand pôle multisports en cœur de ville sur le parking des Ursules, incluant une nouvelle salle municipale multisports"
+                },
+                {
+                  "texte": "Accélérer la modernisation et l'entretien des infrastructures sportives : confort thermique, éclairage, bancs dans les espaces extérieurs"
+                },
+                {
+                  "texte": "Sécuriser et moderniser les stades de Méons et de l'Étivallière : rénovation des pistes et éclairage adapté"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Lancer l'extension de la Piscine olympique Raymond Sommet avec un nouveau bassin extérieur et une zone aqualudique"
+                },
+                {
+                  "texte": "Lancer un plan Sport 2035 de rénovation de l'ensemble des équipements sportifs de la ville"
+                },
+                {
+                  "texte": "Créer une Cité des Sports urbains dans l'ancien bâtiment EDF, quartier Carnot"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -1077,9 +2855,57 @@
           "nom": "Sport pour tous",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Soutenir les associations sportives, moteurs de lien social et d'animation"
+                },
+                {
+                  "texte": "Majorer les aides financières pour le sport féminin et les parasports"
+                },
+                {
+                  "texte": "Développer le « sport sur ordonnance » pour les malades chroniques et la prévention de la perte d'autonomie des seniors"
+                },
+                {
+                  "texte": "Déployer le « design actif » par l'aménagement des espaces publics et bâtiments pour inciter au mouvement partout en ville"
+                },
+                {
+                  "texte": "Aménager les abords des écoles pour favoriser les mobilités actives, des cours de récréation plus inclusives et sportives, et expérimenter les pauses actives en classe"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Festival des sports dans tous les quartiers proposant des initiations gratuites"
+                },
+                {
+                  "texte": "Le sport de l'année : mise en lumière chaque année d'une discipline sportive via tournois, initiations, rencontres avec les athlètes et expositions"
+                },
+                {
+                  "texte": "Trophée des 12 courses : une course à pied chaque mois dans différents quartiers pour animer la ville"
+                },
+                {
+                  "texte": "Pratique sportive encouragée et facilitée pour les agents de police municipale"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Soutenir le sport de haut niveau facteur d'attractivité et d'excellence pour la ville"
+                },
+                {
+                  "texte": "Favoriser le Sport Loisir avec des dispositifs de design actif pour inciter à la pratique spontanée et évolutive partout à Saint-Étienne"
+                },
+                {
+                  "texte": "Favoriser et soutenir une offre sportive complète spécifiquement dédiée aux personnes en situation de handicap en partenariat avec les clubs handisport"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -1105,14 +2931,77 @@
           "propositions": {
             "cinieri": null,
             "juanico": {
-              "source": "France Bleu, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-saint-etienne-loire/l-invite-d-ici-matin-regis-juanico-chef-de-file-de-la-liste-rassembler-saint-etienne-3268244",
               "mesures": [
-                "Développement de zones piétonnes en centre-ville."
-              ]
+                {
+                  "texte": "Mener un plan de mise en valeur du patrimoine bâti remarquable dans tous les quartiers pour renforcer l'attractivité résidentielle, commerciale et touristique"
+                },
+                {
+                  "texte": "Requalifier les entrées de ville pour les rendre plus vertes, lisibles et accueillantes"
+                },
+                {
+                  "texte": "Conduire un vaste projet de revitalisation du centre-ville et de ses places en intégrant les travaux de réfection de la plateforme du tram"
+                },
+                {
+                  "texte": "Transformer les Ursules (relocalisation du parking) en respectant le souhait de plus de nature en cœur de ville"
+                },
+                {
+                  "texte": "Faire de la Charité un quartier résidentiel ouvert et animé autour de l'ESS, l'éducation, la culture et la santé"
+                },
+                {
+                  "texte": "Repenser les abords du parc François Mitterrand et les friches environnantes comme leviers de transformation écologique et urbaine"
+                },
+                {
+                  "texte": "Limiter l'urbanisation de nouvelles parcelles, notamment à Saint-Victor-sur-Loire"
+                },
+                {
+                  "texte": "Mettre la politique d'urbanisme au service du « mieux habiter » : espaces publics de qualité, végétalisation, jardins partagés"
+                },
+                {
+                  "texte": "Mettre en œuvre le Règlement Local de Publicité Intercommunal et limiter la publicité sur l'espace public"
+                },
+                {
+                  "texte": "Rendre l'expérience de la ville plus agréable : mobilier urbain, fleurissement, valorisation du patrimoine architectural"
+                }
+              ],
+              "source": null
             },
-            "le-jaouen": null,
-            "chassaubene": null,
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Accélérer la rénovation des façades pour des quartiers plus harmonieux tout en valorisant leur identité et patrimoine"
+                },
+                {
+                  "texte": "Requalification des entrées de ville pour les rendre plus vertes et attractives"
+                },
+                {
+                  "texte": "Donner une identité visuelle forte aux grandes places du centre-ville par harmonisation des aménagements et du mobilier"
+                },
+                {
+                  "texte": "Design comme fil conducteur des aménagements : mobilier urbain, revêtements, signalétique, éclairage pour affirmer l'identité de capitale du design"
+                },
+                {
+                  "texte": "Repenser les revêtements des places centrales pour les rendre plus lisibles et plus sûres pour tous les usagers"
+                },
+                {
+                  "texte": "Structurer et ordonner l'espace public pour qu'il soit accessible et cohérent, en mettant fin aux aménagements sans vision d'ensemble"
+                },
+                {
+                  "texte": "Création de parcs canins avec lieu de bien-être animal, espaces de sociabilisation, points d'eau et équipements adaptés"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Réaménager nos places pour les rendre plus accessibles et confortables, avec plus de bancs, en supprimant les différences de niveaux et les sols glissants"
+                },
+                {
+                  "texte": "Porter une attention particulière à la valorisation des femmes remarquables dans le cadre des hommages publics"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -1136,9 +3025,63 @@
           "nom": "Accessibilité",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Prendre en compte tous les types de handicap dans l'aménagement urbain"
+                },
+                {
+                  "texte": "Généraliser des aménagements urbains favorables aux seniors et personnes à mobilité réduite : plans inclinés, rampes, bancs, fauteuils dans tous les quartiers et parcs"
+                },
+                {
+                  "texte": "Améliorer l'inclusivité et l'accessibilité des services publics : traduction, accompagnement humain, méthode Facile à Lire et à Comprendre"
+                },
+                {
+                  "texte": "Étudier la mise en place d'un Pass Handi'Loisirs sur le modèle du Pass Seniors pour les personnes en situation de handicap"
+                },
+                {
+                  "texte": "Renforcer l'accueil de stagiaires en situation de handicap au sein des services municipaux"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Trottoirs plus praticables pour les personnes âgées, les PMR et les femmes enceintes"
+                },
+                {
+                  "texte": "Penser l'accessibilité avec les habitants en élargissant les missions de la commission municipale"
+                },
+                {
+                  "texte": "Accessibilité renforcée dans tous les bâtiments municipaux et lieux essentiels pour la santé et l'autonomie"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Optimiser le dispositif de réservation Handi'Stas facilitant le retour à domicile après les spectacles"
+                },
+                {
+                  "texte": "Mettre en accessibilité totale les places dans le cadre de la rénovation du centre-ville"
+                },
+                {
+                  "texte": "Associer les référents handicap aux réunions de maîtrise d'œuvre de réception de travaux"
+                },
+                {
+                  "texte": "Identifier les lieux adaptés pour les personnes présentant un trouble du spectre autistique et un handicap psychique, par une signalétique dédiée"
+                },
+                {
+                  "texte": "Créer un Guichet unique municipal pour faciliter les démarches administratives des aidants liées au handicap"
+                },
+                {
+                  "texte": "Créer une porte d'entrée unique d'accueil et d'assistance aux aidants des personnes en situation de handicap, visible ou invisible"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -1158,7 +3101,14 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Rassembler les Stéphanois autour des grands projets en associant les habitants à toutes les phases des projets qui transformeront leur quartier (Charité, Ursules, Bâtiment des Beaux-Arts, abords du stade)"
+                }
+              ],
+              "source": null
+            },
             "le-jaouen": null,
             "chassaubene": null,
             "labich": null,
@@ -1185,9 +3135,54 @@
           "nom": "Aide sociale",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "S'engager dans la démarche « Territoire zéro non-recours » pour faciliter l'accès aux droits sociaux"
+                },
+                {
+                  "texte": "Soutenir la création de postes d'écrivains publics dans les structures de quartier et le développement d'espaces publics numériques"
+                },
+                {
+                  "texte": "S'assurer que l'ensemble des politiques municipales soient accessibles aux plus précaires en recueillant la parole des premiers concernés"
+                },
+                {
+                  "texte": "Favoriser les initiatives contre l'isolement par la mobilisation des équipements municipaux et le soutien aux associations"
+                },
+                {
+                  "texte": "Accompagner les associations porteuses de projets d'épiceries solidaires, cantines solidaires, sécurité sociale de l'alimentation"
+                },
+                {
+                  "texte": "Adopter un plan d'actions dédié aux familles monoparentales : vision transversale, aménagement des horaires, tarifications spécifiques"
+                },
+                {
+                  "texte": "Soutenir les projets d'hébergement d'urgence à destination des jeunes LGBT+ en rupture familiale"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Création d'une épicerie sociale et solidaire en lien avec le CCAS pour soutenir les personnes en fragilité financière"
+                },
+                {
+                  "texte": "Lutte contre la précarité numérique"
+                },
+                {
+                  "texte": "Création d'un tiers-lieu ouvert et non stigmatisant inspiré du modèle « Audacieux » : espace de prévention, soutien et rayonnement pour les femmes"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Créer un lieu de refuge mixte Hommes/animaux pour les sans domicile fixe lors des périodes de grand froid"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -1211,9 +3206,51 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Rendre visible les luttes et droits LGBT+ dans l'espace public (rainbow flag sur passages cloutés) et mettre en place des formulaires inclusifs à l'état civil"
+                },
+                {
+                  "texte": "Faire de Saint-Étienne une ville accueillante avec des parrainages et marrainages républicains pour l'inclusion des personnes exilées"
+                },
+                {
+                  "texte": "Améliorer l'accueil et l'accompagnement des victimes d'actes haineux en lien avec les acteurs spécialisés"
+                },
+                {
+                  "texte": "Assurer une communication municipale représentative de la diversité de la population stéphanoise"
+                },
+                {
+                  "texte": "Créer une Université populaire de l'égalité, la laïcité et des luttes contre les discriminations"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Gouvernance partenariale pour le droit des femmes : diagnostic territorial, coordination des acteurs, labellisation nationale et partenariats publics-privés"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Intégrer la protection des animaux comme êtres sensibles dans toutes les politiques municipales et établir une charte et un budget dédié"
+                },
+                {
+                  "texte": "Lutter contre la maltraitance animale, combattre les abandons et sanctionner les élevages clandestins"
+                },
+                {
+                  "texte": "Poursuivre une gestion responsable des populations de chats errants et adapter la gestion des espèces dites invasives"
+                },
+                {
+                  "texte": "Créer un réseau d'accueil en famille d'animaux domestiques en cas d'hospitalisation ou de placement soudain"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",
@@ -1237,9 +3274,45 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "cinieri": null,
-            "juanico": null,
-            "le-jaouen": null,
-            "chassaubene": null,
+            "juanico": {
+              "mesures": [
+                {
+                  "texte": "Instaurer une tarification éco-solidaire de l'eau garantissant l'accès aux besoins vitaux et décourageant les consommations non responsables"
+                },
+                {
+                  "texte": "Maîtriser la fiscalité locale : ne pas reproduire l'augmentation brutale de la taxe foncière de 2023"
+                },
+                {
+                  "texte": "Organiser le partage de l'espace urbain en créant des locaux pour accueillir les coursiers entre deux livraisons"
+                }
+              ],
+              "source": null
+            },
+            "le-jaouen": {
+              "mesures": [
+                {
+                  "texte": "Stabilisation de la taxe foncière et trajectoire de diminution de la fiscalité locale au cours du mandat"
+                },
+                {
+                  "texte": "Plan global d'économies sur les dépenses de fonctionnement de la collectivité"
+                },
+                {
+                  "texte": "Création d'un groupement municipal d'achat pour négocier les tarifs des mutuelles de santé et de l'énergie pour tous les Stéphanois"
+                }
+              ],
+              "source": null
+            },
+            "chassaubene": {
+              "mesures": [
+                {
+                  "texte": "Utiliser la bonne santé financière de la ville pour engager des investissements ambitieux sans augmenter les impôts"
+                },
+                {
+                  "texte": "Préparer l'avenir sans hypothéquer celui des générations futures : une ville moins endettée est une ville plus libre d'agir demain"
+                }
+              ],
+              "source": null
+            },
             "labich": null,
             "mercier": {
               "source": "Programme Valentine Mercier, Saint-Étienne insoumise, 2026",

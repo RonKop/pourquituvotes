@@ -9,7 +9,7 @@
       "nom": "Dino Cinieri",
       "liste": "Saint-Étienne Ensemble 2026 (LR/UDI/Horizons/Renaissance/MoDem)",
       "programmeUrl": "https://www.cinieri2026.com/programme",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null
     },
     {
@@ -79,11 +79,27 @@
           "nom": "Police municipale",
           "propositions": {
             "cinieri": {
-              "source": "IF Saint-Étienne",
-              "sourceUrl": "https://www.if-saint-etienne.fr/politique-societe/municipales-2026-sans-surprise-dino-cinieri-menera-la-droite-et-le-centre-a-saint-etienne",
               "mesures": [
-                "Sécurité comme premier pilier du programme Saint-Étienne Ensemble 2026."
-              ]
+                {
+                  "texte": "Création d'une brigade canine d'intervention (BCI) au sein de la police municipale pour faciliter le dialogue et la prévention"
+                },
+                {
+                  "texte": "Redéploiement de policiers municipaux à pied, à moto et en vélo dans les quartiers pour une présence plus visible et plus efficace"
+                },
+                {
+                  "texte": "Renforcement des patrouilles de nuit des policiers municipaux pour sécuriser les rues 24h/24"
+                },
+                {
+                  "texte": "Coopération renforcée entre la police municipale et la police nationale : échanges d'informations hebdomadaires, opérations conjointes"
+                },
+                {
+                  "texte": "Fermeture des épiceries de nuit à 22h00 avec contrôles fréquents"
+                },
+                {
+                  "texte": "Dotation de boutons d'alerte chez les commerçants pour sécuriser les commerces"
+                }
+              ],
+              "source": null
             },
             "juanico": {
               "mesures": [
@@ -194,7 +210,20 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Extension du réseau de caméras de vidéoprotection dernière génération, connectées au Centre de supervision urbain"
+                },
+                {
+                  "texte": "Expérimentation de la surveillance de l'espace public par drones pour lutter contre les rodéos et la circulation inappropriée des vélos et trottinettes"
+                },
+                {
+                  "texte": "Déployer la vidéoverbalisation contre les dépôts sauvages afin d'identifier et sanctionner les contrevenants"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -242,7 +271,23 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Plus de moyens à la prévention de la délinquance via le CLSPD et durcissement des arrêtés anti-mendicité et de lutte contre la consommation d'alcool sur la voie publique"
+                },
+                {
+                  "texte": "Systématisation du rappel à la loi pour les mineurs délinquants, en présence des parents, de la justice et de la police, à l'Hôtel de Ville"
+                },
+                {
+                  "texte": "Tolérance zéro contre les incivilités et amélioration de l'efficacité des Travaux d'Intérêts Généraux sur le principe « celui qui casse, paie »"
+                },
+                {
+                  "texte": "Expérimentation d'un couvre-feu pour les mineurs de moins de 16 ans en accord avec les services de l'État"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -315,7 +360,17 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Lutter contre le harcèlement de rue par la formation des policiers municipaux, la verbalisation systématique, des opérations ciblées et des outils d'alerte d'urgence"
+                },
+                {
+                  "texte": "Déployer un dispositif de protection et d'accompagnement des victimes de violences faites aux femmes et liées au genre, en lien avec les acteurs sanitaires, sociaux, judiciaires et associatifs"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -394,7 +449,29 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Sécurisation des transports en commun et mise en place de boutons d'alerte en station et sur l'application STAS"
+                },
+                {
+                  "texte": "Réduire le prix de l'abonnement annuel tout public aux transports en commun pour défendre le pouvoir d'achat"
+                },
+                {
+                  "texte": "Augmenter les fréquences des transports en commun, tôt le matin et en soirée, en lien avec la Métropole et la STAS (CHU, TER, TGV)"
+                },
+                {
+                  "texte": "Renforcer l'offre de mobilité nocturne en créant un Noctambus+ avec des fréquences doublées"
+                },
+                {
+                  "texte": "Soutenir le projet de RER stéphanois (Service express régional métropolitain) pour des trains plus fréquents"
+                },
+                {
+                  "texte": "Renforcer le service Handi'STAS pour améliorer la mobilité des personnes en situation de handicap"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -475,7 +552,14 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Développer les mobilités douces en sécurisant les itinéraires cyclables existants et en créant des stationnements vélos sûrs près des commerces et pôles de transport"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -542,7 +626,17 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Étendre les dispositifs d'apaisement de la circulation dans les quartiers résidentiels, en concertation avec les habitants"
+                },
+                {
+                  "texte": "Créer une Ligne verte stéphanoise, cheminement piéton continu reliant les grandes places jusqu'au stade Geoffroy-Guichard, favorisant la flânerie et les commerces"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -605,7 +699,23 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Construire un parking en ouvrage place Carnot en délégation de service public"
+                },
+                {
+                  "texte": "Faciliter le stationnement en créant de nouvelles places de parking et en baissant les tarifs pour maintenir l'accessibilité du centre-ville"
+                },
+                {
+                  "texte": "Créer des places de stationnement supplémentaires à chaque opportunité, notamment lors des démolitions d'immeubles"
+                },
+                {
+                  "texte": "Créer davantage de places de stationnement adaptées aux personnes handicapées et renforcer les sanctions pour garantir un accès effectif"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -725,7 +835,20 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Garantir la dignité des locataires dans le parc social et privé en luttant contre l'insalubrité, les logements indignes et les dysfonctionnements répétés"
+                },
+                {
+                  "texte": "Renforcer la lutte contre l'habitat insalubre en mobilisant tous les outils juridiques et opérationnels"
+                },
+                {
+                  "texte": "Mener une politique du logement équilibrée, favorisant la mixité sociale et générationnelle"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -836,7 +959,17 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Développer un nouveau quartier sur le site de la Charité avec un projet architectural exigeant, des logements de qualité et un nouvel espace public"
+                },
+                {
+                  "texte": "Accompagner la construction et la rénovation de logements adaptés au vieillissement pour favoriser le maintien à domicile"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -899,7 +1032,17 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Augmenter les capacités d'accueil en petite enfance en ouvrant de nouvelles places en crèche, en soutenant les initiatives associatives et privées, et en renforçant les relais petite enfance"
+                },
+                {
+                  "texte": "Développer l'accueil en crèche des enfants en situation de handicap par l'adaptation des structures et la formation des personnels"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -973,7 +1116,26 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Lancer dès le lendemain de l'élection un état des lieux de toutes les écoles pour intervenir immédiatement partout où la situation l'exige"
+                },
+                {
+                  "texte": "Planifier les rénovations, extensions et réparations des écoles avec les directeurs et les parents d'élèves"
+                },
+                {
+                  "texte": "Rendre toutes les écoles réellement inclusives et faciliter l'accès aux sorties scolaires pour les enfants en situation de handicap"
+                },
+                {
+                  "texte": "Favoriser les classes à petit effectif et lutter contre les fermetures d'écoles et de classes"
+                },
+                {
+                  "texte": "Recruter, former et valoriser les ATSEM pour améliorer l'accueil et le bien-être des écoliers"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1041,7 +1203,17 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Atteindre 80 % de produits locaux dans la restauration scolaire, garantir l'accès à la cantine pour tous y compris en cas d'impayé, et associer les parents à l'amélioration du service"
+                },
+                {
+                  "texte": "Rendre gratuits les transports scolaires et l'accès aux équipements municipaux pour tous les élèves, maintien du budget fournitures scolaires"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1107,7 +1279,20 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Repenser le périscolaire et le temps méridien pour mieux répondre aux besoins des enfants et aux attentes des familles"
+                },
+                {
+                  "texte": "Renforcer les centres sociaux et les accueils de loisirs pour un périscolaire plus efficace et mieux adapté"
+                },
+                {
+                  "texte": "Signer une charte de partenariat avec les centres sociaux et les accueils de loisirs pour reconnaître leur rôle et formaliser les engagements avec la Ville"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1182,7 +1367,29 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Associer le Conseil municipal des enfants et le Conseil consultatif de la jeunesse aux grands projets municipaux"
+                },
+                {
+                  "texte": "Faire de Saint-Étienne une ville-laboratoire pour les étudiants en les associant concrètement aux projets municipaux"
+                },
+                {
+                  "texte": "Mettre en place des actions de prévention contre l'addiction aux écrans et le harcèlement scolaire dès l'école primaire"
+                },
+                {
+                  "texte": "Lancer un programme dédié aux adolescents en situation de handicap pour favoriser autonomie, inclusion sociale et épanouissement"
+                },
+                {
+                  "texte": "Plan éducation à l'image et aux réseaux sociaux pour apprendre à comprendre, produire et analyser les images, sensibiliser aux médias et aux fake news"
+                },
+                {
+                  "texte": "Faciliter la mobilité internationale des jeunes Stéphanois grâce à une plateforme recensant les opportunités d'études, de stages et d'échanges"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1283,7 +1490,26 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Lancer le plan « Moins de bitume, plus de nature » : désimperméabilisation d'environ 15 hectares d'ici 2033 et plantation de 15 000 végétaux, en priorité autour des écoles et places"
+                },
+                {
+                  "texte": "Soutenir et développer les jardins partagés et familiaux en améliorant leur accessibilité et leur sécurité"
+                },
+                {
+                  "texte": "Faire des parcs et jardins de véritables poumons verts et créer de nouveaux espaces végétalisés lors des opérations de renouvellement urbain"
+                },
+                {
+                  "texte": "Renforcer le fleurissement et la qualité paysagère de la ville"
+                },
+                {
+                  "texte": "Embellir rues et places par la végétalisation, les fleurs, les décors et les éclairages"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1408,11 +1634,33 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "cinieri": {
-              "source": "IF Saint-Étienne",
-              "sourceUrl": "https://www.if-saint-etienne.fr/politique-societe/municipales-2026-sans-surprise-dino-cinieri-menera-la-droite-et-le-centre-a-saint-etienne",
               "mesures": [
-                "Propreté de la ville comme priorité du programme, avec des mesures concrètes de nettoyage."
-              ]
+                {
+                  "texte": "Réorganiser la propreté municipale pour garantir des passages réguliers dans tous les quartiers, avec priorité au centre-ville et zones commerçantes"
+                },
+                {
+                  "texte": "Créer une brigade verte chargée de faire respecter l'hygiène publique, verbaliser les incivilités et mener des actions de médiation"
+                },
+                {
+                  "texte": "Lancer le service « Propreté 48h maximum » pour signaler un problème et garantir une intervention sous 48h"
+                },
+                {
+                  "texte": "Renforcer fortement les équipes anti-tags pour une intervention rapide et systématique"
+                },
+                {
+                  "texte": "Mettre en place un service gratuit d'enlèvement des encombrants sur rendez-vous, avec des sanctions contre les dépôts sauvages"
+                },
+                {
+                  "texte": "Rendre les sanctions réellement dissuasives en augmentant les amendes et en durcissant les peines en cas de récidive"
+                },
+                {
+                  "texte": "Organiser chaque trimestre un grand nettoyage de quartier sur 48h avec renfort des équipes et mise à disposition de bennes"
+                },
+                {
+                  "texte": "Sensibiliser dès le plus jeune âge au respect de l'espace public par des actions pédagogiques dans les écoles"
+                }
+              ],
+              "source": null
             },
             "juanico": {
               "mesures": [
@@ -1538,7 +1786,26 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Renforcer la place de l'eau en ville par des aménagements apportant fraîcheur et confort face au changement climatique"
+                },
+                {
+                  "texte": "Installer des fontaines à eau sur les places et lieux de vie pour améliorer le confort lors des fortes chaleurs"
+                },
+                {
+                  "texte": "Faire de la protection et de la gestion de l'eau une priorité pour lutter contre les îlots de chaleur et préserver les milieux naturels"
+                },
+                {
+                  "texte": "Contribuer à une baisse d'environ 30 % des émissions de gaz à effet de serre sur la mandature, avec Saint-Étienne Métropole"
+                },
+                {
+                  "texte": "Soumettre les grands projets municipaux à une évaluation d'impact sur le climat, la santé, le cadre de vie et l'environnement"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1603,7 +1870,14 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Accélérer le plan façades pour valoriser l'architecture et encourager la rénovation du bâti existant"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1675,7 +1949,14 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Transformer les friches urbaines en opportunités écologiques en développant l'agriculture urbaine, les circuits courts et l'éducation environnementale"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1734,7 +2015,23 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Déployer un médicobus de télémédecine accessible aux personnes en situation de handicap pour garantir l'accès aux soins dans tous les quartiers"
+                },
+                {
+                  "texte": "Créer un « Pack Médecins Saint-Étienne » pour attirer médecins généralistes et spécialistes : locaux, accompagnement logement, garde d'enfants et emploi du conjoint"
+                },
+                {
+                  "texte": "Favoriser l'offre de stages, de formations complémentaires et d'internat afin d'attirer des étudiants en médecine et permettre leur installation"
+                },
+                {
+                  "texte": "Soutenir et faciliter les maisons de santé privées pour renforcer l'offre de soins de proximité"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1803,7 +2100,23 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Lancer un Plan Bien-être et Cancer pour mieux prévenir, soigner, accompagner les malades et renforcer la santé mentale"
+                },
+                {
+                  "texte": "Instaurer chaque année une grande cause municipale de santé (2026 : l'endométriose)"
+                },
+                {
+                  "texte": "Soutenir le futur pôle municipal de santé mentale pour informer, prévenir, orienter et lutter contre la stigmatisation"
+                },
+                {
+                  "texte": "Faire de Saint-Étienne une ville de référence en sport-santé en développant le sport sur ordonnance et des programmes pour les personnes en rémission"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -1878,7 +2191,29 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Créer le Pass Loisirs Seniors+, associant une offre de loisirs renforcée et un crédit annuel de 15 € dans les commerces stéphanois"
+                },
+                {
+                  "texte": "Réaliser un état des lieux complet des résidences municipales seniors et engager les travaux nécessaires"
+                },
+                {
+                  "texte": "Développer la médiation animale auprès des personnes malades, âgées ou fragilisées dans les établissements de santé"
+                },
+                {
+                  "texte": "Développer par le design des quartiers adaptés au bien vieillir, en soutenant les projets intergénérationnels et le lien social"
+                },
+                {
+                  "texte": "Favoriser les liens intergénérationnels en développant les échanges entre étudiants et seniors"
+                },
+                {
+                  "texte": "Soutenir le futur projet de Maison d'accompagnement pour la fin de vie"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2006,7 +2341,17 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Rouvrir les conseils de quartier, réunis 4 fois par an, comme véritables espaces d'échange et de propositions ouverts à tous"
+                },
+                {
+                  "texte": "Associer les citoyens, les associations et les acteurs locaux au suivi et à l'évaluation de la transition écologique"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2056,7 +2401,29 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Lancer un audit général des finances de la Ville pour connaître précisément la santé financière de la collectivité"
+                },
+                {
+                  "texte": "Mettre en place une véritable démarche qualité avec évaluations, contrôles et audits réguliers pour garantir la bonne utilisation de l'argent public"
+                },
+                {
+                  "texte": "Mettre en place un tableau de bord public du développement durable avec des indicateurs simples, quartier par quartier"
+                },
+                {
+                  "texte": "Protéger le pouvoir d'achat des Stéphanois par une fiscalité maîtrisée, sans hausse des impôts locaux"
+                },
+                {
+                  "texte": "Rendre l'information publique accessible et compréhensible à tous en mettant en place des retranscriptions en FALC (Facile à Lire et à Comprendre)"
+                },
+                {
+                  "texte": "Généraliser la concertation pour les projets d'aménagement urbain en associant habitants, usagers et acteurs locaux en amont"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2156,7 +2523,23 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Former et accompagner les bénévoles mobilisés lors des événements municipaux (accueil, sécurité, secourisme)"
+                },
+                {
+                  "texte": "Mettre en place une politique de reconnaissance des bénévoles avec des cérémonies et trophées réguliers"
+                },
+                {
+                  "texte": "Soutenir les associations en valorisant dans l'attribution des subventions les projets qui renforcent la vie des quartiers et le lien social"
+                },
+                {
+                  "texte": "Adopter une charte municipale encadrant l'attribution des subventions pour assurer le respect des principes républicains et de la laïcité"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2238,7 +2621,26 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Instaurer un dialogue permanent entre les élus et les habitants, avec des permanences mensuelles dans chaque quartier"
+                },
+                {
+                  "texte": "Rationaliser et renforcer les conseils consultatifs thématiques en clarifiant leur rôle et en leur donnant de véritables moyens d'action"
+                },
+                {
+                  "texte": "Lancer le programme « Saint-Étienne IA publique » pour moderniser les services municipaux, simplifier les démarches et accélérer les traitements"
+                },
+                {
+                  "texte": "Garantir une gestion rigoureuse des finances municipales en maîtrisant les dépenses de fonctionnement sans dégrader la qualité du service public"
+                },
+                {
+                  "texte": "Déployer un outil numérique de géolocalisation des lieux et équipements accessibles pour faciliter les déplacements"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2316,12 +2718,33 @@
           "nom": "Commerce local",
           "propositions": {
             "cinieri": {
-              "source": "42info / Activ Radio",
-              "sourceUrl": "https://42info.fr/les-propositions-des-candidats-a-la-mairie-de-saint-etienne/",
               "mesures": [
-                "Plan Marshall pour revitaliser le centre-ville de Saint-Étienne.",
-                "Chaque euro investi via la commande publique doit être dirigé vers l'économie locale et la création d'emplois."
-              ]
+                {
+                  "texte": "Encadrer les nouvelles ouvertures de commerces par une autorisation préalable pour préserver la diversité commerciale et lutter contre la monoactivité"
+                },
+                {
+                  "texte": "Redonner vie aux arcades de l'Hôtel de Ville en proposant des cellules commerciales gratuites pour tester des concepts"
+                },
+                {
+                  "texte": "Créer des « cœurs de quartiers » combinant aménagements de qualité, diversité commerciale et animations régulières"
+                },
+                {
+                  "texte": "Lancer le pack « J'ouvre ma boutique à Saint-Étienne » avec accompagnement complet, interlocuteur unique et délais garantis sous 30 jours"
+                },
+                {
+                  "texte": "Déployer la plateforme « Acheter Sainté » pour permettre aux commerçants de vendre en ligne (marketplace, click & collect, livraison)"
+                },
+                {
+                  "texte": "Embellir les vitrines et lutter contre la vacance commerciale par l'application stricte du règlement des enseignes"
+                },
+                {
+                  "texte": "Renforcer la foncière commerciale pour reprendre la main sur les rez-de-chaussée et diversifier l'offre de proximité"
+                },
+                {
+                  "texte": "Protéger et accompagner les commerçants pendant toute la durée des travaux du tramway (Plan Marshall centre-ville)"
+                }
+              ],
+              "source": null
             },
             "juanico": {
               "mesures": [
@@ -2411,11 +2834,27 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "cinieri": {
-              "source": "IF Saint-Étienne",
-              "sourceUrl": "https://www.if-saint-etienne.fr/politique-societe/municipales-2026-sans-surprise-dino-cinieri-menera-la-droite-et-le-centre-a-saint-etienne",
               "mesures": [
-                "Retenir les 30 000 étudiants formés à Saint-Étienne en créant des passerelles entre formations et entreprises locales pour leur premier emploi."
-              ]
+                {
+                  "texte": "Lancer le plan « Parcours PME Stéphanois » pour retenir les diplômés via une plateforme unique de stages, d'alternance et d'emplois dans les PME"
+                },
+                {
+                  "texte": "Développer des formations en adéquation avec les besoins réels des entreprises locales, notamment dans les métiers en tension"
+                },
+                {
+                  "texte": "Soutenir les associations d'insertion par l'emploi pour favoriser un retour à l'activité et à la dignité"
+                },
+                {
+                  "texte": "Intégrer systématiquement des clauses sociales dans les marchés publics pour favoriser l'insertion professionnelle"
+                },
+                {
+                  "texte": "Créer le « Pack Talents Sainté » pour attirer et accueillir les jeunes actifs avec guichet unique, conciergerie d'installation et parcours d'intégration"
+                },
+                {
+                  "texte": "Mettre en place des dispositifs de parrainage entre cadres d'entreprises locales et étudiants pour faciliter l'orientation professionnelle"
+                }
+              ],
+              "source": null
             },
             "juanico": {
               "mesures": [
@@ -2500,7 +2939,68 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Faire de Saint-Étienne une véritable ville touristique avec une stratégie claire et un Office de tourisme ouvert toute l'année"
+                },
+                {
+                  "texte": "Densifier et diversifier l'offre hôtelière et de restauration pour accompagner le tourisme événementiel"
+                },
+                {
+                  "texte": "Faciliter la découverte de Saint-Étienne par des parcours piétonniers lisibles et une signalétique touristique par pictogrammes"
+                },
+                {
+                  "texte": "Faire de Saint-Étienne une destination week-end grâce à des offres combinées et un tourisme autour de l'identité stéphanoise et footballistique"
+                },
+                {
+                  "texte": "Soutenir le développement de l'aéroport de Saint-Étienne Loire en renforçant les liaisons et diversifiant ses activités"
+                },
+                {
+                  "texte": "Chaque euro investi par la Ville devra soutenir l'économie locale : commande publique et investissement municipal comme leviers du développement"
+                },
+                {
+                  "texte": "Créer une instance permanente de dialogue économique réunissant des chefs d'entreprise de tous les secteurs"
+                },
+                {
+                  "texte": "Déployer une offre d'immobilier d'entreprise diversifiée et compétitive, en particulier en centre-ville"
+                },
+                {
+                  "texte": "Rééquilibrer l'activité économique entre Châteaucreux, le Technopôle et le centre-ville"
+                },
+                {
+                  "texte": "Soutenir les filières d'excellence pour renforcer leur visibilité et compétitivité à l'échelle nationale et internationale"
+                },
+                {
+                  "texte": "Développer de nouvelles pépinières d'entreprises et renforcer les structures existantes pour accompagner la création d'entreprises"
+                },
+                {
+                  "texte": "Soutenir le développement de l'économie sociale et solidaire"
+                },
+                {
+                  "texte": "Créer un club des ambassadeurs économiques de Saint-Étienne pour promouvoir les atouts de la ville"
+                },
+                {
+                  "texte": "Faire de Saint-Étienne la capitale française de l'industrie du futur en fédérant entreprises, start-up, écoles et chercheurs"
+                },
+                {
+                  "texte": "Renforcer la participation de Saint-Étienne aux programmes nationaux et européens d'innovation"
+                },
+                {
+                  "texte": "Structurer une filière locale du numérique et de l'IA, créatrice d'emplois, en s'appuyant sur le design et l'innovation industrielle"
+                },
+                {
+                  "texte": "Déployer une stratégie de marketing territorial à l'international pour valoriser l'image et les savoir-faire de Saint-Étienne"
+                },
+                {
+                  "texte": "Renforcer et dynamiser les partenariats internationaux dans les domaines culturel, économique, éducatif et institutionnel"
+                },
+                {
+                  "texte": "Mobiliser les financements internationaux, notamment européens, pour soutenir les projets locaux"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2601,7 +3101,35 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Redonner à la Cité du design sa vocation de développement économique en faisant du design un levier d'innovation et de création d'emplois"
+                },
+                {
+                  "texte": "Remettre le design au cœur de l'action municipale comme outil de transformation urbaine adapté aux usages réels des Stéphanois"
+                },
+                {
+                  "texte": "Créer un véritable quartier de créateurs en centre-ville rassemblant galeries, boutiques, ateliers et initiatives culturelles"
+                },
+                {
+                  "texte": "Créer un parcours « Saint-Étienne, ville de design » au départ de la Cité pour renforcer l'attractivité touristique"
+                },
+                {
+                  "texte": "Développer une véritable éducation culturelle dès le plus jeune âge en facilitant l'accès à la lecture, à l'écriture et aux lieux culturels"
+                },
+                {
+                  "texte": "Faire du Puits Couriot un site phare de l'animation stéphanoise grâce à une programmation culturelle et événementielle régulière"
+                },
+                {
+                  "texte": "Prise en charge intégrale des transports scolaires vers les lieux culturels et sportifs (bibliothèques, stades, piscines)"
+                },
+                {
+                  "texte": "Lancer le programme « Les voix de Saint-Étienne » pour collecter et valoriser les récits de vie des quartiers"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2700,7 +3228,47 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Faire de la Sainte-Barbe la grande fête populaire de toute la ville, célébrée dans tous les quartiers"
+                },
+                {
+                  "texte": "Renforcer les fêtes de fin d'année avec un marché de Noël renforcé et des animations locales dans les quartiers"
+                },
+                {
+                  "texte": "Garantir des animations culturelles et festives régulières dans tous les quartiers"
+                },
+                {
+                  "texte": "Renforcer la Fête du Livre par davantage d'animations, de spectacles vivants et de rendez-vous musicaux"
+                },
+                {
+                  "texte": "Densifier la programmation estivale en plein air avec des animations musicales et artistiques"
+                },
+                {
+                  "texte": "Redonner vie au kiosque de la place Jean-Jaurès avec des animations culturelles et musicales"
+                },
+                {
+                  "texte": "Soutenir la création artistique et les artistes par une politique culturelle équitable et ouverte, en renforçant le tissu associatif"
+                },
+                {
+                  "texte": "Décentraliser la culture dans tous les quartiers en soutenant la création artistique dans l'espace public"
+                },
+                {
+                  "texte": "Favoriser le mécénat et le financement participatif pour soutenir les événements culturels"
+                },
+                {
+                  "texte": "Organiser chaque trimestre des « puces design & vintage » en centre-ville"
+                },
+                {
+                  "texte": "Animer le centre-ville tous les week-ends en mobilisant les associations avec les commerçants"
+                },
+                {
+                  "texte": "Diversifier les spectacles lumineux lors des événements municipaux (drones, mises en lumière) pour réduire les nuisances sonores et respecter le bien-être animal"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2790,7 +3358,23 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Lancer le plan « Sainté sait nager » : 3 piscines ouvertes toute l'année, 2 en période estivale, renforcement des maîtres-nageurs, modernisation énergétique et étude d'un bassin nordique"
+                },
+                {
+                  "texte": "Créer un grand espace dédié au roller et aux sports de glisse urbaine en réinventant la patinoire sur le modèle de La Main Jaune"
+                },
+                {
+                  "texte": "Adapter l'espace public au sport urbain en développant des équipements favorisant les pratiques libres et accessibles à tous"
+                },
+                {
+                  "texte": "Valoriser les atouts naturels et urbains du territoire (sports nautiques à Saint-Victor-sur-Loire, sports de nature à Rochetaillée, sports urbains en centre-ville)"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2854,7 +3438,38 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Accompagner le développement des clubs sportifs et valoriser toutes les disciplines sportives"
+                },
+                {
+                  "texte": "Organiser une grande Nuit du Sport pour mettre à l'honneur les champions stéphanois de l'année"
+                },
+                {
+                  "texte": "Replacer l'ASSE au cœur de la ville par un partenariat Ville-club : programme « ASSE Cœur de Ville », Ligne verte supporter, partenariat socio-éducatif"
+                },
+                {
+                  "texte": "Accueillir de grandes compétitions sportives populaires comme le Tour de France"
+                },
+                {
+                  "texte": "Organiser un grand événement sportif estival proposant des initiations aux différentes disciplines sportives"
+                },
+                {
+                  "texte": "Développer et accompagner la pratique autonome du sport, notamment la course à pied, avec des parcours de running traversant la ville"
+                },
+                {
+                  "texte": "Renforcer l'offre de l'École municipale des sports pour permettre au plus grand nombre de pratiquer une activité sportive"
+                },
+                {
+                  "texte": "Organiser les États généraux du sport pour associer clubs, pratiquants et bénévoles à une stratégie sportive partagée"
+                },
+                {
+                  "texte": "Mettre en œuvre un plan handisport et sport adapté pour lever les freins à la pratique pour les personnes en situation de handicap"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -2929,7 +3544,35 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Embellir les grandes places du centre-ville et proposer des aménagements adaptés à leurs usages"
+                },
+                {
+                  "texte": "Déployer un plan lumière pour valoriser les sites emblématiques, renforcer le sentiment de sécurité et l'attractivité nocturne"
+                },
+                {
+                  "texte": "Relocaliser emplois et services en centre-ville en transformant les locaux vacants"
+                },
+                {
+                  "texte": "À chaque démolition d'immeubles, étudier systématiquement la création de parcs urbains ou de parkings"
+                },
+                {
+                  "texte": "Déployer des toilettes publiques propres, accessibles et régulièrement entretenues sur l'ensemble de la ville"
+                },
+                {
+                  "texte": "Déployer une démarche de design appliqué aux commerces et aux rues, en lien avec la Cité du design"
+                },
+                {
+                  "texte": "Lancer des concours de design participatif associant enfants, jeunes et seniors pour imaginer aires de jeux, mobilier urbain et espaces publics"
+                },
+                {
+                  "texte": "Engager une double transition écologique et numérique en utilisant le numérique pour mieux piloter l'énergie, l'eau et les déchets"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -3024,7 +3667,26 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Faire de l'inclusion des personnes en situation de handicap un principe transversal de toutes les politiques municipales"
+                },
+                {
+                  "texte": "Créer une délégation municipale dédiée et sanctuarisée au handicap"
+                },
+                {
+                  "texte": "Mettre en place un groupe de travail permanent sur le handicap associant personnes concernées, associations et services municipaux"
+                },
+                {
+                  "texte": "Rendre pleinement accessible l'espace public par un programme ambitieux sur les trottoirs, transports, équipements et bâtiments municipaux"
+                },
+                {
+                  "texte": "Installer davantage de bancs et de toilettes propres et accessibles dans l'espace public pour une ville confortable à tous les âges"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -3100,7 +3762,14 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Lancer le réseau « Vivre Ensemble à Saint-Étienne » pour favoriser le dialogue citoyen et interreligieux et renforcer la cohésion sociale"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -3134,7 +3803,26 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Soutenir le tissu associatif solidaire qui agit au quotidien auprès des publics fragiles"
+                },
+                {
+                  "texte": "Renforcer le rôle du CCAS pour garantir un accompagnement social réactif, humain et accessible aux Stéphanois les plus vulnérables"
+                },
+                {
+                  "texte": "Réaffirmer l'engagement en faveur de la protection animale en transférant à la SPA la propriété du site qu'elle occupe"
+                },
+                {
+                  "texte": "Créer un budget municipal consacré au bien-être animal pour soutenir des actions concrètes de protection et de sensibilisation"
+                },
+                {
+                  "texte": "Financer la stérilisation et l'identification des chats errants en partenariat avec les associations et vétérinaires"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -3205,7 +3893,23 @@
           "id": "egalite-discriminations",
           "nom": "Égalité & Discriminations",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Instaurer une cérémonie d'accueil des nouveaux citoyens français"
+                },
+                {
+                  "texte": "Renforcer la formation des agents municipaux et des associations pour garantir la transmission des valeurs républicaines et de la laïcité"
+                },
+                {
+                  "texte": "Travailler sur l'inclusion culturelle afin que chaque enfant ait accès à la culture quel que soit son milieu et son quartier"
+                },
+                {
+                  "texte": "Sensibiliser les habitants aux usages et enjeux de l'IA afin de favoriser une appropriation éclairée et éthique"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {
@@ -3273,7 +3977,17 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "cinieri": null,
+            "cinieri": {
+              "mesures": [
+                {
+                  "texte": "Désendetter la ville pour préserver la capacité d'investissement"
+                },
+                {
+                  "texte": "Mobiliser les financements de l'État et des partenaires publics pour éviter toute hausse des impôts locaux"
+                }
+              ],
+              "source": null
+            },
             "juanico": {
               "mesures": [
                 {

@@ -1542,6 +1542,39 @@
     ]
   },
   {
+    "id": "gentilly",
+    "nom": "Gentilly",
+    "codePostal": "94250",
+    "departement": "94",
+    "elections": [
+      "gentilly-2026"
+    ],
+    "stats": {
+      "candidats": 3,
+      "propositions": 261,
+      "themes": 12,
+      "complets": 2
+    },
+    "candidats": [
+      {
+        "id": "aggoune",
+        "nom": "Fatah Aggoune",
+        "liste": "Gentilly cœur battant"
+      },
+      {
+        "id": "crespin",
+        "nom": "Benoît Crespin",
+        "liste": "Réveillons Gentilly / Bien Commun pour Gentilly"
+      },
+      {
+        "id": "godard",
+        "nom": "Thomas Godard",
+        "liste": "Gentilly Respire"
+      }
+    ],
+    "derniereMaj": "2026-03-04"
+  },
+  {
     "id": "grenoble",
     "nom": "Grenoble",
     "codePostal": "38000",
@@ -3801,9 +3834,9 @@
     ],
     "stats": {
       "candidats": 8,
-      "propositions": 764,
+      "propositions": 970,
       "themes": 12,
-      "complets": 4
+      "complets": 5
     },
     "candidats": [
       {

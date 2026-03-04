@@ -1,0 +1,1049 @@
+{
+  "ville": "Gentilly",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "aggoune",
+      "nom": "Fatah Aggoune",
+      "liste": "Gentilly cœur battant",
+      "programmeUrl": null,
+      "programmeComplet": false,
+      "programmePdfPath": null
+    },
+    {
+      "id": "crespin",
+      "nom": "Benoît Crespin",
+      "liste": "Réveillons Gentilly / Bien Commun pour Gentilly",
+      "programmeUrl": "https://www.biencommunpourgentilly.fr/",
+      "programmeComplet": true,
+      "programmePdfPath": null
+    },
+    {
+      "id": "godard",
+      "nom": "Thomas Godard",
+      "liste": "Gentilly Respire",
+      "programmeUrl": "https://gentillyrespire.fr/",
+      "programmeComplet": true,
+      "programmePdfPath": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Créer une police municipale à Gentilly.",
+                "Mettre à disposition des commerçants et des gardiens d'immeubles une ligne téléphonique en lien avec la police municipale."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Recruter des gardes urbains agissant en binômes sur des secteurs d'intervention privilégiés, assurant des missions de prévention et de médiation.",
+                "Coordonner l'action des différents acteurs (ASVP, services municipaux) dans la gestion des infractions sur l'espace public.",
+                "Permettre au maire de prononcer des rappels à l'ordre et développer les travaux d'intérêt général (TIG) dans les services municipaux."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Dresser un bilan du dispositif existant et étendre la vidéoprotection.",
+                "Co-financer des équipements de sécurité et de vidéoprotection pour les professionnels de santé."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Évaluer l'efficacité du système de vidéosurveillance actuel pour le faire évoluer si besoin."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Déployer des groupes de protection et de sécurité avec chaque bailleur social.",
+                "Réunir régulièrement les gardiens d'immeubles, les bailleurs sociaux et les syndics de copropriétés pour résoudre les problèmes d'insécurité.",
+                "Lutter contre le narcotrafic et la petite délinquance."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Lutter et sensibiliser contre les incivilités dans l'espace public.",
+                "Créer des liens de confiance entre gardes urbains et résidents, gardiens et bailleurs.",
+                "Engager des actions de sensibilisation au collège et au lycée contre l'usage du protoxyde d'azote et des stupéfiants.",
+                "Rejoindre l'association des maires qui agissent contre le narcotrafic lancée par Amine Kessaci.",
+                "Développer des dispositifs de soutien pour les parents de jeunes engagés dans un parcours délinquant.",
+                "Lutter contre le bruit environnant avec une cartographie du bruit en ville et rechercher des solutions pratiques."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Prévenir les violences domestiques et les violences faites aux femmes."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Créer un accueil intercommunal pour les femmes victimes de violences conjugales.",
+                "Renforcer la formation des personnels municipaux aux violences sexistes et sexuelles (VSS)."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Mettre en place des mini-navettes électriques pour faciliter les déplacements et relier les stations ferroviaires (T3, RER B, ligne 7, future ligne 14).",
+                "Obtenir un arrêt systématique du RER B à Gentilly.",
+                "Réaménager et sécuriser la gare à l'occasion de la couverture du RER B, avec le soutien d'Île-de-France Mobilités."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/multiplier-les-offres-de-transports-a-gentilly"
+            }
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Élaborer une charte cyclable avec les parties prenantes (élus, associations, habitants, parents).",
+                "Consacrer un budget dédié de 10 euros par habitant et par an aux aménagements cyclables.",
+                "Réaliser un plan pluriannuel d'aménagement du réseau cyclable en coordination avec les communes voisines (Arcueil, Le Kremlin-Bicêtre, Montrouge, Paris, Cachan).",
+                "Développer des pistes cyclables pour créer un véritable couloir « RER vélo ».",
+                "Nommer un chargé de mission mobilités douces comme interlocuteur unique.",
+                "Multiplier les dispositifs sûrs de stationnement vélo (résidences, commerces, écoles, gares).",
+                "Mettre en place une indemnité kilométrique vélo pour les agents municipaux.",
+                "Assurer les liaisons cyclables vers les pôles générateurs (gares, stations de métro).",
+                "Intégrer la dimension vélo dans tous les projets d'urbanisme et d'infrastructures.",
+                "Rendre le vélo accessible à tous les publics, notamment aux enfants, via des appels à projets associatifs.",
+                "Soutenir les boîtes à vélos et les bornes de recharge électrique."
+              ],
+              "source": "Programme officiel 2026 — Charte vélo",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/charte-velo-2026"
+            },
+            "godard": {
+              "mesures": [
+                "Élaborer un plan vélo et mener des actions urgentes pour sécuriser les cyclistes, notamment aux carrefours dangereux.",
+                "Aménager des pistes cyclables sécurisées : en urgence la traversée Est-Ouest (Paul Vaillant Couturier - Jean Jaurès).",
+                "Développer le stationnement vélo sécurisé (parking vélo fermé).",
+                "S'assurer que tous les enfants sachent faire du vélo en fin de primaire."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Lancer une concertation avec les communes voisines sur la mise en place de zones à 30 km/h.",
+                "Promouvoir des ralentisseurs et des zones piétonnes à 10 km/h aux abords des écoles."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/multiplier-les-offres-de-transports-a-gentilly"
+            },
+            "godard": {
+              "mesures": [
+                "Créer une zone à faible trafic en centre-ville pour encourager les déplacements à pied.",
+                "Aménager des parcours piétonniers accompagnés d'équipements (bancs, points d'eau, sanitaires publics).",
+                "Abaisser le flux des véhicules traversant Gentilly pour apaiser la circulation.",
+                "Passer la ville à 30 km/h partout pour limiter la vitesse et diminuer la pollution.",
+                "Apaiser les abords des écoles avec des rues aux enfants fermées à la circulation et végétalisées.",
+                "Sécuriser les déplacements de nuit par des cheminements piétonniers illuminés.",
+                "Améliorer les conditions de déplacements pour les personnes à mobilité réduite."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "crespin": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "crespin": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Organiser les relations ville/bailleurs au service des résidents et résoudre les problèmes du bailleur Valdevy.",
+                "Organiser des réunions trimestrielles aux pieds des immeubles pour identifier les problèmes et les faire remonter aux bailleurs sociaux.",
+                "Rendre publiques les commissions d'attribution de logement social.",
+                "Signer une charte des élus s'engageant à ne pas demander de logements sociaux pour eux ou leur famille."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/la-methode/article/transparence-dans-la-gestion-des-finances-des-logements-sociaux"
+            },
+            "godard": {
+              "mesures": [
+                "Mettre en place avec Valdevy et CDC Habitat une convention d'objectifs et suivre les préconisations de l'ANCOLS.",
+                "Créer une régie locale dans chaque quartier pour offrir un logement digne à tous.",
+                "Étudier la sortie de Valdevy en cas de manquements répétés pour se rapprocher d'un bailleur social solide.",
+                "Garantir la transparence dans l'attribution des logements sociaux avec des critères strictement définis.",
+                "Faire adhérer Valdevy à la bourse d'échange d'Île-de-France « Échanger Habiter ».",
+                "Apporter une aide au déménagement des locataires âgés ou en difficulté.",
+                "Inciter les bailleurs sociaux à réaliser des résidences intergénérationnelles et des colocations pour familles monoparentales.",
+                "Transformer des rez-de-chaussée d'immeubles sociaux en locaux d'activités ou associatifs.",
+                "Exiger la rénovation énergétique urgente des logements sociaux via un comité de suivi.",
+                "Équiper les logements sociaux de volets pour lutter contre la chaleur et le froid."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "crespin": null
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "crespin": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Favoriser l'implantation du logement intermédiaire.",
+                "Encourager la rénovation des habitats privés.",
+                "Proposer des logements adaptés aux besoins spécifiques des aînés.",
+                "Permettre à tous ceux qui le souhaitent de devenir propriétaires."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Soutenir l'accession sociale à la propriété avec le bail réel solidaire (BRS).",
+                "Imposer aux promoteurs des baux solidaires et des prix maîtrisés pour les primo-accédants.",
+                "Autoriser la construction de logements à taille humaine en régulant la hauteur des bâtiments."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Créer une crèche municipale en complément de la crèche familiale.",
+                "Réouvrir la crèche Gabriel Péri.",
+                "Renforcer les PMI gentilléennes en lien avec le centre municipal de santé."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Ouvrir une crèche multi-accueil avec amplitude horaire élargie et différents types d'accueil.",
+                "Réserver un quota de places en crèche pour les enfants de familles monoparentales ou en situation de handicap.",
+                "Créer une halte-garderie offrant un droit au répit aux familles monoparentales.",
+                "Mettre en place un lieu d'accueil dédié aux parents (écoute, partage, accompagnement)."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Rénover et équiper massivement les écoles et ouvrir une nouvelle école.",
+                "Reconstruire l'école Henri Barbusse.",
+                "Attribuer une dotation d'urgence de 15 000 € à chaque école primaire et maternelle pour l'achat d'équipements prioritaires.",
+                "Affecter 1 ATSEM par classe en maternelle.",
+                "Agrandir le collège Rosa Parks en lien avec le Département.",
+                "Travailler étroitement avec les parents d'élèves et les enseignants pour moderniser les écoles."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/agir-face-a-l-urgence-dans-les-ecoles"
+            },
+            "godard": {
+              "mesures": [
+                "Rénover la Maison de l'enfance et revoir l'organisation autour de ce lieu d'accueil unique.",
+                "Accélérer les travaux d'isolation dans les écoles et transformer les cours en cours oasis.",
+                "Créer un conseil de vie scolaire réunissant enseignants, animateurs, services de la ville et associations."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Proposer une alimentation plus saine, gustative et meilleur marché en réévaluant le prestataire actuel avec les parents."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Revoir l'approvisionnement des cuisines avec des marchés réguliers avec des producteurs locaux et bio.",
+                "Améliorer l'offre végétarienne et proposer du pain de qualité dans les cantines.",
+                "Stopper l'utilisation de plastiques et de produits transformés dans la restauration scolaire.",
+                "Réduire le gaspillage alimentaire en adaptant les quantités selon les âges.",
+                "Renforcer la commission menus et étudier la création d'une cuisine autonome pour les écoles et l'EHPAD."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Créer une structure de soutien scolaire gratuit pour le primaire dans chaque école.",
+                "Permettre à chaque enfant de bénéficier d'une initiation artistique (musique, théâtre) en mobilisant artistes et associations locales.",
+                "Mettre en place un service minimum d'accueil lors des grèves pour les familles, notamment monoparentales."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/agir-face-a-l-urgence-dans-les-ecoles"
+            },
+            "godard": {
+              "mesures": [
+                "Mieux adapter les rythmes scolaires aux temps d'apprentissage des enfants.",
+                "Garantir une offre périscolaire riche avec des associations culturelles et sportives reconnues.",
+                "Former et professionnaliser les animateurs et recruter des encadrants qualifiés.",
+                "Renforcer l'aide aux devoirs avec des études dirigées et du matériel pédagogique innovant.",
+                "Sensibiliser contre les discriminations, la surexposition aux écrans et former des enfants à la médiation.",
+                "Renforcer la place des arts et de la culture à l'école avec des interventions d'artistes."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Accompagner les jeunes pour la recherche de stage, l'alternance, l'emploi et l'entrepreneuriat.",
+                "Créer une Assemblée des Jeunes reçue trimestriellement par les élus, dotée d'un budget d'équipements collectifs en gestion autonome.",
+                "Faire du Lavoir Numérique un incubateur des cultures urbaines avec studio d'enregistrement."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Redynamiser le Point J et recruter des encadrants qualifiés pour les jeunes.",
+                "Créer un service de mentorat municipal pour les jeunes en recherche de stage ou d'orientation.",
+                "Améliorer l'information sur les droits des 16-18 ans via des stands itinérants.",
+                "Mettre en place un dispositif « Argent de poche » pour les 14-17 ans : missions d'intérêt général contre indemnisation.",
+                "Installer un Conseil Municipal des Jeunes (CMJ) doté d'un budget propre.",
+                "Créer un espace jeunes dédié dans l'ancien collège Pierre-Curie."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Rendre l'îlot Paix-Reims à la nature.",
+                "Consulter les habitants sur les projets d'aménagement structurants pour arrêter de bétonner Gentilly."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/la-methode/article/associer-chacun-et-faire-de-gentilly-un-laboratoire-ecologique-et-innovant"
+            },
+            "godard": {
+              "mesures": [
+                "Lancer un plan arbres massif : inventorier, protéger et renforcer la présence d'arbres sur les sites clés.",
+                "Planter en priorité 200 arbres sur les deux stades, véritables îlots de chaleur.",
+                "Créer des chemins de fraîcheur en arborant les rues.",
+                "Développer le corridor vert de la Bièvre comme corridor de biodiversité et poumon vert.",
+                "Modifier le PLUi pour imposer une bande non constructible le long de la Bièvre.",
+                "Rendre obligatoire la préservation des grands arbres existants au sein des parcelles privées.",
+                "Préserver l'îlot Paix-Reims comme poumon vert et y créer une ferme pédagogique.",
+                "Organiser des potagers de pieds d'immeuble et des composts collectifs."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Instaurer une brigade d'urgence pour la propreté, équiper et soutenir les agents de l'entretien.",
+                "Équiper la ville de poubelles sélectives et de cendriers de rue.",
+                "Lutter contre les dépôts sauvages.",
+                "Sensibiliser mais aussi sanctionner les incivilités."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Verbaliser les contrevenants pour dépôts sauvages, véhicules épaves et nuisances.",
+                "Sensibiliser les habitants à la gestion des ordures ménagères avec les associations."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Créer un conseil de l'innovation et de l'environnement.",
+                "Faire de Gentilly une ville modèle en matière de développement durable et de numérique."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/la-methode/article/associer-chacun-et-faire-de-gentilly-un-laboratoire-ecologique-et-innovant"
+            },
+            "godard": {
+              "mesures": [
+                "Créer des îlots refuges dans les parcs et cours d'école pour l'été via la végétalisation.",
+                "Inclure une salle refuge pour les seniors dans les écoles l'été lors de la rénovation thermique."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Rénover prioritairement le patrimoine municipal pour réduire les coûts énergétiques (investir plutôt que dépenser)."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Accélérer la rénovation thermique des bâtiments municipaux en commençant par les écoles.",
+                "Privilégier la ventilation naturelle, les énergies renouvelables et le réemploi de matériaux biosourcés.",
+                "Créer un point d'accueil municipal sur les travaux d'isolation et les aides financières mobilisables."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "crespin": null,
+            "godard": {
+              "mesures": [
+                "Renforcer l'éducation alimentaire sur les bienfaits d'une alimentation saine pour la santé."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Rénover complètement le centre municipal de santé pour le rendre plus attractif et accueillir de nouvelles spécialités.",
+                "Coopérer avec le centre de santé d'Arcueil pour offrir des soins et services complémentaires.",
+                "Accompagner l'implantation de nouveaux médecins en créant des mini-maisons de santé."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/faire-enfin-de-la-sante-une-priorite-municipale"
+            }
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Proposer une mutuelle santé municipale pour baisser de 30 % le coût de la complémentaire santé, notamment pour les personnes âgées."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/faire-enfin-de-la-sante-une-priorite-municipale"
+            },
+            "godard": {
+              "mesures": [
+                "Développer un parcours sport-santé et un parcours running dans la ville.",
+                "S'assurer que tous les enfants sachent nager et courir en fin de primaire."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Créer une Assemblée des aînés avec un budget dédié pour co-construire les projets.",
+                "Maintenir un accompagnement numérique accessible pour les aînés éloignés du numérique (impôts, carte de transport, etc.).",
+                "Rendre la vie plus agréable par le retour d'une offre de proximité de services, de lieux de convivialité, de culture et de commerces."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Augmenter l'offre de loisirs « Tournesol » pour les anciens à des prix abordables.",
+                "Développer le logement intergénérationnel ou l'entraide entre étudiants et personnes âgées.",
+                "Repérer les personnes isolées et fragilisées avec des associations et bénévoles."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "crespin": null,
+            "godard": {
+              "mesures": [
+                "Instaurer des consultations citoyennes sous forme de référendums ou conventions citoyennes.",
+                "Mettre en place le tirage au sort des citoyens pour chaque consultation.",
+                "Lancer des consultations citoyennes sur trois sites à enjeu fort."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Réaliser un audit annuel des comptes dès le lendemain de l'élection et le rendre public.",
+                "Geler l'imposition foncière.",
+                "Orienter les dépenses municipales vers les Gentilléens, pas vers les enjeux de politique nationale.",
+                "Présenter chaque année un compte rendu de l'action municipale dans chaque quartier."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/la-methode/article/transparence-dans-la-gestion-des-finances-des-logements-sociaux"
+            },
+            "godard": {
+              "mesures": [
+                "Organiser un compte-rendu annuel de mandat ouvert aux habitants.",
+                "Faire signer aux élus la charte anticorruption Anticor.",
+                "Limiter les délégations permettant au Maire de décider seul.",
+                "Donner aux adjoints des délégations aux périmètres clairement définis.",
+                "Garantir la transparence des rémunérations et frais des élus.",
+                "Favoriser l'ouverture des données publiques (open data) sur le site de la Mairie.",
+                "Garantir les droits de l'opposition et son information en temps et en heure.",
+                "Donner un droit d'interpellation des citoyens au Conseil municipal."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Réunir une conférence annuelle des associations pour assurer transparence et équité dans les subventions.",
+                "Accroître le nombre de salles disponibles en utilisant les écoles, le collège et le lycée.",
+                "Garantir à chaque association un lieu décent et pérenne.",
+                "Créer un poste d'assistance associative pour aider les associations dans leur gestion quotidienne.",
+                "Élaborer un kit d'aide à la création d'une association locale.",
+                "Mettre à disposition un véhicule pour les associations sportives en compétition.",
+                "Promouvoir les réalisations des associations via le journal municipal, les réseaux sociaux et la création d'une webradio.",
+                "Permettre aux projets culturels d'utiliser temporairement les bâtiments et friches inoccupés.",
+                "Rénover toutes les salles associatives durant le mandat.",
+                "Rénover une salle associative dans chaque quartier."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/soutenir-equitablement-les-associations-sportives-et-culturelles"
+            },
+            "godard": {
+              "mesures": [
+                "Convertir les anciens ateliers de l'îlot Paix-Reims en Maison des Associations.",
+                "Créer un conseil des associations autonome avec une charte d'engagements réciproques.",
+                "Attribuer les subventions avec transparence sur la base de critères travaillés avec le conseil.",
+                "Privilégier les conventions pluriannuelles d'objectifs et de moyens pour les associations.",
+                "Ouvrir un café associatif pour créer un lieu de convivialité."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Créer une Maison des services regroupant tous les services municipaux en un lieu unique.",
+                "Mettre en place des services numériques unifiés et rendre le portail famille enfin fonctionnel.",
+                "Assurer une permanence mensuelle des élus et des services sur les marchés.",
+                "Écouter les conseils de quartier pour identifier les problèmes du quotidien (propreté, éclairage, aménagements)."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/la-methode/article/des-services-publics-municipaux-plus-proches-de-vous-et-plus-efficaces"
+            },
+            "godard": {
+              "mesures": [
+                "Faciliter l'accès à l'administration avec un organigramme clair et un site internet repensé.",
+                "Garantir une réponse aux demandes des Gentilléens dans un délai imparti.",
+                "Donner plus d'initiatives aux agents municipaux vis-à-vis des demandes des habitants.",
+                "Favoriser la montée en compétences et le bien-être au travail des agents municipaux.",
+                "Former l'ensemble des personnels municipaux à l'accueil de tous les publics.",
+                "Veiller à ce que les formulaires municipaux prennent en compte toutes les familles.",
+                "Réduire le nombre de Conseils de quartier à 4 ou 5 pour renforcer leur rôle.",
+                "Créer un Conseil des étrangers pour associer aux décisions les résidents sans droit de vote.",
+                "Créer une maison de la citoyenneté dans l'ancien centre culturel."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Accompagner commerçants, entrepreneurs et artisans à l'installation et au maintien.",
+                "Nommer un référent municipal aux activités économiques.",
+                "Démarcher et encourager l'installation et la transmission de petites et moyennes entreprises.",
+                "Réquisitionner les locaux commerciaux vides et les rez-de-chaussée des bailleurs sociaux pour y installer des commerces."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Accompagner une dynamique commerciale autour d'un centre-ville attractif et embelli.",
+                "Encourager l'implantation d'activités diversifiées, culturelles ou associatives.",
+                "Utiliser le droit de préemption des locaux commerciaux pour maîtriser le choix des commerces.",
+                "Lutter contre la vacance commerciale en accompagnant les porteurs de projet.",
+                "Permettre l'ouverture de boutiques éphémères pour les créateurs et entrepreneurs locaux."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Soutenir la recherche de stage, d'alternance, le retour à l'emploi et l'entrepreneuriat."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Créer un lieu d'Économie Sociale et Solidaire (ESS) dans l'ancien collège Pierre-Curie.",
+                "Faciliter l'installation de petites entreprises grâce à des baux avantageux dans des locaux municipaux.",
+                "Réserver des espaces dédiés aux micro-entreprises avec aide administrative et coworking.",
+                "Faciliter l'accès des porteurs de projet aux formations du Grand-Orly Seine Bièvre.",
+                "Inciter l'implantation de projets ESS dans les bâtiments de bureaux vides."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Faire rayonner la ville en s'appuyant sur le succès des jeunes entrepreneurs locaux.",
+                "Favoriser la coopération économique en rencontrant régulièrement les chefs d'entreprise.",
+                "Redonner confiance aux investisseurs par une gestion municipale assainie."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/la-methode/article/1-gentilleen-1-emploi-grace-aux-entreprises-et-aux-commerces-de-gentilly"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Rénover la médiathèque.",
+                "Rebâtir un conservatoire.",
+                "Remettre à niveau le complexe Maurice Baquet (équipements culturels et sportifs)."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Créer l'Université populaire gentilléenne en s'appuyant sur les universitaires locaux.",
+                "Établir des critères équitables et transparents dans l'attribution des ateliers d'artistes.",
+                "Maintenir les activités artistiques et culturelles dans l'ancien collège Pierre-Curie."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Encourager la création d'un club e-sport pour les amateurs de jeux vidéo."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/soutenir-equitablement-les-associations-sportives-et-culturelles"
+            },
+            "godard": {
+              "mesures": [
+                "Créer un chèque culture municipal pour tous les collégiens.",
+                "Multiplier les opérations culture ouverte avec les bailleurs sociaux.",
+                "Initier une Fête du livre associant les acteurs locaux.",
+                "Développer les actions d'éducation à l'image en lien avec la Maison Doisneau.",
+                "Mettre en valeur le patrimoine historique de Gentilly avec un parcours historique.",
+                "Mettre en place un projet artistique inter-écoles complet.",
+                "Mettre en valeur la diversité des langues parlées à Gentilly avec une semaine culturelle."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Rénover les gymnases de la ville.",
+                "Implanter des city stades (terrains de sport urbains)."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Rénover le Stade Maurice Baquet.",
+                "Ouvrir des équipements pour une pratique sportive libre toute l'année (Basket 3x3, Foot 5x5)."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Attribuer des subventions adéquates, justes et équitables aux associations sportives.",
+                "Assurer un service minimum d'accueil des associations sportives en cas de grève."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet/article/soutenir-equitablement-les-associations-sportives-et-culturelles"
+            },
+            "godard": {
+              "mesures": [
+                "Créer une aide financière à l'inscription sportive pour les familles modestes.",
+                "Soutenir la création d'un club handisport à Gentilly.",
+                "Garantir le partage équitable des installations sportives entre garçons et filles.",
+                "Améliorer la compétitivité des clubs en favorisant les ententes avec les villes voisines.",
+                "Débloquer des financements favorisant la professionnalisation du mouvement sportif."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Réaliser la couverture de l'autoroute A6a.",
+                "Réaliser la couverture du RER sud.",
+                "Promouvoir un urbanisme harmonieux et concerté, construit avec les habitants et les communes voisines."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Revoir les orientations du PLUi pour rééquilibrer l'espace construit avec la protection du patrimoine.",
+                "Arrêter la construction de résidences services qui ne bénéficient pas aux Gentilléens.",
+                "Améliorer les espaces extérieurs avec des jeux pour les enfants et des équipements sportifs.",
+                "Créer un groupe référent d'habitants dans chaque quartier pour suivre les projets urbains."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "crespin": {
+              "mesures": [
+                "Organiser des Assises du handicap et de l'accessibilité pour définir les priorités.",
+                "Rendre accessible le patrimoine municipal, auditer la voirie et la signalisation.",
+                "Nommer un référent handicap pour accompagner associations et familles.",
+                "Favoriser l'inclusion en adaptant la ville (trottoirs, transports, écoles, colonies).",
+                "Traiter en urgence les dangers de voirie pour les personnes en situation de handicap."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://www.biencommunpourgentilly.fr/le-projet-21/le-projet-pour-reveiller-gentilly/"
+            },
+            "godard": {
+              "mesures": [
+                "Améliorer les déplacements des personnes à mobilité réduite (trottoirs, bancs publics)."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "crespin": null,
+            "godard": {
+              "mesures": [
+                "Revitaliser les 5 grandes cités grâce à des assemblées de quartier régulières."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "crespin": null,
+            "godard": {
+              "mesures": [
+                "Créer une carte parent solo avec tarification différenciée pour crèches, cantines et périscolaire.",
+                "Accompagner les familles monoparentales pour l'accès au logement et aux soins.",
+                "Créer un guichet unique pour les démarches administratives, viser un territoire zéro non-recours.",
+                "Garantir une sécurité alimentaire avec les associations et soutenir une épicerie solidaire.",
+                "Mieux accompagner les allocataires des minima sociaux avec le CCAS.",
+                "Garantir la domiciliation des exilés et précaires avec un service de bagagerie solidaire.",
+                "Créer un service d'aide à la parentalité."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "crespin": null,
+            "godard": {
+              "mesures": [
+                "Lutter contre toutes les discriminations en collaboration avec les associations.",
+                "Former une commune antiraciste, féministe et inclusive."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "crespin": null,
+            "godard": {
+              "mesures": [
+                "Stopper l'augmentation de la taxe foncière.",
+                "Réduire l'endettement et les coûts de fonctionnement sur toute la mandature.",
+                "Mettre en place un Plan pluriannuel d'investissement.",
+                "Rechercher systématiquement des cofinancements pour tout nouveau projet.",
+                "Favoriser les dépenses partagées avec les villes voisines.",
+                "Soutenir les réseaux de voisinage et de solidarité locale.",
+                "Expérimenter l'heure civique : une heure par mois donnée à une action de solidarité."
+              ],
+              "source": "Programme officiel 2026",
+              "sourceUrl": "https://gentillyrespire.fr/"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

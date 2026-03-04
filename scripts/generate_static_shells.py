@@ -238,9 +238,143 @@ def make_head(title, description, url, og_image, og_type="website", og_image_alt
 # Écriture des shells
 # ─────────────────────────────────────────────────────────
 
-def write_shell(rel_path, head_seo, head_assets, body, dry_run=False):
-    """Écrit un fichier HTML shell."""
+# ─────────────────────────────────────────────────────────
+# Contenu SEO statique (crawlable par Google, unique par page)
+# ─────────────────────────────────────────────────────────
+
+def count_props_by_category(el_data, candidate_id):
+    """Compte les mesures par catégorie pour un candidat. Retourne dict {cat_id: count}."""
+    result = {}
+    for cat in el_data.get("categories", []):
+        n = 0
+        for st in cat.get("sousThemes", []):
+            val = st.get("propositions", {}).get(candidate_id)
+            if val and val.get("mesures"):
+                n += len(val["mesures"])
+        if n > 0:
+            result[cat["id"]] = n
+    return result
+
+
+def count_all_props_by_category(el_data):
+    """Compte le total de mesures par catégorie (tous candidats). Retourne dict {cat_nom: count}."""
+    result = {}
+    for cat in el_data.get("categories", []):
+        n = 0
+        for st in cat.get("sousThemes", []):
+            for cid, val in st.get("propositions", {}).items():
+                if val and val.get("mesures"):
+                    n += len(val["mesures"])
+        if n > 0:
+            result[cat["nom"]] = n
+    return result
+
+
+def make_city_seo_content(ville_data, el_data, schema_cats):
+    """Génère un bloc HTML SEO unique pour une page ville."""
+    vnom = ville_data["nom"]
+    cp = ville_data.get("codePostal", "")
+    dep = ville_data.get("departement", "")
+    stats = ville_data.get("stats", {})
+    n_cand = stats.get("candidats", 0)
+    n_props = stats.get("propositions", 0)
+    n_complets = stats.get("complets", 0)
+
+    candidats = el_data.get("candidats", []) if el_data else []
+
+    # Lister les candidats avec infos
+    cand_lines = []
+    for c in candidats:
+        n_p = count_propositions(el_data, c["id"]) if el_data else 0
+        status = f"{n_p} propositions" if n_p > 0 else "programme en attente"
+        if c.get("programmeComplet"):
+            status += " — programme complet"
+        cand_lines.append(f'      <li><strong>{escape(c["nom"])}</strong> ({escape(c.get("liste", ""))}) — {status}</li>')
+    cand_list = "\n".join(cand_lines)
+
+    # Thèmes les plus couverts
+    cat_counts = count_all_props_by_category(el_data) if el_data else {}
+    top_themes = sorted(cat_counts.items(), key=lambda x: x[1], reverse=True)[:5]
+    themes_text = ", ".join(f"{nom} ({n})" for nom, n in top_themes) if top_themes else "données en cours d'intégration"
+
+    html = f"""  <section class="seo-content" aria-label="Informations sur les élections municipales 2026 à {escape(vnom)}">
+    <h2>Élections municipales 2026 à {escape(vnom)}</h2>
+    <p>Les élections municipales 2026 à {escape(vnom)} ({escape(cp)}) se tiendront les 15 et 22 mars 2026.
+    {n_cand} candidat{"s" if n_cand > 1 else ""} {"sont" if n_cand > 1 else "est"} en lice pour cette élection.
+    {f"Parmi eux, {n_complets} {'ont' if n_complets > 1 else 'a'} publié un programme complet, totalisant {n_props} propositions analysées sur notre plateforme." if n_props > 0 else "Les propositions et programmes seront analysés et comparés dès leur publication."}</p>
+    <h3>Les candidats aux municipales 2026 à {escape(vnom)}</h3>
+    <ul>
+{cand_list}
+    </ul>"""
+
+    if top_themes:
+        html += f"""
+    <h3>Thèmes les plus abordés à {escape(vnom)}</h3>
+    <p>Les thématiques les plus couvertes dans les programmes des candidats à {escape(vnom)} sont : {themes_text}.</p>"""
+
+    html += """
+  </section>"""
+    return html
+
+
+def make_candidate_seo_content(cand_data, ville_name, el_data):
+    """Génère un bloc HTML SEO unique pour une page candidat."""
+    cnom = cand_data.get("nom", "")
+    cid = cand_data.get("id", "")
+    cliste = cand_data.get("liste", "")
+    complet = cand_data.get("programmeComplet", False)
+    prog_url = cand_data.get("programmeUrl", "")
+
+    n_props = count_propositions(el_data, cid) if el_data else 0
+    cat_counts = count_props_by_category(el_data, cid) if el_data else {}
+
+    # Mapper cat_id -> cat_nom depuis el_data
+    cat_names = {cat["id"]: cat["nom"] for cat in el_data.get("categories", [])} if el_data else {}
+    top_themes = sorted(cat_counts.items(), key=lambda x: x[1], reverse=True)
+
+    html = f"""  <section class="seo-content" aria-label="Profil de {escape(cnom)}, candidat aux municipales 2026 à {escape(ville_name)}">
+    <h2>{escape(cnom)} — Candidat aux municipales 2026 à {escape(ville_name)}</h2>
+    <p>{escape(cnom)} se présente aux élections municipales 2026 à {escape(ville_name)} sous l'étiquette {escape(cliste)}."""
+
+    if n_props > 0:
+        n_themes = len(cat_counts)
+        html += f""" Son programme comprend {n_props} propositions réparties sur {n_themes} thématique{"s" if n_themes > 1 else ""}."""
+        if complet:
+            html += " Le programme complet a été intégré et analysé sur notre plateforme."
+    else:
+        html += " Son programme n'a pas encore été intégré sur notre plateforme."
+
+    if prog_url and prog_url != "#":
+        html += f""" Site de campagne : <a href="{escape(prog_url)}" rel="nofollow noopener" target="_blank">{escape(prog_url)}</a>."""
+
+    html += "</p>"
+
+    if top_themes:
+        html += f"""
+    <h3>Répartition des propositions de {escape(cnom)} par thème</h3>
+    <ul>"""
+        for cat_id, count in top_themes:
+            cat_nom = cat_names.get(cat_id, cat_id)
+            html += f"""
+      <li>{escape(cat_nom)} : {count} proposition{"s" if count > 1 else ""}</li>"""
+        html += """
+    </ul>"""
+
+    html += """
+  </section>"""
+    return html
+
+
+def write_shell(rel_path, head_seo, head_assets, body, dry_run=False, seo_content=""):
+    """Écrit un fichier HTML shell avec contenu SEO optionnel injecté avant </body>."""
     out_path = os.path.join(ROOT_DIR, rel_path)
+    if seo_content:
+        # Injecter avant le footer (pas après)
+        footer_marker = '<footer class="footer"'
+        if footer_marker in body:
+            body = body.replace(footer_marker, f"{seo_content}\n\n  {footer_marker}")
+        else:
+            body = body.replace("</body>", f"\n{seo_content}\n</body>")
     html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -297,7 +431,13 @@ def main():
 
         head = make_head(title, desc, url, og_img)
         rel = f"municipales-2026/{vid}/index.html"
-        write_shell(rel, head, comp_assets, comp_body, dry_run)
+
+        # Contenu SEO unique par ville
+        el_file = os.path.join(ELECTIONS_DIR, f"{vid}-2026.json")
+        el_data_city = load_json(el_file) if os.path.exists(el_file) else None
+        city_seo = make_city_seo_content(ville, el_data_city, categories)
+
+        write_shell(rel, head, comp_assets, comp_body, dry_run, seo_content=city_seo)
         count += 1
 
         # --- 2. Shells candidats ---
@@ -336,7 +476,11 @@ def main():
 
             c_head = make_head(c_title, c_desc, c_url, c_og, og_type="profile", jsonld=jsonld)
             c_rel = f"municipales-2026/{vid}/candidats/{cid}/index.html"
-            write_shell(c_rel, c_head, cand_assets, cand_body, dry_run)
+
+            # Contenu SEO unique par candidat
+            cand_seo = make_candidate_seo_content(el_cand, vnom, el_data) if el_data else ""
+
+            write_shell(c_rel, c_head, cand_assets, cand_body, dry_run, seo_content=cand_seo)
             count += 1
 
     # --- 3. Shell enjeux index ---

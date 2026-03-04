@@ -5989,4 +5989,44 @@ mark {
   }
 }
 
-
+/* === Contenu SEO statique (bas de page) === */
+.seo-content {
+  max-width: 800px;
+  margin: 3rem auto 2rem;
+  padding: 2rem 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary, #666);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.seo-content h2 {
+  font-family: var(--font-heading, 'Montserrat', sans-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary, #1a1a2e);
+  margin: 0 0 0.75rem;
+}
+.seo-content h3 {
+  font-family: var(--font-heading, 'Montserrat', sans-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary, #1a1a2e);
+  margin: 1.25rem 0 0.5rem;
+}
+.seo-content p {
+  margin: 0 0 0.75rem;
+}
+.seo-content ul {
+  margin: 0 0 0.75rem;
+  padding-left: 1.25rem;
+}
+.seo-content li {
+  margin-bottom: 0.35rem;
+}
+.seo-content a {
+  color: var(--primary, #3366ff);
+  text-decoration: none;
+}
+.seo-content a:hover {
+  text-decoration: underline;
+}

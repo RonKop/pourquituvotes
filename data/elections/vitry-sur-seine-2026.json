@@ -40,10 +40,10 @@
           "propositions": {
             "bell-lloch": {
               "mesures": [
-                "Renforcement de la présence policière de proximité dans tous les quartiers."
+                "Mobilisation pour l'ouverture d'un nouveau commissariat digne du dynamisme de la ville."
               ],
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html"
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "Programme officiel 2026",
@@ -67,10 +67,10 @@
           "propositions": {
             "bell-lloch": {
               "mesures": [
-                "Extension de la vidéoprotection et vidéoverbalisation des infractions routières."
+                "Développement concerté de la vidéo-verbalisation pour limiter les incivilités et fluidifier la circulation."
               ],
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html"
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": null,
             "afflatet": {
@@ -87,12 +87,12 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Création d'une équipe de médiateurs de proximité urbaine.",
-                "Développement concerté de la vidéoverbalisation automatisée."
-              ]
+                "Création d'une équipe de médiateurs urbains de proximité pour prévenir les conflits et apaiser l'espace public.",
+                "Intensifier la lutte contre les dépôts sauvages à l'aide de la brigade propreté et de caméras mobiles."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "Programme officiel 2026",
@@ -114,7 +114,14 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Extension et développement de la Maison des femmes avec un axe handicap renforcé.",
+                "Sécuriser les femmes victimes de violences et faciliter leur accès aux droits (logement, santé, emploi)."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitry2026.fr/",
@@ -136,11 +143,12 @@
           "nom": "Transports en commun",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Arrivée de la ligne 15 du métro automatique du Grand Paris Express avec 4 gares sur la commune."
-              ]
+                "Mobilisation pour renforcer les cadences du RER C, le prolongement des lignes 7 et 10, et désenclaver les quartiers du haut de Vitry.",
+                "Réhabilitation de la passerelle reliant Alfortville à Vitry."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -163,11 +171,13 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Développement des pistes cyclables sécurisées dans toute la ville, création de stations de vélos en libre-service."
-              ]
+                "Développer massivement la pratique du vélo avec un réseau de pistes cyclables maillées, continues et sécurisées.",
+                "Créer des espaces de stationnement vélo aux abords des transports en commun et partout en ville.",
+                "Déployer des bornes de recharge électrique sur l'ensemble du territoire."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -189,7 +199,15 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Création de zones piétonnes pour lutter contre la pollution de l'air.",
+                "Étude pour la piétonisation de la Départementale Paul Vaillant-Couturier.",
+                "Encourager les expérimentations de mobilités partagées."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/",
@@ -212,10 +230,11 @@
           "propositions": {
             "bell-lloch": {
               "mesures": [
-                "Rénovation du parking souterrain et amélioration de l'offre de stationnement en centre-ville."
+                "Concertation sur le plan de stationnement.",
+                "Rénovation du parking souterrain du centre-ville."
               ],
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html"
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "Programme officiel 2026",
@@ -261,11 +280,15 @@
           "nom": "Logement social",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Construction de 2 000 logements tout en préservant les zones pavillonnaires, avec priorité au logement social."
-              ]
+                "Construction de 2 000 nouveaux logements tout en préservant les zones pavillonnaires.",
+                "Intensifier la rénovation des logements sociaux.",
+                "Réhabilitation de la cité Ampère et étude pour une rénovation complète du quartier 8 mai 1945.",
+                "Réhabilitation de Capra Gravier et rénovation de la galerie commerciale.",
+                "Réhabilitation complète du quartier Moulin Vert (collectifs et pavillons)."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -287,7 +310,14 @@
           "id": "logements-vacants",
           "nom": "Logements vacants",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Moratoire d'un an pour un diagnostic sur les nouvelles constructions hors logements sociaux.",
+                "Étude de la sous et sur-occupation des logements sociaux."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitry2026.fr/",
@@ -308,7 +338,14 @@
           "id": "encadrement-loyers",
           "nom": "Encadrement des loyers",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Mobilisation pour l'encadrement des loyers.",
+                "Accompagnement d'une garantie de paiement des loyers."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/",
@@ -324,12 +361,16 @@
           "nom": "Accès au logement",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Délai moyen d'attribution réduit à 4 ans grâce à une commission d'attribution équitable.",
-                "Attribution transparente de 500 logements par an."
-              ]
+                "Des centaines de logements en accession sociale à la propriété pour les jeunes décohabitants et les ménages.",
+                "Création des assises annuelles pour le logement durable.",
+                "Création d'une plateforme dédiée à l'accompagnement des locataires et de leurs amicales auprès des bailleurs.",
+                "Création d'une pension de famille pour l'hébergement d'urgence des personnes sans-domicile.",
+                "Aide à la rénovation des copropriétés dégradées.",
+                "Ouverture du bail mobilité pour les jeunes."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "Programme officiel 2026",
@@ -357,7 +398,15 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Mobilisation pour de nouvelles crèches départementales, dont le financement de la crèche des Granges municipalisée.",
+                "Publication d'un livret pour l'accompagnement à la parentalité.",
+                "Sensibilisation à l'utilisation des écrans dès le plus jeune âge."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/",
@@ -378,7 +427,15 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Amplifier la rénovation des écoles : végétalisation, rénovation thermique et cours dégenrées avec un niveau d'investissement élevé.",
+                "Installation de panneaux photovoltaïques et toits végétalisés pour les écoles.",
+                "Construction d'une nouvelle école pour désengorger le secteur Gare."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitry2026.fr/",
@@ -401,11 +458,12 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Gratuité des fournitures scolaires pour plusieurs milliers d'élèves, cantines aux tarifs les plus bas d'Île-de-France."
-              ]
+                "Améliorer la qualité de la cantine vers des produits 100 % bio et issus des circuits courts.",
+                "Mise en place de l'étude scolaire gratuite et de l'aide aux devoirs pour toutes et tous."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -422,12 +480,11 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Étude de la possibilité de rendre gratuite l'heure d'étude scolaire après la classe pour du soutien scolaire.",
-                "Organisation de 2 000 séjours en vacances pour les jeunes Vitriots, activités périscolaires renforcées."
-              ]
+                "Sensibilisation culture dès la maternelle : étendre le dispositif « graines de culture » avec plus de sorties culturelles."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             }
           }
         },
@@ -435,7 +492,16 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Mise en place d'un accompagnement face à Parcours Sup.",
+                "Constitution d'un Conseil des jeunes de 15-18 ans.",
+                "Ouverture des centres de quartier aux 15-17 ans.",
+                "Création de plus d'espaces publics pour les jeunes."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "afflatet": {
               "source": "Site officiel Alain Afflatet",
               "sourceUrl": "https://vitryavenir.fr/",
@@ -456,12 +522,17 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Création d'un grand parc en bord de Seine d'au moins 50 000 m² pour réconcilier la ville avec son fleuve.",
-                "Transformation écologique des espaces verts du quartier Vilmorin."
-              ]
+                "Création d'un grand parc en bord de Seine de 50 000 m², 2e plus grand parc naturel aménagé de la ville.",
+                "5 600 m² d'espaces verts en cœur de ville dans le cadre du nouveau centre-ville.",
+                "Plantation de plus de 1 000 arbres supplémentaires et milliers de m² désimperméabilisés.",
+                "Développer l'agriculture urbaine : renforcer les jardins partagés et ouvriers, coopération avec la ferme de Villejuif.",
+                "Création d'îlots de fraîcheur dans tous les quartiers.",
+                "Bilan annuel complet du patrimoine arboré.",
+                "Étendre les horaires d'ouverture des parcs durant l'été."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -484,12 +555,13 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Création d'une déchetterie-ressourcerie pour le recyclage et la réutilisation.",
-                "Mobilisation citoyenne pour la propreté des quartiers."
-              ]
+                "Création d'une déchetterie-ressourcerie gratuite pour le recyclage.",
+                "Renforcer le nettoiement des rues par la sensibilisation et l'action collective.",
+                "Intensifier la lutte contre les dépôts sauvages avec brigade propreté et caméras mobiles."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -512,12 +584,15 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Plan d'adaptation au changement climatique avec déminéralisation des sols.",
-                "Création d'îlots de fraîcheur et plantation d'arbres dans tous les quartiers."
-              ]
+                "Installation de panneaux photovoltaïques sur les bâtiments communaux.",
+                "Création d'une académie du climat pour la transition écologique populaire.",
+                "Concertation pour un vrai espace de baignade dans la Seine.",
+                "Sensibiliser et former à la bienveillance envers les animaux.",
+                "Réévaluer les clauses sociales et environnementales des marchés publics."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -540,11 +615,12 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Ouverture d'un site de géothermie pour chauffer les habitations et faire baisser durablement les factures d'énergie."
-              ]
+                "Géothermie pour passer à 95 % d'énergie locale et renouvelable, avec baisse des tarifs de chauffage urbain.",
+                "Accélérer la réduction de la consommation énergétique des bâtiments publics."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -566,7 +642,13 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Étude pour une sécurité sociale alimentaire."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/",
@@ -593,7 +675,15 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Étude pour une annexe du Centre Municipal de Santé (CMS).",
+                "Développer le CMPP pour agir sur la santé mentale.",
+                "Extension du nombre de prises en charge à domicile en lien avec la CPAM 94."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/",
@@ -614,7 +704,13 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Création d'une mutuelle de santé municipale."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/",
@@ -636,11 +732,14 @@
           "nom": "Seniors",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Construction d'une nouvelle résidence sénior adaptée aux besoins et au confort des aînés."
-              ]
+                "Création d'une nouvelle résidence seniors moderne conforme aux besoins d'aujourd'hui.",
+                "Renforcer le service municipal des retraité·es avec un service spécifique pour l'ensemble des besoins.",
+                "Extension du nombre de prises en charge et soins à domicile.",
+                "Mobilisation pour le retour de la carte Améthyste."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -669,11 +768,12 @@
           "nom": "Budget participatif",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Démocratie de proximité avec plus de 30 ateliers citoyens pour construire le projet."
-              ]
+                "Création d'un budget participatif et démocratique : un budget dédié aux conseils de quartier avec propositions soumises au vote des Vitriots.",
+                "Poursuite de la concertation sur les grands projets de la ville (projets participatifs, réunions, balades urbaines)."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -695,7 +795,14 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Diffusion en direct des conseils municipaux.",
+                "Travailler à la systématisation des réponses aux usagers et usagères."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "vitry2026.fr",
               "sourceUrl": "https://vitry2026.fr/",
@@ -717,11 +824,14 @@
           "nom": "Vie associative",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Réouverture de la maison sociale du Moulin Vert et ouverture de deux nouvelles salles municipales de quartier."
-              ]
+                "Mise à disposition de 3 nouvelles salles municipales pour les associations (Ardoines, Moulin Vert, Fort).",
+                "Création des « César » du bénévolat : cérémonie annuelle de valorisation des acteurs associatifs.",
+                "Renforcement du Service à la Vie Associative (SVA).",
+                "Évolution du Conseil local de l'environnement."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -745,10 +855,12 @@
           "propositions": {
             "bell-lloch": {
               "mesures": [
-                "Création d'une Maison de la Paix pour la coopération internationale et l'engagement citoyen."
+                "Mobilisation pour le maintien du service public postal.",
+                "Mobilisation pour les AESH et une meilleure prise en compte des besoins dans les écoles.",
+                "Refonte du RIFSEEP (grille de rémunération des agents) et mise en place du congé menstruel."
               ],
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html"
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -777,11 +889,14 @@
           "nom": "Commerce local",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Création d'un nouveau marché au quartier Jean Jaurès avec produits en circuit court à prix accessibles."
-              ]
+                "Poursuivre la politique de préemption commerciale pour diversifier les commerces.",
+                "Création d'un nouveau marché au Port à l'Anglais.",
+                "Favoriser l'implantation des terrasses.",
+                "Création d'un office du tourisme et mise en place d'un schéma touristique ambitieux."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "Programme officiel 2026",
@@ -804,12 +919,12 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Création d'une régie publique de quartier pour l'insertion professionnelle.",
-                "Préparation de l'accueil de 1 000 nouveaux emplois dans la ville."
-              ]
+                "Accueillir 1 000 nouveaux emplois au quartier des Ardoines avec une pépinière d'entreprises (Fab-Lab).",
+                "Création d'une régie de quartiers pour les petits travaux du quotidien et l'insertion des plus précaires."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "Programme officiel 2026",
@@ -832,7 +947,15 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Nouveau pôle commercial végétalisé avec équipements sportifs au quartier Malassis.",
+                "Accueil du nouveau métro au quartier Balzac avec de nouveaux emplois et commerces.",
+                "Rénovation de la galerie commerciale Auchan au quartier Commune de Paris."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitry2026.fr/",
@@ -860,11 +983,13 @@
           "nom": "Équipements culturels",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Construction d'un complexe festif moderne pour les familles, mariages, anniversaires et événements."
-              ]
+                "Concertation et rénovation des 3 Cinés Robespierre avec espace de formation.",
+                "Rénovation de la Maison sociale du Moulin Vert mise à disposition des associations.",
+                "Mise à disposition de plus d'équipements publics pour les Vitriots en multipliant les usages."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "Programme officiel 2026",
@@ -887,11 +1012,12 @@
           "nom": "Événements & Création",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Rendre l'accès à la culture totalement gratuit pour tous les jeunes Vitriots de moins de 26 ans."
-              ]
+                "Gratuité des équipements culturels municipaux pour les moins de 26 ans.",
+                "Sensibiliser à la culture dès la maternelle (dispositif « graines de culture »)."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "Programme officiel 2026",
@@ -919,7 +1045,15 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Construction de 2 nouveaux gymnases.",
+                "Construction de 4 nouveaux city stades (Fort, Centre ville, Square de l'Horloge, Germain Defresne).",
+                "Extension des horaires du Centre aquatique et des autres équipements sportifs."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitry2026.fr/",
@@ -940,7 +1074,14 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Maintien de l'été sportif et des pratiques adaptées à toutes et tous.",
+                "Poursuite de l'investissement dans les équipements sportifs."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitry2026.fr/",
@@ -968,13 +1109,13 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Nouveau cœur de ville : 5 600 m² d'espaces verts, nouveaux commerces, terrasses, logements sociaux rénovés, cinéma modernisé.",
-                "Rénovation du parking souterrain du centre-ville.",
-                "Projet NPRU Cœur de Ville pour revitaliser le centre."
-              ]
+                "Nouveau cœur de ville avec 5 600 m² d'espaces verts, commerces de proximité, terrasses, logements sociaux rénovés, 3 Cinés Robespierre modernisés et parking souterrain rénové.",
+                "Création d'un centre de quartier aux Combattants.",
+                "Développement du mobilier urbain intelligent pour les personnes en situation de handicap."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -996,7 +1137,16 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Reconfiguration de l'accès à l'Hôtel de ville pour améliorer l'accessibilité.",
+                "Instauration d'une commission autour du handicap avec les premiers concernés.",
+                "Accueil d'une nouvelle structure pour les personnes en situation de handicap au Moulin Vert.",
+                "Création d'une semaine de sensibilisation au handicap."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitry2026.fr/",
@@ -1017,7 +1167,15 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Réhabilitation de la cité Ampère et étude pour une rénovation complète du quartier 8 mai 1945.",
+                "Réhabilitation de Capra Gravier.",
+                "Réhabilitation complète du quartier Moulin Vert."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitry2026.fr/",
@@ -1044,7 +1202,15 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Création de la Maison de la Paix et de la solidarité internationale.",
+                "Élargir la Conférence de la Paix par de nouveaux partenariats et coopérations décentralisées.",
+                "Conforter le devoir de mémoire et transmettre l'Histoire des Vitriots."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "tmimi": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitry2026.fr/",
@@ -1066,11 +1232,12 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "bell-lloch": {
-              "source": "Programme officiel 2026 — Pierre Bell-Lloch",
-              "sourceUrl": "https://pbl2026.fr/programme.html",
               "mesures": [
-                "Lutte contre toutes les discriminations (racisme, sexisme, LGBTQIphobies), conseil citoyen et éducation à l'égalité."
-              ]
+                "Création d'une ligne d'écoute LGBTQIA+.",
+                "Renforcement de la formation et de la sensibilisation aux luttes contre les discriminations."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
             },
             "tmimi": {
               "source": "vitry2026.fr",
@@ -1092,7 +1259,15 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "bell-lloch": null,
+            "bell-lloch": {
+              "mesures": [
+                "Mise à jour du quotient familial, en particulier pour les familles monoparentales.",
+                "Création d'une mutuelle de santé municipale.",
+                "Développement du chauffage urbain écologique par géothermie avec baisse des tarifs."
+              ],
+              "source": "Programme officiel 2026 (PDF)",
+              "sourceUrl": "https://pbl2026.fr/Tract-Programme-PBL2026-NFPV.pdf"
+            },
             "afflatet": {
               "source": "Programme officiel 2026",
               "sourceUrl": "https://vitryavenir.fr/",

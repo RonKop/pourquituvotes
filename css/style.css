@@ -5992,57 +5992,51 @@ mark {
 /* === Contenu SEO statique (bas de page) === */
 .seo-content {
   max-width: 900px;
-  margin: 2.5rem auto 2rem;
-  padding: 2rem 2rem 1.5rem;
-  background: var(--bg-secondary, #f8fafc);
-  border-radius: 12px;
-  border: 1px solid var(--border, #e2e8f0);
-  color: var(--text-primary, #1e293b);
-  font-size: 0.95rem;
-  line-height: 1.7;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-top: 1px solid var(--border, #e2e8f0);
+  color: #94a3b8;
+  font-size: 0.8rem;
+  line-height: 1.6;
 }
 .seo-content h2 {
   font-family: var(--font-heading, 'Montserrat', sans-serif);
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--text-primary, #1a1a2e);
-  margin: 0 0 1rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 2px solid var(--border, #e2e8f0);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #94a3b8;
+  margin: 0 0 0.5rem;
 }
 .seo-content h3 {
   font-family: var(--font-heading, 'Montserrat', sans-serif);
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  color: var(--text-primary, #1a1a2e);
-  margin: 1.5rem 0 0.75rem;
+  color: #94a3b8;
+  margin: 0.75rem 0 0.4rem;
 }
 .seo-content p {
-  margin: 0 0 1rem;
-  color: var(--text-secondary, #475569);
+  margin: 0 0 0.5rem;
+  color: #94a3b8;
 }
 .seo-content ul {
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   padding-left: 1.25rem;
   list-style: none;
+  columns: 2;
+  column-gap: 2rem;
 }
 .seo-content li {
-  margin-bottom: 0.5rem;
-  padding-left: 0.75rem;
+  margin-bottom: 0.25rem;
+  padding-left: 0.5rem;
   position: relative;
 }
 .seo-content li::before {
-  content: '';
+  content: '·';
   position: absolute;
-  left: 0;
-  top: 0.6em;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--primary, #3366ff);
+  left: -0.25rem;
+  color: #cbd5e1;
 }
 .seo-content a {
-  color: var(--primary, #3366ff);
+  color: #64748b;
   text-decoration: none;
 }
 .seo-content a:hover {
@@ -6050,9 +6044,8 @@ mark {
 }
 @media (max-width: 768px) {
   .seo-content {
-    margin: 1.5rem 1rem;
-    padding: 1.5rem 1.25rem 1rem;
-    font-size: 0.9rem;
+    padding: 1rem 1rem;
+    font-size: 0.75rem;
   }
-  .seo-content h2 { font-size: 1.1rem; }
+  .seo-content ul { columns: 1; }
 }

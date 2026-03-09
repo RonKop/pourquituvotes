@@ -56,7 +56,7 @@
       "id": "blanco",
       "nom": "Richard Blanco",
       "liste": "Lutte Ouvrière",
-      "programmeUrl": "#",
+      "programmeUrl": "https://lutte-ouvriere.org",
       "programmeComplet": false,
       "programmePdfPath": null
     }
@@ -121,13 +121,7 @@
             "chikhi": null,
             "levi": null,
             "labarre": null,
-            "blanco": {
-              "source": "Presse locale",
-              "sourceUrl": "https://www.lutte-ouvriere.org/portail/elections/candidat/richard-blanco-164181.html",
-              "mesures": [
-                "Améliorer la sécurité au travail en renforçant les contrôles et les protections contre les accidents du travail qui concernent environ deux morts quotidiennes et dizaines de milliers d'invalidités."
-              ]
-            }
+            "blanco": null
           }
         },
         {
@@ -595,11 +589,11 @@
             "levi": null,
             "labarre": null,
             "blanco": {
-              "source": "Presse locale",
-              "sourceUrl": "https://www.lutte-ouvriere.org/portail/elections/candidat/richard-blanco-164181.html",
               "mesures": [
-                "Défendre les intérêts des travailleurs et des employés en luttant contre la hausse du coût de la vie et les profits capitalistes."
-              ]
+                "Répartir le travail entre tous, sans perte de salaire, pour lutter contre le chômage et la précarité."
+              ],
+              "source": "Circulaire officielle Lutte Ouvrière – Municipales 2026",
+              "sourceUrl": "https://lutte-ouvriere.org"
             }
           }
         },
@@ -766,7 +760,13 @@
             "chikhi": null,
             "levi": null,
             "labarre": null,
-            "blanco": null
+            "blanco": {
+              "mesures": [
+                "Rejeter le racisme, l'antisémitisme, la xénophobie et tout ce qui divise les travailleurs."
+              ],
+              "source": "Circulaire officielle Lutte Ouvrière – Municipales 2026",
+              "sourceUrl": "https://lutte-ouvriere.org"
+            }
           }
         },
         {
@@ -779,7 +779,13 @@
             "chikhi": null,
             "levi": null,
             "labarre": null,
-            "blanco": null
+            "blanco": {
+              "mesures": [
+                "Indexer les salaires, les pensions et les allocations sur les prix pour protéger le pouvoir d'achat des travailleurs."
+              ],
+              "source": "Circulaire officielle Lutte Ouvrière – Municipales 2026",
+              "sourceUrl": "https://lutte-ouvriere.org"
+            }
           }
         }
       ]

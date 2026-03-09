@@ -3,7 +3,16 @@
   "annee": 2026,
   "type": "Élections municipales",
   "dateVote": "2026-03-15T08:00:00",
-  "candidats": [],
+  "candidats": [
+    {
+      "id": "thevenot",
+      "nom": "Laurent Thevenot",
+      "liste": "Divers centre, VIVONS VOLVIC 2026",
+      "programmeUrl": "#",
+      "programmeComplet": false,
+      "programmePdfPath": null
+    }
+  ],
   "categories": [
     {
       "id": "securite",

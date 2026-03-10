@@ -10,7 +10,7 @@
       "liste": "Passionnément Aixois (UDI)",
       "programmeUrl": "https://www.sophiejoissains2026.fr/programme",
       "programmeComplet": true,
-      "programmePdfPath": null,
+      "programmePdfPath": "data/programmes/Programme Joissains_compressed.pdf",
       "nuanceOfficielle": "LDVD",
       "nuanceLibelle": "Liste divers droite"
     },
@@ -57,10 +57,10 @@
     {
       "id": "ben-ammar",
       "nom": "Mounir Ben Ammar",
-      "liste": "Aix-en-Provence ville vivante (REV)",
+      "liste": "Aix vivante et populaire (REV)",
       "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null,
+      "programmeComplet": true,
+      "programmePdfPath": "data/programmes/Programme Ben Ammar_compressed.pdf",
       "nuanceOfficielle": "LECO",
       "nuanceLibelle": "Liste écologiste"
     }
@@ -75,11 +75,15 @@
           "nom": "Police municipale",
           "propositions": {
             "joissains": {
-              "source": "Conférence de presse de campagne, Marsactu",
-              "sourceUrl": "https://marsactu.fr/breve_de_campagne/a-aix-la-maire-sortante-sophie-joissains-lance-sa-campagne-sur-le-theme-de-la-securite/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Continuer le recrutement de 10 policiers municipaux par an (effectifs passés de 80 à 147 agents)",
-                "Créer deux bases de police municipale supplémentaires et un grand commissariat avec centre d'hypervision."
+                "Recruter 10 agents de police municipale supplémentaires par an.",
+                "Créer un nouveau commissariat de police municipale.",
+                "Créer un nouveau centre de supervision urbain agrandi et modernisé.",
+                "Créer 3 nouvelles bases territoriales de police municipale, avec la rénovation complète de celle du centre-ville.",
+                "Intensifier la présence policière dans chaque quartier et village, avec une réorganisation des patrouilles de jour et de nuit et le déploiement de Postes Mobiles Opérationnels (PMO).",
+                "Renforcer les formations des agents de police municipale."
               ]
             },
             "pena": {
@@ -120,7 +124,15 @@
                 "Exiger de l'État le renfort d'au moins 100 policiers nationaux."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Police municipale de proximité avec présence humaine visible dans tous les quartiers et villages, réouverture de postes de quartier (dont le Jas-de-Bouffan).",
+                "Formation et valorisation des agents de la police municipale, recréation du lien entre la police et la population.",
+                "Meilleures conditions de travail et coordination renforcée avec la police nationale."
+              ]
+            }
           }
         },
         {
@@ -128,11 +140,11 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "joissains": {
-              "source": "Conférence de presse de campagne, Marsactu",
-              "sourceUrl": "https://marsactu.fr/breve_de_campagne/a-aix-la-maire-sortante-sophie-joissains-lance-sa-campagne-sur-le-theme-de-la-securite/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Poursuivre le déploiement des caméras de vidéoprotection (500 appareils actuellement)",
-                "Objectif : équiper en vidéosurveillance l'ensemble des écoles primaires et maternelles de la commune."
+                "Déployer davantage de caméras de vidéoprotection sur le territoire.",
+                "Sécuriser prioritairement les parvis des écoles avec la vidéoprotection et le déploiement du dispositif « rue scolaire »."
               ]
             },
             "pena": {
@@ -165,7 +177,14 @@
                 "Étendre et fiabiliser la vidéosurveillance sur l'ensemble du territoire."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Moratoire sur l'extension de la vidéoprotection et évaluation publique indépendante de son efficacité.",
+                "Réorientation des moyens consacrés à la vidéosurveillance vers la présence humaine et la prévention."
+              ]
+            }
           }
         },
         {
@@ -173,11 +192,12 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "joissains": {
-              "source": "Conférence de presse de campagne, Marsactu",
-              "sourceUrl": "https://marsactu.fr/breve_de_campagne/a-aix-la-maire-sortante-sophie-joissains-lance-sa-campagne-sur-le-theme-de-la-securite/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Lutter contre l'évolution du narcotrafic, notamment la livraison de drogue.",
-                "Tolérance zéro face aux incivilités, avec une présence renforcée sur le terrain."
+                "Doubler les dispositifs « Participation Citoyenne » pour couvrir la totalité du territoire aixois et promouvoir la participation citoyenne dans la sécurisation des habitations.",
+                "Renforcer les missions de la Maison de la Justice et du Droit (soutien aux victimes).",
+                "Projet LIMITS : détecter et limiter l'implication des mineurs dans le trafic de stupéfiants, avec la signature d'une convention étatique."
               ]
             },
             "pena": {
@@ -220,14 +240,30 @@
                 "Déployer l'îlotage dans les quartiers et mettre en place un plan « éclairage/sécurité »."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Prévention spécialisée renforcée : plus d'éducateurs de rue, de médiateurs sociaux et de lieux ouverts pour les jeunes en soirée et pendant les vacances.",
+                "Lutte ciblée contre le trafic de stupéfiants : coopération renforcée avec l'État et présence de proximité sur l'espace public.",
+                "Prévenir l'entrée des jeunes dans le trafic avec des programmes de prévention dès le collège, en lien avec les associations et les familles.",
+                "Traiter l'addiction comme une question de santé publique : création d'un CAARUD (Centre d'Accueil et d'Accompagnement à la Réduction des Risques).",
+                "Éclairage public adapté et sécurisant ; aménagements immédiats des zones dangereuses pour la sécurité routière."
+              ]
+            }
           }
         },
         {
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Créer un 2e centre d'accueil d'urgence pour les femmes victimes de violences."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -252,7 +288,15 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Politique municipale ambitieuse contre les violences faites aux femmes et aux enfants, création d'une Maison des femmes.",
+                "Expérimentation d'un parcours de prise en charge coordonnée des victimes de violences sexistes et sexuelles (VSS).",
+                "Campagnes locales de sensibilisation sur la prévention des VSS et l'égalité de genre dès le plus jeune âge, dans les écoles, équipements sportifs et culturels, espace public et transports."
+              ]
+            }
           }
         }
       ]
@@ -266,10 +310,13 @@
           "nom": "Transports en commun",
           "propositions": {
             "joissains": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Poursuite du développement des transports en commun avec la ligne Aixpress (bus 100% électriques) et construction de parkings-relais."
+                "Extension de la ligne Aixpress jusqu'à Malacrida, vers les quartiers nord.",
+                "Création d'une voie de Bus à Haut Niveau de Service (BHNS) entre la Constance, le Pôle d'Activité d'Aix et la Duranne, avec des bus de 18 mètres.",
+                "Créer deux nouvelles lignes de Bus à Haut Niveau de Service, au nord et au sud de la Ville.",
+                "Obtenir 3 haltes ferrées dans le prochain Schéma d'Armature Ferroviaire métropolitain : La Calade, Les Milles et Plan d'Aillane."
               ]
             },
             "pena": {
@@ -312,7 +359,16 @@
                 "Repenser totalement le BHNS sud qui menace les quartiers."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Gratuité totale des transports en commun municipaux.",
+                "Renforcement des lignes, fréquences et horaires pour une offre attractive.",
+                "Création d'une halte ferroviaire à Luynes et développement de pôles d'échanges intermodaux.",
+                "Abandon du projet BHNS au Plan d'Aillane au profit du tram-train utilisant la voie ferrée existante Aix-Rognac, desservant Les Milles, la Duranne et la gare TGV."
+              ]
+            }
           }
         },
         {
@@ -320,10 +376,10 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "joissains": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Plan vélo ambitieux : 170 km d'infrastructures cyclables, 5 millions d'euros par an dédiés et piétonnisation du centre historique."
+                "Apaiser l'espace public grâce à une extension des zones piétonnes et à la requalification des espaces publics en mode doux."
               ]
             },
             "pena": {
@@ -358,14 +414,28 @@
                 "Un vrai plan vélo avec des pistes protégées."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Développement massif des pistes cyclables continues et sécurisées.",
+                "Campagnes de sensibilisation et de soutien aux mobilités actives (marche, vélo, covoiturage).",
+                "Création de parcours sécurisés et ludiques de mobilité active pour les enfants sur le chemin de l'école (pédibus scolaires)."
+              ]
+            }
           }
         },
         {
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Réaménager l'échangeur du Pont de l'Arc et accompagner la nouvelle bretelle A8/A51."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -399,7 +469,14 @@
                 "S'attaquer aux zones routières dangereuses et saturées."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Réduction ciblée du trafic automobile dans les zones sensibles avec limitation de la vitesse à 30 km/h (écoles, cœurs de quartiers, centres historiques).",
+                "Sécurité routière : aménagements immédiats des zones dangereuses, lutte contre les rodéos urbains, protection des piétons et cyclistes."
+              ]
+            }
           }
         },
         {
@@ -407,10 +484,11 @@
           "nom": "Stationnement",
           "propositions": {
             "joissains": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Construction de parkings-relais pour accompagner le développement des transports en commun et limiter la circulation automobile en centre-ville."
+                "Proposer aux Aixois 2 nouveaux parkings sur le pourtour du centre-ville.",
+                "Renforcer l'offre de parcs-relais au sud de la Ville et construire un nouveau parking-relais en lien avec le BHNS à venir."
               ]
             },
             "pena": {
@@ -432,7 +510,14 @@
                 "Soutenir le commerce de centre-ville et des villages avec une vraie politique de stationnement."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Baisse et gel des tarifs municipaux de stationnement.",
+                "Privilégier la densification urbaine en centre-ville au lieu de l'étalement urbain, réduisant la dépendance automobile."
+              ]
+            }
           }
         },
         {
@@ -457,7 +542,14 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Gratuité totale des transports en commun municipaux.",
+                "Tarification sociale de l'eau avec gratuité des premiers mètres cubes."
+              ]
+            }
           }
         }
       ]
@@ -471,10 +563,10 @@
           "nom": "Logement social",
           "propositions": {
             "joissains": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Construction de 900 logements par an, notamment dans le quartier Constance, avec proximité des équipements à 15 minutes à pied ou vélo."
+                "Construction de logements dans le cadre de la rénovation urbaine d'Encagnane (424 logements prévus) et du quartier du Faubourg."
               ]
             },
             "pena": {
@@ -505,7 +597,16 @@
                 "Dynamiser la production de logements accessibles, avec un complément de logements sociaux pour les étudiants et les actifs."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Respecter la loi SRU et rattraper le retard en construisant massivement des logements sociaux pour les familles, les étudiants et les jeunes travailleurs.",
+                "Moratoire sur les projets immobiliers non concertés et sur les démolitions de logements sociaux.",
+                "Soutien aux coopératives d'habitants, à l'habitat participatif et au logement coopératif (seniors/étudiants).",
+                "Construire une nouvelle auberge de jeunesse."
+              ]
+            }
           }
         },
         {
@@ -532,7 +633,15 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Mobiliser le stock de 7 521 logements vacants en accompagnant les propriétaires pour une remise sur le marché locatif.",
+                "Limiter les résidences secondaires et les locations touristiques de type Airbnb.",
+                "Surveillance du bâti existant et mobilisation du droit de préemption."
+              ]
+            }
           }
         },
         {
@@ -566,14 +675,28 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Encadrement strict et contrôlé des loyers.",
+                "Limiter les résidences secondaires et les locations touristiques de type Airbnb.",
+                "Sécurisation des parcours résidentiels et encadrement de la revente pour éviter toute spéculation."
+              ]
+            }
           }
         },
         {
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Mettre en place un partenariat structuré entre la Ville, Aix-Marseille Université, le CROUS et les acteurs associatifs pour développer des solutions de logement étudiant et intergénérationnel."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -611,7 +734,16 @@
                 "Lancer un vaste plan de réhabilitation climatique du bâti ancien et sécuriser les immeubles en péril."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Développement du bail réel solidaire (BRS) et des dispositifs anti-spéculatifs.",
+                "Soutien à la création d'un Office Foncier Solidaire (OFS).",
+                "Accompagnement municipal des primo-accédants.",
+                "Réserver un quota de logements accessibles dans chaque programme immobilier ; aide municipale pour adapter les logements existants."
+              ]
+            }
           }
         }
       ]
@@ -652,7 +784,16 @@
                 "Créer de nouvelles places en crèche, notamment dans les villages."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Augmentation du nombre de places en crèche publique, avec priorité aux familles aixoises.",
+                "Remunicipalisation progressive des crèches.",
+                "Tarification sociale renforcée pour assurer une accessibilité financière réelle.",
+                "Amélioration des conditions de travail des professionnels de la petite enfance."
+              ]
+            }
           }
         },
         {
@@ -660,11 +801,11 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "joissains": {
-              "source": "Gomet', 2024",
-              "sourceUrl": "https://gomet.net/education-une-rentree-des-classes-au-vert-pour-les-petits-aixois/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Plan 'Bien-être à l'école' : végétalisation des 78 cours d'écoles avec confort thermique et lutte contre le harcèlement scolaire.",
-                "Installation de panneaux photovoltaïques sur les bâtiments."
+                "Accélérer le plan de rénovation thermique des écoles, optimiser l'entretien des cours d'école végétalisées et créer des salles refuges climatisées dans chaque école.",
+                "Renforcer le parcours de réussite de l'enfant grâce aux dispositifs « Coup de pouce », d'Enseignement Artistique et Culturel (Label 100% EAC) et le « Savoir Rouler à Vélo »."
               ]
             },
             "pena": {
@@ -695,7 +836,16 @@
                 "Lancer un audit complet et un plan pluriannuel de rénovation des écoles : réhabilitation, sécurité, confort thermique et végétalisation."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Soutien financier renforcé aux écoles publiques, priorité aux établissements des quartiers populaires.",
+                "Rénovation des écoles dégradées et amélioration des conditions d'accueil.",
+                "Plan d'accueil adapté pour les élèves en situation de handicap avec mise aux normes des locaux.",
+                "Obtenir le label « Cité éducative » avec un Programme de Réussite Éducative pour les enfants en échec scolaire."
+              ]
+            }
           }
         },
         {
@@ -703,10 +853,10 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "joissains": {
-              "source": "Gomet', 2024",
-              "sourceUrl": "https://gomet.net/education-une-rentree-des-classes-au-vert-pour-les-petits-aixois/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "51% de produits de qualité dans les cantines scolaires dont 31% bio, et 85% de fruits et légumes en circuits courts et de saison."
+                "Maintenir et augmenter la qualité de la restauration scolaire : 57% de produits durables et de qualité, 36% de produits bio. Refus des produits issus d'accords internationaux mettant en difficulté nos agriculteurs."
               ]
             },
             "pena": {
@@ -737,14 +887,28 @@
                 "Baisser le prix de la cantine d'1 euro par repas."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Gratuité totale des cantines scolaires pour tous, 100 % bio et local, avec option alimentaire végane quotidienne.",
+                "Gratuité des fournitures scolaires essentielles.",
+                "Repas à 1 € pour tous les étudiants en partenariat avec le CROUS."
+              ]
+            }
           }
         },
         {
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Renforcer les activités périscolaires, culturelles, sportives et l'aide aux devoirs sur des horaires élargis."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -774,14 +938,29 @@
                 "Instituer un « protecteur des enfants » pour les crèches et les écoles."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Écoles ouvertes après 18h30 pour accompagnement scolaire, activités culturelles et citoyennes.",
+                "Pour chaque enfant de 6 à 18 ans : accès gratuit ou à tarif très modique à un cours de sport, de musique ou d'expression artistique.",
+                "Soutien aux AESH et accompagnement municipal dans les écoles ; aménagement des cantines et activités périscolaires inclusives.",
+                "Soutien renforcé aux centres de loisirs inclusifs."
+              ]
+            }
           }
         },
         {
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Faire évoluer les missions du Repère (lieu d'information et d'accueil des étudiants) comme un lieu d'écoute, d'accompagnement et de prévention pour les étudiants."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -818,7 +997,16 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Mise en place d'un revenu universel municipal pour les jeunes et les étudiants (expérimentation progressive avec évaluation publique annuelle).",
+                "Création d'une École de la Deuxième Chance à Aix pour les jeunes de 16 à 25 ans sortis du système scolaire sans diplôme.",
+                "Épiceries sociales et solidaires dans tous les quartiers et à proximité des résidences étudiantes.",
+                "Développement d'espaces d'expression et de participation des enfants et des jeunes à la vie locale."
+              ]
+            }
           }
         }
       ]
@@ -832,12 +1020,13 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "joissains": {
-              "source": "Made in Marseille, 2024",
-              "sourceUrl": "https://madeinmarseille.net/123668-ambitions-sophie-joissains-aix-en-provence-ville-plus-verte/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Végétalisation des places publiques avec plantation d'arbres pour réduire les températures de 2 à 4 degrés.",
-                "Élimination des pesticides et optimisation de l'arrosage des espaces verts.",
-                "Création d'un parc naturel urbain."
+                "Planter 400 arbres par an, d'essences adaptées au climat, pendant toute la durée du mandat.",
+                "Poursuivre la réhabilitation et la modernisation des parcs et jardins (Parc Jourdan, Parc de la Torse, Parc Villers).",
+                "Créer un Plan « Ombrage et fontaines » pour un rafraîchissement urbain et le confort des habitants.",
+                "Poursuivre la mise en circuit fermé des fontaines et cartographier les fontaines potables en centre-ville et dans les quartiers et villages."
               ]
             },
             "pena": {
@@ -877,14 +1066,33 @@
                 "Créer un grand cheminement le long de l'Arc."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Végétalisation prioritaire des rues, cours d'écoles, places, parkings et zones commerciales.",
+                "Déploiement d'îlots de fraîcheur accessibles à tous (zones ombragées, arbres d'alignement, jardins publics et partagés).",
+                "Zéro bétonnage des terres agricoles et naturelles (Constance, Montaiguet, Arbois, Puyricard).",
+                "Moratoire sur le projet d'aménagement de la Constance et création d'un Grand Parc Cézanne (habitat, nature, parcours santé, espaces culturels, jardins partagés).",
+                "Développement et protection des trames vertes et bleues : corridors biologiques reliant parcs, collines, jardins et ruisseaux."
+              ]
+            }
           }
         },
         {
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Multiplier les campagnes de communication pour lutter contre les incivilités et les bonnes conduites en matière de dépôts d'ordures ménagères.",
+                "Maximiser l'utilisation de la plateforme « Je signale » pour optimiser la carte interactive de signalement et de suivi des dépôts sauvages.",
+                "Moderniser les moyens de la propreté urbaine avec une transition progressive vers des véhicules propres.",
+                "Renforcer les prérogatives d'investigation, de verbalisation et les moyens de la Brigade de l'environnement, avec le déploiement de caméras sur les secteurs de dépôts sauvages."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -910,14 +1118,32 @@
                 "Nouvelle organisation du service de propreté avec présence renforcée, suivi et contrôle."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Renforcement des effectifs municipaux dédiés à la propreté et à l'hygiène urbaine avec présence quotidienne dans tous les quartiers.",
+                "Plan municipal de lutte contre les dépôts sauvages : enlèvement rapide, sanctions ciblées, responsabilisation des professionnels et bailleurs.",
+                "Tolérance zéro contre l'habitat indigne et les marchands de sommeil ; renforcement des contrôles sanitaires des logements.",
+                "Campagnes municipales régulières de dératisation écologique et préventive, en priorité autour des écoles et crèches.",
+                "Soutien à la création d'une ressourcerie favorisant le recyclage et le réemploi."
+              ]
+            }
           }
         },
         {
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Créer des îlots de fraîcheur hors-sol, notamment sur les Places Comtales et la Place Romée-de-Villeneuve.",
+                "Mettre en place un comité scientifique et écologique pour apprécier l'impact des politiques publiques.",
+                "Mettre en place des salles climatisées sur l'ensemble de la Ville pour les périodes de canicule."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -960,14 +1186,33 @@
                 "Lancer une démarche à 10 ans pour faire d'Aix une ville à énergie positive."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Désimperméabilisation massive des sols publics et privés pour réduire les îlots de chaleur.",
+                "Création d'un plan municipal « Ville ombragée et fraîcheur urbaine ».",
+                "Élaboration d'un Plan communal de résilience climatique et création de refuges climatiques municipaux.",
+                "Gestion publique, économe et transparente de l'eau ; réduction des fuites et recyclage des eaux pluviales.",
+                "Lutte contre les pollutions de l'air et du bruit avec capteurs municipaux dans tous les quartiers, données publiées en open data."
+              ]
+            }
           }
         },
         {
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Déployer de nouvelles solutions énergétiques renouvelables (géothermie, photovoltaïque, biogaz, bois) et refaire d'Aix-en-Provence une cité thermale.",
+                "Moderniser l'éclairage public pour atteindre 100% d'éclairage LED.",
+                "Développer la géothermie pour que le réseau de chaleur urbain atteigne 80% d'énergie verte.",
+                "Mise en place d'une ferme photovoltaïque sur le secteur de l'Arbois, produisant 30 MW d'électricité verte (équivalent des besoins de 30 000 habitants)."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -1003,7 +1248,16 @@
                 "Relancer un grand plan de géothermie."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Plan municipal de rénovation énergétique de tous les bâtiments communaux.",
+                "Soutien aux kits de rénovation énergétique pour les ménages modestes.",
+                "Production locale d'énergie renouvelable (solaire, géothermie) sur les bâtiments communaux et toitures municipales.",
+                "Création d'un service public communal de la rénovation énergétique avec guichet municipal unique."
+              ]
+            }
           }
         },
         {
@@ -1033,7 +1287,17 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Priorité aux produits locaux et paysans dans la restauration collective municipale (cantines scolaires, crèches, EHPAD).",
+                "Développement de fermes municipales ou partenariats agricoles de proximité.",
+                "Lutte contre la précarité alimentaire par l'accès à des produits locaux de qualité.",
+                "Création d'un Conseil local de l'alimentation et de l'agriculture paysanne.",
+                "Soutien aux pratiques agricoles favorables au vivant : agroécologie, agriculture biologique, respect des sols et de l'eau."
+              ]
+            }
           }
         }
       ]
@@ -1047,10 +1311,12 @@
           "nom": "Centres de santé",
           "propositions": {
             "joissains": {
-              "source": "Destimed, 2026",
-              "sourceUrl": "https://www.destimed.fr/municipales-a-aix-en-provence-sophie-joissains-lance-sa-candidature-passionnee/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Renaissance du thermalisme : poursuite de la recherche d'eau thermale pour développer l'activité thermale historique d'Aix-en-Provence."
+                "Renforcer l'offre de soins avec le développement des maisons de santé dans les quartiers et villages (6 déjà installées, dont 2 labellisées France Santé).",
+                "Poursuivre l'accompagnement des établissements de santé publics et privés.",
+                "Retrouver le label thermal de la Ville d'Aix-en-Provence."
               ]
             },
             "pena": {
@@ -1082,7 +1348,16 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Maisons pluridisciplinaires de santé, au Jas-de-Bouffan par exemple.",
+                "Faciliter l'accès aux soins dans une période de pénurie de soignants ; améliorer les liens avec les CPTS.",
+                "Bus santé itinérants.",
+                "Soutenir le Planning familial et les associations de prévention santé."
+              ]
+            }
           }
         },
         {
@@ -1112,14 +1387,29 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Campagne municipale de prévention : sensibilisation aux risques des perturbateurs endocriniens, de la malbouffe et de toutes les addictions.",
+                "Développer une vraie campagne de sensibilisation sur les problèmes de santé mentale.",
+                "Mener avec les associations des études sur la santé environnementale (qualité de l'air, bruit).",
+                "Promotion d'une alimentation saine, végétale et accessible."
+              ]
+            }
           }
         },
         {
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Renforcer une politique globale à destination des aînés : animations et billetterie à tarifs préférentiels ou gratuits, lutte contre l'isolement, aide à domicile, soins."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -1146,7 +1436,15 @@
                 "Des résidences services dans le parc social pour favoriser le maintien à domicile."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Créer des structures publiques pour les personnes dépendantes avec une gestion associative ou coopérative.",
+                "Développer des services d'aide à la personne et soutenir les aidants familiaux.",
+                "Création de lieux de répit et d'accueil de jour ; maison municipale du handicap à Aix."
+              ]
+            }
           }
         }
       ]
@@ -1160,10 +1458,10 @@
           "nom": "Budget participatif",
           "propositions": {
             "joissains": {
-              "source": "Site officiel de campagne",
-              "sourceUrl": "https://www.sophiejoissains2026.fr/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Renforcer la concertation citoyenne : décider avec les Aixois sur les projets structurants de la ville."
+                "Poursuivre les concertations citoyennes sur les projets d'urbanisme majeurs afin d'intégrer chaque Aixois aux idées de renouveau urbain."
               ]
             },
             "pena": {
@@ -1196,7 +1494,15 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Budget participatif écologique dédié à des projets de nature, d'alimentation durable, de mobilité douce et de biodiversité.",
+                "Commissions citoyennes locales pour co-construire les politiques climatiques et environnementales.",
+                "Conseil municipal du handicap avec habitants et associations ; accessibilité aux réunions publiques et bureaux de vote."
+              ]
+            }
           }
         },
         {
@@ -1204,11 +1510,10 @@
           "nom": "Transparence",
           "propositions": {
             "joissains": {
-              "source": "Site officiel de campagne",
-              "sourceUrl": "https://www.sophiejoissains2026.fr/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Engagement de ne pas augmenter les impôts locaux.",
-                "Gestion rigoureuse des finances municipales au service des Aixois, avec stabilité fiscale garantie sur tout le mandat."
+                "Pas d'augmentation des impôts communaux pendant toute la durée du mandat (engagement maintenu depuis près de 30 ans)."
               ]
             },
             "pena": {
@@ -1255,7 +1560,16 @@
                 "Diminuer de moitié le budget de communication et supprimer les frais de représentation des élus."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Publication annuelle d'un bilan local de la sécurité et de la prévention.",
+                "Baisse ciblée des impôts locaux (taxe foncière) et de la taxe sur les ordures ménagères ; aucune augmentation des impôts et tarifs.",
+                "Transparence totale sur les budgets culturels municipaux.",
+                "Documents en FALC (facile à lire et à comprendre) pour l'accessibilité de la démocratie."
+              ]
+            }
           }
         },
         {
@@ -1263,10 +1577,10 @@
           "nom": "Vie associative",
           "propositions": {
             "joissains": {
-              "source": "Métropole Aix-Marseille-Provence",
-              "sourceUrl": "https://ampmetropole.fr/elus/joissains-sophie/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Renforcement des conseils de quartier et de citoyens pour favoriser la participation citoyenne et la proximité avec les habitants."
+                "Développer un réseau de bénévoles et d'accompagnement citoyen pour soutenir les personnes les plus isolées."
               ]
             },
             "pena": {
@@ -1299,7 +1613,16 @@
                 "Collaboration avec les CIQ et associations pour la propreté et la vie de quartier."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Création d'une Maison municipale de la vie associative : lieu ressource avec bureaux partagés, salles de réunion, accompagnement administratif et juridique.",
+                "Mise à disposition gratuite ou à tarif symbolique des salles municipales pour les associations locales.",
+                "Réforme des subventions associatives sur des critères clairs, publics et équitables ; fin du clientélisme.",
+                "Co-construction des politiques publiques avec les habitants, le monde associatif, les CIQ et les conseils de quartier."
+              ]
+            }
           }
         },
         {
@@ -1338,7 +1661,16 @@
                 "Renforcement des compétences et effectifs des mairies annexes."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Guichets uniques de quartier et bus itinérant des droits.",
+                "Lutte contre la précarité numérique et énergétique.",
+                "Amélioration des conditions de travail des agents de propreté et valorisation de ces métiers essentiels.",
+                "Création d'un poste d'adjoint(e) au respect du vivant, consulté(e) sur tous les projets d'aménagement ayant un impact écologique."
+              ]
+            }
           }
         }
       ]
@@ -1388,14 +1720,30 @@
                 "Soutenir le commerce de centre-ville et des villages."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Soutien actif aux artisans et commerçants de proximité avec politique de préemption commerciale.",
+                "Aides ciblées à l'installation et à la transmission des commerces indépendants.",
+                "Requalification des centres commerciaux de proximité (Valcros au Jas-de-Bouffan, Luynes) en véritables lieux de vie.",
+                "Revitalisation des marchés de quartier avec priorité aux producteurs locaux."
+              ]
+            }
           }
         },
         {
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Projet de Tech Valley (terrain de l'ENSOSP, labellisé France 2030) : pôle d'excellence dédié à l'aéronautique, la cybersécurité, l'intelligence artificielle et la défense spatiale.",
+                "Projet d'Energy Valley au sein du Pôle d'Activités d'Aix-en-Provence : hub d'innovation consacré aux énergies renouvelables et à la transition énergétique."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -1419,7 +1767,17 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Expérimentation du dispositif Territoire Zéro Chômeur de Longue Durée, en priorité dans les quartiers populaires.",
+                "Création d'emplois municipaux dans les secteurs essentiels : propreté, rénovation énergétique, mobilités, restauration collective, médiation, culture.",
+                "Soutien renforcé aux structures de l'ESS (associations, coopératives, entreprises d'insertion).",
+                "Généralisation des clauses sociales et environnementales dans 100 % des marchés publics municipaux.",
+                "Développement de parcours d'insertion et de formation en lien avec l'École de la Deuxième Chance."
+              ]
+            }
           }
         },
         {
@@ -1427,10 +1785,10 @@
           "nom": "Attractivité",
           "propositions": {
             "joissains": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/aix-en-provence/municipales-2026-sophie-joissains-est-officiellement-candidate-a-aix-en-provence-5419741",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Pas d'augmentation des impôts : engagement de stabilité fiscale pour maintenir l'attractivité d'Aix-en-Provence."
+                "Valoriser une offre touristique culturelle et patrimoniale d'excellence en cohérence avec l'identité aixoise et les grands équipements."
               ]
             },
             "pena": {
@@ -1451,7 +1809,15 @@
                 "Bâtir un nouveau Palais des Congrès et des produits touristiques patrimoniaux adaptés à la ville."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Création d'un pôle municipal dédié aux entrepreneurs, artisans et porteurs de projets dans les anciens locaux du CFA, avec loyers modérés.",
+                "Réorientation des aides publiques vers les projets créateurs d'emplois durables, locaux et écologiquement responsables.",
+                "Mise à disposition d'ateliers, bureaux partagés, espaces de formation et d'accompagnement."
+              ]
+            }
           }
         }
       ]
@@ -1465,11 +1831,13 @@
           "nom": "Équipements culturels",
           "propositions": {
             "joissains": {
-              "source": "Métropole Aix-Marseille-Provence",
-              "sourceUrl": "https://ampmetropole.fr/elus/joissains-sophie/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Développement du Conservatoire, de la Cité du Livre et des musiques actuelles.",
-                "Culture accessible dans tous les quartiers avec pôle cirque et pôle image."
+                "Ouverture de la Bibliothèque Méjanes rénovée : lieu de lecture publique gratuite, de découverte et de vie.",
+                "Ouvrir un Muséum d'histoire naturelle à Aix-en-Provence (3 sites à l'étude, notamment à La Constance).",
+                "Ouverture d'un parcours cézannien unique au monde pour visiter l'ensemble des lieux de vie et de travail de Paul Cézanne.",
+                "Dégagement et dévoilement du théâtre antique de la SEDS (diamètre de 100 mètres, Ier siècle av. J.-C.)."
               ]
             },
             "pena": {
@@ -1505,14 +1873,31 @@
                 "Lancer un plan de réhabilitation du patrimoine, une école du « patrimoine » au Pavillon Vendôme et mettre en valeur les sites cézanniens et antiques."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Création d'une Cité des arts et de la culture municipale : résidences d'artistes, ateliers, cinéma public de quartier, espaces de pratiques amateurs.",
+                "Construction d'une antenne de la bibliothèque Méjanes au Jas-de-Bouffan ; rénovation de la bibliothèque des Deux Ormes.",
+                "Déploiement de bibliobus municipaux dans tous les quartiers et villages.",
+                "Implantation du Muséum d'Histoire naturelle sur le site de la Constance."
+              ]
+            }
           }
         },
         {
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Affirmer la culture comme une politique centrale du projet municipal au service de l'émancipation, de l'éducation et du vivre ensemble.",
+                "Ancrer la Biennale d'Aix comme un rendez-vous majeur de création dans l'espace public, faisant dialoguer patrimoine et création.",
+                "Structurer l'accompagnement des compagnies en complément de la programmation du Théâtre du Bois de l'Aune."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -1543,7 +1928,16 @@
                 "Organiser un grand festival étudiant annuel."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Réorientation progressive des financements vers la culture de proximité, l'éducation populaire et la création.",
+                "Conditionnement des grandes subventions culturelles à des engagements clairs d'accessibilité sociale, territoriale et tarifaire.",
+                "Développement d'actions de médiation culturelle, de lecture publique et d'ateliers dans les quartiers populaires.",
+                "Accès facilité et gratuit aux équipements culturels municipaux ; création d'un Pass culture-sport handicap."
+              ]
+            }
           }
         }
       ]
@@ -1557,10 +1951,11 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "joissains": {
-              "source": "Gomet', 2023",
-              "sourceUrl": "https://gomet.net/la-ville-daix-recupere-ses-equipements-sportifs-et-culturels/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Récupération et gestion directe par la Ville des équipements sportifs et culturels de la métropole : Arena, 6Mic, stade Maurice David, piscines Claude Mollet, Yves Blanc et Plein Ciel."
+                "Rénover et moderniser l'intégralité des stades et gymnases communaux, avec une exigence pour l'accessibilité et la rénovation énergétique.",
+                "Passer la capacité du Stade Maurice David à plus de 10 000 places pour répondre aux critères du TOP 14."
               ]
             },
             "pena": {
@@ -1588,14 +1983,28 @@
                 "Soutenir le sport et mettre « Aix » dans le nom de tous les grands clubs sportifs."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Accès PMR aux festivals d'Aix, Grand Théâtre et équipements sportifs.",
+                "Création d'un Pass culture-sport handicap."
+              ]
+            }
           }
         },
         {
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Rendre l'information sportive plus accessible avec la création d'un agenda sportif en ligne et une carte des équipements sportifs.",
+                "Poursuivre la création et l'animation d'équipements sportifs de proximité dans les quartiers et villages."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -1615,7 +2024,14 @@
                 "Développer des espaces de sport en libre accès dans les parcs et jardins."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Pour chaque enfant et adolescent de 6 à 18 ans : accès gratuit ou à tarif très modique à un cours de sport.",
+                "Sensibilisation au respect du vivant et à la protection de l'environnement dans les activités sportives."
+              ]
+            }
           }
         }
       ]
@@ -1629,11 +2045,13 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "joissains": {
-              "source": "Destimed, 2026",
-              "sourceUrl": "https://www.destimed.fr/municipales-a-aix-en-provence-sophie-joissains-lance-sa-candidature-passionnee/",
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
               "mesures": [
-                "Poursuite de la transformation de la place Romée de Villeneuve et de la requalification du Cours Sextius en artère urbaine fraîche avec espaces verts et eau.",
-                "Préservation des points de vue cézaniens à la ZAC de la Constance."
+                "Requalification bioclimatique du Cours Sextius : couture urbaine entre les Thermes, le Cours Sextius et le Boulevard de la République, avec cours d'eau urbain et renforcement des continuités vertes.",
+                "Faire du quartier de La Constance un modèle de développement concerté, équilibré, accessible et intégré (écoquartier bioclimatique et culturel unique en France, urbanisme inspiré du quartier Mazarin).",
+                "Achever la rénovation urbaine d'Encagnane (programme chiffré à plus de 158 millions d'euros) et du quartier du Faubourg.",
+                "Transformer la charte du « Bien construire » en charte du « Bien et Beau construire » avec l'intégration de normes écologiques, thermiques et énergétiques."
               ]
             },
             "pena": {
@@ -1669,14 +2087,29 @@
                 "Grand « plan centre-ville » et « contrats de quartiers » élaborés avec la population."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Privilégier la densification urbaine en centre-ville au lieu de l'étalement urbain.",
+                "Création d'une Maison des Projets : espace d'information, de débats et de coconstruction de la ville avec les citoyens.",
+                "Création d'un adjoint(e) au respect du vivant, consulté(e) sur tous les projets d'aménagement ayant un impact écologique."
+              ]
+            }
           }
         },
         {
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Optimiser l'accès aux bâtiments publics aux personnes en situation de handicap.",
+                "Autoriser les transports spécialisés pour les personnes en situation de handicap à emprunter les couloirs de bus."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -1707,7 +2140,16 @@
                 "Assurer l'accessibilité PMR partout où cela est possible."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Audit complet des bâtiments municipaux, écoles, équipements sportifs et culturels pour l'accessibilité.",
+                "Mise aux normes des trottoirs, passages piétons, arrêts de bus et marchés.",
+                "Accessibilité des bus et parkings PMR supplémentaires ; taxis solidaires municipaux pour personnes isolées.",
+                "Plan municipal d'emploi handicap dans la mairie et les DSP ; création d'un guichet unique handicap."
+              ]
+            }
           }
         },
         {
@@ -1726,7 +2168,16 @@
             "klein": null,
             "boronad": null,
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Soutien financier renforcé aux écoles publiques des quartiers populaires.",
+                "Redéploiement des moyens de propreté vers les secteurs les plus en difficulté.",
+                "Expérimentation Territoire Zéro Chômeur de Longue Durée en priorité dans les quartiers populaires.",
+                "Revitalisation des marchés de quartier à Jas-de-Bouffan, Encagnane, Val-Saint-André, Luynes."
+              ]
+            }
           }
         }
       ]
@@ -1739,7 +2190,13 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Poursuivre une politique de protection animale avec un cimetière animalier, un sanctuaire, l'ouverture de 2 parcs canins et un renouvellement des labels « Bien-être animal »."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -1764,7 +2221,17 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Plan municipal de soutien aux familles monoparentales.",
+                "Épiceries sociales et solidaires dans tous les quartiers et à proximité des résidences étudiantes.",
+                "Audit généralisé des charges locatives facturées par les bailleurs sociaux de la Ville.",
+                "Accueil digne et accompagnement des personnes réfugiées ou exilées, en lien avec les associations locales.",
+                "Soutien aux associations de solidarité internationale, de défense des droits humains et d'éducation populaire."
+              ]
+            }
           }
         },
         {
@@ -1809,14 +2276,30 @@
               ]
             },
             "geiger": null,
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Plan municipal de lutte contre toutes les discriminations (racisme, antisémitisme, islamophobie, LGBTIphobies, sexisme, handicap).",
+                "Former tous les agents municipaux à la prévention et à la prise en charge des VSS.",
+                "Respect strict de la loi de 1905 : neutralité de la puissance publique, liberté de conscience et libre exercice des cultes.",
+                "Soutien à la création d'un centre cultuel et culturel musulman d'excellence via bail emphytéotique, sans financement public du culte.",
+                "Évaluer toutes les politiques municipales à l'aune de l'inclusion avec une grille de validation inclusive, antiraciste, féministe et anti-validiste."
+              ]
+            }
           }
         },
         {
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "joissains": null,
+            "joissains": {
+              "source": "Programme de campagne 2026 (courrier)",
+              "sourceUrl": "https://www.sophiejoissains2026.fr/programme",
+              "mesures": [
+                "Continuer de valoriser le patrimoine auprès des Aixois via des tarifs préférentiels et des gratuités."
+              ]
+            },
             "pena": {
               "source": "Programme officiel 2026 — Aix Avenir",
               "sourceUrl": "https://aixavenir.fr/#programme",
@@ -1850,7 +2333,17 @@
                 "Réduire fortement les dépenses de fonctionnement."
               ]
             },
-            "ben-ammar": null
+            "ben-ammar": {
+              "source": "Programme de campagne 2026",
+              "sourceUrl": "data/programmes/Programme Ben Ammar_compressed.pdf",
+              "mesures": [
+                "Mise en place d'un revenu universel municipal pour les jeunes et les étudiants.",
+                "Baisse ciblée des impôts locaux (taxe foncière) et de la taxe sur les ordures ménagères.",
+                "Baisse et gel des tarifs municipaux (stationnement, services funéraires, activités périscolaires).",
+                "Gratuité totale des cantines scolaires 100 % bio et locales.",
+                "Tarification sociale de l'eau avec gratuité des premiers mètres cubes."
+              ]
+            }
           }
         }
       ]

@@ -10,7 +10,9 @@
       "liste": "MoDem",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "marbot",
@@ -18,7 +20,9 @@
       "liste": "Union de la gauche et écologistes (PS/EELV/PCF)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "blanco",
@@ -26,7 +30,9 @@
       "liste": "LFI / Écologiste, Pau Insoumise écologique et citoyenne",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "taillefer",
@@ -34,7 +40,9 @@
       "liste": "RN (Rassemblement National)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "arraou",
@@ -42,7 +50,9 @@
       "liste": "Liste citoyenne, Arraou avec vous",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDIV",
+      "nuanceLibelle": "Liste Divers"
     },
     {
       "id": "boniface",
@@ -50,7 +60,9 @@
       "liste": "Liste citoyenne",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDIV",
+      "nuanceLibelle": "Liste Divers"
     },
     {
       "id": "marconi",
@@ -58,15 +70,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "cronier",
-      "nom": "Reynald Cronier",
-      "liste": "Debout La France",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
   "categories": [
@@ -90,8 +96,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -110,15 +115,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": {
-              "source": "Candidator",
-              "sourceUrl": "https://www.candidator.fr/municipalespau2026/recherche-candidat.html",
-              "a_verifier": true,
-              "mesures": [
-                "Suppression des dispositifs de surveillance jugés liberticides."
-              ]
-            }
+            "marconi": null
           }
         },
         {
@@ -137,8 +134,7 @@
             },
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -151,8 +147,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -171,8 +166,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -185,8 +179,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -199,8 +192,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -213,8 +205,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -227,8 +218,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -247,8 +237,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -261,8 +250,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -275,8 +263,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -295,8 +282,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -315,8 +301,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -329,8 +314,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -343,8 +327,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -363,8 +346,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -377,8 +359,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -397,8 +378,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -411,8 +391,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -431,8 +410,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -445,8 +423,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -459,8 +436,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -485,8 +461,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -499,8 +474,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -519,8 +493,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -545,8 +518,7 @@
               ]
             },
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -559,8 +531,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -579,8 +550,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -593,8 +563,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -619,15 +588,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": {
-              "source": "Candidator",
-              "sourceUrl": "https://www.candidator.fr/municipalespau2026/recherche-candidat.html",
-              "a_verifier": true,
-              "mesures": [
-                "Opposition à la bureaucratie européenne et métropolitaine qui étouffe les petits commerces et commerçants du centre-ville palois."
-              ]
-            }
+            "marconi": null
           }
         },
         {
@@ -640,8 +601,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -667,8 +627,7 @@
               ]
             },
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -687,8 +646,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -701,8 +659,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -727,8 +684,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -741,8 +697,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -773,8 +728,7 @@
               ]
             },
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -787,8 +741,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -801,8 +754,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         }
       ]
@@ -827,8 +779,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -841,8 +792,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": null
+            "marconi": null
           }
         },
         {
@@ -855,15 +805,7 @@
             "taillefer": null,
             "arraou": null,
             "boniface": null,
-            "marconi": null,
-            "cronier": {
-              "source": "Candidator",
-              "sourceUrl": "https://www.candidator.fr/municipalespau2026/recherche-candidat.html",
-              "a_verifier": true,
-              "mesures": [
-                "Réduction drastique de la pression fiscale locale."
-              ]
-            }
+            "marconi": null
           }
         }
       ]

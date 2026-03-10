@@ -10,7 +10,9 @@
       "liste": "Oui Grenoble (EELV/PS/PCF/Génération.s)",
       "programmeUrl": "https://oui-grenoble.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "carignon",
@@ -18,7 +20,9 @@
       "liste": "Réconcilier Grenoble (LR/Renaissance)",
       "programmeUrl": "https://reconciliergrenoble.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LLR",
+      "nuanceLibelle": "Liste des Républicains"
     },
     {
       "id": "gerbi",
@@ -26,7 +30,9 @@
       "liste": "Nous Grenoble (Horizons)",
       "programmeUrl": "https://www.hervegerbi.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "brunon",
@@ -34,7 +40,9 @@
       "liste": "Faire mieux pour Grenoble (LFI)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "gentil",
@@ -42,7 +50,9 @@
       "liste": "Grenoble Capitale Citoyenne (PRG/Place Publique)",
       "programmeUrl": "https://grenoble-capitale-citoyenne.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "gabriac",
@@ -50,15 +60,9 @@
       "liste": "Grenoble Capitale des Alpes (RN/UDR)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "belaid",
-      "nom": "Nadia Belaïd",
-      "liste": "Grenoble Alpes Collectif (citoyenne)",
-      "programmeUrl": "https://www.grenoblealpescollectif.fr/",
-      "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUXD",
+      "nuanceLibelle": "Liste d'union à l'extrême-droite"
     },
     {
       "id": "anglade",
@@ -66,7 +70,9 @@
       "liste": "NPA-Révolutionnaires",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "brun",
@@ -74,7 +80,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "simon",
@@ -82,7 +90,9 @@
       "liste": "Divers gauche, GRENOBLE ALPES COLLECTIF",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "krzyzak",
@@ -90,7 +100,9 @@
       "liste": "Extrême gauche, Réquisition des logements vacants, l'argent pour les services publics, pas pour la guerre",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
   "categories": [
@@ -144,7 +156,6 @@
                 "Objectif : 250 policiers municipaux."
               ]
             },
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -180,7 +191,6 @@
                 "Renforcement massif de la vidéosurveillance sur l'ensemble du territoire communal."
               ]
             },
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -225,13 +235,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Mettre en place une veille sécurité citoyenne et policière, espaces de dialogue par quartier entre habitants, police et professionnels pour identifier les enjeux de sécurité et co-construire des solutions adaptées avec la mairie et la préfecture."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -254,7 +257,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -328,7 +330,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -366,7 +367,6 @@
             },
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -394,7 +394,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -429,13 +428,6 @@
             },
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Organiser une assemblée citoyenne décisionnaire à l'échelle du SMMAG qui décide des projets structurants de transports (prolongement du tram, gratuité des transports, etc.)"
-              ]
-            },
             "anglade": {
               "source": "CNews, janvier 2026",
               "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504",
@@ -478,13 +470,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Réguler le marché du logement : appliquer la taxe sur les logements vides et la taxe sur les friches commerciales, réguler les locations touristiques de type Airbnb."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -521,13 +506,6 @@
             },
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Appliquer la taxe sur les logements vides pour lutter contre la vacance de logements."
-              ]
-            },
             "anglade": {
               "source": "Place Gre'net, octobre 2025",
               "sourceUrl": "https://www.placegrenet.fr/2025/10/29/municipales-le-npa-revolutionnaires-entre-en-lice-avec-baptiste-anglade-pour-faire-entendre-la-voix-des-travailleurs/663261",
@@ -556,13 +534,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Généraliser l'encadrement des loyers et le permis de louer à toute la ville."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -594,7 +565,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -623,13 +593,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Renforcer le soutien aux familles monoparentales par le CCAS."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -658,7 +621,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -699,13 +661,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Expérimenter des petits déjeuners gratuits dans les écoles REP."
-              ]
-            },
             "anglade": {
               "source": "CNews, janvier 2026",
               "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504",
@@ -748,7 +703,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -778,7 +732,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -816,13 +769,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Renforcer la végétalisation de l'espace public et la désimperméabilisation des sols."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -858,7 +804,6 @@
                 "Lutte contre les tags et les incivilités, renforcement de la propreté urbaine."
               ]
             },
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -888,14 +833,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Aménager une zone de baignade sécurisée dans l'Isère.",
-                "Renforcer la végétalisation et la désimperméabilisation pour s'adapter aux conséquences du changement climatique et lutter contre les vagues de chaleur."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -938,13 +875,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Lancer un programme massif de rénovation énergétique des bâtiments publics et du parc social."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -969,13 +899,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Alimentation de qualité pour tous : expérimenter des petits déjeuners gratuits dans les écoles REP."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1026,14 +949,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Soutenir financièrement les projets d'habitants de centres de santé autogérés et maisons de santé.",
-                "Mettre en place un tiers lieu en santé comme lieu ressource et de formation pour les soignants, les patients et les aidants."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1068,7 +983,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1097,7 +1011,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": {
               "source": "CNews, janvier 2026",
               "sourceUrl": "https://www.cnews.fr/france/2026-01-25/municipales-2026-qui-sont-les-candidats-la-mairie-de-grenoble-1806504",
@@ -1139,13 +1052,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Budget 100% citoyen : 350 citoyens tirés au sort, des agents et élus décident des projets structurants pour le mandat avec une validation par référendum."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1190,14 +1096,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Charte publique des élus (engagement de transparence, responsabilité, respect des décisions prises par les habitants) et fonctionnement interne de la mairie plus démocratique.",
-                "Partage du pouvoir avec les habitants."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1232,14 +1130,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Redonner aux associations leur place dans la vie des quartiers en arrêtant la municipalisation des structures de jeunesse, culturelles ou citoyennes.",
-                "Rendre les habitants et les associations co-gestionnaires des Maisons des Habitants."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1275,13 +1165,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Place Gre'net, décembre 2025",
-              "sourceUrl": "https://www.placegrenet.fr/2025/12/11/municipales-de-grenoble-nadia-belaid-et-thomas-simon-binome-tete-de-liste-du-grenoble-alpes-collectif/666845",
-              "mesures": [
-                "Création de binômes de co-maires de quartier chargés d'organiser la démocratie locale."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1342,13 +1225,6 @@
                 "Soutien aux commerçants locaux par une baisse de la fiscalité et une politique incitative."
               ]
             },
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Mettre en place un bureau des commerces comme espace d'échange entre commerçants, avec des interlocuteurs dédiés de la Ville pour soutenir l'installation et la vie des commerces."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1377,13 +1253,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Mettre en place un Territoire Zéro Chômeurs de Longue Durée (TZCLD) à Grenoble."
-              ]
-            },
             "anglade": {
               "source": "Le Travailleur alpin, novembre 2025",
               "sourceUrl": "https://travailleur-alpin.fr/2025/11/05/grenoble-le-npa-revolutionnaires-en-campagne-avec-baptiste-anglade/",
@@ -1420,7 +1289,6 @@
               ]
             },
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1455,13 +1323,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Créer les conditions d'une culture non pas administrée mais organisée par les acteurs et les habitants dans leur diversité, dans le respect des droits culturels."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1490,7 +1351,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1513,7 +1373,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1537,7 +1396,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1578,7 +1436,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1601,7 +1458,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1618,7 +1474,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1648,13 +1503,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Ouvrir une maison de l'Hospitalité à Grenoble, lieu d'accueil inconditionnel où accéder aux services essentiels (douches, repos, numérique, etc.), des informations et de l'accompagnement."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1677,15 +1525,6 @@
             "brunon": null,
             "gentil": null,
             "gabriac": null,
-            "belaid": {
-              "source": "Programme officiel 2026 - 15 mesures phares du GAC",
-              "sourceUrl": "https://www.grenoblealpescollectif.fr/les-15-mesures-phares-du-gac/",
-              "mesures": [
-                "Soutenir fortement les structures antiracistes et de prévention des risques (violences sexistes et sexuelles, drogues, addictions)",
-                "Appliquer un plan de formation des agents aux oppressions systémiques.",
-                "Parité sociale au sein des élus."
-              ]
-            },
             "anglade": null,
             "brun": null,
             "simon": null,
@@ -1726,7 +1565,6 @@
                 "Baisse de la fiscalité locale pour redonner du pouvoir d'achat aux Grenoblois."
               ]
             },
-            "belaid": null,
             "anglade": null,
             "brun": null,
             "simon": null,

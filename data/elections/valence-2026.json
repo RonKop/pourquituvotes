@@ -10,7 +10,9 @@
       "liste": "LR (Les Républicains)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "christophle",
@@ -18,7 +20,9 @@
       "liste": "PS-PCF-Les Écologistes, L'Appel pour Valence 2026",
       "programmeUrl": "https://reunirvalence.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "boyadjian",
@@ -26,7 +30,9 @@
       "liste": "Le Choix de Valence (collectif citoyen)",
       "programmeUrl": "https://lechoixdevalence.fr/",
       "programmeComplet": true,
-      "programmePdfPath": "boyadjian_valence_2026.pdf"
+      "programmePdfPath": "boyadjian_valence_2026.pdf",
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "magnin",
@@ -34,7 +40,9 @@
       "liste": "LFI, Gauche Écologiste et Populaire",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "reis",
@@ -42,7 +50,9 @@
       "liste": "RN (Rassemblement National)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "kopff",
@@ -50,15 +60,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "soury",
-      "nom": "Christine Soury",
-      "liste": "ENSEMBLE FAISONS VIVRE VALENCE",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "dos-reis",
@@ -66,23 +70,9 @@
       "liste": "Rassemblement National, Rassemblement Valentinois",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "baylet",
-      "nom": "Jean-Michel Baylet",
-      "liste": "Divers gauche, EN AVANT VALENCE",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "large",
-      "nom": "Patrick Large",
-      "liste": "Extrême droite, DEBOUT VALENCE",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     }
   ],
   "categories": [
@@ -116,10 +106,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -138,10 +125,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -173,10 +157,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -204,10 +185,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -241,10 +219,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -264,10 +239,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -293,10 +265,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -316,10 +285,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -332,10 +298,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -362,10 +325,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -378,10 +338,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -394,10 +351,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -418,10 +372,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -446,10 +397,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -477,10 +425,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -506,10 +451,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -537,10 +479,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -567,10 +506,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -603,10 +539,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -625,10 +558,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -654,10 +584,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -682,10 +609,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -706,10 +630,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -737,10 +658,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -760,10 +678,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -776,10 +691,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -813,10 +725,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -836,10 +745,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -865,10 +771,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -894,10 +797,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -927,10 +827,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -959,10 +856,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -982,10 +876,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -1017,10 +908,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -1040,10 +928,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -1069,10 +954,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -1097,10 +979,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -1128,10 +1007,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -1158,10 +1034,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -1187,10 +1060,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]
@@ -1217,10 +1087,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -1244,10 +1111,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         },
         {
@@ -1267,10 +1131,7 @@
             "magnin": null,
             "reis": null,
             "kopff": null,
-            "soury": null,
-            "dos-reis": null,
-            "baylet": null,
-            "large": null
+            "dos-reis": null
           }
         }
       ]

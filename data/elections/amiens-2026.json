@@ -10,7 +10,9 @@
       "liste": "Majorité présidentielle (sortant)",
       "programmeUrl": "https://hubertdejenlis.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "fauvet",
@@ -18,7 +20,9 @@
       "liste": "Pour Amiens en Mieux (PS-PCF-EELV-PP)",
       "programmeUrl": "https://www.pouramiens.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "caron",
@@ -26,7 +30,9 @@
       "liste": "Amiens Ville d'Avenir (LR)",
       "programmeUrl": "https://amiensvilledavenir.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "mercuzot",
@@ -34,7 +40,9 @@
       "liste": "Amiens en Mouvement",
       "programmeUrl": "https://www.amiensenmouvement.com/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDIV",
+      "nuanceLibelle": "Liste Divers"
     },
     {
       "id": "toumi",
@@ -42,7 +50,9 @@
       "liste": "Amiens Pour Vous (RN)",
       "programmeUrl": "https://www.amienspourvous.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "olivier",
@@ -50,7 +60,9 @@
       "liste": "Amiens en Commun (LFI-G.s)",
       "programmeUrl": "https://amiensencommun.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "decle",
@@ -58,7 +70,9 @@
       "liste": "Les Centristes",
       "programmeUrl": "https://www.paulericdecle2026.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "bellina",
@@ -66,15 +80,9 @@
       "liste": "Amiens au Cœur (sans étiquette)",
       "programmeUrl": "https://amiensaucoeur.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
-    },
-    {
-      "id": "farhat",
-      "nom": "Ridha Farhat",
-      "liste": "Les Enfants de la République - Amiens pour tous",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDIV",
+      "nuanceLibelle": "Liste Divers"
     },
     {
       "id": "baudry",
@@ -82,7 +90,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "de-jenlis",
@@ -90,7 +100,9 @@
       "liste": "Divers centre, NOUS, LES AMIÉNOIS !",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     }
   ],
   "categories": [
@@ -150,7 +162,6 @@
                 "Tolérance zéro pour les incivilités et violences urbaines."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -192,7 +203,6 @@
                 "Caméras avec intelligence artificielle pour détecter les infractions et identifier les contrevenants aux dépôts sauvages."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -228,7 +238,6 @@
                 "Verbalisation systématique des infractions et des incivilités, application ferme de la réglementation pour une ville apaisée."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -249,7 +258,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -301,7 +309,6 @@
                 "Amélioration des transports en commun pour réduire les coûts de déplacement, transport public décarboné progressif."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -336,7 +343,6 @@
                 "Développement des mobilités douces dont la marche à qui elle veut redonner toute sa place, développement du covoiturage municipal et des mobilités partagées."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -370,7 +376,6 @@
                 "Préservation de la zone piétonne commerciale."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -406,7 +411,6 @@
                 "Pérennisation de la gratuité du stationnement pour les soignants à domicile (de 350€ à 1€ par an), facilitation du stationnement pour l'accès aux services."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -435,7 +439,6 @@
                 "Tarification sociale renforcée pour les familles modestes (restauration scolaire, activités périscolaires), gratuité étendue pour certains services essentiels."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -464,7 +467,6 @@
               ]
             },
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -481,7 +483,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -498,7 +499,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -533,7 +533,6 @@
                 "Reconquête du parc de logements anciens, compétence habitat exercée via la présidence unifiée ville-métropole pour une politique cohérente du logement."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -574,7 +573,6 @@
                 "Espaces de jeux sécurisés et équipements sportifs de proximité pour les plus jeunes, politique familiale globale pour tous les âges."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -602,7 +600,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -635,7 +632,6 @@
                 "Amélioration de la restauration scolaire avec circuits courts et bio, refonte de la tarification, objectif de 50% de bio et circuits courts dans la restauration collective."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -668,7 +664,6 @@
                 "Activités périscolaires innovantes dans tous les quartiers pour apprendre aux jeunes à aimer Amiens, tarification sociale renforcée pour les activités périscolaires."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -697,13 +692,6 @@
               "sourceUrl": "https://amiensaucoeur.fr/priorites/",
               "mesures": [
                 "Politique familiale globale avec 25% de la population amiénoise de moins de 25 ans : services adaptés, espaces de jeux sécurisés et équipements sportifs de proximité dans tous les quartiers."
-              ]
-            },
-            "farhat": {
-              "source": "France Bleu Picardie, novembre 2024",
-              "sourceUrl": "https://www.francebleu.fr/",
-              "mesures": [
-                "Créer des maisons de la jeunesse et de la citoyenneté et assurer la protection municipale de la jeunesse."
               ]
             },
             "baudry": null,
@@ -748,7 +736,6 @@
                 "Développement accéléré de la plantation d'arbres pour faire baisser la température en ville, espaces verts préservés et végétalisation urbaine généralisée."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -794,7 +781,6 @@
                 "Application mobile citoyenne pour signaler les problèmes."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -836,7 +822,6 @@
                 "Objectif neutralité carbone municipale d'ici 2040, acceptation pleine de la réalité scientifique du réchauffement climatique dans les décisions municipales."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -870,7 +855,6 @@
                 "Rénovation énergétique des bâtiments municipaux, réduction de 30% de la consommation énergétique des bâtiments publics."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -911,7 +895,6 @@
                 "Développer un réseau de maraîchage solidaire sur des parcelles municipales, marchés de producteurs locaux pour des prix plus accessibles, circuits courts alimentaires dans la restauration collective."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -939,7 +922,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -963,7 +945,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1000,7 +981,6 @@
                 "Accessibilité universelle aux équipements publics."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1048,7 +1028,6 @@
                 "Consultations citoyennes régulières sur les grands projets, droit de pétition pour les habitants sur les sujets municipaux, consultation citoyenne sur les grands investissements."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1072,7 +1051,6 @@
                 "Publication détaillée de tous les postes budgétaires, aucun adjoint ne pourra se porter candidat à une autre élection pendant le mandat."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1105,7 +1083,6 @@
                 "Attribution transparente des subventions aux associations selon des critères objectifs et publics, appliqués de manière équitable pour éviter toute forme de clientélisme."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1145,7 +1122,6 @@
                 "Services mobiles pour les personnes à mobilité réduite."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1187,7 +1163,6 @@
                 "Lutte contre la vie chère en favorisant la concurrence commerciale."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1232,7 +1207,6 @@
                 "Anticiper les besoins de formation, poursuivre le soutien aux employeurs du territoire."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1274,7 +1248,6 @@
                 "Bruxelles et Londres, développement de l'écosystème universitaire avec l'UPJV."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1304,7 +1277,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1326,7 +1298,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1360,7 +1331,6 @@
                 "Espaces de jeux sécurisés et équipements sportifs de proximité dans tous les quartiers."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1382,7 +1352,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1428,7 +1397,6 @@
                 "Gouvernance unifiée maire-présidente de métropole pour une vision cohérente de l'aménagement urbain, compétences structurantes concentrées : développement économique, aménagement, mobilité, habitat."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1464,7 +1432,6 @@
                 "Accompagnement numérique pour les moins familiers des outils digitaux, horaires d'ouverture étendus adaptés aux contraintes professionnelles."
               ]
             },
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1487,7 +1454,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1521,7 +1487,6 @@
             },
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1538,7 +1503,6 @@
             "olivier": null,
             "decle": null,
             "bellina": null,
-            "farhat": null,
             "baudry": null,
             "de-jenlis": null
           }
@@ -1575,13 +1539,6 @@
                 "Réduction des coûts administratifs par l'automatisation intelligente.",
                 "Plateforme d'échange de services entre Amiénois.",
                 "Réseau de maraîchage solidaire pour des légumes à meilleur prix dans les écoles."
-              ]
-            },
-            "farhat": {
-              "source": "France Bleu Picardie, novembre 2024",
-              "sourceUrl": "https://www.francebleu.fr/",
-              "mesures": [
-                "Augmenter le niveau de vie des Aménois, priorité aux habitants des quartiers populaires."
               ]
             },
             "baudry": null,

@@ -10,7 +10,9 @@
       "liste": "Toulon mon parti (sortante)",
       "programmeUrl": "https://joseemassi.com/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "lavalette",
@@ -18,7 +20,9 @@
       "liste": "Un avenir pour Toulon (soutenue par le RN)",
       "programmeUrl": "https://www.unavenirpourtoulon.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "bonnus",
@@ -26,7 +30,9 @@
       "liste": "Toulon en Grand (LR)",
       "programmeUrl": "https://toulonengrand.fr/le-programme/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LLR",
+      "nuanceLibelle": "Liste des Républicains"
     },
     {
       "id": "brunel",
@@ -34,7 +40,9 @@
       "liste": "Toulon en Commun (PS-PCF-Écologistes)",
       "programmeUrl": "https://toulonencommun2026.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "cornil",
@@ -42,15 +50,9 @@
       "liste": "La France Insoumise",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "le-lostec",
-      "nom": "Emmanuel Le Lostec",
-      "liste": "En Avant Toulon-Isso Touloun",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "ghiotto",
@@ -58,7 +60,9 @@
       "liste": "Extrême gauche, LUTTE OUVRIÈRE - LE CAMP DES TRAVAILLEURS",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
   "categories": [
@@ -99,7 +103,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -131,7 +134,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -170,7 +172,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -183,7 +184,6 @@
             "bonnus": null,
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -230,7 +230,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -256,7 +255,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -277,7 +275,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -298,7 +295,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -330,7 +326,6 @@
                 "Transports en commun gratuits et création d'un tramway à Toulon."
               ]
             },
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -375,7 +370,6 @@
                 "Développement du logement abordable et lutte contre la pauvreté : 22% des Toulonnais vivent sous le seuil de pauvreté."
               ]
             },
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -388,7 +382,6 @@
             "bonnus": null,
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -407,7 +400,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -441,7 +433,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -474,7 +465,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -511,7 +501,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -536,7 +525,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -558,7 +546,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -594,7 +581,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -642,7 +628,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -662,7 +647,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -697,13 +681,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": {
-              "source": "Info83, 2026",
-              "sourceUrl": "https://www.info83.fr/emmanuel-le-lostec-elections-municipales/",
-              "mesures": [
-                "Écologie non-punitive : électrification des quais et des ferries, ville bas carbone."
-              ]
-            },
             "ghiotto": null
           }
         },
@@ -722,7 +699,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -735,7 +711,6 @@
             "bonnus": null,
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -774,7 +749,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -801,7 +775,6 @@
                 "Créer des structures d'accompagnement des addictions dans les quartiers populaires."
               ]
             },
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -822,7 +795,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -861,7 +833,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -894,7 +865,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -919,7 +889,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -954,7 +923,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -981,7 +949,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -1001,13 +968,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": {
-              "source": "Info83, 2026",
-              "sourceUrl": "https://www.info83.fr/emmanuel-le-lostec-elections-municipales/",
-              "mesures": [
-                "Créer un guichet unique municipal pour accompagner les jeunes entrepreneurs vers les financements."
-              ]
-            },
             "ghiotto": null
           }
         },
@@ -1034,7 +994,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -1072,7 +1031,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -1095,7 +1053,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -1131,7 +1088,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -1158,7 +1114,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -1200,7 +1155,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -1222,7 +1176,6 @@
             },
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -1262,7 +1215,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }
@@ -1302,7 +1254,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -1315,7 +1266,6 @@
             "bonnus": null,
             "brunel": null,
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         },
@@ -1334,7 +1284,6 @@
               ]
             },
             "cornil": null,
-            "le-lostec": null,
             "ghiotto": null
           }
         }

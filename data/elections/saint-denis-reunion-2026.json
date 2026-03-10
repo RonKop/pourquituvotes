@@ -10,7 +10,9 @@
       "liste": "PS (Parti Socialiste)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "victoria",
@@ -18,7 +20,9 @@
       "liste": "LR (Les Républicains)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LLR",
+      "nuanceLibelle": "Liste des Républicains"
     },
     {
       "id": "nativel",
@@ -26,7 +30,9 @@
       "liste": "RN (Rassemblement National)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "lebon",
@@ -34,7 +40,9 @@
       "liste": "Rassemblement Réunion (ex-RN/Reconquête)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXD",
+      "nuanceLibelle": "Liste d'extrême droite"
     },
     {
       "id": "payet",
@@ -42,7 +50,9 @@
       "liste": "Divers, collectif La Voix Citoyenne",
       "programmeUrl": "https://lavoixcitoyenne.re/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "mangrolia",
@@ -50,7 +60,9 @@
       "liste": "Divers centre, Tous Dionysiens",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "sautron",
@@ -58,79 +70,9 @@
       "liste": "Écologiste / divers gauche",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "laurent",
-      "nom": "Michael Laurent",
-      "liste": "SAINT DENIS",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "dulfour",
-      "nom": "Yannick Dulfour",
-      "liste": "PARIMOINE ET MODERNITE DANS LA CONTINUITE",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "gutierrez",
-      "nom": "Quentin Gutierrez",
-      "liste": "Divers centre, a.g.i.r pour saint-denis et pierrefitte-sur-seine!",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "daire",
-      "nom": "Jérémie Daire",
-      "liste": "Extrême gauche, Saint-Denis 100% Service public",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "renaud",
-      "nom": "Agnès Renaud",
-      "liste": "Extrême gauche, Lutte ouvrière-le camp des travailleur",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "bagayoko",
-      "nom": "Bally Bagayoko",
-      "liste": "La France Insoumise, Ensemble, retrouvons l'Espoir",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "marcel",
-      "nom": "Elsa Marcel",
-      "liste": "Extrême gauche, Révolution permanente - Reprendre Saint-denis Pierrefitte aux politiciens professionnels",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "hanotin",
-      "nom": "Mathieu Hanotin",
-      "liste": "Parti Socialiste, Réussir ensemble avec Mathieu Hanotin",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "kouppe-de-k-martin",
-      "nom": "Pascal Kouppé De K Martin",
-      "liste": "Union de la droite et du centre, CHANGER SAINT-DENIS PIERREFITTE",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LECO",
+      "nuanceLibelle": "Liste écologiste"
     },
     {
       "id": "welmant",
@@ -138,7 +80,9 @@
       "liste": "Divers souverainiste, NOTRE HEURE C'EST MAINTENANT !",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDSV",
+      "nuanceLibelle": "Liste de droite souverainiste"
     },
     {
       "id": "persee",
@@ -146,7 +90,9 @@
       "liste": "Divers gauche, POUR TOUT SAINT-DENIS",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     }
   ],
   "categories": [
@@ -197,15 +143,6 @@
               ]
             },
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -231,15 +168,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -262,15 +190,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -286,15 +205,6 @@
             "payet": null,
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -329,15 +239,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -357,15 +258,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -381,15 +273,6 @@
             "payet": null,
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -405,15 +288,6 @@
             "payet": null,
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -440,15 +314,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -489,15 +354,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -517,15 +373,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -541,15 +388,6 @@
             "payet": null,
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -565,15 +403,6 @@
             "payet": null,
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -601,15 +430,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -630,15 +450,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -666,15 +477,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -704,15 +506,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -746,15 +539,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -795,15 +579,6 @@
                 "Protection de l'environnement et développement durable."
               ]
             },
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -824,15 +599,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -854,15 +620,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -885,15 +642,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -916,15 +664,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -950,15 +689,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -978,15 +708,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1013,15 +734,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1054,15 +766,6 @@
                 "Alternative de gauche pour Saint-Denis avec participation citoyenne accrue."
               ]
             },
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1088,15 +791,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1116,15 +810,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1140,15 +825,6 @@
             "payet": null,
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1193,15 +869,6 @@
               ]
             },
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1228,15 +895,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1258,15 +916,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1299,15 +948,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1333,15 +973,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1363,15 +994,6 @@
             "payet": null,
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1391,15 +1013,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1456,15 +1069,6 @@
               ]
             },
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1485,15 +1089,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1509,15 +1104,6 @@
             "payet": null,
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1547,15 +1133,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1577,15 +1154,6 @@
             },
             "mangrolia": null,
             "sautron": null,
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }
@@ -1621,15 +1189,6 @@
                 "Politiques sociales et amélioration du pouvoir d'achat des habitants."
               ]
             },
-            "laurent": null,
-            "dulfour": null,
-            "gutierrez": null,
-            "daire": null,
-            "renaud": null,
-            "bagayoko": null,
-            "marcel": null,
-            "hanotin": null,
-            "kouppe-de-k-martin": null,
             "welmant": null,
             "persee": null
           }

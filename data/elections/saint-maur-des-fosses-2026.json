@@ -10,15 +10,9 @@
       "liste": "LR (Les Républicains)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "giacobbi",
-      "nom": "Vincent Giacobbi",
-      "liste": "Horizons",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LLR",
+      "nuanceLibelle": "Liste des Républicains"
     },
     {
       "id": "fernandez",
@@ -26,7 +20,9 @@
       "liste": "Renaissance",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "vercelloni",
@@ -34,7 +30,9 @@
       "liste": "Union de la gauche, Unis pour Saint-Maur",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "bertrand",
@@ -42,7 +40,9 @@
       "liste": "Rassemblement National, Un nouvel essor pour Saint-Maur",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "kouki",
@@ -50,7 +50,9 @@
       "liste": "La France Insoumise, Imagine Saint-Maur",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     }
   ],
   "categories": [
@@ -63,7 +65,6 @@
           "nom": "Police municipale",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -75,7 +76,6 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -87,7 +87,6 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -99,7 +98,6 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -117,7 +115,6 @@
           "nom": "Transports en commun",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -129,7 +126,6 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -141,7 +137,6 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -153,7 +148,6 @@
           "nom": "Stationnement",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -165,7 +159,6 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -183,7 +176,6 @@
           "nom": "Logement social",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -195,7 +187,6 @@
           "nom": "Logements vacants",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -207,7 +198,6 @@
           "nom": "Encadrement des loyers",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -219,7 +209,6 @@
           "nom": "Accès au logement",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -237,7 +226,6 @@
           "nom": "Petite enfance",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -249,7 +237,6 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -261,7 +248,6 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -273,7 +259,6 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -285,7 +270,6 @@
           "nom": "Jeunesse",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -303,7 +287,6 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -315,7 +298,6 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -327,7 +309,6 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -339,7 +320,6 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -351,7 +331,6 @@
           "nom": "Alimentation durable",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -369,7 +348,6 @@
           "nom": "Centres de santé",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -381,7 +359,6 @@
           "nom": "Prévention santé",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -393,7 +370,6 @@
           "nom": "Seniors",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -411,7 +387,6 @@
           "nom": "Budget participatif",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -423,7 +398,6 @@
           "nom": "Transparence",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -435,7 +409,6 @@
           "nom": "Vie associative",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -447,7 +420,6 @@
           "nom": "Services publics",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -465,7 +437,6 @@
           "nom": "Commerce local",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -477,7 +448,6 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -489,7 +459,6 @@
           "nom": "Attractivité",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -507,7 +476,6 @@
           "nom": "Équipements culturels",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -519,7 +487,6 @@
           "nom": "Événements & Création",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -537,7 +504,6 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -549,7 +515,6 @@
           "nom": "Sport pour tous",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -567,7 +532,6 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -579,7 +543,6 @@
           "nom": "Accessibilité",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -591,7 +554,6 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -609,7 +571,6 @@
           "nom": "Aide sociale",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -621,7 +582,6 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,
@@ -633,7 +593,6 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "delecroix": null,
-            "giacobbi": null,
             "fernandez": null,
             "vercelloni": null,
             "bertrand": null,

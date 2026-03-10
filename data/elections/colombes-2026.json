@@ -10,15 +10,9 @@
       "liste": "Les Écologistes (EELV)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "chassaniol",
-      "nom": "Nicole Chassaniol",
-      "liste": "LR (Les Républicains)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LVEC",
+      "nuanceLibelle": "Liste Les Ecologistes"
     },
     {
       "id": "narbonnais",
@@ -26,7 +20,9 @@
       "liste": "DVG (PS/Génération Écologie/Place Publique/PRG), Colombes en mieux",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LSOC",
+      "nuanceLibelle": "Liste du Parti socialiste"
     },
     {
       "id": "giacomoni",
@@ -34,7 +30,9 @@
       "liste": "LR",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LLR",
+      "nuanceLibelle": "Liste des Républicains"
     },
     {
       "id": "delattre",
@@ -42,7 +40,9 @@
       "liste": "Divers centre, ENSEMBLE, REVELONS COLOMBES",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "frontigny",
@@ -50,7 +50,9 @@
       "liste": "Divers droite, Colombes C Vous",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "puertas",
@@ -58,7 +60,9 @@
       "liste": "Extrême gauche, LUTTE OUVRIÈRE - LE CAMP DES TRAVAILLEURS",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "robichon",
@@ -66,7 +70,9 @@
       "liste": "La France Insoumise, Colombes Populaire",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "kimbassa",
@@ -74,7 +80,9 @@
       "liste": "Rassemblement National, Colombes en ordre",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     }
   ],
   "categories": [
@@ -87,7 +95,6 @@
           "nom": "Police municipale",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": {
               "source": "Presse locale (Outremers360)",
               "sourceUrl": "https://outremers360.com/bassin-atlantique-appli/municipales-2026-candidats-ultramarins-dans-lhexagone-le-martiniquais-valentin-narbonnais-ambitionne-detre-maire-de-colombes",
@@ -117,7 +124,6 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": {
               "source": "Presse locale (Objectif Maire)",
@@ -138,7 +144,6 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": {
               "source": "Presse locale (Outremers360)",
               "sourceUrl": "https://outremers360.com/bassin-atlantique-appli/municipales-2026-candidats-ultramarins-dans-lhexagone-le-martiniquais-valentin-narbonnais-ambitionne-detre-maire-de-colombes",
@@ -159,7 +164,6 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -180,7 +184,6 @@
           "nom": "Transports en commun",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": {
               "source": "Presse locale (Objectif Maire)",
@@ -207,7 +210,6 @@
                 "Développement de nouvelles pistes cyclables et mise en place d'un vélo-école pour encourager la mobilité vélo."
               ]
             },
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -222,7 +224,6 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -237,7 +238,6 @@
           "nom": "Stationnement",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -252,7 +252,6 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -273,7 +272,6 @@
           "nom": "Logement social",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -288,7 +286,6 @@
           "nom": "Logements vacants",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -303,7 +300,6 @@
           "nom": "Encadrement des loyers",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -318,7 +314,6 @@
           "nom": "Accès au logement",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -345,7 +340,6 @@
                 "Accès aux crèches rendu plus équitable grâce à une réforme des critères d'attribution."
               ]
             },
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -366,7 +360,6 @@
                 "Construction d'une école neuve écologique (matériaux durables et géothermie) et réhabilitation de deux autres écoles, avec un projet de reconstruction supplémentaire."
               ]
             },
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -381,7 +374,6 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": {
               "source": "Presse locale (Outremers360)",
               "sourceUrl": "https://outremers360.com/bassin-atlantique-appli/municipales-2026-candidats-ultramarins-dans-lhexagone-le-martiniquais-valentin-narbonnais-ambitionne-detre-maire-de-colombes",
@@ -402,7 +394,6 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -417,7 +408,6 @@
           "nom": "Jeunesse",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": {
               "source": "Presse locale (Outremers360)",
               "sourceUrl": "https://outremers360.com/bassin-atlantique-appli/municipales-2026-candidats-ultramarins-dans-lhexagone-le-martiniquais-valentin-narbonnais-ambitionne-detre-maire-de-colombes",
@@ -451,7 +441,6 @@
                 "Création de jardins partagés (île Marante) et végétalisation de la ville."
               ]
             },
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -466,7 +455,6 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": {
               "source": "Presse locale (Outremers360)",
               "sourceUrl": "https://outremers360.com/bassin-atlantique-appli/municipales-2026-candidats-ultramarins-dans-lhexagone-le-martiniquais-valentin-narbonnais-ambitionne-detre-maire-de-colombes",
@@ -487,7 +475,6 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -509,7 +496,6 @@
                 "Politique métropolitaine de rénovation thermique des bâtiments pour réduire la consommation énergétique."
               ]
             },
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -524,7 +510,6 @@
           "nom": "Alimentation durable",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -545,7 +530,6 @@
           "nom": "Centres de santé",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -560,7 +544,6 @@
           "nom": "Prévention santé",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": {
               "source": "Presse locale (Outremers360)",
               "sourceUrl": "https://outremers360.com/bassin-atlantique-appli/municipales-2026-candidats-ultramarins-dans-lhexagone-le-martiniquais-valentin-narbonnais-ambitionne-detre-maire-de-colombes",
@@ -581,7 +564,6 @@
           "nom": "Seniors",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -608,7 +590,6 @@
                 "Mise en place d'un budget participatif avec 171 projets citoyens soumis au vote des habitants."
               ]
             },
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -623,7 +604,6 @@
           "nom": "Transparence",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -638,7 +618,6 @@
           "nom": "Vie associative",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -653,7 +632,6 @@
           "nom": "Services publics",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -674,7 +652,6 @@
           "nom": "Commerce local",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -689,7 +666,6 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -704,7 +680,6 @@
           "nom": "Attractivité",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -725,7 +700,6 @@
           "nom": "Équipements culturels",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -740,7 +714,6 @@
           "nom": "Événements & Création",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": {
               "source": "Presse locale (Outremers360)",
               "sourceUrl": "https://outremers360.com/bassin-atlantique-appli/municipales-2026-candidats-ultramarins-dans-lhexagone-le-martiniquais-valentin-narbonnais-ambitionne-detre-maire-de-colombes",
@@ -767,7 +740,6 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -782,7 +754,6 @@
           "nom": "Sport pour tous",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -803,7 +774,6 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": {
               "source": "Presse locale (Objectif Maire)",
@@ -824,7 +794,6 @@
           "nom": "Accessibilité",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -839,7 +808,6 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -860,7 +828,6 @@
           "nom": "Aide sociale",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -875,7 +842,6 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,
@@ -890,7 +856,6 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "chaimovitch": null,
-            "chassaniol": null,
             "narbonnais": null,
             "giacomoni": null,
             "delattre": null,

@@ -10,15 +10,9 @@
       "liste": "LR, 100% Asnières",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "dautelle",
-      "nom": "Clément Mathieu Dautelle",
-      "liste": "Divers, Citoyens d'Asnières",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LLR",
+      "nuanceLibelle": "Liste des Républicains"
     },
     {
       "id": "jehanin",
@@ -26,15 +20,9 @@
       "liste": "Divers, Changeons notre ville !",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "delpech",
-      "nom": "Dimitri Delpech",
-      "liste": "PS (Parti Socialiste)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "el-hadri",
@@ -42,7 +30,9 @@
       "liste": "Divers gauche, Agir pour Asnières",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "picard-marcovecchio",
@@ -50,7 +40,9 @@
       "liste": "Divers centre, Asnières 2050",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "kon-sharp",
@@ -58,7 +50,9 @@
       "liste": "La France Insoumise, ASNIÈRES INSOUMISE",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     }
   ],
   "categories": [
@@ -71,9 +65,7 @@
           "nom": "Police municipale",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -84,9 +76,7 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -97,9 +87,7 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -110,9 +98,7 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -129,9 +115,7 @@
           "nom": "Transports en commun",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -142,9 +126,7 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -155,9 +137,7 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -168,9 +148,7 @@
           "nom": "Stationnement",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -181,9 +159,7 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -200,9 +176,7 @@
           "nom": "Logement social",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -213,9 +187,7 @@
           "nom": "Logements vacants",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -226,9 +198,7 @@
           "nom": "Encadrement des loyers",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -239,9 +209,7 @@
           "nom": "Accès au logement",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -258,9 +226,7 @@
           "nom": "Petite enfance",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -271,9 +237,7 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -284,9 +248,7 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -297,9 +259,7 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -310,9 +270,7 @@
           "nom": "Jeunesse",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -329,9 +287,7 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -342,9 +298,7 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -355,9 +309,7 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -368,9 +320,7 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -381,9 +331,7 @@
           "nom": "Alimentation durable",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -400,9 +348,7 @@
           "nom": "Centres de santé",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -413,9 +359,7 @@
           "nom": "Prévention santé",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -426,9 +370,7 @@
           "nom": "Seniors",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -445,9 +387,7 @@
           "nom": "Budget participatif",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -458,9 +398,7 @@
           "nom": "Transparence",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -471,9 +409,7 @@
           "nom": "Vie associative",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -484,9 +420,7 @@
           "nom": "Services publics",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -503,9 +437,7 @@
           "nom": "Commerce local",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -516,9 +448,7 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -529,9 +459,7 @@
           "nom": "Attractivité",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -548,9 +476,7 @@
           "nom": "Équipements culturels",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -561,9 +487,7 @@
           "nom": "Événements & Création",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -580,9 +504,7 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -593,9 +515,7 @@
           "nom": "Sport pour tous",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -612,9 +532,7 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -625,9 +543,7 @@
           "nom": "Accessibilité",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -638,9 +554,7 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -657,9 +571,7 @@
           "nom": "Aide sociale",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -670,9 +582,7 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null
@@ -683,9 +593,7 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "aeschlimann": null,
-            "dautelle": null,
             "jehanin": null,
-            "delpech": null,
             "el-hadri": null,
             "picard-marcovecchio": null,
             "kon-sharp": null

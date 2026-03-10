@@ -10,7 +10,9 @@
       "liste": "Générations La Rochelle (centre-gauche)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "simone",
@@ -18,7 +20,9 @@
       "liste": "Union de la gauche (PS/EELV/PCF)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "falorni",
@@ -26,15 +30,9 @@
       "liste": "PRG / Place Publique / La Convention",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "salaun",
-      "nom": "Nino Salaün",
-      "liste": "LFI (La France Insoumise)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "batcabe",
@@ -42,15 +40,9 @@
       "liste": "Sans étiquette / centre-droit",
       "programmeUrl": "https://christophe-batcabe-larochelle2026.fr/",
       "programmeComplet": true,
-      "programmePdfPath": "Programme-Christophe-Batcabe-La-Rochelle-2026.pdf"
-    },
-    {
-      "id": "marbouh",
-      "nom": "Jaouad El Marbouh",
-      "liste": "Sans étiquette, Ensemble pour La Rochelle",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": "Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "werbrouck",
@@ -58,7 +50,9 @@
       "liste": "RN (Rassemblement National)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "colin",
@@ -66,7 +60,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "bonnet",
@@ -74,7 +70,9 @@
       "liste": "La France Insoumise, LA ROCHELLE INSOUMISE ET POPULAIRE",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "christophe-batcabe",
@@ -82,15 +80,9 @@
       "liste": "Divers droite, Une vision pour La Rochelle",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "multon",
-      "nom": "Alexandre Multon",
-      "liste": "La Rochelle, travailler ensemble pour le bien commun et l'avenir",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     }
   ],
   "categories": [
@@ -118,7 +110,6 @@
                 "Augmenter les effectifs de la police municipale de 20% pour plus de sécurité."
               ]
             },
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -127,12 +118,10 @@
                 "Organiser un commissariat partagé créant de la synergie entre police municipale et police nationale, avec partage des locaux."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -148,7 +137,6 @@
                 "Doubler les systèmes de vidéosurveillance pour améliorer la sécurité en ville."
               ]
             },
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -157,12 +145,10 @@
                 "Sécurité intelligente via caméras et applications connectées (Smart City)."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -172,7 +158,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -180,12 +165,10 @@
                 "Utiliser les outils juridiques dont dispose le Maire pour gérer l'incivilité, notamment envers les mineurs : rappel à l'ordre, sanction administrative, accompagnement parental."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -195,7 +178,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -203,12 +185,10 @@
                 "Créer la Maison des femmes pour mieux secourir les femmes en situation de détresse."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -224,13 +204,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": {
-              "source": "Presse locale (LFI La Rochelle)",
-              "sourceUrl": "https://louvain2026.fr/",
-              "mesures": [
-                "Instaurer la gratuité des transports publics pour faciliter la mobilité des habitants."
-              ]
-            },
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -239,12 +212,10 @@
                 "Créer une navette maritime entre Port-Neuf et les Minimes puis vers le centre-ville."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -254,7 +225,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -262,12 +232,10 @@
                 "Réviser le plan de circulation pour réconcilier tous les modes de déplacement, y compris vélos et trottinettes."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -277,7 +245,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -286,12 +253,10 @@
                 "Faire le choix pour le pont de Tasdon de la réhabilitation ou la reconstruction avec le département à partir des études de faisabilité."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -301,7 +266,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -312,12 +276,10 @@
                 "Augmenter le nombre de places PMR et déplacer celles non utilisables."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -327,14 +289,11 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": null,
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -362,7 +321,6 @@
                 "Développer un parc de logements abordables avec un encadrement des loyers sur le modèle du Pays Basque."
               ]
             },
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -371,12 +329,10 @@
                 "Aider à la réhabilitation des logements dans le centre-ville et développer l'habitat partagé et intergénérationnel."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -392,7 +348,6 @@
                 "Créer un bonus de conversion pour encourager les propriétaires de locations touristiques à convertir en baux annuels."
               ]
             },
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -400,12 +355,10 @@
                 "Réguler de façon équilibrée les locations de courte durée pour libérer des logements."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -415,14 +368,11 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": null,
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -432,7 +382,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -441,12 +390,10 @@
                 "S'assurer de l'universalité de l'accessibilité dans les logements sociaux."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -462,7 +409,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -471,12 +417,10 @@
                 "Améliorer l'accueil et l'accompagnement des enfants en situation de handicap."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -486,14 +430,11 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": null,
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -503,20 +444,11 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": {
-              "source": "Presse locale (LFI La Rochelle)",
-              "sourceUrl": "https://louvain2026.fr/",
-              "mesures": [
-                "Rendre la cantine scolaire gratuite et biologique pour tous les enfants."
-              ]
-            },
             "batcabe": null,
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -526,7 +458,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -535,12 +466,10 @@
                 "Permettre aux enfants (4-10 ans) de bénéficier d'interventions d'associations sportives."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -550,7 +479,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -560,12 +488,10 @@
                 "Favoriser le bien-être psychologique via une plateforme numérique d'accès aux soins."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -581,7 +507,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -589,12 +514,10 @@
                 "Créer un poumon vert dans chaque quartier, désimperméabiliser des sols et lutter contre les îlots de chaleur en concertation avec les habitants et les associations locales."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -604,7 +527,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -615,12 +537,10 @@
                 "Organiser des événements municipaux éco-conçus."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -636,13 +556,6 @@
             },
             "simone": null,
             "falorni": null,
-            "salaun": {
-              "source": "Presse locale (LFI La Rochelle)",
-              "sourceUrl": "https://louvain2026.fr/",
-              "mesures": [
-                "Renforcer les politiques écologiques pour une transition durable."
-              ]
-            },
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -651,12 +564,10 @@
                 "Réaliser un rapport environnemental annuel et créer une plateforme en données ouvertes (eau, air, sols, déchets, énergie, bruit)."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -666,7 +577,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -676,12 +586,10 @@
                 "Éclairage intelligent avec détecteurs de mouvement."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -691,7 +599,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -700,12 +607,10 @@
                 "Augmenter la part de produits bio, locaux et de saison, avec des critères clairs sur la réduction des pesticides et la qualité de l'eau."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -733,7 +638,6 @@
                 "Créer un centre de santé pour les quartiers ouest de la ville pour faciliter l'accès aux soins."
               ]
             },
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -742,12 +646,10 @@
                 "Soutenir le projet de nouvel hôpital en veillant au rétablissement d'un consensus local."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -763,7 +665,6 @@
                 "Moderniser l'hôpital de La Rochelle avec lancement du projet dans les 2 ans suivant l'élection et pose de la première pierre."
               ]
             },
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -773,12 +674,10 @@
                 "Détection de malaise dans l'espace public et alertes simples via la Smart City."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -788,7 +687,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -797,12 +695,10 @@
                 "Aménager des aires d'activités notamment pour les personnes à mobilité réduite."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -824,13 +720,6 @@
               ]
             },
             "falorni": null,
-            "salaun": {
-              "source": "Presse locale (France Bleu La Rochelle)",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-la-france-insoumise-investit-mathilde-louvain-pour-remporter-avignon-8544729",
-              "mesures": [
-                "Mettre en place un référendum d'initiatives locales obligatoire si 10% des habitants participent."
-              ]
-            },
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -839,12 +728,10 @@
                 "Installer de nouveaux forums de participation citoyenne : Conseil des sages et élargissement du conseil des enfants aux jeunes jusqu'à la majorité."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -854,7 +741,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -865,12 +751,10 @@
                 "Stabiliser le taux municipal des taxes foncières et d'habitation."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -880,7 +764,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -891,12 +774,10 @@
                 "Encourager le renouvellement du bénévolat."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -912,13 +793,6 @@
               ]
             },
             "falorni": null,
-            "salaun": {
-              "source": "Presse locale (LFI La Rochelle)",
-              "sourceUrl": "https://louvain2026.fr/",
-              "mesures": [
-                "Mettre en place un budget participatif municipal pour augmenter le pouvoir décisionnel des Rochelais."
-              ]
-            },
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -928,12 +802,10 @@
                 "Accès à Internet partout sur le territoire."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -949,7 +821,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -959,12 +830,10 @@
                 "Créer un marché aux fleurs."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -974,7 +843,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -983,12 +851,10 @@
                 "Recentraliser l'attractivité économique sur R&D, IA, Santé, Mobilités modernes, Ville hyperconnectée et Économie Sociale et Solidaire, en adéquation avec les formations universitaires (Université, Excelia, EIGSI)."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -998,7 +864,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -1007,12 +872,10 @@
                 "Accueillir le Mur de La Rochelle, œuvre monumentale de street art."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -1034,7 +897,6 @@
               ]
             },
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -1044,12 +906,10 @@
                 "Coût estimé 40 M€."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -1059,7 +919,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -1070,12 +929,10 @@
                 "Reconstitution historique des 400 ans du grand siège de La Rochelle en 2027."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -1091,7 +948,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -1099,12 +955,10 @@
                 "Développer et redynamiser les infrastructures nautiques et recréer du lien avec les acteurs nautiques."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -1114,7 +968,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -1124,12 +977,10 @@
                 "Rénover et réhabiliter les équipements sportifs avec accessibilité et aménagements handisport."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -1151,7 +1002,6 @@
             },
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -1161,7 +1011,6 @@
                 "Créer une place dans chaque quartier, lieu public de rencontres, de repos et de rafraîchissement."
               ]
             },
-            "marbouh": null,
             "werbrouck": {
               "source": "Presse locale (INF la Rochelle)",
               "sourceUrl": "https://inf-info.fr/municipales-a-la-rochelle-ce-que-pensent-les-candidats-sur-lavenir-du-pont-de-tasdon/",
@@ -1171,8 +1020,7 @@
             },
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -1188,7 +1036,6 @@
             },
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -1198,12 +1045,10 @@
                 "Créer des espaces de jeux inclusifs dans les espaces publics pour tous les enfants."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -1213,14 +1058,11 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": null,
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]
@@ -1236,7 +1078,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -1247,12 +1088,10 @@
                 "Collaborer avec les associations accompagnant les personnes en grande précarité."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -1262,7 +1101,6 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": {
               "source": "Programme PDF (fev. 2026)",
               "sourceUrl": "https://christophe-batcabe-larochelle2026.fr/wp-content/uploads/2026/02/Programme-Christophe-Batcabe-La-Rochelle-2026.pdf",
@@ -1270,12 +1108,10 @@
                 "Créer un comité « Animal en ville » (associations, vétérinaires, habitants, médiateur)."
               ]
             },
-            "marbouh": null,
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         },
         {
@@ -1285,20 +1121,11 @@
             "guiraud": null,
             "simone": null,
             "falorni": null,
-            "salaun": null,
             "batcabe": null,
-            "marbouh": {
-              "source": "Presse locale (France Bleu La Rochelle)",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/municipales-2026-qui-sont-les-candidats-declares-a-la-rochelle-8235732",
-              "mesures": [
-                "Défendre le pouvoir d'achat des Rochelais face aux difficultés économiques avec une liste citoyenne 'Ensemble pour La Rochelle'."
-              ]
-            },
             "werbrouck": null,
             "colin": null,
             "bonnet": null,
-            "christophe-batcabe": null,
-            "multon": null
+            "christophe-batcabe": null
           }
         }
       ]

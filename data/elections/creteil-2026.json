@@ -10,15 +10,9 @@
       "liste": "PS-PCF, Bien ensemble",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "ceylan",
-      "nom": "Mehmet Ceylan",
-      "liste": "UDI (investi par LR)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "thezard",
@@ -26,7 +20,9 @@
       "liste": "DVD (droite dissident, ex-LR)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUD",
+      "nuanceLibelle": "Liste d'union à droite"
     },
     {
       "id": "hebbrecht",
@@ -34,7 +30,9 @@
       "liste": "Sans étiquette (ex-LR)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "pruvot",
@@ -42,7 +40,9 @@
       "liste": "Extrême gauche, Lutte ouvrière - Le camps des Travailleurs",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "damien",
@@ -50,7 +50,9 @@
       "liste": "Extrême gauche, Créteil pour les travailleurs et jeunes, contre la guerre et l'austérité",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "sylvain-thezard",
@@ -58,7 +60,9 @@
       "liste": "Union de la droite, Pour Créteil, avançons",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUD",
+      "nuanceLibelle": "Liste d'union à droite"
     },
     {
       "id": "nabarette",
@@ -66,7 +70,9 @@
       "liste": "Écologistes, Pour un renouveau écologique et citoyen à Créteil",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LVEC",
+      "nuanceLibelle": "Liste Les Ecologistes"
     },
     {
       "id": "djaffar",
@@ -74,7 +80,9 @@
       "liste": "La France Insoumise, Faire mieux pour Créteil",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     }
   ],
   "categories": [
@@ -87,7 +95,6 @@
           "nom": "Police municipale",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -102,7 +109,6 @@
           "nom": "Vidéoprotection",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -117,7 +123,6 @@
           "nom": "Prévention & Médiation",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -132,7 +137,6 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -153,7 +157,6 @@
           "nom": "Transports en commun",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -168,7 +171,6 @@
           "nom": "Vélo & Mobilités douces",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -183,7 +185,6 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -198,7 +199,6 @@
           "nom": "Stationnement",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -213,7 +213,6 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -234,7 +233,6 @@
           "nom": "Logement social",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -249,7 +247,6 @@
           "nom": "Logements vacants",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -264,7 +261,6 @@
           "nom": "Encadrement des loyers",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -279,7 +275,6 @@
           "nom": "Accès au logement",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -300,7 +295,6 @@
           "nom": "Petite enfance",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -315,7 +309,6 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -330,7 +323,6 @@
           "nom": "Cantines & Fournitures",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -345,7 +337,6 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -360,7 +351,6 @@
           "nom": "Jeunesse",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -381,7 +371,6 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -396,7 +385,6 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -411,7 +399,6 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -426,7 +413,6 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -441,7 +427,6 @@
           "nom": "Alimentation durable",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -462,7 +447,6 @@
           "nom": "Centres de santé",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -477,7 +461,6 @@
           "nom": "Prévention santé",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -492,7 +475,6 @@
           "nom": "Seniors",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -513,7 +495,6 @@
           "nom": "Budget participatif",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -528,7 +509,6 @@
           "nom": "Transparence",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -543,7 +523,6 @@
           "nom": "Vie associative",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -558,7 +537,6 @@
           "nom": "Services publics",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -579,7 +557,6 @@
           "nom": "Commerce local",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -594,7 +571,6 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -609,7 +585,6 @@
           "nom": "Attractivité",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -630,7 +605,6 @@
           "nom": "Équipements culturels",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -645,7 +619,6 @@
           "nom": "Événements & Création",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -666,7 +639,6 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -681,7 +653,6 @@
           "nom": "Sport pour tous",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -702,7 +673,6 @@
           "nom": "Aménagement urbain",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -717,7 +687,6 @@
           "nom": "Accessibilité",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -732,7 +701,6 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -753,7 +721,6 @@
           "nom": "Aide sociale",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -768,7 +735,6 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,
@@ -783,7 +749,6 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "cathala": null,
-            "ceylan": null,
             "thezard": null,
             "hebbrecht": null,
             "pruvot": null,

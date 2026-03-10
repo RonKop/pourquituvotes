@@ -7,42 +7,52 @@
     {
       "id": "joissains",
       "nom": "Sophie Joissains",
-      "liste": "UDI (Union de la droite et du centre)",
-      "programmeUrl": "https://www.sophiejoissains2026.fr/",
+      "liste": "Passionnément Aixois (UDI)",
+      "programmeUrl": "https://www.sophiejoissains2026.fr/programme",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "pena",
       "nom": "Marc Péna",
-      "liste": "Aix en Partage (PS-PCF-EELV)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "liste": "Aix Avenir (Union de la gauche)",
+      "programmeUrl": "https://aixavenir.fr/#programme",
+      "programmeComplet": true,
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "klein",
       "nom": "Philippe Klein",
       "liste": "Horizons",
-      "programmeUrl": "https://www.philippe-klein.fr/",
+      "programmeUrl": "https://www.philippe-klein.fr/index.php/ma-vision-complete/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LHOR",
+      "nuanceLibelle": "Liste Horizons"
     },
     {
       "id": "boronad",
       "nom": "Julie Boronad",
       "liste": "Aix en commun (LFI)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmeUrl": "https://www.aixencommun.fr/programme/",
+      "programmeComplet": true,
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "geiger",
       "nom": "Jean-Louis Geiger",
-      "liste": "RN-UDR",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "liste": "Agir pour Aix (RN-UDR)",
+      "programmeUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+      "programmeComplet": true,
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUXD",
+      "nuanceLibelle": "Liste d'union à l'extrême-droite"
     },
     {
       "id": "ben-ammar",
@@ -50,23 +60,9 @@
       "liste": "Aix-en-Provence ville vivante (REV)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "mounir-ben-ammar",
-      "nom": "Mounir Ben-Ammar",
-      "liste": "Écologistes, aix vivante et populaire",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "marc-pena",
-      "nom": "Marc Pena",
-      "liste": "Union de la gauche, AIX AVENIR",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LECO",
+      "nuanceLibelle": "Liste écologiste"
     }
   ],
   "categories": [
@@ -87,10 +83,14 @@
               ]
             },
             "pena": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497",
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
               "mesures": [
-                "Renforcement de la police municipale et lutte contre le narcotrafic."
+                "Renforcement de la police municipale et lutte contre le narcotrafic.",
+                "Recruter 20 agents de police municipale supplémentaires dès le début du mandat, 80 d'ici 2032.",
+                "Doubler les effectifs d'agents de surveillance de la voie publique (ASVP).",
+                "Développer une police municipale de proximité, formée et sectorisée, avec des postes réinstallés dans tous les quartiers et villages.",
+                "Réorienter la politique municipale vers la proximité et la prévention."
               ]
             },
             "klein": {
@@ -104,17 +104,23 @@
                 "Créer une brigade spécialisée anti-cambriolages."
               ]
             },
-            "boronad": null,
-            "geiger": {
-              "source": "L'Affranchi Mag, 2026",
-              "sourceUrl": "https://www.laffranchimag.fr/Municipales-2026-a-Aix-Jean-Louis-Geiger-l-union-des-droites-a-hauts-risques_a516.html",
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
               "mesures": [
-                "Obtenir 140 policiers nationaux supplémentaires pour Aix et créer une brigade anti-stupéfiants municipale sur le modèle de Béziers."
+                "Implanter une police municipale de proximité dans tous les quartiers, avec des référents identifiés pour renforcer les missions de proximité (lutte contre les incivilités, médiation de voisinage, accompagnement des personnes fragiles)."
               ]
             },
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Réorganiser et renforcer la Police Municipale avec 80 agents supplémentaires, tripler la présence de nuit et créer une brigade anti-stupéfiants.",
+                "Créer trois nouveaux postes de Police Municipale à Puyricard, Luynes-Les Milles et La Duranne.",
+                "Exiger de l'État le renfort d'au moins 100 policiers nationaux."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -129,7 +135,14 @@
                 "Objectif : équiper en vidéosurveillance l'ensemble des écoles primaires et maternelles de la commune."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Encadrer l'usage de la vidéosurveillance avec une évaluation transparente de son efficacité et de ses coûts.",
+                "Refuser le « tout-caméra » et maintenir un équilibre entre moyens humains et techniques."
+              ]
+            },
             "klein": {
               "source": "Programme officiel 2026 — Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/",
@@ -138,11 +151,21 @@
                 "Réparer toutes les caméras défaillantes et déployer des technologies d'analyse avancée."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Encadrer strictement la vidéosurveillance avec un moratoire sur toute nouvelle installation, retrait des dispositifs d'intelligence artificielle et évaluation par un comité citoyen indépendant."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Étendre et fiabiliser la vidéosurveillance sur l'ensemble du territoire."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -157,7 +180,18 @@
                 "Tolérance zéro face aux incivilités, avec une présence renforcée sur le terrain."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Recruter des éducateurs spécialisés et médiateurs de rue formés à désamorcer les conflits et prévenir les violences intra-familiales.",
+                "Dynamiser les lieux de socialisation pour les jeunes.",
+                "Créer un espace de dialogue et d'évaluation des politiques de sécurité avec habitants, agents, élus et associations.",
+                "Obtenir des renforts pérennes de police nationale adaptés au rôle de ville-centre d'Aix.",
+                "Renforcer la coopération entre polices municipale, nationale et services de l'État pour lutter contre le narcotrafic.",
+                "Co-construire la sécurité avec habitants, écoles, associations, acteurs sociaux et sportifs, et protection judiciaire de la jeunesse."
+              ]
+            },
             "klein": {
               "source": "Programme officiel 2026 — Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/",
@@ -168,16 +202,25 @@
               ]
             },
             "boronad": {
-              "source": "L'Affranchi Mag, 2026",
-              "sourceUrl": "https://www.laffranchimag.fr/Municipales-2026-a-Aix-en-Provence-LFI-mise-sur-la-jeunesse-et-creuse-la-fracture-a-gauche_a571.html",
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
               "mesures": [
-                "Créer une police de proximité dans chaque quartier, formée à la médiation, pour recréer le lien avec les habitants."
+                "Renforcer massivement les effectifs de médiateurs sur les enjeux clés (logement social, jeunesse, santé, addictions, relation police-population) et déployer dans chaque quartier une politique de prévention coordonnée avec associations, collectifs et police municipale.",
+                "Mettre en place une réponse sanitaire et humaine aux situations de détresse psychique : former la police municipale à la désescalade de conflits, renforcer les équipes d'intervention pluridisciplinaires associant professionnels de santé et travailleurs sociaux.",
+                "Créer un lieu d'accueil des personnes en situation d'addiction pour réduire les risques et apaiser l'espace public, en lien avec les associations spécialisées.",
+                "Renforcer la prévention face aux usages de drogues et aux réseaux : formations régulières dans les collèges et lycées pour sensibiliser aux risques, aider les parents à repérer les signes de fragilité.",
+                "Instaurer les arrêts à la demande pour les bus de nuit afin que personne ne marche seul trop longtemps dans des zones isolées.",
+                "Améliorer et adapter l'éclairage public : ni trop sombre pour la sûreté, ni trop polluant (détecteurs de présence, panneaux solaires)."
               ]
             },
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Déployer l'îlotage dans les quartiers et mettre en place un plan « éclairage/sécurité »."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -185,13 +228,31 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Mener des campagnes de prévention des violences sexistes et sexuelles.",
+                "Créer un service d'aide aux victimes.",
+                "Former la police municipale à l'écoute, au repérage et à l'orientation des victimes.",
+                "Mettre en place un plan municipal de lutte contre les violences sexistes et sexuelles avec formation de tous les services communaux.",
+                "Créer un numéro d'appel unique et un réseau de personnes-ressources de proximité pour accueillir et orienter les victimes.",
+                "Créer des logements dédiés aux femmes victimes de violences."
+              ]
+            },
             "klein": null,
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Créer une maison des femmes accueillant des actions de prévention, de santé et d'orientation, en lien avec le Planning familial.",
+                "Soutenir la création d'un centre féministe au sein de la Maison des femmes, mis à disposition des associations et collectifs.",
+                "Protéger et accompagner les victimes de VSS : renforcer leur accueil, développer l'hébergement d'urgence, prioriser leur accès au logement social, créer un guichet unique au sein de l'Observatoire des discriminations.",
+                "Sensibiliser aux violences sexistes par des campagnes de sensibilisation et d'éducation populaire."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         }
       ]
@@ -212,10 +273,15 @@
               ]
             },
             "pena": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497",
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
               "mesures": [
-                "Développer un réseau de transports en commun couvrant intégralement la zone urbaine, à toute heure."
+                "Développer un réseau de transports en commun couvrant intégralement la zone urbaine, à toute heure.",
+                "Augmenter la fréquence de passage des bus, élargir les horaires et instaurer une tarification sociale.",
+                "Soutenir le projet de tram-train sur la ligne Aix-Rognac.",
+                "Proposer des haltes ferroviaires/gares à Venelles, La Calade, Les Milles et Luynes.",
+                "Avancer vers la gratuité progressive des transports en commun.",
+                "Revendiquer un organisme unique de coordination métropolitain des transports."
               ]
             },
             "klein": {
@@ -226,11 +292,27 @@
               "source": "Programme officiel 2026 — Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/"
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Adapter les transports au rythme de vie des Aixois en élargissant les horaires et renforçant les fréquences (notamment les week-ends), prioriser les quartiers sous-desservis et rétablir un véritable service de nuit.",
+                "Développer le réseau en s'appuyant sur les Conseils de quartier pour mieux relier les quartiers entre eux.",
+                "Garantir l'accessibilité universelle des transports publics par un programme accéléré de mise aux normes PMR et de sécurisation des arrêts de bus. Renforcer fortement le transport à la demande.",
+                "Lancer le projet du Tram-Train pour desservir les zones résidentielles au nord, désengorger la RN 296 et la D9, et desservir la Pioline, Plan d'Aillane, les Milles, la Duranne et la gare TGV.",
+                "Travailler à la mise en place d'une véritable liaison RER entre Aix et Marseille.",
+                "Créer de véritables plateformes multimodales dans les grands points de connexion (parkings-relais, aires de covoiturage, gare routière, gares SNCF)."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Améliorer la multimodalité avec l'ouverture de haltes ferroviaires à Luynes et Venelles, et une solution train ou tram-train pour Les Milles et La Duranne.",
+                "Repenser totalement le BHNS sud qui menace les quartiers."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -245,10 +327,13 @@
               ]
             },
             "pena": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497",
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
               "mesures": [
-                "Plan vélo ambitieux en concertation avec les usagers, pistes cyclables de qualité entre quartiers, généralisation du 30 km/h."
+                "Plan vélo ambitieux en concertation avec les usagers, pistes cyclables de qualité entre quartiers, généralisation du 30 km/h.",
+                "Étendre le réseau cyclable sécurisé sur l'ensemble du territoire.",
+                "Généraliser un plan de vélos électriques en lien avec les associations spécialisées.",
+                "Assurer la prise en charge des vélos dans les bus et trains."
               ]
             },
             "klein": {
@@ -258,11 +343,22 @@
                 "Créer des pistes cyclables dédiées reliant les quatre points cardinaux de la ville."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Faire du vélo un mode de déplacement sûr et pratique grâce à un réseau cyclable continu et séparé. Déploiement massif de stationnements vélo sécurisés (abris, box) et développement de vélo-écoles.",
+                "Expérimenter et évaluer un nouveau système de locations de vélos en libre-service."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Un vrai plan vélo avec des pistes protégées."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -270,7 +366,16 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Développer un grand plan piétons avec des cheminements accessibles, éclairés et sécurisés.",
+                "Créer des zones de rencontre limitées à 20 km/h et limiter la vitesse à 30 km/h en première couronne et cœurs de quartier.",
+                "Développer les « rues aux enfants » et les pédibus avec connexions cyclables.",
+                "Renforcer la sécurité routière et lutter contre les incivilités routières, rodéos et stationnement anarchique."
+              ]
+            },
             "klein": {
               "source": "Site officiel Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/",
@@ -279,11 +384,22 @@
                 "Créer des solutions innovantes et alternatives au BHNS."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Redonner la priorité aux piétons et personnes à mobilité réduite en créant de grandes liaisons piétonnes continues entre quartiers, écoles, services publics et pôles d'échange, avec des trottoirs larges, accessibles et dégagés.",
+                "Sécuriser et apaiser les abords des écoles avec davantage de « Rues aux écoles » : piétonniser et végétaliser progressivement, fermer la circulation aux heures d'entrée et de sortie."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "S'attaquer aux zones routières dangereuses et saturées."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -298,18 +414,25 @@
               ]
             },
             "pena": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497",
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
               "mesures": [
-                "Politique de stationnement incitative pour réduire la dépendance automobile et transférer les déplacements vers les modes doux."
+                "Politique de stationnement incitative pour réduire la dépendance automobile et transférer les déplacements vers les modes doux.",
+                "Créer des espaces sécurisés pour les vélos près des commerces et équipements.",
+                "Co-construire des solutions de mobilité avec les acteurs des zones d'activités (Duranne, Les Milles) pour limiter embouteillages et pollution."
               ]
             },
             "klein": null,
             "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Créer un parking en centre-ville et reprendre la gestion des parkings à la Métropole.",
+                "Soutenir le commerce de centre-ville et des villages avec une vraie politique de stationnement."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -317,13 +440,24 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Instaurer une tarification sociale des transports et avancer vers la gratuité progressive.",
+                "Développer l'accès à des tarifs préférentiels de transports pour les publics fragiles et les étudiants."
+              ]
+            },
             "klein": null,
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Étendre la gratuité des transports aux jeunes de moins de 26 ans et s'engager dans la voie d'une gratuité totale."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         }
       ]
@@ -343,13 +477,35 @@
                 "Construction de 900 logements par an, notamment dans le quartier Constance, avec proximité des équipements à 15 minutes à pied ou vélo."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Respecter pleinement la loi SRU pour développer des logements sociaux très abordables.",
+                "S'opposer aux destructions de logements sans relogement sur place.",
+                "Construire une résidence étudiante publique.",
+                "Soutenir les coopératives d'habitants et l'habitat partagé.",
+                "Mettre en place le Bail Réel Solidaire pour faciliter l'accession à la propriété."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Construire 450 logements par an dont 40% très sociaux pour atteindre l'objectif légal de 25%.",
+                "Mettre fin au clientélisme et aux discriminations dans l'attribution des logements sociaux : règles débattues et votées en conseil municipal, formation des commissions d'attribution.",
+                "Création d'un organisme foncier solidaire pour développer le bail réel solidaire (BRS) afin de diminuer le coût du logement."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Dynamiser la production de logements accessibles, avec un complément de logements sociaux pour les étudiants et les actifs."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -357,12 +513,26 @@
           "nom": "Logements vacants",
           "propositions": {
             "joissains": null,
-            "pena": null,
-            "boronad": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Renforcer la taxation des logements vacants et des résidences secondaires.",
+                "Réguler strictement les meublés touristiques.",
+                "Étendre le permis de louer sur le territoire."
+              ]
+            },
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Diminuer la vacance en utilisant tous les outils disponibles : taxe sur les logements vacants, bail à réhabilitation sociale, bail emphytéotique, et remettre en location des logements vacants du centre-ville.",
+                "Acquérir à l'amiable (ou exproprier) des bâtiments insalubres du centre-ville pour en faire des lieux de vie (logements sociaux, services publics, commerces).",
+                "Demander la réquisition des bâtiments vacants pour en faire des logements d'urgence ou d'hébergement temporaire."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         },
         {
@@ -371,10 +541,11 @@
           "propositions": {
             "joissains": null,
             "pena": {
-              "source": "France Bleu Provence, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-provence/municipales-2026-a-aix-en-provence-marc-pena-invite-sur-ici-provence-7280497",
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
               "mesures": [
-                "Réguler les locations touristiques : réduire la durée maximale de location à 90 jours et imposer la diversité sociale dans chaque opération de construction."
+                "Réguler les locations touristiques : réduire la durée maximale de location à 90 jours et imposer la diversité sociale dans chaque opération de construction.",
+                "Encadrer les loyers et lutter contre la spéculation immobilière."
               ]
             },
             "klein": {
@@ -384,11 +555,18 @@
               "source": "Programme officiel 2026 — Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/"
             },
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Mettre en place l'encadrement des loyers, en limitant les prix à la location sur la base d'un loyer de référence juste défini par quartier, taille et type de location.",
+                "Encadrer les locations touristiques : plafonnement à 90 jours pour les résidences principales, contrôles réguliers des annonces frauduleuses.",
+                "Relever les taxes sur les résidences secondaires.",
+                "Étendre le permis de louer bien au-delà de la résidence des Facultés sur tous les lieux d'habitat indigne et insalubre. Exécution d'office des travaux si le propriétaire est défaillant."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         },
         {
@@ -396,7 +574,17 @@
           "nom": "Accès au logement",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Créer une Maison de l'Habitat pour centraliser l'information et l'accompagnement.",
+                "Organiser des assises du logement avec des experts.",
+                "Créer des places d'hébergement d'urgence.",
+                "Soutenir l'accessibilité des logements pour les personnes handicapées.",
+                "Adaptation systématique de l'espace public pour les personnes à mobilité réduite."
+              ]
+            },
             "klein": {
               "source": "Site officiel Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/",
@@ -405,16 +593,25 @@
               ]
             },
             "boronad": {
-              "source": "L'Affranchi Mag, 2026",
-              "sourceUrl": "https://www.laffranchimag.fr/Municipales-2026-a-Aix-en-Provence-LFI-mise-sur-la-jeunesse-et-creuse-la-fracture-a-gauche_a571.html",
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
               "mesures": [
-                "Créer une régie du logement : face aux 40 000 étudiants pour seulement 8 000 places en résidences, construire des logements gérés par le CROUS."
+                "Utiliser pleinement le droit de préemption de la ville et l'étendre au-delà du centre-ville.",
+                "Définir et négocier une « charte promoteur » indiquant le prix de vente moyen et maximum, imposant des normes écologiques et donnant priorité d'acquisition aux demandeurs de la commune.",
+                "Aider à la gestion locative et à la garantie de loyer par des mesures d'accompagnement.",
+                "Créer une brigade municipale du logement composée d'équipes de terrain pour défendre les locataires, anticiper les situations de logement indigne, prévenir les expulsions et contrôler le permis de louer.",
+                "Créer un Office municipal du logement étudiant pour construire des résidences dont la gestion sera confiée au CROUS ou à des bailleurs sociaux.",
+                "Développer le parc CROUS par une recherche de foncier et une priorité donnée sur les opérateurs privés."
               ]
             },
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Lancer un vaste plan de réhabilitation climatique du bâti ancien et sécuriser les immeubles en péril."
+              ]
+            },
+            "ben-ammar": null
           }
         }
       ]
@@ -428,13 +625,34 @@
           "nom": "Petite enfance",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Construire un service public de la petite enfance avec tarification sociale.",
+                "Garantir un droit à une place en crèche pour chaque enfant.",
+                "Créer un conseil participatif parents-professionnels pour les structures petite enfance.",
+                "Soutenir la parentalité et les associations spécialisées."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Préparer le retour en régie publique des crèches municipales pour mettre fin à la recherche de rentabilité des acteurs privés.",
+                "Garantir à toutes les familles un accès effectif et abordable à un mode de garde, en priorité dans les quartiers populaires. Développer les crèches municipales, soutenir les crèches associatives, mettre en place une aide municipale réduisant le reste à charge.",
+                "Développer des centres de parentalité dans les centres sociaux."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Créer de nouvelles places en crèche, notamment dans les villages."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -449,13 +667,35 @@
                 "Installation de panneaux photovoltaïques sur les bâtiments."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Mise aux normes accélérée des écoles non conformes.",
+                "Rénovation et isolation thermique des écoles.",
+                "Végétalisation des cours de récréation.",
+                "Projets participatifs pour les cours de récréation et abords des écoles.",
+                "Aller vers une école réellement gratuite pour les familles démunies (fournitures, transports, activités)."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Relancer un plan de rénovation axé sur l'ombre et la fraîcheur : végétaliser et désimperméabiliser systématiquement les cours d'écoles pour lutter contre les îlots de chaleur.",
+                "Sécuriser les abords des écoles avec davantage de Rues aux écoles : piétonniser, végétaliser, fermer la circulation aux heures d'entrée et de sortie.",
+                "Affirmer la priorité donnée à l'école publique avec des subventions au privé limitées au minimum légal."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Lancer un audit complet et un plan pluriannuel de rénovation des écoles : réhabilitation, sécurité, confort thermique et végétalisation."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -469,13 +709,35 @@
                 "51% de produits de qualité dans les cantines scolaires dont 31% bio, et 85% de fruits et légumes en circuits courts et de saison."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Mettre le cap sur 100% bio et local dans les cantines scolaires avec des partenariats durables avec les agriculteurs de proximité.",
+                "Généraliser les petits-déjeuners gratuits dans les écoles publiques, en priorité en zones d'éducation prioritaire.",
+                "Organiser des ateliers d'éveil au goût et à la cuisine provençale.",
+                "Rallonger le temps de repas et développer des moments intergénérationnels."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Rendre la cantine 100% bio et progressivement gratuite.",
+                "Sécuriser les approvisionnements en développant les partenariats avec les producteurs locaux.",
+                "Développer les petits déjeuners gratuits pour qu'aucun enfant ne commence la journée le ventre vide.",
+                "Exclure les additifs chimiques problématiques des marchés publics liés à l'alimentation."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Baisser le prix de la cantine d'1 euro par repas."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -483,13 +745,36 @@
           "nom": "Périscolaire & Loisirs",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Mettre en œuvre un grand plan périscolaire avec soutien scolaire renforcé et encadrants qualifiés mieux rémunérés.",
+                "Proposer des activités accessibles à tous : sport, culture, environnement, numérique, langue régionale.",
+                "Établir un projet éducatif territorial renforcé sur l'environnement.",
+                "Garantir un accès systématique aux bibliothèques et à l'apprentissage du tri des déchets."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Organiser le temps périscolaire avec un accueil jusqu'à 18h30, assurer un accompagnement scolaire de qualité en élargissant les études dirigées et le soutien scolaire à toutes les écoles publiques.",
+                "Redonner aux centres sociaux un rôle central dans l'éducation et la vie des quartiers.",
+                "Reconnaître pleinement le rôle des ATSEM et affecter 100% de leurs missions sur le temps scolaire.",
+                "Suivre et évaluer l'encadrement des enfants par un registre public et transparent des effectifs (ATSEM, AESH, agents d'animation) présenté à chaque conseil d'école."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Élargir l'accueil périscolaire de 7h à 18h30.",
+                "Instituer un « protecteur des enfants » pour les crèches et les écoles."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -497,7 +782,18 @@
           "nom": "Jeunesse",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Travailler à la création d'un collège public à La Duranne.",
+                "Développer un guichet jeunesse unique (logement, bourses, jobs d'été, santé mentale, mobilité).",
+                "Créer des espaces municipaux dédiés aux 11-25 ans.",
+                "Organiser des formations pour les familles sur le numérique et ses risques.",
+                "Créer un poste de référent communal « Violences sur mineurs » et coordonner les acteurs (CCAS, écoles, justice, police, associations).",
+                "Déployer un plan d'accueil ambitieux pour les enfants en situation de handicap avec une équipe municipale dédiée."
+              ]
+            },
             "klein": {
               "source": "Site officiel Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/",
@@ -505,11 +801,24 @@
                 "Reconversion de bureaux vides en logements pour étudiants et jeunes actifs."
               ]
             },
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Créer une plateforme municipale pour les stages et lutter contre les stages non-rémunérés.",
+                "Accompagner à la rédaction de CV et à l'orientation, y compris des jeunes en recherche d'emploi, en lien avec la Mission locale.",
+                "Créer de nouvelles MJC (Maisons des Jeunes et de la Culture), les soutenir financièrement et les inclure dans la politique culturelle.",
+                "Inscrire les propositions du Conseil de la Vie Étudiante à l'ordre du jour du conseil municipal.",
+                "Organiser des campagnes d'inscription sur les listes électorales en partenariat avec l'Université et le CROUS.",
+                "Lutter contre la précarité menstruelle en développant les distributeurs et la mise à disposition de protections réutilisables.",
+                "Développer les épiceries solidaires, notamment sur chaque campus, en s'appuyant sur les associations.",
+                "Ouvrir l'accès à la mutuelle municipale aux étudiants et jeunes.",
+                "Faire de la santé mentale des jeunes une priorité : création d'un CMP Jeunes et de lieux d'écoute gratuits sans rendez-vous.",
+                "Développer une politique de prévention et de réduction des risques : faciliter l'accès aux moyens de contraception et aux dépistages."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         }
       ]
@@ -531,7 +840,18 @@
                 "Création d'un parc naturel urbain."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Végétaliser massivement l'espace public, en priorité les zones trop minéralisées (Encagnane, Beisson, centre).",
+                "Appliquer strictement la charte de l'arbre et arrêter les tailles excessives.",
+                "Protéger et réhabiliter les parcs, développer les trames verte et bleue et valoriser les berges.",
+                "Créer des points fraîcheur dans les quartiers.",
+                "Réduction puis élimination des pesticides sur le territoire.",
+                "Sanctuariser les zones agricoles protégées et créer une ferme municipale."
+              ]
+            },
             "klein": {
               "source": "Programme officiel 2026 — Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/",
@@ -540,11 +860,24 @@
                 "Valoriser l'Arc comme corridor de fraîcheur et de biodiversité."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Déployer une stratégie ambitieuse de végétalisation et de ventilation naturelle : diagnostics par quartiers, objectifs chiffrés (arbres plantés, surfaces végétalisées), création de micro-forêts urbaines.",
+                "Lancer un plan d'ombrage dans les rues trop étroites : installer des voiles, pergolas végétalisées ou structures d'ombre coconstruites avec les habitants, en priorité autour des écoles et quartiers denses."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Relancer le projet de Parc Naturel Urbain, vite et en XXL.",
+                "Verdir les places minérales au centre et dans les quartiers.",
+                "Créer un grand cheminement le long de l'Arc."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -552,13 +885,32 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Gérer les déchets comme une ressource : développer le compost gratuit, les ressourceries et le réemploi.",
+                "Adopter une politique ambitieuse de réduction-tri-recyclage.",
+                "Renforcer la police de l'environnement en doublant les effectifs (de 8 à 16 agents).",
+                "Lutter contre les dépôts sauvages."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Améliorer la propreté et l'attractivité des marchés et des rues commerçantes."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Nouvelle organisation du service de propreté avec présence renforcée, suivi et contrôle."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -566,7 +918,19 @@
           "nom": "Climat & Adaptation",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Créer une ville climatiquement adaptée avec un grand plan de lutte contre les aléas climatiques.",
+                "Appliquer le Zéro Artificialisation Nette et interdire l'urbanisation en zones inondables.",
+                "Repenser le quartier Constance comme poumon vert.",
+                "Organiser la prévention des incendies en concertation avec le Département et les pompiers, prioriser la végétation méditerranéenne.",
+                "Protéger la ressource en eau : captages sécurisés, lutte contre les fuites, récupération des eaux pluviales sur les bâtiments publics.",
+                "Désimperméabiliser les sols et protéger le cours d'eau de l'Arc.",
+                "Assurer la gratuité des premiers mètres cubes d'eau potable."
+              ]
+            },
             "klein": {
               "source": "Programme officiel 2026 — Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/",
@@ -576,11 +940,27 @@
                 "Planter massivement des espèces adaptées au climat méditerranéen dans les zones les plus exposées à la chaleur."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Créer une délégation à la planification écologique qui coordonnera les services municipaux, évaluera les politiques publiques et garantira la transparence et le contrôle citoyen.",
+                "Construire un diagnostic partagé des urgences locales (chaleur, feux de forêt, inondations) en s'appuyant sur les Conseils de quartier et les associations.",
+                "Protéger les plus vulnérables en adoptant un plan Canicule renforcé : multiplier les lieux d'accueil frais, y compris par réquisition si nécessaire.",
+                "Lutter contre l'artificialisation des sols et l'étalement urbain en privilégiant la densification de l'habitat existant.",
+                "Protéger les habitants face aux pollutions en créant un observatoire Santé-Environnement.",
+                "Lutter contre les risques de feux de forêt en créant un service municipal de débroussaillement et un plan pluriannuel de gestion des Points d'Eau Incendie.",
+                "Créer un réseau municipal d'entraide formant massivement les habitants aux premiers secours pour assister les personnes fragiles et relayer les alertes."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Lancer une démarche à 10 ans pour faire d'Aix une ville à énergie positive."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -589,10 +969,15 @@
           "propositions": {
             "joissains": null,
             "pena": {
-              "source": "Destimed, 2026",
-              "sourceUrl": "https://www.destimed.fr/Tribune-Municipales-a-Aix-en-Provence-Ecologistes-avec-Marc-Pena-et-Aix-en/",
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
               "mesures": [
-                "Programme ambitieux de réduction de la consommation énergétique des logements et bâtiments publics, promotion des énergies renouvelables."
+                "Programme ambitieux de réduction de la consommation énergétique des logements et bâtiments publics, promotion des énergies renouvelables.",
+                "Grand plan de rénovation énergétique en priorité pour les logements sociaux.",
+                "Installer des panneaux photovoltaïques sur les toits des bâtiments publics.",
+                "Créer des ombrières solaires sur les parkings extérieurs.",
+                "Favoriser le réemploi des matériaux bâtis et l'économie circulaire dans la construction.",
+                "Développer la sobriété énergétique des bâtiments municipaux."
               ]
             },
             "klein": {
@@ -603,11 +988,22 @@
                 "Développer des toitures ventilées comme espaces partagés et lieux de lien social."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Accélérer la réhabilitation thermique des logements sociaux et bâtiments publics. Créer une coopérative municipale d'éco-rénovation avec accès facilité aux matériaux écologiques et formation des professionnels.",
+                "Favoriser l'implantation de panneaux solaires en toiture sur les bâtiments publics et dans les nouveaux projets immobiliers."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Relancer un grand plan de géothermie."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -615,13 +1011,29 @@
           "nom": "Alimentation durable",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Accompagner les filières agricoles locales et développer les marchés de producteurs.",
+                "Engager la cuisine centrale vers le 100% bio et local avec suppression du plastique.",
+                "Instaurer une deuxième journée végétarienne hebdomadaire en restauration scolaire.",
+                "Soutenir les jardins partagés, coopératives et magasins de producteurs."
+              ]
+            },
             "klein": null,
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Soutenir des expérimentations de Sécurité Sociale de l'Alimentation (SSA) : faciliter l'accès aux financements, mettre des locaux à disposition, appuyer les caisses solidaires.",
+                "Rendre l'alimentation locale plus accessible dans les quartiers en renforçant les circuits courts. Soutenir la création de coopératives d'achats. Favoriser l'implantation de jardins partagés.",
+                "Protéger et développer une agriculture durable en sanctuarisant les terres agricoles et en favorisant l'installation de nouveaux exploitants.",
+                "Développer les solutions de captage des eaux individuelles et collectives."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         }
       ]
@@ -641,7 +1053,17 @@
                 "Renaissance du thermalisme : poursuite de la recherche d'eau thermale pour développer l'activité thermale historique d'Aix-en-Provence."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Créer des centres de santé municipaux avec médecins salariés sans dépassement d'honoraires, d'abord dans les quartiers populaires.",
+                "Mettre en place une mutuelle municipale accessible aux plus modestes.",
+                "Organiser des permanences d'accès aux droits pour lever les barrières financières à la santé.",
+                "Porter un projet d'EHPAD public et une politique d'aide au maintien à domicile.",
+                "Créer un centre médical dédié à la santé des jeunes."
+              ]
+            },
             "klein": {
               "source": "Programme officiel 2026 — Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/",
@@ -650,11 +1072,17 @@
                 "Renforcer l'aide à l'installation des professionnels de santé."
               ]
             },
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Défendre l'hôpital public : exiger l'arrêt des fermetures de services et la réouverture des lits supprimés. Réserver les investissements municipaux aux établissements publics.",
+                "Créer des centres de santé municipaux pluridisciplinaires en ciblant les quartiers populaires, avec si nécessaire l'embauche directe de médecins salariés.",
+                "Créer une mutuelle municipale fondée sur une prise en charge éthique, sans dépassements d'honoraires ni conditions restrictives."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         },
         {
@@ -662,13 +1090,29 @@
           "nom": "Prévention santé",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Structurer un pôle municipal de prévention et santé publique avec un Contrat Local de Santé renforcé.",
+                "Initier des campagnes de dépistage et prévention (cancers, addictions, nutrition, santé mentale).",
+                "Faire de la santé mentale une priorité communale : campagnes de sensibilisation, formation aux premiers secours en santé mentale pour les agents municipaux.",
+                "Développer des permanences psychologiques gratuites dans les maisons de quartier.",
+                "Déployer une politique de santé environnementale : surveillance des PFAS et polluants dans l'eau, lutte contre le bruit et amélioration de la qualité de l'air.",
+                "Créer un laboratoire municipal de santé environnementale."
+              ]
+            },
             "klein": null,
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Faire de la santé mentale une priorité de santé publique municipale : plan municipal de prévention et d'accueil des personnes en souffrance psychique, soutien renforcé aux Centres Médico-Psychologiques.",
+                "Instaurer la gratuité des premiers m3 d'eau indispensables à la vie, avec une tarification progressive et différenciée selon les usages."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         },
         {
@@ -676,13 +1120,33 @@
           "nom": "Seniors",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Renforcer le soutien psychologique et les solutions de répit pour les personnes dépendantes à domicile et leurs aidants familiaux.",
+                "Améliorer le parcours d'autonomie des personnes en situation de handicap sur le territoire (accessibilité, accompagnement, coordination)."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Favoriser le maintien à domicile en lien avec les acteurs de santé et les associations d'aidants. La Brigade du logement assurant un rôle d'alerte et de prévention.",
+                "Augmenter l'offre publique en créant de nouvelles résidences publiques type EHPAD ou associatives sans but lucratif pour personnes âgées.",
+                "Aider au développement du logement intergénérationnel avec une plateforme de mise en relation et un accompagnement."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Création d'au moins un EHPAD.",
+                "Des résidences services dans le parc social pour favoriser le maintien à domicile."
+              ]
+            },
+            "ben-ammar": null
           }
         }
       ]
@@ -702,7 +1166,18 @@
                 "Renforcer la concertation citoyenne : décider avec les Aixois sur les projets structurants de la ville."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Dynamiser les 14 conseils de quartier et leur donner un budget propre.",
+                "Créer un Comité Jeunesse et un Comité Climat pour intégrer jeunes et enjeux climatiques dans les décisions communales.",
+                "Mettre en place un Référendum d'Initiative Citoyenne local sur les grands projets d'avenir.",
+                "Organiser des débats publics contradictoires et accessibles.",
+                "Adopter dès le début du mandat une trajectoire budgétaire de transition climatique avec un budget vert.",
+                "Voter un budget sensible au genre pour évaluer l'objectif d'égalité femmes-hommes."
+              ]
+            },
             "klein": {
               "source": "Site officiel Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/",
@@ -711,11 +1186,17 @@
                 "Le maire comme chef d'orchestre, garant de l'harmonie entre les quartiers."
               ]
             },
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Faire des Conseils de quartier des acteurs de la vie locale en les dotant de budgets participatifs (fonctionnement et investissement), avec engagement d'inscrire leurs projets à l'ordre du jour du conseil municipal.",
+                "Démocratiser l'élaboration du budget avec l'organisation d'un débat d'orientation public et participatif au sein des Conseils de quartier.",
+                "Instaurer le Référendum d'Initiative Citoyenne : un RIC peut être déclenché par 10% des électeurs ; si la participation dépasse 50%, le résultat est appliqué."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         },
         {
@@ -730,7 +1211,18 @@
                 "Gestion rigoureuse des finances municipales au service des Aixois, avec stabilité fiscale garantie sur tout le mandat."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Demander un audit financier indépendant de la gestion de la ville et des structures associées.",
+                "Garantir la transparence de l'attribution des places en crèche et des logements sociaux (anonymat des dossiers, critères publiés).",
+                "Assurer le fonctionnement démocratique du conseil municipal avec comptes rendus réguliers aux habitants.",
+                "Permettre aux élus d'opposition de siéger dans la gouvernance des sociétés d'économie mixte locales.",
+                "Adopter une politique d'achats publics exemplaire avec critères sociaux, environnementaux et locaux.",
+                "Recourir en priorité à des prêts de sources éthiques, sans investissements dans les paradis fiscaux."
+              ]
+            },
             "klein": {
               "source": "Programme officiel 2026 — Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/",
@@ -740,11 +1232,30 @@
                 "Réduire les dépenses de fonctionnement pour investir davantage."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Mettre en place une communication transparente et garantir l'accès aux documents municipaux. L'application « Aix ma ville » centralisera services, démarches et participation citoyenne.",
+                "Instaurer le droit de pétition : si elle réunit au moins 5% des habitants de plus de 16 ans, elle est défendue en conseil municipal.",
+                "Soutenir la participation des mineurs dès 16 ans et des résidents étrangers aux instances locales et au droit de pétition.",
+                "Mener des campagnes d'inscription sur les listes électorales et mettre fin aux radiations abusives.",
+                "Garantir la transparence de l'action municipale : rendre publiques toutes les études commandées par la mairie, appliquer les avis de la CADA.",
+                "Encadrer l'action des élus par une charte pour le respect des engagements pris.",
+                "Mettre en place une politique d'Open Data pour garantir l'accès aux données publiques.",
+                "Prévenir les conflits d'intérêts : publier les rendez-vous des élus avec les représentants d'intérêts privés, refuser tout cadeau, obligation de retrait des débats ou votes concernés.",
+                "Imposer la sobriété dans l'utilisation de l'argent public : encadrer les frais de réception, publier l'intégralité des frais de représentation des élus.",
+                "Garantir une attribution juste et transparente des ressources publiques (logements sociaux, places en crèches, marchés publics) grâce à la présence d'habitants dans les conseils d'administration."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Diminuer de moitié le budget de communication et supprimer les frais de représentation des élus."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -758,13 +1269,37 @@
                 "Renforcement des conseils de quartier et de citoyens pour favoriser la participation citoyenne et la proximité avec les habitants."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Construire une méthode de travail partenariale avec les associations : calendrier stable, instances de dialogue, co-construction des politiques publiques.",
+                "Mettre gratuitement à disposition des salles et lieux publics pour les associations.",
+                "Récréer une Maison des associations avec appui administratif renforcé.",
+                "Soutenir les structures d'intérêt général et bâtir une « Maison commune » de la vie associative aixoise."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Donner de la stabilité aux associations par des conventions et subventions pluriannuelles.",
+                "Empêcher le clientélisme dans l'attribution des subventions par un cahier des charges clair : utilité sociale, égalité femmes-hommes, conditions de travail dignes.",
+                "Garantir un accès équitable aux ressources municipales : plateforme publique des lieux municipaux disponibles, prêt gratuit des équipements aux associations et collectifs.",
+                "Recréer une maison des associations, cogérée avec la municipalité.",
+                "Mettre en place des partenariats avec les associations pour l'élaboration des politiques locales."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Des animations urbaines permanentes en s'appuyant sur les associations.",
+                "Collaboration avec les CIQ et associations pour la propreté et la vie de quartier."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -772,13 +1307,38 @@
           "nom": "Services publics",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Créer un service public d'accès au numérique dans chaque mairie annexe pour lutter contre la fracture numérique.",
+                "Soutenir l'apprentissage du français accessible à toutes et tous.",
+                "Choisir en priorité des structures d'Économie Sociale et Solidaire comme délégataires de services publics.",
+                "Créer une cellule Europe-État-Région-Département-Métropole pour la recherche de cofinancements."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Œuvrer pour le retour de compétences à la ville, avec en premier lieu la compétence voirie.",
+                "Garantir le choix entre démarche physique et dématérialisation.",
+                "Assurer un rôle d'accompagnement numérique avec des services dédiés dans les mairies annexes et centres sociaux.",
+                "Garantir la stabilité de l'emploi public en lançant un plan de titularisation des emplois permanents, en priorité les personnels de catégorie C.",
+                "Développer le plan pluriannuel de formation des personnels municipaux.",
+                "Redonner à la ville une ingénierie publique forte en reconstituant des filières municipales (bâtiment, voirie, énergie, espaces verts) pour réduire la dépendance aux cabinets extérieurs.",
+                "Faire de la commande publique un levier de la bifurcation écologique en renforçant les clauses environnementales dans tous les marchés municipaux."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Renforcement des compétences et effectifs des mairies annexes."
+              ]
+            },
+            "ben-ammar": null
           }
         }
       ]
@@ -799,13 +1359,36 @@
                 "Pré-emption de baux commerciaux pour préserver le commerce local."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Favoriser les commerces indépendants de proximité en appliquant le droit de préemption et en limitant la prolifération des franchises.",
+                "Accompagner les commerces dans leur transition écologique et sociale.",
+                "Développer les marchés de producteurs dans tous les quartiers et villages, avec des marchés couverts au Jas de Bouffan et à Encagnane.",
+                "Instaurer des chartes qualité garantissant origine, qualité et traçabilité des produits.",
+                "Lutter contre le surtourisme et défendre un tourisme soutenable respectueux du patrimoine."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Protéger les commerces de proximité en renforçant le droit de préemption sur les commerces et l'artisanat. Acquérir des murs, rénover des locaux et les relouer à des loyers abordables dans les quartiers sous-dotés. Soutenir les commerces coopératifs.",
+                "Protéger et développer les marchés comme piliers du lien social et de l'économie locale, prioriser la présence des producteurs locaux.",
+                "Protéger les espaces agricoles par une sanctuarisation dans le PLUI.",
+                "Soutenir les agriculteurs locaux par la commande publique et favoriser l'installation de nouveaux exploitants avec un guichet municipal d'accompagnement."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Soutenir le commerce de centre-ville et des villages."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -813,13 +1396,30 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Créer une délégation municipale à l'Économie Sociale et Solidaire comme pilier du développement local.",
+                "Soutenir les coopératives, entreprises d'insertion et associations productrices.",
+                "Intégrer des clauses sociales, locales et environnementales dans les marchés publics.",
+                "Étudier la faisabilité de créer un « territoire zéro chômeur de longue durée ».",
+                "Articuler la politique économique avec l'emploi des jeunes et des publics fragiles."
+              ]
+            },
             "klein": null,
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Utiliser la commande publique comme levier avec des clauses sociales et environnementales dans les marchés publics (SCOP, associations locales, circuits courts).",
+                "Réserver du foncier pour des projets coopératifs (habitat participatif, commerces coopératifs).",
+                "Aider à la structuration de filières locales (alimentation, ressourceries, recycleries, coopératives culturelles).",
+                "Former les agents municipaux aux achats responsables."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         },
         {
@@ -833,13 +1433,25 @@
                 "Pas d'augmentation des impôts : engagement de stabilité fiscale pour maintenir l'attractivité d'Aix-en-Provence."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Faire de la transition écologique un levier économique : soutenir les entreprises locales d'énergies renouvelables.",
+                "Développer des services d'économie circulaire : réparation, location d'outils, ressourceries, réemploi."
+              ]
+            },
             "klein": null,
             "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Étendre le Parc d'Activités d'Aix-les-Milles et développer de nouvelles filières à l'Arbois.",
+                "Bâtir un nouveau Palais des Congrès et des produits touristiques patrimoniaux adaptés à la ville."
+              ]
+            },
+            "ben-ammar": null
           }
         }
       ]
@@ -860,13 +1472,40 @@
                 "Culture accessible dans tous les quartiers avec pôle cirque et pôle image."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Multiplier les lieux culturels de proximité pour une « ville culturelle du quart d'heure ».",
+                "Organiser des États généraux de la culture en début de mandature.",
+                "Sanctuariser le budget municipal de la culture.",
+                "Garantir la présence et pérennité des centres culturels et socioculturels sur le territoire.",
+                "Reconstruire un réseau de Maisons des Jeunes et de la Culture.",
+                "Réouvrir le Muséum d'Histoire naturelle et lancer un projet de Musée d'Aix antique.",
+                "Renforcer les bibliothèques Méjanes et annexes avec services mobiles dans tous les quartiers.",
+                "Mettre en avant la culture provençale et l'occitan-langue d'oc avec un espace dédié."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Rééquilibrer l'accès à la culture sur le territoire : créer de nouveaux lieux culturels en réhabilitant des locaux vacants ou en préemptant des commerces, en priorité dans les quartiers dépourvus.",
+                "Faire des lieux culturels de véritables espaces de vie de quartier : élargir les horaires des bibliothèques, accueillir débats, rencontres et fêtes.",
+                "Rebâtir un Muséum d'Histoire Naturelle afin de faire profiter de ses collections.",
+                "Mettre fin au manque d'espaces pour la création artistique : créer un réseau de lieux de répétition, de stockage et d'exposition.",
+                "Aider les petits lieux de musiques actuelles : soutien pour les licences de spectacles, information sur les aides à l'emploi artistique."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Lancer un plan de réhabilitation du patrimoine, une école du « patrimoine » au Pavillon Vendôme et mettre en valeur les sites cézanniens et antiques."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -874,13 +1513,37 @@
           "nom": "Événements & Création",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Associer les forces vives du spectacle vivant et les habitants aux choix des événements municipaux.",
+                "Développer l'accès à la musique et à la danse : interventions d'artistes du conservatoire dans les écoles, accès régulier des élèves aux scènes aixoises.",
+                "Promouvoir les résidences artistiques en milieu scolaire et en maisons de quartier.",
+                "Valoriser les cultures plurielles méditerranéennes et les échanges internationaux.",
+                "Recréer une auberge de jeunesse accessible financièrement pour le tourisme social et les échanges."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Faire de l'accès à la culture un droit effectif : renforcer la tarification sociale, proposer des places à très bas coût et des gratuités ciblées.",
+                "Rompre avec la hiérarchie entre cultures « élitistes » et populaires : ouvrir les lieux culturels aux créations urbaines (hip-hop, rap, stand-up) et soutenir les espaces inclusifs.",
+                "Garantir la liberté de création et de programmation : repenser l'attribution des subventions via un cahier des charges coconstruit avec lieux, associations, artistes et publics.",
+                "Appliquer le 1% artistique pour consacrer 1% du budget à la commande d'œuvres d'art dans les bâtiments et espaces publics.",
+                "Créer un PASS culture local en partenariat avec les salles de spectacles et lieux de création."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Organiser un grand festival étudiant annuel."
+              ]
+            },
+            "ben-ammar": null
           }
         }
       ]
@@ -900,13 +1563,32 @@
                 "Récupération et gestion directe par la Ville des équipements sportifs et culturels de la métropole : Arena, 6Mic, stade Maurice David, piscines Claude Mollet, Yves Blanc et Plein Ciel."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Augmenter les créneaux d'ouverture des équipements sportifs.",
+                "Développer des écoles municipales de sports avec tarification au quotient familial.",
+                "Concevoir et mettre en œuvre un Projet Sportif Local co-construit avec les acteurs du sport.",
+                "Appliquer une charte sport éco-responsable pour les événements sportifs (alimentation locale bio, mobilités douces, déchets réduits)."
+              ]
+            },
             "klein": null,
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Renforcer l'accessibilité aux équipements sportifs : améliorer leur desserte par les transports en commun, étendre les plages horaires, renforcer la tarification sociale, accueillir les personnes en situation de handicap."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Soutenir le sport et mettre « Aix » dans le nom de tous les grands clubs sportifs."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -914,13 +1596,26 @@
           "nom": "Sport pour tous",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Encourager la féminisation du sport et créer une Maison du Sport Féminin.",
+                "Sécuriser les complexes sportifs pour les jeunes filles et les femmes.",
+                "Soutenir et développer la Maison Sport Santé pour accompagner les personnes en sport sur ordonnance.",
+                "Créer un guichet unique pour simplifier l'action administrative des bénévoles des 280 clubs sportifs aixois."
+              ]
+            },
             "klein": null,
             "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Développer des espaces de sport en libre accès dans les parcs et jardins."
+              ]
+            },
+            "ben-ammar": null
           }
         }
       ]
@@ -941,7 +1636,16 @@
                 "Préservation des points de vue cézaniens à la ZAC de la Constance."
               ]
             },
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Adopter un urbanisme durable : appliquer le Zéro Artificialisation Nette, acquérir du foncier d'intérêt général via la Société Foncière communale.",
+                "Promouvoir des opérations d'aménagement économes en espace et inscrire l'urbanisme dans une vision de long terme.",
+                "Proposer une alternative économique et écologique au transport routier.",
+                "Aménager les espaces sensibles (écoles, transports, parcs, zones d'activités) pour renforcer la tranquillité publique."
+              ]
+            },
             "klein": {
               "source": "Site officiel Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/index.php/2026/02/13/les-premiers-engagements-de-philippe-klein-annonces-lors-du-meeting-du-11-02-2026/",
@@ -950,11 +1654,22 @@
                 "Valoriser le trésor du fleuve l'Arc comme axe naturel de fraîcheur et ressource hydrique."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Lancer une conférence permanente sur un nouveau projet de ville réunissant habitants, associations, CIQ, architectes et urbanistes, et créer une Maison des projets.",
+                "Travailler à la requalification des quartiers pour densifier l'habitat existant et développer des centralités de quartier vers la ville quart d'heure."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Grand « plan centre-ville » et « contrats de quartiers » élaborés avec la population."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -962,7 +1677,14 @@
           "nom": "Accessibilité",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Garantir des cheminements accessibles, éclairés et sécurisés pour toutes et tous, en particulier les femmes et les publics vulnérables.",
+                "Assurer l'accessibilité des commerces et du stationnement adapté."
+              ]
+            },
             "klein": {
               "source": "Site officiel Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-vert/",
@@ -970,11 +1692,22 @@
                 "Offrir des couvertures arborées aux piétons et aux cyclistes."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Faire d'Aix une ville 100% accessible aux PMR et UFR : plan massif d'accessibilité universelle couvrant l'espace public, transports, bâtiments et événements municipaux.",
+                "Déployer des campagnes de sensibilisation relatives à l'usage abusif des places de stationnement réservées."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "Assurer l'accessibilité PMR partout où cela est possible."
+              ]
+            },
+            "ben-ammar": null
           }
         },
         {
@@ -982,13 +1715,18 @@
           "nom": "Quartiers prioritaires",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Donner la priorité aux quartiers populaires dans les politiques éducatives, de santé et de logement.",
+                "Augmenter les investissements dans les quartiers populaires, la transition écologique et la culture."
+              ]
+            },
             "klein": null,
             "boronad": null,
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         }
       ]
@@ -1002,13 +1740,31 @@
           "nom": "Aide sociale",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Créer une délégation municipale dédiée à la lutte contre la pauvreté, à l'égalité des droits et à la solidarité.",
+                "Créer des places d'hébergement d'urgence et d'accueil inconditionnel, avec adaptation aux changements climatiques.",
+                "Soutenir et consolider le CCAS comme pivot de l'accès aux droits et de l'accompagnement des publics fragiles.",
+                "Lutter contre la précarité étudiante : contribuer à la création d'épiceries solidaires avec circuits courts et bio.",
+                "Renforcer l'aide aux familles monoparentales."
+              ]
+            },
             "klein": null,
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Créer des places de logement d'urgence pour les sans-abris et personnes en situation de grande précarité, avec ou sans papiers.",
+                "Mise en place d'une carte municipale pour les familles monoparentales ouvrant des droits prioritaires et tarifs réduits (crèches, cantines, périscolaire, logement social, transports, culture, sport).",
+                "Garantir un véritable droit au répit parental : solutions de relais, accès prioritaire à l'aide aux devoirs, périscolaire jusqu'à 18h30, gratuité lors des événements municipaux, séjours de répit.",
+                "Créer un guide municipal de la monoparentalité disponible sur l'application et en version papier.",
+                "Protéger les plus vulnérables : places d'hébergement pour les personnes LGBTQIA+ en rupture familiale."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         },
         {
@@ -1016,13 +1772,44 @@
           "nom": "Égalité & Discriminations",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Développer une campagne globale de lutte contre toutes les discriminations (racisme, antisémitisme, sexisme, LGBTQIAphobies, handicap).",
+                "Évaluer les politiques municipales d'inclusion et d'égalité avec une grille inclusive, antiraciste, féministe et antivalidiste.",
+                "Garantir l'égalité salariale femmes-hommes dans la fonction publique communale.",
+                "Former les agents municipaux à la lutte contre les discriminations dans tous les services.",
+                "Faire de la laïcité un devoir de l'action municipale : créer un référent laïcité et veiller à la neutralité du service public."
+              ]
+            },
             "klein": null,
-            "boronad": null,
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Créer un Observatoire municipal des discriminations avec lieu d'accueil, permanence juridique gratuite et numéro vert pour le signalement et l'accompagnement des victimes.",
+                "Créer un accueil mobile pour accueillir et accompagner les victimes de discriminations.",
+                "Faire de la lutte contre les discriminations une politique municipale transversale. Se constituer partie civile aux côtés de toute victime. Former tous les personnels avec un référent dans chaque service.",
+                "Soutenir les associations de traduction, d'interprétariat et d'apprentissage du français.",
+                "Reconnaître et transmettre l'histoire des luttes féministes, antiracistes et LGBTQIA+ dans l'espace public. Soutenir un fonds d'archives dédié.",
+                "Reconnaître et transmettre l'histoire des migrations à Aix-en-Provence en créant un musée dédié.",
+                "Réduire les inégalités femmes-hommes dans les politiques municipales : évaluer l'impact des choix budgétaires et orienter les financements vers la réduction des inégalités.",
+                "Garantir l'égalité professionnelle dans les services municipaux : parité dans les postes de direction, congé menstruel, conditionner les subventions au respect de l'égalité femmes-hommes.",
+                "Garantir l'égalité d'accès au logement : anonymisation partielle des dossiers, grille publique d'évaluation, traçabilité des décisions.",
+                "Combattre l'anti-tsiganisme : aires d'accueil dignes, accès aux services essentiels, fin des expulsions sans solution de relogement.",
+                "Soutenir la création d'un centre antiraciste dans le cadre de l'Observatoire des discriminations.",
+                "Déployer des campagnes municipales de sensibilisation contre les LGBTIphobies dans l'espace public et les transports.",
+                "Garantir l'accès aux droits des personnes trans et intersexes : permanence juridique pour les changements d'état civil, respect du prénom d'usage dans les services municipaux.",
+                "Soutenir les associations de terrain par des subventions stables, mise à disposition de locaux, et coordination régulière avec écoles, IME et familles pour le handicap.",
+                "Exiger de l'État plus d'AESH pour garantir à chaque enfant en situation de handicap un accompagnement personnalisé. La ville pourra compléter les contrats pour le temps méridien.",
+                "Garantir la laïcité et lutter contre son instrumentalisation : accès équitable aux salles municipales, liberté d'association, neutralité des services publics.",
+                "Aider la communauté musulmane à créer un lieu de culte unique et adapté en mettant à disposition un terrain via bail emphytéotique.",
+                "Prévenir et lutter contre les violences faites aux enfants : protocole municipal de prévention et signalement, campagnes de sensibilisation sur les violences éducatives, sexuelles, le harcèlement scolaire et le cyberharcèlement."
+              ]
+            },
             "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "ben-ammar": null
           }
         },
         {
@@ -1030,7 +1817,14 @@
           "nom": "Pouvoir d'achat",
           "propositions": {
             "joissains": null,
-            "pena": null,
+            "pena": {
+              "source": "Programme officiel 2026 — Aix Avenir",
+              "sourceUrl": "https://aixavenir.fr/#programme",
+              "mesures": [
+                "Lancer des campagnes locales de sensibilisation à l'égalité de genre dès le plus jeune âge.",
+                "Penser la ville à hauteur d'enfant : sécuriser les abords des écoles et développer les rues aux enfants."
+              ]
+            },
             "klein": {
               "source": "Site officiel Philippe Klein",
               "sourceUrl": "https://www.philippe-klein.fr/index.php/pour-un-aix-plus-transparent/",
@@ -1039,11 +1833,24 @@
                 "Réduire les dépenses de fonctionnement pour augmenter celles d'investissement, ce qui est un devoir envers les contribuables aixois."
               ]
             },
-            "boronad": null,
-            "geiger": null,
-            "ben-ammar": null,
-            "mounir-ben-ammar": null,
-            "marc-pena": null
+            "boronad": {
+              "source": "Programme officiel 2026 — Aix en commun",
+              "sourceUrl": "https://www.aixencommun.fr/programme/",
+              "mesures": [
+                "Introduire des clauses dans les marchés publics pour exclure les entreprises impliquées dans une violation du droit international, en particulier du droit humanitaire.",
+                "Réexaminer la politique des jumelages pour s'assurer que les villes partenaires respectent le droit international et les droits humains.",
+                "Étendre la gratuité des transports pour les moins de 26 ans avec prise en charge des abonnements par la ville pour les boursiers et jeunes travailleurs."
+              ]
+            },
+            "geiger": {
+              "source": "Programme officiel 2026 — Agir pour Aix",
+              "sourceUrl": "https://jeanlouisgeiger2026.fr/notre-programme/",
+              "mesures": [
+                "S'engager à ne pas augmenter les impôts.",
+                "Réduire fortement les dépenses de fonctionnement."
+              ]
+            },
+            "ben-ammar": null
           }
         }
       ]

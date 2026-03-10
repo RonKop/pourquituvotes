@@ -10,7 +10,9 @@
       "liste": "PS (Parti Socialiste)",
       "programmeUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-il-faut-qu-on-soit-capable-d-emerveiller-les-manceaux-l-ambition-de-stephane-le-foll-pour-le-mans-6724690",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LSOC",
+      "nuanceLibelle": "Liste du Parti socialiste"
     },
     {
       "id": "karamanli",
@@ -18,7 +20,9 @@
       "liste": "Union de la gauche écologique et citoyenne (EELV/PCF)",
       "programmeUrl": "https://www.francebleu.fr/pays-de-la-loire/sarthe-72/le-mans/municipales-2026-marietta-karamanli-tete-de-la-liste-de-la-gauche-ecologiste-et-citoyenne-au-mans-6198977",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "sasso",
@@ -26,7 +30,9 @@
       "liste": "LR (Les Républicains)",
       "programmeUrl": "https://www.lemans2026.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "vigneral",
@@ -34,7 +40,9 @@
       "liste": "RN (Rassemblement National)",
       "programmeUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/municipales-2026-victoria-de-vigneral-pour-le-rn-au-mans-j-ai-vu-ma-ville-changer-negativement-7728733",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "sainty",
@@ -42,15 +50,9 @@
       "liste": "Révolution Permanente",
       "programmeUrl": "https://benjaminsainty.municipales-rp.fr/projet/",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "fontenel-personne",
-      "nom": "Pascale Fontenel-Personne",
-      "liste": "Renaissance (Ensemble)",
-      "programmeUrl": "https://www.francebleu.fr/emissions/l-invite-de-ici-maine/pascale-fontenel-personne-pilote-des-municipales-2026-au-mans-pour-renaissance-1076692",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "brillant",
@@ -58,7 +60,9 @@
       "liste": "La France Insoumise, LE MANS, VILLE HUMAINE",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "le-foll",
@@ -66,7 +70,9 @@
       "liste": "Parti Socialiste, LE MANS NOUS RASSEMBLE",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LSOC",
+      "nuanceLibelle": "Liste du Parti socialiste"
     },
     {
       "id": "rabette",
@@ -74,7 +80,9 @@
       "liste": "Extrême gauche, Lutte Ouvrière - Le Camp des Travailleurs",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "de-vigneral",
@@ -82,7 +90,9 @@
       "liste": "Rassemblement National, Rassemblement pour Le Mans",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     }
   ],
   "categories": [
@@ -117,7 +127,6 @@
               ]
             },
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -139,7 +148,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -155,13 +163,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": {
-              "source": "Presse locale",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-ici-maine/pascale-fontenel-personne-pilote-des-municipales-2026-au-mans-pour-renaissance-1076692",
-              "mesures": [
-                "Faire de la sécurité en centre-ville une priorité, répondre aux préoccupations des habitants sur les incivilités."
-              ]
-            },
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -177,7 +178,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -211,7 +211,6 @@
               ]
             },
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -233,7 +232,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -255,7 +253,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -271,7 +268,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -293,7 +289,6 @@
                 "Gratuité totale des transports en commun au Mans."
               ]
             },
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -321,7 +316,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -343,7 +337,6 @@
                 "Réquisitionner les logements vides du Mans pour loger les sans-abri et les mal-logés."
               ]
             },
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -359,7 +352,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -375,7 +367,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -397,7 +388,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -419,7 +409,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -447,7 +436,6 @@
                 "Gratuité des cantines scolaires et des fournitures pour tous les élèves."
               ]
             },
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -463,7 +451,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -479,7 +466,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -513,7 +499,6 @@
             },
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -529,7 +514,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -551,7 +535,6 @@
             },
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -567,7 +550,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -583,7 +565,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -611,7 +592,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -627,7 +607,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -643,7 +622,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -671,7 +649,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -705,7 +682,6 @@
                 "Élus révocables par la population et rémunérés au salaire d’une infirmière."
               ]
             },
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -721,7 +697,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -743,7 +718,6 @@
                 "Investissement massif dans les services publics sous contrôle des travailleurs, arrêt des subventions publiques aux entreprises."
               ]
             },
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -771,7 +745,6 @@
             },
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -787,7 +760,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -809,7 +781,6 @@
             },
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -831,13 +802,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": {
-              "source": "Presse locale",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-ici-maine/pascale-fontenel-personne-pilote-des-municipales-2026-au-mans-pour-renaissance-1076692",
-              "mesures": [
-                "Rendre la culture plus populaire et accessible à tous les Manceaux, en faire une priorité pour l’épanouissement des habitants."
-              ]
-            },
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -853,7 +817,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -875,7 +838,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -891,7 +853,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -913,7 +874,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -929,7 +889,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -945,7 +904,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -967,7 +925,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -983,7 +940,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,
@@ -1005,7 +961,6 @@
             "sasso": null,
             "vigneral": null,
             "sainty": null,
-            "fontenel-personne": null,
             "brillant": null,
             "le-foll": null,
             "rabette": null,

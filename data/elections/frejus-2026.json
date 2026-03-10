@@ -10,7 +10,9 @@
       "liste": "Sans étiquette (ex-RN)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "bonnemain",
@@ -18,7 +20,9 @@
       "liste": "Centre-droit, Notre parti c'est Fréjus",
       "programmeUrl": "https://www.notreparticestfrejus.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "cerrutti",
@@ -26,7 +30,9 @@
       "liste": "LR, Soyons fiers de Fréjus",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LLR",
+      "nuanceLibelle": "Liste des Républicains"
     },
     {
       "id": "fassi",
@@ -34,15 +40,9 @@
       "liste": "Liste citoyenne, Fréjus notre territoire durablement",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "poussin",
-      "nom": "Julien Poussin",
-      "liste": "Opposition de gauche",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "romano",
@@ -50,7 +50,9 @@
       "liste": "Union de la gauche (PCF-PS-LFI-EELV), Fréjus Riposte",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     }
   ],
   "categories": [
@@ -72,7 +74,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -84,7 +85,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -102,7 +102,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -114,7 +113,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -132,7 +130,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -150,7 +147,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -162,7 +158,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -180,7 +175,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -192,7 +186,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -210,7 +203,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -222,7 +214,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -234,7 +225,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -246,7 +236,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -264,7 +253,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -282,7 +270,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -294,7 +281,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -306,7 +292,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -324,7 +309,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -348,7 +332,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -366,7 +349,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -384,7 +366,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -402,7 +383,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -420,7 +400,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -438,7 +417,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -450,7 +428,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -462,7 +439,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -486,7 +462,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -504,7 +479,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -522,7 +496,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -534,7 +507,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -558,7 +530,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -576,7 +547,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -594,7 +564,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -618,7 +587,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -630,7 +598,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -648,7 +615,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -666,7 +632,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -690,7 +655,6 @@
             },
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -702,7 +666,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -714,7 +677,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }
@@ -732,7 +694,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -744,7 +705,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         },
@@ -756,7 +716,6 @@
             "bonnemain": null,
             "cerrutti": null,
             "fassi": null,
-            "poussin": null,
             "romano": null
           }
         }

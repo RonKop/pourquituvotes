@@ -10,7 +10,9 @@
       "liste": "UDI",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUC",
+      "nuanceLibelle": "Liste d'union au centre"
     },
     {
       "id": "karroumi",
@@ -18,7 +20,9 @@
       "liste": "DVG, Union de la gauche (PS/Place publique/Génération.s)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "lescaut",
@@ -26,15 +30,9 @@
       "liste": "LFI (La France Insoumise)",
       "programmeUrl": "https://www.guillaumelescaut2026.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "daguet",
-      "nom": "Anthony Daguet",
-      "liste": "PCF",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "djebbari",
@@ -42,15 +40,9 @@
       "liste": "DVG",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "guerrien",
-      "nom": "Marc Guerrien",
-      "liste": "DVG",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "lavazec",
@@ -58,7 +50,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "hocine",
@@ -66,7 +60,9 @@
       "liste": "Divers, CONSTRUIRE ENSEMBLE POUR AUBERVILLIERS",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDIV",
+      "nuanceLibelle": "Liste Divers"
     }
   ],
   "categories": [
@@ -88,9 +84,7 @@
             },
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -102,9 +96,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -116,9 +108,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -130,9 +120,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -150,9 +138,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -164,9 +150,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -178,9 +162,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -192,9 +174,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -206,9 +186,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -233,9 +211,7 @@
                 "Créer des entreprises municipales pour baisser les coûts et améliorer la qualité des services publics."
               ]
             },
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -247,9 +223,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -261,9 +235,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -281,7 +253,6 @@
                 "Lutter contre l'habitat insalubre et les logements indignes en renforçant les contrôles et les sanctions."
               ]
             },
-            "daguet": null,
             "djebbari": {
               "source": "Presse locale",
               "sourceUrl": "https://www.lecourrierdelatlas.com/reconnecter-aubervilliers-nabila-djebbari-lance-sa-campagne-dans-une-salle-pleine-2/",
@@ -290,7 +261,6 @@
                 "Augmenter les espaces verts pour améliorer la qualité de vie face au béton."
               ]
             },
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -308,9 +278,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -322,9 +290,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -342,9 +308,7 @@
                 "Instaurer la gratuité des repas de cantine scolaire pour les élèves de l'école primaire comme mesure de justice sociale."
               ]
             },
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -356,9 +320,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -370,9 +332,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -396,9 +356,7 @@
               ]
             },
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -410,9 +368,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -424,9 +380,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -438,9 +392,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -452,9 +404,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -472,9 +422,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -486,9 +434,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -500,9 +446,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -520,9 +464,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -534,9 +476,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -554,9 +494,7 @@
               ]
             },
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -568,9 +506,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -588,9 +524,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -602,7 +536,6 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": {
               "source": "Presse locale",
               "sourceUrl": "https://www.lecourrierdelatlas.com/reconnecter-aubervilliers-nabila-djebbari-lance-sa-campagne-dans-une-salle-pleine-2/",
@@ -610,7 +543,6 @@
                 "Développer le soutien à l'entrepreneuriat et à l'insertion professionnelle des habitants."
               ]
             },
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -622,9 +554,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -642,9 +572,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -656,7 +584,6 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": {
               "source": "Presse locale",
               "sourceUrl": "https://www.lecourrierdelatlas.com/reconnecter-aubervilliers-nabila-djebbari-lance-sa-campagne-dans-une-salle-pleine-2/",
@@ -664,7 +591,6 @@
                 "Co-construire une politique culturelle avec les habitants et favoriser la création artistique locale."
               ]
             },
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -682,9 +608,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -696,9 +620,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -716,9 +638,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -730,9 +650,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -744,9 +662,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -764,9 +680,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -778,7 +692,6 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": {
               "source": "Presse locale",
               "sourceUrl": "https://www.lecourrierdelatlas.com/reconnecter-aubervilliers-nabila-djebbari-lance-sa-campagne-dans-une-salle-pleine-2/",
@@ -786,7 +699,6 @@
                 "Mettre en œuvre une politique féministe en soutenant les mères isolées et en combattant les violences faites aux femmes."
               ]
             },
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }
@@ -798,9 +710,7 @@
             "franclet": null,
             "karroumi": null,
             "lescaut": null,
-            "daguet": null,
             "djebbari": null,
-            "guerrien": null,
             "lavazec": null,
             "hocine": null
           }

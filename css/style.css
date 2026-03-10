@@ -5991,43 +5991,43 @@ mark {
 
 /* === Contenu SEO statique (bas de page) === */
 .seo-content {
-  max-width: 900px;
+  max-width: var(--max-largeur, 1200px);
   margin: 0 auto;
-  padding: 1.5rem 2rem;
+  padding: 2rem 2rem 1.5rem;
   border-top: 1px solid var(--border, #e2e8f0);
-  color: #64748b;
-  font-size: 0.8rem;
-  line-height: 1.6;
+  color: #94a3b8;
+  font-size: 0.78rem;
+  line-height: 1.7;
 }
 .seo-content h2 {
   font-family: var(--font-heading, 'Montserrat', sans-serif);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  color: #64748b;
+  color: #94a3b8;
   margin: 0 0 0.5rem;
 }
 .seo-content h3 {
   font-family: var(--font-heading, 'Montserrat', sans-serif);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  color: #64748b;
+  color: #94a3b8;
   margin: 0.75rem 0 0.4rem;
 }
 .seo-content p {
   margin: 0 0 0.5rem;
-  color: #64748b;
+  color: #94a3b8;
 }
 .seo-content ul {
   margin: 0 0 0.5rem;
   padding-left: 1.25rem;
   list-style: none;
-  columns: 2;
   column-gap: 2rem;
 }
 .seo-content li {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.3rem;
   padding-left: 0.5rem;
   position: relative;
+  break-inside: avoid;
 }
 .seo-content li::before {
   content: '·';
@@ -6036,16 +6036,18 @@ mark {
   color: #cbd5e1;
 }
 .seo-content a {
-  color: #64748b;
+  color: #94a3b8;
   text-decoration: none;
 }
 .seo-content a:hover {
   text-decoration: underline;
 }
+@media (min-width: 769px) {
+  .seo-content ul { columns: 2; }
+}
 @media (max-width: 768px) {
   .seo-content {
-    padding: 1rem 1rem;
+    padding: 1.25rem 1rem;
     font-size: 0.75rem;
   }
-  .seo-content ul { columns: 1; }
 }

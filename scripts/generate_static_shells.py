@@ -365,9 +365,12 @@ def make_candidate_seo_content(cand_data, ville_name, el_data):
     return html
 
 
-def write_shell(rel_path, head_seo, head_assets, body, dry_run=False, seo_content=""):
+def write_shell(rel_path, head_seo, head_assets, body, dry_run=False, seo_content="", hide_etat_vide=False):
     """Écrit un fichier HTML shell avec contenu SEO optionnel injecté avant </body>."""
     out_path = os.path.join(ROOT_DIR, rel_path)
+    if hide_etat_vide:
+        # Pages ville : masquer l'état vide par défaut (la ville est déjà chargée)
+        body = body.replace('id="etat-vide" class="etat-vide"', 'id="etat-vide" class="etat-vide" hidden')
     if seo_content:
         # Injecter avant le footer (pas après)
         footer_marker = '<footer class="footer"'
@@ -437,7 +440,7 @@ def main():
         el_data_city = load_json(el_file) if os.path.exists(el_file) else None
         city_seo = make_city_seo_content(ville, el_data_city, categories)
 
-        write_shell(rel, head, comp_assets, comp_body, dry_run, seo_content=city_seo)
+        write_shell(rel, head, comp_assets, comp_body, dry_run, seo_content=city_seo, hide_etat_vide=True)
         count += 1
 
         # --- 2. Shells candidats ---

@@ -1,46 +1,6 @@
 /* === Polices === */
-@font-face {
-  font-family: 'Source Sans 3';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/SourceSans3-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Source Sans 3';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('../fonts/SourceSans3-SemiBold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Source Sans 3';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../fonts/SourceSans3-Bold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Libre Baskerville';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/LibreBaskerville-Italic.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../fonts/LibreBaskerville-Bold.ttf') format('truetype');
-}
+/* DM Sans + Montserrat chargées via Google Fonts (async) */
+/* Source Sans 3 et Libre Baskerville supprimées — inutilisées */
 
 /* === Accessibility === */
 .skip-link {
@@ -66,9 +26,15 @@
 }
 
 :root {
+  /* Brand (partagé avec home.css) */
+  --bleu: #002395;
+  --bleu-fonce: #001a6e;
+  --rouge: #ED2939;
+
+  /* Comparateur */
   --couleur-fond: #ffffff;
   --couleur-surface: #ffffff;
-  --couleur-texte: #1a1a2e;
+  --couleur-texte: #1e293b;
   --couleur-texte-secondaire: #555;
   --couleur-accent: #2c3e6b;
   --couleur-accent-light: #4a5f94;
@@ -81,6 +47,10 @@
   --ombre: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
   --ombre-forte: 0 4px 16px rgba(0, 0, 0, 0.10);
   --max-largeur: 1200px;
+
+  /* Typo (partagé avec home.css) */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
 }
 
 [data-theme="dark"] {
@@ -2141,8 +2111,6 @@ a.methodo-item__statut:hover i {
   .radar-guide:not(.radar-guide--open) .radar-guide__items { display: none; }
   .radar-guide--open .radar-guide__titre { margin-bottom: 0.6rem; }
 }
-
-/* --- Polices graphiques (héritent de --police-texte via le bloc global) --- */
 
 /* === Treemap Section === */
 .treemap-section {
@@ -5864,7 +5832,7 @@ mark {
 }
 .loader-text {
   margin-top: 1rem;
-  font-family: var(--police-texte, 'Source Sans 3', sans-serif);
+  font-family: var(--police-texte, 'DM Sans', sans-serif);
   font-size: 0.95rem;
   color: #64748b;
 }

@@ -5,20 +5,14 @@
   "dateVote": "2026-03-15T08:00:00",
   "candidats": [
     {
-      "id": "cazeneuve",
-      "nom": "Pierre Cazeneuve",
-      "liste": "Renaissance",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
       "id": "indjian",
       "nom": "Patrick Indjian",
       "liste": "Union citoyenne écologiste et solidaire (PS/EELV/PCF)",
       "programmeUrl": "https://www.patrickindjianrueil2026.fr/",
       "programmeComplet": true,
-      "programmePdfPath": "indjian-rueil-programme.pdf"
+      "programmePdfPath": "indjian-rueil-programme.pdf",
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "ruffat",
@@ -26,7 +20,9 @@
       "liste": "Divers droite, Rueil Ensemble et Libres",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "ollier",
@@ -34,7 +30,9 @@
       "liste": "Union de la droite, L'Expérience pour l'avenir de Rueil",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUD",
+      "nuanceLibelle": "Liste d'union à droite"
     },
     {
       "id": "vasse",
@@ -42,7 +40,9 @@
       "liste": "Reconquête, À la reconquête de Rueil",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LREC",
+      "nuanceLibelle": "Liste Reconquête !"
     }
   ],
   "categories": [
@@ -54,7 +54,6 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -73,7 +72,6 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -91,7 +89,6 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -108,7 +105,6 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -132,7 +128,6 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -151,7 +146,6 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -170,7 +164,6 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -190,7 +183,6 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -209,7 +201,6 @@
           "id": "tarifs-gratuite",
           "nom": "Tarifs & Gratuité",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -232,7 +223,6 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -251,7 +241,6 @@
           "id": "logements-vacants",
           "nom": "Logements vacants",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -269,7 +258,6 @@
           "id": "encadrement-loyers",
           "nom": "Encadrement des loyers",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -288,7 +276,6 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -314,7 +301,6 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -333,7 +319,6 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -351,7 +336,6 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -369,7 +353,6 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -388,7 +371,6 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -413,7 +395,6 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -434,7 +415,6 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -454,7 +434,6 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -475,7 +454,6 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -496,7 +474,6 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -520,7 +497,6 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -539,7 +515,6 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -558,7 +533,6 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -585,7 +559,6 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -605,7 +578,6 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -627,7 +599,6 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -648,7 +619,6 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -674,7 +644,6 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -695,7 +664,6 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -718,7 +686,6 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -743,7 +710,6 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -764,7 +730,6 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -789,7 +754,6 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -809,7 +773,6 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -835,7 +798,6 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -856,7 +818,6 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -875,7 +836,6 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -899,7 +859,6 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -919,7 +878,6 @@
           "id": "egalite-discriminations",
           "nom": "Égalité & Discriminations",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",
@@ -939,7 +897,6 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "cazeneuve": null,
             "indjian": {
               "source": "Programme complet Rueil en Commun (PDF)",
               "sourceUrl": "https://www.patrickindjianrueil2026.fr/programme.pdf",

@@ -10,7 +10,9 @@
       "liste": "Continuons ensemble (RN, sortant)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "nougayrede",
@@ -18,7 +20,9 @@
       "liste": "100% Perpignan (LR-UDI-Horizons-MoDem-Renaissance)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUD",
+      "nuanceLibelle": "Liste d'union à droite"
     },
     {
       "id": "langevine",
@@ -26,7 +30,9 @@
       "liste": "Perpignan la Catalane (Place Publique-Centre)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "blanc",
@@ -34,7 +40,9 @@
       "liste": "Perpignan Autrement (PS-PCF-PRG)",
       "programmeUrl": "https://mathiasblanc2026.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "idrac",
@@ -42,15 +50,9 @@
       "liste": "Perpignan, Changez d'air ! (LFI-EELV-G.s)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "ripoull",
-      "nom": "Clotilde Ripoull",
-      "liste": "Libres (sans étiquette)",
-      "programmeUrl": "https://www.clotilderipoull.fr/",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "advenard",
@@ -58,7 +60,9 @@
       "liste": "Extrême gauche, LUTTE OUVRIERE-LE CAMP DES TRAVAILLEURS",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
   "categories": [
@@ -99,7 +103,6 @@
                 "Retour d'une véritable police de proximité, renforcement des éducateurs de rue et politique de prévention transparente."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -124,7 +127,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -136,7 +138,6 @@
             "nougayrede": null,
             "langevine": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -149,7 +150,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -186,7 +186,6 @@
                 "Réseau de voies dédiées aux transports en commun dans Perpignan et sa périphérie, mobilité douce en priorité."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -211,7 +210,6 @@
                 "Créer des micro-parcs et transformer des espaces vacants en îlots de fraîcheur végétalisés accessibles aux mobilités douces."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -230,7 +228,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -249,7 +246,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -274,7 +270,6 @@
                 "Gratuité des transports pour les moins de 26 ans."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -299,7 +294,6 @@
                 "Stratégie massive de rénovation des passoires thermiques du parc social, mobilisation des aides disponibles et responsabilisation des bailleurs."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -312,7 +306,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -325,7 +318,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -344,7 +336,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -375,7 +366,6 @@
                 "Création de places de crèche supplémentaires pour répondre à la demande des familles."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -401,7 +391,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -426,7 +415,6 @@
                 "Cantines scolaires gratuites et bio, école ouverte dès 7h."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -445,7 +433,6 @@
                 "Fournitures scolaires gratuites pour tous les élèves."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -470,7 +457,6 @@
                 "Campus municipal de la transition : formations courtes certifiantes dans les métiers dont la ville a besoin (rénovation énergétique, solaire, réemploi, recyclage) pour les jeunes décrocheurs et personnes éloignées de l'emploi."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -507,7 +493,6 @@
                 "Végétalisation des cours d'école, création de micro-parcs et transformation d'espaces vacants (Perpignan est très minérale avec des quartiers sans espaces verts)"
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -526,7 +511,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -557,7 +541,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -582,7 +565,6 @@
                 "Faire de la rénovation énergétique une priorité politique majeure pour lutter contre les passoires thermiques qui affectent la santé et le pouvoir d'achat des ménages modestes."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -601,7 +583,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -638,7 +619,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -657,7 +637,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -676,7 +655,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -701,7 +679,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -720,7 +697,6 @@
                 "Démocratie participative et politique de prévention transparente dans tous les quartiers."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -739,7 +715,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -758,7 +733,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -795,7 +769,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -814,7 +787,6 @@
                 "Campus municipal de la transition : formations courtes certifiantes en rénovation énergétique, solaire, réemploi, recyclage conçues avec les artisans, débouchant sur des emplois municipaux ou dans les PME locales."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -845,7 +817,6 @@
                 "Créer un poste d'adjoint « ville productive » interlocuteur direct des artisans, relance économique par la consommation populaire."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -876,7 +847,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -901,7 +871,6 @@
             },
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -926,7 +895,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -945,7 +913,6 @@
                 "Première licence sportive gratuite pour tous les enfants (beaucoup de parents ne peuvent plus payer les licences sportives, enjeu de santé, lien social et prévention)"
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -976,7 +943,6 @@
                 "Rupture dans la politique d'urbanisme : stopper la bétonisation, récupérer du foncier dans certains secteurs, privilégier un développement durable."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -995,7 +961,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -1014,7 +979,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         }
@@ -1039,7 +1003,6 @@
             "langevine": null,
             "blanc": null,
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -1058,7 +1021,6 @@
               ]
             },
             "idrac": null,
-            "ripoull": null,
             "advenard": null
           }
         },
@@ -1083,7 +1045,6 @@
                 "Améliorer le pouvoir d'achat des Perpignanais en priorité, via la consommation locale et populaire."
               ]
             },
-            "ripoull": null,
             "advenard": null
           }
         }

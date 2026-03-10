@@ -10,7 +10,9 @@
       "liste": "LR (Droite sortante)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "guerin",
@@ -18,7 +20,9 @@
       "liste": "LR dissident (Limoges Métropole)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "maudet",
@@ -26,7 +30,9 @@
       "liste": "Limoges Front Populaire (LFI-EELV)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "miguel",
@@ -34,7 +40,9 @@
       "liste": "Pour Limoges (PS-PCF-Place publique)",
       "programmeUrl": "https://www.pourlimoges.fr/le-programme/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "leonie",
@@ -42,7 +50,9 @@
       "liste": "Réunir (Centre)",
       "programmeUrl": "https://www.reunir-limoges.fr/notre-programme/calendrier-de-l-avent-reunir--nos-propositions-page-72653",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "freychet",
@@ -50,15 +60,9 @@
       "liste": "Limoges en Grand (RN)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "benzoni",
-      "nom": "Julie Benzoni",
-      "liste": "Rêvons Limoges (citoyen)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "faucon",
@@ -66,7 +70,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "de-ferluc",
@@ -74,7 +80,9 @@
       "liste": "Divers, Nouveau Printemps pour Limoges",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDIV",
+      "nuanceLibelle": "Liste Divers"
     },
     {
       "id": "guillaume-guerin",
@@ -82,7 +90,9 @@
       "liste": "Divers droite, LIMOGES EN PARTAGE",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "vincent-leonie",
@@ -90,7 +100,9 @@
       "liste": "Divers centre, REUNIR LIMOGES",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     }
   ],
   "categories": [
@@ -135,7 +147,6 @@
                 "Faire de la sécurité la priorité n°1 : la délinquance s'est dégradée et est devenue le point noir pour l'image de la ville."
               ]
             },
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -152,7 +163,6 @@
             "miguel": null,
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -178,7 +188,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -202,7 +211,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -242,7 +250,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -278,7 +285,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -304,7 +310,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -334,7 +339,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -365,7 +369,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -388,7 +391,6 @@
             "miguel": null,
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -412,7 +414,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -429,7 +430,6 @@
             "miguel": null,
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -453,7 +453,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -484,7 +483,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -522,7 +520,6 @@
                 "Auditer chaque école avant d'estimer le coût des réparations nécessaires."
               ]
             },
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -552,7 +549,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -575,7 +571,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -602,7 +597,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -633,7 +627,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -659,7 +652,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -685,7 +677,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -716,7 +707,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -740,7 +730,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -788,7 +777,6 @@
                 "Garantir l'accès aux soins et renforcer la présence des services publics de santé face à la désertification médicale."
               ]
             },
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -813,7 +801,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -837,7 +824,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -875,7 +861,6 @@
                 "Référendum d'initiative locale sur les sujets engageant les finances de la Ville, comme le projet du nouveau Beaublanc."
               ]
             },
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -911,7 +896,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -943,7 +927,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -967,7 +950,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1017,7 +999,6 @@
                 "Redynamiser le commerce de centre-ville et faire de Limoges un point d'attraction touristique estival."
               ]
             },
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1042,7 +1023,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1080,7 +1060,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1119,7 +1098,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1153,7 +1131,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1189,7 +1166,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1214,7 +1190,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1259,7 +1234,6 @@
                 "Réhabiliter les friches urbaines : friche des Ponts et ancienne clinique du Colombier comme priorités d'aménagement."
               ]
             },
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1282,7 +1256,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1312,7 +1285,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1348,7 +1320,6 @@
             },
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1365,7 +1336,6 @@
             "miguel": null,
             "leonie": null,
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,
@@ -1395,7 +1365,6 @@
               ]
             },
             "freychet": null,
-            "benzoni": null,
             "faucon": null,
             "de-ferluc": null,
             "guillaume-guerin": null,

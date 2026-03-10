@@ -71,7 +71,7 @@
         '<div class="consent-banner__brand" aria-hidden="true"><span style="font-family:Montserrat,sans-serif;font-weight:900;font-style:italic;font-size:1.1rem;letter-spacing:-0.01em;text-transform:uppercase"><span style="color:#002395">#POURQUITU</span><span style="color:#ED2939">VOTES?</span></span></div>' +
         '<div class="consent-banner__icon" aria-hidden="true"><i class="ph ph-shield-check"></i></div>' +
         '<div class="consent-banner__title">Votre visite, vos choix</div>' +
-        '<div class="consent-banner__desc">Ce site utilise des cookies pour mieux comprendre comment vous l\u2019utilisez et am\u00e9liorer votre exp\u00e9rience. Vos donn\u00e9es restent anonymes et ne sont jamais vendues. <a href="/confidentialite.html">En savoir plus</a></div>' +
+        '<div class="consent-banner__desc">Ce site utilise des cookies pour mieux comprendre comment vous l\u2019utilisez et am\u00e9liorer votre exp\u00e9rience. Vos donn\u00e9es restent anonymes et ne sont jamais vendues. <a href="/confidentialite">En savoir plus</a></div>' +
         '<div class="consent-banner__actions">' +
           '<button type="button" class="consent-btn consent-btn--refuse" data-consent="refuse">Tout refuser</button>' +
           '<button type="button" class="consent-btn consent-btn--customize" data-consent="customize">Personnaliser</button>' +
@@ -101,7 +101,7 @@
           '<h2 class="consent-modal__title"><i class="ph ph-sliders-horizontal"></i> Gestion des cookies</h2>' +
           '<button type="button" class="consent-modal__close" aria-label="Fermer">&times;</button>' +
         '</div>' +
-        '<p class="consent-modal__desc">Choisissez les cookies que vous acceptez. Les cookies essentiels sont n\u00e9cessaires au fonctionnement du site et ne peuvent pas \u00eatre d\u00e9sactiv\u00e9s. <a href="/confidentialite.html">Politique de confidentialit\u00e9</a></p>' +
+        '<p class="consent-modal__desc">Choisissez les cookies que vous acceptez. Les cookies essentiels sont n\u00e9cessaires au fonctionnement du site et ne peuvent pas \u00eatre d\u00e9sactiv\u00e9s. <a href="/confidentialite">Politique de confidentialit\u00e9</a></p>' +
 
         // Essentiels (toujours actifs)
         '<div class="consent-category">' +

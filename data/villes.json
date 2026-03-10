@@ -8,10 +8,10 @@
       "aix-en-provence-2026"
     ],
     "stats": {
-      "candidats": 8,
-      "propositions": 75,
+      "candidats": 6,
+      "propositions": 457,
       "themes": 12,
-      "complets": 2
+      "complets": 5
     },
     "candidats": [
       {
@@ -56,8 +56,8 @@
       "ajaccio-2026"
     ],
     "stats": {
-      "candidats": 6,
-      "propositions": 30,
+      "candidats": 5,
+      "propositions": 29,
       "themes": 10,
       "complets": 0
     },
@@ -86,13 +86,51 @@
         "id": "cesari",
         "nom": "Charlotte Cesari",
         "liste": "Union de la gauche (PS-PCF)"
-      },
-      {
-        "id": "foata",
-        "nom": "Philippe de la Foata",
-        "liste": "Sans étiquette"
       }
     ]
+  },
+  {
+    "id": "albi",
+    "nom": "Albi",
+    "codePostal": "81000",
+    "departement": "81",
+    "elections": [
+      "albi-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "ferrand-lefranc",
+        "nom": "Nathalie Ferrand-Lefranc",
+        "liste": "ALBI EST A VOUS"
+      },
+      {
+        "id": "suarez",
+        "nom": "Jean-Luc Suarez",
+        "liste": "TOUS ALBI TOUT ALBI"
+      },
+      {
+        "id": "cabrolier",
+        "nom": "Frédéric Cabrolier",
+        "liste": "ALBI RAYONNANTE ET SÉCURISÉE"
+      },
+      {
+        "id": "at",
+        "nom": "Marie-Louise At",
+        "liste": "Pour les Albigeois, différemment"
+      },
+      {
+        "id": "guiraud-chaumeil",
+        "nom": "Stéphanie Guiraud-Chaumeil",
+        "liste": "ALBI ENSEMBLE"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "amiens",
@@ -103,8 +141,8 @@
       "amiens-2026"
     ],
     "stats": {
-      "candidats": 11,
-      "propositions": 201,
+      "candidats": 10,
+      "propositions": 199,
       "themes": 12,
       "complets": 2
     },
@@ -150,11 +188,6 @@
         "liste": "Amiens au Cœur (sans étiquette)"
       },
       {
-        "id": "farhat",
-        "nom": "Ridha Farhat",
-        "liste": "Les Enfants de la République - Amiens pour tous"
-      },
-      {
         "id": "baudry",
         "nom": "Jean-Jacques Baudry",
         "liste": "Lutte Ouvrière"
@@ -171,8 +204,8 @@
       "angers-2026"
     ],
     "stats": {
-      "candidats": 8,
-      "propositions": 114,
+      "candidats": 7,
+      "propositions": 112,
       "themes": 12,
       "complets": 2
     },
@@ -196,14 +229,72 @@
         "id": "lahondes",
         "nom": "Aurore Lahondès",
         "liste": "Rassemblement National"
-      },
-      {
-        "id": "leandri",
-        "nom": "Noam Leandri",
-        "liste": "Angers Coopérative (citoyen)"
       }
     ],
     "derniereMaj": "2026-02-09"
+  },
+  {
+    "id": "angouleme",
+    "nom": "Angoulême",
+    "codePostal": "16000",
+    "departement": "16",
+    "elections": [
+      "angouleme-2026"
+    ],
+    "stats": {
+      "candidats": 9,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "bonnefont",
+        "nom": "Xavier Bonnefont",
+        "liste": "L'essentiel c'est vous !"
+      },
+      {
+        "id": "peirin",
+        "nom": "Didier Peirin",
+        "liste": "REDESSINONS ANGOULÊME"
+      },
+      {
+        "id": "compain",
+        "nom": "Jean-Christophe Compain",
+        "liste": "Agir Pour Angoulême"
+      },
+      {
+        "id": "mardikian",
+        "nom": "Patrick Mardikian",
+        "liste": "CHOISISSONS ANGOULEME AVEC PATRICK MARDIKIAN"
+      },
+      {
+        "id": "duhoux-salaberry",
+        "nom": "Christophe Duhoux-Salaberry",
+        "liste": "Angoulême Collectif 2026"
+      },
+      {
+        "id": "petit-louboutin",
+        "nom": "Anne-Aziliz Petit-Louboutin",
+        "liste": "L'union populaire Angoulême"
+      },
+      {
+        "id": "manzanas",
+        "nom": "Raphaël Manzanas",
+        "liste": "CHANGER LA VILLE"
+      },
+      {
+        "id": "nicolas",
+        "nom": "Olivier Nicolas",
+        "liste": "Lutte ouvrière - Le camp des travailleurs"
+      },
+      {
+        "id": "you",
+        "nom": "Vincent You",
+        "liste": "ANGOULEME VOUS AIME"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "annecy",
@@ -214,7 +305,7 @@
       "annecy-2026"
     ],
     "stats": {
-      "candidats": 7,
+      "candidats": 6,
       "propositions": 46,
       "themes": 12,
       "complets": 2
@@ -244,11 +335,6 @@
         "id": "dreme",
         "nom": "Vincent Drême",
         "liste": "LFI, L'avenir en commune"
-      },
-      {
-        "id": "chiad",
-        "nom": "Daniel-Salem Chiad",
-        "liste": "Sans étiquette, Vivre tous ensemble à Annecy"
       }
     ]
   },
@@ -261,10 +347,10 @@
       "antibes-2026"
     ],
     "stats": {
-      "candidats": 6,
-      "propositions": 61,
-      "themes": 10,
-      "complets": 1
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
     },
     "candidats": [
       {
@@ -286,11 +372,6 @@
         "id": "nouet",
         "nom": "Adrien Nouet",
         "liste": "LFI-Écologistes"
-      },
-      {
-        "id": "ducatel",
-        "nom": "Éric Ducatel",
-        "liste": "Sans étiquette"
       }
     ]
   },
@@ -369,6 +450,49 @@
     ]
   },
   {
+    "id": "arras",
+    "nom": "Arras",
+    "codePostal": "62000",
+    "departement": "62",
+    "elections": [
+      "arras-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "kremer",
+        "nom": "Yannick Kremer",
+        "liste": "Arras à Gauche"
+      },
+      {
+        "id": "leturque",
+        "nom": "Frédéric Leturque",
+        "liste": "ARRAS AVEC VOUS"
+      },
+      {
+        "id": "heusele",
+        "nom": "Alban Heusèle",
+        "liste": "RASSEMBLEMENT POUR ARRAS"
+      },
+      {
+        "id": "detourne",
+        "nom": "Antoine Détourné",
+        "liste": "CHANGEONS D'AIR AVEC LE PRINTEMPS ARRAGEOIS"
+      },
+      {
+        "id": "belhadj",
+        "nom": "Abmajid Belhadj",
+        "liste": "Lutte ouvrière - Le camp des travailleurs"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
     "id": "asnieres-sur-seine",
     "nom": "Asnières-sur-Seine",
     "codePostal": "92600",
@@ -377,7 +501,7 @@
       "asnieres-sur-seine-2026"
     ],
     "stats": {
-      "candidats": 7,
+      "candidats": 5,
       "propositions": 0,
       "themes": 0,
       "complets": 0
@@ -389,19 +513,9 @@
         "liste": "LR, 100% Asnières"
       },
       {
-        "id": "dautelle",
-        "nom": "Clément Mathieu Dautelle",
-        "liste": "Divers, Citoyens d'Asnières"
-      },
-      {
         "id": "jehanin",
         "nom": "Romain Jehanin",
         "liste": "Divers, Changeons notre ville !"
-      },
-      {
-        "id": "delpech",
-        "nom": "Dimitri Delpech",
-        "liste": "PS (Parti Socialiste)"
       }
     ]
   },
@@ -414,7 +528,7 @@
       "aubervilliers-2026"
     ],
     "stats": {
-      "candidats": 8,
+      "candidats": 6,
       "propositions": 13,
       "themes": 8,
       "complets": 0
@@ -436,18 +550,8 @@
         "liste": "LFI (La France Insoumise)"
       },
       {
-        "id": "daguet",
-        "nom": "Anthony Daguet",
-        "liste": "PCF"
-      },
-      {
         "id": "djebbari",
         "nom": "Nabila Djebbari",
-        "liste": "DVG"
-      },
-      {
-        "id": "guerrien",
-        "nom": "Marc Guerrien",
         "liste": "DVG"
       },
       {
@@ -503,7 +607,7 @@
       "avignon-2026"
     ],
     "stats": {
-      "candidats": 7,
+      "candidats": 6,
       "propositions": 30,
       "themes": 10,
       "complets": 0
@@ -533,13 +637,195 @@
         "id": "fiori",
         "nom": "Stéphan Fiori",
         "liste": "Divers droite, Entreprendre pour Avignon"
-      },
-      {
-        "id": "jacob",
-        "nom": "François Jacob",
-        "liste": "Sans étiquette"
       }
     ]
+  },
+  {
+    "id": "bastia",
+    "nom": "Bastia",
+    "codePostal": "20200",
+    "departement": "2B",
+    "elections": [
+      "bastia-2026"
+    ],
+    "stats": {
+      "candidats": 7,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "bastelica",
+        "nom": "Sacha Bastelica",
+        "liste": "una via per bastia - via citadina"
+      },
+      {
+        "id": "battini",
+        "nom": "Nicolas Battini",
+        "liste": "POPULU DI BASTIA"
+      },
+      {
+        "id": "lamberti",
+        "nom": "Jean Michel Lamberti",
+        "liste": "PRIMA I NOSTRI RECONQUETE R!"
+      },
+      {
+        "id": "mondoloni",
+        "nom": "Jean-Martin Mondoloni",
+        "liste": "BASTIA, DA OGHJE À DUMANE"
+      },
+      {
+        "id": "riolacci",
+        "nom": "Francis Riolacci",
+        "liste": "BASTIA EN COMMUN - BASTIA IN CUMUNU"
+      },
+      {
+        "id": "morganti",
+        "nom": "Julien Morganti",
+        "liste": "Uniti"
+      },
+      {
+        "id": "simeoni",
+        "nom": "Gilles Simeoni",
+        "liste": "BASTIA INSEME Gilles Simeoni"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
+    "id": "bayonne",
+    "nom": "Bayonne",
+    "codePostal": "64100",
+    "departement": "64",
+    "elections": [
+      "bayonne-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "etcheto",
+        "nom": "Henri Etcheto",
+        "liste": "BAYONNE TOUT SIMPLEMENT !"
+      },
+      {
+        "id": "etchegaray",
+        "nom": "Jean-René Etchegaray",
+        "liste": "BAYONNE L'ESSENTIEL C'EST VOUS !"
+      },
+      {
+        "id": "iriart",
+        "nom": "Jean Claude Iriart",
+        "liste": "BAYONNE EN MOUVEMENT-BAIONA MUGIMENDUAN"
+      },
+      {
+        "id": "pereira-ostanel",
+        "nom": "Sandra Pereira-Ostanel",
+        "liste": "Bayonne insoumise et populaire"
+      },
+      {
+        "id": "lesellier",
+        "nom": "Pascal Lesellier",
+        "liste": "Unis pour Bayonne l'Alternative !"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
+    "id": "beauvais",
+    "nom": "Beauvais",
+    "codePostal": "60000",
+    "departement": "60",
+    "elections": [
+      "beauvais-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "pia",
+        "nom": "Franck Pia",
+        "liste": "Franck Pia, pour les Beauvaisiens"
+      },
+      {
+        "id": "marais-beuil",
+        "nom": "Claire Marais-Beuil",
+        "liste": "UN AVENIR POUR BEAUVAIS"
+      },
+      {
+        "id": "lundy",
+        "nom": "Roxane Lundy",
+        "liste": "BEAUVAIS EN MIEUX AVEC ROXANE LUNDY"
+      },
+      {
+        "id": "segretain",
+        "nom": "Frederic Segretain",
+        "liste": "BEAUVAIS DEMAIN"
+      },
+      {
+        "id": "potchtovik",
+        "nom": "Renée Potchtovik",
+        "liste": "Lutte ouvrière - le camp des travailleurs"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
+    "id": "belfort",
+    "nom": "Belfort",
+    "codePostal": "90000",
+    "departement": "90",
+    "elections": [
+      "belfort-2026"
+    ],
+    "stats": {
+      "candidats": 6,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "meslot",
+        "nom": "Damien Meslot",
+        "liste": "Tous ensemble pour Belfort"
+      },
+      {
+        "id": "faudot",
+        "nom": "Bastien Faudot",
+        "liste": "TOUS BELFORTAINS - LISTE D'UNION DE LA GAUCHE REPUBLICAINE, DEMOCRATE ET ECOLOGISTE"
+      },
+      {
+        "id": "pheulpin",
+        "nom": "Jean-Marie Pheulpin",
+        "liste": "Lutte ouvrière - Le camp des travailleurs"
+      },
+      {
+        "id": "soustelle",
+        "nom": "Christophe Soustelle",
+        "liste": "Une identité pour Belfort"
+      },
+      {
+        "id": "chauche",
+        "nom": "Florian Chauche",
+        "liste": "Belfort avec vous"
+      },
+      {
+        "id": "grudler",
+        "nom": "Christophe Grudler",
+        "liste": "Un avenir pour Belfort"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "besancon",
@@ -582,6 +868,59 @@
         "liste": "RN-UDR-DLF-Identité Libertés"
       }
     ]
+  },
+  {
+    "id": "bobigny",
+    "nom": "Bobigny",
+    "codePostal": "93000",
+    "departement": "93",
+    "elections": [
+      "bobigny-2026"
+    ],
+    "stats": {
+      "candidats": 7,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "chalois-ait-ahmed",
+        "nom": "Yasmina Chalois Ait-Ahmed",
+        "liste": "Bobigny d'abord"
+      },
+      {
+        "id": "sadi",
+        "nom": "Abdel Sadi",
+        "liste": "BOBIGNY POPULAIRE"
+      },
+      {
+        "id": "mesquita",
+        "nom": "Jimmy Mesquita",
+        "liste": "BOBIGNY DEBOUT !"
+      },
+      {
+        "id": "guendouzi",
+        "nom": "Houria Guendouzi",
+        "liste": "Bobigny c'est nous"
+      },
+      {
+        "id": "bouqetyb",
+        "nom": "Florian Bouqetyb",
+        "liste": "Bobigny Mérite Mieux"
+      },
+      {
+        "id": "feger",
+        "nom": "Rodolphe Feger",
+        "liste": "Lutte ouvrière"
+      },
+      {
+        "id": "portier",
+        "nom": "Ugo Portier",
+        "liste": "LE PRINTEMPS BALBYNIEN"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "bordeaux",
@@ -647,6 +986,49 @@
         "liste": "Union de la gauche (Écologistes/PCF/LFI)"
       }
     ]
+  },
+  {
+    "id": "bourg-en-bresse",
+    "nom": "Bourg-en-Bresse",
+    "codePostal": "01000",
+    "departement": "01",
+    "elections": [
+      "bourg-en-bresse-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "coquelet",
+        "nom": "Christophe Coquelet",
+        "liste": "VIVRE BOURG DEMAIN"
+      },
+      {
+        "id": "cousson",
+        "nom": "Sylvain Cousson",
+        "liste": "Lutte ouvrière - le camp des travailleurs"
+      },
+      {
+        "id": "buisson",
+        "nom": "Jérôme Buisson",
+        "liste": "AGIR ENSEMBLE !"
+      },
+      {
+        "id": "de-boysson",
+        "nom": "Benoît de Boysson",
+        "liste": "BOURG AMBITION - DROITE UNIE"
+      },
+      {
+        "id": "debat",
+        "nom": "Jean-François Debat",
+        "liste": "Bourg nous rassemble"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "bourges",
@@ -847,7 +1229,7 @@
       "calais-2026"
     ],
     "stats": {
-      "candidats": 8,
+      "candidats": 7,
       "propositions": 9,
       "themes": 7,
       "complets": 0
@@ -877,11 +1259,6 @@
         "id": "nicolas",
         "nom": "Lucille Nicolas",
         "liste": "Lutte Ouvrière"
-      },
-      {
-        "id": "delplanque",
-        "nom": "Guy Delplanque",
-        "liste": "Sans étiquette"
       },
       {
         "id": "debaisieux",
@@ -921,6 +1298,49 @@
         "liste": "Union de la gauche (PS-PC-Écologistes), Cannes à vous"
       }
     ]
+  },
+  {
+    "id": "carcassonne",
+    "nom": "Carcassonne",
+    "codePostal": "11000",
+    "departement": "11",
+    "elections": [
+      "carcassonne-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "barthes",
+        "nom": "Christophe Barthès",
+        "liste": "Demain Carcassonne"
+      },
+      {
+        "id": "larrat",
+        "nom": "Gérard Larrat",
+        "liste": "CARCASSONNE AVANT TOUT"
+      },
+      {
+        "id": "soler-alcaraz",
+        "nom": "Alix Soler-Alcaraz",
+        "liste": "CARCASSONNE UNIE !"
+      },
+      {
+        "id": "tayebi",
+        "nom": "Jihed Tayebi",
+        "liste": "Carcassonne unité populaire"
+      },
+      {
+        "id": "mourad",
+        "nom": "François Mourad",
+        "liste": "PRENDRE SOIN DE VOUS FRANCOIS MOURAD ET MAGALI BARDOU"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "cayenne",
@@ -1000,7 +1420,7 @@
       "chambery-2026"
     ],
     "stats": {
-      "candidats": 10,
+      "candidats": 9,
       "propositions": 89,
       "themes": 12,
       "complets": 1
@@ -1020,11 +1440,6 @@
         "id": "bernard",
         "nom": "Brice Bernard",
         "liste": "RN, Rassemblement pour Chambéry"
-      },
-      {
-        "id": "saint-andre",
-        "nom": "Christian Saint-André",
-        "liste": "Renaissance"
       },
       {
         "id": "favetta-sieyes",
@@ -1071,6 +1486,49 @@
     ]
   },
   {
+    "id": "charleville-mezieres",
+    "nom": "Charleville-Mézières",
+    "codePostal": "08000",
+    "departement": "08",
+    "elections": [
+      "charleville-mezieres-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "lerouge",
+        "nom": "Damien Lerouge",
+        "liste": "ENSEMBLE : UNE AUTRE VILLE"
+      },
+      {
+        "id": "benyoucef",
+        "nom": "Patrick Benyoucef",
+        "liste": "Liste ouvrière pour la défense de la population laborieuse et de la démocratie"
+      },
+      {
+        "id": "takawe",
+        "nom": "Mink Takawe",
+        "liste": "LUTTE OUVRIERE - LE CAMPS DES TRAVAILLEURS"
+      },
+      {
+        "id": "ravignon",
+        "nom": "Boris Ravignon",
+        "liste": "CHARLEVILLE-MEZIERES, PLUS FORTE POUR VOUS!"
+      },
+      {
+        "id": "petitfils",
+        "nom": "Romain Petitfils",
+        "liste": "CHARLEVILLE-MEZIERES EN ORDRE"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
     "id": "cherbourg-en-cotentin",
     "nom": "Cherbourg-en-Cotentin",
     "codePostal": "50100",
@@ -1106,6 +1564,49 @@
         "liste": "LFI, Cherbourg Populaire !"
       }
     ]
+  },
+  {
+    "id": "chateauroux",
+    "nom": "Châteauroux",
+    "codePostal": "36000",
+    "departement": "36",
+    "elections": [
+      "chateauroux-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "wunsch",
+        "nom": "Mylène Wunsch",
+        "liste": "L'ALTERNANCE AVEC VOUS"
+      },
+      {
+        "id": "domenge-abeau",
+        "nom": "Eric Domenge-Abeau",
+        "liste": "CHÂTEAUROUX HUMANISTE ECOLOGIQUE ET SOCIALE"
+      },
+      {
+        "id": "averous",
+        "nom": "Gil Avérous",
+        "liste": "L'AUDACE D'AGIR"
+      },
+      {
+        "id": "felder",
+        "nom": "Anthony Felder",
+        "liste": "LE RENOUVEAU POUR CHÂTEAUROUX"
+      },
+      {
+        "id": "gelinaud",
+        "nom": "Véronique Gélinaud",
+        "liste": "Lutte ouvrière - Le camp des travailleurs"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "clermont",
@@ -1176,7 +1677,7 @@
       "colmar-2026"
     ],
     "stats": {
-      "candidats": 10,
+      "candidats": 8,
       "propositions": 10,
       "themes": 5,
       "complets": 0
@@ -1191,16 +1692,6 @@
         "id": "aubert",
         "nom": "Nathalie Aubert",
         "liste": "RN (Rassemblement National)"
-      },
-      {
-        "id": "roussel",
-        "nom": "Christophe Roussel",
-        "liste": "PS (Parti Socialiste)"
-      },
-      {
-        "id": "ney",
-        "nom": "Cécile Ney",
-        "liste": "Les Écologistes, Colmar Citoyenne Verte et Solidaire"
       },
       {
         "id": "hilbert",
@@ -1228,7 +1719,7 @@
       "colombes-2026"
     ],
     "stats": {
-      "candidats": 9,
+      "candidats": 8,
       "propositions": 22,
       "themes": 8,
       "complets": 0
@@ -1238,11 +1729,6 @@
         "id": "chaimovitch",
         "nom": "Patrick Chaimovitch",
         "liste": "Les Écologistes (EELV)"
-      },
-      {
-        "id": "chassaniol",
-        "nom": "Nicole Chassaniol",
-        "liste": "LR (Les Républicains)"
       },
       {
         "id": "narbonnais",
@@ -1265,9 +1751,9 @@
       "courbevoie-2026"
     ],
     "stats": {
-      "candidats": 5,
-      "propositions": 25,
-      "themes": 9,
+      "candidats": 4,
+      "propositions": 19,
+      "themes": 7,
       "complets": 0
     },
     "candidats": [
@@ -1280,11 +1766,6 @@
         "id": "taquillain",
         "nom": "Aurélie Taquillain",
         "liste": "Divers centre"
-      },
-      {
-        "id": "ronze-spilliaert",
-        "nom": "Cyprien Ronze-Spilliaert",
-        "liste": "Gauche (Place Publique)"
       }
     ]
   },
@@ -1297,7 +1778,7 @@
       "creteil-2026"
     ],
     "stats": {
-      "candidats": 9,
+      "candidats": 8,
       "propositions": 0,
       "themes": 0,
       "complets": 0
@@ -1307,11 +1788,6 @@
         "id": "cathala",
         "nom": "Laurent Cathala",
         "liste": "PS-PCF, Bien ensemble"
-      },
-      {
-        "id": "ceylan",
-        "nom": "Mehmet Ceylan",
-        "liste": "UDI (investi par LR)"
       },
       {
         "id": "thezard",
@@ -1461,8 +1937,8 @@
       "fort-de-france-2026"
     ],
     "stats": {
-      "candidats": 6,
-      "propositions": 23,
+      "candidats": 5,
+      "propositions": 22,
       "themes": 9,
       "complets": 0
     },
@@ -1486,11 +1962,6 @@
         "id": "jos",
         "nom": "Nathalie Jos",
         "liste": "PIA (Péyi A)"
-      },
-      {
-        "id": "delor",
-        "nom": "Marie-Laurence Delor",
-        "liste": "Divers"
       }
     ]
   },
@@ -1503,7 +1974,7 @@
       "frejus-2026"
     ],
     "stats": {
-      "candidats": 6,
+      "candidats": 5,
       "propositions": 20,
       "themes": 9,
       "complets": 0
@@ -1530,16 +2001,49 @@
         "liste": "Liste citoyenne, Fréjus notre territoire durablement"
       },
       {
-        "id": "poussin",
-        "nom": "Julien Poussin",
-        "liste": "Opposition de gauche"
-      },
-      {
         "id": "romano",
         "nom": "Christine Romano",
         "liste": "Union de la gauche (PCF-PS-LFI-EELV), Fréjus Riposte"
       }
     ]
+  },
+  {
+    "id": "garges-les-gonesse",
+    "nom": "Garges-lès-Gonesse",
+    "codePostal": "95140",
+    "departement": "95",
+    "elections": [
+      "garges-les-gonesse-2026"
+    ],
+    "stats": {
+      "candidats": 4,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "nguyen",
+        "nom": "Dean Nguyen",
+        "liste": "GARGES AUTREMENT"
+      },
+      {
+        "id": "debah",
+        "nom": "Samy Debah",
+        "liste": "UNION DE LA GAUCHE ET CITOYENNE - GARGES 2026"
+      },
+      {
+        "id": "zerguit",
+        "nom": "Yanis Zerguit",
+        "liste": "UN ESPOIR POUR GARGES - LA GAUCHE RASSEMBLÉE ET SOLIDAIRE"
+      },
+      {
+        "id": "jimenez",
+        "nom": "Benoît Jimenez",
+        "liste": "FIERS DE GARGES"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "gentilly",
@@ -1583,10 +2087,10 @@
       "grenoble-2026"
     ],
     "stats": {
-      "candidats": 11,
-      "propositions": 219,
+      "candidats": 10,
+      "propositions": 192,
       "themes": 12,
-      "complets": 5
+      "complets": 4
     },
     "candidats": [
       {
@@ -1618,11 +2122,6 @@
         "id": "gabriac",
         "nom": "Valentin Gabriac",
         "liste": "Grenoble Capitale des Alpes (RN/UDR)"
-      },
-      {
-        "id": "belaid",
-        "nom": "Nadia Belaïd",
-        "liste": "Grenoble Alpes Collectif (citoyenne)"
       },
       {
         "id": "anglade",
@@ -1700,8 +2199,8 @@
       "la-rochelle-2026"
     ],
     "stats": {
-      "candidats": 11,
-      "propositions": 111,
+      "candidats": 8,
+      "propositions": 105,
       "themes": 12,
       "complets": 1
     },
@@ -1722,19 +2221,9 @@
         "liste": "PRG / Place Publique / La Convention"
       },
       {
-        "id": "salaun",
-        "nom": "Nino Salaün",
-        "liste": "LFI (La France Insoumise)"
-      },
-      {
         "id": "batcabe",
         "nom": "Christophe Batcabé",
         "liste": "Sans étiquette / centre-droit"
-      },
-      {
-        "id": "marbouh",
-        "nom": "Jaouad El Marbouh",
-        "liste": "Sans étiquette, Ensemble pour La Rochelle"
       },
       {
         "id": "werbrouck",
@@ -1757,7 +2246,7 @@
       "la-seyne-sur-mer-2026"
     ],
     "stats": {
-      "candidats": 9,
+      "candidats": 8,
       "propositions": 36,
       "themes": 10,
       "complets": 0
@@ -1772,11 +2261,6 @@
         "id": "mansour",
         "nom": "Cheikh Mansour",
         "liste": "Horizons"
-      },
-      {
-        "id": "colin",
-        "nom": "Jean-Pierre Colin",
-        "liste": "Centre, Un cap pour la Seyne"
       },
       {
         "id": "sacco",
@@ -1799,18 +2283,12 @@
       "le-blanc-mesnil-2026"
     ],
     "stats": {
-      "candidats": 6,
+      "candidats": 5,
       "propositions": 0,
       "themes": 0,
       "complets": 0
     },
-    "candidats": [
-      {
-        "id": "ranquet",
-        "nom": "Jean-Philippe Ranquet",
-        "liste": "LR (Les Républicains)"
-      }
-    ]
+    "candidats": []
   },
   {
     "id": "chesnay-rocquencourt",
@@ -1821,26 +2299,16 @@
       "chesnay-rocquencourt-2026"
     ],
     "stats": {
-      "candidats": 6,
-      "propositions": 128,
-      "themes": 11,
-      "complets": 1
+      "candidats": 4,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
     },
     "candidats": [
       {
         "id": "delepierre",
         "nom": "Richard Delepierre",
         "liste": "Une énergie nouvelle (LDVC)"
-      },
-      {
-        "id": "uplcr",
-        "nom": "UPLCR",
-        "liste": "Unis pour Le Chesnay-Rocquencourt (DVD)"
-      },
-      {
-        "id": "democratie-courtoise",
-        "nom": "Démocratie Courtoise",
-        "liste": "Démocratie Courtoise (Citoyens)"
       }
     ],
     "derniereMaj": "2026-02-18"
@@ -1902,9 +2370,9 @@
       "le-mans-2026"
     ],
     "stats": {
-      "candidats": 10,
-      "propositions": 28,
-      "themes": 10,
+      "candidats": 9,
+      "propositions": 26,
+      "themes": 9,
       "complets": 0
     },
     "candidats": [
@@ -1932,11 +2400,6 @@
         "id": "sainty",
         "nom": "Benjamin Sainty",
         "liste": "Révolution Permanente"
-      },
-      {
-        "id": "fontenel-personne",
-        "nom": "Pascale Fontenel-Personne",
-        "liste": "Renaissance (Ensemble)"
       }
     ]
   },
@@ -1971,6 +2434,39 @@
         "liste": "Divers droite, L'Alliance des Tamponnais"
       }
     ]
+  },
+  {
+    "id": "lens",
+    "nom": "Lens",
+    "codePostal": "62300",
+    "departement": "62",
+    "elections": [
+      "lens-2026"
+    ],
+    "stats": {
+      "candidats": 3,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "robert",
+        "nom": "Sylvain Robert",
+        "liste": "LENS TOUJOURS"
+      },
+      {
+        "id": "darras",
+        "nom": "Michel Darras",
+        "liste": "Lutte ouvrière - Le camp des travailleurs"
+      },
+      {
+        "id": "clavet",
+        "nom": "Bruno Clavet",
+        "liste": "ENSEMBLE SAUVONS LENS !"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "levallois-perret",
@@ -2013,7 +2509,7 @@
       "lille-2026"
     ],
     "stats": {
-      "candidats": 11,
+      "candidats": 9,
       "propositions": 205,
       "themes": 12,
       "complets": 2
@@ -2053,16 +2549,6 @@
         "id": "madelain",
         "nom": "Pierre Madelain",
         "liste": "Lutte Ouvrière"
-      },
-      {
-        "id": "metschies",
-        "nom": "David Metschies",
-        "liste": "Lille Prospère"
-      },
-      {
-        "id": "roussel",
-        "nom": "Baptiste Roussel",
-        "liste": "Au-delà des partis"
       }
     ],
     "derniereMaj": "2026-02-09"
@@ -2076,7 +2562,7 @@
       "limoges-2026"
     ],
     "stats": {
-      "candidats": 11,
+      "candidats": 10,
       "propositions": 152,
       "themes": 12,
       "complets": 2
@@ -2111,11 +2597,6 @@
         "id": "freychet",
         "nom": "Albin Freychet",
         "liste": "Limoges en Grand (RN)"
-      },
-      {
-        "id": "benzoni",
-        "nom": "Julie Benzoni",
-        "liste": "Rêvons Limoges (citoyen)"
       },
       {
         "id": "faucon",
@@ -2216,6 +2697,59 @@
     "derniereMaj": "2026-02-09"
   },
   {
+    "id": "mamoudzou",
+    "nom": "Mamoudzou",
+    "codePostal": "97600",
+    "departement": "976",
+    "elections": [
+      "mamoudzou-2026"
+    ],
+    "stats": {
+      "candidats": 7,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "mhoudhoir",
+        "nom": "Soiyinri Mhoudhoir",
+        "liste": "MOUVDEM"
+      },
+      {
+        "id": "youssouffa",
+        "nom": "Christophe Soimihi Youssouffa",
+        "liste": "MAMOUDZOU MERITE MIEUX"
+      },
+      {
+        "id": "soumaila",
+        "nom": "Ambdilwahedou Soumaila",
+        "liste": "EPPV"
+      },
+      {
+        "id": "dinouraini",
+        "nom": "Munia Dinouraini",
+        "liste": "RESILIENCE"
+      },
+      {
+        "id": "m-dallah",
+        "nom": "Farianti M'dallah",
+        "liste": "LESP"
+      },
+      {
+        "id": "haribou",
+        "nom": "Ahamada Haribou",
+        "liste": "RASSEMBLONS-N"
+      },
+      {
+        "id": "said-ali",
+        "nom": "Nassurdine Said Ali",
+        "liste": "MNE"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
     "id": "marseille",
     "nom": "Marseille",
     "codePostal": "13000",
@@ -2257,6 +2791,44 @@
       }
     ],
     "derniereMaj": "2026-02-09"
+  },
+  {
+    "id": "meaux",
+    "nom": "Meaux",
+    "codePostal": "77100",
+    "departement": "77",
+    "elections": [
+      "meaux-2026"
+    ],
+    "stats": {
+      "candidats": 4,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "roullaud",
+        "nom": "Béatrice Roullaud",
+        "liste": "UN AUTRE AVENIR POUR MEAUX"
+      },
+      {
+        "id": "cope",
+        "nom": "Jean-François Cope",
+        "liste": "MEAUX POUR TOUS 2026"
+      },
+      {
+        "id": "rousseau",
+        "nom": "Valentine Rousseau",
+        "liste": "MEAUX AUTREMENT"
+      },
+      {
+        "id": "bentounsi",
+        "nom": "Amal Bentounsi",
+        "liste": "MEAUX FIERE, DIGNE ET UNIE"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "metz",
@@ -2317,6 +2889,49 @@
     "derniereMaj": "2026-02-09"
   },
   {
+    "id": "mont-de-marsan",
+    "nom": "Mont-de-Marsan",
+    "codePostal": "40000",
+    "departement": "40",
+    "elections": [
+      "mont-de-marsan-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "leregle",
+        "nom": "Nicolas Leregle",
+        "liste": "Se rassembler pour Mont-de-Marsan"
+      },
+      {
+        "id": "legodou",
+        "nom": "Diane Laure Legodou",
+        "liste": "MARSAN CITOYEN"
+      },
+      {
+        "id": "dayot",
+        "nom": "Charles Dayot",
+        "liste": "Pour Mont de Marsan aujourd'hui et demain"
+      },
+      {
+        "id": "dutin",
+        "nom": "Frédéric Dutin",
+        "liste": "MONT-DE-MARSAN AUTREMENT"
+      },
+      {
+        "id": "darrieussecq",
+        "nom": "Geneviève Darrieussecq",
+        "liste": "RASSEMBLER TOUT LE MONT2"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
     "id": "montauban",
     "nom": "Montauban",
     "codePostal": "82000",
@@ -2367,6 +2982,49 @@
         "liste": "Lutte Ouvrière"
       }
     ]
+  },
+  {
+    "id": "montlucon",
+    "nom": "Montluçon",
+    "codePostal": "03100",
+    "departement": "03",
+    "elections": [
+      "montlucon-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "mothet",
+        "nom": "Pierre Mothet",
+        "liste": "MONTLUÇON EN COMMUN"
+      },
+      {
+        "id": "perche",
+        "nom": "Philippe Perche",
+        "liste": "UN NOUVEAU SOUFFLE POUR MONTLUÇON"
+      },
+      {
+        "id": "brun",
+        "nom": "Louis Brun",
+        "liste": "Un avenir ici"
+      },
+      {
+        "id": "laporte",
+        "nom": "Frédéric Laporte",
+        "liste": "PORTONS MONTLUCON PLUS LOIN"
+      },
+      {
+        "id": "reul",
+        "nom": "Jean-François Reul",
+        "liste": "lutte ouvière"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "montpellier",
@@ -2440,7 +3098,7 @@
       "montreuil-2026"
     ],
     "stats": {
-      "candidats": 9,
+      "candidats": 7,
       "propositions": 42,
       "themes": 12,
       "complets": 1
@@ -2467,7 +3125,7 @@
       "mulhouse-2026"
     ],
     "stats": {
-      "candidats": 12,
+      "candidats": 11,
       "propositions": 469,
       "themes": 12,
       "complets": 3
@@ -2514,11 +3172,6 @@
         "liste": "Mulhouse au cœur (DVD)"
       },
       {
-        "id": "fuchs",
-        "nom": "Bruno Fuchs",
-        "liste": "MoDem"
-      },
-      {
         "id": "marquet",
         "nom": "Frédéric Marquet",
         "liste": "Mulhouse j'y crois (SE)"
@@ -2545,7 +3198,7 @@
       "merignac-2026"
     ],
     "stats": {
-      "candidats": 8,
+      "candidats": 5,
       "propositions": 0,
       "themes": 0,
       "complets": 0
@@ -2702,6 +3355,54 @@
     "derniereMaj": "2026-02-09"
   },
   {
+    "id": "narbonne",
+    "nom": "Narbonne",
+    "codePostal": "11100",
+    "departement": "11",
+    "elections": [
+      "narbonne-2026"
+    ],
+    "stats": {
+      "candidats": 6,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "sainte-cluque",
+        "nom": "Nicolas Sainte-Cluque",
+        "liste": "NARBONNE en GRAND"
+      },
+      {
+        "id": "malquier",
+        "nom": "Bertrand Malquier",
+        "liste": "Nouveau Narbonne 2026"
+      },
+      {
+        "id": "maury",
+        "nom": "Jean-Luc Maury",
+        "liste": "NARBONNE INSOUMISE"
+      },
+      {
+        "id": "fabas",
+        "nom": "Laurent Fabas",
+        "liste": "NOUS SOMMES NARBONNE"
+      },
+      {
+        "id": "peyre",
+        "nom": "Alain Peyre",
+        "liste": "À LA RECONQUÊTE! DE NARBONNE"
+      },
+      {
+        "id": "falcon",
+        "nom": "Frederic Falcon",
+        "liste": "UNE ÉNERGIE POUR NARBONNE !"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
     "id": "neuilly-sur-seine",
     "nom": "Neuilly-sur-Seine",
     "codePostal": "92200",
@@ -2732,8 +3433,8 @@
       "nice-2026"
     ],
     "stats": {
-      "candidats": 11,
-      "propositions": 239,
+      "candidats": 8,
+      "propositions": 235,
       "themes": 12,
       "complets": 3
     },
@@ -2757,21 +3458,6 @@
         "id": "damiano",
         "nom": "Mireille Damiano",
         "liste": "Nice Front Populaire (LFI/ViVA!)"
-      },
-      {
-        "id": "governatori",
-        "nom": "Jean-Marc Governatori",
-        "liste": "L'écologie au centre"
-      },
-      {
-        "id": "granouillac",
-        "nom": "Hélène Granouillac",
-        "liste": "Vivre Nice"
-      },
-      {
-        "id": "dloussky",
-        "nom": "Nathalie Dloussky",
-        "liste": "Ensemble pour la grandeur de la France"
       },
       {
         "id": "vella",
@@ -2844,7 +3530,7 @@
       "nimes-2026"
     ],
     "stats": {
-      "candidats": 6,
+      "candidats": 5,
       "propositions": 0,
       "themes": 0,
       "complets": 0
@@ -2874,11 +3560,6 @@
         "id": "dupretz",
         "nom": "Pascal Dupretz",
         "liste": "LFI (La France Insoumise)"
-      },
-      {
-        "id": "philibert",
-        "nom": "Jean-Marc Philibert",
-        "liste": "Liste citoyenne VIVONS Nîmes"
       }
     ]
   },
@@ -3044,8 +3725,8 @@
       "pau-2026"
     ],
     "stats": {
-      "candidats": 8,
-      "propositions": 20,
+      "candidats": 7,
+      "propositions": 17,
       "themes": 10,
       "complets": 0
     },
@@ -3084,11 +3765,6 @@
         "id": "marconi",
         "nom": "Cyrille Marconi",
         "liste": "Lutte Ouvrière"
-      },
-      {
-        "id": "cronier",
-        "nom": "Reynald Cronier",
-        "liste": "Debout La France"
       }
     ]
   },
@@ -3101,7 +3777,7 @@
       "perpignan-2026"
     ],
     "stats": {
-      "candidats": 7,
+      "candidats": 6,
       "propositions": 67,
       "themes": 12,
       "complets": 1
@@ -3131,11 +3807,6 @@
         "id": "idrac",
         "nom": "Mickaël Idrac",
         "liste": "Perpignan, Changez d'air ! (LFI-EELV-G.s)"
-      },
-      {
-        "id": "ripoull",
-        "nom": "Clotilde Ripoull",
-        "liste": "Libres (sans étiquette)"
       }
     ],
     "derniereMaj": "2026-02-09"
@@ -3149,9 +3820,9 @@
       "pessac-2026"
     ],
     "stats": {
-      "candidats": 8,
-      "propositions": 43,
-      "themes": 12,
+      "candidats": 6,
+      "propositions": 23,
+      "themes": 10,
       "complets": 0
     },
     "candidats": [
@@ -3164,11 +3835,6 @@
         "id": "saint-pasteur",
         "nom": "Sébastien Saint-Pasteur",
         "liste": "PS (soutenu par PC/Écologistes/Place publique)"
-      },
-      {
-        "id": "curvale",
-        "nom": "Laure Curvale",
-        "liste": "EELV (soutenue par LFI/PC/Génération.s)"
       },
       {
         "id": "couillard",
@@ -3184,11 +3850,6 @@
         "id": "ufferte",
         "nom": "Isabelle Ufferte",
         "liste": "NPA (Nouveau Parti Anticapitaliste)"
-      },
-      {
-        "id": "rybak",
-        "nom": "David Rybak",
-        "liste": "Sans étiquette (liste citoyenne)"
       }
     ]
   },
@@ -3201,8 +3862,8 @@
       "poitiers-2026"
     ],
     "stats": {
-      "candidats": 9,
-      "propositions": 48,
+      "candidats": 8,
+      "propositions": 43,
       "themes": 9,
       "complets": 0
     },
@@ -3221,11 +3882,6 @@
         "id": "blanchard",
         "nom": "François Blanchard",
         "liste": "PS (Parti Socialiste)"
-      },
-      {
-        "id": "amzil",
-        "nom": "Abdelmajid Amzil",
-        "liste": "Sans étiquette, J'aime Poitiers"
       },
       {
         "id": "geay",
@@ -3281,6 +3937,49 @@
       }
     ],
     "derniereMaj": "2026-02-09"
+  },
+  {
+    "id": "perigueux",
+    "nom": "Périgueux",
+    "codePostal": "24000",
+    "departement": "24",
+    "elections": [
+      "perigueux-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "lavitola",
+        "nom": "Emeric Lavitola",
+        "liste": "Périgueux nous rassemble"
+      },
+      {
+        "id": "almosnino",
+        "nom": "Jonathan Almosnino",
+        "liste": "LUTTE OUVRIERE - LE CAMP DES TRAVAILLEURS"
+      },
+      {
+        "id": "belloteau",
+        "nom": "Vincent Belloteau",
+        "liste": "PERIGUEUX EN COMMUN"
+      },
+      {
+        "id": "audi",
+        "nom": "Antoine Audi",
+        "liste": "PERIGUEUX ENSEMBLE"
+      },
+      {
+        "id": "cadet",
+        "nom": "Michel Cadet",
+        "liste": "UNIR PERIGUEUX"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "quimper",
@@ -3454,7 +4153,7 @@
       "roubaix-2026"
     ],
     "stats": {
-      "candidats": 7,
+      "candidats": 6,
       "propositions": 526,
       "themes": 12,
       "complets": 1
@@ -3469,11 +4168,6 @@
         "id": "guiraud",
         "nom": "David Guiraud",
         "liste": "LFI (La France Insoumise)"
-      },
-      {
-        "id": "chalah",
-        "nom": "Mehdi Chalah",
-        "liste": "PS, Le Printemps Roubaisien"
       },
       {
         "id": "amrouni",
@@ -3501,8 +4195,8 @@
       "rouen-2026"
     ],
     "stats": {
-      "candidats": 9,
-      "propositions": 96,
+      "candidats": 8,
+      "propositions": 94,
       "themes": 12,
       "complets": 2
     },
@@ -3526,11 +4220,6 @@
         "id": "houdan",
         "nom": "Grégoire Houdan",
         "liste": "RN/UDR"
-      },
-      {
-        "id": "mazier",
-        "nom": "Frédéric Mazier",
-        "liste": "Reconquête"
       },
       {
         "id": "moisan",
@@ -3559,23 +4248,71 @@
       "rueil-malmaison-2026"
     ],
     "stats": {
-      "candidats": 5,
+      "candidats": 4,
       "propositions": 152,
       "themes": 12,
       "complets": 1
     },
     "candidats": [
       {
-        "id": "cazeneuve",
-        "nom": "Pierre Cazeneuve",
-        "liste": "Renaissance"
-      },
-      {
         "id": "indjian",
         "nom": "Patrick Indjian",
         "liste": "Union citoyenne écologiste et solidaire (PS/EELV/PCF)"
       }
     ]
+  },
+  {
+    "id": "saint-brieuc",
+    "nom": "Saint-Brieuc",
+    "codePostal": "22000",
+    "departement": "22",
+    "elections": [
+      "saint-brieuc-2026"
+    ],
+    "stats": {
+      "candidats": 7,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "le-fol",
+        "nom": "Alain le Fol",
+        "liste": "Lutte ouvrière-Le camp des travailleurs"
+      },
+      {
+        "id": "alloy",
+        "nom": "Henri Alloy",
+        "liste": "Saint-Brieuc en commun"
+      },
+      {
+        "id": "martin",
+        "nom": "Joannic Martin",
+        "liste": "Un nouvel horizon pour Saint-Brieuc"
+      },
+      {
+        "id": "bonnot",
+        "nom": "Victor Bonnot",
+        "liste": "Aimons Saint-Brieuc"
+      },
+      {
+        "id": "guihard",
+        "nom": "Hervé Guihard",
+        "liste": "Vivre Saint-Brieuc"
+      },
+      {
+        "id": "thomas",
+        "nom": "Pierre-Yves Thomas",
+        "liste": "Saint-Brieuc, LA droite pour tous !"
+      },
+      {
+        "id": "corbiere",
+        "nom": "Tony Corbière",
+        "liste": "UNITÉ POUR COMBATTRE L'AUSTÉRITÉ A SAINT-BRIEUC"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "saint-denis",
@@ -3623,7 +4360,7 @@
       "saint-denis-reunion-2026"
     ],
     "stats": {
-      "candidats": 18,
+      "candidats": 9,
       "propositions": 125,
       "themes": 12,
       "complets": 1
@@ -3675,7 +4412,7 @@
       "saint-maur-des-fosses-2026"
     ],
     "stats": {
-      "candidats": 6,
+      "candidats": 5,
       "propositions": 0,
       "themes": 0,
       "complets": 0
@@ -3685,11 +4422,6 @@
         "id": "delecroix",
         "nom": "Pierre-Michel Delecroix",
         "liste": "LR (Les Républicains)"
-      },
-      {
-        "id": "giacobbi",
-        "nom": "Vincent Giacobbi",
-        "liste": "Horizons"
       },
       {
         "id": "fernandez",
@@ -3707,7 +4439,7 @@
       "saint-nazaire-2026"
     ],
     "stats": {
-      "candidats": 8,
+      "candidats": 6,
       "propositions": 45,
       "themes": 12,
       "complets": 1
@@ -3744,7 +4476,7 @@
       "saint-paul-reunion-2026"
     ],
     "stats": {
-      "candidats": 16,
+      "candidats": 5,
       "propositions": 0,
       "themes": 0,
       "complets": 0
@@ -3759,21 +4491,6 @@
         "id": "morel",
         "nom": "Jean-Yves Morel",
         "liste": "RN (Rassemblement National)"
-      },
-      {
-        "id": "charolais",
-        "nom": "Jean-Jacques Charolais",
-        "liste": "Divers"
-      },
-      {
-        "id": "mera",
-        "nom": "Alix Jean Méra",
-        "liste": "Debout la France"
-      },
-      {
-        "id": "moussa",
-        "nom": "Hassam Moussa",
-        "liste": "Force Citoyenne"
       }
     ]
   },
@@ -3786,7 +4503,7 @@
       "saint-pierre-reunion-2026"
     ],
     "stats": {
-      "candidats": 23,
+      "candidats": 8,
       "propositions": 0,
       "themes": 0,
       "complets": 0
@@ -3798,31 +4515,59 @@
         "liste": "Divers droite / sans étiquette"
       },
       {
-        "id": "kbidi",
-        "nom": "Émeline K/Bidi",
-        "liste": "Divers gauche (soutenue par LFI/NFP)"
-      },
-      {
         "id": "dijoux",
         "nom": "Ruth Dijoux",
         "liste": "Ekilibre, L'Union des Saint-Pierrois (PS/Écologistes)"
       },
       {
-        "id": "gobalou",
-        "nom": "Virginie Gobalou",
-        "liste": "Convictions Réunion"
-      },
-      {
         "id": "von-pine",
         "nom": "Bernard Von-Pine",
         "liste": "Divers"
-      },
-      {
-        "id": "riani",
-        "nom": "Richard Riani",
-        "liste": "Divers / liste citoyenne"
       }
     ]
+  },
+  {
+    "id": "saint-quentin",
+    "nom": "Saint-Quentin",
+    "codePostal": "02100",
+    "departement": "02",
+    "elections": [
+      "saint-quentin-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "delalande",
+        "nom": "Frédérique Delalande",
+        "liste": "L'alternative avec l'union des gauches"
+      },
+      {
+        "id": "becourt",
+        "nom": "Corinne Bécourt",
+        "liste": "Les voix de la Colère"
+      },
+      {
+        "id": "geronimi",
+        "nom": "Claire Géronimi",
+        "liste": "Rassemblement Saint Quentin"
+      },
+      {
+        "id": "macarez",
+        "nom": "Frédérique Macarez",
+        "liste": "Frédérique MACAREZ, Avançons ensemble pour Saint-Quentin"
+      },
+      {
+        "id": "zanditenas",
+        "nom": "Anne Zanditénas",
+        "liste": "Lutte ouvrière - Le camp des travailleurs"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "saint-etienne",
@@ -3883,6 +4628,87 @@
     "derniereMaj": "2026-02-09"
   },
   {
+    "id": "sarcelles",
+    "nom": "Sarcelles",
+    "codePostal": "95200",
+    "departement": "95",
+    "elections": [
+      "sarcelles-2026"
+    ],
+    "stats": {
+      "candidats": 4,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "konate",
+        "nom": "Bassi Konate",
+        "liste": "SARCELLES UNIE POUR RÉUSSIR"
+      },
+      {
+        "id": "valentin",
+        "nom": "François-Xavier Valentin",
+        "liste": "SARCELLES POUR TOUS"
+      },
+      {
+        "id": "haddad",
+        "nom": "Patrick Haddad",
+        "liste": "UNE AMBITION POUR SARCELLES"
+      },
+      {
+        "id": "abchiche",
+        "nom": "Mohamed Ali Abchiche",
+        "liste": "POUR UN SARCELLES POPULAIRE"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
+    "id": "sartrouville",
+    "nom": "Sartrouville",
+    "codePostal": "78500",
+    "departement": "78",
+    "elections": [
+      "sartrouville-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "amaglio-terisse",
+        "nom": "Isabelle Amaglio-Térisse",
+        "liste": "Sartrouville autrement Union de la gauche écologiste"
+      },
+      {
+        "id": "fond",
+        "nom": "Pierre Fond",
+        "liste": "Sartrouville, j'aime ma ville"
+      },
+      {
+        "id": "melachio",
+        "nom": "Kevin Melachio",
+        "liste": "Nouveau Départ"
+      },
+      {
+        "id": "imbert",
+        "nom": "Michel Imbert",
+        "liste": "Arrêt des privatisations, l'argent pour les services publics pas pour la guerre"
+      },
+      {
+        "id": "chiali",
+        "nom": "Norane Chiali",
+        "liste": "Faire mieux pour Sartrouville"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
     "id": "strasbourg",
     "nom": "Strasbourg",
     "codePostal": "67000",
@@ -3891,8 +4717,8 @@
       "strasbourg-2026"
     ],
     "stats": {
-      "candidats": 17,
-      "propositions": 509,
+      "candidats": 13,
+      "propositions": 486,
       "themes": 12,
       "complets": 2
     },
@@ -3928,21 +4754,6 @@
         "liste": "Strasbourg on y croit ! (Horizons)"
       },
       {
-        "id": "ibiem",
-        "nom": "Linda Ibiem",
-        "liste": "Strasbourg vivant (PS/Convergence)"
-      },
-      {
-        "id": "vinci",
-        "nom": "Thibaut Vinci",
-        "liste": "PRG"
-      },
-      {
-        "id": "becherirat",
-        "nom": "Ismaïl Becherirat",
-        "liste": "Unis pour Strasbourg"
-      },
-      {
         "id": "sylla",
         "nom": "Mohamed Sylla",
         "liste": "Utiles Bas-Rhin"
@@ -3958,17 +4769,65 @@
         "liste": "Lutte Ouvrière"
       },
       {
-        "id": "yoldas",
-        "nom": "Cem Yoldas",
-        "liste": "Strasbourg c'est nous (NPA)"
-      },
-      {
         "id": "soubise",
         "nom": "Clément Soubise",
         "liste": "NPA-Révolutionnaires"
       }
     ],
     "derniereMaj": "2026-02-09"
+  },
+  {
+    "id": "tarbes",
+    "nom": "Tarbes",
+    "codePostal": "65000",
+    "departement": "65",
+    "elections": [
+      "tarbes-2026"
+    ],
+    "stats": {
+      "candidats": 7,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "lagonelle",
+        "nom": "Pierre Lagonelle",
+        "liste": "TARBES POUR TOUS"
+      },
+      {
+        "id": "peyregne",
+        "nom": "Eric Peyrègne",
+        "liste": "TARBES, LE TEMPS DU CHANGEMENT"
+      },
+      {
+        "id": "gracia",
+        "nom": "Kevin Gracia",
+        "liste": "Collectif Unitaires : Rassembler Tarbes"
+      },
+      {
+        "id": "meunier",
+        "nom": "François Meunier",
+        "liste": "Lutte Ouvrière - Le camp des travailleurs"
+      },
+      {
+        "id": "charles",
+        "nom": "Hervé Charles",
+        "liste": "TARBES CITOYENNE ÉCOLOGIQUE ET SOLIDAIRE"
+      },
+      {
+        "id": "claverie",
+        "nom": "Pascal Claverie",
+        "liste": "TARBES LA FORCE D'AGIR"
+      },
+      {
+        "id": "garnier",
+        "nom": "Michel Garnier",
+        "liste": "TARBES NATURELLEMENT"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "toulon",
@@ -3979,8 +4838,8 @@
       "toulon-2026"
     ],
     "stats": {
-      "candidats": 7,
-      "propositions": 186,
+      "candidats": 6,
+      "propositions": 184,
       "themes": 12,
       "complets": 2
     },
@@ -4009,11 +4868,6 @@
         "id": "cornil",
         "nom": "Isaline Cornil",
         "liste": "La France Insoumise"
-      },
-      {
-        "id": "le-lostec",
-        "nom": "Emmanuel Le Lostec",
-        "liste": "En Avant Toulon-Isso Touloun"
       }
     ],
     "derniereMaj": "2026-02-09"
@@ -4122,8 +4976,8 @@
       "tours-2026"
     ],
     "stats": {
-      "candidats": 9,
-      "propositions": 163,
+      "candidats": 8,
+      "propositions": 162,
       "themes": 12,
       "complets": 2
     },
@@ -4159,17 +5013,50 @@
         "liste": "Rassemblement National"
       },
       {
-        "id": "rouzier",
-        "nom": "Bertrand Rouzier",
-        "liste": "Tours, vivante ! (PRG)"
-      },
-      {
         "id": "jouhannaud",
         "nom": "Thomas Jouhannaud",
         "liste": "Lutte Ouvrière"
       }
     ],
     "derniereMaj": "2026-02-09"
+  },
+  {
+    "id": "tremblay-en-france",
+    "nom": "Tremblay-en-France",
+    "codePostal": "93290",
+    "departement": "93",
+    "elections": [
+      "tremblay-en-france-2026"
+    ],
+    "stats": {
+      "candidats": 4,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "matiatos",
+        "nom": "Laëtitia Matiatos",
+        "liste": "Réussir Tremblay"
+      },
+      {
+        "id": "hocini",
+        "nom": "Ali Hocini",
+        "liste": "Vivre Tremblay"
+      },
+      {
+        "id": "de-carvalho",
+        "nom": "Virginie de Carvalho",
+        "liste": "TREMBLAY ENSEMBLE"
+      },
+      {
+        "id": "jaouani",
+        "nom": "Amel Jaouani",
+        "liste": "Réinventons Tremblay"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "troyes",
@@ -4222,7 +5109,7 @@
       "valence-2026"
     ],
     "stats": {
-      "candidats": 10,
+      "candidats": 7,
       "propositions": 139,
       "themes": 12,
       "complets": 2
@@ -4259,6 +5146,49 @@
         "liste": "Lutte Ouvrière"
       }
     ]
+  },
+  {
+    "id": "vannes",
+    "nom": "Vannes",
+    "codePostal": "56000",
+    "departement": "56",
+    "elections": [
+      "vannes-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "legros",
+        "nom": "Valentin Legros",
+        "liste": "Vannes autrement !"
+      },
+      {
+        "id": "robo",
+        "nom": "David Robo",
+        "liste": "Ici, c'est Vannes !"
+      },
+      {
+        "id": "essola",
+        "nom": "Audrey Essola",
+        "liste": "L'avenir de Vannes"
+      },
+      {
+        "id": "vautier",
+        "nom": "Adèle Vautier",
+        "liste": "Vannes la nouvelle, populaire et écologique"
+      },
+      {
+        "id": "de-williencourt",
+        "nom": "Charles de Williencourt",
+        "liste": "Un nouveau souffle pour Vannes"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "versailles",
@@ -4343,17 +5273,12 @@
       "villeneuve-d-ascq-2026"
     ],
     "stats": {
-      "candidats": 8,
+      "candidats": 7,
       "propositions": 0,
       "themes": 0,
       "complets": 0
     },
     "candidats": [
-      {
-        "id": "caudron",
-        "nom": "Gérard Caudron",
-        "liste": "Divers gauche (Rassemblement Citoyen/Génération.s/MRC)"
-      },
       {
         "id": "bernalicis",
         "nom": "Ugo Bernalicis",
@@ -4385,8 +5310,8 @@
       "villeurbanne-2026"
     ],
     "stats": {
-      "candidats": 9,
-      "propositions": 37,
+      "candidats": 8,
+      "propositions": 34,
       "themes": 12,
       "complets": 0
     },
@@ -4412,11 +5337,6 @@
         "liste": "Droite et centre (union LR-centre)"
       },
       {
-        "id": "fraysse",
-        "nom": "Marc Fraysse",
-        "liste": "Sans étiquette (ex-LR)"
-      },
-      {
         "id": "canon",
         "nom": "Gérald Canon",
         "liste": "RN (Rassemblement National)"
@@ -4437,10 +5357,10 @@
       "vitry-sur-seine-2026"
     ],
     "stats": {
-      "candidats": 7,
-      "propositions": 199,
+      "candidats": 6,
+      "propositions": 160,
       "themes": 12,
-      "complets": 3
+      "complets": 2
     },
     "candidats": [
       {
@@ -4452,11 +5372,6 @@
         "id": "tmimi",
         "nom": "Hocine Tmimi",
         "liste": "LFI, Vitry Unie et Populaire"
-      },
-      {
-        "id": "afflatet",
-        "nom": "Alain Afflatet",
-        "liste": "DVD (droite et centre unis), Vitry À Venir"
       }
     ]
   },
@@ -4486,7 +5401,7 @@
       "venissieux-2026"
     ],
     "stats": {
-      "candidats": 7,
+      "candidats": 6,
       "propositions": 0,
       "themes": 0,
       "complets": 0
@@ -4516,13 +5431,162 @@
         "id": "petit",
         "nom": "Barbara Petit",
         "liste": "Lutte Ouvrière"
-      },
-      {
-        "id": "omeir",
-        "nom": "Farid Omeir",
-        "liste": "UDMF (Union des démocrates musulmans français)"
       }
     ]
+  },
+  {
+    "id": "epinal",
+    "nom": "Épinal",
+    "codePostal": "88000",
+    "departement": "88",
+    "elections": [
+      "epinal-2026"
+    ],
+    "stats": {
+      "candidats": 5,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "amiunes",
+        "nom": "Daniela Amiunes",
+        "liste": "EPINAL EN PARTAGE"
+      },
+      {
+        "id": "savoy",
+        "nom": "Lucas Savoy",
+        "liste": "L'ARGENT POUR LES SERVICES PUBLICS, PAS POUR LA GUERRE"
+      },
+      {
+        "id": "francois",
+        "nom": "Pierre François",
+        "liste": "RASSEMBLER POUR EPINAL"
+      },
+      {
+        "id": "jourdain",
+        "nom": "Benoît Jourdain",
+        "liste": "CHANGER POUR VOUS"
+      },
+      {
+        "id": "nardin",
+        "nom": "Patrick Nardin",
+        "liste": "PASSIONNÉMENT ÉPINAL"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
+    "id": "epinay-sur-seine",
+    "nom": "Épinay-sur-Seine",
+    "codePostal": "93800",
+    "departement": "93",
+    "elections": [
+      "epinay-sur-seine-2026"
+    ],
+    "stats": {
+      "candidats": 7,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "penaque",
+        "nom": "Omar Penaque",
+        "liste": "VIVRE, GRANDIR, S'ÉPANOUIR A EPINAY"
+      },
+      {
+        "id": "chevauche",
+        "nom": "Catherine Chevauche",
+        "liste": "Epinay Autrement"
+      },
+      {
+        "id": "leborgne",
+        "nom": "Patrick Pierre Leborgne",
+        "liste": "Réinventons Epinay ensemble !"
+      },
+      {
+        "id": "chevreau",
+        "nom": "Hervé Chevreau",
+        "liste": "EPINAY NATURELLEMENT"
+      },
+      {
+        "id": "tirera",
+        "nom": "Slimane Tirera",
+        "liste": "Agir ensemble pour Epinay"
+      },
+      {
+        "id": "rebiere",
+        "nom": "Vivien Rebière",
+        "liste": "EPINAY EN COMMUN"
+      },
+      {
+        "id": "reziga",
+        "nom": "Zohra Reziga",
+        "liste": "Liste ouvrière"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
+  },
+  {
+    "id": "evreux",
+    "nom": "Évreux",
+    "codePostal": "27000",
+    "departement": "27",
+    "elections": [
+      "evreux-2026"
+    ],
+    "stats": {
+      "candidats": 8,
+      "propositions": 0,
+      "themes": 0,
+      "complets": 0
+    },
+    "candidats": [
+      {
+        "id": "lefrand",
+        "nom": "Guy Lefrand",
+        "liste": "UNIS POUR EVREUX"
+      },
+      {
+        "id": "petitjean",
+        "nom": "Eugénie Petitjean",
+        "liste": "Evreux Rassemblée"
+      },
+      {
+        "id": "messiha",
+        "nom": "Jean Messiha",
+        "liste": "A LA RECONQUÊTE D'EVREUX"
+      },
+      {
+        "id": "peyraud",
+        "nom": "Mélanie Peyraud",
+        "liste": "LO"
+      },
+      {
+        "id": "brigantino",
+        "nom": "Samuel Brigantino",
+        "liste": "EVREUX EN MOUVEMENT"
+      },
+      {
+        "id": "silighini",
+        "nom": "Gérard Silighini",
+        "liste": "EVREUX EN COMMUN"
+      },
+      {
+        "id": "chartier",
+        "nom": "Nathalie Chartier",
+        "liste": "UNION POPULAIRE D'ÉVREUX"
+      },
+      {
+        "id": "champredon",
+        "nom": "Michel Champredon",
+        "liste": "Rassemblés pour Agir"
+      }
+    ],
+    "derniereMaj": "2026-03-09"
   },
   {
     "id": "evry-courcouronnes",

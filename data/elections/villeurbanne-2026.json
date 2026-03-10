@@ -10,7 +10,9 @@
       "liste": "PS (soutenu par Écologistes/PCF/Place publique)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "bret",
@@ -18,7 +20,9 @@
       "liste": "Divers gauche (ex-maire, liste autonome)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "garabedian",
@@ -26,7 +30,9 @@
       "liste": "LFI (La France Insoumise)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "cruz",
@@ -34,15 +40,9 @@
       "liste": "Droite et centre (union LR-centre)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "fraysse",
-      "nom": "Marc Fraysse",
-      "liste": "Sans étiquette (ex-LR)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "canon",
@@ -50,7 +50,9 @@
       "liste": "RN (Rassemblement National)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "bouhami",
@@ -58,7 +60,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "van-styvendael",
@@ -66,7 +70,9 @@
       "liste": "Union de la gauche, ENGAGE.E.S POUR VILLEURBANNE- LA GAUCHE SOCIALE, ECOLOGISTE ET CITOYENNE RASSEMBLEE",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "mathieu-garabedian",
@@ -74,7 +80,9 @@
       "liste": "La France Insoumise, Villeurbanne Insoumise",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     }
   ],
   "categories": [
@@ -109,14 +117,6 @@
                 "Renforcement majeur de la sécurité et lutte contre la criminalité record à Villeurbanne."
               ]
             },
-            "fraysse": {
-              "source": "Lyon Capitale et Tribune de Lyon, 2025-2026",
-              "sourceUrl": "https://tribunedelyon.fr/politique/villeurbanne-2026-a-droite-sophie-cruz-preferee-a-marc-fraysse/",
-              "a_verifier": true,
-              "mesures": [
-                "Amélioration majeure de la sécurité publique face à l'insécurité croissante."
-              ]
-            },
             "canon": {
               "source": "Tribune de Lyon, novembre 2025",
               "sourceUrl": "https://tribunedelyon.fr/politique/villeurbanne-2026-gerald-canon-veut-acter-le-retour-du-rn-au-conseil-municipal/",
@@ -143,7 +143,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -164,7 +163,6 @@
               ]
             },
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -179,7 +177,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -206,7 +203,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -221,7 +217,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -242,7 +237,6 @@
                 "Révision du plan de circulation de la ville pour améliorer la mobilité et la sécurité des piétons."
               ]
             },
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -257,7 +251,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -272,7 +265,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -305,7 +297,6 @@
               ]
             },
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": {
               "source": "Lutte Ouvrière, 2026",
@@ -327,7 +318,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -342,7 +332,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -357,7 +346,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -384,7 +372,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -405,7 +392,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -426,7 +412,6 @@
               ]
             },
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -441,7 +426,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -456,7 +440,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -483,7 +466,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -504,7 +486,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -519,7 +500,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -540,7 +520,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -555,7 +534,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -582,7 +560,6 @@
               ]
             },
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -597,7 +574,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -618,7 +594,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -651,7 +626,6 @@
               ]
             },
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -666,7 +640,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -681,14 +654,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": {
-              "source": "Lyon People, janvier 2026",
-              "sourceUrl": "https://www.lyonpeople.com/actualites-lyon/actualites-politiques/municipales-a-villeurbanne-sonne-mais-pas-coule-marc-fraysse-maintient-sa-candidature-2026-01-14.html",
-              "a_verifier": true,
-              "mesures": [
-                "Renforcement de l'union de la droite, du centre et au-delà autour d'un projet commun pour la ville."
-              ]
-            },
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -703,7 +668,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -736,7 +700,6 @@
                 "Relance de l'activité économique locale et soutien aux commerces du centre-ville."
               ]
             },
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -758,7 +721,6 @@
             },
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": {
               "source": "Lyon Bondy Blog, 2025-2026",
@@ -786,7 +748,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -813,7 +774,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -834,7 +794,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -861,7 +820,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -876,7 +834,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -910,13 +867,6 @@
               ]
             },
             "cruz": null,
-            "fraysse": {
-              "source": "Lyon People, janvier 2026",
-              "sourceUrl": "https://www.lyonpeople.com/actualites-lyon/actualites-politiques/municipales-a-villeurbanne-marc-fraysse-maintient-sa-candidature-et-propose-de-creer-trois-arrondissements-2026-01-14.html",
-              "mesures": [
-                "Création de trois arrondissements (Buers, Charpennes, Grand-Clément) pour améliorer la représentation de quartier et l'efficacité municipale."
-              ]
-            },
             "canon": {
               "source": "Figures Publiques, 2026",
               "sourceUrl": "https://figurespubliques.fr/votetafrance/municipales-2026-a-villeurbanne-gerald-canon-veut-acter-le-retour-du-rn-au-conseil-municipal/",
@@ -938,7 +888,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -953,7 +902,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -974,7 +922,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -989,7 +936,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": null,
             "van-styvendael": null,
@@ -1010,7 +956,6 @@
             "bret": null,
             "garabedian": null,
             "cruz": null,
-            "fraysse": null,
             "canon": null,
             "bouhami": {
               "source": "Lutte Ouvrière, 2026",

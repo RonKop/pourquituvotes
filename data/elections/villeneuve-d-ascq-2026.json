@@ -5,20 +5,14 @@
   "dateVote": "2026-03-15T08:00:00",
   "candidats": [
     {
-      "id": "caudron",
-      "nom": "Gérard Caudron",
-      "liste": "Divers gauche (Rassemblement Citoyen/Génération.s/MRC)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
       "id": "bernalicis",
       "nom": "Ugo Bernalicis",
       "liste": "LFI (La France Insoumise)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "burette",
@@ -26,7 +20,9 @@
       "liste": "PS, Vivre Villeneuve d'Ascq",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LSOC",
+      "nuanceLibelle": "Liste du Parti socialiste"
     },
     {
       "id": "segard",
@@ -34,7 +30,9 @@
       "liste": "Les Écologistes, Printemps villeneuvois",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "estager",
@@ -42,7 +40,9 @@
       "liste": "Divers gauche, Ensemble pour Villeneuve d'Ascq",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "rougee",
@@ -50,7 +50,9 @@
       "liste": "Extrême gauche, Lutte ouvrière - Le camp des travailleurs",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "oukaid",
@@ -58,7 +60,9 @@
       "liste": "Divers, EN AVANT VILLENEUVE D'ASCQ",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDIV",
+      "nuanceLibelle": "Liste Divers"
     },
     {
       "id": "baledent",
@@ -66,7 +70,9 @@
       "liste": "Divers droite, AVEC VOUS",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     }
   ],
   "categories": [
@@ -78,7 +84,6 @@
           "id": "police-municipale",
           "nom": "Police municipale",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -92,7 +97,6 @@
           "id": "videoprotection",
           "nom": "Vidéoprotection",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -106,7 +110,6 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -120,7 +123,6 @@
           "id": "violences-femmes",
           "nom": "Violences faites aux femmes",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -140,7 +142,6 @@
           "id": "transports-en-commun",
           "nom": "Transports en commun",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -154,7 +155,6 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -168,7 +168,6 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -182,7 +181,6 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -196,7 +194,6 @@
           "id": "tarifs-gratuite",
           "nom": "Tarifs & Gratuité",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -216,7 +213,6 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -230,7 +226,6 @@
           "id": "logements-vacants",
           "nom": "Logements vacants",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -244,7 +239,6 @@
           "id": "encadrement-loyers",
           "nom": "Encadrement des loyers",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -258,7 +252,6 @@
           "id": "acces-logement",
           "nom": "Accès au logement",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -278,7 +271,6 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -292,7 +284,6 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -306,7 +297,6 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -320,7 +310,6 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -334,7 +323,6 @@
           "id": "jeunesse",
           "nom": "Jeunesse",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -354,7 +342,6 @@
           "id": "espaces-verts",
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -368,7 +355,6 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -382,7 +368,6 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -396,7 +381,6 @@
           "id": "renovation-energetique",
           "nom": "Rénovation énergétique",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -410,7 +394,6 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -430,7 +413,6 @@
           "id": "centres-sante",
           "nom": "Centres de santé",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -444,7 +426,6 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -458,7 +439,6 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -478,7 +458,6 @@
           "id": "budget-participatif",
           "nom": "Budget participatif",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -492,7 +471,6 @@
           "id": "transparence",
           "nom": "Transparence",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -506,7 +484,6 @@
           "id": "vie-associative",
           "nom": "Vie associative",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -520,7 +497,6 @@
           "id": "services-publics",
           "nom": "Services publics",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -540,7 +516,6 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -554,7 +529,6 @@
           "id": "emploi-insertion",
           "nom": "Emploi & Insertion",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -568,7 +542,6 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -588,7 +561,6 @@
           "id": "equipements-culturels",
           "nom": "Équipements culturels",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -602,7 +574,6 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -622,7 +593,6 @@
           "id": "equipements-sportifs",
           "nom": "Équipements sportifs",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -636,7 +606,6 @@
           "id": "sport-pour-tous",
           "nom": "Sport pour tous",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -656,7 +625,6 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -670,7 +638,6 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -684,7 +651,6 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -704,7 +670,6 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -718,7 +683,6 @@
           "id": "egalite-discriminations",
           "nom": "Égalité & Discriminations",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,
@@ -732,7 +696,6 @@
           "id": "pouvoir-achat",
           "nom": "Pouvoir d'achat",
           "propositions": {
-            "caudron": null,
             "bernalicis": null,
             "burette": null,
             "segard": null,

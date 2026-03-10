@@ -10,7 +10,9 @@
       "liste": "LR (Les Républicains)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "aubert",
@@ -18,23 +20,9 @@
       "liste": "RN (Rassemblement National)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "roussel",
-      "nom": "Christophe Roussel",
-      "liste": "PS (Parti Socialiste)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "ney",
-      "nom": "Cécile Ney",
-      "liste": "Les Écologistes, Colmar Citoyenne Verte et Solidaire",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXD",
+      "nuanceLibelle": "Liste d'extrême droite"
     },
     {
       "id": "hilbert",
@@ -42,7 +30,9 @@
       "liste": "Les Écologistes-Place publique",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "deltour",
@@ -50,7 +40,9 @@
       "liste": "Sans étiquette (liste citoyenne)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "hemedinger",
@@ -58,7 +50,9 @@
       "liste": "Sans étiquette / ex-LR, Fiers d'être colmariens",
       "programmeUrl": "https://yhcolmar2026.fr/",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "moriconi",
@@ -66,7 +60,9 @@
       "liste": "Divers gauche, Colmar citoyenne, verte et solidaire",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "schaffar",
@@ -74,7 +70,9 @@
       "liste": "Extrême gauche, Lutte ouvrière - Le camp des travailleurs",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "yves-hemedinger",
@@ -82,7 +80,9 @@
       "liste": "Divers droite, Fiers d'être Colmariens",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     }
   ],
   "categories": [
@@ -96,8 +96,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {
@@ -118,8 +116,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {
@@ -140,8 +136,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -156,8 +150,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -178,8 +170,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -194,8 +184,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -210,8 +198,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {
@@ -232,8 +218,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {
@@ -254,8 +238,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {
@@ -282,8 +264,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -298,8 +278,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -314,8 +292,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -330,8 +306,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -352,8 +326,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -368,8 +340,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -384,8 +354,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -400,8 +368,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -416,8 +382,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -438,8 +402,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -454,8 +416,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -470,8 +430,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -486,8 +444,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {
@@ -508,8 +464,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -530,8 +484,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -546,8 +498,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -562,8 +512,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -584,8 +532,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {
@@ -606,8 +552,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {
@@ -628,8 +572,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -644,8 +586,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {
@@ -672,8 +612,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -688,8 +626,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -704,8 +640,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -726,8 +660,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -742,8 +674,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -764,8 +694,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -780,8 +708,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -802,8 +728,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -818,8 +742,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -834,8 +756,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -856,8 +776,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -872,8 +790,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": null,
@@ -888,8 +804,6 @@
           "propositions": {
             "straumann": null,
             "aubert": null,
-            "roussel": null,
-            "ney": null,
             "hilbert": null,
             "deltour": null,
             "hemedinger": {

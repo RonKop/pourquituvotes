@@ -10,7 +10,9 @@
       "liste": "Nice au coeur (Horizons)",
       "programmeUrl": "https://estrosi2026.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUD",
+      "nuanceLibelle": "Liste d'union à droite"
     },
     {
       "id": "ciotti",
@@ -18,7 +20,9 @@
       "liste": "Ciotti 2026 (UDR/RN)",
       "programmeUrl": "https://www.ciotti2026.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUXD",
+      "nuanceLibelle": "Liste d'union à l'extrême-droite"
     },
     {
       "id": "chesnel",
@@ -26,7 +30,9 @@
       "liste": "Unis pour Nice (Écologistes/PS/PCF)",
       "programmeUrl": "https://unispournice.fr/programme",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "damiano",
@@ -34,31 +40,9 @@
       "liste": "Nice Front Populaire (LFI/ViVA!)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "governatori",
-      "nom": "Jean-Marc Governatori",
-      "liste": "L'écologie au centre",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "granouillac",
-      "nom": "Hélène Granouillac",
-      "liste": "Vivre Nice",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "dloussky",
-      "nom": "Nathalie Dloussky",
-      "liste": "Ensemble pour la grandeur de la France",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "vella",
@@ -66,7 +50,9 @@
       "liste": "Reconquête",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LREC",
+      "nuanceLibelle": "Liste Reconquête !"
     },
     {
       "id": "forjonnel",
@@ -74,7 +60,9 @@
       "liste": "Divers, NICE DEMOCRATIE DIRECTE",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDIV",
+      "nuanceLibelle": "Liste Divers"
     },
     {
       "id": "jaquet",
@@ -82,7 +70,9 @@
       "liste": "Extrême gauche, Lutte ouvrière - Le camp des travailleurs",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "chesnel-le-roux",
@@ -90,7 +80,9 @@
       "liste": "Union de la gauche, UNIS POUR NICE",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     }
   ],
   "categories": [
@@ -131,9 +123,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -161,9 +150,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -208,9 +194,6 @@
                 "Sécurité publique basée sur la prévention et le travail social, refus de la sécurité privée."
               ]
             },
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -236,9 +219,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -278,9 +258,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -303,9 +280,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -327,9 +301,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -356,9 +327,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -395,9 +363,6 @@
                 "Gratuité progressive des transports : d'abord les week-ends, puis généralisation, financée par la taxe mobilité et la taxe de séjour."
               ]
             },
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -439,9 +404,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -471,15 +433,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": {
-              "source": "Nice Premium, janvier 2026",
-              "sourceUrl": "https://www.nicepremium.fr/",
-              "mesures": [
-                "Transformer les bureaux vacants en logements et réguler strictement les locations saisonnières de type Airbnb."
-              ]
-            },
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -512,9 +465,6 @@
                 "Encadrement des loyers et réquisition de logements vacants."
               ]
             },
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -546,9 +496,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -592,9 +539,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -629,9 +573,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -654,9 +595,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -694,9 +632,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -724,9 +659,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -771,9 +703,6 @@
                 "Création de jardins partagés et d'un réseau vert urbain pour la biodiversité et le rafraîchissement de la ville."
               ]
             },
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -794,9 +723,6 @@
             },
             "chesnel": null,
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -830,15 +756,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": {
-              "source": "Nice Premium, janvier 2026",
-              "sourceUrl": "https://www.nicepremium.fr/",
-              "mesures": [
-                "Transition climatique prioritaire : gestion durable de l'eau face au stress hydrique."
-              ]
-            },
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -867,15 +784,6 @@
               ]
             },
             "damiano": null,
-            "governatori": {
-              "source": "Nice Premium, janvier 2026",
-              "sourceUrl": "https://www.nicepremium.fr/",
-              "mesures": [
-                "Autonomie énergétique solaire : bornes solaires dans chaque quartier, impliquer les ultra-riches dans le financement."
-              ]
-            },
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -898,9 +806,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -946,9 +851,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -981,9 +883,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1020,9 +919,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1057,9 +953,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1099,15 +992,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": {
-              "source": "Nice Premium, janvier 2026",
-              "sourceUrl": "https://www.nicepremium.fr/",
-              "mesures": [
-                "Commission d'observation de l'emploi public : audit des 8 500 employés municipaux avec experts indépendants et citoyens tirés au sort."
-              ]
-            },
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1130,9 +1014,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1162,9 +1043,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1198,9 +1076,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1230,9 +1105,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1270,9 +1142,6 @@
                 "Réguler le tourisme polluant (jets privés, yachts, croisières) et développer un tourisme écoresponsable."
               ]
             },
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1318,9 +1187,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1348,9 +1214,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1385,9 +1248,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1411,9 +1271,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1451,9 +1308,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1481,9 +1335,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1513,9 +1364,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1544,9 +1392,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1571,9 +1416,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,
@@ -1610,9 +1452,6 @@
               ]
             },
             "damiano": null,
-            "governatori": null,
-            "granouillac": null,
-            "dloussky": null,
             "vella": null,
             "forjonnel": null,
             "jaquet": null,

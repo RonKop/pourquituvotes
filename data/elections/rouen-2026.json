@@ -10,7 +10,9 @@
       "liste": "Fiers de Rouen (PS/EELV/PCF/PP)",
       "programmeUrl": "https://www.fiersderouen.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "caron",
@@ -18,7 +20,9 @@
       "liste": "Horizons / LR",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "da-silva",
@@ -26,7 +30,9 @@
       "liste": "Faire mieux à Rouen (LFI)",
       "programmeUrl": "https://fairemieuxrouen.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "houdan",
@@ -34,15 +40,9 @@
       "liste": "RN/UDR",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "mazier",
-      "nom": "Frédéric Mazier",
-      "liste": "Reconquête",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUXD",
+      "nuanceLibelle": "Liste d'union à l'extrême-droite"
     },
     {
       "id": "moisan",
@@ -50,7 +50,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "vitard",
@@ -58,7 +60,9 @@
       "liste": "Parti des travailleurs (POID)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "renauld",
@@ -66,7 +70,9 @@
       "liste": "NPA-Révolutionnaires",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "maxime-da-silva",
@@ -74,7 +80,9 @@
       "liste": "La France Insoumise, FAIRE MIEUX POUR ROUEN",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     }
   ],
   "categories": [
@@ -109,13 +117,6 @@
                 "Faire de Rouen la ville la plus sûre de France d'ici 2032 : renforcement massif de la sécurité."
               ]
             },
-            "mazier": {
-              "source": "Tendance Ouest, février 2026",
-              "sourceUrl": "https://www.tendanceouest.com/actualite-434691-municipales-2026-frederic-mazier-tete-de-liste-reconquete-a-rouen-veut-regler-les-problemes-d-insecurite",
-              "mesures": [
-                "Régler les problèmes d'insécurité à Rouen, priorité absolue du programme."
-              ]
-            },
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -142,7 +143,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -175,7 +175,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -190,7 +189,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -224,7 +222,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -246,7 +243,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -268,7 +264,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -289,7 +284,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -317,7 +311,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -350,7 +343,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -371,7 +363,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": {
@@ -398,7 +389,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -420,7 +410,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -455,7 +444,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -482,7 +470,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -510,7 +497,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -531,7 +517,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -546,7 +531,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -586,7 +570,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -608,7 +591,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -631,7 +613,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -658,7 +639,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -686,7 +666,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -726,7 +705,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -751,7 +729,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -774,7 +751,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -807,7 +783,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -828,7 +803,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -849,7 +823,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -864,7 +837,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -897,13 +869,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": {
-              "source": "Tendance Ouest, février 2026",
-              "sourceUrl": "https://www.tendanceouest.com/actualite-434691-municipales-2026-frederic-mazier-tete-de-liste-reconquete-a-rouen-veut-regler-les-problemes-d-insecurite",
-              "mesures": [
-                "Relancer l'activité économique des commerçants rouennais et restaurer la propreté de la ville."
-              ]
-            },
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -925,7 +890,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -953,7 +917,6 @@
                 "Restaurer l'ordre dans les finances de la ville et relancer l'attractivité économique."
               ]
             },
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -987,7 +950,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -1008,7 +970,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -1041,7 +1002,6 @@
             },
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -1069,7 +1029,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -1097,7 +1056,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -1112,7 +1070,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -1134,7 +1091,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -1160,7 +1116,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -1188,7 +1143,6 @@
             "caron": null,
             "da-silva": null,
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": null,
@@ -1215,7 +1169,6 @@
               ]
             },
             "houdan": null,
-            "mazier": null,
             "moisan": null,
             "vitard": null,
             "renauld": {

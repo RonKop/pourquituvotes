@@ -10,7 +10,9 @@
       "liste": "Divers gauche (sortant)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "lucas",
@@ -18,7 +20,9 @@
       "liste": "Union de la gauche et de l'écologie (EELV/LFI/PCF)",
       "programmeUrl": "https://sn26.fr/programme/",
       "programmeComplet": true,
-      "programmePdfPath": ""
+      "programmePdfPath": "",
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "chereau",
@@ -26,7 +30,9 @@
       "liste": "Horizons / Union droite et centre (LR/Renaissance/MoDem)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "pichon",
@@ -34,15 +40,9 @@
       "liste": "RN, Renouvelle-toi Saint-Nazaire !",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "missour",
-      "nom": "Gérald Missour",
-      "liste": "Saint-Nazaire, notre village !",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "denis-chereau",
@@ -50,7 +50,9 @@
       "liste": "Divers centre, UNIS POUR SAINT-NAZAIRE",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "le-beller",
@@ -58,15 +60,9 @@
       "liste": "Extrême gauche, Lutte ouvriere - le camp des travailleurs",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "torrens",
-      "nom": "Jean-Claude Torrens",
-      "liste": "SAINT-NAZAIRE PASSIONNEMENT, CONTINUONS ENSEMBLE",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
   "categories": [
@@ -88,10 +84,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -102,10 +96,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -123,10 +115,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -143,10 +133,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -163,10 +151,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -183,10 +169,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -203,10 +187,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -217,10 +199,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -238,10 +218,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -264,10 +242,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -284,10 +260,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -304,10 +278,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -324,10 +296,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -350,10 +320,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -370,10 +338,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -384,10 +350,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -398,10 +362,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -418,10 +380,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -445,10 +405,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -459,10 +417,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -479,10 +435,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -493,10 +447,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -513,10 +465,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -539,10 +489,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -560,10 +508,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -580,10 +526,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -607,10 +551,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -627,10 +569,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -648,10 +588,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -669,10 +607,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -695,10 +631,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -715,10 +649,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -729,10 +661,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -756,10 +686,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -777,10 +705,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -803,10 +729,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -824,10 +748,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -851,10 +773,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -872,10 +792,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -886,10 +804,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]
@@ -912,10 +828,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -932,10 +846,8 @@
             },
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         },
         {
@@ -946,10 +858,8 @@
             "lucas": null,
             "chereau": null,
             "pichon": null,
-            "missour": null,
             "denis-chereau": null,
-            "le-beller": null,
-            "torrens": null
+            "le-beller": null
           }
         }
       ]

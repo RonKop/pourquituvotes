@@ -10,7 +10,9 @@
       "liste": "Divers droite",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "fleurian",
@@ -18,7 +20,9 @@
       "liste": "RN (Rassemblement National)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "lannoy",
@@ -26,7 +30,9 @@
       "liste": "LFI-EELV, À gauche toute !",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "lavigne",
@@ -34,7 +40,9 @@
       "liste": "PCF-PS-Génération.s, Agissons pour Calais",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "nicolas",
@@ -42,15 +50,9 @@
       "liste": "Lutte Ouvrière",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "delplanque",
-      "nom": "Guy Delplanque",
-      "liste": "Sans étiquette",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "debaisieux",
@@ -58,7 +60,9 @@
       "liste": "Sans étiquette",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVG",
+      "nuanceLibelle": "Liste divers gauche"
     },
     {
       "id": "de-fleurian",
@@ -66,7 +70,9 @@
       "liste": "Rassemblement National, Unis pour Calais !",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     }
   ],
   "categories": [
@@ -95,7 +101,6 @@
               ]
             },
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -109,7 +114,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -123,7 +127,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -137,7 +140,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -157,7 +159,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -171,7 +172,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -185,7 +185,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -199,7 +198,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -213,7 +211,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -233,7 +230,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -247,7 +243,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -261,7 +256,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -275,7 +269,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -295,7 +288,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -309,7 +301,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -329,7 +320,6 @@
               ]
             },
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -343,7 +333,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -357,7 +346,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -377,7 +365,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -397,7 +384,6 @@
               ]
             },
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -411,7 +397,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -425,7 +410,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -439,7 +423,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -459,7 +442,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -473,7 +455,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -487,7 +468,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -513,7 +493,6 @@
             },
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -527,7 +506,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -541,7 +519,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -555,7 +532,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -575,7 +551,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -589,7 +564,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -615,7 +589,6 @@
             },
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -635,7 +608,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -649,7 +621,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -669,7 +640,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -683,7 +653,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -709,7 +678,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -723,7 +691,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -737,7 +704,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -763,7 +729,6 @@
               ]
             },
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -777,7 +742,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }
@@ -791,7 +755,6 @@
             "lannoy": null,
             "lavigne": null,
             "nicolas": null,
-            "delplanque": null,
             "debaisieux": null,
             "de-fleurian": null
           }

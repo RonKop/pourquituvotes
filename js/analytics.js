@@ -402,7 +402,7 @@
       var footer = document.createElement("div");
       footer.className = "search-no-result__footer";
       var link = document.createElement("a");
-      link.href = "/methodologie.html";
+      link.href = "/methodologie";
       link.className = "search-no-result__link";
       var linkIcon = document.createElement("i");
       linkIcon.className = "ph ph-info";

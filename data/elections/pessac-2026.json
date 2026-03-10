@@ -10,7 +10,9 @@
       "liste": "Divers droite / Horizons",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "saint-pasteur",
@@ -18,15 +20,9 @@
       "liste": "PS (soutenu par PC/Écologistes/Place publique)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "curvale",
-      "nom": "Laure Curvale",
-      "liste": "EELV (soutenue par LFI/PC/Génération.s)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "couillard",
@@ -34,7 +30,9 @@
       "liste": "Divers centre (ex-Renaissance, liste citoyenne)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "jaouen",
@@ -42,7 +40,9 @@
       "liste": "LFI (La France Insoumise)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "ufferte",
@@ -50,15 +50,9 @@
       "liste": "NPA (Nouveau Parti Anticapitaliste)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "rybak",
-      "nom": "David Rybak",
-      "liste": "Sans étiquette (liste citoyenne)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "dossat",
@@ -66,7 +60,9 @@
       "liste": "Rassemblement National, L'ALTERNANCE POUR PESSAC",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     }
   ],
   "categories": [
@@ -87,7 +83,6 @@
               ]
             },
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": {
               "source": "France3 Nouvelle-Aquitaine, débat candidats 2026",
               "sourceUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/securite-logement-fiscalite-posez-vos-questions-aux-candidats-aux-elections-municipales-a-pessac-3287412.html",
@@ -98,7 +93,6 @@
             },
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -108,11 +102,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -122,17 +114,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://ecologiepourpessac.fr/",
-              "mesures": [
-                "Exigence envers les bailleurs sociaux de mettre en œuvre des actions de tranquillisation avec médiateurs logés sur place."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -142,11 +126,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -162,11 +144,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -183,17 +163,9 @@
                 "Développement des mobilités douces avec amélioration de la politique cyclable."
               ]
             },
-            "curvale": {
-              "source": "Programme EELV 2026",
-              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/",
-              "mesures": [
-                "Politique cyclable complète pour développer le vélo comme mode de transport principal."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -203,11 +175,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -217,11 +187,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -231,17 +199,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://ecologiepourpessac.fr/ville-mobile/",
-              "mesures": [
-                "Gratuité des transports en commun pour les enfants et jeunes de moins de 18 ans."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -257,7 +217,6 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": {
               "source": "Programme La France Insoumise 2026",
@@ -274,7 +233,6 @@
                 "Politique de logement social pour répondre aux besoins des habitants et lutte contre la gentrification."
               ]
             },
-            "rybak": null,
             "dossat": null
           }
         },
@@ -284,11 +242,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -298,11 +254,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -319,17 +273,9 @@
               ]
             },
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://ecologiepourpessac.fr/ville-accueillante/",
-              "mesures": [
-                "Diversité de logements pour tous (étudiants, personnes âgées, personnes handicapées, familles) et logements d'urgence."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -345,7 +291,6 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": {
               "source": "Programme La France Insoumise 2026",
@@ -355,7 +300,6 @@
               ]
             },
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -365,11 +309,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -379,7 +321,6 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": {
               "source": "Programme LFI 2026",
@@ -389,13 +330,6 @@
               ]
             },
             "ufferte": null,
-            "rybak": {
-              "source": "France Bleu Gironde, débat candidats 2020 (positionnement similaire en 2026)",
-              "sourceUrl": "https://www.francebleu.fr/infos/elections/municipales-a-pessac-david-rybak-se-veut-donner-plus-de-pouvoir-aux-citoyens-1582736391",
-              "mesures": [
-                "Gratuité des cantines scolaires décidée par vote des habitants."
-              ]
-            },
             "dossat": null
           }
         },
@@ -405,11 +339,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -419,17 +351,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme EELV 2026",
-              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/",
-              "mesures": [
-                "Investissement dans l'enfance et la jeunesse avec amélioration des équipements éducatifs."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -457,13 +381,6 @@
                 "Actions ambitieuses sur la biodiversité et augmentation des espaces verts."
               ]
             },
-            "curvale": {
-              "source": "Programme EELV Laure Curvale 2026",
-              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/",
-              "mesures": [
-                "Faire de Pessac une ville verte adaptée au changement climatique avec conservation de la biodiversité."
-              ]
-            },
             "couillard": {
               "source": "Campagne citoyenne Unis pour Pessac, 2026",
               "sourceUrl": "https://unispourpessac.fr/",
@@ -474,7 +391,6 @@
             },
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -484,17 +400,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme EELV 2026",
-              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/",
-              "mesures": [
-                "Politique de prévention des déchets et amélioration de la propreté de la ville."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -510,17 +418,9 @@
                 "Mise en œuvre d'un budget climat pour réduire les émissions de gaz à effet de serre des services municipaux."
               ]
             },
-            "curvale": {
-              "source": "Programme EELV 2026",
-              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/",
-              "mesures": [
-                "Plan d'adaptation aux changements climatiques et transition écologique de la ville."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -530,17 +430,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/",
-              "mesures": [
-                "Rénovation énergétique des écoles, de l'éclairage public et des bâtiments municipaux, avec lutte contre la précarité énergétique."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -562,7 +454,6 @@
                 "Objectif 100% de cantines scolaires avec approvisionnement local et biologique d'ici 2026."
               ]
             },
-            "curvale": null,
             "couillard": null,
             "jaouen": {
               "source": "Programme La France Insoumise municipales 2026",
@@ -572,7 +463,6 @@
               ]
             },
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -588,11 +478,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -602,13 +490,6 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme EELV Laure Curvale 2026",
-              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/",
-              "mesures": [
-                "Interdiction des pesticides et politiques de santé environnementale."
-              ]
-            },
             "couillard": null,
             "jaouen": {
               "source": "Programme LFI 2026",
@@ -618,7 +499,6 @@
               ]
             },
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -628,11 +508,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -654,23 +532,9 @@
                 "Renforcement de la démocratie locale avec mise en place d'un projet citoyen et participatif pour associer les habitants aux décisions."
               ]
             },
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://ecologiepourpessac.fr/ville-citoyenne/",
-              "mesures": [
-                "Renforcement des conseils de quartier avec une maison dans chaque quartier, budgets d'investissement décentralisés et droit de saisine."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": {
-              "source": "France Bleu Gironde, débat candidats",
-              "sourceUrl": "https://www.francebleu.fr/infos/elections/municipales-a-pessac-david-rybak-se-veut-donner-plus-de-pouvoir-aux-citoyens-1582736391",
-              "mesures": [
-                "Mettre le citoyen au cœur du projet avec participation active des habitants aux décisions municipales."
-              ]
-            },
             "dossat": null
           }
         },
@@ -680,17 +544,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://ecologiepourpessac.fr/ville-citoyenne/",
-              "mesures": [
-                "Création d'une webTV citoyenne pour diffuser en direct les conseils municipaux et rendre disponibles les documents dès le début des projets."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -700,17 +556,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://ecologiepourpessac.fr/",
-              "mesures": [
-                "Création d'une Maison des Biens Communs pouvant accueillir un café associatif et un marché de petits producteurs bio."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -720,11 +568,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -740,17 +586,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://ecologiepourpessac.fr/",
-              "mesures": [
-                "Création d'un éco-label de Pessac pour valoriser les commerces et entreprises éco-responsables."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -766,7 +604,6 @@
                 "Lancement d'une grande consultation sur l'emploi pour identifier les besoins et opportunités."
               ]
             },
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": {
@@ -775,13 +612,6 @@
               "a_verifier": true,
               "mesures": [
                 "Création d'emplois publics et insertion professionnelle pour tous."
-              ]
-            },
-            "rybak": {
-              "source": "France Bleu Gironde, débat candidats 2020",
-              "sourceUrl": "https://www.francebleu.fr/infos/elections/municipales-a-pessac-david-rybak-se-veut-donner-plus-de-pouvoir-aux-citoyens-1582736391",
-              "mesures": [
-                "Création de centres d'affaires pour identifier les besoins en termes de stages, emplois et création d'entreprise."
               ]
             },
             "dossat": null
@@ -793,11 +623,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -813,17 +641,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://ecologiepourpessac.fr/ville-accueillante/",
-              "mesures": [
-                "Donner un nouvel élan culturel à la ville avec renforcement des équipements et de l'offre culturelle."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -833,11 +653,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -853,11 +671,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -867,17 +683,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme Écologie pour Pessac 2026",
-              "sourceUrl": "https://ecologiepourpessac.fr/politique-sportive-pessac/",
-              "mesures": [
-                "Renforcement de la pratique sportive accessible à tous les habitants."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -893,17 +701,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": {
-              "source": "Programme EELV 2026",
-              "sourceUrl": "https://elus-gironde.eelv.fr/vos-elu-e-s/laure-curvale/",
-              "mesures": [
-                "Ville accessible pour tous avec amélioration de l'accessibilité et aménagement urbain durable."
-              ]
-            },
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -913,7 +713,6 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": {
               "source": "Campagne citoyenne Unis pour Pessac, 2026",
               "sourceUrl": "https://unispourpessac.fr/",
@@ -924,7 +723,6 @@
             },
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -934,11 +732,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }
@@ -960,7 +756,6 @@
                 "Mise en place d'un fonds d'urgence d'un million d'euros pour l'aide sociale et le soutien aux personnes en situation de fragilité."
               ]
             },
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": {
@@ -971,7 +766,6 @@
                 "Renforcement des aides sociales pour les plus précaires et les familles en difficulté."
               ]
             },
-            "rybak": null,
             "dossat": null
           }
         },
@@ -981,7 +775,6 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": {
               "source": "Campagne citoyenne Unis pour Pessac, 2026",
               "sourceUrl": "https://unispourpessac.fr/",
@@ -992,7 +785,6 @@
             },
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         },
@@ -1002,11 +794,9 @@
           "propositions": {
             "raynal": null,
             "saint-pasteur": null,
-            "curvale": null,
             "couillard": null,
             "jaouen": null,
             "ufferte": null,
-            "rybak": null,
             "dossat": null
           }
         }

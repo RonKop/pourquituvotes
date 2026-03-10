@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<title>kDrive</title>
+<meta name="description" content="kDrive - Infomaniak">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="keywords" content="Infomaniak">
+<meta name="robots" content="noindex, nofollow, noimageindex">
+    <meta property="og:title" content="Fichier argumentaire.xlsx"/>
+                                <meta property="og:type" content="website"/>
+                                <meta property="og:site_name" content="kDrive"/>
+                                <meta property="og:url" content="https://kdrive.infomaniak.com/app/share/1160771/695ef471-d9a6-4c2e-8cd0-4786aa14a817/preview/office/5147"/>
+                                <meta property="og:description" content="Partagé avec kDrive, le Cloud Éthique."/>
+                                <meta property="og:locale" content="fr_FR"/>
+                                <meta property="og:image" content="https://kdrive.infomaniak.com/preview/spreadsheet.jpg"/>
+                                <meta property="og:image:type" content="image/jpeg"/>
+                                <meta property="og:image:width" content="800"/>
+                                <meta property="og:image:height" content="420"/>
+                                <meta property="og:image:alt" content="Default preview of the link"/>
+                                    <meta name="twitter:card" content="summary_large_image"/>
+                                <meta name="twitter:site" content="@infomaniak"/>
+                                <meta name="twitter:title" content="Fichier argumentaire.xlsx"/>
+                                <meta name="twitter:url" content="https://kdrive.infomaniak.com/app/share/1160771/695ef471-d9a6-4c2e-8cd0-4786aa14a817/preview/office/5147"/>
+                                <meta name="twitter:description" content="Partagé avec kDrive, le Cloud Éthique."/>
+                                <meta name="twitter:image" content="https://kdrive.infomaniak.com/preview/spreadsheet.jpg"/>
+                    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/assets/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/assets/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/assets/favicon/apple-touch-icon-72x72.png">
+        <link rel="icon" type="image/png" href="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/assets/favicon/favicon-32x32.png"/>
+        <base href="/app/">
+
+    
+    <link rel="stylesheet" href="https://fonts.storage.infomaniak.com/current/suisse-intl/suisse-intl.css" />
+    <link rel="stylesheet" href="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/theme-light.css" id="theme-light" class="initial-theme"/>
+    <link rel="stylesheet" href="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/styles.css"/>
+
+    <style>
+        body {
+            font-family: SuisseIntl;
+            margin: 0;
+        }
+        .loader {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #edecec;
+        }
+        .loader img {
+            width: 80px;
+            height: 80px;
+        }
+        module-helpdesk-component {
+            display: none;
+        }
+    </style>
+
+    
+                <script async id="webComponents" src="https://web-components.storage.infomaniak.com/current/init.js?version=latest&amp;project=drive" charset="UTF-8"></script>
+    </head>
+<body class="drive-theme drive-light-theme drive-normal-density">
+
+<!--[if lt IE 10]>
+<p>
+    You are using an <strong>outdated</strong> browser.
+    Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+</p>
+<![endif]-->
+
+<noscript>
+    <p>
+        This page requires JavaScript to work properly. Please enable JavaScript in your browser.
+    </p>
+</noscript>
+
+    <div id="main-loader" class="loader">
+        <img
+            src="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/assets/images/products-logos/kdrive1x.gif"
+            srcset="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/assets/images/products-logos/kdrive2x.gif 2x"
+            width="139"
+            height="139"
+            alt="kDrive"
+        />
+    </div>
+    <app-root></app-root>
+    <script type="text/javascript">
+        var IS_AUTOLOG = false;
+        var IS_STAFF = false;
+        var IS_STAFF_ACCESS_GRANTED = false;
+        var CONST_USER = {};
+        var CURRENT_ACCOUNT = {"id":1095441,"organization_name":"manon.leger@ikmail.com","logo":null};
+        var CONST_LANG = {"shortcode":"en","longcode":"en-GB"};
+        var CSRF_PREFIX = "DRIVE-";
+        var WORKSPACE_URL = 'https://mail.infomaniak.com';
+        var WEBSITE_URL = 'https://infomaniak.com';
+        var MANAGER_URL = 'https://manager.infomaniak.com';
+        var SHOP_URL = 'https://shop.infomaniak.com';
+        var LOGIN_URL = 'https://login.infomaniak.com';
+        var DRAWIO_URL = 'https://drawio.kdrive.infomaniak.com';
+        var CONTACT_URL = 'https://contacts.infomaniak.com';
+        var SERVICE_ID = 40;
+        var WEB_COMPONENT_API_ENDPOINT = 'https://welcome.infomaniak.com';
+        var APP_ENV = 'production';
+        var USE_URL_PERSONALIZED = false;
+        var CUSTOMIZED_DATA = [];
+        var CUSTOMIZED_IMAGES = [];
+        var CROSS_DOMAIN_ENDPOINT = '';
+        var CROSS_DOMAIN_ENDPOINT_SECURE = null;
+        var WELCOME_URL = 'https://welcome.infomaniak.com'
+        var DRIVE_VERSION = '3.10';        var APP_NEXT = false;    </script>
+    
+    <script type="text/javascript" src="https://ips.storage.infomaniak.com/ips-client_0.1.4.min.js"></script>
+            <script type="text/javascript">
+            if (window.IPS) {
+                window.IPS.config = {url: "wss://info-mq.infomaniak.com", user: "ips:ips-public", pass: "8QC5EwBqpZ2Z"}
+            }
+        </script>
+        <script src="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/polyfills.js" type="module"></script>
+    <script src="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/scripts.js" defer></script>
+    <script src="https://kdrive.infomaniak.com/assets/6a990c2a29d6c7cf2a278ef0af6a0460ca6eb649/main.js" type="module"></script>
+    </body>
+</html>

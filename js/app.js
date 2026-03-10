@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026030905';
+  var DATA_VERSION = '2026031002';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -596,8 +596,8 @@
     var description = "Comparez les programmes de " + nbCandidats + " candidats aux élections municipales de " + ville + " " + annee + ". " + nbPropositions + " propositions détaillées et sourcées.";
 
     // URL canonique
-    var urlBase = window.location.origin + window.location.pathname;
-    var urlCanonique = urlBase + "?ville=" + (villeSelectionnee ? villeSelectionnee.id : ville.toLowerCase().replace(/\s+/g, '-'));
+    var villeId = villeSelectionnee ? villeSelectionnee.id : ville.toLowerCase().replace(/\s+/g, '-');
+    var urlCanonique = "https://pourquituvotes.fr/municipales-2026/" + villeId + "/";
 
     // Mettre à jour les balises meta
     mettreAJourMeta("description", description);

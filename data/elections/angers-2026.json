@@ -10,7 +10,9 @@
       "liste": "Angers pour vous (Horizons/Renaissance/MoDem)",
       "programmeUrl": "https://www.angersbechu.fr/",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVC",
+      "nuanceLibelle": "Liste divers centre"
     },
     {
       "id": "laveau",
@@ -18,7 +20,9 @@
       "liste": "Demain Angers (gauche unie/Écologistes)",
       "programmeUrl": "#",
       "programmeComplet": true,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
     },
     {
       "id": "saeidi",
@@ -26,7 +30,9 @@
       "liste": "Angers populaire (LFI)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "lahondes",
@@ -34,15 +40,9 @@
       "liste": "Rassemblement National",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "leandri",
-      "nom": "Noam Leandri",
-      "liste": "Angers Coopérative (citoyen)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "cuisinier",
@@ -50,7 +50,9 @@
       "liste": "Extrême gauche, NPA Révolutionnaires-ANGERS ouvrière et révolutionnaire",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     },
     {
       "id": "rambault",
@@ -58,7 +60,9 @@
       "liste": "Divers, Angers 2026",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDIV",
+      "nuanceLibelle": "Liste Divers"
     },
     {
       "id": "l-huillier",
@@ -66,7 +70,9 @@
       "liste": "Extrême gauche, Lutte ouvrière - Le camp des travailleurs",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
   "categories": [
@@ -101,7 +107,6 @@
                 "Doubler les effectifs de la police municipale et armer les agents d'armes létales dès 2026."
               ]
             },
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -122,7 +127,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -143,7 +147,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -163,7 +166,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -189,7 +191,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "bechu": {
               "mesures": [
                 "Acquisition de rames supplémentaires pour mettre en place des trams rallongés aux heures de pointe.",
@@ -225,7 +226,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -247,7 +247,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -261,7 +260,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -295,13 +293,6 @@
               ]
             },
             "lahondes": null,
-            "leandri": {
-              "source": "Angers Villactu, 2026",
-              "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-2026-angers-cooperative-passe-a-la-vitesse-superieure/",
-              "mesures": [
-                "Gratuité totale ou partielle des transports en commun (95% des citoyens consultés favorables)"
-              ]
-            },
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -334,7 +325,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -354,7 +344,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -381,7 +370,6 @@
               ]
             },
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -401,7 +389,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -435,7 +422,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -463,7 +449,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -482,7 +467,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -509,7 +493,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -538,7 +521,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -578,7 +560,6 @@
               ]
             },
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -598,7 +579,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -619,7 +599,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -646,7 +625,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -668,7 +646,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -706,7 +683,6 @@
               ]
             },
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -732,7 +708,6 @@
               ]
             },
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -761,7 +736,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -787,7 +761,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -815,7 +788,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -835,7 +807,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -861,7 +832,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -897,7 +867,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -923,7 +892,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -943,7 +911,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -972,7 +939,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -986,7 +952,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -1020,7 +985,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -1040,7 +1004,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -1066,7 +1029,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -1080,7 +1042,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -1101,7 +1062,6 @@
             "laveau": null,
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -1136,13 +1096,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": {
-              "source": "Angers Villactu, 2026",
-              "sourceUrl": "https://www.angers.villactu.fr/elections-municipales-2026-angers-cooperative-passe-a-la-vitesse-superieure/",
-              "mesures": [
-                "Créer un bureau mobile pour accompagner les habitants dans les démarches numériques, lutter contre la grande pauvreté."
-              ]
-            },
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -1162,7 +1115,6 @@
             },
             "saeidi": null,
             "lahondes": null,
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null
@@ -1194,7 +1146,6 @@
                 "Améliorer le pouvoir d'achat des Angevins et baisser les impôts locaux."
               ]
             },
-            "leandri": null,
             "cuisinier": null,
             "rambault": null,
             "l-huillier": null

@@ -10,7 +10,9 @@
       "liste": "PS (Parti Socialiste)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LSOC",
+      "nuanceLibelle": "Liste du Parti socialiste"
     },
     {
       "id": "rigault",
@@ -18,7 +20,9 @@
       "liste": "RN (Rassemblement National)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LRN",
+      "nuanceLibelle": "Liste du Rassemblement National"
     },
     {
       "id": "louvain",
@@ -26,7 +30,9 @@
       "liste": "LFI (La France Insoumise)",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LFI",
+      "nuanceLibelle": "Liste de La France insoumise"
     },
     {
       "id": "galzi",
@@ -34,7 +40,9 @@
       "liste": "Sans étiquette (droite), Galzi pour Avignon 2026",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "fiori",
@@ -42,15 +50,9 @@
       "liste": "Divers droite, Entreprendre pour Avignon",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
-    },
-    {
-      "id": "jacob",
-      "nom": "François Jacob",
-      "liste": "Sans étiquette",
-      "programmeUrl": "#",
-      "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LDVD",
+      "nuanceLibelle": "Liste divers droite"
     },
     {
       "id": "geslin",
@@ -58,7 +60,9 @@
       "liste": "Extrême gauche, Liste ouvrière et jeune pour la défense des intérêts de la population et des services publics",
       "programmeUrl": "#",
       "programmeComplet": false,
-      "programmePdfPath": null
+      "programmePdfPath": null,
+      "nuanceOfficielle": "LEXG",
+      "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
   "categories": [
@@ -99,7 +103,6 @@
                 "Mettre en place une police municipale actionnée 24/7 avec création d'une brigade canine avec 6 chiens et 6 conducteurs jour et nuit."
               ]
             },
-            "jacob": null,
             "geslin": null
           }
         },
@@ -124,7 +127,6 @@
               ]
             },
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -149,7 +151,6 @@
               ]
             },
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -162,7 +163,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -193,7 +193,6 @@
               ]
             },
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -212,7 +211,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -243,7 +241,6 @@
                 "Restaurer les axes principaux en circulation bidirectionnelle, sauf là où les travaux l'empêchent."
               ]
             },
-            "jacob": null,
             "geslin": null
           }
         },
@@ -256,7 +253,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -269,7 +265,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -294,7 +289,6 @@
             },
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -307,7 +301,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -326,7 +319,6 @@
             },
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -339,7 +331,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -358,7 +349,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -389,7 +379,6 @@
               ]
             },
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -408,7 +397,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -421,7 +409,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -440,7 +427,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -459,7 +445,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -478,7 +463,6 @@
               ]
             },
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -491,7 +475,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -504,7 +487,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -517,7 +499,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -542,7 +523,6 @@
                 "Créer une 'police municipale santé' pour assurer la sécurité de l'hôpital, des établissements privés qui le demandent et des pharmacies."
               ]
             },
-            "jacob": null,
             "geslin": null
           }
         },
@@ -555,7 +535,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -568,7 +547,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -587,7 +565,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -606,7 +583,6 @@
             },
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -619,7 +595,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -638,7 +613,6 @@
               ]
             },
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -657,7 +631,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -670,7 +643,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -683,7 +655,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -708,7 +679,6 @@
               ]
             },
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -727,7 +697,6 @@
               ]
             },
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -746,7 +715,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -759,7 +727,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -790,7 +757,6 @@
                 "Étudier la faisabilité d'enfouir le périphérique d'Avignon sur environ 2,5 kilomètres."
               ]
             },
-            "jacob": null,
             "geslin": null
           }
         },
@@ -803,7 +769,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -816,7 +781,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }
@@ -835,7 +799,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -854,7 +817,6 @@
             },
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         },
@@ -867,7 +829,6 @@
             "louvain": null,
             "galzi": null,
             "fiori": null,
-            "jacob": null,
             "geslin": null
           }
         }

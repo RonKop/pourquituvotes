@@ -1,0 +1,655 @@
+{
+  "ville": "Saint-Herblain",
+  "annee": 2026,
+  "type": "Élections municipales",
+  "dateVote": "2026-03-15T08:00:00",
+  "candidats": [
+    {
+      "id": "affile",
+      "nom": "Bertrand Affilé",
+      "liste": "Ensemble pour Saint-Herblain (PS/PCF/EELV/PP/L'Après/UDB)",
+      "programmeUrl": "https://ensemblepourstherblain.fr/",
+      "programmeComplet": true,
+      "programmePdfPath": "programme-Ensemble-pour-Saint-Herblain-2026.pdf",
+      "nuanceOfficielle": "LUG",
+      "nuanceLibelle": "Liste d'union à gauche"
+    }
+  ],
+  "categories": [
+    {
+      "id": "securite",
+      "nom": "Sécurité & Prévention",
+      "sousThemes": [
+        {
+          "id": "police-municipale",
+          "nom": "Police municipale",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Renforcer la présence humaine dans tous les quartiers, en augmentant les effectifs de la police municipale et de l'équipe de prévention.",
+                "Renforcer la sécurité des piétons aux abords des groupes scolaires et mieux sécuriser les équipements publics."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "videoprotection",
+          "nom": "Vidéoprotection",
+          "propositions": {
+            "affile": null
+          }
+        },
+        {
+          "id": "prevention-mediation",
+          "nom": "Prévention & Médiation",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Organiser une convention citoyenne de la tranquillité publique.",
+                "Ouvrir une maison de la tranquillité publique et de la prévention.",
+                "Accompagner les propriétaires privés dans la lutte contre les occupations illicites.",
+                "Résorber les friches industrielles en favorisant la réimplantation d'activités économiques.",
+                "Renforcer les dispositifs de mise à l'abri des personnes à la rue."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "violences-femmes",
+          "nom": "Violences faites aux femmes",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Créer une semaine de lutte contre les violences sexistes et sexuelles auprès de tous les publics."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "nom": "Transports & Mobilité",
+      "sousThemes": [
+        {
+          "id": "transports-en-commun",
+          "nom": "Transports en commun",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Poursuivre le développement des transports en commun desservant Saint-Herblain en lien avec Nantes Métropole.",
+                "Développer l'offre de transports en commun, avec l'ouverture de la ligne 7 de tramway jusqu'à Rezé, le prolongement de la ligne C3 jusqu'à Laennec, le renforcement de la ligne C8 et la poursuite des lignes C20 et 50 jusqu'à Babinière.",
+                "Adapter le financement des transports en commun pour les sorties scolaires des groupes/classes."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "velo-mobilites-douces",
+          "nom": "Vélo & Mobilités douces",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Développer la culture du vélo (savoir rouler, s'équiper, réparer) pour tous les publics, en particulier pour les trajets courts vers les écoles, collèges et commerces de proximité.",
+                "Renforcer la piétonnisation et la place du vélo en ville, en s'appuyant sur l'expertise des usagers et des acteurs du quartier comme les commerçants ou les associations.",
+                "Soutenir les initiatives d'accompagnement jusqu'à l'école comme le pédibus ou les rues scolaires."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "pietons-circulation",
+          "nom": "Piétons & Circulation",
+          "propositions": {
+            "affile": null
+          }
+        },
+        {
+          "id": "stationnement",
+          "nom": "Stationnement",
+          "propositions": {
+            "affile": null
+          }
+        },
+        {
+          "id": "tarifs-gratuite",
+          "nom": "Tarifs & Gratuité",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Étendre la tarification solidaire des services de mobilités Naolib."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "logement",
+      "nom": "Logement",
+      "sousThemes": [
+        {
+          "id": "logement-social",
+          "nom": "Logement social",
+          "propositions": {
+            "affile": null
+          }
+        },
+        {
+          "id": "logements-vacants",
+          "nom": "Logements vacants",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Inscrire le principe de réversibilité des bureaux en logements dans les documents de planification urbaine, pour les nouveaux projets."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "encadrement-loyers",
+          "nom": "Encadrement des loyers",
+          "propositions": {
+            "affile": null
+          }
+        },
+        {
+          "id": "acces-logement",
+          "nom": "Accès au logement",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Prévoir systématiquement des balcons et des espaces de ressourcement comme des potagers ou des vergers dans les nouveaux logements collectifs.",
+                "Poursuivre la transformation du secteur d'Atlantis, entre boulevard Marcel Paul, la RN 444 et le périphérique, en y permettant la construction de logements.",
+                "Encourager les différents modes d'habitat pour les seniors en accompagnant leurs parcours résidentiels et en soutenant des projets associatifs favorisant la colocation intergénérationnelle."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "nom": "Éducation & Jeunesse",
+      "sousThemes": [
+        {
+          "id": "petite-enfance",
+          "nom": "Petite enfance",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Renforcer les modalités de garde d'enfants d'urgence et ponctuelles pour répondre rapidement aux besoins des familles, notamment monoparentales.",
+                "Augmenter la capacité d'accueil de jeunes enfants dans les structures publiques : crèche municipale ou familiale."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "ecoles-renovation",
+          "nom": "Écoles & Rénovation",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Isoler et moderniser les bâtiments municipaux, en particulier les écoles, pour les adapter à toutes les températures.",
+                "Poursuivre la création d'îlots de fraîcheur dans chaque quartier et dans chaque école."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "cantines-fournitures",
+          "nom": "Cantines & Fournitures",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Soutenir l'action des associations de parents d'élèves, par exemple en participant à l'achat groupé des fournitures scolaires."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "periscolaire-loisirs",
+          "nom": "Périscolaire & Loisirs",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Accueillir les enfants et les jeunes dans la vie politique et la citoyenneté avec un parcours citoyen."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "jeunesse",
+          "nom": "Jeunesse",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Lancer une grande concertation pour redéfinir la politique municipale pour et avec les jeunes.",
+                "Développer l'ouverture aux autres et l'implication des jeunes en leur proposant des séjours citoyens et solidaires.",
+                "Proposer aux jeunes des dispositifs leur permettant de faire leurs premiers pas dans le monde du travail grâce à de petites missions rémunérées comme le dispositif \"Argent de Poche\".",
+                "Créer des points d'écoute et d'accueil Santé Mentale dédiés aux jeunes."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "nom": "Environnement & Transition écologique",
+      "sousThemes": [
+        {
+          "id": "espaces-verts",
+          "nom": "Espaces verts & Biodiversité",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Continuer à végétaliser la voirie et les espaces publics, en privilégiant les arbres fruitiers et les essences de végétaux résistantes au changement climatique.",
+                "Proposer des vergers et potagers publics en libre accès, en lien avec les associations.",
+                "Lutter contre les espèces invasives comme les frelons asiatiques ou les moustiques tigre.",
+                "Encourager le développement d'une agriculture urbaine et biologique (fermes urbaines, installation d'agriculteurs), en lien avec Nantes Métropole et les acteurs concernés."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "proprete-dechets",
+          "nom": "Propreté & Déchets",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Installer des toilettes publiques dans chaque micro-quartier de la ville.",
+                "Reconstruire la déchetterie de Tougas.",
+                "Renforcer les actions pour réduire la pollution lumineuse et visuelle."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "climat-adaptation",
+          "nom": "Climat & Adaptation",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Maîtriser l'urbanisation, en (re)construisant la ville sur des espaces déjà artificialisés.",
+                "Aménager des espaces publics ombragés dans chaque quartier pour faciliter les rencontres.",
+                "Valoriser les bénéfices pour la santé des espaces naturels de notre commune."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "renovation-energetique",
+          "nom": "Rénovation énergétique",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Favoriser l'autoconsommation énergétique pour les bâtiments communaux afin de faire baisser la facture d'électricité de la ville.",
+                "Encourager les projets collectifs d'autoconsommation énergétique des ménages.",
+                "Étendre les réseaux de chaleur basés sur la biomasse vers le bourg et Atlantis."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "alimentation-durable",
+          "nom": "Alimentation durable",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Créer une sécurité sociale de l'alimentation pour permettre l'accès à une nourriture saine, bio et locale accessible à toutes et tous."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sante",
+      "nom": "Santé & Accès aux soins",
+      "sousThemes": [
+        {
+          "id": "centres-sante",
+          "nom": "Centres de santé",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Agir pour l'ouverture de maisons de santé dans les quartiers populaires, en s'appuyant sur les différents partenaires.",
+                "Assurer une aide renforcée à l'installation des médecins généralistes et spécialistes ainsi que des autres professionnels de santé pour lutter contre les déserts médicaux."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "prevention-sante",
+          "nom": "Prévention santé",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Renforcer les actions de sensibilisation à la santé auprès des enfants, en particulier sur l'usage des écrans.",
+                "Accompagner les projets de pratiques sportives visant le maintien en forme et en bonne santé."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "seniors",
+          "nom": "Seniors",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Adapter la ville et ses équipements aux personnes âgées, en concertation avec elles dans la démarche \"Ville amie des aînés\".",
+                "Favoriser la mobilité des seniors pour les actes de la vie quotidienne et les loisirs en élargissant le mode de transport municipal à la demande.",
+                "Soutenir des projets associatifs facilitant le quotidien des personnes âgées et l'accompagnement de leurs aidants.",
+                "Repenser, avec et pour les seniors, l'offre de loisirs en s'appuyant sur les partenaires de quartiers pour coordonner des temps de loisirs et de prévention.",
+                "Mettre en place des réductions de tarifs pour les aidants familiaux afin de faciliter leur accès aux équipements et à la programmation culturelle et sportive herblinoise."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "nom": "Démocratie & Vie citoyenne",
+      "sousThemes": [
+        {
+          "id": "budget-participatif",
+          "nom": "Budget participatif",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Soutenir les initiatives citoyennes de proximité via un budget participatif.",
+                "Co-construire les politiques municipales avec les habitantes et les habitants notamment avec des conventions citoyennes et des commissions extras municipales.",
+                "Ouvrir aux habitantes et habitants le droit à l'interpellation citoyenne en Conseil Municipal au nom d'intérêts collectifs."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "transparence",
+          "nom": "Transparence",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Proposer des modalités de participation aux rencontres publiques, adaptées aux contraintes de chacune et chacun, avec des modes de garde, des visioconférences, des plateformes numériques et des horaires compatibles avec la vie familiale.",
+                "Organiser des temps de dialogue citoyens par micro-quartier, définis avec les habitantes et habitants, en lien avec les élues et élus de quartier."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "vie-associative",
+          "nom": "Vie associative",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Renforcer le soutien à la vie associative en favorisant la coopération et la mutualisation, en augmentant les lieux de stockage de matériel et en créant un archivage numérique pour les associations.",
+                "Encourager l'engagement associatif par l'organisation d'une Journée du bénévolat.",
+                "Renforcer le soutien à l'action socioculturelle et accompagner les dynamiques associatives sur les actions d'éducation populaire.",
+                "Soutenir le développement de tiers-lieux associatifs."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "services-publics",
+          "nom": "Services publics",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Organiser des permanences mobiles pour faciliter les démarches administratives en proximité.",
+                "Proposer des rendez-vous \"état civil\" et \"formalités\" en dehors des horaires habituels.",
+                "Moderniser l'accès aux équipements municipaux, notamment les piscines, et simplifier les réservations des salles municipales.",
+                "Renforcer l'accessibilité et l'accueil des services municipaux pour les personnes en situation de handicap."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "nom": "Économie & Emploi",
+      "sousThemes": [
+        {
+          "id": "commerce-local",
+          "nom": "Commerce local",
+          "propositions": {
+            "affile": null
+          }
+        },
+        {
+          "id": "emploi-insertion",
+          "nom": "Emploi & Insertion",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Soutenir les initiatives et les lieux de l'économie sociale et solidaire engagés dans la bifurcation écologique."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "attractivite",
+          "nom": "Attractivité",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Poursuivre le réaménagement du secteur Laennec avec une mixité de fonctions : un parc d'entreprises de biotechnologies et de l'habitat."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "nom": "Culture & Patrimoine",
+      "sousThemes": [
+        {
+          "id": "equipements-culturels",
+          "nom": "Équipements culturels",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Relocaliser Terminus 3, lieu dédié aux pratiques musicales en amateur.",
+                "Développer les démarches hors les murs des équipements culturels métropolitains."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "evenements-creation",
+          "nom": "Événements & Création",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Continuer à faire de Saint-Herblain une ville vivante en développant des événements festifs dans chaque quartier.",
+                "Mettre en valeur la diversité de Saint-Herblain à travers un événement valorisant la richesse interculturelle.",
+                "Renforcer le soutien à l'apprentissage et à la pratique de la langue bretonne pour tous les publics et promouvoir la culture bretonne, en tant que patrimoine local vivant."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "nom": "Sport & Loisirs",
+      "sousThemes": [
+        {
+          "id": "equipements-sportifs",
+          "nom": "Équipements sportifs",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Augmenter le nombre de créneaux et d'espaces sportifs par la construction d'un nouveau gymnase sur le quartier Centre et la réalisation d'un boulodrome sportif couvert au Vigneau.",
+                "Diversifier les usages des équipements municipaux pour répondre aux besoins des habitants et des associations."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "sport-pour-tous",
+          "nom": "Sport pour tous",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Encourager les pratiques sportives et culturelles, notamment par l'extension de l'aide financière existante à tous les âges et par l'organisation d'une bourse aux équipements et matériels.",
+                "Promouvoir la pratique féminine et la pratique inclusive auprès des acteurs associatifs.",
+                "Développer les pratiques sportives libres par le prêt de kits de matériel et par la création de parcours guidés dans chaque quartier.",
+                "Soutenir les pratiques émergentes accessibles à tous les âges comme le pickleball et la création d'un événement E-Sport.",
+                "Renforcer le soutien au haut-niveau local en organisant une cérémonie des trophées sportifs et en accompagnant la création d'un cursus sport-études."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "urbanisme",
+      "nom": "Urbanisme & Cadre de vie",
+      "sousThemes": [
+        {
+          "id": "amenagement-urbain",
+          "nom": "Aménagement urbain",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Aménager la ville à hauteur d'enfant : mobilier urbain, mobilité, signalétique, espaces de jeux.",
+                "Achever le projet de renouvellement du Grand Bellevue.",
+                "Continuer à préparer le renouvellement progressif de la route de Vannes, en engageant la mutation des premiers îlots."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "accessibilite",
+          "nom": "Accessibilité",
+          "propositions": {
+            "affile": null
+          }
+        },
+        {
+          "id": "quartiers-prioritaires",
+          "nom": "Quartiers prioritaires",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Aménager un second terrain d'insertion temporaire pour les migrants européens non sédentaires."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "solidarite",
+      "nom": "Solidarité & Égalité",
+      "sousThemes": [
+        {
+          "id": "aide-sociale",
+          "nom": "Aide sociale",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Favoriser les échanges avec nos villes jumelées en lien avec le Carré International.",
+                "Soutenir les associations et collectifs qui donnent une seconde vie aux objets.",
+                "Récupérer le plus souvent possible et réemployer l'eau de pluie dans les bâtiments publics."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        },
+        {
+          "id": "egalite-discriminations",
+          "nom": "Égalité & Discriminations",
+          "propositions": {
+            "affile": null
+          }
+        },
+        {
+          "id": "pouvoir-achat",
+          "nom": "Pouvoir d'achat",
+          "propositions": {
+            "affile": {
+              "mesures": [
+                "Œuvrer à la mise en place d'une tarification de l'eau rendant gratuits les premiers m³ essentiels."
+              ],
+              "source": "Programme officiel 2026 — Ensemble pour Saint-Herblain",
+              "sourceUrl": "https://ensemblepourstherblain.fr/"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

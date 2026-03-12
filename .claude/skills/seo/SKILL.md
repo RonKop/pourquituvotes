@@ -84,8 +84,8 @@ Automatiquement quand la tâche touche à :
 
 ## Règles spécifiques au projet
 
-- **103 pages villes** dans `municipales-2026/*/index.html` : chacune a son canonical, ses meta, son JSON-LD
-- **548 pages candidats** dans `municipales-2026/*/candidats/*/index.html` : JSON-LD Person + Event
+- **135 pages villes** dans `municipales-2026/*/index.html` : chacune a son canonical, ses meta, son JSON-LD
+- **853 pages candidats** dans `municipales-2026/*/candidats/*/index.html` : JSON-LD Person + Event
 - **Cache busting** : `?v=DATA_VERSION` sur CSS/JS, mis à jour par `generateur_commun.py`
 - **Jamais de CSP** sur ce projet (GTM injecte des scripts dynamiques)
 - **Google Search Console** : vérifier que les changements ne créent pas de nouveaux problèmes d'indexation
@@ -148,6 +148,46 @@ Automatiquement quand la tâche touche à :
 - Le fil d'Ariane (BreadcrumbList) assure la hiérarchie : Accueil → Municipales 2026 → Ville → Candidat
 - `_redirects` Cloudflare : toujours 301 (permanent), jamais 302
 - Pas de CSP (GTM injecte des scripts dynamiques) — vérifier avant tout changement d'headers
+
+## Optimisation des titles/meta depuis les données GSC
+
+Quand les données GSC révèlent des opportunités (voir skill `/gsc`), voici comment agir :
+
+### Templates de titres — `generate_static_shells.py`
+
+Les titles sont générés par `make_candidate_title()` (4 niveaux de fallback, max 60 chars).
+Les meta descriptions par `make_candidate_desc()` (max 155 chars).
+
+**Principes pour optimiser les templates** :
+- Le mot-clé principal DOIT être en début de title (pas à la fin)
+- Pattern performant : `{Nom} — Programme Municipales 2026 {Ville} | PQTV`
+- La meta description doit contenir : nom, ville, nombre de propositions, et un call-to-action ("Comparez")
+- Ajouter "municipales 2026" dans TOUS les titles candidats (les requêtes le contiennent presque toujours)
+- Ajouter le nom de la ville dans TOUS les titles candidats
+- Le nom de la liste politique est un signal de pertinence pour les requêtes partisanes
+
+**Quand modifier le template vs. les données** :
+- Template (`generate_static_shells.py`) : si le changement s'applique à TOUS les candidats/villes
+- Données JSON : si c'est spécifique à un candidat (ex: alias, nom alternatif)
+
+### Bloc SEO HTML (avant le footer)
+
+Le générateur injecte des blocs `<h2>`, `<h3>` et du texte dans chaque shell.
+Ces blocs sont le seul contenu textuel visible par Googlebot (le reste est chargé en JS).
+
+**Enrichir ces blocs** :
+- Ajouter le nom de la liste politique dans le H2 candidat
+- Ajouter le nombre de propositions par top thème
+- Ajouter des liens internes vers les candidats concurrents de la même ville
+- Ajouter un lien vers la page enjeux correspondant au thème principal du candidat
+
+### Après modification des templates
+
+TOUJOURS :
+1. Regénérer : `python scripts/generate_static_shells.py`
+2. Spot-check 3-4 pages pour vérifier les titles/meta
+3. Bumper DATA_VERSION
+4. Déployer via `/deploy`
 
 ## Si un problème SEO est détecté
 

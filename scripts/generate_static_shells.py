@@ -57,34 +57,44 @@ def count_propositions(el_data, candidate_id):
 
 
 def make_candidate_title(nom, ville, max_len=60):
-    """Génère un titre SEO candidat qui tient dans max_len caractères."""
-    # Format idéal : "Nom (Ville) : Programme et Analyse | Municipales 2026"
-    full = f"{nom} ({ville}) : Programme et Analyse | Municipales 2026"
+    """Génère un titre SEO candidat qui tient dans max_len caractères.
+    Le mot-clé 'Programme Municipales 2026' est placé en début ou milieu,
+    jamais tronqué en fin de title."""
+    # Format idéal : "Programme Nom — Municipales 2026 Ville"
+    full = f"Programme {nom} — Municipales 2026 {ville}"
     if len(full) <= max_len:
         return full
-    # Raccourci : "Nom (Ville) : Programme | Municipales 2026"
-    short = f"{nom} ({ville}) : Programme | Municipales 2026"
+    # Raccourci : "Nom — Programme Municipales 2026 Ville"
+    short = f"{nom} — Programme Municipales 2026 {ville}"
     if len(short) <= max_len:
         return short
-    # Minimal : "Nom (Ville) | Municipales 2026"
-    minimal = f"{nom} ({ville}) | Municipales 2026"
+    # Compact : "Nom — Municipales 2026 Ville"
+    compact = f"{nom} — Municipales 2026 {ville}"
+    if len(compact) <= max_len:
+        return compact
+    # Minimal : "Nom — Municipales 2026"
+    minimal = f"{nom} — Municipales 2026"
     if len(minimal) <= max_len:
         return minimal
     # Dernier recours : tronquer le nom
-    remaining = max_len - len(f" ({ville}) | Municipales 2026")
-    return f"{nom[:remaining-1]}… ({ville}) | Municipales 2026"
+    remaining = max_len - len(" — Municipales 2026")
+    return f"{nom[:remaining-1]}… — Municipales 2026"
 
 
-def make_candidate_desc(nom, ville, n_props, max_len=155):
-    """Génère une meta description conditionnelle selon le nombre de propositions."""
+def make_candidate_desc(nom, ville, n_props, liste="", max_len=155):
+    """Génère une meta description conditionnelle selon le nombre de propositions.
+    Inclut la liste politique pour les requêtes partisanes."""
+    liste_short = f" ({liste})" if liste else ""
     if n_props > 0:
-        desc = f"Programme de {nom} pour {ville} : {n_props} propositions sur la sécurité, les transports, le logement… Comparez les candidats aux municipales 2026."
+        desc = f"Programme de {nom}{liste_short} aux municipales 2026 à {ville} : {n_props} propositions analysées. Comparez les candidats."
         if len(desc) > max_len:
-            desc = f"Programme de {nom} ({ville}) : {n_props} propositions analysées. Comparez avec les autres candidats aux municipales 2026."
+            desc = f"Programme de {nom} aux municipales 2026 à {ville} : {n_props} propositions. Comparez les candidats."
+        if len(desc) > max_len:
+            desc = f"Programme {nom} — Municipales 2026 {ville} : {n_props} propositions analysées."
     else:
-        desc = f"Profil de {nom}, candidat aux municipales 2026 à {ville}. Comparez les enjeux locaux et restez informé dès publication de son programme."
+        desc = f"{nom}{liste_short}, candidat aux municipales 2026 à {ville}. Comparez les programmes et suivez la campagne."
         if len(desc) > max_len:
-            desc = f"{nom}, candidat aux municipales 2026 à {ville}. Comparez les enjeux et suivez la publication de son programme."
+            desc = f"{nom}, candidat aux municipales 2026 à {ville}. Comparez les programmes dès publication."
     return desc[:max_len]
 
 
@@ -283,13 +293,14 @@ def make_city_seo_content(ville_data, el_data, schema_cats):
     candidats = el_data.get("candidats", []) if el_data else []
 
     # Lister les candidats avec infos
+    vid = ville_data["id"]
     cand_lines = []
     for c in candidats:
         n_p = count_propositions(el_data, c["id"]) if el_data else 0
         status = f"{n_p} propositions" if n_p > 0 else "programme en attente"
         if c.get("programmeComplet"):
             status += " — programme complet"
-        cand_lines.append(f'      <li><strong>{escape(c["nom"])}</strong> ({escape(c.get("liste", ""))}) — {status}</li>')
+        cand_lines.append(f'      <li><a href="/municipales-2026/{escape(vid)}/candidats/{escape(c["id"])}/"><strong>{escape(c["nom"])}</strong></a> ({escape(c.get("liste", ""))}) — {status}</li>')
     cand_list = "\n".join(cand_lines)
 
     # Thèmes les plus couverts
@@ -317,8 +328,9 @@ def make_city_seo_content(ville_data, el_data, schema_cats):
     return html
 
 
-def make_candidate_seo_content(cand_data, ville_name, el_data):
-    """Génère un bloc HTML SEO unique pour une page candidat."""
+def make_candidate_seo_content(cand_data, ville_name, ville_id, el_data):
+    """Génère un bloc HTML SEO unique pour une page candidat.
+    Inclut des liens internes vers les autres candidats de la même ville."""
     cnom = cand_data.get("nom", "")
     cid = cand_data.get("id", "")
     cliste = cand_data.get("liste", "")
@@ -357,6 +369,20 @@ def make_candidate_seo_content(cand_data, ville_name, el_data):
             cat_nom = cat_names.get(cat_id, cat_id)
             html += f"""
       <li>{escape(cat_nom)} : {count} proposition{"s" if count > 1 else ""}</li>"""
+        html += """
+    </ul>"""
+
+    # Liens internes vers les autres candidats de la même ville
+    other_cands = [c for c in el_data.get("candidats", []) if c["id"] != cid]
+    if other_cands:
+        html += f"""
+    <h3>Autres candidats aux municipales 2026 à {escape(ville_name)}</h3>
+    <ul>"""
+        for oc in other_cands:
+            oc_n_props = count_propositions(el_data, oc["id"])
+            oc_status = f"{oc_n_props} propositions" if oc_n_props > 0 else "programme en attente"
+            html += f"""
+      <li><a href="/municipales-2026/{escape(ville_id)}/candidats/{escape(oc['id'])}/">{escape(oc['nom'])}</a> ({escape(oc.get('liste', ''))}) — {oc_status}</li>"""
         html += """
     </ul>"""
 
@@ -470,7 +496,7 @@ def main():
             # Titre SEO optimisé (max 60 chars)
             c_title = make_candidate_title(cnom, vnom)
             # Description conditionnelle (max 155 chars)
-            c_desc = make_candidate_desc(cnom, vnom, n_props)
+            c_desc = make_candidate_desc(cnom, vnom, n_props, liste=cliste)
             c_url = f"{BASE_URL}/municipales-2026/{vid}/candidats/{cid}/"
             c_og = f"{OG_BASE}{vid}-{cid}.jpg"
 
@@ -481,7 +507,7 @@ def main():
             c_rel = f"municipales-2026/{vid}/candidats/{cid}/index.html"
 
             # Contenu SEO unique par candidat
-            cand_seo = make_candidate_seo_content(el_cand, vnom, el_data) if el_data else ""
+            cand_seo = make_candidate_seo_content(el_cand, vnom, vid, el_data) if el_data else ""
 
             write_shell(c_rel, c_head, cand_assets, cand_body, dry_run, seo_content=cand_seo)
             count += 1

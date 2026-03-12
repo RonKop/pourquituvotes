@@ -97,10 +97,43 @@ python scripts/valider_donnees.py
 
 Vérifier que la validation passe (RÉSULTAT : TOUT EST OK).
 
-## Étape 7 — Commit et push
+## Étape 7 — Mettre à jour villes.json (si nouvelle ville)
+
+Si la ville n'existait pas encore dans `data/villes.json` :
+1. Ajouter l'entrée en respectant l'ordre alphabétique
+2. Remplir : id, nom, codePostal, departement, elections, stats, candidats, derniereMaj
+
+Si la ville existait déjà mais on ajoute un candidat :
+1. Mettre à jour stats (candidats, propositions, themes, complets)
+2. Ajouter le candidat dans la liste candidats
+3. OU lancer `python scripts/regenerer_stats_villes.py --apply` pour auto-sync
+
+## Étape 8 — Regénérer shells, stats et bumper DATA_VERSION
+
+OBLIGATOIRE après chaque intégration :
 
 ```bash
-git add data/elections/{ville}-2026.json scripts/update_{candidat_id}_{ville}.py
+# Stats
+python scripts/calculer_metriques.py
+python scripts/regenerer_stats_villes.py --apply
+
+# Shells statiques (SEO : meta descriptions avec nombre de propositions)
+python scripts/generate_static_shells.py
+
+# stats-global.json (script inline ou via /stats)
+
+# DATA_VERSION dans js/app.js ET js/home.js
+# Format : YYYYMMDDNN (date + séquentiel)
+```
+
+Sans cette étape, les meta descriptions SEO des pages candidats gardent les anciens chiffres de propositions.
+
+## Étape 9 — Commit et push
+
+```bash
+git add -A
+# Vérifier qu'on ne commite pas de fichiers sensibles (.env, credentials)
+git status
 git commit -m "feat({ville}): intégrer programme complet {nom} ({N} mesures)
 
 Source : {source}, reçu le {date}.
@@ -110,7 +143,7 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
 git push
 ```
 
-## Étape 8 — Rédiger le mail de réponse
+## Étape 10 — Rédiger le mail de réponse
 
 Rédiger un mail de réponse poli et professionnel :
 - Remercier pour l'envoi du programme

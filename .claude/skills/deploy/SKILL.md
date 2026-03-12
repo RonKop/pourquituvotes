@@ -17,7 +17,11 @@ Workflow complet de vérification et déploiement du site.
 python scripts/valider_donnees.py
 ```
 
-STOP si le résultat n'est pas "TOUT EST OK".
+Analyser le résultat :
+- **Erreurs nouvelles** (liées aux changements en cours) : STOP et corriger avant de continuer
+- **Erreurs préexistantes** (villes stub sans données, candidats à 0 propositions) : OK de continuer, les signaler
+- Vérifier spécifiquement les fichiers modifiés : `python scripts/valider_donnees.py 2>&1 | grep -i "{ville}"` pour les villes touchées
+- Les "0 categories" sur les villes stub ne sont PAS bloquantes (ce sont des villes sans programme intégré)
 
 ## Étape 2 — Regénérer les statistiques
 
@@ -26,7 +30,11 @@ python scripts/calculer_metriques.py
 python scripts/regenerer_stats_villes.py --apply
 ```
 
-Et regénérer stats-global.json (script inline du skill /stats).
+Regénérer `stats-global.json` avec un script Python inline :
+- Lire tous les fichiers `data/elections/*.json`
+- Compter les mesures par catégorie, total candidats, total propositions, total complets
+- Écrire le résultat dans `data/stats-global.json`
+- (Voir le skill /stats pour le script complet)
 
 ## Étape 3 — Regénérer les shells statiques
 

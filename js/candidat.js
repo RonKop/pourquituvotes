@@ -183,6 +183,7 @@
         '<div class="candidat-hero__info">' +
           '<h1 class="candidat-hero__nom">' + echapper(candidat.nom) + '</h1>' +
           '<div class="candidat-hero__liste">' + echapper(candidat.liste) + ' &mdash; ' + echapper(ville) + '</div>' +
+          (candidat.nuanceLibelle ? '<div class="candidat-hero__nuance"><i class="ph ph-tag"></i> ' + echapper(candidat.nuanceLibelle) + '</div>' : '') +
           (candidat.soutiens ? '<div class="candidat-hero__soutiens">Soutenue par : ' + echapper(candidat.soutiens) + '</div>' : '') +
           '<div class="candidat-hero__tags">' +
             (candidat.programmeComplet

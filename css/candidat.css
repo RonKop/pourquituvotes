@@ -56,7 +56,22 @@
 .candidat-hero__liste {
   font-size: 0.9rem;
   color: rgba(255,255,255,0.8);
+  margin-bottom: 0.25rem;
+}
+.candidat-hero__nuance {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.55);
+  background: rgba(255,255,255,0.08);
+  padding: 3px 10px;
+  border-radius: 20px;
   margin-bottom: 0.5rem;
+}
+.candidat-hero__nuance i {
+  font-size: 0.7rem;
 }
 .candidat-hero__soutiens {
   font-size: 0.75rem;

@@ -3602,7 +3602,16 @@ a.repartition-avertissement__tag .repartition-avertissement__nom { text-decorati
 .candidat-header__liste {
   font-size: 0.75rem;
   color: var(--couleur-texte-secondaire);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.candidat-header__nuance {
+  font-size: 0.65rem;
+  color: var(--couleur-texte-tertiaire, #94a3b8);
+  background: var(--couleur-surface-hover, rgba(0,0,0,0.04));
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-bottom: 0.4rem;
 }
 
 .candidat-header__badges {

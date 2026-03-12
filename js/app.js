@@ -3616,6 +3616,7 @@
       headerCand.innerHTML =
         '<a href="' + profilUrl + '" class="candidat-header__nom candidat-header__nom--link">' + echapper(candidat.nom) + '</a>' +
         '<div class="candidat-header__liste" style="color:' + getCouleurParti(candidat, 0) + '">' + echapper(candidat.liste) + '</div>' +
+        (candidat.nuanceLibelle ? '<div class="candidat-header__nuance">' + echapper(candidat.nuanceLibelle) + '</div>' : '') +
         '<div class="candidat-header__badges">' + badgeHTML + '</div>' +
         actionsHTML;
       colonne.appendChild(headerCand);

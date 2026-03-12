@@ -5972,13 +5972,13 @@ mark {
   font-family: var(--font-heading, 'Montserrat', sans-serif);
   font-size: 0.78rem;
   font-weight: 600;
-  color: #94a3b8;
+  color: var(--couleur-texte, #1e293b);
   margin: 0.75rem 0 0.4rem;
 }
 .seo-content h2 { margin-top: 0; }
 .seo-content p {
   margin: 0 0 0.5rem;
-  color: #94a3b8;
+  color: var(--couleur-texte, #1e293b);
 }
 .seo-content ul {
   margin: 0 0 0.5rem;

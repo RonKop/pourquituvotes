@@ -1,69 +1,69 @@
 {
-  "genere_le": "2026-03-11T15:54:02",
+  "genere_le": "2026-03-14T14:58:32",
   "national": {
     "total_villes": 135,
     "total_candidats": 853,
-    "total_mesures": 11351,
+    "total_mesures": 11496,
     "themes_ranking": [
       {
         "id": "environnement",
         "nom": "Environnement & Transition écologique",
-        "total_mesures": 1473
+        "total_mesures": 1492
       },
       {
         "id": "transports",
         "nom": "Transports & Mobilité",
-        "total_mesures": 1257
+        "total_mesures": 1270
       },
       {
         "id": "education",
         "nom": "Éducation & Jeunesse",
-        "total_mesures": 1195
+        "total_mesures": 1214
       },
       {
         "id": "democratie",
         "nom": "Démocratie & Vie citoyenne",
-        "total_mesures": 1183
+        "total_mesures": 1195
       },
       {
         "id": "securite",
         "nom": "Sécurité & Prévention",
-        "total_mesures": 1157
+        "total_mesures": 1172
       },
       {
         "id": "economie",
         "nom": "Économie & Emploi",
-        "total_mesures": 963
+        "total_mesures": 973
       },
       {
         "id": "logement",
         "nom": "Logement",
-        "total_mesures": 764
+        "total_mesures": 775
       },
       {
         "id": "sante",
         "nom": "Santé & Accès aux soins",
-        "total_mesures": 755
+        "total_mesures": 767
       },
       {
         "id": "solidarite",
         "nom": "Solidarité & Égalité",
-        "total_mesures": 740
+        "total_mesures": 751
       },
       {
         "id": "urbanisme",
         "nom": "Urbanisme & Cadre de vie",
-        "total_mesures": 712
+        "total_mesures": 723
       },
       {
         "id": "culture",
         "nom": "Culture & Patrimoine",
-        "total_mesures": 708
+        "total_mesures": 713
       },
       {
         "id": "sport",
         "nom": "Sport & Loisirs",
-        "total_mesures": 444
+        "total_mesures": 451
       }
     ],
     "top10_candidats": [
@@ -148,7 +148,7 @@
         "pct_mesures_chiffrees": 10.2
       }
     ],
-    "pct_moyen_chiffre": 16.4
+    "pct_moyen_chiffre": 16.3
   },
   "villes": [
     {
@@ -1167,9 +1167,9 @@
         "total_mesures": 17
       },
       "theme_plus_clivant": {
-        "id": "securite",
+        "id": "solidarite",
         "ecart": 50.0,
-        "nom": "Sécurité & Prévention"
+        "nom": "Solidarité & Égalité"
       },
       "candidats": [
         {
@@ -1998,9 +1998,9 @@
         "total_mesures": 2
       },
       "theme_plus_clivant": {
-        "id": "logement",
+        "id": "democratie",
         "ecart": 50.0,
-        "nom": "Logement"
+        "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
         {
@@ -5856,9 +5856,9 @@
         "total_mesures": 13
       },
       "theme_plus_clivant": {
-        "id": "urbanisme",
+        "id": "culture",
         "ecart": 25.0,
-        "nom": "Urbanisme & Cadre de vie"
+        "nom": "Culture & Patrimoine"
       },
       "candidats": [
         {
@@ -7018,9 +7018,9 @@
         "total_mesures": 3
       },
       "theme_plus_clivant": {
-        "id": "transports",
+        "id": "democratie",
         "ecart": 30.0,
-        "nom": "Transports & Mobilité"
+        "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
         {
@@ -11808,9 +11808,9 @@
         "total_mesures": 22
       },
       "theme_plus_clivant": {
-        "id": "economie",
+        "id": "urbanisme",
         "ecart": 50.0,
-        "nom": "Économie & Emploi"
+        "nom": "Urbanisme & Cadre de vie"
       },
       "candidats": [
         {
@@ -14005,7 +14005,7 @@
       "nb_candidats": 13,
       "nb_complets": 5,
       "nb_avec_mesures": 9,
-      "total_mesures": 321,
+      "total_mesures": 466,
       "candidat_plus_detaille": {
         "id": "perrein",
         "nom": "Isabelle Perrein",
@@ -14014,7 +14014,7 @@
       "theme_plus_couvert": {
         "id": "transports",
         "nom": "Transports & Mobilité",
-        "total_mesures": 71
+        "total_mesures": 84
       },
       "theme_plus_clivant": {
         "id": "transports",
@@ -14156,40 +14156,44 @@
           "liste": "L'union de la gauche de rupture (LFI)",
           "programmeComplet": true,
           "metriques": {
-            "total_mesures": 22,
-            "couverture_sous_themes": 18,
+            "total_mesures": 167,
+            "couverture_sous_themes": 43,
             "couverture_sous_themes_max": 43,
-            "couverture_categories": 8,
+            "couverture_categories": 12,
             "couverture_categories_max": 12,
-            "pct_mesures_chiffrees": 22.7,
-            "pct_mesures_avec_echeance": 0.0,
-            "longueur_moyenne_mesure": 123,
+            "pct_mesures_chiffrees": 9.6,
+            "pct_mesures_avec_echeance": 1.2,
+            "longueur_moyenne_mesure": 77,
             "top3_themes": [
               {
                 "id": "environnement",
                 "nom": "Environnement & Transition écologique",
-                "nb_mesures": 4
+                "nb_mesures": 23
+              },
+              {
+                "id": "education",
+                "nom": "Éducation & Jeunesse",
+                "nb_mesures": 22
               },
               {
                 "id": "democratie",
                 "nom": "Démocratie & Vie citoyenne",
-                "nb_mesures": 4
-              },
-              {
-                "id": "logement",
-                "nom": "Logement",
-                "nb_mesures": 3
+                "nb_mesures": 16
               }
             ],
             "profil_thematique": {
-              "transports": 4.5,
-              "logement": 13.6,
-              "education": 13.6,
-              "environnement": 18.2,
-              "democratie": 18.2,
-              "culture": 13.6,
-              "urbanisme": 9.1,
-              "solidarite": 9.1
+              "securite": 9.0,
+              "transports": 8.4,
+              "logement": 8.4,
+              "education": 13.2,
+              "environnement": 13.8,
+              "sante": 7.2,
+              "democratie": 9.6,
+              "economie": 6.0,
+              "culture": 4.8,
+              "sport": 4.2,
+              "urbanisme": 7.8,
+              "solidarite": 7.8
             }
           }
         },
@@ -14675,9 +14679,9 @@
         "total_mesures": 61
       },
       "theme_plus_clivant": {
-        "id": "transports",
+        "id": "democratie",
         "ecart": 100.0,
-        "nom": "Transports & Mobilité"
+        "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
         {
@@ -18203,9 +18207,9 @@
         "total_mesures": 8
       },
       "theme_plus_clivant": {
-        "id": "economie",
+        "id": "democratie",
         "ecart": 50.0,
-        "nom": "Économie & Emploi"
+        "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
         {
@@ -18816,9 +18820,9 @@
         "total_mesures": 17
       },
       "theme_plus_clivant": {
-        "id": "transports",
+        "id": "solidarite",
         "ecart": 100.0,
-        "nom": "Transports & Mobilité"
+        "nom": "Solidarité & Égalité"
       },
       "candidats": [
         {
@@ -19077,9 +19081,9 @@
         "total_mesures": 43
       },
       "theme_plus_clivant": {
-        "id": "transports",
+        "id": "environnement",
         "ecart": 50.0,
-        "nom": "Transports & Mobilité"
+        "nom": "Environnement & Transition écologique"
       },
       "candidats": [
         {
@@ -19633,9 +19637,9 @@
         "total_mesures": 14
       },
       "theme_plus_clivant": {
-        "id": "economie",
+        "id": "logement",
         "ecart": 50.0,
-        "nom": "Économie & Emploi"
+        "nom": "Logement"
       },
       "candidats": [
         {
@@ -21832,9 +21836,9 @@
         "total_mesures": 61
       },
       "theme_plus_clivant": {
-        "id": "economie",
+        "id": "democratie",
         "ecart": 50.0,
-        "nom": "Économie & Emploi"
+        "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
         {
@@ -23049,9 +23053,9 @@
         "total_mesures": 4
       },
       "theme_plus_clivant": {
-        "id": "transports",
+        "id": "environnement",
         "ecart": 40.0,
-        "nom": "Transports & Mobilité"
+        "nom": "Environnement & Transition écologique"
       },
       "candidats": [
         {

@@ -1,0 +1,141 @@
+name: "Soir d'élection — scrape live résultats"
+
+on:
+  schedule:
+    # Soir du T1 (15 mars) : toutes les 30 min de 19h à minuit (UTC+1 → UTC)
+    # 19h FR = 18h UTC ... 00h FR = 23h UTC
+    - cron: "*/30 18-23 15 3 *"  # 15 mars, 19h-00h FR
+    - cron: "*/30 0-1 16 3 *"    # 16 mars 00h-02h FR (fin de soirée)
+
+    # Soir du T2 (22 mars) : même créneau
+    - cron: "*/30 18-23 22 3 *"  # 22 mars, 19h-00h FR
+    - cron: "*/30 0-1 23 3 *"    # 23 mars 00h-02h FR
+
+  workflow_dispatch:
+    inputs:
+      tour:
+        description: "Tour (1 ou 2)"
+        required: true
+        default: "1"
+        type: choice
+        options:
+          - "1"
+          - "2"
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: election-night
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull latest (avoid conflicts with concurrent runs)
+        run: git pull --rebase origin main || true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Déterminer le tour
+        id: tour
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "tour=${{ inputs.tour }}" >> $GITHUB_OUTPUT
+          else
+            DAY=$(date -u +%d)
+            if [ "$DAY" -lt "22" ]; then
+              echo "tour=1" >> $GITHUB_OUTPUT
+            else
+              echo "tour=2" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Scrape résultats live
+        id: scrape
+        run: |
+          python scripts/scrape_resultats_live.py --tour ${{ steps.tour.outputs.tour }} 2>&1 | tee scrape_output.txt
+          EXIT_CODE=${PIPESTATUS[0]}
+          if [ $EXIT_CODE -eq 0 ]; then
+            echo "found=true" >> $GITHUB_OUTPUT
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Fallback — Check CSV data.gouv.fr
+        if: steps.scrape.outputs.found == 'false'
+        id: fallback
+        run: |
+          python scripts/check_csv_datagouv.py --tour ${{ steps.tour.outputs.tour }} --auto-import 2>&1 | tee fallback_output.txt
+          if ls data/resultats_T*.csv 1>/dev/null 2>&1; then
+            echo "found=true" >> $GITHUB_OUTPUT
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check si on a des résultats
+        id: has_results
+        run: |
+          # Vérifier si au moins un JSON a été modifié
+          CHANGED=$(git diff --name-only data/elections/ | wc -l)
+          echo "changed=$CHANGED" >> $GITHUB_OUTPUT
+          echo "$CHANGED fichiers élection modifiés"
+
+      - name: Valider données
+        if: steps.has_results.outputs.changed != '0'
+        run: python scripts/valider_donnees.py || true
+
+      - name: Générer shells SEO
+        if: steps.has_results.outputs.changed != '0'
+        run: python scripts/generate_static_shells.py
+
+      - name: Générer sitemap
+        if: steps.has_results.outputs.changed != '0'
+        run: python scripts/generate_sitemap.py
+
+      - name: Commit & Push
+        if: steps.has_results.outputs.changed != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ municipales-2026/ enjeux-2026/ sitemap.xml _redirects
+          TIMESTAMP=$(date -u +%Y%m%d-%H%M)
+          TOUR=${{ steps.tour.outputs.tour }}
+          CHANGED=${{ steps.has_results.outputs.changed }}
+          git commit -m "feat: résultats T${TOUR} — ${CHANGED} villes (live ${TIMESTAMP})
+
+          Source: scrape automatique Ministère de l'Intérieur
+          Workflow: ${{ github.run_id }}" || echo "Rien à committer"
+          git push
+
+      - name: Ping Google Sitemap
+        if: steps.has_results.outputs.changed != '0'
+        run: |
+          curl -s "https://www.google.com/ping?sitemap=https://pourquituvotes.fr/sitemap.xml" > /dev/null
+          echo "Google sitemap pinged"
+
+      - name: Résumé
+        run: |
+          CHANGED="${{ steps.has_results.outputs.changed }}"
+          TOUR="${{ steps.tour.outputs.tour }}"
+          NOW=$(date -u +"%Y-%m-%d %H:%M UTC")
+
+          if [ "$CHANGED" != "0" ]; then
+            echo "## ✅ Résultats T${TOUR} importés" >> $GITHUB_STEP_SUMMARY
+            echo "- **${CHANGED} villes** mises à jour" >> $GITHUB_STEP_SUMMARY
+            echo "- Shells SEO régénérés" >> $GITHUB_STEP_SUMMARY
+            echo "- Sitemap mis à jour + Google pinged" >> $GITHUB_STEP_SUMMARY
+            echo "- Heure: ${NOW}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## ⏳ Pas de nouveaux résultats (${NOW})" >> $GITHUB_STEP_SUMMARY
+            echo "Tour: ${TOUR}" >> $GITHUB_STEP_SUMMARY
+            echo "Les résultats ne sont peut-être pas encore publiés." >> $GITHUB_STEP_SUMMARY
+          fi

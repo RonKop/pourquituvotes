@@ -1,0 +1,119 @@
+name: "Check & Import résultats municipales"
+
+on:
+  schedule:
+    # UTC = heure française - 1 (hiver) ou -2 (été)
+    # Mars 2026 = heure d'hiver donc UTC+1
+    # 8h FR = 7h UTC, 12h FR = 11h UTC, 18h FR = 17h UTC
+    - cron: "17 7 16-17 3 *"   # 16-17 mars, 8h17 FR (T1 J+1/J+2)
+    - cron: "42 11 16-17 3 *"  # 16-17 mars, 12h42 FR
+    - cron: "23 17 16-17 3 *"  # 16-17 mars, 18h23 FR
+    - cron: "17 7 23-24 3 *"   # 23-24 mars, 8h17 FR (T2 J+1/J+2)
+    - cron: "42 11 23-24 3 *"  # 23-24 mars, 12h42 FR
+    - cron: "23 17 23-24 3 *"  # 23-24 mars, 18h23 FR
+
+  workflow_dispatch:
+    inputs:
+      tour:
+        description: "Tour (1 ou 2)"
+        required: true
+        default: "1"
+        type: choice
+        options:
+          - "1"
+          - "2"
+
+jobs:
+  check-and-import:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Déterminer le tour
+        id: tour
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "tour=${{ inputs.tour }}" >> $GITHUB_OUTPUT
+          else
+            # Auto-detect : avant le 22 mars = T1, après = T2
+            DAY=$(date -u +%d)
+            if [ "$DAY" -lt "22" ]; then
+              echo "tour=1" >> $GITHUB_OUTPUT
+            else
+              echo "tour=2" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Check CSV data.gouv.fr
+        id: check
+        run: |
+          python scripts/check_csv_datagouv.py --tour ${{ steps.tour.outputs.tour }} 2>&1 | tee check_output.txt
+          # Vérifier si un CSV a été téléchargé
+          if ls data/resultats_T*.csv 1>/dev/null 2>&1; then
+            echo "found=true" >> $GITHUB_OUTPUT
+            echo "csv=$(ls data/resultats_T*.csv | head -1)" >> $GITHUB_OUTPUT
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Import résultats
+        if: steps.check.outputs.found == 'true'
+        run: |
+          python scripts/import_resultats.py \
+            --tour ${{ steps.tour.outputs.tour }} \
+            --csv ${{ steps.check.outputs.csv }} \
+            --no-bump
+
+      - name: Valider données
+        if: steps.check.outputs.found == 'true'
+        run: python scripts/valider_donnees.py
+
+      - name: Générer shells SEO
+        if: steps.check.outputs.found == 'true'
+        run: python scripts/generate_static_shells.py
+
+      - name: Générer sitemap
+        if: steps.check.outputs.found == 'true'
+        run: python scripts/generate_sitemap.py
+
+      - name: Commit & Push
+        if: steps.check.outputs.found == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ municipales-2026/ enjeux-2026/ sitemap.xml _redirects
+          git commit -m "feat: résultats définitifs T${{ steps.tour.outputs.tour }} (import auto CSV data.gouv.fr)
+
+          Source: data.gouv.fr
+          Workflow: ${{ github.run_id }}" || echo "Rien à committer"
+          git push
+
+      - name: Ping Google Sitemap
+        if: steps.check.outputs.found == 'true'
+        run: |
+          curl -s "https://www.google.com/ping?sitemap=https://pourquituvotes.fr/sitemap.xml" > /dev/null
+          echo "✅ Google sitemap pinged"
+
+      - name: Résumé
+        run: |
+          if [ "${{ steps.check.outputs.found }}" = "true" ]; then
+            echo "## ✅ CSV trouvé et importé" >> $GITHUB_STEP_SUMMARY
+            echo "Tour: ${{ steps.tour.outputs.tour }}" >> $GITHUB_STEP_SUMMARY
+            echo "CSV: ${{ steps.check.outputs.csv }}" >> $GITHUB_STEP_SUMMARY
+            echo "Deploy automatique effectué." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## ⏳ CSV non encore disponible" >> $GITHUB_STEP_SUMMARY
+            echo "Tour: ${{ steps.tour.outputs.tour }}" >> $GITHUB_STEP_SUMMARY
+            echo "Prochaine vérification programmée." >> $GITHUB_STEP_SUMMARY
+          fi

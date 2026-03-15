@@ -98,15 +98,27 @@ def make_candidate_desc(nom, ville, n_props, liste="", max_len=155):
     return desc[:max_len]
 
 
-def make_jsonld_candidate(nom, ville, liste, url, n_props, complet):
+def make_jsonld_candidate(nom, ville, liste, url, n_props, complet, has_resultats=False, cand_result=None):
     """Génère un bloc JSON-LD Person + Event pour un candidat."""
+    event_status = "https://schema.org/EventCompleted" if has_resultats else "https://schema.org/EventScheduled"
+
+    desc = f"Candidat aux élections municipales 2026 à {ville}" + (f" — {liste}" if liste else "")
+    if n_props > 0:
+        desc += f". {n_props} propositions analysées"
+    if cand_result:
+        pct = cand_result.get("pourcentage", 0)
+        if cand_result.get("elu"):
+            desc += f". Élu(e) avec {pct}% des voix"
+        else:
+            desc += f". Résultat : {pct}% des voix"
+
     ld = {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": nom,
-        "description": f"Candidat aux élections municipales 2026 à {ville}" + (f" — {liste}" if liste else ""),
+        "description": desc,
         "url": url,
-        "jobTitle": f"Candidat aux municipales 2026 à {ville}",
+        "jobTitle": f"Maire élu(e) de {ville}" if (cand_result and cand_result.get("elu")) else f"Candidat aux municipales 2026 à {ville}",
         "knowsAbout": [
             {
                 "@type": "Event",
@@ -114,7 +126,7 @@ def make_jsonld_candidate(nom, ville, liste, url, n_props, complet):
                 "description": f"Premier et second tour des élections municipales 2026 à {ville}, France.",
                 "startDate": "2026-03-15",
                 "endDate": "2026-03-22",
-                "eventStatus": "https://schema.org/EventScheduled",
+                "eventStatus": event_status,
                 "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
                 "location": {
                     "@type": "Place",
@@ -124,8 +136,6 @@ def make_jsonld_candidate(nom, ville, liste, url, n_props, complet):
             }
         ]
     }
-    if n_props > 0:
-        ld["description"] += f". {n_props} propositions analysées"
     return json.dumps(ld, ensure_ascii=False, indent=2)
 
 
@@ -323,6 +333,25 @@ def make_city_seo_content(ville_data, el_data, schema_cats):
     <h3>Thèmes les plus abordés à {escape(vnom)}</h3>
     <p>Les thématiques les plus couvertes dans les programmes des candidats à {escape(vnom)} sont : {themes_text}.</p>"""
 
+    # Résultats si disponibles
+    if el_data and el_data.get("resultats", {}).get("tour1"):
+        resultats = el_data["resultats"]
+        elu_id = resultats.get("eluMaire")
+        if elu_id:
+            el_cands = {c["id"]: c for c in el_data.get("candidats", [])}
+            elu_cand = el_cands.get(elu_id, {})
+            elu_nom = elu_cand.get("nom", elu_id)
+            tour_data = resultats.get("tour2") or resultats.get("tour1", {})
+            elu_pct = 0
+            for rc in tour_data.get("candidats", []):
+                if rc["id"] == elu_id:
+                    elu_pct = rc["pourcentage"]
+                    break
+            html += f"""
+    <h3>Résultats des municipales 2026 à {escape(vnom)}</h3>
+    <p>{escape(elu_nom)} a remporté les élections municipales 2026 à {escape(vnom)} avec {elu_pct}% des voix.
+    <a href="/municipales-2026/{escape(vid)}/resultats/">Voir tous les résultats</a>.</p>"""
+
     html += """
   </section>"""
     return html
@@ -383,6 +412,232 @@ def make_candidate_seo_content(cand_data, ville_name, ville_id, el_data):
             oc_status = f"{oc_n_props} propositions" if oc_n_props > 0 else "programme en attente"
             html += f"""
       <li><a href="/municipales-2026/{escape(ville_id)}/candidats/{escape(oc['id'])}/">{escape(oc['nom'])}</a> ({escape(oc.get('liste', ''))}) — {oc_status}</li>"""
+        html += """
+    </ul>"""
+
+    # Résultat du candidat si disponible
+    if el_data and el_data.get("resultats", {}).get("tour1"):
+        resultats = el_data["resultats"]
+        tour_data = resultats.get("tour2") or resultats.get("tour1", {})
+        for rc in tour_data.get("candidats", []):
+            if rc["id"] == cid:
+                elu_text = "a été élu(e) maire" if rc.get("elu") else "a obtenu"
+                html += f"""
+    <h3>Résultat de {escape(cnom)} aux municipales 2026</h3>
+    <p>{escape(cnom)} {elu_text} avec {rc['pourcentage']}% des voix ({rc['voix']} voix) aux municipales 2026 à {escape(ville_name)}.
+    <a href="/municipales-2026/{escape(ville_id)}/resultats/">Voir tous les résultats</a>.</p>"""
+                break
+
+    html += """
+  </section>"""
+    return html
+
+
+# ─────────────────────────────────────────────────────────
+# Résultats électoraux — SEO shells
+# ─────────────────────────────────────────────────────────
+
+def make_results_title(ville, elu_nom=None, has_tour2=False, max_len=60):
+    """Génère un titre SEO pour la page résultats d'une ville."""
+    if has_tour2 and elu_nom:
+        full = f"Résultats municipales 2026 {ville} — {elu_nom} élu(e) | #POURQUITUVOTES"
+        if len(full) <= max_len:
+            return full
+        short = f"Résultats municipales 2026 {ville} — {elu_nom} élu(e)"
+        if len(short) <= max_len:
+            return short
+        compact = f"Résultats {ville} — {elu_nom} élu(e)"
+        if len(compact) <= max_len:
+            return compact
+    else:
+        full = f"Résultats 1er tour municipales 2026 {ville} | #POURQUITUVOTES"
+        if len(full) <= max_len:
+            return full
+        short = f"Résultats 1er tour municipales 2026 {ville}"
+        if len(short) <= max_len:
+            return short
+
+    minimal = f"Résultats municipales 2026 {ville}"
+    return minimal[:max_len]
+
+
+def make_results_desc(ville, elu_nom=None, pct=None, taux_participation=None, max_len=155):
+    """Génère une meta description pour la page résultats."""
+    if elu_nom and pct:
+        desc = f"Résultats des municipales 2026 à {ville} : {elu_nom} élu(e) avec {pct}% des voix."
+        if taux_participation:
+            desc += f" Participation : {taux_participation}%."
+        desc += " Tous les scores."
+    else:
+        desc = f"Résultats du 1er tour des municipales 2026 à {ville}."
+        if taux_participation:
+            desc += f" Participation : {taux_participation}%."
+        desc += " Classement et scores de tous les candidats."
+    return desc[:max_len]
+
+
+def make_jsonld_results(ville, resultats, candidats_map):
+    """Génère un bloc JSON-LD Event + FAQPage pour une page résultats."""
+    elu_id = resultats.get("eluMaire")
+    elu_nom = None
+    if elu_id and elu_id in candidats_map:
+        elu_nom = candidats_map[elu_id].get("nom", elu_id)
+
+    ld = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Event",
+                "name": f"Élections municipales 2026 — {ville}",
+                "description": f"Résultats des élections municipales 2026 à {ville}, France.",
+                "startDate": "2026-03-15",
+                "endDate": "2026-03-22",
+                "eventStatus": "https://schema.org/EventCompleted",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                "location": {
+                    "@type": "Place",
+                    "name": ville,
+                    "address": {"@type": "PostalAddress", "addressLocality": ville, "addressCountry": "FR"}
+                },
+                "organizer": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Ministère de l'Intérieur"
+                },
+            },
+        ]
+    }
+
+    if elu_nom:
+        ld["@graph"][0]["performer"] = {
+            "@type": "Person",
+            "name": elu_nom,
+            "jobTitle": "Maire élu(e)"
+        }
+
+    # FAQPage pour featured snippets
+    faq = {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": f"Qui a gagné les municipales 2026 à {ville} ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": f"{elu_nom} a remporté les élections municipales 2026 à {ville}." if elu_nom else f"Les résultats des municipales 2026 à {ville} sont en cours de publication."
+                }
+            }
+        ]
+    }
+
+    # Ajouter taux participation dans FAQ si T1 dispo
+    t1 = resultats.get("tour1", {})
+    if t1.get("tauxParticipation"):
+        faq["mainEntity"].append({
+            "@type": "Question",
+            "name": f"Quel est le taux de participation aux municipales 2026 à {ville} ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": f"Le taux de participation au 1er tour des municipales 2026 à {ville} est de {t1['tauxParticipation']}%."
+            }
+        })
+
+    # FAQ "Qui est au second tour ?" si T1 mais pas T2
+    if t1 and not resultats.get("tour2"):
+        qualifies = []
+        for rc in t1.get("candidats", []):
+            if rc.get("qualifieT2") and rc["id"] in candidats_map:
+                qualifies.append(candidats_map[rc["id"]].get("nom", rc["id"]))
+        if qualifies:
+            faq["mainEntity"].append({
+                "@type": "Question",
+                "name": f"Qui est au second tour des municipales 2026 à {ville} ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": f"Les candidats qualifiés pour le second tour des municipales 2026 à {ville} sont : {', '.join(qualifies)}."
+                }
+            })
+
+    ld["@graph"].append(faq)
+    return json.dumps(ld, ensure_ascii=False, indent=2)
+
+
+def make_results_seo_content(ville_data, el_data, resultats):
+    """Génère un bloc HTML SEO unique pour une page résultats ville."""
+    vnom = ville_data["nom"]
+    vid = ville_data["id"]
+    candidats_map = {c["id"]: c for c in el_data.get("candidats", [])}
+
+    elu_id = resultats.get("eluMaire")
+    elu_nom = candidats_map.get(elu_id, {}).get("nom", elu_id) if elu_id else None
+
+    # Tour le plus récent
+    tour_data = resultats.get("tour2") or resultats.get("tour1", {})
+    taux = tour_data.get("tauxParticipation", 0)
+    tour_label = "second tour" if resultats.get("tour2") else "premier tour"
+
+    html = f"""  <section class="seo-content" aria-label="Résultats des élections municipales 2026 à {escape(vnom)}">
+    <h2>Résultats des élections municipales 2026 à {escape(vnom)}</h2>
+    <p>"""
+
+    if elu_nom:
+        elu_cand = candidats_map.get(elu_id, {})
+        elu_pct = 0
+        for rc in tour_data.get("candidats", []):
+            if rc["id"] == elu_id:
+                elu_pct = rc["pourcentage"]
+                break
+        html += f"""{escape(elu_nom)} ({escape(elu_cand.get('liste', ''))}) a remporté les élections municipales 2026 à {escape(vnom)} au {tour_label} avec {elu_pct}% des voix exprimées. """
+    else:
+        html += f"""Les résultats du {tour_label} des élections municipales 2026 à {escape(vnom)} sont disponibles. """
+
+    html += f"""Le taux de participation s'est établi à {taux}%.</p>"""
+
+    # Liste ordonnée des candidats
+    cands_sorted = sorted(tour_data.get("candidats", []), key=lambda x: x.get("voix", 0), reverse=True)
+    if cands_sorted:
+        html += f"""
+    <h3>Classement des candidats aux municipales 2026 à {escape(vnom)}</h3>
+    <ol>"""
+        for rc in cands_sorted:
+            cand = candidats_map.get(rc["id"], {})
+            elu_text = " — élu(e)" if rc.get("elu") else ""
+            html += f"""
+      <li><a href="/municipales-2026/{escape(vid)}/candidats/{escape(rc['id'])}/">{escape(cand.get('nom', rc['id']))}</a> ({escape(cand.get('liste', ''))}) — {rc.get('pourcentage', 0)}% ({rc.get('voix', 0)} voix){elu_text}</li>"""
+        html += """
+    </ol>"""
+
+    # Si les deux tours existent, ajouter un résumé du T1
+    if resultats.get("tour2") and resultats.get("tour1"):
+        t1 = resultats["tour1"]
+        t1_taux = t1.get("tauxParticipation", 0)
+        html += f"""
+    <h3>Premier tour des municipales 2026 à {escape(vnom)}</h3>
+    <p>Au premier tour (15 mars 2026), le taux de participation était de {t1_taux}%.</p>
+    <ol>"""
+        t1_sorted = sorted(t1.get("candidats", []), key=lambda x: x.get("voix", 0), reverse=True)
+        for rc in t1_sorted:
+            cand = candidats_map.get(rc["id"], {})
+            q_text = " — qualifié(e) au second tour" if rc.get("qualifieT2") else ""
+            html += f"""
+      <li>{escape(cand.get('nom', rc['id']))} — {rc.get('pourcentage', 0)}% ({rc.get('voix', 0)} voix){q_text}</li>"""
+        html += """
+    </ol>"""
+
+    # Lien vers comparateur
+    html += f"""
+    <h3>Comparer les programmes</h3>
+    <p>Retrouvez l'analyse complète des programmes des candidats à {escape(vnom)} sur notre <a href="/municipales-2026/{escape(vid)}/">comparateur de programmes</a>.</p>"""
+
+    # Fusions
+    if resultats.get("tour2", {}).get("fusionsListes"):
+        html += f"""
+    <h3>Fusions de listes au second tour à {escape(vnom)}</h3>
+    <ul>"""
+        for f in resultats["tour2"]["fusionsListes"]:
+            principal = candidats_map.get(f["listePrincipale"], {}).get("nom", f["listePrincipale"])
+            fusionnees = ", ".join(candidats_map.get(lid, {}).get("nom", lid) for lid in f.get("listesFusionnees", []))
+            html += f"""
+      <li><strong>{escape(f.get('nomFusion', 'Fusion'))}</strong> : {escape(principal)} + {escape(fusionnees)}</li>"""
         html += """
     </ul>"""
 
@@ -453,8 +708,41 @@ def main():
         vnom = ville["nom"]
         n_cand = ville.get("stats", {}).get("candidats", len(ville.get("candidats", [])))
 
-        title = f"Municipales 2026 {vnom} — Comparez les {n_cand} candidats | #POURQUITUVOTES"
-        desc = f"Comparez les programmes des {n_cand} candidats aux municipales 2026 à {vnom}. Outil citoyen, neutre et factuel."
+        # Adapter titre/desc si résultats T1 disponibles (mode second tour)
+        el_file_check = os.path.join(ELECTIONS_DIR, f"{vid}-2026.json")
+        el_data_check = load_json(el_file_check) if os.path.exists(el_file_check) else None
+        res_check = el_data_check.get("resultats", {}) if el_data_check else {}
+        has_t1 = bool(res_check.get("tour1"))
+        has_t2 = bool(res_check.get("tour2"))
+
+        if has_t1 and not has_t2:
+            # Mode second tour : mettre en avant les qualifiés
+            qualifies = [rc for rc in res_check["tour1"].get("candidats", []) if rc.get("qualifieT2")]
+            n_q = len(qualifies)
+            title = f"Municipales 2026 {vnom} — Comparez les {n_q} candidats du second tour | #POURQUITUVOTES"
+            if len(title) > 60:
+                title = f"Second tour municipales 2026 {vnom} — {n_q} candidats"
+            noms_q = []
+            for rc in qualifies[:3]:
+                for c in (el_data_check or {}).get("candidats", []):
+                    if c["id"] == rc["id"]:
+                        noms_q.append(c["nom"].split()[-1])
+                        break
+            desc = f"Second tour le 22 mars. Comparez les programmes de {', '.join(noms_q)}{'...' if n_q > 3 else ''} à {vnom}."
+        elif has_t2 and res_check.get("eluMaire"):
+            elu_id = res_check["eluMaire"]
+            elu_nom = elu_id
+            for c in (el_data_check or {}).get("candidats", []):
+                if c["id"] == elu_id:
+                    elu_nom = c["nom"]
+                    break
+            title = f"Municipales 2026 {vnom} — {elu_nom} élu(e) | #POURQUITUVOTES"
+            if len(title) > 60:
+                title = f"Municipales 2026 {vnom} — {elu_nom} élu(e)"
+            desc = f"{elu_nom} élu(e) à {vnom}. Comparez les programmes des {n_cand} candidats aux municipales 2026."
+        else:
+            title = f"Municipales 2026 {vnom} — Comparez les {n_cand} candidats | #POURQUITUVOTES"
+            desc = f"Comparez les programmes des {n_cand} candidats aux municipales 2026 à {vnom}. Outil citoyen, neutre et factuel."
         url = f"{BASE_URL}/municipales-2026/{vid}/"
         og_img = f"{OG_BASE}{vid}.jpg"
 
@@ -500,8 +788,26 @@ def main():
             c_url = f"{BASE_URL}/municipales-2026/{vid}/candidats/{cid}/"
             c_og = f"{OG_BASE}{vid}-{cid}.jpg"
 
-            # JSON-LD structured data
-            jsonld = make_jsonld_candidate(cnom, vnom, cliste, c_url, n_props, complet)
+            # JSON-LD structured data (avec résultats si dispo)
+            has_res = bool(el_data and el_data.get("resultats", {}).get("tour1"))
+            cand_result = None
+            if has_res:
+                res_data = el_data["resultats"]
+                tour_res = res_data.get("tour2") or res_data.get("tour1", {})
+                for rc in tour_res.get("candidats", []):
+                    if rc["id"] == cid:
+                        cand_result = rc
+                        break
+            jsonld = make_jsonld_candidate(cnom, vnom, cliste, c_url, n_props, complet, has_res, cand_result)
+
+            # Meta description enrichie avec résultat
+            if cand_result:
+                pct = cand_result.get("pourcentage", 0)
+                if cand_result.get("elu"):
+                    c_desc = f"{cnom}, élu(e) maire de {vnom} avec {pct}% — municipales 2026. {n_props} propositions analysées."
+                else:
+                    c_desc = f"{cnom} aux municipales 2026 à {vnom} : {pct}% des voix. {n_props} propositions analysées."
+                c_desc = c_desc[:155]
 
             c_head = make_head(c_title, c_desc, c_url, c_og, og_type="profile", jsonld=jsonld)
             c_rel = f"municipales-2026/{vid}/candidats/{cid}/index.html"
@@ -537,7 +843,124 @@ def main():
         write_shell(t_rel, t_head, theme_assets, theme_body, dry_run)
         count += 1
 
-    # --- 5. Mettre à jour _redirects ---
+    # --- 5. Shells résultats ---
+    print("=== Shells résultats ===")
+
+    # Lire le template résultats
+    resultats_html_path = os.path.join(ROOT_DIR, "municipales", "2026", "resultats.html")
+    if os.path.exists(resultats_html_path):
+        resultats_html = read_template("municipales/2026/resultats.html")
+        res_assets = extract_head_assets(resultats_html)
+        res_body = extract_body(resultats_html)
+
+        for ville in villes:
+            vid = ville["id"]
+            vnom = ville["nom"]
+
+            # Charger résultats depuis l'élection JSON
+            el_file = os.path.join(ELECTIONS_DIR, f"{vid}-2026.json")
+            if not os.path.exists(el_file):
+                continue
+            el_data = load_json(el_file)
+            resultats = el_data.get("resultats")
+            if not resultats or not resultats.get("tour1"):
+                continue  # Pas encore de résultats
+
+            candidats_map = {c["id"]: c for c in el_data.get("candidats", [])}
+            elu_id = resultats.get("eluMaire")
+            elu_nom = candidats_map.get(elu_id, {}).get("nom") if elu_id else None
+            has_tour2 = "tour2" in resultats
+
+            # Tour le plus récent
+            tour_data = resultats.get("tour2") or resultats.get("tour1", {})
+            elu_pct = None
+            if elu_id:
+                for rc in tour_data.get("candidats", []):
+                    if rc["id"] == elu_id:
+                        elu_pct = rc["pourcentage"]
+                        break
+            taux = tour_data.get("tauxParticipation")
+
+            # SEO
+            r_title = make_results_title(vnom, elu_nom, has_tour2)
+            r_desc = make_results_desc(vnom, elu_nom, elu_pct, taux)
+            r_url = f"{BASE_URL}/municipales-2026/{vid}/resultats/"
+            r_og = f"{OG_BASE}{vid}.jpg"  # Fallback sur l'image ville
+            r_jsonld = make_jsonld_results(vnom, resultats, candidats_map)
+
+            r_head = make_head(r_title, r_desc, r_url, r_og, jsonld=r_jsonld)
+            r_rel = f"municipales-2026/{vid}/resultats/index.html"
+
+            # Contenu SEO
+            r_seo = make_results_seo_content(ville, el_data, resultats)
+
+            write_shell(r_rel, r_head, res_assets, res_body, dry_run, seo_content=r_seo)
+            count += 1
+
+        print(f"  Shells résultats générés")
+    else:
+        print(f"  Template résultats introuvable ({resultats_html_path}), skip")
+
+    # --- 6. Shell résultats national ---
+    print("=== Shell résultats national ===")
+    national_html_path = os.path.join(ROOT_DIR, "municipales", "2026", "resultats-national.html")
+    if os.path.exists(national_html_path):
+        national_html = read_template("municipales/2026/resultats-national.html")
+        nat_assets = extract_head_assets(national_html)
+        nat_body = extract_body(national_html)
+
+        # Compter les villes avec résultats pour le SEO content
+        villes_avec_res = []
+        for v in villes:
+            el_f = os.path.join(ELECTIONS_DIR, f"{v['id']}-2026.json")
+            if os.path.exists(el_f):
+                el_d = load_json(el_f)
+                if el_d.get("resultats", {}).get("tour1"):
+                    villes_avec_res.append(v)
+
+        n_title = "Résultats municipales 2026 — Toutes les villes | #POURQUITUVOTES"
+        n_desc = f"Résultats des municipales 2026 dans {len(villes_avec_res)} villes. Scores, participation et maires élus."
+        if len(n_desc) > 155:
+            n_desc = f"Résultats municipales 2026 : {len(villes_avec_res)} villes. Scores, participation, maires élus."
+        n_url = f"{BASE_URL}/municipales-2026/resultats/"
+        n_og = f"{OG_BASE}comparateur.jpg"
+
+        # JSON-LD national
+        nat_jsonld = json.dumps({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Résultats des élections municipales 2026",
+            "description": f"Résultats des élections municipales 2026 dans {len(villes_avec_res)} villes de France.",
+            "url": n_url,
+            "isPartOf": {"@type": "WebSite", "name": "#POURQUITUVOTES", "url": BASE_URL},
+        }, ensure_ascii=False, indent=2)
+
+        n_head = make_head(n_title, n_desc, n_url, n_og, jsonld=nat_jsonld)
+
+        # SEO content national
+        nat_seo = f"""  <section class="seo-content" aria-label="Résultats des élections municipales 2026 en France">
+    <h2>Résultats des élections municipales 2026</h2>
+    <p>Retrouvez les résultats des élections municipales 2026 dans {len(villes_avec_res)} villes de France.
+    Le premier tour a eu lieu le 15 mars 2026 et le second tour le 22 mars 2026.</p>
+    <h3>Villes avec résultats disponibles</h3>
+    <ul>"""
+        for v in villes_avec_res[:30]:
+            nat_seo += f"""
+      <li><a href="/municipales-2026/{escape(v['id'])}/resultats/">Résultats municipales 2026 {escape(v['nom'])}</a></li>"""
+        if len(villes_avec_res) > 30:
+            nat_seo += f"""
+      <li>... et {len(villes_avec_res) - 30} autres villes</li>"""
+        nat_seo += """
+    </ul>
+  </section>"""
+
+        write_shell("municipales-2026/resultats/index.html", n_head, nat_assets, nat_body, dry_run, seo_content=nat_seo)
+        count += 1
+        print(f"  Shell national généré ({len(villes_avec_res)} villes)")
+    else:
+        print(f"  Template national introuvable, skip")
+
+    # --- 7. Mettre à jour _redirects ---
     update_redirects(dry_run)
 
     print(f"\n=== Termine ===")
@@ -562,6 +985,8 @@ def update_redirects(dry_run=False):
 /enjeux-index.html  /enjeux-2026/  301
 
 # Trailing slash canonicalization (evite duplication Google)
+/municipales-2026/:ville/resultats /municipales-2026/:ville/resultats/ 301
+/municipales-2026/resultats /municipales-2026/resultats/ 301
 /municipales-2026/:ville/candidats/:candidat /municipales-2026/:ville/candidats/:candidat/ 301
 /municipales-2026/:ville /municipales-2026/:ville/ 301
 /enjeux-2026/:theme /enjeux-2026/:theme/ 301

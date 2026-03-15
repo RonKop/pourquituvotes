@@ -910,6 +910,21 @@
       chip.appendChild(cb);
       chip.appendChild(document.createTextNode(echapper(candidat.nom)));
 
+      // Badge résultat T1 sur le chip
+      var resMapChip = getResultatsT1Map();
+      if (resMapChip) {
+        var rcChip = resMapChip[candidat.id];
+        if (rcChip) {
+          var badgeChip = document.createElement("span");
+          badgeChip.className = "badge mini " + (rcChip.qualifieT2 ? "badge--qualifie" : "badge--elimine");
+          badgeChip.textContent = rcChip.pourcentage + "%";
+          chip.appendChild(badgeChip);
+          if (!rcChip.qualifieT2 && !donneesElection.resultats.tour2) {
+            chip.classList.add("filtres-candidats__chip--elimine");
+          }
+        }
+      }
+
       chip.addEventListener("click", function () {
         toggleCandidatSelection(candidat.id);
       });
@@ -1553,12 +1568,87 @@
     electionStats.parentNode.insertBefore(div, electionStats.nextSibling);
   }
 
+  // === Résultats T1 — helpers ===
+  function getResultatsT1Map() {
+    if (!donneesElection || !donneesElection.resultats || !donneesElection.resultats.tour1) return null;
+    var map = {};
+    var cands = donneesElection.resultats.tour1.candidats || [];
+    for (var i = 0; i < cands.length; i++) {
+      map[cands[i].id] = cands[i];
+    }
+    return map;
+  }
+
+  function afficherBanniereResultats() {
+    var ancien = document.getElementById("banniere-resultats-t2");
+    if (ancien) ancien.remove();
+
+    var res = donneesElection.resultats;
+    if (!res || !res.tour1) return;
+
+    var villeId = villeSelectionnee ? villeSelectionnee.id : "";
+    var ville = donneesElection.ville;
+
+    // Si T2 déjà joué, bannière "Résultats définitifs"
+    if (res.tour2) {
+      var eluId = res.eluMaire;
+      var eluNom = eluId;
+      donneesElection.candidats.forEach(function(c) { if (c.id === eluId) eluNom = c.nom; });
+      var banniere = document.createElement("div");
+      banniere.id = "banniere-resultats-t2";
+      banniere.className = "banniere-resultats banniere-resultats--definitif";
+      banniere.innerHTML = '<i class="ph ph-trophy"></i> <strong>' + echapper(eluNom) + '</strong> \u00E9lu(e) maire de ' + echapper(ville) + ' &mdash; <a href="/municipales-2026/' + encodeURIComponent(villeId) + '/resultats/">Voir les r\u00E9sultats</a>';
+      electionInfo.parentNode.insertBefore(banniere, electionInfo.nextSibling);
+      return;
+    }
+
+    // T1 joué, pas encore T2 → bannière "Second tour"
+    var t1 = res.tour1;
+    var qualifies = [];
+    (t1.candidats || []).forEach(function(rc) {
+      if (rc.qualifieT2) {
+        var c = donneesElection.candidats.find(function(c2) { return c2.id === rc.id; });
+        if (c) qualifies.push(c.nom);
+      }
+    });
+
+    var banniere = document.createElement("div");
+    banniere.id = "banniere-resultats-t2";
+    banniere.className = "banniere-resultats banniere-resultats--t2";
+    banniere.innerHTML = '<i class="ph ph-megaphone"></i> <strong>Second tour le 22 mars</strong> \u2014 ' +
+      qualifies.length + ' candidats qualifi\u00E9s : ' + echapper(qualifies.join(', ')) +
+      ' &mdash; <a href="/municipales-2026/' + encodeURIComponent(villeId) + '/resultats/">R\u00E9sultats du 1er tour</a>';
+    electionInfo.parentNode.insertBefore(banniere, electionInfo.nextSibling);
+  }
+
   function afficherElection() {
     if (!donneesElection) return;
 
-    var candidats = donneesElection.candidats.slice().sort(function (a, b) {
-      return triNomFamille(a, b);
-    });
+    var resMap = getResultatsT1Map();
+    var candidats;
+
+    if (resMap && !donneesElection.resultats.tour2) {
+      // Mode T2 : qualifiés en haut, éliminés en bas
+      var qualifies = [];
+      var elimines = [];
+      donneesElection.candidats.forEach(function(c) {
+        var rc = resMap[c.id];
+        if (rc && rc.qualifieT2) {
+          qualifies.push(c);
+        } else {
+          elimines.push(c);
+        }
+      });
+      qualifies.sort(function(a, b) {
+        return (resMap[b.id] ? resMap[b.id].voix : 0) - (resMap[a.id] ? resMap[a.id].voix : 0);
+      });
+      elimines.sort(function(a, b) { return triNomFamille(a, b); });
+      candidats = qualifies.concat(elimines);
+    } else {
+      candidats = donneesElection.candidats.slice().sort(function (a, b) {
+        return triNomFamille(a, b);
+      });
+    }
 
     var totalPropositions = 0;
     donneesElection.categories.forEach(function (cat) {
@@ -1578,6 +1668,9 @@
 
     // Afficher la prochaine date clé
     afficherProchaineDateCle();
+
+    // Bannière résultats (si T1 joué)
+    afficherBanniereResultats();
 
     // Cas : aucun candidat déclaré
     if (candidats.length === 0) {
@@ -3587,6 +3680,15 @@
       var colonne = document.createElement("div");
       colonne.className = "colonne-candidat";
 
+      // Griser les éliminés T1
+      var resMapCol = getResultatsT1Map();
+      if (resMapCol && !donneesElection.resultats.tour2) {
+        var rcCol = resMapCol[candidat.id];
+        if (rcCol && !rcCol.qualifieT2) {
+          colonne.classList.add("colonne-candidat--elimine");
+        }
+      }
+
       var headerCand = document.createElement("div");
       headerCand.className = "candidat-header";
 
@@ -3595,6 +3697,21 @@
         badgeHTML = '<span class="badge badge--complet">Programme officiel</span>';
       } else {
         badgeHTML = '<span class="badge badge--partiel">Sources publiques</span>';
+      }
+
+      // Badge résultat T1
+      var resMapGrid = getResultatsT1Map();
+      if (resMapGrid) {
+        var rcGrid = resMapGrid[candidat.id];
+        if (rcGrid) {
+          if (rcGrid.elu) {
+            badgeHTML += ' <span class="badge badge--elu"><i class="ph ph-check-circle"></i> \u00C9lu(e)</span>';
+          } else if (rcGrid.qualifieT2) {
+            badgeHTML += ' <span class="badge badge--qualifie">' + rcGrid.pourcentage + '% — Qualifi\u00E9(e) T2</span>';
+          } else {
+            badgeHTML += ' <span class="badge badge--elimine">' + rcGrid.pourcentage + '% — \u00C9limin\u00E9(e)</span>';
+          }
+        }
       }
 
       var actionsHTML = '';

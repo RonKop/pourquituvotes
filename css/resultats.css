@@ -1,0 +1,545 @@
+/* === Résultats électoraux — Municipales 2026 === */
+
+/* ── Hero ── */
+.resultats-hero {
+  background: linear-gradient(135deg, var(--bleu) 0%, var(--bleu-fonce) 100%);
+  color: #fff;
+  padding: 2.5rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.resultats-hero__inner {
+  max-width: var(--max-largeur);
+  margin: 0 auto;
+}
+
+.resultats-hero__status {
+  margin-bottom: 0.75rem;
+}
+
+.resultats-hero__status .badge--provisoire {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fcd34d;
+  border-color: rgba(252, 211, 77, 0.4);
+}
+
+.resultats-hero__status .badge--definitif {
+  background: rgba(255, 255, 255, 0.15);
+  color: #6ee7b7;
+  border-color: rgba(110, 231, 183, 0.4);
+}
+
+.resultats-hero__titre {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.resultats-hero__sous-titre {
+  font-size: 1rem;
+  opacity: 0.85;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.resultats-hero__stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.resultats-hero__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  min-width: 120px;
+}
+
+.resultats-hero__stat-valeur {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.resultats-hero__stat-label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 0.25rem;
+}
+
+/* ── Onglets T1/T2 ── */
+.resultats-onglets {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  max-width: var(--max-largeur);
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.resultats-onglets__btn {
+  padding: 0.75rem 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 2px solid var(--couleur-bordure);
+  background: var(--couleur-surface);
+  color: var(--couleur-texte-secondaire);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.resultats-onglets__btn:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+.resultats-onglets__btn:last-child {
+  border-radius: 0 8px 8px 0;
+  border-left: none;
+}
+
+.resultats-onglets__btn--actif {
+  background: var(--bleu);
+  color: #fff;
+  border-color: var(--bleu);
+}
+
+.resultats-onglets__btn:hover:not(.resultats-onglets__btn--actif) {
+  background: var(--couleur-hover);
+}
+
+/* ── Section résultats ── */
+.resultats-section {
+  max-width: var(--max-largeur);
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.resultats-section__titre {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--couleur-texte);
+}
+
+/* ── Tableau résultats ── */
+.resultats-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.resultats-table__loading {
+  text-align: center;
+  color: var(--couleur-texte-secondaire);
+  padding: 2rem;
+}
+
+.resultats-table__row {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--couleur-surface);
+  border: 1px solid var(--couleur-bordure);
+  border-radius: var(--rayon);
+  box-shadow: var(--ombre);
+  transition: transform 0.2s;
+}
+
+.resultats-table__row:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--ombre-forte);
+}
+
+.resultats-table__row--elu {
+  border-color: var(--couleur-success);
+  border-width: 2px;
+}
+
+.resultats-table__rang {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--couleur-texte-secondaire);
+  text-align: center;
+}
+
+.resultats-table__row--elu .resultats-table__rang {
+  color: var(--couleur-success);
+}
+
+.resultats-table__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.resultats-table__nom {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--couleur-texte);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.resultats-table__nom a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resultats-table__nom a:hover {
+  text-decoration: underline;
+  color: var(--couleur-accent);
+}
+
+.resultats-table__liste {
+  font-size: 0.8rem;
+  color: var(--couleur-texte-secondaire);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resultats-table__bar-wrap {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.resultats-table__bar-bg {
+  height: 8px;
+  background: var(--couleur-hover);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.resultats-table__bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1s cubic-bezier(0.25, 1, 0.5, 1);
+  width: 0;
+}
+
+.resultats-table__bar--bleu { background: var(--bleu); }
+.resultats-table__bar--rouge { background: var(--rouge); }
+.resultats-table__bar--vert { background: var(--couleur-success); }
+.resultats-table__bar--orange { background: var(--couleur-warning); }
+.resultats-table__bar--gris { background: #94a3b8; }
+
+.resultats-table__scores {
+  text-align: right;
+  min-width: 80px;
+}
+
+.resultats-table__pct {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--couleur-texte);
+}
+
+.resultats-table__voix {
+  font-size: 0.75rem;
+  color: var(--couleur-texte-secondaire);
+}
+
+/* ── Fusions de listes ── */
+.resultats-fusions {
+  max-width: var(--max-largeur);
+  margin: 0 auto;
+  padding: 0 1.5rem 2rem;
+}
+
+.resultats-fusions__titre {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--couleur-texte);
+}
+
+.resultats-fusion {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--couleur-surface);
+  border: 1px solid var(--couleur-bordure);
+  border-radius: var(--rayon);
+  margin-bottom: 0.5rem;
+}
+
+.resultats-fusion__icon {
+  color: var(--couleur-accent);
+  font-size: 1.2rem;
+}
+
+.resultats-fusion__text {
+  font-size: 0.9rem;
+  color: var(--couleur-texte);
+}
+
+.resultats-fusion__text strong {
+  font-weight: 600;
+}
+
+/* ── Participation ── */
+.resultats-participation {
+  max-width: var(--max-largeur);
+  margin: 0 auto;
+  padding: 0 1.5rem 2rem;
+}
+
+.resultats-participation__titre {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--couleur-texte);
+}
+
+.resultats-participation__inner {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resultats-participation__chart-wrap {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+}
+
+.resultats-participation__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.resultats-participation__detail {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.resultats-participation__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.resultats-participation__detail-label {
+  color: var(--couleur-texte-secondaire);
+}
+
+.resultats-participation__detail-value {
+  font-weight: 600;
+  color: var(--couleur-texte);
+  margin-left: auto;
+}
+
+/* ── CTA ── */
+.resultats-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: var(--max-largeur);
+  margin: 0 auto;
+  padding: 1rem 1.5rem 3rem;
+}
+
+.resultats-cta__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  border: none;
+  background: var(--bleu);
+  color: #fff;
+}
+
+.resultats-cta__btn:hover {
+  background: var(--bleu-fonce);
+  transform: translateY(-1px);
+}
+
+.resultats-cta__btn--secondary {
+  background: var(--couleur-surface);
+  color: var(--couleur-accent);
+  border: 2px solid var(--couleur-accent);
+}
+
+.resultats-cta__btn--secondary:hover {
+  background: var(--couleur-hover);
+}
+
+/* ── Badges résultats (ajoutés ici, référencés aussi depuis style.css) ── */
+.badge--elu {
+  background: #065f46;
+  color: #fff;
+  border: 1px solid #047857;
+}
+
+.badge--qualifie {
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #6ee7b7;
+}
+
+.badge--elimine {
+  background: #f1f5f9;
+  color: #64748b;
+  border: 1px solid #cbd5e1;
+}
+
+.badge--provisoire {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+}
+
+.badge--definitif {
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #6ee7b7;
+}
+
+/* ── Dark mode ── */
+[data-theme="dark"] .resultats-hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+[data-theme="dark"] .resultats-table__row {
+  background: var(--couleur-surface);
+  border-color: var(--couleur-bordure);
+}
+
+[data-theme="dark"] .resultats-table__bar-bg {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .resultats-onglets__btn {
+  background: var(--couleur-surface);
+  border-color: var(--couleur-bordure);
+  color: var(--couleur-texte-secondaire);
+}
+
+[data-theme="dark"] .resultats-onglets__btn--actif {
+  background: var(--bleu);
+  color: #fff;
+  border-color: var(--bleu);
+}
+
+[data-theme="dark"] .resultats-fusion {
+  background: var(--couleur-surface);
+  border-color: var(--couleur-bordure);
+}
+
+[data-theme="dark"] .resultats-cta__btn--secondary {
+  background: var(--couleur-surface);
+  color: var(--couleur-accent-light);
+  border-color: var(--couleur-accent-light);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .resultats-hero {
+    padding: 2rem 1rem 1.5rem;
+  }
+
+  .resultats-hero__titre {
+    font-size: 1.4rem;
+  }
+
+  .resultats-hero__stats {
+    gap: 0.75rem;
+  }
+
+  .resultats-hero__stat {
+    padding: 0.75rem 1rem;
+    min-width: 90px;
+  }
+
+  .resultats-hero__stat-valeur {
+    font-size: 1.3rem;
+  }
+
+  .resultats-table__row {
+    grid-template-columns: 2rem 1fr auto;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .resultats-table__pct {
+    font-size: 1.1rem;
+  }
+
+  .resultats-participation__inner {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .resultats-participation__chart-wrap {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .resultats-hero__titre {
+    font-size: 1.2rem;
+  }
+
+  .resultats-hero__stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .resultats-hero__stat {
+    width: 100%;
+    max-width: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
+  }
+
+  .resultats-onglets__btn {
+    flex: 1;
+    text-align: center;
+    padding: 0.6rem 1rem;
+  }
+
+  .resultats-table__nom {
+    font-size: 0.9rem;
+  }
+
+  .resultats-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+}

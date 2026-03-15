@@ -120,6 +120,33 @@ def generate_sitemap():
             count += 1
 
     # ──────────────────────────────────────────────
+    # 5. Pages résultats ville
+    # ──────────────────────────────────────────────
+    for ville in villes:
+        ville_id = ville["id"]
+        # Vérifier si des résultats existent
+        election_file = os.path.join(ELECTIONS_DIR, f"{ville_id}-2026.json")
+        if os.path.exists(election_file):
+            el_data = load_json(election_file)
+            if el_data.get("resultats", {}).get("tour1"):
+                add_url(
+                    urlset,
+                    f"{SITE_URL}/municipales-2026/{ville_id}/resultats/",
+                    TODAY,
+                    "daily",
+                    0.95,
+                )
+                count += 1
+
+    # ──────────────────────────────────────────────
+    # 6. Page résultats nationale
+    # ──────────────────────────────────────────────
+    national_results = os.path.join(BASE_DIR, "municipales-2026", "resultats", "index.html")
+    if os.path.exists(national_results):
+        add_url(urlset, f"{SITE_URL}/municipales-2026/resultats/", TODAY, "daily", 1.0)
+        count += 1
+
+    # ──────────────────────────────────────────────
     # Ecriture du fichier XML
     # ──────────────────────────────────────────────
     import io

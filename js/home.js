@@ -47,11 +47,27 @@
     var timelineJours = document.getElementById("timeline-jours");
 
     if (diff <= 0) {
+      // Scrutin passé → remplacer countdown par lien résultats
+      var topbarCountdown = document.getElementById("topbar-countdown");
+      if (topbarCountdown && !topbarCountdown.dataset.replaced) {
+        topbarCountdown.dataset.replaced = "1";
+        topbarCountdown.innerHTML = '<a href="/municipales-2026/resultats/" style="color:#fff;text-decoration:underline;font-weight:600">' +
+          '<i class="ph ph-chart-bar"></i> R\u00E9sultats disponibles</a>';
+      }
+      // Timeline : remplacer J-0 par lien résultats
+      if (timelineJours && !timelineJours.dataset.replaced) {
+        timelineJours.dataset.replaced = "1";
+        var timelineItem = timelineJours.parentNode;
+        if (timelineItem) {
+          timelineItem.innerHTML = '<a href="/municipales-2026/resultats/" class="timeline__value" style="color:#6ee7b7;text-decoration:none">' +
+            '<i class="ph ph-chart-bar"></i> R\u00E9sultats</a>' +
+            '<span class="timeline__label"><a href="/municipales-2026/resultats/" style="color:rgba(255,255,255,0.8)">Voir les r\u00E9sultats</a></span>';
+        }
+      }
       if (joursEl) joursEl.textContent = "0";
       if (heuresEl) heuresEl.textContent = "0";
       if (minutesEl) minutesEl.textContent = "0";
       if (secondesEl) secondesEl.textContent = "0";
-      if (timelineJours) timelineJours.textContent = "J-0";
       return;
     }
 

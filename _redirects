@@ -11,6 +11,8 @@
 /enjeux-index.html  /enjeux-2026/  301
 
 # Trailing slash canonicalization (evite duplication Google)
+/municipales-2026/:ville/resultats /municipales-2026/:ville/resultats/ 301
+/municipales-2026/resultats /municipales-2026/resultats/ 301
 /municipales-2026/:ville/candidats/:candidat /municipales-2026/:ville/candidats/:candidat/ 301
 /municipales-2026/:ville /municipales-2026/:ville/ 301
 /enjeux-2026/:theme /enjeux-2026/:theme/ 301

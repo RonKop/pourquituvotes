@@ -226,6 +226,100 @@ def verifier_kebab_case(ville, election):
     return erreurs
 
 
+def verifier_resultats(ville, election):
+    """Vérifie la cohérence des résultats électoraux si présents."""
+    erreurs = []
+    avertissements = []
+
+    resultats = election.get("resultats")
+    if not resultats:
+        return erreurs, avertissements
+
+    candidats_ids = {c["id"] for c in election.get("candidats", [])}
+
+    for tour_key in ["tour1", "tour2"]:
+        tour = resultats.get(tour_key)
+        if not tour:
+            continue
+
+        tour_label = "T1" if tour_key == "tour1" else "T2"
+
+        # Vérifier que tous les IDs candidats résultats existent
+        for rc in tour.get("candidats", []):
+            if rc["id"] not in candidats_ids:
+                erreurs.append(
+                    f"  [{ville}] {tour_label} : candidat résultat \"{rc['id']}\" "
+                    f"n'existe pas dans la liste des candidats"
+                )
+
+        # Somme des voix == exprimés (±1 pour arrondis)
+        total_voix = sum(rc.get("voix", 0) for rc in tour.get("candidats", []))
+        exprimes = tour.get("exprimes", 0)
+        if abs(total_voix - exprimes) > 1:
+            erreurs.append(
+                f"  [{ville}] {tour_label} : somme des voix ({total_voix}) "
+                f"!= exprimés ({exprimes}), écart = {total_voix - exprimes}"
+            )
+
+        # Pourcentage = voix/exprimés*100 (±0.1%)
+        for rc in tour.get("candidats", []):
+            if exprimes > 0:
+                expected_pct = round(rc.get("voix", 0) / exprimes * 100, 2)
+                actual_pct = rc.get("pourcentage", 0)
+                if abs(expected_pct - actual_pct) > 0.1:
+                    avertissements.append(
+                        f"  [{ville}] {tour_label} {rc['id']} : pourcentage {actual_pct}% "
+                        f"!= attendu {expected_pct}% (voix/exprimés)"
+                    )
+
+        # Taux de participation = votants/inscrits*100
+        inscrits = tour.get("inscrits", 0)
+        votants = tour.get("votants", 0)
+        if inscrits > 0:
+            expected_taux = round(votants / inscrits * 100, 2)
+            actual_taux = tour.get("tauxParticipation", 0)
+            if abs(expected_taux - actual_taux) > 0.1:
+                avertissements.append(
+                    f"  [{ville}] {tour_label} : tauxParticipation {actual_taux}% "
+                    f"!= attendu {expected_taux}% (votants/inscrits)"
+                )
+
+    # Si tour2 : candidats présents étaient qualifiés au T1
+    if resultats.get("tour2") and resultats.get("tour1"):
+        t1_qualifies = set()
+        for rc in resultats["tour1"].get("candidats", []):
+            if rc.get("qualifieT2", False) or rc.get("elu", False):
+                t1_qualifies.add(rc["id"])
+        for rc in resultats["tour2"].get("candidats", []):
+            if rc["id"] not in t1_qualifies and t1_qualifies:
+                avertissements.append(
+                    f"  [{ville}] T2 : candidat \"{rc['id']}\" présent au T2 "
+                    f"mais pas qualifié au T1"
+                )
+
+    # eluMaire correspond au candidat avec elu: true
+    elu_maire = resultats.get("eluMaire")
+    if elu_maire:
+        found_elu = False
+        for tour_key in ["tour2", "tour1"]:
+            tour = resultats.get(tour_key)
+            if not tour:
+                continue
+            for rc in tour.get("candidats", []):
+                if rc["id"] == elu_maire and rc.get("elu"):
+                    found_elu = True
+                    break
+            if found_elu:
+                break
+        if not found_elu:
+            erreurs.append(
+                f"  [{ville}] eluMaire=\"{elu_maire}\" mais aucun candidat "
+                f"avec elu=true trouvé pour cet ID"
+            )
+
+    return erreurs, avertissements
+
+
 def main():
     print("=" * 60)
     print("  VALIDATION DES DONNÉES — Comparateur Municipal")
@@ -397,6 +491,32 @@ def main():
         total_erreurs += len(all_err_kebab)
     else:
         print("  OK — Tous les IDs sont en kebab-case valide")
+    print()
+
+    # 10. Résultats électoraux
+    print("10. Résultats électoraux")
+    all_err_res = []
+    all_avert_res = []
+    n_resultats = 0
+    for eid, election in sorted(elections.items()):
+        if election.get("resultats"):
+            n_resultats += 1
+        err, avert = verifier_resultats(election["ville"], election)
+        all_err_res.extend(err)
+        all_avert_res.extend(avert)
+
+    if all_err_res:
+        print(f"  ERREURS ({len(all_err_res)}) :")
+        for e in all_err_res:
+            print(e)
+        total_erreurs += len(all_err_res)
+    else:
+        print(f"  OK — {n_resultats} villes avec résultats valides")
+    if all_avert_res:
+        print(f"\n  Avertissements ({len(all_avert_res)}) :")
+        for a in all_avert_res:
+            print(a)
+        total_avert += len(all_avert_res)
     print()
 
     # Résumé

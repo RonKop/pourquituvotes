@@ -142,10 +142,28 @@
       </div>
     </section>
 
-    <!-- Tableau des villes -->
+    <!-- Recherche commune -->
+    <section class="resultats-section" id="national-search-section">
+      <h2 class="resultats-section__titre">Rechercher une commune</h2>
+      <div class="resultats-search">
+        <div class="resultats-search__box">
+          <i class="ph ph-magnifying-glass"></i>
+          <input type="text" id="national-search" placeholder="Nom de commune ou code postal..." autocomplete="off" aria-label="Rechercher une commune">
+        </div>
+        <div class="resultats-search__results" id="national-search-results" hidden></div>
+      </div>
+    </section>
+
+    <!-- Grandes villes -->
     <section class="resultats-section" id="national-villes-section">
-      <h2 class="resultats-section__titre">R&eacute;sultats par ville</h2>
+      <h2 class="resultats-section__titre">Grandes villes</h2>
       <div id="national-villes-table"></div>
+    </section>
+
+    <!-- Navigation par département -->
+    <section class="resultats-section" id="national-dept-section">
+      <h2 class="resultats-section__titre">R&eacute;sultats par d&eacute;partement</h2>
+      <div class="resultats-dept-grid" id="national-dept-grid"></div>
     </section>
 
     <!-- CTA Comparateur -->

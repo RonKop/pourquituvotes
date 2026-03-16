@@ -169,16 +169,26 @@
     bar.innerHTML = barHtml;
     legend.innerHTML = legendHtml;
 
-    // Populate filter select
-    var filterSelect = document.getElementById('national-filter-nuance');
-    if (filterSelect) {
-      sorted.forEach(function (nuance) {
-        var opt = document.createElement('option');
-        opt.value = nuance;
-        opt.textContent = (NUANCE_LABELS[nuance] || nuance) + ' (' + nuances[nuance] + ')';
-        filterSelect.appendChild(opt);
-      });
-    }
+    // Click légende nuance → filtre
+    legend.addEventListener('click', function (e) {
+      var item = e.target.closest('[data-nuance]');
+      if (!item) return;
+      var nuance = item.getAttribute('data-nuance');
+      if (currentNuance === nuance) {
+        currentNuance = '';
+        item.style.opacity = '';
+      } else {
+        currentNuance = nuance;
+        var items = legend.querySelectorAll('.resultats-nuances-legend__item');
+        for (var i = 0; i < items.length; i++) {
+          items[i].style.opacity = items[i] === item ? '1' : '0.4';
+        }
+      }
+      if (!currentNuance) {
+        var items2 = legend.querySelectorAll('.resultats-nuances-legend__item');
+        for (var j = 0; j < items2.length; j++) items2[j].style.opacity = '';
+      }
+    });
   }
 
   // === Grandes villes (avec tri/filtre) ===
@@ -394,18 +404,18 @@
       })
       .catch(function (err) { console.error(err); });
 
-    // Événements tri/filtre
-    var sortSelect = document.getElementById('national-sort');
-    var nuanceSelect = document.getElementById('national-filter-nuance');
-    if (sortSelect) {
-      sortSelect.addEventListener('change', function () {
-        currentSort = this.value;
-        renderVillesTable();
-      });
-    }
-    if (nuanceSelect) {
-      nuanceSelect.addEventListener('change', function () {
-        currentNuance = this.value;
+    // Événements tri par chips
+    var sortChips = document.getElementById('national-sort-chips');
+    if (sortChips) {
+      sortChips.addEventListener('click', function (e) {
+        var chip = e.target.closest('[data-sort]');
+        if (!chip) return;
+        currentSort = chip.getAttribute('data-sort');
+        // Mettre à jour l'état actif
+        var all = sortChips.querySelectorAll('.resultats-sort-chip');
+        for (var i = 0; i < all.length; i++) {
+          all[i].classList.toggle('resultats-sort-chip--actif', all[i] === chip);
+        }
         renderVillesTable();
       });
     }

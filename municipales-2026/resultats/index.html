@@ -61,8 +61,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web/src/regular/style.css">
-  <link rel="stylesheet" href="/css/style.css?v=2026031601">
-  <link rel="stylesheet" href="/css/resultats.css?v=2026031601">
+  <link rel="stylesheet" href="/css/style.css?v=2026031602">
+  <link rel="stylesheet" href="/css/resultats.css?v=2026031602">
   <link rel="stylesheet" href="/css/consent.css">
 </head>
 <body>
@@ -175,21 +175,13 @@
       <div class="resultats-nuances-legend" id="national-nuances-legend"></div>
     </section>
 
-    <!-- Grandes villes avec filtres et tri -->
+    <!-- Grandes villes avec tri par chips -->
     <section class="resultats-section" id="national-villes-section">
-      <div class="resultats-section__header">
-        <h2 class="resultats-section__titre">Grandes villes</h2>
-        <div class="resultats-controls">
-          <select id="national-sort" class="resultats-controls__select" aria-label="Trier par">
-            <option value="alpha">A &rarr; Z</option>
-            <option value="part-desc">Participation &darr;</option>
-            <option value="part-asc">Participation &uarr;</option>
-            <option value="pop-desc">Population &darr;</option>
-          </select>
-          <select id="national-filter-nuance" class="resultats-controls__select" aria-label="Filtrer par nuance">
-            <option value="">Toutes les nuances</option>
-          </select>
-        </div>
+      <h2 class="resultats-section__titre">Grandes villes</h2>
+      <div class="resultats-sort-chips" id="national-sort-chips">
+        <span class="resultats-sort-chip resultats-sort-chip--actif" data-sort="alpha">A &rarr; Z</span>
+        <span class="resultats-sort-chip" data-sort="part-desc"><i class="ph ph-chart-line-down"></i> Participation &darr;</span>
+        <span class="resultats-sort-chip" data-sort="part-asc"><i class="ph ph-chart-line-up"></i> Participation &uarr;</span>
       </div>
       <div id="national-villes-table"></div>
     </section>
@@ -299,8 +291,8 @@
   </script>
   <script defer src="/js/consent.js"></script>
   <script defer src="/js/seo-utils.js"></script>
-  <script defer src="/js/burger-search.js?v=2026031601"></script>
-  <script defer src="/js/resultats-national.js?v=2026031601"></script>
+  <script defer src="/js/burger-search.js?v=2026031602"></script>
+  <script defer src="/js/resultats-national.js?v=2026031602"></script>
   <script defer src="/js/contribuer.js"></script>
 </body>
 </html>

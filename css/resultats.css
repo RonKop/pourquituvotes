@@ -584,55 +584,67 @@
   font-weight: 600;
 }
 
-/* ── Contrôles tri/filtre ── */
-.resultats-section__header {
+/* ── Chips de tri (même style que filtres-candidats__chip) ── */
+.resultats-sort-chips {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-bottom: 1.5rem;
-}
-
-.resultats-section__header .resultats-section__titre {
-  margin-bottom: 0;
-}
-
-.resultats-controls {
-  display: flex;
   gap: 0.5rem;
+  margin-bottom: 1.25rem;
 }
 
-.resultats-controls__select {
-  padding: 0.5rem 0.75rem;
+.resultats-sort-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
   border: 1px solid var(--couleur-bordure);
-  border-radius: var(--rayon);
+  border-radius: 50px;
   background: var(--couleur-surface);
   color: var(--couleur-texte);
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.85rem;
   cursor: pointer;
+  transition: all 0.15s;
+  user-select: none;
 }
 
-[data-theme="dark"] .resultats-controls__select {
+.resultats-sort-chip:hover {
+  background: var(--couleur-hover);
+  border-color: var(--couleur-accent);
+}
+
+.resultats-sort-chip--actif {
+  background: var(--bleu);
+  color: #fff;
+  border-color: var(--bleu);
+}
+
+.resultats-sort-chip--actif:hover {
+  background: var(--bleu-fonce);
+}
+
+[data-theme="dark"] .resultats-sort-chip {
   background: var(--couleur-surface);
   border-color: var(--couleur-bordure);
   color: var(--couleur-texte);
 }
 
+[data-theme="dark"] .resultats-sort-chip--actif {
+  background: var(--bleu);
+  color: #fff;
+}
+
 @media (max-width: 500px) {
-  .resultats-section__header {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .resultats-controls {
-    flex-wrap: wrap;
-  }
-  .resultats-controls__select {
-    flex: 1;
-  }
   .resultats-highlights {
     grid-template-columns: 1fr;
+  }
+  .resultats-sort-chips {
+    gap: 0.4rem;
+  }
+  .resultats-sort-chip {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.7rem;
   }
 }
 

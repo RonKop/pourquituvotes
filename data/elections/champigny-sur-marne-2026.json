@@ -678,5 +678,56 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 45954,
+      "abstentions": 23418,
+      "tauxParticipation": 49.04,
+      "votants": 22536,
+      "blancs": 207,
+      "nuls": 216,
+      "exprimes": 22113,
+      "candidats": [
+        {
+          "id": "jeanne",
+          "voix": 11797,
+          "pourcentage": 53.35,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "leger",
+          "voix": 6817,
+          "pourcentage": 30.83,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "keita-gassama",
+          "voix": 2994,
+          "pourcentage": 13.54,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rekab",
+          "voix": 315,
+          "pourcentage": 1.42,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "chiche",
+          "voix": 190,
+          "pourcentage": 0.86,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "jeanne"
+  }
 }

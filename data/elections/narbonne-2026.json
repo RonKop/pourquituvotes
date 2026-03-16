@@ -65,5 +65,62 @@
       "nuanceLibelle": "Liste du Rassemblement National"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 40325,
+      "abstentions": 18234,
+      "tauxParticipation": 54.78,
+      "votants": 22091,
+      "blancs": 316,
+      "nuls": 296,
+      "exprimes": 21479,
+      "candidats": [
+        {
+          "id": "malquier",
+          "voix": 10739,
+          "pourcentage": 50.0,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "falcon",
+          "voix": 4762,
+          "pourcentage": 22.17,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "sainte-cluque",
+          "voix": 3705,
+          "pourcentage": 17.25,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "fabas",
+          "voix": 1089,
+          "pourcentage": 5.07,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "maury",
+          "voix": 841,
+          "pourcentage": 3.92,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "peyre",
+          "voix": 343,
+          "pourcentage": 1.6,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

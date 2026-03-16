@@ -811,5 +811,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 52808,
+      "abstentions": 25396,
+      "tauxParticipation": 51.91,
+      "votants": 27412,
+      "blancs": 286,
+      "nuls": 193,
+      "exprimes": 26933,
+      "candidats": [
+        {
+          "id": "samzun",
+          "voix": 12047,
+          "pourcentage": 44.73,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "lucas",
+          "voix": 5920,
+          "pourcentage": 21.98,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "pichon",
+          "voix": 4646,
+          "pourcentage": 17.25,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "chereau",
+          "voix": 3751,
+          "pourcentage": 13.93,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "le-beller",
+          "voix": 569,
+          "pourcentage": 2.11,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

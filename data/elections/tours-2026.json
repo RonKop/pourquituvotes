@@ -1449,5 +1449,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 86326,
+      "abstentions": 40984,
+      "tauxParticipation": 52.52,
+      "votants": 45342,
+      "blancs": 511,
+      "nuls": 313,
+      "exprimes": 44518,
+      "candidats": [
+        {
+          "id": "denis",
+          "voix": 15155,
+          "pourcentage": 34.04,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bouchet",
+          "voix": 10632,
+          "pourcentage": 23.88,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "nikolic",
+          "voix": 5206,
+          "pourcentage": 11.69,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "quinton",
+          "voix": 5100,
+          "pourcentage": 11.46,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pierre",
+          "voix": 4397,
+          "pourcentage": 9.88,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "alfandari",
+          "voix": 3379,
+          "pourcentage": 7.59,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "jouhannaud",
+          "voix": 605,
+          "pourcentage": 1.36,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "delore",
+          "voix": 337,
+          "pourcentage": 0.76,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

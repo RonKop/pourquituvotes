@@ -721,5 +721,56 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 41184,
+      "abstentions": 19168,
+      "tauxParticipation": 53.46,
+      "votants": 22016,
+      "blancs": 335,
+      "nuls": 257,
+      "exprimes": 21424,
+      "candidats": [
+        {
+          "id": "rachline",
+          "voix": 10997,
+          "pourcentage": 51.33,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "bonnemain",
+          "voix": 6414,
+          "pourcentage": 29.94,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "cerrutti",
+          "voix": 2488,
+          "pourcentage": 11.61,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "romano",
+          "voix": 1121,
+          "pourcentage": 5.23,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "fassi",
+          "voix": 404,
+          "pourcentage": 1.89,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "rachline"
+  }
 }

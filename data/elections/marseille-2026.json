@@ -1858,5 +1858,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 555399,
+      "abstentions": 265618,
+      "tauxParticipation": 52.18,
+      "votants": 289781,
+      "blancs": 3365,
+      "nuls": 3342,
+      "exprimes": 283074,
+      "candidats": [
+        {
+          "id": "payan",
+          "voix": 103883,
+          "pourcentage": 36.7,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "allisio",
+          "voix": 99137,
+          "pourcentage": 35.02,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "vassal",
+          "voix": 35131,
+          "pourcentage": 12.41,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "delogu",
+          "voix": 33808,
+          "pourcentage": 11.94,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "davoux",
+          "voix": 5248,
+          "pourcentage": 1.85,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "juste",
+          "voix": 2727,
+          "pourcentage": 0.96,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bazzali",
+          "voix": 2071,
+          "pourcentage": 0.73,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "raynaud",
+          "voix": 1069,
+          "pourcentage": 0.38,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

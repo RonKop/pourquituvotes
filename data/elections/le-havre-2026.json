@@ -1277,5 +1277,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 103918,
+      "abstentions": 49449,
+      "tauxParticipation": 52.42,
+      "votants": 54469,
+      "blancs": 1110,
+      "nuls": 0,
+      "exprimes": 53359,
+      "candidats": [
+        {
+          "id": "philippe",
+          "voix": 23350,
+          "pourcentage": 43.76,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "lecoq",
+          "voix": 17741,
+          "pourcentage": 33.25,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "keller",
+          "voix": 8166,
+          "pourcentage": 15.3,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "boulogne",
+          "voix": 2134,
+          "pourcentage": 4.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "le-cieux",
+          "voix": 1059,
+          "pourcentage": 1.98,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "zarifian",
+          "voix": 558,
+          "pourcentage": 1.05,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "cauchois",
+          "voix": 351,
+          "pourcentage": 0.66,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

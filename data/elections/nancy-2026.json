@@ -1099,5 +1099,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 56403,
+      "abstentions": 27002,
+      "tauxParticipation": 52.13,
+      "votants": 29401,
+      "blancs": 386,
+      "nuls": 196,
+      "exprimes": 28819,
+      "candidats": [
+        {
+          "id": "klein",
+          "voix": 12424,
+          "pourcentage": 43.11,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "henart",
+          "voix": 9633,
+          "pourcentage": 33.43,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "farghaly",
+          "voix": 3410,
+          "pourcentage": 11.83,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lacresse",
+          "voix": 2085,
+          "pourcentage": 7.23,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "watrin",
+          "voix": 898,
+          "pourcentage": 3.12,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "nimsgern",
+          "voix": 369,
+          "pourcentage": 1.28,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

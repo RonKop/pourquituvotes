@@ -1079,5 +1079,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 102735,
+      "abstentions": 55915,
+      "tauxParticipation": 45.57,
+      "votants": 46820,
+      "blancs": 441,
+      "nuls": 321,
+      "exprimes": 46058,
+      "candidats": [
+        {
+          "id": "robinet",
+          "voix": 20169,
+          "pourcentage": 43.79,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "frigout",
+          "voix": 9687,
+          "pourcentage": 21.03,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "quenard",
+          "voix": 8276,
+          "pourcentage": 17.97,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lang",
+          "voix": 3536,
+          "pourcentage": 7.68,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "coradel",
+          "voix": 3167,
+          "pourcentage": 6.88,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rose",
+          "voix": 736,
+          "pourcentage": 1.6,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mura",
+          "voix": 487,
+          "pourcentage": 1.06,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

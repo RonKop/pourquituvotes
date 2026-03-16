@@ -733,5 +733,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 59756,
+      "abstentions": 37261,
+      "tauxParticipation": 37.64,
+      "votants": 22495,
+      "blancs": 853,
+      "nuls": 528,
+      "exprimes": 21114,
+      "candidats": [
+        {
+          "id": "laguerre",
+          "voix": 9343,
+          "pourcentage": 44.25,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "carole",
+          "voix": 4637,
+          "pourcentage": 21.96,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "moreau",
+          "voix": 4476,
+          "pourcentage": 21.2,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "jos",
+          "voix": 2165,
+          "pourcentage": 10.25,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "jean-marie",
+          "voix": 493,
+          "pourcentage": 2.33,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

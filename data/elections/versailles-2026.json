@@ -715,5 +715,63 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 58329,
+      "abstentions": 26104,
+      "tauxParticipation": 55.25,
+      "votants": 32225,
+      "blancs": 181,
+      "nuls": 97,
+      "exprimes": 31947,
+      "candidats": [
+        {
+          "id": "mazieres",
+          "voix": 20626,
+          "pourcentage": 64.56,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "faire",
+          "voix": 4949,
+          "pourcentage": 15.49,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "landrain",
+          "voix": 1822,
+          "pourcentage": 5.7,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rendina-mancuso",
+          "voix": 1761,
+          "pourcentage": 5.51,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "filleur",
+          "voix": 1689,
+          "pourcentage": 5.29,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "clement",
+          "voix": 1100,
+          "pourcentage": 3.44,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "mazieres"
+  }
 }

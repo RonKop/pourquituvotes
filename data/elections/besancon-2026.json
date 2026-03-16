@@ -654,5 +654,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 68616,
+      "abstentions": 29409,
+      "tauxParticipation": 57.14,
+      "votants": 39207,
+      "blancs": 424,
+      "nuls": 314,
+      "exprimes": 38469,
+      "candidats": [
+        {
+          "id": "fagaut",
+          "voix": 15437,
+          "pourcentage": 40.13,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "vignot",
+          "voix": 12836,
+          "pourcentage": 33.37,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "vezies",
+          "voix": 4194,
+          "pourcentage": 10.9,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "ricciardetti",
+          "voix": 3077,
+          "pourcentage": 8.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "delabrousse",
+          "voix": 2181,
+          "pourcentage": 5.67,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "friess",
+          "voix": 744,
+          "pourcentage": 1.93,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

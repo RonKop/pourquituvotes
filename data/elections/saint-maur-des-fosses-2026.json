@@ -601,5 +601,56 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 53176,
+      "abstentions": 23643,
+      "tauxParticipation": 55.54,
+      "votants": 29533,
+      "blancs": 249,
+      "nuls": 209,
+      "exprimes": 29075,
+      "candidats": [
+        {
+          "id": "delecroix",
+          "voix": 16044,
+          "pourcentage": 55.18,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "vercelloni",
+          "voix": 5430,
+          "pourcentage": 18.68,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "fernandez",
+          "voix": 2905,
+          "pourcentage": 9.99,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bertrand",
+          "voix": 2607,
+          "pourcentage": 8.97,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "kouki",
+          "voix": 2089,
+          "pourcentage": 7.18,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "delecroix"
+  }
 }

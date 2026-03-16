@@ -1573,5 +1573,90 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 87298,
+      "abstentions": 34304,
+      "tauxParticipation": 60.7,
+      "votants": 52994,
+      "blancs": 371,
+      "nuls": 178,
+      "exprimes": 52445,
+      "candidats": [
+        {
+          "id": "carignon",
+          "voix": 14182,
+          "pourcentage": 27.04,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "ruffin",
+          "voix": 13810,
+          "pourcentage": 26.33,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "brunon",
+          "voix": 7650,
+          "pourcentage": 14.59,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gentil",
+          "voix": 5242,
+          "pourcentage": 10.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gerbi",
+          "voix": 5053,
+          "pourcentage": 9.63,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gabriac",
+          "voix": 2728,
+          "pourcentage": 5.2,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "simon",
+          "voix": 2614,
+          "pourcentage": 4.98,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "anglade",
+          "voix": 724,
+          "pourcentage": 1.38,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "brun",
+          "voix": 353,
+          "pourcentage": 0.67,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "krzyzak",
+          "voix": 89,
+          "pourcentage": 0.17,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

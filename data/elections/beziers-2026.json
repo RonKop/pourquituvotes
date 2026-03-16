@@ -601,5 +601,56 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 48223,
+      "abstentions": 21009,
+      "tauxParticipation": 56.43,
+      "votants": 27214,
+      "blancs": 209,
+      "nuls": 193,
+      "exprimes": 26812,
+      "candidats": [
+        {
+          "id": "menard",
+          "voix": 17590,
+          "pourcentage": 65.6,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "mathieu",
+          "voix": 4086,
+          "pourcentage": 15.24,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "gabarron",
+          "voix": 2405,
+          "pourcentage": 8.97,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "antoine",
+          "voix": 1749,
+          "pourcentage": 6.52,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "ocard",
+          "voix": 982,
+          "pourcentage": 3.66,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "menard"
+  }
 }

@@ -45,5 +45,48 @@
       "nuanceLibelle": "Liste divers gauche"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 28269,
+      "abstentions": 15474,
+      "tauxParticipation": 45.26,
+      "votants": 12795,
+      "blancs": 138,
+      "nuls": 94,
+      "exprimes": 12563,
+      "candidats": [
+        {
+          "id": "konate",
+          "voix": 5617,
+          "pourcentage": 44.71,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "valentin",
+          "voix": 3465,
+          "pourcentage": 27.58,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "haddad",
+          "voix": 3191,
+          "pourcentage": 25.4,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "abchiche",
+          "voix": 290,
+          "pourcentage": 2.31,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

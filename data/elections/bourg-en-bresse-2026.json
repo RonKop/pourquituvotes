@@ -55,5 +55,56 @@
       "nuanceLibelle": "Liste d'union à gauche"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 23177,
+      "abstentions": 11150,
+      "tauxParticipation": 51.89,
+      "votants": 12027,
+      "blancs": 91,
+      "nuls": 76,
+      "exprimes": 11860,
+      "candidats": [
+        {
+          "id": "debat",
+          "voix": 6589,
+          "pourcentage": 55.56,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "de-boysson",
+          "voix": 1837,
+          "pourcentage": 15.49,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "buisson",
+          "voix": 1834,
+          "pourcentage": 15.46,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "coquelet",
+          "voix": 1388,
+          "pourcentage": 11.7,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "cousson",
+          "voix": 212,
+          "pourcentage": 1.79,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "debat"
+  }
 }

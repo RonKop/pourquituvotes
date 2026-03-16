@@ -601,5 +601,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 41407,
+      "abstentions": 20028,
+      "tauxParticipation": 51.63,
+      "votants": 21379,
+      "blancs": 239,
+      "nuls": 193,
+      "exprimes": 20947,
+      "candidats": [
+        {
+          "id": "monnier",
+          "voix": 5144,
+          "pourcentage": 24.56,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "marsigny",
+          "voix": 5066,
+          "pourcentage": 24.18,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "constant",
+          "voix": 4255,
+          "pourcentage": 20.31,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "thiam",
+          "voix": 3642,
+          "pourcentage": 17.39,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "zrihen",
+          "voix": 2840,
+          "pourcentage": 13.56,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

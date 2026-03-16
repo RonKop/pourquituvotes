@@ -55,5 +55,55 @@
       "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 20693,
+      "abstentions": 9975,
+      "tauxParticipation": 51.8,
+      "votants": 10718,
+      "blancs": 230,
+      "nuls": 228,
+      "exprimes": 10260,
+      "candidats": [
+        {
+          "id": "perche",
+          "voix": 3729,
+          "pourcentage": 36.35,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "laporte",
+          "voix": 3090,
+          "pourcentage": 30.12,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mothet",
+          "voix": 2317,
+          "pourcentage": 22.58,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "brun",
+          "voix": 923,
+          "pourcentage": 9.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "reul",
+          "voix": 201,
+          "pourcentage": 1.96,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

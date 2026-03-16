@@ -1852,5 +1852,97 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 128988,
+      "abstentions": 53811,
+      "tauxParticipation": 58.28,
+      "votants": 75177,
+      "blancs": 713,
+      "nuls": 467,
+      "exprimes": 73997,
+      "candidats": [
+        {
+          "id": "appere",
+          "voix": 25548,
+          "pourcentage": 34.53,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "compagnon",
+          "voix": 16628,
+          "pourcentage": 22.47,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mesmeur",
+          "voix": 13774,
+          "pourcentage": 18.61,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "masson",
+          "voix": 4939,
+          "pourcentage": 6.67,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "trousseau",
+          "voix": 4662,
+          "pourcentage": 6.3,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rabate",
+          "voix": 3754,
+          "pourcentage": 5.07,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "melan",
+          "voix": 2148,
+          "pourcentage": 2.9,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "duclos",
+          "voix": 1298,
+          "pourcentage": 1.75,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "chirazi",
+          "voix": 653,
+          "pourcentage": 0.88,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "darcissac",
+          "voix": 379,
+          "pourcentage": 0.51,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pernot",
+          "voix": 214,
+          "pourcentage": 0.29,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -791,5 +791,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 55707,
+      "abstentions": 32032,
+      "tauxParticipation": 42.5,
+      "votants": 23675,
+      "blancs": 334,
+      "nuls": 213,
+      "exprimes": 23128,
+      "candidats": [
+        {
+          "id": "mothron",
+          "voix": 8735,
+          "pourcentage": 37.77,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "zeghli",
+          "voix": 6137,
+          "pourcentage": 26.53,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "doucet",
+          "voix": 3006,
+          "pourcentage": 13.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bougeard",
+          "voix": 2900,
+          "pourcentage": 12.54,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "debeaud",
+          "voix": 1428,
+          "pourcentage": 6.17,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "slifi",
+          "voix": 532,
+          "pourcentage": 2.3,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mariette",
+          "voix": 390,
+          "pourcentage": 1.69,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

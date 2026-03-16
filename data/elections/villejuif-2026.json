@@ -846,5 +846,83 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 32689,
+      "abstentions": 16986,
+      "tauxParticipation": 48.04,
+      "votants": 15703,
+      "blancs": 168,
+      "nuls": 140,
+      "exprimes": 15395,
+      "candidats": [
+        {
+          "id": "garzon",
+          "voix": 3777,
+          "pourcentage": 24.53,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "conquet",
+          "voix": 3095,
+          "pourcentage": 20.1,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "esclangon",
+          "voix": 3086,
+          "pourcentage": 20.05,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "arrouche",
+          "voix": 1882,
+          "pourcentage": 12.22,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mantion",
+          "voix": 1375,
+          "pourcentage": 8.93,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "touzani",
+          "voix": 1023,
+          "pourcentage": 6.65,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "da-silva-pereira",
+          "voix": 679,
+          "pourcentage": 4.41,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bahloul",
+          "voix": 278,
+          "pourcentage": 1.81,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "martin",
+          "voix": 200,
+          "pourcentage": 1.3,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

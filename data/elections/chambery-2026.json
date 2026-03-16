@@ -1094,5 +1094,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 36194,
+      "abstentions": 16851,
+      "tauxParticipation": 53.44,
+      "votants": 19343,
+      "blancs": 174,
+      "nuls": 78,
+      "exprimes": 19091,
+      "candidats": [
+        {
+          "id": "patey",
+          "voix": 5393,
+          "pourcentage": 28.25,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "repentin",
+          "voix": 4324,
+          "pourcentage": 22.65,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bernard",
+          "voix": 2897,
+          "pourcentage": 15.17,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "benevise",
+          "voix": 2465,
+          "pourcentage": 12.91,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "desreumaux",
+          "voix": 1848,
+          "pourcentage": 9.68,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "favetta",
+          "voix": 1092,
+          "pourcentage": 5.72,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "hamoudi-wilkowsky",
+          "voix": 868,
+          "pourcentage": 4.55,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "ducruet",
+          "voix": 204,
+          "pourcentage": 1.07,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -839,5 +839,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 66515,
+      "abstentions": 41959,
+      "tauxParticipation": 36.92,
+      "votants": 24556,
+      "blancs": 252,
+      "nuls": 182,
+      "exprimes": 24122,
+      "candidats": [
+        {
+          "id": "becue",
+          "voix": 11492,
+          "pourcentage": 47.64,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "verbrugghe",
+          "voix": 4445,
+          "pourcentage": 18.43,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "croes",
+          "voix": 4037,
+          "pourcentage": 16.74,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "vuylsteker",
+          "voix": 2205,
+          "pourcentage": 9.14,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "talpaert",
+          "voix": 1597,
+          "pourcentage": 6.62,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "charlon",
+          "voix": 346,
+          "pourcentage": 1.43,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

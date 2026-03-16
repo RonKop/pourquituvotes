@@ -601,5 +601,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 28972,
+      "abstentions": 13628,
+      "tauxParticipation": 52.96,
+      "votants": 15344,
+      "blancs": 123,
+      "nuls": 115,
+      "exprimes": 15106,
+      "candidats": [
+        {
+          "id": "kern",
+          "voix": 5982,
+          "pourcentage": 39.6,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "monot",
+          "voix": 3377,
+          "pourcentage": 22.36,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bardoux",
+          "voix": 3315,
+          "pourcentage": 21.94,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "carvalhinho",
+          "voix": 1950,
+          "pourcentage": 12.91,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "arthaud",
+          "voix": 482,
+          "pourcentage": 3.19,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -1407,5 +1407,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 229111,
+      "abstentions": 106361,
+      "tauxParticipation": 53.58,
+      "votants": 122750,
+      "blancs": 1557,
+      "nuls": 842,
+      "exprimes": 120351,
+      "candidats": [
+        {
+          "id": "ciotti",
+          "voix": 52274,
+          "pourcentage": 43.43,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "estrosi",
+          "voix": 37214,
+          "pourcentage": 30.92,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "chesnel",
+          "voix": 14356,
+          "pourcentage": 11.93,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "damiano",
+          "voix": 10767,
+          "pourcentage": 8.95,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "forjonnel",
+          "voix": 2690,
+          "pourcentage": 2.24,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "vella",
+          "voix": 2238,
+          "pourcentage": 1.86,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "jaquet",
+          "voix": 812,
+          "pourcentage": 0.67,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

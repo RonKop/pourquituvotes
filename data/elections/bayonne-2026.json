@@ -55,5 +55,55 @@
       "nuanceLibelle": "Liste d'extrême droite"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 36382,
+      "abstentions": 17005,
+      "tauxParticipation": 53.26,
+      "votants": 19377,
+      "blancs": 194,
+      "nuls": 123,
+      "exprimes": 19060,
+      "candidats": [
+        {
+          "id": "etchegaray",
+          "voix": 8026,
+          "pourcentage": 42.11,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "iriart",
+          "voix": 4191,
+          "pourcentage": 21.99,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "etcheto",
+          "voix": 4074,
+          "pourcentage": 21.37,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "lesellier",
+          "voix": 2043,
+          "pourcentage": 10.72,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pereira-ostanel",
+          "voix": 726,
+          "pourcentage": 3.81,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

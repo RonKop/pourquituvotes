@@ -1131,5 +1131,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 62752,
+      "abstentions": 30930,
+      "tauxParticipation": 50.71,
+      "votants": 31822,
+      "blancs": 326,
+      "nuls": 192,
+      "exprimes": 31304,
+      "candidats": [
+        {
+          "id": "mayer-rossignol",
+          "voix": 14128,
+          "pourcentage": 45.13,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "caron",
+          "voix": 7752,
+          "pourcentage": 24.76,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "da-silva",
+          "voix": 4396,
+          "pourcentage": 14.04,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "houdan",
+          "voix": 4162,
+          "pourcentage": 13.3,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "renauld",
+          "voix": 351,
+          "pourcentage": 1.12,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "moisan",
+          "voix": 302,
+          "pourcentage": 0.96,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "vitard",
+          "voix": 213,
+          "pourcentage": 0.68,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

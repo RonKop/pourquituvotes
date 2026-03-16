@@ -863,5 +863,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 91945,
+      "abstentions": 44642,
+      "tauxParticipation": 51.45,
+      "votants": 47303,
+      "blancs": 932,
+      "nuls": 0,
+      "exprimes": 46371,
+      "candidats": [
+        {
+          "id": "foll",
+          "voix": 20215,
+          "pourcentage": 43.59,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "karamanli",
+          "voix": 8281,
+          "pourcentage": 17.86,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "vigneral",
+          "voix": 7013,
+          "pourcentage": 15.12,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sasso",
+          "voix": 6494,
+          "pourcentage": 14.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "brillant",
+          "voix": 3249,
+          "pourcentage": 7.01,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sainty",
+          "voix": 764,
+          "pourcentage": 1.65,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rabette",
+          "voix": 355,
+          "pourcentage": 0.77,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

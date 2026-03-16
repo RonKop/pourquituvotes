@@ -1316,5 +1316,90 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 86967,
+      "abstentions": 39543,
+      "tauxParticipation": 54.53,
+      "votants": 47424,
+      "blancs": 893,
+      "nuls": 0,
+      "exprimes": 46531,
+      "candidats": [
+        {
+          "id": "roudaut",
+          "voix": 14071,
+          "pourcentage": 30.24,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "cuillandre",
+          "voix": 11076,
+          "pourcentage": 23.8,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "beaudouin",
+          "voix": 7162,
+          "pourcentage": 15.39,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pages",
+          "voix": 5172,
+          "pourcentage": 11.12,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "muscat",
+          "voix": 3836,
+          "pourcentage": 8.24,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "salami",
+          "voix": 1663,
+          "pourcentage": 3.57,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "besombes",
+          "voix": 1446,
+          "pourcentage": 3.11,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "yenier",
+          "voix": 1441,
+          "pourcentage": 3.1,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "le-tallec",
+          "voix": 337,
+          "pourcentage": 0.72,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "collard",
+          "voix": 327,
+          "pourcentage": 0.7,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -1812,5 +1812,90 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 281775,
+      "abstentions": 122798,
+      "tauxParticipation": 56.42,
+      "votants": 158977,
+      "blancs": 1221,
+      "nuls": 735,
+      "exprimes": 157021,
+      "candidats": [
+        {
+          "id": "moudenc",
+          "voix": 58462,
+          "pourcentage": 37.23,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "piquemal",
+          "voix": 43274,
+          "pourcentage": 27.56,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "briancon",
+          "voix": 39245,
+          "pourcentage": 24.99,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "leonardelli",
+          "voix": 8447,
+          "pourcentage": 5.38,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "meilhac",
+          "voix": 2648,
+          "pourcentage": 1.69,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "cottrel",
+          "voix": 1953,
+          "pourcentage": 1.24,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pedinotti",
+          "voix": 1611,
+          "pourcentage": 1.03,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "adrada",
+          "voix": 653,
+          "pourcentage": 0.42,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "scali",
+          "voix": 438,
+          "pourcentage": 0.28,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "menendez",
+          "voix": 290,
+          "pourcentage": 0.18,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

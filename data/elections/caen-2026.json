@@ -1211,5 +1211,83 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 60714,
+      "abstentions": 27154,
+      "tauxParticipation": 55.28,
+      "votants": 33560,
+      "blancs": 246,
+      "nuls": 191,
+      "exprimes": 33123,
+      "candidats": [
+        {
+          "id": "olivier",
+          "voix": 16068,
+          "pourcentage": 48.51,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "lorphelin",
+          "voix": 7205,
+          "pourcentage": 21.75,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "guidi",
+          "voix": 4145,
+          "pourcentage": 12.51,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "henry",
+          "voix": 2448,
+          "pourcentage": 7.39,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lecoutour",
+          "voix": 1507,
+          "pourcentage": 4.55,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "casini",
+          "voix": 786,
+          "pourcentage": 2.37,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lareynie",
+          "voix": 364,
+          "pourcentage": 1.1,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "chevalier",
+          "voix": 357,
+          "pourcentage": 1.08,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "casevitz",
+          "voix": 243,
+          "pourcentage": 0.73,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

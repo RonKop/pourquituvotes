@@ -35,5 +35,42 @@
       "nuanceLibelle": "Liste du Rassemblement National"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 22560,
+      "abstentions": 11014,
+      "tauxParticipation": 51.18,
+      "votants": 11546,
+      "blancs": 169,
+      "nuls": 71,
+      "exprimes": 11306,
+      "candidats": [
+        {
+          "id": "robert",
+          "voix": 5734,
+          "pourcentage": 50.72,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "clavet",
+          "voix": 5256,
+          "pourcentage": 46.49,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "darras",
+          "voix": 316,
+          "pourcentage": 2.79,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "robert"
+  }
 }

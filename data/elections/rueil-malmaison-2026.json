@@ -915,5 +915,48 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 56595,
+      "abstentions": 26582,
+      "tauxParticipation": 53.03,
+      "votants": 30013,
+      "blancs": 486,
+      "nuls": 198,
+      "exprimes": 29329,
+      "candidats": [
+        {
+          "id": "ollier",
+          "voix": 14229,
+          "pourcentage": 48.52,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "ruffat",
+          "voix": 7581,
+          "pourcentage": 25.85,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "indjian",
+          "voix": 4932,
+          "pourcentage": 16.82,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "vasse",
+          "voix": 2587,
+          "pourcentage": 8.82,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

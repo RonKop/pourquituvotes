@@ -75,5 +75,69 @@
       "nuanceLibelle": "Liste régionaliste"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 23191,
+      "abstentions": 8522,
+      "tauxParticipation": 63.25,
+      "votants": 14669,
+      "blancs": 213,
+      "nuls": 212,
+      "exprimes": 14244,
+      "candidats": [
+        {
+          "id": "simeoni",
+          "voix": 5032,
+          "pourcentage": 35.33,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "morganti",
+          "voix": 3630,
+          "pourcentage": 25.48,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "battini",
+          "voix": 2372,
+          "pourcentage": 16.65,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mondoloni",
+          "voix": 1589,
+          "pourcentage": 11.16,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bastelica",
+          "voix": 917,
+          "pourcentage": 6.44,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "riolacci",
+          "voix": 557,
+          "pourcentage": 3.91,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lamberti",
+          "voix": 147,
+          "pourcentage": 1.03,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

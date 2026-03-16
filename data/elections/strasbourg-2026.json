@@ -2054,5 +2054,104 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 149962,
+      "abstentions": 62785,
+      "tauxParticipation": 58.13,
+      "votants": 87177,
+      "blancs": 481,
+      "nuls": 339,
+      "exprimes": 86357,
+      "candidats": [
+        {
+          "id": "trautmann",
+          "voix": 22392,
+          "pourcentage": 25.93,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "vetter",
+          "voix": 20925,
+          "pourcentage": 24.23,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "barseghian",
+          "voix": 17031,
+          "pourcentage": 19.72,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "kobryn",
+          "voix": 10392,
+          "pourcentage": 12.03,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "joron",
+          "voix": 6044,
+          "pourcentage": 7.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "jakubowicz",
+          "voix": 4407,
+          "pourcentage": 5.1,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "muhammad",
+          "voix": 2314,
+          "pourcentage": 2.68,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "boutghata",
+          "voix": 1087,
+          "pourcentage": 1.26,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sylla",
+          "voix": 733,
+          "pourcentage": 0.85,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "soubise",
+          "voix": 502,
+          "pourcentage": 0.58,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "feve",
+          "voix": 422,
+          "pourcentage": 0.49,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lacote",
+          "voix": 108,
+          "pourcentage": 0.13,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -661,5 +661,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 38265,
+      "abstentions": 17079,
+      "tauxParticipation": 55.37,
+      "votants": 21186,
+      "blancs": 219,
+      "nuls": 142,
+      "exprimes": 20825,
+      "candidats": [
+        {
+          "id": "loher",
+          "voix": 7380,
+          "pourcentage": 35.44,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "girard",
+          "voix": 4830,
+          "pourcentage": 23.19,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "stradic",
+          "voix": 3962,
+          "pourcentage": 19.03,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "thomas",
+          "voix": 3293,
+          "pourcentage": 15.81,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "tertre",
+          "voix": 1074,
+          "pourcentage": 5.16,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pierron",
+          "voix": 286,
+          "pourcentage": 1.37,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

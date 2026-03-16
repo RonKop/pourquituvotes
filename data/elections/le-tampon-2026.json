@@ -601,5 +601,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 67329,
+      "abstentions": 30910,
+      "tauxParticipation": 54.09,
+      "votants": 36419,
+      "blancs": 1027,
+      "nuls": 854,
+      "exprimes": 34538,
+      "candidats": [
+        {
+          "id": "thien-ah-koon",
+          "voix": 14133,
+          "pourcentage": 40.92,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "chaussalet",
+          "voix": 10000,
+          "pourcentage": 28.95,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bassire",
+          "voix": 7718,
+          "pourcentage": 22.35,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "fontaine",
+          "voix": 1652,
+          "pourcentage": 4.78,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "alfredo-fontaine",
+          "voix": 1035,
+          "pourcentage": 3.0,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

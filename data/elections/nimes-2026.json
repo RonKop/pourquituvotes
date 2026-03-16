@@ -601,5 +601,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 94331,
+      "abstentions": 46180,
+      "tauxParticipation": 51.04,
+      "votants": 48151,
+      "blancs": 400,
+      "nuls": 326,
+      "exprimes": 47425,
+      "candidats": [
+        {
+          "id": "sanchez",
+          "voix": 14414,
+          "pourcentage": 30.39,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bouget",
+          "voix": 14251,
+          "pourcentage": 30.05,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "proust",
+          "voix": 9270,
+          "pourcentage": 19.55,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "plantier",
+          "voix": 7376,
+          "pourcentage": 15.55,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "dupretz",
+          "voix": 2114,
+          "pourcentage": 4.46,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

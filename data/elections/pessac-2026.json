@@ -802,5 +802,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 44310,
+      "abstentions": 19672,
+      "tauxParticipation": 55.6,
+      "votants": 24638,
+      "blancs": 213,
+      "nuls": 126,
+      "exprimes": 24299,
+      "candidats": [
+        {
+          "id": "raynal",
+          "voix": 9968,
+          "pourcentage": 41.02,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "saint-pasteur",
+          "voix": 7245,
+          "pourcentage": 29.82,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "couillard",
+          "voix": 2788,
+          "pourcentage": 11.47,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "dossat",
+          "voix": 2140,
+          "pourcentage": 8.81,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "jaouen",
+          "voix": 1741,
+          "pourcentage": 7.16,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "ufferte",
+          "voix": 417,
+          "pourcentage": 1.72,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

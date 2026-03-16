@@ -654,5 +654,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 31434,
+      "abstentions": 19784,
+      "tauxParticipation": 37.06,
+      "votants": 11650,
+      "blancs": 140,
+      "nuls": 162,
+      "exprimes": 11348,
+      "candidats": [
+        {
+          "id": "picard",
+          "voix": 3214,
+          "pourcentage": 28.32,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "boumertit",
+          "voix": 2945,
+          "pourcentage": 25.95,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "dureau",
+          "voix": 2264,
+          "pourcentage": 19.95,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "taieb",
+          "voix": 1966,
+          "pourcentage": 17.32,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "kessi",
+          "voix": 686,
+          "pourcentage": 6.05,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "petit",
+          "voix": 273,
+          "pourcentage": 2.41,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

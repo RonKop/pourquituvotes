@@ -55,5 +55,55 @@
       "nuanceLibelle": "Liste divers droite"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 18257,
+      "abstentions": 7998,
+      "tauxParticipation": 56.19,
+      "votants": 10259,
+      "blancs": 204,
+      "nuls": 163,
+      "exprimes": 9892,
+      "candidats": [
+        {
+          "id": "lavitola",
+          "voix": 3601,
+          "pourcentage": 36.4,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "cadet",
+          "voix": 3561,
+          "pourcentage": 36.0,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "audi",
+          "voix": 1612,
+          "pourcentage": 16.3,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "belloteau",
+          "voix": 853,
+          "pourcentage": 8.62,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "almosnino",
+          "voix": 265,
+          "pourcentage": 2.68,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

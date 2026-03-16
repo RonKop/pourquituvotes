@@ -707,5 +707,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 47247,
+      "abstentions": 26971,
+      "tauxParticipation": 42.91,
+      "votants": 20276,
+      "blancs": 239,
+      "nuls": 193,
+      "exprimes": 19844,
+      "candidats": [
+        {
+          "id": "cathala",
+          "voix": 8938,
+          "pourcentage": 45.04,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "djaffar",
+          "voix": 3739,
+          "pourcentage": 18.84,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "thezard",
+          "voix": 3351,
+          "pourcentage": 16.89,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "hebbrecht",
+          "voix": 2387,
+          "pourcentage": 12.03,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "nabarette",
+          "voix": 997,
+          "pourcentage": 5.02,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pruvot",
+          "voix": 258,
+          "pourcentage": 1.3,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "damien",
+          "voix": 174,
+          "pourcentage": 0.88,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

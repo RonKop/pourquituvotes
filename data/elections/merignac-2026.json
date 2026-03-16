@@ -601,5 +601,56 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 49546,
+      "abstentions": 22271,
+      "tauxParticipation": 55.05,
+      "votants": 27275,
+      "blancs": 301,
+      "nuls": 151,
+      "exprimes": 26823,
+      "candidats": [
+        {
+          "id": "trijoulet",
+          "voix": 13887,
+          "pourcentage": 51.77,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "millet",
+          "voix": 5923,
+          "pourcentage": 22.08,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bourlieux",
+          "voix": 4699,
+          "pourcentage": 17.52,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "panifous",
+          "voix": 1889,
+          "pourcentage": 7.04,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "perchet",
+          "voix": 425,
+          "pourcentage": 1.58,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "trijoulet"
+  }
 }

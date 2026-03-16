@@ -609,5 +609,42 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 52779,
+      "abstentions": 28111,
+      "tauxParticipation": 46.74,
+      "votants": 24668,
+      "blancs": 180,
+      "nuls": 175,
+      "exprimes": 24313,
+      "candidats": [
+        {
+          "id": "lisnard",
+          "voix": 19721,
+          "pourcentage": 81.11,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "mussio",
+          "voix": 2835,
+          "pourcentage": 11.66,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "hugues",
+          "voix": 1757,
+          "pourcentage": 7.23,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "lisnard"
+  }
 }

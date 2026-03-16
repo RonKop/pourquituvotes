@@ -976,5 +976,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 46873,
+      "abstentions": 22729,
+      "tauxParticipation": 51.51,
+      "votants": 24144,
+      "blancs": 325,
+      "nuls": 217,
+      "exprimes": 23602,
+      "candidats": [
+        {
+          "id": "munoz",
+          "voix": 8332,
+          "pourcentage": 35.3,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "minniti",
+          "voix": 3754,
+          "pourcentage": 15.91,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mansour",
+          "voix": 3127,
+          "pourcentage": 13.25,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sacco",
+          "voix": 2815,
+          "pourcentage": 11.93,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "andrau",
+          "voix": 2037,
+          "pourcentage": 8.63,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "dailleau",
+          "voix": 1336,
+          "pourcentage": 5.66,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "peuriere",
+          "voix": 1259,
+          "pourcentage": 5.33,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sidi-dris",
+          "voix": 942,
+          "pourcentage": 3.99,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

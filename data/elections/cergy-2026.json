@@ -601,5 +601,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 32193,
+      "abstentions": 18549,
+      "tauxParticipation": 42.38,
+      "votants": 13644,
+      "blancs": 208,
+      "nuls": 108,
+      "exprimes": 13328,
+      "candidats": [
+        {
+          "id": "jeandon",
+          "voix": 4903,
+          "pourcentage": 36.79,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "payet",
+          "voix": 4411,
+          "pourcentage": 33.1,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "yaich",
+          "voix": 3614,
+          "pourcentage": 27.12,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "cassan",
+          "voix": 238,
+          "pourcentage": 1.79,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lefebvre-des-noettes",
+          "voix": 162,
+          "pourcentage": 1.22,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

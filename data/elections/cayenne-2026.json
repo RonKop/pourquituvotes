@@ -601,5 +601,56 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 26287,
+      "abstentions": 17208,
+      "tauxParticipation": 34.54,
+      "votants": 9079,
+      "blancs": 218,
+      "nuls": 151,
+      "exprimes": 8710,
+      "candidats": [
+        {
+          "id": "trochimara",
+          "voix": 6306,
+          "pourcentage": 72.4,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "phinera-horth",
+          "voix": 1178,
+          "pourcentage": 13.52,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "taoumi",
+          "voix": 506,
+          "pourcentage": 5.81,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "constant",
+          "voix": 474,
+          "pourcentage": 5.44,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "covis",
+          "voix": 246,
+          "pourcentage": 2.82,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "trochimara"
+  }
 }

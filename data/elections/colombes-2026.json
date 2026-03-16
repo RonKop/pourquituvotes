@@ -867,5 +867,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 52214,
+      "abstentions": 24258,
+      "tauxParticipation": 53.54,
+      "votants": 27956,
+      "blancs": 685,
+      "nuls": 0,
+      "exprimes": 27271,
+      "candidats": [
+        {
+          "id": "giacomoni",
+          "voix": 8674,
+          "pourcentage": 31.81,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "chaimovitch",
+          "voix": 4971,
+          "pourcentage": 18.23,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "narbonnais",
+          "voix": 4326,
+          "pourcentage": 15.86,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "robichon",
+          "voix": 2924,
+          "pourcentage": 10.72,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "frontigny",
+          "voix": 2522,
+          "pourcentage": 9.25,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "delattre",
+          "voix": 2486,
+          "pourcentage": 9.12,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "kimbassa",
+          "voix": 1127,
+          "pourcentage": 4.13,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "puertas",
+          "voix": 241,
+          "pourcentage": 0.88,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

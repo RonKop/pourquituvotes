@@ -1267,5 +1267,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 74982,
+      "abstentions": 30907,
+      "tauxParticipation": 58.78,
+      "votants": 44075,
+      "blancs": 628,
+      "nuls": 590,
+      "exprimes": 42857,
+      "candidats": [
+        {
+          "id": "guerin",
+          "voix": 11718,
+          "pourcentage": 27.34,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "maudet",
+          "voix": 10656,
+          "pourcentage": 24.86,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "miguel",
+          "voix": 7251,
+          "pourcentage": 16.92,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "freychet",
+          "voix": 5375,
+          "pourcentage": 12.54,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lombertie",
+          "voix": 4307,
+          "pourcentage": 10.05,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "leonie",
+          "voix": 1921,
+          "pourcentage": 4.48,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "de-ferluc",
+          "voix": 1195,
+          "pourcentage": 2.79,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "faucon",
+          "voix": 434,
+          "pourcentage": 1.01,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

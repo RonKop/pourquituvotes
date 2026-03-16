@@ -1035,5 +1035,90 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 51980,
+      "abstentions": 30379,
+      "tauxParticipation": 41.56,
+      "votants": 21601,
+      "blancs": 417,
+      "nuls": 199,
+      "exprimes": 20985,
+      "candidats": [
+        {
+          "id": "adam",
+          "voix": 7599,
+          "pourcentage": 36.21,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "matouk",
+          "voix": 5678,
+          "pourcentage": 27.06,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "huyghe",
+          "voix": 2875,
+          "pourcentage": 13.7,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "ngimbous-batjom",
+          "voix": 2010,
+          "pourcentage": 9.58,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "kasmi",
+          "voix": 1091,
+          "pourcentage": 5.2,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "aissa",
+          "voix": 882,
+          "pourcentage": 4.2,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gharssa",
+          "voix": 363,
+          "pourcentage": 1.73,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "esteves",
+          "voix": 227,
+          "pourcentage": 1.08,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "strumanne",
+          "voix": 164,
+          "pourcentage": 0.78,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "marchand",
+          "voix": 96,
+          "pourcentage": 0.46,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

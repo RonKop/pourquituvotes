@@ -915,5 +915,56 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 60839,
+      "abstentions": 28405,
+      "tauxParticipation": 53.31,
+      "votants": 32434,
+      "blancs": 905,
+      "nuls": 309,
+      "exprimes": 31220,
+      "candidats": [
+        {
+          "id": "vergriete",
+          "voix": 20127,
+          "pourcentage": 64.47,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "nave",
+          "voix": 6630,
+          "pourcentage": 21.24,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "fournier",
+          "voix": 2220,
+          "pourcentage": 7.11,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lacroix",
+          "voix": 1615,
+          "pourcentage": 5.17,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bezine",
+          "voix": 628,
+          "pourcentage": 2.01,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "vergriete"
+  }
 }

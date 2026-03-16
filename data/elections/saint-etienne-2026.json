@@ -3150,5 +3150,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 88731,
+      "abstentions": 44793,
+      "tauxParticipation": 49.52,
+      "votants": 43938,
+      "blancs": 420,
+      "nuls": 228,
+      "exprimes": 43290,
+      "candidats": [
+        {
+          "id": "juanico",
+          "voix": 12624,
+          "pourcentage": 29.16,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "jousserand",
+          "voix": 8212,
+          "pourcentage": 18.97,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "cinieri",
+          "voix": 7056,
+          "pourcentage": 16.3,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mercier",
+          "voix": 5755,
+          "pourcentage": 13.29,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "labich",
+          "voix": 4051,
+          "pourcentage": 9.36,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "chassaubene",
+          "voix": 2911,
+          "pourcentage": 6.72,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "le-jaouen",
+          "voix": 2136,
+          "pourcentage": 4.93,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "brossard",
+          "voix": 545,
+          "pourcentage": 1.26,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

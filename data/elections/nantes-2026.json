@@ -1338,5 +1338,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 203144,
+      "abstentions": 80557,
+      "tauxParticipation": 60.34,
+      "votants": 122587,
+      "blancs": 1107,
+      "nuls": 602,
+      "exprimes": 120878,
+      "candidats": [
+        {
+          "id": "rolland",
+          "voix": 42599,
+          "pourcentage": 35.24,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "chombart",
+          "voix": 40815,
+          "pourcentage": 33.77,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "aucant",
+          "voix": 13542,
+          "pourcentage": 11.2,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "belhamiti",
+          "voix": 9819,
+          "pourcentage": 8.12,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "medkour",
+          "voix": 6683,
+          "pourcentage": 5.53,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "hulot",
+          "voix": 5527,
+          "pourcentage": 4.57,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gauvin",
+          "voix": 1046,
+          "pourcentage": 0.87,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bazille",
+          "voix": 847,
+          "pourcentage": 0.7,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

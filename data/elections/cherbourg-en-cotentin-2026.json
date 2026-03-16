@@ -548,5 +548,48 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 55121,
+      "abstentions": 27733,
+      "tauxParticipation": 49.69,
+      "votants": 27388,
+      "blancs": 708,
+      "nuls": 418,
+      "exprimes": 26262,
+      "candidats": [
+        {
+          "id": "margueritte",
+          "voix": 11877,
+          "pourcentage": 45.23,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "arrive",
+          "voix": 10901,
+          "pourcentage": 41.51,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "briegel",
+          "voix": 1911,
+          "pourcentage": 7.28,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lejeune",
+          "voix": 1573,
+          "pourcentage": 5.99,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

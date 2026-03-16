@@ -1722,5 +1722,83 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 321176,
+      "abstentions": 113959,
+      "tauxParticipation": 64.52,
+      "votants": 207217,
+      "blancs": 1339,
+      "nuls": 1619,
+      "exprimes": 204259,
+      "candidats": [
+        {
+          "id": "doucet",
+          "voix": 76318,
+          "pourcentage": 37.36,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "aulas",
+          "voix": 75134,
+          "pourcentage": 36.78,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "belouassa",
+          "voix": 21273,
+          "pourcentage": 10.41,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "dupalais",
+          "voix": 14451,
+          "pourcentage": 7.07,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "perrin-gilbert",
+          "voix": 7426,
+          "pourcentage": 3.64,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "kepenekian",
+          "voix": 7214,
+          "pourcentage": 3.53,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "briday",
+          "voix": 1082,
+          "pourcentage": 0.53,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mizony",
+          "voix": 1041,
+          "pourcentage": 0.51,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "jouteux",
+          "voix": 320,
+          "pourcentage": 0.16,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

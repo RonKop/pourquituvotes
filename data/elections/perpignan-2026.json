@@ -1050,5 +1050,63 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 71591,
+      "abstentions": 37410,
+      "tauxParticipation": 47.74,
+      "votants": 34181,
+      "blancs": 546,
+      "nuls": 370,
+      "exprimes": 33265,
+      "candidats": [
+        {
+          "id": "aliot",
+          "voix": 16835,
+          "pourcentage": 50.61,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "langevine",
+          "voix": 5303,
+          "pourcentage": 15.94,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "nougayrede",
+          "voix": 4475,
+          "pourcentage": 13.45,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "idrac",
+          "voix": 3193,
+          "pourcentage": 9.6,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "blanc",
+          "voix": 2973,
+          "pourcentage": 8.94,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "advenard",
+          "voix": 486,
+          "pourcentage": 1.46,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "aliot"
+  }
 }

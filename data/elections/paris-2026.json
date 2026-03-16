@@ -2719,5 +2719,83 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 1405332,
+      "abstentions": 577733,
+      "tauxParticipation": 58.89,
+      "votants": 827599,
+      "blancs": 7027,
+      "nuls": 5124,
+      "exprimes": 815448,
+      "candidats": [
+        {
+          "id": "gregoire",
+          "voix": 309693,
+          "pourcentage": 37.98,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "dati",
+          "voix": 207613,
+          "pourcentage": 25.46,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "chikirou",
+          "voix": 95551,
+          "pourcentage": 11.72,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bournazel",
+          "voix": 92448,
+          "pourcentage": 11.34,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "knafo",
+          "voix": 84809,
+          "pourcentage": 10.4,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mariani",
+          "voix": 13096,
+          "pourcentage": 1.61,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "chauvel",
+          "voix": 5991,
+          "pourcentage": 0.73,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "saulnier",
+          "voix": 5544,
+          "pourcentage": 0.68,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pierot-guimbaud",
+          "voix": 703,
+          "pourcentage": 0.09,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

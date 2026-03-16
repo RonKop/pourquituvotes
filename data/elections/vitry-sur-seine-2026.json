@@ -1216,5 +1216,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 47498,
+      "abstentions": 28364,
+      "tauxParticipation": 40.28,
+      "votants": 19134,
+      "blancs": 295,
+      "nuls": 255,
+      "exprimes": 18584,
+      "candidats": [
+        {
+          "id": "bell-lloch",
+          "voix": 6975,
+          "pourcentage": 37.53,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "tmimi",
+          "voix": 4474,
+          "pourcentage": 24.07,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "serpette",
+          "voix": 3581,
+          "pourcentage": 19.27,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bourdon",
+          "voix": 3104,
+          "pourcentage": 16.7,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "ruchot",
+          "voix": 285,
+          "pourcentage": 1.53,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "ducandas",
+          "voix": 165,
+          "pourcentage": 0.89,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

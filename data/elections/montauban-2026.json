@@ -804,5 +804,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 42653,
+      "abstentions": 18663,
+      "tauxParticipation": 56.24,
+      "votants": 23990,
+      "blancs": 323,
+      "nuls": 230,
+      "exprimes": 23437,
+      "candidats": [
+        {
+          "id": "lallemand",
+          "voix": 6949,
+          "pourcentage": 29.65,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "hilion",
+          "voix": 5135,
+          "pourcentage": 21.91,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "deville",
+          "voix": 4211,
+          "pourcentage": 17.97,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "labarre",
+          "voix": 2956,
+          "pourcentage": 12.61,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "chikhi",
+          "voix": 1998,
+          "pourcentage": 8.52,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "levi",
+          "voix": 1890,
+          "pourcentage": 8.06,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "blanco",
+          "voix": 298,
+          "pourcentage": 1.27,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

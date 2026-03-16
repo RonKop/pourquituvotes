@@ -1132,5 +1132,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 76790,
+      "abstentions": 36366,
+      "tauxParticipation": 52.64,
+      "votants": 40424,
+      "blancs": 477,
+      "nuls": 333,
+      "exprimes": 39614,
+      "candidats": [
+        {
+          "id": "bony",
+          "voix": 13441,
+          "pourcentage": 33.93,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bianchi",
+          "voix": 11882,
+          "pourcentage": 29.99,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "maximi",
+          "voix": 6739,
+          "pourcentage": 17.01,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "darbois",
+          "voix": 4474,
+          "pourcentage": 11.29,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "cartailler",
+          "voix": 2540,
+          "pourcentage": 6.41,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "savre",
+          "voix": 538,
+          "pourcentage": 1.36,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

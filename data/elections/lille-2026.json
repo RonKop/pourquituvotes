@@ -1368,5 +1368,83 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 126051,
+      "abstentions": 60535,
+      "tauxParticipation": 51.98,
+      "votants": 65516,
+      "blancs": 539,
+      "nuls": 447,
+      "exprimes": 64530,
+      "candidats": [
+        {
+          "id": "deslandes",
+          "voix": 16948,
+          "pourcentage": 26.26,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "addouche",
+          "voix": 15076,
+          "pourcentage": 23.36,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "baly",
+          "voix": 11455,
+          "pourcentage": 17.75,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "spillebout",
+          "voix": 7189,
+          "pourcentage": 11.14,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "valet",
+          "voix": 7049,
+          "pourcentage": 10.92,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "delemer",
+          "voix": 5457,
+          "pourcentage": 8.46,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "scali",
+          "voix": 541,
+          "pourcentage": 0.84,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "madelain",
+          "voix": 482,
+          "pourcentage": 0.75,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "benyoucef",
+          "voix": 333,
+          "pourcentage": 0.52,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

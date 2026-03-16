@@ -1017,5 +1017,48 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 44187,
+      "abstentions": 18212,
+      "tauxParticipation": 58.78,
+      "votants": 25975,
+      "blancs": 394,
+      "nuls": 207,
+      "exprimes": 25374,
+      "candidats": [
+        {
+          "id": "assih",
+          "voix": 11847,
+          "pourcentage": 46.69,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "menguy",
+          "voix": 8192,
+          "pourcentage": 32.29,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "henaff",
+          "voix": 2766,
+          "pourcentage": 10.9,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lauwers",
+          "voix": 2569,
+          "pourcentage": 10.12,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

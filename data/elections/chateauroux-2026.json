@@ -55,5 +55,56 @@
       "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 27932,
+      "abstentions": 12940,
+      "tauxParticipation": 53.67,
+      "votants": 14992,
+      "blancs": 162,
+      "nuls": 128,
+      "exprimes": 14702,
+      "candidats": [
+        {
+          "id": "averous",
+          "voix": 10033,
+          "pourcentage": 68.24,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "domenge-abeau",
+          "voix": 1913,
+          "pourcentage": 13.01,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "wunsch",
+          "voix": 1740,
+          "pourcentage": 11.84,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "felder",
+          "voix": 686,
+          "pourcentage": 4.67,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gelinaud",
+          "voix": 330,
+          "pourcentage": 2.24,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "averous"
+  }
 }

@@ -548,5 +548,48 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 22942,
+      "abstentions": 9387,
+      "tauxParticipation": 59.08,
+      "votants": 13555,
+      "blancs": 170,
+      "nuls": 72,
+      "exprimes": 13313,
+      "candidats": [
+        {
+          "id": "pere-brillault",
+          "voix": 6558,
+          "pourcentage": 49.26,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "delepierre",
+          "voix": 4181,
+          "pourcentage": 31.41,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "espinasse",
+          "voix": 1511,
+          "pourcentage": 11.35,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "betheuil",
+          "voix": 1063,
+          "pourcentage": 7.98,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

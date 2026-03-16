@@ -45,5 +45,49 @@
       "nuanceLibelle": "Liste de La France insoumise"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 30856,
+      "abstentions": 15450,
+      "tauxParticipation": 49.93,
+      "votants": 15406,
+      "blancs": 144,
+      "nuls": 141,
+      "exprimes": 15121,
+      "candidats": [
+        {
+          "id": "cope",
+          "voix": 9594,
+          "pourcentage": 63.45,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "bentounsi",
+          "voix": 2572,
+          "pourcentage": 17.01,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "roullaud",
+          "voix": 1484,
+          "pourcentage": 9.81,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rousseau",
+          "voix": 1471,
+          "pourcentage": 9.73,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "cope"
+  }
 }

@@ -1441,5 +1441,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 49775,
+      "abstentions": 31051,
+      "tauxParticipation": 37.62,
+      "votants": 18724,
+      "blancs": 196,
+      "nuls": 173,
+      "exprimes": 18355,
+      "candidats": [
+        {
+          "id": "guiraud",
+          "voix": 8560,
+          "pourcentage": 46.64,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "garcin",
+          "voix": 3687,
+          "pourcentage": 20.09,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "amrouni",
+          "voix": 3077,
+          "pourcentage": 16.76,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sayah",
+          "voix": 2178,
+          "pourcentage": 11.87,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "zeghlache-salhi",
+          "voix": 661,
+          "pourcentage": 3.6,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "delbarre",
+          "voix": 192,
+          "pourcentage": 1.05,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

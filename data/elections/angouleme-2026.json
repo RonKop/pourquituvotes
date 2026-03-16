@@ -95,5 +95,83 @@
       "nuanceLibelle": "Liste divers droite"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 26562,
+      "abstentions": 12722,
+      "tauxParticipation": 52.1,
+      "votants": 13840,
+      "blancs": 115,
+      "nuls": 113,
+      "exprimes": 13612,
+      "candidats": [
+        {
+          "id": "bonnefont",
+          "voix": 3779,
+          "pourcentage": 27.76,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "petit-louboutin",
+          "voix": 2425,
+          "pourcentage": 17.82,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "you",
+          "voix": 2257,
+          "pourcentage": 16.58,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mardikian",
+          "voix": 1745,
+          "pourcentage": 12.82,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "duhoux-salaberry",
+          "voix": 1422,
+          "pourcentage": 10.45,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "peirin",
+          "voix": 962,
+          "pourcentage": 7.07,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "manzanas",
+          "voix": 674,
+          "pourcentage": 4.95,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "compain",
+          "voix": 204,
+          "pourcentage": 1.5,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "nicolas",
+          "voix": 144,
+          "pourcentage": 1.06,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -1406,5 +1406,83 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 66385,
+      "abstentions": 33671,
+      "tauxParticipation": 49.28,
+      "votants": 32714,
+      "blancs": 208,
+      "nuls": 191,
+      "exprimes": 32315,
+      "candidats": [
+        {
+          "id": "grouard",
+          "voix": 13108,
+          "pourcentage": 40.56,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "chapuis",
+          "voix": 5245,
+          "pourcentage": 16.23,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "grand",
+          "voix": 4212,
+          "pourcentage": 13.03,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "janvier",
+          "voix": 2785,
+          "pourcentage": 8.62,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pele",
+          "voix": 2659,
+          "pourcentage": 8.23,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rabault",
+          "voix": 2335,
+          "pourcentage": 7.23,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "meyer",
+          "voix": 956,
+          "pourcentage": 2.96,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lamarque",
+          "voix": 723,
+          "pourcentage": 2.24,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "megdoud",
+          "voix": 292,
+          "pourcentage": 0.9,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

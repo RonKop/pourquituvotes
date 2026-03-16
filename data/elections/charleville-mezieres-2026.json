@@ -55,5 +55,56 @@
       "nuanceLibelle": "Liste d'union à l'extrême-droite"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 26053,
+      "abstentions": 13647,
+      "tauxParticipation": 47.62,
+      "votants": 12406,
+      "blancs": 139,
+      "nuls": 140,
+      "exprimes": 12127,
+      "candidats": [
+        {
+          "id": "ravignon",
+          "voix": 7993,
+          "pourcentage": 65.91,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "lerouge",
+          "voix": 2443,
+          "pourcentage": 20.15,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "petitfils",
+          "voix": 1185,
+          "pourcentage": 9.77,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "takawe",
+          "voix": 302,
+          "pourcentage": 2.49,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "benyoucef",
+          "voix": 204,
+          "pourcentage": 1.68,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "ravignon"
+  }
 }

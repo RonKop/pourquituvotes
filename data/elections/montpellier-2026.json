@@ -2337,5 +2337,111 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 174968,
+      "abstentions": 86736,
+      "tauxParticipation": 50.43,
+      "votants": 88232,
+      "blancs": 696,
+      "nuls": 533,
+      "exprimes": 87003,
+      "candidats": [
+        {
+          "id": "delafosse",
+          "voix": 29069,
+          "pourcentage": 33.41,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "oziol",
+          "voix": 13366,
+          "pourcentage": 15.36,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "altrad",
+          "voix": 9837,
+          "pourcentage": 11.31,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "saurel",
+          "voix": 7712,
+          "pourcentage": 8.86,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gaillard",
+          "voix": 7145,
+          "pourcentage": 8.21,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "perrein",
+          "voix": 6524,
+          "pourcentage": 7.5,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "jamet",
+          "voix": 6320,
+          "pourcentage": 7.26,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "roumegas",
+          "voix": 4105,
+          "pourcentage": 4.72,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "muller",
+          "voix": 1220,
+          "pourcentage": 1.4,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "tsagalos",
+          "voix": 969,
+          "pourcentage": 1.11,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lachiver",
+          "voix": 426,
+          "pourcentage": 0.49,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "zbairi",
+          "voix": 177,
+          "pourcentage": 0.2,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "trousselier",
+          "voix": 133,
+          "pourcentage": 0.15,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

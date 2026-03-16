@@ -601,5 +601,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 89425,
+      "abstentions": 44253,
+      "tauxParticipation": 50.51,
+      "votants": 45172,
+      "blancs": 1066,
+      "nuls": 1004,
+      "exprimes": 43102,
+      "candidats": [
+        {
+          "id": "seraphin",
+          "voix": 20325,
+          "pourcentage": 47.16,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "melchior",
+          "voix": 14728,
+          "pourcentage": 34.17,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "robert",
+          "voix": 4815,
+          "pourcentage": 11.17,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "morel",
+          "voix": 2563,
+          "pourcentage": 5.95,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "hoarau",
+          "voix": 671,
+          "pourcentage": 1.56,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

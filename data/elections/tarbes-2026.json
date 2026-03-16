@@ -75,5 +75,69 @@
       "nuanceLibelle": "Liste divers droite"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 26419,
+      "abstentions": 12740,
+      "tauxParticipation": 51.78,
+      "votants": 13679,
+      "blancs": 166,
+      "nuls": 151,
+      "exprimes": 13362,
+      "candidats": [
+        {
+          "id": "peyregne",
+          "voix": 3185,
+          "pourcentage": 23.84,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "garnier",
+          "voix": 2613,
+          "pourcentage": 19.56,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "claverie",
+          "voix": 2340,
+          "pourcentage": 17.51,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lagonelle",
+          "voix": 1965,
+          "pourcentage": 14.71,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gracia",
+          "voix": 1749,
+          "pourcentage": 13.09,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "charles",
+          "voix": 1273,
+          "pourcentage": 9.53,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "meunier",
+          "voix": 237,
+          "pourcentage": 1.77,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

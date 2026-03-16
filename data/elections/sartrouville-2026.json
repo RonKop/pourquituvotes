@@ -55,5 +55,56 @@
       "nuanceLibelle": "Liste de La France insoumise"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 32292,
+      "abstentions": 17177,
+      "tauxParticipation": 46.81,
+      "votants": 15115,
+      "blancs": 149,
+      "nuls": 108,
+      "exprimes": 14858,
+      "candidats": [
+        {
+          "id": "fond",
+          "voix": 9198,
+          "pourcentage": 61.91,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "amaglio-terisse",
+          "voix": 3476,
+          "pourcentage": 23.39,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "chiali",
+          "voix": 1280,
+          "pourcentage": 8.61,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "melachio",
+          "voix": 634,
+          "pourcentage": 4.27,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "imbert",
+          "voix": 270,
+          "pourcentage": 1.82,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "fond"
+  }
 }

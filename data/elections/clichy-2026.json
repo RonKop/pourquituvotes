@@ -760,5 +760,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 35900,
+      "abstentions": 16513,
+      "tauxParticipation": 54.0,
+      "votants": 19387,
+      "blancs": 161,
+      "nuls": 131,
+      "exprimes": 19095,
+      "candidats": [
+        {
+          "id": "muzeau",
+          "voix": 8133,
+          "pourcentage": 42.59,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "martinez",
+          "voix": 4290,
+          "pourcentage": 22.47,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "druet",
+          "voix": 3560,
+          "pourcentage": 18.64,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bahmed",
+          "voix": 1880,
+          "pourcentage": 9.85,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "esmyot",
+          "voix": 722,
+          "pourcentage": 3.78,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rebollo-mayo",
+          "voix": 233,
+          "pourcentage": 1.22,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lambert",
+          "voix": 176,
+          "pourcentage": 0.92,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "dutheil",
+          "voix": 101,
+          "pourcentage": 0.53,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

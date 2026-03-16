@@ -627,5 +627,48 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 53219,
+      "abstentions": 25051,
+      "tauxParticipation": 52.93,
+      "votants": 28168,
+      "blancs": 659,
+      "nuls": 0,
+      "exprimes": 27509,
+      "candidats": [
+        {
+          "id": "kossowski",
+          "voix": 10918,
+          "pourcentage": 39.69,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "taquillain",
+          "voix": 8301,
+          "pourcentage": 30.18,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "thomas",
+          "voix": 5300,
+          "pourcentage": 19.27,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "jule",
+          "voix": 2990,
+          "pourcentage": 10.87,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

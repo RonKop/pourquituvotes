@@ -75,5 +75,69 @@
       "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 28061,
+      "abstentions": 12442,
+      "tauxParticipation": 55.66,
+      "votants": 15619,
+      "blancs": 242,
+      "nuls": 174,
+      "exprimes": 15203,
+      "candidats": [
+        {
+          "id": "guihard",
+          "voix": 5047,
+          "pourcentage": 33.2,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bonnot",
+          "voix": 4820,
+          "pourcentage": 31.7,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "thomas",
+          "voix": 1963,
+          "pourcentage": 12.91,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "alloy",
+          "voix": 1781,
+          "pourcentage": 11.71,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "martin",
+          "voix": 1000,
+          "pourcentage": 6.58,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "le-fol",
+          "voix": 398,
+          "pourcentage": 2.62,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "corbiere",
+          "voix": 194,
+          "pourcentage": 1.28,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

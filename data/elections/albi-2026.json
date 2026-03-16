@@ -55,5 +55,55 @@
       "nuanceLibelle": "Liste divers droite"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 33130,
+      "abstentions": 13612,
+      "tauxParticipation": 58.91,
+      "votants": 19518,
+      "blancs": 185,
+      "nuls": 219,
+      "exprimes": 19114,
+      "candidats": [
+        {
+          "id": "guiraud-chaumeil",
+          "voix": 6905,
+          "pourcentage": 36.13,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "ferrand-lefranc",
+          "voix": 3466,
+          "pourcentage": 18.13,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "cabrolier",
+          "voix": 3315,
+          "pourcentage": 17.34,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "suarez",
+          "voix": 2783,
+          "pourcentage": 14.56,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "at",
+          "voix": 2645,
+          "pourcentage": 13.84,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -810,5 +810,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 48691,
+      "abstentions": 21932,
+      "tauxParticipation": 54.96,
+      "votants": 26759,
+      "blancs": 371,
+      "nuls": 224,
+      "exprimes": 26164,
+      "candidats": [
+        {
+          "id": "bayrou",
+          "voix": 8851,
+          "pourcentage": 33.83,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "marbot",
+          "voix": 6884,
+          "pourcentage": 26.31,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "taillefer",
+          "voix": 4255,
+          "pourcentage": 16.26,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "boniface",
+          "voix": 2288,
+          "pourcentage": 8.74,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "blanco",
+          "voix": 1841,
+          "pourcentage": 7.04,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "arraou",
+          "voix": 1610,
+          "pourcentage": 6.15,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "marconi",
+          "voix": 435,
+          "pourcentage": 1.66,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

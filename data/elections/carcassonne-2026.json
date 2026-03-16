@@ -55,5 +55,55 @@
       "nuanceLibelle": "Liste divers droite"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 30381,
+      "abstentions": 12354,
+      "tauxParticipation": 59.34,
+      "votants": 18027,
+      "blancs": 236,
+      "nuls": 213,
+      "exprimes": 17578,
+      "candidats": [
+        {
+          "id": "barthes",
+          "voix": 6068,
+          "pourcentage": 34.52,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mourad",
+          "voix": 4458,
+          "pourcentage": 25.36,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "soler-alcaraz",
+          "voix": 4091,
+          "pourcentage": 23.27,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "larrat",
+          "voix": 2156,
+          "pourcentage": 12.27,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "tayebi",
+          "voix": 805,
+          "pourcentage": 4.58,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

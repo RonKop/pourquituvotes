@@ -608,5 +608,49 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 31796,
+      "abstentions": 17690,
+      "tauxParticipation": 44.36,
+      "votants": 14106,
+      "blancs": 222,
+      "nuls": 121,
+      "exprimes": 13763,
+      "candidats": [
+        {
+          "id": "beaudet",
+          "voix": 7874,
+          "pourcentage": 57.21,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "amrani",
+          "voix": 4102,
+          "pourcentage": 29.8,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "monier",
+          "voix": 1312,
+          "pourcentage": 9.53,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "nsonde",
+          "voix": 475,
+          "pourcentage": 3.45,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "beaudet"
+  }
 }

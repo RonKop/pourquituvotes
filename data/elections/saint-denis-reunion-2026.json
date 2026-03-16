@@ -1195,5 +1195,84 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 112687,
+      "abstentions": 61786,
+      "tauxParticipation": 45.17,
+      "votants": 50901,
+      "blancs": 1108,
+      "nuls": 890,
+      "exprimes": 48903,
+      "candidats": [
+        {
+          "id": "bareigts",
+          "voix": 30425,
+          "pourcentage": 62.22,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "lebon",
+          "voix": 5159,
+          "pourcentage": 10.55,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "victoria",
+          "voix": 3667,
+          "pourcentage": 7.5,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "nativel",
+          "voix": 3306,
+          "pourcentage": 6.76,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mangrolia",
+          "voix": 1976,
+          "pourcentage": 4.04,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "payet",
+          "voix": 1865,
+          "pourcentage": 3.81,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sautron",
+          "voix": 1581,
+          "pourcentage": 3.23,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "persee",
+          "voix": 540,
+          "pourcentage": 1.1,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "welmant",
+          "voix": 384,
+          "pourcentage": 0.79,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "bareigts"
+  }
 }

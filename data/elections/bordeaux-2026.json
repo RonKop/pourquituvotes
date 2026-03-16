@@ -1489,5 +1489,97 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 174137,
+      "abstentions": 72996,
+      "tauxParticipation": 58.08,
+      "votants": 101141,
+      "blancs": 632,
+      "nuls": 354,
+      "exprimes": 100155,
+      "candidats": [
+        {
+          "id": "hurmic",
+          "voix": 27719,
+          "pourcentage": 27.68,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "cazenave",
+          "voix": 25617,
+          "pourcentage": 25.58,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "dessertine",
+          "voix": 20228,
+          "pourcentage": 20.2,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "raymond",
+          "voix": 9372,
+          "pourcentage": 9.36,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rechagneux",
+          "voix": 7031,
+          "pourcentage": 7.02,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "poutou",
+          "voix": 5152,
+          "pourcentage": 5.14,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "saboulard",
+          "voix": 1796,
+          "pourcentage": 1.79,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bontoux-tournay",
+          "voix": 1770,
+          "pourcentage": 1.77,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bernus",
+          "voix": 895,
+          "pourcentage": 0.89,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "quandalle",
+          "voix": 363,
+          "pourcentage": 0.36,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "nadal",
+          "voix": 212,
+          "pourcentage": 0.21,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

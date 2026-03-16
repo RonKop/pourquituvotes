@@ -651,5 +651,28 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 33016,
+      "abstentions": 16256,
+      "tauxParticipation": 50.76,
+      "votants": 16760,
+      "blancs": 357,
+      "nuls": 158,
+      "exprimes": 16245,
+      "candidats": [
+        {
+          "id": "affile",
+          "voix": 8721,
+          "pourcentage": 53.68,
+          "elu": true,
+          "qualifieT2": true
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "affile"
+  }
 }

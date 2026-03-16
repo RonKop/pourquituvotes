@@ -1153,5 +1153,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 93106,
+      "abstentions": 43307,
+      "tauxParticipation": 53.49,
+      "votants": 49799,
+      "blancs": 415,
+      "nuls": 309,
+      "exprimes": 49075,
+      "candidats": [
+        {
+          "id": "bechu",
+          "voix": 24281,
+          "pourcentage": 49.48,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "laveau",
+          "voix": 14088,
+          "pourcentage": 28.71,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "saeidi",
+          "voix": 4023,
+          "pourcentage": 8.2,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lahondes",
+          "voix": 3888,
+          "pourcentage": 7.92,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rambault",
+          "voix": 1936,
+          "pourcentage": 3.94,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "l-huillier",
+          "voix": 445,
+          "pourcentage": 0.91,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "cuisinier",
+          "voix": 414,
+          "pourcentage": 0.84,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

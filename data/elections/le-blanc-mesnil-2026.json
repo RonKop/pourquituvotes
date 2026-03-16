@@ -601,5 +601,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 28721,
+      "abstentions": 15597,
+      "tauxParticipation": 45.69,
+      "votants": 13124,
+      "blancs": 182,
+      "nuls": 141,
+      "exprimes": 12801,
+      "candidats": [
+        {
+          "id": "meignen",
+          "voix": 5747,
+          "pourcentage": 44.89,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "traore",
+          "voix": 2775,
+          "pourcentage": 21.68,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mignot",
+          "voix": 2410,
+          "pourcentage": 18.83,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "cherif",
+          "voix": 1707,
+          "pourcentage": 13.33,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "fournet",
+          "voix": 162,
+          "pourcentage": 1.27,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

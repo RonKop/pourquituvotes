@@ -1018,5 +1018,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 46385,
+      "abstentions": 20626,
+      "tauxParticipation": 55.53,
+      "votants": 25759,
+      "blancs": 230,
+      "nuls": 224,
+      "exprimes": 25305,
+      "candidats": [
+        {
+          "id": "moncond-huy",
+          "voix": 6683,
+          "pourcentage": 26.41,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "brottier",
+          "voix": 6048,
+          "pourcentage": 23.9,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "geay",
+          "voix": 3556,
+          "pourcentage": 14.05,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "blanchard",
+          "voix": 2904,
+          "pourcentage": 11.48,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rangheard",
+          "voix": 2665,
+          "pourcentage": 10.53,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "parnaudeau",
+          "voix": 2591,
+          "pourcentage": 10.24,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "prost",
+          "voix": 544,
+          "pourcentage": 2.15,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gaillard",
+          "voix": 314,
+          "pourcentage": 1.24,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

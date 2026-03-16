@@ -1077,5 +1077,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 57095,
+      "abstentions": 27598,
+      "tauxParticipation": 51.66,
+      "votants": 29497,
+      "blancs": 191,
+      "nuls": 140,
+      "exprimes": 29166,
+      "candidats": [
+        {
+          "id": "falorni",
+          "voix": 9661,
+          "pourcentage": 33.12,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "simone",
+          "voix": 6244,
+          "pourcentage": 21.41,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "guiraud",
+          "voix": 4563,
+          "pourcentage": 15.64,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "batcabe",
+          "voix": 3968,
+          "pourcentage": 13.6,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "werbrouck",
+          "voix": 2574,
+          "pourcentage": 8.83,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bonnet",
+          "voix": 1887,
+          "pourcentage": 6.47,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "colin",
+          "voix": 269,
+          "pourcentage": 0.92,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

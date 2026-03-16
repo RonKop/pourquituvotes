@@ -55,5 +55,55 @@
       "nuanceLibelle": "Liste divers centre"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 20801,
+      "abstentions": 8610,
+      "tauxParticipation": 58.61,
+      "votants": 12191,
+      "blancs": 170,
+      "nuls": 139,
+      "exprimes": 11882,
+      "candidats": [
+        {
+          "id": "dutin",
+          "voix": 3531,
+          "pourcentage": 29.72,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "dayot",
+          "voix": 3094,
+          "pourcentage": 26.04,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "darrieussecq",
+          "voix": 2849,
+          "pourcentage": 23.98,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "leregle",
+          "voix": 1654,
+          "pourcentage": 13.92,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "legodou",
+          "voix": 754,
+          "pourcentage": 6.35,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -55,5 +55,55 @@
       "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 35056,
+      "abstentions": 17732,
+      "tauxParticipation": 49.42,
+      "votants": 17324,
+      "blancs": 198,
+      "nuls": 209,
+      "exprimes": 16917,
+      "candidats": [
+        {
+          "id": "pia",
+          "voix": 7371,
+          "pourcentage": 43.57,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "lundy",
+          "voix": 5558,
+          "pourcentage": 32.85,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "marais-beuil",
+          "voix": 2907,
+          "pourcentage": 17.18,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "segretain",
+          "voix": 747,
+          "pourcentage": 4.42,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "potchtovik",
+          "voix": 334,
+          "pourcentage": 1.97,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

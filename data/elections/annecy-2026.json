@@ -929,5 +929,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 89498,
+      "abstentions": 38833,
+      "tauxParticipation": 56.61,
+      "votants": 50665,
+      "blancs": 454,
+      "nuls": 289,
+      "exprimes": 49922,
+      "candidats": [
+        {
+          "id": "armand",
+          "voix": 17363,
+          "pourcentage": 34.78,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mulatier-gachet",
+          "voix": 12333,
+          "pourcentage": 24.7,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "rigaut",
+          "voix": 10630,
+          "pourcentage": 21.29,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "roit-leveque",
+          "voix": 6816,
+          "pourcentage": 13.65,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "dreme",
+          "voix": 2329,
+          "pourcentage": 4.67,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "yildirim",
+          "voix": 451,
+          "pourcentage": 0.9,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -1404,5 +1404,41 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 10587,
+      "abstentions": 4555,
+      "tauxParticipation": 56.98,
+      "votants": 6032,
+      "blancs": 50,
+      "nuls": 58,
+      "exprimes": 5924,
+      "candidats": [
+        {
+          "id": "aggoune",
+          "voix": 2781,
+          "pourcentage": 46.94,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "crespin",
+          "voix": 1866,
+          "pourcentage": 31.5,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "godard",
+          "voix": 1277,
+          "pourcentage": 21.56,
+          "elu": false,
+          "qualifieT2": true
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

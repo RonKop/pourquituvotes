@@ -2110,5 +2110,97 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 49930,
+      "abstentions": 28570,
+      "tauxParticipation": 42.78,
+      "votants": 21360,
+      "blancs": 468,
+      "nuls": 0,
+      "exprimes": 20892,
+      "candidats": [
+        {
+          "id": "lutz",
+          "voix": 3678,
+          "pourcentage": 17.6,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "minery",
+          "voix": 3331,
+          "pourcentage": 15.94,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "marquet",
+          "voix": 2979,
+          "pourcentage": 14.26,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sassi",
+          "voix": 2959,
+          "pourcentage": 14.16,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "ritz",
+          "voix": 2847,
+          "pourcentage": 13.63,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "million",
+          "voix": 2768,
+          "pourcentage": 13.25,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gafanesch",
+          "voix": 974,
+          "pourcentage": 4.66,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sornin",
+          "voix": 682,
+          "pourcentage": 3.26,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "taffarelli",
+          "voix": 265,
+          "pourcentage": 1.27,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "djehaf",
+          "voix": 222,
+          "pourcentage": 1.06,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "keltoumi",
+          "voix": 187,
+          "pourcentage": 0.9,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

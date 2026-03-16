@@ -548,5 +548,49 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 53827,
+      "abstentions": 26770,
+      "tauxParticipation": 50.27,
+      "votants": 27057,
+      "blancs": 428,
+      "nuls": 152,
+      "exprimes": 26477,
+      "candidats": [
+        {
+          "id": "leonetti",
+          "voix": 17645,
+          "pourcentage": 66.64,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "muriel",
+          "voix": 4820,
+          "pourcentage": 18.2,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "muratore",
+          "voix": 2553,
+          "pourcentage": 9.64,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "nouet",
+          "voix": 1459,
+          "pourcentage": 5.51,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "leonetti"
+  }
 }

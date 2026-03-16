@@ -707,5 +707,69 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 40974,
+      "abstentions": 19700,
+      "tauxParticipation": 51.92,
+      "votants": 21274,
+      "blancs": 261,
+      "nuls": 158,
+      "exprimes": 20855,
+      "candidats": [
+        {
+          "id": "estager",
+          "voix": 6396,
+          "pourcentage": 30.67,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "baledent",
+          "voix": 4887,
+          "pourcentage": 23.43,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bernalicis",
+          "voix": 3706,
+          "pourcentage": 17.77,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "segard",
+          "voix": 2373,
+          "pourcentage": 11.38,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "burette",
+          "voix": 1789,
+          "pourcentage": 8.58,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "oukaid",
+          "voix": 1448,
+          "pourcentage": 6.94,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rougee",
+          "voix": 256,
+          "pourcentage": 1.23,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

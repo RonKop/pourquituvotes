@@ -775,5 +775,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 37674,
+      "abstentions": 13972,
+      "tauxParticipation": 62.91,
+      "votants": 23702,
+      "blancs": 332,
+      "nuls": 293,
+      "exprimes": 23077,
+      "candidats": [
+        {
+          "id": "sbraggia",
+          "voix": 8732,
+          "pourcentage": 37.84,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "carrolaggi",
+          "voix": 6169,
+          "pourcentage": 26.73,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "filoni",
+          "voix": 4304,
+          "pourcentage": 18.65,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "zagnoli",
+          "voix": 2005,
+          "pourcentage": 8.69,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "cesari",
+          "voix": 1867,
+          "pourcentage": 8.09,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

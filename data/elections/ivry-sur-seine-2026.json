@@ -760,5 +760,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 32002,
+      "abstentions": 16601,
+      "tauxParticipation": 48.13,
+      "votants": 15401,
+      "blancs": 212,
+      "nuls": 209,
+      "exprimes": 14980,
+      "candidats": [
+        {
+          "id": "bouyssou",
+          "voix": 6828,
+          "pourcentage": 45.58,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "monfret",
+          "voix": 2646,
+          "pourcentage": 17.66,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "simonin-lacroix",
+          "voix": 2098,
+          "pourcentage": 14.01,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "nader",
+          "voix": 1654,
+          "pourcentage": 11.04,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "labib",
+          "voix": 536,
+          "pourcentage": 3.58,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rhouma",
+          "voix": 476,
+          "pourcentage": 3.18,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "le-bras",
+          "voix": 443,
+          "pourcentage": 2.96,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gauvain",
+          "voix": 299,
+          "pourcentage": 2.0,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

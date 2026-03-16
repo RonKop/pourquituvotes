@@ -55,5 +55,56 @@
       "nuanceLibelle": "Liste d'extrême-gauche"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 28275,
+      "abstentions": 13568,
+      "tauxParticipation": 52.01,
+      "votants": 14707,
+      "blancs": 142,
+      "nuls": 163,
+      "exprimes": 14402,
+      "candidats": [
+        {
+          "id": "leturque",
+          "voix": 8695,
+          "pourcentage": 60.37,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "heusele",
+          "voix": 2759,
+          "pourcentage": 19.16,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "detourne",
+          "voix": 1926,
+          "pourcentage": 13.37,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "kremer",
+          "voix": 829,
+          "pourcentage": 5.76,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "belhadj",
+          "voix": 193,
+          "pourcentage": 1.34,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "leturque"
+  }
 }

@@ -75,5 +75,69 @@
       "nuanceLibelle": "Liste divers gauche"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 25822,
+      "abstentions": 15811,
+      "tauxParticipation": 38.77,
+      "votants": 10011,
+      "blancs": 213,
+      "nuls": 127,
+      "exprimes": 9671,
+      "candidats": [
+        {
+          "id": "sadi",
+          "voix": 3396,
+          "pourcentage": 35.12,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mesquita",
+          "voix": 2277,
+          "pourcentage": 23.54,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "bouqetyb",
+          "voix": 1536,
+          "pourcentage": 15.88,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "chalois-ait-ahmed",
+          "voix": 1032,
+          "pourcentage": 10.67,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "portier",
+          "voix": 726,
+          "pourcentage": 7.51,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "guendouzi",
+          "voix": 500,
+          "pourcentage": 5.17,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "feger",
+          "voix": 204,
+          "pourcentage": 2.11,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

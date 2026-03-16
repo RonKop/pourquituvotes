@@ -2348,5 +2348,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 97593,
+      "abstentions": 48964,
+      "tauxParticipation": 49.83,
+      "votants": 48629,
+      "blancs": 415,
+      "nuls": 330,
+      "exprimes": 47884,
+      "candidats": [
+        {
+          "id": "joissains",
+          "voix": 18871,
+          "pourcentage": 39.41,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "pena",
+          "voix": 9649,
+          "pourcentage": 20.15,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "geiger",
+          "voix": 7620,
+          "pourcentage": 15.91,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "klein",
+          "voix": 5652,
+          "pourcentage": 11.8,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "boronad",
+          "voix": 3833,
+          "pourcentage": 8.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "ben-ammar",
+          "voix": 2259,
+          "pourcentage": 4.72,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -1216,5 +1216,83 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 72166,
+      "abstentions": 38973,
+      "tauxParticipation": 46.0,
+      "votants": 33193,
+      "blancs": 346,
+      "nuls": 227,
+      "exprimes": 32620,
+      "candidats": [
+        {
+          "id": "grosdidier",
+          "voix": 14056,
+          "pourcentage": 43.09,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "anstett",
+          "voix": 5561,
+          "pourcentage": 17.05,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mertz",
+          "voix": 4361,
+          "pourcentage": 13.37,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "leduc",
+          "voix": 3392,
+          "pourcentage": 10.4,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "roques",
+          "voix": 3242,
+          "pourcentage": 9.94,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mendes",
+          "voix": 1556,
+          "pourcentage": 4.77,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "rinaldi",
+          "voix": 184,
+          "pourcentage": 0.56,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "diaferia",
+          "voix": 177,
+          "pourcentage": 0.54,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "becht",
+          "voix": 91,
+          "pourcentage": 0.28,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

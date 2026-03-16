@@ -65,5 +65,62 @@
       "nuanceLibelle": "Liste Mouvement démocrate (MoDem)"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 23822,
+      "abstentions": 11080,
+      "tauxParticipation": 53.49,
+      "votants": 12742,
+      "blancs": 156,
+      "nuls": 141,
+      "exprimes": 12445,
+      "candidats": [
+        {
+          "id": "meslot",
+          "voix": 5892,
+          "pourcentage": 47.34,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "chauche",
+          "voix": 2807,
+          "pourcentage": 22.56,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "soustelle",
+          "voix": 1464,
+          "pourcentage": 11.76,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "faudot",
+          "voix": 1349,
+          "pourcentage": 10.84,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "grudler",
+          "voix": 761,
+          "pourcentage": 6.11,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "pheulpin",
+          "voix": 172,
+          "pourcentage": 1.38,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

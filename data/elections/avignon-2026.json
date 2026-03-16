@@ -834,5 +834,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 58246,
+      "abstentions": 30484,
+      "tauxParticipation": 47.66,
+      "votants": 27762,
+      "blancs": 302,
+      "nuls": 153,
+      "exprimes": 27307,
+      "candidats": [
+        {
+          "id": "galzi",
+          "voix": 7383,
+          "pourcentage": 27.04,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "rigault",
+          "voix": 6969,
+          "pourcentage": 25.52,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "fournier",
+          "voix": 5431,
+          "pourcentage": 19.89,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "louvain",
+          "voix": 5197,
+          "pourcentage": 19.03,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "fiori",
+          "voix": 2017,
+          "pourcentage": 7.39,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "geslin",
+          "voix": 310,
+          "pourcentage": 1.14,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

@@ -760,5 +760,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 69723,
+      "abstentions": 31048,
+      "tauxParticipation": 55.47,
+      "votants": 38675,
+      "blancs": 726,
+      "nuls": 829,
+      "exprimes": 37120,
+      "candidats": [
+        {
+          "id": "lorion",
+          "voix": 16454,
+          "pourcentage": 44.33,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "k-bidi",
+          "voix": 8073,
+          "pourcentage": 21.75,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "anda-sita",
+          "voix": 7269,
+          "pourcentage": 19.58,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "dijoux",
+          "voix": 2802,
+          "pourcentage": 7.55,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "gobalou-erambranpoulle",
+          "voix": 816,
+          "pourcentage": 2.2,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "riviere",
+          "voix": 766,
+          "pourcentage": 2.06,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "von-pine",
+          "voix": 685,
+          "pourcentage": 1.85,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "vimbaye",
+          "voix": 255,
+          "pourcentage": 0.69,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

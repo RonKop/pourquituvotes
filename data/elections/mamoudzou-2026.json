@@ -75,5 +75,70 @@
       "nuanceLibelle": "Liste divers centre"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 20148,
+      "abstentions": 7973,
+      "tauxParticipation": 60.43,
+      "votants": 12175,
+      "blancs": 103,
+      "nuls": 160,
+      "exprimes": 11912,
+      "candidats": [
+        {
+          "id": "soumaila",
+          "voix": 7254,
+          "pourcentage": 60.9,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "haribou",
+          "voix": 2543,
+          "pourcentage": 21.35,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mhoudhoir",
+          "voix": 729,
+          "pourcentage": 6.12,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "m-dallah",
+          "voix": 580,
+          "pourcentage": 4.87,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "dinouraini",
+          "voix": 412,
+          "pourcentage": 3.46,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "said-ali",
+          "voix": 199,
+          "pourcentage": 1.67,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "youssouffa",
+          "voix": 195,
+          "pourcentage": 1.64,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "soumaila"
+  }
 }

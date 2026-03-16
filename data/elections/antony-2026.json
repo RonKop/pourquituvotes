@@ -685,5 +685,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 40089,
+      "abstentions": 16035,
+      "tauxParticipation": 60.0,
+      "votants": 24054,
+      "blancs": 541,
+      "nuls": 0,
+      "exprimes": 23513,
+      "candidats": [
+        {
+          "id": "senant",
+          "voix": 10701,
+          "pourcentage": 45.51,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mauger",
+          "voix": 5287,
+          "pourcentage": 22.49,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "precetti",
+          "voix": 3412,
+          "pourcentage": 14.51,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "evennou",
+          "voix": 2650,
+          "pourcentage": 11.27,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "la-selve",
+          "voix": 1463,
+          "pourcentage": 6.22,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

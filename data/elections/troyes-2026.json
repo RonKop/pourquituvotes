@@ -795,5 +795,76 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 30276,
+      "abstentions": 16618,
+      "tauxParticipation": 45.11,
+      "votants": 13658,
+      "blancs": 121,
+      "nuls": 111,
+      "exprimes": 13426,
+      "candidats": [
+        {
+          "id": "baroin",
+          "voix": 6518,
+          "pourcentage": 48.55,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "brochet",
+          "voix": 2218,
+          "pourcentage": 16.52,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "briot",
+          "voix": 1513,
+          "pourcentage": 11.27,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "fraincart",
+          "voix": 1050,
+          "pourcentage": 7.82,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "richard",
+          "voix": 940,
+          "pourcentage": 7.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "beury",
+          "voix": 768,
+          "pourcentage": 5.72,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "philippe",
+          "voix": 265,
+          "pourcentage": 1.97,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "reichling",
+          "voix": 154,
+          "pourcentage": 1.15,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

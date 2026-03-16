@@ -601,5 +601,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 43529,
+      "abstentions": 22075,
+      "tauxParticipation": 49.29,
+      "votants": 21454,
+      "blancs": 686,
+      "nuls": 0,
+      "exprimes": 20768,
+      "candidats": [
+        {
+          "id": "galut",
+          "voix": 9963,
+          "pourcentage": 47.97,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "mercier",
+          "voix": 6492,
+          "pourcentage": 31.26,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "iannuzzi",
+          "voix": 3098,
+          "pourcentage": 14.92,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "recher",
+          "voix": 912,
+          "pourcentage": 4.39,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "cordat",
+          "voix": 303,
+          "pourcentage": 1.46,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

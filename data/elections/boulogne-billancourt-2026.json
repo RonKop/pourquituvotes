@@ -750,5 +750,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 73850,
+      "abstentions": 34053,
+      "tauxParticipation": 53.89,
+      "votants": 39797,
+      "blancs": 468,
+      "nuls": 0,
+      "exprimes": 39329,
+      "candidats": [
+        {
+          "id": "baguet",
+          "voix": 18492,
+          "pourcentage": 47.02,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "jerphanion",
+          "voix": 10585,
+          "pourcentage": 26.91,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "rapilly-ferniot",
+          "voix": 3933,
+          "pourcentage": 10.0,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "shan",
+          "voix": 3551,
+          "pourcentage": 9.03,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "loussouarn",
+          "voix": 1514,
+          "pourcentage": 3.85,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "giammarresi",
+          "voix": 1254,
+          "pourcentage": 3.19,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

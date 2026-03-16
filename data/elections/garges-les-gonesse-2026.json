@@ -45,5 +45,49 @@
       "nuanceLibelle": "Liste divers centre"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 19377,
+      "abstentions": 10517,
+      "tauxParticipation": 45.72,
+      "votants": 8860,
+      "blancs": 137,
+      "nuls": 111,
+      "exprimes": 8612,
+      "candidats": [
+        {
+          "id": "jimenez",
+          "voix": 6091,
+          "pourcentage": 70.73,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "debah",
+          "voix": 1958,
+          "pourcentage": 22.74,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "zerguit",
+          "voix": 285,
+          "pourcentage": 3.31,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "nguyen",
+          "voix": 278,
+          "pourcentage": 3.23,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "jimenez"
+  }
 }

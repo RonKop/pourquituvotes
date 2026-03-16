@@ -755,5 +755,55 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 46072,
+      "abstentions": 20212,
+      "tauxParticipation": 56.13,
+      "votants": 25860,
+      "blancs": 521,
+      "nuls": 0,
+      "exprimes": 25339,
+      "candidats": [
+        {
+          "id": "santini",
+          "voix": 11128,
+          "pourcentage": 43.92,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "morel",
+          "voix": 5503,
+          "pourcentage": 21.72,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "vessiere",
+          "voix": 5253,
+          "pourcentage": 20.73,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "lago",
+          "voix": 1805,
+          "pourcentage": 7.12,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "allemand",
+          "voix": 1650,
+          "pourcentage": 6.51,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

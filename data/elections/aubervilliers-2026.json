@@ -1710,5 +1710,62 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 34196,
+      "abstentions": 19491,
+      "tauxParticipation": 43.0,
+      "votants": 14705,
+      "blancs": 139,
+      "nuls": 111,
+      "exprimes": 14455,
+      "candidats": [
+        {
+          "id": "franclet",
+          "voix": 3760,
+          "pourcentage": 26.01,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "karroumi",
+          "voix": 3695,
+          "pourcentage": 25.56,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "djebbari",
+          "voix": 3105,
+          "pourcentage": 21.48,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lescaut",
+          "voix": 2957,
+          "pourcentage": 20.46,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "hocine",
+          "voix": 731,
+          "pourcentage": 5.06,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "lavazec",
+          "voix": 207,
+          "pourcentage": 1.43,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

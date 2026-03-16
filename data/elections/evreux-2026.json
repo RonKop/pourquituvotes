@@ -85,5 +85,76 @@
       "nuanceLibelle": "Liste divers gauche"
     }
   ],
-  "categories": []
+  "categories": [],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 26301,
+      "abstentions": 12980,
+      "tauxParticipation": 50.65,
+      "votants": 13321,
+      "blancs": 130,
+      "nuls": 86,
+      "exprimes": 13105,
+      "candidats": [
+        {
+          "id": "lefrand",
+          "voix": 3864,
+          "pourcentage": 29.48,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "brigantino",
+          "voix": 2827,
+          "pourcentage": 21.57,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "silighini",
+          "voix": 2063,
+          "pourcentage": 15.74,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "petitjean",
+          "voix": 1924,
+          "pourcentage": 14.68,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "champredon",
+          "voix": 1151,
+          "pourcentage": 8.78,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "chartier",
+          "voix": 708,
+          "pourcentage": 5.4,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "messiha",
+          "voix": 398,
+          "pourcentage": 3.04,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "peyraud",
+          "voix": 170,
+          "pourcentage": 1.3,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

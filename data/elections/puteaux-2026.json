@@ -895,5 +895,49 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 31987,
+      "abstentions": 12964,
+      "tauxParticipation": 59.47,
+      "votants": 19023,
+      "blancs": 255,
+      "nuls": 179,
+      "exprimes": 18589,
+      "candidats": [
+        {
+          "id": "ceccaldi-raynaud",
+          "voix": 13449,
+          "pourcentage": 72.35,
+          "elu": true,
+          "qualifieT2": true
+        },
+        {
+          "id": "loe-mie",
+          "voix": 2601,
+          "pourcentage": 13.99,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "talhadjt",
+          "voix": 1427,
+          "pourcentage": 7.68,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "sirsalane",
+          "voix": 1112,
+          "pourcentage": 5.98,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire",
+    "eluMaire": "ceccaldi-raynaud"
+  }
 }

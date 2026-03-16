@@ -1494,5 +1494,83 @@
         }
       ]
     }
-  ]
+  ],
+  "resultats": {
+    "tour1": {
+      "date": "2026-03-15",
+      "inscrits": 75738,
+      "abstentions": 38324,
+      "tauxParticipation": 49.4,
+      "votants": 37414,
+      "blancs": 403,
+      "nuls": 222,
+      "exprimes": 36789,
+      "candidats": [
+        {
+          "id": "dejenlis",
+          "voix": 9556,
+          "pourcentage": 25.98,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "fauvet",
+          "voix": 8820,
+          "pourcentage": 23.97,
+          "elu": false,
+          "qualifieT2": true
+        },
+        {
+          "id": "toumi",
+          "voix": 5412,
+          "pourcentage": 14.71,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "bellina",
+          "voix": 4566,
+          "pourcentage": 12.41,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "olivier",
+          "voix": 3567,
+          "pourcentage": 9.7,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "caron",
+          "voix": 1967,
+          "pourcentage": 5.35,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "mercuzot",
+          "voix": 1434,
+          "pourcentage": 3.9,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "decle",
+          "voix": 972,
+          "pourcentage": 2.64,
+          "elu": false,
+          "qualifieT2": false
+        },
+        {
+          "id": "baudry",
+          "voix": 495,
+          "pourcentage": 1.35,
+          "elu": false,
+          "qualifieT2": false
+        }
+      ]
+    },
+    "status": "provisoire"
+  }
 }

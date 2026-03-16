@@ -191,11 +191,107 @@ def generate_shell(nom, slug, dept, resultats, candidats, template_head, templat
 {jsonld}
   </script>"""
 
-    # Injecter le SEO content avant le footer dans le body
-    body = template_body
-    footer_marker = '<footer class="footer"'
-    if footer_marker in body:
-        body = body.replace(footer_marker, f"{seo_content}\n\n  {footer_marker}")
+    # Générer le body directement (pas de JS dynamique pour les communes)
+    taux_str = str(taux)
+    inscrits_str = f"{resultats['inscrits']:,}".replace(",", "\u00A0")
+    exprimes_str = f"{resultats['exprimes']:,}".replace(",", "\u00A0")
+
+    # Tableau candidats pré-rendu
+    table_html = ""
+    max_voix = candidats[0]["voix"] if candidats else 1
+    for i, c in enumerate(candidats):
+        is_elu = c.get("elu", False)
+        bar_width = max(2, int(c["voix"] / max_voix * 100))
+        row_class = "resultats-table__row--elu" if is_elu else ""
+        badge = ""
+        if is_elu:
+            badge = ' <span class="badge badge--elu">Élu(e)</span>'
+        elif c.get("qualifieT2"):
+            badge = ' <span class="badge badge--qualifie">Qualifié(e) T2</span>'
+        voix_str = f"{c['voix']:,}".replace(",", "\u00A0")
+        table_html += f"""      <div class="resultats-table__row {row_class}">
+        <div class="resultats-table__rang">{i+1}</div>
+        <div class="resultats-table__info">
+          <div class="resultats-table__nom">{escape(c['nom'])}{badge}</div>
+          <div class="resultats-table__liste">{escape(c.get('liste', ''))}</div>
+          <div class="resultats-table__bar-wrap"><div class="resultats-table__bar-bg"><div class="resultats-table__bar" style="background:var(--bleu);width:{bar_width}%"></div></div></div>
+        </div>
+        <div class="resultats-table__scores">
+          <div class="resultats-table__pct">{c['pourcentage']}%</div>
+          <div class="resultats-table__voix">{voix_str} voix</div>
+        </div>
+      </div>
+"""
+
+    body_html = f"""<body>
+  <a href="#resultats-main" class="skip-link">Aller au contenu principal</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
+      <nav class="header-nav">
+        <ul class="header-nav__links">
+          <li><a href="/municipales/2026/">Comparateur</a></li>
+          <li><a href="/municipales-2026/resultats/">Résultats</a></li>
+          <li><a href="/a-propos">À propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="resultats-main">
+    <section class="resultats-hero">
+      <div class="resultats-hero__inner">
+        <nav class="fil-ariane fil-ariane--hero" aria-label="Fil d'Ariane">
+          <ol class="fil-ariane__liste">
+            <li class="fil-ariane__item"><a href="/"><i class="ph ph-house"></i> Accueil</a></li>
+            <li class="fil-ariane__item"><a href="/municipales-2026/resultats/">Résultats</a></li>
+            <li class="fil-ariane__item fil-ariane__item--actif"><a href="{escape(url)}">{escape(nom)}</a></li>
+          </ol>
+        </nav>
+        <h1 class="resultats-hero__titre">Résultats municipales 2026 — {escape(nom)}</h1>
+        <p class="resultats-hero__sous-titre">15 mars 2026</p>
+        <div class="resultats-hero__stats">
+          <div class="resultats-hero__stat">
+            <span class="resultats-hero__stat-valeur">{taux_str}%</span>
+            <span class="resultats-hero__stat-label">Participation</span>
+          </div>
+          <div class="resultats-hero__stat">
+            <span class="resultats-hero__stat-valeur">{inscrits_str}</span>
+            <span class="resultats-hero__stat-label">Inscrits</span>
+          </div>
+          <div class="resultats-hero__stat">
+            <span class="resultats-hero__stat-valeur">{exprimes_str}</span>
+            <span class="resultats-hero__stat-label">Exprimés</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resultats-section">
+      <h2 class="resultats-section__titre">Classement des candidats</h2>
+      <div class="resultats-table">
+{table_html}
+      </div>
+    </section>
+    <div class="resultats-cta">
+      <a href="/municipales-2026/resultats/" class="resultats-cta__btn"><i class="ph ph-arrow-left"></i> Tous les résultats</a>
+      <a href="/municipales/2026/" class="resultats-cta__btn resultats-cta__btn--secondary"><i class="ph ph-scales"></i> Comparateur</a>
+    </div>
+
+{seo_content}
+
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__bottom">
+        <p>&copy; 2026 #POURQUITUVOTES — Projet citoyen indépendant</p>
+        <div class="footer__legal">
+          <a href="/mentions-legales">Mentions légales</a>
+          <a href="/confidentialite">Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script defer src="/js/consent.js"></script>
+</body>"""
 
     html = f"""<!DOCTYPE html>
 <html lang="fr">
@@ -203,7 +299,7 @@ def generate_shell(nom, slug, dept, resultats, candidats, template_head, templat
 {head_seo}
 {template_head}
 </head>
-{body}
+{body_html}
 </html>
 """
     rel_path = f"municipales-2026/{slug}/resultats/index.html"

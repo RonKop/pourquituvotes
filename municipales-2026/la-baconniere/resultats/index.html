@@ -89,148 +89,76 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web/src/regular/style.css">
-  <link rel="stylesheet" href="/css/style.css?v=2026031501">
-  <link rel="stylesheet" href="/css/resultats.css?v=2026031501">
+  <link rel="stylesheet" href="/css/style.css?v=2026031601">
+  <link rel="stylesheet" href="/css/resultats.css?v=2026031601">
   <link rel="stylesheet" href="/css/consent.css">
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4CCTF6V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
   <a href="#resultats-main" class="skip-link">Aller au contenu principal</a>
-
-  <!-- Header -->
-  <header class="site-header" id="site-header">
+  <header class="site-header">
     <div class="site-header__inner">
       <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
       <nav class="header-nav">
         <ul class="header-nav__links">
           <li><a href="/municipales/2026/">Comparateur</a></li>
-          <li><a href="/methodologie">M&eacute;thodologie</a></li>
-          <li><a href="/faq">FAQ</a></li>
-          <li><a href="/a-propos">&Agrave; propos</a></li>
+          <li><a href="/municipales-2026/resultats/">Résultats</a></li>
+          <li><a href="/a-propos">À propos</a></li>
         </ul>
       </nav>
-      <button class="header__burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="15" y2="6"/><line x1="3" y1="12" x2="12" y2="12"/><line x1="3" y1="18" x2="10" y2="18"/><circle cx="19" cy="16" r="3" stroke-width="1.8" fill="none"/><line x1="21.2" y1="18.2" x2="23" y2="20"/></svg>
-      </button>
     </div>
   </header>
-
-  <!-- Mobile menu -->
-  <div class="mobile-menu-overlay" id="mobile-menu" hidden>
-    <div class="mobile-menu-overlay__header">
-      <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
-      <button class="mobile-menu-overlay__close" id="mobile-menu-close" aria-label="Fermer"><i class="ph ph-x"></i></button>
-    </div>
-    <div class="mobile-menu-overlay__search">
-      <div class="mobile-menu-search-box">
-        <i class="ph ph-magnifying-glass"></i>
-        <input type="text" id="mobile-menu-search" placeholder="Ville, candidat ou code postal..." autocomplete="off">
-      </div>
-      <div class="mobile-menu-suggestions" id="mobile-menu-suggestions" hidden></div>
-    </div>
-    <nav class="mobile-menu-overlay__nav">
-      <ul>
-        <li><a href="/municipales/2026/"><i class="ph ph-scales"></i> Comparateur</a></li>
-        <li><a href="/methodologie"><i class="ph ph-book-open"></i> M&eacute;thodologie</a></li>
-        <li><a href="/faq"><i class="ph ph-question"></i> FAQ</a></li>
-        <li><a href="/a-propos"><i class="ph ph-info"></i> &Agrave; propos</a></li>
-      </ul>
-    </nav>
-  </div>
-
   <main id="resultats-main">
-    <!-- Hero -->
-    <section class="resultats-hero" id="resultats-hero">
+    <section class="resultats-hero">
       <div class="resultats-hero__inner">
-        <!-- Fil d'Ariane (dans le hero, fond sombre) -->
         <nav class="fil-ariane fil-ariane--hero" aria-label="Fil d'Ariane">
-          <ol class="fil-ariane__liste" itemscope itemtype="https://schema.org/BreadcrumbList">
-            <li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <a href="/" itemprop="item"><i class="ph ph-house"></i><span itemprop="name">Accueil</span></a>
-              <meta itemprop="position" content="1">
-            </li>
-            <li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <a href="/municipales/2026/" itemprop="item"><span itemprop="name">Municipales 2026</span></a>
-              <meta itemprop="position" content="2">
-            </li>
-            <li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <a href="#" itemprop="item" id="breadcrumb-ville"><span itemprop="name" id="breadcrumb-ville-nom">Ville</span></a>
-              <meta itemprop="position" content="3">
-            </li>
-            <li class="fil-ariane__item fil-ariane__item--actif" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <a href="#" itemprop="item" id="breadcrumb-current"><span itemprop="name">R&eacute;sultats</span></a>
-              <meta itemprop="position" content="4">
-            </li>
+          <ol class="fil-ariane__liste">
+            <li class="fil-ariane__item"><a href="/"><i class="ph ph-house"></i> Accueil</a></li>
+            <li class="fil-ariane__item"><a href="/municipales-2026/resultats/">Résultats</a></li>
+            <li class="fil-ariane__item fil-ariane__item--actif"><a href="https://pourquituvotes.fr/municipales-2026/la-baconniere/resultats/">La Baconnière</a></li>
           </ol>
         </nav>
-
-        <div class="resultats-hero__status" id="resultats-status-badge"></div>
-        <h1 class="resultats-hero__titre" id="resultats-titre">Chargement des r&eacute;sultats...</h1>
-        <p class="resultats-hero__sous-titre" id="resultats-sous-titre"></p>
-
-        <div class="resultats-hero__stats" id="resultats-hero-stats">
+        <h1 class="resultats-hero__titre">Résultats municipales 2026 — La Baconnière</h1>
+        <p class="resultats-hero__sous-titre">15 mars 2026</p>
+        <div class="resultats-hero__stats">
           <div class="resultats-hero__stat">
-            <span class="resultats-hero__stat-valeur" id="stat-participation">—</span>
+            <span class="resultats-hero__stat-valeur">49.51%</span>
             <span class="resultats-hero__stat-label">Participation</span>
           </div>
           <div class="resultats-hero__stat">
-            <span class="resultats-hero__stat-valeur" id="stat-inscrits">—</span>
+            <span class="resultats-hero__stat-valeur">1 321</span>
             <span class="resultats-hero__stat-label">Inscrits</span>
           </div>
           <div class="resultats-hero__stat">
-            <span class="resultats-hero__stat-valeur" id="stat-exprimes">—</span>
-            <span class="resultats-hero__stat-label">Exprim&eacute;s</span>
+            <span class="resultats-hero__stat-valeur">485</span>
+            <span class="resultats-hero__stat-label">Exprimés</span>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Onglets Tour 1 / Tour 2 -->
-    <div class="resultats-onglets" id="resultats-onglets" hidden>
-      <button class="resultats-onglets__btn resultats-onglets__btn--actif" data-tour="1">Tour 1</button>
-      <button class="resultats-onglets__btn" data-tour="2">Tour 2</button>
-    </div>
-
-    <!-- Tableau des résultats -->
-    <section class="resultats-section" id="resultats-section">
-      <h2 class="resultats-section__titre" id="resultats-section-titre">Classement des candidats</h2>
-      <div class="resultats-table" id="resultats-table" role="table" aria-label="R&eacute;sultats par candidat">
-        <p class="resultats-table__loading">Chargement...</p>
-      </div>
-    </section>
-
-    <!-- Fusions de listes (T2) -->
-    <section class="resultats-fusions" id="resultats-fusions" hidden>
-      <h2 class="resultats-fusions__titre">Fusions de listes au second tour</h2>
-      <div id="resultats-fusions-content"></div>
-    </section>
-
-    <!-- Participation (Chart.js donut) -->
-    <section class="resultats-participation" id="resultats-participation">
-      <h2 class="resultats-participation__titre">Participation &eacute;lectorale</h2>
-      <div class="resultats-participation__inner">
-        <div class="resultats-participation__chart-wrap">
-          <canvas id="participation-chart" width="300" height="300"></canvas>
+    <section class="resultats-section">
+      <h2 class="resultats-section__titre">Classement des candidats</h2>
+      <div class="resultats-table">
+      <div class="resultats-table__row resultats-table__row--elu">
+        <div class="resultats-table__rang">1</div>
+        <div class="resultats-table__info">
+          <div class="resultats-table__nom">David BESNEUX <span class="badge badge--elu">Élu(e)</span></div>
+          <div class="resultats-table__liste">LA BACONNIERE ENSEMBLE ET AVENIR</div>
+          <div class="resultats-table__bar-wrap"><div class="resultats-table__bar-bg"><div class="resultats-table__bar" style="background:var(--bleu);width:100%"></div></div></div>
         </div>
-        <div class="resultats-participation__details" id="participation-details"></div>
+        <div class="resultats-table__scores">
+          <div class="resultats-table__pct">19%</div>
+          <div class="resultats-table__voix">36.71 voix</div>
+        </div>
+      </div>
+
       </div>
     </section>
-
-    <!-- CTA Comparateur -->
     <div class="resultats-cta">
-      <a href="#" id="resultats-cta-comparer" class="resultats-cta__btn">
-        <i class="ph ph-scales"></i> Comparez les programmes &agrave; <span id="resultats-cta-ville">cette ville</span>
-      </a>
-      <a href="#" id="resultats-cta-share" class="resultats-cta__btn resultats-cta__btn--secondary" hidden>
-        <i class="ph ph-share-network"></i> Partager les r&eacute;sultats
-      </a>
+      <a href="/municipales-2026/resultats/" class="resultats-cta__btn"><i class="ph ph-arrow-left"></i> Tous les résultats</a>
+      <a href="/municipales/2026/" class="resultats-cta__btn resultats-cta__btn--secondary"><i class="ph ph-scales"></i> Comparateur</a>
     </div>
-  </main>
 
-  <!-- Footer -->
-    <section class="seo-content" aria-label="Résultats municipales 2026 à La Baconnière">
+  <section class="seo-content" aria-label="Résultats municipales 2026 à La Baconnière">
     <h2>Résultats des élections municipales 2026 à La Baconnière</h2>
     <p>Les élections municipales 2026 à La Baconnière (département 53) ont vu une participation de 49.51%
     (1321 inscrits, 654 votants).</p>
@@ -241,96 +169,18 @@
     </ol>
   </section>
 
+  </main>
   <footer class="footer" role="contentinfo">
     <div class="footer__inner">
-      <div class="footer__grid">
-
-        <!-- Brand -->
-        <div class="footer__brand">
-          <a href="/" class="footer__logo" aria-label="Accueil">
-            <span class="logo__hash">#</span><span class="logo__pourquitu">POURQUITU</span><span class="logo__votes">VOTES</span><span class="logo__question">?</span>
-          </a>
-          <p class="footer__tagline">Comparez les programmes des candidats. Projet citoyen, ind&eacute;pendant et non-partisan.</p>
-          <div class="footer__socials" aria-label="R&eacute;seaux sociaux">
-            <a href="#" aria-label="X (Twitter)" class="footer__social"><i class="ph ph-x-logo" aria-hidden="true"></i></a>
-            <a href="#" aria-label="Facebook" class="footer__social"><i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
-            <a href="#" aria-label="LinkedIn" class="footer__social"><i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
-          </div>
-        </div>
-
-        <!-- Municipales -->
-        <div class="footer__col">
-          <h3 class="footer__col-title">Municipales 2026</h3>
-          <ul class="footer__list">
-            <li><a href="/municipales-2026/paris/">Paris</a></li>
-            <li><a href="/municipales-2026/lyon/">Lyon</a></li>
-            <li><a href="/municipales-2026/marseille/">Marseille</a></li>
-            <li><a href="/municipales-2026/toulouse/">Toulouse</a></li>
-            <li><a href="/municipales-2026/nice/">Nice</a></li>
-            <li><a href="/municipales-2026/nantes/">Nantes</a></li>
-            <li><a href="/municipales-2026/bordeaux/">Bordeaux</a></li>
-            <li><a href="/municipales/2026/" class="footer__link--all">Toutes les villes <i class="ph ph-arrow-right" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-
-        <!-- Autres elections -->
-        <div class="footer__col">
-          <h3 class="footer__col-title">Enjeux &amp; &Eacute;lections</h3>
-          <ul class="footer__list">
-            <li><a href="/enjeux-index.html">Enjeux 2026</a></li>
-            <li><a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--soon">bient&ocirc;t</span></a></li>
-            <li><span class="footer__item-soon">L&eacute;gislatives 2027</span></li>
-            <li><span class="footer__item-soon">R&eacute;gionales</span></li>
-            <li><span class="footer__item-soon">Europ&eacute;ennes 2029</span></li>
-          </ul>
-        </div>
-
-        <!-- Le projet -->
-        <div class="footer__col">
-          <h3 class="footer__col-title">Le projet</h3>
-          <ul class="footer__list">
-            <li><a href="/a-propos">&Agrave; propos</a></li>
-            <li><a href="/methodologie">M&eacute;thodologie</a></li>
-            <li><a href="/faq">FAQ</a></li>
-            <li><a href="mailto:contact@pourquituvotes.fr">Contact</a></li>
-            <li><a href="#" class="js-open-contribuer"><i class="ph ph-hand-heart" aria-hidden="true"></i> Contribuer</a></li>
-          </ul>
-        </div>
-
-      </div>
-
       <div class="footer__bottom">
-        <p>&copy; 2026 #POURQUITUVOTES &mdash; Projet citoyen ind&eacute;pendant</p>
+        <p>&copy; 2026 #POURQUITUVOTES — Projet citoyen indépendant</p>
         <div class="footer__legal">
-          <a href="/mentions-legales">Mentions l&eacute;gales</a>
-          <a href="/confidentialite">Confidentialit&eacute;</a>
-          <a href="/confidentialite" class="js-open-consent">Gestion des cookies</a>
+          <a href="/mentions-legales">Mentions légales</a>
+          <a href="/confidentialite">Confidentialité</a>
         </div>
       </div>
     </div>
   </footer>
-
-  <script>
-    // Burger menu
-    var burgerBtn = document.getElementById("burger-btn");
-    var mobileMenu = document.getElementById("mobile-menu");
-    var menuClose = document.getElementById("mobile-menu-close");
-    if (burgerBtn && mobileMenu) {
-      burgerBtn.addEventListener("click", function() {
-        mobileMenu.hidden = false;
-        document.body.style.overflow = "hidden";
-      });
-      if (menuClose) menuClose.addEventListener("click", function() {
-        mobileMenu.hidden = true;
-        document.body.style.overflow = "";
-      });
-    }
-  </script>
   <script defer src="/js/consent.js"></script>
-  <script defer src="/js/seo-utils.js"></script>
-  <script defer src="/js/burger-search.js?v=2026031501"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
-  <script defer src="/js/resultats.js?v=2026031501"></script>
-  <script defer src="/js/contribuer.js"></script>
 </body>
 </html>

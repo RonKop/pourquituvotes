@@ -97,19 +97,19 @@
     var ps = statsData.plus_serre || {};
     var highlights = [
       {
-        icon: '🗳️', title: 'Inscrits',
+        icon: '<i class="ph ph-users"></i>', title: 'Inscrits',
         value: formatNumber(statsData.total_inscrits),
         detail: formatNumber(statsData.total_votants) + ' votants'
       },
       {
-        icon: '📊', title: 'Participation moyenne',
+        icon: '<i class="ph ph-chart-bar"></i>', title: 'Participation moyenne',
         value: statsData.participationMoyenne + '%',
         detail: 'Sur ' + formatNumber(statsData.total_communes) + ' communes'
       },
       {
-        icon: '🏆', title: 'Résultat le plus serré',
-        value: '<a href="/municipales-2026/' + esc(ps.slug || '') + '/resultats/">' + esc(ps.commune || '—') + '</a>',
-        detail: esc(ps.c1 || '') + ' (' + (ps.p1 || 0) + '%) vs ' + esc(ps.c2 || '') + ' (' + (ps.p2 || 0) + '%) — ' + (ps.ecart || 0) + ' pts d\'écart'
+        icon: '<i class="ph ph-scales"></i>', title: 'R\u00E9sultat le plus serr\u00E9',
+        value: '<a href="/municipales-2026/' + esc(ps.slug || '') + '/resultats/">' + esc(ps.commune || '\u2014') + '</a>',
+        detail: esc(ps.c1 || '') + ' (' + (ps.p1 || 0) + '%) vs ' + esc(ps.c2 || '') + ' (' + (ps.p2 || 0) + '%) \u2014 ' + (ps.ecart || 0) + ' pts d\u2019\u00E9cart'
       },
     ];
 
@@ -119,9 +119,9 @@
     if (sortedNuances.length > 0) {
       var topN = sortedNuances[0];
       highlights.push({
-        icon: '🏛️', title: 'Nuance en tête (nbre de villes)',
+        icon: '<i class="ph ph-flag-banner"></i>', title: 'Nuance en t\u00EAte',
         value: NUANCE_LABELS[topN] || topN,
-        detail: nuances[topN] + ' communes gagnées'
+        detail: nuances[topN] + ' communes gagn\u00E9es'
       });
     }
 

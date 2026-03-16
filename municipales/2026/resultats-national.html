@@ -120,11 +120,19 @@
         <div class="resultats-hero__stats" id="national-hero-stats">
           <div class="resultats-hero__stat">
             <span class="resultats-hero__stat-valeur" id="national-villes">—</span>
-            <span class="resultats-hero__stat-label">villes couvertes</span>
+            <span class="resultats-hero__stat-label">communes couvertes</span>
           </div>
           <div class="resultats-hero__stat">
             <span class="resultats-hero__stat-valeur" id="national-participation">—</span>
             <span class="resultats-hero__stat-label">participation moyenne</span>
+          </div>
+          <div class="resultats-hero__stat">
+            <span class="resultats-hero__stat-valeur" id="national-highest-part">—</span>
+            <span class="resultats-hero__stat-label">participation max</span>
+          </div>
+          <div class="resultats-hero__stat">
+            <span class="resultats-hero__stat-valeur" id="national-lowest-part">—</span>
+            <span class="resultats-hero__stat-label">participation min</span>
           </div>
         </div>
       </div>
@@ -142,9 +150,35 @@
       </div>
     </section>
 
-    <!-- Grandes villes -->
+    <!-- Faits marquants -->
+    <section class="resultats-section" id="national-highlights-section" hidden>
+      <h2 class="resultats-section__titre">Faits marquants</h2>
+      <div class="resultats-highlights" id="national-highlights"></div>
+    </section>
+
+    <!-- Répartition par nuance -->
+    <section class="resultats-section" id="national-nuances-section" hidden>
+      <h2 class="resultats-section__titre">R&eacute;partition politique</h2>
+      <div class="resultats-nuances-bar" id="national-nuances-bar"></div>
+      <div class="resultats-nuances-legend" id="national-nuances-legend"></div>
+    </section>
+
+    <!-- Grandes villes avec filtres et tri -->
     <section class="resultats-section" id="national-villes-section">
-      <h2 class="resultats-section__titre">Grandes villes</h2>
+      <div class="resultats-section__header">
+        <h2 class="resultats-section__titre">Grandes villes</h2>
+        <div class="resultats-controls">
+          <select id="national-sort" class="resultats-controls__select" aria-label="Trier par">
+            <option value="alpha">A &rarr; Z</option>
+            <option value="part-desc">Participation &darr;</option>
+            <option value="part-asc">Participation &uarr;</option>
+            <option value="pop-desc">Population &darr;</option>
+          </select>
+          <select id="national-filter-nuance" class="resultats-controls__select" aria-label="Filtrer par nuance">
+            <option value="">Toutes les nuances</option>
+          </select>
+        </div>
+      </div>
       <div id="national-villes-table"></div>
     </section>
 

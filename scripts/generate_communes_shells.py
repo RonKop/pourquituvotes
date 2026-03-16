@@ -47,10 +47,10 @@ def slugify(text):
 
 def make_commune_title(nom, elu_nom=None, max_len=60):
     if elu_nom:
-        t = f"Résultats municipales 2026 {nom} — {elu_nom} élu(e)"
+        t = f"Résultats du 1er tour {nom} — {elu_nom} élu(e)"
         if len(t) <= max_len:
             return t
-    t = f"Résultats municipales 2026 {nom}"
+    t = f"Résultats du 1er tour {nom}"
     if len(t) <= max_len:
         return t
     return f"Résultats 2026 {nom}"[:max_len]
@@ -59,7 +59,7 @@ def make_commune_title(nom, elu_nom=None, max_len=60):
 def make_commune_desc(nom, dept, taux, candidats, max_len=155):
     if candidats:
         top = candidats[0]
-        desc = f"Résultats municipales 2026 à {nom} ({dept}) : {top['nom']} en tête avec {top['pourcentage']}%. Participation : {taux}%."
+        desc = f"Résultats du 1er tour à {nom} ({dept}) : {top['nom']} en tête avec {top['pourcentage']}%. Participation : {taux}%."
     else:
         desc = f"Résultats des élections municipales 2026 à {nom} ({dept}). Participation : {taux}%."
     return desc[:max_len]
@@ -120,7 +120,7 @@ def make_seo_content(nom, dept, resultats, candidats):
     taux = resultats["tauxParticipation"]
     inscrits = resultats["inscrits"]
 
-    html = f"""  <section class="seo-content" aria-label="Résultats municipales 2026 à {escape(nom)}">
+    html = f"""  <section class="seo-content" aria-label="Résultats du 1er tour à {escape(nom)}">
     <h2>Résultats des élections municipales 2026 à {escape(nom)}</h2>
     <p>Les élections municipales 2026 à {escape(nom)} (département {escape(dept)}) ont vu une participation de {taux}%
     ({inscrits} inscrits, {resultats['votants']} votants).</p>"""
@@ -247,7 +247,7 @@ def generate_shell(nom, slug, dept, resultats, candidats, template_head, templat
             <li class="fil-ariane__item fil-ariane__item--actif"><a href="{escape(url)}">{escape(nom)}</a></li>
           </ol>
         </nav>
-        <h1 class="resultats-hero__titre">Résultats municipales 2026 — {escape(nom)}</h1>
+        <h1 class="resultats-hero__titre">Résultats du 1er tour — {escape(nom)}</h1>
         <p class="resultats-hero__sous-titre">15 mars 2026</p>
         <div class="resultats-hero__stats">
           <div class="resultats-hero__stat">
@@ -272,7 +272,7 @@ def generate_shell(nom, slug, dept, resultats, candidats, template_head, templat
       </div>
     </section>
     <div class="resultats-cta">
-      <a href="/municipales-2026/resultats/" class="resultats-cta__btn"><i class="ph ph-arrow-left"></i> Tous les résultats</a>
+      <a href="/municipales-2026/resultats/" class="resultats-cta__btn"><i class="ph ph-arrow-left"></i> Tous les résultats du 1er tour</a>
       <a href="/municipales/2026/" class="resultats-cta__btn resultats-cta__btn--secondary"><i class="ph ph-scales"></i> Comparateur</a>
     </div>
 

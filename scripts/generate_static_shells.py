@@ -450,10 +450,10 @@ def make_results_title(ville, elu_nom=None, has_tour2=False, max_len=60):
         if len(compact) <= max_len:
             return compact
     else:
-        full = f"Résultats 1er tour municipales 2026 {ville} | #POURQUITUVOTES"
+        full = f"Résultats du 1er tour municipales 2026 {ville} | #POURQUITUVOTES"
         if len(full) <= max_len:
             return full
-        short = f"Résultats 1er tour municipales 2026 {ville}"
+        short = f"Résultats du 1er tour municipales 2026 {ville}"
         if len(short) <= max_len:
             return short
 

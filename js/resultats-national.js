@@ -169,24 +169,25 @@
     bar.innerHTML = barHtml;
     legend.innerHTML = legendHtml;
 
-    // Click légende nuance → filtre
+    // Click légende nuance → affiche les villes gagnées
     legend.addEventListener('click', function (e) {
       var item = e.target.closest('[data-nuance]');
       if (!item) return;
       var nuance = item.getAttribute('data-nuance');
+
+      // Toggle
       if (currentNuance === nuance) {
         currentNuance = '';
-        item.style.opacity = '';
+        var items2 = legend.querySelectorAll('.resultats-nuances-legend__item');
+        for (var j = 0; j < items2.length; j++) items2[j].style.opacity = '';
+        document.getElementById('national-parti-section').hidden = true;
       } else {
         currentNuance = nuance;
         var items = legend.querySelectorAll('.resultats-nuances-legend__item');
         for (var i = 0; i < items.length; i++) {
           items[i].style.opacity = items[i] === item ? '1' : '0.4';
         }
-      }
-      if (!currentNuance) {
-        var items2 = legend.querySelectorAll('.resultats-nuances-legend__item');
-        for (var j = 0; j < items2.length; j++) items2[j].style.opacity = '';
+        showPartiVilles(nuance);
       }
     });
   }
@@ -347,6 +348,49 @@
     });
   }
 
+  function showPartiVilles(nuance) {
+    var section = document.getElementById('national-parti-section');
+    var titre = document.getElementById('national-parti-titre');
+    var table = document.getElementById('national-parti-table');
+    section.hidden = false;
+
+    var label = NUANCE_LABELS[nuance] || nuance;
+    var color = NUANCE_COLORS[nuance] || '#6b7280';
+
+    loadCommunesIndex(function () {
+      var matches = [];
+      for (var i = 0; i < communesIndex.length; i++) {
+        if (communesIndex[i].wn === nuance) matches.push(communesIndex[i]);
+      }
+      matches.sort(function (a, b) { return b.p - a.p; });
+
+      titre.innerHTML = '<span style="color:' + color + '"><i class="ph ph-flag-banner"></i> ' + esc(label) + '</span> — ' + matches.length + ' communes gagn\u00E9es';
+
+      var html = '';
+      var limit = Math.min(matches.length, 100);
+      for (var j = 0; j < limit; j++) {
+        var c = matches[j];
+        html += '<a href="/municipales-2026/' + esc(c.s) + '/resultats/" class="resultats-table__row" style="text-decoration:none">';
+        html += '  <div class="resultats-table__rang" style="font-size:0.75rem">' + formatNumber(c.p) + ' hab</div>';
+        html += '  <div class="resultats-table__info">';
+        html += '    <div class="resultats-table__nom">' + esc(c.n) + ' <span style="color:var(--couleur-texte-secondaire);font-weight:400">(' + esc(c.d) + ')</span></div>';
+        html += '    <div class="resultats-table__liste">En t\u00EAte : ' + esc(c.w) + '</div>';
+        html += '  </div>';
+        html += '  <div class="resultats-table__scores">';
+        html += '    <div class="resultats-table__pct">' + c.wp + '%</div>';
+        html += '    <div class="resultats-table__voix">' + c.t + '% participation</div>';
+        html += '  </div>';
+        html += '</a>';
+      }
+      if (matches.length > 100) {
+        html += '<p style="text-align:center;padding:1rem;color:var(--couleur-texte-secondaire)">... et ' + (matches.length - 100) + ' autres communes</p>';
+      }
+
+      table.innerHTML = html;
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+
   function showDeptCommunes(dept) {
     loadCommunesIndex(function () {
       var matches = [];
@@ -410,8 +454,21 @@
       sortChips.addEventListener('click', function (e) {
         var chip = e.target.closest('[data-sort]');
         if (!chip) return;
-        currentSort = chip.getAttribute('data-sort');
-        // Mettre à jour l'état actif
+        var sort = chip.getAttribute('data-sort');
+
+        // Toggle asc/desc si déjà actif
+        if (sort === 'participation') {
+          if (currentSort === 'part-desc') {
+            currentSort = 'part-asc';
+            chip.innerHTML = '<i class="ph ph-chart-bar"></i> Participation \u2191';
+          } else {
+            currentSort = 'part-desc';
+            chip.innerHTML = '<i class="ph ph-chart-bar"></i> Participation \u2193';
+          }
+        } else {
+          currentSort = sort;
+        }
+
         var all = sortChips.querySelectorAll('.resultats-sort-chip');
         for (var i = 0; i < all.length; i++) {
           all[i].classList.toggle('resultats-sort-chip--actif', all[i] === chip);

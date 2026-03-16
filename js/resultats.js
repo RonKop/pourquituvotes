@@ -3,7 +3,7 @@
 
   // === Configuration ===
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026031501';
+  var DATA_VERSION = '2026031601';
   var BASE_URL = 'https://pourquituvotes.fr';
 
   // Couleurs par nuance politique

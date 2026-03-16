@@ -2,7 +2,7 @@
   "use strict";
 
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026031501';
+  var DATA_VERSION = '2026031601';
 
   function esc(str) {
     var el = document.createElement('span');

@@ -721,8 +721,7 @@
 
   // === Init ===
   function initHome() {
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
+    // Countdown supprimé — scrutin T1 passé, le HTML statique affiche le lien résultats
     updateTimelineStats();
     renderElections();
     renderTendances();

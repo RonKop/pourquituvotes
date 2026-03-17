@@ -122,38 +122,63 @@ def parse_resultats_html(html, tour_num):
     taux = round(votants / inscrits * 100, 2) if inscrits > 0 else 0
 
     # Parse candidats
+    # Deux formats possibles :
+    # Grandes villes (>= 6 cols) : Liste | Conduit par | Nuance | Voix | %Ins | %Exp [| Sièges...]
+    # Petites communes (5 cols)  : Conduit par | Voix | %Ins | %Exp | Sièges
     candidats = []
     resultats_match = re.search(r'<caption>\s*R.sultats.*?</caption>(.*?)</table>', html, re.DOTALL)
     if resultats_match:
+        # Détecter le format via les headers
+        # Grandes villes (7+ cols) : Liste | Conduit par | Nuance | Voix | %Ins | %Exp | Sièges...
+        # Petites communes (6 cols) : Liste | Conduit par | Voix | %Ins | %Exp | Sièges
+        headers = re.findall(r'<th[^>]*>(.*?)</th>', resultats_match.group(1), re.DOTALL)
+        header_texts = [clean(h).lower() for h in headers]
+        has_nuance = any('nuance' in h for h in header_texts)
+
         rows = re.findall(r'<tr>(.*?)</tr>', resultats_match.group(1), re.DOTALL)
         for row in rows:
             cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
-            if len(cells) >= 6:
+
+            if has_nuance and len(cells) >= 6:
+                # Format avec nuance : Liste | Conduit par | Nuance | Voix | %Ins | %Exp [| Sièges...]
                 liste = clean(cells[0])
                 conduit_par = re.sub(r'^(?:M\.|Mme|M)\s+', '', clean(cells[1])).strip()
                 nuance = clean(cells[2])
                 voix = parse_number(clean(cells[3]))
                 pct_exprimes = parse_number(clean(cells[5]))
+                sieges_idx = 6
 
-                if voix <= 0:
-                    continue
+            elif not has_nuance and len(cells) >= 5:
+                # Format sans nuance : Liste | Conduit par | Voix | %Ins | %Exp [| Sièges]
+                liste = clean(cells[0])
+                conduit_par = re.sub(r'^(?:M\.|Mme|M)\s+', '', clean(cells[1])).strip()
+                nuance = ""
+                voix = parse_number(clean(cells[2]))
+                pct_exprimes = parse_number(clean(cells[4]))
+                sieges_idx = 5
 
-                cand = {
-                    "nom": conduit_par,
-                    "liste": liste,
-                    "nuance": nuance,
-                    "voix": voix,
-                    "pourcentage": round(pct_exprimes, 2),
-                    "elu": False,
-                }
+            else:
+                continue
 
-                # Sièges (si présents dans les colonnes suivantes)
-                if len(cells) >= 7:
-                    sieges = parse_number(clean(cells[6]))
-                    if sieges > 0:
-                        cand["elu"] = True
+            if voix <= 0:
+                continue
 
-                candidats.append(cand)
+            cand = {
+                "nom": conduit_par,
+                "liste": liste,
+                "nuance": nuance,
+                "voix": int(voix) if voix == int(voix) else voix,
+                "pourcentage": round(pct_exprimes, 2),
+                "elu": False,
+            }
+
+            # Sièges
+            if len(cells) > sieges_idx:
+                sieges = parse_number(clean(cells[sieges_idx]))
+                if sieges > 0:
+                    cand["elu"] = True
+
+            candidats.append(cand)
 
     if not candidats:
         return None

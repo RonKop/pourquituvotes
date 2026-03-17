@@ -19,7 +19,7 @@
       "nom": "Julien Bony",
       "liste": "Union Citoyenne de la Droite et du Centre",
       "programmeUrl": "https://bony2026.fr",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null,
       "nuanceOfficielle": "LUD",
       "nuanceLibelle": "Liste d'union à droite"
@@ -28,8 +28,8 @@
       "id": "darbois",
       "nom": "Antoine Darbois",
       "liste": "Rassemblement National",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre",
+      "programmeComplet": true,
       "programmePdfPath": null,
       "nuanceOfficielle": "LRN",
       "nuanceLibelle": "Liste du Rassemblement National"
@@ -38,8 +38,8 @@
       "id": "maximi",
       "nom": "Marianne Maximi",
       "liste": "Clermont fier et solidaire (LFI)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://mariannemaximi2026.fr/le-programme/",
+      "programmeComplet": true,
       "programmePdfPath": null,
       "nuanceOfficielle": "LFI",
       "nuanceLibelle": "Liste de La France insoumise"
@@ -58,8 +58,8 @@
       "id": "cartailler",
       "nom": "Yannick Cartailler",
       "liste": "Divers centre, LE RÉVEIL CLERMONTOIS",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://lereveilclermontois.fr/programme/",
+      "programmeComplet": true,
       "programmePdfPath": null,
       "nuanceOfficielle": "LDVC",
       "nuanceLibelle": "Liste divers centre"
@@ -86,30 +86,42 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026 | Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Faire de la tranquillité publique et de la lutte contre la délinquance une priorité absolue.",
-                "Renforcement des moyens humains et techniques tant pour la prévention que pour la répression.",
-                "Création de 100 postes de policiers municipaux pour atteindre 150 agents au total.",
-                "Sécurité dans tous les quartiers, lutte contre les trafics.",
-                "Renforcement de la brigade canine de police municipale."
-              ]
+                "Extension des horaires de présence de la police municipale la nuit",
+                "+100 postes supplémentaires de policiers municipaux",
+                "Armement et équipement complet de la police municipale",
+                "Renforcement de la brigade canine",
+                "Création d'un hôtel de police municipal adapté intégrant un Centre de Supervision Urbain opérationnel 24h/24",
+                "Renforcement de la coopération avec l'État (police nationale, procureur)",
+                "Création d'une brigade transports et de boutons d'alerte digitaux"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": {
-              "source": "France Bleu Pays d’Auvergne, 12/12/2025 | RCF Puy de Dôme, 05/12/2025 | Déclaration de campagne rapportée par La Montagne, 11/12/2025 | France Bleu Auvergne, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-de-ici-matin-pays-d-auvergne/antoine-darbois-candidat-rn-a-la-mairie-de-clermont-ferrand-1692334",
               "mesures": [
-                "Augmentation du nombre de policiers municipaux jusqu’à 150 agents armés d’ici la fin du mandat.",
-                "Armement de la police municipale.",
-                "Mettre en place des brigades 24h/24 et 7j/7 pour lutter contre le narcotrafic.",
-                "Lutter contre le narcotrafic et les conséquences d’une immigration incontrôlée.",
-                "Patrouilles nocturnes renforcées."
-              ]
+                "Recruter 100 policiers municipaux (objectif 150 formés et armés)",
+                "Protection policière 24h/24, 7j/7",
+                "Recruter 15-20 policiers municipaux dès les premiers mois",
+                "Modifier le système d'indemnisation pour aligner les salaires de la police municipale"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
             },
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Recruter 30 policiers municipaux immédiatement, puis 10 par an",
+                "Présence renforcée 7j/7 sur le terrain",
+                "Structurer la prévention et renforcer les partenariats avec l'État",
+                "Cellule anti-narcotrafic locale",
+                "Élargir le pilotage territorial via CLSPD et CMSPD Métropolitain",
+                "Publier annuellement un plan d'action chiffré et évalué"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -124,21 +136,27 @@
               ]
             },
             "bony": {
-              "source": "France Bleu Auvergne, février 2026",
-              "sourceUrl": "https://bony2026.fr/",
               "mesures": [
-                "Centre de supervision urbain avec vidéoprotection complète."
-              ]
+                "Espace public entièrement vidéoprotégé",
+                "Installation de bornes d'appel d'urgence dans les secteurs sensibles"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": {
-              "source": "RCF Puy de Dôme, 05/12/2025",
-              "sourceUrl": "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a",
               "mesures": [
-                "Renforcement de la vidéosurveillance.",
-                "Déploiement de la vidéoprotection."
-              ]
+                "Doubler les moyens de vidéoprotection"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
             },
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Opposition à la vidéosurveillance"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
             "cartailler": null
           }
@@ -157,17 +175,38 @@
               ]
             },
             "bony": {
-              "source": "France 3 Auvergne-Rhône-Alpes, 11/01/2026",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-la-ville-est-prete-pour-l-alternance-promet-julien-bony-candidat-de-la-droite-et-du-centre-3244909.html",
               "mesures": [
-                "Expulsion des logements sociaux des auteurs de troubles.",
-                "Rallumage de l’éclairage public la nuit pour renforcer la sécurité."
-              ]
+                "Expulsion des logements sociaux des auteurs de troubles graves à l'ordre public et en lien avec le narcotrafic",
+                "Sécurisation des abords des établissements scolaires et des crèches",
+                "Mise en place d'un système d'alerte anti-intrusion dans toutes les écoles",
+                "Lutter contre les cambriolages : mise en œuvre d'opérations Tranquillité Vacances",
+                "Saisie systématique puis destruction des véhicules débridés utilisés lors de rodéos urbains",
+                "En cas d'urgence, couvre-feu pour les mineurs de moins de 16 ans non accompagnés",
+                "Fermeture des épiceries à 22h par arrêté municipal",
+                "Rallumage de l'éclairage public partout et toute la nuit",
+                "Mise en place d'heures de Travaux d'Intérêt Général pour responsabiliser. Celui qui dégrade, paie ou répare"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
-            "darbois": null,
+            "darbois": {
+              "mesures": [
+                "Rétablir l'éclairage nocturne"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
+            },
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Cellule de protection animale",
+                "Plan stérilisation chats",
+                "Autoriser animaux dans transports en commun"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -175,7 +214,14 @@
           "nom": "Violences faites aux femmes",
           "propositions": {
             "bianchi": null,
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Élargissement de l'arrêt à la demande après 20h pour les femmes dans les transports",
+                "Déploiement du dispositif « Angela », favorisant la protection des femmes"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
             "maximi": null,
             "savre": null,
@@ -194,17 +240,32 @@
           "propositions": {
             "bianchi": null,
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, janvier 2026",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Maîtriser les dépenses publiques en matière de transports en commun.",
-                "Approche réaliste de la gratuité : maintien des tarifs actuels sans extension de la gratuité à tous les jours de la semaine, en préservant les ressources financières essentielles pour l'amélioration du service de transport."
-              ]
+                "Lancement d'une étude pour remplacer le tramway et améliorer la ligne A à l'horizon 2035",
+                "Favoriser l'intermodalité en déplaçant la gare routière",
+                "Renforcement du dispositif BEN bus de nuit pour les étudiants"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Harmoniser les niveaux de service et amplitudes horaires",
+                "Intégrer au PLUi le principe \"habitat/travail/loisirs à moins de 20 minutes\"",
+                "Limiter les ruptures de correspondance"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Transport nocturne à la demande"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -220,7 +281,15 @@
                 "Accès à des vélos reconditionnés, renforcement des stationnements vélos (arceaux, vélo-box) et location longue durée de vélos électriques."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Augmentation du nombre de vélos en libre-service à assistance électrique",
+                "Aide municipale pour l'achat de vélos à assistance électrique",
+                "Accélération de la construction de garages sécurisés pour les vélos"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
             "maximi": null,
             "savre": null,
@@ -240,24 +309,35 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Améliorer significativement la mobilité pour tous les usagers sans les opposer.",
-                "Fin de la Zone à Trafic Limité (ZTL) pour fluidifier la circulation : « Assouplir pour fluidifier »."
-              ]
+                "Assouplissement du plan de circulation pour améliorer la fluidité",
+                "Suppression de la zone à trafic limité",
+                "Réouverture des grands axes précédemment fermés (Carnot, Bergougnan, Libération, Mitterrand, Oradou)",
+                "Rénovation des trottoirs, des parcours piétons et du mobilier urbain"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": {
-              "source": "Déclaration de campagne rapportée par La Montagne, 11/12/2025",
-              "sourceUrl": "#",
               "mesures": [
-                "Assouplir les règles de la ZTL (Zone à Trafic Limité)",
-                "Corriger les excès du projet InspiRe en matière de déplacements."
-              ]
+                "Corriger les erreurs du projet InspiRe en révisant le plan de circulation",
+                "Adapter les règles de la ZTL"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
             },
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Révision du plan de mobilité par consultations citoyennes",
+                "Autoriser les professionnels de santé à circuler partout",
+                "Droit à la mobilité garanti pour artisans et soignants",
+                "\"Cockpit public des mobilités\""
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -271,11 +351,29 @@
                 "Gratuité du stationnement pour les professionnels de santé en déplacement à domicile."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Facilités de circulation et de stationnement pour les professionnels de santé",
+                "30 premières minutes de stationnement gratuites",
+                "Modernisation générale du parc des horodateurs",
+                "Retour du forfait jour pour la tarification du stationnement résidentiel",
+                "Création de parkings aériens végétalisés (Salins, Montferrand)",
+                "Signalétique dynamique des parkings, rues commerçantes et sites culturels/touristiques"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Stationnement gratuit pour véhicules hybrides/électriques",
+                "Réduire de 20% le temps de recherche de stationnement"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -290,14 +388,22 @@
                 "Maintien de la gratuité des transports pour toutes et tous les week-ends."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Tarification famille des transports en commun (dégressif suivant nombre d'enfants)",
+                "Mise en place d'un Pass-Sénior de -50% pour les +65 ans",
+                "Mise en place d'un pass métropolitain pour les jeunes"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
             "maximi": {
-              "source": "Déclaration de campagne (réunion publique, 15/11/2025)",
-              "sourceUrl": "#",
               "mesures": [
-                "Gratuité totale des transports en commun, au-delà de la seule gratuité du week-end."
-              ]
+                "Gratuité complète des transports en commun pour tous"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
             },
             "savre": null,
             "cartailler": null
@@ -321,7 +427,13 @@
                 "Développement sobre, préservant les espaces naturels et agricoles en réhabilitant en priorité les friches."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Mise en place d'un dispositif d'aide au logement contre engagement citoyen pour étudiants"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": {
               "source": "RCF Puy de Dôme, 05/12/2025",
               "sourceUrl": "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a",
@@ -330,13 +442,13 @@
               ]
             },
             "maximi": {
-              "source": "France 3 Auvergne, février 2026 | Déclaration de campagne (réunion publique, 15/11/2025)",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/",
               "mesures": [
-                "Développement du logement social.",
-                "Fin des politiques de démolition de logements.",
-                "Cesser les politiques de casse du logement social telle que la métropole l'a mise en place depuis plusieurs années avec l'ANRU."
-              ]
+                "Construire des logements sociaux à bas loyer",
+                "Mettre fin au clientélisme dans les attributions de logements sociaux",
+                "Développer les pensions de famille"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
             },
             "savre": null,
             "cartailler": null
@@ -353,11 +465,23 @@
                 "Lutte contre la vacance et encadrement des meublés touristiques."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Réserve foncière pour entreprises et logement accessible"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Remettre en location 6 000 logements vacants (objectif 15-20 ans)"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -367,7 +491,14 @@
             "bianchi": null,
             "bony": null,
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Encadrer les loyers sur l'ensemble de la ville",
+                "Lutter contre les abus d'Airbnb"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
             "cartailler": null
           }
@@ -384,7 +515,13 @@
                 "Facilitation de l’accès au logement des jeunes, en lien avec l’Agence immobilière à vocation sociale."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Lutter contre l'habitat indigne avec la création d'une charte municipale dédiée"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": {
               "source": "Déclaration de campagne rapportée par La Montagne, 11/12/2025",
               "sourceUrl": "#",
@@ -392,9 +529,21 @@
                 "Préférence nationale pour l’accès au logement : « Il faut que les nationaux qui cotisent aient la priorité »."
               ]
             },
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Plan \"zéro enfants à la rue\" par réquisition de bâtiments vides"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Privilégier réhabilitation plutôt que démolition"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         }
       ]
@@ -415,16 +564,23 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Services publics efficaces et de qualité pour les familles, accès aux services petite enfance."
-              ]
+                "Construction de 2 nouvelles crèches",
+                "Ouverture d'une crèche parentale à Montferrand"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": null,
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Créer une Maison de la Parentalité"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -440,9 +596,28 @@
                 "Finalisation de la végétalisation des cours d’école, certaines ouvertes au public en cas de canicule."
               ]
             },
-            "bony": null,
-            "darbois": null,
-            "maximi": null,
+            "bony": {
+              "mesures": [
+                "Garantie de la présence d'un ATSEM par classe",
+                "Mise en œuvre de l'accessibilité totale dans l'ensemble des écoles"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "mesures": [
+                "Assurer la présence d'une ATSEM par classe de maternelle"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
+            },
+            "maximi": {
+              "mesures": [
+                "S'opposer aux fermetures de classe"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
             "cartailler": null
           }
@@ -460,15 +635,21 @@
                 "Fourniture d’un goûter sain et équilibré aux écoliers après la classe sans coût supplémentaire pour les familles."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Mise en place de petits-déjeuners de produits locaux dans les écoles"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
             "maximi": {
-              "source": "France 3 Auvergne-Rhône-Alpes, 15/11/2025",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html",
               "mesures": [
-                "Gratuité totale des cantines scolaires pour tous les élèves.",
-                "Cantines bio et gratuites dans toutes les écoles municipales."
-              ]
+                "Gratuité des cantines scolaires pour tous les élèves",
+                "Fournir un kit de rentrée à chaque élève"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
             },
             "savre": null,
             "cartailler": null
@@ -485,9 +666,22 @@
                 "Augmentation du nombre de places en centres de loisirs pour mieux répondre aux besoins des familles."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Mise en place d'un service municipal de soutien scolaire",
+                "Création d'un « Carrefour des Parents » pour accompagner la parentalité"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Davantage d'accompagnement dans les accueils périscolaires"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
             "cartailler": null
           }
@@ -503,7 +697,16 @@
                 "Création d’un guichet jeunes pour informer en matière de droits sociaux, santé mentale, emploi et prévention."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Développement de chantiers éducatifs à destination des jeunes et renforcement de l'École de la deuxième chance",
+                "Mise en place de bourses au mérite pour les jeunes",
+                "Aides financières pour l'obtention du permis de conduire pour les jeunes de moins de 26 ans",
+                "Ouverture d'un centre d'accueil en gare pour étudiants internationaux"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
             "maximi": null,
             "savre": null,
@@ -529,16 +732,28 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Moins de béton et plus de vert, mieux entretenir nos espaces publics et en garantir la propreté."
-              ]
+                "Plantation de 10 000 arbres",
+                "Végétalisation des grandes places publiques (Jaude)",
+                "Mise en valeur de la Tiretaine dans les projets urbains"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": null,
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Supprimer les îlots de chaleur urbains",
+                "Re-végétaliser globalement la ville",
+                "Haies urbaines mellifères",
+                "Jardin permanent Place de Jaude",
+                "Transformer les friches en jardins maraîchers"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -546,11 +761,31 @@
           "nom": "Propreté & Déchets",
           "propositions": {
             "bianchi": null,
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Amélioration de la propreté, de la sécurité et de l'accessibilité du centre-ville"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Sortir de la dépendance des multinationales des déchets",
+                "Moratoire sur l'augmentation du tonnage de l'incinérateur"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Retirer les équipements plastiques en urgence",
+                "Filière de compostage + \"quartiers éponges\""
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -567,14 +802,30 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Préférer une politique pragmatique et inclusive à la promotion d'une écologie punitive."
-              ]
+                "Aides financières aux particuliers pour récupérateurs d'eau",
+                "Conversion intégrale de l'éclairage public en LED"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
-            "darbois": null,
-            "maximi": null,
+            "darbois": {
+              "mesures": [
+                "Poursuivre les plans de transition écologique en cours"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
+            },
+            "maximi": {
+              "mesures": [
+                "Gratuité des premiers mètres cube d'eau",
+                "Installer des récupérateurs d'eaux pluviales",
+                "Favoriser l'installation de fontaines à eau potable publiques",
+                "Mettre en place une régie publique de l'énergie"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
             "cartailler": null
           }
@@ -593,9 +844,22 @@
                 "Soutien aux propriétaires privés via une centrale d’achats groupés pour la rénovation énergétique."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Rénovation thermique des bâtiments publics",
+                "Panneaux photovoltaïques sur bâtiments municipaux"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Développer un parc photovoltaïque sur bâtiments municipaux"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
             "cartailler": null
           }
@@ -639,27 +903,30 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Mener des politiques de santé ambitieuses et favoriser les infrastructures qui permettent d'améliorer la prise en charge médicale.",
-                "Engagement contre les déserts médicaux et pour l'accès aux soins."
-              ]
+                "Soutien aux maisons de santé pluridisciplinaires",
+                "Création de box de téléconsultation dans les maisons de quartier et centres sociaux",
+                "Déploiement d'un service mobile associant soins et accès aux droits dans les quartiers prioritaires"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": {
-              "source": "RCF Puy de Dôme, 05/12/2025 | Déclaration de campagne rapportée par La Montagne, 11/12/2025",
-              "sourceUrl": "https://www.rcf.fr/articles/actualite/le-rassemblement-national-presente-son-candidat-aux-municipales-a",
               "mesures": [
-                "Lutte contre les déserts médicaux et amélioration de l’accès aux soins.",
-                "Préférence nationale pour l’accès aux soins médicaux."
-              ]
+                "Créer trois nouvelles maisons de santé"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
             },
             "maximi": {
-              "source": "France 3 Auvergne-Rhône-Alpes, 15/11/2025",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html",
               "mesures": [
-                "Développement de centres de santé municipaux."
-              ]
+                "Développer les centres de santé pluridisciplinaires",
+                "S'opposer aux fermetures de services au CHU",
+                "Instaurer une mutuelle municipale",
+                "Créer un centre de santé municipale spécialisé en santé mentale"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
             },
             "savre": null,
             "cartailler": null
@@ -678,7 +945,14 @@
             },
             "bony": null,
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Prise en charge spécifique des problématiques féminines",
+                "Campagnes de prévention (IST, VIH, consentement)"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
             "cartailler": null
           }
@@ -696,14 +970,19 @@
                 "Création d’un Conseil des aînés, espace d’expression, de dialogue et de propositions pour les seniors."
               ]
             },
-            "bony": null,
-            "darbois": {
-              "source": "France Bleu Auvergne, février 2026",
-              "sourceUrl": "https://www.francebleu.fr/",
+            "bony": {
               "mesures": [
-                "Attention aux EHPAD.",
-                "Amélioration de l’accès aux soins pour les seniors."
-              ]
+                "Création d'une \"Maison des Aidants\" permettant aux proches de bénéficier de temps de répit"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "mesures": [
+                "Créer des places supplémentaires en EHPAD"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
             },
             "maximi": null,
             "savre": null,
@@ -729,16 +1008,22 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Mise en place de consultations populaires, pas de décisions imposées d'en haut."
-              ]
+                "Création d'une assemblée citoyenne tirée au sort"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": null,
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Conventions citoyennes et conseils d'arrondissements"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -753,11 +1038,18 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Réduction du train de vie de la municipalité, chasse aux gaspillages et transparence dans les attributions de marchés. « Tourner le dos aux grands projets et revenir à l'essentiel » en matière d'urbanisme et de budget."
-              ]
+                "Transparence dans le système d'attribution des subventions municipales",
+                "Transparence municipale avec la publication des frais de mandat",
+                "Fin du cumul des fonctions de maire et de président de la métropole",
+                "Réduction du nombre d'adjoints au maire et baisse des indemnités allouées aux élus",
+                "Réduction du train de vie de la municipalité",
+                "Limitation stricte à deux mandats non-électifs rémunérés",
+                "Bulletin municipal digital envoyé par mail",
+                "Réduction du train de vie municipal / gains d'efficience (doublons ville-métropole)"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": {
               "source": "RCF Puy de Dôme, 05/12/2025",
@@ -768,7 +1060,17 @@
             },
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Simplifier la gouvernance",
+                "Supprimer le SMTC",
+                "Éliminer indemnisations des élus au SMTC",
+                "Prévoir remplacement du tramway sur pneus",
+                "Pilotage direct des mobilités par la Métropole"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -784,9 +1086,22 @@
                 "Création d’un Conseil de la nuit et renforcement de la charte de la vie nocturne."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Création d'une maison des associations",
+                "Création d'une réserve communale (bénévolat, soutien scolaire, agents aidant les enfants)"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Soutenir les associations via subventions pluriannuelles"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
             "cartailler": null
           }
@@ -803,10 +1118,24 @@
               ]
             },
             "bony": null,
-            "darbois": null,
+            "darbois": {
+              "mesures": [
+                "Plan pour réduire les accidents du travail parmi les agents municipaux"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
+            },
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Hébergement numérique en France",
+                "Reconnaissance du travail des agents municipaux",
+                "Audit qualité de vie au travail des agents"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         }
       ]
@@ -829,18 +1158,37 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr | France 3 Auvergne-Rhône-Alpes, 11/01/2026",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Recréer un environnement économique propice à de nouvelles installations avec une vigilance particulière pour le commerce de centre-ville.",
-                "Création d'un office municipal du commerce avec moyens propres et moyens juridiques pour fédérer et servir de moteur au commerce clermontois.",
-                "Création d'une application dédiée aux commerces de Clermont-Ferrand."
-              ]
+                "Création d'un Office municipal du commerce et de l'artisanat",
+                "Utilisation renforcée du droit de préemption pour réduire la vacance commerciale",
+                "Mise en place de boutiques test pour accompagner les jeunes entreprises et l'artisanat",
+                "Rénovation des marchés Saint-Joseph et Saint-Pierre",
+                "Programmation régulière d'animations et d'événements dans les rues commerçantes"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Défense du commerce local"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Étendre la monnaie locale \"La DOUME\"",
+                "Créer un Observatoire du commerce",
+                "Préemption stratégique pour locaux vacants",
+                "Boutiques à l'essai",
+                "Festival commerçant Place de la Rodade",
+                "Tester Tram-Fret et Bus-Fret pour livraisons"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -856,17 +1204,38 @@
                 "Soutien aux filières locales de réemploi et de matériaux biosourcés avec un fonds métropolitain dédié."
               ]
             },
-            "bony": null,
-            "darbois": null,
-            "maximi": {
-              "source": "France 3 Auvergne-Rhône-Alpes, 15/11/2025",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html",
+            "bony": {
               "mesures": [
-                "Réorienter les financements publics vers les TPE et PME en difficulté plutôt que vers les grandes entreprises."
-              ]
+                "Faciliter l'accès des entreprises locales aux marchés publics",
+                "Conférence économique métropolitaine"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "mesures": [
+                "Développer des technopoles sur les technologies nouvelles"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
+            },
+            "maximi": {
+              "mesures": [
+                "Priorité à l'emploi territorial"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
             },
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Créer un Forum Économique Métropolitain",
+                "Conciergerie Économique Métropolitaine (guichet unique)",
+                "Commande publique locale avec clauses RSE obligatoires"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -881,11 +1250,13 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Politique de relance de l'attractivité, toujours aux côtés des commerces, entreprises et établissements universitaires."
-              ]
+                "Marque territoriale + rattachement bureau des congrès",
+                "Développement d'un parcours touristique reliant centre-ville et Montferrand",
+                "Installation de l'antenne Office du tourisme du musée Quillot à la Maison de l'Apothicaire"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": {
               "source": "Déclaration de campagne rapportée par La Montagne, 11/12/2025",
@@ -896,7 +1267,16 @@
             },
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Valoriser les atouts de capitale du Massif central",
+                "Stratégie de développement et attractivité",
+                "Logique \"ville en centre commercial ouvert\"",
+                "Valoriser image, animation et activité touristique"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         }
       ]
@@ -917,17 +1297,36 @@
                 "Ouverture de la Cité du court et rénovation du Lieu-dit."
               ]
             },
-            "bony": null,
-            "darbois": {
-              "source": "Déclaration de campagne rapportée par La Montagne, 11/12/2025",
-              "sourceUrl": "#",
+            "bony": {
               "mesures": [
-                "Création d’un musée autour du génie de Blaise Pascal pour faire rayonner la ville."
-              ]
+                "Création d'un musée consacré à Blaise Pascal",
+                "Reconversion de l'ancienne prison en Maison des Illustres",
+                "Mise en valeur du patrimoine religieux",
+                "Dynamisation des trois musées par des expositions nationales",
+                "Création d'un centre d'interprétation de l'art médiéval à Montferrand",
+                "Relance et dynamisation de la Halle aux toiles"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "mesures": [
+                "Créer un musée Blaise Pascal"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
             },
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Transformer le Jardin Botanique en musée à ciel ouvert",
+                "Ouvrir les médiathèques le dimanche",
+                "Redonner liberté de communication aux musées"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -944,16 +1343,33 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Valorisation de l'identité territoriale et du patrimoine pour attirer des commerces et talents."
-              ]
+                "Création d'une biennale internationale de la sculpture",
+                "Organisation d'un festival de street art",
+                "Programmation municipale d'une saison théâtrale à prix accessibles"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
-            "darbois": null,
+            "darbois": {
+              "mesures": [
+                "Organiser un festival traditionnel auvergnat en centre-ville"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
+            },
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Ouvrir les colonnes Morris pour spectacles vivants",
+                "Espaces publicitaires réservés aux artistes locaux",
+                "Partenariat avec Bourges, Capitale Européenne de la Culture",
+                "Positionner Clermont comme \"ville de la pop culture\""
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         }
       ]
@@ -975,11 +1391,24 @@
                 "Rénovation de la patinoire Papadakis-Cizeron."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Rénovation et modernisation des équipements sportifs de quartier",
+                "Abandon des phases 3 et 4 du projet d'extension du grand stade"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Arrêter l'extension du Grand Stade"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -995,11 +1424,25 @@
                 "Grand village de loisirs gratuit et accessible pour l’été, ouvert à toutes et tous."
               ]
             },
-            "bony": null,
+            "bony": {
+              "mesures": [
+                "Création de parcours de santé accessibles dans toute la ville",
+                "Organisation d'une grande fête populaire du sport",
+                "Création d'un marathon métropolitain"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
             "darbois": null,
             "maximi": null,
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Organiser Marathon et Championnat EHPAD"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         }
       ]
@@ -1021,18 +1464,20 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Moderniser nos espaces publics qui souffrent d'une forme d'abandon, de la propreté à l'accessibilité."
-              ]
+                "Redéfinition du projet de rénovation de la place Delille",
+                "Rénovation de la rue et de la place de la Rodade à Montferrand"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": {
-              "source": "France Bleu Pays d’Auvergne, 10/09/2024",
-              "sourceUrl": "https://www.francebleu.fr/infos/politique/arnaud-dabois-candidat-rn-a-la-mairie-de-clermont-ferrand-je-veux-desovietiser-la-ville-9456202",
               "mesures": [
-                "Renommer l’Avenue de l’Union Soviétique : « désoviétiser Clermont »."
-              ]
+                "Interpréter le PLU de manière moins bureaucratique",
+                "Reconversion des friches industrielles"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
             },
             "maximi": null,
             "savre": null,
@@ -1051,16 +1496,38 @@
               ]
             },
             "bony": {
-              "source": "Lettre aux Clermontois, bony2026.fr",
-              "sourceUrl": "https://bony2026.fr",
               "mesures": [
-                "Améliorer le quotidien des personnes à mobilité réduite grâce à des aménagements parfaitement adaptés."
-              ]
+                "Développement des bandes podotactiles et feux sonores pour les personnes malvoyantes",
+                "Amélioration de l'accessibilité de l'espace public pour les personnes à mobilité réduite",
+                "Installation de toilettes sur l'espace public accessibles aux PMR"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
             },
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Développer les toilettes publiques accessibles",
+                "Acquérir des fauteuils handisport dans écoles et équipements sportifs"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
-            "cartailler": null
+            "cartailler": {
+              "mesures": [
+                "Conseil municipal de l'accessibilité universelle",
+                "Audit complet de voirie avec usagers en fauteuil",
+                "Plan priorisé de mise en accessibilité",
+                "Activités périscolaires inclusives renforcées",
+                "Label \"Commerce accueillant\"",
+                "Événements et équipements sportifs accessibles",
+                "Site et services numériques 100% accessibles",
+                "Simplifier les démarches et soutenir les aidants"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://lereveilclermontois.fr/programme/"
+            }
           }
         },
         {
@@ -1093,14 +1560,32 @@
           "nom": "Aide sociale",
           "propositions": {
             "bianchi": null,
-            "bony": null,
-            "darbois": null,
-            "maximi": {
-              "source": "France 3 Auvergne-Rhône-Alpes, 15/11/2025",
-              "sourceUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/municipales-2026-a-clermont-ferrand-marianne-maximi-candidate-pour-lfi-promet-un-programme-de-rupture-3249922.html",
+            "bony": {
               "mesures": [
-                "Plan « zéro enfant à la rue » : une trentaine d'enfants dorment dans la rue depuis septembre à Clermont-Ferrand."
-              ]
+                "Mise en place d'un Conseil des droits et devoirs des familles, conditionnalité des aides municipales",
+                "Accompagnement des mamans isolées",
+                "Mise en œuvre du plan de redressement du CCAS",
+                "Mise en place d'un guichet unique de l'urgence sociale"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "mesures": [
+                "Restaurer une gestion saine du CCAS"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
+            },
+            "maximi": {
+              "mesures": [
+                "Carte municipale \"famille monoparentale\"",
+                "Accès prioritaire aux crèches pour mères isolées",
+                "Accès prioritaire au logement social et centres de santé",
+                "Créer un service public funéraire"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
             },
             "savre": null,
             "cartailler": null
@@ -1113,7 +1598,14 @@
             "bianchi": null,
             "bony": null,
             "darbois": null,
-            "maximi": null,
+            "maximi": {
+              "mesures": [
+                "Créer un service public local d'accompagnement des résidents étrangers",
+                "Jumeler Clermont-Ferrand avec une ville palestinienne"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://mariannemaximi2026.fr/le-programme/"
+            },
             "savre": null,
             "cartailler": null
           }
@@ -1123,8 +1615,23 @@
           "nom": "Pouvoir d’achat",
           "propositions": {
             "bianchi": null,
-            "bony": null,
-            "darbois": null,
+            "bony": {
+              "mesures": [
+                "Aucune hausse des taux municipaux de taxe foncière",
+                "Maîtrise de la fiscalité locale pour préserver le pouvoir d'achat des habitants"
+              ],
+              "source": "Programme officiel",
+              "sourceUrl": "https://bony2026.fr"
+            },
+            "darbois": {
+              "mesures": [
+                "Ne pas augmenter les dépenses de fonctionnement",
+                "Ne pas augmenter les taux d'impôts locaux",
+                "Résorber le surendettement"
+              ],
+              "source": "Radio RVA",
+              "sourceUrl": "https://www.radiorva.com/news/locales/23183/municipales-a-clermont-ferrand-les-propositions-d-antoine-darbois-candidat-remettre-clermont-en-ordre"
+            },
             "maximi": null,
             "savre": null,
             "cartailler": null

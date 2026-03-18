@@ -8,11 +8,12 @@
       "id": "denis",
       "nom": "Emmanuel Denis",
       "liste": "Tours Inspire 2026 (EELV/PS/PCF)",
-      "programmeUrl": "#",
-      "programmeComplet": false,
+      "programmeUrl": "https://toursinspire2026.fr",
+      "programmeComplet": true,
       "programmePdfPath": null,
       "nuanceOfficielle": "LUG",
-      "nuanceLibelle": "Liste d'union à gauche"
+      "nuanceLibelle": "Liste d'union à gauche",
+      "siteCampagne": "https://toursinspire2026.fr"
     },
     {
       "id": "quinton",
@@ -174,7 +175,14 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Rues apaisées, végétalisées, plus accueillantes avec ombre et bancs",
+                "Recul de l'accidentologie routière"
+              ]
+            },
             "quinton": null,
             "alfandari": {
               "source": "Programme officiel 2026 — Henri Alfandari",
@@ -223,10 +231,12 @@
           "nom": "Transports en commun",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Mener à bien la 2e ligne de tramway et accélérer le RER métropolitain pour les trajets quotidiens."
+                "Création des lignes 2 et 2bis du tramway",
+                "Service express régional métropolitain (SERM) avec gare place Verdun",
+                "Nouvelles offres de bus"
               ]
             },
             "quinton": null,
@@ -268,7 +278,13 @@
           "id": "velo-mobilites-douces",
           "nom": "Vélo & Mobilités douces",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Poursuite du réseau cyclable Vélival"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -302,10 +318,12 @@
           "nom": "Piétons & Circulation",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Plan piéton pour la marchabilité, pensé pour les enfants, les seniors et les personnes handicapées, hiérarchiser les rues et clarifier la signalétique pour faciliter la circulation de tous les usagers."
+                "Extension de la zone piétonne du Vieux-Tours",
+                "Aménager des rues plus fraîches et plus sûres pour toutes les générations",
+                "Apaisement piéton des cœurs de quartier"
               ]
             },
             "quinton": null,
@@ -341,7 +359,13 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Baisse des tarifs des parkings souterrains"
+              ]
+            },
             "quinton": null,
             "alfandari": {
               "source": "Programme officiel 2026 — Henri Alfandari",
@@ -369,10 +393,11 @@
           "nom": "Tarifs & Gratuité",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Gratuité progressive des transports le samedi pour soutenir le commerce et tester le réseau."
+                "Gratuité des transports tous les samedis (maintien)",
+                "Gratuité des transports jusqu'à 11 ans (maintien)"
               ]
             },
             "quinton": {
@@ -407,10 +432,10 @@
           "nom": "Logement social",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Maintien de l'effort de construction de logements sociaux malgré la crise du secteur."
+                "Urbanisation des Casernes (dont logements sociaux)"
               ]
             },
             "quinton": {
@@ -533,7 +558,13 @@
           "id": "petite-enfance",
           "nom": "Petite enfance",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Prioriser l'accès aux crèches pour familles monoparentales"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -560,10 +591,10 @@
           "nom": "Écoles & Rénovation",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "12 projets de rénovation thermique et technique scolaires en cours pour des écoles plus sobres en énergie."
+                "Rénovation et reconstruction des écoles Kléber, Curie, Rimbaud, Bastié, Mermoz, Vigny-Musset, Maupassant-Montjoyeux, Daudet, Mistral, Hugo et Flaubert"
               ]
             },
             "quinton": null,
@@ -594,7 +625,13 @@
           "id": "cantines-fournitures",
           "nom": "Cantines & Fournitures",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Restauration scolaire bio et de qualité via la nouvelle cuisine centrale"
+              ]
+            },
             "quinton": {
               "source": "LFI, 2026",
               "sourceUrl": "https://programme.lafranceinsoumise.fr/municipales-2026/",
@@ -620,7 +657,14 @@
           "id": "periscolaire-loisirs",
           "nom": "Périscolaire & Loisirs",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Éducation artistique et culturelle dans les écoles",
+                "Penser la ville à hauteur d'enfants"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -689,10 +733,15 @@
           "nom": "Espaces verts & Biodiversité",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Plantation de 40 000 arbres supplémentaires et création de nouveaux parcs et jardins, faire du fleuve un parc naturel métropolitain et créer une École de la Loire pour rassembler les initiatives autour de la faune, de la flore et de la culture du risque."
+                "Planter massivement des arbres (suite des 50 000 arbres depuis 2020)",
+                "10 places végétalisées et apaisées",
+                "Création d'un nouveau parc à Tours Nord et Saint-Éloi, vallon de Chatenay",
+                "Embellissement de la place Velpeau, placettes du quartier Colbert",
+                "Parc naturel métropolitain ligérien autour de la Loire et du Cher",
+                "Aires de baignade, extension de Tours sur Loire sur l'île Balzac"
               ]
             },
             "quinton": null,
@@ -725,7 +774,14 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Gestion publique de l'eau",
+                "Plans de sobriété énergétique et d'économie d'eau"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -754,7 +810,14 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Amélioration durable de la qualité de l'air",
+                "Lutte contre les perturbateurs endocriniens"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -781,10 +844,10 @@
           "nom": "Rénovation énergétique",
           "propositions": {
             "denis": {
-              "source": "Info Tours, 2025",
-              "sourceUrl": "https://info-tours.fr/tours/2025/12/12/municipales-2026-le-maire-de-tours-emmanuel-denis-officiellement-candidat-a-sa-succession/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Accélérer l'énergie solaire et la réhabilitation thermique des écoles, crèches et équipements publics."
+                "Investir dans les énergies propres et durables"
               ]
             },
             "quinton": null,
@@ -812,7 +875,13 @@
           "id": "alimentation-durable",
           "nom": "Alimentation durable",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Ferme urbaine municipale au nord de la Cousinerie pour la cuisine centrale"
+              ]
+            },
             "quinton": null,
             "bouchet": null,
             "alfandari": {
@@ -839,10 +908,11 @@
           "nom": "Centres de santé",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Création de nouveaux centres de santé municipaux pour compenser 40% de départs de médecins prévus."
+                "Développer des quartiers en santé pour réduire les inégalités d'accès aux soins",
+                "Centres et maisons de santé dans les quartiers"
               ]
             },
             "quinton": null,
@@ -872,7 +942,13 @@
           "id": "prevention-sante",
           "nom": "Prévention santé",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Prévention des cancers"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -891,7 +967,15 @@
           "id": "seniors",
           "nom": "Seniors",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Renforcer le maintien à domicile des aînés",
+                "Soutien concret aux aidants",
+                "Mobilités adaptées et espaces publics plus accessibles pour les aînés"
+              ]
+            },
             "quinton": null,
             "bouchet": null,
             "alfandari": null,
@@ -912,10 +996,11 @@
           "nom": "Budget participatif",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Doublement de l'enveloppe du budget participatif jusqu'à 1 million d'euros par an."
+                "Démocratie active associant réellement les habitants aux décisions",
+                "Reconnaissance de l'expertise citoyenne"
               ]
             },
             "quinton": null,
@@ -939,10 +1024,12 @@
           "nom": "Transparence",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Mise en place du Référendum d'Initiative Citoyenne pour permettre aux Tourangeaux de peser sur les grands projets et amélioration de l'accessibilité des chiffres budgétaires et des évaluations pour les habitants."
+                "Débat, transparence et partage du pouvoir d'agir",
+                "Tours ville refuge pour le pluralisme",
+                "Laïcité garantissant liberté de conscience et égalité"
               ]
             },
             "quinton": null,
@@ -1035,7 +1122,16 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Préserver et renforcer les commerces de proximité avec les foncières commerce",
+                "Créer un office du commerce (animations, aide vitrines, soutien associations commerçants, enseignes éthiques)",
+                "Relier et renforcer le centre-ville commerçant (Saint-Gatien, les Halles, haut de la Tranchée)",
+                "Améliorer l'identité commerçante des quartiers hors centre"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -1068,10 +1164,11 @@
           "nom": "Emploi & Insertion",
           "propositions": {
             "denis": {
-              "source": "France Bleu Touraine, 2026",
-              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-touraine/emmanuel-denis-officiellement-candidat-a-un-second-mandat-la-ville-a-change-9855228",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Nouvelles actions pour l'emploi et accélération des dispositifs d'insertion."
+                "Soutenir les filières locales non délocalisables : santé, alimentation, mobilité décarbonée, réemploi, artisanat",
+                "Développer l'économie circulaire et l'insertion (emplois locaux, ESAT hors les murs)"
               ]
             },
             "quinton": null,
@@ -1105,7 +1202,14 @@
           "id": "attractivite",
           "nom": "Attractivité",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Soutenir l'université : innovation issue de la recherche, programme d'incubation",
+                "Améliorer l'accueil des étudiants et chercheurs étrangers"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -1146,10 +1250,11 @@
           "nom": "Équipements culturels",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Réhabilitation des crèches et équipements culturels et sportifs dans le cadre du plan massif d'investissement métropolitain."
+                "Carré des musées avec centre d'exposition du Château",
+                "Nouvelle Cité des paysages (muséum d'histoire naturelle + Centre d'interprétation architecture/paysage)"
               ]
             },
             "quinton": null,
@@ -1182,7 +1287,15 @@
           "id": "evenements-creation",
           "nom": "Événements & Création",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Résidences annuelles d'artistes dans les quartiers",
+                "Soutenir les pratiques amateurs et associatives (sport et culture)",
+                "Investir l'espace public pour la culture"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -1220,10 +1333,14 @@
           "nom": "Équipements sportifs",
           "propositions": {
             "denis": {
-              "source": "37 degrés mag, 2026",
-              "sourceUrl": "https://www.37degres-mag.fr/politique/objectif-maire-la-grande-interview-demmanuel-denis-candidat-aux-municipales-a-tours/",
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
               "mesures": [
-                "Plan massif d'investissement pour les infrastructures sportives et réflexion sur une future Arena."
+                "Skatepark des Fontaines",
+                "Gymnases de la Rotonde, du Hallebardier, des Deux-Lions et des Casernes",
+                "Piscine des Tourettes",
+                "Aires de fitness de plein air",
+                "Doublement des investissements sportifs"
               ]
             },
             "quinton": null,
@@ -1289,7 +1406,20 @@
           "id": "amenagement-urbain",
           "nom": "Aménagement urbain",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Concours international pour l'îlot Vinci / Blaise-Pascal",
+                "Urbanisation des hauts de la Tranchée et de Sainte-Radegonde",
+                "Carrefour de la Marne",
+                "Construire un modèle de ville sobre",
+                "Programme d'investissements ambitieux (tramway, SERM)",
+                "Maîtriser le foncier urbain pour besoins productifs et souveraineté économique",
+                "Organiser la logistique urbaine et livraison du dernier kilomètre",
+                "Outils numériques publics responsables, souveraineté face aux GAFAM/IA"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",
@@ -1347,7 +1477,13 @@
           "id": "quartiers-prioritaires",
           "nom": "Quartiers prioritaires",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Poursuite du renouvellement urbain du Sanitas"
+              ]
+            },
             "quinton": null,
             "bouchet": null,
             "alfandari": {
@@ -1373,7 +1509,13 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "denis": null,
+            "denis": {
+              "source": "Programme Tours Inspire 2026",
+              "sourceUrl": "https://toursinspire2026.fr",
+              "mesures": [
+                "Créer des lieux de répit et d'entraide pour familles monoparentales"
+              ]
+            },
             "quinton": null,
             "bouchet": {
               "source": "Programme Christophe Bouchet, Tours pour tous, 2026",

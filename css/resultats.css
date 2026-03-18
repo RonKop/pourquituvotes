@@ -205,6 +205,12 @@
   color: var(--couleur-accent);
 }
 
+.resultats-table__nuance {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--couleur-texte-secondaire);
+}
+
 .resultats-table__liste {
   font-size: 0.8rem;
   color: var(--couleur-texte-secondaire);

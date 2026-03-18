@@ -140,7 +140,8 @@
       html += '<div class="' + rowClass + '" role="row">';
       html += '  <div class="resultats-table__rang" role="cell">' + (i + 1) + '</div>';
       html += '  <div class="resultats-table__info" role="cell">';
-      html += '    <div class="resultats-table__nom"><a href="' + candLink + '">' + esc(cand.nom || rc.id) + '</a>' + badges + '</div>';
+      var nuanceTag = cand.nuanceOfficielle ? ' <span class="resultats-table__nuance">(' + esc(cand.nuanceOfficielle) + ')</span>' : '';
+      html += '    <div class="resultats-table__nom"><a href="' + candLink + '">' + esc(cand.nom || rc.id) + '</a>' + nuanceTag + badges + '</div>';
       html += '    <div class="resultats-table__liste">' + esc(cand.liste || '') + '</div>';
       html += '    <div class="resultats-table__bar-wrap"><div class="resultats-table__bar-bg"><div class="resultats-table__bar" style="background:' + color + ';width:0%" data-width="' + barWidth + '%"></div></div></div>';
       html += '  </div>';

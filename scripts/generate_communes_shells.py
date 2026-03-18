@@ -212,7 +212,7 @@ def generate_shell(nom, slug, dept, resultats, candidats, template_head, templat
         table_html += f"""      <div class="resultats-table__row {row_class}">
         <div class="resultats-table__rang">{i+1}</div>
         <div class="resultats-table__info">
-          <div class="resultats-table__nom">{escape(c['nom'])}{badge}</div>
+          <div class="resultats-table__nom">{escape(c['nom'])}{' <span class="resultats-table__nuance">(' + escape(c['nuance']) + ')</span>' if c.get('nuance') else ''}{badge}</div>
           <div class="resultats-table__liste">{escape(c.get('liste', ''))}</div>
           <div class="resultats-table__bar-wrap"><div class="resultats-table__bar-bg"><div class="resultats-table__bar" style="background:var(--bleu);width:{bar_width}%"></div></div></div>
         </div>

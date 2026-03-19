@@ -814,6 +814,10 @@
     var btnEscape = document.getElementById("sim-escape");
     if (btnEscape) {
       btnEscape.addEventListener("click", function () {
+        if (window.PQTV_Analytics) {
+          var allQ = etat.questions.concat(etat.duels);
+          PQTV_Analytics.trackQuizEarlyExit(etat.questionCourante, allQ.length);
+        }
         terminerQuiz();
       });
     }
@@ -822,7 +826,16 @@
   function repondre(valeur) {
     var allQuestions = etat.questions.concat(etat.duels);
     var q = allQuestions[etat.questionCourante];
+    // Tracking : changement de réponse
+    var oldAnswer = etat.reponses[q.sousThemeId];
+    if (oldAnswer !== undefined && oldAnswer !== valeur && window.PQTV_Analytics) {
+      PQTV_Analytics.trackQuizStepChange(etat.questionCourante, oldAnswer, valeur);
+    }
     etat.reponses[q.sousThemeId] = valeur;
+    // Tracking : étape complétée
+    if (window.PQTV_Analytics) {
+      PQTV_Analytics.trackQuizStep(etat.questionCourante, allQuestions.length, q.categorieId, valeur, 0);
+    }
     avancerQuestion();
   }
 
@@ -830,6 +843,9 @@
     var allQuestions = etat.questions.concat(etat.duels);
     var q = allQuestions[etat.questionCourante];
     etat.reponsesDuels[q.sousThemeId] = candidatId;
+    if (window.PQTV_Analytics) {
+      PQTV_Analytics.trackQuizStep(etat.questionCourante, allQuestions.length, q.categorieId, candidatId, 0);
+    }
     avancerQuestion();
   }
 
@@ -902,6 +918,9 @@
     }
 
     document.getElementById("sim-prio-valider").addEventListener("click", function () {
+      if (window.PQTV_Analytics) {
+        PQTV_Analytics.trackQuizPriorities(etat.priorites);
+      }
       lancerDuels();
     });
 
@@ -1016,16 +1035,24 @@
 
     container.innerHTML = html;
 
+    var topC = classement[0];
+    var topNom = topC ? topC.candidat.nom : "";
+    var topPct = topC ? topC.pourcentage : 0;
+
     document.getElementById("sim-share-twitter").addEventListener("click", function () {
+      if (window.PQTV_Analytics) PQTV_Analytics.trackQuizShare("twitter", topNom, topPct);
       partagerTwitter(textePartage);
     });
     document.getElementById("sim-share-facebook").addEventListener("click", function () {
+      if (window.PQTV_Analytics) PQTV_Analytics.trackQuizShare("facebook", topNom, topPct);
       partagerFacebook();
     });
     document.getElementById("sim-share-whatsapp").addEventListener("click", function () {
+      if (window.PQTV_Analytics) PQTV_Analytics.trackQuizShare("whatsapp", topNom, topPct);
       partagerWhatsApp(textePartage);
     });
     document.getElementById("sim-share-copy").addEventListener("click", function () {
+      if (window.PQTV_Analytics) PQTV_Analytics.trackQuizShare("copy_link", topNom, topPct);
       copierLien(this);
     });
     document.getElementById("sim-refaire").addEventListener("click", function () {

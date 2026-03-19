@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026031601';
+  var DATA_VERSION = '2026031901';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -1150,10 +1150,20 @@
         if (evictedC) afficherToast(evictedC.nom + " remplacé(e) (max " + FOCUS_MAX + ")");
       }
       candidatsSelectionnes.push(candidatId);
+      // Tracking : candidat sélectionné
+      if (window.PQTV_Analytics) {
+        var cAdd = donneesElection.candidats.find(function(c) { return c.id === candidatId; });
+        PQTV_Analytics.trackCandidateFilter("select", cAdd ? cAdd.nom : candidatId, candidatsSelectionnes.length, donneesElection.candidats.length);
+      }
     } else {
       // Empêcher de tout désélectionner
       if (candidatsSelectionnes.length > 1) {
         candidatsSelectionnes.splice(index, 1);
+        // Tracking : candidat désélectionné
+        if (window.PQTV_Analytics) {
+          var cRem = donneesElection.candidats.find(function(c) { return c.id === candidatId; });
+          PQTV_Analytics.trackCandidateFilter("deselect", cRem ? cRem.nom : candidatId, candidatsSelectionnes.length, donneesElection.candidats.length);
+        }
       } else {
         afficherToast("Au moins un candidat doit être sélectionné");
         return;
@@ -1306,6 +1316,13 @@
   }
 
   function copierLien() {
+    if (window.PQTV_Analytics) {
+      PQTV_Analytics.send("social_share", {
+        platform: "copy_link",
+        share_context: "comparator",
+        page_path: location.pathname
+      });
+    }
     mettreAJourURL();
     var url = genererURLAvecUTM("copie_directe");
 
@@ -1341,6 +1358,13 @@
   }
 
   function partagerSurReseau(reseau) {
+    if (window.PQTV_Analytics) {
+      PQTV_Analytics.send("social_share", {
+        platform: reseau,
+        share_context: "comparator",
+        page_path: location.pathname
+      });
+    }
     var url = genererURLAvecUTM(reseau);
     var texte = obtenirTextePartage();
     var urlPartage = "";
@@ -2016,6 +2040,9 @@
         infoBtn.appendChild(infoBulle);
 
         function switchRadarMode(normalise) {
+          if (window.PQTV_Analytics) {
+            PQTV_Analytics.trackViewModeChange(normalise ? "couverture_pct" : "volume_brut");
+          }
           radarModeNormalise = normalise;
           btnCouverture.classList.toggle("radar-mode-toggle__btn--active", normalise);
           btnBrut.classList.toggle("radar-mode-toggle__btn--active", !normalise);
@@ -3392,7 +3419,11 @@
     header.appendChild(toggleSpan);
 
     header.addEventListener("click", function () {
+      var wasOpen = div.classList.contains("categorie--ouverte");
       div.classList.toggle("categorie--ouverte");
+      if (!wasOpen && window.PQTV_Analytics) {
+        PQTV_Analytics.trackCategoryView(categorie.id, categorie.nom);
+      }
     });
 
     div.appendChild(header);
@@ -3665,7 +3696,11 @@
       '<span class="categorie__toggle">\u25BC</span>';
 
     header.addEventListener("click", function () {
+      var wasOpen = div.classList.contains("categorie--ouverte");
       div.classList.toggle("categorie--ouverte");
+      if (!wasOpen && window.PQTV_Analytics) {
+        PQTV_Analytics.trackCategoryView(categorie.id, categorie.nom);
+      }
     });
     div.appendChild(header);
 
@@ -4242,6 +4277,22 @@
       partagerSurReseau("whatsapp");
     } else if (e.target.closest(".btn-reseau--email")) {
       partagerSurReseau("email");
+    }
+  });
+
+  // === Tracking source_verification (event delegation sur liens "Voir le document") ===
+  document.addEventListener("click", function(e) {
+    var link = e.target.closest(".proposition-source a, .proposition__source a, .modal__source a");
+    if (!link || !link.href) return;
+    if (link.href.indexOf("pourquituvotes.fr") > -1 || link.href.indexOf("localhost") > -1) return;
+    var candidatEl = link.closest("[data-candidat-nom]");
+    var categorieEl = link.closest("[data-categorie-id]");
+    if (window.PQTV_Analytics) {
+      PQTV_Analytics.trackSourceClick(
+        candidatEl ? candidatEl.getAttribute("data-candidat-nom") : "",
+        categorieEl ? categorieEl.getAttribute("data-categorie-id") : "",
+        link.href
+      );
     }
   });
 

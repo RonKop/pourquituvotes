@@ -1,69 +1,69 @@
 {
-  "genere_le": "2026-03-14T18:44:27",
+  "genere_le": "2026-03-19T15:11:41",
   "national": {
     "total_villes": 135,
     "total_candidats": 853,
-    "total_mesures": 11954,
+    "total_mesures": 12339,
     "themes_ranking": [
       {
         "id": "environnement",
         "nom": "Environnement & Transition écologique",
-        "total_mesures": 1561
+        "total_mesures": 1605
       },
       {
         "id": "transports",
         "nom": "Transports & Mobilité",
-        "total_mesures": 1294
+        "total_mesures": 1339
       },
       {
         "id": "education",
         "nom": "Éducation & Jeunesse",
-        "total_mesures": 1288
+        "total_mesures": 1314
       },
       {
         "id": "democratie",
         "nom": "Démocratie & Vie citoyenne",
-        "total_mesures": 1251
+        "total_mesures": 1288
       },
       {
         "id": "securite",
         "nom": "Sécurité & Prévention",
-        "total_mesures": 1210
+        "total_mesures": 1249
       },
       {
         "id": "economie",
         "nom": "Économie & Emploi",
-        "total_mesures": 1004
+        "total_mesures": 1051
       },
       {
         "id": "logement",
         "nom": "Logement",
-        "total_mesures": 810
+        "total_mesures": 827
       },
       {
         "id": "sante",
         "nom": "Santé & Accès aux soins",
-        "total_mesures": 799
+        "total_mesures": 820
       },
       {
         "id": "solidarite",
         "nom": "Solidarité & Égalité",
-        "total_mesures": 781
+        "total_mesures": 805
       },
       {
         "id": "urbanisme",
         "nom": "Urbanisme & Cadre de vie",
-        "total_mesures": 753
+        "total_mesures": 788
       },
       {
         "id": "culture",
         "nom": "Culture & Patrimoine",
-        "total_mesures": 735
+        "total_mesures": 765
       },
       {
         "id": "sport",
         "nom": "Sport & Loisirs",
-        "total_mesures": 468
+        "total_mesures": 488
       }
     ],
     "top10_candidats": [
@@ -148,7 +148,7 @@
         "pct_mesures_chiffrees": 5.3
       }
     ],
-    "pct_moyen_chiffre": 16.0
+    "pct_moyen_chiffre": 15.9
   },
   "villes": [
     {
@@ -796,9 +796,9 @@
         "total_mesures": 32
       },
       "theme_plus_clivant": {
-        "id": "securite",
+        "id": "environnement",
         "ecart": 50.0,
-        "nom": "Sécurité & Prévention"
+        "nom": "Environnement & Transition écologique"
       },
       "candidats": [
         {
@@ -1585,9 +1585,9 @@
         "total_mesures": 7
       },
       "theme_plus_clivant": {
-        "id": "democratie",
+        "id": "education",
         "ecart": 16.0,
-        "nom": "Démocratie & Vie citoyenne"
+        "nom": "Éducation & Jeunesse"
       },
       "candidats": [
         {
@@ -1998,9 +1998,9 @@
         "total_mesures": 2
       },
       "theme_plus_clivant": {
-        "id": "logement",
+        "id": "democratie",
         "ecart": 50.0,
-        "nom": "Logement"
+        "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
         {
@@ -4953,9 +4953,9 @@
         "total_mesures": 9
       },
       "theme_plus_clivant": {
-        "id": "logement",
+        "id": "urbanisme",
         "ecart": 100.0,
-        "nom": "Logement"
+        "nom": "Urbanisme & Cadre de vie"
       },
       "candidats": [
         {
@@ -5893,9 +5893,9 @@
         "total_mesures": 13
       },
       "theme_plus_clivant": {
-        "id": "culture",
+        "id": "urbanisme",
         "ecart": 25.0,
-        "nom": "Culture & Patrimoine"
+        "nom": "Urbanisme & Cadre de vie"
       },
       "candidats": [
         {
@@ -6649,22 +6649,22 @@
       "id": "clermont-2026",
       "nom": "Clermont-Ferrand",
       "nb_candidats": 6,
-      "nb_complets": 1,
-      "nb_avec_mesures": 4,
-      "total_mesures": 133,
+      "nb_complets": 5,
+      "nb_avec_mesures": 5,
+      "total_mesures": 415,
       "candidat_plus_detaille": {
         "id": "bianchi",
         "nom": "Olivier Bianchi",
-        "total_mesures": 79
+        "total_mesures": 174
       },
       "theme_plus_couvert": {
         "id": "securite",
         "nom": "Sécurité & Prévention",
-        "total_mesures": 24
+        "total_mesures": 53
       },
       "theme_plus_clivant": {
         "id": "securite",
-        "ecart": 36.8,
+        "ecart": 23.1,
         "nom": "Sécurité & Prévention"
       },
       "candidats": [
@@ -6674,43 +6674,44 @@
           "liste": "Vivre Clermont !",
           "programmeComplet": true,
           "metriques": {
-            "total_mesures": 79,
-            "couverture_sous_themes": 36,
+            "total_mesures": 174,
+            "couverture_sous_themes": 43,
             "couverture_sous_themes_max": 43,
-            "couverture_categories": 11,
+            "couverture_categories": 12,
             "couverture_categories_max": 12,
-            "pct_mesures_chiffrees": 16.5,
+            "pct_mesures_chiffrees": 13.2,
             "pct_mesures_avec_echeance": 0.0,
-            "longueur_moyenne_mesure": 94,
+            "longueur_moyenne_mesure": 74,
             "top3_themes": [
               {
                 "id": "environnement",
                 "nom": "Environnement & Transition écologique",
-                "nb_mesures": 11
+                "nb_mesures": 21
               },
               {
-                "id": "securite",
-                "nom": "Sécurité & Prévention",
-                "nb_mesures": 9
+                "id": "democratie",
+                "nom": "Démocratie & Vie citoyenne",
+                "nb_mesures": 20
               },
               {
-                "id": "education",
-                "nom": "Éducation & Jeunesse",
-                "nb_mesures": 9
+                "id": "economie",
+                "nom": "Économie & Emploi",
+                "nb_mesures": 19
               }
             ],
             "profil_thematique": {
-              "securite": 11.4,
-              "transports": 10.1,
-              "logement": 6.3,
-              "education": 11.4,
-              "environnement": 13.9,
-              "sante": 8.9,
-              "democratie": 8.9,
-              "economie": 8.9,
-              "culture": 6.3,
-              "sport": 7.6,
-              "urbanisme": 6.3
+              "securite": 9.8,
+              "transports": 8.0,
+              "logement": 5.7,
+              "education": 7.5,
+              "environnement": 12.1,
+              "sante": 7.5,
+              "democratie": 11.5,
+              "economie": 10.9,
+              "culture": 8.6,
+              "sport": 7.5,
+              "urbanisme": 8.6,
+              "solidarite": 2.3
             }
           }
         },
@@ -6718,43 +6719,46 @@
           "id": "bony",
           "nom": "Julien Bony",
           "liste": "Union Citoyenne de la Droite et du Centre",
-          "programmeComplet": false,
+          "programmeComplet": true,
           "metriques": {
-            "total_mesures": 26,
-            "couverture_sous_themes": 16,
+            "total_mesures": 111,
+            "couverture_sous_themes": 37,
             "couverture_sous_themes_max": 43,
-            "couverture_categories": 9,
+            "couverture_categories": 12,
             "couverture_categories_max": 12,
-            "pct_mesures_chiffrees": 3.8,
-            "pct_mesures_avec_echeance": 0.0,
-            "longueur_moyenne_mesure": 99,
+            "pct_mesures_chiffrees": 10.8,
+            "pct_mesures_avec_echeance": 0.9,
+            "longueur_moyenne_mesure": 65,
             "top3_themes": [
               {
                 "id": "securite",
                 "nom": "Sécurité & Prévention",
-                "nb_mesures": 8
+                "nb_mesures": 20
               },
               {
                 "id": "transports",
                 "nom": "Transports & Mobilité",
-                "nb_mesures": 4
+                "nb_mesures": 19
               },
               {
-                "id": "economie",
-                "nom": "Économie & Emploi",
-                "nb_mesures": 4
+                "id": "education",
+                "nom": "Éducation & Jeunesse",
+                "nb_mesures": 11
               }
             ],
             "profil_thematique": {
-              "securite": 30.8,
-              "transports": 15.4,
-              "education": 3.8,
-              "environnement": 7.7,
-              "sante": 7.7,
-              "democratie": 7.7,
-              "economie": 15.4,
-              "culture": 3.8,
-              "urbanisme": 7.7
+              "securite": 18.0,
+              "transports": 17.1,
+              "logement": 2.7,
+              "education": 9.9,
+              "environnement": 7.2,
+              "sante": 3.6,
+              "democratie": 9.9,
+              "economie": 9.0,
+              "culture": 8.1,
+              "sport": 4.5,
+              "urbanisme": 4.5,
+              "solidarite": 5.4
             }
           }
         },
@@ -6762,25 +6766,25 @@
           "id": "darbois",
           "nom": "Antoine Darbois",
           "liste": "Rassemblement National",
-          "programmeComplet": false,
+          "programmeComplet": true,
           "metriques": {
-            "total_mesures": 19,
-            "couverture_sous_themes": 11,
+            "total_mesures": 26,
+            "couverture_sous_themes": 19,
             "couverture_sous_themes_max": 43,
-            "couverture_categories": 8,
+            "couverture_categories": 11,
             "couverture_categories_max": 12,
-            "pct_mesures_chiffrees": 10.5,
+            "pct_mesures_chiffrees": 11.5,
             "pct_mesures_avec_echeance": 0.0,
-            "longueur_moyenne_mesure": 66,
+            "longueur_moyenne_mesure": 56,
             "top3_themes": [
               {
                 "id": "securite",
                 "nom": "Sécurité & Prévention",
-                "nb_mesures": 7
+                "nb_mesures": 6
               },
               {
-                "id": "sante",
-                "nom": "Santé & Accès aux soins",
+                "id": "solidarite",
+                "nom": "Solidarité & Égalité",
                 "nb_mesures": 4
               },
               {
@@ -6790,14 +6794,17 @@
               }
             ],
             "profil_thematique": {
-              "securite": 36.8,
-              "transports": 10.5,
-              "logement": 10.5,
-              "sante": 21.1,
-              "democratie": 5.3,
-              "economie": 5.3,
-              "culture": 5.3,
-              "urbanisme": 5.3
+              "securite": 23.1,
+              "transports": 7.7,
+              "logement": 7.7,
+              "education": 3.8,
+              "environnement": 3.8,
+              "sante": 7.7,
+              "democratie": 7.7,
+              "economie": 7.7,
+              "culture": 7.7,
+              "urbanisme": 7.7,
+              "solidarite": 15.4
             }
           }
         },
@@ -6805,40 +6812,44 @@
           "id": "maximi",
           "nom": "Marianne Maximi",
           "liste": "Clermont fier et solidaire (LFI)",
-          "programmeComplet": false,
+          "programmeComplet": true,
           "metriques": {
-            "total_mesures": 9,
-            "couverture_sous_themes": 6,
+            "total_mesures": 39,
+            "couverture_sous_themes": 20,
             "couverture_sous_themes_max": 43,
-            "couverture_categories": 6,
+            "couverture_categories": 10,
             "couverture_categories_max": 12,
-            "pct_mesures_chiffrees": 0.0,
+            "pct_mesures_chiffrees": 2.6,
             "pct_mesures_avec_echeance": 0.0,
-            "longueur_moyenne_mesure": 75,
+            "longueur_moyenne_mesure": 49,
             "top3_themes": [
+              {
+                "id": "environnement",
+                "nom": "Environnement & Transition écologique",
+                "nb_mesures": 7
+              },
               {
                 "id": "logement",
                 "nom": "Logement",
-                "nb_mesures": 3
+                "nb_mesures": 6
               },
               {
-                "id": "education",
-                "nom": "Éducation & Jeunesse",
-                "nb_mesures": 2
-              },
-              {
-                "id": "transports",
-                "nom": "Transports & Mobilité",
-                "nb_mesures": 1
+                "id": "sante",
+                "nom": "Santé & Accès aux soins",
+                "nb_mesures": 6
               }
             ],
             "profil_thematique": {
-              "transports": 11.1,
-              "logement": 33.3,
-              "education": 22.2,
-              "sante": 11.1,
-              "economie": 11.1,
-              "solidarite": 11.1
+              "securite": 2.6,
+              "transports": 10.3,
+              "logement": 15.4,
+              "education": 10.3,
+              "environnement": 17.9,
+              "sante": 15.4,
+              "democratie": 2.6,
+              "economie": 5.1,
+              "urbanisme": 5.1,
+              "solidarite": 15.4
             }
           }
         },
@@ -6864,18 +6875,45 @@
           "id": "cartailler",
           "nom": "Yannick Cartailler",
           "liste": "Divers centre, LE RÉVEIL CLERMONTOIS",
-          "programmeComplet": false,
+          "programmeComplet": true,
           "metriques": {
-            "total_mesures": 0,
-            "couverture_sous_themes": 0,
+            "total_mesures": 65,
+            "couverture_sous_themes": 21,
             "couverture_sous_themes_max": 43,
-            "couverture_categories": 0,
+            "couverture_categories": 10,
             "couverture_categories_max": 12,
-            "pct_mesures_chiffrees": 0,
-            "pct_mesures_avec_echeance": 0,
-            "longueur_moyenne_mesure": 0,
-            "top3_themes": [],
-            "profil_thematique": {}
+            "pct_mesures_chiffrees": 7.7,
+            "pct_mesures_avec_echeance": 0.0,
+            "longueur_moyenne_mesure": 43,
+            "top3_themes": [
+              {
+                "id": "economie",
+                "nom": "Économie & Emploi",
+                "nb_mesures": 13
+              },
+              {
+                "id": "securite",
+                "nom": "Sécurité & Prévention",
+                "nb_mesures": 9
+              },
+              {
+                "id": "democratie",
+                "nom": "Démocratie & Vie citoyenne",
+                "nb_mesures": 9
+              }
+            ],
+            "profil_thematique": {
+              "securite": 13.8,
+              "transports": 10.8,
+              "logement": 3.1,
+              "education": 1.5,
+              "environnement": 10.8,
+              "democratie": 13.8,
+              "economie": 20.0,
+              "culture": 10.8,
+              "sport": 3.1,
+              "urbanisme": 12.3
+            }
           }
         }
       ]
@@ -7055,9 +7093,9 @@
         "total_mesures": 3
       },
       "theme_plus_clivant": {
-        "id": "transports",
+        "id": "democratie",
         "ecart": 30.0,
-        "nom": "Transports & Mobilité"
+        "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
         {
@@ -11845,9 +11883,9 @@
         "total_mesures": 22
       },
       "theme_plus_clivant": {
-        "id": "securite",
+        "id": "urbanisme",
         "ecart": 50.0,
-        "nom": "Sécurité & Prévention"
+        "nom": "Urbanisme & Cadre de vie"
       },
       "candidats": [
         {
@@ -14716,9 +14754,9 @@
         "total_mesures": 61
       },
       "theme_plus_clivant": {
-        "id": "transports",
+        "id": "democratie",
         "ecart": 100.0,
-        "nom": "Transports & Mobilité"
+        "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
         {
@@ -18857,9 +18895,9 @@
         "total_mesures": 17
       },
       "theme_plus_clivant": {
-        "id": "transports",
+        "id": "solidarite",
         "ecart": 100.0,
-        "nom": "Transports & Mobilité"
+        "nom": "Solidarité & Égalité"
       },
       "candidats": [
         {
@@ -19118,9 +19156,9 @@
         "total_mesures": 43
       },
       "theme_plus_clivant": {
-        "id": "logement",
+        "id": "environnement",
         "ecart": 50.0,
-        "nom": "Logement"
+        "nom": "Environnement & Transition écologique"
       },
       "candidats": [
         {
@@ -19674,9 +19712,9 @@
         "total_mesures": 14
       },
       "theme_plus_clivant": {
-        "id": "logement",
+        "id": "solidarite",
         "ecart": 50.0,
-        "nom": "Logement"
+        "nom": "Solidarité & Égalité"
       },
       "candidats": [
         {
@@ -20284,9 +20322,9 @@
         "total_mesures": 18
       },
       "theme_plus_clivant": {
-        "id": "securite",
+        "id": "urbanisme",
         "ecart": 50.0,
-        "nom": "Sécurité & Prévention"
+        "nom": "Urbanisme & Cadre de vie"
       },
       "candidats": [
         {
@@ -20605,9 +20643,9 @@
       "id": "saint-etienne-2026",
       "nom": "Saint-Étienne",
       "nb_candidats": 8,
-      "nb_complets": 6,
+      "nb_complets": 7,
       "nb_avec_mesures": 8,
-      "total_mesures": 1114,
+      "total_mesures": 1161,
       "candidat_plus_detaille": {
         "id": "juanico",
         "nom": "Régis Juanico",
@@ -20616,11 +20654,11 @@
       "theme_plus_couvert": {
         "id": "environnement",
         "nom": "Environnement & Transition écologique",
-        "total_mesures": 152
+        "total_mesures": 155
       },
       "theme_plus_clivant": {
         "id": "democratie",
-        "ecart": 43.9,
+        "ecart": 19.9,
         "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
@@ -20910,40 +20948,46 @@
           "id": "jousserand",
           "nom": "Corentin Jousserand",
           "liste": "Rassemblement National",
-          "programmeComplet": false,
+          "programmeComplet": true,
           "metriques": {
-            "total_mesures": 13,
-            "couverture_sous_themes": 9,
+            "total_mesures": 60,
+            "couverture_sous_themes": 29,
             "couverture_sous_themes_max": 43,
-            "couverture_categories": 6,
+            "couverture_categories": 12,
             "couverture_categories_max": 12,
-            "pct_mesures_chiffrees": 0.0,
+            "pct_mesures_chiffrees": 20.0,
             "pct_mesures_avec_echeance": 0.0,
-            "longueur_moyenne_mesure": 76,
+            "longueur_moyenne_mesure": 120,
             "top3_themes": [
-              {
-                "id": "democratie",
-                "nom": "Démocratie & Vie citoyenne",
-                "nb_mesures": 6
-              },
               {
                 "id": "securite",
                 "nom": "Sécurité & Prévention",
-                "nb_mesures": 2
+                "nb_mesures": 10
               },
               {
                 "id": "economie",
                 "nom": "Économie & Emploi",
-                "nb_mesures": 2
+                "nb_mesures": 9
+              },
+              {
+                "id": "transports",
+                "nom": "Transports & Mobilité",
+                "nb_mesures": 7
               }
             ],
             "profil_thematique": {
-              "securite": 15.4,
-              "education": 7.7,
-              "democratie": 46.2,
-              "economie": 15.4,
-              "culture": 7.7,
-              "solidarite": 7.7
+              "securite": 16.7,
+              "transports": 11.7,
+              "logement": 6.7,
+              "education": 8.3,
+              "environnement": 5.0,
+              "sante": 8.3,
+              "democratie": 11.7,
+              "economie": 15.0,
+              "culture": 1.7,
+              "sport": 3.3,
+              "urbanisme": 3.3,
+              "solidarite": 8.3
             }
           }
         },
@@ -22467,9 +22511,9 @@
         "total_mesures": 27
       },
       "theme_plus_clivant": {
-        "id": "logement",
+        "id": "sante",
         "ecart": 33.3,
-        "nom": "Logement"
+        "nom": "Santé & Accès aux soins"
       },
       "candidats": [
         {
@@ -23090,9 +23134,9 @@
         "total_mesures": 4
       },
       "theme_plus_clivant": {
-        "id": "transports",
+        "id": "environnement",
         "ecart": 40.0,
-        "nom": "Transports & Mobilité"
+        "nom": "Environnement & Transition écologique"
       },
       "candidats": [
         {
@@ -23312,9 +23356,9 @@
       "id": "tours-2026",
       "nom": "Tours",
       "nb_candidats": 8,
-      "nb_complets": 2,
+      "nb_complets": 3,
       "nb_avec_mesures": 7,
-      "total_mesures": 162,
+      "total_mesures": 218,
       "candidat_plus_detaille": {
         "id": "alfandari",
         "nom": "Henri Alfandari",
@@ -23323,7 +23367,7 @@
       "theme_plus_couvert": {
         "id": "transports",
         "nom": "Transports & Mobilité",
-        "total_mesures": 29
+        "total_mesures": 36
       },
       "theme_plus_clivant": {
         "id": "securite",
@@ -23335,44 +23379,46 @@
           "id": "denis",
           "nom": "Emmanuel Denis",
           "liste": "Tours Inspire 2026 (EELV/PS/PCF)",
-          "programmeComplet": false,
+          "programmeComplet": true,
           "metriques": {
-            "total_mesures": 16,
-            "couverture_sous_themes": 16,
+            "total_mesures": 72,
+            "couverture_sous_themes": 33,
             "couverture_sous_themes_max": 43,
-            "couverture_categories": 10,
+            "couverture_categories": 12,
             "couverture_categories_max": 12,
-            "pct_mesures_chiffrees": 37.5,
+            "pct_mesures_chiffrees": 6.9,
             "pct_mesures_avec_echeance": 0.0,
-            "longueur_moyenne_mesure": 127,
+            "longueur_moyenne_mesure": 59,
             "top3_themes": [
+              {
+                "id": "environnement",
+                "nom": "Environnement & Transition écologique",
+                "nb_mesures": 12
+              },
               {
                 "id": "transports",
                 "nom": "Transports & Mobilité",
-                "nb_mesures": 3
+                "nb_mesures": 10
               },
               {
-                "id": "logement",
-                "nom": "Logement",
-                "nb_mesures": 2
-              },
-              {
-                "id": "education",
-                "nom": "Éducation & Jeunesse",
-                "nb_mesures": 2
+                "id": "urbanisme",
+                "nom": "Urbanisme & Cadre de vie",
+                "nb_mesures": 9
               }
             ],
             "profil_thematique": {
-              "securite": 6.2,
-              "transports": 18.8,
-              "logement": 12.5,
-              "education": 12.5,
-              "environnement": 12.5,
-              "sante": 6.2,
-              "democratie": 12.5,
-              "economie": 6.2,
-              "culture": 6.2,
-              "sport": 6.2
+              "securite": 4.2,
+              "transports": 13.9,
+              "logement": 2.8,
+              "education": 8.3,
+              "environnement": 16.7,
+              "sante": 8.3,
+              "democratie": 6.9,
+              "economie": 11.1,
+              "culture": 6.9,
+              "sport": 6.9,
+              "urbanisme": 12.5,
+              "solidarite": 1.4
             }
           }
         },
@@ -23739,9 +23785,9 @@
         "total_mesures": 1
       },
       "theme_plus_clivant": {
-        "id": "sante",
+        "id": "democratie",
         "ecart": 20.0,
-        "nom": "Santé & Accès aux soins"
+        "nom": "Démocratie & Vie citoyenne"
       },
       "candidats": [
         {
@@ -24846,9 +24892,9 @@
         "total_mesures": 6
       },
       "theme_plus_clivant": {
-        "id": "securite",
+        "id": "urbanisme",
         "ecart": 50.0,
-        "nom": "Sécurité & Prévention"
+        "nom": "Urbanisme & Cadre de vie"
       },
       "candidats": [
         {

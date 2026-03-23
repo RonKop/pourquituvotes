@@ -710,6 +710,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 68641,
+      "abstentions": 26420,
+      "tauxParticipation": 61.51,
+      "votants": 42221,
+      "blancs": 806,
+      "nuls": 539,
+      "exprimes": 40876,
+      "candidats": [
+        {
+          "id": "fagaut",
+          "voix": 21781,
+          "pourcentage": 53.29,
+          "elu": false
+        },
+        {
+          "id": "vignot",
+          "voix": 19095,
+          "pourcentage": 46.71,
+          "elu": false
+        }
+      ]
+    }
   }
 }

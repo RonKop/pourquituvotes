@@ -172,6 +172,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 26582,
+      "abstentions": 13045,
+      "tauxParticipation": 50.93,
+      "votants": 13537,
+      "blancs": 236,
+      "nuls": 167,
+      "exprimes": 13134,
+      "candidats": [
+        {
+          "id": "bonnefont",
+          "voix": 6339,
+          "pourcentage": 48.26,
+          "elu": false
+        },
+        {
+          "id": "petit-louboutin",
+          "voix": 4226,
+          "pourcentage": 32.18,
+          "elu": false
+        },
+        {
+          "id": "mardikian",
+          "voix": 2569,
+          "pourcentage": 19.56,
+          "elu": false
+        }
+      ]
+    }
   }
 }

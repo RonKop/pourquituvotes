@@ -650,6 +650,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 28740,
+      "abstentions": 13399,
+      "tauxParticipation": 53.38,
+      "votants": 15341,
+      "blancs": 188,
+      "nuls": 103,
+      "exprimes": 15050,
+      "candidats": [
+        {
+          "id": "traore",
+          "voix": 7749,
+          "pourcentage": 51.49,
+          "elu": false
+        },
+        {
+          "id": "meignen",
+          "voix": 7301,
+          "pourcentage": 48.51,
+          "elu": false
+        }
+      ]
+    }
   }
 }

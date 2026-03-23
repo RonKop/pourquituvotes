@@ -139,6 +139,60 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "chevreau"
+    "eluMaire": "chevreau",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 27144,
+      "abstentions": 16042,
+      "tauxParticipation": 40.9,
+      "votants": 11102,
+      "blancs": 94,
+      "nuls": 135,
+      "exprimes": 10873,
+      "candidats": [
+        {
+          "id": "chevreau",
+          "voix": 5531,
+          "pourcentage": 50.87,
+          "elu": false
+        },
+        {
+          "id": "penaque",
+          "voix": 3370,
+          "pourcentage": 30.99,
+          "elu": false
+        },
+        {
+          "id": "rebiere",
+          "voix": 905,
+          "pourcentage": 8.32,
+          "elu": false
+        },
+        {
+          "id": "tirera",
+          "voix": 424,
+          "pourcentage": 3.9,
+          "elu": false
+        },
+        {
+          "id": "chevauche",
+          "voix": 297,
+          "pourcentage": 2.73,
+          "elu": false
+        },
+        {
+          "id": "leborgne",
+          "voix": 268,
+          "pourcentage": 2.46,
+          "elu": false
+        },
+        {
+          "id": "reziga",
+          "voix": 78,
+          "pourcentage": 0.72,
+          "elu": false
+        }
+      ]
+    }
   }
 }

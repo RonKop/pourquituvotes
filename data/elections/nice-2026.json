@@ -1470,6 +1470,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 229109,
+      "abstentions": 100991,
+      "tauxParticipation": 55.92,
+      "votants": 128118,
+      "blancs": 1637,
+      "nuls": 793,
+      "exprimes": 125688,
+      "candidats": [
+        {
+          "id": "ciotti",
+          "voix": 61009,
+          "pourcentage": 48.54,
+          "elu": false
+        },
+        {
+          "id": "estrosi",
+          "voix": 46753,
+          "pourcentage": 37.2,
+          "elu": false
+        },
+        {
+          "id": "chesnel",
+          "voix": 17926,
+          "pourcentage": 14.26,
+          "elu": false
+        }
+      ]
+    }
   }
 }

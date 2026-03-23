@@ -411,6 +411,24 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "thevenot"
+    "eluMaire": "thevenot",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 3871,
+      "abstentions": 2017,
+      "tauxParticipation": 47.89,
+      "votants": 1854,
+      "blancs": 129,
+      "nuls": 121,
+      "exprimes": 1604,
+      "candidats": [
+        {
+          "id": "thevenot",
+          "voix": 1604,
+          "pourcentage": 100.0,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1088,6 +1088,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 46413,
+      "abstentions": 20219,
+      "tauxParticipation": 56.44,
+      "votants": 26194,
+      "blancs": 327,
+      "nuls": 327,
+      "exprimes": 25540,
+      "candidats": [
+        {
+          "id": "brottier",
+          "voix": 12086,
+          "pourcentage": 47.32,
+          "elu": false
+        },
+        {
+          "id": "moncond-huy",
+          "voix": 10417,
+          "pourcentage": 40.79,
+          "elu": false
+        },
+        {
+          "id": "rangheard",
+          "voix": 1790,
+          "pourcentage": 7.01,
+          "elu": false
+        },
+        {
+          "id": "parnaudeau",
+          "voix": 1247,
+          "pourcentage": 4.88,
+          "elu": false
+        }
+      ]
+    }
   }
 }

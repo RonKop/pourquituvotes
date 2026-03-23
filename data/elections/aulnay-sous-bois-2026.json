@@ -843,6 +843,54 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "beschizza"
+    "eluMaire": "beschizza",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 44744,
+      "abstentions": 23661,
+      "tauxParticipation": 47.12,
+      "votants": 21083,
+      "blancs": 352,
+      "nuls": 207,
+      "exprimes": 20524,
+      "candidats": [
+        {
+          "id": "beschizza",
+          "voix": 12998,
+          "pourcentage": 63.33,
+          "elu": false
+        },
+        {
+          "id": "siby",
+          "voix": 4294,
+          "pourcentage": 20.92,
+          "elu": false
+        },
+        {
+          "id": "malandra",
+          "voix": 2237,
+          "pourcentage": 10.9,
+          "elu": false
+        },
+        {
+          "id": "nguette",
+          "voix": 612,
+          "pourcentage": 2.98,
+          "elu": false
+        },
+        {
+          "id": "beaufils",
+          "voix": 256,
+          "pourcentage": 1.25,
+          "elu": false
+        },
+        {
+          "id": "guy",
+          "voix": 127,
+          "pourcentage": 0.62,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1661,6 +1661,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 86323,
+      "abstentions": 40914,
+      "tauxParticipation": 52.6,
+      "votants": 45409,
+      "blancs": 896,
+      "nuls": 569,
+      "exprimes": 43944,
+      "candidats": [
+        {
+          "id": "denis",
+          "voix": 20741,
+          "pourcentage": 47.2,
+          "elu": false
+        },
+        {
+          "id": "bouchet",
+          "voix": 19275,
+          "pourcentage": 43.86,
+          "elu": false
+        },
+        {
+          "id": "nikolic",
+          "voix": 3928,
+          "pourcentage": 8.94,
+          "elu": false
+        }
+      ]
+    }
   }
 }

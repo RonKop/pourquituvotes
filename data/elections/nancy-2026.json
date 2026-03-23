@@ -1155,6 +1155,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 56412,
+      "abstentions": 26915,
+      "tauxParticipation": 52.29,
+      "votants": 29497,
+      "blancs": 384,
+      "nuls": 222,
+      "exprimes": 28891,
+      "candidats": [
+        {
+          "id": "klein",
+          "voix": 14353,
+          "pourcentage": 49.68,
+          "elu": false
+        },
+        {
+          "id": "henart",
+          "voix": 11482,
+          "pourcentage": 39.74,
+          "elu": false
+        },
+        {
+          "id": "farghaly",
+          "voix": 3056,
+          "pourcentage": 10.58,
+          "elu": false
+        }
+      ]
+    }
   }
 }

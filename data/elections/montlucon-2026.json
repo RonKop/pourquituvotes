@@ -104,6 +104,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 20688,
+      "abstentions": 9195,
+      "tauxParticipation": 55.55,
+      "votants": 11493,
+      "blancs": 196,
+      "nuls": 230,
+      "exprimes": 11067,
+      "candidats": [
+        {
+          "id": "perche",
+          "voix": 5296,
+          "pourcentage": 47.85,
+          "elu": false
+        },
+        {
+          "id": "laporte",
+          "voix": 3105,
+          "pourcentage": 28.06,
+          "elu": false
+        },
+        {
+          "id": "mothet",
+          "voix": 2666,
+          "pourcentage": 24.09,
+          "elu": false
+        }
+      ]
+    }
   }
 }

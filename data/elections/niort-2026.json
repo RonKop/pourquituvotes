@@ -531,6 +531,36 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "baloge"
+    "eluMaire": "baloge",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 40044,
+      "abstentions": 17823,
+      "tauxParticipation": 55.49,
+      "votants": 22221,
+      "blancs": 212,
+      "nuls": 164,
+      "exprimes": 21845,
+      "candidats": [
+        {
+          "id": "baloge",
+          "voix": 14216,
+          "pourcentage": 65.08,
+          "elu": false
+        },
+        {
+          "id": "mathieu",
+          "voix": 5645,
+          "pourcentage": 25.84,
+          "elu": false
+        },
+        {
+          "id": "bonnet-derisbourg",
+          "voix": 1984,
+          "pourcentage": 9.08,
+          "elu": false
+        }
+      ]
+    }
   }
 }

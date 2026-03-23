@@ -104,6 +104,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 18253,
+      "abstentions": 7707,
+      "tauxParticipation": 57.78,
+      "votants": 10546,
+      "blancs": 177,
+      "nuls": 190,
+      "exprimes": 10179,
+      "candidats": [
+        {
+          "id": "cadet",
+          "voix": 5416,
+          "pourcentage": 53.21,
+          "elu": false
+        },
+        {
+          "id": "lavitola",
+          "voix": 4763,
+          "pourcentage": 46.79,
+          "elu": false
+        }
+      ]
+    }
   }
 }

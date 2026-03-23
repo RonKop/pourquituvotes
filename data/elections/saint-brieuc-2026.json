@@ -138,6 +138,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 28070,
+      "abstentions": 11784,
+      "tauxParticipation": 58.02,
+      "votants": 16286,
+      "blancs": 179,
+      "nuls": 139,
+      "exprimes": 15968,
+      "candidats": [
+        {
+          "id": "bonnot",
+          "voix": 7115,
+          "pourcentage": 44.56,
+          "elu": false
+        },
+        {
+          "id": "guihard",
+          "voix": 6433,
+          "pourcentage": 40.29,
+          "elu": false
+        },
+        {
+          "id": "alloy",
+          "voix": 1265,
+          "pourcentage": 7.92,
+          "elu": false
+        },
+        {
+          "id": "thomas",
+          "voix": 1155,
+          "pourcentage": 7.23,
+          "elu": false
+        }
+      ]
+    }
   }
 }

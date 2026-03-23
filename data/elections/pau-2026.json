@@ -873,6 +873,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 48699,
+      "abstentions": 21607,
+      "tauxParticipation": 55.63,
+      "votants": 27092,
+      "blancs": 464,
+      "nuls": 305,
+      "exprimes": 26323,
+      "candidats": [
+        {
+          "id": "marbot",
+          "voix": 11174,
+          "pourcentage": 42.45,
+          "elu": false
+        },
+        {
+          "id": "bayrou",
+          "voix": 10830,
+          "pourcentage": 41.14,
+          "elu": false
+        },
+        {
+          "id": "taillefer",
+          "voix": 4319,
+          "pourcentage": 16.41,
+          "elu": false
+        }
+      ]
+    }
   }
 }

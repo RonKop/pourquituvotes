@@ -771,6 +771,60 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "pottier-dumas"
+    "eluMaire": "pottier-dumas",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 44783,
+      "abstentions": 19429,
+      "tauxParticipation": 56.62,
+      "votants": 25354,
+      "blancs": 228,
+      "nuls": 129,
+      "exprimes": 24997,
+      "candidats": [
+        {
+          "id": "pottier-dumas",
+          "voix": 12918,
+          "pourcentage": 51.68,
+          "elu": false
+        },
+        {
+          "id": "messatfa",
+          "voix": 5203,
+          "pourcentage": 20.81,
+          "elu": false
+        },
+        {
+          "id": "nouguier",
+          "voix": 2919,
+          "pourcentage": 11.68,
+          "elu": false
+        },
+        {
+          "id": "inoughi",
+          "voix": 1902,
+          "pourcentage": 7.61,
+          "elu": false
+        },
+        {
+          "id": "rondepierre",
+          "voix": 1243,
+          "pourcentage": 4.97,
+          "elu": false
+        },
+        {
+          "id": "uzan",
+          "voix": 679,
+          "pourcentage": 2.72,
+          "elu": false
+        },
+        {
+          "id": "parisis",
+          "voix": 133,
+          "pourcentage": 0.53,
+          "elu": false
+        }
+      ]
+    }
   }
 }

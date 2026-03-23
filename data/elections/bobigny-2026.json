@@ -138,6 +138,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 25827,
+      "abstentions": 15211,
+      "tauxParticipation": 41.1,
+      "votants": 10616,
+      "blancs": 186,
+      "nuls": 128,
+      "exprimes": 10302,
+      "candidats": [
+        {
+          "id": "sadi",
+          "voix": 4947,
+          "pourcentage": 48.02,
+          "elu": false
+        },
+        {
+          "id": "mesquita",
+          "voix": 4573,
+          "pourcentage": 44.39,
+          "elu": false
+        },
+        {
+          "id": "chalois-ait-ahmed",
+          "voix": 782,
+          "pourcentage": 7.59,
+          "elu": false
+        }
+      ]
+    }
   }
 }

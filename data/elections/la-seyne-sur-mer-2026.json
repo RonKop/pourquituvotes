@@ -1046,6 +1046,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 46886,
+      "abstentions": 21407,
+      "tauxParticipation": 54.34,
+      "votants": 25479,
+      "blancs": 389,
+      "nuls": 331,
+      "exprimes": 24759,
+      "candidats": [
+        {
+          "id": "munoz",
+          "voix": 11467,
+          "pourcentage": 46.31,
+          "elu": false
+        },
+        {
+          "id": "minniti",
+          "voix": 6038,
+          "pourcentage": 24.39,
+          "elu": false
+        },
+        {
+          "id": "sacco",
+          "voix": 4709,
+          "pourcentage": 19.02,
+          "elu": false
+        },
+        {
+          "id": "mansour",
+          "voix": 2545,
+          "pourcentage": 10.28,
+          "elu": false
+        }
+      ]
+    }
   }
 }

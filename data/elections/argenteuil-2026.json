@@ -854,6 +854,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 55736,
+      "abstentions": 29504,
+      "tauxParticipation": 47.06,
+      "votants": 26232,
+      "blancs": 750,
+      "nuls": 322,
+      "exprimes": 25160,
+      "candidats": [
+        {
+          "id": "mothron",
+          "voix": 13893,
+          "pourcentage": 55.22,
+          "elu": false
+        },
+        {
+          "id": "zeghli",
+          "voix": 11267,
+          "pourcentage": 44.78,
+          "elu": false
+        }
+      ]
+    }
   }
 }

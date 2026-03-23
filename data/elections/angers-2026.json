@@ -1216,6 +1216,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 93100,
+      "abstentions": 46646,
+      "tauxParticipation": 49.9,
+      "votants": 46454,
+      "blancs": 754,
+      "nuls": 598,
+      "exprimes": 45102,
+      "candidats": [
+        {
+          "id": "bechu",
+          "voix": 26624,
+          "pourcentage": 59.03,
+          "elu": false
+        },
+        {
+          "id": "laveau",
+          "voix": 18478,
+          "pourcentage": 40.97,
+          "elu": false
+        }
+      ]
+    }
   }
 }

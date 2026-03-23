@@ -921,6 +921,48 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 88172,
+      "abstentions": 44672,
+      "tauxParticipation": 49.34,
+      "votants": 43500,
+      "blancs": 265,
+      "nuls": 282,
+      "exprimes": 42953,
+      "candidats": [
+        {
+          "id": "styvendael",
+          "voix": 18292,
+          "pourcentage": 42.59,
+          "elu": false
+        },
+        {
+          "id": "bret",
+          "voix": 7289,
+          "pourcentage": 16.97,
+          "elu": false
+        },
+        {
+          "id": "garabedian",
+          "voix": 7212,
+          "pourcentage": 16.79,
+          "elu": false
+        },
+        {
+          "id": "cruz",
+          "voix": 6447,
+          "pourcentage": 15.01,
+          "elu": false
+        },
+        {
+          "id": "canon",
+          "voix": 3713,
+          "pourcentage": 8.64,
+          "elu": false
+        }
+      ]
+    }
   }
 }

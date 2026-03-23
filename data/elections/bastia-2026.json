@@ -138,6 +138,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 23192,
+      "abstentions": 7301,
+      "tauxParticipation": 68.52,
+      "votants": 15891,
+      "blancs": 305,
+      "nuls": 244,
+      "exprimes": 15342,
+      "candidats": [
+        {
+          "id": "simeoni",
+          "voix": 6825,
+          "pourcentage": 44.49,
+          "elu": false
+        },
+        {
+          "id": "morganti",
+          "voix": 6394,
+          "pourcentage": 41.68,
+          "elu": false
+        },
+        {
+          "id": "battini",
+          "voix": 2123,
+          "pourcentage": 13.84,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1825,6 +1825,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 76778,
+      "abstentions": 33226,
+      "tauxParticipation": 56.72,
+      "votants": 43552,
+      "blancs": 782,
+      "nuls": 546,
+      "exprimes": 42224,
+      "candidats": [
+        {
+          "id": "bony",
+          "voix": 21495,
+          "pourcentage": 50.91,
+          "elu": false
+        },
+        {
+          "id": "bianchi",
+          "voix": 19192,
+          "pourcentage": 45.45,
+          "elu": false
+        },
+        {
+          "id": "darbois",
+          "voix": 1537,
+          "pourcentage": 3.64,
+          "elu": false
+        }
+      ]
+    }
   }
 }

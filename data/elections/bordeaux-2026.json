@@ -1580,6 +1580,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 174176,
+      "abstentions": 74886,
+      "tauxParticipation": 57.01,
+      "votants": 99290,
+      "blancs": 2035,
+      "nuls": 1054,
+      "exprimes": 96201,
+      "candidats": [
+        {
+          "id": "cazenave",
+          "voix": 49014,
+          "pourcentage": 50.95,
+          "elu": false
+        },
+        {
+          "id": "hurmic",
+          "voix": 47187,
+          "pourcentage": 49.05,
+          "elu": false
+        }
+      ]
+    }
   }
 }

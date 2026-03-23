@@ -860,6 +860,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 52821,
+      "abstentions": 26569,
+      "tauxParticipation": 49.7,
+      "votants": 26252,
+      "blancs": 225,
+      "nuls": 202,
+      "exprimes": 25825,
+      "candidats": [
+        {
+          "id": "samzun",
+          "voix": 12532,
+          "pourcentage": 48.53,
+          "elu": false
+        },
+        {
+          "id": "lucas",
+          "voix": 5933,
+          "pourcentage": 22.97,
+          "elu": false
+        },
+        {
+          "id": "pichon",
+          "voix": 4491,
+          "pourcentage": 17.39,
+          "elu": false
+        },
+        {
+          "id": "chereau",
+          "voix": 2869,
+          "pourcentage": 11.11,
+          "elu": false
+        }
+      ]
+    }
   }
 }

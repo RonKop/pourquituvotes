@@ -2796,6 +2796,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 1404863,
+      "abstentions": 539493,
+      "tauxParticipation": 61.6,
+      "votants": 865370,
+      "blancs": 12240,
+      "nuls": 5698,
+      "exprimes": 847432,
+      "candidats": [
+        {
+          "id": "gregoire",
+          "voix": 428143,
+          "pourcentage": 50.52,
+          "elu": false
+        },
+        {
+          "id": "dati",
+          "voix": 351825,
+          "pourcentage": 41.52,
+          "elu": false
+        },
+        {
+          "id": "chikirou",
+          "voix": 67464,
+          "pourcentage": 7.96,
+          "elu": false
+        }
+      ]
+    }
   }
 }

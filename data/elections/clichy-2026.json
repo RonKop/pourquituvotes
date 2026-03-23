@@ -830,6 +830,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 35897,
+      "abstentions": 15406,
+      "tauxParticipation": 57.08,
+      "votants": 20491,
+      "blancs": 288,
+      "nuls": 186,
+      "exprimes": 20017,
+      "candidats": [
+        {
+          "id": "muzeau",
+          "voix": 10374,
+          "pourcentage": 51.83,
+          "elu": false
+        },
+        {
+          "id": "martinez",
+          "voix": 9643,
+          "pourcentage": 48.17,
+          "elu": false
+        }
+      ]
+    }
   }
 }

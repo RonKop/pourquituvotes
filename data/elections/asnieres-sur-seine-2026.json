@@ -651,6 +651,48 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "aeschlimann"
+    "eluMaire": "aeschlimann",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 53460,
+      "abstentions": 24436,
+      "tauxParticipation": 54.29,
+      "votants": 29024,
+      "blancs": 327,
+      "nuls": 175,
+      "exprimes": 28522,
+      "candidats": [
+        {
+          "id": "aeschlimann",
+          "voix": 18970,
+          "pourcentage": 66.51,
+          "elu": false
+        },
+        {
+          "id": "jehanin",
+          "voix": 5402,
+          "pourcentage": 18.94,
+          "elu": false
+        },
+        {
+          "id": "kon-sharp",
+          "voix": 2243,
+          "pourcentage": 7.86,
+          "elu": false
+        },
+        {
+          "id": "el-hadri",
+          "voix": 1276,
+          "pourcentage": 4.47,
+          "elu": false
+        },
+        {
+          "id": "picard-marcovecchio",
+          "voix": 631,
+          "pourcentage": 2.21,
+          "elu": false
+        }
+      ]
+    }
   }
 }

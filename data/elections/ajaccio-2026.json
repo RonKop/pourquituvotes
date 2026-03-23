@@ -824,6 +824,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 37681,
+      "abstentions": 12996,
+      "tauxParticipation": 65.51,
+      "votants": 24685,
+      "blancs": 553,
+      "nuls": 411,
+      "exprimes": 23721,
+      "candidats": [
+        {
+          "id": "sbraggia",
+          "voix": 11033,
+          "pourcentage": 46.51,
+          "elu": false
+        },
+        {
+          "id": "carrolaggi",
+          "voix": 9689,
+          "pourcentage": 40.85,
+          "elu": false
+        },
+        {
+          "id": "filoni",
+          "voix": 2999,
+          "pourcentage": 12.64,
+          "elu": false
+        }
+      ]
+    }
   }
 }

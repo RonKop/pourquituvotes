@@ -717,6 +717,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 38269,
+      "abstentions": 16581,
+      "tauxParticipation": 56.67,
+      "votants": 21688,
+      "blancs": 261,
+      "nuls": 218,
+      "exprimes": 21209,
+      "candidats": [
+        {
+          "id": "loher",
+          "voix": 9606,
+          "pourcentage": 45.29,
+          "elu": false
+        },
+        {
+          "id": "girard",
+          "voix": 9046,
+          "pourcentage": 42.65,
+          "elu": false
+        },
+        {
+          "id": "thomas",
+          "voix": 2557,
+          "pourcentage": 12.06,
+          "elu": false
+        }
+      ]
+    }
   }
 }

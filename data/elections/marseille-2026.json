@@ -1928,6 +1928,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 555469,
+      "abstentions": 247765,
+      "tauxParticipation": 55.4,
+      "votants": 307704,
+      "blancs": 3459,
+      "nuls": 3215,
+      "exprimes": 301030,
+      "candidats": [
+        {
+          "id": "payan",
+          "voix": 163586,
+          "pourcentage": 54.34,
+          "elu": false
+        },
+        {
+          "id": "allisio",
+          "voix": 121310,
+          "pourcentage": 40.3,
+          "elu": false
+        },
+        {
+          "id": "vassal",
+          "voix": 16134,
+          "pourcentage": 5.36,
+          "elu": false
+        }
+      ]
+    }
   }
 }

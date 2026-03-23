@@ -651,6 +651,48 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "trijoulet"
+    "eluMaire": "trijoulet",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 49546,
+      "abstentions": 22271,
+      "tauxParticipation": 55.05,
+      "votants": 27275,
+      "blancs": 301,
+      "nuls": 151,
+      "exprimes": 26823,
+      "candidats": [
+        {
+          "id": "trijoulet",
+          "voix": 13887,
+          "pourcentage": 51.77,
+          "elu": false
+        },
+        {
+          "id": "millet",
+          "voix": 5923,
+          "pourcentage": 22.08,
+          "elu": false
+        },
+        {
+          "id": "bourlieux",
+          "voix": 4699,
+          "pourcentage": 17.52,
+          "elu": false
+        },
+        {
+          "id": "panifous",
+          "voix": 1889,
+          "pourcentage": 7.04,
+          "elu": false
+        },
+        {
+          "id": "perchet",
+          "voix": 425,
+          "pourcentage": 1.58,
+          "elu": false
+        }
+      ]
+    }
   }
 }

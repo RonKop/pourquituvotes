@@ -734,6 +734,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 40101,
+      "abstentions": 17048,
+      "tauxParticipation": 57.49,
+      "votants": 23053,
+      "blancs": 433,
+      "nuls": 0,
+      "exprimes": 22620,
+      "candidats": [
+        {
+          "id": "senant",
+          "voix": 11359,
+          "pourcentage": 50.22,
+          "elu": false
+        },
+        {
+          "id": "mauger",
+          "voix": 6128,
+          "pourcentage": 27.09,
+          "elu": false
+        },
+        {
+          "id": "precetti",
+          "voix": 2926,
+          "pourcentage": 12.94,
+          "elu": false
+        },
+        {
+          "id": "evennou",
+          "voix": 2207,
+          "pourcentage": 9.76,
+          "elu": false
+        }
+      ]
+    }
   }
 }

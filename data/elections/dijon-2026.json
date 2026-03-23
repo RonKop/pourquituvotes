@@ -1865,6 +1865,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 88936,
+      "abstentions": 43996,
+      "tauxParticipation": 50.53,
+      "votants": 44940,
+      "blancs": 831,
+      "nuls": 524,
+      "exprimes": 43585,
+      "candidats": [
+        {
+          "id": "koenders",
+          "voix": 25456,
+          "pourcentage": 58.41,
+          "elu": false
+        },
+        {
+          "id": "bichot",
+          "voix": 13368,
+          "pourcentage": 30.67,
+          "elu": false
+        },
+        {
+          "id": "coudert",
+          "voix": 4761,
+          "pourcentage": 10.92,
+          "elu": false
+        }
+      ]
+    }
   }
 }

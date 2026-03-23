@@ -771,6 +771,48 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "rachline"
+    "eluMaire": "rachline",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 41184,
+      "abstentions": 19168,
+      "tauxParticipation": 53.46,
+      "votants": 22016,
+      "blancs": 335,
+      "nuls": 257,
+      "exprimes": 21424,
+      "candidats": [
+        {
+          "id": "rachline",
+          "voix": 10997,
+          "pourcentage": 51.33,
+          "elu": false
+        },
+        {
+          "id": "bonnemain",
+          "voix": 6414,
+          "pourcentage": 29.94,
+          "elu": false
+        },
+        {
+          "id": "cerrutti",
+          "voix": 2488,
+          "pourcentage": 11.61,
+          "elu": false
+        },
+        {
+          "id": "romano",
+          "voix": 1121,
+          "pourcentage": 5.23,
+          "elu": false
+        },
+        {
+          "id": "fassi",
+          "voix": 404,
+          "pourcentage": 1.89,
+          "elu": false
+        }
+      ]
+    }
   }
 }

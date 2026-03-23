@@ -1337,6 +1337,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 74997,
+      "abstentions": 28434,
+      "tauxParticipation": 62.09,
+      "votants": 46563,
+      "blancs": 1162,
+      "nuls": 921,
+      "exprimes": 44480,
+      "candidats": [
+        {
+          "id": "guerin",
+          "voix": 22797,
+          "pourcentage": 51.25,
+          "elu": false
+        },
+        {
+          "id": "maudet",
+          "voix": 18158,
+          "pourcentage": 40.82,
+          "elu": false
+        },
+        {
+          "id": "freychet",
+          "voix": 3525,
+          "pourcentage": 7.92,
+          "elu": false
+        }
+      ]
+    }
   }
 }

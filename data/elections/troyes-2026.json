@@ -865,6 +865,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 30283,
+      "abstentions": 17496,
+      "tauxParticipation": 42.23,
+      "votants": 12787,
+      "blancs": 139,
+      "nuls": 169,
+      "exprimes": 12479,
+      "candidats": [
+        {
+          "id": "baroin",
+          "voix": 7106,
+          "pourcentage": 56.94,
+          "elu": false
+        },
+        {
+          "id": "briot",
+          "voix": 2752,
+          "pourcentage": 22.05,
+          "elu": false
+        },
+        {
+          "id": "brochet",
+          "voix": 2621,
+          "pourcentage": 21.0,
+          "elu": false
+        }
+      ]
+    }
   }
 }

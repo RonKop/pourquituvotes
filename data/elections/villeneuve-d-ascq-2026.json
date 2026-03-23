@@ -770,6 +770,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 40976,
+      "abstentions": 19566,
+      "tauxParticipation": 52.25,
+      "votants": 21410,
+      "blancs": 163,
+      "nuls": 133,
+      "exprimes": 21114,
+      "candidats": [
+        {
+          "id": "estager",
+          "voix": 7164,
+          "pourcentage": 33.93,
+          "elu": false
+        },
+        {
+          "id": "baledent",
+          "voix": 5415,
+          "pourcentage": 25.65,
+          "elu": false
+        },
+        {
+          "id": "bernalicis",
+          "voix": 4748,
+          "pourcentage": 22.49,
+          "elu": false
+        },
+        {
+          "id": "segard",
+          "voix": 3787,
+          "pourcentage": 17.94,
+          "elu": false
+        }
+      ]
+    }
   }
 }

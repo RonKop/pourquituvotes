@@ -650,6 +650,48 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 41425,
+      "abstentions": 19089,
+      "tauxParticipation": 53.92,
+      "votants": 22336,
+      "blancs": 188,
+      "nuls": 132,
+      "exprimes": 22016,
+      "candidats": [
+        {
+          "id": "monnier",
+          "voix": 7669,
+          "pourcentage": 34.83,
+          "elu": false
+        },
+        {
+          "id": "marsigny",
+          "voix": 5286,
+          "pourcentage": 24.01,
+          "elu": false
+        },
+        {
+          "id": "constant",
+          "voix": 4281,
+          "pourcentage": 19.44,
+          "elu": false
+        },
+        {
+          "id": "thiam",
+          "voix": 3585,
+          "pourcentage": 16.28,
+          "elu": false
+        },
+        {
+          "id": "zrihen",
+          "voix": 1195,
+          "pourcentage": 5.43,
+          "elu": false
+        }
+      ]
+    }
   }
 }

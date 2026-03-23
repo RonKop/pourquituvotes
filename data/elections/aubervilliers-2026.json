@@ -1766,6 +1766,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 34226,
+      "abstentions": 18979,
+      "tauxParticipation": 44.55,
+      "votants": 15247,
+      "blancs": 204,
+      "nuls": 120,
+      "exprimes": 14923,
+      "candidats": [
+        {
+          "id": "karroumi",
+          "voix": 10242,
+          "pourcentage": 68.63,
+          "elu": false
+        },
+        {
+          "id": "franclet",
+          "voix": 4681,
+          "pourcentage": 31.37,
+          "elu": false
+        }
+      ]
+    }
   }
 }

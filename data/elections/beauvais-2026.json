@@ -104,6 +104,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 35075,
+      "abstentions": 17456,
+      "tauxParticipation": 50.23,
+      "votants": 17619,
+      "blancs": 195,
+      "nuls": 178,
+      "exprimes": 17246,
+      "candidats": [
+        {
+          "id": "pia",
+          "voix": 8165,
+          "pourcentage": 47.34,
+          "elu": false
+        },
+        {
+          "id": "lundy",
+          "voix": 6775,
+          "pourcentage": 39.28,
+          "elu": false
+        },
+        {
+          "id": "marais-beuil",
+          "voix": 2306,
+          "pourcentage": 13.37,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1657,6 +1657,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 87281,
+      "abstentions": 33662,
+      "tauxParticipation": 61.43,
+      "votants": 53619,
+      "blancs": 1536,
+      "nuls": 715,
+      "exprimes": 51368,
+      "candidats": [
+        {
+          "id": "ruffin",
+          "voix": 29071,
+          "pourcentage": 56.59,
+          "elu": false
+        },
+        {
+          "id": "carignon",
+          "voix": 22297,
+          "pourcentage": 43.41,
+          "elu": false
+        }
+      ]
+    }
   }
 }

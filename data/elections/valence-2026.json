@@ -1140,6 +1140,54 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "daragon"
+    "eluMaire": "daragon",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 40980,
+      "abstentions": 19328,
+      "tauxParticipation": 52.84,
+      "votants": 21652,
+      "blancs": 183,
+      "nuls": 148,
+      "exprimes": 21321,
+      "candidats": [
+        {
+          "id": "daragon",
+          "voix": 12391,
+          "pourcentage": 58.12,
+          "elu": false
+        },
+        {
+          "id": "christophle",
+          "voix": 3800,
+          "pourcentage": 17.82,
+          "elu": false
+        },
+        {
+          "id": "magnin",
+          "voix": 2561,
+          "pourcentage": 12.01,
+          "elu": false
+        },
+        {
+          "id": "reis",
+          "voix": 1451,
+          "pourcentage": 6.81,
+          "elu": false
+        },
+        {
+          "id": "boyadjian",
+          "voix": 885,
+          "pourcentage": 4.15,
+          "elu": false
+        },
+        {
+          "id": "kopff",
+          "voix": 233,
+          "pourcentage": 1.09,
+          "elu": false
+        }
+      ]
+    }
   }
 }

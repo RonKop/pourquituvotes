@@ -1288,6 +1288,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 60708,
+      "abstentions": 29337,
+      "tauxParticipation": 51.68,
+      "votants": 31371,
+      "blancs": 392,
+      "nuls": 251,
+      "exprimes": 30728,
+      "candidats": [
+        {
+          "id": "olivier",
+          "voix": 18245,
+          "pourcentage": 59.38,
+          "elu": false
+        },
+        {
+          "id": "lorphelin",
+          "voix": 7838,
+          "pourcentage": 25.51,
+          "elu": false
+        },
+        {
+          "id": "guidi",
+          "voix": 4645,
+          "pourcentage": 15.12,
+          "elu": false
+        }
+      ]
+    }
   }
 }

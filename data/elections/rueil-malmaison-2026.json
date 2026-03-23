@@ -957,6 +957,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 56619,
+      "abstentions": 28631,
+      "tauxParticipation": 49.43,
+      "votants": 27988,
+      "blancs": 349,
+      "nuls": 247,
+      "exprimes": 27392,
+      "candidats": [
+        {
+          "id": "ollier",
+          "voix": 14290,
+          "pourcentage": 52.17,
+          "elu": false
+        },
+        {
+          "id": "ruffat",
+          "voix": 8740,
+          "pourcentage": 31.91,
+          "elu": false
+        },
+        {
+          "id": "indjian",
+          "voix": 4362,
+          "pourcentage": 15.92,
+          "elu": false
+        }
+      ]
+    }
   }
 }

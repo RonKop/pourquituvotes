@@ -1571,6 +1571,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 75751,
+      "abstentions": 37700,
+      "tauxParticipation": 50.23,
+      "votants": 38051,
+      "blancs": 399,
+      "nuls": 320,
+      "exprimes": 37332,
+      "candidats": [
+        {
+          "id": "fauvet",
+          "voix": 14077,
+          "pourcentage": 37.71,
+          "elu": false
+        },
+        {
+          "id": "dejenlis",
+          "voix": 13333,
+          "pourcentage": 35.71,
+          "elu": false
+        },
+        {
+          "id": "toumi",
+          "voix": 5348,
+          "pourcentage": 14.33,
+          "elu": false
+        },
+        {
+          "id": "bellina",
+          "voix": 4574,
+          "pourcentage": 12.25,
+          "elu": false
+        }
+      ]
+    }
   }
 }

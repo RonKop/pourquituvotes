@@ -650,6 +650,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 43523,
+      "abstentions": 22489,
+      "tauxParticipation": 48.33,
+      "votants": 21034,
+      "blancs": 602,
+      "nuls": 0,
+      "exprimes": 20432,
+      "candidats": [
+        {
+          "id": "galut",
+          "voix": 10910,
+          "pourcentage": 53.4,
+          "elu": false
+        },
+        {
+          "id": "mercier",
+          "voix": 6998,
+          "pourcentage": 34.25,
+          "elu": false
+        },
+        {
+          "id": "iannuzzi",
+          "voix": 2524,
+          "pourcentage": 12.35,
+          "elu": false
+        }
+      ]
+    }
   }
 }

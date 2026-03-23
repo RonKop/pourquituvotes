@@ -1273,6 +1273,72 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "bareigts"
+    "eluMaire": "bareigts",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 112687,
+      "abstentions": 61786,
+      "tauxParticipation": 45.17,
+      "votants": 50901,
+      "blancs": 1108,
+      "nuls": 890,
+      "exprimes": 48903,
+      "candidats": [
+        {
+          "id": "bareigts",
+          "voix": 30425,
+          "pourcentage": 62.22,
+          "elu": false
+        },
+        {
+          "id": "lebon",
+          "voix": 5159,
+          "pourcentage": 10.55,
+          "elu": false
+        },
+        {
+          "id": "victoria",
+          "voix": 3667,
+          "pourcentage": 7.5,
+          "elu": false
+        },
+        {
+          "id": "nativel",
+          "voix": 3306,
+          "pourcentage": 6.76,
+          "elu": false
+        },
+        {
+          "id": "mangrolia",
+          "voix": 1976,
+          "pourcentage": 4.04,
+          "elu": false
+        },
+        {
+          "id": "payet",
+          "voix": 1865,
+          "pourcentage": 3.81,
+          "elu": false
+        },
+        {
+          "id": "sautron",
+          "voix": 1581,
+          "pourcentage": 3.23,
+          "elu": false
+        },
+        {
+          "id": "persee",
+          "voix": 540,
+          "pourcentage": 1.1,
+          "elu": false
+        },
+        {
+          "id": "welmant",
+          "voix": 384,
+          "pourcentage": 0.79,
+          "elu": false
+        }
+      ]
+    }
   }
 }

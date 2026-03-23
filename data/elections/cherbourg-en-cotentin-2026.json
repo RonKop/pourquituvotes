@@ -590,6 +590,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 55140,
+      "abstentions": 24354,
+      "tauxParticipation": 55.83,
+      "votants": 30786,
+      "blancs": 551,
+      "nuls": 330,
+      "exprimes": 29905,
+      "candidats": [
+        {
+          "id": "margueritte",
+          "voix": 15882,
+          "pourcentage": 53.11,
+          "elu": false
+        },
+        {
+          "id": "arrive",
+          "voix": 14023,
+          "pourcentage": 46.89,
+          "elu": false
+        }
+      ]
+    }
   }
 }

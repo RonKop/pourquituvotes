@@ -650,6 +650,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 67356,
+      "abstentions": 26743,
+      "tauxParticipation": 60.3,
+      "votants": 40613,
+      "blancs": 747,
+      "nuls": 700,
+      "exprimes": 39166,
+      "candidats": [
+        {
+          "id": "chaussalet",
+          "voix": 17738,
+          "pourcentage": 45.29,
+          "elu": false
+        },
+        {
+          "id": "thien-ah-koon",
+          "voix": 16932,
+          "pourcentage": 43.23,
+          "elu": false
+        },
+        {
+          "id": "bassire",
+          "voix": 4496,
+          "pourcentage": 11.48,
+          "elu": false
+        }
+      ]
+    }
   }
 }

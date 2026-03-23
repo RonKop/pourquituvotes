@@ -591,6 +591,42 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "bagayoko"
+    "eluMaire": "bagayoko",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 63901,
+      "abstentions": 36524,
+      "tauxParticipation": 42.84,
+      "votants": 27377,
+      "blancs": 457,
+      "nuls": 320,
+      "exprimes": 26600,
+      "candidats": [
+        {
+          "id": "bagayoko",
+          "voix": 13506,
+          "pourcentage": 50.77,
+          "elu": false
+        },
+        {
+          "id": "hanotin",
+          "voix": 8698,
+          "pourcentage": 32.7,
+          "elu": false
+        },
+        {
+          "id": "marcel",
+          "voix": 1894,
+          "pourcentage": 7.12,
+          "elu": false
+        },
+        {
+          "id": "gutierrez",
+          "voix": 919,
+          "pourcentage": 3.45,
+          "elu": false
+        }
+      ]
+    }
   }
 }

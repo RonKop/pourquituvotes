@@ -138,6 +138,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 26419,
+      "abstentions": 12441,
+      "tauxParticipation": 52.91,
+      "votants": 13978,
+      "blancs": 443,
+      "nuls": 299,
+      "exprimes": 13236,
+      "candidats": [
+        {
+          "id": "claverie",
+          "voix": 5142,
+          "pourcentage": 38.85,
+          "elu": false
+        },
+        {
+          "id": "peyregne",
+          "voix": 4726,
+          "pourcentage": 35.71,
+          "elu": false
+        },
+        {
+          "id": "garnier",
+          "voix": 3368,
+          "pourcentage": 25.45,
+          "elu": false
+        }
+      ]
+    }
   }
 }

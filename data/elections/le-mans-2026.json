@@ -926,6 +926,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 91974,
+      "abstentions": 47630,
+      "tauxParticipation": 48.21,
+      "votants": 44344,
+      "blancs": 917,
+      "nuls": 0,
+      "exprimes": 43427,
+      "candidats": [
+        {
+          "id": "foll",
+          "voix": 21739,
+          "pourcentage": 50.06,
+          "elu": false
+        },
+        {
+          "id": "karamanli",
+          "voix": 9372,
+          "pourcentage": 21.58,
+          "elu": false
+        },
+        {
+          "id": "vigneral",
+          "voix": 7040,
+          "pourcentage": 16.21,
+          "elu": false
+        },
+        {
+          "id": "sasso",
+          "voix": 5276,
+          "pourcentage": 12.15,
+          "elu": false
+        }
+      ]
+    }
   }
 }

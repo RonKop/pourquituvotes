@@ -2152,6 +2152,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 150028,
+      "abstentions": 59905,
+      "tauxParticipation": 60.07,
+      "votants": 90123,
+      "blancs": 840,
+      "nuls": 462,
+      "exprimes": 88821,
+      "candidats": [
+        {
+          "id": "trautmann",
+          "voix": 32867,
+          "pourcentage": 37.0,
+          "elu": false
+        },
+        {
+          "id": "barseghian",
+          "voix": 28160,
+          "pourcentage": 31.7,
+          "elu": false
+        },
+        {
+          "id": "vetter",
+          "voix": 27794,
+          "pourcentage": 31.29,
+          "elu": false
+        }
+      ]
+    }
   }
 }

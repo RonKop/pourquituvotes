@@ -770,6 +770,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 47256,
+      "abstentions": 27501,
+      "tauxParticipation": 41.8,
+      "votants": 19755,
+      "blancs": 244,
+      "nuls": 186,
+      "exprimes": 19325,
+      "candidats": [
+        {
+          "id": "cathala",
+          "voix": 9789,
+          "pourcentage": 50.65,
+          "elu": false
+        },
+        {
+          "id": "thezard",
+          "voix": 5113,
+          "pourcentage": 26.46,
+          "elu": false
+        },
+        {
+          "id": "djaffar",
+          "voix": 4416,
+          "pourcentage": 22.85,
+          "elu": false
+        },
+        {
+          "id": "hebbrecht",
+          "voix": 7,
+          "pourcentage": 0.04,
+          "elu": false
+        }
+      ]
+    }
   }
 }

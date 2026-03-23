@@ -1140,6 +1140,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 57067,
+      "abstentions": 28679,
+      "tauxParticipation": 49.75,
+      "votants": 28388,
+      "blancs": 308,
+      "nuls": 252,
+      "exprimes": 27828,
+      "candidats": [
+        {
+          "id": "falorni",
+          "voix": 12149,
+          "pourcentage": 43.66,
+          "elu": false
+        },
+        {
+          "id": "simone",
+          "voix": 8346,
+          "pourcentage": 29.99,
+          "elu": false
+        },
+        {
+          "id": "batcabe",
+          "voix": 4568,
+          "pourcentage": 16.42,
+          "elu": false
+        },
+        {
+          "id": "guiraud",
+          "voix": 2765,
+          "pourcentage": 9.94,
+          "elu": false
+        }
+      ]
+    }
   }
 }

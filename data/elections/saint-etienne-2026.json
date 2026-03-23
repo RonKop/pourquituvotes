@@ -3220,6 +3220,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 88747,
+      "abstentions": 43820,
+      "tauxParticipation": 50.62,
+      "votants": 44927,
+      "blancs": 403,
+      "nuls": 351,
+      "exprimes": 44173,
+      "candidats": [
+        {
+          "id": "juanico",
+          "voix": 19493,
+          "pourcentage": 44.13,
+          "elu": false
+        },
+        {
+          "id": "jousserand",
+          "voix": 11786,
+          "pourcentage": 26.68,
+          "elu": false
+        },
+        {
+          "id": "cinieri",
+          "voix": 8284,
+          "pourcentage": 18.75,
+          "elu": false
+        },
+        {
+          "id": "mercier",
+          "voix": 4610,
+          "pourcentage": 10.44,
+          "elu": false
+        }
+      ]
+    }
   }
 }

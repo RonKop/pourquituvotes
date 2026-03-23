@@ -1799,6 +1799,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 321188,
+      "abstentions": 109006,
+      "tauxParticipation": 66.06,
+      "votants": 212182,
+      "blancs": 3772,
+      "nuls": 1768,
+      "exprimes": 206642,
+      "candidats": [
+        {
+          "id": "doucet",
+          "voix": 104702,
+          "pourcentage": 50.67,
+          "elu": false
+        },
+        {
+          "id": "aulas",
+          "voix": 101940,
+          "pourcentage": 49.33,
+          "elu": false
+        }
+      ]
+    }
   }
 }

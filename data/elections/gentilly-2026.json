@@ -1439,6 +1439,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 10590,
+      "abstentions": 4547,
+      "tauxParticipation": 57.06,
+      "votants": 6043,
+      "blancs": 35,
+      "nuls": 54,
+      "exprimes": 5954,
+      "candidats": [
+        {
+          "id": "aggoune",
+          "voix": 2937,
+          "pourcentage": 49.33,
+          "elu": false
+        },
+        {
+          "id": "crespin",
+          "voix": 1982,
+          "pourcentage": 33.29,
+          "elu": false
+        },
+        {
+          "id": "godard",
+          "voix": 1035,
+          "pourcentage": 17.38,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -650,6 +650,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 94344,
+      "abstentions": 39759,
+      "tauxParticipation": 57.86,
+      "votants": 54585,
+      "blancs": 419,
+      "nuls": 474,
+      "exprimes": 53692,
+      "candidats": [
+        {
+          "id": "bouget",
+          "voix": 21997,
+          "pourcentage": 40.97,
+          "elu": false
+        },
+        {
+          "id": "sanchez",
+          "voix": 20145,
+          "pourcentage": 37.52,
+          "elu": false
+        },
+        {
+          "id": "proust",
+          "voix": 11550,
+          "pourcentage": 21.51,
+          "elu": false
+        }
+      ]
+    }
   }
 }

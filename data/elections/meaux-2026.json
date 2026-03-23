@@ -88,6 +88,42 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "cope"
+    "eluMaire": "cope",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 30856,
+      "abstentions": 15450,
+      "tauxParticipation": 49.93,
+      "votants": 15406,
+      "blancs": 144,
+      "nuls": 141,
+      "exprimes": 15121,
+      "candidats": [
+        {
+          "id": "cope",
+          "voix": 9594,
+          "pourcentage": 63.45,
+          "elu": false
+        },
+        {
+          "id": "bentounsi",
+          "voix": 2572,
+          "pourcentage": 17.01,
+          "elu": false
+        },
+        {
+          "id": "roullaud",
+          "voix": 1484,
+          "pourcentage": 9.81,
+          "elu": false
+        },
+        {
+          "id": "rousseau",
+          "voix": 1471,
+          "pourcentage": 9.73,
+          "elu": false
+        }
+      ]
+    }
   }
 }

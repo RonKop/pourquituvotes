@@ -139,6 +139,60 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "soumaila"
+    "eluMaire": "soumaila",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 20148,
+      "abstentions": 7973,
+      "tauxParticipation": 60.43,
+      "votants": 12175,
+      "blancs": 103,
+      "nuls": 160,
+      "exprimes": 11912,
+      "candidats": [
+        {
+          "id": "soumaila",
+          "voix": 7254,
+          "pourcentage": 60.9,
+          "elu": false
+        },
+        {
+          "id": "haribou",
+          "voix": 2543,
+          "pourcentage": 21.35,
+          "elu": false
+        },
+        {
+          "id": "mhoudhoir",
+          "voix": 729,
+          "pourcentage": 6.12,
+          "elu": false
+        },
+        {
+          "id": "m-dallah",
+          "voix": 580,
+          "pourcentage": 4.87,
+          "elu": false
+        },
+        {
+          "id": "dinouraini",
+          "voix": 412,
+          "pourcentage": 3.46,
+          "elu": false
+        },
+        {
+          "id": "said-ali",
+          "voix": 199,
+          "pourcentage": 1.67,
+          "elu": false
+        },
+        {
+          "id": "youssouffa",
+          "voix": 195,
+          "pourcentage": 1.64,
+          "elu": false
+        }
+      ]
+    }
   }
 }

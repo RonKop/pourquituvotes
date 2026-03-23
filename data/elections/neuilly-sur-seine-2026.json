@@ -651,6 +651,48 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "fromantin"
+    "eluMaire": "fromantin",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 37588,
+      "abstentions": 17608,
+      "tauxParticipation": 53.16,
+      "votants": 19980,
+      "blancs": 133,
+      "nuls": 65,
+      "exprimes": 19782,
+      "candidats": [
+        {
+          "id": "fromantin",
+          "voix": 12773,
+          "pourcentage": 64.57,
+          "elu": false
+        },
+        {
+          "id": "aguelon",
+          "voix": 2492,
+          "pourcentage": 12.6,
+          "elu": false
+        },
+        {
+          "id": "stumm",
+          "voix": 1879,
+          "pourcentage": 9.5,
+          "elu": false
+        },
+        {
+          "id": "basini",
+          "voix": 1366,
+          "pourcentage": 6.91,
+          "elu": false
+        },
+        {
+          "id": "colombani",
+          "voix": 1272,
+          "pourcentage": 6.43,
+          "elu": false
+        }
+      ]
+    }
   }
 }

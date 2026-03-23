@@ -923,6 +923,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 32697,
+      "abstentions": 17112,
+      "tauxParticipation": 47.66,
+      "votants": 15585,
+      "blancs": 206,
+      "nuls": 150,
+      "exprimes": 15229,
+      "candidats": [
+        {
+          "id": "garzon",
+          "voix": 7008,
+          "pourcentage": 46.02,
+          "elu": false
+        },
+        {
+          "id": "esclangon",
+          "voix": 4269,
+          "pourcentage": 28.03,
+          "elu": false
+        },
+        {
+          "id": "conquet",
+          "voix": 3952,
+          "pourcentage": 25.95,
+          "elu": false
+        }
+      ]
+    }
   }
 }

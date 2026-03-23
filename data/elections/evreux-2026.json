@@ -155,6 +155,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 26307,
+      "abstentions": 12814,
+      "tauxParticipation": 51.29,
+      "votants": 13493,
+      "blancs": 151,
+      "nuls": 130,
+      "exprimes": 13212,
+      "candidats": [
+        {
+          "id": "lefrand",
+          "voix": 4569,
+          "pourcentage": 34.58,
+          "elu": false
+        },
+        {
+          "id": "brigantino",
+          "voix": 4049,
+          "pourcentage": 30.65,
+          "elu": false
+        },
+        {
+          "id": "silighini",
+          "voix": 2922,
+          "pourcentage": 22.12,
+          "elu": false
+        },
+        {
+          "id": "petitjean",
+          "voix": 1672,
+          "pourcentage": 12.66,
+          "elu": false
+        }
+      ]
+    }
   }
 }

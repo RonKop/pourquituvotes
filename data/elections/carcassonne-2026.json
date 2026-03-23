@@ -104,6 +104,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 30379,
+      "abstentions": 11145,
+      "tauxParticipation": 63.31,
+      "votants": 19234,
+      "blancs": 253,
+      "nuls": 274,
+      "exprimes": 18707,
+      "candidats": [
+        {
+          "id": "barthes",
+          "voix": 7558,
+          "pourcentage": 40.4,
+          "elu": false
+        },
+        {
+          "id": "mourad",
+          "voix": 5770,
+          "pourcentage": 30.84,
+          "elu": false
+        },
+        {
+          "id": "soler-alcaraz",
+          "voix": 5379,
+          "pourcentage": 28.75,
+          "elu": false
+        }
+      ]
+    }
   }
 }

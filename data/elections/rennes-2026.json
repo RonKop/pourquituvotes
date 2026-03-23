@@ -1943,6 +1943,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 128996,
+      "abstentions": 54754,
+      "tauxParticipation": 57.55,
+      "votants": 74242,
+      "blancs": 750,
+      "nuls": 550,
+      "exprimes": 72942,
+      "candidats": [
+        {
+          "id": "appere",
+          "voix": 31937,
+          "pourcentage": 43.78,
+          "elu": false
+        },
+        {
+          "id": "compagnon",
+          "voix": 26534,
+          "pourcentage": 36.38,
+          "elu": false
+        },
+        {
+          "id": "mesmeur",
+          "voix": 14471,
+          "pourcentage": 19.84,
+          "elu": false
+        }
+      ]
+    }
   }
 }

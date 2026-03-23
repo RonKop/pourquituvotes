@@ -1497,6 +1497,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 49802,
+      "abstentions": 31135,
+      "tauxParticipation": 37.48,
+      "votants": 18667,
+      "blancs": 175,
+      "nuls": 211,
+      "exprimes": 18281,
+      "candidats": [
+        {
+          "id": "guiraud",
+          "voix": 9723,
+          "pourcentage": 53.19,
+          "elu": false
+        },
+        {
+          "id": "garcin",
+          "voix": 4670,
+          "pourcentage": 25.55,
+          "elu": false
+        },
+        {
+          "id": "amrouni",
+          "voix": 2066,
+          "pourcentage": 11.3,
+          "elu": false
+        },
+        {
+          "id": "sayah",
+          "voix": 1822,
+          "pourcentage": 9.97,
+          "elu": false
+        }
+      ]
+    }
   }
 }

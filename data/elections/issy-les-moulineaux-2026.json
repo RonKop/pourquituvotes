@@ -804,6 +804,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 46084,
+      "abstentions": 21332,
+      "tauxParticipation": 53.71,
+      "votants": 24752,
+      "blancs": 528,
+      "nuls": 0,
+      "exprimes": 24224,
+      "candidats": [
+        {
+          "id": "santini",
+          "voix": 11610,
+          "pourcentage": 47.93,
+          "elu": false
+        },
+        {
+          "id": "morel",
+          "voix": 7111,
+          "pourcentage": 29.36,
+          "elu": false
+        },
+        {
+          "id": "vessiere",
+          "voix": 5503,
+          "pourcentage": 22.72,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1483,6 +1483,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 66404,
+      "abstentions": 35524,
+      "tauxParticipation": 46.5,
+      "votants": 30880,
+      "blancs": 554,
+      "nuls": 368,
+      "exprimes": 29958,
+      "candidats": [
+        {
+          "id": "grouard",
+          "voix": 17320,
+          "pourcentage": 57.81,
+          "elu": false
+        },
+        {
+          "id": "chapuis",
+          "voix": 12638,
+          "pourcentage": 42.19,
+          "elu": false
+        }
+      ]
+    }
   }
 }

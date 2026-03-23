@@ -650,6 +650,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 32219,
+      "abstentions": 17162,
+      "tauxParticipation": 46.73,
+      "votants": 15057,
+      "blancs": 171,
+      "nuls": 97,
+      "exprimes": 14789,
+      "candidats": [
+        {
+          "id": "jeandon",
+          "voix": 5493,
+          "pourcentage": 37.14,
+          "elu": false
+        },
+        {
+          "id": "payet",
+          "voix": 5308,
+          "pourcentage": 35.89,
+          "elu": false
+        },
+        {
+          "id": "yaich",
+          "voix": 3988,
+          "pourcentage": 26.97,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -71,6 +71,36 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "robert"
+    "eluMaire": "robert",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 22560,
+      "abstentions": 11014,
+      "tauxParticipation": 51.18,
+      "votants": 11546,
+      "blancs": 169,
+      "nuls": 71,
+      "exprimes": 11306,
+      "candidats": [
+        {
+          "id": "robert",
+          "voix": 5734,
+          "pourcentage": 50.72,
+          "elu": false
+        },
+        {
+          "id": "clavet",
+          "voix": 5256,
+          "pourcentage": 46.49,
+          "elu": false
+        },
+        {
+          "id": "darras",
+          "voix": 316,
+          "pourcentage": 2.79,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1445,6 +1445,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 126088,
+      "abstentions": 60137,
+      "tauxParticipation": 52.31,
+      "votants": 65951,
+      "blancs": 530,
+      "nuls": 387,
+      "exprimes": 65034,
+      "candidats": [
+        {
+          "id": "deslandes",
+          "voix": 32083,
+          "pourcentage": 49.33,
+          "elu": false
+        },
+        {
+          "id": "addouche",
+          "voix": 21916,
+          "pourcentage": 33.7,
+          "elu": false
+        },
+        {
+          "id": "valet",
+          "voix": 5841,
+          "pourcentage": 8.98,
+          "elu": false
+        },
+        {
+          "id": "spillebout",
+          "voix": 5194,
+          "pourcentage": 7.99,
+          "elu": false
+        }
+      ]
+    }
   }
 }

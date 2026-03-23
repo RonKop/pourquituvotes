@@ -104,6 +104,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 20811,
+      "abstentions": 8088,
+      "tauxParticipation": 61.14,
+      "votants": 12723,
+      "blancs": 148,
+      "nuls": 146,
+      "exprimes": 12429,
+      "candidats": [
+        {
+          "id": "dutin",
+          "voix": 4718,
+          "pourcentage": 37.96,
+          "elu": false
+        },
+        {
+          "id": "dayot",
+          "voix": 4022,
+          "pourcentage": 32.36,
+          "elu": false
+        },
+        {
+          "id": "darrieussecq",
+          "voix": 2461,
+          "pourcentage": 19.8,
+          "elu": false
+        },
+        {
+          "id": "leregle",
+          "voix": 1228,
+          "pourcentage": 9.88,
+          "elu": false
+        }
+      ]
+    }
   }
 }

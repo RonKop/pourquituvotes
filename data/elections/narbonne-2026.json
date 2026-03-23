@@ -121,6 +121,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 40334,
+      "abstentions": 19064,
+      "tauxParticipation": 52.73,
+      "votants": 21270,
+      "blancs": 302,
+      "nuls": 364,
+      "exprimes": 20604,
+      "candidats": [
+        {
+          "id": "malquier",
+          "voix": 12190,
+          "pourcentage": 59.16,
+          "elu": false
+        },
+        {
+          "id": "falcon",
+          "voix": 4446,
+          "pourcentage": 21.58,
+          "elu": false
+        },
+        {
+          "id": "sainte-cluque",
+          "voix": 3968,
+          "pourcentage": 19.26,
+          "elu": false
+        }
+      ]
+    }
   }
 }

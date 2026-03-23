@@ -1408,6 +1408,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 203158,
+      "abstentions": 75082,
+      "tauxParticipation": 63.04,
+      "votants": 128076,
+      "blancs": 3024,
+      "nuls": 1175,
+      "exprimes": 123877,
+      "candidats": [
+        {
+          "id": "rolland",
+          "voix": 64644,
+          "pourcentage": 52.18,
+          "elu": false
+        },
+        {
+          "id": "chombart",
+          "voix": 59233,
+          "pourcentage": 47.82,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1164,6 +1164,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 36162,
+      "abstentions": 17109,
+      "tauxParticipation": 52.69,
+      "votants": 19053,
+      "blancs": 278,
+      "nuls": 148,
+      "exprimes": 18627,
+      "candidats": [
+        {
+          "id": "repentin",
+          "voix": 8423,
+          "pourcentage": 45.22,
+          "elu": false
+        },
+        {
+          "id": "patey",
+          "voix": 8165,
+          "pourcentage": 43.83,
+          "elu": false
+        },
+        {
+          "id": "bernard",
+          "voix": 2039,
+          "pourcentage": 10.95,
+          "elu": false
+        }
+      ]
+    }
   }
 }

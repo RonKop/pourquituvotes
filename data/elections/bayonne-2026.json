@@ -104,6 +104,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 36380,
+      "abstentions": 16520,
+      "tauxParticipation": 54.59,
+      "votants": 19860,
+      "blancs": 199,
+      "nuls": 180,
+      "exprimes": 19481,
+      "candidats": [
+        {
+          "id": "etchegaray",
+          "voix": 9876,
+          "pourcentage": 50.7,
+          "elu": false
+        },
+        {
+          "id": "iriart",
+          "voix": 7990,
+          "pourcentage": 41.01,
+          "elu": false
+        },
+        {
+          "id": "lesellier",
+          "voix": 1615,
+          "pourcentage": 8.29,
+          "elu": false
+        }
+      ]
+    }
   }
 }

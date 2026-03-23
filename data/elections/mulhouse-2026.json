@@ -2201,6 +2201,48 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 49949,
+      "abstentions": 26511,
+      "tauxParticipation": 46.92,
+      "votants": 23438,
+      "blancs": 351,
+      "nuls": 0,
+      "exprimes": 23087,
+      "candidats": [
+        {
+          "id": "marquet",
+          "voix": 5556,
+          "pourcentage": 24.07,
+          "elu": false
+        },
+        {
+          "id": "minery",
+          "voix": 4934,
+          "pourcentage": 21.37,
+          "elu": false
+        },
+        {
+          "id": "sassi",
+          "voix": 4852,
+          "pourcentage": 21.02,
+          "elu": false
+        },
+        {
+          "id": "lutz",
+          "voix": 4645,
+          "pourcentage": 20.12,
+          "elu": false
+        },
+        {
+          "id": "ritz",
+          "voix": 3100,
+          "pourcentage": 13.43,
+          "elu": false
+        }
+      ]
+    }
   }
 }

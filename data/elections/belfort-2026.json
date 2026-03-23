@@ -121,6 +121,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 23859,
+      "abstentions": 10939,
+      "tauxParticipation": 54.15,
+      "votants": 12920,
+      "blancs": 151,
+      "nuls": 165,
+      "exprimes": 12604,
+      "candidats": [
+        {
+          "id": "meslot",
+          "voix": 6732,
+          "pourcentage": 53.41,
+          "elu": false
+        },
+        {
+          "id": "chauche",
+          "voix": 3517,
+          "pourcentage": 27.9,
+          "elu": false
+        },
+        {
+          "id": "faudot",
+          "voix": 1205,
+          "pourcentage": 9.56,
+          "elu": false
+        },
+        {
+          "id": "soustelle",
+          "voix": 1150,
+          "pourcentage": 9.12,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -105,6 +105,48 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "leturque"
+    "eluMaire": "leturque",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 28275,
+      "abstentions": 13568,
+      "tauxParticipation": 52.01,
+      "votants": 14707,
+      "blancs": 142,
+      "nuls": 163,
+      "exprimes": 14402,
+      "candidats": [
+        {
+          "id": "leturque",
+          "voix": 8695,
+          "pourcentage": 60.37,
+          "elu": false
+        },
+        {
+          "id": "heusele",
+          "voix": 2759,
+          "pourcentage": 19.16,
+          "elu": false
+        },
+        {
+          "id": "detourne",
+          "voix": 1926,
+          "pourcentage": 13.37,
+          "elu": false
+        },
+        {
+          "id": "kremer",
+          "voix": 829,
+          "pourcentage": 5.76,
+          "elu": false
+        },
+        {
+          "id": "belhadj",
+          "voix": 193,
+          "pourcentage": 1.34,
+          "elu": false
+        }
+      ]
+    }
   }
 }

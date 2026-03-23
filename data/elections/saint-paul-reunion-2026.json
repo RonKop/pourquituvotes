@@ -650,6 +650,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 89459,
+      "abstentions": 37749,
+      "tauxParticipation": 57.8,
+      "votants": 51710,
+      "blancs": 1005,
+      "nuls": 1061,
+      "exprimes": 49644,
+      "candidats": [
+        {
+          "id": "seraphin",
+          "voix": 27670,
+          "pourcentage": 55.74,
+          "elu": false
+        },
+        {
+          "id": "melchior",
+          "voix": 21974,
+          "pourcentage": 44.26,
+          "elu": false
+        }
+      ]
+    }
   }
 }

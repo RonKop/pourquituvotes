@@ -669,6 +669,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 53236,
+      "abstentions": 24986,
+      "tauxParticipation": 53.07,
+      "votants": 28250,
+      "blancs": 449,
+      "nuls": 0,
+      "exprimes": 27801,
+      "candidats": [
+        {
+          "id": "kossowski",
+          "voix": 11807,
+          "pourcentage": 42.47,
+          "elu": false
+        },
+        {
+          "id": "taquillain",
+          "voix": 9488,
+          "pourcentage": 34.13,
+          "elu": false
+        },
+        {
+          "id": "thomas",
+          "voix": 4432,
+          "pourcentage": 15.94,
+          "elu": false
+        },
+        {
+          "id": "jule",
+          "voix": 2074,
+          "pourcentage": 7.46,
+          "elu": false
+        }
+      ]
+    }
   }
 }

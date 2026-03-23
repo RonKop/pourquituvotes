@@ -105,6 +105,48 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "ravignon"
+    "eluMaire": "ravignon",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 26053,
+      "abstentions": 13647,
+      "tauxParticipation": 47.62,
+      "votants": 12406,
+      "blancs": 139,
+      "nuls": 140,
+      "exprimes": 12127,
+      "candidats": [
+        {
+          "id": "ravignon",
+          "voix": 7993,
+          "pourcentage": 65.91,
+          "elu": false
+        },
+        {
+          "id": "lerouge",
+          "voix": 2443,
+          "pourcentage": 20.15,
+          "elu": false
+        },
+        {
+          "id": "petitfils",
+          "voix": 1185,
+          "pourcentage": 9.77,
+          "elu": false
+        },
+        {
+          "id": "takawe",
+          "voix": 302,
+          "pourcentage": 2.49,
+          "elu": false
+        },
+        {
+          "id": "benyoucef",
+          "voix": 204,
+          "pourcentage": 1.68,
+          "elu": false
+        }
+      ]
+    }
   }
 }

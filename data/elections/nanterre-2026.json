@@ -1119,6 +1119,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 51977,
+      "abstentions": 30277,
+      "tauxParticipation": 41.75,
+      "votants": 21700,
+      "blancs": 357,
+      "nuls": 171,
+      "exprimes": 21172,
+      "candidats": [
+        {
+          "id": "adam",
+          "voix": 10147,
+          "pourcentage": 47.93,
+          "elu": false
+        },
+        {
+          "id": "matouk",
+          "voix": 7536,
+          "pourcentage": 35.59,
+          "elu": false
+        },
+        {
+          "id": "huyghe",
+          "voix": 3489,
+          "pourcentage": 16.48,
+          "elu": false
+        }
+      ]
+    }
   }
 }

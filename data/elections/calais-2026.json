@@ -765,6 +765,54 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "bouchart"
+    "eluMaire": "bouchart",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 51631,
+      "abstentions": 25508,
+      "tauxParticipation": 50.6,
+      "votants": 26123,
+      "blancs": 237,
+      "nuls": 223,
+      "exprimes": 25663,
+      "candidats": [
+        {
+          "id": "bouchart",
+          "voix": 15412,
+          "pourcentage": 60.06,
+          "elu": false
+        },
+        {
+          "id": "fleurian",
+          "voix": 7031,
+          "pourcentage": 27.4,
+          "elu": false
+        },
+        {
+          "id": "lannoy",
+          "voix": 1360,
+          "pourcentage": 5.3,
+          "elu": false
+        },
+        {
+          "id": "lavigne",
+          "voix": 1078,
+          "pourcentage": 4.2,
+          "elu": false
+        },
+        {
+          "id": "debaisieux",
+          "voix": 483,
+          "pourcentage": 1.88,
+          "elu": false
+        },
+        {
+          "id": "nicolas",
+          "voix": 299,
+          "pourcentage": 1.17,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -806,6 +806,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 73873,
+      "abstentions": 36454,
+      "tauxParticipation": 50.65,
+      "votants": 37419,
+      "blancs": 648,
+      "nuls": 0,
+      "exprimes": 36771,
+      "candidats": [
+        {
+          "id": "baguet",
+          "voix": 19168,
+          "pourcentage": 52.13,
+          "elu": false
+        },
+        {
+          "id": "jerphanion",
+          "voix": 12389,
+          "pourcentage": 33.69,
+          "elu": false
+        },
+        {
+          "id": "rapilly-ferniot",
+          "voix": 5214,
+          "pourcentage": 14.18,
+          "elu": false
+        }
+      ]
+    }
   }
 }

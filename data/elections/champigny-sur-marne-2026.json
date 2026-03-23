@@ -728,6 +728,48 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "jeanne"
+    "eluMaire": "jeanne",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 45954,
+      "abstentions": 23418,
+      "tauxParticipation": 49.04,
+      "votants": 22536,
+      "blancs": 207,
+      "nuls": 216,
+      "exprimes": 22113,
+      "candidats": [
+        {
+          "id": "jeanne",
+          "voix": 11797,
+          "pourcentage": 53.35,
+          "elu": false
+        },
+        {
+          "id": "leger",
+          "voix": 6817,
+          "pourcentage": 30.83,
+          "elu": false
+        },
+        {
+          "id": "keita-gassama",
+          "voix": 2994,
+          "pourcentage": 13.54,
+          "elu": false
+        },
+        {
+          "id": "rekab",
+          "voix": 315,
+          "pourcentage": 1.42,
+          "elu": false
+        },
+        {
+          "id": "chiche",
+          "voix": 190,
+          "pourcentage": 0.86,
+          "elu": false
+        }
+      ]
+    }
   }
 }

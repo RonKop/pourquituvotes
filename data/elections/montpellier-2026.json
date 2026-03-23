@@ -2442,6 +2442,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 175016,
+      "abstentions": 94797,
+      "tauxParticipation": 45.84,
+      "votants": 80219,
+      "blancs": 2000,
+      "nuls": 1082,
+      "exprimes": 77137,
+      "candidats": [
+        {
+          "id": "delafosse",
+          "voix": 38668,
+          "pourcentage": 50.13,
+          "elu": false
+        },
+        {
+          "id": "oziol",
+          "voix": 19332,
+          "pourcentage": 25.06,
+          "elu": false
+        },
+        {
+          "id": "altrad",
+          "voix": 19137,
+          "pourcentage": 24.81,
+          "elu": false
+        }
+      ]
+    }
   }
 }

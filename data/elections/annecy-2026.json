@@ -985,6 +985,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 89511,
+      "abstentions": 40704,
+      "tauxParticipation": 54.53,
+      "votants": 48807,
+      "blancs": 702,
+      "nuls": 436,
+      "exprimes": 47669,
+      "candidats": [
+        {
+          "id": "armand",
+          "voix": 23530,
+          "pourcentage": 49.36,
+          "elu": false
+        },
+        {
+          "id": "mulatier-gachet",
+          "voix": 16743,
+          "pourcentage": 35.12,
+          "elu": false
+        },
+        {
+          "id": "roit-leveque",
+          "voix": 7396,
+          "pourcentage": 15.52,
+          "elu": false
+        }
+      ]
+    }
   }
 }

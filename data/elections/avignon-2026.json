@@ -890,6 +890,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 58246,
+      "abstentions": 28394,
+      "tauxParticipation": 51.25,
+      "votants": 29852,
+      "blancs": 431,
+      "nuls": 279,
+      "exprimes": 29142,
+      "candidats": [
+        {
+          "id": "galzi",
+          "voix": 11837,
+          "pourcentage": 40.62,
+          "elu": false
+        },
+        {
+          "id": "fournier",
+          "voix": 11077,
+          "pourcentage": 38.01,
+          "elu": false
+        },
+        {
+          "id": "rigault",
+          "voix": 6228,
+          "pourcentage": 21.37,
+          "elu": false
+        }
+      ]
+    }
   }
 }

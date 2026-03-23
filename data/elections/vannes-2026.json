@@ -105,6 +105,48 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "robo"
+    "eluMaire": "robo",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 38525,
+      "abstentions": 16800,
+      "tauxParticipation": 56.39,
+      "votants": 21725,
+      "blancs": 176,
+      "nuls": 153,
+      "exprimes": 21396,
+      "candidats": [
+        {
+          "id": "robo",
+          "voix": 10784,
+          "pourcentage": 50.4,
+          "elu": false
+        },
+        {
+          "id": "essola",
+          "voix": 5139,
+          "pourcentage": 24.02,
+          "elu": false
+        },
+        {
+          "id": "de-williencourt",
+          "voix": 2706,
+          "pourcentage": 12.65,
+          "elu": false
+        },
+        {
+          "id": "legros",
+          "voix": 1561,
+          "pourcentage": 7.3,
+          "elu": false
+        },
+        {
+          "id": "vautier",
+          "voix": 1206,
+          "pourcentage": 5.64,
+          "elu": false
+        }
+      ]
+    }
   }
 }

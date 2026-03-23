@@ -88,6 +88,42 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "de-carvalho"
+    "eluMaire": "de-carvalho",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 21811,
+      "abstentions": 12631,
+      "tauxParticipation": 42.09,
+      "votants": 9180,
+      "blancs": 186,
+      "nuls": 116,
+      "exprimes": 8878,
+      "candidats": [
+        {
+          "id": "de-carvalho",
+          "voix": 5673,
+          "pourcentage": 63.9,
+          "elu": false
+        },
+        {
+          "id": "jaouani",
+          "voix": 1112,
+          "pourcentage": 12.53,
+          "elu": false
+        },
+        {
+          "id": "matiatos",
+          "voix": 1066,
+          "pourcentage": 12.01,
+          "elu": false
+        },
+        {
+          "id": "hocini",
+          "voix": 1027,
+          "pourcentage": 11.57,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1400,6 +1400,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 86990,
+      "abstentions": 35654,
+      "tauxParticipation": 59.01,
+      "votants": 51336,
+      "blancs": 1945,
+      "nuls": 0,
+      "exprimes": 49391,
+      "candidats": [
+        {
+          "id": "roudaut",
+          "voix": 28343,
+          "pourcentage": 57.38,
+          "elu": false
+        },
+        {
+          "id": "cuillandre",
+          "voix": 18919,
+          "pourcentage": 38.3,
+          "elu": false
+        },
+        {
+          "id": "pages",
+          "voix": 2129,
+          "pourcentage": 4.31,
+          "elu": false
+        }
+      ]
+    }
   }
 }

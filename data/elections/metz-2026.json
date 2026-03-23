@@ -1293,6 +1293,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 72036,
+      "abstentions": 40468,
+      "tauxParticipation": 43.82,
+      "votants": 31568,
+      "blancs": 309,
+      "nuls": 304,
+      "exprimes": 30955,
+      "candidats": [
+        {
+          "id": "grosdidier",
+          "voix": 15650,
+          "pourcentage": 50.56,
+          "elu": false
+        },
+        {
+          "id": "anstett",
+          "voix": 5458,
+          "pourcentage": 17.63,
+          "elu": false
+        },
+        {
+          "id": "leduc",
+          "voix": 5389,
+          "pourcentage": 17.41,
+          "elu": false
+        },
+        {
+          "id": "mertz",
+          "voix": 4458,
+          "pourcentage": 14.4,
+          "elu": false
+        }
+      ]
+    }
   }
 }

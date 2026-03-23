@@ -937,6 +937,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 52226,
+      "abstentions": 22870,
+      "tauxParticipation": 56.21,
+      "votants": 29356,
+      "blancs": 1334,
+      "nuls": 0,
+      "exprimes": 28022,
+      "candidats": [
+        {
+          "id": "giacomoni",
+          "voix": 15265,
+          "pourcentage": 54.48,
+          "elu": false
+        },
+        {
+          "id": "chaimovitch",
+          "voix": 12757,
+          "pourcentage": 45.52,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1272,6 +1272,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 47511,
+      "abstentions": 27693,
+      "tauxParticipation": 41.71,
+      "votants": 19818,
+      "blancs": 317,
+      "nuls": 228,
+      "exprimes": 19273,
+      "candidats": [
+        {
+          "id": "bell-lloch",
+          "voix": 8997,
+          "pourcentage": 46.68,
+          "elu": false
+        },
+        {
+          "id": "tmimi",
+          "voix": 6316,
+          "pourcentage": 32.77,
+          "elu": false
+        },
+        {
+          "id": "serpette",
+          "voix": 3960,
+          "pourcentage": 20.55,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -2404,6 +2404,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 97603,
+      "abstentions": 52474,
+      "tauxParticipation": 46.24,
+      "votants": 45129,
+      "blancs": 453,
+      "nuls": 472,
+      "exprimes": 44204,
+      "candidats": [
+        {
+          "id": "joissains",
+          "voix": 20930,
+          "pourcentage": 47.35,
+          "elu": false
+        },
+        {
+          "id": "pena",
+          "voix": 13715,
+          "pourcentage": 31.03,
+          "elu": false
+        },
+        {
+          "id": "geiger",
+          "voix": 6039,
+          "pourcentage": 13.66,
+          "elu": false
+        },
+        {
+          "id": "klein",
+          "voix": 3520,
+          "pourcentage": 7.96,
+          "elu": false
+        }
+      ]
+    }
   }
 }

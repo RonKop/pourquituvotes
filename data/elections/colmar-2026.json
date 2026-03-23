@@ -830,6 +830,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 43737,
+      "abstentions": 23865,
+      "tauxParticipation": 45.44,
+      "votants": 19872,
+      "blancs": 227,
+      "nuls": 219,
+      "exprimes": 19426,
+      "candidats": [
+        {
+          "id": "straumann",
+          "voix": 7323,
+          "pourcentage": 37.7,
+          "elu": false
+        },
+        {
+          "id": "hemedinger",
+          "voix": 6144,
+          "pourcentage": 31.63,
+          "elu": false
+        },
+        {
+          "id": "hilbert",
+          "voix": 3335,
+          "pourcentage": 17.17,
+          "elu": false
+        },
+        {
+          "id": "aubert",
+          "voix": 2624,
+          "pourcentage": 13.51,
+          "elu": false
+        }
+      ]
+    }
   }
 }

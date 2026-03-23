@@ -650,6 +650,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 28980,
+      "abstentions": 14303,
+      "tauxParticipation": 50.65,
+      "votants": 14677,
+      "blancs": 125,
+      "nuls": 93,
+      "exprimes": 14459,
+      "candidats": [
+        {
+          "id": "kern",
+          "voix": 6087,
+          "pourcentage": 42.1,
+          "elu": false
+        },
+        {
+          "id": "bardoux",
+          "voix": 3632,
+          "pourcentage": 25.12,
+          "elu": false
+        },
+        {
+          "id": "monot",
+          "voix": 3281,
+          "pourcentage": 22.69,
+          "elu": false
+        },
+        {
+          "id": "carvalhinho",
+          "voix": 1459,
+          "pourcentage": 10.09,
+          "elu": false
+        }
+      ]
+    }
   }
 }

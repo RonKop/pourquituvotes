@@ -87,6 +87,30 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 28168,
+      "abstentions": 13227,
+      "tauxParticipation": 53.04,
+      "votants": 14941,
+      "blancs": 149,
+      "nuls": 120,
+      "exprimes": 14672,
+      "candidats": [
+        {
+          "id": "konate",
+          "voix": 8120,
+          "pourcentage": 55.34,
+          "elu": false
+        },
+        {
+          "id": "valentin",
+          "voix": 6552,
+          "pourcentage": 44.66,
+          "elu": false
+        }
+      ]
+    }
   }
 }

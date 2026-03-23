@@ -710,6 +710,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 31446,
+      "abstentions": 19401,
+      "tauxParticipation": 38.3,
+      "votants": 12045,
+      "blancs": 110,
+      "nuls": 150,
+      "exprimes": 11785,
+      "candidats": [
+        {
+          "id": "boumertit",
+          "voix": 4020,
+          "pourcentage": 34.11,
+          "elu": false
+        },
+        {
+          "id": "picard",
+          "voix": 3995,
+          "pourcentage": 33.9,
+          "elu": false
+        },
+        {
+          "id": "dureau",
+          "voix": 2409,
+          "pourcentage": 20.44,
+          "elu": false
+        },
+        {
+          "id": "taieb",
+          "voix": 1361,
+          "pourcentage": 11.55,
+          "elu": false
+        }
+      ]
+    }
   }
 }

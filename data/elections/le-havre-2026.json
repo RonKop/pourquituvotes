@@ -1340,6 +1340,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 103952,
+      "abstentions": 48107,
+      "tauxParticipation": 53.72,
+      "votants": 55845,
+      "blancs": 1032,
+      "nuls": 0,
+      "exprimes": 54813,
+      "candidats": [
+        {
+          "id": "philippe",
+          "voix": 26150,
+          "pourcentage": 47.71,
+          "elu": false
+        },
+        {
+          "id": "lecoq",
+          "voix": 22569,
+          "pourcentage": 41.17,
+          "elu": false
+        },
+        {
+          "id": "keller",
+          "voix": 6094,
+          "pourcentage": 11.12,
+          "elu": false
+        }
+      ]
+    }
   }
 }

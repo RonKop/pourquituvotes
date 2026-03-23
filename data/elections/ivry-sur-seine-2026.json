@@ -830,6 +830,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 32009,
+      "abstentions": 17293,
+      "tauxParticipation": 45.97,
+      "votants": 14716,
+      "blancs": 179,
+      "nuls": 223,
+      "exprimes": 14314,
+      "candidats": [
+        {
+          "id": "bouyssou",
+          "voix": 7611,
+          "pourcentage": 53.17,
+          "elu": false
+        },
+        {
+          "id": "monfret",
+          "voix": 3181,
+          "pourcentage": 22.22,
+          "elu": false
+        },
+        {
+          "id": "simonin-lacroix",
+          "voix": 1966,
+          "pourcentage": 13.73,
+          "elu": false
+        },
+        {
+          "id": "nader",
+          "voix": 1556,
+          "pourcentage": 10.87,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -830,6 +830,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 69745,
+      "abstentions": 29306,
+      "tauxParticipation": 57.98,
+      "votants": 40439,
+      "blancs": 651,
+      "nuls": 743,
+      "exprimes": 39045,
+      "candidats": [
+        {
+          "id": "lorion",
+          "voix": 21870,
+          "pourcentage": 56.01,
+          "elu": false
+        },
+        {
+          "id": "k-bidi",
+          "voix": 12123,
+          "pourcentage": 31.05,
+          "elu": false
+        },
+        {
+          "id": "anda-sita",
+          "voix": 5052,
+          "pourcentage": 12.94,
+          "elu": false
+        }
+      ]
+    }
   }
 }

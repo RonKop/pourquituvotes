@@ -1142,6 +1142,36 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 102775,
+      "abstentions": 56465,
+      "tauxParticipation": 45.06,
+      "votants": 46310,
+      "blancs": 479,
+      "nuls": 398,
+      "exprimes": 45433,
+      "candidats": [
+        {
+          "id": "robinet",
+          "voix": 23561,
+          "pourcentage": 51.86,
+          "elu": false
+        },
+        {
+          "id": "frigout",
+          "voix": 11777,
+          "pourcentage": 25.92,
+          "elu": false
+        },
+        {
+          "id": "quenard",
+          "voix": 10095,
+          "pourcentage": 22.22,
+          "elu": false
+        }
+      ]
+    }
   }
 }

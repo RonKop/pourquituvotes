@@ -104,6 +104,42 @@
         }
       ]
     },
-    "status": "provisoire"
+    "status": "provisoire",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 33135,
+      "abstentions": 13887,
+      "tauxParticipation": 58.09,
+      "votants": 19248,
+      "blancs": 256,
+      "nuls": 260,
+      "exprimes": 18732,
+      "candidats": [
+        {
+          "id": "guiraud-chaumeil",
+          "voix": 8268,
+          "pourcentage": 44.14,
+          "elu": false
+        },
+        {
+          "id": "ferrand-lefranc",
+          "voix": 5275,
+          "pourcentage": 28.16,
+          "elu": false
+        },
+        {
+          "id": "cabrolier",
+          "voix": 3057,
+          "pourcentage": 16.32,
+          "elu": false
+        },
+        {
+          "id": "at",
+          "voix": 2132,
+          "pourcentage": 11.38,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,49 @@
+{
+  "departement": "75",
+  "tour": 2,
+  "scrape_date": "2026-03-23T18:10:46.806604",
+  "communes": [
+    {
+      "code": "75056",
+      "nom": "Paris",
+      "slug": "paris",
+      "population": 2103778,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1404863,
+        "abstentions": 539493,
+        "tauxParticipation": 61.6,
+        "votants": 865370,
+        "blancs": 12240,
+        "nuls": 5698,
+        "exprimes": 847432,
+        "candidats": [
+          {
+            "nom": "Emmanuel GRÉGOIRE",
+            "liste": "Paris est à vous! avec Emmanuel Grégoire L'union de la gauche et des écologistes",
+            "nuance": "LUG",
+            "voix": 428143,
+            "pourcentage": 50.52,
+            "elu": true
+          },
+          {
+            "nom": "Rachida DATI",
+            "liste": "CHANGER PARIS AVEC RACHIDA DATI",
+            "nuance": "LUD",
+            "voix": 351825,
+            "pourcentage": 41.52,
+            "elu": true
+          },
+          {
+            "nom": "Sophia CHIKIROU",
+            "liste": "LE NOUVEAU PARIS POPULAIRE",
+            "nuance": "LFI",
+            "voix": 67464,
+            "pourcentage": 7.96,
+            "elu": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -696,6 +696,48 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "lagarde"
+    "eluMaire": "lagarde",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 35786,
+      "abstentions": 17610,
+      "tauxParticipation": 50.79,
+      "votants": 18176,
+      "blancs": 385,
+      "nuls": 251,
+      "exprimes": 17540,
+      "candidats": [
+        {
+          "id": "lagarde",
+          "voix": 11183,
+          "pourcentage": 63.76,
+          "elu": false
+        },
+        {
+          "id": "unver",
+          "voix": 2868,
+          "pourcentage": 16.35,
+          "elu": false
+        },
+        {
+          "id": "chabani",
+          "voix": 2350,
+          "pourcentage": 13.4,
+          "elu": false
+        },
+        {
+          "id": "chibane",
+          "voix": 890,
+          "pourcentage": 5.07,
+          "elu": false
+        },
+        {
+          "id": "bacha",
+          "voix": 249,
+          "pourcentage": 1.42,
+          "elu": false
+        }
+      ]
+    }
   }
 }

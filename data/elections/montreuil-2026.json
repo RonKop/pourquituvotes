@@ -1011,6 +1011,60 @@
       ]
     },
     "status": "provisoire",
-    "eluMaire": "bessac"
+    "eluMaire": "bessac",
+    "tour2": {
+      "date": "2026-03-22",
+      "inscrits": 65639,
+      "abstentions": 33989,
+      "tauxParticipation": 48.22,
+      "votants": 31650,
+      "blancs": 494,
+      "nuls": 257,
+      "exprimes": 30899,
+      "candidats": [
+        {
+          "id": "bessac",
+          "voix": 17834,
+          "pourcentage": 57.72,
+          "elu": false
+        },
+        {
+          "id": "shahryari",
+          "voix": 6972,
+          "pourcentage": 22.56,
+          "elu": false
+        },
+        {
+          "id": "nohan",
+          "voix": 2747,
+          "pourcentage": 8.89,
+          "elu": false
+        },
+        {
+          "id": "yonis",
+          "voix": 2236,
+          "pourcentage": 7.24,
+          "elu": false
+        },
+        {
+          "id": "mercier",
+          "voix": 503,
+          "pourcentage": 1.63,
+          "elu": false
+        },
+        {
+          "id": "keiser",
+          "voix": 358,
+          "pourcentage": 1.16,
+          "elu": false
+        },
+        {
+          "id": "deliba",
+          "voix": 249,
+          "pourcentage": 0.81,
+          "elu": false
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,4413 @@
+{
+  "departement": "13",
+  "tour": 2,
+  "scrape_date": "2026-03-23T18:43:48.408716",
+  "communes": [
+    {
+      "code": "13001",
+      "nom": "Aix-en-Provence",
+      "slug": "aix-en-provence",
+      "population": 149695,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 97603,
+        "abstentions": 52474,
+        "tauxParticipation": 46.24,
+        "votants": 45129,
+        "blancs": 453,
+        "nuls": 472,
+        "exprimes": 44204,
+        "candidats": [
+          {
+            "nom": "Sophie JOISSAINS",
+            "liste": "PASSIONNEMENT AIXOIS",
+            "nuance": "LDVD",
+            "voix": 20930,
+            "pourcentage": 47.35,
+            "elu": true
+          },
+          {
+            "nom": "Marc PENA",
+            "liste": "AIX AVENIR",
+            "nuance": "LUG",
+            "voix": 13715,
+            "pourcentage": 31.03,
+            "elu": true
+          },
+          {
+            "nom": "Jean-Louis GEIGER",
+            "liste": "AGIR POUR AIX",
+            "nuance": "LUXD",
+            "voix": 6039,
+            "pourcentage": 13.66,
+            "elu": true
+          },
+          {
+            "nom": "Philippe KLEIN",
+            "liste": "AIX POUR VOUS",
+            "nuance": "LHOR",
+            "voix": 3520,
+            "pourcentage": 7.96,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13002",
+      "nom": "Allauch",
+      "slug": "allauch",
+      "population": 21443,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 17537,
+        "abstentions": 5509,
+        "tauxParticipation": 68.59,
+        "votants": 12028,
+        "blancs": 60,
+        "nuls": 47,
+        "exprimes": 11921,
+        "candidats": [
+          {
+            "nom": "Lionel DE CALA",
+            "liste": "GENERATIONS ALLAUCH",
+            "nuance": "LDVD",
+            "voix": 9033,
+            "pourcentage": 75.77,
+            "elu": true
+          },
+          {
+            "nom": "Christelle VARNIER",
+            "liste": "RASSEMBLER POUR ALLAUCH",
+            "nuance": "LRN",
+            "voix": 1605,
+            "pourcentage": 13.46,
+            "elu": true
+          },
+          {
+            "nom": "Frédéric DUTOIT",
+            "liste": "ALLAUCH À GAUCHE !",
+            "nuance": "LDVG",
+            "voix": 820,
+            "pourcentage": 6.88,
+            "elu": true
+          },
+          {
+            "nom": "Valentin SÉRÉZAT",
+            "liste": "ALLAUCH AVENIR",
+            "nuance": "LDVC",
+            "voix": 463,
+            "pourcentage": 3.88,
+            "elu": false
+          }
+        ]
+      }
+    },
+    {
+      "code": "13003",
+      "nom": "Alleins",
+      "slug": "alleins",
+      "population": 2852,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2426,
+        "abstentions": 796,
+        "tauxParticipation": 67.19,
+        "votants": 1630,
+        "blancs": 37,
+        "nuls": 15,
+        "exprimes": 1578,
+        "candidats": [
+          {
+            "nom": "Catherine MOYEMONT GAILDRY",
+            "liste": "ALLEINS AVANCER ENSEMBLE",
+            "nuance": "",
+            "voix": 832,
+            "pourcentage": 52.72,
+            "elu": true
+          },
+          {
+            "nom": "Jean-Daniel MARQUIS",
+            "liste": "ALLEINS NOTRE VILLAGE",
+            "nuance": "",
+            "voix": 746,
+            "pourcentage": 47.28,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13004",
+      "nom": "Arles",
+      "slug": "arles",
+      "population": 51811,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 38069,
+        "abstentions": 15699,
+        "tauxParticipation": 58.76,
+        "votants": 22370,
+        "blancs": 194,
+        "nuls": 210,
+        "exprimes": 21966,
+        "candidats": [
+          {
+            "nom": "Patrick DE CAROLIS",
+            "liste": "ARLES AU COEUR",
+            "nuance": "LDVC",
+            "voix": 9311,
+            "pourcentage": 42.39,
+            "elu": true
+          },
+          {
+            "nom": "Nicolas KOUKAS",
+            "liste": "L'UNION POUR ARLES",
+            "nuance": "LUG",
+            "voix": 8304,
+            "pourcentage": 37.8,
+            "elu": true
+          },
+          {
+            "nom": "Rémy BENSON",
+            "liste": "FIERS D'ÊTRE ARLÉSIENS",
+            "nuance": "LRN",
+            "voix": 2872,
+            "pourcentage": 13.07,
+            "elu": true
+          },
+          {
+            "nom": "Jean-Michel JALABERT",
+            "liste": "PLUS PROCHES D'ARLES",
+            "nuance": "LDVC",
+            "voix": 1479,
+            "pourcentage": 6.73,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13005",
+      "nom": "Aubagne",
+      "slug": "aubagne",
+      "population": 47529,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 34565,
+        "abstentions": 14283,
+        "tauxParticipation": 58.68,
+        "votants": 20282,
+        "blancs": 185,
+        "nuls": 254,
+        "exprimes": 19843,
+        "candidats": [
+          {
+            "nom": "Jean-Pierre SQUILLARI",
+            "liste": "Aubagne en commun Aubagne mérite mieux",
+            "nuance": "LUG",
+            "voix": 7200,
+            "pourcentage": 36.28,
+            "elu": true
+          },
+          {
+            "nom": "Joëlle MELIN",
+            "liste": "Rassemblons-nous pour Aubagne",
+            "nuance": "LRN",
+            "voix": 6689,
+            "pourcentage": 33.71,
+            "elu": true
+          },
+          {
+            "nom": "Gérard GAZAY",
+            "liste": "Passion Aubagne",
+            "nuance": "LDVD",
+            "voix": 5954,
+            "pourcentage": 30.01,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13006",
+      "nom": "Aureille",
+      "slug": "aureille",
+      "population": 1533,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1393,
+        "abstentions": 453,
+        "tauxParticipation": 67.48,
+        "votants": 940,
+        "blancs": 12,
+        "nuls": 20,
+        "exprimes": 908,
+        "candidats": [
+          {
+            "nom": "Lionel ESCOFFIER",
+            "liste": "AUREILLE 2026, POURSUIVONS LE TRAVAIL ENSEMBLE",
+            "nuance": "",
+            "voix": 721,
+            "pourcentage": 79.41,
+            "elu": true
+          },
+          {
+            "nom": "Corinne SANCHEZ",
+            "liste": "VIVRE AUREILLE aujourd'hui et demain",
+            "nuance": "",
+            "voix": 187,
+            "pourcentage": 20.59,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13007",
+      "nom": "Auriol",
+      "slug": "auriol",
+      "population": 13037,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 10222,
+        "abstentions": 3953,
+        "tauxParticipation": 61.33,
+        "votants": 6269,
+        "blancs": 66,
+        "nuls": 53,
+        "exprimes": 6150,
+        "candidats": [
+          {
+            "nom": "Véronique MIQUELLY",
+            "liste": "AURIOL ENSEMBLE",
+            "nuance": "LDVD",
+            "voix": 3757,
+            "pourcentage": 61.09,
+            "elu": true
+          },
+          {
+            "nom": "Kevin RAHOU",
+            "liste": "RASSEMBLEMENT AURIOLAIS",
+            "nuance": "LRN",
+            "voix": 1476,
+            "pourcentage": 24.0,
+            "elu": true
+          },
+          {
+            "nom": "André-Pierre DUFRESNE",
+            "liste": "AURIOL EN COMMUN",
+            "nuance": "LDVG",
+            "voix": 917,
+            "pourcentage": 14.91,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13008",
+      "nom": "Aurons",
+      "slug": "aurons",
+      "population": 555,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 464,
+        "abstentions": 52,
+        "tauxParticipation": 88.79,
+        "votants": 412,
+        "blancs": 4,
+        "nuls": 3,
+        "exprimes": 405,
+        "candidats": [
+          {
+            "nom": "Sophie KERNEN",
+            "liste": "AURONS POUR TOUS",
+            "nuance": "",
+            "voix": 203,
+            "pourcentage": 50.12,
+            "elu": true
+          },
+          {
+            "nom": "Emilie FRUTOSO BERTERO",
+            "liste": "AURONS, C'EST VOUS",
+            "nuance": "",
+            "voix": 202,
+            "pourcentage": 49.88,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13009",
+      "nom": "La Barben",
+      "slug": "la-barben",
+      "population": 868,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 794,
+        "abstentions": 101,
+        "tauxParticipation": 87.28,
+        "votants": 693,
+        "blancs": 10,
+        "nuls": 4,
+        "exprimes": 679,
+        "candidats": [
+          {
+            "nom": "Franck SANTOS",
+            "liste": "LA BARBEN, POUR DEMAIN FRANCK SANTOS",
+            "nuance": "",
+            "voix": 483,
+            "pourcentage": 71.13,
+            "elu": true
+          },
+          {
+            "nom": "Jacques CAZAMÉA",
+            "liste": "RASSEMBLER LA BARBEN",
+            "nuance": "",
+            "voix": 196,
+            "pourcentage": 28.87,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13010",
+      "nom": "Barbentane",
+      "slug": "barbentane",
+      "population": 4266,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3396,
+        "abstentions": 906,
+        "tauxParticipation": 73.32,
+        "votants": 2490,
+        "blancs": 32,
+        "nuls": 26,
+        "exprimes": 2432,
+        "candidats": [
+          {
+            "nom": "Michel BLANC",
+            "liste": "UNE NOUVELLE DYNAMIQUE POUR BARBENTANE",
+            "nuance": "LDVD",
+            "voix": 1486,
+            "pourcentage": 61.1,
+            "elu": true
+          },
+          {
+            "nom": "Jean-Christophe DAUDET",
+            "liste": "MON PARTI, C'EST BARBENTANE",
+            "nuance": "LDVD",
+            "voix": 946,
+            "pourcentage": 38.9,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13011",
+      "nom": "Les Baux-de-Provence",
+      "slug": "les-baux-de-provence",
+      "population": 264,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 343,
+        "abstentions": 133,
+        "tauxParticipation": 61.22,
+        "votants": 210,
+        "blancs": 24,
+        "nuls": 8,
+        "exprimes": 178,
+        "candidats": [
+          {
+            "nom": "Anne PONIATOWSKI",
+            "liste": "LES BAUX NATURELLEMENT",
+            "nuance": "",
+            "voix": 178,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13012",
+      "nom": "Beaurecueil",
+      "slug": "beaurecueil",
+      "population": 585,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 463,
+        "abstentions": 90,
+        "tauxParticipation": 80.56,
+        "votants": 373,
+        "blancs": 0,
+        "nuls": 2,
+        "exprimes": 371,
+        "candidats": [
+          {
+            "nom": "Sarah COULOMB",
+            "liste": "Une équipe pour Beaurecueil",
+            "nuance": "",
+            "voix": 245,
+            "pourcentage": 66.04,
+            "elu": true
+          },
+          {
+            "nom": "Patrick VIEILLEDENT",
+            "liste": "BEAURECUEIL A DU COEUR",
+            "nuance": "",
+            "voix": 126,
+            "pourcentage": 33.96,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13013",
+      "nom": "Belcodène",
+      "slug": "belcodene",
+      "population": 2009,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1492,
+        "abstentions": 390,
+        "tauxParticipation": 73.86,
+        "votants": 1102,
+        "blancs": 7,
+        "nuls": 7,
+        "exprimes": 1088,
+        "candidats": [
+          {
+            "nom": "Gilles COLLOMB",
+            "liste": "POURSUIVONS NOTRE ÉLAN POUR BELCODÈNE",
+            "nuance": "",
+            "voix": 572,
+            "pourcentage": 52.57,
+            "elu": true
+          },
+          {
+            "nom": "Claudia CUORDIFEDE",
+            "liste": "BELCODENE DEMAIN",
+            "nuance": "",
+            "voix": 516,
+            "pourcentage": 47.43,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13014",
+      "nom": "Berre-l'Étang",
+      "slug": "berre-l-etang",
+      "population": 13832,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 9885,
+        "abstentions": 3375,
+        "tauxParticipation": 65.86,
+        "votants": 6510,
+        "blancs": 79,
+        "nuls": 82,
+        "exprimes": 6349,
+        "candidats": [
+          {
+            "nom": "Mario MARTINET",
+            "liste": "BERRE AVENIR AVEC VOTRE MAIRE MARIO MARTINET",
+            "nuance": "LDVG",
+            "voix": 2870,
+            "pourcentage": 45.2,
+            "elu": true
+          },
+          {
+            "nom": "Marc CAMPANA",
+            "liste": "ENSEMBLE POUR BERRE 2026",
+            "nuance": "LDVG",
+            "voix": 2836,
+            "pourcentage": 44.67,
+            "elu": true
+          },
+          {
+            "nom": "David DURAN",
+            "liste": "BERRE L'ESPERANCE",
+            "nuance": "LRN",
+            "voix": 643,
+            "pourcentage": 10.13,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13015",
+      "nom": "Bouc-Bel-Air",
+      "slug": "bouc-bel-air",
+      "population": 15381,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 12451,
+        "abstentions": 5067,
+        "tauxParticipation": 59.3,
+        "votants": 7384,
+        "blancs": 81,
+        "nuls": 54,
+        "exprimes": 7249,
+        "candidats": [
+          {
+            "nom": "Mathieu PIETRI",
+            "liste": "BOUC AVEC VOUS",
+            "nuance": "LDVD",
+            "voix": 4479,
+            "pourcentage": 61.79,
+            "elu": true
+          },
+          {
+            "nom": "Mathieu MORATEUR",
+            "liste": "BOUC-BEL-AIR A DE L'AVENIR",
+            "nuance": "LDVD",
+            "voix": 1297,
+            "pourcentage": 17.89,
+            "elu": true
+          },
+          {
+            "nom": "Bruno AUBRY",
+            "liste": "VIVRE MIEUX A BOUC BEL AIR",
+            "nuance": "LDVG",
+            "voix": 858,
+            "pourcentage": 11.84,
+            "elu": true
+          },
+          {
+            "nom": "Hervé PLISSON",
+            "liste": "PRINTEMPS BOUCAIN",
+            "nuance": "LDVG",
+            "voix": 615,
+            "pourcentage": 8.48,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13016",
+      "nom": "La Bouilladisse",
+      "slug": "la-bouilladisse",
+      "population": 6547,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4974,
+        "abstentions": 1498,
+        "tauxParticipation": 69.88,
+        "votants": 3476,
+        "blancs": 48,
+        "nuls": 28,
+        "exprimes": 3400,
+        "candidats": [
+          {
+            "nom": "Ambrozio DOLFI",
+            "liste": "AGIR POUR LA BOUILLADISSE",
+            "nuance": "LDVD",
+            "voix": 1759,
+            "pourcentage": 51.74,
+            "elu": true
+          },
+          {
+            "nom": "José MORALES",
+            "liste": "UNIS POUR LA BOUILLADISSE",
+            "nuance": "LDVG",
+            "voix": 1641,
+            "pourcentage": 48.26,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13017",
+      "nom": "Boulbon",
+      "slug": "boulbon",
+      "population": 1543,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1314,
+        "abstentions": 493,
+        "tauxParticipation": 62.48,
+        "votants": 821,
+        "blancs": 36,
+        "nuls": 45,
+        "exprimes": 740,
+        "candidats": [
+          {
+            "nom": "Jérémie BECCIU",
+            "liste": "BOULBON NOTRE VILLAGE, CONTINUONS ENSEMBLE",
+            "nuance": "",
+            "voix": 740,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13018",
+      "nom": "Cabannes",
+      "slug": "cabannes",
+      "population": 4595,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3511,
+        "abstentions": 1342,
+        "tauxParticipation": 61.78,
+        "votants": 2169,
+        "blancs": 44,
+        "nuls": 29,
+        "exprimes": 2096,
+        "candidats": [
+          {
+            "nom": "Gilles MOURGUES",
+            "liste": "CABANNES EN MOUVEMENT",
+            "nuance": "LDVD",
+            "voix": 1486,
+            "pourcentage": 70.9,
+            "elu": true
+          },
+          {
+            "nom": "François CHEILAN",
+            "liste": "CABANNES, NOTRE VILLAGE, NOTRE AVENIR",
+            "nuance": "LDVC",
+            "voix": 610,
+            "pourcentage": 29.1,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13019",
+      "nom": "Cabriès",
+      "slug": "cabries",
+      "population": 10240,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 8895,
+        "abstentions": 3016,
+        "tauxParticipation": 66.09,
+        "votants": 5879,
+        "blancs": 142,
+        "nuls": 69,
+        "exprimes": 5668,
+        "candidats": [
+          {
+            "nom": "Amapola VENTRON",
+            "liste": "CONTINUONS AVEC PASSION POUR CABRIES-CALAS",
+            "nuance": "LDVD",
+            "voix": 3651,
+            "pourcentage": 64.41,
+            "elu": true
+          },
+          {
+            "nom": "Mehdi MEDJATI",
+            "liste": "PRÉSERVONS L'AVENIR",
+            "nuance": "LDVD",
+            "voix": 2017,
+            "pourcentage": 35.59,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13020",
+      "nom": "Cadolive",
+      "slug": "cadolive",
+      "population": 2236,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1880,
+        "abstentions": 809,
+        "tauxParticipation": 56.97,
+        "votants": 1071,
+        "blancs": 46,
+        "nuls": 32,
+        "exprimes": 993,
+        "candidats": [
+          {
+            "nom": "Serge PEROTTINO",
+            "liste": "CONTINUONS ESEMBLE POUR UN CADOLIVE GAGNANT",
+            "nuance": "",
+            "voix": 993,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13021",
+      "nom": "Carry-le-Rouet",
+      "slug": "carry-le-rouet",
+      "population": 5702,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5549,
+        "abstentions": 1848,
+        "tauxParticipation": 66.7,
+        "votants": 3701,
+        "blancs": 97,
+        "nuls": 48,
+        "exprimes": 3556,
+        "candidats": [
+          {
+            "nom": "René-Francis CARPENTIER",
+            "liste": "ENSEMBLE POUR CARRY-LE-ROUET",
+            "nuance": "LDVD",
+            "voix": 2025,
+            "pourcentage": 56.95,
+            "elu": true
+          },
+          {
+            "nom": "Valérie GUARINO",
+            "liste": "CARRY LE ROUET VOTRE VILLAGE VOTRE CHOIX",
+            "nuance": "LDVD",
+            "voix": 1531,
+            "pourcentage": 43.05,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13022",
+      "nom": "Cassis",
+      "slug": "cassis",
+      "population": 6661,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 6445,
+        "abstentions": 1887,
+        "tauxParticipation": 70.72,
+        "votants": 4558,
+        "blancs": 75,
+        "nuls": 58,
+        "exprimes": 4425,
+        "candidats": [
+          {
+            "nom": "Danielle MILON",
+            "liste": "NOTRE PARTI CASSIS",
+            "nuance": "LDVD",
+            "voix": 2377,
+            "pourcentage": 53.72,
+            "elu": true
+          },
+          {
+            "nom": "Jean-François FAVIER",
+            "liste": "ENSEMBLE CASSIS 2026",
+            "nuance": "LDVD",
+            "voix": 2048,
+            "pourcentage": 46.28,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13023",
+      "nom": "Ceyreste",
+      "slug": "ceyreste",
+      "population": 4863,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4152,
+        "abstentions": 1701,
+        "tauxParticipation": 59.03,
+        "votants": 2451,
+        "blancs": 71,
+        "nuls": 44,
+        "exprimes": 2336,
+        "candidats": [
+          {
+            "nom": "Patrick GHIGONETTO",
+            "liste": "DE L'AMBITION POUR CEYRESTE",
+            "nuance": "LDVD",
+            "voix": 1747,
+            "pourcentage": 74.79,
+            "elu": true
+          },
+          {
+            "nom": "Pierre-Yves LE GUEN",
+            "liste": "Liste citoyenne ecologiste et sociale pour Ceyreste",
+            "nuance": "LDVG",
+            "voix": 589,
+            "pourcentage": 25.21,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13024",
+      "nom": "Charleval",
+      "slug": "charleval",
+      "population": 2640,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2234,
+        "abstentions": 772,
+        "tauxParticipation": 65.44,
+        "votants": 1462,
+        "blancs": 16,
+        "nuls": 9,
+        "exprimes": 1437,
+        "candidats": [
+          {
+            "nom": "Christophe HOCMARD",
+            "liste": "ENSEMBLE POUR CHARLEVAL",
+            "nuance": "",
+            "voix": 750,
+            "pourcentage": 52.19,
+            "elu": true
+          },
+          {
+            "nom": "Nathalie FAURE",
+            "liste": "CHARLEVAL 2026, BATISSONS DEMAIN",
+            "nuance": "",
+            "voix": 687,
+            "pourcentage": 47.81,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13025",
+      "nom": "Châteauneuf-le-Rouge",
+      "slug": "chateauneuf-le-rouge",
+      "population": 2376,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1829,
+        "abstentions": 905,
+        "tauxParticipation": 50.52,
+        "votants": 924,
+        "blancs": 53,
+        "nuls": 91,
+        "exprimes": 780,
+        "candidats": [
+          {
+            "nom": "Michel BOULAN",
+            "liste": "CHÂTEAUNEUF LE ROUGE, L'AUDACE EN +",
+            "nuance": "",
+            "voix": 780,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13026",
+      "nom": "Châteauneuf-les-Martigues",
+      "slug": "chateauneuf-les-martigues",
+      "population": 18455,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 12524,
+        "abstentions": 5052,
+        "tauxParticipation": 59.66,
+        "votants": 7472,
+        "blancs": 47,
+        "nuls": 53,
+        "exprimes": 7372,
+        "candidats": [
+          {
+            "nom": "Roland MOUREN",
+            "liste": "Toujours Ensemble pour Châteauneuf la Mède",
+            "nuance": "LDVD",
+            "voix": 3453,
+            "pourcentage": 46.84,
+            "elu": true
+          },
+          {
+            "nom": "Alain VACCALLUZZO",
+            "liste": "RETROUVONS CHATEAUNEUF LA MEDE",
+            "nuance": "LRN",
+            "voix": 3410,
+            "pourcentage": 46.26,
+            "elu": true
+          },
+          {
+            "nom": "Laurence JOUANAUD",
+            "liste": "UN ÉLAN POUR L'AVENIR",
+            "nuance": "LUG",
+            "voix": 509,
+            "pourcentage": 6.9,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13027",
+      "nom": "Châteaurenard",
+      "slug": "chateaurenard",
+      "population": 16545,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 11741,
+        "abstentions": 4215,
+        "tauxParticipation": 64.1,
+        "votants": 7526,
+        "blancs": 95,
+        "nuls": 105,
+        "exprimes": 7326,
+        "candidats": [
+          {
+            "nom": "Marcel MARTEL",
+            "liste": "CHÂTEAURENARD AVEC VOUS",
+            "nuance": "LDVC",
+            "voix": 3227,
+            "pourcentage": 44.05,
+            "elu": true
+          },
+          {
+            "nom": "Chantal ALEX",
+            "liste": "CHÂTEAURENARD AVEC CONVICTION",
+            "nuance": "LRN",
+            "voix": 2896,
+            "pourcentage": 39.53,
+            "elu": true
+          },
+          {
+            "nom": "Vincent LESCOT",
+            "liste": "TOUS UNIS POUR CHATEAURENARD",
+            "nuance": "LDVD",
+            "voix": 1203,
+            "pourcentage": 16.42,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13028",
+      "nom": "La Ciotat",
+      "slug": "la-ciotat",
+      "population": 38477,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 32183,
+        "abstentions": 13708,
+        "tauxParticipation": 57.41,
+        "votants": 18475,
+        "blancs": 250,
+        "nuls": 134,
+        "exprimes": 18091,
+        "candidats": [
+          {
+            "nom": "Alexandre DORIOL",
+            "liste": "A JAMAIS CIOTADENS",
+            "nuance": "LDVD",
+            "voix": 10371,
+            "pourcentage": 57.33,
+            "elu": true
+          },
+          {
+            "nom": "Daniel SALENC",
+            "liste": "CAP SUR LE BON SENS",
+            "nuance": "LRN",
+            "voix": 3398,
+            "pourcentage": 18.78,
+            "elu": true
+          },
+          {
+            "nom": "Karim GHENDOUF",
+            "liste": "LA CIOTAT NOUS RASSEMBLE",
+            "nuance": "LUG",
+            "voix": 2282,
+            "pourcentage": 12.61,
+            "elu": true
+          },
+          {
+            "nom": "Hervé ITRAC",
+            "liste": "Rassemblons nous pour la Ciotat",
+            "nuance": "LEXD",
+            "voix": 1204,
+            "pourcentage": 6.66,
+            "elu": true
+          },
+          {
+            "nom": "Antoine VICHY",
+            "liste": "BIFURQUONS À GAUCHE",
+            "nuance": "LFI",
+            "voix": 836,
+            "pourcentage": 4.62,
+            "elu": false
+          }
+        ]
+      }
+    },
+    {
+      "code": "13029",
+      "nom": "Cornillon-Confoux",
+      "slug": "cornillon-confoux",
+      "population": 1667,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1284,
+        "abstentions": 242,
+        "tauxParticipation": 81.15,
+        "votants": 1042,
+        "blancs": 5,
+        "nuls": 3,
+        "exprimes": 1034,
+        "candidats": [
+          {
+            "nom": "Daniel GAGNON",
+            "liste": "Cornillon ensemble",
+            "nuance": "",
+            "voix": 610,
+            "pourcentage": 58.99,
+            "elu": true
+          },
+          {
+            "nom": "Amaury DE JESSÉ",
+            "liste": "AGIR POUR CORNILLON",
+            "nuance": "",
+            "voix": 424,
+            "pourcentage": 41.01,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13030",
+      "nom": "Cuges-les-Pins",
+      "slug": "cuges-les-pins",
+      "population": 6236,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4684,
+        "abstentions": 1644,
+        "tauxParticipation": 64.9,
+        "votants": 3040,
+        "blancs": 35,
+        "nuls": 19,
+        "exprimes": 2986,
+        "candidats": [
+          {
+            "nom": "Bernard DESTROST",
+            "liste": "CUGES AVENIR",
+            "nuance": "LDVD",
+            "voix": 2054,
+            "pourcentage": 68.79,
+            "elu": true
+          },
+          {
+            "nom": "Eric René Marcel REMEN",
+            "liste": "CUGES ENSEMBLE",
+            "nuance": "LDVG",
+            "voix": 593,
+            "pourcentage": 19.86,
+            "elu": true
+          },
+          {
+            "nom": "Cécile ANGELINI",
+            "liste": "BIEN VIVRE A CUGES",
+            "nuance": "LDIV",
+            "voix": 339,
+            "pourcentage": 11.35,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13031",
+      "nom": "La Destrousse",
+      "slug": "la-destrousse",
+      "population": 4133,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2924,
+        "abstentions": 980,
+        "tauxParticipation": 66.48,
+        "votants": 1944,
+        "blancs": 12,
+        "nuls": 13,
+        "exprimes": 1919,
+        "candidats": [
+          {
+            "nom": "Michel LAN",
+            "liste": "VIVRE LA DESTROUSSE",
+            "nuance": "LDVC",
+            "voix": 1186,
+            "pourcentage": 61.8,
+            "elu": true
+          },
+          {
+            "nom": "Christine PONNAVOY",
+            "liste": "RASSEMBLEMENT POUR LA DESTROUSSE",
+            "nuance": "LUXD",
+            "voix": 459,
+            "pourcentage": 23.92,
+            "elu": true
+          },
+          {
+            "nom": "Bernard VASSIA",
+            "liste": "LA DESTROUSSE COEUR VERT",
+            "nuance": "LECO",
+            "voix": 274,
+            "pourcentage": 14.28,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13032",
+      "nom": "Éguilles",
+      "slug": "eguilles",
+      "population": 8479,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 7337,
+        "abstentions": 2401,
+        "tauxParticipation": 67.28,
+        "votants": 4936,
+        "blancs": 48,
+        "nuls": 19,
+        "exprimes": 4869,
+        "candidats": [
+          {
+            "nom": "Renaud DAGORNE",
+            "liste": "Avec Renaud Dagorne - Eguilles un village pour tous",
+            "nuance": "LDVD",
+            "voix": 2585,
+            "pourcentage": 53.09,
+            "elu": true
+          },
+          {
+            "nom": "Romain CLERC",
+            "liste": "UNIS POUR EGUILLES, L'ALTERNATIVE POUR LE VILLAGE",
+            "nuance": "LDVC",
+            "voix": 2284,
+            "pourcentage": 46.91,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13033",
+      "nom": "Ensuès-la-Redonne",
+      "slug": "ensues-la-redonne",
+      "population": 5757,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5237,
+        "abstentions": 1794,
+        "tauxParticipation": 65.74,
+        "votants": 3443,
+        "blancs": 59,
+        "nuls": 29,
+        "exprimes": 3355,
+        "candidats": [
+          {
+            "nom": "Michel ILLAC",
+            "liste": "Toujours UNIS pour Ensuès la Redonne",
+            "nuance": "LDVG",
+            "voix": 1743,
+            "pourcentage": 51.95,
+            "elu": true
+          },
+          {
+            "nom": "John LANNE",
+            "liste": "UN VILLAGE QUI NOUS RESSEMBLE, UN AVENIR QUI NOUS RASSEMBLE",
+            "nuance": "LDVD",
+            "voix": 1000,
+            "pourcentage": 29.81,
+            "elu": true
+          },
+          {
+            "nom": "Hélène FRANCESCHI",
+            "liste": "UN SEUL PROJET, LE VOTRE!",
+            "nuance": "LDVD",
+            "voix": 612,
+            "pourcentage": 18.24,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13034",
+      "nom": "Eygalières",
+      "slug": "eygalieres",
+      "population": 1773,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1547,
+        "abstentions": 704,
+        "tauxParticipation": 54.49,
+        "votants": 843,
+        "blancs": 50,
+        "nuls": 97,
+        "exprimes": 696,
+        "candidats": [
+          {
+            "nom": "Aline PELISSIER",
+            "liste": "Eygalières, notre Fierté, notre Avenir",
+            "nuance": "",
+            "voix": 696,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13035",
+      "nom": "Eyguières",
+      "slug": "eyguieres",
+      "population": 7119,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 6493,
+        "abstentions": 1768,
+        "tauxParticipation": 72.77,
+        "votants": 4725,
+        "blancs": 22,
+        "nuls": 37,
+        "exprimes": 4666,
+        "candidats": [
+          {
+            "nom": "Frédéric DURAND",
+            "liste": "ENSEMBLE PRESERVONS EYGUIERES",
+            "nuance": "LDVD",
+            "voix": 2033,
+            "pourcentage": 43.57,
+            "elu": true
+          },
+          {
+            "nom": "Audrey TOURON",
+            "liste": "EYGUIERES FAIRE AUTREMENT AVEC VOUS",
+            "nuance": "LDVC",
+            "voix": 1482,
+            "pourcentage": 31.76,
+            "elu": true
+          },
+          {
+            "nom": "Henri PONS",
+            "liste": "POUR EYGUIERES",
+            "nuance": "LDVD",
+            "voix": 1151,
+            "pourcentage": 24.67,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13036",
+      "nom": "Eyragues",
+      "slug": "eyragues",
+      "population": 4298,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3587,
+        "abstentions": 1105,
+        "tauxParticipation": 69.19,
+        "votants": 2482,
+        "blancs": 40,
+        "nuls": 37,
+        "exprimes": 2405,
+        "candidats": [
+          {
+            "nom": "Michel GAVANON",
+            "liste": "EYRAGUES PASSIONNEMENT",
+            "nuance": "LDVC",
+            "voix": 1222,
+            "pourcentage": 50.81,
+            "elu": true
+          },
+          {
+            "nom": "Marc TROUSSEL",
+            "liste": "EYRAGUES AU COEUR",
+            "nuance": "LDVD",
+            "voix": 1183,
+            "pourcentage": 49.19,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13037",
+      "nom": "La Fare-les-Oliviers",
+      "slug": "la-fare-les-oliviers",
+      "population": 9039,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 6223,
+        "abstentions": 2147,
+        "tauxParticipation": 65.5,
+        "votants": 4076,
+        "blancs": 28,
+        "nuls": 25,
+        "exprimes": 4023,
+        "candidats": [
+          {
+            "nom": "Jérôme MARCILIAC",
+            "liste": "CONTINUONS ENSEMBLE AVEC JEROME MARCILIAC",
+            "nuance": "LDVG",
+            "voix": 1739,
+            "pourcentage": 43.23,
+            "elu": true
+          },
+          {
+            "nom": "Joël YERPEZ",
+            "liste": "LA FARE POUR TOUS",
+            "nuance": "LDVG",
+            "voix": 1075,
+            "pourcentage": 26.72,
+            "elu": true
+          },
+          {
+            "nom": "Stéphane NOËL",
+            "liste": "FIERS D'ÊTRE FARENCS",
+            "nuance": "LRN",
+            "voix": 798,
+            "pourcentage": 19.84,
+            "elu": true
+          },
+          {
+            "nom": "Richard CAMPANELLI",
+            "liste": "LE RENOUVEAU FARENC",
+            "nuance": "LDVD",
+            "voix": 411,
+            "pourcentage": 10.22,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13038",
+      "nom": "Fontvieille",
+      "slug": "fontvieille",
+      "population": 3571,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3368,
+        "abstentions": 976,
+        "tauxParticipation": 71.02,
+        "votants": 2392,
+        "blancs": 39,
+        "nuls": 33,
+        "exprimes": 2320,
+        "candidats": [
+          {
+            "nom": "Gérard GARNIER",
+            "liste": "AGIR ENSEMBLE",
+            "nuance": "LDVG",
+            "voix": 1238,
+            "pourcentage": 53.36,
+            "elu": true
+          },
+          {
+            "nom": "Thierry ALLARD",
+            "liste": "LE RENOUVEAU POUR FONTVIEILLE",
+            "nuance": "LDVD",
+            "voix": 380,
+            "pourcentage": 16.38,
+            "elu": true
+          },
+          {
+            "nom": "Stephan CATHALA",
+            "liste": "FONTVIEILLE LA TRADITION COMME FONDATION L'AVENIR COMME HORIZON",
+            "nuance": "LDVC",
+            "voix": 363,
+            "pourcentage": 15.65,
+            "elu": true
+          },
+          {
+            "nom": "Marion BISCIONE",
+            "liste": "UN NOUVEL ELAN POUR FONTVIEILLE",
+            "nuance": "LDVD",
+            "voix": 341,
+            "pourcentage": 14.7,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13039",
+      "nom": "Fos-sur-Mer",
+      "slug": "fos-sur-mer",
+      "population": 15862,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 13402,
+        "abstentions": 4756,
+        "tauxParticipation": 64.51,
+        "votants": 8646,
+        "blancs": 67,
+        "nuls": 70,
+        "exprimes": 8509,
+        "candidats": [
+          {
+            "nom": "Philippe MAURIZOT",
+            "liste": "FOS ENSEMBLE, EN MIEUX !",
+            "nuance": "LDVD",
+            "voix": 4105,
+            "pourcentage": 48.24,
+            "elu": true
+          },
+          {
+            "nom": "Rémi ESNAULT",
+            "liste": "NOTRE FOS",
+            "nuance": "LDVG",
+            "voix": 2495,
+            "pourcentage": 29.32,
+            "elu": true
+          },
+          {
+            "nom": "Jean-Michel LEROY",
+            "liste": "NOUS SOMMES FOS",
+            "nuance": "LDVG",
+            "voix": 1909,
+            "pourcentage": 22.44,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13040",
+      "nom": "Fuveau",
+      "slug": "fuveau",
+      "population": 10337,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 8523,
+        "abstentions": 3655,
+        "tauxParticipation": 57.12,
+        "votants": 4868,
+        "blancs": 124,
+        "nuls": 75,
+        "exprimes": 4669,
+        "candidats": [
+          {
+            "nom": "Béatrice BONFILLON CHIAVASSA",
+            "liste": "FUVEAU TOUJOURS 2026",
+            "nuance": "LDVC",
+            "voix": 3547,
+            "pourcentage": 75.97,
+            "elu": true
+          },
+          {
+            "nom": "Nathalie ARNAUD",
+            "liste": "Alternative écologique et sociale à Fuveau",
+            "nuance": "LDVG",
+            "voix": 1122,
+            "pourcentage": 24.03,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13041",
+      "nom": "Gardanne",
+      "slug": "gardanne",
+      "population": 21597,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 17072,
+        "abstentions": 7484,
+        "tauxParticipation": 56.16,
+        "votants": 9588,
+        "blancs": 85,
+        "nuls": 81,
+        "exprimes": 9422,
+        "candidats": [
+          {
+            "nom": "Hervé GRANIER",
+            "liste": "AVEC HERVÉ GRANIER GARDANNE-BIVER AVANCE !",
+            "nuance": "LDVD",
+            "voix": 4753,
+            "pourcentage": 50.45,
+            "elu": true
+          },
+          {
+            "nom": "Jean Marc LA PIANA",
+            "liste": "ENSEMBLE CHANGEONS DE CAP POUR GARDANNE BIVER",
+            "nuance": "LDVG",
+            "voix": 3531,
+            "pourcentage": 37.48,
+            "elu": true
+          },
+          {
+            "nom": "Bruno PRIOURET",
+            "liste": "NOTRE VILLE, NOTRE AVENIR",
+            "nuance": "LRN",
+            "voix": 1138,
+            "pourcentage": 12.08,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13042",
+      "nom": "Gémenos",
+      "slug": "gemenos",
+      "population": 6579,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5829,
+        "abstentions": 2248,
+        "tauxParticipation": 61.43,
+        "votants": 3581,
+        "blancs": 48,
+        "nuls": 16,
+        "exprimes": 3517,
+        "candidats": [
+          {
+            "nom": "Roland GIBERTI",
+            "liste": "ENTENTE POUR GEMENOS",
+            "nuance": "LDVD",
+            "voix": 2823,
+            "pourcentage": 80.27,
+            "elu": true
+          },
+          {
+            "nom": "Rémi LAMBERT",
+            "liste": "GÉMENOS 2026",
+            "nuance": "LDVC",
+            "voix": 694,
+            "pourcentage": 19.73,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13043",
+      "nom": "Gignac-la-Nerthe",
+      "slug": "gignac-la-nerthe",
+      "population": 10343,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 7955,
+        "abstentions": 3163,
+        "tauxParticipation": 60.24,
+        "votants": 4792,
+        "blancs": 37,
+        "nuls": 17,
+        "exprimes": 4738,
+        "candidats": [
+          {
+            "nom": "Jerome GOUIRAN",
+            "liste": "ENSEMBLE, CULTIVONS L'AVENIR",
+            "nuance": "LDVD",
+            "voix": 3075,
+            "pourcentage": 64.9,
+            "elu": true
+          },
+          {
+            "nom": "Bryan VINCENT",
+            "liste": "RASSEMBLEMENT POUR GIGNAC",
+            "nuance": "LRN",
+            "voix": 1193,
+            "pourcentage": 25.18,
+            "elu": true
+          },
+          {
+            "nom": "René TASSY",
+            "liste": "GIGNAC NOTRE VILLE",
+            "nuance": "LDVG",
+            "voix": 470,
+            "pourcentage": 9.92,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13044",
+      "nom": "Grans",
+      "slug": "grans",
+      "population": 5489,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4321,
+        "abstentions": 1883,
+        "tauxParticipation": 56.42,
+        "votants": 2438,
+        "blancs": 264,
+        "nuls": 121,
+        "exprimes": 2053,
+        "candidats": [
+          {
+            "nom": "Philippe LEANDRI",
+            "liste": "GRANS A VIVRE ... ENSEMBLE",
+            "nuance": "LDVD",
+            "voix": 2053,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13045",
+      "nom": "Graveson",
+      "slug": "graveson",
+      "population": 4698,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3754,
+        "abstentions": 1832,
+        "tauxParticipation": 51.2,
+        "votants": 1922,
+        "blancs": 136,
+        "nuls": 77,
+        "exprimes": 1709,
+        "candidats": [
+          {
+            "nom": "Michel PECOUT",
+            "liste": "GRAVESON NOTRE ENGAGEMENT",
+            "nuance": "LDVD",
+            "voix": 1709,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13046",
+      "nom": "Gréasque",
+      "slug": "greasque",
+      "population": 4554,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3630,
+        "abstentions": 1172,
+        "tauxParticipation": 67.71,
+        "votants": 2458,
+        "blancs": 41,
+        "nuls": 39,
+        "exprimes": 2378,
+        "candidats": [
+          {
+            "nom": "Helene GAILLARD",
+            "liste": "REMETTRE GREASQUE EN VALEURS",
+            "nuance": "LDVG",
+            "voix": 1236,
+            "pourcentage": 51.98,
+            "elu": true
+          },
+          {
+            "nom": "Sylvain RAVERA",
+            "liste": "UNIS POUR GREASQUE",
+            "nuance": "LDVC",
+            "voix": 656,
+            "pourcentage": 27.59,
+            "elu": true
+          },
+          {
+            "nom": "Magali MONIER",
+            "liste": "Gréasque vers l'avenir",
+            "nuance": "LEXD",
+            "voix": 486,
+            "pourcentage": 20.44,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13047",
+      "nom": "Istres",
+      "slug": "istres",
+      "population": 44292,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 31536,
+        "abstentions": 10312,
+        "tauxParticipation": 67.3,
+        "votants": 21224,
+        "blancs": 364,
+        "nuls": 237,
+        "exprimes": 20623,
+        "candidats": [
+          {
+            "nom": "Robin PRÉTOT",
+            "liste": "ISTRES, DE TOUTE SON AME !",
+            "nuance": "LDVD",
+            "voix": 12341,
+            "pourcentage": 59.84,
+            "elu": true
+          },
+          {
+            "nom": "François BERNARDINI",
+            "liste": "NOUS SOMMES ISTRES",
+            "nuance": "LDVG",
+            "voix": 6476,
+            "pourcentage": 31.4,
+            "elu": true
+          },
+          {
+            "nom": "Damien BROC",
+            "liste": "ISTRES, L'ENERGIE DU CHANGEMENT",
+            "nuance": "LRN",
+            "voix": 1806,
+            "pourcentage": 8.76,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13048",
+      "nom": "Jouques",
+      "slug": "jouques",
+      "population": 4547,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3957,
+        "abstentions": 1919,
+        "tauxParticipation": 51.5,
+        "votants": 2038,
+        "blancs": 299,
+        "nuls": 85,
+        "exprimes": 1654,
+        "candidats": [
+          {
+            "nom": "Eric GARCIN",
+            "liste": "CONTINUONS ESSEMBLE POUR JOUQUES",
+            "nuance": "LDVC",
+            "voix": 1654,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13049",
+      "nom": "Lamanon",
+      "slug": "lamanon",
+      "population": 2097,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1722,
+        "abstentions": 828,
+        "tauxParticipation": 51.92,
+        "votants": 894,
+        "blancs": 157,
+        "nuls": 59,
+        "exprimes": 678,
+        "candidats": [
+          {
+            "nom": "Christian NERVI",
+            "liste": "AGIR POUR LAMANON",
+            "nuance": "",
+            "voix": 678,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13050",
+      "nom": "Lambesc",
+      "slug": "lambesc",
+      "population": 10024,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 7883,
+        "abstentions": 2970,
+        "tauxParticipation": 62.32,
+        "votants": 4913,
+        "blancs": 57,
+        "nuls": 54,
+        "exprimes": 4802,
+        "candidats": [
+          {
+            "nom": "Philippe RAZEYRE",
+            "liste": "LAMBESC LE RENOUVEAU",
+            "nuance": "LDVC",
+            "voix": 2022,
+            "pourcentage": 42.11,
+            "elu": true
+          },
+          {
+            "nom": "Claire BLANC",
+            "liste": "LAMBESC NOUVEL ELAN",
+            "nuance": "LDVD",
+            "voix": 1535,
+            "pourcentage": 31.97,
+            "elu": true
+          },
+          {
+            "nom": "François BERGA",
+            "liste": "LAMBESC EN TÊTE",
+            "nuance": "LDVG",
+            "voix": 1245,
+            "pourcentage": 25.93,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13051",
+      "nom": "Lançon-Provence",
+      "slug": "lancon-provence",
+      "population": 9915,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 7779,
+        "abstentions": 3177,
+        "tauxParticipation": 59.16,
+        "votants": 4602,
+        "blancs": 129,
+        "nuls": 56,
+        "exprimes": 4417,
+        "candidats": [
+          {
+            "nom": "Julie ARIAS",
+            "liste": "VIVRE LANCON",
+            "nuance": "LEXD",
+            "voix": 2862,
+            "pourcentage": 64.8,
+            "elu": true
+          },
+          {
+            "nom": "Valérie GIACOMAZZI",
+            "liste": "Laçon autrement",
+            "nuance": "LDVC",
+            "voix": 1555,
+            "pourcentage": 35.2,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13052",
+      "nom": "Maillane",
+      "slug": "maillane",
+      "population": 2775,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2120,
+        "abstentions": 989,
+        "tauxParticipation": 53.35,
+        "votants": 1131,
+        "blancs": 97,
+        "nuls": 59,
+        "exprimes": 975,
+        "candidats": [
+          {
+            "nom": "Éric LECOFFRE",
+            "liste": "POUR MAILLANE",
+            "nuance": "",
+            "voix": 975,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13053",
+      "nom": "Mallemort",
+      "slug": "mallemort",
+      "population": 6166,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5835,
+        "abstentions": 2278,
+        "tauxParticipation": 60.96,
+        "votants": 3557,
+        "blancs": 63,
+        "nuls": 22,
+        "exprimes": 3472,
+        "candidats": [
+          {
+            "nom": "Dimitri FARRO",
+            "liste": "SOYONS FIERS D'ETRE MALLEMORTAIS",
+            "nuance": "LDVD",
+            "voix": 1915,
+            "pourcentage": 55.16,
+            "elu": true
+          },
+          {
+            "nom": "Claude MARTINELLI",
+            "liste": "MALLEMORT TERRE D'AVENIR",
+            "nuance": "LDVC",
+            "voix": 717,
+            "pourcentage": 20.65,
+            "elu": true
+          },
+          {
+            "nom": "Julien BONINO",
+            "liste": "ENGAGES POUR MALLEMORT",
+            "nuance": "LDVG",
+            "voix": 505,
+            "pourcentage": 14.54,
+            "elu": true
+          },
+          {
+            "nom": "Muriel PLATON AGARD",
+            "liste": "MALLEMORT AVEC VOUS",
+            "nuance": "LDVC",
+            "voix": 335,
+            "pourcentage": 9.65,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13054",
+      "nom": "Marignane",
+      "slug": "marignane",
+      "population": 33692,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 23946,
+        "abstentions": 12551,
+        "tauxParticipation": 47.59,
+        "votants": 11395,
+        "blancs": 419,
+        "nuls": 0,
+        "exprimes": 10976,
+        "candidats": [
+          {
+            "nom": "Eric LE DISSES",
+            "liste": "Marignane aux marignanais",
+            "nuance": "LDVD",
+            "voix": 8456,
+            "pourcentage": 77.04,
+            "elu": true
+          },
+          {
+            "nom": "Ariane LOMBARDI",
+            "liste": "MIEUX VIVRE A MARIGNANE",
+            "nuance": "LDVG",
+            "voix": 1272,
+            "pourcentage": 11.59,
+            "elu": true
+          },
+          {
+            "nom": "Christian AMIRATY",
+            "liste": "Ensemble pour Marignane",
+            "nuance": "LDVC",
+            "voix": 1248,
+            "pourcentage": 11.37,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13055",
+      "nom": "Marseille",
+      "slug": "marseille",
+      "population": 886040,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 555469,
+        "abstentions": 247765,
+        "tauxParticipation": 55.4,
+        "votants": 307704,
+        "blancs": 3459,
+        "nuls": 3215,
+        "exprimes": 301030,
+        "candidats": [
+          {
+            "nom": "Benoît PAYAN",
+            "liste": "POUR MARSEILLE, LA GAUCHE, LES ECOLOGISTES ET LES CITOYENS RASSEMBLES",
+            "nuance": "LUG",
+            "voix": 163586,
+            "pourcentage": 54.34,
+            "elu": true
+          },
+          {
+            "nom": "Franck ALLISIO",
+            "liste": "MARSEILLE EN ORDRE",
+            "nuance": "LRN",
+            "voix": 121310,
+            "pourcentage": 40.3,
+            "elu": true
+          },
+          {
+            "nom": "Martine VASSAL",
+            "liste": "MARSEILLE JE T'AIME AVEC MARTINE VASSAL",
+            "nuance": "LDVD",
+            "voix": 16134,
+            "pourcentage": 5.36,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13056",
+      "nom": "Martigues",
+      "slug": "martigues",
+      "population": 48298,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 36072,
+        "abstentions": 15239,
+        "tauxParticipation": 57.75,
+        "votants": 20833,
+        "blancs": 291,
+        "nuls": 244,
+        "exprimes": 20298,
+        "candidats": [
+          {
+            "nom": "Gaby CHARROUX",
+            "liste": "GABY CHARROUX POUR MARTIGUES !",
+            "nuance": "LDVG",
+            "voix": 8959,
+            "pourcentage": 44.14,
+            "elu": true
+          },
+          {
+            "nom": "Emmanuel FOUQUART",
+            "liste": "Martigues-belle, fière et sûre",
+            "nuance": "LRN",
+            "voix": 7115,
+            "pourcentage": 35.05,
+            "elu": true
+          },
+          {
+            "nom": "Jean Luc DI MARIA",
+            "liste": "UN AVENIR POUR MARTIGUES",
+            "nuance": "LDVD",
+            "voix": 4224,
+            "pourcentage": 20.81,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13057",
+      "nom": "Mas-Blanc-des-Alpilles",
+      "slug": "mas-blanc-des-alpilles",
+      "population": 564,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 471,
+        "abstentions": 207,
+        "tauxParticipation": 56.05,
+        "votants": 264,
+        "blancs": 18,
+        "nuls": 4,
+        "exprimes": 242,
+        "candidats": [
+          {
+            "nom": "Laurent GESLIN",
+            "liste": "ensemble pour l'avenir de notre village",
+            "nuance": "",
+            "voix": 242,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13058",
+      "nom": "Maussane-les-Alpilles",
+      "slug": "maussane-les-alpilles",
+      "population": 2347,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2037,
+        "abstentions": 563,
+        "tauxParticipation": 72.36,
+        "votants": 1474,
+        "blancs": 7,
+        "nuls": 19,
+        "exprimes": 1448,
+        "candidats": [
+          {
+            "nom": "Jean-Christophe CARRÉ",
+            "liste": "UNIS POUR MAUSSANE LES ALPILLES",
+            "nuance": "",
+            "voix": 776,
+            "pourcentage": 53.59,
+            "elu": true
+          },
+          {
+            "nom": "Marie-Pierre CALLET",
+            "liste": "Vivre Maussane",
+            "nuance": "",
+            "voix": 672,
+            "pourcentage": 46.41,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13059",
+      "nom": "Meyrargues",
+      "slug": "meyrargues",
+      "population": 3847,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3138,
+        "abstentions": 1137,
+        "tauxParticipation": 63.77,
+        "votants": 2001,
+        "blancs": 15,
+        "nuls": 5,
+        "exprimes": 1981,
+        "candidats": [
+          {
+            "nom": "Fabrice POUSSARDIN",
+            "liste": "AMBITION MEYRARGUES",
+            "nuance": "LDVC",
+            "voix": 842,
+            "pourcentage": 42.5,
+            "elu": true
+          },
+          {
+            "nom": "Gilbert BOUGI",
+            "liste": "MEYRARGUES CHOISIR LE BON SENS",
+            "nuance": "LDVD",
+            "voix": 813,
+            "pourcentage": 41.04,
+            "elu": true
+          },
+          {
+            "nom": "Christian SALQUE",
+            "liste": "MEYRARGUES CITOYENNE ET SOLIDAIRE",
+            "nuance": "LDVG",
+            "voix": 326,
+            "pourcentage": 16.46,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13060",
+      "nom": "Meyreuil",
+      "slug": "meyreuil",
+      "population": 6747,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5558,
+        "abstentions": 2380,
+        "tauxParticipation": 57.18,
+        "votants": 3178,
+        "blancs": 73,
+        "nuls": 52,
+        "exprimes": 3053,
+        "candidats": [
+          {
+            "nom": "Jean-Pascal GOURNES",
+            "liste": "MEYREUIL DEMAIN",
+            "nuance": "LDVD",
+            "voix": 1956,
+            "pourcentage": 64.07,
+            "elu": true
+          },
+          {
+            "nom": "Gérard OBERT",
+            "liste": "VOTRE PROJET MEYREUIL 2026",
+            "nuance": "LDVG",
+            "voix": 1097,
+            "pourcentage": 35.93,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13061",
+      "nom": "Saint-Pierre-de-Mézoargues",
+      "slug": "saint-pierre-de-mezoargues",
+      "population": 229,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 196,
+        "abstentions": 18,
+        "tauxParticipation": 90.82,
+        "votants": 178,
+        "blancs": 2,
+        "nuls": 0,
+        "exprimes": 176,
+        "candidats": [
+          {
+            "nom": "Laurie PONS",
+            "liste": "SAINT PIERRE DE MÉZOARGUES, CONTINUONS ENSEMBLE",
+            "nuance": "",
+            "voix": 106,
+            "pourcentage": 60.23,
+            "elu": true
+          },
+          {
+            "nom": "Cédric CHANUT",
+            "liste": "SAINT PIERRE, NOTRE CHEMIN",
+            "nuance": "",
+            "voix": 70,
+            "pourcentage": 39.77,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13062",
+      "nom": "Mimet",
+      "slug": "mimet",
+      "population": 4241,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3919,
+        "abstentions": 1105,
+        "tauxParticipation": 71.8,
+        "votants": 2814,
+        "blancs": 56,
+        "nuls": 22,
+        "exprimes": 2736,
+        "candidats": [
+          {
+            "nom": "Georges CRISTIANI",
+            "liste": "INTERET COMMUNAL DE MIMET",
+            "nuance": "LDVC",
+            "voix": 2022,
+            "pourcentage": 73.9,
+            "elu": true
+          },
+          {
+            "nom": "Sabrina BOURGEOIS",
+            "liste": "COLLECTIF DE MIMET",
+            "nuance": "LDVG",
+            "voix": 714,
+            "pourcentage": 26.1,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13063",
+      "nom": "Miramas",
+      "slug": "miramas",
+      "population": 26203,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 17063,
+        "abstentions": 7761,
+        "tauxParticipation": 54.52,
+        "votants": 9302,
+        "blancs": 104,
+        "nuls": 98,
+        "exprimes": 9100,
+        "candidats": [
+          {
+            "nom": "Frédéric VIGOUROUX",
+            "liste": "POUR MIRAMAS",
+            "nuance": "LDVG",
+            "voix": 5228,
+            "pourcentage": 57.45,
+            "elu": true
+          },
+          {
+            "nom": "Killian SANTANA",
+            "liste": "REDONNONS ESPOIR A MIRAMAS",
+            "nuance": "LRN",
+            "voix": 3085,
+            "pourcentage": 33.9,
+            "elu": true
+          },
+          {
+            "nom": "Errol FERRER",
+            "liste": "ENSEMBLE POUR DEMAIN",
+            "nuance": "LUG",
+            "voix": 787,
+            "pourcentage": 8.65,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13064",
+      "nom": "Mollégès",
+      "slug": "molleges",
+      "population": 2647,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2178,
+        "abstentions": 943,
+        "tauxParticipation": 56.7,
+        "votants": 1235,
+        "blancs": 84,
+        "nuls": 71,
+        "exprimes": 1080,
+        "candidats": [
+          {
+            "nom": "Corinne CHABAUD",
+            "liste": "UNIS POUR MOLLEGES",
+            "nuance": "",
+            "voix": 1080,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13065",
+      "nom": "Mouriès",
+      "slug": "mouries",
+      "population": 3527,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3033,
+        "abstentions": 989,
+        "tauxParticipation": 67.39,
+        "votants": 2044,
+        "blancs": 44,
+        "nuls": 30,
+        "exprimes": 1970,
+        "candidats": [
+          {
+            "nom": "Pascal VIANES",
+            "liste": "MOURIES : FIERS DE NOTRE HERITAGE, ENGAGES POUR NOTRE AVENIR",
+            "nuance": "LDVD",
+            "voix": 1002,
+            "pourcentage": 50.86,
+            "elu": true
+          },
+          {
+            "nom": "Patrice BLANC",
+            "liste": "POUR MOURIES, nos coeurs battent à l'unisson",
+            "nuance": "LDVC",
+            "voix": 968,
+            "pourcentage": 49.14,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13066",
+      "nom": "Noves",
+      "slug": "noves",
+      "population": 6080,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4662,
+        "abstentions": 1505,
+        "tauxParticipation": 67.72,
+        "votants": 3157,
+        "blancs": 17,
+        "nuls": 33,
+        "exprimes": 3107,
+        "candidats": [
+          {
+            "nom": "Laurent FABRE",
+            "liste": "NOVES - LES PALUDS : NOTRE FORCE, VOTRE AVENIR",
+            "nuance": "LDVG",
+            "voix": 1152,
+            "pourcentage": 37.08,
+            "elu": true
+          },
+          {
+            "nom": "Christian REY",
+            "liste": "LE RENOUVEAU UN NOUVEL AVENIR POUR NOS VILLAGES",
+            "nuance": "LDIV",
+            "voix": 1017,
+            "pourcentage": 32.73,
+            "elu": true
+          },
+          {
+            "nom": "Audrey CHIKHAOUI",
+            "liste": "LE VRAI CHANGEMENT POUR NOVES ET LES PALUDS-DE-NOVES",
+            "nuance": "LRN",
+            "voix": 686,
+            "pourcentage": 22.08,
+            "elu": true
+          },
+          {
+            "nom": "Yvan GINOUX",
+            "liste": "UN NOUVEAU SOUFFLE POUR NOVES ET LES PALUDS",
+            "nuance": "LDVC",
+            "voix": 252,
+            "pourcentage": 8.11,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13067",
+      "nom": "Orgon",
+      "slug": "orgon",
+      "population": 2762,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2255,
+        "abstentions": 881,
+        "tauxParticipation": 60.93,
+        "votants": 1374,
+        "blancs": 40,
+        "nuls": 20,
+        "exprimes": 1314,
+        "candidats": [
+          {
+            "nom": "Angélique YTIER CLARETON",
+            "liste": "ORGON AVEC VOUS",
+            "nuance": "",
+            "voix": 670,
+            "pourcentage": 50.99,
+            "elu": true
+          },
+          {
+            "nom": "Hervé MALLET",
+            "liste": "ORGON EN ACTION",
+            "nuance": "",
+            "voix": 644,
+            "pourcentage": 49.01,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13068",
+      "nom": "Paradou",
+      "slug": "paradou",
+      "population": 2159,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1786,
+        "abstentions": 532,
+        "tauxParticipation": 70.21,
+        "votants": 1254,
+        "blancs": 20,
+        "nuls": 12,
+        "exprimes": 1222,
+        "candidats": [
+          {
+            "nom": "Pascale LICARI",
+            "liste": "LE PARADOU NOTRE VILLAGE, NOTRE AVENIR",
+            "nuance": "",
+            "voix": 785,
+            "pourcentage": 64.24,
+            "elu": true
+          },
+          {
+            "nom": "Aurélie DUMAS",
+            "liste": "VIVONS PARADOU AUTREMENT",
+            "nuance": "",
+            "voix": 437,
+            "pourcentage": 35.76,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13069",
+      "nom": "Pélissanne",
+      "slug": "pelissanne",
+      "population": 11085,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 9429,
+        "abstentions": 3613,
+        "tauxParticipation": 61.68,
+        "votants": 5816,
+        "blancs": 248,
+        "nuls": 98,
+        "exprimes": 5470,
+        "candidats": [
+          {
+            "nom": "Pascal MONTÉCOT",
+            "liste": "ENSEMBLE AIMONS PELISSANNE",
+            "nuance": "LDVD",
+            "voix": 3701,
+            "pourcentage": 67.66,
+            "elu": true
+          },
+          {
+            "nom": "Hervé LARMINIER",
+            "liste": "LE PÉLICAN BLEU",
+            "nuance": "LDVD",
+            "voix": 1769,
+            "pourcentage": 32.34,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13070",
+      "nom": "La Penne-sur-Huveaune",
+      "slug": "la-penne-sur-huveaune",
+      "population": 6605,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5237,
+        "abstentions": 1551,
+        "tauxParticipation": 70.38,
+        "votants": 3686,
+        "blancs": 54,
+        "nuls": 31,
+        "exprimes": 3601,
+        "candidats": [
+          {
+            "nom": "Frédéric SZABO",
+            "liste": "LA PENNE ENSEMBLE",
+            "nuance": "LDVD",
+            "voix": 2051,
+            "pourcentage": 56.96,
+            "elu": true
+          },
+          {
+            "nom": "Nicolas BAZZUCCHI",
+            "liste": "LA PENNE, MON PAYS",
+            "nuance": "LDVC",
+            "voix": 1550,
+            "pourcentage": 43.04,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13071",
+      "nom": "Les Pennes-Mirabeau",
+      "slug": "les-pennes-mirabeau",
+      "population": 22537,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 18216,
+        "abstentions": 6932,
+        "tauxParticipation": 61.95,
+        "votants": 11284,
+        "blancs": 67,
+        "nuls": 67,
+        "exprimes": 11150,
+        "candidats": [
+          {
+            "nom": "Romain AMARO",
+            "liste": "ENSEMBLE POUR LES PENNES MIRABEAU",
+            "nuance": "LDVD",
+            "voix": 3692,
+            "pourcentage": 33.11,
+            "elu": true
+          },
+          {
+            "nom": "Gregory BOUCHET",
+            "liste": "ENGAGES POUR VOUS ET AVEC VOUS",
+            "nuance": "LDVC",
+            "voix": 3077,
+            "pourcentage": 27.6,
+            "elu": true
+          },
+          {
+            "nom": "Maximilien FUSONE",
+            "liste": "Rassemblement Pennois",
+            "nuance": "LEXD",
+            "voix": 2244,
+            "pourcentage": 20.13,
+            "elu": true
+          },
+          {
+            "nom": "Jean-Philippe MUSSO",
+            "liste": "LES PENNES MIRABEAU DEMAIN",
+            "nuance": "LDVG",
+            "voix": 1587,
+            "pourcentage": 14.23,
+            "elu": true
+          },
+          {
+            "nom": "Hervé FABRE-AUBRESPY",
+            "liste": "POUR UNE VILLE SÛRE ET BIEN GÉRÉE",
+            "nuance": "LRN",
+            "voix": 550,
+            "pourcentage": 4.93,
+            "elu": false
+          }
+        ]
+      }
+    },
+    {
+      "code": "13072",
+      "nom": "Peynier",
+      "slug": "peynier",
+      "population": 3739,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3201,
+        "abstentions": 977,
+        "tauxParticipation": 69.48,
+        "votants": 2224,
+        "blancs": 23,
+        "nuls": 18,
+        "exprimes": 2183,
+        "candidats": [
+          {
+            "nom": "Christian BURLE",
+            "liste": "Peynier Ensemble",
+            "nuance": "LDVD",
+            "voix": 1468,
+            "pourcentage": 67.25,
+            "elu": true
+          },
+          {
+            "nom": "Jérôme MODESTI",
+            "liste": "PEYNIER, UN VILLAGE UNI, UN AVENIR CHOISI",
+            "nuance": "LDVC",
+            "voix": 715,
+            "pourcentage": 32.75,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13073",
+      "nom": "Peypin",
+      "slug": "peypin",
+      "population": 5771,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4873,
+        "abstentions": 2864,
+        "tauxParticipation": 41.23,
+        "votants": 2009,
+        "blancs": 165,
+        "nuls": 55,
+        "exprimes": 1789,
+        "candidats": [
+          {
+            "nom": "Frédéric GIBELOT",
+            "liste": "MON PARTI C'EST PEYPIN",
+            "nuance": "LDVD",
+            "voix": 1789,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13074",
+      "nom": "Peyrolles-en-Provence",
+      "slug": "peyrolles-en-provence",
+      "population": 5409,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4179,
+        "abstentions": 2212,
+        "tauxParticipation": 47.07,
+        "votants": 1967,
+        "blancs": 123,
+        "nuls": 76,
+        "exprimes": 1768,
+        "candidats": [
+          {
+            "nom": "Thomas ARCAMONE",
+            "liste": "GARDER LE CAP, AGIR POUR L'AVENIR",
+            "nuance": "LDVC",
+            "voix": 1768,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13075",
+      "nom": "Plan-de-Cuques",
+      "slug": "plan-de-cuques",
+      "population": 11632,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 10237,
+        "abstentions": 3914,
+        "tauxParticipation": 61.77,
+        "votants": 6323,
+        "blancs": 62,
+        "nuls": 52,
+        "exprimes": 6209,
+        "candidats": [
+          {
+            "nom": "Laurent SIMON",
+            "liste": "PLAN DE CUQUES AU COEUR AVEC LAURENT SIMON",
+            "nuance": "LDVD",
+            "voix": 4024,
+            "pourcentage": 64.81,
+            "elu": true
+          },
+          {
+            "nom": "Stéphane SIMOND",
+            "liste": "RASSEMBLEMENT POUR PLAN DE CUQUES",
+            "nuance": "LRN",
+            "voix": 1574,
+            "pourcentage": 25.35,
+            "elu": true
+          },
+          {
+            "nom": "Mounir HAMZA",
+            "liste": "GAUCHE CITOYENNE UNIE",
+            "nuance": "LDVG",
+            "voix": 407,
+            "pourcentage": 6.56,
+            "elu": true
+          },
+          {
+            "nom": "Jean TOSELLO",
+            "liste": "A LA RECONQUETE DE PLAN-DE-CUQUES",
+            "nuance": "LREC",
+            "voix": 204,
+            "pourcentage": 3.29,
+            "elu": false
+          }
+        ]
+      }
+    },
+    {
+      "code": "13076",
+      "nom": "Plan-d'Orgon",
+      "slug": "plan-d-orgon",
+      "population": 3573,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2744,
+        "abstentions": 1479,
+        "tauxParticipation": 46.1,
+        "votants": 1265,
+        "blancs": 67,
+        "nuls": 41,
+        "exprimes": 1157,
+        "candidats": [
+          {
+            "nom": "Jérôme GUICHARD",
+            "liste": "UNIS ET ENGAGES POUR PLAN D'ORGON",
+            "nuance": "LDVD",
+            "voix": 1157,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13077",
+      "nom": "Port-de-Bouc",
+      "slug": "port-de-bouc",
+      "population": 15802,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 12803,
+        "abstentions": 6240,
+        "tauxParticipation": 51.26,
+        "votants": 6563,
+        "blancs": 113,
+        "nuls": 78,
+        "exprimes": 6372,
+        "candidats": [
+          {
+            "nom": "Laurent BELSOLA",
+            "liste": "AVEC LAURENT, POURSUIVONS DE L'AVANT",
+            "nuance": "LCOM",
+            "voix": 4491,
+            "pourcentage": 70.48,
+            "elu": true
+          },
+          {
+            "nom": "Pascal SPANU",
+            "liste": "QUE ÇA CHANGE !",
+            "nuance": "LDVD",
+            "voix": 1881,
+            "pourcentage": 29.52,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13078",
+      "nom": "Port-Saint-Louis-du-Rhône",
+      "slug": "port-saint-louis-du-rhone",
+      "population": 8573,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 6397,
+        "abstentions": 2184,
+        "tauxParticipation": 65.86,
+        "votants": 4213,
+        "blancs": 78,
+        "nuls": 88,
+        "exprimes": 4047,
+        "candidats": [
+          {
+            "nom": "Martial ALVAREZ",
+            "liste": "PORT SAINT LOUIS GAGNANT 2026",
+            "nuance": "LDVC",
+            "voix": 2546,
+            "pourcentage": 62.91,
+            "elu": true
+          },
+          {
+            "nom": "Aurélie GRACH",
+            "liste": "VIVONS MIEUX PORT SAINT LOUIS",
+            "nuance": "LDVG",
+            "voix": 1277,
+            "pourcentage": 31.55,
+            "elu": true
+          },
+          {
+            "nom": "William SILVESTRE DA SILVA",
+            "liste": "PORT SAINT LOUIS POPULAIRE",
+            "nuance": "LFI",
+            "voix": 224,
+            "pourcentage": 5.53,
+            "elu": false
+          }
+        ]
+      }
+    },
+    {
+      "code": "13079",
+      "nom": "Puyloubier",
+      "slug": "puyloubier",
+      "population": 1768,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1306,
+        "abstentions": 242,
+        "tauxParticipation": 81.47,
+        "votants": 1064,
+        "blancs": 14,
+        "nuls": 5,
+        "exprimes": 1045,
+        "candidats": [
+          {
+            "nom": "Sébastien LECCIA",
+            "liste": "PUYLOUBIER AU COEUR",
+            "nuance": "",
+            "voix": 670,
+            "pourcentage": 64.11,
+            "elu": true
+          },
+          {
+            "nom": "Agnès HENNEQUIN",
+            "liste": "PUYLOUBIER TERRE D'AVENIR",
+            "nuance": "",
+            "voix": 375,
+            "pourcentage": 35.89,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13080",
+      "nom": "Le Puy-Sainte-Réparade",
+      "slug": "le-puy-sainte-reparade",
+      "population": 5935,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5051,
+        "abstentions": 2646,
+        "tauxParticipation": 47.61,
+        "votants": 2405,
+        "blancs": 442,
+        "nuls": 184,
+        "exprimes": 1779,
+        "candidats": [
+          {
+            "nom": "Jean-David CIOT",
+            "liste": "liste d'union republicaine et d'interet communal",
+            "nuance": "LDVG",
+            "voix": 1779,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13081",
+      "nom": "Rognac",
+      "slug": "rognac",
+      "population": 12576,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 10532,
+        "abstentions": 4758,
+        "tauxParticipation": 54.82,
+        "votants": 5774,
+        "blancs": 240,
+        "nuls": 176,
+        "exprimes": 5358,
+        "candidats": [
+          {
+            "nom": "Christophe GONZALEZ",
+            "liste": "ROGNAC D'ABORD !",
+            "nuance": "LRN",
+            "voix": 3367,
+            "pourcentage": 62.84,
+            "elu": true
+          },
+          {
+            "nom": "Sébastien GARREL",
+            "liste": "Pour vous, Pour Rognac",
+            "nuance": "LDVD",
+            "voix": 1991,
+            "pourcentage": 37.16,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13082",
+      "nom": "Rognes",
+      "slug": "rognes",
+      "population": 4693,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4129,
+        "abstentions": 1458,
+        "tauxParticipation": 64.69,
+        "votants": 2671,
+        "blancs": 31,
+        "nuls": 21,
+        "exprimes": 2619,
+        "candidats": [
+          {
+            "nom": "Cédric OROFINO",
+            "liste": "ROGNES AUTREMENT",
+            "nuance": "LDVC",
+            "voix": 1435,
+            "pourcentage": 54.79,
+            "elu": true
+          },
+          {
+            "nom": "Jean-Francois CORNO",
+            "liste": "ROGNES AVENIR",
+            "nuance": "LDVD",
+            "voix": 807,
+            "pourcentage": 30.81,
+            "elu": true
+          },
+          {
+            "nom": "Jacques DEFRAIN",
+            "liste": "UN NOUVEL ÉLAN POUR ROGNES",
+            "nuance": "LRN",
+            "voix": 377,
+            "pourcentage": 14.39,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13083",
+      "nom": "Rognonas",
+      "slug": "rognonas",
+      "population": 4261,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3298,
+        "abstentions": 1555,
+        "tauxParticipation": 52.85,
+        "votants": 1743,
+        "blancs": 77,
+        "nuls": 49,
+        "exprimes": 1617,
+        "candidats": [
+          {
+            "nom": "Yves PICARDA",
+            "liste": "ROGNONAS EN PAYS D'ARLES",
+            "nuance": "LDVC",
+            "voix": 1617,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13084",
+      "nom": "La Roque-d'Anthéron",
+      "slug": "la-roque-d-antheron",
+      "population": 5459,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4067,
+        "abstentions": 1505,
+        "tauxParticipation": 62.99,
+        "votants": 2562,
+        "blancs": 77,
+        "nuls": 43,
+        "exprimes": 2442,
+        "candidats": [
+          {
+            "nom": "Jean-Pierre SERRUS",
+            "liste": "ESPRIT VILLAGE 2026",
+            "nuance": "LDVC",
+            "voix": 1333,
+            "pourcentage": 54.59,
+            "elu": true
+          },
+          {
+            "nom": "Waren BOUKHECHAM",
+            "liste": "LA ROQUE POUR TOUS",
+            "nuance": "LDVG",
+            "voix": 645,
+            "pourcentage": 26.41,
+            "elu": true
+          },
+          {
+            "nom": "Jean-Philippe PROST",
+            "liste": "LA ROQUE EN COMMUN",
+            "nuance": "LDVG",
+            "voix": 464,
+            "pourcentage": 19.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13085",
+      "nom": "Roquefort-la-Bédoule",
+      "slug": "roquefort-la-bedoule",
+      "population": 5798,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4820,
+        "abstentions": 1666,
+        "tauxParticipation": 65.44,
+        "votants": 3154,
+        "blancs": 72,
+        "nuls": 20,
+        "exprimes": 3062,
+        "candidats": [
+          {
+            "nom": "Marc DEL GRAZIA",
+            "liste": "CONTINUONS ENSEMBLE SUR LE BON CHEMIN",
+            "nuance": "LDVC",
+            "voix": 1916,
+            "pourcentage": 62.57,
+            "elu": true
+          },
+          {
+            "nom": "Yannick GUSSE",
+            "liste": "PASSION COMMUNE",
+            "nuance": "LDVC",
+            "voix": 765,
+            "pourcentage": 24.98,
+            "elu": true
+          },
+          {
+            "nom": "Théau FOURNET",
+            "liste": "LA PROVENCE QU'ON AIME",
+            "nuance": "LRN",
+            "voix": 381,
+            "pourcentage": 12.44,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13086",
+      "nom": "Roquevaire",
+      "slug": "roquevaire",
+      "population": 8915,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 7547,
+        "abstentions": 2362,
+        "tauxParticipation": 68.7,
+        "votants": 5185,
+        "blancs": 48,
+        "nuls": 21,
+        "exprimes": 5116,
+        "candidats": [
+          {
+            "nom": "Eric BOUILLÉ",
+            "liste": "MIEUX VIVRE ROQUEVAIRE",
+            "nuance": "LDVC",
+            "voix": 2299,
+            "pourcentage": 44.94,
+            "elu": true
+          },
+          {
+            "nom": "Hélène SPINELLI",
+            "liste": "ROQUEVAIRE UNE AMBITION RENOUVELEE",
+            "nuance": "LDVG",
+            "voix": 2161,
+            "pourcentage": 42.24,
+            "elu": true
+          },
+          {
+            "nom": "Marie France BERTIN",
+            "liste": "ROQUEVAIRE A COEUR ENSEMBLE POUR L'AVENIR",
+            "nuance": "LUDR",
+            "voix": 656,
+            "pourcentage": 12.82,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13087",
+      "nom": "Rousset",
+      "slug": "rousset",
+      "population": 5425,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4020,
+        "abstentions": 1179,
+        "tauxParticipation": 70.67,
+        "votants": 2841,
+        "blancs": 50,
+        "nuls": 20,
+        "exprimes": 2771,
+        "candidats": [
+          {
+            "nom": "Philippe PIGNON",
+            "liste": "CONTINUONS POUR ROUSSET",
+            "nuance": "LDVC",
+            "voix": 1687,
+            "pourcentage": 60.88,
+            "elu": true
+          },
+          {
+            "nom": "Christine CANAL JOUVIN",
+            "liste": "ROUSSET AGIR POUR DEMAIN",
+            "nuance": "LDVG",
+            "voix": 591,
+            "pourcentage": 21.33,
+            "elu": true
+          },
+          {
+            "nom": "Frédérique REFFET",
+            "liste": "ROUSSET INTENSEMENT AVEC VOUS",
+            "nuance": "LDVC",
+            "voix": 493,
+            "pourcentage": 17.79,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13088",
+      "nom": "Le Rove",
+      "slug": "le-rove",
+      "population": 5246,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4281,
+        "abstentions": 1531,
+        "tauxParticipation": 64.24,
+        "votants": 2750,
+        "blancs": 47,
+        "nuls": 26,
+        "exprimes": 2677,
+        "candidats": [
+          {
+            "nom": "Paul SABATINO",
+            "liste": "CONTINUONS !",
+            "nuance": "LDVG",
+            "voix": 2086,
+            "pourcentage": 77.92,
+            "elu": true
+          },
+          {
+            "nom": "Laetitia CANGELOSI",
+            "liste": "UNIS POUR NOTRE COMMUNE",
+            "nuance": "LRN",
+            "voix": 591,
+            "pourcentage": 22.08,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13089",
+      "nom": "Saint-Andiol",
+      "slug": "saint-andiol",
+      "population": 3353,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2730,
+        "abstentions": 1248,
+        "tauxParticipation": 54.29,
+        "votants": 1482,
+        "blancs": 16,
+        "nuls": 39,
+        "exprimes": 1427,
+        "candidats": [
+          {
+            "nom": "Jean-Luc PERIN",
+            "liste": "CONSTRUISONS ENSEMBLE L'AVENIR DE SAINT-ANDIOL",
+            "nuance": "",
+            "voix": 980,
+            "pourcentage": 68.68,
+            "elu": true
+          },
+          {
+            "nom": "Lionel BERGEON",
+            "liste": "Un nouveau regard pour Saint Andiol",
+            "nuance": "",
+            "voix": 447,
+            "pourcentage": 31.32,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13090",
+      "nom": "Saint-Antonin-sur-Bayon",
+      "slug": "saint-antonin-sur-bayon",
+      "population": 126,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 112,
+        "abstentions": 38,
+        "tauxParticipation": 66.07,
+        "votants": 74,
+        "blancs": 3,
+        "nuls": 4,
+        "exprimes": 67,
+        "candidats": [
+          {
+            "nom": "Christian DELAVET",
+            "liste": "Un village protégé, solidaire, engagé pour son avenir",
+            "nuance": "",
+            "voix": 67,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13091",
+      "nom": "Saint-Cannat",
+      "slug": "saint-cannat",
+      "population": 6097,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5304,
+        "abstentions": 2420,
+        "tauxParticipation": 54.37,
+        "votants": 2884,
+        "blancs": 269,
+        "nuls": 98,
+        "exprimes": 2517,
+        "candidats": [
+          {
+            "nom": "Joël LEVI-VALENSI",
+            "liste": "ENSEMBLE POUR SAINT-CANNAT",
+            "nuance": "LDVC",
+            "voix": 2517,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13092",
+      "nom": "Saint-Chamas",
+      "slug": "saint-chamas",
+      "population": 8676,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 6736,
+        "abstentions": 3486,
+        "tauxParticipation": 48.25,
+        "votants": 3250,
+        "blancs": 233,
+        "nuls": 61,
+        "exprimes": 2956,
+        "candidats": [
+          {
+            "nom": "Magali RAMOS",
+            "liste": "NATURELLEMENT SAINT-CHAMAS",
+            "nuance": "LDVC",
+            "voix": 2956,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13093",
+      "nom": "Saint-Estève-Janson",
+      "slug": "saint-esteve-janson",
+      "population": 357,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 310,
+        "abstentions": 82,
+        "tauxParticipation": 73.55,
+        "votants": 228,
+        "blancs": 4,
+        "nuls": 5,
+        "exprimes": 219,
+        "candidats": [
+          {
+            "nom": "Sophie JARDINOT",
+            "liste": "VIVRE ET AGIR POUR SAINT-ESTEVE-JANSON",
+            "nuance": "",
+            "voix": 157,
+            "pourcentage": 71.69,
+            "elu": true
+          },
+          {
+            "nom": "Fabienne QUIEVREUX",
+            "liste": "NOUVEL ELAN POUR SAINT ESTEVE JANSON",
+            "nuance": "",
+            "voix": 62,
+            "pourcentage": 28.31,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13094",
+      "nom": "Saint-Étienne-du-Grès",
+      "slug": "saint-etienne-du-gres",
+      "population": 2489,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1895,
+        "abstentions": 845,
+        "tauxParticipation": 55.41,
+        "votants": 1050,
+        "blancs": 111,
+        "nuls": 73,
+        "exprimes": 866,
+        "candidats": [
+          {
+            "nom": "Jean MANGION",
+            "liste": "LE GRES 2026 - Un souffle nouveau",
+            "nuance": "",
+            "voix": 866,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13095",
+      "nom": "Saint-Marc-Jaumegarde",
+      "slug": "saint-marc-jaumegarde",
+      "population": 1273,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1128,
+        "abstentions": 195,
+        "tauxParticipation": 82.71,
+        "votants": 933,
+        "blancs": 7,
+        "nuls": 2,
+        "exprimes": 924,
+        "candidats": [
+          {
+            "nom": "Patrick MARKARIAN",
+            "liste": "Saint Marc Autrement",
+            "nuance": "",
+            "voix": 391,
+            "pourcentage": 42.32,
+            "elu": true
+          },
+          {
+            "nom": "François GENEVEY",
+            "liste": "NOUVEL ELAN, MÊME CAP",
+            "nuance": "",
+            "voix": 357,
+            "pourcentage": 38.64,
+            "elu": true
+          },
+          {
+            "nom": "Agnès PEYRONNET",
+            "liste": "Avancer ensemble pour Saint-Marc",
+            "nuance": "",
+            "voix": 176,
+            "pourcentage": 19.05,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13096",
+      "nom": "Saintes-Maries-de-la-Mer",
+      "slug": "saintes-maries-de-la-mer",
+      "population": 2433,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2733,
+        "abstentions": 453,
+        "tauxParticipation": 83.42,
+        "votants": 2280,
+        "blancs": 11,
+        "nuls": 18,
+        "exprimes": 2251,
+        "candidats": [
+          {
+            "nom": "Thibaut MENA",
+            "liste": "ENSEMBLE POUR LES SAINTES",
+            "nuance": "",
+            "voix": 977,
+            "pourcentage": 43.4,
+            "elu": true
+          },
+          {
+            "nom": "Didier HONORE",
+            "liste": "LES SAINTES C'EST VOUS",
+            "nuance": "",
+            "voix": 837,
+            "pourcentage": 37.18,
+            "elu": true
+          },
+          {
+            "nom": "Christelle AILLET",
+            "liste": "LES SAINTES PASSIONNEMENT !!",
+            "nuance": "",
+            "voix": 437,
+            "pourcentage": 19.41,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13097",
+      "nom": "Saint-Martin-de-Crau",
+      "slug": "saint-martin-de-crau",
+      "population": 14145,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 11078,
+        "abstentions": 4348,
+        "tauxParticipation": 60.75,
+        "votants": 6730,
+        "blancs": 136,
+        "nuls": 97,
+        "exprimes": 6497,
+        "candidats": [
+          {
+            "nom": "Séverine DELLANEGRA",
+            "liste": "Saint-Martin avant tout",
+            "nuance": "LDVC",
+            "voix": 4215,
+            "pourcentage": 64.88,
+            "elu": true
+          },
+          {
+            "nom": "Tania TEIXIER",
+            "liste": "SAINT MARTIN NOTRE FIERTE",
+            "nuance": "LDVC",
+            "voix": 2282,
+            "pourcentage": 35.12,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13098",
+      "nom": "Saint-Mitre-les-Remparts",
+      "slug": "saint-mitre-les-remparts",
+      "population": 6175,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 4873,
+        "abstentions": 2418,
+        "tauxParticipation": 50.38,
+        "votants": 2455,
+        "blancs": 281,
+        "nuls": 108,
+        "exprimes": 2066,
+        "candidats": [
+          {
+            "nom": "Vincent GOYET",
+            "liste": "SAINT-MITRE-EN-VIE !",
+            "nuance": "LDVD",
+            "voix": 2066,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13099",
+      "nom": "Saint-Paul-lès-Durance",
+      "slug": "saint-paul-les-durance",
+      "population": 885,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 769,
+        "abstentions": 206,
+        "tauxParticipation": 73.21,
+        "votants": 563,
+        "blancs": 7,
+        "nuls": 6,
+        "exprimes": 550,
+        "candidats": [
+          {
+            "nom": "Romain BUCHAUT",
+            "liste": "Fusionnons nos énergies pour saint-paul !",
+            "nuance": "",
+            "voix": 376,
+            "pourcentage": 68.36,
+            "elu": true
+          },
+          {
+            "nom": "Daniel VERNAY",
+            "liste": "ENFIN BIEN VIVRE ENSEMBLE",
+            "nuance": "",
+            "voix": 174,
+            "pourcentage": 31.64,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13100",
+      "nom": "Saint-Rémy-de-Provence",
+      "slug": "saint-remy-de-provence",
+      "population": 9599,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 8976,
+        "abstentions": 2729,
+        "tauxParticipation": 69.6,
+        "votants": 6247,
+        "blancs": 54,
+        "nuls": 55,
+        "exprimes": 6138,
+        "candidats": [
+          {
+            "nom": "Romain THOMAS",
+            "liste": "AGIR POUR SAINT-REMY",
+            "nuance": "LDVD",
+            "voix": 2910,
+            "pourcentage": 47.41,
+            "elu": true
+          },
+          {
+            "nom": "Hervé CHERUBINI",
+            "liste": "Hervé CHERUBINI Toujours à vos côtés",
+            "nuance": "LDVC",
+            "voix": 2788,
+            "pourcentage": 45.42,
+            "elu": true
+          },
+          {
+            "nom": "Yohan THIEBAUD",
+            "liste": "RASSEMBLEMENT NATIONAL SAINT RÉMY DE PROVENCE",
+            "nuance": "LRN",
+            "voix": 440,
+            "pourcentage": 7.17,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13101",
+      "nom": "Saint-Savournin",
+      "slug": "saint-savournin",
+      "population": 3397,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2829,
+        "abstentions": 963,
+        "tauxParticipation": 65.96,
+        "votants": 1866,
+        "blancs": 18,
+        "nuls": 17,
+        "exprimes": 1831,
+        "candidats": [
+          {
+            "nom": "Lionel LENEL",
+            "liste": "Saint-Savournin - Renouveau citoyen",
+            "nuance": "",
+            "voix": 812,
+            "pourcentage": 44.35,
+            "elu": true
+          },
+          {
+            "nom": "Eric CALDERON",
+            "liste": "UN VILLAGE QUI NOUS RASSEMBLE, UNE EQUIPE QUI VOUS RESSEMBLE",
+            "nuance": "",
+            "voix": 619,
+            "pourcentage": 33.81,
+            "elu": true
+          },
+          {
+            "nom": "Jeannette RIOU",
+            "liste": "SAINT SAVOURIN AVEC VOUS",
+            "nuance": "",
+            "voix": 400,
+            "pourcentage": 21.85,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13102",
+      "nom": "Saint-Victoret",
+      "slug": "saint-victoret",
+      "population": 6730,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5320,
+        "abstentions": 2264,
+        "tauxParticipation": 57.44,
+        "votants": 3056,
+        "blancs": 51,
+        "nuls": 18,
+        "exprimes": 2987,
+        "candidats": [
+          {
+            "nom": "Claude PICCIRILLO",
+            "liste": "SAINT VICTORET, ENSEMBLE POUR LE MEILLEUR",
+            "nuance": "LLR",
+            "voix": 1594,
+            "pourcentage": 53.36,
+            "elu": true
+          },
+          {
+            "nom": "Pierre GELSI",
+            "liste": "UNIS POUR SAINT VICTORET D'ABORD",
+            "nuance": "LDVD",
+            "voix": 967,
+            "pourcentage": 32.37,
+            "elu": true
+          },
+          {
+            "nom": "Sabine ZOULALIAN",
+            "liste": "SAINT-VICTORET C'EST VOUS",
+            "nuance": "LDVD",
+            "voix": 426,
+            "pourcentage": 14.26,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13103",
+      "nom": "Salon-de-Provence",
+      "slug": "salon-de-provence",
+      "population": 44194,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 33481,
+        "abstentions": 15262,
+        "tauxParticipation": 54.42,
+        "votants": 18219,
+        "blancs": 167,
+        "nuls": 146,
+        "exprimes": 17906,
+        "candidats": [
+          {
+            "nom": "Nicolas ISNARD",
+            "liste": "REUSSIR SALON",
+            "nuance": "LLR",
+            "voix": 13378,
+            "pourcentage": 74.71,
+            "elu": true
+          },
+          {
+            "nom": "Cédric VACAREZZA",
+            "liste": "AGIR POUR SALON",
+            "nuance": "LRN",
+            "voix": 2187,
+            "pourcentage": 12.21,
+            "elu": true
+          },
+          {
+            "nom": "Patrick CHINI",
+            "liste": "DEMAIN SALON",
+            "nuance": "LUG",
+            "voix": 1522,
+            "pourcentage": 8.5,
+            "elu": true
+          },
+          {
+            "nom": "Anaïs GINER",
+            "liste": "SALON EN COMMUN",
+            "nuance": "LFI",
+            "voix": 819,
+            "pourcentage": 4.57,
+            "elu": false
+          }
+        ]
+      }
+    },
+    {
+      "code": "13104",
+      "nom": "Sausset-les-Pins",
+      "slug": "sausset-les-pins",
+      "population": 7574,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 7182,
+        "abstentions": 2390,
+        "tauxParticipation": 66.72,
+        "votants": 4792,
+        "blancs": 43,
+        "nuls": 21,
+        "exprimes": 4728,
+        "candidats": [
+          {
+            "nom": "Maxime MARCHAND",
+            "liste": "SAUSSET REUNI",
+            "nuance": "LDVC",
+            "voix": 2349,
+            "pourcentage": 49.68,
+            "elu": true
+          },
+          {
+            "nom": "Eric DIARD",
+            "liste": "ENSEMBLE PRESERVONS SAUSSET",
+            "nuance": "LDVD",
+            "voix": 1754,
+            "pourcentage": 37.1,
+            "elu": true
+          },
+          {
+            "nom": "Jean-Charles VARGAS",
+            "liste": "UNIS POUR NOTRE VILLAGE",
+            "nuance": "LRN",
+            "voix": 625,
+            "pourcentage": 13.22,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13105",
+      "nom": "Sénas",
+      "slug": "senas",
+      "population": 6925,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5641,
+        "abstentions": 1875,
+        "tauxParticipation": 66.76,
+        "votants": 3766,
+        "blancs": 25,
+        "nuls": 17,
+        "exprimes": 3724,
+        "candidats": [
+          {
+            "nom": "Philippe GINOUX",
+            "liste": "SENAS C'EST VOUS",
+            "nuance": "LDVD",
+            "voix": 1843,
+            "pourcentage": 49.49,
+            "elu": true
+          },
+          {
+            "nom": "Romain BAUBRY",
+            "liste": "FAIRE GAGNER SENAS !",
+            "nuance": "LRN",
+            "voix": 1579,
+            "pourcentage": 42.4,
+            "elu": true
+          },
+          {
+            "nom": "Terry CHABERT",
+            "liste": "UN NOUVEAU SOUFFLE POUR SENAS",
+            "nuance": "LDVC",
+            "voix": 302,
+            "pourcentage": 8.11,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13106",
+      "nom": "Septèmes-les-Vallons",
+      "slug": "septemes-les-vallons",
+      "population": 11995,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 8471,
+        "abstentions": 4039,
+        "tauxParticipation": 52.32,
+        "votants": 4432,
+        "blancs": 65,
+        "nuls": 34,
+        "exprimes": 4333,
+        "candidats": [
+          {
+            "nom": "André MOLINO",
+            "liste": "ENSEMBLE POUR SEPTEMES 2026",
+            "nuance": "LUG",
+            "voix": 2627,
+            "pourcentage": 60.63,
+            "elu": true
+          },
+          {
+            "nom": "Adrien DUCHÉ",
+            "liste": "SEPTEMES AUTREMENT",
+            "nuance": "LUDR",
+            "voix": 1424,
+            "pourcentage": 32.86,
+            "elu": true
+          },
+          {
+            "nom": "Smahane MEBARKI",
+            "liste": "Le Choix de Septèmes",
+            "nuance": "LFI",
+            "voix": 282,
+            "pourcentage": 6.51,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13107",
+      "nom": "Simiane-Collongue",
+      "slug": "simiane-collongue",
+      "population": 5780,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5096,
+        "abstentions": 1727,
+        "tauxParticipation": 66.11,
+        "votants": 3369,
+        "blancs": 27,
+        "nuls": 19,
+        "exprimes": 3323,
+        "candidats": [
+          {
+            "nom": "Philippe ARDHUIN",
+            "liste": "PHILIPPE ARDHUIN QUE SIMIANE AVANCE",
+            "nuance": "LDVD",
+            "voix": 1801,
+            "pourcentage": 54.2,
+            "elu": true
+          },
+          {
+            "nom": "Clément CHICHIGNOUD",
+            "liste": "VIVRE SIMIANE",
+            "nuance": "LDVG",
+            "voix": 1100,
+            "pourcentage": 33.1,
+            "elu": true
+          },
+          {
+            "nom": "Marc VIGOUROUX",
+            "liste": "SIMIANE AU COEUR",
+            "nuance": "LDVC",
+            "voix": 422,
+            "pourcentage": 12.7,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13108",
+      "nom": "Tarascon",
+      "slug": "tarascon",
+      "population": 15396,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 8696,
+        "abstentions": 2808,
+        "tauxParticipation": 67.71,
+        "votants": 5888,
+        "blancs": 91,
+        "nuls": 97,
+        "exprimes": 5700,
+        "candidats": [
+          {
+            "nom": "Alexandre DUCOURET",
+            "liste": "TARASCON, LE TEMPS DU CHANGEMENT",
+            "nuance": "LRN",
+            "voix": 2959,
+            "pourcentage": 51.91,
+            "elu": true
+          },
+          {
+            "nom": "Fabien BOUILLARD",
+            "liste": "POUR TARASCON, L'EXPERIENCE AU SERVICE DE L'AVENIR",
+            "nuance": "LDVD",
+            "voix": 2741,
+            "pourcentage": 48.09,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13109",
+      "nom": "Le Tholonet",
+      "slug": "le-tholonet",
+      "population": 2391,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 2004,
+        "abstentions": 578,
+        "tauxParticipation": 71.16,
+        "votants": 1426,
+        "blancs": 6,
+        "nuls": 5,
+        "exprimes": 1415,
+        "candidats": [
+          {
+            "nom": "Serge MORI",
+            "liste": "PERSPECTIVES LE BON SENS AVANT TOUT",
+            "nuance": "",
+            "voix": 444,
+            "pourcentage": 31.38,
+            "elu": true
+          },
+          {
+            "nom": "Alexandre RAOUX",
+            "liste": "L'avenir ensemble",
+            "nuance": "",
+            "voix": 438,
+            "pourcentage": 30.95,
+            "elu": true
+          },
+          {
+            "nom": "Vincent LANGUILLE",
+            "liste": "Le Tholonet avec vous",
+            "nuance": "",
+            "voix": 373,
+            "pourcentage": 26.36,
+            "elu": true
+          },
+          {
+            "nom": "Stéphane FAURE",
+            "liste": "POUR LE THOLONET",
+            "nuance": "",
+            "voix": 160,
+            "pourcentage": 11.31,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13110",
+      "nom": "Trets",
+      "slug": "trets",
+      "population": 10946,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 8802,
+        "abstentions": 3634,
+        "tauxParticipation": 58.71,
+        "votants": 5168,
+        "blancs": 89,
+        "nuls": 68,
+        "exprimes": 5011,
+        "candidats": [
+          {
+            "nom": "Pascal CHAUVIN",
+            "liste": "TRETS NOUS RASSEMBLE",
+            "nuance": "LDVD",
+            "voix": 2995,
+            "pourcentage": 59.77,
+            "elu": true
+          },
+          {
+            "nom": "Stéphanie FAYOLLE-SANNA",
+            "liste": "ENGAGES POUR TRETS",
+            "nuance": "LDVC",
+            "voix": 1453,
+            "pourcentage": 29.0,
+            "elu": true
+          },
+          {
+            "nom": "Arnaud GUIBOUD-RIBAUD",
+            "liste": "TRETS AU QUOTIDIEN",
+            "nuance": "LDVG",
+            "voix": 563,
+            "pourcentage": 11.24,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13111",
+      "nom": "Vauvenargues",
+      "slug": "vauvenargues",
+      "population": 1058,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 822,
+        "abstentions": 220,
+        "tauxParticipation": 73.24,
+        "votants": 602,
+        "blancs": 11,
+        "nuls": 5,
+        "exprimes": 586,
+        "candidats": [
+          {
+            "nom": "Philippe CHARRIN",
+            "liste": "ENSEMBLE POUR L'ESPRIT VILLAGE",
+            "nuance": "",
+            "voix": 353,
+            "pourcentage": 60.24,
+            "elu": true
+          },
+          {
+            "nom": "Alain PIASCO",
+            "liste": "VIVONS VAUVENARGUES",
+            "nuance": "",
+            "voix": 233,
+            "pourcentage": 39.76,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13112",
+      "nom": "Velaux",
+      "slug": "velaux",
+      "population": 8941,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 7415,
+        "abstentions": 2984,
+        "tauxParticipation": 59.76,
+        "votants": 4431,
+        "blancs": 73,
+        "nuls": 28,
+        "exprimes": 4330,
+        "candidats": [
+          {
+            "nom": "Yannick GUÉRIN",
+            "liste": "VELAUX L'AVENTURE CITOYENNE",
+            "nuance": "LDVD",
+            "voix": 2136,
+            "pourcentage": 49.33,
+            "elu": true
+          },
+          {
+            "nom": "Philippe CHABANON",
+            "liste": "VELAUX EST A VOUS",
+            "nuance": "LDVG",
+            "voix": 1176,
+            "pourcentage": 27.16,
+            "elu": true
+          },
+          {
+            "nom": "Alexandra COURTEIX",
+            "liste": "RACINES ET AVENIR",
+            "nuance": "LDVD",
+            "voix": 1018,
+            "pourcentage": 23.51,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13113",
+      "nom": "Venelles",
+      "slug": "venelles",
+      "population": 8418,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 7430,
+        "abstentions": 3331,
+        "tauxParticipation": 55.17,
+        "votants": 4099,
+        "blancs": 129,
+        "nuls": 58,
+        "exprimes": 3912,
+        "candidats": [
+          {
+            "nom": "Arnaud MERCIER",
+            "liste": "VENELLES AVENIR",
+            "nuance": "LDVD",
+            "voix": 3150,
+            "pourcentage": 80.52,
+            "elu": true
+          },
+          {
+            "nom": "Annie MOUTHIER",
+            "liste": "L'Alternative Venelloise",
+            "nuance": "LDVG",
+            "voix": 762,
+            "pourcentage": 19.48,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13114",
+      "nom": "Ventabren",
+      "slug": "ventabren",
+      "population": 5839,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5389,
+        "abstentions": 1872,
+        "tauxParticipation": 65.26,
+        "votants": 3517,
+        "blancs": 67,
+        "nuls": 13,
+        "exprimes": 3437,
+        "candidats": [
+          {
+            "nom": "Frédéric VIGOUROUX",
+            "liste": "POUR VENTRABEN, VILLAGE D'EXCEPTION !",
+            "nuance": "LDVD",
+            "voix": 2093,
+            "pourcentage": 60.9,
+            "elu": true
+          },
+          {
+            "nom": "Benjamin MARGUERITAT",
+            "liste": "UN VENT NOUVEAU SUR VENTABREN",
+            "nuance": "LDVD",
+            "voix": 772,
+            "pourcentage": 22.46,
+            "elu": true
+          },
+          {
+            "nom": "Frédéric REGIS",
+            "liste": "Ventabren la force du lien",
+            "nuance": "LDVD",
+            "voix": 572,
+            "pourcentage": 16.64,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13115",
+      "nom": "Vernègues",
+      "slug": "vernegues",
+      "population": 2166,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 1704,
+        "abstentions": 582,
+        "tauxParticipation": 65.85,
+        "votants": 1122,
+        "blancs": 23,
+        "nuls": 9,
+        "exprimes": 1090,
+        "candidats": [
+          {
+            "nom": "Anne REYBAUD DECROIX",
+            "liste": "ESEMBLE POUR L'AVENIR VERNEGUES-CAZAN",
+            "nuance": "",
+            "voix": 590,
+            "pourcentage": 54.13,
+            "elu": true
+          },
+          {
+            "nom": "Justine PETIT",
+            "liste": "VERNEGUES CAZAN A l'UNISSON POUR DEMAIN",
+            "nuance": "",
+            "voix": 500,
+            "pourcentage": 45.87,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13116",
+      "nom": "Verquières",
+      "slug": "verquieres",
+      "population": 772,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 584,
+        "abstentions": 241,
+        "tauxParticipation": 58.73,
+        "votants": 343,
+        "blancs": 15,
+        "nuls": 20,
+        "exprimes": 308,
+        "candidats": [
+          {
+            "nom": "Jean-Marc MARTIN-TEISSERE",
+            "liste": "VERQUIERES, ENTRE HERITAGE ET AVENIR",
+            "nuance": "",
+            "voix": 308,
+            "pourcentage": 100.0,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13117",
+      "nom": "Vitrolles",
+      "slug": "vitrolles",
+      "population": 36758,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 25839,
+        "abstentions": 12086,
+        "tauxParticipation": 53.23,
+        "votants": 13753,
+        "blancs": 88,
+        "nuls": 111,
+        "exprimes": 13554,
+        "candidats": [
+          {
+            "nom": "Loïc GACHON",
+            "liste": "ENSEMBLE POUR VITROLLES",
+            "nuance": "LDVG",
+            "voix": 6341,
+            "pourcentage": 46.78,
+            "elu": true
+          },
+          {
+            "nom": "Fabien BRAVI",
+            "liste": "Vitrolles en ordre",
+            "nuance": "LRN",
+            "voix": 5783,
+            "pourcentage": 42.67,
+            "elu": true
+          },
+          {
+            "nom": "Philip FARRUGIA",
+            "liste": "VITROLLES UNIE",
+            "nuance": "LDVC",
+            "voix": 1430,
+            "pourcentage": 10.55,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13118",
+      "nom": "Coudoux",
+      "slug": "coudoux",
+      "population": 3825,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 3055,
+        "abstentions": 1156,
+        "tauxParticipation": 62.16,
+        "votants": 1899,
+        "blancs": 28,
+        "nuls": 19,
+        "exprimes": 1852,
+        "candidats": [
+          {
+            "nom": "Guy BARRET",
+            "liste": "COUDOUX ESPRIT VILLAGE",
+            "nuance": "LDVD",
+            "voix": 1148,
+            "pourcentage": 61.99,
+            "elu": true
+          },
+          {
+            "nom": "Christophe ARGAIN",
+            "liste": "Pour Coudoux avec Vous",
+            "nuance": "LDVC",
+            "voix": 704,
+            "pourcentage": 38.01,
+            "elu": true
+          }
+        ]
+      }
+    },
+    {
+      "code": "13119",
+      "nom": "Carnoux-en-Provence",
+      "slug": "carnoux-en-provence",
+      "population": 6873,
+      "resultats": {
+        "date": "2026-03-22",
+        "inscrits": 5328,
+        "abstentions": 2226,
+        "tauxParticipation": 58.22,
+        "votants": 3102,
+        "blancs": 21,
+        "nuls": 8,
+        "exprimes": 3073,
+        "candidats": [
+          {
+            "nom": "Nicolas BOULAND",
+            "liste": "TOUJOURS ENSEMBLE POUR CARNOUX",
+            "nuance": "LDVD",
+            "voix": 1882,
+            "pourcentage": 61.24,
+            "elu": true
+          },
+          {
+            "nom": "Alexandra SAUVAN",
+            "liste": "POUR UN NOUVEL ELAN A CARNOUX",
+            "nuance": "LRN",
+            "voix": 746,
+            "pourcentage": 24.28,
+            "elu": true
+          },
+          {
+            "nom": "Marc VINCENT",
+            "liste": "CARNOUX CITOYENNE ECOLOGISTE ET SOLIDAIRE",
+            "nuance": "LDVG",
+            "voix": 445,
+            "pourcentage": 14.48,
+            "elu": true
+          }
+        ]
+      }
+    }
+  ]
+}

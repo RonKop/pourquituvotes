@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026031901';
+  var DATA_VERSION = '2026040101';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -401,7 +401,7 @@
       var tempsRestant = dateVoteParsed.getTime() - maintenant;
 
       if (tempsRestant < 0) {
-        countdownElement.hidden = true;
+        if (countdownElement) countdownElement.hidden = true;
         var mobileTopbarElapsed = document.getElementById("countdown-topbar-mobile");
         if (mobileTopbarElapsed) mobileTopbarElapsed.hidden = true;
         if (countdownInterval) clearInterval(countdownInterval);
@@ -413,14 +413,14 @@
       var minutes = Math.floor((tempsRestant % (1000 * 60 * 60)) / (1000 * 60));
       var secondes = Math.floor((tempsRestant % (1000 * 60)) / 1000);
 
-      countdownJours.textContent = jours;
-      countdownHeures.textContent = heures;
-      countdownMinutes.textContent = minutes;
-      countdownSecondes.textContent = secondes;
+      if (countdownJours) countdownJours.textContent = jours;
+      if (countdownHeures) countdownHeures.textContent = heures;
+      if (countdownMinutes) countdownMinutes.textContent = minutes;
+      if (countdownSecondes) countdownSecondes.textContent = secondes;
 
       // hero-stat-jours supprimé du HTML (Phase 5)
 
-      countdownElement.hidden = false;
+      if (countdownElement) countdownElement.hidden = false;
 
       // Sync mobile topbar countdown
       var mobileTopbar = document.getElementById("countdown-topbar-mobile");
@@ -442,7 +442,7 @@
       clearInterval(countdownInterval);
       countdownInterval = null;
     }
-    countdownElement.hidden = true;
+    if (countdownElement) countdownElement.hidden = true;
     var mobileTopbar = document.getElementById("countdown-topbar-mobile");
     if (mobileTopbar) mobileTopbar.hidden = true;
   }

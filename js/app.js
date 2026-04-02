@@ -1616,7 +1616,13 @@
     // Si T2 déjà joué, bannière "Résultats définitifs"
     if (res.tour2) {
       var eluId = res.eluMaire;
-      var eluNom = eluId;
+      // Fallback : chercher le candidat élu ou celui avec le plus de voix au T2
+      if (!eluId && res.tour2.candidats) {
+        var t2Cands = res.tour2.candidats.slice().sort(function(a, b) { return b.voix - a.voix; });
+        var eluCand = t2Cands.find(function(c) { return c.elu; });
+        eluId = eluCand ? eluCand.id : (t2Cands[0] ? t2Cands[0].id : null);
+      }
+      var eluNom = eluId || "";
       donneesElection.candidats.forEach(function(c) { if (c.id === eluId) eluNom = c.nom; });
       var banniere = document.createElement("div");
       banniere.id = "banniere-resultats-t2";

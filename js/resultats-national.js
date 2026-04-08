@@ -73,7 +73,7 @@
     document.getElementById('national-villes').textContent = formatNumber(statsData.total_communes);
     document.getElementById('national-participation').textContent = statsData.participationMoyenne + '%';
     document.getElementById('national-sous-titre').textContent =
-      formatNumber(statsData.total_communes) + ' communes — 1er tour du 15 mars 2026';
+      formatNumber(statsData.total_communes) + ' communes — Municipales 2026';
 
     var highEl = document.getElementById('national-highest-part');
     var lowEl = document.getElementById('national-lowest-part');

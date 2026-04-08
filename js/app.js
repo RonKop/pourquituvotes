@@ -2805,7 +2805,16 @@
 
   function afficherSpectrePolitique(candidats) {
     var container = document.getElementById("spectre-politique");
-    if (!container) return;
+    if (!container) {
+      // Créer le conteneur dynamiquement s'il n'existe pas (pages shell)
+      var liste = document.getElementById("filtres-candidats-liste");
+      if (!liste) return;
+      container = document.createElement("div");
+      container.id = "spectre-politique";
+      container.className = "spectre-politique";
+      container.hidden = true;
+      liste.parentNode.insertBefore(container, liste);
+    }
 
     var avecNuance = candidats.filter(function(c) {
       return c.nuanceOfficielle && SPECTRE_POSITIONS[c.nuanceOfficielle] !== undefined;

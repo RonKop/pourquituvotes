@@ -10,7 +10,7 @@
  *   - /data/resultats-communes/resultats-{dept}-t2.json → résultats T2
  */
 
-const DATA_VERSION = '2026040801';
+const DATA_VERSION = '2026040802';
 const BASE_URL = 'https://pourquituvotes.fr';
 
 const NUANCE_LABELS = {

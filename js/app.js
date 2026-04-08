@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026040801';
+  var DATA_VERSION = '2026040802';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -2805,16 +2805,17 @@
 
   function afficherSpectrePolitique(candidats) {
     var container = document.getElementById("spectre-politique");
+    // Créer le conteneur dynamiquement s'il n'existe pas (pages shell)
     if (!container) {
-      // Créer le conteneur dynamiquement s'il n'existe pas (pages shell)
       var liste = document.getElementById("filtres-candidats-liste");
       if (!liste) return;
-      container = document.createElement("div");
-      container.id = "spectre-politique";
-      container.className = "spectre-politique";
-      container.hidden = true;
-      liste.parentNode.insertBefore(container, liste);
+      var el = document.createElement("div");
+      el.id = "spectre-politique";
+      el.className = "spectre-politique";
+      el.hidden = true;
+      liste.parentNode.insertBefore(el, liste);
     }
+    container = document.getElementById("spectre-politique");
 
     var avecNuance = candidats.filter(function(c) {
       return c.nuanceOfficielle && SPECTRE_POSITIONS[c.nuanceOfficielle] !== undefined;

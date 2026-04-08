@@ -812,3 +812,214 @@
     font-size: 0.65rem;
   }
 }
+
+/* ============================================================
+   PAGES DÉDIÉES PARTI — /partis/{id}/
+   ============================================================ */
+
+.partip__hero-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.partip__sigle-big {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.partip__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+.partip__subtitle {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.95rem;
+  margin: 0.3rem 0 0;
+}
+
+.partip__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.partip__tag {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.partip__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.partip__grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.partip__section {
+  background: var(--couleur-surface, #fff);
+  border: 1px solid var(--couleur-bordure, #e2e8f0);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.partip__section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 0 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--couleur-texte, #1e293b);
+}
+
+.partip__positions { display: flex; flex-direction: column; gap: 1rem; }
+
+.partip__pos-row { }
+
+.partip__pos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.partip__pos-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--couleur-texte, #1e293b);
+}
+
+.partip__pos-score {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--couleur-texte-secondaire, #64748b);
+}
+
+.partip__pos-track {
+  height: 8px;
+  background: var(--couleur-bordure, #e2e8f0);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.partip__pos-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+
+.partip__pos-resume {
+  margin: 4px 0 0;
+  font-size: 0.82rem;
+  color: var(--couleur-texte-secondaire, #64748b);
+  line-height: 1.4;
+}
+
+.partip__pos-legend {
+  margin: 2px 0 0;
+  font-size: 0.7rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.partip__programme {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.partip__programme li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--couleur-texte, #1e293b);
+}
+
+.partip__histoire {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--couleur-texte, #1e293b);
+  white-space: pre-line;
+}
+
+.partip__sidebar-card {
+  background: var(--couleur-surface, #fff);
+  border: 1px solid var(--couleur-bordure, #e2e8f0);
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.partip__sidebar-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+  color: var(--couleur-texte, #1e293b);
+}
+
+.partip__sidebar-card p {
+  font-size: 0.85rem;
+  color: var(--couleur-texte, #1e293b);
+  margin: 0.3rem 0;
+}
+
+.partip__sidebar-card a {
+  color: #002395;
+  text-decoration: none;
+}
+
+.partip__sidebar-card a:hover {
+  text-decoration: underline;
+}
+
+.partip__res-item {
+  padding: 0.4rem 0;
+  font-size: 0.85rem;
+  border-bottom: 1px solid var(--couleur-bordure, #e2e8f0);
+  color: var(--couleur-texte, #1e293b);
+}
+
+.partip__res-item:last-child { border-bottom: none; }
+
+@media (max-width: 768px) {
+  .partip__grid {
+    grid-template-columns: 1fr;
+  }
+  .partip__title {
+    font-size: 1.5rem;
+  }
+  .partip__sigle-big {
+    width: 56px;
+    height: 56px;
+    font-size: 1.1rem;
+  }
+}

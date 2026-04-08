@@ -124,7 +124,7 @@
       html += '<div class="parti-card__header">';
       html += '<div class="parti-card__sigle">' + esc(p.sigle) + '</div>';
       html += '<div class="parti-card__info">';
-      html += '<h3 class="parti-card__nom">' + esc(p.nom) + '</h3>';
+      html += '<h3 class="parti-card__nom"><a href="/partis/' + esc(p.id) + '/">' + esc(p.nom) + '</a></h3>';
       html += '<p class="parti-card__leader"><i class="ph ph-user" aria-hidden="true"></i> ' + esc(p.leader) + '</p>';
       html += '</div></div>';
 

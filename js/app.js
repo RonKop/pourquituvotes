@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026040802';
+  var DATA_VERSION = '2026040803';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -2787,20 +2787,18 @@
 
   // === Spectre politique ===
   var SPECTRE_POSITIONS = {
-    "LEXG": 5, "LFI": 15, "LCOM": 18, "LSOC": 25,
-    "LUG": 28, "LDVG": 32, "LECO": 35, "LVEC": 35,
+    "LEXG": 8, "LFI": 16, "LCOM": 20, "LSOC": 27,
+    "LUG": 30, "LDVG": 34, "LECO": 37, "LVEC": 37,
     "LREG": 50, "LDIV": 50, "LDSV": 50, "LUC": 50,
-    "LDVC": 50, "LMDM": 48, "LREN": 52, "LHOR": 55,
-    "LUDI": 58, "LDVD": 62, "LLR": 65, "LUD": 68,
-    "LUDR": 68, "LRN": 80, "LREC": 82, "LEXD": 88, "LUXD": 90
+    "LDVC": 50, "LMDM": 48, "LREN": 53, "LHOR": 56,
+    "LUDI": 59, "LDVD": 63, "LLR": 66, "LUD": 70,
+    "LUDR": 70, "LRN": 78, "LREC": 82, "LEXD": 87, "LUXD": 92
   };
 
   var SPECTRE_LABELS = [
-    { pos: 8, label: "Extr. gauche" },
-    { pos: 28, label: "Gauche" },
+    { pos: 10, label: "Gauche" },
     { pos: 50, label: "Centre" },
-    { pos: 68, label: "Droite" },
-    { pos: 88, label: "Extr. droite" }
+    { pos: 90, label: "Droite" }
   ];
 
   function afficherSpectrePolitique(candidats) {
@@ -2851,9 +2849,12 @@
       groups[n].push({ candidat: c, idx: idx });
     });
 
-    // Dots
+    // Dots — hauteur dynamique selon le max d'empilements
+    var maxStack = 1;
+    Object.keys(groups).forEach(function(n) { if (groups[n].length > maxStack) maxStack = groups[n].length; });
     var dotsEl = document.createElement("div");
     dotsEl.className = "spectre__dots";
+    dotsEl.style.height = (28 + (maxStack - 1) * 30) + "px";
 
     Object.keys(groups).forEach(function(nuance) {
       var group = groups[nuance];
@@ -2862,7 +2863,7 @@
         var c = item.candidat;
         var couleur = getCouleurParti(c, item.idx);
         var actif = candidatsSelectionnes.indexOf(c.id) !== -1;
-        var vOffset = group.length > 1 ? (i - (group.length - 1) / 2) * 26 : 0;
+        var vOffset = group.length > 1 ? i * 30 : 0;
 
         var dot = document.createElement("button");
         dot.className = "spectre__dot" + (actif ? " spectre__dot--active" : "");

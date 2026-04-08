@@ -1583,22 +1583,22 @@ li {
 
 /* === Spectre politique === */
 .spectre-politique {
-  margin: 0.5rem 0 0.75rem;
+  margin: 0.75rem 0;
 }
 
 .spectre__wrapper {
   position: relative;
-  padding: 20px 20px 8px;
+  padding: 22px 32px 12px;
 }
 
 .spectre__bar {
-  height: 6px;
-  border-radius: 3px;
+  height: 8px;
+  border-radius: 4px;
   background: linear-gradient(
     to right,
-    #b91c1c 0%, #ef4444 15%, #f97316 30%,
-    #eab308 45%, #a3a3a3 50%,
-    #38bdf8 55%, #3b82f6 70%, #1e40af 85%, #1e3a5f 100%
+    #dc2626 0%, #ef4444 20%, #fb923c 35%,
+    #d4d4d4 50%,
+    #60a5fa 65%, #3b82f6 80%, #1e3a8a 100%
   );
 }
 
@@ -1606,12 +1606,12 @@ li {
 
 .spectre__labels {
   position: relative;
-  height: 14px;
+  height: 16px;
   margin-bottom: 6px;
-  font-size: 0.58rem;
+  font-size: 0.62rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   color: var(--couleur-texte-secondaire);
   user-select: none;
 }
@@ -1624,8 +1624,8 @@ li {
 
 .spectre__dots {
   position: relative;
-  height: 40px;
-  margin-top: -23px;
+  height: 44px;
+  margin-top: -26px;
 }
 
 .spectre__dot {

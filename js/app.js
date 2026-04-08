@@ -1648,9 +1648,9 @@
     var banniere = document.createElement("div");
     banniere.id = "banniere-resultats-t2";
     banniere.className = "banniere-resultats banniere-resultats--t2";
-    banniere.innerHTML = '<i class="ph ph-megaphone"></i> <strong>Second tour le 22 mars</strong> \u2014 ' +
-      qualifies.length + ' candidats qualifi\u00E9s : ' + echapper(qualifies.join(', ')) +
-      ' &mdash; <a href="/municipales-2026/' + encodeURIComponent(villeId) + '/resultats/">R\u00E9sultats du 1er tour</a>';
+    banniere.innerHTML = '<i class="ph ph-chart-bar"></i> ' +
+      qualifies.length + ' candidats qualifi\u00E9s au 2nd tour : ' + echapper(qualifies.join(', ')) +
+      ' &mdash; <a href="/municipales-2026/' + encodeURIComponent(villeId) + '/resultats/">Voir les r\u00E9sultats</a>';
     electionInfo.parentNode.insertBefore(banniere, electionInfo.nextSibling);
   }
 

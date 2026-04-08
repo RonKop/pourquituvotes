@@ -1,58 +1,222 @@
-<!DOCTYPE html>
+/**
+ * Cloudflare Pages Function: /municipales-2026/:ville/resultats/
+ *
+ * Génère dynamiquement les pages de résultats pour les ~35 000 communes
+ * au lieu de 32k fichiers HTML statiques (limite Cloudflare Pages = 20k).
+ *
+ * Données :
+ *   - /data/index-communes.json → lookup commune par slug
+ *   - /data/resultats-communes/resultats-{dept}-t1.json → résultats T1
+ *   - /data/resultats-communes/resultats-{dept}-t2.json → résultats T2
+ */
+
+const DATA_VERSION = '2026040102';
+const BASE_URL = 'https://pourquituvotes.fr';
+
+const NUANCE_LABELS = {
+  LUG: 'Union de la gauche', LFI: 'La France Insoumise', LEXG: 'Extrême gauche',
+  LUD: 'Union de la droite', LUC: 'Union du centre', LUXD: 'Extrême droite unie',
+  LEXD: 'Extrême droite', LRN: 'Rassemblement National',
+  LDVG: 'Divers gauche', LDVD: 'Divers droite', LDVC: 'Divers centre',
+  LECO: 'Écologistes', LDIV: 'Divers', LCOM: 'Parti communiste',
+  LSOC: 'Parti socialiste', LLR: 'Les Républicains', LREM: 'Renaissance',
+};
+
+// Cache en mémoire (persiste entre les requêtes sur le même isolate)
+let communesIndex = null;
+let resultatsCache = {};
+
+async function fetchJSON(origin, path) {
+  const res = await fetch(origin + path);
+  if (!res.ok) return null;
+  return res.json();
+}
+
+async function getCommunesIndex(origin) {
+  if (communesIndex) return communesIndex;
+  const data = await fetchJSON(origin, `/data/index-communes.json?v=${DATA_VERSION}`);
+  if (!data) return null;
+  // Construire un map slug → commune
+  const map = {};
+  for (const c of data) {
+    map[c.s] = c;
+  }
+  communesIndex = map;
+  return map;
+}
+
+async function getResultats(origin, dept, tour) {
+  const key = `${dept}-t${tour}`;
+  if (resultatsCache[key]) return resultatsCache[key];
+  const data = await fetchJSON(origin, `/data/resultats-communes/resultats-${dept}-t${tour}.json?v=${DATA_VERSION}`);
+  if (!data) return null;
+  // Construire un map slug → résultats
+  const map = {};
+  for (const c of data.communes || []) {
+    map[c.slug] = c;
+  }
+  resultatsCache[key] = map;
+  return map;
+}
+
+function esc(str) {
+  if (!str) return '';
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function formatNumber(n) {
+  if (!n && n !== 0) return '0';
+  return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '\u00A0');
+}
+
+function buildSeoContent(commune, t1Data, t2Data) {
+  const ville = esc(commune.n);
+  let html = '';
+
+  // T2 results
+  if (t2Data && t2Data.resultats) {
+    const r = t2Data.resultats;
+    html += `<h2>Résultats des élections municipales 2026 à ${ville}</h2>\n`;
+    html += `<p>Les résultats du second tour des élections municipales 2026 à ${ville} sont disponibles. Le taux de participation s'est établi à ${r.tauxParticipation}%.</p>\n`;
+    html += `<h3>Classement des candidats aux municipales 2026 à ${ville}</h3>\n<ol>\n`;
+    const sorted = [...(r.candidats || [])].sort((a, b) => b.pourcentage - a.pourcentage);
+    for (const c of sorted) {
+      const nuance = NUANCE_LABELS[c.nuance] || c.nuance || '';
+      html += `<li>${esc(c.nom)}${nuance ? ` (${esc(nuance)})` : ''} — ${c.pourcentage}% (${formatNumber(c.voix)} voix)</li>\n`;
+    }
+    html += `</ol>\n`;
+  }
+
+  // T1 results
+  if (t1Data && t1Data.resultats) {
+    const r = t1Data.resultats;
+    if (t2Data) {
+      html += `<h3>Premier tour des municipales 2026 à ${ville}</h3>\n`;
+      html += `<p>Au premier tour (${r.date || '15 mars 2026'}), le taux de participation était de ${r.tauxParticipation}%.</p>\n`;
+    } else {
+      html += `<h2>Résultats des municipales des municipales 2026 à ${ville}</h2>\n`;
+      html += `<p>Le taux de participation au premier tour s'est établi à ${r.tauxParticipation}%.</p>\n`;
+    }
+    html += `<ol>\n`;
+    const sorted = [...(r.candidats || [])].sort((a, b) => b.pourcentage - a.pourcentage);
+    for (const c of sorted) {
+      const qualif = c.qualifieT2 ? ' — qualifié(e) au second tour' : '';
+      html += `<li>${esc(c.nom)} — ${c.pourcentage}% (${formatNumber(c.voix)} voix)${qualif}</li>\n`;
+    }
+    html += `</ol>\n`;
+  }
+
+  html += `<h3>Comparer les programmes</h3>\n`;
+  html += `<p>Retrouvez l'analyse complète des programmes des candidats à ${ville} sur notre <a href="/municipales-2026/${esc(commune.s)}/">comparateur de programmes</a>.</p>\n`;
+
+  return html;
+}
+
+function buildPage(commune, t1Data, t2Data) {
+  const ville = esc(commune.n);
+  const slug = esc(commune.s);
+  const dept = esc(commune.d);
+  const participation = commune.t || 0;
+  const url = `${BASE_URL}/municipales-2026/${slug}/resultats/`;
+
+  const hasT2 = !!(t2Data && t2Data.resultats);
+  const tourLabel = hasT2 ? 'second' : '1er';
+  const title = `Résultats du ${tourLabel} tour municipales 2026 ${ville}`;
+  const description = `Résultats du ${tourLabel} tour des municipales 2026 à ${ville}. Participation : ${participation}%. Classement et scores de tous les candidats.`;
+
+  const seoContent = buildSeoContent(commune, t1Data, t2Data);
+
+  // Schema.org structured data
+  const schemaJson = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Event",
+        "name": `Élections municipales 2026 — ${commune.n}`,
+        "description": `Résultats des élections municipales 2026 à ${commune.n}, France.`,
+        "startDate": "2026-03-15",
+        "endDate": "2026-03-22",
+        "eventStatus": "https://schema.org/EventCompleted",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": commune.n,
+          "address": { "@type": "PostalAddress", "addressLocality": commune.n, "addressCountry": "FR" }
+        },
+        "organizer": { "@type": "GovernmentOrganization", "name": "Ministère de l'Intérieur" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": `Qui a gagné les municipales 2026 à ${commune.n} ?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": commune.w
+                ? `${commune.w} a remporté les municipales 2026 à ${commune.n} avec ${commune.wp}% des voix.`
+                : `Les résultats des municipales 2026 à ${commune.n} sont en cours de publication.`
+            }
+          },
+          {
+            "@type": "Question",
+            "name": `Quel est le taux de participation aux municipales 2026 à ${commune.n} ?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `Le taux de participation au 1er tour des municipales 2026 à ${commune.n} est de ${participation}%.`
+            }
+          }
+        ]
+      }
+    ]
+  });
+
+  return `<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-  <title>R&eacute;sultats Municipales 2026 | #POURQUITUVOTES</title>
-  <meta name="description" content="R&eacute;sultats des &eacute;lections municipales 2026. Scores, participation et classement des candidats.">
+  <title>${title}</title>
+  <meta name="description" content="${esc(description)}">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <link rel="canonical" href="https://pourquituvotes.fr/municipales/2026/resultats.html">
-  <link rel="alternate" type="application/rss+xml" title="#POURQUITUVOTES" href="/feed.xml">
+  <link rel="canonical" href="${url}">
 
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="#POURQUITUVOTES">
-  <meta property="og:title" content="R&eacute;sultats Municipales 2026 | #POURQUITUVOTES">
-  <meta property="og:url" content="https://pourquituvotes.fr/municipales/2026/resultats.html">
-  <meta property="og:image" content="https://pourquituvotes.fr/img/og/comparateur.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="R&eacute;sultats municipales 2026 | #POURQUITUVOTES">
+  <meta property="og:title" content="${title}">
+  <meta property="og:description" content="${esc(description)}">
+  <meta property="og:url" content="${url}">
   <meta property="og:locale" content="fr_FR">
 
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="R&eacute;sultats Municipales 2026 | #POURQUITUVOTES">
-  <meta name="twitter:description" content="R&eacute;sultats des &eacute;lections municipales 2026. Scores, participation et classement des candidats.">
-  <meta name="twitter:image" content="https://pourquituvotes.fr/img/og/comparateur.jpg">
+  <meta name="twitter:title" content="${title}">
+  <meta name="twitter:description" content="${esc(description)}">
 
-  <meta property="article:published_time" content="2026-03-15T00:00:00+01:00">
-  <meta property="article:modified_time" content="2026-03-15T00:00:00+01:00">
+  <meta property="article:modified_time" content="2026-03-23T00:00:00+01:00">
 
-  <!-- Consent Mode V2 (MUST load before GTM) -->
+  <!-- Structured Data -->
+  <script type="application/ld+json">${schemaJson}</script>
+
   <script>
   window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
   gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','analytics_storage':'denied','functionality_storage':'granted','personalization_storage':'denied','security_storage':'granted','wait_for_update':500});
   (function(){var m=document.cookie.match(/pqv_consent=([^;]+)/);if(m){try{var p=JSON.parse(decodeURIComponent(m[1]));gtag('consent','update',{'analytics_storage':p.analytics?'granted':'denied','ad_storage':p.marketing?'granted':'denied','ad_user_data':p.marketing?'granted':'denied','ad_personalization':p.marketing?'granted':'denied','personalization_storage':p.functional?'granted':'denied'});}catch(e){}}})();
   </script>
-
-  <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-T4CCTF6V');</script>
-
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Phosphor Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web/src/regular/style.css">
-
-  <link rel="stylesheet" href="/css/style.css?v=2026040801">
-  <link rel="stylesheet" href="/css/resultats.css?v=2026040801">
+  <link rel="stylesheet" href="/css/style.css?v=${DATA_VERSION}">
+  <link rel="stylesheet" href="/css/resultats.css?v=${DATA_VERSION}">
   <link rel="stylesheet" href="/css/consent.css">
 </head>
 <body>
@@ -61,7 +225,6 @@
 
   <a href="#resultats-main" class="skip-link">Aller au contenu principal</a>
 
-  <!-- Header -->
   <header class="site-header" id="site-header">
     <div class="site-header__inner">
       <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
@@ -80,7 +243,6 @@
     </div>
   </header>
 
-  <!-- Mobile menu -->
   <div class="mobile-menu-overlay" id="mobile-menu" hidden>
     <div class="mobile-menu-overlay__header">
       <a href="/" class="header-brand"><span class="brand-blanc">#POURQUITU</span><span class="brand-rouge">VOTES?</span></a>
@@ -105,10 +267,8 @@
   </div>
 
   <main id="resultats-main">
-    <!-- Hero -->
     <section class="resultats-hero" id="resultats-hero">
       <div class="resultats-hero__inner">
-        <!-- Fil d'Ariane (dans le hero, fond sombre) -->
         <nav class="fil-ariane fil-ariane--hero" aria-label="Fil d'Ariane">
           <ol class="fil-ariane__liste" itemscope itemtype="https://schema.org/BreadcrumbList">
             <li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -116,16 +276,12 @@
               <meta itemprop="position" content="1">
             </li>
             <li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <a href="/municipales/2026/" itemprop="item"><span itemprop="name">Municipales 2026</span></a>
+              <a href="/municipales-2026/resultats/" itemprop="item"><span itemprop="name">Résultats</span></a>
               <meta itemprop="position" content="2">
             </li>
-            <li class="fil-ariane__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <a href="#" itemprop="item" id="breadcrumb-ville"><span itemprop="name" id="breadcrumb-ville-nom">Ville</span></a>
-              <meta itemprop="position" content="3">
-            </li>
             <li class="fil-ariane__item fil-ariane__item--actif" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <a href="#" itemprop="item" id="breadcrumb-current"><span itemprop="name">R&eacute;sultats</span></a>
-              <meta itemprop="position" content="4">
+              <a href="${url}" itemprop="item"><span itemprop="name">${ville}</span></a>
+              <meta itemprop="position" content="3">
             </li>
           </ol>
         </nav>
@@ -151,13 +307,11 @@
       </div>
     </section>
 
-    <!-- Onglets Tour 1 / Tour 2 -->
     <div class="resultats-onglets" id="resultats-onglets" hidden>
       <button class="resultats-onglets__btn resultats-onglets__btn--actif" data-tour="1">Tour 1</button>
       <button class="resultats-onglets__btn" data-tour="2">Tour 2</button>
     </div>
 
-    <!-- Tableau des résultats -->
     <section class="resultats-section" id="resultats-section">
       <h2 class="resultats-section__titre" id="resultats-section-titre">Classement des candidats</h2>
       <div class="resultats-table" id="resultats-table" role="table" aria-label="R&eacute;sultats par candidat">
@@ -165,13 +319,11 @@
       </div>
     </section>
 
-    <!-- Fusions de listes (T2) -->
     <section class="resultats-fusions" id="resultats-fusions" hidden>
       <h2 class="resultats-fusions__titre">Fusions de listes au second tour</h2>
       <div id="resultats-fusions-content"></div>
     </section>
 
-    <!-- Participation (Chart.js donut) -->
     <section class="resultats-participation" id="resultats-participation">
       <h2 class="resultats-participation__titre">Participation &eacute;lectorale</h2>
       <div class="resultats-participation__inner">
@@ -182,10 +334,9 @@
       </div>
     </section>
 
-    <!-- CTA Comparateur -->
     <div class="resultats-cta">
-      <a href="#" id="resultats-cta-comparer" class="resultats-cta__btn">
-        <i class="ph ph-scales"></i> Comparez les programmes &agrave; <span id="resultats-cta-ville">cette ville</span>
+      <a href="/municipales-2026/${slug}/" id="resultats-cta-comparer" class="resultats-cta__btn">
+        <i class="ph ph-scales"></i> Comparez les programmes &agrave; ${ville}
       </a>
       <a href="#" id="resultats-cta-share" class="resultats-cta__btn resultats-cta__btn--secondary" hidden>
         <i class="ph ph-share-network"></i> Partager les r&eacute;sultats
@@ -193,12 +344,13 @@
     </div>
   </main>
 
-  <!-- Footer -->
+  <section class="seo-content" aria-label="Résultats des élections municipales 2026 à ${ville}">
+    ${seoContent}
+  </section>
+
   <footer class="footer" role="contentinfo">
     <div class="footer__inner">
       <div class="footer__grid">
-
-        <!-- Brand -->
         <div class="footer__brand">
           <a href="/" class="footer__logo" aria-label="Accueil">
             <span class="logo__hash">#</span><span class="logo__pourquitu">POURQUITU</span><span class="logo__votes">VOTES</span><span class="logo__question">?</span>
@@ -210,8 +362,6 @@
             <a href="#" aria-label="LinkedIn" class="footer__social"><i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
           </div>
         </div>
-
-        <!-- Municipales -->
         <div class="footer__col">
           <h3 class="footer__col-title">Municipales 2026</h3>
           <ul class="footer__list">
@@ -225,8 +375,6 @@
             <li><a href="/municipales/2026/" class="footer__link--all">Toutes les villes <i class="ph ph-arrow-right" aria-hidden="true"></i></a></li>
           </ul>
         </div>
-
-        <!-- Autres elections -->
         <div class="footer__col">
           <h3 class="footer__col-title">Enjeux &amp; &Eacute;lections</h3>
           <ul class="footer__list">
@@ -238,8 +386,6 @@
             <li><span class="footer__item-soon">Europ&eacute;ennes 2029</span></li>
           </ul>
         </div>
-
-        <!-- Le projet -->
         <div class="footer__col">
           <h3 class="footer__col-title">Le projet</h3>
           <ul class="footer__list">
@@ -250,9 +396,7 @@
             <li><a href="#" class="js-open-contribuer"><i class="ph ph-hand-heart" aria-hidden="true"></i> Contribuer</a></li>
           </ul>
         </div>
-
       </div>
-
       <div class="footer__bottom">
         <p>&copy; 2026 #POURQUITUVOTES &mdash; Projet citoyen ind&eacute;pendant</p>
         <div class="footer__legal">
@@ -265,7 +409,6 @@
   </footer>
 
   <script>
-    // Burger menu
     var burgerBtn = document.getElementById("burger-btn");
     var mobileMenu = document.getElementById("mobile-menu");
     var menuClose = document.getElementById("mobile-menu-close");
@@ -282,9 +425,58 @@
   </script>
   <script defer src="/js/consent.min.js"></script>
   <script defer src="/js/seo-utils.js"></script>
-  <script defer src="/js/burger-search.js?v=2026040801"></script>
+  <script defer src="/js/burger-search.js?v=${DATA_VERSION}"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
-  <script defer src="/js/resultats.js?v=2026040801"></script>
+  <script defer src="/js/resultats.js?v=${DATA_VERSION}"></script>
   <script defer src="/js/contribuer.js"></script>
 </body>
-</html>
+</html>`;
+}
+
+export async function onRequest(context) {
+  const { params, request } = context;
+  const ville = params.ville;
+
+  if (!ville) {
+    return new Response('Not found', { status: 404 });
+  }
+
+  // Trailing slash enforcement
+  const url = new URL(request.url);
+  if (!url.pathname.endsWith('/')) {
+    return Response.redirect(url.origin + url.pathname + '/' + url.search, 301);
+  }
+
+  const slug = decodeURIComponent(ville).toLowerCase();
+  const origin = url.origin;
+
+  // Lookup commune
+  const index = await getCommunesIndex(origin);
+  if (!index || !index[slug]) {
+    // Commune not found — pass through to static assets (maybe it's a main city)
+    return context.next();
+  }
+
+  const commune = index[slug];
+  const dept = commune.d;
+
+  // Fetch T1 and T2 results in parallel
+  const [t1Map, t2Map] = await Promise.all([
+    getResultats(origin, dept, 1),
+    getResultats(origin, dept, 2),
+  ]);
+
+  const t1Data = t1Map ? t1Map[slug] : null;
+  const t2Data = t2Map ? t2Map[slug] : null;
+
+  const html = buildPage(commune, t1Data, t2Data);
+
+  return new Response(html, {
+    status: 200,
+    headers: {
+      'Content-Type': 'text/html;charset=UTF-8',
+      'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+      'X-Robots-Tag': 'index, follow',
+    },
+  });
+}

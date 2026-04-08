@@ -1,0 +1,1010 @@
+{
+  "partis": [
+    {
+      "id": "rn",
+      "nom": "Rassemblement National",
+      "sigle": "RN",
+      "couleur": "#0D2240",
+      "leader": "Jordan Bardella",
+      "fondation": "1972 (ex-Front National, renommé en 2018)",
+      "positionnement": "Extrême droite",
+      "spectrePosition": 80,
+      "ideologie": ["Nationalisme", "Populisme de droite", "Euroscepticisme", "Souverainisme"],
+      "site": "https://rassemblementnational.fr",
+      "positions": {
+        "economie": {
+          "score": 4,
+          "resume": "Protectionnisme économique, défense du pouvoir d'achat par la baisse de la TVA sur les produits de première nécessité et l'énergie. Favorable à une intervention de l'État pour protéger les entreprises françaises."
+        },
+        "social": {
+          "score": 2,
+          "resume": "Conservateur sur les questions sociétales, attaché à la famille traditionnelle. Opposition au mariage pour tous historique, positions restrictives sur la PMA et la GPA."
+        },
+        "immigration": {
+          "score": 10,
+          "resume": "Restriction maximale de l'immigration, suppression du droit du sol, priorité nationale à l'emploi et aux aides sociales. Référendum sur l'immigration."
+        },
+        "europe": {
+          "score": 2,
+          "resume": "Eurosceptique, favorable à une Europe des nations souveraines. Remise en cause de la primauté du droit européen, opposition au fédéralisme."
+        },
+        "ecologie": {
+          "score": 3,
+          "resume": "Favorable au nucléaire, opposition aux éoliennes. Écologie pragmatique axée sur le localisme et la protection des paysages, rejet des contraintes environnementales sur les entreprises."
+        },
+        "securite": {
+          "score": 9,
+          "resume": "Tolérance zéro, renforcement massif des forces de l'ordre, peines plancher, construction de places de prison. Expulsion des délinquants étrangers."
+        }
+      },
+      "programmeNational": [
+        "Suppression du droit du sol et restriction drastique de l'immigration",
+        "Baisse de la TVA à 5,5 % sur l'énergie (carburants, gaz, électricité)",
+        "Retraite à 60 ans pour ceux ayant commencé à travailler avant 20 ans",
+        "Priorité nationale pour l'emploi et les aides sociales",
+        "Référendum sur l'immigration",
+        "Renforcement des effectifs de police et de gendarmerie",
+        "Peines plancher pour les récidivistes",
+        "Sortie du commandement intégré de l'OTAN",
+        "Soutien au nucléaire et opposition aux éoliennes"
+      ],
+      "histoire": "Le Rassemblement National est issu du Front National, fondé en 1972 par Jean-Marie Le Pen pour rassembler les différentes composantes de l'extrême droite française. Pendant trois décennies, le parti reste marginal malgré la percée de Jean-Marie Le Pen au second tour de la présidentielle 2002 face à Jacques Chirac.\n\nMarine Le Pen prend la présidence du parti en 2011 et entreprend une stratégie de dédiabolisation. Elle renomme le parti Rassemblement National en 2018 pour marquer cette rupture. Elle atteint le second tour des présidentielles en 2017 et 2022, obtenant respectivement 33,9 % et 41,45 % des voix.\n\nEn 2022, Jordan Bardella, 27 ans, est élu président du parti. Sous sa direction, le RN réalise un score historique aux européennes 2024 (31,37 %) et aux législatives anticipées de 2024 (143 députés). Les municipales 2026 confirment l'ancrage territorial avec la plus grande percée de l'histoire du mouvement.",
+      "figuresCles": ["Jean-Marie Le Pen", "Marine Le Pen", "Jordan Bardella", "Louis Aliot", "Sébastien Chenu"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Marine Le Pen",
+          "tour1": 23.15,
+          "tour2": 41.45
+        },
+        "legislatives2024": {
+          "sieges": 143
+        },
+        "europeennes2024": {
+          "pourcentage": 31.37,
+          "sieges": 30
+        }
+      },
+      "nuancesAssociees": ["LRN", "LEXD"]
+    },
+    {
+      "id": "lfi",
+      "nom": "La France Insoumise",
+      "sigle": "LFI",
+      "couleur": "#CC2443",
+      "leader": "Jean-Luc Mélenchon",
+      "fondation": "2016",
+      "positionnement": "Gauche radicale",
+      "spectrePosition": 15,
+      "ideologie": ["Populisme de gauche", "Écosocialisme", "Souverainisme de gauche", "Altermondialisme"],
+      "site": "https://lafranceinsoumise.fr",
+      "positions": {
+        "economie": {
+          "score": 2,
+          "resume": "Interventionnisme fort : planification écologique, hausse du SMIC à 1600 € nets, blocage des prix, nationalisation des autoroutes et de l'énergie. Taxation des superprofits."
+        },
+        "social": {
+          "score": 9,
+          "resume": "Très progressiste : constitutionnalisation du droit à l'IVG, lutte contre les discriminations, légalisation du cannabis, extension des droits des minorités."
+        },
+        "immigration": {
+          "score": 2,
+          "resume": "Régularisation des travailleurs sans papiers, accueil digne des réfugiés, opposition aux lois immigration restrictives. Critique de la notion de priorité nationale."
+        },
+        "europe": {
+          "score": 3,
+          "resume": "Désobéissance aux traités européens jugés contraires à l'intérêt du peuple. Refus de l'austérité imposée par Bruxelles, mais pas de sortie de l'UE."
+        },
+        "ecologie": {
+          "score": 9,
+          "resume": "Planification écologique ambitieuse : 100 % renouvelables, sortie du nucléaire à terme, investissements massifs dans la bifurcation écologique. Règle verte (ne pas prendre plus que la nature ne peut reconstituer)."
+        },
+        "securite": {
+          "score": 3,
+          "resume": "Priorité à la prévention et à la police de proximité. Critique des violences policières, opposition aux lois sécuritaires et à la vidéosurveillance généralisée."
+        }
+      },
+      "programmeNational": [
+        "Hausse du SMIC à 1 600 € nets mensuels",
+        "Retraite à 60 ans",
+        "Planification écologique : 200 milliards d'investissement pour la bifurcation",
+        "VIe République avec Assemblée constituante",
+        "Blocage des prix des produits de première nécessité",
+        "Gratuité des cantines scolaires et des transports en commun",
+        "Taxe sur les superprofits et ISF renforcé",
+        "Nationalisation des autoroutes, aéroports et secteur énergétique",
+        "Désobéissance aux traités européens d'austérité"
+      ],
+      "histoire": "La France Insoumise est fondée en février 2016 par Jean-Luc Mélenchon, ancien sénateur socialiste et cofondateur du Parti de Gauche. Le mouvement se construit comme une structure souple, autour d'un programme collaboratif (L'Avenir en Commun) et d'une stratégie populiste de gauche inspirée de Podemos.\n\nDès la présidentielle 2017, Mélenchon réalise un score de 19,58 % au premier tour, frôlant le second tour. En 2022, il atteint 21,95 %, manquant à nouveau la qualification de moins de deux points. LFI structure ensuite la NUPES, coalition de gauche qui obtient 131 sièges aux législatives 2022.\n\nEn 2024, le Nouveau Front Populaire, nouvelle coalition de gauche emmenée par LFI, devient la première force à l'Assemblée avec 180 sièges, dont 71 pour LFI. Le mouvement reste cependant traversé par des tensions internes et des critiques sur le leadership vertical de Mélenchon.",
+      "figuresCles": ["Jean-Luc Mélenchon", "Manon Aubry", "Mathilde Panot", "François Ruffin", "Clémentine Autain"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Jean-Luc Mélenchon",
+          "tour1": 21.95,
+          "tour2": null
+        },
+        "legislatives2024": {
+          "sieges": 71
+        },
+        "europeennes2024": {
+          "pourcentage": 9.89,
+          "sieges": 9
+        }
+      },
+      "nuancesAssociees": ["LEXG", "LNUPES", "LNFP"]
+    },
+    {
+      "id": "renaissance",
+      "nom": "Renaissance",
+      "sigle": "REN",
+      "couleur": "#FFD600",
+      "leader": "Gabriel Attal",
+      "fondation": "2016 (ex-En Marche, renommé en 2022)",
+      "positionnement": "Centre / Centre droit",
+      "spectrePosition": 52,
+      "ideologie": ["Libéralisme", "Progressisme", "Pro-européanisme", "Social-libéralisme"],
+      "site": "https://parti-renaissance.fr",
+      "positions": {
+        "economie": {
+          "score": 7,
+          "resume": "Libéralisme modéré : baisse des impôts de production, soutien à l'entrepreneuriat, réforme du marché du travail. Politique de l'offre avec filet social maintenu."
+        },
+        "social": {
+          "score": 7,
+          "resume": "Progressiste modéré : PMA pour toutes, lutte contre les discriminations, mais ligne ferme sur la laïcité et le séparatisme."
+        },
+        "immigration": {
+          "score": 6,
+          "resume": "Position médiane durcie : loi immigration restrictive, accélération des OQTF, mais maintien du droit d'asile. Immigration choisie selon les besoins économiques."
+        },
+        "europe": {
+          "score": 9,
+          "resume": "Résolument pro-européen : souveraineté européenne, défense commune, politique industrielle européenne. Macron porte l'idée de refondation de l'UE."
+        },
+        "ecologie": {
+          "score": 5,
+          "resume": "Écologie pragmatique : planification écologique combinant nucléaire et renouvelables, rénovation thermique des bâtiments. Refus de la décroissance."
+        },
+        "securite": {
+          "score": 6,
+          "resume": "Augmentation des effectifs de police, doublement de la présence sur le terrain, vidéoprotection. Équilibre entre prévention et répression."
+        }
+      },
+      "programmeNational": [
+        "Plein emploi par la réforme du marché du travail et la formation",
+        "Souveraineté européenne : défense commune, politique industrielle",
+        "Planification écologique : nucléaire + renouvelables",
+        "Réforme des retraites (passage progressif à 64 ans)",
+        "Renforcement de la laïcité et lutte contre le séparatisme",
+        "France 2030 : 54 milliards pour l'innovation et la réindustrialisation",
+        "Service national universel (SNU)",
+        "Rénovation énergétique de 700 000 logements par an"
+      ],
+      "histoire": "Renaissance est né sous le nom En Marche!, mouvement fondé en avril 2016 par Emmanuel Macron, alors ministre de l'Économie. Rompant avec le clivage gauche-droite traditionnel, le mouvement propulse Macron à la présidence en 2017 avec 66,1 % au second tour face à Marine Le Pen, puis obtient une majorité absolue à l'Assemblée nationale.\n\nRenommé La République en Marche (LREM) puis Renaissance en 2022, le parti perd sa majorité absolue aux législatives 2022 et doit gouverner par 49.3. Après la dissolution de 2024, le parti ne conserve que 98 députés dans le bloc Ensemble (163 avec les alliés MoDem et Horizons).\n\nEn 2025, Gabriel Attal, ancien Premier ministre et figure montante, prend la direction du parti. Face à l'usure du macronisme et la perspective de la fin du mandat Macron en 2027, le parti cherche à se réinventer, Attal et Édouard Philippe se positionnant comme successeurs potentiels.",
+      "figuresCles": ["Emmanuel Macron", "Gabriel Attal", "Élisabeth Borne", "Gérald Darmanin", "Stéphane Séjourné"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Emmanuel Macron",
+          "tour1": 27.85,
+          "tour2": 58.55
+        },
+        "legislatives2024": {
+          "sieges": 98
+        },
+        "europeennes2024": {
+          "pourcentage": 14.60,
+          "sieges": 13
+        }
+      },
+      "nuancesAssociees": ["LREM", "LENS", "LMAJ"]
+    },
+    {
+      "id": "ps",
+      "nom": "Parti Socialiste",
+      "sigle": "PS",
+      "couleur": "#FF8080",
+      "leader": "Olivier Faure",
+      "fondation": "1969 (héritier de la SFIO, fondée en 1905)",
+      "positionnement": "Centre gauche / Gauche",
+      "spectrePosition": 28,
+      "ideologie": ["Social-démocratie", "Socialisme démocratique", "Pro-européanisme"],
+      "site": "https://www.parti-socialiste.fr",
+      "positions": {
+        "economie": {
+          "score": 3,
+          "resume": "Économie régulée : hausse du SMIC, taxation des hauts revenus, renforcement des services publics. Interventionnisme modéré avec attachement à l'économie de marché encadrée."
+        },
+        "social": {
+          "score": 8,
+          "resume": "Progressiste : mariage pour tous (loi Taubira 2013), PMA, lutte contre les discriminations, défense des droits des femmes et des minorités."
+        },
+        "immigration": {
+          "score": 3,
+          "resume": "Accueil républicain des réfugiés, régularisation au cas par cas, opposition aux lois immigration jugées trop restrictives. Droit d'asile effectif."
+        },
+        "europe": {
+          "score": 8,
+          "resume": "Pro-européen convaincu : Europe sociale, harmonisation fiscale, salaire minimum européen. Le PS porte historiquement la construction européenne."
+        },
+        "ecologie": {
+          "score": 7,
+          "resume": "Transition écologique juste : sortie progressive des énergies fossiles, rénovation thermique massive, justice climatique. Position nuancée sur le nucléaire."
+        },
+        "securite": {
+          "score": 4,
+          "resume": "Prévention et police de proximité, justice restaurative. Refus du tout-répressif mais reconnaissance du besoin de fermeté face à la délinquance."
+        }
+      },
+      "programmeNational": [
+        "Hausse du SMIC et indexation sur l'inflation",
+        "Rétablissement de l'ISF et taxation des superdividendes",
+        "Investissement massif dans l'hôpital public et l'école",
+        "Europe sociale : salaire minimum européen, harmonisation fiscale",
+        "Transition écologique juste : 50 milliards d'investissement vert",
+        "Retraite à 62 ans et prise en compte de la pénibilité",
+        "Égalité femmes-hommes dans tous les domaines",
+        "Construction de 150 000 logements sociaux par an"
+      ],
+      "histoire": "Le Parti Socialiste est fondé au congrès d'Épinay en 1971 par François Mitterrand, sur les cendres de la SFIO. Mitterrand remporte la présidentielle en 1981 et engage de grandes réformes : abolition de la peine de mort, nationalisation, 5e semaine de congés payés. Il est réélu en 1988.\n\nLe PS alterne entre pouvoir et opposition : Lionel Jospin est Premier ministre de 1997 à 2002 (35 heures, CMU), François Hollande préside de 2012 à 2017 (mariage pour tous, COP21). Mais le quinquennat Hollande laisse un parti affaibli : Benoît Hamon n'obtient que 6,36 % à la présidentielle 2017.\n\nLe parti amorce un renouveau sous Olivier Faure et surtout grâce à Raphaël Glucksmann, dont la liste PS-Place Publique atteint 13,83 % aux européennes 2024 (13 sièges). Aux législatives 2024, le PS obtient 64 députés dans le cadre du Nouveau Front Populaire, redevenant un pilier de la gauche.",
+      "figuresCles": ["François Mitterrand", "Lionel Jospin", "François Hollande", "Olivier Faure", "Raphaël Glucksmann"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Anne Hidalgo",
+          "tour1": 1.75,
+          "tour2": null
+        },
+        "legislatives2024": {
+          "sieges": 64
+        },
+        "europeennes2024": {
+          "pourcentage": 13.83,
+          "sieges": 13
+        }
+      },
+      "nuancesAssociees": ["LSOC", "LNUPES", "LNFP"]
+    },
+    {
+      "id": "lr",
+      "nom": "Les Républicains",
+      "sigle": "LR",
+      "couleur": "#0066CC",
+      "leader": "Bruno Retailleau",
+      "fondation": "2015 (ex-UMP, fondée en 2002 ; héritier du RPR)",
+      "positionnement": "Droite",
+      "spectrePosition": 67,
+      "ideologie": ["Gaullisme", "Libéral-conservatisme", "Droite républicaine"],
+      "site": "https://www.republicains.fr",
+      "positions": {
+        "economie": {
+          "score": 7,
+          "resume": "Libéralisme économique : baisse des impôts et des charges, réduction de la dépense publique, simplification administrative. Soutien aux entreprises et à la compétitivité."
+        },
+        "social": {
+          "score": 3,
+          "resume": "Conservateur modéré : attachement à la famille, réticences sur la PMA sans père, défense de la laïcité stricte. Aile droite plus traditionaliste."
+        },
+        "immigration": {
+          "score": 8,
+          "resume": "Restriction forte de l'immigration : quotas annuels votés au Parlement, durcissement du regroupement familial, suppression de l'AME. Fermeté sur les OQTF."
+        },
+        "europe": {
+          "score": 6,
+          "resume": "Pro-européen pragmatique : Europe qui protège ses frontières et son industrie, mais refus du fédéralisme. Subsidiarité et respect des souverainetés nationales."
+        },
+        "ecologie": {
+          "score": 4,
+          "resume": "Écologie de bon sens : soutien fort au nucléaire, innovation technologique comme réponse au climat. Opposition à l'écologie punitive et aux interdictions."
+        },
+        "securite": {
+          "score": 8,
+          "resume": "Fermeté sécuritaire : peines plancher, construction de places de prison, renforcement des moyens de la justice. Lutte contre le narcotrafic et l'islamisme radical."
+        }
+      },
+      "programmeNational": [
+        "Baisse massive des impôts et des charges sociales",
+        "Réduction de 100 milliards de dépenses publiques sur 5 ans",
+        "Quotas d'immigration votés chaque année au Parlement",
+        "Peines plancher et construction de 20 000 places de prison",
+        "Soutien au nucléaire : construction de 6 EPR supplémentaires",
+        "Suppression de 200 000 postes de fonctionnaires",
+        "Autorité à l'école : uniforme, respect, savoirs fondamentaux",
+        "Lutte contre le narcotrafic : moyens exceptionnels pour la justice"
+      ],
+      "histoire": "Les Républicains naissent en 2015 de la transformation de l'UMP, elle-même fondée en 2002 par Jacques Chirac pour rassembler la droite (RPR, DL, partie de l'UDF). Nicolas Sarkozy prend la présidence du parti et l'inscrit dans une ligne droitière assumée.\n\nAprès la défaite de Sarkozy en 2012, le parti traverse des crises de leadership successives : Copé, Sarkozy à nouveau, Wauquiez, Jacob. François Fillon, favori de la présidentielle 2017, est éliminé dès le premier tour (20,01 %) par l'affaire Penelopegate. En 2022, Valérie Pécresse n'obtient que 4,78 %.\n\nEn 2024, le président Éric Ciotti provoque une crise en s'alliant unilatéralement avec le RN pour les législatives, entraînant son exclusion et une scission. Bruno Retailleau, ministre de l'Intérieur, prend la présidence du parti en 2025 avec 74,3 % des voix, cherchant à reconstruire une droite indépendante entre macronisme et extrême droite.",
+      "figuresCles": ["Jacques Chirac", "Nicolas Sarkozy", "Laurent Wauquiez", "Bruno Retailleau", "Valérie Pécresse"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Valérie Pécresse",
+          "tour1": 4.78,
+          "tour2": null
+        },
+        "legislatives2024": {
+          "sieges": 39
+        },
+        "europeennes2024": {
+          "pourcentage": 7.25,
+          "sieges": 6
+        }
+      },
+      "nuancesAssociees": ["LLR", "LDVD"]
+    },
+    {
+      "id": "eelv",
+      "nom": "Les Écologistes (ex-EELV)",
+      "sigle": "EELV",
+      "couleur": "#00C000",
+      "leader": "Marine Tondelier",
+      "fondation": "1984 (Les Verts, renommé EELV en 2010, puis Les Écologistes en 2023)",
+      "positionnement": "Gauche / Centre gauche",
+      "spectrePosition": 32,
+      "ideologie": ["Écologie politique", "Altermondialisme", "Féminisme", "Pro-européanisme"],
+      "site": "https://lesecologistes.fr",
+      "positions": {
+        "economie": {
+          "score": 3,
+          "resume": "Économie de la sobriété : taxation du kérosène et des activités polluantes, investissements massifs dans la transition, relocalisation. Critique de la croissance infinie."
+        },
+        "social": {
+          "score": 9,
+          "resume": "Très progressiste : droits des minorités, féminisme, légalisation du cannabis, revenu universel. Lutte contre toutes les formes de discrimination."
+        },
+        "immigration": {
+          "score": 2,
+          "resume": "Accueil inconditionnel des réfugiés climatiques et politiques, régularisation large, fermeture des CRA. Opposition à la politique migratoire européenne forteresse."
+        },
+        "europe": {
+          "score": 8,
+          "resume": "Pro-européen avec ambition écologique : Green Deal renforcé, taxe carbone aux frontières, PAC verte. L'Europe comme levier de la transition écologique."
+        },
+        "ecologie": {
+          "score": 10,
+          "resume": "Cœur du projet politique : sortie du nucléaire, 100 % renouvelables 2050, agroécologie, fin des pesticides, zéro artificialisation nette. Décroissance sélective."
+        },
+        "securite": {
+          "score": 3,
+          "resume": "Prévention, médiation, justice restaurative. Opposition à la vidéosurveillance et aux dérives sécuritaires. Légalisation du cannabis pour tarir les trafics."
+        }
+      },
+      "programmeNational": [
+        "Sortie du nucléaire et 100 % énergies renouvelables d'ici 2050",
+        "Interdiction des pesticides et transition vers l'agroécologie",
+        "Revenu universel d'existence",
+        "Gratuité des transports en commun dans les grandes villes",
+        "Zéro artificialisation nette des sols",
+        "Rénovation thermique de 700 000 logements par an",
+        "Taxation du kérosène et des superprofits climaticides",
+        "Légalisation encadrée du cannabis"
+      ],
+      "histoire": "L'écologie politique française naît dans les années 1970 avec la candidature de René Dumont à la présidentielle de 1974. Les Verts sont fondés en 1984, puis fusionnent avec d'autres mouvements pour créer Europe Écologie Les Verts (EELV) en 2010, sous l'impulsion du succès de la liste Europe Écologie aux européennes 2009 (16,3 %).\n\nEELV participe au gouvernement Hollande (2012-2014) avec Cécile Duflot au Logement, mais quitte la coalition. Le parti connaît un renouveau avec Yannick Jadot (4,63 % à la présidentielle 2022) et surtout lors des municipales 2020, remportant Lyon, Bordeaux, Strasbourg et plusieurs grandes villes.\n\nEn 2022, Marine Tondelier prend la direction du parti, renommé Les Écologistes en 2023. Réélue en 2025 avec 73 % des voix, elle est désignée pour représenter le parti à la primaire de la gauche pour 2027. Les Écologistes obtiennent 33 députés aux législatives 2024 et 5 eurodéputés.",
+      "figuresCles": ["Daniel Cohn-Bendit", "Noël Mamère", "Cécile Duflot", "Yannick Jadot", "Marine Tondelier"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Yannick Jadot",
+          "tour1": 4.63,
+          "tour2": null
+        },
+        "legislatives2024": {
+          "sieges": 33
+        },
+        "europeennes2024": {
+          "pourcentage": 5.50,
+          "sieges": 5
+        }
+      },
+      "nuancesAssociees": ["LECO", "LNUPES", "LNFP"]
+    },
+    {
+      "id": "pcf",
+      "nom": "Parti Communiste Français",
+      "sigle": "PCF",
+      "couleur": "#DD0000",
+      "leader": "Fabien Roussel",
+      "fondation": "1920",
+      "positionnement": "Gauche",
+      "spectrePosition": 18,
+      "ideologie": ["Communisme", "Marxisme", "Républicanisme social", "Souverainisme de gauche"],
+      "site": "https://www.pcf.fr",
+      "positions": {
+        "economie": {
+          "score": 1,
+          "resume": "Interventionnisme fort : nationalisations des secteurs stratégiques (énergie, banques, transports), augmentation massive des salaires, contrôle des prix. Économie planifiée démocratiquement."
+        },
+        "social": {
+          "score": 7,
+          "resume": "Progressiste avec sensibilité républicaine : droits sociaux étendus, lutte contre les discriminations, mais attachement à l'universalisme républicain plutôt qu'aux approches communautaires."
+        },
+        "immigration": {
+          "score": 3,
+          "resume": "Régularisation des travailleurs sans papiers, accueil des réfugiés, mais Roussel adopte un ton plus ferme que la gauche radicale sur la régulation des flux migratoires."
+        },
+        "europe": {
+          "score": 3,
+          "resume": "Critique de l'Europe libérale et des traités d'austérité. Favorable à une renégociation des traités pour une Europe sociale, sans position de sortie."
+        },
+        "ecologie": {
+          "score": 6,
+          "resume": "Écologie populaire : transition énergétique avec maintien du nucléaire, réindustrialisation verte, opposition à l'écologie punitive qui touche les classes populaires."
+        },
+        "securite": {
+          "score": 4,
+          "resume": "Police de proximité, moyens pour la justice, prévention. Critique du tout-sécuritaire mais Roussel assume un discours de fermeté républicaine sur l'ordre public."
+        }
+      },
+      "programmeNational": [
+        "Augmentation du SMIC à 1 600 € nets et hausse générale des salaires",
+        "Nationalisation des secteurs stratégiques (énergie, banques, transports)",
+        "Retraite à 60 ans à taux plein",
+        "Sécurité sociale intégrale : santé, logement, alimentation",
+        "Construction de 200 000 logements sociaux par an",
+        "Réindustrialisation de la France avec transition écologique",
+        "Défense du nucléaire civil comme outil de souveraineté énergétique",
+        "Paix et désarmement nucléaire, sortie de l'OTAN"
+      ],
+      "histoire": "Le Parti Communiste Français est fondé en décembre 1920 au congrès de Tours, par scission de la SFIO. Membre de l'Internationale communiste, il joue un rôle central dans la Résistance (le parti des 75 000 fusillés). Après-guerre, il devient le premier parti de France avec plus de 25 % des voix.\n\nLe PCF participe au gouvernement de François Mitterrand (1981-1984) avec quatre ministres. Mais son déclin électoral s'amorce dans les années 1980 : de 15,35 % en 1981 à 1,93 % pour Marie-George Buffet en 2007. Robert Hue puis Marie-George Buffet tentent de moderniser le parti.\n\nFabien Roussel, secrétaire national depuis 2018, relance le parti avec une ligne de gauche républicaine et populaire. Candidat à la présidentielle 2022, il obtient 2,28 %. Le PCF conserve 9 députés aux législatives 2024 dans le cadre du Nouveau Front Populaire et maintient un ancrage municipal solide, comme en témoigne la réélection de Roussel à Saint-Amand-les-Eaux en 2026.",
+      "figuresCles": ["Maurice Thorez", "Georges Marchais", "Robert Hue", "Marie-George Buffet", "Fabien Roussel"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Fabien Roussel",
+          "tour1": 2.28,
+          "tour2": null
+        },
+        "legislatives2024": {
+          "sieges": 9
+        },
+        "europeennes2024": {
+          "pourcentage": 2.36,
+          "sieges": 0
+        }
+      },
+      "nuancesAssociees": ["LCOM", "LNUPES", "LNFP"]
+    },
+    {
+      "id": "reconquete",
+      "nom": "Reconquête",
+      "sigle": "REC",
+      "couleur": "#1A1A2E",
+      "leader": "Éric Zemmour",
+      "fondation": "2021",
+      "positionnement": "Extrême droite",
+      "spectrePosition": 83,
+      "ideologie": ["Nationalisme identitaire", "Conservatisme", "Euroscepticisme", "Anti-immigration"],
+      "site": "https://www.parti-reconquete.fr",
+      "positions": {
+        "economie": {
+          "score": 6,
+          "resume": "Libéralisme patriotique : baisse des charges pour les entreprises françaises, réindustrialisation nationale, protectionnisme ciblé. Réduction de la dépense publique sauf régalien."
+        },
+        "social": {
+          "score": 1,
+          "resume": "Très conservateur : défense de la civilisation française et chrétienne, opposition à la théorie du genre, critique du progressisme sociétal, défense de la famille traditionnelle."
+        },
+        "immigration": {
+          "score": 10,
+          "resume": "Immigration zéro : moratoire total sur l'immigration, remigration, suppression du regroupement familial et du droit du sol. Dénonciation du grand remplacement."
+        },
+        "europe": {
+          "score": 1,
+          "resume": "Très eurosceptique : refus de la supranationalité, primauté du droit national, critique systématique des institutions européennes. Vision d'une Europe des patries."
+        },
+        "ecologie": {
+          "score": 2,
+          "resume": "Productivisme assumé : nucléaire massif, rejet des éoliennes et du discours écologiste. Dénonciation de l'écologie punitive comme ennemie de la prospérité."
+        },
+        "securite": {
+          "score": 10,
+          "resume": "Répression maximale : tolérance zéro, rétablissement des peines plancher, expulsion systématique des délinquants étrangers, lutte totale contre l'islamisme."
+        }
+      },
+      "programmeNational": [
+        "Moratoire total sur l'immigration légale et clandestine",
+        "Remigration : politique active de retour dans les pays d'origine",
+        "Suppression du droit du sol et du regroupement familial",
+        "Dissolution des associations islamistes et fermeture des mosquées radicales",
+        "Réarmement massif : budget défense à 3 % du PIB",
+        "Relance du nucléaire : 20 réacteurs en 20 ans",
+        "Suppression de 300 000 postes de fonctionnaires",
+        "Rétablissement de l'autorité à l'école : uniforme, discipline, transmission"
+      ],
+      "histoire": "Reconquête est fondé en décembre 2021 par Éric Zemmour, polémiste et essayiste, pour porter sa candidature à l'élection présidentielle de 2022. Le parti se positionne à droite du Rassemblement National sur les questions identitaires et migratoires, attirant des figures de la droite conservatrice et de l'extrême droite.\n\nÀ la présidentielle 2022, Zemmour obtient 7,07 % au premier tour, un score significatif pour un nouveau mouvement. Marion Maréchal, petite-fille de Jean-Marie Le Pen, rejoint le parti et devient vice-présidente. Elle conduit la liste aux européennes 2024, obtenant 5,47 % et 5 sièges.\n\nMais en juin 2024, la rupture éclate : Maréchal appelle à voter RN aux législatives anticipées, Zemmour l'exclut pour trahison. Elle fonde ensuite Identité Libertés. Affaibli par cette scission, Reconquête peine à maintenir sa dynamique et se retrouve marginalisé dans l'espace de l'extrême droite.",
+      "figuresCles": ["Éric Zemmour", "Marion Maréchal", "Guillaume Peltier", "Nicolas Bay", "Stéphane Ravier"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Éric Zemmour",
+          "tour1": 7.07,
+          "tour2": null
+        },
+        "legislatives2024": {
+          "sieges": 0
+        },
+        "europeennes2024": {
+          "pourcentage": 5.47,
+          "sieges": 5
+        }
+      },
+      "nuancesAssociees": ["LREC", "LEXD"]
+    },
+    {
+      "id": "modem",
+      "nom": "Mouvement Démocrate",
+      "sigle": "MoDem",
+      "couleur": "#FF9900",
+      "leader": "François Bayrou",
+      "fondation": "2007",
+      "positionnement": "Centre",
+      "spectrePosition": 48,
+      "ideologie": ["Centrisme", "Démocratie chrétienne", "Pro-européanisme", "Humanisme"],
+      "site": "https://www.mouvementdemocrate.fr",
+      "positions": {
+        "economie": {
+          "score": 6,
+          "resume": "Économie sociale de marché : équilibre budgétaire, soutien aux PME, investissement dans l'éducation et la recherche. Ni libéralisme pur ni interventionnisme."
+        },
+        "social": {
+          "score": 6,
+          "resume": "Modéré progressiste : attachement aux libertés individuelles, humanisme chrétien-démocrate. Positions nuancées sur les sujets sociétaux."
+        },
+        "immigration": {
+          "score": 5,
+          "resume": "Position médiane : immigration régulée et intégration républicaine, maintien du droit d'asile. Ni ouverture totale ni fermeture, pragmatisme."
+        },
+        "europe": {
+          "score": 9,
+          "resume": "Profondément pro-européen : le MoDem est le parti le plus européiste de France. Fédéralisme mesuré, défense commune, harmonisation fiscale et sociale."
+        },
+        "ecologie": {
+          "score": 5,
+          "resume": "Transition écologique progressive : pragmatisme, innovation, mix énergétique incluant le nucléaire. Refus des postures idéologiques."
+        },
+        "securite": {
+          "score": 5,
+          "resume": "Équilibre entre prévention et répression, attachement à l'État de droit et aux libertés fondamentales. Justice de proximité."
+        }
+      },
+      "programmeNational": [
+        "Équilibre des finances publiques et réduction de la dette",
+        "Investissement massif dans l'éducation et la recherche",
+        "Construction européenne approfondie : budget commun, défense",
+        "Aménagement du territoire : développement rural et villes moyennes",
+        "Moralisation de la vie politique et transparence",
+        "Réforme institutionnelle : proportionnelle aux législatives",
+        "Transition écologique pragmatique et inclusive",
+        "Soutien aux PME et à l'artisanat"
+      ],
+      "histoire": "Le Mouvement Démocrate est fondé en 2007 par François Bayrou après sa candidature présidentielle remarquée (18,57 % au premier tour). Il succède à l'UDF et incarne un centrisme indépendant, refusant de choisir entre gauche et droite.\n\nAprès des années de traversée du désert (9,13 % en 2012), Bayrou s'allie à Emmanuel Macron en 2017, apportant un soutien décisif à sa victoire. Le MoDem devient un pilier de la majorité présidentielle, obtenant des ministères et un groupe parlementaire significatif. En 2024, il conserve 34 députés dans le bloc Ensemble.\n\nFrançois Bayrou est nommé Premier ministre en décembre 2024, mais son gouvernement est renversé par une motion de censure en septembre 2025. Candidat aux municipales 2026 à Pau, il est battu de justesse. Le MoDem reste néanmoins un parti d'élus locaux influent, et Bayrou demeure réélu président du parti.",
+      "figuresCles": ["François Bayrou", "Marielle de Sarnez", "Marc Fesneau", "Sarah El Haïry", "Jean-Noël Barrot"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": null,
+          "tour1": null,
+          "tour2": null,
+          "note": "Soutien à Emmanuel Macron"
+        },
+        "legislatives2024": {
+          "sieges": 34
+        },
+        "europeennes2024": {
+          "pourcentage": null,
+          "sieges": null,
+          "note": "Liste commune avec Renaissance (Valérie Hayer)"
+        }
+      },
+      "nuancesAssociees": ["LMDM", "LENS", "LMAJ"]
+    },
+    {
+      "id": "horizons",
+      "nom": "Horizons",
+      "sigle": "HOR",
+      "couleur": "#00B4D8",
+      "leader": "Édouard Philippe",
+      "fondation": "2021",
+      "positionnement": "Centre droit",
+      "spectrePosition": 55,
+      "ideologie": ["Gaullisme social", "Libéralisme modéré", "Pro-européanisme", "Pragmatisme"],
+      "site": "https://horizonsleparti.fr",
+      "positions": {
+        "economie": {
+          "score": 7,
+          "resume": "Libéralisme responsable : maîtrise des dépenses publiques, soutien à l'entreprise, désendettement. Réformes structurelles pour la compétitivité."
+        },
+        "social": {
+          "score": 6,
+          "resume": "Progressiste modéré : pragmatisme sur les sujets sociétaux, attachement à la laïcité. Philippe assume un style sobre et sérieux."
+        },
+        "immigration": {
+          "score": 6,
+          "resume": "Fermeté républicaine : immigration maîtrisée, intégration exigeante, application stricte des OQTF. Position de droite modérée."
+        },
+        "europe": {
+          "score": 8,
+          "resume": "Pro-européen convaincu : Europe de la défense, souveraineté industrielle européenne. Vision d'une Europe puissance dans un monde multipolaire."
+        },
+        "ecologie": {
+          "score": 5,
+          "resume": "Écologie de la responsabilité : nucléaire comme pilier, innovation technologique, adaptation au changement climatique. Refus de l'écologie punitive."
+        },
+        "securite": {
+          "score": 7,
+          "resume": "Fermeté assumée : moyens accrus pour la police et la justice, lutte contre le narcotrafic. Équilibre entre autorité de l'État et libertés."
+        }
+      },
+      "programmeNational": [
+        "Désendettement de la France : trajectoire vers 3 % de déficit",
+        "Réforme de l'État : simplification, décentralisation, efficacité",
+        "Europe puissance : défense commune, autonomie stratégique",
+        "Nucléaire : pilier de la souveraineté énergétique et de la décarbonation",
+        "Sécurité : renforcement de la chaîne pénale, lutte contre le narcotrafic",
+        "Éducation : revalorisation des enseignants, autonomie des établissements",
+        "Immigration maîtrisée et intégration exigeante",
+        "Santé : accès aux soins dans tous les territoires"
+      ],
+      "histoire": "Horizons est fondé en octobre 2021 au Havre par Édouard Philippe, ancien Premier ministre (2017-2020) et maire du Havre. Le parti rassemble des élus de droite modérée et du centre droit, dans la mouvance macroniste mais avec une identité propre, plus droitière que Renaissance.\n\nDès sa création, Horizons s'inscrit dans la majorité présidentielle tout en affirmant son indépendance. Le parti obtient 26 députés aux législatives 2024 dans le bloc Ensemble et implante un réseau d'élus locaux solide.\n\nÉdouard Philippe annonce en septembre 2024 sa candidature à la présidentielle 2027, en faisant le rendez-vous d'une vie. Les municipales 2026 confirment l'ancrage du parti : Philippe est réélu au Havre et Horizons remporte 17 villes de plus de 30 000 habitants, se positionnant comme la force montante du centre droit.",
+      "figuresCles": ["Édouard Philippe", "Antoine Armand", "Laurent Marcangeli", "Frédéric Valletoux", "Agnès Firmin Le Bodo"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": null,
+          "tour1": null,
+          "tour2": null,
+          "note": "Soutien à Emmanuel Macron"
+        },
+        "legislatives2024": {
+          "sieges": 26
+        },
+        "europeennes2024": {
+          "pourcentage": null,
+          "sieges": null,
+          "note": "Liste commune avec Renaissance (Valérie Hayer)"
+        }
+      },
+      "nuancesAssociees": ["LHOR", "LENS", "LMAJ"]
+    },
+    {
+      "id": "udi",
+      "nom": "Union des Démocrates et Indépendants",
+      "sigle": "UDI",
+      "couleur": "#00BFFF",
+      "leader": "Hervé Marseille",
+      "fondation": "2012",
+      "positionnement": "Centre droit",
+      "spectrePosition": 57,
+      "ideologie": ["Centrisme", "Démocratie chrétienne", "Libéralisme social", "Pro-européanisme"],
+      "site": "https://www.parti-udi.fr",
+      "positions": {
+        "economie": {
+          "score": 7,
+          "resume": "Libéralisme social : économie de marché régulée, soutien aux PME, équilibre budgétaire. Baisse de la pression fiscale sur les classes moyennes."
+        },
+        "social": {
+          "score": 5,
+          "resume": "Modéré : humanisme chrétien-démocrate, positions au cas par cas sur les sujets sociétaux. Attachement à la famille et aux solidarités."
+        },
+        "immigration": {
+          "score": 6,
+          "resume": "Immigration régulée, intégration républicaine, respect du droit d'asile. Position modérée entre fermeté et humanisme."
+        },
+        "europe": {
+          "score": 8,
+          "resume": "Pro-européen convaincu : héritage de l'UDF, défense de la construction européenne. Subsidiarité et Europe protectrice."
+        },
+        "ecologie": {
+          "score": 5,
+          "resume": "Transition écologique progressive : pragmatisme, mix énergétique, innovation. Pas de position idéologique tranchée."
+        },
+        "securite": {
+          "score": 6,
+          "resume": "Équilibre entre autorité et libertés, justice efficace, police de proximité renforcée. Attachement à l'État de droit."
+        }
+      },
+      "programmeNational": [
+        "Équilibre des finances publiques et baisse de la dette",
+        "Décentralisation renforcée : pouvoir aux territoires",
+        "Europe protectrice : politique commerciale, frontières communes",
+        "Soutien aux classes moyennes : fiscalité allégée",
+        "Transition énergétique progressive et pragmatique",
+        "Éducation et formation : investissement dans le capital humain",
+        "Logement : relance de la construction et accession à la propriété"
+      ],
+      "histoire": "L'Union des Démocrates et Indépendants est fondée en 2012 par Jean-Louis Borloo pour rassembler le centre droit, dans la continuité de l'UDF. Le parti fédère le Parti radical, le Nouveau Centre et Force européenne démocrate, cherchant à exister entre la droite LR et le centre MoDem.\n\nSous la présidence de Jean-Christophe Lagarde (2014-2022), l'UDI navigue entre alliance avec LR et rapprochement avec la majorité présidentielle. Le parti peine cependant à trouver un espace électoral propre, concurrencé par le MoDem et Horizons.\n\nHervé Marseille, sénateur des Hauts-de-Seine, prend la présidence en 2022 et est réélu en 2025 avec 94,85 % des voix. Il revendique l'indépendance du parti et son ancrage territorial, notamment au Sénat où l'UDI est intégrée au groupe Union centriste.",
+      "figuresCles": ["Jean-Louis Borloo", "Jean-Christophe Lagarde", "Hervé Marseille", "Yves Jégo", "Nathalie Goulet"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": null,
+          "tour1": null,
+          "tour2": null,
+          "note": "Pas de candidat propre"
+        },
+        "legislatives2024": {
+          "sieges": 1
+        },
+        "europeennes2024": {
+          "pourcentage": null,
+          "sieges": null,
+          "note": "Pas de liste propre"
+        }
+      },
+      "nuancesAssociees": ["LUDI", "LDVC", "LENS"]
+    },
+    {
+      "id": "npa",
+      "nom": "Nouveau Parti Anticapitaliste",
+      "sigle": "NPA",
+      "couleur": "#BB0000",
+      "leader": "Christine Poupin et Pauline Salingue (porte-parole NPA-L'Anticapitaliste)",
+      "fondation": "2009 (issu de la Ligue communiste révolutionnaire)",
+      "positionnement": "Extrême gauche",
+      "spectrePosition": 5,
+      "ideologie": ["Trotskisme", "Anticapitalisme", "Écosocialisme", "Internationalisme"],
+      "site": "https://npa-lanticapitaliste.org",
+      "positions": {
+        "economie": {
+          "score": 1,
+          "resume": "Anticapitalisme radical : expropriation des grandes fortunes, nationalisation sous contrôle ouvrier, interdiction des licenciements. Abolition du système capitaliste."
+        },
+        "social": {
+          "score": 10,
+          "resume": "Ultra-progressiste : droits des minorités, féminisme radical, lutte contre toutes les oppressions, autodétermination des peuples."
+        },
+        "immigration": {
+          "score": 1,
+          "resume": "Ouverture totale des frontières, régularisation de tous les sans-papiers, abolition de Frontex. Solidarité internationaliste inconditionnelle."
+        },
+        "europe": {
+          "score": 2,
+          "resume": "Opposition radicale à l'UE libérale et capitaliste. Pas de réforme possible : rupture avec les traités européens. Internationalisme des travailleurs."
+        },
+        "ecologie": {
+          "score": 8,
+          "resume": "Écosocialisme : la crise climatique est une crise du capitalisme. Planification écologique sous contrôle démocratique, sortie immédiate du nucléaire."
+        },
+        "securite": {
+          "score": 1,
+          "resume": "Dissolution des BAC et brigades anti-émeutes, désarmement de la police, justice populaire. La violence est systémique, pas individuelle."
+        }
+      },
+      "programmeNational": [
+        "Expropriation des grandes entreprises sous contrôle ouvrier",
+        "Interdiction des licenciements et partage du temps de travail (32h)",
+        "SMIC à 2 000 € nets",
+        "Ouverture des frontières et régularisation de tous les sans-papiers",
+        "Sortie immédiate du nucléaire",
+        "Dissolution de la BAC et désarmement de la police",
+        "Annulation de la dette des pays du Sud",
+        "Gratuité des transports, de la santé et de l'éducation"
+      ],
+      "histoire": "Le Nouveau Parti Anticapitaliste est fondé en février 2009, succédant à la Ligue communiste révolutionnaire (LCR) d'Alain Krivine. Porté par la popularité d'Olivier Besancenot, facteur et porte-parole médiatique, le NPA ambitionne de devenir un large parti anticapitaliste au-delà du trotskisme.\n\nMais le parti connaît rapidement des scissions : courant unitaire, Gauche anticapitaliste, etc. Philippe Poutou devient le candidat présidentiel en 2012 (1,15 %) et 2022 (0,77 %), gagnant une notoriété personnelle par ses interventions directes et populaires dans les débats télévisés.\n\nEn 2024, le NPA se scinde officiellement en deux organisations : NPA-L'Anticapitaliste (majorité historique, avec Poutou et Besancenot) et NPA-Révolutionnaires (tendance plus orthodoxe). Poutou se présente aux municipales 2026 à Bordeaux, maintenant la visibilité du mouvement malgré sa fragmentation.",
+      "figuresCles": ["Alain Krivine", "Olivier Besancenot", "Philippe Poutou", "Christine Poupin", "Pauline Salingue"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Philippe Poutou",
+          "tour1": 0.77,
+          "tour2": null
+        },
+        "legislatives2024": {
+          "sieges": 0
+        },
+        "europeennes2024": {
+          "pourcentage": null,
+          "sieges": 0,
+          "note": "Pas de liste propre aux européennes 2024"
+        }
+      },
+      "nuancesAssociees": ["LEXG"]
+    },
+    {
+      "id": "lo",
+      "nom": "Lutte Ouvrière",
+      "sigle": "LO",
+      "couleur": "#C80000",
+      "leader": "Nathalie Arthaud (porte-parole)",
+      "fondation": "1968 (issu de Voix ouvrière, fondé en 1956)",
+      "positionnement": "Extrême gauche",
+      "spectrePosition": 3,
+      "ideologie": ["Trotskisme", "Communisme révolutionnaire", "Internationalisme ouvrier"],
+      "site": "https://www.lutte-ouvriere.org",
+      "positions": {
+        "economie": {
+          "score": 1,
+          "resume": "Révolution prolétarienne : expropriation du grand capital, contrôle ouvrier sur la production, planification socialiste. Abolition de la propriété privée des moyens de production."
+        },
+        "social": {
+          "score": 7,
+          "resume": "Progressiste sur les droits sociaux et du travail, mais méfiance envers les luttes considérées comme secondaires par rapport à la lutte de classe. Universalisme strict."
+        },
+        "immigration": {
+          "score": 1,
+          "resume": "Solidarité internationaliste : les travailleurs n'ont pas de patrie. Opposition à toute restriction migratoire, dénonciation du racisme comme outil de division de la classe ouvrière."
+        },
+        "europe": {
+          "score": 2,
+          "resume": "L'UE est un outil des capitalistes. Ni réforme ni sortie : la question se résoudra par la révolution socialiste à l'échelle européenne et mondiale."
+        },
+        "ecologie": {
+          "score": 4,
+          "resume": "La crise écologique est un produit du capitalisme. Pas de solution dans le cadre du système actuel. Méfiance envers l'écologie politique bourgeoise."
+        },
+        "securite": {
+          "score": 2,
+          "resume": "La police est un instrument de l'État bourgeois au service du capital. Critique systémique de l'appareil répressif. La vraie sécurité passe par l'émancipation sociale."
+        }
+      },
+      "programmeNational": [
+        "Interdiction des licenciements et répartition du travail entre tous",
+        "Augmentation massive des salaires indexés sur les prix",
+        "Expropriation des banques et des grands groupes industriels",
+        "Contrôle ouvrier sur la production et la gestion des entreprises",
+        "Levée du secret commercial et bancaire",
+        "Suppression du secret défense sur les questions économiques",
+        "Solidarité internationaliste avec les travailleurs du monde entier"
+      ],
+      "histoire": "Lutte Ouvrière trouve ses origines dans le mouvement trotskyste français d'après-guerre. Fondée sous le nom de Voix ouvrière en 1956 par un groupe de militants autour de Robert Barcia (dit Hardy), l'organisation est dissoute en 1968 après Mai 68 et renaît sous le nom de Lutte Ouvrière.\n\nLe parti se distingue par sa discipline militante rigoureuse et sa fidélité doctrinale au trotskisme orthodoxe. Arlette Laguiller devient son visage public pendant trois décennies, se présentant six fois à la présidentielle (1974-2007), avec un pic à 5,72 % en 2002.\n\nDepuis 2008, Nathalie Arthaud, enseignante d'économie, est la porte-parole du parti. Candidate à la présidentielle en 2012 (0,56 %), 2017 (0,64 %) et 2022 (0,56 %), elle a annoncé sa candidature pour 2027. LO maintient une présence militante régulière, notamment à travers sa Fête annuelle et ses listes aux municipales (250 villes en 2026).",
+      "figuresCles": ["Robert Barcia (Hardy)", "Arlette Laguiller", "Nathalie Arthaud"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Nathalie Arthaud",
+          "tour1": 0.56,
+          "tour2": null
+        },
+        "legislatives2024": {
+          "sieges": 0
+        },
+        "europeennes2024": {
+          "pourcentage": 0.65,
+          "sieges": 0
+        }
+      },
+      "nuancesAssociees": ["LEXG"]
+    },
+    {
+      "id": "nef",
+      "nom": "Nouvelle Énergie pour la France",
+      "sigle": "NEF",
+      "couleur": "#1E3A5F",
+      "leader": "David Lisnard",
+      "fondation": "2024 (structuration en parti politique)",
+      "positionnement": "Droite libérale",
+      "spectrePosition": 60,
+      "ideologie": ["Libéralisme", "Gaullisme", "Municipalisme", "Anti-étatisme"],
+      "site": "https://www.unenouvelleenergie.fr",
+      "positions": {
+        "economie": {
+          "score": 9,
+          "resume": "Libéralisme affirmé : réduction drastique de l'État, baisse massive des impôts et des normes, libération des énergies entrepreneuriales. Inspiration pompidolienne."
+        },
+        "social": {
+          "score": 4,
+          "resume": "Conservateur libéral : attachement aux libertés individuelles, mais vision traditionnelle de la société. Rejet du progressisme imposé par l'État."
+        },
+        "immigration": {
+          "score": 7,
+          "resume": "Immigration maîtrisée et assimilation exigeante. Critique de l'immigration de masse, mais refus du discours d'extrême droite. Fermeté républicaine."
+        },
+        "europe": {
+          "score": 5,
+          "resume": "Europe pragmatique : coopération entre nations souveraines, refus du fédéralisme. Critique de la bureaucratie bruxelloise et des réglementations excessives."
+        },
+        "ecologie": {
+          "score": 3,
+          "resume": "Rejet de l'interventionnisme écologique étatique. La technologie et le marché résoudront les problèmes environnementaux. Soutien au nucléaire, opposition aux contraintes normatives."
+        },
+        "securite": {
+          "score": 7,
+          "resume": "Autorité de l'État sur ses fonctions régaliennes : sécurité, justice, défense. Fermeté pénale, moyens accrus pour la justice et la police."
+        }
+      },
+      "programmeNational": [
+        "Réduction massive de la dépense publique : de 57 % à 50 % du PIB",
+        "Suppression des normes inutiles et simplification administrative",
+        "Décentralisation radicale : redonner le pouvoir aux maires",
+        "Baisse des impôts de production et suppression des taxes absurdes",
+        "Recentrage de l'État sur le régalien : sécurité, justice, défense",
+        "Relance du nucléaire et refus des contraintes écologiques punitives",
+        "Réforme de l'Éducation nationale : autonomie des établissements",
+        "Assimilation républicaine et immigration choisie"
+      ],
+      "histoire": "Nouvelle Énergie pour la France est le mouvement politique lancé par David Lisnard, maire de Cannes depuis 2014 et président de l'Association des Maires de France (AMF) depuis 2021. Initialement créé comme un courant au sein de la droite en 2014, il se structure progressivement en parti autonome.\n\nLisnard incarne une droite libérale et municipaliste, revendiquant l'héritage de Georges Pompidou : État fort sur le régalien, léger partout ailleurs. Sa présidence de l'AMF lui donne une visibilité nationale et un réseau d'élus considérable.\n\nEn mars 2026, Lisnard est réélu à Cannes avec 81,11 % dès le premier tour. Quelques jours plus tard, il quitte Les Républicains, dénonçant un processus d'investiture présidentielle truqué. Nouvelle Énergie pour la France devient alors un parti pleinement autonome, positionné pour peser dans la course à la présidentielle 2027.",
+      "figuresCles": ["David Lisnard", "Philippe Juvin", "Fabien Gouttefarde"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": null,
+          "tour1": null,
+          "tour2": null,
+          "note": "Le parti n'existait pas sous cette forme"
+        },
+        "legislatives2024": {
+          "sieges": 0,
+          "note": "Candidats sous étiquette LR ou divers droite"
+        },
+        "europeennes2024": {
+          "pourcentage": null,
+          "sieges": null,
+          "note": "Pas de liste propre"
+        }
+      },
+      "nuancesAssociees": ["LDVD", "LLR"]
+    },
+    {
+      "id": "prg",
+      "nom": "Parti Radical de Gauche",
+      "sigle": "PRG",
+      "couleur": "#FFB347",
+      "leader": "Guillaume Lacroix",
+      "fondation": "1972 (issu du Parti radical, scission gauche)",
+      "positionnement": "Centre gauche",
+      "spectrePosition": 38,
+      "ideologie": ["Radicalisme", "Social-libéralisme", "Laïcité", "Pro-européanisme"],
+      "site": "https://www.partiradicaldegauche.fr",
+      "positions": {
+        "economie": {
+          "score": 5,
+          "resume": "Économie mixte : régulation intelligente, soutien aux PME et à l'économie sociale et solidaire. Ni libéralisme débridé ni étatisme. Pragmatisme de centre gauche."
+        },
+        "social": {
+          "score": 7,
+          "resume": "Progressiste laïque : défense des libertés individuelles, laïcité comme valeur cardinale, droits des femmes, lutte contre les discriminations. Humanisme républicain."
+        },
+        "immigration": {
+          "score": 4,
+          "resume": "Accueil républicain, intégration par la laïcité et l'école. Position modérée : ni ouverture inconditionnelle ni fermeture. Respect du droit d'asile."
+        },
+        "europe": {
+          "score": 7,
+          "resume": "Pro-européen : Europe sociale et démocratique, mais respect des souverainetés. Tradition radicale historiquement européiste."
+        },
+        "ecologie": {
+          "score": 6,
+          "resume": "Transition écologique pragmatique : mix énergétique, développement durable, territoires résilients. Écologie populaire sans dogmatisme."
+        },
+        "securite": {
+          "score": 5,
+          "resume": "Équilibre républicain : fermeté sur le respect de la loi, prévention, justice de proximité. Attachement aux libertés fondamentales et à l'État de droit."
+        }
+      },
+      "programmeNational": [
+        "Défense intransigeante de la laïcité républicaine",
+        "Économie sociale et solidaire : coopératives, ESS, circuits courts",
+        "Décentralisation : pouvoir aux régions et aux communes",
+        "Europe sociale : harmonisation, protection des travailleurs",
+        "Transition écologique pragmatique et territorialisée",
+        "Éducation : école de la République, mixité sociale",
+        "Égalité des chances et méritocratie républicaine"
+      ],
+      "histoire": "Le Parti Radical de Gauche naît en 1972 de la scission du Parti radical historique (fondé en 1901, le plus vieux parti de France). L'aile gauche, favorable à l'Union de la Gauche avec le PS et le PCF, se constitue en Mouvement des Radicaux de Gauche (MRG), qui deviendra PRG.\n\nLe parti joue un rôle de charnière dans les coalitions de gauche : plusieurs de ses membres deviennent ministres ou présidents du Sénat. Christiane Taubira, figure emblématique, est candidate à la présidentielle 2002 (2,32 %). Le PRG est un allié fidèle du PS, participant à tous les gouvernements de gauche.\n\nSous Guillaume Lacroix (président depuis 2019), le PRG se repositionne comme le centre gauche républicain et laïque. Le parti refuse l'alliance avec LFI dans le cadre de la NUPES, préférant la gauche plurielle à la gauche radicale. Il présente sa propre liste aux européennes 2024, sans atteindre le seuil de 5 %.",
+      "figuresCles": ["Robert Fabre", "Michel Crépeau", "Christiane Taubira", "Jean-Michel Baylet", "Guillaume Lacroix"],
+      "resultats": {
+        "presidentielle2022": {
+          "candidat": "Christiane Taubira",
+          "tour1": 1.10,
+          "tour2": null,
+          "note": "Investie par la Primaire populaire, soutenue par le PRG"
+        },
+        "legislatives2024": {
+          "sieges": 0,
+          "note": "Candidats sous diverses étiquettes de gauche"
+        },
+        "europeennes2024": {
+          "pourcentage": 1.28,
+          "sieges": 0
+        }
+      },
+      "nuancesAssociees": ["LRDG", "LDVG"]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "dateCreation": "2026-04-01",
+    "description": "Données des 15 principaux partis politiques français pour pourquituvotes.fr",
+    "echelle": {
+      "economie": "1=interventionnisme fort, 10=libéralisme pur",
+      "social": "1=conservateur, 10=progressiste",
+      "immigration": "1=ouverture totale, 10=restriction maximale",
+      "europe": "1=eurosceptique, 10=fédéraliste",
+      "ecologie": "1=productivisme, 10=décroissance verte",
+      "securite": "1=prévention seule, 10=répression maximale"
+    },
+    "spectrePosition": "0=extrême gauche, 100=extrême droite",
+    "sources": [
+      "Résultats officiels du ministère de l'Intérieur",
+      "Parlement européen — résultats 2024",
+      "Sites officiels des partis",
+      "Presse nationale (franceinfo, Le Monde, Public Sénat)"
+    ]
+  }
+}

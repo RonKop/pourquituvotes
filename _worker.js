@@ -240,6 +240,7 @@ function buildPage(commune, t1Data, t2Data) {
           <li><a href="/municipales-2026/resultats/">R&eacute;sultats</a></li>
           <li><a href="/methodologie">M&eacute;thodologie</a></li>
           <li><a href="/faq">FAQ</a></li>
+          <li><a href="/partis/">Partis</a></li>
           <li><a href="/a-propos">&Agrave; propos</a></li>
         </ul>
       </nav>
@@ -386,6 +387,7 @@ function buildPage(commune, t1Data, t2Data) {
           <ul class="footer__list">
             <li><a href="/municipales-2026/resultats/">Résultats des municipales</a></li>
             <li><a href="/enjeux-index.html">Enjeux 2026</a></li>
+            <li><a href="/partis/">Partis politiques</a></li>
             <li><a href="/presidentielle/2027/">Pr&eacute;sidentielle 2027 <span class="footer__badge footer__badge--soon">bient&ocirc;t</span></a></li>
             <li><span class="footer__item-soon">L&eacute;gislatives 2027</span></li>
             <li><span class="footer__item-soon">R&eacute;gionales</span></li>

@@ -9,7 +9,7 @@
       "nom": "David Lisnard",
       "liste": "LR / Nouvelle Énergie pour la France",
       "programmeUrl": "https://lisnard2026.fr/",
-      "programmeComplet": false,
+      "programmeComplet": true,
       "programmePdfPath": null,
       "nuanceOfficielle": "LDVD",
       "nuanceLibelle": "Liste divers droite"
@@ -86,7 +86,15 @@
           "id": "prevention-mediation",
           "nom": "Prévention & Médiation",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "Cannes Actus / France Bleu Azur",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-futurs-chantiers-securite-stationnement-jeunesse-logements-les-projets-phares-du-candidat-lisnard-pour-lavenir-de-cannes/",
+              "mesures": [
+                "Création d'une brigade anti-bruit pour lutter contre les nuisances sonores, avec un élu dédié à la civilité.",
+                "Cibler les consommateurs de drogue en plus des revendeurs pour assécher le trafic dans les quartiers.",
+                "Suppression des allocations familiales pour les familles impliquées dans les trafics de drogue."
+              ]
+            },
             "mussio": {
               "source": "Cannes Actus",
               "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-a-cannes-il-faut-une-tolerance-zero-face-a-linsecurite-et-au-narcotrafic-les-propositions-fortes-du-candidat-rn-lucas-mussio/",
@@ -134,7 +142,15 @@
           "id": "pietons-circulation",
           "nom": "Piétons & Circulation",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-futurs-chantiers-securite-stationnement-jeunesse-logements-les-projets-phares-du-candidat-lisnard-pour-lavenir-de-cannes/",
+              "mesures": [
+                "Piétonisation de la rue Forville.",
+                "Élargissement du boulevard de la République.",
+                "Rénovation complète de la rue d'Antibes et de l'avenue Maréchal Juin."
+              ]
+            },
             "mussio": null,
             "hugues": null
           }
@@ -143,7 +159,15 @@
           "id": "stationnement",
           "nom": "Stationnement",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-futurs-chantiers-securite-stationnement-jeunesse-logements-les-projets-phares-du-candidat-lisnard-pour-lavenir-de-cannes/",
+              "mesures": [
+                "Reprise du parking Saint-Nicolas pour augmenter l'offre de stationnement en centre-ville.",
+                "Création du parking du quai Laubeuf (livraison prévue 2027).",
+                "Création de plus de 500 places pour deux-roues, qui resteront gratuites."
+              ]
+            },
             "mussio": null,
             "hugues": null
           }
@@ -167,7 +191,14 @@
           "id": "logement-social",
           "nom": "Logement social",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "France Bleu Azur",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin/municipales-a-cannes-david-lisnard-devoile-un-projet-ambitieux-tout-en-reduisant-la-depense-8620274",
+              "mesures": [
+                "Maintien du taux de logement social au-dessus de 19 %, avec un modèle de logement diffus en centre-ville plutôt que de grands ensembles.",
+                "Reconversion urbaine de parcelles en centre-ville pour créer du logement mixte et éviter la ghettoïsation."
+              ]
+            },
             "mussio": null,
             "hugues": {
               "source": "Cannes Actus",
@@ -230,7 +261,15 @@
           "id": "ecoles-renovation",
           "nom": "Écoles & Rénovation",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "Petites Affiches / France Bleu Azur",
+              "sourceUrl": "https://www.petitesaffiches.fr/politique,104/cannes-les-priorites-du-troisieme,41423.html",
+              "mesures": [
+                "Extension du campus Georges Méliès et création d'un second établissement d'enseignement supérieur.",
+                "Création d'un campus dédié au spatial en partenariat avec Thales Alenia Space, avec des formations en IA et quantique.",
+                "Introduction d'ateliers de latin et grec dès l'école primaire."
+              ]
+            },
             "mussio": null,
             "hugues": null
           }
@@ -293,7 +332,14 @@
           "id": "proprete-dechets",
           "nom": "Propreté & Déchets",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-futurs-chantiers-securite-stationnement-jeunesse-logements-les-projets-phares-du-candidat-lisnard-pour-lavenir-de-cannes/",
+              "mesures": [
+                "Plantation de 1 000 arbres supplémentaires sur la commune.",
+                "Création de sept nouveaux jardins publics, dont le square de la Roubaud et un jardin-terrasse au marché Forville."
+              ]
+            },
             "mussio": {
               "source": "Nice Presse",
               "sourceUrl": "https://nicepresse.com/a-cannes-le-candidat-rn-qui-part-a-lassaut-de-la-citadelle-lisnard-pointe-une-delinquance-en-hausse-et-une-police-municipale-a-reorganiser/",
@@ -308,7 +354,13 @@
           "id": "climat-adaptation",
           "nom": "Climat & Adaptation",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "France Bleu Azur",
+              "sourceUrl": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-azur/municipale-2026-a-cannes-david-lisnard-le-maire-sortant-devoile-son-projet-3998121",
+              "mesures": [
+                "Poursuite du programme de lutte contre les inondations avec des bassins de rétention et la renaturation des cours d'eau."
+              ]
+            },
             "mussio": null,
             "hugues": null
           }
@@ -440,7 +492,14 @@
           "id": "commerce-local",
           "nom": "Commerce local",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "Cannes Actus",
+              "sourceUrl": "https://cannes-actus.com/politique/municipales-2026-futurs-chantiers-securite-stationnement-jeunesse-logements-les-projets-phares-du-candidat-lisnard-pour-lavenir-de-cannes/",
+              "mesures": [
+                "Augmentation de l'offre de stationnement pour soutenir les commerces de centre-ville.",
+                "Rénovation de la rue d'Antibes, axe commerçant principal de Cannes."
+              ]
+            },
             "mussio": {
               "source": "Site de campagne",
               "sourceUrl": "https://www.lucasmussio2026.fr/",
@@ -554,7 +613,14 @@
           "id": "accessibilite",
           "nom": "Accessibilité",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "lisnard2026.fr",
+              "sourceUrl": "https://lisnard2026.fr/",
+              "mesures": [
+                "Budget d'investissement de 400 millions d'euros sur 6 ans pour la transformation urbaine, sans augmentation des impôts locaux.",
+                "Poursuite de la transformation de la Bocca Centre avec création d'une place centrale et rénovation des équipements publics."
+              ]
+            },
             "mussio": null,
             "hugues": null
           }
@@ -584,7 +650,14 @@
           "id": "aide-sociale",
           "nom": "Aide sociale",
           "propositions": {
-            "lisnard": null,
+            "lisnard": {
+              "source": "Petites Affiches",
+              "sourceUrl": "https://www.petitesaffiches.fr/politique,104/cannes-les-priorites-du-troisieme,41423.html",
+              "mesures": [
+                "Doublement des capacités d'accueil pour les femmes victimes de violences conjugales via un dispositif d'urgence de relogement.",
+                "Création d'un parc canin aux Hespérides et déploiement de technologies pour détecter les chiens abandonnés dans les parkings."
+              ]
+            },
             "mussio": null,
             "hugues": null
           }

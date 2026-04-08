@@ -7,7 +7,7 @@
   var ELECTIONS = {};
   var ELECTIONS_CACHE = {};
   var DATA_BASE_URL = '/data/';
-  var DATA_VERSION = '2026040803';
+  var DATA_VERSION = '2026040804';
 
   function chargerVilles() {
     var prefetch = window.__prefetch && window.__prefetch.villes;
@@ -946,8 +946,8 @@
 
     selectionCandidatsSection.hidden = false;
 
-    // Spectre politique
-    afficherSpectrePolitique(candidats);
+    // Spectre politique (désactivé pour le moment)
+    // afficherSpectrePolitique(candidats);
 
     // Init boutons Tous / Aucun (une seule fois)
     if (!filtresInitialise) {

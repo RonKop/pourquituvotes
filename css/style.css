@@ -1581,6 +1581,108 @@ li {
   border-color: #b91c1c;
 }
 
+/* === Spectre politique === */
+.spectre-politique {
+  margin: 0.5rem 0 0.75rem;
+}
+
+.spectre__wrapper {
+  position: relative;
+  padding: 20px 20px 8px;
+}
+
+.spectre__bar {
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(
+    to right,
+    #b91c1c 0%, #ef4444 15%, #f97316 30%,
+    #eab308 45%, #a3a3a3 50%,
+    #38bdf8 55%, #3b82f6 70%, #1e40af 85%, #1e3a5f 100%
+  );
+}
+
+[data-theme="dark"] .spectre__bar { opacity: 0.8; }
+
+.spectre__labels {
+  position: relative;
+  height: 14px;
+  margin-bottom: 6px;
+  font-size: 0.58rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--couleur-texte-secondaire);
+  user-select: none;
+}
+
+.spectre__label {
+  position: absolute;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.spectre__dots {
+  position: relative;
+  height: 40px;
+  margin-top: -23px;
+}
+
+.spectre__dot {
+  position: absolute;
+  top: 50%;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--dot-couleur);
+  color: #fff;
+  font-size: 0.55rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--couleur-surface);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+  z-index: 1;
+  opacity: 0.5;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  padding: 0;
+  line-height: 1;
+}
+
+.spectre__dot:hover {
+  opacity: 1;
+  z-index: 10;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
+.spectre__dot--active {
+  opacity: 1;
+  border-color: var(--dot-couleur);
+  box-shadow: 0 0 0 3px rgba(0,35,149,0.12), 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 5;
+}
+
+.spectre__dot:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .spectre__dot { width: 22px; height: 22px; font-size: 0; }
+  .spectre__dots { height: 32px; margin-top: -19px; }
+  .spectre__labels { font-size: 0.52rem; }
+}
+
+@media (max-width: 480px) {
+  .spectre__wrapper { padding: 16px 8px 4px; }
+  .spectre__labels { display: none; }
+  .spectre__dot { width: 18px; height: 18px; }
+  .spectre__dots { height: 26px; margin-top: -16px; }
+}
+
 .filtres-candidats__actions {
   display: flex;
   gap: 0.4rem;

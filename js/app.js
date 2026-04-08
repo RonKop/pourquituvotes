@@ -946,6 +946,9 @@
 
     selectionCandidatsSection.hidden = false;
 
+    // Spectre politique
+    afficherSpectrePolitique(candidats);
+
     // Init boutons Tous / Aucun (une seule fois)
     if (!filtresInitialise) {
       filtreBtnTous.addEventListener("click", function () {
@@ -2781,6 +2784,101 @@
     "dvg": "UG", "divers gauche": "UG",
     "se": "DIV", "sans \u00E9tiquette": "DIV"
   };
+
+  // === Spectre politique ===
+  var SPECTRE_POSITIONS = {
+    "LEXG": 5, "LFI": 15, "LCOM": 18, "LSOC": 25,
+    "LUG": 28, "LDVG": 32, "LECO": 35, "LVEC": 35,
+    "LREG": 50, "LDIV": 50, "LDSV": 50, "LUC": 50,
+    "LDVC": 50, "LMDM": 48, "LREN": 52, "LHOR": 55,
+    "LUDI": 58, "LDVD": 62, "LLR": 65, "LUD": 68,
+    "LUDR": 68, "LRN": 80, "LREC": 82, "LEXD": 88, "LUXD": 90
+  };
+
+  var SPECTRE_LABELS = [
+    { pos: 8, label: "Extr. gauche" },
+    { pos: 28, label: "Gauche" },
+    { pos: 50, label: "Centre" },
+    { pos: 68, label: "Droite" },
+    { pos: 88, label: "Extr. droite" }
+  ];
+
+  function afficherSpectrePolitique(candidats) {
+    var container = document.getElementById("spectre-politique");
+    if (!container) return;
+
+    var avecNuance = candidats.filter(function(c) {
+      return c.nuanceOfficielle && SPECTRE_POSITIONS[c.nuanceOfficielle] !== undefined;
+    });
+    if (avecNuance.length === 0) { container.hidden = true; return; }
+
+    container.hidden = false;
+    container.innerHTML = "";
+
+    var wrapper = document.createElement("div");
+    wrapper.className = "spectre__wrapper";
+
+    // Labels
+    var labelsEl = document.createElement("div");
+    labelsEl.className = "spectre__labels";
+    SPECTRE_LABELS.forEach(function(l) {
+      var span = document.createElement("span");
+      span.className = "spectre__label";
+      span.style.left = l.pos + "%";
+      span.textContent = l.label;
+      labelsEl.appendChild(span);
+    });
+
+    // Bar
+    var bar = document.createElement("div");
+    bar.className = "spectre__bar";
+
+    // Group by nuance for overlap handling
+    var groups = {};
+    avecNuance.forEach(function(c, idx) {
+      var n = c.nuanceOfficielle;
+      if (!groups[n]) groups[n] = [];
+      groups[n].push({ candidat: c, idx: idx });
+    });
+
+    // Dots
+    var dotsEl = document.createElement("div");
+    dotsEl.className = "spectre__dots";
+
+    Object.keys(groups).forEach(function(nuance) {
+      var group = groups[nuance];
+      var basePos = SPECTRE_POSITIONS[nuance];
+      group.forEach(function(item, i) {
+        var c = item.candidat;
+        var couleur = getCouleurParti(c, item.idx);
+        var actif = candidatsSelectionnes.indexOf(c.id) !== -1;
+        var vOffset = group.length > 1 ? (i - (group.length - 1) / 2) * 26 : 0;
+
+        var dot = document.createElement("button");
+        dot.className = "spectre__dot" + (actif ? " spectre__dot--active" : "");
+        dot.style.left = basePos + "%";
+        dot.style.transform = "translateX(-50%) translateY(" + vOffset + "px)";
+        dot.style.setProperty("--dot-couleur", couleur);
+        dot.dataset.candidatId = c.id;
+        dot.title = c.nom + " (" + (c.nuanceLibelle || nuance) + ")";
+        dot.setAttribute("aria-label", c.nom + " \u2014 " + (c.nuanceLibelle || nuance));
+
+        var initials = c.nom.split(" ").map(function(p) { return p.charAt(0); }).join("").substring(0, 2).toUpperCase();
+        dot.textContent = initials;
+
+        dot.addEventListener("click", function() {
+          toggleCandidatSelection(c.id);
+        });
+
+        dotsEl.appendChild(dot);
+      });
+    });
+
+    wrapper.appendChild(labelsEl);
+    wrapper.appendChild(bar);
+    wrapper.appendChild(dotsEl);
+    container.appendChild(wrapper);
+  }
 
   function getInitialeParti(candidat) {
     var liste = (candidat.liste || "").toLowerCase();

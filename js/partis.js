@@ -1,7 +1,7 @@
 (function() {
   "use strict";
 
-  var DATA_VERSION = "2026040804";
+  var DATA_VERSION = "2026040901";
   var partis = [];
   var radarChart = null;
 

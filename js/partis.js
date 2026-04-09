@@ -111,14 +111,11 @@
       card.setAttribute("data-parti", p.id);
       card.style.setProperty("--parti-couleur", p.couleur);
       card.setAttribute("tabindex", "0");
-      card.setAttribute("role", "button");
-      card.setAttribute("aria-expanded", "false");
-      card.setAttribute("aria-label", p.nom + " — cliquer pour plus de détails");
+      card.setAttribute("role", "link");
+      card.setAttribute("aria-label", p.nom + " — voir la fiche complète");
+      card.style.cursor = "pointer";
 
       var html = "";
-
-      // Expand icon
-      html += '<i class="ph ph-caret-down parti-card__expand-icon" aria-hidden="true"></i>';
 
       // Header
       html += '<div class="parti-card__header">';
@@ -166,70 +163,18 @@
       }
       html += '</div>';
 
-      // Expandable details
-      html += '<div class="parti-card__details">';
-      html += '<div class="parti-card__details-inner">';
-
-      // History
-      if (p.histoire) {
-        html += '<div class="parti-card__detail-section">';
-        html += '<div class="parti-card__detail-title"><i class="ph ph-clock-counter-clockwise" aria-hidden="true"></i> Histoire</div>';
-        html += '<div class="parti-card__histoire">' + esc(p.histoire) + '</div>';
-        html += '</div>';
-      }
-
-      // Programme national
-      if (p.programmeNational && p.programmeNational.length) {
-        html += '<div class="parti-card__detail-section">';
-        html += '<div class="parti-card__detail-title"><i class="ph ph-list-checks" aria-hidden="true"></i> Propositions phares</div>';
-        html += '<ul class="parti-card__programme-list">';
-        p.programmeNational.forEach(function(m) {
-          html += '<li>' + esc(m) + '</li>';
-        });
-        html += '</ul></div>';
-      }
-
-      // Figures clés
-      if (p.figuresCles && p.figuresCles.length) {
-        html += '<div class="parti-card__detail-section">';
-        html += '<div class="parti-card__detail-title"><i class="ph ph-identification-card" aria-hidden="true"></i> Figures clés</div>';
-        html += '<div class="parti-card__figures">';
-        p.figuresCles.forEach(function(f) {
-          html += '<span class="parti-card__figure">' + esc(f) + '</span>';
-        });
-        html += '</div></div>';
-      }
-
-      // Fondation
-      if (p.fondation) {
-        html += '<div class="parti-card__detail-section">';
-        html += '<div class="parti-card__detail-title"><i class="ph ph-calendar" aria-hidden="true"></i> Fondation</div>';
-        html += '<p class="parti-card__histoire">' + esc(p.fondation) + '</p>';
-        html += '</div>';
-      }
-
-      // Site
-      if (p.site) {
-        html += '<div class="parti-card__detail-section">';
-        html += '<a href="' + esc(p.site) + '" target="_blank" rel="noopener noreferrer" class="parti-card__site-link"><i class="ph ph-arrow-square-out" aria-hidden="true"></i> Site officiel</a>';
-        html += '</div>';
-      }
-
-      html += '</div></div>'; // details-inner, details
-
       card.innerHTML = html;
 
-      // Click to expand
+      // Click to navigate to party page
       card.addEventListener("click", function(e) {
-        // Don't toggle if clicking a link
         if (e.target.closest("a")) return;
-        toggleCard(card);
+        window.location.href = "/partis/" + p.id + "/";
       });
       card.addEventListener("keydown", function(e) {
         if (e.key === "Enter" || e.key === " ") {
           if (e.target.closest("a")) return;
           e.preventDefault();
-          toggleCard(card);
+          window.location.href = "/partis/" + p.id + "/";
         }
       });
 
@@ -237,11 +182,6 @@
     });
   }
 
-  function toggleCard(card) {
-    var isExpanded = card.classList.contains("parti-card--expanded");
-    card.classList.toggle("parti-card--expanded");
-    card.setAttribute("aria-expanded", isExpanded ? "false" : "true");
-  }
 
   // ============================================================
   // FILTERS

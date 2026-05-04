@@ -43,7 +43,7 @@ async function fetchJSON(origin, path) {
 async function getCommunesIndex(origin) {
   if (communesIndex) return communesIndex;
   const data = await fetchJSON(origin, `/data/index-communes.json?v=${DATA_VERSION}`);
-  if (!data) return null;
+  if (!Array.isArray(data)) return null;
   // Construire un map slug → commune
   const map = {};
   for (const c of data) {
@@ -57,10 +57,12 @@ async function getResultats(origin, dept, tour) {
   const key = `${dept}-t${tour}`;
   if (resultatsCache[key]) return resultatsCache[key];
   const data = await fetchJSON(origin, `/data/resultats-communes/resultats-${dept}-t${tour}.json?v=${DATA_VERSION}`);
-  if (!data) return null;
-  // Construire un map slug → résultats
+  if (!data || typeof data !== 'object') return null;
+  // Construire un map slug → résultats. data.communes peut être absent
+  // si le fichier n'est pas déployé (build script supprime data/resultats-communes/).
+  const communes = Array.isArray(data.communes) ? data.communes : [];
   const map = {};
-  for (const c of data.communes || []) {
+  for (const c of communes) {
     map[c.slug] = c;
   }
   resultatsCache[key] = map;

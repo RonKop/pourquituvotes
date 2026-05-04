@@ -29,7 +29,15 @@ let resultatsCache = {};
 async function fetchJSON(origin, path) {
   const res = await fetch(origin + path);
   if (!res.ok) return null;
-  return res.json();
+  // CF Pages renvoie parfois la SPA HTML 200 OK pour des fichiers absents
+  // (au lieu d'un 404). Sécuriser le parsing JSON pour éviter un uncaught.
+  const ct = res.headers.get('content-type') || '';
+  if (!ct.includes('json')) return null;
+  try {
+    return await res.json();
+  } catch (e) {
+    return null;
+  }
 }
 
 async function getCommunesIndex(origin) {

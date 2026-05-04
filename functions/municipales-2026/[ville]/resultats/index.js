@@ -442,49 +442,57 @@ function buildPage(commune, t1Data, t2Data) {
 }
 
 export async function onRequest(context) {
-  const { params, request } = context;
-  const ville = params.ville;
+  try {
+    const { params, request } = context;
+    const ville = params.ville;
 
-  if (!ville) {
-    return new Response('Not found', { status: 404 });
+    if (!ville) {
+      return new Response('Not found', { status: 404 });
+    }
+
+    // Trailing slash enforcement
+    const url = new URL(request.url);
+    if (!url.pathname.endsWith('/')) {
+      return Response.redirect(url.origin + url.pathname + '/' + url.search, 301);
+    }
+
+    const slug = decodeURIComponent(ville).toLowerCase();
+    const origin = url.origin;
+
+    // Lookup commune
+    const index = await getCommunesIndex(origin);
+    if (!index || !index[slug]) {
+      // Commune not found — pass through to static assets (maybe it's a main city)
+      return context.next();
+    }
+
+    const commune = index[slug];
+    const dept = commune.d;
+
+    // Fetch T1 and T2 results in parallel
+    const [t1Map, t2Map] = await Promise.all([
+      getResultats(origin, dept, 1),
+      getResultats(origin, dept, 2),
+    ]);
+
+    const t1Data = t1Map ? t1Map[slug] : null;
+    const t2Data = t2Map ? t2Map[slug] : null;
+
+    const html = buildPage(commune, t1Data, t2Data);
+
+    return new Response(html, {
+      status: 200,
+      headers: {
+        'Content-Type': 'text/html;charset=UTF-8',
+        'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+        'X-Robots-Tag': 'index, follow',
+      },
+    });
+  } catch (err) {
+    // Surface l'erreur dans la response pour debug (on enlèvera après diag)
+    return new Response(
+      'Worker error: ' + (err && err.stack ? err.stack : String(err)),
+      { status: 500, headers: { 'Content-Type': 'text/plain;charset=UTF-8' } }
+    );
   }
-
-  // Trailing slash enforcement
-  const url = new URL(request.url);
-  if (!url.pathname.endsWith('/')) {
-    return Response.redirect(url.origin + url.pathname + '/' + url.search, 301);
-  }
-
-  const slug = decodeURIComponent(ville).toLowerCase();
-  const origin = url.origin;
-
-  // Lookup commune
-  const index = await getCommunesIndex(origin);
-  if (!index || !index[slug]) {
-    // Commune not found — pass through to static assets (maybe it's a main city)
-    return context.next();
-  }
-
-  const commune = index[slug];
-  const dept = commune.d;
-
-  // Fetch T1 and T2 results in parallel
-  const [t1Map, t2Map] = await Promise.all([
-    getResultats(origin, dept, 1),
-    getResultats(origin, dept, 2),
-  ]);
-
-  const t1Data = t1Map ? t1Map[slug] : null;
-  const t2Data = t2Map ? t2Map[slug] : null;
-
-  const html = buildPage(commune, t1Data, t2Data);
-
-  return new Response(html, {
-    status: 200,
-    headers: {
-      'Content-Type': 'text/html;charset=UTF-8',
-      'Cache-Control': 'public, max-age=3600, s-maxage=86400',
-      'X-Robots-Tag': 'index, follow',
-    },
-  });
 }

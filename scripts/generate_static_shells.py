@@ -58,16 +58,13 @@ def count_propositions(el_data, candidate_id):
 
 def make_candidate_title(nom, ville, max_len=60):
     """Génère un titre SEO candidat qui tient dans max_len caractères.
-    Le mot-clé 'Programme Municipales 2026' est placé en début ou milieu,
-    jamais tronqué en fin de title."""
-    # Format idéal : "Programme Nom — Municipales 2026 Ville"
-    full = f"Programme {nom} — Municipales 2026 {ville}"
+    Nom en premier (les requêtes 'nom seul' dominent les impressions GSC,
+    avec un CTR très inférieur au benchmark de la position quand le title
+    commence par 'Programme'). Le mot-clé 'Municipales 2026 Ville' suit."""
+    # Idéal : "Nom — Programme Municipales 2026 Ville"
+    full = f"{nom} — Programme Municipales 2026 {ville}"
     if len(full) <= max_len:
         return full
-    # Raccourci : "Nom — Programme Municipales 2026 Ville"
-    short = f"{nom} — Programme Municipales 2026 {ville}"
-    if len(short) <= max_len:
-        return short
     # Compact : "Nom — Municipales 2026 Ville"
     compact = f"{nom} — Municipales 2026 {ville}"
     if len(compact) <= max_len:
@@ -83,18 +80,21 @@ def make_candidate_title(nom, ville, max_len=60):
 
 def make_candidate_desc(nom, ville, n_props, liste="", max_len=155):
     """Génère une meta description conditionnelle selon le nombre de propositions.
-    Inclut la liste politique pour les requêtes partisanes."""
+    Inclut le parti politique et des termes 'biographie/parti' pour matcher
+    les requêtes informationnelles dominantes ('nom + biographie/wikipédia/parti')."""
     liste_short = f" ({liste})" if liste else ""
     if n_props > 0:
-        desc = f"Programme de {nom}{liste_short} aux municipales 2026 à {ville} : {n_props} propositions analysées. Comparez les candidats."
+        desc = f"{nom}{liste_short} aux municipales 2026 à {ville} : biographie, parti politique, programme avec {n_props} propositions analysées."
         if len(desc) > max_len:
-            desc = f"Programme de {nom} aux municipales 2026 à {ville} : {n_props} propositions. Comparez les candidats."
+            desc = f"{nom}{liste_short} aux municipales 2026 à {ville} : biographie, programme, {n_props} propositions analysées."
         if len(desc) > max_len:
-            desc = f"Programme {nom} — Municipales 2026 {ville} : {n_props} propositions analysées."
+            desc = f"{nom} — Municipales 2026 {ville} : biographie, programme, {n_props} propositions analysées."
+        if len(desc) > max_len:
+            desc = f"{nom} — Municipales 2026 {ville} : {n_props} propositions analysées."
     else:
-        desc = f"{nom}{liste_short}, candidat aux municipales 2026 à {ville}. Comparez les programmes et suivez la campagne."
+        desc = f"{nom}{liste_short}, candidat aux municipales 2026 à {ville}. Biographie, parti politique, programme analysé dès publication."
         if len(desc) > max_len:
-            desc = f"{nom}, candidat aux municipales 2026 à {ville}. Comparez les programmes dès publication."
+            desc = f"{nom}, candidat aux municipales 2026 à {ville}. Biographie, programme analysé dès publication."
     return desc[:max_len]
 
 
@@ -461,18 +461,23 @@ def make_results_title(ville, elu_nom=None, has_tour2=False, max_len=60):
     return minimal[:max_len]
 
 
-def make_results_desc(ville, elu_nom=None, pct=None, taux_participation=None, max_len=155):
-    """Génère une meta description pour la page résultats."""
+def make_results_desc(ville, elu_nom=None, pct=None, taux_participation=None, has_tour2=False, max_len=155):
+    """Génère une meta description pour la page résultats.
+    Inclut 'ballotage' quand un 2nd tour a eu lieu, pour matcher la requête
+    'ballotage {ville} 2026' (cannibalisation détectée GSC)."""
     if elu_nom and pct:
-        desc = f"Résultats des municipales 2026 à {ville} : {elu_nom} élu(e) avec {pct}% des voix."
+        if has_tour2:
+            desc = f"Résultats municipales 2026 à {ville} : ballotage et 2nd tour, {elu_nom} élu(e) avec {pct}% des voix."
+        else:
+            desc = f"Résultats municipales 2026 à {ville} : {elu_nom} élu(e) au 1er tour avec {pct}% des voix."
         if taux_participation:
             desc += f" Participation : {taux_participation}%."
         desc += " Tous les scores."
     else:
-        desc = f"Résultats du 1er tour des municipales 2026 à {ville}."
+        desc = f"Résultats du 1er tour des municipales 2026 à {ville} (avant ballotage)."
         if taux_participation:
             desc += f" Participation : {taux_participation}%."
-        desc += " Classement et scores de tous les candidats."
+        desc += " Classement et scores."
     return desc[:max_len]
 
 
@@ -719,16 +724,18 @@ def main():
             # Mode second tour : mettre en avant les qualifiés
             qualifies = [rc for rc in res_check["tour1"].get("candidats", []) if rc.get("qualifieT2")]
             n_q = len(qualifies)
-            title = f"Municipales 2026 {vnom} — Comparez les {n_q} candidats du second tour | #POURQUITUVOTES"
+            title = f"Candidats Municipales 2026 {vnom} — {n_q} qualifiés au second tour"
             if len(title) > 60:
-                title = f"Second tour municipales 2026 {vnom} — {n_q} candidats"
+                title = f"Candidats Municipales 2026 {vnom} — {n_q} au second tour"
+            if len(title) > 60:
+                title = f"Municipales 2026 {vnom} — {n_q} candidats au 2nd tour"
             noms_q = []
             for rc in qualifies[:3]:
                 for c in (el_data_check or {}).get("candidats", []):
                     if c["id"] == rc["id"]:
                         noms_q.append(c["nom"].split()[-1])
                         break
-            desc = f"Second tour le 22 mars. Comparez les programmes de {', '.join(noms_q)}{'...' if n_q > 3 else ''} à {vnom}."
+            desc = f"Ballotage à {vnom} — {n_q} candidats au second tour : {', '.join(noms_q)}{'...' if n_q > 3 else ''}. Comparez les programmes."
         elif has_t2 and res_check.get("eluMaire"):
             elu_id = res_check["eluMaire"]
             elu_nom = elu_id
@@ -736,13 +743,15 @@ def main():
                 if c["id"] == elu_id:
                     elu_nom = c["nom"]
                     break
-            title = f"Municipales 2026 {vnom} — {elu_nom} élu(e) | #POURQUITUVOTES"
+            title = f"Candidats Municipales 2026 {vnom} — {elu_nom} élu(e)"
             if len(title) > 60:
                 title = f"Municipales 2026 {vnom} — {elu_nom} élu(e)"
-            desc = f"{elu_nom} élu(e) à {vnom}. Comparez les programmes des {n_cand} candidats aux municipales 2026."
+            desc = f"{n_cand} candidats aux municipales 2026 à {vnom}. {elu_nom} élu(e). Comparez les programmes et propositions."
         else:
-            title = f"Municipales 2026 {vnom} — Comparez les {n_cand} candidats | #POURQUITUVOTES"
-            desc = f"Comparez les programmes des {n_cand} candidats aux municipales 2026 à {vnom}. Outil citoyen, neutre et factuel."
+            title = f"Candidats Municipales 2026 {vnom} — Comparez les {n_cand} programmes"
+            if len(title) > 60:
+                title = f"Municipales 2026 {vnom} — {n_cand} candidats"
+            desc = f"Candidats municipales 2026 à {vnom} : comparez les programmes des {n_cand} candidats. Outil citoyen, neutre et factuel."
         url = f"{BASE_URL}/municipales-2026/{vid}/"
         og_img = f"{OG_BASE}{vid}.jpg"
 
@@ -800,13 +809,23 @@ def main():
                         break
             jsonld = make_jsonld_candidate(cnom, vnom, cliste, c_url, n_props, complet, has_res, cand_result)
 
-            # Meta description enrichie avec résultat
+            # Meta description enrichie avec résultat (+ termes 'biographie/parti'
+            # pour matcher les requêtes informationnelles dominantes)
             if cand_result:
                 pct = cand_result.get("pourcentage", 0)
+                liste_short = f" ({cliste})" if cliste else ""
                 if cand_result.get("elu"):
-                    c_desc = f"{cnom}, élu(e) maire de {vnom} avec {pct}% — municipales 2026. {n_props} propositions analysées."
+                    c_desc = f"{cnom}{liste_short}, maire élu(e) de {vnom} — Municipales 2026 : {pct}% des voix, biographie, programme, {n_props} propositions analysées."
+                    if len(c_desc) > 155:
+                        c_desc = f"{cnom}, maire élu(e) de {vnom} — Municipales 2026 : {pct}% des voix, biographie, {n_props} propositions analysées."
+                    if len(c_desc) > 155:
+                        c_desc = f"{cnom}, élu(e) maire de {vnom} avec {pct}% — Municipales 2026. {n_props} propositions analysées."
                 else:
-                    c_desc = f"{cnom} aux municipales 2026 à {vnom} : {pct}% des voix. {n_props} propositions analysées."
+                    c_desc = f"{cnom}{liste_short}, municipales 2026 à {vnom} : {pct}% des voix, biographie, programme, {n_props} propositions analysées."
+                    if len(c_desc) > 155:
+                        c_desc = f"{cnom}, municipales 2026 à {vnom} : {pct}% des voix, biographie, {n_props} propositions analysées."
+                    if len(c_desc) > 155:
+                        c_desc = f"{cnom} aux municipales 2026 à {vnom} : {pct}% des voix. {n_props} propositions analysées."
                 c_desc = c_desc[:155]
 
             c_head = make_head(c_title, c_desc, c_url, c_og, og_type="profile", jsonld=jsonld)
@@ -883,7 +902,7 @@ def main():
 
             # SEO
             r_title = make_results_title(vnom, elu_nom, has_tour2)
-            r_desc = make_results_desc(vnom, elu_nom, elu_pct, taux)
+            r_desc = make_results_desc(vnom, elu_nom, elu_pct, taux, has_tour2=has_tour2)
             r_url = f"{BASE_URL}/municipales-2026/{vid}/resultats/"
             r_og = f"{OG_BASE}{vid}.jpg"  # Fallback sur l'image ville
             r_jsonld = make_jsonld_results(vnom, resultats, candidats_map)

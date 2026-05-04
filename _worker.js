@@ -16,7 +16,7 @@ const RESULTATS_PATTERN = /^\/municipales-2026\/([^\/]+)\/resultats\/?$/;
  *   - /data/resultats-communes/resultats-{dept}-t2.json → résultats T2
  */
 
-const DATA_VERSION = '2026040804';
+const DATA_VERSION = '2026050401';
 const BASE_URL = 'https://pourquituvotes.fr';
 
 const NUANCE_LABELS = {

@@ -72,12 +72,12 @@ def generate_sitemap():
     static_pages = [
         ("/", "weekly", 1.0),
         ("/municipales/2026/", "daily", 0.9),
-        ("/methodologie.html", "monthly", 0.4),
-        ("/faq.html", "monthly", 0.4),
-        ("/a-propos.html", "monthly", 0.4),
-        ("/mentions-legales.html", "yearly", 0.2),
-        ("/confidentialite.html", "yearly", 0.2),
-        ("/enjeux-index.html", "weekly", 0.6),
+        ("/methodologie", "monthly", 0.4),
+        ("/faq", "monthly", 0.4),
+        ("/a-propos", "monthly", 0.4),
+        ("/mentions-legales", "yearly", 0.2),
+        ("/confidentialite", "yearly", 0.2),
+        ("/enjeux-2026/", "weekly", 0.6),
     ]
 
     for path, changefreq, priority in static_pages:

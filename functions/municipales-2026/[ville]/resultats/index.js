@@ -493,7 +493,7 @@ export async function onRequest(context) {
   } catch (err) {
     // Surface l'erreur dans la response pour debug (on enlèvera après diag)
     return new Response(
-      'Worker error: ' + (err && err.stack ? err.stack : String(err)),
+      'Worker error [build:v2]: ' + (err && err.stack ? err.stack : String(err)),
       { status: 500, headers: { 'Content-Type': 'text/plain;charset=UTF-8' } }
     );
   }
